@@ -7,8 +7,9 @@ See <https://training.github.com/kit/downloads/fr/github-git-cheat-sheet.pdf>
 
 ### Things you always need to do
 + Open Terminal.app. 
+  * If it isn't in your Dock yet, find it under Applications/Utilities.
   * You communicate with this application by UNIX commands. 
-  * For generalities on UNIX commands, see <http://mally.stanford.edu/~sr/computing/basic-unix.html>.
+      + For generalities on UNIX commands, see <http://mally.stanford.edu/~sr/computing/basic-unix.html>.
 + Then make sure you are in your proper working directory.
   * To navigate in Terminal, use command such as 
       + cd (cd .. is a useful one too)
