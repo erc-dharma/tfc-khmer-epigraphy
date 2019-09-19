@@ -24,8 +24,8 @@ See <https://training.github.com/kit/downloads/fr/github-git-cheat-sheet.pdf>
       + so this is a shortcut avoiding the need to type every filename per changed file after `git add`
   * `git commit -m "message describing last changes"`
       + this needs to be done at the end of every working session if you have made any changes needing to be recorded
- * `git push`
-     + this needs to be done if you have done `git commit`, for others to get your changes with a `pull`
-* `git checkout -f`
-    + to get out of problem ‘Your local changes to the following files would be overwritten by merge’
-    + do `git pull` after this
+  * `git push`
+      + this needs to be done if you have done `git commit`, for others to get your changes with a `pull`
+  * `git checkout -f`
+      + this helps to get out of the problem ‘Your local changes to the following files would be overwritten by merge’
+      + do `git pull` after this
