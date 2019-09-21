@@ -14,14 +14,14 @@ See <https://training.github.com/kit/downloads/fr/github-git-cheat-sheet.pdf>
 + Then make sure you are in your proper working directory.
   * If you don't know where you are, use `pwd`.
   * To navigate between folders with the Terminal, use command such as
-      + cd to change your working folder (`cd ..` allows you to return in the parent level folder while `cd folderName1/folderName2 allow to jump directly into folderName2 in one command line).
+      + cd to change your working folder (`cd ..` allows you to return in the parent level folder while `cd folderName1/folderName2` allow to jump directly into folderName2 in one command line).
       + if you are lost in your folders, use `pwd`, it will give you your position.
    * type the key TAB once you’ve filled in 3 or 4 of the first letters of a directory name: Terminal will fill in the rest if there’s no other directory beginning with the same letters.
 + Once you’re there, type the following command followed by ENTER:
   * `git pull`
       + do this every time you start working, to get most recent version
 + Once you start making edits to file, you can use
-  * `git add -A` or `git add nameOfYourFile`
+  * `git add -A`
       + use this every time you end a working session if you have made any changes needing to be recorded
       + makes __all__ files from your copy of the repository ready to be committed
       + so this is a shortcut avoiding the need to type every filename per changed file after `git add`
@@ -33,7 +33,7 @@ See <https://training.github.com/kit/downloads/fr/github-git-cheat-sheet.pdf>
       + this helps to get out of the problem ‘Your local changes to the following files would be overwritten by merge’
       + To exist Vim:
         * Press the esc key to escape the edit mode
-        * Type ":q", don't forget the :. 
+        * Type ":q", don't forget the :.
       + do `git pull` after this    
 
 ### Desktop Users
