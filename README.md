@@ -31,7 +31,7 @@ See <https://training.github.com/kit/downloads/fr/github-git-cheat-sheet.pdf>
       + this needs to be done if you have done `git commit`, for others to get your changes with a `pull`
   * `git checkout -f`
       + this helps to get out of the problem ‘Your local changes to the following files would be overwritten by merge’
-      + To exist Vim:
+      + To exit Vim:
         * Press the esc key to escape the edit mode
         * Type ":q", don't forget the `:`.
       + do `git pull` after this    
