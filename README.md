@@ -21,7 +21,7 @@ See <https://training.github.com/kit/downloads/fr/github-git-cheat-sheet.pdf>
   * `git pull`
       + do this every time you start working, to get most recent version
 + Once you start making edits to file, you can use
-  * `git add -A` or `git add nameOfYourFile'
+  * `git add -A` or `git add nameOfYourFile`
       + use this every time you end a working session if you have made any changes needing to be recorded
       + makes __all__ files from your copy of the repository ready to be committed
       + so this is a shortcut avoiding the need to type every filename per changed file after `git add`
@@ -31,6 +31,9 @@ See <https://training.github.com/kit/downloads/fr/github-git-cheat-sheet.pdf>
       + this needs to be done if you have done `git commit`, for others to get your changes with a `pull`
   * `git checkout -f`
       + this helps to get out of the problem ‘Your local changes to the following files would be overwritten by merge’
+      + To exist Vim:
+        * Press the esc key to escape the edit mode
+        * Type ":q", don't forget the :. 
       + do `git pull` after this    
 
 ### Desktop Users
