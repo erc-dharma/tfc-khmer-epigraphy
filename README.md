@@ -9,7 +9,7 @@ See <https://training.github.com/kit/downloads/fr/github-git-cheat-sheet.pdf>
 ### Commands Lines Users
 + Open Terminal.app.
   * If it isn't in your Dock yet, find it under Applications/Utilities.
-  * You communicate with this application by UNIX commands.
+  * You communicate with this application by UNIX commands, also called "command line".
       + For generalities on UNIX commands, see <http://mally.stanford.edu/~sr/computing/basic-unix.html>.
 + Then make sure you are in your proper working directory.
   * If you don't know where you are, use `pwd`.
@@ -20,6 +20,7 @@ See <https://training.github.com/kit/downloads/fr/github-git-cheat-sheet.pdf>
 + Once you’re there, type the following command followed by ENTER:
   * `git pull`
       + do this every time you start working, to get most recent version
+      + also do it every time you are going to do the following steps
 + Once you start making edits to file, you can use
   * `git add -A`
       + use this every time you end a working session if you have made any changes needing to be recorded
@@ -30,11 +31,13 @@ See <https://training.github.com/kit/downloads/fr/github-git-cheat-sheet.pdf>
   * `git push`
       + this needs to be done if you have done `git commit`, for others to get your changes with a `pull`
   * `git checkout -f`
-      + this helps to get out of the problem ‘Your local changes to the following files would be overwritten by merge’
-      + To exit Vim:
-        * Press the esc key to escape the edit mode
-        * Type ":q", don't forget the `:`.
+      + this helps to get out of the problem ‘Your local changes to the following files would be overwritten by merge'
       + do `git pull` after this    
+
+### If your regular command line screen suddenly changes
++ This may happen if you forget to type `-m "..."` during a `git commit`, or if you forget to do a `git pull` before a `git add git commit`.
++ __Don't do anything else than this__: type `:q` and `ENTER`
++ It will allow you to quit the strange screen and return to the normal command line screen
 
 ### Desktop Users
 + Open the Github Desktop
