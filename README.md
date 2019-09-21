@@ -33,7 +33,7 @@ See <https://training.github.com/kit/downloads/fr/github-git-cheat-sheet.pdf>
       + this helps to get out of the problem ‘Your local changes to the following files would be overwritten by merge’
       + To exist Vim:
         * Press the esc key to escape the edit mode
-        * Type ":q", don't forget the :.
+        * Type ":q", don't forget the `:`.
       + do `git pull` after this    
 
 ### Desktop Users
