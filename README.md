@@ -1,4 +1,4 @@
-# Khmer-Epigraphy
+# The repository tfc-khmer-epigraphy
 This repository assembles data produced by the project Corpus des inscriptions khmères. __Beware that this repository will soon become a subrepository of erc-dharma which will require some new operations by all collaborators.__
 
 ## Basic GIT guidance
