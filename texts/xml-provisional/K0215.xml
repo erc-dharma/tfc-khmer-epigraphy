@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <div type="textpart" xml:lang="sanskrit" n="a">
+                <ab> <lb n="1"/><g type="symbol">@</g> hyaṅnāmnā matulenaiva bharttā putraś ca dharmmavān∙
+                    <lb n="2"/> rūpādrimūrttiśākendre sarvvopāyan dadau śivau
+                </ab>
+                </div>
+                 <div type="textpart" xml:lang="khmer" n="a">
+                     <ab>
+                    <lb n="3"/><g type="punctuation">@</g> <num value="960">960</num> śaka nu loña ’apa <placeName>vrai taṁvvaṅ∙</placeName> jau bhūmi ta lo
+                    <lb n="4" break="no"/>ña pitta vrau thve ’āśrama <pc>|</pc> sre jeṅa praṁpiya khñuṁ pvān<unclear>∙</unclear>
+                    <lb n="5"/> ta jvan ta kaṁmrateṅ∙ jagat∙ <pc>○</pc> <num value="871">871</num> śaka <pc>|</pc> man∙ <persName>loña ’a
+                    <lb n="6" break="no"/>pa <placeName>vrai taṁvvaṅ∙</placeName></persName> slāp∙ śūnya ’āśrama noḥ dau <pc>|</pc> dep∙ teṅ∙ 
+                    <lb n="7"/> hyaṅ∙ parihāra nu ’mā ta jmaḥ <persName>loñ∙ madhyaśiva</persName> nu kvan∙ lo
+                    <lb n="8" break="no"/>a pitta vrau nu loña para ta pati teṅ∙ hyaṅ<unclear>∙</unclear> man∙ tāc∙ 
+                    <lb n="9"/> santāna yeṅ∙ hoṅ∙ dep∙ samne ni syaṅ ta thve ’āśrama 
+                    <lb n="10"/> noḥ viṅ∙ <pc>|</pc> yok∙ sruk∙ sre nu khñuṁ phoṅ∙ ’añje
+                    <lb n="11" break="no"/>ña kamrateṅ∙ jagata dau stāc∙ le dep∙ jvan∙ <gap reason="illegible" quantity="1" unit="character"/><unclear>n</unclear>∙
+                    <lb n="12"/>phoṅa ta kamrateṅ∙ jagat∙ <pc>||</pc> sre phoṅa jeṅ∙ pra<unclear>ṁ</unclear>
+                    <lb n="13" break="no"/>piya khñuṁ pvāna <pc>|</pc> tai kanrau <pc>|</pc> tai kandhan∙ <pc>|</pc> tai kan’u <pc>|</pc> 
+                    <lb n="14"/> tai kandā<unclear>ṅ</unclear>∙ <pc>|</pc> caṁnā<supplied reason="omitted">ṁ</supplied> liḥ vyara prat<supplied reason="omitted">i</supplied>dina <pc>|</pc> liḥ prāṁm∙ sarvv<unclear>o</unclear>
+                    <lb n="15" break="no"/>tsaba saṅkrānta je I raṁlik ta kaṁmrateṅ∙ vraḥ jrai pre 
+                    <lb n="16"/> cār∙ ta praśasta ’āyātta ta pādamūla leṅ∙ nīrvvā
+                    <lb n="17" break="no"/>pa neḥ dharmma yeṅ∙ ta <placeName>sruka taṁvvaṅ∙ chdiṅa ga
+                    <lb n="18"/>japura</placeName> <g type="punctuation">@</g> <placeName><unclear>viṣa</unclear>ya saṅkhaha</placeName> ni caṁnāṁ <g type="punctuation">@</g>
+                     </ab>
+            </div>
+            </div>
+            <div type="apparatus">
+               <app loc="1">
+                   <lem>-nāmnā</lem>
+                   <note>As Hyaṅ is a feminine name, one would except to have <foreign xml:lang="sanskrit">–nāmnyā</foreign> here.</note>
+               </app>
+                <app loc="1">
+                    <lem>matulena-</lem>
+                    <note>Correct <foreign xml:lang="sanskrit">mātulena-</foreign></note> 
+                    <!--Would it be better to encode this directly in the edition : <choice><sic>a</sic><corr>ā</corr></choice> ? -->
+                </app>
+                <app loc="1">
+                    <lem>bharttā</lem>
+                    <note>It should be corrected with the sg. inst. <foreign xml:lang="sanskrit">bhartrā</foreign> <!--(IC III, p. 35, n. 3)--></note>
+                </app>
+                <app loc="2">
+                <lem>sarvvopāyan</lem>
+                 <note>Correct <foreign xml:lang="sanskrit">sarvvopāyān</foreign></note>
+                <!--Would it be better to encode this directly in the edition : <choice><sic>a</sic><corr>ā</corr></choice> ? -->
+           </app>
+                    <app loc="2">
+                         <lem>śivau</lem>
+                        <note>It is clearly written <foreign xml:lang="sanskrit">śivau</foreign>. However, the desired meaning would correspond to the dative (<foreign xml:lang="sanskrit">śivāya</foreign>) or more likely to the destination locative equivalent to dative (<foreign xml:lang="sanskrit">śive</foreign>).</note>
+                    </app>
+                <app loc="3">
+                    <lem>960</lem>
+                    <note>As Cœdès <!--(IC III, p. 35, n. 1)--> remarks, this date must be changed for 860.</note>
+                </app>
+                <app loc="11">
+                    <lem><gap reason="illegible" quantity="1" unit="character"/><unclear>n</unclear>∙</lem>
+                    <rdg source="IC III">’is</rdg>
+                </app>
+                <app loc="14">
+                    <lem>kandā<unclear>ṅ</unclear>∙</lem>
+                    <rdg source="IC III">kandāv</rdg>
+                    <note>The word <foreign xml:lang="khmer">kandāṅ</foreign> also appears as a slavename in the Can Cum K. 11 preangkorian inscription <!--(IC II, l. 3, p .7)-->.</note>
+                </app>
+                <app loc="16-17">
+                    <lem>nīrvvāpa</lem>
+                    <note>Correct <foreign xml:lang="sanskrit">nirvāpa</foreign>.</note>
+                </app>
+                <app loc="17">
+                    <lem>yeṅ∙</lem>
+                    <note>The final consonant of <foreign xml:lang="khmer">yeṅ</foreign>, yet taken in ligature with the following <hi rend="italic">ta</hi>, has a <hi rend="italic">virāma</hi>.</note>
+                </app>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
