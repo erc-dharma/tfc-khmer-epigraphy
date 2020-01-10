@@ -8,16 +8,16 @@
                 <title>Encoding template for inscription</title><!--Change the title of the file, e.g. Raktamālā grant of the time of Budhagupta, year 159-->
                 <respStmt><!-- add an element respStmt for each person involved -->
                     <resp>Creation of the file</resp><!-- work done in the file, e.g. editor ...-->
-                    <persName ref="part:jodo"><!-- update the id -->
-                        <forename>John</forename><!-- fill in your  names — it is possible to use only <name> instead of <foreame> and <surname> -->
-                        <surname>Doe</surname>
+                    <persName ref="part:kuch"><!-- update the id -->
+                        <forename>Kunthea</forename><!-- fill in your  names — it is possible to use only <name> instead of <foreame> and <surname> -->
+                        <surname>Chhom</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
                     <resp>intellectual authorship of edition</resp><!-- this may be the same as the creator of the file -->
-                    <persName ref="part:jodo"><!-- update the id -->
-                        <forename>John</forename><!-- fill in the name of the responsible scholar — it possible to use only <name> instead of <foreame> and <surname> -->
-                        <surname>Doe</surname>
+                    <persName ref="part:doso"><!-- update the id -->
+                        <forename>Dominique</forename><!-- fill in the name of the responsible scholar — it possible to use only <name> instead of <foreame> and <surname> -->
+                        <surname>Soutif</surname>
                     </persName>
                 </respStmt>
             </titleStmt>         
@@ -31,7 +31,7 @@
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">
                         <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                        <p>Copyright (c) 2019-2025 by John Doe.</p><!-- Replace year and name, use format "Forename1 Surname1 & Forename2 Surname2" or "Forename1 Surname1, Forename2 Surname2 & Forename3 Surname3"  if necessary — the copyright is that of the encoder(s) -->
+                        <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p><!-- Replace year and name, use format "Forename1 Surname1 & Forename2 Surname2" or "Forename1 Surname1, Forename2 Surname2 & Forename3 Surname3"  if necessary — the copyright is that of the encoder(s) -->
                     </licence>
                 </availability>
                 <date from="2019" to="2025">2019-2025</date>
@@ -41,7 +41,10 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change who="part:axja" when="2020-01-09" status="draft">Update template</change><!-- add a <change> for each change to the file, the first change should replace this one and record your creation of a file using this template. -->
+        	<change who="part:argr" when="2020-01-10" status="draft">Resolved issue #2, filled in respStmt, assigned copyright to Kunthea Chhom, and added two lines in revisionDesc</change>
+            <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+            <change who="part:kuch" when="2019" status="draft">Initial encoding of the text</change>
+<!-- add a <change> for each change to the file, the first change should replace this one and record your creation of a file using this template. -->
         </revisionDesc>
     </teiHeader>
     <text xml:space="preserve">
@@ -85,7 +88,7 @@
 <lb n="27"/>vraḥ dharmma <num value="1">I</num> gho vidya <gap reason="lost" extent="8" unit="character"/> <supplied reason="lost"><num value="1">I</num> <g type="symbol" subtype="egg"/></supplied> <unclear>vnvak·</unclear> ta gi sruk· tr<unclear>a</unclear>yaṅ· pramān·
 <lb n="28"/>qamoghapura qamraḥ <gap reason="lost" extent="1" unit="character"/>ti<unclear>ni</unclear>vāsa <num value="1">I</num> tai <gap reason="lost" extent="2" unit="character"/>nsā <num value="1">I</num> tai pau kaṁpit· <num value="1">I</num> <g type="symbol" subtype="egg"/> vnvak· ta gi
 <!-- KC: CrVti(ni)vāsa in txt file is here simplified as {1}ti(ni)vāsa-->
-<lb n="29"/>sruk· śārdūla qamraḥ kaṁvai <num value="1">I</num> tai <gap reason="lost" extent="1" unit="character"/>k· <num value="1">I</num> tai <unclear>k</unclear>mau <num value="1">I</num> sī rat· <unclear>tgap· <num value="1">I</num></unclear> <gap reason="lost" extent="1" unit="character"/> ka<gap reason="lost" extent="1" unit="character"/> <supplied reason="lost"><num value="1">I</num> <g type="symbol" subtype="egg"/></supplied> vna<unclear>k·</unclear> <supplied reason="lost">ta</supplied>
+<lb n="29"/>sruk· śārdūla qamraḥ kaṁvai <num value="1">I</num> tai <gap reason="lost" extent="1" unit="character"/>k· <num value="1">I</num> tai <unclear>k</unclear>mau <num value="1">I</num> sī rat· <unclear>tgap·</unclear> <num value="1"><unclear>I</unclear></num> <gap reason="lost" extent="1" unit="character"/> ka<gap reason="lost" extent="1" unit="character"/> <supplied reason="lost"><num value="1">I</num> <g type="symbol" subtype="egg"/></supplied> vna<unclear>k·</unclear> <supplied reason="lost">ta</supplied>
 <!-- KC: Cvak· in txt file is here simplified as {1}k·-->
 <!-- KC: kaCrV in txt file is here simplified as ka{1}-->                    
 <lb n="30"/>gi sruk· van· qamraḥ <unclear>t</unclear>gap· <num value="1">I</num> gho kaṁpit· <num value="1">I</num> tai <gap reason="lost" extent="2" unit="character"/>r· <num value="1">I</num> sī pau saṁqap· <num value="1">I</num> tai rat· <gap reason="lost" extent="2" unit="character"/>
