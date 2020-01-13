@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>K. 324</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ERC-Dharma</authority>
+                <idno type="filename">Text is given after Soutif 2009, p. 473-477 basing on ISCC n° XXXIX, p. 319 ; NIC II-III, p. 62; estampages EFEO 458, n. 585 and n. 1259 for Face South and estampages EFEO 457, n. 586 and n. 1259 for Face North.</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                               <p>
+                                    </p>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The text is inscribed on two doorjambs, South and North, of East door, Northern sanctuary, first row.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>; <dimensions unit="cm"><height>unavailable</height>
+                                <width>unavailable</width>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName>Prasat Lolei</placeName>, Siem Reap province</origPlace>
+                            <origDate>815 <hi rend="italic">śaka</hi> era</origDate>
+                        </origin>
+                        <provenance> 
+                        </provenance>
+                        <provenance>
+                            <p></p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body><!--Daniel created this alternative version of the file on the basis of K0324.xml as of 07.01.2020, to illustrate encoding with textparts instead of milestones. I have not changed anything in the edition itself (e.g. @enjamb, which we've discussed separately with Kunthea),  the structural markup and some explanatory comments. -->
+            <div type="edition" xml:space="preserve" xml:lang="x-oldkhmer-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">South Doorjamb</head>
+    <!--The <div> element could also include @subtype="item", but this is neither required nor does it seem useful to me. (Unlike the solution with milestones, where @unit is required and the recommended value for this case would be "item".) -->
+    <!--The contents of the <head> can be anything you like.    -->
+    <ab>
+<lb n="S1"/><g type="symbol" subtype="initialgomutra"/> || śrī siddhi svasti jaya <g type="symbol" subtype="eye"/>
+                </ab>
+                <lg n="1" met="upajāti" xml:lang="san-Latn"><!--The language of the stanza (and all other Sanskrit stanzas) was correctly encoded by Kunthea. This must not be changed: the <div type="edition"> as a whole is now tagged as Old Khmer, so anything within that div that is _not_ Old Khmer has to have an @xml:lang attribute encoding the fact that it is not Old Khmer.  -->
+<l n="1" enjamb="yes">śaśāṅkacandrāṣṭaśakāptarājya</l><l n="2">s sa śrīyaśovarmmanarendrarājaḥ</l>
+<l n="3"><lb n="S2"/>svasthāpitāyādita kiṅkarādi</l><l n="4">sarvvan tad asmai parameśvarāya //</l>
+                    </lg>
+                <lg n="2" met="upajāti" xml:lang="san-Latn">
+<l n="1" enjamb="yes">sa cāgra<lb n="S3"/>yāyī dadatāṁ samastāṁ</l><l n="2">s tān bhāvinaḥ kambujabhūpatīndrān</l>
+<l n="3" enjamb="yes">punaḥ punar yyāca<lb n="S4"/>ta ity ayaṁ va</l><l n="4">s svadharmmasetuḥ paripālanīyaḥ //</l>          
+                </lg>
+                <lg n="3" met="upajāti" xml:lang="san-Latn">
+<l n="1">avaimi ye sthāsnuyaśaśśarīrā</l><l n="2"><lb n="S5"/>jihāsavo sūn api dharmmahetoḥ</l>
+<l n="3">bhavanta uccaiśśirasāṁ variṣṭhā</l><l n="4">devasvam iccheyu<lb n="S6"/>r apīdr̥śās te //</l>                            
+                </lg>
+                <lg n="4" met="upajāti" xml:lang="san-Latn">
+<l n="1">prāyas sthite goptari sanmukhā ye</l><l n="2">chidre suradravyaharās tu santi</l>
+<l n="3"><lb n="S7"/>idan tato rakṣata sadyuge pi</l><l n="4">rāhur jjahāraiva sudhāṁ surābhaḥ //</l>                 
+                </lg>
+                <lg n="5" met="upajāti" xml:lang="san-Latn">
+<l n="1">yathā ca rāhupramu<lb n="S8"/>khān vijitya</l><l n="2">rarakṣa devān amr̥tañ ca viṣnuḥ</l>
+<l n="3" enjamb="yes">tathā bhavanto pi nihatya caurā</l><l n="4">n suraṁ sura<lb n="S9"/>svaṁ paripālayantu //</l>                 
+                </lg>
+                <lg n="6" met="upajāti" xml:lang="san-Latn">
+<l n="1">jñātañ ca satyaṁ mr̥tir eva yācñā</l><l n="2">rājño viśeṣeṇa tathāpi<lb n="S10"/>sāstu</l>
+<l n="3">dharmmasya hetor mmaraṇaṁ hi śastaṁ</l><l n="4">satām atas tyāgina eva yāce //</l>
+                </lg>
+                <lg n="7" met="upajāti" xml:lang="san-Latn">
+<l n="1" enjamb="yes">kumāramantripramu<lb n="S11"/>khaiś ca punya</l><l n="2">n nivedanādyena tad eva rakṣyam</l>
+<l n="3" enjamb="yes">yuṣmāsu bhāraḥ paripālanādi</l><l n="4">s snigdheṣu<lb n="S12"/>vitvatsu kr̥to hi rājñā //<g type="symbol" subtype="eye"/>//</l>                   
+                </lg>
+                <p>
+<lb n="S12"/><num>815</num> śaka pañcamī roc· qāṣādha vyar<unclear>·</unclear> antvaṅ· dikk<unclear>·</unclear> sracti
+<lb n="S13"/>qarddharātra qāy vnek· qādityavāra quttarabhadranakṣatra nu dhūlī jeṅ· vraḥ kamra
+<lb n="S14" break="no"/>teṅ· qañ· śrī yaśovarmmadeva ta svey· vraḥ rājya ta gi <num>811</num>
+<lb n="S15"/>śaka sthāpanā vraḥ kamrateṅ· qañ· śrīndarvarmmeśvara vraḥ jaṁnvan· qnak· paṁre
+<lb n="S16"/>toy· knetta taṁrvac· tai kaṁpit· <num value="1">I</num> rmmāṁ tai laṁvan· <num value="1">I</num> tai qasura <num value="1">I</num> tai ṅāk· <num value="1">I</num> caṁryyā
+<lb n="S17" break="no"/>ṅ· tai manohara śrī <num value="1">I</num> tai qaṅgaṁ <num value="1">I</num> tai pkāv· <num value="1">I</num> tai chlac· <num value="1">I</num> tai man· <num value="1">I</num> tai
+<lb n="S18"/>mālikā <num value="1">I</num> tai padma <num value="1">I</num> tai sumalla <num value="1">I</num> tai subhāk· <num value="1">I</num> tai laṁvār· <num value="1">I</num> tai kan·qū <num value="1">I</num> tai
+<lb n="S19"/>kliṅ· <num value="1">I</num> tai candan· <num value="1">I</num> tai kansun· <num value="1">I</num> tai nan· <num value="1">I</num> tai draṅāl· <num value="1">I</num> tai kañcan· <num value="1">I</num> tai pnvar· <num value="1">I</num> tai
+<lb n="S20"/>vin· <num value="1">I</num> tai van· <num value="1">I</num> tai kantāñ· <num value="1">I</num> tai manoharikā <num value="1">I</num> tmoṅ· tai krau <num value="1">I</num> tai kānti <num value="1">I</num> tai
+<lb n="S21"/>sundarī <num value="1">I</num> sī śaśī <num value="1">I</num> chmap· cheṅ· tai kamala <num value="1">I</num> tmiṅ· kinnara tai padma <num value="1">I</num> tai lakṣmīrāja <num value="1">I</num> tai sān· <num value="1">I</num> tmiṅ·
+<lb n="S22"/>vīṇa tai svasti <num value="1">I</num> tai qamara <num value="1">I</num> tai chat· <num value="1">I</num> tmiṅ· lāv· tai qīśāna <num value="1">I</num> tmiṅ· cko tai qutpala <num value="1">I</num>
+<lb n="S23"/>caṁryyāṅ· stutī tai padmā <num value="1">I</num> tai dharaṇī <num value="1">I</num> <g type="symbol" subtype="egg"/> kloñ· sruk· sī qgat· <num value="1">I</num> varī sī can·cān· <num value="1">I</num> pamek·
+<lb n="S24"/>sī siddhivara <num value="1">I</num> cmāṁ pjuḥ sī siddhivara <num value="1">I</num> pīle sī tmyaṅ· <num value="1">I</num> cmāṁ mās· prak· sī kandhū <num value="1">I</num> qābhaṣa gvāl·
+<lb n="S25"/>kanhiṁ <num value="1">I</num> tai qādhya <num value="1">I</num> tai kanteṅ· <num value="1">I</num> smañ· gvāl· saṁqap <num value="1">I</num> mālākāra gvāl· kan·qas· <num value="1">I</num>
+<lb n="S26"/>gvāl· kañcū <num value="1">I</num> tai kan·hyaṅ· <num value="1">I</num> tai tkep· <num value="1">I</num> qmuḥ dik· sroṅ· gvāl· kandhap· <num value="1">I</num> gvāl· vīra <num value="1">I</num> chattra
+<lb n="S27" break="no"/>dhāra sī kañjā <num value="1">I</num> sī kanteṅ· <num value="1">I</num> gvāl· kanteṅ· <num value="1">I</num> lmāṁ vraḥ pitai sī krau <num value="1">I</num> caṁryyāṅ· śikha
+<lb n="S28" break="no"/>rā gvāl· tgap· <num value="1">I</num> gvāl· kaṁsar· <num value="1">I</num> gandharvva sī ptal· <num value="1">I</num> gvāl· kaṁpit· <num value="1">I</num> cmāṁ vraḥ vleṅ· sī kaṁpit· <num value="1">I</num>
+<lb n="S29"/>cmāṁ kanloṅ· sī kamalabhāva <num value="1">I</num> pratihāra sī taṅker· <num value="1">I</num> pamos· gvāl· kaṁpit· <num value="1">I</num> mahā
+<lb n="S30" break="no"/>nasa sī laṁṅāc· <num value="1">I</num> sī kaṁbhān· <num value="1">I</num> sī caṁhek· <num value="1">I</num> sī kanloñ· <num value="1">I</num> pattrakāra sī pandan· <num value="1">I</num> sī taṅkū <num value="1">I</num>
+<lb n="S31"/>sī kandhap· <num value="1">I</num> lap· cnāṅ· <num value="1">I</num> tai srac· ta vraḥ <num value="1">I</num> cmāṁ dvār· sī kāntivala <num value="1">I</num> turyya sī cpoṅ· <num value="1">I</num>
+<lb n="S32"/>sī kaṁvraḥ <num value="1">I</num> sī kñuṁ <num value="1">I</num> gvāl· kan·qas· <num value="1">I</num> gvāl· panlas· <num value="1">I</num> vannara sī kañcū <num value="1">I</num> cmāṁ śālā gvāl· kaṁpa
+<lb n="S33" break="no"/>s· <num value="1">I</num> rmmes· raṅko lap· kañcū <num value="1">I</num> lap· qaṁdeṅ· <num value="1">I</num> lap· qaṁdeṅ· sot· <num value="1">I</num> lap· kan·qas· <num value="1">I</num> ma
+<lb n="S34" break="no"/>hāvrīhi tai kaṁpit· <num value="1">I</num> sī rat· saṁap· <num value="1">I</num> lap· kan·qū I tai kañcū <num value="1">I</num> tai kaṁvī <num value="1">I</num> sī pau ka
+<lb n="S35" break="no"/>ñcī <num value="1">I</num> sī rat· caṁqāl· <num value="1">I</num> lap· kanteṅ· <num value="1">I</num> tai saṁqap <num value="1">I</num> tai saṁqap· sot· <num value="1">I</num> tai ka
+<lb n="S36" break="no"/>ñcū <num value="1">I</num> tai saṁqap· sot· <num value="1">I</num> cmāṁ hajaya tai kanlak· <num value="1">I</num> tai rat· qgat· <num value="1">I</num> tai kañjoṅ· <num value="1">I</num>
+<lb n="S37"/>tai tkep· <num value="1">I</num> dmuk· varṣā tai vraḥ dharmma <num value="1">I</num> tai pau vraḥ diśūnya <num value="1">I</num> sī rat· qindubhāva <num value="1">I</num> tai rat·
+<lb n="S38"/>kdeṅ· <num value="1">I</num> lap· śrī ratna <num value="1">I</num> tai subhadra <num value="1">I</num> tai rat· saṁqap· <num value="1">I</num> tai kanti I tai kañjuṅ· <num value="1">I</num> tai ka
+<lb n="S39" break="no"/>nleṅ· <num value="1">I</num> tai krau <num value="1">I</num> tai saṅkāv· <num value="1">I</num> tai kan·qū <num value="1">I</num> sī rat· qanrok· <num value="1">I</num> lap· kanrau <num value="1">I</num> tai kan·har· <num value="1">I</num> 
+<lb n="S40"/>tai tleṁ <num value="1">I</num> tai kandhī <num value="1">I</num> tai kaṁvrau <num value="1">I</num> tai pau <num value="1">I</num> sī rat· kañ·yeṅ· <num value="1">I</num> tai kaṁpit· <num value="1">I</num> tai pau 
+<lb n="S41"/>panheṁ <num value="1">I</num> tai rat· jvik· <num value="1">I</num> tai ksai <num value="1">I</num> sī rat· kansat· <num value="1">I</num> tai kaṁpus· <num value="1">I</num> tai rat· qumā <num value="1">I</num>
+<lb n="S42"/>tai kaṁpaṅ· <num value="1">I</num> tai kandhuṁ <num value="1">I</num> sī pau kanloñ· <num value="1">I</num> lap· śrīratna <num value="1">I</num> tai kanlap· <num value="1">I</num> tai pau
+<lb n="S43"/>panlas· <num value="1">I</num> sī rat· kaṁpit· <num value="1">I</num> gvāl· mathanāditya <num value="1">I</num> tai vraḥ kalpa <num value="1">I</num> tai qgat· <num value="1">I</num>
+<lb n="S44"/>tai pau <num value="1">I</num> sī rat· kanteṅ· <num value="1">I</num> tai kañjuṅ· <num value="1">I</num> cmāṁ cpar· dvaṅ· kañcan· <num value="1">I</num> sī rucibhāva <num value="1">I</num>
+<lb n="S45"/>sī tmyaṅ· <num value="1">I</num> tai kaṁvaḥ <num value="1">I</num> tai pau paras· <num value="1">I</num> gvāl· prāṇa I tai kaṁpaṅ· <num value="1">I</num> tai kanrau <num value="1">I</num> sī kante
+<lb n="S46" break="no"/>ṅ· <num value="1">I</num> tai kan·qaṁ <num value="1">I</num> tai kap·kep· <num value="1">I</num> tai pau paṅ·hāṅ· <num value="1">I</num> tai rat· srac· ta vraḥ <num value="1">I</num> tai kansoṁ <num value="1">I</num>
+<lb n="S47"/>tai qanāda I tai pau I <g type="symbol" subtype="egg"/> cmāṁ tpal· gho kandai <num value="1">I</num> sī candradāsa <num value="1">I</num> lap· kanteṅ· <num value="1">I</num> lap· cneṁ <num value="1">I</num> qnak· paṁ
+<lb n="S48" break="no"/>re kloñ· vnaṁ sī caṁdak· vraḥ <num value="1">I</num> sī kansoṁ <num value="1">I</num> tai kandhap· <num value="1">I</num> tai kan·qak· <num value="1">I</num> lap· cak·cok· <num value="1">I</num> 
+<lb n="S49"/>tai knak· <num value="1">I</num> tai rat· pnos· <num value="1">I</num> gvāl· krau <num value="1">I</num> qnak· paṁre paṁnvas· smiṅ· tai <gap reason="lost" extent="3" unit="character"/> śaśī <num value="1">I</num> gvā
+<lb n="S50" break="no"/>l· vrahey· <num value="1">I</num> tai sūlāṁ <num value="1">I</num> gvāl· jvay· <num value="1">I</num> <gap reason="lost" extent="13" unit="character"/> <num value="1">I</num> gvāl· 
+<lb n="S51"/>jāṁ <num value="1">I</num> tai crāy· <num value="1">I</num> gho thvāy <num value="1">I</num> cralo [qnak· paṁre] <gap reason="lost" extent="11" unit="character"/> rat· 
+<lb n="S52"/><gap reason="lost" extent="1" unit="character"/>y· <num value="1">I</num> sī kaṁvis· <num value="1">I</num> gvāl· kaṁpit· <gap reason="lost" extent="14" unit="character"/> <num value="1">I</num> gvāl·
+<lb n="S53"/><gap reason="lost" extent="3" unit="character"/> sot· <num value="1">I</num> tai vra <gap reason="lost" extent="16" unit="character"/> gvāl·
+                </p>
+</div><!--The first textpart ends here. -->
+<div type="textpart" n="B"><head xml:lang="eng">North Doorjamb</head>
+    <!--The <div> element could also include @subtype="item", but this is neither required nor does it seem useful to me. (Unlike the solution with milestones, where @unit is required and the recommended value for this case would be "item".) -->
+    <!--The contents of the <head> can be anything you like.    -->
+                
+<ab>
+<lb n="N1"/><g type="symbol" subtype="initialgomutra"/> || śrī siddhi svasti jaya <g type="symbol" subtype="egg"/>
+                </ab>
+<lg n="1" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="1">vāṇaikāṣṭaśake śuceś śitidine ṣaṣṭhe jhaṣārddhaṁ<lb n="N2"/>vidhau</l>
+<l n="2">siṅhañ candrasute vr̥ṣaṁ sabhr̥guje lagne kulīraṁ ravau</l>
+<l n="3">cāpan deva<lb n="N3"/>gurau tulāṁ saravije bhaume gate sthāpitā</l>
+<l n="4">gaurīśapratimās samaṁ svara<lb n="N4"/>citās tāś śrīyaśovarmmaṇā // <g type="symbol" subtype="eye"/> //</l>
+</lg>
+<p>
+<lb n="N4"/>qnak· paṁre toy· rṇnocca rmmāṁ tai cpoṅ· <num value="1">I</num>
+<lb n="N5"/>tai kan·hyaṅ· <num value="1">I</num> tai smaṅ· pai <num value="1">I</num> caṁryyāṅ· tai devalakṣmī <num value="1">I</num> tai māy· qnaḥ <num value="1">I</num> tai tna
+<lb n="N6" break="no"/>k· <num value="1">I</num> tai dharaṇī <num value="1">I</num> tai smaṅ· <num value="1">I</num> tai śrī <num value="1">I</num> tai śramā <num value="1">I</num> tai san· <num value="1">I</num> tai sumanta <num value="1">I</num> tai tha
+<lb n="N7" break="no"/>r· <num value="1">I</num> tai patiḥ <num value="1">I</num> tai van· <num value="1">I</num> tai sukoq· <num value="1">I</num> tai rāja <num value="1">I</num> tai hāliyā <num value="1">I</num> tai kañ·yas· <num value="1">I</num>
+<lb n="N8"/>tai hiraṇ· <num value="1">I</num> tai sukoq· sot· <num value="1">I</num> tai kalkī <num value="1">I</num> tai kaṁpat· <num value="1">I</num> tmoṅ· tai qaṁdeṅ· <num value="1">I</num>
+<lb n="N9"/>tai pansaṁ <num value="1">I</num> tai krauñ· <num value="1">I</num> chmap· cheṅ· tai chgat· <num value="1">I</num> gandharvva tai pnos <num value="1">I</num> tmiṅ· kinnara tai ratnavā
+<lb n="N10" break="no"/>sa <num value="1">I</num> tai brāhmaṇī <num value="1">I</num> tai suvarṇna <num value="1">I</num> tmiṅ· vīṇa tai yvān· <num value="1">I</num> tai jagat· <num value="1">I</num> tai yuṅ· <num value="1">I</num> tmiṅ· lā
+<lb n="N11" break="no"/>v· tai raṁṅas· <num value="1">I</num> tmiṅ· trisarī tai kañcan· <num value="1">I</num> caṁryyāṅ· stutī tai ṅāk· <num value="1">I</num> <g type="symbol" subtype="eye"/> kloñ·
+<lb n="N12"/>sruk· sī śrī <num value="1">I</num> varī sī somakara <num value="1">I</num> pamek· sī cke kanloṅ· <num value="1">I</num> cmāṁ pjuḥ sī can·cā
+<lb n="N13" break="no"/>n· <num value="1">I</num> pīle sī kaṁvaṅ· <num value="1">I</num> cmāṁ mās· prak· sī tgap· <num value="1">I</num> qābhaṣa sī saṁqap· <num value="1">I</num> tai qaṁdeṅ· <num value="1">I</num> tai ca
+<lb n="N14" break="no"/>turikā <num value="1">I</num> smañ· gvāl· saṁqap· <num value="1">I</num> mālākāra gvāl· kaṁpañ· <num value="1">I</num> gvāl· kan·sat· <num value="1">I</num> gvāl· śrī
+<lb n="N15" break="no"/>puran· <num value="1">I</num> tai kanteṅ· <num value="1">I</num> qmuḥ dik· sroṅ· sī sraṅe <num value="1">I</num> gvāl· kaṁpit· <num value="1">I</num> chattradhāra sī kanloñ <num value="1">I</num> 
+<lb n="N16"/>sī qdit· <num value="1">I</num> sī padmaruci <num value="1">I</num> lmāṁ vraḥ pitai sī kandhap· <num value="1">I</num> caṁryyāṅ· śīkharā gvāl· saṁqap· <num value="1">I</num> gvāl·
+<lb n="N17"/>qaṁdeṅ· <num value="1">I</num> gandharvva sī kñuṁ <num value="1">I</num> cmāṁ vraḥ vleṅ· si kaṁvrau <num value="1">I</num> cmāṁ kanloṅ· sī śrī <num value="1">I</num> pratīhāra sī jñā
+<lb n="N18" break="no"/> nadhara <num value="1">I</num> pamos· gvāl· kaṁpañ· <num value="1">I</num> mahānasa sī prāṇa <num value="1">I</num> sī cke duḥkha <num value="1">I</num> sī manaḥ <num value="1">I</num> sī śrī <num value="1">I</num> pattra
+<lb n="N19" break="no"/>kāra sī panlas· <num value="1">I</num> sī kañjoṅ· <num value="1">I</num> sī kaṁpit· <num value="1">I</num> tai tmāy· <num value="1">I</num> tai panlas· <num value="1">I</num> cmāṁ dvār· sī caṁ
+<lb n="N20" break="no"/>lau <num value="1">I</num> turyya sī cappi hau <num value="1">I</num> sī vnac· <num value="1">I</num> gvāl· saṁqap <num value="1">I</num> gvāl· kanleṅ· <num value="1">I</num> gvāl· kan·sip· <num value="1">I</num>
+<lb n="N21"/>vannāra sī kañcū <num value="1">I</num> cmāṁ śālā gvāl· kanteṅ· <num value="1">I</num> rmmes· raṅko lap· kanleṅ· <num value="1">I</num> lap· krau <num value="1">I</num> lap·
+<lb n="N22"/>kaṁpat· <num value="1">I</num> lap· suketa <num value="1">I</num> mahāvrīhi tai kañjai <num value="1">I</num> sī rat· cpoṅ· <num value="1">I</num> tai ksai <num value="1">I</num> lap· paṁ
+<lb n="N23" break="no"/>ryyāk· <num value="1">I</num> tai kaṁpas· <num value="1">I</num> sī rat· kaṁpit· <num value="1">I</num> tai kan·qin <num value="1">I</num> tai rat· qanāyaka <num value="1">I</num> tai paṁna
+<lb n="N24" break="no"/>ṅ· <num value="1">I</num> sī pau saṁqap· <num value="1">I</num> tai panlas· <num value="1">I</num> tai panheṁ <num value="1">I</num> tai qaṁdeṅ· <num value="1">I</num> sī rat· kan·sip· <num value="1">I</num> cmāṁ ha
+<lb n="N25" break="no"/>jaya tai kan·qas· <num value="1">I</num> tai kañ·yeṅ· <num value="1">I</num> tai pau kañjaṁ <num value="1">I</num> tai kañjoṅ· <num value="1">I</num> sī pau tge I lap·
+<lb n="N26"/>kan·qaṁ <num value="1">I</num> dmuk· varṣā tai kmau <num value="1">I</num> tai kaṁvuṅ· <num value="1">I</num> sī rat· kanloñ· <num value="1">I</num> tai kaṁpas· <num value="1">I</num> sī rat·
+<lb n="N27"/>kañcañ· <num value="1">I</num> tai krau <num value="1">I</num> sī rat· kaṁpañ· <num value="1">I</num> tai kanteṅ· <num value="1">I</num> tai kan·hyaṅ· <num value="1">I</num> sī pau <num value="1">I</num> tai kbuṅ· <num value="1">I</num>
+<lb n="N28"/>tai candra <num value="1">I</num> sī pau śrī <num value="1">I</num> tai pandan· <num value="1">I</num> sī rat· panlas· <num value="1">I</num> tai kaṁphāc· <num value="1">I</num> sī rat· kaṁpañ· <num value="1">I</num> tai
+<lb n="N29"/>kan·qū <num value="1">I</num> tai pau <num value="1">I</num> tai rat· kmau <num value="1">I</num> tai kan·qañ· <num value="1">I</num> tai pau knāṅ· <num value="1">I</num> tai rat· kanteṅ· <num value="1">I</num> tai kali
+<lb n="N30" break="no"/>ha <num value="1">I</num> tai pau laṅgāy· <num value="1">I</num> tai pratvat· <num value="1">I</num> tai pnos· <num value="1">I</num> tai kanren· <num value="1">I</num> sī rat· kañ·yeṅ· <num value="1">I</num> gvā
+<lb n="N31" break="no"/>l· kañjen· <num value="1">I</num> tai kañjū <num value="1">I</num> tai pau kan·hyaṅ· <num value="1">I</num> sī rat· qīśāna <num value="1">I</num> tai saṁqap· <num value="1">I</num>
+<lb n="N32"/>tai kanqon· <num value="1">I</num> sī pau qantis· <num value="1">I</num> sī rat· śrī <num value="1">I</num> tai veda <num value="1">I</num> tai jvik· <num value="1">I</num> tai kañjā <num value="1">I</num>
+<lb n="N33"/>tai pandan· <num value="1">I</num> sī rat· kañcū <num value="1">I</num> lap· tleṁ <num value="1">I</num> tai saṁqap <num value="1">I</num> cmāṁ cpar· dvaṅ· tqoṅ· <num value="1">I</num>
+<lb n="N34"/>sī kaṁvai <num value="1">I</num> tai kanteṅ· <num value="1">I</num> lap· kaṁvar· <num value="1">I</num> tai kan·sun· <num value="1">I</num> tai kanqū <num value="1">I</num> lap·
+<lb n="N35"/>kesara <num value="1">I</num> tai kqek· <num value="1">I</num> tai nu man· qañ· <num value="1">I</num> tai kantī <num value="1">I</num> tai pau vrahey· <num value="1">I</num> tai 
+<lb n="N36"/>kantrī <num value="1">I</num> gvāl· tgap· <num value="1">I</num> tai taṅkū <num value="1">I</num> tai kaṁpun· <num value="1">I</num> cmāṁ tpal· sī sneha <num value="1">I</num> qnak· paṁre 
+<lb n="N37"/>paṁnvas· smiṅ· ghoda yaṅ· <num value="1">I</num> gvāl· ghoṅ· <num value="1">I</num> lap· panlas· <num value="1">I</num> tai joṅ· <num value="1">I</num> gvāl· 
+<lb n="N38"/>ñoṅ· <num value="1">I</num> gvāl· kañjes· <num value="1">I</num> gho kaṁpvañ· <num value="1">I</num> lap· vvaṁ qañ· cinta <num value="1">I</num> gvāl· sarac· <num value="1">I</num>
+<lb n="N39"/>cralo qnak· paṁre gvāl· kaṁpat· <num value="1">I</num> sī pitaradāsa <num value="1">I</num> gvāl· pandan· <num value="1">I</num> sī jvāda <num value="1">I</num> 
+<lb n="N40"/>gho kansip· <num value="1">I</num> tai saṁqap· <num value="1">I</num> sī pau <num value="1">I</num> sī rat· <num value="1">I</num> <g type="symbol" subtype="eye"/> // piṇda sī <num value="35">20 10 5</num> tai <num value="87">80 7</num>
+<lb n="N41"/>gvāl· <num value="20">20</num> lap· <num value="12">10 II</num> sī rat· <num value="13">10 III</num> tai rat· <num value="3">III</num> sī pau <num value="6">6</num> tai pau <num value="7">7</num> psaṁ <num value="182">100 80 II</num> <g type="symbol" subtype="eye"/>
+                </p>
+                <lg n="1" met="upajāti" xml:lang="san-Latn">
+<l n="1"><lb n="N42"/>asyāsumanto haraṇaṁ haranti</l>
+<l n="2">ye te narendrād iha yātanārhāḥ </l>
+<l n="3"><lb n="N43"/>yamād amutrāpi ca pālayanti</l>
+<l n="4">ye yāntu te dhāma śivaṁ śivasya //</l>
+</lg>
+</div><!--The second textpart ends here. -->
+            </div><!--The edition division ends here. -->
+            <div type="apparatus">
+            </div>
+            <div type="translation" xml:lang="eng">
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

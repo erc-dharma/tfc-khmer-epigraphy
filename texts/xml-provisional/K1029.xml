@@ -1,61 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
-    <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
         <fileDesc>
             <titleStmt>
-                <title>K. 1029</title>
-            </titleStmt>
+                <title>Encoding template for inscription</title><!--Change the title of the file, e.g. Raktamālā grant of the time of Budhagupta, year 159-->
+                <respStmt><!-- add an element respStmt for each person involved -->
+                    <resp>Creation of the file</resp><!-- work done in the file, e.g. editor ...-->
+                    <persName ref="part:jodo"><!-- update the id -->
+                        <forename>John</forename><!-- fill in your  names — it is possible to use only <name> instead of <foreame> and <surname> -->
+                        <surname>Doe</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>intellectual authorship of edition</resp><!-- this may be the same as the creator of the file -->
+                    <persName ref="part:jodo"><!-- update the id -->
+                        <forename>John</forename><!-- fill in the name of the responsible scholar — it possible to use only <name> instead of <foreame> and <surname> -->
+                        <surname>Doe</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>         
             <publicationStmt>
-                <authority>ERC-Dharma</authority>
-                <idno type="filename">Text is given after Soutif 2009, p. 432; estampage EFEO n. 1287 and photo clichés EFEO K1029  001 to K1029 - 111.</idno>
+                <authority>DHARMA
+                    <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).
+                    </note>
+                </authority>
+                <pubPlace><!-- fill in here the place or places where the encoding has been done --></pubPlace>
+                <idno type="filename">DHARMA_EncodingTemplateInscription</idno><!-- Replace by filename, e.g. Pallava00001 -->
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                        <p>Copyright (c) 2019-2025 by John Doe.</p><!-- Replace year and name, use format "Forename1 Surname1 & Forename2 Surname2" or "Forename1 Surname1, Forename2 Surname2 & Forename3 Surname3"  if necessary — the copyright is that of the encoder(s) -->
+                    </licence>
+                </availability>
+                <date from="2019" to="2025">2019-2025</date>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>museum/archive</repository>
-                        <idno>inventory number</idno>
-                    </msIdentifier>
-                    <physDesc>
-                        <objectDesc>
-                            <supportDesc>
-                               <p>
-                                    </p>
-                            </supportDesc>
-                            <layoutDesc>
-                                <layout>
-                                </layout>
-                            </layoutDesc>
-                        </objectDesc>
-                        <handDesc>
-                            <handNote>; <dimensions unit="cm"><height>unavailable</height>
-                                <width>unavailable</width>
-                                </dimensions>
-                            </handNote>
-                        </handDesc>
-                    </physDesc>
-                    <history>
-                        <origin>
-                            <origPlace><placeName>Vat Prei Veng</placeName>, Kandal province</origPlace>
-                            <origDate>665 <hi rend="italic">śaka</hi> era</origDate>
-                        </origin>
-                        <provenance> 
-                        </provenance>
-                        <provenance>
-                            <p></p>
-                        </provenance>
-                    </history>
-                </msDesc>
+                <p><!-- not to be filled in at this stage --></p>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change who="part:axja" when="2020-01-09" status="draft">Update template</change><!-- add a <change> for each change to the file, the first change should replace this one and record your creation of a file using this template. -->
+        </revisionDesc>
     </teiHeader>
-    <facsimile>
-        <graphic url="photograph of text or monument"/>
-    </facsimile>
-    <text>
+    <text xml:space="preserve">
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="Lat">
+            <div type="edition" xml:lang="Lat">
                 <p>
 <lb n="1"/><num cert="low">66<supplied reason="lost" cert="low">5</supplied></num> śaka qājñā vraḥ ka<unclear>ṁ</unclear>mratā<unclear>ṅ· qañ·</unclear> <supplied reason="lost">ni gi</supplied>
 <lb n="2"/>vraḥ kaṁmratāṅ· qañ· śrī tilakeśvara puṇya mra<supplied reason="lost">tāñ·</supplied>
@@ -64,7 +55,7 @@
 <lb n="5"/>ta qmā mahāvikrāntakesarī nu paṁre m<unclear>uhha</unclear>n· gi tel· prasāda
 <lb n="6"/>qaṁvi kanloṅṅa ta mahāvikrāntakesarī nu paṁre ta gi maddhyamapa
 <lb n="7" break="no"/>r<supplied reason="lost">i</supplied>cāraka gi sre piṅ· qaṁlac· le <unclear>g</unclear><supplied reason="omitted" cert="low">l</supplied>on· <unclear>vrañai</unclear> vnur· pu maṅ· stuka
-<lb n="8"/>kinleṅ· prasān· sre cdiṅ· piṅ· poñ· vrau sre v<unclear>r</unclear>aḥ va<choice><sic cert="low"></sic>ṇ<corr>n</corr></choice>a
+<lb n="8"/>kinleṅ· prasān· sre cdiṅ· piṅ· poñ· vrau sre v<unclear>r</unclear>aḥ va<choice><sic cert="low">ṇ</sic><corr>n</corr></choice>a
 <lb n="9"/>sre trey· vrai krāy· stuk· slāṅ· sre vraḥ suvarṇnaliṅga pu
 <lb n="10" break="no"/>ṇya tāṅ· qīśvara sre kan<unclear>d</unclear>ac· tel· poñ· gap· tve sre
 <lb n="11"/>sre jeṅ toc· sre piṅ· ta<unclear>ṁ</unclear>paḥ stuk· kracap· sre cdi<supplied reason="lost">ṅ·</supplied> <unclear>masār· ru</unclear>
@@ -76,17 +67,14 @@
                 </p>
             </div>
             <div type="apparatus">
-            <app>
-            </app>
-            </div>
-            <div type="translation" xml:lang="eng">
-            </div>
-            <div type="commentary">
-                <p>commentary</p>
-            </div>
-            <div type="bibliography">
-                <p>bibliography of previous editions, discussion, etc.</p>
-            </div>
+           <!--apparatus encoded as per EG §9.1, basic elements for apparatus below-->
+               <listApp><!-- one <app> for each apparatus entry -->
+                  <app loc="line"><!-- Update the value of @loc.-->
+                     <lem><!-- fill in a lemma here --></lem>
+                     <rdg source="bib:AuthorYear_01"><!-- update the @source value, fill in variant reading here --></rdg>
+                  </app>
+               </listApp>         
+         </div>
         </body>
     </text>
 </TEI>
