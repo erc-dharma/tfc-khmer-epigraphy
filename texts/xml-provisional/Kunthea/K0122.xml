@@ -5,7 +5,7 @@
     <teiHeader xml:lang="eng">
         <fileDesc>
             <titleStmt>
-                <title>Silver bowl at National Museum of Cambodia MNC ga 6906 (K. 1251)</title>
+                <title>Rock inscription at Thma Kre (K. 122)</title>
                 <respStmt>
                     <resp>Creation of the file</resp>
                     <persName ref="part:kuch">
@@ -20,14 +20,13 @@
                         <surname>Chhom</surname>
                     </persName>
                 </respStmt>
-            </titleStmt>         
+            </titleStmt>
             <publicationStmt>
                 <authority>DHARMA
-                    <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).
-                    </note>
+                    <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
                 </authority>
                 <pubPlace>Siem Reap</pubPlace>
-                <idno type="filename">K1251</idno>
+                <idno type="filename">K0122</idno>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">
                         <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
@@ -37,22 +36,25 @@
                 <date from="2019" to="2025">2019-2025</date>
             </publicationStmt>
             <sourceDesc>
-                <p>Text is given after Soutif 2009, p. 613 basing on photo clichés EFEO AMPP 3875 to AMPP 3880 and estampage EFEO n. 1798.</p>
+                <p>Text is given after L. Finot, 1903, checked against the estampage EFEO n. 750.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+            <change who="part:kuch" when="2020-01-14">Basic structural encoding of the inscription</change>
         </revisionDesc>
     </teiHeader>
-    <text xml:space="preserve">
+        <text xml:space="preserve">
         <body>
-                <div type="edition" xml:lang="x-oldkhmer-Latn">
-               <p>
-<lb n="1"/><g type="symbol" subtype="eye"/> <num>1138</num> śaka vraḥ jaṁnvana vraḥ pāda kamrateṅa qaña śri jayavarmmadeva ta vraḥ lokeśvara <g type="symbol" subtype="finalGomutra"/>
-               </p>
-            </div>
+                <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="anuṣṭubh">
+<l n="1" enjamb="yes"><lb n="1"/>bhaktyā bhagavataś śambho</l>
+<l n="2"><lb n="2"/>-r <choice><sic>m</sic><corr>mm</corr></choice>ātāpitror anujñayā</l>
+<l n="3"><lb n="2"/>sthāpitañ citrasenena</l>
+<l n="4">liṅgañ jayati śāmbhavam</l>
+</lg>
+</div>
             <div type="apparatus">
-           <!--apparatus encoded as per EG §9.1, basic elements for apparatus below-->
+            <!--apparatus encoded as per EG §9.1, basic elements for apparatus below-->
                <listApp><!-- one <app> for each apparatus entry -->
                   <app loc="line"><!-- Update the value of @loc.-->
                      <lem><!-- fill in a lemma here --></lem>
@@ -61,7 +63,7 @@
                </listApp>         
          </div>
          <div type="translation" xml:lang="fra">
- 	<p>1138 <foreign>śaka</foreign>, offrande royale de Sa Majesté le Kamrateṅ Qañ Śri Jayavarmadeva au vénérable Lokeśvara.</p>
+             <p rend="stanza" n="1">Vive le <foreign>liṅga</foreign> de Śambhu qu'a érigé Citrasena, par piété envers l'auguste Śambhu, avec l'approbation de son père et de sa mère.</p>
          </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
