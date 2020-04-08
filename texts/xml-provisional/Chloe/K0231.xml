@@ -7,7 +7,7 @@
          <titleStmt>
             <title>Four inscriptions on the pedestal of the cave's entrance (K. 231).</title>
             <respStmt>
-               <resp>creation of file</resp>
+               <resp>EpiDoc Encoding</resp>
                <persName ref="part:chch">
                   <forename>Chloé</forename>
                   <surname>Chollet</surname>
@@ -35,13 +35,31 @@
             </availability>
             <date from="2019" to="2025">2019-2025</date>
          </publicationStmt>
-         <sourceDesc>
-            <p><!-- not to be filled in at this stage --></p>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/><!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc>
+     <revisionDesc><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
         <change who="part:chch" when="2020-04-05" status="draft">Creation of the file</change>
-        <change who="part:axja" when="2019-12-18" status="draft">Creation of the template</change>
+        
      </revisionDesc>
   </teiHeader>
   <text xml:space="preserve">
@@ -140,6 +158,9 @@ break="no"/>ti taṅ·vāy· steñ· rudrācāryya pūrohitta <g type="symbol" s
          </div>
         <div type="bibliography">
 	<p>First edited in <bibl><ptr target="bib:Coedes1951_01"/><citedRange>72-75</citedRange></bibl>.</p>
+           <listBibl type="primary">
+				<bibl/><!-- one <bibl/> per item of primary bibliography -->
+			</listBibl>
            <listBibl type="secondary">
               <bibl/>
            </listBibl>
