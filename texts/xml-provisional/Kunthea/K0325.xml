@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="eng">
         <fileDesc>
             <titleStmt>
@@ -26,14 +23,32 @@
                         <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
                     </licence>
                 </availability>
-                <date from="2019" to="2025">2019-2025</date>
+                <date from="2019" to="2025" >2019-2025</date>
             </publicationStmt>
-            <sourceDesc>
-                <p>Text is given after Soutif 2009, p. 517-518 basing on NIC II-III, p. 67; estampages EFEO 462, n. 588 and n. 1260 for Face West and estampages EFEO 461, n. 587 and n. 1260 for Face East.</p>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                            <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
-            <change who="part:kuch" when="2020-01-14">Basic structural encoding of the inscription</change>
+        <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+            <change who="part:kuch" when="2020-01-14" status="draft">Basic structural encoding of the inscription</change>
         </revisionDesc>
     </teiHeader>
     <text xml:space="preserve">
@@ -41,42 +56,29 @@
                 <div type="edition" xml:space="preserve" xml:lang="x-oldkhmer-Latn">
                     <div type="textpart" n="A"><head xml:lang="eng">West Doorjamb</head>
                 <p>
-<lb n="W1"/><g type="symbol" subtype="initialgomutra"/> <num>815</num> śaka jaṁnvan· dhū<lb n="W2" 
-    break="no"/>lī jeṅ· vraḥ kamrate<lb n="W3" 
-        break="no"/>ṅ· qañ· śrī jayendra<lb n="W4" 
-            break="no"/>varmma ta vraḥ kamrate<lb n="W5" 
-                break="no"/>ṅ· qañ· śrīndravarmmeśva<lb n="W6" 
-                    break="no"/>ra sruk· tlvaṅ· pramān·
+<lb n="W1"/><g type="symbol" subtype="initialgomutra"/> <num>815</num> śaka jaṁnvan· dhū<lb n="W2" break="no"/>lī jeṅ· vraḥ kamrate<lb n="W3" break="no"/>ṅ· qañ· śrī jayendra<lb n="W4" break="no"/>varmma ta vraḥ kamrate<lb n="W5" break="no"/>ṅ· qañ· śrīndravarmmeśva<lb n="W6" break="no"/>ra sruk· tlvaṅ· pramān·
 <lb n="W7"/>śrīndrapura kloñ·
 <lb n="W8"/>vnvak· kanloñ· <num value="1">I</num> qamraḥ
 <lb n="W9"/>paroy· <num value="1">I</num> gho kaṁvik· <num value="1" cert="low">I</num>
 <lb n="W10"/>gho kanteṅ· <num value="1">I</num> gvāl· krau <num value="1" cert="low">I</num>
-<lb n="W11"/>gvāl· kaṁvai <num value="1">I</num> gvāl· kan·<lb n="W12" 
-    break="no"/>ras· <num value="1">I</num> gvāl· kanteṅ· <num value="1">I</num>
-<lb n="W13"/>gvāl· <choice><unclear>kañan</unclear><corr>kañcan·</corr></choice> <num value="1">I</num> tai qa<lb n="W14" 
-    break="no"/>mara <num value="1">I</num> tai saṅvet· <num value="1">I</num> tai
-<lb n="W15"/>śuci <num value="1">I</num> tai kanduḥ <num value="1">I</num> tai ka<lb n="W16" 
-    break="no"/>n·qas· <num value="1">I</num> tai kan·qū <num value="1">I</num> tai
+<lb n="W11"/>gvāl· kaṁvai <num value="1">I</num> gvāl· kan·<lb n="W12" break="no"/>ras· <num value="1">I</num> gvāl· kanteṅ· <num value="1">I</num>
+<lb n="W13"/>gvāl· <choice><unclear >kañan</unclear><corr >kañcan·</corr></choice> <num value="1">I</num> tai qa<lb n="W14" break="no"/>mara <num value="1">I</num> tai saṅvet· <num value="1">I</num> tai
+<lb n="W15"/>śuci <num value="1">I</num> tai kanduḥ <num value="1">I</num> tai ka<lb n="W16" break="no"/>n·qas· <num value="1">I</num> tai kan·qū <num value="1">I</num> tai
 <lb n="W17"/>kañjai <num value="1">I</num> tai sarvvadeva
 <lb n="W18"/>sī kaṁpar· <num value="1">I</num> lap· kandhar·
 <lb n="W19"/>lap· kñuṁ <num value="1">I</num> tai rat· kaṁvī <num value="1">I</num>
 <lb n="W20"/>tai rat· saṁqap· <num value="1">I</num> tai
-<lb n="W21"/><unclear>ra</unclear>t· tkep· <num value="1">I</num> tai rat· ca<lb n="W22" 
-    break="no"/><unclear>n·</unclear>cān· <num value="1">I</num> tai rat· kaṁpas·
-<lb n="W23"/>t<unclear>ai</unclear> rat· kaṁvai <num value="1">I</num> tai rat·
-<lb n="W24"/><choice><unclear>kañan</unclear><corr>kañcan·</corr></choice> <num value="1">I</num> tai pau kaṁpa<lb n="W25" 
-    break="no"/>s· <num value="1">I</num> tai pau kanteṅ· <num value="1">I</num>
+<lb n="W21"/><unclear >ra</unclear>t· tkep· <num value="1">I</num> tai rat· ca<lb n="W22" break="no"/><unclear >n·</unclear>cān· <num value="1">I</num> tai rat· kaṁpas·
+<lb n="W23"/>t<unclear >ai</unclear> rat· kaṁvai <num value="1">I</num> tai rat·
+<lb n="W24"/><choice><unclear >kañan</unclear><corr >kañcan·</corr></choice> <num value="1">I</num> tai pau kaṁpa<lb n="W25" break="no"/>s· <num value="1">I</num> tai pau kanteṅ· <num value="1">I</num>
 <lb n="W26"/>tai kañjā <num value="1">I</num> dmuk· varṣā
 <lb n="W27"/>lap· saṁqap· <num value="1">I</num> piṇda
 <lb n="W28"/>sruk· <num value="1">I</num> kloñ· vnvak· <num value="1">I</num>
 <lb n="W29"/>qamraḥ <num value="1">I</num> gho <num value="3">III</num> tai <num value="9">9</num>
-<lb n="W30"/>gvāl· <num value="5">5</num> lap· <num value="3">III</num> tai ra<lb n="W31" 
-    break="no"/>ta <num value="7">7</num> tai pau <num value="2">II</num> psaṁ <num value="20">20</num>
-<lb n="W32"/><num value="11">10 I</num> <g type="symbol" subtype="eye"/> jaṁnvan· kamra<lb n="W33" 
-    break="no"/>teṅ· qañ· śrī narādhi<lb n="W34" 
-        break="no"/>pativarmma sruk· <choice><unclear>kvāc·</unclear><corr>kcāc·</corr></choice>
-<lb n="W35"/>pramān· vyek· <unclear>qañ·</unclear>
-<lb n="W36"/><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="W30"/>gvāl· <num value="5">5</num> lap· <num value="3">III</num> tai ra<lb n="W31" break="no"/>ta <num value="7">7</num> tai pau <num value="2">II</num> psaṁ <num value="20">20</num>
+<lb n="W32"/><num value="11">10 I</num> <g type="symbol" subtype="eye"/> jaṁnvan· kamra<lb n="W33" break="no"/>teṅ· qañ· śrī narādhi<lb n="W34" break="no"/>pativarmma sruk· <choice><unclear >kvāc·</unclear><corr >kcāc·</corr></choice>
+<lb n="W35"/>pramān· vyek· <unclear >qañ·</unclear>
+<lb n="W36"/><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg>i<gap reason="lost" extent="unknown" unit="character" />
 </p>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">East Doorjamb</head>
@@ -88,24 +90,24 @@
 <lb n="E5"/>tai knaṅ· <num value="1">I</num> tai kañjā <num value="1">I</num>
 <lb n="E6"/>tai yaj· pai <num value="1">I</num> tai taṅkū <num value="1">I</num>
 <lb n="E7"/>tai kandin· <num value="1">I</num> lap· chlāṅ· <num value="1" cert="low">I</num>
-<lb n="E8"/>tai pau <num value="1">I</num> gvāl· <choice><unclear>pansāṅ</unclear><corr>paṅhaṅ·</corr></choice>
+<lb n="E8"/>tai pau <num value="1">I</num> gvāl· <choice><unclear >pansāṅ</unclear><corr >paṅhaṅ·</corr></choice>
 <lb n="E9"/>sī rat· kaṁvrau <num value="1">I</num> sī rat·
 <lb n="E10"/>kanrat· <num value="1">I</num> sī pau <num value="1">I</num> gvāl·
 <lb n="E11"/>krau <num value="1">I</num> piṇda qamraḥ <num value="1">I</num>
 <lb n="E12"/>gho <num value="4">4</num> tai <num value="5">5</num> gvāl· <num value="2">II</num>
 <lb n="E13"/> lap· <num value="1">I</num> sī rat· <num value="2">II</num> sī pau <num value="1">I</num>
 <lb n="E14"/>tai pau <num value="1">I</num> psaṁ <num value="17">10 7</num> <g type="symbol" subtype="eye"/>
-<lb n="E15"/>jaṁnvan· vāp· <choice><unclear>śaśīnduya</unclear><corr>śaśinaya</corr></choice>
-<lb n="E16"/>ta gi sruk· stuk· <choice><unclear>kat kat</unclear><corr>kat· kat·</corr></choice>
+<lb n="E15"/>jaṁnvan· vāp· <choice><unclear >śaśīnduya</unclear><corr >śaśinaya</corr></choice>
+<lb n="E16"/>ta gi sruk· stuk· <choice><unclear >kat kat</unclear><corr >kat· kat·</corr></choice>
 <lb n="E17"/>tai kaṁprvat· <num value="1">1</num> tai vare
 <lb n="E18" break="no"/>ga <num value="1">I</num> lap· kan·sat· <num value="1">I</num>
 <lb n="E19"/>gvāl· qadit· <num value="1">I</num> sī rat·
 <lb n="E20"/>dhūlī <num value="1">I</num> piṇda tai <num value="2">II</num> gvā
 <lb n="E21" break="no"/>l· <num value="1">I</num> lap· <num value="1">I</num> sī rat· <num value="1">I</num>
 <lb n="E22"/>psaṁ <num value="5">5</num> <g type="symbol" subtype="eye"/> jaṁnvan mra
-<lb n="E23" break="no"/>teñ· <choice><unclear>śivaruci</unclear><corr>śivarucī</corr></choice>
+<lb n="E23" break="no"/>teñ· <choice><unclear >śivaruci</unclear><corr >śivarucī</corr></choice>
 <lb n="E24"/>gvāl· pūrvvavaca <num value="1">I</num> gvāl·
-<lb n="E25"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="E25"/><gap reason="lost" extent="unknown" unit="character" />
                 </p>
                     </div>
             </div>
@@ -121,13 +123,13 @@
          <div type="translation" xml:lang="fra">
  	<p n="W1-6">815 <foreign>śaka</foreign>, offrande de Son Excellence le Vraḥ Kamrateṅ Qañ Śrī Jayendravarman au Vraḥ Kamrateṅ Qañ Śrī Indravarmeśvara :</p>
              <p n="W6-7">commune de Tlvaṅ, <foreign>pramān</foreign> de Śrī Indrapura :</p>
-             <p n="W6-26"><foreign>kloñ vnvak</foreign> : Kanloñ, <supplied reason="explanation">suit une liste comportant, dans l’ordre : 1 <foreign>qaṃraḥ</foreign>, 2 <foreign>gho</foreign>, 5 <foreign>gvāl</foreign>, 8 <foreign>tai</foreign>, 1 <foreign>sī</foreign>, 2 <foreign>lap</foreign>, 7 <foreign>tai rat</foreign>, 2 <foreign>tai pau</foreign>, 1 <foreign>tai</foreign></supplied> ;</p>
+             <p n="W6-26"><foreign>kloñ vnvak</foreign> : Kanloñ, <supplied reason="explanation" >suit une liste comportant, dans l’ordre : 1 <foreign>qaṃraḥ</foreign>, 2 <foreign>gho</foreign>, 5 <foreign>gvāl</foreign>, 8 <foreign>tai</foreign>, 1 <foreign>sī</foreign>, 2 <foreign>lap</foreign>, 7 <foreign>tai rat</foreign>, 2 <foreign>tai pau</foreign>, 1 <foreign>tai</foreign></supplied> ;</p>
              <p n="W26-27">en charge durant la saison des pluies : <foreign>lap</foreign> Saṃqap.</p>
              <p n="W27-32">Total : 1 commune ; 1 chef de groupes, 1 contremaître, 3 hommes, 9 femmes, 5 <foreign>gvāl</foreign>, 3 <foreign>lap</foreign>, 7 filles en âge de courir, 2 bébés de sexe féminin. Au total : 31.</p>
              <p n="W32-36">Offrandes de Kamrateṅ Qañ Śrī Narādhipativarman: commune de Kcāc, <foreign>pramān</foreign> de Vyek ...</p>
-             <p n="E1-11">Offrande du Vāp Sādhāraṇa : <supplied reason="explanation">suit une liste comportant, dans l’ordre : 1 <foreign>qaṃraḥ</foreign>, 4 <foreign>gho</foreign>, 5 <foreign>tai</foreign>, 1 <foreign>tai pau</foreign>, 1 <foreign>gvāl</foreign>, 2 <foreign>sī rat</foreign>, 1 <foreign>sī pau</foreign>, 1 <foreign>gvāl</foreign></supplied></p>
+             <p n="E1-11">Offrande du Vāp Sādhāraṇa : <supplied reason="explanation" >suit une liste comportant, dans l’ordre : 1 <foreign>qaṃraḥ</foreign>, 4 <foreign>gho</foreign>, 5 <foreign>tai</foreign>, 1 <foreign>tai pau</foreign>, 1 <foreign>gvāl</foreign>, 2 <foreign>sī rat</foreign>, 1 <foreign>sī pau</foreign>, 1 <foreign>gvāl</foreign></supplied></p>
              <p n="E11-14">Total : 1 contremaître, 4 hommes, 5 femmes, 2 <foreign>gvāl</foreign>, 1 <foreign>lap</foreign>, 2 garçons en âge de courir, 1 bébé de sexe masculin, 1 bébé de sexe féminin. Au total : 17.</p>
-             <p n="E15-20">Offrande du Vāp Śaśinaya : commune de Stuk Kak Kat : <supplied reason="explanation">suit une liste comportant, dans l’ordre : 2 <foreign>tai</foreign>, 1 <foreign>lap</foreign>, 1 <foreign>gvāl</foreign>, 1 <foreign>sī rat</foreign></supplied></p>
+             <p n="E15-20">Offrande du Vāp Śaśinaya : commune de Stuk Kak Kat : <supplied reason="explanation" >suit une liste comportant, dans l’ordre : 2 <foreign>tai</foreign>, 1 <foreign>lap</foreign>, 1 <foreign>gvāl</foreign>, 1 <foreign>sī rat</foreign></supplied></p>
              <p n="E20-22">Total : 2 femmes, 1 <foreign>gvāl</foreign>, 1 <foreign>lap</foreign>, 1 garçon en âge de courir. Au total : 5.</p>
              <p n="E22-24">Offrande du Mrateñ Śivaruci : <foreign>gvāl</foreign> Pūrvavaca, <foreign>gvāl</foreign> ...</p>
          </div>
@@ -137,8 +139,8 @@
         <div type="bibliography">
 	<!--bibliography encoded as per section §9.4 -->
 	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
-           <listBibl type="secondary">
+           <p>Text is given after Soutif 2009, p. 517-518 basing on NIC II-III, p. 67; estampages EFEO 462, n. 588 and n. 1260 for Face West and estampages EFEO 461, n. 587 and n. 1260 for Face East.</p>
+           <listBibl type="primary"> 				<bibl/><!-- one <bibl/> per item of primary bibliography --> 			</listBibl>            <listBibl type="secondary">
               <bibl/><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>

@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="eng">
         <fileDesc>
             <titleStmt>
                 <title>South and North doorjambs of East door of Phnom Han Chey (K. 81)</title>
                 <respStmt>
-                    <resp>Creation of the file</resp>
+                    <resp>EpiDoc Encoding</resp>
                     <persName ref="part:kuch">
                         <forename>Kunthea</forename>
                         <surname>Chhom</surname>
@@ -33,14 +30,31 @@
                         <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
                     </licence>
                 </availability>
-                <date from="2019" to="2025">2019-2025</date>
+                <date from="2019" to="2025" >2019-2025</date>
             </publicationStmt>
-            <sourceDesc>
-                <p>Text is given after ISC, p. 8 ; varified by Dominic Goodall against the stone and estampage EFEO n.731.</p>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc>
-            <change who="part:kuch" when="2020-01-14">Basic structural encoding of the inscription</change>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                            <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>        </fileDesc>
+        <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+            <change who="part:kuch" when="2020-01-14" status="draft">Basic structural encoding of the inscription</change>
         </revisionDesc>
     </teiHeader>
         <text xml:space="preserve">
@@ -304,7 +318,7 @@
 <lg n="43" met="anuṣṭubh">
 <l n="1"><lb n="S8"/>raṇe kvacid arātīnāṁ</l>
 <l n="2">paśyatāṁ yañ caturbhujaṁ</l>
-<l n="3">Akāṇḍepy agamad bhaṅga<unclear>ṁ</unclear></l>
+<l n="3">Akāṇḍepy agamad bhaṅga<unclear >ṁ</unclear></l>
 <l n="4">sahacakro manorathaḥ</l>
 </lg>
 <lg n="44" met="anuṣṭubh">
@@ -316,13 +330,13 @@
 <lg n="45" met="anuṣṭubh">
 <l n="1"><lb n="S10"/>na kevalam imāṁ bhumim</l>
 <l n="2">aśeṣañ jetum icchati</l>
-<l n="3">sarvvasādhanasa<unclear>ṁ</unclear>patyā</l>
+<l n="3">sarvvasādhanasa<unclear >ṁ</unclear>patyā</l>
 <l n="4">yo dyām api davīyasīṁ</l>
 </lg>
 <lg n="46" met="anuṣṭubh">
 <l n="1"><lb n="S11"/>na guṇānām aśeṣāṇāṁ</l>
 <l n="2">kaścid ekas samāśrayaḥ</l>
-<l n="3">Iti r<unclear>ū</unclear>ḍhaḫ pravādoyaṁ</l>
+<l n="3">Iti r<unclear >ū</unclear>ḍhaḫ pravādoyaṁ</l>
 <l n="4">guṇinā yena lupyate</l>
 </lg>
 <lg n="47" met="anuṣṭubh">
@@ -343,52 +357,52 @@
                </listApp>         
          </div>
          <div type="translation" xml:lang="fra">
-             <p rend="stanza" n="1">La victoire est au <supplied reason="explanation">dieu</supplied> qui porte la lune à son diadème; qui, sur sa tête, reçut la Gaṅgā, dont les flots, dans leur fuite oblique sous le regard courroucé d'Umā, lui formaient comme une guirlande de liane immaculée.</p>
+             <p rend="stanza" n="1">La victoire est au <supplied reason="explanation" >dieu</supplied> qui porte la lune à son diadème; qui, sur sa tête, reçut la Gaṅgā, dont les flots, dans leur fuite oblique sous le regard courroucé d'Umā, lui formaient comme une guirlande de liane immaculée.</p>
              <p rend="stanza" n="2">Le roi Śrī Bhavavarman fut le maître des protecteurs de la terre, héros magnanime et invincible, sublime comme un autre Meru.</p>
-             <p rend="stanza" n="3">Né dans la race de Soma, comme <supplied reason="explanation">l'éclat de</supplied> Soma <supplied reason="explanation">brille</supplied> dans l'Océan, son courage, à lui, en quelque sorte flamboie dans la bataille des braves.</p>
-             <p rend="stanza" n="4">Quand les six ennemis qui naissent en dedans <supplied reason="explanation">de nous</supplied>, insaisissables, incorporels, inaccessibles aux sens, ont été vaincus par lui, que dire de ceux du dehors?</p>
-             <p rend="stanza" n="5">Il captivait, pour <supplied reason="explanation">s'en servir dans</supplied> le combat, les éléphants à l'époque même où leurs trompes étaient constamment humectées par le suc du dāna et qu'ils semblaient ainsi l'imiter lui-même <supplied reason="explanation">dont les mains étaient toujours humides de l'eau versée à l'occasion de ses donations</supplied>.</p>
+             <p rend="stanza" n="3">Né dans la race de Soma, comme <supplied reason="explanation" >l'éclat de</supplied> Soma <supplied reason="explanation" >brille</supplied> dans l'Océan, son courage, à lui, en quelque sorte flamboie dans la bataille des braves.</p>
+             <p rend="stanza" n="4">Quand les six ennemis qui naissent en dedans <supplied reason="explanation" >de nous</supplied>, insaisissables, incorporels, inaccessibles aux sens, ont été vaincus par lui, que dire de ceux du dehors?</p>
+             <p rend="stanza" n="5">Il captivait, pour <supplied reason="explanation" >s'en servir dans</supplied> le combat, les éléphants à l'époque même où leurs trompes étaient constamment humectées par le suc du dāna et qu'ils semblaient ainsi l'imiter lui-même <supplied reason="explanation" >dont les mains étaient toujours humides de l'eau versée à l'occasion de ses donations</supplied>.</p>
              <p rend="stanza" n="6">Quand, au temps de l'automne, il partait en guerre, dans sa splendeur que ses ennemis ne purent jamais éclipser, c'est son ardeur, bien plus que celle du soleil, qui était insupportable pour ses adversaires.</p>
-             <p rend="stanza" n="7">La poussière <supplied reason="explanation">soulevée</supplied> par son armée venant à se répandre sur les joues des femmes de l'ennemi, bien que toute toilette, y prenait l'apparence de la poudre de sandal.</p>
-             <p rend="stanza" n="8">L'eau dans les fossés des villes de ses ennemis séchait aussi bien que toute leur coeur, bue qu'elle était à la main par ses soldats établis à l'entour, en même temps que par <supplied reason="explanation">les rayons du</supplied> soleil.</p>
-             <p rend="stanza" n="9">Quand une ville était déjà enveloppée par son ardeur flamboyante, c'était comme une <supplied reason="explanation">vaine</supplied> tautologie que de porter encore du feu sur le rempart.</p>
+             <p rend="stanza" n="7">La poussière <supplied reason="explanation" >soulevée</supplied> par son armée venant à se répandre sur les joues des femmes de l'ennemi, bien que toute toilette, y prenait l'apparence de la poudre de sandal.</p>
+             <p rend="stanza" n="8">L'eau dans les fossés des villes de ses ennemis séchait aussi bien que toute leur coeur, bue qu'elle était à la main par ses soldats établis à l'entour, en même temps que par <supplied reason="explanation" >les rayons du</supplied> soleil.</p>
+             <p rend="stanza" n="9">Quand une ville était déjà enveloppée par son ardeur flamboyante, c'était comme une <supplied reason="explanation" >vaine</supplied> tautologie que de porter encore du feu sur le rempart.</p>
              <p rend="stanza" n="10">Après avoir vaincu les rois de la montagne, il occupe, par le moyen de ses bardes, en quelque sorte toutes les régions de la terre avec sa gloire suivie de l'armée de ses mérites.</p>
              <p rend="stanza" n="11">En sa personne, la race d'Aiḍa sortit de la limite en ceci seulement, qu'elle franchit les bornes de la terre au cours de ses exploits.</p>
              <p rend="stanza" n="12">Bien qu'il eût conquis une première fois par la force la terre qui a l'océan pour ceinture, lorsqu'il exerça la souveraineté, il la conquit une seconde fois par sa mansuétude.</p>
              <p rend="stanza" n="13">Entraînés par sa vaillance, des adversaires, même sans avoir été vaincus dans le combat, viennent, dans tout l'appareil de leur majesté royale, adorer les lotus de ses pieds.</p>
-             <p rend="stanza" n="14">"Un autre l'a déjà parcourue avant <supplied reason="explanation">moi</supplied> tout entière"; dans cette pensée, il ne se repose pas qu'il n'ait conquis la terre qui est entourée par l'océan.</p>
+             <p rend="stanza" n="14">"Un autre l'a déjà parcourue avant <supplied reason="explanation" >moi</supplied> tout entière"; dans cette pensée, il ne se repose pas qu'il n'ait conquis la terre qui est entourée par l'océan.</p>
              <p rend="stanza" n="15">Quand la lune a pris ses seize kalās, elle arrive à la plénitude; mais lui, bien qu'il en ait acquis d'innombrables, il ne fut jamais satisfait.</p>
              <p rend="stanza" n="16">"Il n'est personne qui réunisse toutes les qualités": cette maxime des sages a été réfutée par lui, sans même qu'il ait eu à dire un mot.</p>
-             <p rend="stanza" n="17">Ce roi des rois eut un fils semblable à la lune nouvelle, qui, doué de vertu, de beauté et de tous les autres <supplied reason="explanation">dons</supplied>, fait l'admiration de ses sujets.</p>
-             <p rend="stanza" n="18">Les rayons <supplied reason="explanation">que projettent</supplied> les joyaux des diadèmes des rois <supplied reason="explanation">prosternés devant lui</supplied> donnent bien du lustre aux ongles de ses pieds, mais non <supplied reason="explanation">de la passion</supplied> à son âme sans défauts.</p>
-             <p rend="stanza" n="19">Le roi <supplied reason="explanation">Bhavavarman</supplied> étant allé au séjour de Śiva, les peuples, en voyant levé cet <supplied reason="explanation">astre nouveau</supplied>, versèrent des larmes à la fois de douleur et de joie.</p>
+             <p rend="stanza" n="17">Ce roi des rois eut un fils semblable à la lune nouvelle, qui, doué de vertu, de beauté et de tous les autres <supplied reason="explanation" >dons</supplied>, fait l'admiration de ses sujets.</p>
+             <p rend="stanza" n="18">Les rayons <supplied reason="explanation" >que projettent</supplied> les joyaux des diadèmes des rois <supplied reason="explanation" >prosternés devant lui</supplied> donnent bien du lustre aux ongles de ses pieds, mais non <supplied reason="explanation" >de la passion</supplied> à son âme sans défauts.</p>
+             <p rend="stanza" n="19">Le roi <supplied reason="explanation" >Bhavavarman</supplied> étant allé au séjour de Śiva, les peuples, en voyant levé cet <supplied reason="explanation" >astre nouveau</supplied>, versèrent des larmes à la fois de douleur et de joie.</p>
              <p rend="stanza" n="20">Le soleil a un lever troublé par la lutte contre les ténèbres; mais lui, c'est en paix, sans obstacle, qu'il prit possession du disque de la terre.</p>
-             <p rend="stanza" n="21">Encore dans la première jeunesse, du jour qu'il soulève le fardeau de la royauté, il brille du plus vif éclat, comme <supplied reason="explanation">un autre</supplied> Kumāra à la tête de l'armée des Maruts.</p>
-             <p rend="stanza" n="22">Au service de ces deux princes <supplied reason="explanation">fut un homme</supplied> pur de toute perfidie, qu'ils comblèrent, <supplied reason="explanation">comme il en était</supplied> digne, des marques de leur confiance, de leur libéralité, de leur estime.</p>
+             <p rend="stanza" n="21">Encore dans la première jeunesse, du jour qu'il soulève le fardeau de la royauté, il brille du plus vif éclat, comme <supplied reason="explanation" >un autre</supplied> Kumāra à la tête de l'armée des Maruts.</p>
+             <p rend="stanza" n="22">Au service de ces deux princes <supplied reason="explanation" >fut un homme</supplied> pur de toute perfidie, qu'ils comblèrent, <supplied reason="explanation" >comme il en était</supplied> digne, des marques de leur confiance, de leur libéralité, de leur estime.</p>
              <p rend="stanza" n="23">Un parasol éclatant, brodé à l'intérieur et surmonté d'une boule d'or, un char orné d'or, un train de chevaux et d'éléphants,</p>
              <p rend="stanza" n="24">Une aiguière et une coupe d'or, telles et autres furent les distinction suprêmes qu'il reçut de la grâce de l'un et de l'autre de ses maîtres.</p>
              <p rend="stanza" n="25">Jamais il ne posséda rien qui ne fût à l'usage de son maître, en fait d'aliments, de vêtements, de chars et d'autres objets de luxe.</p>
-             <p rend="stanza" n="26">Au prix de cette chose vide et légère, son <supplied reason="explanation">propre</supplied> souffle vital <supplied reason="explanation">uniquement</supplied> nourri du pain de son maître, il s'efforçait d'acheter, au profit de son seigneur, une gloire lourde et solide.</p>
-             <p rend="stanza" n="27">Bien qu'étroitement embrassé par Lakṣmī, il <supplied reason="explanation">n'en</supplied> observe <supplied reason="explanation">pas moins</supplied>, grâce à la vertu de ses efforts antérieurs, la règle des ascètes, estimant par-dessus tout la patience et l'égalité d'âme.</p>
+             <p rend="stanza" n="26">Au prix de cette chose vide et légère, son <supplied reason="explanation" >propre</supplied> souffle vital <supplied reason="explanation" >uniquement</supplied> nourri du pain de son maître, il s'efforçait d'acheter, au profit de son seigneur, une gloire lourde et solide.</p>
+             <p rend="stanza" n="27">Bien qu'étroitement embrassé par Lakṣmī, il <supplied reason="explanation" >n'en</supplied> observe <supplied reason="explanation" >pas moins</supplied>, grâce à la vertu de ses efforts antérieurs, la règle des ascètes, estimant par-dessus tout la patience et l'égalité d'âme.</p>
              <p rend="stanza" n="28">Bien que son héroisme se fût illustré dans les batailles et dans les largesses, il était pourtant réputé au loin pour son humeur craintive en face du déshonneur et de la fausseté.</p>
-             <p rend="stanza" n="29">Bien faisant même aux différents, secourable même aux ennemis, il ramenait à l'amitié les deux partis hostiles par la <supplied reason="explanation">seule</supplied> plénitude de ses vertus.</p>
+             <p rend="stanza" n="29">Bien faisant même aux différents, secourable même aux ennemis, il ramenait à l'amitié les deux partis hostiles par la <supplied reason="explanation" >seule</supplied> plénitude de ses vertus.</p>
              <p rend="stanza" n="30">Bien que son unique jambe ait été brisée par le violent Kali, Dharma, s'appuyant sur lui comme sur une puissance colonne, se tient aussi ferme que s'il avait encore ses quatre pieds.</p>
              <p rend="stanza" n="31">"Elle est périssable," ainsi dédaignant la beauté de son propre corps, il n'estima comme vraiment solide que celle qui est faite de gloire et de bonnes oeuvres.</p>
-             <p rend="stanza" n="32">Chef suprême <supplied reason="explanation">de la ville</supplied> d'Ugrapura, il érigea ici, avec une dévotion parfaite, ce liṅga du Seigneur, connu sous le nom de Śrī Bhadreśvara,</p>
-             <p rend="stanza" n="33"><supplied reason="explanation">Instituant</supplied> serviteurs, bétail, terres, or et le reste, sans exception, comme bien du dieu. Que seuls aient autorité ici les ascètes serviteurs des dieux!</p>
-             <p rend="stanza" n="34"><supplied reason="explanation">Mais</supplied> les parents du donateur, ses fils, ses alliés, qu'ils ne jouissent pas du bien du dieu; car ils n'en ont pas le droit.</p>
+             <p rend="stanza" n="32">Chef suprême <supplied reason="explanation" >de la ville</supplied> d'Ugrapura, il érigea ici, avec une dévotion parfaite, ce liṅga du Seigneur, connu sous le nom de Śrī Bhadreśvara,</p>
+             <p rend="stanza" n="33"><supplied reason="explanation" >Instituant</supplied> serviteurs, bétail, terres, or et le reste, sans exception, comme bien du dieu. Que seuls aient autorité ici les ascètes serviteurs des dieux!</p>
+             <p rend="stanza" n="34"><supplied reason="explanation" >Mais</supplied> les parents du donateur, ses fils, ses alliés, qu'ils ne jouissent pas du bien du dieu; car ils n'en ont pas le droit.</p>
              <p rend="stanza" n="35">Ce qui a été ainsi donné à ce dieu par le donateur en témoignage de sa foi, que les hommes qui voudraient le ravir aillent dans l'enfer pour longtemps.</p>
-             <p rend="stanza" n="36">La victoire est à celui qui, bien que essentiellement sans kalās, porte <supplied reason="explanation">à son diadème</supplied> la <foreign>kalā</foreign> de la lune; qui, bien qu'il soit un, occupe tout l'univers par son ubiquité.</p>
-             <p rend="stanza" n="37">Dans la bouche du <supplied reason="explanation">roi Bhavavarman</supplied> se joue Bhāratī qui, aspirant à une station plus haute, a dédaigné de rendre hommage à la puissante Śrī qui repose sur sa poitrine.</p>
-             <p rend="stanza" n="38">Lune du ciel de la race lunaire, il se baignait sur le visage des femmes de ses ennemis, comme parmi autant de lotus, dans les larmes <supplied reason="explanation">qu'il leur arrachait</supplied> par la plénitude de l'éclat de ses <foreign>kalās</foreign>.</p>
+             <p rend="stanza" n="36">La victoire est à celui qui, bien que essentiellement sans kalās, porte <supplied reason="explanation" >à son diadème</supplied> la <foreign>kalā</foreign> de la lune; qui, bien qu'il soit un, occupe tout l'univers par son ubiquité.</p>
+             <p rend="stanza" n="37">Dans la bouche du <supplied reason="explanation" >roi Bhavavarman</supplied> se joue Bhāratī qui, aspirant à une station plus haute, a dédaigné de rendre hommage à la puissante Śrī qui repose sur sa poitrine.</p>
+             <p rend="stanza" n="38">Lune du ciel de la race lunaire, il se baignait sur le visage des femmes de ses ennemis, comme parmi autant de lotus, dans les larmes <supplied reason="explanation" >qu'il leur arrachait</supplied> par la plénitude de l'éclat de ses <foreign>kalās</foreign>.</p>
              <p rend="stanza" n="39">Quand il allait en guerre, à la venue de l'automne, sa brûlant ardeur, supérieure à celle du soleil même, était insupportable même pour ceux qui étaient à couvert.</p>
              <p rend="stanza" n="40">Pour vaincre les rois de la montagne jusqu'au sommet de leurs pics, il avait, en pleine saison des pluies, un pont pour traverser les eaux, fussent-elles profondes à hauteur d'éléphant.</p>
-             <p rend="stanza" n="41">Quand ses soldats assiégeait <supplied reason="explanation">une forteresse</supplied>, l'eau dans les fossés séchait en même temps que le courage de ses ennemis, bien q'il fût arrosé par <supplied reason="explanation">les larmes de</supplied> tendresse de leurs familles.</p>
-             <p rend="stanza" n="42">A la vue de ce <supplied reason="explanation">héros</supplied> qui, par son extrême beauté, ravissait les yeux et les coeurs, les belles en venaient à douter que le <supplied reason="explanation">dieu</supplied> armé de fleurs fût réellement sans corps.</p>
-             <p rend="stanza" n="43">Plus d'une fois, dans la bataille, à la seule vue de cet <supplied reason="explanation">autre</supplied> Caturbhuja, l'espoir de ses adversaires, ainsi que leur armée, fut soudain brisé.</p>
-             <p rend="stanza" n="44">Sa gloire, bien qu'elle eût couru au loin, jusqu'aux extrémités de la terre, <supplied reason="explanation">n'en</supplied> est <supplied reason="explanation">pas moins</supplied> déclarée pure par les honnêtes gens de tout pays.</p>
+             <p rend="stanza" n="41">Quand ses soldats assiégeait <supplied reason="explanation" >une forteresse</supplied>, l'eau dans les fossés séchait en même temps que le courage de ses ennemis, bien q'il fût arrosé par <supplied reason="explanation" >les larmes de</supplied> tendresse de leurs familles.</p>
+             <p rend="stanza" n="42">A la vue de ce <supplied reason="explanation" >héros</supplied> qui, par son extrême beauté, ravissait les yeux et les coeurs, les belles en venaient à douter que le <supplied reason="explanation" >dieu</supplied> armé de fleurs fût réellement sans corps.</p>
+             <p rend="stanza" n="43">Plus d'une fois, dans la bataille, à la seule vue de cet <supplied reason="explanation" >autre</supplied> Caturbhuja, l'espoir de ses adversaires, ainsi que leur armée, fut soudain brisé.</p>
+             <p rend="stanza" n="44">Sa gloire, bien qu'elle eût couru au loin, jusqu'aux extrémités de la terre, <supplied reason="explanation" >n'en</supplied> est <supplied reason="explanation" >pas moins</supplied> déclarée pure par les honnêtes gens de tout pays.</p>
              <p rend="stanza" n="45">Ce n'est pas seulement cette terre entière qu'il désire conquérir, mais, par la réunion de tous les moyens possibles, le ciel encore qui est par delà.</p>
-             <p rend="stanza" n="46">"Jamais toutes les qualités ne se réunissent en un seul;" ce commun proverbe est démentir par ce possesseur de <supplied reason="explanation">toutes les</supplied> qualités.</p>
+             <p rend="stanza" n="46">"Jamais toutes les qualités ne se réunissent en un seul;" ce commun proverbe est démentir par ce possesseur de <supplied reason="explanation" >toutes les</supplied> qualités.</p>
              <p rend="stanza" n="47">Au service de ce roi suprême des grands rois, Śrī Bhavavarman, et s'attachant à rester pur de toute perfidie ...</p>
          </div>
          <div type="commentary">
@@ -397,8 +411,8 @@
         <div type="bibliography">
 	<!--bibliography encoded as per section §9.4 -->
 	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
-           <listBibl type="secondary">
+           <p>Text is given after ISC, p. 8 ; varified by Dominic Goodall against the stone and estampage EFEO n.731.</p>
+           <listBibl type="primary"> 				<bibl/><!-- one <bibl/> per item of primary bibliography --> 			</listBibl>            <listBibl type="secondary">
               <bibl/><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>

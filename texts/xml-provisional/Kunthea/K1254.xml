@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="eng">
       <fileDesc>
          <titleStmt>
             <title>Doorjamb at Museum of Angkor Borei (K. 1254)</title>
             <respStmt>
-               <resp>Creation of the file</resp>
+               <resp>EpiDoc Encoding</resp>
                <persName ref="part:kuch">
                   <forename>Kunthea</forename>
                   <surname>Chhom</surname>
@@ -34,13 +31,31 @@
                	<p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
                </licence>
             </availability>
-            <date from="2019" to="2025">2019-2025</date>
+            <date from="2019" to="2025" >2019-2025</date>
          </publicationStmt>
-         <sourceDesc>
-            <p>Text is given after Gerschheimer and Goodall 2014.</p>
-         </sourceDesc>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/><!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>      
       </fileDesc>
-     <revisionDesc>
+     <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
         <change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change>
      </revisionDesc>
   </teiHeader>  
@@ -48,22 +63,22 @@
         <body>
                 <div type="edition" xml:lang="san-Latn">
 <lg n="1" met="anuṣṭubh">
-<l n="1" enjamb="yes"><lb n="1"/><gap reason="lost" extent="6" unit="character"/> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>y</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>ndr<supplied reason="lost">a</supplied></l>
-<l n="2">-mauliratnaprabhāhar<unclear>a</unclear>m·</l>
+<l n="1" enjamb="yes"><lb n="1"/><gap reason="lost" extent="6" unit="character" /> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear >y</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component" /></seg>ndr<supplied reason="lost" >a</supplied></l>
+<l n="2">-mauliratnaprabhāhar<unclear >a</unclear>m·</l>
 <l n="3">yasya pādanakhacchāyaṁ</l>
 <l n="4">sa śrītribhuvanañjayaḥ //</l>
 </lg>
 <lg n="2" met="anuṣṭubh">
-<l n="1" real="++++---+"><unclear>yo</unclear>giddhyeyo pi kim api</l>
-<l n="2"><unclear>dh</unclear>yāna<unclear>praty</unclear>āhr̥tendriyaḥ</l>
-<l n="3">jāgar<unclear>ū</unclear>ko pi yaś śeṣam</l>
+<l n="1" real="++++---+"><unclear >yo</unclear>giddhyeyo pi kim api</l>
+<l n="2"><unclear >dh</unclear>yāna<unclear >praty</unclear>āhr̥tendriyaḥ</l>
+<l n="3">jāgar<unclear >ū</unclear>ko pi yaś śeṣam</l>
 <l n="4">addhyaśeta payonidhau //</l>
 </lg>
 <lg n="3" met="anuṣṭubh">
-<l n="1" real="-+-+++++"><lb n="2"/><gap reason="lost" extent="1" unit="character"/> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><choice><unclear>ā</unclear><unclear>o</unclear></choice>pi nābhyām addhy ekaṁ</l>
-<l n="2">yonir viśvasya pu<unclear>ṣ</unclear>karam</l>
+<l n="1" real="-+-+++++"><lb n="2"/><gap reason="lost" extent="1" unit="character" /> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><choice><unclear >ā</unclear><unclear >o</unclear></choice>pi nābhyām addhy ekaṁ</l>
+<l n="2">yonir viśvasya pu<unclear >ṣ</unclear>karam</l>
 <l n="3" enjamb="yes">vibhrad oṅkārajhaṅkāra</l>
-<l n="4">caturāsyālim a<unclear>c</unclear>chi<supplied reason="lost">dat</supplied>· //</l>
+<l n="4">caturāsyālim a<unclear >c</unclear>chi<supplied reason="lost" >dat</supplied>· //</l>
 </lg>
 <lg n="4" met="anuṣṭubh">
 <l n="1">śalākayeva vedāptyā</l>
@@ -72,58 +87,58 @@
 <l n="4">-vyājavājiśiro dadhat· //</l>
 </lg>
 <lg n="5" met="anuṣṭubh">
-<l n="1"><supplied reason="lost">vidh</supplied><unclear>ā</unclear>ya viśvaṁ vrahmādi</l>
-<l n="2"><supplied reason="lost">ta</supplied>dgupty<unclear>ai</unclear> svayam ātmanaḥ</l>
-<l n="3">yo jo pi <unclear>v</unclear>idadhe janma</l>
-<l n="4">divīha ca <unclear>y</unclear>u<supplied reason="lost">ge y</supplied><unclear>u</unclear><supplied reason="lost">ge</supplied> //</l>
+<l n="1"><supplied reason="lost" >vidh</supplied><unclear >ā</unclear>ya viśvaṁ vrahmādi</l>
+<l n="2"><supplied reason="lost" >ta</supplied>dgupty<unclear >ai</unclear> svayam ātmanaḥ</l>
+<l n="3">yo jo pi <unclear >v</unclear>idadhe janma</l>
+<l n="4">divīha ca <unclear >y</unclear>u<supplied reason="lost" >ge y</supplied><unclear >u</unclear><supplied reason="lost" >ge</supplied> //</l>
 </lg>
 <lg n="6" met="anuṣṭubh">
-<l n="1">saumyabhīṣa<supplied reason="lost">ṇa</supplied>m āt<unclear>m</unclear>īya<unclear>ṁ</unclear></l>
+<l n="1">saumyabhīṣa<supplied reason="lost" >ṇa</supplied>m āt<unclear >m</unclear>īya<unclear >ṁ</unclear></l>
 <l n="2">sarvvadevamayaṁ vapuḥ</l>
 <l n="3" enjamb="yes">yena nāradasatsabhya</l>
-<l n="4">-pāṇ<choice><sic>d</sic><corr>ḍ</corr></choice>avotaṅkadarśśitam· //</l>
+<l n="4">-pāṇ<choice><sic>d</sic><corr >ḍ</corr></choice>avotaṅkadarśśitam· //</l>
 </lg>
 <lg n="7" met="anuṣṭubh">
-<l n="1"><lb n="4"/><gap reason="lost" extent="2" unit="character"/> hīrṣur mmahīm īrṣyāṁ</l>
-<l n="2"><unclear>ś</unclear>r<unclear>i</unclear>yāḥ pariharann iva</l>
+<l n="1"><lb n="4"/><gap reason="lost" extent="2" unit="character" /> hīrṣur mmahīm īrṣyāṁ</l>
+<l n="2"><unclear >ś</unclear>r<unclear >i</unclear>yāḥ pariharann iva</l>
 <l n="3">tiraścakārātmavapur</l>
-<l n="4">yyaḥ kro<choice><sic>d</sic><corr>ḍ</corr></choice>acchadmasadma<supplied reason="lost"><unclear>ni</unclear><unclear>nā</unclear></supplied> //</l>
+<l n="4">yyaḥ kro<choice><sic>d</sic><corr >ḍ</corr></choice>acchadmasadma<supplied reason="lost" ><unclear >ni</unclear><unclear >nā</unclear></supplied> //</l>
 </lg>
 <lg n="8" met="anuṣṭubh">
-<l n="1" enjamb="yes">daityendrorodrinir<choice><sic>bh</sic><corr>b</corr></choice>bheda</l>
+<l n="1" enjamb="yes">daityendrorodrinir<choice><sic>bh</sic><corr >b</corr></choice>bheda</l>
 <l n="2">-vajrāyitanakhāṅkuram·</l>
-<l n="3">nr̥kesari<unclear>vap</unclear>ur yyasya</l>
+<l n="3">nr̥kesari<unclear >vap</unclear>ur yyasya</l>
 <l n="4">vismāpitajagattrayam· //</l>
 </lg>
 <lg n="9" met="anuṣṭubh">
-<l n="1"><lb n="5" enjamb="yes"/><supplied reason="lost">Ā</supplied>yāmotsedhavistāramā</l>
-<l n="2">-<unclear>n</unclear>adaṇḍāyito divaḥ</l>
+<l n="1"  enjamb="yes"><lb n="5"/><supplied reason="lost" >Ā</supplied>yāmotsedhavistāramā</l>
+<l n="2">-<unclear >n</unclear>adaṇḍāyito divaḥ</l>
 <l n="3" enjamb="yes">yatpādo grastasūryendu</l>
 <l n="4">-pādo nakhamaṇitviṣā //</l>
 </lg>
 <lg n="10" met="anuṣṭubh">
-<l n="1">śakti <gap reason="lost" extent="1" unit="character"/> <unclear>r</unclear>jj<unclear>a</unclear>tanun daivīm</l>
+<l n="1">śakti <gap reason="lost" extent="1" unit="character" /> <unclear >r</unclear>jj<unclear >a</unclear>tanun daivīm</l>
 <l n="2">ujjhatā surakāryyataḥ</l>
-<l n="3">ye<unclear>na</unclear> māyāgr̥<unclear>ha</unclear>cchāyāñ</l>
+<l n="3">ye<unclear >na</unclear> māyāgr̥<unclear >ha</unclear>cchāyāñ</l>
 <l n="4">jagad āveśya śāyitam· //</l>
 </lg>
 <lg n="11" met="anuṣṭubh">
-<l n="1" enjamb="yes"><lb n="6"/><gap reason="lost" extent="2" unit="character"/> <unclear>d</unclear>oddharaṇādhāna</l>
+<l n="1" enjamb="yes"><lb n="6"/><gap reason="lost" extent="2" unit="character" /> <unclear >d</unclear>oddharaṇādhāna</l>
 <l n="2">-krāntirakṣādikarmmaṇā</l>
 <l n="3">Ananyasvāmitā yena</l>
-<l n="4">bhuvas suprakaṭī<supplied reason="lost"></supplied>r̥tā //</l>
+<l n="4">bhuvas suprakaṭī<supplied reason="lost" />r̥tā //</l>
 </lg>
 <lg n="12" met="anuṣṭubh">
 <l n="1" enjamb="yes">tasyāṅśo yo gniśakrendu</l>
-<l n="2">-yamavitte<supplied reason="lost">śa</supplied>r<unclear>ū</unclear>padhr̥k·</l>
+<l n="2">-yamavitte<supplied reason="lost" >śa</supplied>r<unclear >ū</unclear>padhr̥k·</l>
 <l n="3" enjamb="yes">pratāpaśaktilāvaṇya</l>
-<l n="4">samatvānugrahādibhi<unclear>ḥ</unclear> //</l>
+<l n="4">samatvānugrahādibhi<unclear >ḥ</unclear> //</l>
 </lg>
 <lg n="13" met="anuṣṭubh">
-<l n="1"><lb n="7"/><gap reason="lost" extent="3" unit="character"/> j<unclear>a</unclear>yavarmm<supplied reason="lost">e</supplied>ti</l>
-<l n="2">khyā<unclear>to</unclear> yaccaraṇā<choice><sic>p</sic><corr>b</corr></choice>jayoḥ</l>
+<l n="1"><lb n="7"/><gap reason="lost" extent="3" unit="character" /> j<unclear >a</unclear>yavarmm<supplied reason="lost" >e</supplied>ti</l>
+<l n="2">khyā<unclear >to</unclear> yaccaraṇā<choice><sic>p</sic><corr >b</corr></choice>jayoḥ</l>
 <l n="3">nyapatan nr̥patīndrāṇāñ</l>
-<l n="4">cū<choice><sic>d</sic><corr>ḍ</corr></choice>āratnālipaṅkta<supplied reason="lost">ya</supplied>ḥ //</l>
+<l n="4">cū<choice><sic>d</sic><corr >ḍ</corr></choice>āratnālipaṅkta<supplied reason="lost" >ya</supplied>ḥ //</l>
 </lg>
 <lg n="14" met="anuṣṭubh">
 <l n="1" real="=+-+---+">yo nantabhogaśayanas</l>
@@ -132,22 +147,22 @@
 <l n="4">śrīmāñ chrījānitaḥ prati //</l>
 </lg>
 <lg n="15" met="anuṣṭubh">
-<l n="1"><lb n="8"/><gap reason="lost" extent="4" unit="character"/> dhipo smī<unclear>t</unclear>i</l>
-<l n="2">yad āh<unclear>a bhagavā</unclear>n vacaḥ</l>
+<l n="1"><lb n="8"/><gap reason="lost" extent="4" unit="character" /> dhipo smī<unclear >t</unclear>i</l>
+<l n="2">yad āh<unclear >a bhagavā</unclear>n vacaḥ</l>
 <l n="3" real="--++---+">tad atītyānyanr̥patīn</l>
-<l n="4">arthavad yatra lakṣyate <unclear>//</unclear></l>
+<l n="4">arthavad yatra lakṣyate <unclear >//</unclear></l>
 </lg>
 <lg n="16" met="anuṣṭubh">
 <l n="1">rājanvatīti prathitā</l>
-<l n="2">bhartāraṁ prā<unclear>pya</unclear> sadguṇaiḥ</l>
+<l n="2">bhartāraṁ prā<unclear >pya</unclear> sadguṇaiḥ</l>
 <l n="3">yam ahīnam ahīnābham</l>
 <l n="4">ahīnābham abhūn mahī //</l>
 </lg>
 <lg n="17" met="anuṣṭubh">
-<l n="1"><lb n="9"/><gap reason="lost" extent="4" unit="character"/> jatā <gap reason="lost" extent="2" unit="character"/></l>
-<l n="2">bhā<unclear>r</unclear>ais <unclear>si</unclear>ktā harer bhuvi</l>
+<l n="1"><lb n="9"/><gap reason="lost" extent="4" unit="character" /> jatā <gap reason="lost" extent="2" unit="character" /></l>
+<l n="2">bhā<unclear >r</unclear>ais <unclear >si</unclear>ktā harer bhuvi</l>
 <l n="3">bhūbhr̥d dharir itīvārccā</l>
-<l n="4">yena bhū<unclear>bha</unclear>ranir<choice><sic>bh</sic><corr>b</corr></choice>bhayam· //</l>
+<l n="4">yena bhū<unclear >bha</unclear>ranir<choice><sic>bh</sic><corr >b</corr></choice>bhayam· //</l>
 </lg>
 <lg n="18" met="anuṣṭubh">
 <l n="1">tena kārttayugīneva</l>
@@ -156,15 +171,15 @@
 <l n="4">vidhineyaṁ pratiṣṭhitā //</l>
 </lg>
 <lg n="19" met="śārdūlavikrīḍita">
-<l n="1"><lb n="10"/>+++--+ <unclear>vi</unclear>mānam athavā śakrasya kiṁ śrīgr̥haṁ</l>
+<l n="1"><lb n="10"/>+++--+ <unclear >vi</unclear>mānam athavā śakrasya kiṁ śrīgr̥haṁ</l>
 <l n="2">dvāraṁ vā tridivasya maulir avaneḥ kiṁ vā purībhūṣaṇam·</l>
-<l n="3">I<unclear>t</unclear>y ālokya savismayaṁ yad abhavan nānāpratarkko nr̥ṇām</l>
+<l n="3">I<unclear >t</unclear>y ālokya savismayaṁ yad abhavan nānāpratarkko nr̥ṇām</l>
 <l n="4">etac chrīpatidhāma tiṣṭhatu bhuvi sthairyyeṇa meros samam· //</l>
 </lg>
 <lg n="20" met="anuṣṭubh">
-<l n="1"><lb n="11"/><supplied reason="lost">ś</supplied>r<supplied reason="lost">ī</supplied><unclear>rāja</unclear>vallabhākhyo yo</l>
-<l n="2">dhī<unclear>śrī</unclear>śau<supplied reason="omitted">r</supplied>yyakṣamālayaḥ</l>
-<l n="3">tenāyam ālayo vad<unclear>dha</unclear>ś</l>
+<l n="1"><lb n="11"/><supplied reason="lost" >ś</supplied>r<supplied reason="lost" >ī</supplied><unclear >rāja</unclear>vallabhākhyo yo</l>
+<l n="2">dhī<unclear >śrī</unclear>śau<supplied reason="omitted" >r</supplied>yyakṣamālayaḥ</l>
+<l n="3">tenāyam ālayo vad<unclear >dha</unclear>ś</l>
 <l n="4">śrīmān traibhuvanañjayaḥ //</l>
 </lg>
 </div>
@@ -178,25 +193,25 @@
                </listApp>         
          </div>
          <div type="translation" xml:lang="fra">
- 	<p rend="stanza" n="1"><supplied reason="subaudible">Vive ?</supplied> cet auguste Tribhuvanañjaya, dont le lustre des ongles des pieds ravit l’éclat des joyaux du/des diadème<supplied reason="explanation">s</supplied> de ...</p>
-            <p rend="stanza" n="2">Les sens retirés dans la méditation bien que <supplied reason="explanation">lui-même</supplied> objet, on ne sait comment <supplied reason="explanation"><foreign>kim api</foreign></supplied>, de la méditation des <foreign>yogis</foreign>, il reposait, vigilant cependant, sur Śeṣa, dans l’océan de lait.</p>
-            <p rend="stanza" n="3">Et <supplied reason="subaudible">de lui</supplied> a éclos, au nombril, l’Un, matrice de l’univers, le lotus portant l’abeille <supplied reason="explanation">qu’est le dieu</supplied> à quatre bouches <supplied reason="explanation">= Brahmā</supplied> bourdonnant la syllabe Oṃ.</p>
-            <p rend="stanza" n="4">Et portant une tête de cheval feinte, hennissant formidablement la syllabe Oṃ, il perfora <supplied reason="explanation">la cataracte qui voilait</supplied> les yeux du Créateur <supplied reason="explanation">= Brahmā</supplied> par le stylet, si l’on peut dire, qu’est le recouvrement des Veda.</p>
-            <p rend="stanza" n="5">Il <supplied reason="subaudible">créa</supplied> l’univers, à commencer par Brahmā, puis, afin de <supplied reason="subaudible">le</supplied> protéger, il créa lui-même, bien que non-né <supplied reason="explanation"><foreign></foreign></supplied>(ajo ’pi), sa propre naissance <supplied reason="explanation"><foreign>janma</foreign></supplied>, au ciel et ici-bas, <supplied reason="subaudible">d’âge en âge</supplied>.</p>
-            <p rend="stanza" n="6">Il a fait voir à Nārada, aux membres vertueux de l’assemblée <supplied reason="explanation">des Kaurava</supplied>, au Pāṇḍava et à Utaṅka son propre corps à la fois serein et terri ant, qui contient tous les dieux.</p>
-            <p rend="stanza" n="7">Désireux de <supplied reason="subaudible">soulever</supplied> la Terre, il cacha, comme pour esquiver la jalousie de la Fortune, son propre corps <supplied reason="subaudible">à</supplied> l’abri d’un déguisement de sanglier.</p>
-            <p rend="stanza" n="8">Son corps d’Homme-Lion, dont les griffes acérées sont comme le foudre <supplied reason="explanation">d’Indra</supplied> en fendant la montagne <supplied reason="explanation"><foreign>adri</foreign></supplied> qu’est la poitrine <supplied reason="explanation"><foreign>uras</foreign></supplied> du prince <supplied reason="explanation"><foreign>indra</foreign></supplied> des Daitya <supplied reason="subaudible">= Hiraṇyakaśipu</supplied>, a émerveillé les trois mondes.</p>
-            <p rend="stanza" n="9">Agissant comme un étalon des longueur, hauteur et largeur du ciel, son pied <supplied reason="explanation"><foreign>pāda</foreign></supplied> éclipse par le scintillement des gemmes que sont ses ongles les rayons <supplied reason="explanation"><foreign>pāda</foreign></supplied> du Soleil et de la Lune.</p>
-            <p rend="stanza" n="10">Renonçant à son corps divin <supplied reason="subaudible">armé de <supplied reason="explanation"><foreign>sajjāṃ</foreign></supplied> / dépourvu de <supplied reason="explanation"><foreign>varja</foreign></supplied> / ?</supplied> puissance, <supplied reason="explanation">qu’il avait adopté</supplied> pour accomplir l’œuvre des dieux, il a fait entrer l’univers dans l’ombre d’une demeure <supplied reason="explanation">issue de sa</supplied> magie et <supplied reason="explanation">l’y</supplied> a fait reposer.</p>
-            <p rend="stanza" n="11">En œuvrant à la ..., à la soulever <supplied reason="explanation"><foreign>uddharaṇa</foreign></supplied>, à la déposer <supplied reason="explanation"><foreign>ādhāna</foreign></supplied>, à l’arpenter <supplied reason="explanation"><foreign>krānti</foreign></supplied>, à la protéger <supplied reason="explanation"><foreign>rakṣā</foreign></supplied>, etc., il a rendu très manifeste que la Terre n’a pas d’autre maître <supplied reason="explanation"><foreign>svāmin</foreign> que lui</supplied>.</p>
-            <p rend="stanza" n="12-13">Portion de ce <supplied reason="explanation">dieu</supplied>, <supplied reason="subaudible">le roi</supplied> appelé <supplied reason="subaudible">Śrī</supplied> Jayavarman possédait, par son ardeur, sa puissance, sa vénusté, son équité, ses faveurs, etc., les caractéristiques d’Agni <supplied reason="explanation">= le Feu</supplied>, de Śakra <supplied reason="explanation">= Indra</supplied>, d’Indu <supplied reason="explanation">= la Lune</supplied>, de Yama <supplied reason="explanation">= le dieu de la Mort</supplied> et du Maître des Richesses <supplied reason="explanation">= Kubera</supplied>. Les essaims <supplied reason="explanation"><foreign>paṅkti</foreign></supplied> d’abeilles <supplied reason="explanation"><foreign>ali</foreign></supplied> que sont les joyaux des diadèmes des meilleurs des rois se précipitaient sur les lotus <supplied reason="explanation"><foreign>abja</foreign></supplied> de ses pieds.</p>
-            <p rend="stanza" n="14">Sa couche est <supplied reason="explanation">pourvue</supplied> d’infinies jouissances / il repose sur les anneaux d’Ananta, la trace de ses pieds est bien vénérée / ses <supplied reason="explanation">trois</supplied> enjambées sont très honorées, <supplied reason="explanation"><foreign>muni</foreign></supplied> d’une armée / d’un disque, victorieux par ses  èches / vainqueur de Bāṇa, il est fortuné / accompagné de Śrī, en lieu et place de l’époux de Śrī.</p>
-            <p rend="stanza" n="15">La parole que dit le seigneur, à savoir « je suis le souverain <supplied reason="explanation"><foreign>adhipa</foreign></supplied> ... », appliquée à lui, apparaît comme signi cative, dépassant les autres rois.</p>
-            <p rend="stanza" n="16">Quand elle l’eut obtenu comme époux, non dénué de vertus <supplied reason="explanation"><foreign>sadguṇaiḥ ... ahīnam</foreign></supplied>, au lustre sans défaut <supplied reason="explanation"><foreign>ahīnābham</foreign></supplied>, ayant le lustre du Roi des serpents <supplied reason="explanation"><foreign>ahi-inābham</foreign></supplied>, la Terre fut célébrée comme étant pourvue d’un bon roi <supplied reason="explanation"><foreign>rājanvatī</foreign></supplied>.</p>
-            <p rend="stanza" n="17">La statue de Hari qu’il a fondue, sur terre, avec ... <supplied reason="subaudible">un certain nombre</supplied> ... <supplied reason="subaudible">d’unités de poids appelés</supplied> bhāra ..., ... comme dans la pensée que Hari soutient la terre <supplied reason="explanation">/ que Hari est le roi</supplied>, de telle sorte qu’il n’y ait plus de crainte concernant <supplied reason="subaudible">l’action de soutenir</supplied> le fardeau de la Terre.</p>
-            <p rend="stanza" n="18">Il a installé selon le rite, avec dévotion, cette incomparable image de Hari, comme <supplied reason="explanation">une image</supplied> appropriée à l’Âge kr̥ta, <supplied reason="explanation">et</supplied> qui annihile la souffrance des dévots.</p>
-            <p rend="stanza" n="19">« <supplied reason="explanation">Cet</supplied> ornement de la ville est-il le char divin <supplied reason="subaudible">de - - - </supplied> ou le palais royal de Śakra ? Est-ce la porte du troisième ciel <supplied reason="subaudible">celui d’Indra</supplied> ou un diadème de la terre ? » ; que cette demeure <supplied reason="explanation"><foreign>dhāman</foreign></supplied> de Śrīpati <supplied reason="explanation">l’époux de Śrī</supplied>, qui, contemplée avec étonnement, donna lieu à diverses conjectures chez les hommes, dure sur terre, semblable au Meru par sa stabilité.</p>
-            <p rend="stanza" n="20">Le dénommé Śrī Rājavallabha, séjour <supplied reason="explanation"><foreign>-ālayaḥ</foreign></supplied> de sagesse <supplied reason="explanation"><foreign>dhī</foreign></supplied>, de fortune <supplied reason="explanation"><foreign>śrī</foreign></supplied>, de vaillance <supplied reason="explanation"><foreign>śaurya</foreign></supplied>, de patience <supplied reason="explanation"><foreign>kṣamā</foreign></supplied>, a bâti ce splendide <supplied reason="explanation"><foreign>śrīmān</foreign></supplied> séjour <supplied reason="explanation"><foreign>ālayaḥ</foreign></supplied> de Tribhuvanañjaya <supplied reason="explanation"><foreign>traibhuvanañjayaḥ</foreign></supplied>.</p>
+ 	<p rend="stanza" n="1"><supplied reason="subaudible" >Vive ?</supplied> cet auguste Tribhuvanañjaya, dont le lustre des ongles des pieds ravit l’éclat des joyaux du/des diadème<supplied reason="explanation" >s</supplied> de ...</p>
+            <p rend="stanza" n="2">Les sens retirés dans la méditation bien que <supplied reason="explanation" >lui-même</supplied> objet, on ne sait comment <supplied reason="explanation" ><foreign>kim api</foreign></supplied>, de la méditation des <foreign>yogis</foreign>, il reposait, vigilant cependant, sur Śeṣa, dans l’océan de lait.</p>
+            <p rend="stanza" n="3">Et <supplied reason="subaudible" >de lui</supplied> a éclos, au nombril, l’Un, matrice de l’univers, le lotus portant l’abeille <supplied reason="explanation" >qu’est le dieu</supplied> à quatre bouches <supplied reason="explanation" >= Brahmā</supplied> bourdonnant la syllabe Oṃ.</p>
+            <p rend="stanza" n="4">Et portant une tête de cheval feinte, hennissant formidablement la syllabe Oṃ, il perfora <supplied reason="explanation" >la cataracte qui voilait</supplied> les yeux du Créateur <supplied reason="explanation" >= Brahmā</supplied> par le stylet, si l’on peut dire, qu’est le recouvrement des Veda.</p>
+            <p rend="stanza" n="5">Il <supplied reason="subaudible" >créa</supplied> l’univers, à commencer par Brahmā, puis, afin de <supplied reason="subaudible" >le</supplied> protéger, il créa lui-même, bien que non-né <supplied reason="explanation" ><foreign/></supplied>(ajo ’pi), sa propre naissance <supplied reason="explanation" ><foreign>janma</foreign></supplied>, au ciel et ici-bas, <supplied reason="subaudible" >d’âge en âge</supplied>.</p>
+            <p rend="stanza" n="6">Il a fait voir à Nārada, aux membres vertueux de l’assemblée <supplied reason="explanation" >des Kaurava</supplied>, au Pāṇḍava et à Utaṅka son propre corps à la fois serein et terri ant, qui contient tous les dieux.</p>
+            <p rend="stanza" n="7">Désireux de <supplied reason="subaudible" >soulever</supplied> la Terre, il cacha, comme pour esquiver la jalousie de la Fortune, son propre corps <supplied reason="subaudible" >à</supplied> l’abri d’un déguisement de sanglier.</p>
+            <p rend="stanza" n="8">Son corps d’Homme-Lion, dont les griffes acérées sont comme le foudre <supplied reason="explanation" >d’Indra</supplied> en fendant la montagne <supplied reason="explanation" ><foreign>adri</foreign></supplied> qu’est la poitrine <supplied reason="explanation" ><foreign>uras</foreign></supplied> du prince <supplied reason="explanation" ><foreign>indra</foreign></supplied> des Daitya <supplied reason="subaudible" >= Hiraṇyakaśipu</supplied>, a émerveillé les trois mondes.</p>
+            <p rend="stanza" n="9">Agissant comme un étalon des longueur, hauteur et largeur du ciel, son pied <supplied reason="explanation" ><foreign>pāda</foreign></supplied> éclipse par le scintillement des gemmes que sont ses ongles les rayons <supplied reason="explanation" ><foreign>pāda</foreign></supplied> du Soleil et de la Lune.</p>
+            <p rend="stanza" n="10">Renonçant à son corps divin <supplied reason="subaudible" >armé de <supplied reason="explanation" ><foreign>sajjāṃ</foreign></supplied> / dépourvu de <supplied reason="explanation" ><foreign>varja</foreign></supplied> / ?</supplied> puissance, <supplied reason="explanation" >qu’il avait adopté</supplied> pour accomplir l’œuvre des dieux, il a fait entrer l’univers dans l’ombre d’une demeure <supplied reason="explanation" >issue de sa</supplied> magie et <supplied reason="explanation" >l’y</supplied> a fait reposer.</p>
+            <p rend="stanza" n="11">En œuvrant à la ..., à la soulever <supplied reason="explanation" ><foreign>uddharaṇa</foreign></supplied>, à la déposer <supplied reason="explanation" ><foreign>ādhāna</foreign></supplied>, à l’arpenter <supplied reason="explanation" ><foreign>krānti</foreign></supplied>, à la protéger <supplied reason="explanation" ><foreign>rakṣā</foreign></supplied>, etc., il a rendu très manifeste que la Terre n’a pas d’autre maître <supplied reason="explanation" ><foreign>svāmin</foreign> que lui</supplied>.</p>
+            <p rend="stanza" n="12-13">Portion de ce <supplied reason="explanation" >dieu</supplied>, <supplied reason="subaudible" >le roi</supplied> appelé <supplied reason="subaudible" >Śrī</supplied> Jayavarman possédait, par son ardeur, sa puissance, sa vénusté, son équité, ses faveurs, etc., les caractéristiques d’Agni <supplied reason="explanation" >= le Feu</supplied>, de Śakra <supplied reason="explanation" >= Indra</supplied>, d’Indu <supplied reason="explanation" >= la Lune</supplied>, de Yama <supplied reason="explanation" >= le dieu de la Mort</supplied> et du Maître des Richesses <supplied reason="explanation" >= Kubera</supplied>. Les essaims <supplied reason="explanation" ><foreign>paṅkti</foreign></supplied> d’abeilles <supplied reason="explanation" ><foreign>ali</foreign></supplied> que sont les joyaux des diadèmes des meilleurs des rois se précipitaient sur les lotus <supplied reason="explanation" ><foreign>abja</foreign></supplied> de ses pieds.</p>
+            <p rend="stanza" n="14">Sa couche est <supplied reason="explanation" >pourvue</supplied> d’infinies jouissances / il repose sur les anneaux d’Ananta, la trace de ses pieds est bien vénérée / ses <supplied reason="explanation" >trois</supplied> enjambées sont très honorées, <supplied reason="explanation" ><foreign>muni</foreign></supplied> d’une armée / d’un disque, victorieux par ses  èches / vainqueur de Bāṇa, il est fortuné / accompagné de Śrī, en lieu et place de l’époux de Śrī.</p>
+            <p rend="stanza" n="15">La parole que dit le seigneur, à savoir « je suis le souverain <supplied reason="explanation" ><foreign>adhipa</foreign></supplied> ... », appliquée à lui, apparaît comme signi cative, dépassant les autres rois.</p>
+            <p rend="stanza" n="16">Quand elle l’eut obtenu comme époux, non dénué de vertus <supplied reason="explanation" ><foreign>sadguṇaiḥ ... ahīnam</foreign></supplied>, au lustre sans défaut <supplied reason="explanation" ><foreign>ahīnābham</foreign></supplied>, ayant le lustre du Roi des serpents <supplied reason="explanation" ><foreign>ahi-inābham</foreign></supplied>, la Terre fut célébrée comme étant pourvue d’un bon roi <supplied reason="explanation" ><foreign>rājanvatī</foreign></supplied>.</p>
+            <p rend="stanza" n="17">La statue de Hari qu’il a fondue, sur terre, avec ... <supplied reason="subaudible" >un certain nombre</supplied> ... <supplied reason="subaudible" >d’unités de poids appelés</supplied> bhāra ..., ... comme dans la pensée que Hari soutient la terre <supplied reason="explanation" >/ que Hari est le roi</supplied>, de telle sorte qu’il n’y ait plus de crainte concernant <supplied reason="subaudible" >l’action de soutenir</supplied> le fardeau de la Terre.</p>
+            <p rend="stanza" n="18">Il a installé selon le rite, avec dévotion, cette incomparable image de Hari, comme <supplied reason="explanation" >une image</supplied> appropriée à l’Âge kr̥ta, <supplied reason="explanation" >et</supplied> qui annihile la souffrance des dévots.</p>
+            <p rend="stanza" n="19">« <supplied reason="explanation" >Cet</supplied> ornement de la ville est-il le char divin <supplied reason="subaudible" >de - - - </supplied> ou le palais royal de Śakra ? Est-ce la porte du troisième ciel <supplied reason="subaudible" >celui d’Indra</supplied> ou un diadème de la terre ? » ; que cette demeure <supplied reason="explanation" ><foreign>dhāman</foreign></supplied> de Śrīpati <supplied reason="explanation" >l’époux de Śrī</supplied>, qui, contemplée avec étonnement, donna lieu à diverses conjectures chez les hommes, dure sur terre, semblable au Meru par sa stabilité.</p>
+            <p rend="stanza" n="20">Le dénommé Śrī Rājavallabha, séjour <supplied reason="explanation" ><foreign>-ālayaḥ</foreign></supplied> de sagesse <supplied reason="explanation" ><foreign>dhī</foreign></supplied>, de fortune <supplied reason="explanation" ><foreign>śrī</foreign></supplied>, de vaillance <supplied reason="explanation" ><foreign>śaurya</foreign></supplied>, de patience <supplied reason="explanation" ><foreign>kṣamā</foreign></supplied>, a bâti ce splendide <supplied reason="explanation" ><foreign>śrīmān</foreign></supplied> séjour <supplied reason="explanation" ><foreign>ālayaḥ</foreign></supplied> de Tribhuvanañjaya <supplied reason="explanation" ><foreign>traibhuvanañjayaḥ</foreign></supplied>.</p>
             </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
@@ -204,7 +219,9 @@
         <div type="bibliography">
 	<!--bibliography encoded as per section §9.4 -->
 	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
+           <p>Text is given after Gerschheimer and Goodall 2014.</p>
+           <listBibl type="primary"> 			
+              <bibl/><!-- one <bibl/> per item of primary bibliography --> 			</listBibl>            
            <listBibl type="secondary">
               <bibl/><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>

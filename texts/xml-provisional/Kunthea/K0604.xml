@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="eng">
         <fileDesc>
             <titleStmt>
                 <title>South Doorjamb of temple S at Sambor Prei Kuk (K. 604)</title>
                 <respStmt>
-                    <resp>Creation of the file</resp>
+                    <resp>EpiDoc Encoding</resp>
                     <persName ref="part:kuch">
                         <forename>Kunthea</forename>
                         <surname>Chhom</surname>
@@ -34,13 +31,31 @@
                         <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
                     </licence>
                 </availability>
-                <date from="2019" to="2025">2019-2025</date>
+                <date from="2019" to="2025" >2019-2025</date>
             </publicationStmt>
-            <sourceDesc>
-                <p>Text is given after Finot 1928, p. 44 et IC IV, p. 17 and adapted to the edition of Dominic Goodall 2019 by Chhom Kunthea. English translation is given after Dominic Goodall 2019.</p>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                            <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
             <change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change>
         </revisionDesc>
     </teiHeader> 
@@ -62,7 +77,7 @@
 <lg n="3" met="anuṣṭubh">
 <l n="1"><lb n="5"/>prayuktanayamātreṇa</l>
 <l n="2">kadācid avanībhujām</l>
-<l n="3"><lb n="6"/>pakṣacchidāpakartr̥̄ṇā<supplied reason="lost">ṁ</supplied> </l>
+<l n="3"><lb n="6"/>pakṣacchidāpakartr̥̄ṇā<supplied reason="lost" >ṁ</supplied> </l>
 <l n="4">bajrī yena viśeṣitaḥ</l>
 </lg>
 <lg n="4" met="anuṣṭubh">
@@ -104,7 +119,7 @@
 <lg n="10" met="anuṣṭubh">
 <l n="1"><lb n="19"/>Icchatā bhaktim īśāne</l>
 <l n="2">sthirāñ janmani janmani</l>
-<l n="3"><lb n="20"/>teneha sthāpitam i<unclear>da</unclear>ṁ</l>
+<l n="3"><lb n="20"/>teneha sthāpitam i<unclear >da</unclear>ṁ</l>
 <l n="4">liṅgaṁ śuddhābhisandhinā</l>
 </lg>
 <lg n="11" met="anuṣṭubh">
@@ -134,7 +149,7 @@
 <lg n="15" met="anuṣṭubh">
 <l n="1"><lb n="29"/>kr̥te puṇyādhikāre sminn</l>
 <l n="2">atha yajvā sa bhūbhujā</l>
-<l n="3"><lb n="30"/>ta<unclear>m</unclear>andarapurasvāmi</l>
+<l n="3"><lb n="30"/>ta<unclear >m</unclear>andarapurasvāmi</l>
 <l n="4">bhojakapravaraḥ kr̥taḥ</l>
 </lg>
 </div>
@@ -148,20 +163,20 @@
                </listApp>         
          </div>
          <div type="translation" xml:lang="fra">
- 	<p rend="stanza" n="1">May Śrī-Kadamveśvara protect you, who is the source of a superabundance of ineffable power, so that your good fortune remains undiminished <supplied reason="explanation">akṣīṇasampadaḥ</supplied>!</p>
-             <p rend="stanza" n="2">There was a king named Śrī-Īśānavarman, who, since he conquered by his valour <supplied reason="subaudible">/ his footsteps</supplied> <supplied reason="explanation"><foreign>vikrama°</foreign></supplied> the circle of the earth that has the seas for its moat, was like another Viṣṇu.</p>
-             <p rend="stanza" n="3">Being one who sometimes cut the factions <supplied reason="subaudible">/wings</supplied> of wrong-doing kings <supplied reason="subaudible">/mountains</supplied> by employing policy alone, he excelled <supplied reason="subaudible">even</supplied> the wielder of the thunderbolt, <supplied reason="subaudible">Indra</supplied>.</p>
-             <p rend="stanza" n="4">Stifling the odious birth of all quarrels <supplied reason="subaudible">/the birth of all the maliciousness of Kaliyuga</supplied>, he became, alone <supplied reason="explanation"><foreign>ekaḥ</foreign></supplied>, the quintessence of the properties of the kings of the early Yugas.</p>
-             <p rend="stanza" n="5">Surpassed by him in the number of sacri ces <supplied reason="subaudible">offered</supplied>, the king of the gods, I think, no longer attached much value to the name that his hundred sacri ces <supplied reason="explanation">Śatakratu</supplied> earned him.</p>
-             <p rend="stanza" n="6">In him, I suppose, Brahmā established Beauty <supplied reason="explanation"><foreign>vapuḥ</foreign></supplied>, so that it would not remain without a locus after the  ower-bow-wielding <supplied reason="subaudible">god of Love</supplied> had been burned.</p>
-             <p rend="stanza" n="7">This <supplied reason="explanation"><foreign>tena</foreign></supplied> king, whose glory extended to the cardinal points, appointed a servant to <supplied reason="subaudible">take care of</supplied> all his duties:</p>
-             <p rend="stanza" n="8">The experts of many sciences inscribed him at the head of the list of those who have followed <supplied reason="subaudible">to the end</supplied> the paths of grammar, of Vaiśeṣika, of Nyāya, and of the philosophy <supplied reason="subaudible">of the Sāṅkhyas</supplied> <supplied reason="explanation"><foreign>samīkṣā</foreign></supplied>.</p>
+ 	<p rend="stanza" n="1">May Śrī-Kadamveśvara protect you, who is the source of a superabundance of ineffable power, so that your good fortune remains undiminished <supplied reason="explanation" >akṣīṇasampadaḥ</supplied>!</p>
+             <p rend="stanza" n="2">There was a king named Śrī-Īśānavarman, who, since he conquered by his valour <supplied reason="subaudible" >/ his footsteps</supplied> <supplied reason="explanation" ><foreign>vikrama°</foreign></supplied> the circle of the earth that has the seas for its moat, was like another Viṣṇu.</p>
+             <p rend="stanza" n="3">Being one who sometimes cut the factions <supplied reason="subaudible" >/wings</supplied> of wrong-doing kings <supplied reason="subaudible" >/mountains</supplied> by employing policy alone, he excelled <supplied reason="subaudible" >even</supplied> the wielder of the thunderbolt, <supplied reason="subaudible" >Indra</supplied>.</p>
+             <p rend="stanza" n="4">Stifling the odious birth of all quarrels <supplied reason="subaudible" >/the birth of all the maliciousness of Kaliyuga</supplied>, he became, alone <supplied reason="explanation" ><foreign>ekaḥ</foreign></supplied>, the quintessence of the properties of the kings of the early Yugas.</p>
+             <p rend="stanza" n="5">Surpassed by him in the number of sacri ces <supplied reason="subaudible" >offered</supplied>, the king of the gods, I think, no longer attached much value to the name that his hundred sacri ces <supplied reason="explanation" >Śatakratu</supplied> earned him.</p>
+             <p rend="stanza" n="6">In him, I suppose, Brahmā established Beauty <supplied reason="explanation" ><foreign>vapuḥ</foreign></supplied>, so that it would not remain without a locus after the  ower-bow-wielding <supplied reason="subaudible" >god of Love</supplied> had been burned.</p>
+             <p rend="stanza" n="7">This <supplied reason="explanation" ><foreign>tena</foreign></supplied> king, whose glory extended to the cardinal points, appointed a servant to <supplied reason="subaudible" >take care of</supplied> all his duties:</p>
+             <p rend="stanza" n="8">The experts of many sciences inscribed him at the head of the list of those who have followed <supplied reason="subaudible" >to the end</supplied> the paths of grammar, of Vaiśeṣika, of Nyāya, and of the philosophy <supplied reason="subaudible" >of the Sāṅkhyas</supplied> <supplied reason="explanation" ><foreign>samīkṣā</foreign></supplied>.</p>
              <p rend="stanza" n="9">Poet, philosopher, knower of the world, this maître named Vidyāviśeṣa considered his friends as dear as his own breaths.</p>
-             <p rend="stanza" n="10">He whose intentions were pure <supplied reason="explanation"><foreign>śuddhābhisandhinā</foreign></supplied>, wishing that <supplied reason="subaudible">his</supplied> devotion to Īśāna would remain  rm in every birth, erected this liṅga here.</p>
-             <p rend="stanza" n="11">The village named Śākatīrtha,  lled with servants, oxen, buffalo, gardens,  elds, etc., is the gift of the founder <supplied reason="explanation"><foreign>yajvanaḥ</foreign></supplied> to Īśa.</p>
+             <p rend="stanza" n="10">He whose intentions were pure <supplied reason="explanation" ><foreign>śuddhābhisandhinā</foreign></supplied>, wishing that <supplied reason="subaudible" >his</supplied> devotion to Īśāna would remain  rm in every birth, erected this liṅga here.</p>
+             <p rend="stanza" n="11">The village named Śākatīrtha,  lled with servants, oxen, buffalo, gardens,  elds, etc., is the gift of the founder <supplied reason="explanation" ><foreign>yajvanaḥ</foreign></supplied> to Īśa.</p>
              <p rend="stanza" n="12">A Pāśupata brahmin appointed by the king for the service of the god should enjoy the revenues of the temple until the destruction of the world.</p>
              <p rend="stanza" n="13">He must imperatively protect this scrupulously as if it were his own pious work, if he wishes blessings bestowed by good people.</p>
-             <p rend="stanza" n="14">In the year of arrows-seas-gates <supplied reason="explanation">549</supplied>, on the 22nd day of the month of Iṣa <supplied reason="explanation">Āśvina</supplied>, under the asterism Puṣya, Leo being at the horizon, this Hara was erected.</p>
+             <p rend="stanza" n="14">In the year of arrows-seas-gates <supplied reason="explanation" >549</supplied>, on the 22nd day of the month of Iṣa <supplied reason="explanation" >Āśvina</supplied>, under the asterism Puṣya, Leo being at the horizon, this Hara was erected.</p>
              <p rend="stanza" n="15">After this act that entitles him to merit had been accomplished, the king then made this benefactor the excellent governor of Tamandarapura.</p>
          </div>
          <div type="commentary">
@@ -170,8 +185,8 @@
         <div type="bibliography">
 	<!--bibliography encoded as per section §9.4 -->
 	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
-           <listBibl type="secondary">
+           <p>Text is given after Finot 1928, p. 44 et IC IV, p. 17 and adapted to the edition of Dominic Goodall 2019 by Chhom Kunthea. English translation is given after Dominic Goodall 2019.</p>
+           <listBibl type="primary"> 				<bibl/><!-- one <bibl/> per item of primary bibliography --> 			</listBibl>            <listBibl type="secondary">
               <bibl/><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>

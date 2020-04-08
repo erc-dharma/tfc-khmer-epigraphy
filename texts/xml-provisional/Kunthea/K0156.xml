@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="eng">
         <fileDesc>
             <titleStmt>
                 <title>Doorjamb at Vat Maha (K. 156)</title>
                 <respStmt>
-                    <resp>Creation of the file</resp>
+                    <resp>EpiDoc Encoding</resp>
                     <persName ref="part:kuch">
                         <forename>Kunthea</forename>
                         <surname>Chhom</surname>
@@ -34,13 +31,31 @@
                         <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
                     </licence>
                 </availability>
-                <date from="2019" to="2025">2019-2025</date>
+                <date from="2019" to="2025" >2019-2025</date>
             </publicationStmt>
-            <sourceDesc>
-                <p>Text is given after Cœdès (IC V); some corrections were added by Dominic Goodall in May 2015.</p>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                            <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
             <change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change>
         </revisionDesc>
     </teiHeader> 
@@ -48,37 +63,37 @@
         <body>
                 <div type="edition" xml:lang="san-Latn">
 <lg n="1" met="anuṣṭubh">
-<l n="1"><lb n="1"/><gap reason="lost" extent="8" unit="character"/></l>
-<l n="2"><gap reason="lost" extent="8" unit="character"/></l>
-<l n="3"><lb n="2"/><gap reason="lost" extent="8" unit="character"/></l>
-<l n="4"><gap reason="lost" extent="8" unit="character"/></l>
+<l n="1"><lb n="1"/><gap reason="lost" extent="8" unit="character" /></l>
+<l n="2"><gap reason="lost" extent="8" unit="character" /></l>
+<l n="3"><lb n="2"/><gap reason="lost" extent="8" unit="character" /></l>
+<l n="4"><gap reason="lost" extent="8" unit="character" /></l>
 </lg>
 <lg n="2" met="anuṣṭubh">
-<l n="1"><lb n="3"/><gap reason="lost" extent="8" unit="character"/></l>
-<l n="2"><gap reason="lost" extent="8" unit="character"/></l>
-<l n="3"><lb n="4"/><gap reason="lost" extent="8" unit="character"/></l>
-<l n="4"><gap reason="lost" extent="8" unit="character"/></l>
+<l n="1"><lb n="3"/><gap reason="lost" extent="8" unit="character" /></l>
+<l n="2"><gap reason="lost" extent="8" unit="character" /></l>
+<l n="3"><lb n="4"/><gap reason="lost" extent="8" unit="character" /></l>
+<l n="4"><gap reason="lost" extent="8" unit="character" /></l>
 </lg>
 <lg n="3" met="anuṣṭubh">
-<l n="1"><lb n="5"/><gap reason="lost" extent="8" unit="character"/></l>
-<l n="2"><gap reason="lost" extent="8" unit="character"/></l>
-<l n="3"><lb n="6"/><gap reason="lost" extent="8" unit="character"/></l>
-<l n="4"><gap reason="lost" extent="8" unit="character"/></l>
+<l n="1"><lb n="5"/><gap reason="lost" extent="8" unit="character" /></l>
+<l n="2"><gap reason="lost" extent="8" unit="character" /></l>
+<l n="3"><lb n="6"/><gap reason="lost" extent="8" unit="character" /></l>
+<l n="4"><gap reason="lost" extent="8" unit="character" /></l>
 </lg>
 <lg n="4" met="anuṣṭubh">
-<l n="1"><lb n="7"/><gap reason="lost" extent="8" unit="character"/></l>
-<l n="2"><gap reason="lost" extent="8" unit="character"/></l>
-<l n="3"><lb n="8"/><gap reason="lost" extent="8" unit="character"/></l>
-<l n="4"><gap reason="lost" extent="8" unit="character"/></l>
+<l n="1"><lb n="7"/><gap reason="lost" extent="8" unit="character" /></l>
+<l n="2"><gap reason="lost" extent="8" unit="character" /></l>
+<l n="3"><lb n="8"/><gap reason="lost" extent="8" unit="character" /></l>
+<l n="4"><gap reason="lost" extent="8" unit="character" /></l>
 </lg>
 <lg n="5" met="anuṣṭubh">
-<l n="1"><lb n="9"/><gap reason="lost" extent="8" unit="character"/></l>
-<l n="2"><gap reason="lost" extent="8" unit="character"/></l>
-<l n="3"><lb n="10"/><gap reason="lost" extent="8" unit="character"/></l>
-<l n="4"><gap reason="lost" extent="8" unit="character"/></l>
+<l n="1"><lb n="9"/><gap reason="lost" extent="8" unit="character" /></l>
+<l n="2"><gap reason="lost" extent="8" unit="character" /></l>
+<l n="3"><lb n="10"/><gap reason="lost" extent="8" unit="character" /></l>
+<l n="4"><gap reason="lost" extent="8" unit="character" /></l>
 </lg>
 <lg n="6" met="anuṣṭubh">
-<l n="1"><lb n="11"/><seg met="- - -"><gap reason="lost" quantity="3" unit="character"/></seg> kr̥panaṁ dr̥ṣṭvā</l>
+<l n="1"><lb n="11"/><seg met="- - -"><gap reason="lost" quantity="3" unit="character" /></seg> kr̥panaṁ dr̥ṣṭvā</l>
 <l n="2">yaṁ kauravasuyodhanāḥ</l>
 <l n="3" real="+++---++"><lb n="12"/>vandīnān tu navayuddhe</l>
 <l n="4">nemur na tu yudhiṣṭhiraṁ ||</l>
@@ -86,11 +101,11 @@
 <lg n="7" met="anuṣṭubh">
 <l n="1" met="- - ⏑ - ⏑ ⏑ ⏑ -"><lb n="13"/>dhāmasthito vahudhiyā</l>
 <l n="2">śaktyācalajayā mataḥ</l>
-<l n="3"><lb n="14"/><unclear>triśa</unclear>ktiśūlavān mānyo</l>
+<l n="3"><lb n="14"/><unclear >triśa</unclear>ktiśūlavān mānyo</l>
 <l n="4">yaś śaṅkara ivāparaḥ ||</l>
 </lg>
 <lg n="8" met="anuṣṭubh">
-<l n="1"><lb n="15"/>gurupriyaḥ <unclear>kr̥pā</unclear>cāryyaḥ</l>
+<l n="1"><lb n="15"/>gurupriyaḥ <unclear >kr̥pā</unclear>cāryyaḥ</l>
 <l n="2">kr̥tavarmmā jayadrathaḥ</l>
 <l n="3"><lb n="16"/>gurus suyodhanas samā</l>
 <l n="4">nemus te yan dhanāñjayam ||</l>
@@ -123,7 +138,7 @@
 <l n="1"><lb n="25"/>tejasā yo tidīptena</l>
 <l n="2">jagat pātun tapo karot</l>
 <l n="3"><lb n="26"/>dagdhum eva tapasyan tam</l>
-<l n="4">aurvan v<choice><sic>ī</sic><corr>i</corr></choice>dvo hasann iva ||</l>
+<l n="4">aurvan v<choice><sic>ī</sic><corr >i</corr></choice>dvo hasann iva ||</l>
 </lg>
 <lg n="14" met="anuṣṭubh">
 <l n="1"><lb n="27"/>vācaspatir dhiyā bhūmiḥ</l>
@@ -141,7 +156,7 @@
 <l n="1"><lb n="31"/>kṣīrāśī yo mahātejā</l>
 <l n="2">pūjyaś śrīkamvubhūbhr̥tām</l>
 <l n="3"><lb n="32"/>heman nāgamukhīn dolāṁ</l>
-<l n="4">yasmai so dā<choice><sic>t</sic><corr>d</corr></choice> mahīdharaḥ ||</l>
+<l n="4">yasmai so dā<choice><sic>t</sic><corr >d</corr></choice> mahīdharaḥ ||</l>
 </lg>
 <lg n="17" met="anuṣṭubh">
 <l n="1"><lb n="33"/>viṣayan nyastaśeṣākhyaṁ</l>
@@ -152,7 +167,7 @@
 <lg n="18" met="anuṣṭubh">
 <l n="1"><lb n="35"/>cāmīkaraṁ samudgena</l>
 <l n="2">karaṅkaṅ kamalāṅkitam</l>
-<l n="3"><lb n="36"/>nityotphul<choice><sic>t</sic><corr>l</corr></choice>aṁ śriyaḥ padman</l>
+<l n="3"><lb n="36"/>nityotphul<choice><sic>t</sic><corr >l</corr></choice>aṁ śriyaḥ padman</l>
 <l n="4">dadau yasmai sa bhūpatiḥ ||</l>
 </lg>
 <lg n="19" met="anuṣṭubh">
@@ -179,8 +194,8 @@
              <p rend="stanza" n="5">ruiné</p>
              <p rend="stanza" n="6">Ayant vu ce roi plein de pitié .... , les bons guerriers Kaurava dans une nouvelle bataille de bardes, s'abaissèrent devant lui, alors qu'ils ne l'avaient pas fait devant Yudhiṣṭhira.</p>
              <p rend="stanza" n="7">Installé dans la gloire par l'estime qu'il inspirait, renommé pour sa puissance incoercible, possédant un trident, digne de respect, il était comme un autre Śaṅkara.</p>
-             <p rend="stanza" n="8">Celui qui est cher à son maître <supplied reason="subaudible">ou: cher à Droṇa = Açvatthāman</supplied>, celui qui a pour maître la pitié <supplied reason="subaudible">ou: le maître Kr̥pa</supplied>, celui qui est protégé par ses bonnes actions <supplied reason="subaudible">ou: Kr̥tavarman</supplied>, celui dont les chars sont victorieux <supplied reason="subaudible">ou: Jayadratha</supplied>, le maître <supplied reason="subaudible">ou: Droṇa</supplied>, le bon guerrier <supplied reason="subaudible">ou: Suyodhana = Duryodhana</supplied>, tous également s'abaissaient devant ce vainqueur <supplied reason="subaudible">ou: ce Dhanañjaya = Arjuna</supplied>.</p>
-             <p rend="stanza" n="9">Donnant plus de mille vaches <supplied reason="subaudible">ou: plus de mille rayons</supplied>, faisant briller les rois à son passage, il jouissait pendant le jour d'une constante prospérité <supplied reason="subaudible">ou: se levait constamment le jour</supplied> et il ne connaissait pas de déclin la nuit <supplied reason="subaudible">ou: ne se couchait pas la nuit</supplied>, bien qu'il fût un soleil.</p>
+             <p rend="stanza" n="8">Celui qui est cher à son maître <supplied reason="subaudible" >ou: cher à Droṇa = Açvatthāman</supplied>, celui qui a pour maître la pitié <supplied reason="subaudible" >ou: le maître Kr̥pa</supplied>, celui qui est protégé par ses bonnes actions <supplied reason="subaudible" >ou: Kr̥tavarman</supplied>, celui dont les chars sont victorieux <supplied reason="subaudible" >ou: Jayadratha</supplied>, le maître <supplied reason="subaudible" >ou: Droṇa</supplied>, le bon guerrier <supplied reason="subaudible" >ou: Suyodhana = Duryodhana</supplied>, tous également s'abaissaient devant ce vainqueur <supplied reason="subaudible" >ou: ce Dhanañjaya = Arjuna</supplied>.</p>
+             <p rend="stanza" n="9">Donnant plus de mille vaches <supplied reason="subaudible" >ou: plus de mille rayons</supplied>, faisant briller les rois à son passage, il jouissait pendant le jour d'une constante prospérité <supplied reason="subaudible" >ou: se levait constamment le jour</supplied> et il ne connaissait pas de déclin la nuit <supplied reason="subaudible" >ou: ne se couchait pas la nuit</supplied>, bien qu'il fût un soleil.</p>
              <p rend="stanza" n="10">Il eut un agent personnel, un savant, buveur de lait, qui avait dompté ses sens, qui était endurant à l'égard des austérités et était animé envers son maître d'une dévotion brûlante comme le feu.</p>
              <p rend="stanza" n="11">Portant le nom de Kambu, et descendant du Brahmarṣi, par sa science, son ascétisme, sa patience et sa libéralité, il était comme un autre Kambu.</p>
              <p rend="stanza" n="12">Observant la Loi, ayant pris la Loi pour demeure, ce Brahmarṣi né dans la famille de Kambu, brûlait la mauvaise conduite, comme par désir de vaincre Kali.</p>
@@ -198,8 +213,8 @@
         <div type="bibliography">
 	<!--bibliography encoded as per section §9.4 -->
 	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
-           <listBibl type="secondary">
+           <p>Text is given after Cœdès (IC V); some corrections were added by Dominic Goodall in May 2015.</p>
+           <listBibl type="primary"> 				<bibl/><!-- one <bibl/> per item of primary bibliography --> 			</listBibl>            <listBibl type="secondary">
               <bibl/><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>

@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="eng">
       <fileDesc>
          <titleStmt>
             <title>Probably a stela from Angkor Borei (K. 1148)</title>
             <respStmt>
-               <resp>Creation of the file</resp>
+               <resp>EpiDoc Encoding</resp>
                <persName ref="part:kuch">
                   <forename>Kunthea</forename>
                   <surname>Chhom</surname>
@@ -34,13 +31,31 @@
                	<p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
                </licence>
             </availability>
-            <date from="2019" to="2025">2019-2025</date>
+            <date from="2019" to="2025" >2019-2025</date>
          </publicationStmt>
-         <sourceDesc>
-            <p>Text is given after Saveros Pou, NIC II-III, p. 198, checked against the estampage EFEO n. 1713 and photos by Bertrand Porte. The translation is given after S. Pou's edition whereas that of the Sanskrit stanza is by CIK's team.</p>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/><!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc>
+     <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
         <change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change>
      </revisionDesc>
   </teiHeader>
@@ -50,21 +65,21 @@
 <p>
    <lb n="1"/>qaṁnoy· mratāñ· qakṣaravindu nu qanro
    <lb n="2" break="no"/>k· qañ· qai ta qāśrama vā kdik· pqon·
-   <lb n="3"/>vā <num value="2">II</num> ku niṣṭhura tnor· kñ<unclear>u</unclear>ṁ qāśrama man·
-   <lb n="4"/>mratāñ· <choice><sic>sāsāṅka</sic><corr>sāmanta</corr></choice> tor· kon· ku phoṅ·
+   <lb n="3"/>vā <num value="2">II</num> ku niṣṭhura tnor· kñ<unclear >u</unclear>ṁ qāśrama man·
+   <lb n="4"/>mratāñ· <choice><sic>sāsāṅka</sic><corr >sāmanta</corr></choice> tor· kon· ku phoṅ·
    <lb n="5"/>qis· ge ai ta qāśrama sre tloṅ· <num value="3">III</num>
    <lb n="6"/>toṅ· tneṁ <num value="1">I</num> tmur· dneṁ <num value="1">I</num> qaṁnoy· poñ·
    <lb n="7"/>suman nibhā nu ge qnak· kantaiya sre tloṅ·
    <lb n="8"/><num value="2">II</num> toṅ· tneṁ <num value="1">I</num> gi kṣetra ta nā jlaṅ· qā
-   <lb n="9" break="no"/>śrama jaṁnāhv· poñ· <choice><unclear>su</unclear><unclear>qa</unclear></choice>man· tel·
+   <lb n="9" break="no"/>śrama jaṁnāhv· poñ· <choice><unclear >su</unclear><unclear >qa</unclear></choice>man· tel·
    <lb n="10"/>qoy· teṁ puṇya mratāñ· yajamāna gi qa
-   <lb n="11" break="no"/>vā<del>dai</del>sa dai <num value="1">I</num>
+   <lb n="11" break="no"/>vā<del  status="unremarkable">dai</del>sa dai <num value="1">I</num>
 </p>
 <lg>
 <l n="1"><lb n="11"/>yad dattaṁ śramanādibhyo</l>
-<l n="2"><lb n="12"/>dadato pi na tad dhana<unclear>ṁ</unclear></l>
+<l n="2"><lb n="12"/>dadato pi na tad dhana<unclear >ṁ</unclear></l>
 <l n="3">tad ahāryyaṁ nr̥pe<lb n="13"/>nāpi</l>
-<l n="4">ki<del>ṁ</del> punas suta<space quantity="1" unit="character"/>vāndhavai<del>ṁ</del></l>
+<l n="4">ki<del  status="unremarkable">ṁ</del> punas suta<space quantity="1" unit="character"/>vāndhavai<del  status="unremarkable">ṁ</del></l>
 </lg>
 </div>
 <div type="apparatus">
@@ -77,9 +92,9 @@
                </listApp>         
          </div>
             <div type="translation" xml:lang="fra">
-                <p n="1-6">Offrandes de Mratāñ Qakṣaravindu et Qanros Qañ à l'<foreign>qāśrama</foreign>qāśrama : Vā Kdik avec ses deux cadets ; Ku Niṣṭhura ... des serviteurs de l'qāśrama que Mratāñ Sāmanta avait échangée, accompagnée de son <supplied reason="explanation">ses</supplied> enfant<supplied reason="explanation">s</supplied> ..... réunis aux gens de l'<foreign>qāśrama</foreign> ; 3 <foreign>tloṅ</foreign> de rizières ; 1 cocotier ; 1 paire de boeufs.</p>
+                <p n="1-6">Offrandes de Mratāñ Qakṣaravindu et Qanros Qañ à l'<foreign>qāśrama</foreign>qāśrama : Vā Kdik avec ses deux cadets ; Ku Niṣṭhura ... des serviteurs de l'qāśrama que Mratāñ Sāmanta avait échangée, accompagnée de son <supplied reason="explanation" >ses</supplied> enfant<supplied reason="explanation" >s</supplied> ..... réunis aux gens de l'<foreign>qāśrama</foreign> ; 3 <foreign>tloṅ</foreign> de rizières ; 1 cocotier ; 1 paire de boeufs.</p>
                <p n="6-11">Offrandes de Poñ Suman Nibhā : des servants ; 2 <foreign>tloṅ</foreign> de rizières ; 1 cocotier. Les champs à Jlaṅ Qāśrama achetés par Poñ Amar forment un capital de mérites pour le Mratāñ donateur .....</p>
-               <p rend="stanza" n="1">Ce qui a été donné aux ascètes <supplied reason="explanation"><foreign>śramaṇa</foreign></supplied>, cela n’est plus le bien même du donateur ; cela ne doit pas être pris même par le roi <supplied reason="explanation"><foreign>nr̥peṇa api</foreign></supplied>, à plus forte raison par les enfants <supplied reason="explanation"><foreign>suta</foreign></supplied> et la parentèle <supplied reason="explanation"><foreign>bāndhava</foreign></supplied>.</p>
+               <p rend="stanza" n="1">Ce qui a été donné aux ascètes <supplied reason="explanation" ><foreign>śramaṇa</foreign></supplied>, cela n’est plus le bien même du donateur ; cela ne doit pas être pris même par le roi <supplied reason="explanation" ><foreign>nr̥peṇa api</foreign></supplied>, à plus forte raison par les enfants <supplied reason="explanation" ><foreign>suta</foreign></supplied> et la parentèle <supplied reason="explanation" ><foreign>bāndhava</foreign></supplied>.</p>
                            </div>       
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
@@ -87,8 +102,8 @@
         <div type="bibliography">
 	<!--bibliography encoded as per section §9.4 -->
 	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
-           <listBibl type="secondary">
+           <p>Text is given after Saveros Pou, NIC II-III, p. 198, checked against the estampage EFEO n. 1713 and photos by Bertrand Porte. The translation is given after S. Pou's edition whereas that of the Sanskrit stanza is by CIK's team.</p>
+           <listBibl type="primary"> 				<bibl/><!-- one <bibl/> per item of primary bibliography --> 			</listBibl>            <listBibl type="secondary">
               <bibl/><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>

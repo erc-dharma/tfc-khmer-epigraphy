@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="eng">
       <fileDesc>
          <titleStmt>
             <title>Stela from Kdei Ang (K. 55)</title>
             <respStmt>
-               <resp>Creation of the file</resp>
+               <resp>EpiDoc Encoding</resp>
                <persName ref="part:kuch">
                   <forename>Kunthea</forename>
                   <surname>Chhom</surname>
@@ -34,13 +31,30 @@
                	<p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
                </licence>
             </availability>
-            <date from="2019" to="2025">2019-2025</date>
+            <date from="2019" to="2025" >2019-2025</date>
          </publicationStmt>
-         <sourceDesc>
-            <p>Sanskrit text revised against the editions and the estampage by Dominic Goodall in April 2015. The four stanzas of K. 54, which precede K.55 in both editions, are included in a separate file for K. 54.  The electronic text below broadly follows the edition of Cœdès in IC III, p. 157, which numbers the stanzas below as V--XVI (in Barth's edition they are I--XII, ISC, p. 51).</p>
-         </sourceDesc>
-      </fileDesc>
-     <revisionDesc>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/><!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>      </fileDesc>
+     <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
         <change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change>
      </revisionDesc>
   </teiHeader>  
@@ -49,19 +63,19 @@
                 <div type="edition" xml:lang="san-Latn">
 <lg n="1" met="anuṣṭubh">
 <l n="1"><lb n="1"/>punas saṁskr̥tya tenaiva</l>
-<l n="2">śrī<supplied reason="lost">madā</supplied>mrātakeśvare</l>
+<l n="2">śrī<supplied reason="lost" >madā</supplied>mrātakeśvare</l>
 <l n="3"><lb n="2"/>yojitāśeṣavibhavaṁ</l>
-<l n="4">śiva<supplied reason="lost">li</supplied>ṅgadvayaṁ kr̥ta<supplied reason="lost">m //</supplied></l>
+<l n="4">śiva<supplied reason="lost" >li</supplied>ṅgadvayaṁ kr̥ta<supplied reason="lost" >m //</supplied></l>
 </lg>
 <lg n="2" met="anuṣṭubh">
 <l n="1"><lb n="3"/>somaśarmmā jaṭāliṅgaṁ</l>
-<l n="2">hariś caite tathā <seg met="- +"><gap reason="lost" quantity="2" unit="character"/></seg></l>
+<l n="2">hariś caite tathā <seg met="- +"><gap reason="lost" quantity="2" unit="character" /></seg></l>
 <l n="3"><lb n="4"/>teṣān tena ca dattaṁ yo</l>
-<l n="4">devasvaṁ hartum iccha<supplied reason="lost">ti //</supplied></l>
+<l n="4">devasvaṁ hartum iccha<supplied reason="lost" >ti //</supplied></l>
 </lg>
 <lg n="3" met="anuṣṭubh">
 <l n="1"><lb n="5"/>sa mūḍho narakaṁ yātu</l>
-<l n="2">kālasūtram avāṅśirā<supplied reason="lost">ḥ</supplied></l>
+<l n="2">kālasūtram avāṅśirā<supplied reason="lost" >ḥ</supplied></l>
 <l n="3"><lb n="6"/>saputrapautrasantāna</l>
 <l n="4">Ā saptamakulād api</l>
 </lg>
@@ -99,25 +113,25 @@
 <l n="1"><lb n="17"/>tenaiva rājñā dharmmajñas</l>
 <l n="2">sadbhr̥tyaḥ kulasantateḥ</l>
 <l n="3">satkr̥tyāḍhyapurasyāḍhyo</l>
-<l n="4"><supplied reason="lost">yo dhyakṣatve</supplied> niyojitaḥ</l>
+<l n="4"><supplied reason="lost" >yo dhyakṣatve</supplied> niyojitaḥ</l>
 </lg>
 <lg n="10" met="anuṣṭubh">
 <l n="1"><lb n="18"/>tenotsavaś śivasyāsya</l>
 <l n="2">saṁmataḥ puravāsināṁ</l>
 <l n="3">varadagrāmapatinā</l>
-<l n="4"><seg met="= = = ="><gap reason="lost" quantity="4" unit="character"/></seg> bhavuddhinā</l>
+<l n="4"><seg met="= = = ="><gap reason="lost" quantity="4" unit="character" /></seg> bhavuddhinā</l>
 </lg>
 <lg n="11" met="anuṣṭubh">
-<l n="1"><lb n="19"/>mādhavasya tr̥tīy<choice><sic>ā</sic><corr>e</corr></choice> hni</l>
+<l n="1"><lb n="19"/>mādhavasya tr̥tīy<choice><sic>ā</sic><corr >e</corr></choice> hni</l>
 <l n="2">dānakālapraśaṅsite</l>
 <l n="3">karttavyaś śraddhayā puṁbhir</l>
-<l n="4">i<supplied reason="lost">cchadbhiḥ phala</supplied>m akshayam</l>
+<l n="4">i<supplied reason="lost" >cchadbhiḥ phala</supplied>m akshayam</l>
 </lg>
 <lg n="12" met="anuṣṭubh">
 <l n="1"><lb n="20"/>puṇyaṁ vījan na kuryyād yaḥ</l>
 <l n="2">puṇyakṣetre maheśvare</l>
 <l n="3" enjamb="yes">Urusampatvalśāvāpti</l>
-<l n="4">-nirāśa <seg met="= - +"><gap reason="lost" quantity="3" unit="character"/></seg>  ha ca</l>
+<l n="4">-nirāśa <seg met="= - +"><gap reason="lost" quantity="3" unit="character" /></seg>  ha ca</l>
 </lg>
 </div>
 <div type="apparatus">
@@ -130,18 +144,18 @@
                </listApp>         
          </div>
          <div type="translation" xml:lang="fra">
- 	<p rend="stanza" n="1">Les ayant consacrés à nouveau, le même érigea avec toute la richesse <supplied reason="explanation">requise</supplied>, deux liṅgas dans <supplied reason="explanation">le temple du</supplied> vénérable Āmrātakeśvara.</p>
-            <p rend="stanza" n="2">Un liṅga à chignon de Somaśarman, Hari, ces <supplied reason="explanation">dieux</supplied> et ...: celui qui voudrait ravir le bien des dieux donné par lui à ces <supplied reason="explanation">divinités</supplied>,</p>
+ 	<p rend="stanza" n="1">Les ayant consacrés à nouveau, le même érigea avec toute la richesse <supplied reason="explanation" >requise</supplied>, deux liṅgas dans <supplied reason="explanation" >le temple du</supplied> vénérable Āmrātakeśvara.</p>
+            <p rend="stanza" n="2">Un liṅga à chignon de Somaśarman, Hari, ces <supplied reason="explanation" >dieux</supplied> et ...: celui qui voudrait ravir le bien des dieux donné par lui à ces <supplied reason="explanation" >divinités</supplied>,</p>
             <p rend="stanza" n="3">que cet insensé aille dans l'enfer Kālasūtra, la tête la première, avec la lignée de ses fils et de ses petits-fils, jusqu'à la septième génération.</p>
-            <p rend="stanza" n="4">Celui qui s'aviserait de ravir la terre donnée par lui-même ou par un autre, expie <supplied reason="explanation">ce forfait</supplied> changé en ver <supplied reason="explanation">et plongé</supplied>, lui et ses ancêtres, dans des excréments de chien.</p>
-            <p rend="stanza" n="5">Cette rougeur comparable aux teintes de la laque, que tous les habitants de la ville voyaient chaque jour s'épanouir au haut des feuilles des lotus de l'étang de Śrī Hari, elle avait péri sans laisser de trace. Mais voici qu'elle renaît dans cet <supplied reason="explanation">étang</supplied> restauré par toi, et que les nymphéas <supplied reason="explanation">redevenus</supplied> d'une infinie splendeur montrent en quelque sorte <supplied reason="explanation">eux-mêmes combien</supplied> ton coeur est attaché à la piété.</p>
-            <p rend="stanza" n="6">Si, reprenant bien vite la rougeur intérieure qui leur fut si longtemps propre, cette forêt de lotus déploie de nouveau maintenant ses formes ravissantes où l'éclat de la nacre s'allie à celui du jasmin, et de la lune, la cause en est ton coeur capable de <supplied reason="explanation">toute</supplied> action salutaire.</p>
-            <p rend="stanza" n="7"><supplied reason="explanation">Il est</supplied> un roi Śrī Jayavarman, qui a surpassé les autres princes de la terre, pleine lune dans le ciel sans tache de la race lunaire.</p>
-            <p rend="stanza" n="8">A ce Gririśa fut donné un <foreign>kośa</foreign> brillant comme le feu par ce <supplied reason="explanation">prince</supplied> qui donnait des trésors <supplied reason="explanation"><foreign>kośa</foreign></supplied> par milliers et dont la gloire était proclamée dans toutes les régions.</p>
-            <p rend="stanza" n="9">Ce roi eut un serviteur excellent, instruit dans le devoir, lequel, selon la succession établie dans sa famille, fut institué par lui, après avoir été comblé d'honneurs, opulent <supplied reason="explanation"><foreign>āḍhya</foreign></supplied> lui-même, <supplied reason="subaudible">dans le gouvernement de la ville</supplied> d'Āḍdhyapura.</p>
-            <p rend="stanza" n="10">Et c'est par celui-ci, le maître du Varadagrāma, à l'intelligence ..., que fut ordonnée la tête <supplied reason="explanation">en l'honneur</supplied> de ce Śiva <supplied reason="explanation">à célébrer</supplied> par les habitants de la ville.</p>
-            <p rend="stanza" n="11">Le troisième jour <supplied reason="explanation">du mois</supplied> de Mādhava, qui est recommandé comme une époque <supplied reason="explanation">favorable pour faire</supplied> des dons, elle doit être célébrée avec foi par les hommes <supplied reason="subaudible">qui sont désireux d'un fruit</supplied> impérissable.</p>
-            <p rend="stanza" n="12">Qui ne fait pas semence de bonnes oeuvres en ce champ pur <supplied reason="explanation">qui est</supplied> Maheśvara ne saurait espérer une moisson abondante <supplied reason="subaudible">dans l'autre monde</supplied> ni ici-bas.</p>
+            <p rend="stanza" n="4">Celui qui s'aviserait de ravir la terre donnée par lui-même ou par un autre, expie <supplied reason="explanation" >ce forfait</supplied> changé en ver <supplied reason="explanation" >et plongé</supplied>, lui et ses ancêtres, dans des excréments de chien.</p>
+            <p rend="stanza" n="5">Cette rougeur comparable aux teintes de la laque, que tous les habitants de la ville voyaient chaque jour s'épanouir au haut des feuilles des lotus de l'étang de Śrī Hari, elle avait péri sans laisser de trace. Mais voici qu'elle renaît dans cet <supplied reason="explanation" >étang</supplied> restauré par toi, et que les nymphéas <supplied reason="explanation" >redevenus</supplied> d'une infinie splendeur montrent en quelque sorte <supplied reason="explanation" >eux-mêmes combien</supplied> ton coeur est attaché à la piété.</p>
+            <p rend="stanza" n="6">Si, reprenant bien vite la rougeur intérieure qui leur fut si longtemps propre, cette forêt de lotus déploie de nouveau maintenant ses formes ravissantes où l'éclat de la nacre s'allie à celui du jasmin, et de la lune, la cause en est ton coeur capable de <supplied reason="explanation" >toute</supplied> action salutaire.</p>
+            <p rend="stanza" n="7"><supplied reason="explanation" >Il est</supplied> un roi Śrī Jayavarman, qui a surpassé les autres princes de la terre, pleine lune dans le ciel sans tache de la race lunaire.</p>
+            <p rend="stanza" n="8">A ce Gririśa fut donné un <foreign>kośa</foreign> brillant comme le feu par ce <supplied reason="explanation" >prince</supplied> qui donnait des trésors <supplied reason="explanation" ><foreign>kośa</foreign></supplied> par milliers et dont la gloire était proclamée dans toutes les régions.</p>
+            <p rend="stanza" n="9">Ce roi eut un serviteur excellent, instruit dans le devoir, lequel, selon la succession établie dans sa famille, fut institué par lui, après avoir été comblé d'honneurs, opulent <supplied reason="explanation" ><foreign>āḍhya</foreign></supplied> lui-même, <supplied reason="subaudible" >dans le gouvernement de la ville</supplied> d'Āḍdhyapura.</p>
+            <p rend="stanza" n="10">Et c'est par celui-ci, le maître du Varadagrāma, à l'intelligence ..., que fut ordonnée la tête <supplied reason="explanation" >en l'honneur</supplied> de ce Śiva <supplied reason="explanation" >à célébrer</supplied> par les habitants de la ville.</p>
+            <p rend="stanza" n="11">Le troisième jour <supplied reason="explanation" >du mois</supplied> de Mādhava, qui est recommandé comme une époque <supplied reason="explanation" >favorable pour faire</supplied> des dons, elle doit être célébrée avec foi par les hommes <supplied reason="subaudible" >qui sont désireux d'un fruit</supplied> impérissable.</p>
+            <p rend="stanza" n="12">Qui ne fait pas semence de bonnes oeuvres en ce champ pur <supplied reason="explanation" >qui est</supplied> Maheśvara ne saurait espérer une moisson abondante <supplied reason="subaudible" >dans l'autre monde</supplied> ni ici-bas.</p>
             </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
@@ -149,8 +163,8 @@
         <div type="bibliography">
 	<!--bibliography encoded as per section §9.4 -->
 	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
-           <listBibl type="secondary">
+           <p>Sanskrit text revised against the editions and the estampage by Dominic Goodall in April 2015. The four stanzas of K. 54, which precede K.55 in both editions, are included in a separate file for K. 54.  The electronic text below broadly follows the edition of Cœdès in IC III, p. 157, which numbers the stanzas below as V--XVI (in Barth's edition they are I--XII, ISC, p. 51).</p>
+           <listBibl type="primary"> 				<bibl/><!-- one <bibl/> per item of primary bibliography --> 			</listBibl>            <listBibl type="secondary">
               <bibl/><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>
