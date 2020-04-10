@@ -475,7 +475,7 @@
 |K.	428 |# |# |#|
 |K.	429 |kuch |done |Finot 1912|
 |K.	430 |kuch |pending |#|
-|K.	431 = |K. 371 |chch |pending |IC V|
+|K.	431 = K. 371 |chch |pending |IC V|
 |K.	432 |# |# |#|
 |K.	433 |# |# |#|
 |K.	434 |# |# |#|
