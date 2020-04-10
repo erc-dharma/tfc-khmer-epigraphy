@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title>Rock inscription from Kbal Spean (K. 1011-4)</title>
+            <respStmt>
+               <resp>creation of file</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+         	<respStmt>
+         		<resp>intellectual authorship of edition</resp><!-- this may be the same as the creator of the file -->
+         		<persName ref="part:jodo"><!-- update the id -->
+         			<forename>John</forename><!-- fill in the name of the responsible scholar — it possible to use only <name> instead of <foreame> and <surname> -->
+         			<surname>Doe</surname>
+         		</persName>
+         	</respStmt>
+         </titleStmt>         
+         <publicationStmt>
+            <authority>DHARMA
+               <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
+            </authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">K1011-4</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+               	<p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p><!-- not to be filled in at this stage --></p>
+         </sourceDesc>
+      </fileDesc>
+     <revisionDesc>
+        <change who="part:chch" when="2020-04-10" status="draft">Creation of the file</change>
+        <change who="part:axja" when="2019-12-18" status="draft">Creation of the template</change>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="anuṣṭubh">
+ <l n="1"><lb n="1"/><supplied reason="lost">śivan namāmi yo</supplied> 'haṅ sa</l>
+   <l n="2">yo haṅsaparikīrttitaḥ</l>
+ <l n="3">qiti tattvavidaḥ prāhu<lb n="2" break="no"/>r</l> 
+   <l n="4"><seg met="====-+"><gap reason="lost" quantity="6" unit="character"/></seg>namaḥ</l>
+</lg>
+<lg n="2" met="upajāti">
+<l n="1" enjamb="yes">śrīharṣavarmmāvanipendramātr̥</l>
+<l n="2">santānajāto <lb n="3"/> <seg met="--+-+="><gap reason="lost" quantity="6" unit="character"/></seg></l>   
+<l n="3"><unclear>yo</unclear> rājyabhak candragirigraheṣu</l>
+<l n="4">śrīsūryyavarmmāvani<lb n="4" break="no"/><supplied reason="lost">pendrasūnuḥ</supplied></l>
+</lg>
+<lg n="3" met="upajāti">
+<l n="1"><supplied reason="lost">su</supplied>varṇṇaliṅgaṁ vidhinā nidhāya</l>
+<l n="2">trailokyacūdāmaṇiśai<lb n="5" break="no"/><supplied reason="lost">laśr̥ṅge</supplied></l>
+<l n="3"><seg met="=+-++"><gap reason="lost" quantity="5" unit="character"/></seg> girijaṁ <seg met="-+"><gap reason="lost" quantity="2" unit="character"/></seg>tā</l>
+<l n="4"><unclear>dha</unclear>nādipātreṣu śivoditeṣu //</l>
+</lg>
+<lg n="4" met="upajāti">
+<l n="1"><lb n="6"/><seg met="=+-++--+-+="><gap reason="lost" quantity="11" unit="character"/></seg></l>
+<l n="2">dadāv imaṁ śailam atulyasāram·</l>
+<l n="3"><lb n="7"/><seg met="=+-++--+-+="><gap reason="lost" quantity="11" unit="character"/></seg></l>
+<l n="4">punas satāṁ sattapasāṁ vivr̥ddhyai</l>
+</lg>  
+         </div>
+         <div type="translation" xml:lang="fra">
+ <p rend="stanza" n="1">"[Je m'incline personnellement devant Śiva], celui qui est célébré comme le Haṅsa", ainsi disent ceux qui connaissent la Réalité, ... salut !</p>
+            <p rend="stanza" n="2">Né dans la lignée de la mère du roi Śrī Harṣavarman, ......, le fils du roi Śrī Sūryavarman obtint la royauté en <supplied reason="explanation">9</supplied> planètes, <supplied reason="explanation">7</supplied> montagnes et <supplied reason="explanation">1</supplied> lune.</p>
+            <p rend="stanza" n="3">Ayant installé selon le rite un liṅga en or au sommet de la montagne, ornement des trois mondes, ......</p>
+             <p rend="stanza" n="4">....... a donné cette montagne à la solidité incomparable ....... puis pour la prospérité des gens de bien qui pratiquent une bonne ascèse.</p>
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+	<!--bibliography encoded as per section §9.4 -->
+	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
+           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
+           <listBibl type="secondary">
+              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
