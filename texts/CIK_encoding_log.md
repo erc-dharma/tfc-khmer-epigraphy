@@ -579,8 +579,8 @@
 |K.	520 |kuch |done |Finot 1920|
 |K.	521 |# |# |#|
 |K.	522 |# |# |#|
-|K.	523 |chch |pending IC III|
-|K.	524 |chch |pending IC III|
+|K.	523 |chch |pending |IC III|
+|K.	524 |chch |pending |IC III|
 |K.	525 |# |# |#|
 |K.	526 |# |# |#|
 |K.	527 |# |# |#|
@@ -725,7 +725,7 @@
 |K.	654 |# |# |#|
 |K.	655 |# |# |#|
 |K.	656 |# |# |#|
-|K.	657 |kuch & chch |pending|pending IC VI|
+|K.	657 |kuch & chch |pending| IC VI|
 |K.	658 |kuch |pending |#|
 |K.	659 |# |# |#|
 |K.	660 |# |# |#|
@@ -785,17 +785,17 @@
 |K.	711 |kuch |pending |#|
 |K.	712 |# |# |#|
 |K.	713 |# |# |#|
-|K.	714 |chch |pending unpublished|
-|K.	715 |chch |pending NIC I|
-|K.	716 |chch |pending NIC I|
+|K.	714 |chch |pending |unpublished|
+|K.	715 |chch |pending |NIC I|
+|K.	716 |chch |pending |NIC I|
 |K.	717 |# |# |#|
 |K.	718 |# |# |#|
 |K.	719 |kuch |pending |#|
 |K.	720 |# |# |#|
 |K.	721 |# |# |#|
 |K.	722 |# |# |#|
-|K.	723 |chch |pending IC V|
-|K.	724 |chch |pending IC V|
+|K.	723 |chch |pending |IC V|
+|K.	724 |chch |pending |IC V|
 |K.	725 |# |# |#|
 |K.	726 |# |# |#|
 |K.	727 |kuch |pending |#|
@@ -860,7 +860,7 @@
 |K.	784 |# |# |#|
 |K.	785 |# |# |#|
 |K.	786 |# |# |#|
-|K.	787 |kuch |pending Coedes IC VI|
+|K.	787 |kuch |pending |Coedes IC VI|
 |K.	788 |# |# |#|
 |K.	789 |# |# |#|
 |K.	790 |kuch |pending |#|
@@ -1084,23 +1084,23 @@
 |K.	1003 |kuch |pending |#|
 |K.	1004 |# |# |#|
 |K.	1005 |# |# |#|
-|K.	1006 |chch |pending BEFEO 1971; Jacques et al. 2007|
+|K.	1006 |chch |pending |BEFEO 1971; Jacques et al. 2007|
 |K.	1007 |# |# |#|
 |K.	1008 |# |# |#|
 |K.	1009 |kuch |done |Jacques 1969|
 |K.	1010 |# |# |#|
 |K.	1011.1 |chch |done |Jacques 1999|
 |K.	1011.2 |chch |done |Jacques 1999|
-|K.	1011.3 |chch |pending Jacques 1999|
-|K.	1011.4 |chch |pending Jacques 1999|
-|K.	1011.5 |chch |pending Jacques 1999|
-|K.	1012.1 |chch |pending Jacques 1999|
-|K.	1012.2 |chch |pending Jacques 1999|
-|K.	1012.3 |chch |pending Jacques 1999|
+|K.	1011.3 |chch |pending |Jacques 1999|
+|K.	1011.4 |chch |pending |Jacques 1999|
+|K.	1011.5 |chch |pending |Jacques 1999|
+|K.	1012.1 |chch |pending |Jacques 1999|
+|K.	1012.2 |chch |pending |Jacques 1999|
+|K.	1012.3 |chch |pending |Jacques 1999|
 |K.	1013 |# |# |#|
 |K.	1014 |# |# |#|
-|K.	1015 |chch |pending Jacques 1999|
-|K.	1016 |chch |pending Jacques 1999|
+|K.	1015 |chch |pending |Jacques 1999|
+|K.	1016 |chch |pending |Jacques 1999|
 |K.	1017 |# |# |#|
 |K.	1018 |# |# |#|
 |K.	1019 |# |# |#|
@@ -1144,7 +1144,7 @@
 |K.	1056 |# |# |#|
 |K.	1057 |# |# |#|
 |K.	1058 |# |# |#|
-|K.	1059 |chch |pending Lintingre 1974|
+|K.	1059 |chch |pending |Lintingre 1974|
 |K.	1060 |# |# |#|
 |K.	1061 |# |# |#|
 |K.	1062 |# |# |#|
@@ -1341,7 +1341,7 @@
 |K.	1244 |# |# |#|
 |K.	1245 |kuch |done |Soutif 2009|
 |K.	1246 |# |# |#|
-|K.	1247 |kuch |pending Pou NIC II-III 2001|
+|K.	1247 |kuch |pending |Pou NIC II-III 2001|
 |K.	1248 |kuch |done |Soutif 2009|
 |K.	1249 |# |# |#|
 |K.	1250 |# |# |#|
@@ -1360,16 +1360,16 @@
 |K.	1263 |# |# |#|
 |K.	1264 |kuch |pending |#|
 |K.	1265 |# |# |#|
-|K.	1266 |kuch |pending Pou NIC II-III 2001|
-|K.	1267 |kuch |pending Pou NIC II-III 2001|
+|K.	1266 |kuch |pending |Pou NIC II-III 2001|
+|K.	1267 |kuch |pending |Pou NIC II-III 2001|
 |K.	1268 |# |# |#|
-|K.	1269 |chch |pending Chevance 2011|
+|K.	1269 |chch |pending |Chevance 2011|
 |K.	1270 |kuch |pending |#|
 |K.	1271 |# |# |#|
 |K.	1272 |chch |done |Chevance 2014|
 |K.	1273 |# |# |#|
 |K.	1274 |# |# |#|
-|K.	1275 |kuch |pending Pou NIC II-III 2001|
+|K.	1275 |kuch |pending |Pou NIC II-III 2001|
 |K.	1276 |kuch |done |Jacques 2011|
 |K.	1277 |kuch |done |Soutif 2010|
 |K.	1278 |kuch |pending|pending Pou NIC II-III 2001|
@@ -1422,12 +1422,12 @@
 |K.	1322 |kuch |pending |#|
 |K.	1322 |kuch |pending |#|
 |K.	1323 |# |# |#|
-|K.	1324 |chch |pending unpublished|
+|K.	1324 |chch |pending |unpublished|
 |K.	1325.1 |chch |done |Chevance 2014|
 |K.	1325.2 |chch |done |Chevance 2014|
 |K.	1326 |kuch |pending |#|
 |K.	1326 |kuch |pending |#|
-|K.	1327 |chch |pending unpublished|
+|K.	1327 |chch |pending |unpublished|
 |K.	1328 |kuch |done |Griffiths and Vincent 2014|
 |K.	1329 |# |# |#|
 |K.	1330 |# |# |#|
@@ -1604,4 +1604,4 @@
 |K.	1497 |# |# |#|
 |K.	1498 |# |# |#|
 |K.	1499 |# |# |#|
-|K.	1500 |# |# |#||
+|K.	1500 |# |# |#|
