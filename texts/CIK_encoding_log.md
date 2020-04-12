@@ -860,7 +860,7 @@
 |K.	784 |# |# |#|
 |K.	785 |# |# |#|
 |K.	786 |# |# |#|
-|K.	787 |kuch |pending |Coedes IC VI|
+|K.	787 |kuch |done |Coedes IC VI|
 |K.	788 |# |# |#|
 |K.	789 |# |# |#|
 |K.	790 |kuch |pending |#|
@@ -1335,13 +1335,13 @@
 |K.	1238 |kuch |done |Griffiths and Soutif 2008-09|
 |K.	1239 |kuch |pending |#|
 |K.	1240 |kuch |done |Soutif 2009|
-|K.	1241 |kuch |pending|pending Pou NIC II-III 2001|
+|K.	1241 |kuch |done | Pou NIC II-III 2001|
 |K.	1242 |# |# |#|
 |K.	1243 |# |# |#|
 |K.	1244 |# |# |#|
 |K.	1245 |kuch |done |Soutif 2009|
 |K.	1246 |# |# |#|
-|K.	1247 |kuch |pending |Pou NIC II-III 2001|
+|K.	1247 |kuch |done |Pou NIC II-III 2001|
 |K.	1248 |kuch |done |Soutif 2009|
 |K.	1249 |# |# |#|
 |K.	1250 |# |# |#|
@@ -1360,8 +1360,8 @@
 |K.	1263 |# |# |#|
 |K.	1264 |kuch |pending |#|
 |K.	1265 |# |# |#|
-|K.	1266 |kuch |pending |Pou NIC II-III 2001|
-|K.	1267 |kuch |pending |Pou NIC II-III 2001|
+|K.	1266 |kuch |done |Pou NIC II-III 2001|
+|K.	1267 |kuch |done |Pou NIC II-III 2001|
 |K.	1268 |# |# |#|
 |K.	1269 |chch |pending |Chevance 2011|
 |K.	1270 |kuch |pending |#|
@@ -1369,11 +1369,10 @@
 |K.	1272 |chch |done |Chevance 2014|
 |K.	1273 |# |# |#|
 |K.	1274 |# |# |#|
-|K.	1275 |kuch |pending |Pou NIC II-III 2001|
+|K.	1275 |kuch |done |Pou NIC II-III 2001|
 |K.	1276 |kuch |done |Jacques 2011|
 |K.	1277 |kuch |done |Soutif 2010|
-|K.	1278 |kuch |pending|pending Pou NIC II-III 2001|
-|K.	1278 |kuch |pending|pending Pou NIC II-III 2001|
+|K.	1278 |kuch |done |pending Pou NIC II-III 2001|
 |K.	1279 |kuch |pending |#|
 |K.	1280 |kuch |pending |#|
 |K.	1281 |chch |done |Chevance 2014|
