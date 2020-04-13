@@ -45,18 +45,19 @@
                <physDesc>
                   <handDesc>
                      <p>1/2  : représenté par un signe plus (+).</p>
+                  	<!-- argr: I suggest this, to start with: "In line 3 we find a number sign with the value ½ that is represented by a +-shaped sign." Please put this in place of what you now have inside the <p>.  -->
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
 						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
+					 --><!-- argr: you can delete the preceding comment "If you need ...", because it isn't relevant to this inscription. -->
                   </handDesc>
                </physDesc>
             </msDesc>
          </sourceDesc>
       </fileDesc>
      <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-     	<change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change><!-- argr: please make sure that every <change> entry stands on a separate line; can the date for your Creation of the file be made more precise? you seem to have carried out some significant changes 16 hours ago (your commit <https://github.com/erc-dharma/tfc-khmer-epigraphy/commit/520e0ad831487d21637ac3e44ff5973cecc00b96>), so I expect there should be an entry for date="2020-04-13" -->
+     	<change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change><!-- argr: please make sure that every <change> entry stands on a separate line; can the date for your Creation of the file be made more precise? you seem to have carried out some significant changes 16 hours ago (your commit <https://github.com/erc-dharma/tfc-khmer-epigraphy/commit/520e0ad831487d21637ac3e44ff5973cecc00b96>), so I expect there should be an entry for date="2020-04-13" --><!-- argr: you haven't yet responded to this comment... -->
      </revisionDesc>
   </teiHeader>   
    <text xml:space="preserve">
@@ -78,7 +79,7 @@
 <lb n="13"/>jā sthita gui <gap reason="lost" quantity="7" unit="character"/>
 </p>
                 </div>
-                <div type="apparatus">
+                <div type="apparatus"><!-- argr: please read carefully what EG says about encoding apparatus. You are making some very basic mistakes in this first attempt. -->
                <listApp>
                   <app loc="1">
                      <lem>vinaya(ka)</lem>
@@ -107,7 +108,7 @@
            <div type="translation" xml:lang="eng"><!-- argr: Mme Pou's translation in the txt file and could be encoded. Since the text is short and maybe not too difficult to translate, you could in a case like this add your own draft translation into English.   -->
  	<!--translation encoded as per EG §9.2 -->
          </div>
-         <div type="commentary">
+         <div type="commentary"><!-- argr: these don't seem to be items of commentary but variant readings. A variant reading does notr necessarily concern only a word, but can concerns more than one word at once. -->
             <p>Line 9, Pou reads: satra vraḥ utpanna jiṅ I liḥ 2 can·le-.</p>
             <p>Line 10, Pou reads: k yo 3 ta giy saṁvatsara to moyy @ giy no.</p>
             <p>Line 11, Pou reads: mātya jātaka nu -- 6 ----- mā-.</p>
