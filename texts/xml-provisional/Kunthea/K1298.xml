@@ -12,14 +12,14 @@
             </respStmt>
             <respStmt> 
                <resp>intellectual authorship of edition</resp> 
-               <persName xml:id="gege"> 
-                  <forename> Gerdi </forename> 
+               <persName xml:id="gege"><!-- argr: the correct encoding woild be with ref="part:gege", and we'd need to create such an id for Gerdi. But I really don't think don't thinh he has played any significant role in editing this inscription. Unless Dominique has told you otherwise, I recommend deleting the referende to Gerdi.  --> 
+                  <forename> Gerdi </forename><!-- argr: if we keep Gerdi, then no spaces around his forename. --> 
                   <surname>Gerschheimer</surname> 
                </persName> 
                <persName ref="part:doso"> 
-                  <forename>Dominique </forename> 
+                  <forename>Dominique </forename><!-- argr: no space after forename. --> 
                   <surname>Soutif </surname> 
-               </persName> 
+               </persName><!-- argr: clearly, you have suggested significant improvements of the edition, so your name should figure here. --> 
             </respStmt>
          </titleStmt>         
          <publicationStmt>
@@ -56,28 +56,29 @@
       </fileDesc>
      <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
      	<change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change><!-- argr: please make sure that every <change> entry stands on a separate line; can the date for your Creation of the file be made more precise? you seem to have carried out some significant changes 16 hours ago (your commit <https://github.com/erc-dharma/tfc-khmer-epigraphy/commit/520e0ad831487d21637ac3e44ff5973cecc00b96>), so I expect there should be an entry for date="2020-04-13" --><!-- argr: you haven't yet responded to this comment... -->
+<!-- argr: !!!!!!! again, you haven't responded to the above comment -->
      </revisionDesc>
   </teiHeader>   
    <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
                 <p>
-<lb n="1"/>sre qaṁnoy· poñ· vinaya<unclear>ka</unclear>
+<lb n="1"/>sre qaṁnoy·<!-- you may apply the new system, where this will be Aṁnoy· — apply the new system in txt file too  --> poñ· vina<!-- argr: should we not read n<unclear>ā</unclear>? if so, change the txt file too; this applies to all further changes of reading that I propose today -->ya<unclear>ka</unclear>
 <lb n="2"/>mās· <num value="3">III</num> prak· so niṣkraya gui <supplied reason="lost">li</supplied><lb 
-   n="3" break="no"/>ṅ· <num value="1.5">I ½</num> canlek· yugala y<unclear>au</unclear>
-<lb n="4"/><unclear>qaṁ kaṁvala yau</unclear> <num value="1" cert="low">I</num> gui neḥ nai vraḥ utpa<lb 
-   n="5" break="no"/>nna gui <unclear>nu mān·</unclear> <choice><unclear>nlaṁ</unclear><unclear>tra</unclear></choice> gui kṣetra sre
-<lb n="6"/>qaṁnoy· poñ· <choice><unclear>khe</unclear><unclear>kho</unclear></choice>ṅ· māsa <num value="1">I</num> sre
-<lb n="7"/>qa<supplied reason="lost">ṁ</supplied>mnoy<supplied reason="lost">·</supplied> poñ<supplied reason="lost">·</supplied> vidyādeva māsa <num value="1">I</num>
-<lb n="8"/>vā kñuṁ vraḥ <gap reason="lost" quantity="2" unit="character"/>· qoy· ta vraḥ tmur· dneṁ <num value="3">III</num>
+   n="3" break="no"/>ṅ· <num value="1.5">I ½</num> ca<!-- argr: I suggest insert a <space> here, maybe <space type="defect">, if we are sure that physical defect was the reason why the lapicide skipped a space . Or has the scribe effaced a redundant nle? If so, use <surplus>nle</surplus>. -->nlek· yugala y<unclear>au</unclear>
+<lb n="4"/><unclear>qaṁ kaṁvala yau</unclear><!-- argr: for me, Aṁ is totally clear; the kaṁ is also clear but seems to have been inserted between Aṁ and va, and hence may be encoded with <add>; the va is again clear; only the la and yau are unclear --> <num value="1" cert="low">I</num> gui neḥ nai vraḥ <!-- argr: attention, the next word has an independent vowel and so it should be U in the new system; please make sure you also update the .txt file -->utpa<lb 
+   n="5" break="no"/>nna gui <unclear>nu mān·</unclear><!-- argr:  the nu is a rather unclear; are you sure we should not read kñuṁ? the mā is totally clear, while the n· almost entirely unrecognizable; adjust the encoding --> <choice><unclear>nlaṁ</unclear><unclear>tra</unclear></choice> gui kṣetra sre
+<lb n="6"/>qaṁnoy·<!-- argr: adjust translit. --> poñ·<!-- argr: the po seems rather unclear to me --> <choice><unclear>khe</unclear><unclear>kho</unclear></choice>ṅ· māsa <num value="1">I</num> sre
+<lb n="7"/><!-- argr: adjust translit. -->qa<supplied reason="lost">ṁ</supplied>mnoy<supplied reason="lost">·</supplied><!-- argr: I can rather clearly see a small stroke as virāma, so I think <supplied> is not called for --> poñ<supplied reason="lost">·</supplied><!-- argr: again, the virāma is quite visible --> vidyādeva māsa <num value="1">I</num>
+<lb n="8"/>vā kñuṁ vraḥ <gap reason="lost" quantity="2" unit="character"/>·<!-- argr: the word is not really lost; please make some effort to try to get a plausible reading; maybe vāp·? vās·? if those efforts fail, then you should use @reason="illegible" and not @reason="lost" — see EG 5.1 --> qoy·<!-- argr: this will become Oy· --> ta vraḥ tmur· dneṁ<!-- argr: is this reading secure? it looks like a s in lower position... --> <num value="3">III</num>
 <lb n="9"/>satra vraḥ <unclear>ta</unclear> gui <unclear>t</unclear>ṅ<unclear>ai ta</unclear> moy· liḥ <num value="2">II</num> can·le<lb 
-   n="10" break="no"/>k· yau <num value="2">II</num> ta gui saṁvatsara ta moyya gi ne<supplied reason="lost">ḥ</supplied>
-<lb n="11"/>cātujātaka pramāṇa nu ge ya<space quantity="1" unit="character"/><unclear>ja</unclear>mā<lb 
-   n="12" break="no"/>na qai ta <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear>e</unclear><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="prescript"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component" /></seg> <!-- kuch: The (CeCCV) is encoded as C(e)CCV because <seg> cannot be used inside <unclear>. --> gui <unclear>nu</unclear> vraḥ daṅ· <gap reason="lost" quantity="2" unit="character"/>
-<lb n="13"/>jā sthita gui <gap reason="lost" quantity="7" unit="character"/>
+   n="10" break="no"/>k· yau <num value="2">II</num> ta gui saṁvatsara ta moyya gi<!-- argr: this is clearly gui --> ne<supplied reason="lost">ḥ</supplied>
+<lb n="11"/>cātujātaka pramāṇa nu ge ya<!-- argr: for me, both ge and ya are unclear --><space quantity="1" unit="character"/><!-- argr: I believe EG says no quantity needs to be encoded if the space is 1-2 akṣaras wide; you could use @type="descender" here --><unclear>ja</unclear>mā<lb 
+   n="12" break="no"/>na qai<!-- argr: Ai --> ta <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear>e</unclear><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="prescript"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component" /></seg> <!-- kuch: The (CeCCV) is encoded as C(e)CCV because <seg> cannot be used inside <unclear>. --><!-- argr: can the second akṣara no be read ddha? --> gui<!-- argr: on EFEO n. 1708, gui is extremely unclear --> <unclear>nu</unclear> vraḥ daṅ· <gap reason="lost" quantity="2" unit="character"/><!-- argr: the first of the two akṣaras here called "lost" is really rather "illegible". You should distinguish @reason="lost" and @reason="illegible" — see EG 5.1 -->
+<lb n="13"/>jā sthita gui<!-- argr: gui seems rather unclear to me --> <gap reason="lost" quantity="7" unit="character"/><!-- argr: this gap of 7 akṣaras is too imprecise; the first akṣara us clearly a va, after that there is maybe a jā, one illegible akṣara, maybe a go, 2 lost akṣaras, one illegible akṣara -->
 </p>
                 </div>
-                <div type="apparatus">
+                <div type="apparatus"><!-- argr: it seems to me that you are not following the rules formulated in the EG that prescribe interpreting the transliteration system of published readings according ti DHARMA norms: e.g., even thoiugh Mme Pou doesn't transliterate virāma explicitly, you must insert · into her readings where they imply that she saw a virāma; as we admit in the EG, there will be cases of doubt, but you *must* choose. The same applies to her u were we require U, etc. Her @ (does she really print that sign?) must properly encoded with <g type="symbol">. See the appendix of the Transliteration Guide. -->
                <listApp>
                   <app loc="1">
                      <lem>vinaya<unclear>ka</unclear></lem>
@@ -129,13 +130,14 @@
          </div>
          <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
             <!-- The translation is given after S. Pou with slight modifications because of new reading in lines 4, 6, 7, 9 and 11. -->
+<!-- argr: follow what the EG says about credit notes. -->
            <p n="1-5">Rizière en offrande de Poñ Vinayaśiva, mesurant 3 <foreign>mās</foreign>, d'un prix équivalant à 1 <foreign>liṅ</foreign> d'argent blanc, 6 <foreign>yau</foreign> de vêtements doubles, 1 <foreign>yau</foreign> de couverture : cela devint propriété du dieu Utpanna.</p>
             <p n="5-8">Voici d'autres champs et rizières, offerts par Poñ Kheṅ/Khoṅ, soit 1 <foreign>mās</foreign>, par Poñ Vidyādeva, soit 1 <foreign>mās</foreign>. Un serviteur <supplied reason="subaudible">nommé</supplied> ... offert au dieu, et 3 paires de boeufs.</p>
             <p n="9-10">Sacrifice au dieu chaque jour, 2 <foreign>liḥ</foreign> <supplied reason="explanation">de riz?</supplied>, et 3 <foreign>yau</foreign> d'étoffe pour chaque année.</p>
             <p n="10-13"><supplied reason="explanation">Texte décousu à cause des dégâts.</supplied></p>
          </div>
            <div type="translation" xml:lang="eng" resp="part:kuch">
-             <p n="1-5">Paddy field offered by Poñ Vinayaśiva, mesuring 3 <foreign>mās</foreign>, with a price equal to 1 <foreign>liṅ</foreign> of white silver, 6 <foreign>yau</foreign> of pairs of cloth, 1 <foreign>yau</foreign> of blanket : all this was the propriety of god Utpanna.</p>
+             <p n="1-5">Paddy field offered by Poñ Vinayaśiva, measuring 3 <foreign>mās</foreign>, with a price equal to 1 <foreign>liṅ</foreign> of white silver, 6 <foreign>yau</foreign> of pairs of cloth, 1 <foreign>yau</foreign> of blanket : all this was the propriety of god Utpanna.</p>
               <p n="5-8">Here are other plantations and paddy fields, offered by Poñ Kheṅ/Khoṅ, equal to 1 <foreign>mās</foreign>, by Poñ Vidyādeva, equal to 1 <foreign>mās</foreign>. A servant <supplied reason="subaudible">by name</supplied> ... offered to the god and 3 pairs of cows.</p>
               <p n="9-10">Sacrifice to the god everyday, 2 <foreign>liḥ</foreign> <supplied reason="explanation">of rice?</supplied>, and 3 <foreign>yau</foreign> of cloth every year.</p>
               <p n="10-13"><supplied reason="explanation">Text is too damaged.</supplied></p>
@@ -146,7 +148,7 @@
        <div type="bibliography">
 	<!--bibliography encoded as per section §9.4 -->
 	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p>Text is given after Saveros Pou, NIC II-III, p. 197 and Vong Sotheara, 2001 and 2003 ; estampage EFEO n. 1708.</p><!-- argr: from now on, for all such cases, please try to (a) find out who has re-edited the isscription as part of CIK, and (c) encode the bibliography as per EG 9.4.  -->
+           <p>Text is given after Saveros Pou, NIC II-III, p. 197 and Vong Sotheara, 2001 and 2003 ; estampage EFEO n. 1708.</p><!-- argr: not a single variantg reading from VS's editions is quoted in the apparatus above... also in other ways, this sentence does not accurately describe the way the text has been edited, the degree to which it is differentr from SP's and VS's editions, nor does it identify who has been involved in editing; make a serious attempt to follow and adapt the example giving in the EG; the bibliographic references need to be encoded precisely as prescribed in the EG.  -->
            <listBibl type="primary"> 				<bibl/><!-- one <bibl/> per item of primary bibliography --> 			</listBibl>            <listBibl type="secondary">
               <bibl/><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
