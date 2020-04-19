@@ -12,14 +12,22 @@
             </respStmt>
             <respStmt> 
                <resp>intellectual authorship of edition</resp> 
-               <persName xml:id="gege"><!-- argr: the correct encoding woild be with ref="part:gege", and we'd need to create such an id for Gerdi. But I really don't think don't thinh he has played any significant role in editing this inscription. Unless Dominique has told you otherwise, I recommend deleting the referende to Gerdi.  --> 
-                  <forename> Gerdi </forename><!-- argr: if we keep Gerdi, then no spaces around his forename. --> 
+               <persName ref="part:gege"> 
+                  <forename>Gerdi</forename>
                   <surname>Gerschheimer</surname> 
                </persName> 
                <persName ref="part:doso"> 
-                  <forename>Dominique </forename><!-- argr: no space after forename. --> 
-                  <surname>Soutif </surname> 
-               </persName><!-- argr: clearly, you have suggested significant improvements of the edition, so your name should figure here. --> 
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname> 
+               </persName>
+               <persName ref="part:kuch"> 
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname> 
+               </persName>
+               <persName ref="part:argr"> 
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname> 
+               </persName>
             </respStmt>
          </titleStmt>         
          <publicationStmt>
@@ -55,77 +63,76 @@
          </sourceDesc>
       </fileDesc>
      <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-     	<change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change><!-- argr: please make sure that every <change> entry stands on a separate line; can the date for your Creation of the file be made more precise? you seem to have carried out some significant changes 16 hours ago (your commit <https://github.com/erc-dharma/tfc-khmer-epigraphy/commit/520e0ad831487d21637ac3e44ff5973cecc00b96>), so I expect there should be an entry for date="2020-04-13" --><!-- argr: you haven't yet responded to this comment... -->
-<!-- argr: !!!!!!! again, you haven't responded to the above comment -->
+     	<change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+        <change who="part:kuch" when="2020-04-19">Creation of the file</change>
      </revisionDesc>
   </teiHeader>   
    <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
                 <p>
-<lb n="1"/>sre qaṁnoy·<!-- you may apply the new system, where this will be Aṁnoy· — apply the new system in txt file too  --> poñ· vina<!-- argr: should we not read n<unclear>ā</unclear>? if so, change the txt file too; this applies to all further changes of reading that I propose today -->ya<unclear>ka</unclear>
+<lb n="1"/>sre Aṁnoy· poñ· vin<unclear>ā</unclear>ya<unclear>ka</unclear>
 <lb n="2"/>mās· <num value="3">III</num> prak· so niṣkraya gui <supplied reason="lost">li</supplied><lb 
-   n="3" break="no"/>ṅ· <num value="1.5">I ½</num> ca<!-- argr: I suggest insert a <space> here, maybe <space type="defect">, if we are sure that physical defect was the reason why the lapicide skipped a space . Or has the scribe effaced a redundant nle? If so, use <surplus>nle</surplus>. -->nlek· yugala y<unclear>au</unclear>
-<lb n="4"/><unclear>qaṁ kaṁvala yau</unclear><!-- argr: for me, Aṁ is totally clear; the kaṁ is also clear but seems to have been inserted between Aṁ and va, and hence may be encoded with <add>; the va is again clear; only the la and yau are unclear --> <num value="1" cert="low">I</num> gui neḥ nai vraḥ <!-- argr: attention, the next word has an independent vowel and so it should be U in the new system; please make sure you also update the .txt file -->utpa<lb 
-   n="5" break="no"/>nna gui <unclear>nu mān·</unclear><!-- argr:  the nu is a rather unclear; are you sure we should not read kñuṁ? the mā is totally clear, while the n· almost entirely unrecognizable; adjust the encoding --> <choice><unclear>nlaṁ</unclear><unclear>tra</unclear></choice> gui kṣetra sre
-<lb n="6"/>qaṁnoy·<!-- argr: adjust translit. --> poñ·<!-- argr: the po seems rather unclear to me --> <choice><unclear>khe</unclear><unclear>kho</unclear></choice>ṅ· māsa <num value="1">I</num> sre
-<lb n="7"/><!-- argr: adjust translit. -->qa<supplied reason="lost">ṁ</supplied>mnoy<supplied reason="lost">·</supplied><!-- argr: I can rather clearly see a small stroke as virāma, so I think <supplied> is not called for --> poñ<supplied reason="lost">·</supplied><!-- argr: again, the virāma is quite visible --> vidyādeva māsa <num value="1">I</num>
-<lb n="8"/>vā kñuṁ vraḥ <gap reason="lost" quantity="2" unit="character"/>·<!-- argr: the word is not really lost; please make some effort to try to get a plausible reading; maybe vāp·? vās·? if those efforts fail, then you should use @reason="illegible" and not @reason="lost" — see EG 5.1 --> qoy·<!-- argr: this will become Oy· --> ta vraḥ tmur· dneṁ<!-- argr: is this reading secure? it looks like a s in lower position... --> <num value="3">III</num>
+   n="3" break="no"/>ṅ· <num value="1.5">I ½</num> ca<surplus>nle</surplus>nlek· yugala y<unclear>au</unclear>
+<lb n="4"/>Aṁ <add>kaṁ</add>va<unclear>la yau</unclear> <num value="1" cert="low">I</num> gui neḥ nai vraḥ Utpa<lb 
+   n="5" break="no"/>nna gui <unclear>nu</unclear> mā<supplied reason="lost">n·</supplied> nlaṁ gui kṣetra sre
+<lb n="6"/>Aṁnoy· p<unclear>o</unclear>ñ· <choice><unclear>khe</unclear><unclear>kho</unclear></choice>ṅ· māsa <num value="1">I</num> sre
+<lb n="7"/>A<supplied reason="lost">ṁ</supplied>noy<unclear>·</unclear> poñ<unclear>·</unclear> vidyādeva māsa <num value="1">I</num>
+<lb n="8"/>vā kñuṁ vraḥ <gap reason="illegible" quantity="2" unit="character"/>· Oy· ta vraḥ tmur· d<unclear>ne</unclear>ṁ <num value="3">III</num>
 <lb n="9"/>satra vraḥ <unclear>ta</unclear> gui <unclear>t</unclear>ṅ<unclear>ai ta</unclear> moy· liḥ <num value="2">II</num> can·le<lb 
-   n="10" break="no"/>k· yau <num value="2">II</num> ta gui saṁvatsara ta moyya gi<!-- argr: this is clearly gui --> ne<supplied reason="lost">ḥ</supplied>
-<lb n="11"/>cātujātaka pramāṇa nu ge ya<!-- argr: for me, both ge and ya are unclear --><space quantity="1" unit="character"/><!-- argr: I believe EG says no quantity needs to be encoded if the space is 1-2 akṣaras wide; you could use @type="descender" here --><unclear>ja</unclear>mā<lb 
-   n="12" break="no"/>na qai<!-- argr: Ai --> ta <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear>e</unclear><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="prescript"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component" /></seg> <!-- kuch: The (CeCCV) is encoded as C(e)CCV because <seg> cannot be used inside <unclear>. --><!-- argr: can the second akṣara no be read ddha? --> gui<!-- argr: on EFEO n. 1708, gui is extremely unclear --> <unclear>nu</unclear> vraḥ daṅ· <gap reason="lost" quantity="2" unit="character"/><!-- argr: the first of the two akṣaras here called "lost" is really rather "illegible". You should distinguish @reason="lost" and @reason="illegible" — see EG 5.1 -->
-<lb n="13"/>jā sthita gui<!-- argr: gui seems rather unclear to me --> <gap reason="lost" quantity="7" unit="character"/><!-- argr: this gap of 7 akṣaras is too imprecise; the first akṣara us clearly a va, after that there is maybe a jā, one illegible akṣara, maybe a go, 2 lost akṣaras, one illegible akṣara. I expect that some serious attempt to guess what must have been written here will lead to credible decipherment of at least part of this part of the last line. -->
+   n="10" break="no"/>k· yau <num value="2">II</num> ta gui saṁvatsara ta moyya gui ne<supplied reason="lost">ḥ</supplied>
+<lb n="11"/>cātujātaka pramāṇa nu <unclear>ge ya</unclear><space type="descender"/><unclear>ja</unclear>mā<lb 
+   n="12" break="no"/>na Ai ta <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear>ed</unclear><seg type="component" subtype="prescript"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component" /></seg> <unclear>gui nu</unclear> vraḥ daṅ· <gap reason="illegible" quantity="2" unit="character"/>
+<lb n="13"/>jā sthita <unclear>gui</unclear> va<unclear>jā</unclear><gap reason="illegible" quantity="1" unit="character"/><choice><unclear>go</unclear><unclear>śo</unclear></choice><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
 </p>
                 </div>
                 <div type="apparatus"><!-- argr: it seems to me that you are not following the rules formulated in the EG that prescribe interpreting the transliteration system of published readings according ti DHARMA norms: e.g., even thoiugh Mme Pou doesn't transliterate virāma explicitly, you must insert · into her readings where they imply that she saw a virāma; as we admit in the EG, there will be cases of doubt, but you *must* choose. The same applies to her u were we require U, etc. Her @ (does she really print that sign?) must properly encoded with <g type="symbol">. See the appendix of the Transliteration Guide. -->
                <listApp>
                   <app loc="1">
-                     <lem>vinaya<unclear>ka</unclear></lem>
+                     <lem>vin<unclear>ā</unclear>ya<unclear>ka</unclear></lem>
                      <rdg source="bib:Pou2001_01">vinaya<unclear>śi</unclear></rdg>
                   </app>
-                  <app loc="3">
-                     <lem>canlek·</lem>
-                     <note>The syllable <foreign>nle</foreign> seems to be enscribed twice.</note>
+                  <app loc="2">
+                     <lem>gui</lem>
+                     <rdg source="bib:Pou2001_01">gīya</rdg>
                   </app>
                   <app loc="4">
                      <lem>gui neḥ</lem>
-                     <rdg source="bib:Pou2001_01">giy no</rdg>
+                     <rdg source="bib:Pou2001_01">giya no</rdg>
                   </app>
                      <app loc="4">
-                     <lem><unclear>qaṁ kaṁvala yau I</unclear></lem>
-                     <rdg source="bib:Pou2001_01"><unclear>qaṁ kaṁvala 6-3</unclear></rdg>
+                     <lem>Aṁ <add>kaṁ</add>va<unclear>la yau</unclear> <num value="1" cert="low">I</num></lem>
+                     <rdg source="bib:Pou2001_01"><unclear>Aṁ kaṁvala 6-3</unclear></rdg>
                      </app>
                   <app loc="5">
-                     <lem>nlaṁ</lem>
-                     <rdg source="bib:Pou2001_01">tra</rdg>
+                     <lem>nna gui <unclear>nu</unclear> mā<supplied reason="lost">n·</supplied> nlaṁ gui</lem>
+                     <rdg source="bib:Pou2001_01">nna giya --- mā ---tra giya</rdg>
                   </app>
                   <app loc="6">
                      <lem><unclear>khe</unclear>ṅ·</lem>
-                     <rdg source="bib:Pou2001_01"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><supplied reason="lost">e</supplied>ṅ</rdg>
+                     <rdg source="bib:Pou2001_01"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><supplied reason="lost">e</supplied>ṅ·</rdg>
                      <!-- Read khoṅ·? -->
                   </app>
                   <app loc="8">
-                     <lem><gap reason="lost" quantity="2" unit="character"/></lem>
-                     <rdg source="bib:Pou2001_01">tvañ</rdg>
+                     <lem><gap reason="illegible" quantity="2" unit="character"/></lem>
+                     <rdg source="bib:Pou2001_01">tvañ·</rdg>
                   </app>
                   <app loc="9">
                      <lem>vraḥ <unclear>ta</unclear> gui <unclear>t</unclear>ṅ<unclear>ai ta</unclear> moy· liḥ <num value="2">II</num></lem>
-                     <rdg source="bib:Pou2001_01">vraḥ utpanna jiṅ <num value="1">I</num> liḥ <num value="2">2</num></rdg>
+                     <rdg source="bib:Pou2001_01">vraḥ Utpanna jiṅa <num value="1">I</num> liḥ <num value="2">2</num></rdg>
                   </app>
                   <app loc="10">
                      <lem>k· yau <num value="2">II</num> ta gui saṁvatsara ta moyya gi ne<supplied reason="lost">ḥ</supplied></lem>
-                     <rdg source="bib:Pou2001_01">k yo <num value="3">3</num> ta giy saṁvatsara to moyy @ giy no</rdg>
+                     <rdg source="bib:Pou2001_01">k· yo <num value="3">3</num> ta giya saṁvatsara to moyya <g type="symbol"/> giya no</rdg>
                   </app>
                   <app loc="11">
                      <lem>cātujātaka pramāṇa</lem>
                      <rdg source="bib:Pou2001_01">mātya jātaka</rdg>
                   </app>
                   <app loc="12">
-                     <lem>na qai ta <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear>e</unclear><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="prescript"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component" /></seg>gui <unclear>nu</unclear></lem>
-                     <rdg source="bib:Pou2001_01">n qai ta jeṅ giy nu</rdg>
-                  </app>
-                  
+                     <lem>na Ai ta <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear>ed</unclear><seg type="component" subtype="prescript"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear>gui nu</unclear></lem>
+                     <rdg source="bib:Pou2001_01">n· Ai ta jeṅ· giya nu</rdg>
+                  </app>     
                </listApp>         
          </div>
          <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
