@@ -16,7 +16,7 @@
                   <forename>Kunthea</forename>
                   <surname>Chhom</surname>
                </persName>
-            	<persName ref="part:gege"><!-- argr: I think his name doesn't figure yet in https://github.com/erc-dharma/project-documentation/blob/master/DHARMA_IdListMembers_v01.xml — please write to Axelle and ask for such an entry to be added -->
+            	<persName ref="part:gege">
                   <forename>Gerdi</forename>
                   <surname>Gerschheimer</surname>
                </persName>
@@ -75,7 +75,7 @@
                 <p>
 <lb n="1"/>sre Aṁ<space type="defect"/>noy· poñ· vin<unclear>ā</unclear>ya<unclear>ka</unclear>
 <lb n="2"/>mās· <num value="3">III</num> prak· so niṣkraya gui <supplied reason="lost">li</supplied><lb
-   n="3" break="no"/>ṅ· <num value="1.5">I ½</num> ca<surplus>nle</surplus><!-- argr: don't you think that the scribe, realizing the redundancy, cancelled one of the two akṣaras nle? in that case, encode following EG 4.4. Anyhow, some statement as to how we interpret what is going on here might be useful in a <note> to an <app> in apparatus  -->nlek· yugala y<unclear>au</unclear>
+   n="3" break="no"/>ṅ· <num value="1.5">I ½</num> ca<surplus>nle</surplus>nlek· yugala y<unclear>au</unclear>
 <lb n="4"/>Aṁ <add place="inline">kaṁ</add>va<unclear>la</unclear> y<unclear>au</unclear> <num value="1" cert="low">I</num> gui neḥ nai vraḥ Utpa<lb
    n="5" break="no"/>nna gui <unclear>nu</unclear> mā<supplied reason="lost">n·</supplied> nlaṁ<!-- argr: is nlaṁ a known word? from some parallels, I rather expect mās· after gui, and then a number sign or word. Whatever the akṣara was after mā, I don't think it is entirely "lost". One other possibility might be that it was intentiuonally deleted, as may have happened to nle in line 3. --> gui kṣetra sre
 <lb n="6"/>Aṁnoy· <space type="vacat"/> p<unclear>o</unclear>ñ· kh<choice><unclear>e</unclear><unclear>o</unclear></choice>ṅ· māsa <num value="1">I</num> sre
@@ -98,106 +98,98 @@
                   <app loc="2">
                      <lem>gui</lem>
                      <rdg source="bib:Pou2001_01">gīya</rdg>
-<!-- argr: what does Vong2003 read? follow EG p. 103: "if your apparatus includes at least one lemma with alternative readings and you cite more than one previous editor, your apparatus entries should always be formulated in a “positive” manner: for any lemma with one or more alternative readings, clearly indicate (either under the lemma or under one of the alternative readings) what the readings of all previous editors were" -->
+                     <rdg source="bib:Vong2003_01">gui</rdg>
                   </app>
                   <app loc="2">
-                     <lem><supplied reason="lost">li</supplied></lem><!-- argr: your lemma should normally be a complete word, so here it should be <lem><supplied reason="lost">li</supplied><lb  n="3" break="no"/>ṅ·</lem> See EG 9.1, sections "Indicating location" and "Specifying a precise spot by a lemma", in which latter we have written "lemmas should preferably consist of whole words, which may be members of compounds in the text". -->
-                     <rdg source="bib:Vong2003_01"><supplied reason="lost">jya</supplied></rdg>
-<!-- argr: what does Pou2001 read? -->
+                     <lem><supplied reason="lost">li</supplied><lb  n="3" break="no"/>ṅ·</lem>
+                     <rdg source="bib:Pou2001_01"><supplied reason="lost">li</supplied><lb  n="3" break="no"/>ṅ·</rdg>
+                     <rdg source="bib:Vong2003_01"><supplied reason="lost">jya</supplied><lb  n="3" break="no"/>ṅ·</rdg>
                   </app>
                  <app loc="3">
-                     <lem>ca<surplus>nle</surplus></lem>
+                     <lem>ca<surplus>nle</surplus>nlek·</lem>
                     <rdg source="bib:Pou2001_01">ca<space/>nlek·</rdg>
                     <rdg source="bib:Vong2003_01">ca<space/>nlek·</rdg>
-                    <!-- The vowel e and the consonant n seem to be erased while the subscript l is quite clear. Waiting for the reply from Dominique. -->
+                    <!-- The first syllable nle is partly destroyed because the stela is broken. But it is sufficiently readable on the estampage and seems to be not voluntarily removed. -->
                   </app>
                   <app loc="4">
                      <lem>gui neḥ</lem>
                      <rdg source="bib:Pou2001_01">giya no</rdg>
-<!-- argr: how did Vong2003 read? -->
+                     <rdg source="bib:Vong2003_01">gui neḥ</rdg>
                   </app>
                      <app loc="4">
                      <lem>Aṁ <add place="inline">kaṁ</add>va<unclear>la</unclear> y<unclear>au</unclear> <num value="1" cert="low">I</num></lem>
-                     <rdg source="bib:Pou2001_01"><unclear>Aṁ kaṁvala 6-3</unclear></rdg>
-                        <rdg source="bib:Vong2003_01">Aṁvala yau 2</rdg>
+                     <rdg source="bib:Pou2001_01"><unclear>Aṁ kaṁvala</unclear><num value="63" cert="low"> 6-3</num></rdg>
+                        <rdg source="bib:Vong2003_01">Aṁvala yau <num value="2">2</num></rdg>
                      </app>
                   <app loc="5">
                      <lem>nna gui <unclear>nu</unclear> mā<supplied reason="lost">n·</supplied> nlaṁ gui</lem>
-                     <rdg source="bib:Pou2001_01">nna giya --- mā ---tra giya</rdg><!-- argr: gaps in the rdg need to be properly encoded. See EG 9.1, "Alternative readings, restorations and emendations", where we have written: "since the markup found in many printed editions is less expressive and/or less rigorously consistent than our EpiDoc conventions, you may need to interpret the intention of the original editor and mark up alternatives accordingly, ... never retain any traditional editorial markup (such as brackets or asterisks)"
- -->
-<!-- argr: how did Vong2003 read? -->
+                     <rdg source="bib:Pou2001_01">nna giya <gap reason="illegible" extent="unknown" unit="character"></gap> mā <gap reason="illegible" extent="unknown" unit="character"></gap>tra giya</rdg>
+                     <rdg source="bib:Vong2003_01">nna gui neḥ <unclear>mān·</unclear> nu gui</rdg>
                   </app>
                   <app loc="6">
-                     <lem><unclear>khe</unclear>ṅ·</lem><!-- argr: adjust to what we actually have in the edition above -->
+                     <lem>kh<choice><unclear>e</unclear><unclear>o</unclear></choice>ṅ·</lem>
                      <rdg source="bib:Pou2001_01"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><supplied reason="lost">e</supplied>ṅ·</rdg>
-                     <!-- Read khoṅ·? -->
-<!-- argr: what did Vong2003 read? -->
+                     <rdg source="bib:Vong2003_01">kheṅ</rdg>
                   </app>
                   <app loc="6">
                      <lem>māsa</lem>
+                     <rdg source="bib:Pou2001_01">māsa</rdg>
                      <rdg source="bib:Vong2003_01">mās·</rdg>
-<!-- argr: what did Pou2001 read? -->
                   </app>
                   <app loc="7">
                      <lem>māsa</lem>
+                     <rdg source="bib:Pou2001_01">māsa</rdg>
                      <rdg source="bib:Vong2003_01">mās·</rdg>
-<!-- argr: what did Pou2001 read? -->
                   </app>
                   <app loc="8">
                      <lem><gap reason="illegible" quantity="2" unit="character"/></lem>
                      <rdg source="bib:Pou2001_01">tvañ·</rdg>
                      <rdg source="bib:Vong2003_01">tel·</rdg>
-<!-- argr: do neither of these two reading yield a plausible sense? -->
                   </app>
                   <app loc="8">
                      <lem>Oy· ta vraḥ</lem>
+                     <rdg source="bib:Pou2001_01">Oy· ta vraḥ</rdg>
                      <rdg source="bib:Vong2003_01">Oy· vraḥ</rdg>
-<!-- argr: what did Pou2001 read? -->
                   </app>
                   <app loc="8">
-                     <lem>dneṁ III</lem><!-- argr: reproduce in <lem> exactly what we have in our edition, with all tags, you can best copy/paste from edition into apparatus-->
-                     <rdg source="bib:Vong2003_01">dneṁ II</rdg><!-- argr: I myself was also wondering of II was a possible reading -->
-<!-- argr: what did Pou2001 read? -->
+                     <lem>dneṁ <num value="3">III</num></lem>
+                     <rdg source="bib:Pou2001_01">dneṁ <num value="3">3</num></rdg>
+                     <rdg source="bib:Vong2003_01">dneṁ <num value="2">II</num></rdg>
                   </app>
                   <app loc="9">
                      <lem>vraḥ <unclear>ta</unclear> gui <unclear>t</unclear>ṅ<unclear>ai ta</unclear> moy· liḥ <num value="2">II</num></lem>
                      <rdg source="bib:Pou2001_01">vraḥ Utpanna jiṅa <num value="1">I</num> liḥ <num value="2">2</num></rdg>
-<!-- argr: what did Vong2003 read? -->
+                     <rdg source="bib:Vong2003_01">satra vraḥ ta gui tṅai ta moy· liḥ <num value="1">I</num></rdg>
                   </app>
                   <app loc="9">
-                     <lem>liḥ II</lem><!-- argr: as above, reproduce in <lem> exactly what we have in our edition, with all tags -->
-                     <rdg source="bib:Vong2003_01">liḥ I</rdg>
-<!-- argr: what did Pou2001 read? -->
+                     <lem>liḥ <num value="2">II</num></lem>
+                     <rdg source="bib:Pou2001_01">liḥ <num value="2">2</num></rdg>
+                     <rdg source="bib:Vong2003_01">liḥ <num value="1">I</num></rdg>
                   </app>
                   <app loc="10">
                      <lem>k· yau <num value="2">II</num> ta gui saṁvatsara ta moyya gi ne<supplied reason="lost">ḥ</supplied></lem>
                      <rdg source="bib:Pou2001_01">k· yo <num value="3">3</num> ta giya saṁvatsara to moyya <g type="symbol"/> giya no</rdg>
-<!-- argr: what did Vong2003 read? -->
-                  </app>
-                  <app loc="10">
-                     <lem>gui ne<supplied reason="lost">ḥ</supplied></lem>
-                     <rdg source="bib:Vong2003_01">gui no</rdg>
-<!-- argr: what did Pou2001 read? -->
+                     <rdg source="bib:Vong2003_01">k· yau <num value="2">II</num> ta gui saṁvatsara ta moyya gui <unclear>no</unclear></rdg>
                   </app>
                   <app loc="11">
                      <lem>cātujātaka pramāṇa</lem>
                      <rdg source="bib:Pou2001_01">mātya jātaka</rdg>
-<!-- argr: what did Pou2001 read? -->
+                     <rdg source="bib:Vong2003_01">cātujātaka pramāṇa</rdg>
                   </app>
                   <app loc="12">
                      <lem>na Ai ta <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear>ed</unclear><seg type="component" subtype="prescript"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear>gui nu</unclear></lem><!-- argr: as above, delimit your <lem> in such a way that it doesn't cut off words at random points. -->
                      <rdg source="bib:Pou2001_01">n· Ai ta jeṅ· giya nu</rdg>
-                     <rdg source="bib:Vong2003_01">na Ai kaṅeṅ<!-- argr: no virāma? or does Vong2003 give a ligature ṅṭa? --> ṭa gui nu vraḥ daṅ· ma ...</rdg><!-- argr: "..." is not acceptable anywhere; enclode what is meant with suitable tags  -->
+                     <rdg source="bib:Vong2003_01">na Ai kaṅeṅ ṭa gui nu vraḥ daṅ· ma <gap reason="illegible" extent="unknown" unit="character"></gap></rdg>
                   </app>
                   <app loc="13">
                      <lem>jā sthita <unclear>gui</unclear> va<unclear>jā</unclear><gap reason="illegible" quantity="1" unit="character"/><choice><unclear>go</unclear><unclear>śo</unclear></choice><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/></lem><!-- argr: mody lem after changes made in edition above -->
-                     <rdg source="bib:Vong2003_01">jā sṭhita <supplied reason="lost">gui dharmme nā</supplied> ge dau ...</rdg>
- <!-- argr: what did Pou2001 read? -->
+                     <rdg source="bib:Pou2001_01"><supplied reason="explanation">The whole line is illegible.</supplied></rdg>
+                     <rdg source="bib:Vong2003_01">jā sṭhita <supplied reason="lost">gui dharmme nā</supplied> ge dau <gap reason="illegible" extent="unknown" unit="character"></gap></rdg>
                  </app>
                </listApp>
          </div>
          <div type="translation" xml:lang="fra"><note type="credit">The translation is given after <bibl><ptr target="bib:Pou2001_01"/></bibl> with modifications because of new reading in lines 4, 6, 7, 9 and 11.</note><!-- argr: please revise again, carefully. E.g., we read Vināyaka and not Vinayaśiva. I have not yet checked the whole translation. -->
-           <p n="1-5">Rizière en offrande de Poñ Vinayaśiva, mesurant 3 <foreign>mās</foreign>, d'un prix équivalant à 1 <foreign>liṅ</foreign> d'argent blanc, 6 <foreign>yau</foreign> de vêtements doubles, 1 <foreign>yau</foreign> de couverture : cela devint propriété du dieu Utpanna.</p>
+           <p n="1-5">Rizière en offrande de Poñ Vināyaka, mesurant 3 <foreign>mās</foreign>, d'un prix équivalant à 1 <foreign>liṅ</foreign> d'argent blanc, 6 <foreign>yau</foreign> de vêtements doubles, 1 <foreign>yau</foreign> de couverture : cela devint propriété du dieu Utpanna.</p>
             <p n="5-8">Voici d'autres champs et rizières, offerts par Poñ Kheṅ/Khoṅ, soit 1 <foreign>mās</foreign>, par Poñ Vidyādeva, soit 1 <foreign>mās</foreign>. Un serviteur <supplied reason="subaudible">nommé</supplied> ... offert au dieu, et 3 paires de boeufs.</p>
             <p n="9-10">Sacrifice au dieu chaque jour, 2 <foreign>liḥ</foreign> <supplied reason="explanation">de riz?</supplied>, et 3 <foreign>yau</foreign> d'étoffe pour chaque année.</p>
             <p n="10-13"><supplied reason="explanation">Texte décousu à cause des dégâts.</supplied></p>
