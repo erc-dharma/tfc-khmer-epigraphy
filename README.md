@@ -9,8 +9,8 @@ We maintain in .md format an encoding log that can be viewed through
 
 See <https://training.github.com/kit/downloads/fr/github-git-cheat-sheet.pdf>
 
-### Things you always need to do:
-### Commands Lines Users
+### Things you always need to do
+#### Command Line (Terminal.app) Users
 + Open Terminal.app.
   * If it isn't in your Dock yet, find it under Applications/Utilities.
   * You communicate with this application by UNIX commands, also called "command line".
@@ -43,7 +43,7 @@ See <https://training.github.com/kit/downloads/fr/github-git-cheat-sheet.pdf>
 + __Don't do anything else than this__: type `:q` and `ENTER`
 + It will allow you to quit the strange screen and return to the normal command line screen
 
-### Desktop Users
+#### Desktop Users
 + Open the Github Desktop
   * If it isn't in your Dock yet, find it under Applications
 + Make sure you are in the right repository under "Current repository".
