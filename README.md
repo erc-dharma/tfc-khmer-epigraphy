@@ -1,7 +1,9 @@
 # The repository tfc-khmer-epigraphy
 This repository assembles data produced by the project Corpus des inscriptions khmères (before and during the DHARMA project).
 
-## Please be careful a new release of the Epidoc Scheam has been done in October, if you are using a local version for the validation process, use the new one updated at `https://github.com/erc-dharma/project-documentation/blob/master/schema/tei-epidoc-schema9.1.rng` 
+## Encoding log
+We maintain in .md format an encoding log that can be viewed through 
+[https://github.com/erc-dharma/tfc-khmer-epigraphy/blob/master/texts/CIK_encoding_log.md](https://github.com/erc-dharma/tfc-khmer-epigraphy/blob/master/texts/CIK_encoding_log.md). 
 
 ## Basic GIT guidance
 
