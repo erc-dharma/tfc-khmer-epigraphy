@@ -1,9 +1,9 @@
+# Log for encoding of CIK
+- encoder IDs: dogo, chch and kuch
+- status: pending or done
+- remark: e.g. bibl. ref.
+
 |CIK |encoder |status |remark|
-
-[dogo, kuch or chch]
-[Comment pending or done]
-[Comment e.g. bibl. ref.]
-
 |:-----:|:-----:|:-----:|:-----:|
 |K.  1 |# |# |#|
 |K.	2 |# |# |#|
