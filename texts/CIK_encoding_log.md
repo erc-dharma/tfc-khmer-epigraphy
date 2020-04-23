@@ -1,7 +1,7 @@
 |CIK |encoder |status |remark|
-<!-- 	%encoder: dogo, kuch or chch
-	%status: pending or done)
-	%remark: e.g. bibl. ref.-->
+[	encoder: dogo, kuch or chch]
+[	status: pending or done]
+[	remark: e.g. bibl. ref.]
 |:-----:|:-----:|:-----:|:-----:|
 |K.  1 |# |# |#|
 |K.	2 |# |# |#|
