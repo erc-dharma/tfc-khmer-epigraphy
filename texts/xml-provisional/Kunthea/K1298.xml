@@ -10,14 +10,26 @@
                   <surname>Chhom</surname>
                </persName>
             </respStmt>
-         	<respStmt>
-         		<resp>intellectual authorship of edition</resp><!-- argr: is this correct? it seems that the person responsible for the e-text (was it Dominique?) should be mentioned here, or him and you, if you have given input of your own) -->
-         		<persName ref="part:kuch">
-         			<forename>Kunthea</forename>
-         			<surname>Chhom</surname>
-         		</persName>
-         	</respStmt>
-         </titleStmt>         
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            	<persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>DHARMA
                <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).
@@ -28,7 +40,7 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-               	<p>Copyright (c) 2019-2025 by Kunthea Chhom.</p><!-- argr: we're still discussing on who gets to claim copyright. But you can leave this for now. -->
+               	<p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
                </licence>
             </availability>
             <date from="2019" to="2025" >2019-2025</date>
@@ -44,83 +56,165 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p>1/2  : représenté par un signe plus (+).</p>
-                  	<!-- argr: I suggest this, to start with: "In line 3 we find a number sign with the value ½ that is represented by a +-shaped sign." Please put this in place of what you now have inside the <p>.  -->
-                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 --><!-- argr: you can delete the preceding comment "If you need ...", because it isn't relevant to this inscription. -->
+                     <p>In line 3 we find a number sign with the value ½ that is represented by a +-shaped sign.</p>
                   </handDesc>
                </physDesc>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-     	<change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change><!-- argr: please make sure that every <change> entry stands on a separate line; can the date for your Creation of the file be made more precise? you seem to have carried out some significant changes 16 hours ago (your commit <https://github.com/erc-dharma/tfc-khmer-epigraphy/commit/520e0ad831487d21637ac3e44ff5973cecc00b96>), so I expect there should be an entry for date="2020-04-13" --><!-- argr: you haven't yet responded to this comment... -->
+     <revisionDesc status="draft">
+	<change who="part:kuch" when="2020-04-25">Modifications to edition, apparatus, translation and bibliography</change>
+       	<change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+     	<change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+        	<change who="part:kuch" when="2019">Creation of the file</change>
      </revisionDesc>
-  </teiHeader>   
+  </teiHeader>
    <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
                 <p>
-<lb n="1"/>sre qaṁnoy· poñ· vinaya<unclear>ka</unclear>
-<lb n="2"/>mās· <num value="3">III</num> prak· so niṣkraya gui <supplied reason="lost">li</supplied><lb 
-   n="3" break="no"/>ṅ· <num value="1.5">I ½</num> canlek·<!-- argr: in the txt file, there is a comment "redoublement de nle". I am not sure what it means, maybe inspection of estampage would reveal what is meant. Even if you don't take the time to check the estampage, you are certainly expected to nake sure such comments are copied into the xml file at the relevant place, i.e., in this case, here. --><!-- kuch: I don't really understand your comment here. Do you want me to place the comment "redoublement de nle" in the Hand Description as well. I don't understand the EG about handDesc and handNote. Can you please explain?  --> yugala y<unclear>au</unclear>
-<lb n="4"/><unclear>qaṁ kaṁvala</unclear> <num value="63">6 3</num><!-- argr: is the value really 63? --><!-- kuch: I am not very sure. I don't have the estampage. --> gui neḥ nai vraḥ utpa<lb 
-   n="5" break="no"/>nna gui <unclear>nu mān·</unclear> <choice><unclear>nlaṁ</unclear><unclear>tra</unclear></choice> gui kṣetra sre
-<lb n="6"/>qaṁnoy· poñ· <unclear>khe</unclear>ṅ· mās· <num value="1">I</num> sre
-<lb n="7"/>qa<supplied reason="lost">ṁ</supplied>mnoy<supplied reason="lost">·</supplied> poñ<supplied reason="lost">·</supplied> vidyādeva mās<!-- argr: I guess a virāma was forgotten in the txt file here; please check estampage and insert · is necessary --><!-- kuch: Unfortunately, I don't have the estampage. --> <num value="1">I</num>
-<lb n="8"/>vā kñuṁ vraḥ <gap reason="lost" quantity="2" unit="character"/>· qoy· ta vraḥ tmur· dneṁ <num value="3">III</num>
-<lb n="9"/>satra vraḥ <unclear>ta</unclear> gui <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear>ṅ</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component" /></seg> <unclear>ta</unclear> moy· liḥ <num value="2">II</num> can·le<lb 
-   n="10" break="no"/>k· yau <num value="2">II</num> ta gui saṁvatsara ta moyya gi ne<supplied reason="lost">ḥ</supplied>
-<lb n="11"/>cātujātaka pramāṇa nu <gap reason="lost" quantity="1" unit="character"/> y<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component" /></seg> <gap reason="lost" quantity="1" unit="character" cert="low"/> <unclear>ja</unclear> mā<lb 
-   n="12" break="no"/>na qai ta <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear>e</unclear><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="prescript"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component" /></seg><!-- argr: I have never yet tried to encode such a coimplicated string. the txt file has (CeCCV), but you have but the <unclear> only around the vowel. Is this because putting unclear around the whole <seg> is now allowed? If the EG doesn't yet give full guidance on such cases, maybe this example can be shared with Daniel.  --><!-- kuch: If I remember well, I have tried to wrap <seg> in <unclear>. It was not allowed. So I decided to leave the <unclear>. --> gui <unclear>nu</unclear> vraḥ daṅ· <gap reason="lost" quantity="2" unit="character"/>
-<lb n="13"/>jā sthita gui <gap reason="lost" quantity="7" unit="character"/>
+<lb n="1"/>sre Aṁ<space type="defect"/>noy· poñ· vin<unclear>ā</unclear>ya<unclear>ka</unclear>
+<lb n="2"/>mās· <num value="3">III</num> prak· so niṣkraya gui <supplied reason="lost">li</supplied><lb
+   n="3" break="no"/>ṅ· <num value="1.5">I ½</num> ca<surplus>nle</surplus>nlek· yugala y<unclear>au</unclear>
+<lb n="4"/><num value="1" cert="low">I</num> Aṁ <add place="inline">kaṁ</add>va<unclear>la</unclear> y<unclear>au</unclear> <num value="1" cert="low"><unclear>I</unclear></num> gui neḥ nai vraḥ Utpa<lb
+   n="5" break="no"/>nna gui n<choice><unclear>eḥ</unclear><unclear>u</unclear></choice> mā<supplied reason="lost">n·</supplied> nū gui kṣetra sre
+<lb n="6"/>Aṁnoy· <space type="vacat" quantity="1" unit="character"/> p<unclear>o</unclear>ñ· kh<choice><unclear>e</unclear><unclear>o</unclear></choice>ṅ· māsa <num value="1">I</num> sre
+<lb n="7"/>A<supplied reason="omitted">ṁ</supplied>noy<unclear>·</unclear> <space type="vacat" quantity="1" unit="character"/> poñ<unclear>·</unclear> vidyādeva māsa <num value="1">I</num>
+<lb n="8"/>vā kñuṁ vraḥ <gap reason="illegible" quantity="2" unit="character"/>· Oy· ta vraḥ tmur· dneṁ <num value="3">III</num>
+<lb n="9"/>satra vraḥ ta <unclear>gui</unclear> <unclear>t</unclear>ṅ<unclear>ai ta</unclear> moy· liḥ <num value="2">II</num> can·le<lb
+   n="10" break="no"/>k· yau <num value="2">II</num> ta gui saṁvatsara ta moyya gui ne<supplied reason="lost">ḥ</supplied>
+<lb n="11"/><choice><orig>cātujātakapramāṇa</orig><reg>cāturjātakapramāna</reg></choice> nu <unclear>ge ya</unclear><space type="descender"/>jamā<lb
+   n="12" break="no"/>na Ai ta <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear>ed</unclear><seg type="component" subtype="prescript"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component" /></seg> <unclear>gui nu</unclear> vraḥ daṅ· <gap reason="illegible" quantity="2" unit="character"/>
+<lb n="13"/>jā sthita <unclear>gui</unclear> va<unclear>jā</unclear><gap reason="illegible" quantity="1" unit="character"/><choice><unclear>g</unclear><unclear>ś</unclear></choice>o<gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
 </p>
                 </div>
-                <div type="apparatus"><!-- argr: please read carefully what EG says about encoding apparatus. You are making some very basic mistakes in this first attempt. -->
+                <div type="apparatus">
                <listApp>
                   <app loc="1">
-                     <lem>vinaya(ka)</lem>
-                     <rdg source="bib:AuthorYear_01">vinaya<unclear>śi</unclear></rdg>
+                     <lem>vin<unclear>ā</unclear>ya<unclear>ka</unclear></lem>
+                     <rdg source="bib:Pou2001_01">vinaya<unclear>śi</unclear></rdg>
+                     <rdg source="bib:Vong2003_01">vinaya<supplied reason="lost">na</supplied></rdg>
+                  </app>
+                  <app loc="2">
+                     <lem>gui</lem>
+                     <rdg source="bib:Pou2001_01">gīya</rdg>
+                     <rdg source="bib:Vong2003_01">gui</rdg>
+                  </app>
+                  <app loc="2">
+                     <lem><supplied reason="lost">li</supplied><lb  n="3" break="no"/>ṅ·</lem>
+                     <rdg source="bib:Pou2001_01"><supplied reason="lost">li</supplied><lb  n="3" break="no"/>ṅ·</rdg>
+                     <rdg source="bib:Vong2003_01"><supplied reason="lost">jya</supplied><lb  n="3" break="no"/>ṅ·</rdg>
+                  </app>
+                 <app loc="3">
+                     <lem>ca<surplus>nle</surplus>nlek·</lem>
+                    <rdg source="bib:Pou2001_01">ca<space/>nlek·</rdg>
+                    <rdg source="bib:Vong2003_01">ca<space/>nlek·</rdg>
+                    <!-- The first syllable nle is partly destroyed because the stela is broken. But it is sufficiently readable on the estampage and does not seem to be voluntarily removed. -->
                   </app>
                   <app loc="4">
                      <lem>gui neḥ</lem>
-                     <rdg source="bib:Pou2001_01">giy no</rdg>
+                     <rdg source="bib:Pou2001_01">giya no</rdg>
+                     <rdg source="bib:Vong2003_01">gui neḥ</rdg>
+                  </app>
+                     <app loc="4">
+                     <lem>Aṁ <add place="inline">kaṁ</add>va<unclear>la</unclear> y<unclear>au</unclear> <num value="1" cert="low">I</num></lem>
+                     <rdg source="bib:Pou2001_01"><unclear>Aṁ kaṁvala</unclear><num value="63" cert="low"> 6-3</num></rdg>
+                        <rdg source="bib:Vong2003_01">Aṁvala yau <num value="2">2</num></rdg>
+                     </app>
+                  <app loc="5">
+                     <lem>vraḥ Utpa<lb n="5" break="no"/>nna gui n<choice><unclear>eḥ</unclear><unclear>u</unclear></choice> mā<supplied reason="lost">n·</supplied> nū gui</lem>
+                     <rdg source="bib:Pou2001_01">vraḥ Utpa<lb n="5" break="no"/>nna giya <gap reason="illegible" extent="unknown" unit="character"></gap> mā <gap reason="illegible" extent="unknown" unit="character"></gap>tra giya</rdg>
+                     <rdg source="bib:Vong2003_01">vraḥ Utpa<lb n="5" break="no"/>nna gui neḥ <unclear>mān·</unclear> nu gui</rdg>
                   </app>
                   <app loc="6">
-                     <lem>(khe)ṅ·</lem>
-                     <rdg source="bib:Pou2001_01">[-e]ṅ ; kho ?</rdg>
+                     <lem>kh<choice><unclear>e</unclear><unclear>o</unclear></choice>ṅ·</lem>
+                     <rdg source="bib:Pou2001_01"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><supplied reason="lost">e</supplied>ṅ·</rdg>
+                     <rdg source="bib:Vong2003_01">kheṅ</rdg>
+                  </app>
+                  <app loc="6">
+                     <lem>māsa</lem>
+                     <rdg source="bib:Pou2001_01">māsa</rdg>
+                     <rdg source="bib:Vong2003_01">mās·</rdg>
+                  </app>
+                  <app loc="7">
+                     <lem>māsa</lem>
+                     <rdg source="bib:Pou2001_01">māsa</rdg>
+                     <rdg source="bib:Vong2003_01">mās·</rdg>
                   </app>
                   <app loc="8">
-                     <lem>{2}</lem>
-                     <rdg source="bib:Pou2001_01">tvañ</rdg>
+                     <lem><gap reason="illegible" quantity="2" unit="character"/></lem>
+                     <rdg source="bib:Pou2001_01">tvañ·</rdg>
+                     <rdg source="bib:Vong2003_01">tel·</rdg>
                   </app>
-               </listApp>         
+                  <app loc="8">
+                     <lem>Oy· ta vraḥ</lem>
+                     <rdg source="bib:Pou2001_01">Oy· ta vraḥ</rdg>
+                     <rdg source="bib:Vong2003_01">Oy· vraḥ</rdg>
+                  </app>
+                  <app loc="8">
+                     <lem>dneṁ <num value="3">III</num></lem>
+                     <rdg source="bib:Pou2001_01">dneṁ <num value="3">3</num></rdg>
+                     <rdg source="bib:Vong2003_01">dneṁ <num value="2">II</num></rdg>
+                  </app>
+                  <app loc="9">
+                     <lem>vraḥ <unclear>ta</unclear> gui <unclear>t</unclear>ṅ<unclear>ai ta</unclear> moy· liḥ <num value="2">II</num></lem>
+                     <rdg source="bib:Pou2001_01">vraḥ Utpanna jiṅa <num value="1">I</num> liḥ <num value="2">2</num></rdg>
+                     <rdg source="bib:Vong2003_01">satra vraḥ ta gui tṅai ta moy· liḥ <num value="1">I</num></rdg>
+                  </app>
+                  <app loc="9">
+                     <lem>liḥ <num value="2">II</num></lem>
+                     <rdg source="bib:Pou2001_01">liḥ <num value="2">2</num></rdg>
+                     <rdg source="bib:Vong2003_01">liḥ <num value="1">I</num></rdg>
+                  </app>
+                  <app loc="10">
+                     <lem>k· yau <num value="2">II</num> ta gui saṁvatsara ta moyya gi ne<supplied reason="lost">ḥ</supplied></lem>
+                     <rdg source="bib:Pou2001_01">k· yo <num value="3">3</num> ta giya saṁvatsara to moyya <g type="symbol"/> giya no</rdg>
+                     <rdg source="bib:Vong2003_01">k· yau <num value="2">II</num> ta gui saṁvatsara ta moyya gui <unclear>no</unclear></rdg>
+                  </app>
+                  <app loc="11">
+                     <lem><choice><orig>cātujātakapramāṇa</orig><reg>cāturjātakapramāna</reg></choice></lem>
+                     <rdg source="bib:Pou2001_01">mātya jātaka</rdg>
+                     <rdg source="bib:Vong2003_01">cātujātaka pramāṇa</rdg>
+                  </app>
+                  <app loc="12">
+                     <lem><unclear>ge ya</unclear><space type="descender"/>jamā<lb n="12" break="no"/>na Ai ta <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear>ed</unclear><seg type="component" subtype="prescript"><gap reason="illegible" quantity="1" unit="component" /></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component" /></seg><unclear>gui nu</unclear></lem>
+                     <rdg source="bib:Pou2001_01"><gap reason="illegible" extent="unknown" unit="character"/> mā<lb n="12" break="no"/>n· Ai ta jeṅ· giya nu</rdg>
+                     <rdg source="bib:Vong2003_01">ge yajamā<lb n="12" break="no"/>na Ai kaṅeṅ ṭa gui nu vraḥ daṅ· ma <gap reason="illegible" extent="unknown" unit="character"></gap></rdg>
+                  </app>
+                  <app loc="13">
+                     <lem>jā sthita <unclear>gui</unclear> va<unclear>jā</unclear><gap reason="illegible" quantity="1" unit="character"/><choice><unclear>g</unclear><unclear>ś</unclear></choice>o<gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/></lem>
+                     <rdg source="bib:Pou2001_01"><supplied reason="explanation">The whole line is illegible.</supplied></rdg>
+                     <rdg source="bib:Vong2003_01">jā sṭhita <supplied reason="lost">gui dharmme nā</supplied> ge dau <gap reason="illegible" extent="unknown" unit="character"></gap></rdg>
+                 </app>
+               </listApp>
          </div>
-         <div type="translation" xml:lang="fra">
- 	<p n="1-5">Rizière en offrande de Poñ Vinayaśiva, mesurant 3 <foreign>mās</foreign>, d'un prix équivalant à 1 <foreign>liṅ</foreign> d'argent blanc, 6 vêtements doubles, 63 couvertures : cela devint propriété du dieu Utpanna.</p>
-            <p n="5-8">Voici d'autres champs et rizières, offerts par Poñ --ṅ, soit 1 <foreign>mās</foreign>, par Poñ Vidyādeva, soit 1 <foreign>mās</foreign>. Un serviteur <supplied reason="subaudible">nommé</supplied> Tvañ offert au dieu, et 3 paires de boeufs.</p>
-            <p n="9-10">Sacrifice au dieu Utpanna de quantité : 1 <foreign>jiṅ</foreign> et 2 <foreign>liḥ</foreign> <supplied reason="explanation">de nourriture?</supplied>, et 3 yo d'étoffe pour chaque année.</p>
-            <p n="10-13"><supplied reason="explanation">Texte décousu à cause des dégâts</supplied></p>
+         <div type="translation" xml:lang="fra"><note type="credit">The translation is given after <bibl><ptr target="bib:Pou2001_01"/></bibl> with modifications because of new reading in lines 4, 6, 7, 9 and 11.</note>
+           <p n="1-5">Rizière en offrande de Poñ Vināyaka, mesurant 3 <foreign>mās</foreign>, d'un prix équivalant à 1 <foreign>liṅ</foreign> et demi d'argent blanc, 1 <foreign>yau</foreign> de vêtements doubles, 1 <foreign>yau</foreign> de couverture : cela devint propriété du dieu Utpanna.</p>
+            <p n="5-8">Voici d'autres champs et rizières, offerts par Poñ Kheṅ/Khoṅ, soit 1 <foreign>mās</foreign>, rizières offertes par Poñ Vidyādeva, soit 1 <foreign>mās</foreign>. Des serviteurs hommes ... offerts au dieu, et 3 paires de boeufs.</p>
+            <p n="9-10">Sacrifice au dieu chaque jour, 2 <foreign>liḥ</foreign> <supplied reason="explanation">de riz?</supplied>, et 3 <foreign>yau</foreign> d'étoffe pour chaque année.</p>
+            <p n="11-13">Les quatre castes et le <foreign>yajamāna</foreign> <supplied reason="subaudible">résident</supplied> à ... ainsi que le dieu ...</p>
          </div>
-           <div type="translation" xml:lang="eng"><!-- argr: Mme Pou's translation in the txt file and could be encoded. Since the text is short and maybe not too difficult to translate, you could in a case like this add your own draft translation into English.   -->
- 	<!--translation encoded as per EG §9.2 -->
+           <div type="translation" xml:lang="eng" resp="part:kuch">
+             <p n="1-5">Paddy field offered by Poñ Vināyaka, measuring 3 <foreign>mās</foreign>, with a price equal to 1 <foreign>liṅ</foreign> and a half of white silver, 1 <foreign>yau</foreign> of pairs of cloth, 1 <foreign>yau</foreign> of blanket : all this was the propriety of god Utpanna.</p>
+              <p n="5-8">Here are other plantations and paddy fields, offered by Poñ Kheṅ/Khoṅ, equal to 1 <foreign>mās</foreign>, paddy fields by Poñ Vidyādeva, equal to 1 <foreign>mās</foreign>. Male servants ... offered to the god and 3 pairs of cows.</p>
+              <p n="9-10">Sacrifice to the god everyday, 2 <foreign>liḥ</foreign> <supplied reason="explanation">of rice?</supplied>, and 3 <foreign>yau</foreign> of cloth every year.</p>
+              <p n="11-13">The four castes and the <foreign>yajamāna</foreign> <supplied reason="subaudible">dwelling</supplied> at ... as well as the god ...</p> 
          </div>
-         <div type="commentary"><!-- argr: these don't seem to be items of commentary but variant readings. A variant reading does notr necessarily concern only a word, but can concerns more than one word at once. -->
-            <p>Line 9, Pou reads: satra vraḥ utpanna jiṅ I liḥ 2 can·le-.</p>
-            <p>Line 10, Pou reads: k yo 3 ta giy saṁvatsara to moyy @ giy no.</p>
-            <p>Line 11, Pou reads: mātya jātaka nu -- 6 ----- mā-.</p>
-            <p>Line 12, Pou reads: n ai ta jeṅ giy nu vraḥ-----------.</p>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
          </div>
-        <div type="bibliography">
-	<!--bibliography encoded as per section §9.4 -->
-	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p>Text is given after Saveros Pou, NIC II-III, p. 197 and Vong Sotheara, 2001 and 2003 ; estampage EFEO n. 1708.</p><!-- argr: from now on, for all such cases, please try to (a) find out who has re-edited the isscription as part of CIK, and (c) encode the bibliography as per EG 9.4.  -->
-           <listBibl type="primary"> 				<bibl/><!-- one <bibl/> per item of primary bibliography --> 			</listBibl>            <listBibl type="secondary">
-              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
-           </listBibl>
+       <div type="bibliography">
+          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="Pou2001_01"/><citedRange unit="page">197</citedRange></bibl>) with a French translation; edited again by Vong Sotheara (<bibl rend="omitname"><ptr target="Vong2003_01"/><citedRange unit="page">70</citedRange></bibl>) in roman and Khmer script; the variants of reading are taken from the Khmer script; re-edited here by Kunthea Chhom, Gerdi Gerschheimer, Dominique Soutif and Arlo Griffiths. from estampage EFEO n. 1708.</p>
+	 <listBibl type="primary">
+    <bibl>
+      <ptr target="bib:Vong2003_01"/>
+      <citedRange unit="page">70</citedRange>
+    </bibl>
+    <bibl>
+      <ptr target="bib:Pou2001_01"/>
+      <citedRange unit="page">197</citedRange>
+    </bibl>
+  </listBibl>
         </div>
         </body>
     </text>

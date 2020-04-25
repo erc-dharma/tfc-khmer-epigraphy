@@ -1,3 +1,8 @@
+# Log for encoding of CIK
+- encoder IDs: dogo, chch and kuch
+- status: pending or done
+- remark: e.g. bibl. ref.
+
 |CIK |encoder |status |remark|
 |:-----:|:-----:|:-----:|:-----:|
 |K.  1 |# |# |#|
@@ -632,9 +637,9 @@
 |K.	570 |# |# |#|
 |K.	571 |# |# |#|
 |K.	572 |# |# |#|
-|K.	573 |# |# |#|
-|K.	574 |# |# |#|
-|K.	575 |# |# |#|
+|K.	573 |dogo |done |Finot 1926|
+|K.	574 |dogo |done |Finot 1926|
+|K.	575 |dogo |done |Finot 1926|
 |K.	576 |# |# |#|
 |K.	577 |# |# |#|
 |K.	578 |# |# |#|
@@ -856,7 +861,7 @@
 |K.	780 |# |# |#|
 |K.	781 |# |# |#|
 |K.	782 |# |# |#|
-|K.	783 |# |# |#|
+|K.	783 |dogo |done |Coedes IC I|
 |K.	784 |# |# |#|
 |K.	785 |# |# |#|
 |K.	786 |# |# |#|
