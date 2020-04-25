@@ -1091,16 +1091,16 @@
 |K.	1010 |# |# |#|
 |K.	1011.1 |chch |done |Jacques 1999|
 |K.	1011.2 |chch |done |Jacques 1999|
-|K.	1011.3 |chch |pending |Jacques 1999|
-|K.	1011.4 |chch |pending |Jacques 1999|
-|K.	1011.5 |chch |pending |Jacques 1999|
-|K.	1012.1 |chch |pending |Jacques 1999|
-|K.	1012.2 |chch |pending |Jacques 1999|
-|K.	1012.3 |chch |pending |Jacques 1999|
+|K.	1011.3 |chch |done |Jacques 1999|
+|K.	1011.4 |chch |done |Jacques 1999|
+|K.	1011.5 |chch |done |Jacques 1999|
+|K.	1012.1 |chch |done |Jacques 1999|
+|K.	1012.2 |chch |done |Jacques 1999|
+|K.	1012.3 |chch |done |Jacques 1999|
 |K.	1013 |# |# |#|
 |K.	1014 |# |# |#|
-|K.	1015 |chch |pending |Jacques 1999|
-|K.	1016 |chch |pending |Jacques 1999|
+|K.	1015 |chch |done |Jacques 1999|
+|K.	1016 |chch |done |Jacques 1999|
 |K.	1017 |# |# |#|
 |K.	1018 |# |# |#|
 |K.	1019 |# |# |#|
