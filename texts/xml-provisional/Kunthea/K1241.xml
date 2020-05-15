@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="eng">
         <fileDesc>
             <titleStmt>
@@ -15,9 +12,9 @@
                 </respStmt>
                 <respStmt>
                     <resp>intellectual authorship of edition</resp>
-                    <persName ref="part:kuch">
-                        <forename>Kunthea</forename>
-                        <surname>Chhom</surname>
+                    <persName ref="part:doso">
+                        <forename>Dominique</forename>
+                        <surname>Soutif</surname>
                     </persName>
                 </respStmt>
             </titleStmt>         
@@ -36,60 +33,111 @@
                 </availability>
                 <date from="2019" to="2025">2019-2025</date>
             </publicationStmt>
-            <sourceDesc>
-                <p>Text is given after Saveros Pou, NIC II-III, p. 188.</p>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                            <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
-            <change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+        <revisionDesc><change who="part:kuch" when="2020-05-15" status="draft">Modifications of edition, apparatus and bibliography</change>
+            <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+            <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
         </revisionDesc>
     </teiHeader>
     <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
                 <p>
-<lb n="1"/><g type="symbol"/> <num value="678">678</num> śakaparigraha trayodaśī roc·<gap reason="lost" extent="unknown" unit="character"/>
-<lb n="2"/>qājñā dhūli jeṅ· vraḥ kaṁmrataṅ· qañ· qoy·<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="1"/><g type="symbol"/><!-- KC: To check on estampage what kind of symbol it is. --> <num value="678">678</num> śakaparigraha trayodaśī roc·<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/>qājñā dhūli jeṅ· vraḥ kaṁmrataṅ· Añ· Oy·<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/>kloñ· yamahasitta ta gi noḥ kāla mratāñ· kuruṅ· vi<supplied reason="lost">dh</supplied>i <gap reason="lost" quantity="2" unit="character"/> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>r</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> tel<supplied reason="lost">·</supplied> dhūli <supplied reason="lost">jeṅ·</supplied><gap reason="lost" extent="unknown" unit="character"/>
-<lb n="4"/><unclear>vraḥ ka</unclear>mratāṅ· qaña <gap reason="lost" quantity="13" unit="character"/><unclear>ṅ·</unclear> tāñ· suvinna yā tā<supplied reason="lost">ñ</supplied><gap reason="lost" extent="unknown" unit="character"/>
-<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> qoy· ta vraḥ kaṁmrataṅ· qañ·<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><unclear>vraḥ ka</unclear>mratāṅ· Aña <gap reason="lost" quantity="13" unit="character"/><unclear>ṅ·</unclear> tāñ· suvinna yā tā<supplied reason="lost">ñ</supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> Oy· ta vraḥ kaṁmrataṅ· Añ·<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="6"/><gap reason="lost" quantity="1" unit="character"/> mukha liṅga qāy· <unclear>p</unclear>raṅ· pādamūla <gap reason="lost" quantity="3" unit="character"/> <unclear>qāgā</unclear>nta <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>ñ· <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> kula poñ· vijayanan·<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> ta paṁre ta gi vargga yama<unclear>ha</unclear>sita daṅ· ge pādamūla phoṅ· go ta dār· tnor· ku hvatta vo <choice><unclear>s</unclear><unclear>l</unclear></choice><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>ā</unclear>ccan·
-<lb n="8"/>ku <gap reason="lost" quantity="3" unit="character"/> nima ku kanvāñ· vā bhandi vrāhmaṇa ta pjuḥ tleṅ· <unclear>mratāñ</unclear> nārāyasvām<supplied reason="lost">i</supplied> qupaka<lb n="9"
-break="no"/><gap reason="lost" quantity="1" unit="character"/> <unclear>mratāñ</unclear> raśmijaya gi ta pjuḥ ta noḥ kāla mratāñ<supplied reason="lost">·</supplied> nāgapā <supplied reason="lost">la bha</supplied>gavata go ta clakka neḥ
-<lb n="10"/><gap reason="lost" quantity="1" unit="character"/> <unclear>sāk giy m</unclear>ratāñ· qiśāna śaṇna mratāñ· s<choice><unclear>a</unclear><unclear>ā</unclear></choice>ṅ· mratāñ· jye<unclear>ṣṭha</unclear>kula mratāñ· kanmeṅ·
-<lb n="11"/>mratāñ kulavandhi mratāñ· tāṅ· kalpit· poñ· ratnavi<supplied reason="lost">ś</supplied>eṣa grāmavr̥ddha sabhā <unclear>qā</unclear>la
-<lb n="12"/><gap reason="lost" quantity="4" unit="character"/> bhay· moya knap· mā<unclear>s·</unclear> moya ta vraḥ ka<add place="above">mra</add>tāṅ· qañ· ge hvatta nā
-<lb n="13"/><gap reason="lost" quantity="1" unit="character"/><unclear>nta</unclear><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>y· ge ta kathā man· qnak· vraḥ ley· ge tel· qoy· daṇda
+<lb n="8"/>ku <gap reason="lost" quantity="3" unit="character"/> nima ku kanvāñ· vā bhandi vrāhmaṇa ta pjuḥ tleṅ· <unclear>mratāñ·</unclear> nārāyasvām<supplied reason="lost">i</supplied> Upaka<lb n="9"
+break="no"/><gap reason="lost" quantity="1" unit="character"/> <unclear>mratāñ·</unclear> raśmijaya gi ta pjuḥ ta noḥ kāla mratāñ<supplied reason="lost">·</supplied> nāgapā <supplied reason="lost">la bha</supplied>gavata go ta clakka neḥ
+<lb n="10"/><gap reason="lost" quantity="1" unit="character"/> <unclear>sāk giy m</unclear>ratāñ· Iśāna śaṇna mratāñ· s<choice><unclear>a</unclear><unclear>ā</unclear></choice>ṅ· mratāñ· jye<unclear>ṣṭha</unclear>kula mratāñ· kanmeṅ·
+<lb n="11"/>mratāñ· kulavandhi mratāñ· tāṅ· kalpit· poñ· ratnavi<supplied reason="lost">ś</supplied>eṣa grāmavr̥ddha sabhā <unclear>qā</unclear>la
+<lb n="12"/><gap reason="lost" quantity="4" unit="character"/> bhay· moya knap· mā<unclear>s·</unclear> moya ta vraḥ ka<add place="above">mra</add>tāṅ· Añ· ge hvatta nā
+<lb n="13"/><gap reason="lost" quantity="1" unit="character"/><unclear>nta</unclear><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>y· ge ta kathā man· qnak· vraḥ ley· ge tel· Oy· daṇda
 <lb n="14"/><gap reason="lost" quantity="10" unit="character"/> gi neḥ
                 </p>
             </div>
             <div type="apparatus">
-           <!--apparatus encoded as per EG §9.1, basic elements for apparatus below-->
-               <listApp><!-- one <app> for each apparatus entry -->
-                  <app loc="line"><!-- Update the value of @loc.-->
-                     <lem><!-- fill in a lemma here --></lem>
-                     <rdg source="bib:AuthorYear_01"><!-- update the @source value, fill in variant reading here --></rdg>
-                  </app>
+               <listApp>
+                  <app loc="1">
+                   <lem>678</lem>
+                      <rdg source="bib:Pou2001_01">69<supplied reason="lost">8</supplied></rdg>
+               </app>
+                   <app loc="2">
+                   <lem>dhūli</lem>
+                 <rdg source="bib:Pou2001_01">dhuli</rdg>
+               </app>
+                   <app loc="2">
+                   <lem> kaṁmrataṅ·</lem>
+                 <rdg source="bib:Pou2001_01">kaṁrataṅ·</rdg>
+               </app>
+                   <app loc="4">
+                   <lem>suvinna yā</lem>
+                 <rdg source="bib:Pou2001_01">suvijayā</rdg>
+                   </app>
+                   <app loc="6">
+                   <lem><gap reason="lost" quantity="1" unit="character"/> mukha liṅga</lem>
+                 <rdg source="bib:Pou2001_01">vraḥ dhūli jeṅ·</rdg>
+               </app>
+                   <app loc="8">
+                   <lem> bhandi</lem>
+                 <rdg source="bib:Pou2001_01">bhaṇdi</rdg>
+               </app>
+                   <app loc="8">
+                   <lem>Upaka<lb n="9" break="no"/><gap reason="lost" quantity="1" unit="character"/></lem>
+                 <rdg source="bib:Pou2001_01">daṅ ka<lb n="9" break="no"/><gap reason="lost" quantity="1" unit="character"/></rdg>
+               </app>
+                   <app loc="10">
+                   <lem>Iśāna</lem>
+                 <rdg source="bib:Pou2001_01">Īśāna</rdg>
+               </app>
+                   <app loc="11">
+                   <lem>ratnavi<supplied reason="lost">ś</supplied>eṣa</lem>
+                 <rdg source="bib:Pou2001_01">ratnavikeṣa</rdg>
+               </app>
                </listApp>         
          </div>
          <div type="translation" xml:lang="fra">
- 	<p n="1-6">En 678 <foreign>śaka</foreign>, le treizième jour de la lune décroissante ........... Ordre du seigneur .............. au responsable des <foreign>yamahasita</foreign>. Au temps de Mratāñ Kuruṅ Vidhi ..... Tāñ Suvijaya et Tāñ ...................................................</p>
-             <p n="7-8">........ servant dans la section des <foreign>yamahasita</foreign> et les notables reçurent en échange Ku Hvatta, <supplied reason="subaudible">Vā</supplied> Qācan, Ku ...nima, Ku Kanvāñ, Vā Bhanḍi.</p>
-             <p n="8-9">Les brahmanes <foreign>pjuḥ</foreign> relèvent de Mratāñ Nārāyasvāmi, ainsi que Kamratāñ Raśmijaya qui pjuḥ au temps du Mratāñ Nāgapāla qui était bhāgavata.</p> 
-             <p n="9-12">Ayant sculpté cette <supplied reason="subaudible">image</supplied>: le Mratāñ Īśānaśannā ; ayant bâti <supplied reason="subaudible">cela</supplied>: le Mratāñ Jyeṣṭhakula, Mratāñ Kanmeṅ, Mratāñ Kulavandhi, Tāñ Kalpit, Poñ Ratnavikeśa, chef de village ............. vingt, un trésor d'or enfoui du dieu. Les ............................................</p>
-             <p n="13">Les gens qui feront des déclarations au sujet des serviteurs du dieu, qui ont châtié ...........</p>
+ 	<p n="1-6">En 678 <foreign>śaka</foreign>, le treizième jour de la lune décroissante <gap reason="ellipsis"/><note>The passage is illegible.</note>. Ordre du seigneur <gap reason="ellipsis"/><note>The passage is illegible.</note> au responsable des <foreign>yamahasita</foreign>. Au temps de Mratāñ Kuruṅ Vidhi <gap reason="ellipsis"/><note>The passage is illegible.</note> Tāñ Suvijaya et Tāñ <gap reason="ellipsis"/><note>The passage is illegible.</note></p>
+             <p n="7-8"><gap reason="ellipsis"/><note>The passage is illegible.</note> servant dans la section des <foreign>yamahasita</foreign> et les notables reçurent en échange Ku Hvatta, <supplied reason="subaudible">Vā</supplied> qācan, Ku nima, Ku Kanvāñ, Vā Bhanḍi.</p>
+             <p n="8-9">Les brahmanes <foreign>pjuḥ</foreign> relèvent de Mratāñ Nārāyasvāmi, ainsi que Kamratāñ Raśmijaya qui <foreign>pjuḥ</foreign> au temps du Mratāñ Nāgapāla qui était bhāgavata.</p> 
+             <p n="9-12">Ayant sculpté cette <supplied reason="subaudible">image</supplied>: le Mratāñ Iśāna śaṇna ; ayant bâti <supplied reason="subaudible">cela</supplied>: le Mratāñ Jyeṣṭhakula, Mratāñ Kanmeṅ, Mratāñ Kulavandhi, Tāñ Kalpit, Poñ Ratnavikeśa, chef de village <gap reason="ellipsis"/><note>The passage is illegible.</note> vingt, un trésor d'or enfoui du dieu. Les <gap reason="ellipsis"/><note>The passage is illegible.</note></p>
+             <p n="13">Les gens qui feront des déclarations au sujet des serviteurs du dieu, qui ont châtié <gap reason="ellipsis"/><note>The passage is illegible.</note></p>
          </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
          </div>
         <div type="bibliography">
-	<!--bibliography encoded as per section §9.4 -->
-	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
-           <listBibl type="secondary">
-              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
-           </listBibl>
+          <p>Edited by Saveros Pou (<bibl rend="omitname"><ptr target="Pou2001_01"/><citedRange unit="page">188</citedRange></bibl>) with a French translation.</p>
+	 <listBibl type="primary">
+    <bibl>
+      <ptr target="bib:Pou2001_01"/>
+      <citedRange unit="page">188</citedRange>
+    </bibl>
+  </listBibl>
         </div>
         </body>
     </text>
