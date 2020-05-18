@@ -1,3 +1,8 @@
+# Log for encoding of CIK
+- encoder IDs: dogo, chch and kuch
+- status: pending or done
+- remark: e.g. bibl. ref.
+
 |CIK |encoder |status |remark|
 |:-----:|:-----:|:-----:|:-----:|
 |K.  1 |# |# |#|
@@ -632,9 +637,9 @@
 |K.	570 |# |# |#|
 |K.	571 |# |# |#|
 |K.	572 |# |# |#|
-|K.	573 |# |# |#|
-|K.	574 |# |# |#|
-|K.	575 |# |# |#|
+|K.	573 |dogo |done |Finot 1926|
+|K.	574 |dogo |done |Finot 1926|
+|K.	575 |dogo |done |Finot 1926|
 |K.	576 |# |# |#|
 |K.	577 |# |# |#|
 |K.	578 |# |# |#|
@@ -856,7 +861,7 @@
 |K.	780 |# |# |#|
 |K.	781 |# |# |#|
 |K.	782 |# |# |#|
-|K.	783 |# |# |#|
+|K.	783 |dogo |done |Coedes IC I|
 |K.	784 |# |# |#|
 |K.	785 |# |# |#|
 |K.	786 |# |# |#|
@@ -1091,16 +1096,16 @@
 |K.	1010 |# |# |#|
 |K.	1011.1 |chch |done |Jacques 1999|
 |K.	1011.2 |chch |done |Jacques 1999|
-|K.	1011.3 |chch |pending |Jacques 1999|
-|K.	1011.4 |chch |pending |Jacques 1999|
-|K.	1011.5 |chch |pending |Jacques 1999|
-|K.	1012.1 |chch |pending |Jacques 1999|
-|K.	1012.2 |chch |pending |Jacques 1999|
-|K.	1012.3 |chch |pending |Jacques 1999|
+|K.	1011.3 |chch |done |Jacques 1999|
+|K.	1011.4 |chch |done |Jacques 1999|
+|K.	1011.5 |chch |done |Jacques 1999|
+|K.	1012.1 |chch |done |Jacques 1999|
+|K.	1012.2 |chch |done |Jacques 1999|
+|K.	1012.3 |chch |done |Jacques 1999|
 |K.	1013 |# |# |#|
 |K.	1014 |# |# |#|
-|K.	1015 |chch |pending |Jacques 1999|
-|K.	1016 |chch |pending |Jacques 1999|
+|K.	1015 |chch |done |Jacques 1999|
+|K.	1016 |chch |done |Jacques 1999|
 |K.	1017 |# |# |#|
 |K.	1018 |# |# |#|
 |K.	1019 |# |# |#|

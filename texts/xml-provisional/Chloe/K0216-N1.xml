@@ -5,18 +5,22 @@
     <teiHeader xml:lang="eng">
         <fileDesc>
             <titleStmt>
-                <title>Encoding template for inscription</title><!--Change the title of the file, e.g. Raktamālā grant of the time of Budhagupta, year 159-->
-                <respStmt><!-- add an element respStmt for each person involved -->
-                    <resp>Creation of the file</resp><!-- work done in the file, e.g. editor ...-->
-                    <persName ref="part:chch"><!-- update the id -->
-                        <forename>Chloé</forename><!-- fill in your  names — it is possible to use only <name> instead of <foreame> and <surname> -->
+                <title>Northern doorjamb of the maṇḍapa entrance at Phnom Preah Netr Preah (K. 216-N1)</title>
+                <respStmt>
+                    <resp>Creation of the file</resp>
+                    <persName ref="part:chch">
+                        <forename>Chloé</forename>
                         <surname>Chollet</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
-                    <resp>intellectual authorship of edition</resp><!-- this may be the same as the creator of the file -->
-                    <persName ref="part:chch"><!-- update the id -->
-                        <forename>Chloé</forename><!-- fill in the name of the responsible scholar — it possible to use only <name> instead of <foreame> and <surname> -->
+                    <resp>intellectual authorship of edition</resp>
+                    <persName ref="part:geco">
+                        <forename>George</forename>
+                        <surname>Cœdès</surname>
+                    </persName>
+                    <persName ref="part:chch">
+                        <forename>Chloé</forename>
                         <surname>Chollet</surname>
                     </persName>
                 </respStmt>
@@ -26,17 +30,17 @@
                     <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).
                     </note>
                 </authority>
-                <pubPlace><!-- fill in here the place or places where the encoding has been done --></pubPlace>
-                <idno type="filename">DHARMA_EncodingTemplateInscription</idno><!-- Replace by filename, e.g. Pallava00001 -->
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">K0216-N1</idno>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">
                         <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                        <p>Copyright (c) 2019-2025 by Chloé Chollet.</p><!-- Replace year and name, use format "Forename1 Surname1 & Forename2 Surname2" or "Forename1 Surname1, Forename2 Surname2 & Forename3 Surname3"  if necessary — the copyright is that of the encoder(s) -->
+                        <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
                     </licence>
                 </availability>
                 <date from="2019" to="2025">2019-2025</date>
             </publicationStmt>
-            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <sourceDesc>
                 <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
                     <msIdentifier>
                         <repository>DHARMAbase</repository>
@@ -58,15 +62,17 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+        <revisionDesc>
+            <change who="part:chch" when="2020-04-25" status="draft">Bibliography added</change>
+            <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
             <change who="part:chch" when="2020-02-10" status="draft">Modifications of the encoding of the edition and addition of the translation</change>
             <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-            <change who="part:chch" when="2019" status="draft">Initial encoding of the text</change><!-- add a <change> for each change to the file, the first change should replace this one and record your creation of a file using this template. -->
+            <change who="part:chch" when="2019" status="draft">Initial encoding of the text</change>
         </revisionDesc>
     </teiHeader>  
     <text xml:space="preserve">
         <body>
-            <div type="edition" xml:lang="khm-Latn">
+            <div type="edition" xml:lang="x-oldkhmer-Latn">
                 <p>
                     <lb n="1"/><unclear>//</unclear> qoṁ // <num value="927">927</num> śaka pūrṇṇam<unclear>ī</unclear> vaiśakha śukravāra , gi nu khloñ∙ vala qadhyāpaka <unclear>th</unclear>vāya 
                     <lb n="2"/>śloka paṅgaṁ thpvaṅ∙ nivedana ta dhūli vraḥ pāda dhūli jeṅ∙ vraḥ kamrateṅ∙ qañ∙ śrī jaya<lb n="3" 
@@ -87,24 +93,24 @@
               <listApp>
                 <app loc="5">
                    <lem>sabhāsat<unclear>∙</unclear></lem>
-                <rdg source="Coedes">sabhāpati</rdg> <!--IC III, p. 37-->
+                <rdg source="bib:Coedes1937-1966_01">sabhāpati</rdg>
                 </app>
                  <app loc="6">
                    <lem>vāp∙ deṅ∙</lem>
-                <rdg source="Coedes">vāp∙ deva</rdg> <!--IC III, p. 37-->
-                 <rdg source="Aymonier">vāp∙ teṅ∙</rdg> <!--Aymonier 1901, p. 323-->
+                <rdg source="bib:Coedes1937-1966_01">vāp∙ deva</rdg>
+                 <rdg source="bib:Aymonier1900-1904_01">vāp∙ teṅ∙</rdg>
                 </app>
                 <app loc="6">
                    <lem>raṅ∙vāṅ∙</lem>
-                   <note>Even if a <foreign xml:lang="san-Latn">virāma</foreign> is clearly visible above the consonant <foreign>ṅ</foreign>, those two terms must be understand as a single one (<foreign xml:lang="khm-Latn">raṅvāṅ∙</foreign>).</note>
+                   <note>Even if a <foreign>virāma</foreign> is clearly visible above the consonant <foreign>ṅ</foreign>, those two terms must be understand as a single one (<foreign>raṅvāṅ∙</foreign>).</note>
                 </app>
                 <app loc="7">
                    <lem>kuti</lem>
-                   <note>In Old Khmer, <foreign xml:lang="khm-Latn">kuṭi</foreign> is frequently written <foreign xml:lang="khm-Latn">kuti</foreign> (and this one is also found in line 10, written <foreign xml:lang="khm-Latn">kutī</foreign>). On this subject, see the note in <!--Griffiths and Soutif 2008-2009, p. 38, n. 15-->.</note>
+                   <note>In Old Khmer, <foreign>kuṭi</foreign> is frequently written <foreign>kuti</foreign> (and this one is also found in line 10, written <foreign>kutī</foreign>). On this subject, see the note in <bibl><ptr target="bib:Griffiths+Soutif_2008-2009_01"/><citedRange unit="page">38</citedRange><citedRange unit="note">15</citedRange></bibl>.</note>
                 </app> <!--Should I write <choice><orig>kuti</orig><reg>kuṭi</reg></choice> in the edition, instead of writing this note ? -->
               </listApp>
             </div>
-         <div type="translation" xml:lang="fr">
+         <div type="translation" xml:lang="fra">
 <p n="1-10">Oṁ. 927 śaka, pleine lune de vaiśākha, vendredi, c’est alors <supplied reason="explanation">gi nu</supplied> que le khloñ vala professeur présenta une requête informant respectueusement sa Majesté le V. K. ’A. Śrī Jayavīravarmadeva qu’il revendiquait tous les biens du Steṅ ’Añ Vraḥ Jrai ; <supplied reason="subaudible">qu’un</supplied> édit royal parvint  au khloñ vala jnvāl page à la chambre royale des distractions et fut transmis  à tous les membres de la Cour, ordonnant à Mratāñ Śrī Jayendropakalpa, assesseur à la Cour, Mratāñ Śrī Jayendrapaṇḍita, bhāgavata de service, Vāp Deṅ, chef des raṅvāṅ de troisième rang, de venir <supplied reason="subaudible">et de</supplied> répertorier  l’ensemble des biens de Steṅ Vraḥ Jrai ainsi que les esclaves, le(s) sruk, le(s) rizière(s) tant de la sainte chapelle <supplied reason="explanation">vraḥ kuṭi</supplied> du Saint Rājendrāśrama que du Vraḥ Kaṁrateṅ ’Añ Śankara pour les remettre à la famille de Steñ Vraḥ Jrai sans fraude ; qu’ils ne relèvent pas de l’autorité des gens du sanctuaire, ni de celle du chef du sanctuaire.</p>
 <p n="10-12"><supplied reason="subaudible">On</supplied> a érigé cette chapelle <supplied reason="subaudible">pour</supplied> le culte du kaṁrateṅ jagat conformément à ce que <supplied reason="subaudible">les</supplied> Steñ Vraḥ Jrai, qui sont les multiples ancêtres <supplied reason="explanation">du Steñ mentionné plus haut</supplied>, ont établi ; si <supplied reason="subaudible">l’on</supplied> ne trouve pas de famille de Steñ Vraḥ Jrai <supplied reason="subaudible">ses biens</supplied> dépendront entièrement du professeur de cette cellule.</p>
 <p n="12-13">Et de même, les biens et les esclaves de toutes les autres familles doivent tous être réclamés <supplied reason="subaudible">et</supplied> doivent sans faute être placés sous l’autorité des autres qui ont réalisé ladite chapelle <supplied reason="subaudible">qui</supplied> de la même manière <supplied reason="explanation"><foreign>noḥ man</foreign></supplied> présenteront une requête.</p>
@@ -113,15 +119,17 @@
             <!--commentary encoded as per section §9.3 -->
          </div>
         <div type="bibliography">
-	<!--bibliography encoded as per section §9.4 -->
-	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
+	  <p>First studied by Etienne Aymonier (<bibl rend="omitname"><ptr target="bib:Aymonier1900-1904_01"/><citedRange unit="volume">1</citedRange><citedRange unit="page">323</citedRange></bibl>). Edited later by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">37</citedRange></bibl>) with a French translation. Re-edited by Chloé Chollet from the EFEO estampage n. 458.</p>
         	<listBibl type="primary">
-				<bibl/><!-- one <bibl/> per item of primary bibliography -->
+        	    <bibl>
+				     <ptr target="bib:Aymonier1900-1904_01"/>
+      <citedRange unit="volume">1</citedRange><citedRange unit="page">323</citedRange>
+				</bibl>
+				<bibl>
+				     <ptr target="bib:Coedes1937-1966_01"/>
+      <citedRange unit="volume">3</citedRange><citedRange unit="page">37</citedRange>
+				</bibl>
 			</listBibl>
-           <listBibl type="secondary">
-              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
-           </listBibl>
         </div>
         </body>
     </text>

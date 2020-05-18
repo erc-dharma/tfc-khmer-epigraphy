@@ -5,7 +5,7 @@
 	<teiHeader xml:lang="eng">
 		<fileDesc>
 			<titleStmt>
-				<title>Rock inscription from Kbal Spean waterfall (K.1012-1)</title>
+				<title>Rock inscription from Kbal Spean river (K. 1015)</title>
 				<respStmt>
 					<resp>EpiDoc Encoding</resp>
 					<persName ref="part:chch">
@@ -27,7 +27,7 @@
 						innovation programme (grant agreement no 809994).</note>
 				</authority>
 				<pubPlace>Paris</pubPlace>
-				<idno type="filename">K1012-1</idno>
+				<idno type="filename">K1015</idno>
 				<availability>
 					<licence target="https://creativecommons.org/licenses/by/4.0/">
 						<p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -35,8 +35,7 @@
 							https://creativecommons.org/licenses/by/4.0/ or send a letter to
 							Creative Commons, 444 Castro Street, Suite 900, Mountain View,
 							California, 94041, USA.</p>
-						<p>Copyright (c) 2019-2025 by Chloé
-						Chollet.</p>
+						<p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
 					</licence>
 				</availability>
 				<date from="2019" to="2025">2019-2025</date>
@@ -64,8 +63,7 @@
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
-			<change who="part:chch" when="2020-05-03" status="draft">Bibliography added</change>
-			<change who="part:chch" when="2020-04-14">Creation of the
+			<change who="part:chch" when="2020-04-25" status="draft">Creation of the
 				file</change>
 			<change who="part:axja" when="2020-03-18">Version 2: addition of handDesc and summary</change>
 			<change who="part:axja" when="2019-12-18" status="draft">Creation of the
@@ -74,27 +72,43 @@
 	</teiHeader>
 	<text xml:space="preserve">
       <body>
-         <div type="edition" xml:lang="san-Latn">
-         	<lg n="1" met="anuṣṭubh">
-                    <l n="1"><lb n="1"/><unclear>ru</unclear>dradhārā śivārnāsā</l>
-               <l n="2">gaṅgā ghoṣavatī babhau</l>
- <l n="3"><lb n="2"/><unclear>lo</unclear>kakilbiṣasaṁhartrī</l>
-                <l n="4">pratyakṣan dyunadīva yā //</l>
-            </lg>
+         <div type="edition" xml:lang="x-oldkhmer-Latn">
+         <p>
+<lb n="1"/>mā kala <gap reason="illegible" quantity="1" unit="character"/> rāṅgaratna vr̥ndāvali li<gap reason="illegible" quantity="1" unit="character"/>ga <gap reason="illegible" quantity="2" unit="character"/> qaharṇṇiśam tand vi ha tta
+<lb n="2"/>bhaktyādi<gap reason="illegible" quantity="1" unit="character"/>mukta kara <gap reason="illegible" quantity="4" unit="character"/> ||
+<lb n="3"/>ktaś śavdavaṅśo manīṣinām ||
+<lb n="4"/>vraḥ vilasyādriśr̥ṅge smi<supplied reason="omitted">n</supplied>
+</p>
          </div>
-         <div type="translation" xml:lang="fra">
- 	<p rend="stanza" n="1">Torrent de Rudra, rivière de Śiva, cette Gaṅgā s'est manifestée visiblement, bruyante, elle qui détruit complètement les fautes du monde, comme la rivière céleste !</p>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem>mā kala <gap reason="illegible" quantity="1" unit="character"/> rāṅgaratna</lem>
+                     <rdg source="bib:Jacques1999_01">ma nā rāṅgaratna</rdg>
+                  </app>
+               	<app loc="1">
+<lem>li<gap reason="illegible" quantity="1" unit="character"/>ga <gap reason="illegible" quantity="2" unit="character"/></lem>
+               		<rdg source="bib:Jacques1999_01">li ga s sra</rdg>
+               	</app>
+               	<app loc="1">
+               		<lem>tta</lem>
+               		<note>This final syllable, which appears in the edition of Claude Jacques, is not visible on the rubbing.</note>
+               	</app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="eng">
+ 	<!--translation encoded as per EG §9.2 -->
          </div>
          <div type="commentary">
-            <!--commentary encoded as per section §9.3 -->
+           <p>Jacques notes that it might be a poem or praise engraved by an hermit, but the meter used is unclear. It might be <foreign>upajāti</foreign>.</p>
          </div>
         <div type="bibliography">
-	<p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">361</citedRange></bibl>) with a French translation.</p>
+           <p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">363</citedRange></bibl>).</p>
         	<listBibl type="primary">
 				<bibl><ptr target="bib:Jacques1999_01"/>
-      <citedRange unit="page">361</citedRange>
+      <citedRange unit="page">363</citedRange>
 					</bibl>
-        	</listBibl>
+        	</listBibl>	
         </div>
       </body>
   </text>
