@@ -2,263 +2,268 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="eng">
-        <fileDesc>
-            <titleStmt>
-                <title>Doorjambs of the Southern tower of from Bat Chum (K.0266)</title>
-                <respStmt>
-                    <resp>Creation of the file</resp>
-                    <persName ref="part:chch">
-                        <forename>Chloé</forename>
-                        <surname>Chollet</surname>
-                    </persName>
-                </respStmt>
-                <respStmt>
-                    <resp>intellectual authorship of edition</resp>
-                    <persName ref="part:geco">
-                        <forename>George</forename>
-                        <surname>Cœdès</surname>
-                    </persName>
-                </respStmt>
-            </titleStmt>         
-            <publicationStmt>
-                <authority>DHARMA
-                    <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).
-                    </note>
-                </authority>
-                <pubPlace>Paris</pubPlace>
-                <idno type="filename">K0266</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                        <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
-                    </licence>
-                </availability>
-                <date from="2019" to="2025">2019-2025</date>
-            </publicationStmt>
-            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
-                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-                    <msIdentifier>
-                        <repository>DHARMAbase</repository>
-                        <idno/><!-- don't modify this -->
-                    </msIdentifier>
-                    <msContents><!-- describe the intellectual content of an inscription -->
-                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
-                    </msContents>
-                    <physDesc>
-                        <handDesc>
-                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                            <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+				<title>Doorjambs of the Southern tower of from Bat Chum</title>
+				<!-- Endowment to  -->
+				<respStmt>
+					<resp>EpiDoc encoding</resp>
+					<persName ref="part:chch">
+						<forename>Chloé</forename>
+						<surname>Chollet</surname>
+					</persName>
+					<persName ref="part:argr">
+						<forename>Arlo</forename>
+						<surname>Griffiths</surname>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp>intellectual authorship of edition</resp>
+					<persName ref="part:geco"><!-- don't use part: in such cases -->
+						<forename>George</forename>
+						<surname>Cœdès</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994). </note>
+				</authority>
+				<pubPlace>Paris</pubPlace>
+				<idno type="filename">K0266</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">
+						<p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+						<p>Copyright (c) 2019-2025 by Chloé Chollet &amp; Arlo Griffiths.</p>
+					</licence>
+				</availability>
+				<date from="2019" to="2025">2019-2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<!-- only the handDesc can be filled in at this stage -->
+				<msDesc>
+					<!-- // NB: the msIdentifier had to be added for validation purposes /// . It will be edited later with the metadata spreadsheet -->
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+						<!-- don't modify this -->
+					</msIdentifier>
+					<msContents>
+						<!-- describe the intellectual content of an inscription -->
+						<summary><!-- // NOT MANDATORY  // --></summary>
+						<!-- offers the possibility to give a summary of the inscription's content -->
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p>The basic punctuation sign in this text is an ornate double <foreign>daṇḍa</foreign> written in one continuous movement, resembling an inverted S-shape. The name of the poet being made known in the text itself, it is possibile that the hand is that of the poet.<!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+							<!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
 						<handNote xml:id="Pallava00001_hand2"></handNote>
 					 -->
-                        </handDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc>
-            <change who="part:chch" when="2020-05-03" status="draft">Added bibliography</change>
-            <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-            <change who="part:chch" when="2020-01-13" status="draft">Updated template and added some corrections to the file</change>
-            <change who="part:chch" when="2019" status="draft">Initial encoding of the text</change></revisionDesc>
-    </teiHeader>
-    <text xml:space="preserve">
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:argr" when="2020-05-19" status="draft">revised chch's encoding</change>
+			<change who="part:chch" when="2020-05-03" status="draft">added bibliography</change>
+			<change who="part:axja" when="2020-04-08" status="draft">update template 2</change>
+			<change who="part:chch" when="2020-01-13" status="draft">updated template and added some corrections to the file</change>
+			<change who="part:chch" when="2019" status="draft">initial encoding of the text</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
       <body>
-          <div type="edition" xml:space="preserve">
-                <div type="textpart" n="1" xml:lang="san-Latn">
-                   <lg n="1" met="vasantatilakā">
-<l n="1"><lb n="A1"/>
-                    <milestone unit="doorjamb" n="A"/>
-<g type="symbol" subtype="initialGomutra"/> // jejīyatāṁ vraja <seg met="-+--+-+="><gap reason="lost" extent="8" unit="character"/></seg></l>
-    <l n="2"><seg met="++-+---+-"><gap reason="lost" extent="9" unit="character"/></seg> parārthavr̥ttiḥ //</l>
-<l n="3"><lb n="A2"/>qātmapradānakr̥tasa<supplied reason="omitted">r</supplied>vva <gap reason="lost" extent="5" unit="character"/></l>
- <l n="4"><supplied reason="lost">sa</supplied>rvvajñatāṁ svamudam āpa nitāntaśāntām //</l>
+          <div type="edition" xml:space="preserve" xml:lang="x-oldkhmer-Latn">
+                   <lg n="1" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A1"/>
+                    <milestone type="pagelike" unit="doorjamb" n="S"/>
+<!-- argr2chch: check S/N doorjamb position, and once confirmed, change line numbering A1/B1 etc. to S1/N1 etc.  -->
+<!-- argr2chch: create header for Sanskrit and OK parts as prescribed in EGD 3.5 -->
+<g type="initialGomutra"/> <g type="dDandaOrn">.</g> jejīyatāṁ vraja <seg met="-+--+-+="><gap reason="lost" extent="8" unit="character"/></seg></l>
+    <l n="b"><seg met="++-+---+-"><gap reason="lost" extent="9" unit="character"/></seg> parārtha-vr̥ttiḥ <g type="dDandaOrn">.</g></l>
+<l n="c"><lb n="A2"/>Ātma-pradāna-kr̥ta-sa<supplied reason="omitted">r</supplied>vva <gap reason="lost" extent="5" unit="character"/></l>
+ <l n="d"><supplied reason="lost">sa</supplied>rvva-jñatāṁ sva-mudam āpa nitānta-śāntām <g type="dDandaOrn">.</g></l>
                    </lg>
-                       <lg n="2" met="vasantatilakā">
-<l n="1"><lb n="A3"/>lokeśvaro jayati lokahitārtharūḍhas</l>
- <l n="2">sandarśayann iva catuṣṭayam āryyasatyam·</l>
-<l n="3"><lb n="A4"/>dharmmasthitiṁ sthirapadābhyadhikān dadhāno</l>
-<l n="4">dhatte caturbhujavibhāṁ bhuvanarddhaye yaḥ //</l>
+                       <lg n="2" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A3"/>lokeśvaro jayati loka-hitārtha-rūḍhas</l>
+ <l n="b">sandarśayann iva catuṣṭayam āryya-satyam·</l>
+<l n="c"><lb n="A4"/>dharmma-sthitiṁ sthira-padābhyadhikān dadhāno</l>
+<l n="d">dhatte catur-bhuja-vibhāṁ bhuvanarddhaye yaḥ <g type="dDandaOrn">.</g></l>
 </lg>  
-<lg n="3" met="vasantatilakā">
-<l n="1"><lb n="A5"/>śrī<choice><orig>b</orig><reg>v</reg></choice>ajrapāṇir ajito jītajambhavairī</l>
-<l n="2"><choice><orig>b</orig><reg>v</reg></choice>ajrañ jvalajjvalanadīptinibhaṁ bibhartti</l>
-<l n="3" enjamb="yes"><lb n="A6"/>quddāmadr̥ptakalidānavadoṣaṣaṇda</l>
-<l n="4">niṣyaṇdasaṁkṣubhitavighnavighāṭadakṣaḥ //</l>    
+<lg n="3" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A5"/>śrī<orig>b</orig>ajra-pāṇir ajito jīta-jambha-vairī</l>
+<l n="b"><orig>b</orig>ajrañ jvalaj-jvalana-dīpti-nibhaṁ bibhartti</l>
+<l n="3" enjamb="yes"><lb n="A6"/>Uddāma-dr̥pta-kali-dānava-doṣa-ṣaṇ<orig>d</orig>a</l>
+<l n="d">niṣyaṇda-saṁkṣubhita-vighna-vighāṭa-dakṣaḥ <g type="dDandaOrn">.</g></l>    
 </lg>
-   <lg n="4" met="vasantatilakā">
-<l n="1" enjamb="yes"><lb n="A7"/>qāsīt samastabhuvanākararatnasāra</l>
- <l n="2">tārāsphurakiraṇarañjitapādapī<choice><orig>th</orig><reg>ṭh</reg></choice>aḥ</l>
-<l n="3" enjamb="yes"><lb n="A8"/>somānvayo rirasamaṅgalabhūdharaś śrī</l>
- <l n="4">rājendravarmmanr̥patir vvitatāṅgadīptiḥ //</l>
+   <lg n="4" met="vasantatilakā" xml:lang="san-Latn">
+<l n="1" enjamb="yes"><lb n="A7"/>Āsīt samasta-bhuvanākara-ratna-sāra</l>
+ <l n="b">tārā-sphura-kiraṇa-rañjita-pāda-pī<orig>th</orig>aḥ</l>
+<l n="3" enjamb="yes"><lb n="A8"/>somānvayo 'ri-rasa-maṅgala-bhū-dharaś śrī</l>
+ <l n="d">rājendravarmma-nr̥-patir vvitatāṅga-dīptiḥ <g type="dDandaOrn">.</g></l>
 </lg>
-<lg n="5" met="vasantatilakā">
-<l n="1"><lb n="A9"/>yasyāṅghriyugmakamalaṅ kamalālilīḍhaṁ</l>
- <l n="2">siṁhāsanojjvalitaratnakarāmvurūḍham·</l>
-<l n="3" enjamb="yes"><lb n="A10"/>projjr̥mbhitaṁ praṇatabhūpatimaulimālā</l>
-    <l n="4">māṇikyakoṭikiraṇābhinavāruṇena //</l>
+<lg n="5" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A9"/>yasyāṅghri-yugma-kamalaṅ kamalāli-līḍhaṁ</l>
+ <l n="b">siṁhāsanojjvalita-ratna-karāmvu-rūḍham·</l>
+<l n="3" enjamb="yes"><lb n="A10"/>projjr̥mbhitaṁ praṇata-bhū-pati-mauli-mālā</l>
+    <l n="d">māṇikya-koṭi-kiraṇābhinavāruṇena <g type="dDandaOrn">.</g></l>
 </lg>
-       <lg n="6" met="vasantatilakā">
-<l n="1"><lb n="A11"/>lakṣmīs trilokalalanā lalitāgrajanye</l>
-<l n="2">jasraṁ surāsuragaṇaiḥ paripī<choice><orig>d</orig><reg>ḍ</reg></choice>itāṅgī</l>
-<l n="3"><lb n="A12"/>nirvvedabhāg iva yadīyavarāṅgaraṅge</l>
-<l n="4">śobhāsudhāṁ samabhipātum ivābhilīnā //</l>
+       <lg n="6" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A11"/>lakṣmīs tri-loka-lalanā lalitāgra-janye</l>
+<l n="b"><!-- avagraha? -->jasraṁ surāsura-gaṇaiḥ paripī<choice><orig>d</orig><reg>ḍ</reg></choice>itāṅgī</l>
+<l n="c"><lb n="A12"/>nirvveda-bhāg iva yadīya-varāṅga-raṅge</l>
+<l n="d">śobhāsudhāṁ samabhipātum ivābhilīnā <g type="dDandaOrn">.</g></l>
        </lg>
- <lg n="7" met="vasantatilakā">
-     <l n="1"><lb n="A13"/>trailokyarakṣaṇavidhau cature yadīye</l>
- <l n="2">pāṇau nidhāya kajajāmvujadr̥ktrinetrāḥ</l>
-<l n="3"><lb n="A14"/>divy amvujāmvujamahojjvalacakraśūlañ</l>
- <l n="4">chāntās samādhisukhasaṁyamino ramante //</l>
+ <lg n="7" met="vasantatilakā" xml:lang="san-Latn">
+     <l n="a"><lb n="A13"/>trailokya-rakṣaṇa-vidhau cature yadīye</l>
+ <l n="b">pāṇau nidhāya kajajāmvuja-dr̥k-tri-netrāḥ</l>
+<l n="c"><lb n="A14"/>divy amvujāmvuja-mahojjvala-cakra-śūlañ</l>
+ <l n="d">chāntās samādhi-sukha-saṁyamino ramante <g type="dDandaOrn">.</g></l>
  </lg>
-<lg n="8" met="vasantatilakā">
-<l n="1" enjamb="yes"><lb n="A15"/>yasyājñayābhyadhikayā navilaṅghyayānya</l>
-<l n="2">pr̥thivībhr̥tāṁ samadharīkr̥tadhairyyadhāmnām·</l>
-<l n="3"><lb n="A16"/>qātmonnatipratikr̥tānucikīrṣayeva</l>
- <l n="4">līḍhaṅ kirīṭakiraṇair nnakharatnam aṅghryoḥ //</l>
+<lg n="8" met="vasantatilakā" xml:lang="san-Latn">
+<l n="1" enjamb="yes"><lb n="A15"/>yasyājñayābhyadhikayā <!-- delete the space? -->navilaṅghyayānya</l>
+<l n="b">pr̥thivī-bhr̥tāṁ samadharī-kr̥ta-dhairyya-dhāmnām·</l>
+<l n="c"><lb n="A16"/>Ātmonnati-pratikr̥tānucikīrṣayeva</l>
+ <l n="d">līḍhaṅ kirīṭa-kiraṇair nnakha-ratnam aṅghryoḥ <g type="dDandaOrn">.</g></l>
 </lg>
-      <lg n="9" met="vasantatilakā">
-<l n="1"><lb n="A17"/>lakṣādhvarādidaha<choice><orig>ṇ</orig><reg>n</reg></choice>oddhutadhūmadhūtim</l>
-<l n="2">uddhūpitāmvaradharoddhuradigvibhāgām·</l>
-<l n="3"><lb n="A18"/>yaḥ kālameghanivahām iva viprakīrṇnān</l>
-<l n="4">dr̥ptārisaṁhatihatau satataṁ vyatānīt·//</l>
+      <lg n="9" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A17"/>lakṣādhvarādi-daha<choice><orig>ṇ</orig><reg>n</reg></choice>oddhuta-dhūma-dhūtim</l>
+<l n="b">uddhūpitāmvara-dharoddhura-dig-vibhāgām·</l>
+<l n="c"><lb n="A18"/>yaḥ kāla-megha-nivahām iva viprakīrṇnān</l>
+<l n="d">dr̥ptāri-saṁhati-hatau satataṁ vyatānīt· <g type="dDandaOrn">.</g></l>
       </lg>
-<lg n="10" met="vasantatilakā">
-<l n="1"><lb n="A19"/>nirmmathya yuddhajaladhiṁ bhujama<choice><orig>ṇ</orig><reg>n</reg></choice>dareṇa</l>
-<l n="2">kīrṇnaṁ yaśomr̥tam ahāryyam arātivarggaiḥ</l>
-<l n="3"><lb n="A20"/>qāp<choice><orig>i</orig><reg>ī</reg></choice>yamānam api yasya jagattrayeṇa</l>
-<l n="4">kenāpi na kṣayagatan nitarām vivr̥ddham· //</l>
+<lg n="10" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A19"/>nirmmathya yuddha-jaladhiṁ bhuja-ma<orig>ṇ</orig>dareṇa</l>
+<l n="b">kīrṇnaṁ yaśo-<!-- insert ' as well? -->mr̥tam ahāryyam arāti-varggaiḥ</l>
+<l n="c"><lb n="A20"/>Āp<choice><orig>i</orig><reg>ī</reg></choice>yamānam api yasya jagat-trayeṇa</l>
+<l n="d">kenāpi na kṣaya-gatan nitarām vivr̥ddham· <g type="dDandaOrn">.</g></l>
 </lg>
-       <lg n="11" met="vasantatilakā">
-<l n="1"><lb n="A21"/>bhānuprabhāvanivahair iva du<choice><orig>rnn</orig><reg>rṇn</reg></choice>irīkṣair</l>
-<l n="2">bhāsvatsuvarṇnakavacāruṇarocirāḍhyaiḥ</l>
-<l n="3"><lb n="A22"/>qastravrajair yyudhi vibhinnamahāriraktaiḥ</l>
-<l n="4">kālāntakānalaśikhām iva yas tatāna //</l>
+       <lg n="11" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A21"/>bhānu-prabhāva-nivahair iva du<orig>r-nn</orig>irīkṣair</l>
+<l n="b">bhāsvat-suva<orig>rṇn</orig>a-kavacāruṇa-rocirāḍhyaiḥ</l><!-- I find rocira strange -->
+<l n="c"><lb n="A22"/>Astra-vrajair yyudhi vibhinna-mahāri-raktaiḥ</l>
+<l n="d">kālāntakānala-śikhām iva yas tatāna <g type="dDandaOrn">.</g></l>
        </lg>
- <lg n="12" met="vasantatilakā">
-<l n="1"><lb n="A23"/>puṇyodadhes samuditā nu yadīyakīrttir</l>
-<l n="2">mmā matsamānam iti sāṅgakalaṅkam indum·</l>
-<l n="3"><lb n="A24"/>sandarśayanty adhikakāntikalāṁ svakīyān</l>
-<l n="4">nityañ cacāra caturā sakalān trilokīm· //</l>
+ <lg n="12" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A23"/>puṇyodadhes samuditā nu yadīya-kīrttir</l>
+<l n="b">mmā mat-samānam iti sāṅga-kalaṅkam indum·</l>
+<l n="c"><lb n="A24"/>sandarśayanty adhika-kānti-kalāṁ svakīyān</l>
+<l n="d">nityañ cacāra caturā sakalān tri-lokīm· <g type="dDandaOrn">.</g></l>
  </lg>
- <lg n="13" met="vasantatilakā">
-<l n="1"><lb n="A25"/>śrīmadyaśodharapurīñ cirakālaśūnyāṁ</l>
-<l n="2">bhāsvatsuvarṇnagr̥haratnavimānaramyām</l>
-<l n="3"><lb n="A26"/>bhūyo dhikāṁ bhuvi mahendragr̥hopamāṁ yo</l>
-<l n="4">yodhyāpurīm iva kuśo bhinavāñ cakāra //</l>
+ <lg n="13" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A25"/>śrīmad-yaśodhara-purīñ cira-kāla-śūnyāṁ</l>
+<l n="b">bhāsvat-suva<orig>rṇn</orig>a-gr̥ha-ratna-vimāna-ramyām<!-- insert ·? --></l>
+<l n="c"><lb n="A26"/>bhūyo 'dhikāṁ bhuvi mahendra-gr̥hopamāṁ yo</l>
+<l n="d">'yodhyāpurīm iva kuśo 'bhinavāñ cakāra <g type="dDandaOrn">.</g></l>
  </lg>
-       <lg n="14" met="vasantatilakā">
-<l n="1"><lb n="A27"/>śrīmadyaśodharata<choice><orig>t</orig><reg>ṭ</reg></choice>ākapayodhimadhye</l>
-<l n="2">meros samānaśikhare svakr̥te mahādrau</l>
-<l n="3" enjamb="yes"><lb n="A28"/>prāsādasaudhagr̥haratnacite viriñca</l>
-<l n="4">devīśaśārṅgiśivaliṅgam atiṣṭhipad yaḥ //</l>
+       <lg n="14" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A27"/>śrīmad-yaśodhara-ta<choice><orig>t</orig><reg>ṭ</reg></choice>āka-payo-dhi-madhye</l>
+<l n="b">meros samāna-śikhare sva-kr̥te mahādrau</l>
+<l n="3" enjamb="yes"><lb n="A28"/>prāsāda-saudha-gr̥ha-ratna-cite viriñca</l>
+<l n="d">devīśa-śārṅgi-śiva-liṅgam atiṣṭhipad yaḥ <g type="dDandaOrn">.</g></l>
        </lg>
-       <lg n="15" met="anuṣṭubh"> <!--Encoder vipula ?-->
-<l n="1"><lb n="A29"/>tasyāpabhr̥tyo matimān</l>
-<l n="2">bhaktibhāgyo tivallabhaḥ</l>
-<l n="3"><lb n="A30"/>śrīkavīndrārimathanan</l> <!--Encoder vipula ?-->
-<l n="4">nāmānvartham avāpa yaḥ //</l>
+       <lg n="15" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="1" real="++-++--+"><lb n="A29"/>tasyāpa<!-- read/emend pi plus space? -->bhr̥tyo matimān</l><!-- bha-vipulā -->
+<l n="b">bhakti-bhāgyo 'tivallabhaḥ</l>
+<l n="3" real="+-++---+"><lb n="A30"/>śrī-kavīndrāri-mathanan</l><!-- na-vipulā -->
+<l n="d">nāmānvartham avāpa yaḥ <g type="dDandaOrn">.</g></l>
        </lg>
-       <lg n="16" met="anuṣṭubh">
-<l n="1" enjamb="yes"><lb n="A31"/>kāñcīdolākaraṅkāṅka</l>
-<l n="2">karṇnabhūṣādibh<choice><orig>u</orig><reg>ū</reg></choice>ṣaṇaiḥ</l>
-<l n="3"><lb n="A32"/>rājñā kr̥tasmayo yo pi</l>
-<l n="4">na smayo nītisaṁpadā //</l>
+       <lg n="16" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="1" enjamb="yes"><lb n="A31"/>kāñcī-dolā-karaṅkāṅka</l>
+<l n="b">-ka<orig>rṇn</orig>a-bhūṣādi-bh<choice><orig>u</orig><reg>ū</reg></choice>ṣaṇaiḥ</l>
+<l n="c"><lb n="A32"/>rājñā kr̥ta-smayo yo 'pi</l>
+<l n="d">na smayo nīti-saṁpadā <g type="dDandaOrn">.</g></l>
        </lg>
-                <lg n="17" met="vasantatilakā">
-<l n="1"><lb n="B1"/><milestone unit="doorjamb" n="B"/>qagresaraḥ prathitapuṇyavatāṁ svapuṇyaiś</l>
-<l n="2">śilpaprayogakaraṇena ca śilpabhājām·</l>
-<l n="3"><lb n="B2"/>yo vittabhājanatayāpi dhanādhipānāñ</l>
-<l n="4">cittajñatādhikatayādhikavuddhibhājām· //</l>
+                <lg n="17" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="B1"/><milestone type="pagelike" unit="doorjamb" n="N"/>Agre-saraḥ prathita-puṇyavatāṁ sva-puṇyaiś</l>
+<l n="b">śilpa-prayoga-karaṇena ca śilpa-bhājām·</l>
+<l n="c"><lb n="B2"/>yo vitta-bhājanatayāpi dhanādhipānāñ</l>
+<l n="d">citta-jñatādhikatayādhika-v<!-- apply <orig>? -->uddhi-bhājām· <g type="dDandaOrn">.</g></l>
                 </lg>
-       <lg n="18" met="vasantatilakā">
-<l n="1"><lb n="B3"/>sadbhūtasa<orig>tv</orig>aguṇarāgitayā nitāntan</l>
-<l n="2">trāṇāya sa<orig>tv</orig>anicayasya parāya<choice><orig>n</orig><reg>ṇ</reg></choice>o yaḥ</l>
-<l n="1"><lb n="B4"/>nityaṁ svakīyahr̥dayārppitadharmmamārggan</l>
-<l n="3">nityānvagād guṇakalāpakalānivāsaḥ //</l>
+       <lg n="18" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="B3"/>sad-bhūta-sa<orig>tv</orig>a-guṇa-rāgitayā nitāntan</l>
+<l n="b">trāṇāya sa<orig>tv</orig>a-nicayasya parāya<choice><orig>n</orig><reg>ṇ</reg></choice>o yaḥ</l>
+<l n="a"><lb n="B4"/>nityaṁ svakīya-hr̥dayārppita-dharmma-mārggan</l>
+<l n="c">nityānvagād guṇa-kalāpa-kalā-nivāsaḥ <g type="dDandaOrn">.</g></l>
        </lg>
-       <lg n="19" met="vasantatilakā">
-<l n="1"><lb n="B5"/>so sthāpayat sumahatīñ jinamūrttim ekāṁ</l>
-<l n="2">śrīvajrapāṇisahitām api divyadevīm·</l>
-<l n="3"><lb n="B6"/>prāsādaharmmyanivahe svahr̥dīva divye</l>
-<l n="4">vauddho gradhīś śaranagāṣṭabhir atra bhaktyā //</l>
+       <lg n="19" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="B5"/>so 'sthāpayat sumahatīñ jina-mūrttim ekāṁ</l>
+<l n="b">śrī-vajra-pāṇi-sahitām api divya-devīm·</l>
+<l n="c"><lb n="B6"/>prāsāda-harmmya-nivahe svahr̥dīva divye</l>
+<l n="d"><!-- apply <orig>? -->vauddho 'gra-dhīś śara<choice><orig>n</orig><reg>ṇ</reg></choice>a-gāṣṭabhir atra bhaktyā <g type="dDandaOrn">.</g></l>
        </lg>
-            <lg n="20" met="upajāti">
-<l n="1"><lb n="B7"/>jayantadeśe jinar<choice><orig>u</orig><reg>ū</reg></choice>pam ekaṁ</l>
-<l n="2">so sthāpayan mūrttirasāṣṭaśāke</l>
-<l n="3"><lb n="B8"/>kuṭīśvare so pi ca lokanāthan</l>
-<l n="4">devīdvayan netranagāṣṭaśāke //</l>
+            <lg n="20" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="B7"/>jayanta-deśe jina-r<choice><orig>u</orig><reg>ū</reg></choice>pam ekaṁ</l>
+<l n="b">so 'sthāpayan mūrtti-rasāṣṭa-śāke</l>
+<l n="c"><lb n="B8"/>kuṭīśvare so 'pi ca loka-nāthan</l>
+<l n="d">devī-dvayan netra-nagāṣṭa-śāke <g type="dDandaOrn">.</g></l>
             </lg>
-            <lg n="21" met="vasantatilakā">
-<l n="1"><lb n="B9"/>śrīmanmahendragirimūrddhajatīrthajāte</l>
-<l n="2">svacche viśuddhaparikhāmbhasi maṅgalārhe</l>
-<l n="3"><lb n="B10"/>qalpe py analpaphaladāyini te tra sarvve</l>
-<l n="4">mā snāsiṣur dvijavareṇa vinaiva hotrā //</l>
+            <lg n="21" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="B9"/>śrīman-mahendra-giri-mūrddha-ja-tīrtha-jāte</l>
+<l n="b">svacche viśuddha-parikhāmbhasi maṅgalārhe</l>
+<l n="c"><lb n="B10"/>Alpe 'py an-alpa-phala-dāyini te 'tra sarvve</l>
+<l n="d">mā snāsiṣur dvija-vareṇa vinaiva hotrā <g type="dDandaOrn">.</g></l>
                 </lg>
-<lg n="22" met="vasantatilakā">
-<l n="1" enjamb="yes"><lb n="B11"/>vistāritadviśatayuktacatuśśatāgrā</l>
-<l n="2">yāme pi satvanivahasya hitārthanīre</l>
-<l n="3"><lb n="B12"/>tīrābhighātakaraṇan dvipavr̥ṇdam eva</l>
-<l n="4">mā ropayantu niyataṁ satatan ta<choice><orig>t</orig><reg>ṭ</reg></choice>āke //</l>
+<lg n="22" met="vasantatilakā" xml:lang="san-Latn">
+<l n="1" enjamb="yes"><lb n="B11"/>vistārita-dvi-śata-yukta-catuś-śatāgrā</l>
+<l n="b">yāme 'pi sa<orig>tv</orig>a-nivahasya hitārtha-nīre</l>
+<l n="c"><lb n="B12"/>tīrābhighāta-karaṇan dvipa-v<orig>r̥ṇd</orig>am eva</l>
+<l n="d">mā ropayantu niyataṁ satatan ta<choice><orig>t</orig><reg>ṭ</reg></choice>āke <g type="dDandaOrn">.</g></l>
                 </lg>
-<lg n="23" met="upajāti">
-<l n="1"><lb n="B13"/>yad yajvanā dattam idaṁ svapuṇye</l>
-<l n="2">tad atra deśe vivudhe na hāryyam·</l>
-<l n="3"><lb n="B14"/>dravyaṁ sarairājaṭakiṅkarāḍhyaṁ</l>
-<l n="4">sukhārthibhir yyair ubhayatra loke //</l>
+<lg n="23" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="B13"/>yad yajvanā dattam idaṁ sva-puṇye</l>
+<l n="b">tad atra deśe vivudhe na hāryyam·</l>
+<l n="c"><lb n="B14"/>dravyaṁ sa-rai-rāja<choice><orig>ṭ</orig><reg>t</reg></choice>a-kiṅkarāḍhyaṁ</l>
+<l n="d">sukhārthibhir yyair ubhayatra loke <g type="dDandaOrn">.</g></l>
                 </lg>
-<lg n="23" met="mālinī">
-<l n="1"><lb n="B15"/>qiti vadati sa vā<choice><orig>n</orig><reg>ṇ</reg></choice>īṁ satyadharmmānuvr̥ttāṁ</l>
-<l n="2">sakalajanagaṇāṁs tān dharmmasadvr̥ttibhājaḥ</l>
-<l n="3"><lb n="B16"/>yad iha tu nijapuṇyaṁ svātmanā rakṣaṇīyan</l>
-<l n="4">tad api ca parapuṇyaṁ yatnataḥ pālayantu <g type="symbol" subtype="complexFinial"/></l>
+<lg n="24" met="mālinī" xml:lang="san-Latn">
+<l n="a"><lb n="B15"/>Iti vadati sa vā<choice><orig>n</orig><reg>ṇ</reg></choice>īṁ satya-dharmmānuvr̥ttāṁ</l>
+<l n="b">sakala-jana-gaṇāṁs tān dharmma-sad-vr̥tti-bhājaḥ</l>
+<l n="c"><lb n="B16"/>yad iha tu nija-puṇyaṁ svātmanā rakṣaṇīyan</l>
+<l n="d">tad api ca para-puṇyaṁ yatnataḥ pālayantu <g type="complexFinial"/></l>
                 </lg>
-                </div>
-                    <div type="textpart" xml:lang="x-oldkhmer-Latn" n="2">
-                        <ab>
-<lb n="B17"/>ta duk· śloka neḥ mratāñ· śrī qindrapaṇdita // <g type="symbol" subtype="complexFinial"/> //
-                        </ab>
-                        <p>
-<lb n="B18"/><g type="symbol" subtype="initialGomutra"/> // <num value="882">882</num> śaka qekādaśī roc· qāṣādha śukravāra nu mratāñ· śrīnaravīra paṅgaṁ thpvāṅ·
-<lb n="B19"/>nivedana mana vraḥ mratāñ<unclear>·</unclear> śrīkavīndrārimathana qāy· nagara nu qanrāy· ku<lb n="B20" 
-    break="no"/>ṭīśvara ti mratāñ· śrīkavīndrārimathana kalpanā cval· saṁnā vraḥ saugatāśrama mān· 
-<lb n="B21"/>vraḥ śāsana dhūli vraḥ pāda dhūli jeṅ· vraḥ kamrateṅ· qañ· ta kaṁsteṅ· qañ·
-<lb n="B22"/>rājakulamahāmantrī nu mratāñ· śrīnaravīra pre vraḥ mratāñ· śrīkavīndrāri<lb n="B23" 
-    break="no"/>mathana cval· saṁnā vraḥ saugatāśrama nu qupāya phoṅ· phle nā vraḥ ta vyar·
-<lb n="B24"/>qanle <g type="symbol" subtype="circle"/> sruk· travaṅ· dāp· vraḥ jaṁnvan· ta vraḥ kamrateṅ· qañ· ta pīya nu qnak·
+           <p>
+<lb n="B17"/>ta duk· śloka neḥ mratāñ· śrī Indrapaṇdita <g type="dDandaOrn">.</g> <g type="symbol" subtype="complexFinial"/> <g type="dDandaOrn">.</g>
+            </p>
+ <p>
+<lb n="B18"/><g type="initialGomutra"/> <g type="dDandaOrn">.</g> <num value="882">882</num> śaka Ekādaśī roc· Āṣādha śukravāra nu mratāñ· śrīnaravīra paṅgaṁ thpvāṅ·
+<lb n="B19"/>nivedana mana vraḥ mratāñ<unclear>·</unclear> śrīkavīndrārimathana Āy· nagara nu Anrāy· ku<lb 
+n="B20" break="no"/>ṭīśvara ti mratāñ· śrīkavīndrārimathana kalpanā cval· saṁnā vraḥ saugatāśrama mān· 
+<lb n="B21"/>vraḥ śāsana dhūli vraḥ pāda dhūli jeṅ· vraḥ kamrateṅ· Añ· ta kaṁsteṅ· Añ·
+<lb n="B22"/>rājakulamahāmantrī nu mratāñ· śrīnaravīra pre vraḥ mratāñ· śrīkavīndrāri<lb 
+n="B23" break="no"/>mathana cval· saṁnā vraḥ saugatāśrama nu Upāya phoṅ· phle nā vraḥ ta vyar·
+<lb n="B24"/>Anle <g type="circle">.</g> sruk· travaṅ· dāp· vraḥ jaṁnvan· ta vraḥ kamrateṅ· Añ· ta pīya nu qnak·
 <lb n="B25"/>phle gī ta khloñ· qnak· gho dharmma gho kanteṅ· phsaṁma gho sakarmma nu tai sakarmma lap· gvāl· rat· 
-<lb n="B26"/>pau <num value="46">40+6</num> <g type="symbol" subtype="circle"/> khñuṁ jaṁnvan· mratāñ· śrīkavīndrārimathana <g type="symbol" subtype="circle"/> khloñ· qnak· gho khñuṁ gho kanteṅ· gho 
-<lb n="B27"/>kaṁvai phsaṁma gho sakarmma tai sakarmma lap· gvāl· rat· pau <num value="71">60+70+I</num> <g type="symbol" subtype="egg"/> khñuṁ jaṁnvan· mratāñ· kuruṅ<unclear>·</unclear>
-<lb n="B28"/>qunādbhuta saṁgrāma khloñ· qnak· gho snuṁ gho qājya phsaṁ gho sakarmma tai sakarmma lap· gvāl·
+<lb n="B26"/>pau <num value="46">40+6</num> <g type="circle">.</g> khñuṁ jaṁnvan· mratāñ· śrīkavīndrārimathana <g type="circle">.</g> khloñ· qnak· gho khñuṁ gho kanteṅ· gho 
+<lb n="B27"/>kaṁvai phsaṁma gho sakarmma tai sakarmma lap· gvāl· rat· pau <num value="71">60+70+I</num> <g type="circle">.</g> khñuṁ jaṁnvan· mratāñ· kuruṅ<unclear>·</unclear>
+<lb n="B28"/>Unādbhuta saṁgrāma khloñ· qnak· gho snuṁ gho Ājya phsaṁ gho sakarmma tai sakarmma lap· gvāl·
 <lb n="B29"/>rāt· pau <num value="11">10+I</num>
                             </p>
-                    </div>
             </div>
          <div type="apparatus">
            <listApp>
                       <app loc="A1">
-                     <note>The initial <foreign>gomūtra</foreign> and the final double <foreign>daṇḍa</foreign> were ignored by Cœdès, but mentionned by Mertens.</note>
+                     <note>The initial <foreign>gomūtra</foreign> and the final double <foreign>daṇḍa</foreign> were ignored by Cœdès, but mentioned by Mertens.</note>
                       </app>
                       <app loc="A2">
-   <lem source="bib:Coedes1908_04">ātmapradānakr̥tasa<supplied reason="omitted">r</supplied>vva <gap reason="lost" extent="5" unit="character"/></lem>
-   <rdg source="bib:Mertens2005_01">ātmapradānakr̥tasa<unclear>r</unclear>vva<unclear>jagaddhitārthāṁ</unclear></rdg>
+   <lem source="bib:Coedes1908_04">-sa<supplied reason="omitted">r</supplied>vva <gap reason="lost" extent="5" unit="character"/></lem>
+   <rdg source="bib:Mertens2005_01">-sa<unclear>r</unclear>vva-<unclear>jagad-dhitārthāṁ</unclear></rdg>
                       </app>
                          <app loc="A11">
                           <lem>janye</lem>
-                         <note>Cœdès suggests to correct by <foreign>janyā</foreign>.</note>
+                         <note>Cœdès suggests correcting to <foreign>janyā</foreign>.</note><!-- and Mertens? -->
             </app>
                                            <app loc="A31">
-                      <lem>karaṅkāṅka</lem>
-                      <rdg source="bib:Coedes1908_04">karaṇkāṅka</rdg>
+                      <lem>-karaṅkāṅka-</lem><!-- presemubaly Mertens needs to be recorded as @source on this <lem> -->
+                      <rdg source="bib:Coedes1908_04">-karaṇkāṅka-</rdg><!-- maybe no need to keep this app; but if we keep, then add note explaining that it's just a typo  -->
                       </app>
-                      <app loc="B14">
-<lem>jaṭa</lem>
+                      <!--<app loc="B14">
+		<lem>jaṭa</lem>
                           <rdg source="bib:Mertens2005_01">jata</rdg>
-                       </app>
-                       <app loc="B18">
-                     <note>The date corresponds to Friday, June 22, 960 (<bibl><ptr target="bib:Billard+Eade2006_01"/><citedRange unit="page">408</citedRange></bibl>).</note>
-                       </app>
+                       </app>-->
                        <app loc="B23">       
                         <lem>phoṅ· phle</lem>
                           <rdg source="bib:Coedes1908_04">ḍhoṅ· ḍhle</rdg>
@@ -276,18 +281,14 @@
             <!--commentary encoded as per section §9.3 -->
          </div>
         <div type="bibliography">
-           <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1908_04"/><citedRange unit="page">226</citedRange></bibl>) with a French translation. Re-edited by Jochens Mertens (<bibl rend="omitname"><ptr target="bib:Mertens2005_01"/><citedRange unit="page">120</citedRange></bibl>)</p>
+           <p>First edited by George Cœdès with a French translation (<bibl rend="omitname"><ptr target="bib:Coedes1908_04"/><citedRange unit="page">226-230, 237-241</citedRange></bibl>); re-edited by Jochens Mertens with a German translation (<bibl rend="omitname"><ptr target="bib:Mertens2005_01"/><citedRange unit="page">120-???</citedRange></bibl>). Edited here again from the EFEO estampages, with translation into English, by Chloé Chollet &amp; Arlo Griffiths.</p>
         	<listBibl type="primary">
-			  <bibl>
-				     <ptr target="bib:Coedes1908_04"/>
-      <citedRange unit="page">226</citedRange>
-				</bibl>
-        	      <bibl>
-				     <ptr target="bib:Mertens2005_01"/>
-      <citedRange unit="volume">1</citedRange><citedRange unit="page">120</citedRange>
-				</bibl>
-			</listBibl>
+		<bibl n="GC"><ptr target="bib:Coedes1908_04"/><citedRange unit="page">226-230, 237-241</citedRange></bibl>
+        	      	<bibl n="JM"><ptr target="bib:Mertens2005_01"/><citedRange unit="volume">1</citedRange><citedRange unit="page">120</citedRange></bibl>
+	</listBibl>
         </div>
       </body>
   </text>
 </TEI>
+<!-- The date corresponds to Friday, June 22, 960 (<bibl><ptr target="bib:Billard+Eade2006_01"/><citedRange unit="page">408</citedRange></bibl>). -->
+
