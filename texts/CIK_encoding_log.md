@@ -549,8 +549,7 @@
 |K.	490 |# |# |#|
 |K.	491 |# |# |#|
 |K.	492 |# |# |#|
-|K.	493 |kuch |pending |#|
-|K.	493 |kuch |pending |#|
+|K.	493 |kuch |basic encoding; waiting for estampage for verification|IC II|
 |K.	494 |# |# |#|
 |K.	495 |# |# |#|
 |K.	496 |kuch |done |Seidenfaden 1922|
@@ -1534,7 +1533,7 @@
 |K.	1423 |# |# |#|
 |K.	1424 |# |# |#|
 |K.	1425 |# |# |#|
-|K.	1426 |kuch |pending |#|
+|K.	1426 |kuch |done |Not yet published|
 |K.	1427 |chch |done |Chollet 2019|
 |K.	1428 |chch |done |Chollet 2019|
 |K.	1429 |# |# |#|
