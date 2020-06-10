@@ -12,9 +12,9 @@
                 </respStmt>
                 <respStmt>
                     <resp>intellectual authorship of edition</resp>
-                    <persName ref="part:kuch">
-                        <forename>Kunthea</forename>
-                        <surname>Chhom</surname>
+                    <persName ref="part:doso">
+                        <forename>Dominique</forename>
+                        <surname>Soutif</surname>
                     </persName>
                 </respStmt>
             </titleStmt>         
@@ -55,15 +55,17 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-            <change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+        <revisionDesc status="draft"><change who="part:kuch" when="2020-06-02" status="draft">Modifications of edition and bibliography</change>
+            <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+            <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+            <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
         </revisionDesc>
     </teiHeader>
     <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
                 <p>
-<lb n="1"/><num value="1089">1089</num>śaka vraḥ jaṁnvan· vraḥ pāda kamrateṅa qañ· śrī tribhuvanādityavarmma<supplied reason="lost">d</supplied>eva ta <supplied reason="lost">ka</supplied>mrateṅa ja<supplied reason="lost">g</supplied>ata chpara ransi <g type="symbol" subtype="spiral"/>
+<lb n="1"/><num value="1089">1089</num>śaka vraḥ jaṁnvan· vraḥ pāda kamrateṅa Añ· śrī tribhuvanādityavarmma<supplied reason="lost">d</supplied>eva ta <supplied reason="lost">ka</supplied>mrateṅa ja<supplied reason="lost">g</supplied>ata chpara ransi <g type="spiral">.</g>
                 </p>
             </div>
             <div type="apparatus">
@@ -76,18 +78,19 @@
                </listApp>         
          </div>
          <div type="translation" xml:lang="fra">
- 	<p>1089 <foreign>śaka</foreign> ; offrande royale de Sa Majesté le Kamrateṅ Qañ Śrī Tribhuvanādityavarmadeva au Kamrateṅ Jagat <supplied reason="explanation">de</supplied> Chpar Ransi.</p>
+ 	<p>1089 <foreign>śaka</foreign> ; offrande royale de Sa Majesté le Kamrateṅ Añ Śrī Tribhuvanādityavarmadeva au Kamrateṅ Jagat <supplied reason="explanation">de</supplied> Chpar Ransi.</p>
          </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
          </div>
         <div type="bibliography">
-	<!--bibliography encoded as per section §9.4 -->
-	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p>Text is given after Soutif 2009, p. 606 basing on photo cliché EFEO K1219 - 6 to 21.</p>
-           <listBibl type="primary"> 				<bibl/><!-- one <bibl/> per item of primary bibliography --> 			</listBibl>            <listBibl type="secondary">
-              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
-           </listBibl>
+          <p>Edited by Dominique Soutif (<bibl rend="omitname"><ptr target="Soutif2009_01"/><citedRange unit="page">606</citedRange></bibl>) with a French translation.</p>
+	 <listBibl type="primary">
+    <bibl n="DS">
+      <ptr target="bib:Soutif2009_01"/>
+      <citedRange unit="page">606</citedRange>
+    </bibl>
+  </listBibl>
         </div>
         </body>
     </text>
