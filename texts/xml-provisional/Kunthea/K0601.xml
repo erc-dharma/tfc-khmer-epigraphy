@@ -12,9 +12,9 @@
                 </respStmt>
                 <respStmt>
                     <resp>intellectual authorship of edition</resp>
-                    <persName ref="part:kuch">
-                        <forename>Kunthea</forename>
-                        <surname>Chhom</surname>
+                    <persName ref="part:doso">
+                        <forename>Dominique</forename>
+                        <surname>Soutif</surname>
                     </persName>
                 </respStmt>
             </titleStmt>         
@@ -55,21 +55,21 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-            <change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+        <revisionDesc status="draft"><change who="part:kuch" when="2020-07-01">Modifications to edition, apparatus and bibliography</change>
+            <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+            <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+            <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
         </revisionDesc>
     </teiHeader>
     <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
-                <ab>
+                <p>
+                    <milestone type="pagelike" unit="face" n="A"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/>ka<unclear>ṁ</unclear>mrat<unclear>e</unclear>ṅ· <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/>bhoga bhājana <num value="1"><g type="numeral">I</g></num> <gap reason="lost" extent="unknown" unit="character"/>
-<lb n="4"/>svok· <num value="1"><g type="numeral">I</g></num> kamandalu <num value="3"><g type="numeral">III</g></num> <unclear>v</unclear>aud<unclear>i</unclear> <num value="1" cert="low"><g type="numeral">I</g></num> <gap reason="lost" extent="unknown" unit="character"/>
-                    <!-- KC: (v)aud(i I nVCr)… in txt file is here simplified as (v)aud(i I)…-->
-                </ab>
-                <p>
+<lb n="4"/>svok· <num value="1"><g type="numeral">I</g></num> kamandalu <num value="3"><g type="numeral">III</g></num> <unclear>v</unclear>aud<unclear>i</unclear> <num value="1" cert="low"><g type="numeral">I</g></num> <unclear>n</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>r</unclear> <gap reason="lost" extent="unknown" unit="character"/>
                     <milestone type="pagelike" unit="column" n="a"/>
                     <lb n="a5"/>khñuṁ si kan·sā
                     <lb n="a6"/>si pandan·
@@ -85,11 +85,10 @@
                     <lb n="b6"/>tai kaṁ<unclear>p</unclear>ra<unclear>ṅ</unclear>·
                     <lb n="b7"/>tai kaṁ<gap reason="lost" extent="2" unit="character"/>
                     <lb n="b8"/>tai <unclear>pan</unclear>dan·
-                    <lb n="b9"/>kaṁmrate<supplied reason="lost">ṅ· qa</supplied><unclear>ñ·</unclear>
+                    <lb n="b9"/>kaṁmrate<supplied reason="lost">ṅ· A</supplied><unclear>ñ·</unclear>
                     <lb n="b10"/><unclear>chdiṅa saṁvi</unclear><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="b11"/><gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="b12"/><unclear>kkrave</unclear><gap reason="lost" extent="unknown" unit="character"/>
-                    <!-- KC: (kkrave vyV)… in txt file is here simplified as (kkrave)…-->
+                    <lb n="b12"/><unclear>kkrave vy</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="b13"/><num value="1"><g type="numeral">I</g></num> mvāy· <unclear>pa</unclear>ndva<supplied reason="lost">l·</supplied> <gap reason="lost" extent="unknown" unit="character"/>
                     <milestone type="pagelike" unit="column" n="c"/>
                     <lb n="c5"/>tai <gap reason="lost" extent="unknown" unit="character"/>
@@ -99,11 +98,10 @@
                 </p>
             </div>
             <div type="apparatus">
-           <!--apparatus encoded as per EG §9.1, basic elements for apparatus below-->
-               <listApp><!-- one <app> for each apparatus entry -->
-                  <app loc="line"><!-- Update the value of @loc.-->
-                     <lem><!-- fill in a lemma here --></lem>
-                     <rdg source="bib:AuthorYear_01"><!-- update the @source value, fill in variant reading here --></rdg>
+               <listApp>
+                  <app loc="a8">
+                     <lem><unclear>taṁva</unclear>c·</lem>
+                      <note>Une éraflure <supplied reason="explanation">?</supplied> verticale est visible à gauche du <foreign>ta</foreign>. De plus, l'<foreign>anusvāra</foreign>, si c'en est un, est très excentré.</note>
                   </app>
                </listApp>         
          </div>
@@ -111,15 +109,16 @@
  	<!--translation encoded as per EG §9.2 -->
          </div>
          <div type="commentary">
-            <!--commentary encoded as per section §9.3 -->
+            <p>D'une manière générale, toutes les lectures de la colonne b sont très incertaines.</p>
          </div>
         <div type="bibliography">
-	<!--bibliography encoded as per section §9.4 -->
-	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p>Text is given after Soutif 2009, p. 544 basing on estampage EFEO n. 488.</p>
-           <listBibl type="primary"> 				<bibl/><!-- one <bibl/> per item of primary bibliography --> 			</listBibl>            <listBibl type="secondary">
-              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
-           </listBibl>
+          <p>Edited by Dominique Soutif (<bibl rend="omitname"><ptr target="Soutif2009_01"/><citedRange unit="page">544</citedRange></bibl>) without any translation.</p>
+	 <listBibl type="primary">
+    <bibl n="DS">
+      <ptr target="bib:Soutif2009_01"/>
+      <citedRange unit="page">544</citedRange>
+    </bibl>
+  </listBibl>
         </div>
         </body>
     </text>
