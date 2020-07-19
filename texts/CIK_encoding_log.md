@@ -533,7 +533,7 @@
 |K.	520 |kuch |done |Finot 1920|
 |K.	521 |# |# |#|
 |K.	522 |# |# |#|
-|K.	523 |chch |pending |IC III|
+|K.	523 |chch |done |IC III|
 |K.	524 |chch |pending |IC III|
 |K.	525 |# |# |#|
 |K.	526 |# |# |#|
