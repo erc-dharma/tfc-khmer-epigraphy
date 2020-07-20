@@ -735,7 +735,7 @@
 |K.	722 |# |# |#|
 |K.	723 |chch |pending |IC V|
 |K.	724 |chch |pending |IC V|
-|K.	725 |# |# |#|
+|K.	725 |kuch |done |IC I|
 |K.	726 |# |# |#|
 |K.	727 |kuch |pending |IC V|
 |K.	728 |# |# |#|
@@ -894,7 +894,7 @@
 |K.	881 |# |# |#|
 |K.	882 |# |# |#|
 |K.	883 |# |# |#|
-|K.	884 |kuch |pending |IC VI|
+|K.	884 |kuch |done |IC VI|
 |K.	885 |# |# |#|
 |K.	886 |# |# |#|
 |K.	887 |# |# |#|
