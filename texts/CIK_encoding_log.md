@@ -7,15 +7,15 @@
 |:-----:|:-----:|:-----:|:-----:|
 |K.  1 |kuch |pending |IC VI|
 |K.	2 |# |# |#|
-|K.	3 |kuch |pending |Coedes 1936|
+|K.	3 |kuch |done |Coedes 1936|
 |K.	4 |# |# |#|
-|K.	5 |kuch |pending |Coedes 1931|
-|K.	6 |kuch |pending |Coedes 1936|
-|K.	7 |kuch |basic encoding to be revised |Coedes 1936|
-|K.	8 |kuch |basic encoding to be revised |#(no trans.) IC II|
-|K.	9 |kuch |pending |IC V|
+|K.	5 |kuch |done |Coedes 1931|
+|K.	6 |kuch |done |Coedes 1936|
+|K.	7 |kuch |done |Coedes 1936|
+|K.	8 |kuch |done |#(no trans.) IC II|
+|K.	9 |kuch |done |IC V|
 |K.	10 |# |# |#|
-|K.	11 |kuch|pending | IC II|
+|K.	11 |kuch|done | IC II|
 |K.	12 |# |# |#|
 |K.	13 |kuch |pending |ISC|
 |K.	14 |kuch |done |ISCC|
@@ -29,11 +29,11 @@
 |K.	22 |kuch |pending |ISC|
 |K.	23 |# |# |#|
 |K.	24 |kuch |pending|IC II|
-|K.	25 |kuch |pending |IC II|
+|K.	25 |kuch |done |IC II|
 |K.	26 |# |# |#|
 |K.	27 |# |# |#|
-|K.	28 |kuch |pending |IC II|
-|K.	29 |kuch|pending|IC II|
+|K.	28 |kuch |done |IC II|
+|K.	29 |kuch|done|IC II|
 |K.	30 |kuch |pending |IC II|
 |K.	31 |# |# |#|
 |K.	32 |# |# |#|
@@ -42,7 +42,7 @@
 |K.	35 |# |# |#|
 |K.	36 |# |# |#|
 |K.	37 |kuch |pending|IC II|
-|K.	38 |kuch|pending |IC II|
+|K.	38 |kuch|done |IC II|
 |K.	39 |# |# |#|
 |K.	40 |kuch |basic encoding to be revised |Coedes 1931|
 |K.	41 |kuch |pending |IC VI|
@@ -52,7 +52,7 @@
 |K.	45 |# |# |#|
 |K.	46 |kuch & chch |done |IC VI|
 |K.	47 |# |# |#|
-|K.	48 |kuch |pending |IC VI|
+|K.	48 |kuch |done |IC VI|
 |K.	49 |kuch |pending |ISC|
 |K.	50 |kuch |pending |ISC|
 |K.	51 |kuch |pending |IC V|
@@ -338,17 +338,17 @@
 |K.	325 |kuch |basic encoding to be revised |Soutif 2009|
 |K.	326 |kuch |basic encoding to be revised |Soutif 2009|
 |K.	327 |kuch |basic encoding to be revised |#(no trans.) Soutif 2009|
-|K.	328 |kuch |basic encoding to be revised |Soutif 2009|
-|K.	329 |kuch |basic encoding to be revised |Soutif 2009|
-|K.	330 |kuch |basic encoding to be revised |#(no trans.) Soutif 2009|
-|K.	331 |kuch |basic encoding to be revised |#(no trans.) Soutif 2009|
-|K.	332 |kuch |basic encoding to be revised |Soutif 2009|
-|K.	333 |kuch |basic encoding to be revised |Soutif 2009|
-|K.	334 |kuch |basic encoding to be revised |#(no trans.) Soutif 2009|
-|K.	335 |kuch |basic encoding to be revised |#(no trans.) Soutif 2009|
-|K.	336 |kuch |basic encoding to be revised |#(no trans.) Soutif 2009|
-|K.	337 |kuch |basic encoding to be revised |#(no trans.) Soutif 2009|
-|K.	338 |kuch |basic encoding to be revised |#(no trans.) Soutif 2009|
+|K.	328 |kuch |done |Soutif 2009|
+|K.	329 |kuch |done |Soutif 2009|
+|K.	330 |kuch |done |#(no trans.) Soutif 2009|
+|K.	331 |kuch |done |#(no trans.) Soutif 2009|
+|K.	332 |kuch |done |Soutif 2009|
+|K.	333 |kuch |done |Soutif 2009|
+|K.	334 |kuch |done |#(no trans.) Soutif 2009|
+|K.	335 |kuch |done |#(no trans.) Soutif 2009|
+|K.	336 |kuch |done |#(no trans.) Soutif 2009|
+|K.	337 |kuch |done |#(no trans.) Soutif 2009|
+|K.	338 |kuch |done |#(no trans.) Soutif 2009|
 |K.	339 |# |# |#|
 |K.	340 |# |# |#|
 |K.	341 |kuch |pending |IC VI|
@@ -417,7 +417,7 @@
 |K.	404 |# |# |#|
 |K.	405 |# |# |#|
 |K.	406 |# |# |#|
-|K.	407 |kuch |basic encoding to be revised |RS II|
+|K.	407 |kuch |done |RS II|
 |K.	408 |# |# |#|
 |K.	409 |# |# |#|
 |K.	410 |# |# |#|
@@ -429,9 +429,9 @@
 |K.	416 |kuch |pending |IC II|
 |K.	417 |# |# |#|
 |K.	418 |# |# |#|
-|K.	419 |kuch|pending |BEFEO XIX(5)|
+|K.	419 |kuch|done |BEFEO XIX(5)|
 |K.	420 |# |# |#|
-|K.	421 |kuch |pending |IC V|
+|K.	421 |kuch |done |IC V|
 |K.	422 |kuch |pending |IC II|
 |K.	423 |kuch |pending |IC II|
 |K.	424 |kuch |pending |IC II|
@@ -503,7 +503,7 @@
 |K.	490 |# |# |#|
 |K.	491 |# |# |#|
 |K.	492 |# |# |#|
-|K.	493 |kuch |basic encoding; waiting for estampage for verification|IC II|
+|K.	493 |kuch |done |IC II|
 |K.	494 |# |# |#|
 |K.	495 |# |# |#|
 |K.	496 |kuch |done |Seidenfaden 1922|
@@ -611,13 +611,13 @@
 |K.	598 |# |# |#|
 |K.	599 |kuch |pending |unpublished|
 |K.	600 |kuch |pending |IC II|
-|K.	601 |kuch |basic encoding to be revised |unpublished|
+|K.	601 |kuch |done |unpublished|
 |K.	602 |# |# |#|
 |K.	603 |# |# |#|
-|K.	604 |kuch |basic encoding to be revised |Goodall 2019|
+|K.	604 |kuch |done |Goodall 2019|
 |K.	605 |# |# |#|
 |K.	606 |# |# |#|
-|K.	607 |kuch |basic encoding to be revised |Soutif 2009|
+|K.	607 |kuch |done |Soutif 2009|
 |K.	608 |kuch |pending |Soutif 2009|
 |K.	609 |kuch |pending |Fint 1928|
 |K.	610 |# |# |#|
@@ -789,7 +789,7 @@
 |K.	776 |# |# |#|
 |K.	777 |# |# |#|
 |K.	778 |# |# |#|
-|K.	779 |kuch |basic encoding to be revised|Soutif 2008|
+|K.	779 |kuch |done |Soutif 2008|
 |K.	780 |# |# |#|
 |K.	781 |# |# |#|
 |K.	782 |# |# |#|
@@ -797,7 +797,7 @@
 |K.	784 |kuch |pending |IC VI|
 |K.	785 |kuch |pending |IC VI|
 |K.	786 |# |# |#|
-|K.	787 |kuch |basic encoding to be revised|Coedes IC VI|
+|K.	787 |kuch |done |Coedes IC VI|
 |K.	788 |kuch |pending |IC VI|
 |K.	789 |kuch |pending|IC V|
 |K.	790 |kuch|pending |IC V|
@@ -805,7 +805,7 @@
 |K.	792 |# |# |#|
 |K.	793 |# |# |#|
 |K.	794 |# |# |#|
-|K.	795 |kuch |basic encoding to be revised |Soutif 2009|
+|K.	795 |kuch |done |Soutif 2009|
 |K.	796 |# |# |#|
 |K.	797 |# |# |#|
 |K.	798 |# |# |#|
@@ -861,7 +861,7 @@
 |K.	848 |# |# |#|
 |K.	849 |# |# |#|
 |K.	850 |# |# |#|
-|K.	851 |kuch |basic encoding to be revised|Coedes IC I|
+|K.	851 |kuch |done |Coedes IC I|
 |K.	852 |# |# |#|
 |K.	853 |# |# |#|
 |K.	854 |# |# |#|
@@ -885,7 +885,7 @@
 |K.	872 |# |# |#|
 |K.	873 |# |# |#|
 |K.	874 |# |# |#|
-|K.	875 |kuch |basic encoding to be revised|Coedes 1937|
+|K.	875 |kuch |done |Coedes 1937|
 |K.	876 |# |# |#|
 |K.	877 |kuch |pending |IC VI|
 |K.	878 |# |# |#|
@@ -925,7 +925,7 @@
 |K.	912 |# |# |#|
 |K.	913 |# |# |#|
 |K.	914 |# |# |#|
-|K.	915 |kuch |basic encoding to be revised|Soutif 2009|
+|K.	915 |kuch |done |Soutif 2009|
 |K.	916 |# |# |#|
 |K.	917 |# |# |#|
 |K.	918 |kuch |pending |unpublished|
@@ -954,7 +954,7 @@
 |K.	940 |kuch |pending |IC V|
 |K.	941 |# |# |#|
 |K.	942 |# |# |#|
-|K.	943 |kuch |basic encoding to be revised |unpublished|
+|K.	943 |kuch |done |unpublished|
 |K.	944 |# |# |#|
 |K.	945 |# |# |#|
 |K.	946 |kuch |pending |unpublished|
@@ -1020,7 +1020,7 @@
 |K.	1006 |chch |pending |BEFEO 1971; Jacques et al. 2007|
 |K.	1007 |# |# |#|
 |K.	1008 |# |# |#|
-|K.	1009 |kuch |basic encoding to be revised |Jacques 1969|
+|K.	1009 |kuch |done |Jacques 1969|
 |K.	1010 |kuch |pending  |unpublished|
 |K.	1011.1 |chch |done |Jacques 1999|
 |K.	1011.2 |chch |done |Jacques 1999|
@@ -1046,7 +1046,7 @@
 |K.	1026 |# |# |#|
 |K.	1027 |# |# |#|
 |K.	1028 |kuch |pending |NIC II-III(Khmer part); Sanskrit part unpublished |
-|K.	1029 |kuch |basic encoding to be revised |Soutif 2009|
+|K.	1029 |kuch |done |Soutif 2009|
 |K.	1030 |# |# |#|
 |K.	1031 |# |# |#|
 |K.	1032 |kuch |pending |unpublished|
@@ -1164,7 +1164,7 @@
 |K.	1144 |# |# |#|
 |K.	1145 |# |# |#|
 |K.	1146 |# |# |#|
-|K.	1147 |kuch |pending |NIC II-III|
+|K.	1147 |kuch |done |NIC II-III|
 |K.	1148 |kuch |done |Pou NIC II-III 2001|
 |K.	1149 |kuch |pending |unpublished|
 |K.	1150 |kuch |done |Goodall 2019|
@@ -1315,7 +1315,7 @@
 |K.	1295 |# |# |#|
 |K.	1296 |kuch |done |Griffiths and Vincent 2014|
 |K.	1297 |# |# |#|
-|K.	1298 |kuch |pending |NIC II-III|
+|K.	1298 |kuch |done |NIC II-III|
 |K.	1299 |# |# |#|
 |K.	1300 |# |# |#|
 |K.	1301 |# |# |#|
@@ -1438,7 +1438,7 @@
 |K.	1417 |kuch |pending |#|
 |K.	1417 |kuch |pending |#|
 |K.	1418 |# |# |#|
-|K.	1419 |# |# |#|
+|K.	1419 |kuch |done |Chhom 2019|
 |K.	1420 |# |# |#|
 |K.	1421 |# |# |#|
 |K.	1422 |# |# |#|
