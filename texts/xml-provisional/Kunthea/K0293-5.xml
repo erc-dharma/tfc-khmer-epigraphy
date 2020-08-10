@@ -12,6 +12,10 @@
                 </respStmt>
                 <respStmt>
                     <resp>intellectual authorship of edition</resp>
+                    <persName ref="part:doso">
+                        <forename>Dominique</forename>
+                        <surname>Soutif</surname>
+                    </persName>
                     <persName ref="part:kuch">
                         <forename>Kunthea</forename>
                         <surname>Chhom</surname>
@@ -55,7 +59,8 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+        <revisionDesc status="draft"><change who="part:kuch" when="2020-08-10">Modifications to edition and bibliography</change>
+            <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
             <change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change><!-- add a <change> for each change to the file, the first change should replace this one and record your creation of a file using this template. -->
         </revisionDesc>
     </teiHeader>
@@ -63,10 +68,13 @@
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
 <ab>
-<lb n="1"/><g type="symbol" subtype="eye"/> vraḥ kuṭi quttaravāyavyapaścima vraḥ vuddha kamrateṅ· qañ· ratnatraya viṁndhya<lb n="2" break="no"/>parvvata <g type="symbol" subtype="egg"/> kamrateṅ· jagat· śrītribhuvanadeva <g type="symbol" subtype="egg"/> kamrateṅ· jagat· śrībhaiṣajya<lb n="3" break="no"/>guru vaidūryyaprabharāja qanle noḥ <g type="symbol" subtype="egg"/> kamrateṅ· jagat· chluy· maleṅ· <g type="symbol" subtype="egg"/> ka<lb n="4" break="no"/>mrateṅ· jagat· śrībhaiṣajyaguruvaidūryyaprabharāja maleṅ· <g type="symbol" subtype="egg"/> kamrateṅ· 
-<lb n="5"/>jagat· śrībhaiṣajyaguruvaidūryyaprabharāja jraiṇan· <g type="symbol" subtype="egg"/> kamrateṅ· jagat· 
-<lb n="6"/>vraḥ pāda saṁvok· <g type="symbol" subtype="egg"/> kamrateṅ· jagat· lyoṅ· <g type="symbol" subtype="egg"/> kamrateṅ· jagat· ta śakti 
-<lb n="7"/>saṁvok· <g type="symbol" subtype="egg"/> kamrateṅ· jagat· śrībhaiṣajyaguruvaidūryyaprabharāja <supplied reason="lost">qa</supplied>nl<supplied reason="lost">e</supplied> noḥ      
+<lb n="1"/><g type="circleTarget">.</g> vraḥ kuṭi Uttaravāyavyapaścima vraḥ vuddha kamrateṅ· Añ· ratnatraya viṁndhya<lb 
+    n="2" break="no"/>parvvata <g type="circle">.</g> kamrateṅ· jagat· śrītribhuvanadeva <g type="circle">.</g> kamrateṅ· jagat· śrībhaiṣajya<lb 
+        n="3" break="no"/>guru vaidūryyaprabharāja Anle noḥ <g type="circle">.</g> kamrateṅ· jagat· chluy· maleṅ· <g type="circle">.</g> ka<lb 
+            n="4" break="no"/>mrateṅ· jagat· śrībhaiṣajyaguruvaidūryyaprabharāja maleṅ· <g type="circle">.</g> kamrateṅ· 
+<lb n="5"/>jagat· śrībhaiṣajyaguruvaidūryyaprabharāja jraiṇan· <g type="circle">.</g> kamrateṅ· jagat· 
+<lb n="6"/>vraḥ pāda saṁvok· <g type="circle">.</g> kamrateṅ· jagat· lyoṅ· <g type="circle">.</g> kamrateṅ· jagat· ta śakti 
+<lb n="7"/>saṁvok· <g type="circle">.</g> kamrateṅ· jagat· śrībhaiṣajyaguruvaidūryyaprabharāja <supplied reason="lost">A</supplied>nl<supplied reason="lost">e</supplied> noḥ      
 </ab>
 </div>
 
@@ -86,13 +94,14 @@
             <!--commentary encoded as per section §9.3 -->
          </div>
         <div type="bibliography">
-	<!--bibliography encoded as per section §9.4 -->
-	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p>Text is given after IC III, p. 196; Estampage EFEO n. 21.5</p>
-           <listBibl type="primary"> 				<bibl/><!-- one <bibl/> per item of primary bibliography --> 			</listBibl>            <listBibl type="secondary">
-              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
-           </listBibl>
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1928_01"/><citedRange unit="page">106</citedRange></bibl>) without any translation; reedited here by Dominique Soutif and Kunthea Chhom basing on n. 21.5.</p>
+	 <listBibl type="primary">
+	     <bibl n="GC">
+      <ptr target="bib:Coedes1928_01"/>
+      <citedRange unit="page">106</citedRange>
+    </bibl>
+  </listBibl>
         </div>
-        </body>
+       </body>
     </text>
 </TEI>

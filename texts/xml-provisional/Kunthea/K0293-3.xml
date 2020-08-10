@@ -12,6 +12,10 @@
                 </respStmt>
                 <respStmt>
                     <resp>intellectual authorship of edition</resp>
+                    <persName ref="part:doso">
+                        <forename>Dominique</forename>
+                        <surname>Soutif</surname>
+                    </persName>
                     <persName ref="part:kuch">
                         <forename>Kunthea</forename>
                         <surname>Chhom</surname>
@@ -55,7 +59,8 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+        <revisionDesc status="draft"><change who="part:kuch" when="2020-08-10">Modifications to edition and bibliography</change>
+            <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
             <change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change>
         </revisionDesc>
     </teiHeader>
@@ -63,31 +68,37 @@
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
 <ab>
-<lb n="1"/>vraḥ kuṭi qu<supplied reason="lost">ttaravāya</supplied>vyadakṣiṇa <g type="symbol" subtype="egg"/> kamrateṅ· jagat· śrījaya<supplied reason="lost">ma</supplied><lb n="2" break="no"/>hānātha nagara śrījayarājapurī <g type="symbol" subtype="egg"/> kamrateṅ· jagat· śrī tribhuvanade<supplied reason="lost">va <g type="symbol" subtype="egg"/></supplied>
-<lb n="3"/> kamrateṅ· jagat· śrībhaiṣajyaguruvaidūryyaprabharāja qanle noḥ <g type="symbol" subtype="egg"/> kamra<lb n="4" break="no"/>teṅ· jagat· śrīsūryyagiri <g type="symbol" subtype="egg"/> kamrateṅ· jagat· śrīsūryyaśakti dmaḥ <g type="symbol" subtype="egg"/> kamra<lb n="5" break="no"/>teṅ· jagat· śrībhaiṣajyaguruvaidūryya prabharāja dmaḥ <g type="symbol" subtype="egg"/> kamrateṅ· 
+<lb n="1"/>vraḥ kuṭi U<supplied reason="lost">ttaravāya</supplied>vyadakṣiṇa <g type="circle">.</g> kamrateṅ· jagat· śrījaya<supplied reason="lost">ma</supplied><lb 
+    n="2" break="no"/>hānātha nagara śrījayarājapurī <g type="circle">.</g> kamrateṅ· jagat· śrī tribhuvanade<supplied reason="lost">va <g type="circle">.</g></supplied>
+<lb n="3"/> kamrateṅ· jagat· śrībhaiṣajyaguruvaidūryyaprabharāja Anle noḥ <g type="circle">.</g> kamra<lb 
+    n="4" break="no"/>teṅ· jagat· śrīsūryyagiri <g type="circle">.</g> kamrateṅ· jagat· śrīsūryyaśakti dmaḥ <g type="circle">.</g> kamra<lb 
+        n="5" break="no"/>teṅ· jagat· śrībhaiṣajyaguruvaidūryya prabharāja dmaḥ <g type="circle">.</g> kamrateṅ· 
 </ab>
 </div>
 <div type="apparatus">
-<listApp>
-<app loc="5">
-<note>Incomplete inscription</note>
-</app>
-</listApp>
-</div> 
-            <div type="translation" xml:lang="eng">
+           <!--apparatus encoded as per EG §9.1, basic elements for apparatus below-->
+               <listApp><!-- one <app> for each apparatus entry -->
+                  <app loc="line"><!-- Update the value of @loc.-->
+                     <lem><!-- fill in a lemma here --></lem>
+                     <rdg source="bib:AuthorYear_01"><!-- update the @source value, fill in variant reading here --></rdg>
+                  </app>
+               </listApp>         
+         </div>
+                     <div type="translation" xml:lang="eng">
                 <!--translation encoded as per EG §9.2 -->
             </div>
             <div type="commentary">
-                <!--commentary encoded as per section §9.3 -->
+                <p>Inscription inachevée.</p>
             </div>
-            <div type="bibliography">
-	<!--bibliography encoded as per section §9.4 -->
-	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p>Text is given after IC III, p. 194; Estampage EFEO n. 39.3</p>
-           <listBibl type="primary"> 				<bibl/><!-- one <bibl/> per item of primary bibliography --> 			</listBibl>            <listBibl type="secondary">
-              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
-           </listBibl>
+             <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">194</citedRange></bibl>) without any translation; reedited here by Dominique Soutif and Kunthea Chhom basing on estampage EFEO n. 39.3.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+<ptr target="bib:Coedes1937-1966_01"/>
+<citedRange unit="volume">3</citedRange><citedRange unit="page">194</citedRange>
+</bibl>
+    </listBibl>
         </div>
-        </body>
+       </body>
     </text>
 </TEI>

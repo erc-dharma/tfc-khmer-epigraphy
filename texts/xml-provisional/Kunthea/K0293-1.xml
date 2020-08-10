@@ -12,6 +12,10 @@
                 </respStmt>
                 <respStmt>
                     <resp>intellectual authorship of edition</resp>
+                    <persName ref="part:doso">
+                        <forename>Dominique</forename>
+                        <surname>Soutif</surname>
+                    </persName>
                     <persName ref="part:kuch">
                         <forename>Kunthea</forename>
                         <surname>Chhom</surname>
@@ -55,7 +59,8 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc status="draft"><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+        <revisionDesc status="draft"><change who="part:kuch" when="2020-08-10">Modifications to edition and bibliography</change>
+            <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
             <change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change>
         </revisionDesc>
     </teiHeader>
@@ -63,12 +68,22 @@
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
 <ab> 
-<lb n="1"/><gap reason="lost" quantity="14" precision="low" unit="character" /> t<unclear cert="low">a</unclear> <gap reason="lost" quantity="18" precision="low" unit="character" /> n<unclear cert="low">a</unclear>
-<lb n="2"/><gap reason="lost" quantity="15" precision="low" unit="character" /> da <g type="symbol" subtype="egg"/> kamra<supplied reason="lost">teṅ· jaga</supplied>t· śrī
-<lb n="3"/><gap reason="lost" quantity="3" precision="low" unit="character" /> <g type="symbol" subtype="egg"/> kamra<supplied reason="lost">teṅ· jaga</supplied>t· ha<supplied reason="lost">r</supplied>i<supplied reason="lost">harā</supplied>laya <g type="symbol" subtype="egg"/> kamrateṅ· jagat· para<lb n="4" break="no"/><supplied reason="lost">me</supplied>śvara <g type="symbol" subtype="egg"/> kamrateṅ· jagat· vraḥ thkval· cas· <g type="symbol" subtype="egg"/> kamrateṅ· jagat· qutpa<lb n="5" break="no"/>na <g type="symbol" subtype="egg"/> kamrateṅ· jagat· vraḥ muniḥ <g type="symbol" subtype="egg"/> <supplied reason="lost">ph</supplied>saṁ qanle tapa piy <g type="symbol" subtype="egg"/>
+<lb n="1"/><gap reason="lost" quantity="14" precision="low" unit="character"/> t<unclear cert="low">a</unclear> <gap reason="lost" quantity="18" precision="low" unit="character"/> n<unclear cert="low">a</unclear>
+<lb n="2"/><gap reason="lost" quantity="15" precision="low" unit="character"/> da <g type="circle">.</g> kamra<supplied reason="lost">teṅ· jaga</supplied>t· śrī
+<lb n="3"/><gap reason="lost" quantity="3" precision="low" unit="character"/> <g type="circle">.</g> kamra<supplied reason="lost">teṅ· jaga</supplied>t· ha<supplied reason="lost">r</supplied>i<supplied reason="lost">harā</supplied>laya <g type="circle">.</g> kamrateṅ· jagat· para<lb 
+    n="4" break="no"/><supplied reason="lost">me</supplied>śvara <g type="circle">.</g> kamrateṅ· jagat· vraḥ thkval· cas· <g type="circle">.</g> kamrateṅ· jagat· Utpa<lb 
+        n="5" break="no"/>na <g type="circle">.</g> kamrateṅ· jagat· vraḥ muniḥ <g type="circle">.</g> <supplied reason="lost">ph</supplied>saṁ Anle tapa piy <g type="circle">.</g>
 </ab>
 </div>
-
+<div type="apparatus">
+           <!--apparatus encoded as per EG §9.1, basic elements for apparatus below-->
+               <listApp><!-- one <app> for each apparatus entry -->
+                  <app loc="line"><!-- Update the value of @loc.-->
+                     <lem><!-- fill in a lemma here --></lem>
+                     <rdg source="bib:AuthorYear_01"><!-- update the @source value, fill in variant reading here --></rdg>
+                  </app>
+               </listApp>         
+         </div>
             <div type="translation" xml:lang="eng">
                 <!--translation encoded as per EG §9.2 -->
             </div>
@@ -76,12 +91,13 @@
                 <!--commentary encoded as per section §9.3 -->
             </div>
             <div type="bibliography">
-	<!--bibliography encoded as per section §9.4 -->
-	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p>Text is given after IC III, p. 193; Estampage EFEO n. 39.1</p>
-           <listBibl type="primary"> 				<bibl/><!-- one <bibl/> per item of primary bibliography --> 			</listBibl>            <listBibl type="secondary">
-              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
-           </listBibl>
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">193</citedRange></bibl>) without any translation; reedited here by Dominique Soutif and Kunthea Chhom basing on estampage EFEO n. 39.1.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+<ptr target="bib:Coedes1937-1966_01"/>
+<citedRange unit="volume">3</citedRange><citedRange unit="page">193</citedRange>
+</bibl>
+    </listBibl>
         </div>
         </body>
     </text>
