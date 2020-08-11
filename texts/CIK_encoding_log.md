@@ -1286,7 +1286,7 @@
 |K.	1266 |kuch |done |Pou NIC II-III 2001|
 |K.	1267 |kuch |done |Pou NIC II-III 2001|
 |K.	1268 |# |# |#|
-|K.	1269 |chch |pending |Chevance 2011|
+|K.	1269 |chch |done |Chevance 2014|
 |K.	1270 |kuch |pending |#|
 |K.	1271 |# |# |#|
 |K.	1272 |chch |done |Chevance 2014|
