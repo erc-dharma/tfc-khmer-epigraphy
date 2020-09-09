@@ -22,11 +22,11 @@
 |K.	15 |# |# |#|
 |K.	16 |# |# |#|
 |K.	17 |# |# |#|
-|K.	18 |kuch|pending|IC II|
+|K.	18 |kuch|done|IC II|
 |K.	19 |# |# |#|
 |K.	20 |kuch|pending|unpublished|
 |K.	21 |kuch |pending |IC V|
-|K.	22 |kuch |pending |ISC|
+|K.	22 |kuch |done |ISC|
 |K.	23 |# |# |#|
 |K.	24 |kuch |pending|IC II|
 |K.	25 |kuch |done |IC II|
@@ -34,7 +34,7 @@
 |K.	27 |# |# |#|
 |K.	28 |kuch |done |IC II|
 |K.	29 |kuch|done|IC II|
-|K.	30 |kuch |pending |IC II|
+|K.	30 |kuch |done |IC II|
 |K.	31 |# |# |#|
 |K.	32 |# |# |#|
 |K.	33 |# |# |#|
@@ -55,11 +55,11 @@
 |K.	48 |kuch |done |IC VI|
 |K.	49 |kuch |pending |ISC|
 |K.	50 |kuch |pending |ISC|
-|K.	51 |kuch |pending |IC V|
+|K.	51 |kuch |done |IC V|
 |K.	52 |# |# |#|
-|K.	53 |kuch |pending |ISC|
+|K.	53 |kuch |done |ISC|
 |K.	54 |kuch |pending |ISC|
-|K.	55 |kuch |basic encoding to be revised|ISC|
+|K.	55 |kuch |done|ISC|
 |K.	56 |# |# |#|
 |K.	57 |# |# |#|
 |K.	58 |# |# |#|
@@ -70,7 +70,7 @@
 |K.	63 |# |# |#|
 |K.	64 |# |# |#|
 |K.	65 |# |# |#|
-|K.	66 |kuch |basic encoding to be revised|Finot 1915 and IC II|
+|K.	66 |kuch |done|Finot 1915 and IC II|
 |K.	67 |# |# |#|
 |K.	68 |# |# |#|
 |K.	69 |# |# |#|
@@ -85,7 +85,7 @@
 |K.	78 |kuch |pending |IC VI|
 |K.	79 |kuch |pending |Coedes 1904|
 |K.	80 |kuch |pending |ISC|
-|K.	81 |kuch |basic encoding to be revised|ISC|
+|K.	81 |kuch |done|ISC|
 |K.	82 |# |# |#|
 |K.	83 |# |# |#|
 |K.	84 |# |# |#|
@@ -98,7 +98,7 @@
 |K.	91 |# |# |#|
 |K.	92 |# |# |#|
 |K.	93 |# |# |#|
-|K.	94 |kuch |basic encoding to be revised |IC V|
+|K.	94 |kuch |done|IC V|
 |K.	95 |# |# |#|
 |K.	96 |# |# |#|
 |K.	97 |kuch |pending |unpublished|
@@ -108,7 +108,7 @@
 |K.	102 |kuch |pending |IC V|
 |K.	103 |# |# |#|
 |K.	104 |# |# |#|
-|K.	105 |kuch |basic encoding to be revised|IC VI|
+|K.	105 |kuch |done|IC VI|
 |K.	106 |# |# |#|
 |K.	107 |kuch |pending |IC VI|
 |K.	108 |# |# |#|
@@ -124,8 +124,8 @@
 |K.	118 |# |# |#|
 |K.	119 |# |# |#|
 |K.	120 |# |# |#|
-|K.	121 |kuch |basic encoding to be revised |Finot 1904|
-|K.	122 |kuch |basic encoding to be revised |Finot 1903|
+|K.	121 |kuch |done |Finot 1904|
+|K.	122 |kuch |done |Finot 1903|
 |K.	123 |# |# |#|
 |K.	124 |# |# |#|
 |K.	125 |# |# |#|
@@ -160,7 +160,7 @@
 |K.	153 |# |# |#|
 |K.	154 |kuch |pending |IC II|
 |K.	155 |# |# |#|
-|K.	156 |kuch |basic encoding to be revised |IC V|
+|K.	156 |kuch |done |IC V|
 |K.	157 |# |# |#|
 |K.	158 |# |# |#|
 |K.	159 |# |# |#|
@@ -299,11 +299,11 @@
 |K.	290 |# |# |#|
 |K.	291 |# |# |#|
 |K.	292 |# |# |#|
-|K.	293-1 |kuch |basic encoding to be revised |#(no trans.) "Coedes 1913  BEFEO 1918  IC III"|
-|K.	293-2 |kuch |basic encoding to be revised |#(no trans.) "Coedes 1913  BEFEO 1918  IC III"|
-|K.	293-3 |kuch |basic encoding to be revised |#(no trans.) "Coedes 1913  BEFEO 1918  IC III"|
+|K.	293-1 |kuch |done |#(no trans.) "Coedes 1913  BEFEO 1918  IC III"|
+|K.	293-2 |kuch |done |#(no trans.) "Coedes 1913  BEFEO 1918  IC III"|
+|K.	293-3 |kuch |done|#(no trans.) "Coedes 1913  BEFEO 1918  IC III"|
 |K.	293-4 |# |# |#|
-|K.	293-5 |kuch |basic encoding to be revised |#(no trans.) "Coedes 1913  BEFEO 1918  IC III"|
+|K.	293-5 |kuch |done |#(no trans.) "Coedes 1913  BEFEO 1918  IC III"|
 |K.	294 |# |# |#|
 |K.	295 |# |# |#|
 |K.	296 |# |# |#|
@@ -334,10 +334,10 @@
 |K.	321 |# |# |#|
 |K.	322 |# |# |#|
 |K.	323 |# |# |#|
-|K.	324 |kuch |basic encoding to be revised |Soutif 2009|
-|K.	325 |kuch |basic encoding to be revised |Soutif 2009|
-|K.	326 |kuch |basic encoding to be revised |Soutif 2009|
-|K.	327 |kuch |basic encoding to be revised |#(no trans.) Soutif 2009|
+|K.	324 |kuch |done|Soutif 2009|
+|K.	325 |kuch |done |Soutif 2009|
+|K.	326 |kuch |done |Soutif 2009|
+|K.	327 |kuch |done |#(no trans.) Soutif 2009|
 |K.	328 |kuch |done |Soutif 2009|
 |K.	329 |kuch |done |Soutif 2009|
 |K.	330 |kuch |done |#(no trans.) Soutif 2009|
