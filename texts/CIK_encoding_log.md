@@ -1,5 +1,5 @@
 # Log for encoding of CIK
-- encoder IDs: dogo, chch and kuch
+- encoder IDs: argr, chch, dogo, kuch and sapi
 - status: pending or done
 - remark: e.g. bibl. ref.
 
@@ -12,7 +12,7 @@
 |K.	5 |kuch |done |Coedes 1931|
 |K.	6 |kuch |done |Coedes 1936|
 |K.	7 |kuch |done |Coedes 1936|
-|K.	8 |kuch |done |#(no trans.) IC II|
+|K.	8 |kuch |done |IC II, no trans.|
 |K.	9 |kuch |done |IC V|
 |K.	10 |# |# |#|
 |K.	11 |kuch|done | IC II|
@@ -299,11 +299,11 @@
 |K.	290 |# |# |#|
 |K.	291 |# |# |#|
 |K.	292 |# |# |#|
-|K.	293-1 |kuch |done |#(no trans.) "Coedes 1913  BEFEO 1918  IC III"|
-|K.	293-2 |kuch |done |#(no trans.) "Coedes 1913  BEFEO 1918  IC III"|
-|K.	293-3 |kuch |done|#(no trans.) "Coedes 1913  BEFEO 1918  IC III"|
+|K.	293-1 |kuch |done |Coedes 1913  BEFEO 1918  IC III, no trans.|
+|K.	293-2 |kuch |done |Coedes 1913  BEFEO 1918  IC III, no trans.|
+|K.	293-3 |kuch |done|Coedes 1913  BEFEO 1918  IC III, no trans.|
 |K.	293-4 |# |# |#|
-|K.	293-5 |kuch |done |#(no trans.) "Coedes 1913  BEFEO 1918  IC III"|
+|K.	293-5 |kuch |done |Coedes 1913  BEFEO 1918  IC III, no trans.|
 |K.	294 |# |# |#|
 |K.	295 |# |# |#|
 |K.	296 |# |# |#|
@@ -337,18 +337,18 @@
 |K.	324 |kuch |done|Soutif 2009|
 |K.	325 |kuch |done |Soutif 2009|
 |K.	326 |kuch |done |Soutif 2009|
-|K.	327 |kuch |done |#(no trans.) Soutif 2009|
+|K.	327 |kuch |done |Soutif 2009, no trans.|
 |K.	328 |kuch |done |Soutif 2009|
 |K.	329 |kuch |done |Soutif 2009|
-|K.	330 |kuch |done |#(no trans.) Soutif 2009|
-|K.	331 |kuch |done |#(no trans.) Soutif 2009|
+|K.	330 |kuch |done |Soutif 2009, no trans.|
+|K.	331 |kuch |done |Soutif 2009, no trans.|
 |K.	332 |kuch |done |Soutif 2009|
 |K.	333 |kuch |done |Soutif 2009|
-|K.	334 |kuch |done |#(no trans.) Soutif 2009|
-|K.	335 |kuch |done |#(no trans.) Soutif 2009|
-|K.	336 |kuch |done |#(no trans.) Soutif 2009|
-|K.	337 |kuch |done |#(no trans.) Soutif 2009|
-|K.	338 |kuch |done |#(no trans.) Soutif 2009|
+|K.	334 |kuch |done |Soutif 2009, no trans.|
+|K.	335 |kuch |done |Soutif 2009, no trans.|
+|K.	336 |kuch |done |Soutif 2009, no trans.|
+|K.	337 |kuch |done |Soutif 2009, no trans.|
+|K.	338 |kuch |done |Soutif 2009, no trans.|
 |K.	339 |# |# |#|
 |K.	340 |# |# |#|
 |K.	341 |kuch |pending |IC VI|
@@ -509,7 +509,7 @@
 |K.	496 |kuch |done |Seidenfaden 1922|
 |K.	497 |kuch |pending |#|
 |K.	498 |# |# |#|
-|K.	499 (no translation) |kuch |done |Chhabra 1935|
+|K.	499 |kuch |done |Chhabra 1935, no trans.|
 |K.	500 |# |# |#|
 |K.	501 |# |# |#|
 |K.	502 |kuch |pending |Coedes 1924|
