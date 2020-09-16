@@ -15,12 +15,12 @@
 				</respStmt>
 				<respStmt>
 					<resp>intellectual authorship of edition</resp>
-					<persName>
+					<persName ref="http://viaf.org/viaf/66465311">
 						<forename>George</forename>
 						<surname>Cœdès</surname>
 					</persName>
 					<persName ref="part:sapi">
-						<forename>Salomé</forename><!-- Fill in the name of the responsible scholar — it possible to use only <name> instead of <foreame> and <surname> -->
+						<forename>Salomé</forename>
 						<surname>Pichon</surname>
 					</persName>
 				</respStmt>
@@ -55,71 +55,72 @@
 					</msContents>
 					<physDesc>
 						<handDesc>
-							<!--sapi2argr Devrais-je faire un paragraphe par idée ? -->
-							<p>The line 2-4 of Face A are constituted by bigger <foreign>akṣara</foreign> than the other lines of the stela. The scribe makes scanty use of virāma, so that a few words known to be consonant-final are spelt without cancellation of the inherent vowel of the final consonant. We notice a inclusion of -i in headmarks. When two <foreign>akṣara</foreign> comprising the voyel "u" follow eachother, the scribe tend to ligature them into a caracteristic shape.</p>
+							<p>The lines 2-4 of Face A are constituted by bigger <foreign>akṣara</foreign>s than the other lines of the stela.</p>
+							<p>Line 7 of Face A presents an unusual form of the word <foreign>vidhi</foreign>.The consonnants are open on the top, and their headmarks seem to be joigned.</p>
+							<p>The scribe makes scanty use of virāma, so that a few words known to be consonant-final are spelt without cancellation of the inherent vowel of the final consonant.</p>
+							<p> Also noteworthy is the inclusion of vowel marker <foreign>-i</foreign> in headmarks.</p>
 						</handDesc>
 					</physDesc>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc status="draft">
+			<change who="part:sapi" when="2020-09-16">modification of the intellectual authorship</change>
+			<change who="part:sapi part:argr" when="2020-09-14">first round of revisions</change>
 			<change who="part:sapi" when="2020-09-10">Initial encoding of the file</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="x-oldkhmer-Latn">
-         						<!-- sapi2argr Comment intégrer le oṁ initial, qui n'est pas compté comme une ligne ? -->
-						 <ab>oṁ</ab><milestone type="pagelike" unit="face" n="A"/><!--sapi2argr Dois-je mettre le milestone de la face ici ou après le <lb n="A1"/> ? -->
-					 <p>
-						 
-						 <lb n="A1"/><g type="dandaOrnate"/><g type="floretComplex"/><g type="dandaOrnate"/><num value="896">896</num> śaka pañcamī ket· puṣya candravāra śatabhīṣanakṣatra nu dhūlī vraḥ
-						 <lb n="A2"/>pāda dhūlī jeṅ· vraḥ kamrateṅ· <space type="descender" quantity="1" unit="character"/> Añ· śrī jayavarmmadeva <space/><!--sapi2argr Faut-il indiquer un type ici ? Si oui, lequel ?--> ta
-						 <lb n="A3"/>svey· vraḥ rājya nu śūnyanavaAṣṭa śaka <space/> <!--sapi2argr Même question ?--> thve vrahmayajña pi kamrate<lb
-						 n="A4" break="no"/>ṅ· Añ vraḥ guru thve mah<unclear>ā</unclear>ddhvaravi<space type="descender"/>dhī nā vāgīśvarīyāga nu dhūlī vraḥ
-						 <lb n="A5"/>pāda dhūlī jeṅ· vraḥ kamrate<space type="descender" quantity="1" unit="character"/>ṅ· Añ· śrī jayavarmmadeva ryān· saṁrācc<choice><orig>a</orig><reg>·</reg></choice> <space/> gi
-						 <lb n="A6"/>vraḥ vidyā phoṅ· ta tripañcāśatparvva Aṣṭamadivasa Ādimaddhyāvasāna Āy· nagara śrī<!--sapi2argr Dois-je mettre un "linebreak" entre ces deux lignes ? Il me semblait que nous avions convenu en séminaire que "śrī" et le nom étaient séparés. -->
-						 <lb n="A7"/>yaśodharaparvvata nā vraḥ śilātatāka man· sracc<choice><orig>a</orig><reg>·</reg></choice> vidhi mā<space type="descender" quantity="2" unit="character"/>n· vraḥ śāsana dhūlī vraḥ
+						 <ab><milestone type="pagelike" unit="face" n="A"/><lb n="01"/>Om̐</ab><!-- kuch and chch: see how we're encoding the invocation with lb=01, cf. EGD 3.3.3 -->
+					 <p><lb n="A1"/><g type="dandaOrnate"/><g type="floretComplex"/><g type="dandaOrnate"/><num value="896">896</num> śaka pañcamī<!-- i?--> ket· puṣya candra-vāra śatabhīṣa-nakṣatra nu dhūlī vraḥ
+						 <lb n="A2"/>pāda dhūlī jeṅ· vraḥ kamrateṅ· <space type="descender"/> Añ· śrī jayavarmmadeva <space/> ta
+						 <lb n="A3"/>svey· <space type="descender"/> vraḥ rājya <space/> nu śūnya-nava-Aṣṭa śaka <space/> thve vrahmayajña<!-- extremely elaborate form of subscript ñ! --> pi kamrate<lb
+						 n="A4" break="no"/>ṅ· Añ vraḥ guru thve mah<unclear>ā</unclear>ddhvara-vi<space type="descender"/>dhī nā vāgīśvarī-yāga nu dhūlī vraḥ
+						 <lb n="A5"/>pāda dhūlī jeṅ· vraḥ kamrate<space type="descender"/>ṅ· Añ· śrī jayavarmmadeva ryān· saṁrācca <space/> gi
+						 <lb n="A6"/>vraḥ vidyā phoṅ· ta tri-pañcāśat-parvva Aṣṭama-divasa Ādi-maddhyāvasāna Āy· nagara śrī
+						 <lb n="A7"/>yaśodharaparvvata nā vraḥ śilātatāka man· sracca vidhi mā<space type="descender"/>n· vraḥ śāsana dhūlī vraḥ
 						 <lb n="A8"/>pāda dhūlī jeṅ· vraḥ kamrateṅ· Añ· ta kamrateṅ· Añ· vraḥ guru pre res· paṁnva<lb
-						 n="A9" break="no"/>s· ta neḥ saptavarṇna nu kula nai Ācāryyapradhāna ta pradvānn<choice><orig>a</orig><reg>·</reg></choice> mo<space type="descender"/>k· pre duk· mūla
-						 <lb n="A10"/>khmuk· vraḥ kralā Arccaṇa 20 mūla karmmāntara 20 Oy· cralo phle gi nu sruk· sre bhūmyāka<lb
-						 n="A11" break="no"/>ra <space type="descender"/> leṅ· siddhi jā varṇna neḥ ta vyar<choice><orig>a</orig><reg>·</reg></choice> nā khmuk· vraḥ kralā A<space type="descender" quantity="1" unit="character"/>rccana nu karmmāntara nā paṁ<lb
-						 n="A12" break="no"/>nvās· gus· gi <space type="descender" quantity="1" unit="character"/> nā thve vraḥ rājakāryya <space type="descender" quantity="1" unit="character"/> vvaṁ Āc ti Oy· vrīhi paryyaṅ<choice><orig>a</orig><reg>·</reg></choice> <space type="descender"/> viṣaya ca<lb
+						 n="A9" break="no"/>s· ta neḥ saptavarṇna nu kula nai Ācāryya-pradhāna ta pradvānna mo<space type="descender"/>k· pre duk· mūla
+						 <lb n="A10"/>khmuk· vraḥ kralā Arccaṇa <num value="20">20+</num> mūla karmmāntara <num value="20">20+</num> Oy· cralo phle gi nu sruk· sre bhūmyāka<lb
+						 n="A11" break="no"/>ra <space type="descender"/> leṅ· siddhi jā varṇna neḥ ta vyar<choice><orig>a</orig><reg>·</reg></choice> nā khmuk· vraḥ kralā A<space type="descender"/>rccana nu karmmāntara nā paṁ<lb
+						 n="A12" break="no"/>nvās· gus· gi <space type="descender"/> nā thve vraḥ rāja-kāryya <space type="descender"/> vvaṁ Āc ti Oy· vrīhi paryyaṅ<choice><orig>a</orig><reg>·</reg></choice> <space type="descender"/> viṣaya ca<lb
 						 n="A13" break="no"/>ñcūla phoṅ· gi varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> gi nā prasiddhi phley<choice><orig>a</orig><reg>·</reg></choice> Anvaya neḥ nā khmuk· vraḥ kralā A<lb
 						 n="A14" break="no"/>rccana nu karmmāntara yāvat· vraḥ candrāditya mān· dau vvaṁ Āc ti mān nā sva<space type="descender"/>tantra ta dai ti le<lb
-						 n="A15" break="no"/>ṅ· khloñ· khmuk· vraḥ kralā Arccana <space type="descender" quantity="1" unit="character"/> nu <space type="descender"/> khloñ· karmmāntara pradvānn<choice><orig>a</orig><reg>·</reg></choice> dau <space type="descender" quantity="1" unit="character"/> nau rūpa paṁnva<lb
+						 n="A15" break="no"/>ṅ· khloñ· khmuk· vraḥ kralā Arccana <space type="descender"/> nu <space type="descender"/> khloñ· karmmāntara pradvānn<choice><orig>a</orig><reg>·</reg></choice> dau <space type="descender"/> nau rūpa paṁnva<lb
 						 n="A16" break="no"/>s· ta mān· vidyā nu śila nu Ācāra phoṅ· res· ta gi neḥ varṇna neḥ ta vyar<choice><orig>a</orig><reg>·</reg></choice> gi ta
-						 <lb n="A17"/>Āc cval jā <space type="descender" quantity="1" unit="character"/> Ācāryya homa Ācāryya caturācāryya pradhāna nau <space type="descender" quantity="1" unit="character"/> Aṁpall<choice><orig>a</orig><reg>·</reg></choice>
+						 <lb n="A17"/>Āc cval jā <space type="descender"/> Ācāryya homa Ācāryya caturācāryya pradhāna nau <space type="descender"/> Aṁpalla
 						 <lb n="A18"/>kule ta strījana Oy· ta qnak· ta Uttama pi śivabhakti vvaṁ Āc ti qnak ta hīnajāti yok·
 						 <lb n="A19"/>pi pañjā qnak· khloñ· hetu man· dai sañjakk<choice><orig>a</orig><reg>·</reg></choice> pi mukhya ta kamrateṅ· phdai karom·
 						 <lb n="A20"/>gus· pi yok· vvaṁ Āc ti Oy· ta qnak ta sañjak ta rok kanakadaṇda riy<choice><orig>a</orig><reg>·</reg></choice> man· Oy·
 						 <lb n="A21"/>ta varṇna ta Uttama piy<choice><orig>a</orig><reg>·</reg></choice> noḥ sañjak· rok kanakadaṇda noḥ kule noḥ man· Oy·
-						 <lb n="A22"/>v<supplied reason="lost">va</supplied>ṁ Āc ti trāp· dau nā mr̥takadhana <space/> <!--sapi2argr Type ?--> nau ruv<choice><orig>a</orig><reg>·</reg></choice> kule ta qnak· sī man· ka Āc ti paryyāṇ· hoṅ·
+						 <lb n="A22"/>v<supplied reason="lost">va</supplied>ṁ Āc ti trāp· dau nā mr̥takadhana <space/> nau ruv<choice><orig>a</orig><reg>·</reg></choice> kule ta qnak· sī man· ka Āc ti paryyāṇ· hoṅ·
 						 <lb n="A23"/>nāṁ m<unclear>o</unclear><supplied reason="lost">k</supplied>· <unclear>O</unclear>y· pi Ācāryya caturācāryya pre paryyān· śīkṣā Āy· nagara pi pre
 						 <lb n="A24"/>ta vraḥ rājakāryya n<unclear>ā</unclear> <unclear>pa</unclear>ṁ<unclear>n</unclear>vās<choice><orig>a</orig><reg>·</reg></choice> vvaṁ Āc ti bhāgavata kamrateṅ· Añ· vraḥ guru res· paṁnvā<lb
 						 n="A25" break="no"/>s· roḥ vraḥ śāsana dhūlī vraḥ pāda dhū<unclear>l</unclear>ī jeṅ· vraḥ kamrateṅ· Añ· nāṁ yal· vnek ni
 						 <lb n="A26"/>ta vraḥ vleṅ· nu vrāhmaṇācāryya nu kaṁsteṅ· Añ· <supplied reason="lost">rā</supplied><unclear>ja</unclear>k<unclear>u</unclear>lamahāmantrī nu khloñ·
 						 <lb n="A27"/>vala phoṅ· vraḥ karuṇā duk· jā varṇna khmuk· vraḥ kralā Arccana <unclear>jā</unclear> <supplied reason="lost">va</supplied>r<unclear>ṇ</unclear><supplied reason="lost">n</supplied>a karmmāntara vraḥ
 						 <lb n="A28"/>hau pandval· vṅya Oy· vara prasiddhi neḥ varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> vraḥ pre vrāhmaṇā<unclear>cā</unclear><supplied reason="lost">ry</supplied><unclear>ya</unclear> pand<unclear>v</unclear>a<lb
-						 n="A29" break="no"/>l· vṅya <space type="descender" quantity="2" unit="character"/> Oy· vara leṅ· neḥ varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> siddhi nā khmuk· vraḥ kralā A<supplied reason="lost">r</supplied>cca<unclear>na</unclear> <supplied reason="lost">nu</supplied>
-						 <lb n="A30"/>ka<space type="descender" quantity="2" unit="character"/>rmmāntara vraḥ pre duk ta vraḥ rikta kaṁvī mās<choice><orig>a</orig><reg>·</reg></choice> Āy· kan·loṅ· pre duk ta vraḥ rikta
+						 n="A29" break="no"/>l· vṅya <space type="descender"/> Oy· vara leṅ· neḥ varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> siddhi nā khmuk· vraḥ kralā A<supplied reason="lost">r</supplied>cca<unclear>na</unclear> <supplied reason="lost">nu</supplied>
+						 <lb n="A30"/>ka<space type="descender"/>rmmāntara vraḥ pre duk ta vraḥ rikta kaṁvī mās<choice><orig>a</orig><reg>·</reg></choice> Āy· kan·loṅ· pre duk ta vraḥ rikta
 						 <lb n="A31"/>kaṁvī prāk· Āy· ta vraḥ dharmmādhikaraṇa pre duk ta praśasta śilāstambha ta gi sruk·
-						 <lb n="A32"/>naya neḥ varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> nau Aṁpall<unclear>·</unclear> santānānvaya nuv sruk· sre bhūmyākara khñuṁ
+						 <lb n="A32"/>naya neḥ varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> nau Aṁpalla santānānvaya nuv sruk· sre bhūmyākara khñuṁ
 						 <lb n="A33"/>nu vraḥ puṇya nai varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> ta mān ta vraḥ rikta kaṁvī mās· nu vraḥ rikta kaṁvī prāk nuv<choice><orig>a</orig><reg>·</reg></choice> ta
-						 <lb n="A34"/>gi praśasta śilāstambha ta gi sruk· <space/> <!--sapi2argr Même question que plus haut. Quel type d'espace pourrais-je préciser ? -->vvaṁ Āc ti khloñ· teṁ vidāryya pi cāp· viṅ· leṅ· nā va<lb
-						 n="B1" break="no"/><milestone type="pagelike" unit="face" n="B"/><!--sapi2argr Placement de la face correct ? -->rṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> <space/> <!-- type d'espace ? --> nau ge ta vvaṁ thve roḥ vraḥ kalpanā dhūlī vraḥ pāda dhūlī
-						 <lb n="B2"/>jeṅ· vraḥ kamrateṅ· Añ· śrī jayavarmmadeva <space/><!--sapi2argr Type d'espace ? --> phley<choice><orig>a</orig><reg>·</reg></choice> māheśvarā<lb
-						 n="B3" break="no"/>nvaya dharmmakathā vyava<unclear>h</unclear>āra qnak· noḥ nīrṇnaya leṅ· ru qnak ta sāhasika Ukk<choice><orig>a</orig><reg>·</reg></choice>
-						 <lb n="B4"/>ge noḥ ta vvaṁ thve toy· dau dvātrīśanaraka nu santāna phoṅ· mān· Iss<choice><orig>a</orig><reg>·</reg></choice> yā<lb
-						 n="B5" break="no"/>tanā yāvat· candrāditya ka mān· ley<choice><orig>a</orig><reg>·</reg></choice> Aṁvī Ihaloka <space/><!--sapi2argr type ?--> lvoḥ para<space/><!--sapi2argr type ?-->lo<lb
-						 n="B6" break="no"/>ka nau sādhusajjana ta ñyāṅ<choice><orig>a</orig><reg>·</reg></choice> varddheya pi thve roḥh<choice><orig>a</orig><reg>·</reg></choice> kalpanā dhūlī vraḥ pāda dhūlī
+						 <lb n="A34"/>gi praśasta śilāstambha ta gi sruk· <space/> vvaṁ Āc ti khloñ· teṁ vidāryya pi cāp· viṅ· leṅ· nā va<lb
+						 n="B1" break="no"/><milestone type="pagelike" unit="face" n="B"/>rṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> <space/> nau ge ta vvaṁ thve roḥ vraḥ kalpanā dhūlī vraḥ pāda dhūlī
+						 <lb n="B2"/>jeṅ· vraḥ kamrateṅ· Añ· śrī jayavarmmadeva <space/> phley<choice><orig>a</orig><reg>·</reg></choice> māheśvarā<lb
+						 n="B3" break="no"/>nvaya dharmmakathā vyava<unclear>h</unclear>āra qnak· noḥ nīrṇnaya leṅ· ru qnak ta sāhasika Ukka
+						 <lb n="B4"/>ge noḥ ta vvaṁ thve toy· dau dvātrīśanaraka nu santāna phoṅ· mān· Issa yā<lb
+						 n="B5" break="no"/>tanā yāvat· candrāditya ka mān· ley<choice><orig>a</orig><reg>·</reg></choice> Aṁvī Ihaloka <space/> lvoḥ para<space/> lo<lb
+						 n="B6" break="no"/>ka nau sādhusajjana ta ñyāṅ<choice><orig>a</orig><reg>·</reg></choice> varddheya pi thve roḥh<choice><orig>a</orig><reg>·</reg></choice> <!-- Ici, roḥh est-il compté comme ayant une double consonne ? --> kalpanā dhūlī vraḥ pāda dhūlī
 						 <lb n="B7"/>jeṅ· vraḥ kamrateṅ· Añ· śrī jayavarmmadeva ta svey· vraḥ dharmmarājya nu śūnya<lb
-						 n="B8" break="no"/>navaAṣṭa śaka <space/> <!--sapi2argr quel type ? --> ta neḥ varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> ge mān· svarga nu santāna phoṅ· yāvat· candrā<lb
+						 n="B8" break="no"/>navaAṣṭa śaka <space/> ta neḥ varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> ge mān· svarga nu santāna phoṅ· yāvat· candrā<lb
 						 n="B9" break="no"/>ditya ka mān· ley· ta gi neḥ Ihaloka lvoḥ paraloka ge mān sukha sthītī pr̥ddhi nu santā<lb
-						 n="B10" break="no"/>na phoṅ· <space/> <!--sapi2argr quel type ? --> <g type="dandaOrnate"/> karmmāntaramūla steñ· paramācāryya Ācāryya homa steñ· śivadhā<lb
+						 n="B10" break="no"/>na phoṅ· <space/> <g type="dandaOrnate"/> karmmāntaramūla steñ· paramācāryya Ācāryya homa steñ· śivadhā<lb
 						 n="B11" break="no"/>ma <space/> steñ· hr̥dayaśiva <space/> teṅ· nau <space/> teṅ· lem· <space/> teṅ· neṁ <space/> loñ· den· <space/> loñ· śi<lb
-						 n="B12" break="no"/>valakṣmī <space quantity="1" unit="character"/> teṅ· vrau teṅ· In· <space/> loñ· lip· <space/> loñ· grap· <space/> sruk· kaivalyapura sru<lb
-						 n="B13" break="no"/>k· k<space type="descender" quantity="2" unit="character"/>ap· phlaḥ <space/> steñ· nandikācāryya <space/> steñ· paramaśiva steñ· śivavindu teṅ<choice><orig>a</orig><reg>·</reg></choice> hyaṅ·
+						 n="B12" break="no"/>valakṣmī <space/> teṅ· vrau teṅ· In· <space/> loñ· lip· <space/> loñ· grap· <space/> sruk· kaivalyapura sru<lb
+						 n="B13" break="no"/>k· k<space type="descender"/>ap· phlaḥ <space/> steñ· nandikācāryya <space/> steñ· paramaśiva steñ· śivavindu teṅ<choice><orig>a</orig><reg>·</reg></choice> hyaṅ·
 						 <lb n="B14"/>teṅ· pavitra teṅ· jū vikrāntapura teṁ nu vyādhapura teṁ dau nā karmmāntara nu sruk·
 						 <lb n="B15"/>sre bhūmyākara nu vraḥ puṇya naya noḥ phoṅ· vvaṁ Āc=ti mān=vakra tarāp· candrāditya man=ley· <g type="dandaOrnate"/>
 					 </p>
@@ -133,6 +134,22 @@
 									<app loc="A5">
 										<lem>dhulī</lem>
 										<rdg source="bib:Coedes1937-1966_01">dhuli</rdg>
+									</app>
+									<app loc="A5">
+										<lem>saṁrācca</lem>
+										<rdg source="bib:Coedes1937-1966_01">saṁrācc</rdg>
+									</app>
+									<app loc="A7">
+										<lem>sracca</lem>
+										<rdg source="bib:Coedes1937-1966_01">sracc</rdg>
+									</app>
+									<app loc="A9">
+										<lem>pradvānna</lem>
+										<rdg source="bib:Coedes1937-1966_01">pradvānn</rdg>
+									</app>
+									<app loc="A17">
+										<lem>Aṁpalla</lem>
+										<rdg source="bib:Coedes1937-1966_01">Aṁpall</rdg>
 									</app>
 									<app loc="A23">
 										<lem>m<unclear>o</unclear><supplied reason="lost">k</supplied>·</lem>
@@ -182,6 +199,10 @@
 										<lem>A<supplied reason="lost">r</supplied>cca<unclear>na</unclear></lem>
 										<rdg source="bib:Coedes1937-1966_01">arccana</rdg>
 									</app>
+									<app loc="A32">
+										<lem>Aṁpalla</lem>
+										<rdg source="bib:Coedes1937-1966_01">Aṁpall</rdg>
+									</app>
 									<app loc="A34">
 										<lem>teṁ</lem>
 										<rdg source="bib:Coedes1937-1966_01">tem</rdg>
@@ -191,6 +212,14 @@
 										<rdg source="bib:Coedes1937-1966_01">vyavahāra</rdg>
 									</app>
 									<app loc="B3">
+										<lem>Ukka</lem>
+										<rdg source="bib:Coedes1937-1966_01">ukk</rdg>
+									</app>
+									<app loc="B3">
+										<lem>Issa</lem>
+										<rdg source="bib:Coedes1937-1966_01">iss</rdg>
+									</app>
+									<app loc="B9">
 										<lem>pr̥ddhi</lem>
 										<rdg source="bib:Coedes1937-1966_01">r̥ddhi</rdg>
 									</app>
