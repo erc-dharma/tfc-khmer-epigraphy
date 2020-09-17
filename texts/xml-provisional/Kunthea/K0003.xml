@@ -2,7 +2,7 @@
   <teiHeader xml:lang="eng">
       <fileDesc>
          <titleStmt>
-            <title>Doorjamb of the shrine of Linh Son Tu (K. 3)</title>
+            <title>Doorjamb of the shrine of Linh Son Tu (K. 3)</title><!-- maybe include a date in the title? -->
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:kuch">
@@ -11,7 +11,7 @@
                </persName>
             </respStmt>
             <respStmt>
-               <resp>intellectual authorship of edition</resp>
+               <resp>intellectual authorship of edition</resp><!-- argr: I see no indication in the txt file that doso did more that type GC's edition, so replace doso by an attribution to GC and to you -->
                <persName ref="part:doso">
                   <forename>Dominique</forename>
                   <surname>Soutif</surname>
@@ -35,7 +35,7 @@
                	<p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
                </licence>
             </availability>
-            <date from="2019" to="2025" >2019-2025</date>
+            <date from="2019" to="2025">2019-2025</date>
          </publicationStmt>
          <sourceDesc><!-- only the handDesc can be filled in at this stage -->
             <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
@@ -59,25 +59,27 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc status="draft"><change who="part:kuch" when="2020-08-21">Modifications to edition</change>
-        <change who="part:kuch" when="2020-06-24">Initial encoding of the file</change>
-        <change who="part:axja" when="2020-04-08" status="draft">Creation of updated template</change>
+  	<revisionDesc status="draft"><!-- argr: status="draft" should not be marked her but on each <change> item, as in my change item -->
+  	<change who="part:argr" when="2020-09-18" status="draft">First round of revision</change>
+	<change who="part:kuch" when="2020-08-21">Modifications to edition</change>
+        	<change who="part:kuch" when="2020-06-24">Initial encoding of the file</change>
+        	<change who="part:axja" when="2020-04-08" status="draft">Creation of updated template</change><!-- argr: such items which belong to the template and not to this file K0009.xml are always to be removed -->
      </revisionDesc>
   </teiHeader>
    <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="san-Latn">
-<lg n="1" met="āryā">
-<l n="a"><lb n="1"/>śrī-varddhamāna-de<unclear>vo</unclear> _</l>
-<l n="b">varddh<unclear>i</unclear>ta-bhāvo nr̥ṇāṁ kuśala-bhājām· _</l>
-<l n="c" enjamb="yes"><g type="circleSmall">.</g> jayati sa sakala-bhuvana-pati _</l>
-<l n="d">r udita-pr̥thu-lalita-śilā-li<unclear>ṅgaḥ</unclear></l>
+<lg n="1" met="āryā"><!-- argr: āryā to be marked up with <l n="ab"/> and <l n="cd"/> — see EGD §2.3.2 and p. 166 -->
+	<l n="a"><lb n="1"/>śrī-varddhamāna-de<unclear>vo</unclear> _</l><!-- argr: we have to discuss how to mark up such spaces -->
+	<l n="b">varddh<unclear>i</unclear>ta-bhāvo nr̥ṇāṁ kuśala-bhājām· _</l>
+	<l n="c" enjamb="yes"><g type="circleSmall">.</g> jayati sa sakala-bhuvana-pati _</l><!-- argr: spaces around underscore should certainly not interrupt the word that straddles the pāda boundary  -->
+	<l n="d">r udita-pr̥thu-lalita-śilā-li<unclear>ṅgaḥ</unclear></l>
 </lg>
 <lg n="2" met="āryā">
-<l n="a" enjamb="yes"><lb n="2"/>bhairava-narttana-vibhrama _</l>
-<l n="b">calita-bhuja-sahasra-varddhamāno yaḥ _</l>
-<l n="c"><g type="circleSmall">.</g> śrī-varddhamāna-devo _</l>
-<l n="d">māhita-caraṇas surairnnovyāt·</l>
+	<l n="a" enjamb="yes"><lb n="2"/>bhairava-narttana-vibhrama _</l>
+	<l n="b">calita-bhuja-sahasra-varddhamāno yaḥ _</l>
+	<l n="c"><g type="circleSmall">.</g> śrī-varddhamāna-devo _</l>
+	<l n="d">māhita-caraṇas surairnnovyāt·</l>
 </lg>
 <lg n="3" met="āryā">
 <l n="a" enjamb="yes"><lb n="3"/>himavan-malaya-sumeru _</l>

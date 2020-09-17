@@ -4,6 +4,12 @@ This repository assembles data produced by the project Corpus des inscriptions k
 ## Encoding log
 We maintain in .md format an encoding log that can be viewed through 
 [https://github.com/erc-dharma/tfc-khmer-epigraphy/blob/master/texts/CIK_encoding_log.md](https://github.com/erc-dharma/tfc-khmer-epigraphy/blob/master/texts/CIK_encoding_log.md). 
+## Encoding intellectual authorship
+- indicate only the name of the original editor if no verification against the stone/estampage has been possible at any stage between the original printed edition and your digital edition
+- indicate only your name if you are responsible both for encoding and for a thoroughly revised reading of the text: if you can honestly claim to have done a more thorough job than your predecessor, even if the difference in terms of meaning of the text is minimal
+- indicate both the original editor’s name and your name in case of doubt
+- indicate Dominic’s, Dominique’s or Arlo's name if you are using a txt file that records a revised edition by one of us, and leave away the name of the original editor if the same condition applies to the relevant person among us as the one applying to you in the second bullet point above
+- leave away your own ONLY if you are really doing no more than applying xml tags and you are not verifying against an estampage (but in principle, this should only happen when no reproduction can be obtained)
 
 ## Basic GIT guidance
 
