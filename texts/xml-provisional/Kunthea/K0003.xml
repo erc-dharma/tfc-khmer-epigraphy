@@ -2,7 +2,7 @@
   <teiHeader xml:lang="eng">
       <fileDesc>
          <titleStmt>
-            <title>Doorjamb of the shrine of Linh Son Tu (K. 3)</title><!-- maybe include a date in the title? -->
+            <title>Doorjamb of the shrine of Linh Son Tu (K. 3), 6th-7th century śaka</title>
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:kuch">
@@ -11,10 +11,10 @@
                </persName>
             </respStmt>
             <respStmt>
-               <resp>intellectual authorship of edition</resp><!-- argr: I see no indication in the txt file that doso did more that type GC's edition, so replace doso by an attribution to GC and to you -->
-               <persName ref="part:doso">
-                  <forename>Dominique</forename>
-                  <surname>Soutif</surname>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/3358750"><!-- kuch: Is it correct? -->
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
                </persName>
                <persName ref="part:kuch">
                   <forename>Kunthea</forename>
@@ -28,7 +28,7 @@
                </note>
             </authority>
             <pubPlace>Siem Reap</pubPlace>
-            <idno type="filename">K0009</idno>
+            <idno type="filename">K0003</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
@@ -48,73 +48,62 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p>The basic punctuation sign in this text is an ornate double <foreign>daṇḍa</foreign> written in one continuous movement, resembling an inverted S-shape. The name of the poet being made known in the text itself, it is possibile that the hand<!-- argr: but which one of the two hands! see below --> is that of the poet.<!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
 						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
-               <!-- argr: since in fact we do have two hands, we need to follow the above instructions! -->   
+					 -->   
 	</handDesc>
                </physDesc>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-  	<revisionDesc status="draft"><!-- argr: status="draft" should not be marked her but on each <change> item, as in my change item -->
+  	<revisionDesc>
   	<change who="part:argr" when="2020-09-18" status="draft">First round of revision</change>
-	<change who="part:kuch" when="2020-08-21">Modifications to edition</change>
-        	<change who="part:kuch" when="2020-06-24">Initial encoding of the file</change>
-        	<change who="part:axja" when="2020-04-08" status="draft">Creation of updated template</change><!-- argr: such items which belong to the template and not to this file K0003.xml are always to be removed -->
+  	   <change who="part:kuch" when="2020-08-21" status="draft">Modifications to edition</change>
+  	   <change who="part:kuch" when="2020-06-24" status="draft">Initial encoding of the file</change>
      </revisionDesc>
   </teiHeader>
    <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="san-Latn">
-<lg n="1" met="āryā"><!-- argr: āryā to be marked up with <l n="ab"/> and <l n="cd"/> — see EGD §2.3.2 and p. 166 — I have made the change for this stanza -->
-	<l n="ab"><lb n="1"/>śrī-varddhamāna-de<unclear>vo</unclear> _ varddh<unclear>i</unclear>ta-bhāvo nr̥ṇāṁ kuśala-bhājām· _</l><!-- argr: we can replace all cases of space_ by <space/> without typed spaces in front  -->
-	<l n="cd" enjamb="yes"><g type="circleSmall">.</g> jayati sa sakala-bhuvana-pati _r udita-pr̥thu-lalita-śilā-li<unclear>ṅgaḥ</unclear></l><!-- argr: no spaces around underscore should if the space interrupts a word (see EGD 4.3.1); no need for @enjamb="yes" with <l n="cd">! -->
+<lg n="1" met="āryā">
+	<l n="ab"><lb n="1"/>śrī-varddhamāna-de<unclear>vo</unclear> _ varddh<unclear>i</unclear>ta-bhāvo nr̥ṇāṁ kuśala-bhājām· _</l><!-- argr: we can replace all cases of space_ by <space/> without typed spaces in front  --><!-- kuch: do we need a space before the underscore? -->
+	<l n="cd"><g type="circleSmall">.</g> jayati sa sakala-bhuvana-pati_r udita-pr̥thu-lalita-śilā-li<unclear>ṅgaḥ</unclear></l>
 </lg>
 <lg n="2" met="āryā">
-	<l n="a" enjamb="yes"><lb n="2"/>bhairava-narttana-vibhrama _</l>
-	<l n="b">calita-bhuja-sahasra-varddhamāno yaḥ _</l>
-	<l n="c"><g type="circleSmall">.</g> śrī-varddhamāna-devo _</l><!-- argr: I find -devo quite hard to read, though agt least deve is now somewhat clear on one of the photos. What about you? -->
-	<l n="d">māhita-caraṇas surairnnovyāt·</l><!-- argr: split surair nno 'vyāt -->
+	<l n="ab"><lb n="2"/>bhairava-narttana-vibhrama_calita-bhuja-sahasra-varddhamāno yaḥ _</l>
+	<l n="cd"><g type="circleSmall">.</g> śrī-varddhamāna-devo_māhita-caraṇas surair nno 'vyāt·</l><!-- argr: I find -devo quite hard to read, though agt least deve is now somewhat clear on one of the photos. What about you? --><!-- kuch: I think that there is a upward continuation of the e to make it an o; so can we put de(vo?)? <unclear cert="low">o</unclear>? -->
 </lg>
-<lg n="3" met="āryā"><!-- argr: no more need for enjamb once āryā encoding has been corrected -->
-<l n="a" enjamb="yes"><lb n="3"/>himavan-malaya-sumeru _</l>
-<l n="b">prabhr̥ti-gir<choice><sic>i</sic><corr>ī</corr></choice>ndreṣu saṁstutas satatam· _</l>
-<l n="c" enjamb="yes"><g type="circleSmall">.</g> siddha-surāsura-munibhi _</l>
-<l n="d">ś śrī<supplied reason="lost">mā</supplied>n śrī-varddhamāno yaḥ</l>
+<lg n="3" met="āryā">
+<l n="ab"><lb n="3"/>himavan-malaya-sumeru_prabhr̥ti-gir<choice><sic>i</sic><corr>ī</corr></choice>ndreṣu saṁstutas satatam· _</l>
+<l n="cd"><g type="circleSmall">.</g> siddha-surāsura-munibhi_ś śrī<supplied reason="lost">mā</supplied>n śrī-varddhamāno yaḥ</l>
 </lg>
 <lg n="4" met="āryā">
-<l n="a"><lb n="4"/>Oṅkāro yaḥ puruṣo _</l>
-<l n="b">hy ātmeśvara-śūnyakāti<!-- argr: insert hyphen here -->nir<!-- argr: insert hyphen here -->gu<unclear>ṇakaḥ</unclear> _</l>
-<l n="c"><unclear cert="low"><g type="circleSmall">.</g></unclear> śrī-varddhamāna-kaśivaḥ<!-- argr: hyphenate śrī-varddhamānaka-śivaḥ --> _</l>
-<l n="d">śivam asmākaṁ sa ta<unclear>d di</unclear>śa<unclear>tu</unclear></l><!-- argr: GC did not put any unclear on this pāda, and I am inclined to approve of his choice -->
+<l n="ab"><lb n="4"/>Oṅkāro yaḥ puruṣo _hy ātmeśvara-śūnyakāti-nir-gu<unclear>ṇakaḥ</unclear> _</l>
+<l n="cd"><unclear cert="low"><g type="circleSmall">.</g></unclear> śrī-varddhamānaka-śivaḥ _śivam asmākaṁ sa tad diśatu</l>
 </lg>
-<lg n="5" met="āryā"><!-- argr: no more need for enjamb once āryā encoding has been corrected -->
-<l n="a"><lb n="5"/>bhuvana-traya-paramārthaṁ _</l>
-<l n="b">viśvaṁ lokeṣu kāraṇam acintyam· _</l>
-<l n="c" enjamb="yes"><g type="circleSmall">.</g> vivi<!-- argr: I find it hard to recognize vivi; what about you? -->dhātmakam ekam ata _</l><!-- argr: shouldn't we read ekamanaś? -->
+<lg n="5" met="āryā">
+<l n="ab"><lb n="5"/>bhuvana-traya-paramārthaṁ _viśvaṁ lokeṣu kāraṇam acintyam· _</l>
+<l n="c" enjamb="yes"><g type="circleSmall">.</g> vivi<!-- argr: I find it hard to recognize vivi; what about you? --><!-- kuch: Maybe vi(vi)? -->dhātmakam ekam ata _</l><!-- argr: shouldn't we read ekamanaś? --><!-- kuch: The letter does not look like a na. But you are right, it does not look like a ta either. Can we say (ta/na)? -->
 <l n="d">ś śrī <seg met="+"><gap reason="lost" quantity="1" unit="character"></gap></seg> me varddhamānaryya<unclear>m</unclear>·</l>
-<!-- argr: śrī yā me varddhamā[nā]ryy(ā/a)m· -->
+<!-- argr: śrī yā me varddhamā[nā]ryy(ā/a)m· --><!-- kuch: I would rathe suggest: śrī (yo) me varddhamā[nā]ryy(a)m· -->
 </lg>
 <lg n="6" met="āryā">
-<l n="a"><lb n="6"/>tasyeṣṭakā sumahatī _</l>
-<l n="b">dhavalita-giri-śikhara-kuṭy asau bhāgyā _</l><!-- argr: there may be a pun on asaubhāgyā "unfortunate" here -->
-<!-- argr: does the ku in kuṭya have the same shape as in kumārambhāt· further on? -->
-<l n="c"><g type="circleSmall" cert="low">.</g> <unclear>ṣanmā</unclear>sakr̥tāpi satī _</l><!-- argr: the mā is clear enough for me; instead of nmā, could it by dmā or ḍmā? 
-maybe read sadmāsukr̥tāpi satī = sadma-asakr̥tāpi satī?-->
-<l n="d">nānyair bhavatā kumārambhāt·</l><!-- argr: I cannot explain this bhavatā grammatically; should we not read bhavataḥ (abl. sg. of bhavān), just like we have kumārambhena bhavatā in the next stanza?  -->
+<l n="ab"><lb n="6"/>tasyeṣṭakā sumahatī _dhavalita-giri-śikhara-kuṭy asau bhāgyā _</l><!-- argr: there may be a pun on asaubhāgyā "unfortunate" here --><!-- kuch: Possible. So should we remoce the space between asau and bhāgyā? --><!-- argr: does the ku in kuṭya have the same shape as in kumārambhāt· further on? --><!-- kuch: No, the ku of kumārambhāt is somehow more stylish. -->
+<l n="cd"><g type="circleSmall" cert="low">.</g> <unclear>ṣanmā</unclear>sakr̥tāpi satī _nānyair bhavatā kumārambhāt·</l><!-- argr: the mā is clear enough for me; instead of nmā, could it by dmā or ḍmā? 
+maybe read sadmāsukr̥tāpi satī = sadma-asakr̥tāpi satī?--><!-- kuch: Hard to say. -->
+   <!-- argr: I cannot explain this bhavatā grammatically; should we not read bhavataḥ (abl. sg. of bhavān), just like we have kumārambhena bhavatā in the next stanza?  --><!-- kuch: Frankly speaking, I don't see clearly the tā of the bhavatā. But bhavataḥ does not really match with what I see on the photo. -->
 </lg>
 <lg n="7" met="anuṣṭubh">
-<l n="a"><lb n="7"/>śrī-nr̥pāditya-<!-- argr: I don't put hyphens inside names -->devasya _</l>
-<l n="b">pun<!-- argr: isn't it possible to read ṇ? if not, then normalize n to ṇ, as the orthography otherwise seems impeccable in this text  -->yārthā se<unclear>ṣṭa</unclear>kā kr̥tā _</l>
-<l n="c" real="-+++---+">kumārambh<supplied reason="lost">e</supplied>na bhavatā _</l><!-- argr: I cannot see any part of rambhe -->
+<l n="a"><lb n="7"/>śrī-nr̥pādityadevasya _</l>
+<l n="b">pu<choice><orig>n</orig><reg>ṇ</reg></choice>yārthā se<unclear>ṣṭa</unclear>kā kr̥tā _</l>
+<l n="c" real="-+++---+">kumārambh<supplied reason="lost">e</supplied>na bhavatā _</l><!-- argr: I cannot see any part of rambhe --><!-- kuch: Indeed, we can see the bh, so maybe we should say [ram]bh[e]?  -->
 <l n="d">sth<unclear>i</unclear>ra-cittena sādhunā <g type="spiralL">.</g></l>
 </lg>
 <lg n="8" met="anuṣṭubh">
-<l n="a"><lb n="8"/>rājñyai<!-- argr: quote in an <app> <note> GC's idea (note 3 on APK II p. 277) to emend rājñe  --> śrī-varddhamānāya _</l>
+<l n="a"><lb n="8"/>rājñyai śrī-varddhamānāya _</l>
 <l n="b">bhr̥tyānāṁ viṅśatiṁ mudā _</l>
 <l n="c">mātā tapasvinī prādāt</l>
 <l n="d">sad-dharma-patha-cāriṇī</l>
@@ -122,26 +111,26 @@ maybe read sadmāsukr̥tāpi satī = sadma-asakr̥tāpi satī?-->
 <lg n="9" met="anuṣṭubh">
 <l n="a"><lb n="9"/>mālā-dharārtham atraiva _</l>
 <l n="b">vāsa-dvayam idaṁ śubhaṁ _</l>
-<l n="c">prāya<!-- argr: maybe there is a vertical bar between ya and tpa serving to mark the place where the insertion is to be made? if so, use rend="mark" in <add> --><add place="above">ccha</add>t para-lokāya _</l>
-<l n="d">dānābhyudaya<!-- argr: insert hyphen here -->kāṅkṣinī</l>
+<l n="c">prāya<add place="above" rend="mark">ccha</add>t para-lokāya _</l>
+<l n="d">dānābhyudaya-kāṅkṣinī</l>
 </lg>
 <lg n="10" met="anuṣṭubh">
-<l n="a" real="-+++---+"><lb n="10"/><unclear>ta</unclear>pas-svā<unclear>d</unclear>dhy<unclear>ā</unclear>ya-n<unclear>i</unclear><!-- argr: I'd use <supplied reason="lost"> for the i -->ratā _</l>
+<l n="a" real="-+++---+"><lb n="10"/><unclear>ta</unclear>pas-svā<unclear>d</unclear>dhy<unclear>ā</unclear>ya-n<supplied reason="lost">i</supplied>ratā _</l>
 <l n="b">vrāhmaṇānāṁ hitāya ca _</l>
 <l n="c">prasannā śrī-samāyuktā</l>
-<l n="d">k<unclear>u</unclear>rute karma saṅyatā</l><!-- argr: we could apply sa<choice><orig>ṅ</orig><reg>ṁ</reg></choice>yatā -->
+<l n="d">k<unclear>u</unclear>rute karma sa<choice><orig>ṅ</orig><reg>ṁ</reg></choice>yatā</l>
 </lg>
 <lg n="11" met="anuṣṭubh">
 <l n="a"><lb n="11"/>nāśayantas tu ye pāpāḥ _</l>
 <l n="b">bhr̥tyān tatra sukalpitān· _</l>
-<l n="c" enjamb="yes">Āhartukāma-nibhr̥tāḥs</l><!-- argr: nibhr̥tā<surplus>ḥ</surplus>s -->
+<l n="c" enjamb="yes">Āhartukāma-nibhr̥tā<surplus>ḥ</surplus>s</l>
 <l n="d">te yānti nirayan narāḥ</l>
 </lg>
                 </div>
                 <div type="apparatus">
                <listApp>
                   <app loc="2">
-                       <lem>surairnnovyāt·</lem><!-- argr: surairnnovyāt· >> surair nno 'vyāt· -->
+                       <lem>surair nno 'vyāt·</lem>
                      <rdg source="bib:Coedes1936_01">surairnovyāt·</rdg>
                    </app>
                   <app loc="3">
@@ -150,7 +139,11 @@ maybe read sadmāsukr̥tāpi satī = sadma-asakr̥tāpi satī?-->
                    </app>
                   <app loc="5">
                        <lem>śrī <seg met="+"><gap reason="lost" quantity="1" unit="character"></gap></seg> me</lem>
-                       <note>Le caractère manquant ressemble à <unclear>yā</unclear>, mais peut-être est-ce <foreign>ya</foreign> suivi d'une autre lettre. Le caractère <unclear>m</unclear> paraît surmonté d'un trait vertical: si tel est bien le cas, il faudrait lire <unclear>mo</unclear>.</note><!-- argr: after we have tried to settle a convincing reading of this pāda, the note should be formulated in English. -->
+                       <note>Le caractère manquant ressemble à <unclear>yā</unclear>, mais peut-être est-ce <foreign>ya</foreign> suivi d'une autre lettre. Le caractère <unclear>m</unclear> paraît surmonté d'un trait vertical: si tel est bien le cas, il faudrait lire <unclear>mo</unclear>.</note><!-- argr: after we have tried to settle a convincing reading of this pāda, the note should be formulated in English. --><!-- kuch: Ok. -->
+                   </app>
+                  <app loc="8">
+                       <lem>rājñyai</lem>
+                       <note>Coedès proposes to emend it to <foreign>rājñe</foreign> <supplied reason="explanation">note 3 on APK II p. 277</supplied>.</note>
                    </app>
                </listApp>         
          </div>
@@ -171,9 +164,9 @@ maybe read sadmāsukr̥tāpi satī = sadma-asakr̥tāpi satī?-->
             <!--commentary encoded as per section §9.3 -->
          </div>
        <div type="bibliography">
-          <p>First edited by George Coedes<!-- argr: please ALWAYS spell this name Cœdès! --> (<bibl rend="omitname"><ptr target="bib:Coedes1936_01"/><!-- argr: let us clean up this and some other Cœdès entries in zotero together, so you get some hands on experience with cleaning zotero data --><citedRange unit="page">7</citedRange></bibl>) with a French translation; re-edited here by Dominique Soutif and Kunthea Chhom<!-- argr: I think we should write "Kunthea Chhom and Arlo Griffiths" --> from estampage EFEO n.<!-- argr: insert a space here -->295.</p>
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1936_01"/><!-- argr: let us clean up this and some other Cœdès entries in zotero together, so you get some hands on experience with cleaning zotero data --><!-- kuch: Ok. I'll check this in Zotero later. --><citedRange unit="page">7</citedRange></bibl>) with a French translation; re-edited here by Dominique Soutif, Kunthea Chhom and Arlo Griffiths from estampage EFEO n.295.</p>
 	 <listBibl type="primary">
-    <bibl n="GC"><!-- argr: "C" would be enough for me -->
+    <bibl n="GC"><!-- argr: "C" would be enough for me --><!-- kuch: I would prefer GC to be clear. -->
       <ptr target="bib:Coedes1936_01"/><citedRange unit="page">7</citedRange>
     </bibl>
   </listBibl>
