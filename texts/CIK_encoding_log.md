@@ -218,7 +218,7 @@
 |K.	211 |# |# |#|
 |K.	212 |# |# |#|
 |K.	213 |kuch |pending |ISC|
-|K.	214 |# |# |#|
+|K.	214 |chch |done |IC II |
 |K.	215 |chch |done |IC III|
 |K.	216-N1 |chch |done |IC III|
 |K.	216-N2 |chch |done |IC III|
@@ -992,7 +992,7 @@
 |K.	978 |kuch |done |Coedes IC VII|
 |K.	979 |# |# |#|
 |K.	980 |# |# |#|
-|K.	981 |# |# |#|
+|K.	981 |chch |done |Coedes IC VII |
 |K.	982 |# |# |#|
 |K.	983 |# |# |#|
 |K.	984 |# |# |#|
@@ -1208,7 +1208,7 @@
 |K.	1188 |# |# |#|
 |K.	1189 |# |# |#|
 |K.	1190 |kuch |pending |unpublished|
-|K.	1191 |# |# |#|
+|K.	1191 |chch | done |Clouet 2019 |
 |K.	1192 |# |# |#|
 |K.	1193 |# |# |#|
 |K.	1194 |# |# |#|
@@ -1288,7 +1288,7 @@
 |K.	1268 |# |# |#|
 |K.	1269 |chch |done |Chevance 2014|
 |K.	1270 |kuch |pending |#|
-|K.	1271 |# |# |#|
+|K.	1271 |chch |done |Clouet 2019 |
 |K.	1272 |chch |done |Chevance 2014|
 |K.	1273 |# |# |#|
 |K.	1274 |# |# |#|
@@ -1424,7 +1424,7 @@
 |K.	1403 |# |# |#|
 |K.	1404 |# |# |#|
 |K.	1405 |# |# |#|
-|K.	1406 |# |# |#|
+|K.	1406 |chch |done |Clouet 2019|
 |K.	1407 |# |# |#|
 |K.	1408 |# |# |#|
 |K.	1409 |# |# |#|
