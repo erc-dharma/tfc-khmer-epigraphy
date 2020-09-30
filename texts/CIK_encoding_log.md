@@ -44,11 +44,11 @@
 |K.	37 |kuch |pending|IC II|
 |K.	38 |kuch|done |IC II|
 |K.	39 |# |# |#|
-|K.	40 |kuch |basic encoding to be revised |Coedes 1931|
+|K.	40 |kuch |done |Coedes 1931|
 |K.	41 |kuch |pending |IC VI|
 |K.	42 |# |# |#|
 |K.	43 |# |# |#|
-|K.	44 |kuch & chch |done |IC II|
+|K.	44 |kuch |done |IC II|
 |K.	45 |# |# |#|
 |K.	46 |kuch & chch |done |IC VI|
 |K.	47 |# |# |#|
@@ -83,7 +83,7 @@
 |K.	76 |kuch |pending |IC V|
 |K.	77 |kuch |pending |IC V|
 |K.	78 |kuch |pending |IC VI|
-|K.	79 |kuch |pending |Coedes 1904|
+|K.	79 |kuch |done |Coedes 1904|
 |K.	80 |kuch |pending |ISC|
 |K.	81 |kuch |done|ISC|
 |K.	82 |# |# |#|
@@ -592,7 +592,7 @@
 |K.	579 |# |# |#|
 |K.	580 |# |# |#|
 |K.	581 |# |# |#|
-|K.	582 |kuch |pending |IC II|
+|K.	582 |kuch |done |IC II|
 |K.	583 |# |# |#|
 |K.	584 |# |# |#|
 |K.	585 |# |# |#|
@@ -758,7 +758,7 @@
 |K.	745 |# |# |#|
 |K.	746 |# |# |#|
 |K.	747 |# |# |#|
-|K.	748 |kuch |pending |IC V|
+|K.	748 |kuch |done |IC V|
 |K.	749 |kuch |pending |IC V|
 |K.	750 |# |# |#|
 |K.	751 |# |# |#|
@@ -920,7 +920,7 @@
 |K.	907 |# |# |#|
 |K.	908 |# |# |#|
 |K.	909 |# |# |#|
-|K.	910 |kuch |pending |IC V|
+|K.	910 |kuch |done |IC V|
 |K.	911 |# |# |#|
 |K.	912 |# |# |#|
 |K.	913 |# |# |#|
