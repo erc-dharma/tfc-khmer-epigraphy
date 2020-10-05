@@ -58,7 +58,7 @@
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
-			<change who="part:chch" when="2020-09-18">Creation of the file</change>
+			<change who="part:chch" when="2020-10-02">Creation of the file</change>
 			<change who="part:axja" when="2020-03-18">Version 2: addition of handDesc and summary</change>
 			<change who="part:axja" when="2019-12-18" status="draft">Creation of the
 				template</change>
@@ -66,26 +66,32 @@
 	</teiHeader>
 	<text xml:space="preserve">
       <body>
-         <div type="edition" xml:lang="san-Latn">
-<lb n="1"/>lok
+         <div type="edition" xml:lang="x-middlekhmer-Latn">
+<p><lb n="1"/>lok
 <lb n="2"/>grūv put
-<lb n="3"/>bhikkh put
+<lb n="3"/>bhikkh put</p>
          </div>
          <div type="apparatus">
          </div>
-         <div type="translation" xml:lang="fra">
+         <div type="translation" xml:lang="fra" source="Pou1989_01">
  <p n="1-3">Le Vénérable Put (?) ... le <foreign>bhikku</foreign> Put (?).</p>
          </div>
          <div type="commentary">
-            <!--commentary encoded as per section §9.3 -->
          </div>
         <div type="bibliography">
-           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
+           <p>First mentioned by studied by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937_1966_01"/><citedRange unit="volume">8</citedRange><citedRange unit="page">188-189</citedRange></bibl>); then edited by Saveros Pou-Lewitz with a French translation (<bibl rend="omitname"><ptr target="bib:Pou1898_01"/><citedRange unit="page">32</citedRange></bibl>).</p>
         	<listBibl type="primary">
-				<bibl n="siglum"/><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+				  <bibl n="SP">
+        			<ptr target="bib:Pou1989_01"/>
+        			<citedRange unit="page">32</citedRange>
+        		</bibl>
 			</listBibl>
            <listBibl type="secondary">
-              <bibl n="siglum"/><!-- one <bibl/> per item of secondary bibliography . Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+            <bibl n="GC">
+              		<ptr target="bib:Coedes1937_1966_01"/>
+              		<citedRange unit="volume">8</citedRange>
+              		<citedRange unit="page">188-189</citedRange>
+              	</bibl>
            </listBibl>
         </div>
       </body>
