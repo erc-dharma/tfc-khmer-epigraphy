@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Pedestal fragment from Prasat O Top (K. 1281)</title>
@@ -13,14 +13,14 @@
                   <surname>Chollet</surname>
                </persName>
             </respStmt>
-         	<respStmt>
-         		<resp>intellectual authorship of edition</resp>
-         		<persName ref="part:jech">
-         			<forename>Jean-Baptiste</forename>
-         			<surname>Chevance</surname>
-         		</persName>
-         	</respStmt>
-         </titleStmt>         
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:jech">
+                  <forename>Jean-Baptiste</forename>
+                  <surname>Chevance</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>DHARMA
                <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
@@ -30,7 +30,7 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-               	<p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
@@ -39,10 +39,12 @@
             <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
                <msIdentifier>
                   <repository>DHARMAbase</repository>
-                  <idno/><!-- don't modify this -->
+                  <idno/>
+                  <!-- don't modify this -->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
-                  <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
                </msContents>
                <physDesc>
                   <handDesc>
@@ -57,14 +59,13 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc>
-        <change who="part:chch" when="2020-05-03" status="draft">Bibliography added</change>
-        <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-        <change who="part:chch" when="2020-02-23" status="draft">Creation of the file</change>
-        
-     </revisionDesc>
-  </teiHeader>
-  <text xml:space="preserve">
+      <revisionDesc>
+         <change who="part:chch" when="2020-05-03" status="draft">Bibliography added</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:chch" when="2020-02-23" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="x-oldkhmer-Latn">
             <ab><lb n="1"/><milestone unit="fragment" n="a"/> // vraḥ sarasvat<unclear>ī</unclear> <milestone unit="fragment" n="b"/> bhūmi chok· kuṭi <milestone unit="fragment" n="c"/> <supplied reason="lost">bhū</supplied>mi p<unclear>uṅ</unclear><seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>a</unclear></seg><seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg></seg>·</ab>
@@ -78,7 +79,7 @@
                   </app>
                </listApp>         
          </div>
-         <div type="translation" xml:lang="eng">
+         <div type="translation">
  	<!--translation encoded as per EG §9.2 -->
          </div>
          <div type="commentary">

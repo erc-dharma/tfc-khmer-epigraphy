@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Doorjamb of the shrine of Linh Son Tu (K. 3), 6th-7th century śaka</title>
@@ -36,7 +39,7 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-               	<p>Copyright (c) 2019-2025 by Kunthea Chhom &amp; Arlo Griffiths.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom &amp; Arlo Griffiths.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
@@ -45,30 +48,34 @@
             <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
                <msIdentifier>
                   <repository>DHARMAbase</repository>
-                  <idno/><!-- don't modify this -->
+                  <idno/>
+                  <!-- don't modify this -->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
-                  <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
                </msContents>
                <physDesc>
                   <handDesc>
-                     <summary><p>The inscription contains 11 Sanskrit stanzas written in 11 lines. The form of the letters suggests that the inscription was written in at least two different periods. We divide the inscription into two parts. The letters of part 1from lines 1-7 are not only smaller but also older than those in part 2 from lines 8-11. If the letters tha in the two parts (lines 5, 7, 8, 9) are similar to those of either second half of the 7th century or early 8th century, the letters la (lines 1, 2, 5, 6) and ṇa (lines 1, 2, 5) in part 1 belong most probably to the second half of the 7th century whereas the letters la (lines 9, 11) and ṇa (lines 8, 10) in part 2 are of the early 8th century.
-                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p></summary>
+                     <summary>
+                        <p>The inscription contains 11 Sanskrit stanzas written in 11 lines. The form of the letters suggests that the inscription was written in at least two different periods. We divide the inscription into two parts. The letters of part 1from lines 1-7 are not only smaller but also older than those in part 2 from lines 8-11. If the letters tha in the two parts (lines 5, 7, 8, 9) are similar to those of either second half of the 7th century or early 8th century, the letters la (lines 1, 2, 5, 6) and ṇa (lines 1, 2, 5) in part 1 belong most probably to the second half of the 7th century whereas the letters la (lines 9, 11) and ṇa (lines 8, 10) in part 2 are of the early 8th century.
+                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     </summary>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows: -->
-						<handNote xml:id="K0003_hand1">Typical, smallish, 6th/7th-century (Śaka) hand.</handNote>
-						<handNote xml:id="K0003_hand2">Large, squarish, 6th/7th-century (Śaka) hand.</handNote>
-	</handDesc>
+                     <handNote xml:id="K0003_hand1">Typical, smallish, 6th/7th-century (Śaka) hand.</handNote>
+                     <handNote xml:id="K0003_hand2">Large, squarish, 6th/7th-century (Śaka) hand.</handNote>
+                  </handDesc>
                </physDesc>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-  	<revisionDesc>
-       <change who="part:argr part:kuch" when="2020-09-21" status="draft">Second round of revision</change>
-  	   <change who="part:argr" when="2020-09-18" status="draft">First round of revision</change>
-  	   <change who="part:kuch" when="2020-08-21" status="draft">Modifications to edition</change>
-  	   <change who="part:kuch" when="2020-06-24" status="draft">Initial encoding of the file</change>
-     </revisionDesc>
-  </teiHeader>
+      <revisionDesc>
+         <change who="part:argr part:kuch" when="2020-09-21" status="draft">Second round of revision</change>
+         <change who="part:argr" when="2020-09-18" status="draft">First round of revision</change>
+         <change who="part:kuch" when="2020-08-21" status="draft">Modifications to edition</change>
+         <change who="part:kuch" when="2020-06-24" status="draft">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
    <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="san-Latn">
@@ -143,7 +150,7 @@ maybe read sadmāsukr̥tāpi satī = sadma-asakr̥tāpi satī?--><!-- kuch: Hard
                    </app>
                   <app loc="5">
                     <lem>śrīy<unclear cert="low">ā</unclear> me</lem>
-                    <rdg>śrī <seg met="+"><gap reason="lost" quantity="1" unit="character"></gap></seg> me</rdg>
+                    <rdg>śrī <seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg> me</rdg>
                        <note>Cœdès noted: <q>Le caractère manquant ressemble à <unclear>yā</unclear>, mais peut-être est-ce <foreign>ya</foreign> suivi d'une autre lettre. Le caractère <unclear>m</unclear> paraît surmonté d'un trait vertical: si tel est bien le cas, il faudrait lire <unclear>mo</unclear>.</q> But to us the problematic akṣara is really only the one with <foreign>y</foreign>, and the prima facie reading would rather <foreign>yo</foreign> than <foreign>yā</foreign>.</note>
                    </app>
 <app loc="5">
@@ -160,7 +167,7 @@ maybe read sadmāsukr̥tāpi satī = sadma-asakr̥tāpi satī?--><!-- kuch: Hard
                    </app>
                </listApp>
          </div>
-<div type="translation" xml:lang="eng" resp="part:kuch part:argr">
+<div type="translation" resp="part:kuch part:argr">
           <p rend="stanza" n="1">Victorious is the god Śrī Vardhamāna, who causes the state of decent men to be prosperous, lord of all worlds, whose stone <foreign>liṅga</foreign> rises, thick and and attractive.</p>
             <p rend="stanza" n="2">The god Śrī Vardhamāna, whose thousand arms grow as they are shaken by the tremors or a terrifying dance, <supplied reason="subaudible">and</supplied> whose feet are worshiped by the gods, may he protect us!</p>
             <p rend="stanza" n="3">He who, by the Siddhas, the gods, the demons and the sages, on the mountain tops of the Himalayas, the Malayas, the Sumeru, etc., is always praised as Śrī Vardhamāna,</p>

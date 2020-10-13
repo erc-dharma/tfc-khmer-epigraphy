@@ -1,66 +1,74 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="eng">
-        <fileDesc>
-            <titleStmt>
-                <title>Stela in front of the temple S1 at Sambor Prei Kuk (K. 607)</title>
-                <respStmt>
-                    <resp>EpiDoc Encoding</resp>
-                    <persName ref="part:kuch"> 
-                        <forename>Kunthea</forename>
-                        <surname>Chhom</surname>
-                    </persName>
-                </respStmt>
-                <respStmt>
-                    <resp>intellectual authorship of edition</resp>
-                    <persName ref="part:doso">
-                        <forename>Dominique</forename>
-                        <surname>Soutif</surname>
-                    </persName>
-                </respStmt>
-            </titleStmt>         
-            <publicationStmt>
-                <authority>DHARMA
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela in front of the temple S1 at Sambor Prei Kuk (K. 607)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA
                     <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).
                     </note>
-                </authority>
-                <pubPlace>Siem Reap</pubPlace>
-                <idno type="filename">K0607</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                        <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
-                    </licence>
-                </availability>
-                <date from="2019" to="2025">2019-2025</date>
-            </publicationStmt>
-            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
-                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-                    <msIdentifier>
-                        <repository>DHARMAbase</repository>
-                        <idno/><!-- don't modify this -->
-                    </msIdentifier>
-                    <msContents><!-- describe the intellectual content of an inscription -->
-                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
-                    </msContents>
-                    <physDesc>
-                        <handDesc>
-                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                            <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+            </authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">K0607</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
 						<handNote xml:id="Pallava00001_hand2"></handNote>
 					 -->
-                        </handDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc status="draft"><change who="part:kuch" when="2020-06-30">Modifications to edition, apparatus, translation and bibliography</change>
-            <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-            <change who="part:axja" when="2020-01-09" status="draft">Update template</change><change who="part:kuch" when="2019" status="draft">Creation of the file</change><!-- add a <change> for each change to the file, the first change should replace this one and record your creation of a file using this template. -->
-        </revisionDesc>
-    </teiHeader>
-    <text xml:space="preserve">
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="draft">
+         <change who="part:kuch" when="2020-06-30">Modifications to edition, apparatus, translation and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+         <!-- add a <change> for each change to the file, the first change should replace this one and record your creation of a file using this template. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
                 <p>
@@ -74,16 +82,12 @@
 <lb n="A7"/>ku tāṅ· Uṅ· <g type="circleSmall">.</g> ku qme draṅ· vot· <g type="circleSmall">.</g> ku draṅ· vot· <g type="circleSmall">.</g> ku vaḥ meṅ· <g type="circleSmall">.</g> ku kla<unclear>pit</unclear>· <g type="circleSmall">.</g> ku Anroka <g type="circleSmall">.</g> ku Anaṅ· ci <g type="circleSmall">.</g>
 <lb n="A8"/>ku saṁvok· <g type="circleSmall">.</g> ku smaṅ· <g type="circleSmall">.</g> ku yi rāṅ· <g type="circleSmall">.</g> ku tmaṅ· <g type="circleSmall">.</g> ku At· <g type="circleSmall">.</g> kon ku pau sī <g type="circleSmall">.</g> ku tmi <g type="circleSmall">.</g> kon ku va klaṅ· Aras· <g type="circleSmall">.</g> va tanlaṅ· <g type="circleSmall">.</g>
 <lb n="A9"/>ku ya māy· <g type="circleSmall">.</g> kon ku pau <g type="circleSmall">.</g> ku tvau <g type="circleSmall">.</g> kon ku miḥ jmaḥ <g type="circleSmall">.</g> ku qme kan<choice><unclear>y</unclear><unclear>d</unclear></choice>o , ku sa<unclear>n</unclear>· loy· <g type="circleSmall">.</g> kon ku ku naraka <g type="circleSmall">.</g> va kumār· <g type="circleSmall">.</g> <unclear>ku ka</unclear>ntāṅ·
-<lb n="A10"/>kñuṁ vraḥ kamratāṅ· Añ· mucalinda <g type="circleSmall">.</g> man· vraḥ kamratāṅ· Añ· Oy· <g type="circleSmall">.</g> vrau <g type="circleSmall">.</g> vā <unclear>t</unclear>loṅ· <g type="circleSmall">.</g> va <unclear>tl</unclear>āy· <g type="circleSmall">.</g> va <unclear>qdoṅ·</unclear>  va ka<unclear>ñ·</unclear><lb 
-    n="A11" break="no"/>col· <g type="circleSmall">.</g> vā tpaṅ· <g type="circleSmall">.</g> va tnāṅ· <g type="circleSmall">.</g> ku saṅ· <g type="circleSmall">.</g> ku slā <g type="circleSmall">.</g> ku ya col· <g type="circleSmall">.</g> ku leḥ <g type="circleSmall">.</g> ku proṅ· <g type="circleSmall">.</g> ku lvāṅ· <g type="circleSmall">.</g> ku koti <g type="circleSmall">.</g> ku yi<lb 
-        n="A12" break="no"/><supplied reason="lost">d</supplied>i<unclear>n</unclear>· <g type="circleSmall">.</g> ku slā <g type="circleSmall">.</g> ku pr̥ <g type="circleSmall">.</g> ku plak· taṁkik· <g type="circleSmall">.</g> vā col· <g type="circleSmall">.</g> vā dvādaśī <g type="circleSmall">.</g> vā tpun· <g type="circleSmall">.</g> va kañcuhv· <g type="circleSmall">.</g> ku <unclear>ta</unclear>Āy· <g type="circleSmall">.</g> ku
+<lb n="A10"/>kñuṁ vraḥ kamratāṅ· Añ· mucalinda <g type="circleSmall">.</g> man· vraḥ kamratāṅ· Añ· Oy· <g type="circleSmall">.</g> vrau <g type="circleSmall">.</g> vā <unclear>t</unclear>loṅ· <g type="circleSmall">.</g> va <unclear>tl</unclear>āy· <g type="circleSmall">.</g> va <unclear>qdoṅ·</unclear>  va ka<unclear>ñ·</unclear><lb n="A11" break="no"/>col· <g type="circleSmall">.</g> vā tpaṅ· <g type="circleSmall">.</g> va tnāṅ· <g type="circleSmall">.</g> ku saṅ· <g type="circleSmall">.</g> ku slā <g type="circleSmall">.</g> ku ya col· <g type="circleSmall">.</g> ku leḥ <g type="circleSmall">.</g> ku proṅ· <g type="circleSmall">.</g> ku lvāṅ· <g type="circleSmall">.</g> ku koti <g type="circleSmall">.</g> ku yi<lb n="A12" break="no"/><supplied reason="lost">d</supplied>i<unclear>n</unclear>· <g type="circleSmall">.</g> ku slā <g type="circleSmall">.</g> ku pr̥ <g type="circleSmall">.</g> ku plak· taṁkik· <g type="circleSmall">.</g> vā col· <g type="circleSmall">.</g> vā dvādaśī <g type="circleSmall">.</g> vā tpun· <g type="circleSmall">.</g> va kañcuhv· <g type="circleSmall">.</g> ku <unclear>ta</unclear>Āy· <g type="circleSmall">.</g> ku
 <lb n="A13"/><gap reason="lost" quantity="3" unit="character"/>l· pāṅ· <supplied reason="omitted"><g type="circleSmall">.</g></supplied> ku Aras· <g type="circleSmall">.</g> ku vlaj jaṁnā <g type="circleSmall">.</g> ku loṅ· <g type="circleSmall">.</g> vā kañ· joṅ· <g type="circleSmall">.</g> vā Aṁval· <g type="circleSmall">.</g> vā kma<unclear>n·</unclear> <supplied reason="omitted"><g type="circleSmall">.</g></supplied> va <gap reason="lost" quantity="2" unit="character"/> <unclear>m</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>
 <lb n="A14"/><unclear>vā soṅ·</unclear> <supplied reason="lost"><g type="circleSmall">.</g></supplied> ku tpoñ· <g type="circleSmall">.</g> ku vrai rloṁ <g type="circleSmall">.</g> ku raṅ· kon ku paṅket· <g type="circleSmall">.</g> ku klapit· <g type="circleSmall">.</g> va cak·cek· <g type="circleSmall">.</g> qme dvika
 <lb n="A15"/>ku mar· vai vai <supplied reason="lost"><g type="circleSmall">.</g></supplied> ku <unclear>gān ro</unclear> <g type="circleSmall">.</g> ku paqoc· ple toy· <g type="circleSmall">.</g> ku dves· <g type="circleSmall">.</g> ku raṅ· <g type="circleSmall">.</g> va kavan· <g type="circleSmall">.</g> ku poñ· <g type="circleSmall">.</g> ku juṅ·
-<lb n="A16"/>ku slā vrai kon ku pau tai <g type="circleSmall">.</g> qme va vamī <g type="circleSmall">.</g> va vamī <g type="circleSmall">.</g> ku Ame kañjā <g type="circleSmall">.</g> va titāy· <g type="circleSmall">.</g> qme qtau <gap reason="lost" quantity="2" unit="character"/> vā kra<lb 
-    n="A17" break="no"/>hvāṅ· <g type="circleSmall">.</g> ku yiṅ· <g type="circleSmall">.</g> ku vrau <g type="circleSmall">.</g> kon ku tau Urañ· <g type="circleSmall">.</g> ku tau dmet· <g type="circleSmall">.</g> ta kmer· <g type="circleSmall">.</g> ku Assarū <g type="circleSmall">.</g> k<supplied reason="lost">u</supplied> yi voñ· <g type="circleSmall">.</g> va taqul· <g type="circleSmall">.</g>
-<lb n="A18"/>vā tloṅ· <unclear cert="low"><g type="circleSmall">.</g></unclear> ku yāṅ· <g type="circleSmall">.</g> kon· ku can<choice><unclear>d</unclear><unclear>ḍ</unclear></choice>er· sī <g type="circleSmall">.</g> ku <choice><unclear>g</unclear><unclear>ś</unclear></choice><choice><unclear>u</unclear><unclear>ya</unclear></choice>mī <g type="circleSmall">.</g> ku cat· <g type="circleSmall">.</g> tmur· moy· slikka <g type="circleSmall">.</g> krapi praṁbhai<lb 
-    n="A19" break="no"/>ya <g type="circleSmall">.</g> sre Āriṅo <num value="10">10</num> daṁmriṅ· <num value="3">III</num> sre Āy· jeṅ· vnaṁ <num value="7">7</num> sre Āyimo
+<lb n="A16"/>ku slā vrai kon ku pau tai <g type="circleSmall">.</g> qme va vamī <g type="circleSmall">.</g> va vamī <g type="circleSmall">.</g> ku Ame kañjā <g type="circleSmall">.</g> va titāy· <g type="circleSmall">.</g> qme qtau <gap reason="lost" quantity="2" unit="character"/> vā kra<lb n="A17" break="no"/>hvāṅ· <g type="circleSmall">.</g> ku yiṅ· <g type="circleSmall">.</g> ku vrau <g type="circleSmall">.</g> kon ku tau Urañ· <g type="circleSmall">.</g> ku tau dmet· <g type="circleSmall">.</g> ta kmer· <g type="circleSmall">.</g> ku Assarū <g type="circleSmall">.</g> k<supplied reason="lost">u</supplied> yi voñ· <g type="circleSmall">.</g> va taqul· <g type="circleSmall">.</g>
+<lb n="A18"/>vā tloṅ· <unclear cert="low"><g type="circleSmall">.</g></unclear> ku yāṅ· <g type="circleSmall">.</g> kon· ku can<choice><unclear>d</unclear><unclear>ḍ</unclear></choice>er· sī <g type="circleSmall">.</g> ku <choice><unclear>g</unclear><unclear>ś</unclear></choice><choice><unclear>u</unclear><unclear>ya</unclear></choice>mī <g type="circleSmall">.</g> ku cat· <g type="circleSmall">.</g> tmur· moy· slikka <g type="circleSmall">.</g> krapi praṁbhai<lb n="A19" break="no"/>ya <g type="circleSmall">.</g> sre Āriṅo <num value="10">10</num> daṁmriṅ· <num value="3">III</num> sre Āy· jeṅ· vnaṁ <num value="7">7</num> sre Āyimo
 <lb n="A20"/><num value="10">10</num>                   
 <milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Fragment</label>                   
 <lb n="B1"/><gap reason="lost" extent="unknown" unit="character"/>

@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Stela of Vat Kiri Sdech Kong, Kompong Speu (K. 1419)</title>
@@ -10,14 +13,14 @@
                   <surname>Chhom</surname>
                </persName>
             </respStmt>
-         	<respStmt>
-         		<resp>intellectual authorship of edition</resp>
-         		<persName ref="part:kuch">
-         			<forename>Kunthea</forename>
-         			<surname>Chhom</surname>
-         		</persName>
-         	</respStmt>
-         </titleStmt>         
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>DHARMA
                <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).
@@ -28,7 +31,7 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-               	<p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
@@ -37,10 +40,13 @@
             <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
                <msIdentifier>
                   <repository>DHARMAbase</repository>
-                  <idno/><!-- don't modify this -->
+                  <idno/>
+                  <!-- don't modify this -->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
-                  <summary>The text is entirely in Sanskrit. It consists of twenty lines forming eleven stanzas. Arranged in two columns, the Sanskrit verses are carved in a calligraphic manner and in three prosodic meters: Upajāti of Triṣṭubh <supplied reason="explanation">st. I, II, IV, VI, VIII, IX, XI</supplied>, Indravajrā <supplied reason="explanation">st. III, V, VII</supplied> and Upendravajrā <supplied reason="explanation">st. X</supplied>. The first three stanzas contain an invocation of the gods Śiva, Śiva-Viṣṇu and Viṣṇu. Stanza IV praises king Īśānavarmman as king of kings. Stanzas V–VIII present the protagonist, a king’s servant <supplied reason="explanation"><foreign>bhr̥tya</foreign></supplied> of the king called Vrau Etta, and record his installation of several divine images and donations of paddy-fields and cattle. An imprecation is pronounced in stanza IX. The last two stanzas specify that the installation of an image of Hara-Kṛṣṇa <supplied reason="explanation">Śiva-Viṣṇu</supplied> by the founder <supplied reason="explanation">Vrau Etta</supplied> happened on the first night of the lunar month of Caitra <supplied reason="explanation">March-April</supplied> of year 555 in the Śaka era, i.e. in 633 CE.
+                  <summary>The text is entirely in Sanskrit. It consists of twenty lines forming eleven stanzas. Arranged in two columns, the Sanskrit verses are carved in a calligraphic manner and in three prosodic meters: Upajāti of Triṣṭubh <supplied reason="explanation">st. I, II, IV, VI, VIII, IX, XI</supplied>, Indravajrā <supplied reason="explanation">st. III, V, VII</supplied> and Upendravajrā <supplied reason="explanation">st. X</supplied>. The first three stanzas contain an invocation of the gods Śiva, Śiva-Viṣṇu and Viṣṇu. Stanza IV praises king Īśānavarmman as king of kings. Stanzas V–VIII present the protagonist, a king’s servant <supplied reason="explanation">
+                        <foreign>bhr̥tya</foreign>
+                     </supplied> of the king called Vrau Etta, and record his installation of several divine images and donations of paddy-fields and cattle. An imprecation is pronounced in stanza IX. The last two stanzas specify that the installation of an image of Hara-Kṛṣṇa <supplied reason="explanation">Śiva-Viṣṇu</supplied> by the founder <supplied reason="explanation">Vrau Etta</supplied> happened on the first night of the lunar month of Caitra <supplied reason="explanation">March-April</supplied> of year 555 in the Śaka era, i.e. in 633 CE.
                   </summary>
                </msContents>
                <physDesc>
@@ -56,11 +62,11 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc status="draft">
-        <change who="part:kuch" when="2020-06-11">Initial encoding of the file</change>
-        <change who="part:axja" when="2020-04-08" status="draft">Creation of updated template</change>
-     </revisionDesc>
-  </teiHeader>
+      <revisionDesc status="draft">
+         <change who="part:kuch" when="2020-06-11">Initial encoding of the file</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Creation of updated template</change>
+      </revisionDesc>
+   </teiHeader>
    <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="san-Latn">
@@ -143,7 +149,7 @@
                   </app>
                </listApp>         
          </div>
-            <div type="translation" xml:lang="eng">
+            <div type="translation">
                 <p rend="stanza" n="1">Victorious is the Supreme Lord <supplied reason="subaudible">Śiva</supplied>, the radiance of whose toenails <supplied reason="explanation"><foreign>pādanakhaprabhā</foreign></supplied> — vanquished the quiveringly radiant crest-jewels of the multitude of diadems of the gods — made moonlight to appear <supplied reason="explanation"><foreign>āviṣkr̥tacandrakāntiḥ</foreign></supplied> on their heads <supplied reason="explanation"><foreign>tanmūrddhasu</foreign></supplied>.</p>
                <p rend="stanza" n="2">May the two Lords of the gods, <supplied reason="explanation">namely</supplied> Śrī Īśāna and <supplied reason="subaudible">Śrī</supplied> Viṣṇu, be victorious! By the uniting of their body-halves, immanence, oneness and plurality are made manifest among gods and mortals.</p>
                <p rend="stanza" n="3">About him <supplied reason="explanation"><foreign>yam uddiśya</foreign></supplied>, Fame seemed to say <supplied reason="explanation"><foreign>vaded itīva</foreign></supplied>: “With his mouth, this Lord of ours protects Wisdom; with his chest Śrī; with his feet Earth, because of his great good fortune; but <supplied reason="explanation"><foreign>tu</foreign></supplied> I am unlucky <supplied reason="explanation"><foreign>adhanyā</foreign></supplied>, because <supplied reason="explanation"><foreign>yad</foreign></supplied> I have evidently <supplied reason="explanation"><foreign>hi</foreign></supplied> been cast <supplied reason="explanation"><foreign>kṣiptā</foreign></supplied> far aside <supplied reason="explanation"><foreign>dūram</foreign></supplied>”.</p>
@@ -170,7 +176,7 @@ whose glory <supplied reason="explanation"><foreign>°śrīḥ</foreign></suppli
             <p rend="stanza" n="4">In Khmer version, we propose other two possible interpretations as follows: 
 whose glory <supplied reason="explanation"><foreign>°śrīḥ</foreign></supplied> and heroism <supplied reason="explanation"><foreign>°parākrama°</foreign></supplied> are those of a king of kings who is alone on the surface <supplied reason="explanation"><foreign>°pr̥ṣṭha°</foreign></supplied> of <supplied reason="subaudible">the land called</supplied> Suvarṇabhūmi up to the oceans <supplied reason="explanation"><foreign>samudraparyanta°</foreign></supplied>.
 or
-whose glory <supplied reason="explanation"><foreign>°śrīḥ</foreign></supplied> and heroism <supplied reason="explanation"><foreign>°parākrama°</foreign></supplied> are those of a king of kings who is alone on the surface <supplied reason="explanation"><foreign>°pr̥ṣṭha°</foreign></supplied> of the earth <supplied reason="subaudible"></supplied>[which is in the] Suvarṇabhūmi up to the oceans <supplied reason="explanation"><foreign>samudraparyanta°</foreign></supplied>.
+whose glory <supplied reason="explanation"><foreign>°śrīḥ</foreign></supplied> and heroism <supplied reason="explanation"><foreign>°parākrama°</foreign></supplied> are those of a king of kings who is alone on the surface <supplied reason="explanation"><foreign>°pr̥ṣṭha°</foreign></supplied> of the earth <supplied reason="subaudible"/>[which is in the] Suvarṇabhūmi up to the oceans <supplied reason="explanation"><foreign>samudraparyanta°</foreign></supplied>.
 For a historiography of the term Suvarṇabhūmi, see our comment in the Khmer version of this article. In this volume, Vong Sotheara also discusses this term at length from a historical point of view. 
 </p>
             <p rend="stanza" n="5">Vrau Etta may be a name with a beneficent connotation. For a discussion on this name, see Michel Antelme’s article in Khmer in the next issue of Kambuja Suriya.</p>

@@ -1,76 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="eng">
-        <fileDesc>
-            <titleStmt>
-                <title>Southern doorjamb of the maṇḍapa entrance at Phnom Preah Netr Preah (K. 216-S)</title>
-                <respStmt>
-                    <resp>Creation of the file</resp>
-                    <persName ref="part:chch">
-                        <forename>Chloé</forename>
-                        <surname>Chollet</surname>
-                    </persName>
-                </respStmt>
-                <respStmt>
-                    <resp>intellectual authorship of edition</resp>
-                    <persName ref="part:geco">
-                        <forename>George</forename>
-                        <surname>Cœdès</surname>
-                    </persName>
-                    <persName ref="part:chch">
-                        <forename>Chloé</forename>
-                        <surname>Chollet</surname>
-                    </persName>
-                </respStmt>
-            </titleStmt>         
-            <publicationStmt>
-                <authority>DHARMA
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Southern doorjamb of the maṇḍapa entrance at Phnom Preah Netr Preah (K. 216-S)</title>
+            <respStmt>
+               <resp>Creation of the file</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:geco">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA
                     <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).
                     </note>
-                </authority>
-                <pubPlace>Paris</pubPlace>
-                <idno type="filename">K0216-S</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                        <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
-                    </licence>
-                </availability>
-                <date from="2019" to="2025">2019-2025</date>
-            </publicationStmt>
-            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
-                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-                    <msIdentifier>
-                        <repository>DHARMAbase</repository>
-                        <idno/><!-- don't modify this -->
-                    </msIdentifier>
-                    <msContents><!-- describe the intellectual content of an inscription -->
-                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
-                    </msContents>
-                    <physDesc>
-                        <handDesc>
-                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                            <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+            </authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">K0216-S</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
 						<handNote xml:id="Pallava00001_hand2"></handNote>
 					 -->
-                        </handDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc>
-            <change who="part:chch" when="2020-05-03" status="draft">Bibliography added, corrections of the edition's encoding</change>
-            <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-            <change who="part:chch" when="2020-02-10" status="draft">Modifications of the encoding of the edition and addition of the translation</change>
-            <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-            <change who="part:chch" when="2019" status="draft">Initial encoding of the text</change>
-        </revisionDesc>
-    </teiHeader>
-    <text xml:space="preserve">
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="part:chch" when="2020-05-03" status="draft">Bibliography added, corrections of the edition's encoding</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:chch" when="2020-02-10" status="draft">Modifications of the encoding of the edition and addition of the translation</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:chch" when="2019" status="draft">Initial encoding of the text</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
         <body>
             <div type="edition">
                 <div type="textpart" xml:lang="san-Latn" n="1">
@@ -158,15 +160,12 @@
                 </div>
                 <div type="textpart" xml:lang="khm-Latn" n="2">
                     <p>
-<lb n="26"/><g type="symbol" subtype="circleHorned"/>gho thqyaka gho pandān∙ gho qaṁpen∙ gho saquya tai panhem∙ kvann∙ <unclear>tai</unclear><lb n="27" 
-    break="no"/>ya qarga taiya parvvati gho pdān∙ gho rām∙ gho paroṅa taiya cā<unclear>mpa</unclear>
+<lb n="26"/><g type="symbol" subtype="circleHorned"/>gho thqyaka gho pandān∙ gho qaṁpen∙ gho saquya tai panhem∙ kvann∙ <unclear>tai</unclear><lb n="27" break="no"/>ya qarga taiya parvvati gho pdān∙ gho rām∙ gho paroṅa taiya cā<unclear>mpa</unclear>
                     <lb n="28"/>kvanna taiy∙ <unclear>kh</unclear>svāc∙ taiya phgota kvann∙ gho kansān∙ taiy∙ sva<unclear>sti</unclear>
                     <lb n="29"/>taiya cāmpa taiy∙ kaṁvraḥ taiya srāṣṭa kvanna gho viśe<unclear>śa</unclear>
-                    <lb n="30"/>taiy∙ kañjā kvanna gho chke taiy∙ kandeṅ∙ kvanna gho ch<unclear>ke</unclear> taiy∙ ka<unclear>ṁ</unclear><lb n="31" 
-                        break="no"/>qīn∙ taiy∙ kaṁbha kvanna taiy∙ khju gho kañjuna taiy<unclear>a</unclear> kandhi kva<unclear>nna</unclear> 
+                    <lb n="30"/>taiy∙ kañjā kvanna gho chke taiy∙ kandeṅ∙ kvanna gho ch<unclear>ke</unclear> taiy∙ ka<unclear>ṁ</unclear><lb n="31" break="no"/>qīn∙ taiy∙ kaṁbha kvanna taiy∙ khju gho kañjuna taiy<unclear>a</unclear> kandhi kva<unclear>nna</unclear> 
                     <lb n="32"/>taiya thqyak∙ taiya kandvat∙ kvanna gho kaṁvās∙ taiy<unclear>∙</unclear> ka<unclear>ṁ</unclear>śrī 
-                    <lb n="33"/>taiy∙ paroṅa taiya kaṁbha kvanna gho thqyaka gho śri gho kanqā tai<lb n="34" 
-                        break="no"/>y∙ phgaṅ∙ kvanna taiy<unclear>∙</unclear> chke taiya kansom∙ kvanna gho ka<supplied reason="omitted">ṁ</supplied>śrī taiya 
+                    <lb n="33"/>taiy∙ paroṅa taiya kaṁbha kvanna gho thqyaka gho śri gho kanqā tai<lb n="34" break="no"/>y∙ phgaṅ∙ kvanna taiy<unclear>∙</unclear> chke taiya kansom∙ kvanna gho ka<supplied reason="omitted">ṁ</supplied>śrī taiya 
                     <lb n="35"/>chke <g type="symbol" subtype="circle"/> khñu<supplied reason="omitted">ṁ</supplied> mana mratāñ∙ khloñ∙ śrisaṅgrām∙<unclear>dā</unclear>ru<unclear>na</unclear> qoy∙ parigrah∙ ta 
                     <lb n="36"/>teṅa qumā gho qgata gho ka<supplied reason="omitted">ṁ</supplied>vās∙ taiy<unclear>a</unclear> dharmma taiy∙ thās∙ taiya khñu<supplied reason="omitted">ṁ</supplied> tai
                     <lb n="37"/>y∙ chke taiy∙ kandic∙ taiya khnap∙ taiy∙ sthira taiy<unclear>a</unclear> <unclear>th</unclear>ṅ<supplied reason="lost">e</supplied> <g type="symbol" subtype="circle"/> khñuṁ mana vapā 
@@ -174,11 +173,9 @@
                     <lb n="39"/>pansās∙ taiy∙ qāj∙ taiya <unclear>ka</unclear>nsoṁ taiya kanhen∙ taiy∙ pa<supplied reason="lost">nhem∙</supplied> 
                     <lb n="40"/>taiy∙ parvāt∙ taiy∙ kaṁpita gho narāy∙ taiya ka<supplied reason="omitted">ṁ</supplied>prvat∙ gho 
                     <lb n="41"/>ka<unclear>ṁ</unclear>vraḥ gho kaṁvit∙ taiy∙ vit∙ kvanna taiy∙ khñu<unclear>ṁ</unclear> vraḥ gho kanti<unclear>k∙</unclear>
-                    <lb n="42"/>neḥh∙ qnak ta <num value="3">piy∙</num> cam ca<supplied reason="lost">ṁ</supplied>nā<unclear>ṁ</unclear> saṅakrānta qāṣṭami caturdda<choice><sic>k</sic><corr>ś</corr></choice>i pañca<lb n="43" 
-    break="no"/>daśi <g type="symbol" subtype="circle"/> ca<supplied reason="lost">ṁ</supplied>nāṁ mratāñ∙ khloñ∙ śri saṅgrāmadāru<supplied reason="lost">na ra</supplied>ṅko liḥ <num value="2">vyar∙</num> 
+                    <lb n="42"/>neḥh∙ qnak ta <num value="3">piy∙</num> cam ca<supplied reason="lost">ṁ</supplied>nā<unclear>ṁ</unclear> saṅakrānta qāṣṭami caturdda<choice><sic>k</sic><corr>ś</corr></choice>i pañca<lb n="43" break="no"/>daśi <g type="symbol" subtype="circle"/> ca<supplied reason="lost">ṁ</supplied>nāṁ mratāñ∙ khloñ∙ śri saṅgrāmadāru<supplied reason="lost">na ra</supplied>ṅko liḥ <num value="2">vyar∙</num> 
                     <lb n="44"/>pratidinna <unclear><g type="symbol" subtype="circle"/></unclear> sruk∙ sre giripur∙ ta gi bhāga teṅa tvan∙ sna<unclear>ṁ</unclear> sre vraḥ 
-                    <lb n="45"/>qandyar∙ sre ganiśvara sre st<unclear>u</unclear>ka kaṁvval∙ ti duñ∙ nu māsa <unclear>li</unclear>ṅa <num value="1"><g type="numeral">I</g></num> ta vā<lb n="46" 
-                        break="no"/>p∙ vrau nu vāp∙ vrāhm∙ sre stuka ka<supplied reason="omitted">ṁ</supplied>vvala sot∙ ti duñ∙ nu padigaḥ <num value="1"><g type="numeral">I</g></num> jyaṅ∙ 
+                    <lb n="45"/>qandyar∙ sre ganiśvara sre st<unclear>u</unclear>ka kaṁvval∙ ti duñ∙ nu māsa <unclear>li</unclear>ṅa <num value="1"><g type="numeral">I</g></num> ta vā<lb n="46" break="no"/>p∙ vrau nu vāp∙ vrāhm∙ sre stuka ka<supplied reason="omitted">ṁ</supplied>vvala sot∙ ti duñ∙ nu padigaḥ <num value="1"><g type="numeral">I</g></num> jyaṅ∙ 
                     <lb n="47"/>ta yā loñ∙ pen<unclear>∙</unclear> nu loñ∙ pen∙ sre dal∙ cāmpa ti duñ∙ nu vaudi <num value="1"><g type="numeral">I</g></num> jyaṅ<unclear>∙</unclear> <num value="7">7</num>
                     <lb n="48"/>svok∙ <num value="1"><g type="numeral">I</g></num> jyaṅ∙ <num value="2">vyar∙</num> ta vāp∙ vis∙ sre lāc∙ krapi <unclear><g type="symbol" subtype="circle"/></unclear> bhumi khñuṁ ta roḥh∙ 
                     <lb n="49"/>neḥha syaṅa man∙ jvan∙ ta kamrateṅa jagāta śivapāda cāṁm∙ caṁnāṁ 

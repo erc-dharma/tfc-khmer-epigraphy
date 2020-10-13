@@ -1,67 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="eng">
-        <fileDesc>
-            <titleStmt>
-                <title>Doorjamb at Vat Prei Veng (K. 1029)</title>
-                <respStmt>
-                    <resp>EpiDoc Encoding</resp>
-                    <persName ref="part:kuch">
-                        <forename>Kunthea</forename>
-                        <surname>Chhom</surname>
-                    </persName>
-                </respStmt>
-                <respStmt>
-                    <resp>intellectual authorship of edition</resp>
-                    <persName ref="part:doso">
-                        <forename>Dominique</forename>
-                        <surname>Soutif</surname>
-                    </persName>
-                </respStmt>
-            </titleStmt>         
-            <publicationStmt>
-                <authority>DHARMA
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb at Vat Prei Veng (K. 1029)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA
                     <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).
                     </note>
-                </authority>
-                <pubPlace>Siem Reap</pubPlace>
-                <idno type="filename">K1029</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                        <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
-                    </licence>
-                </availability>
-                <date from="2019" to="2025">2019-2025</date>
-            </publicationStmt>
-            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
-                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-                    <msIdentifier>
-                        <repository>DHARMAbase</repository>
-                        <idno/><!-- don't modify this -->
-                    </msIdentifier>
-                    <msContents><!-- describe the intellectual content of an inscription -->
-                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
-                    </msContents>
-                    <physDesc>
-                        <handDesc>
-                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                            <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+            </authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">K1029</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
 						<handNote xml:id="Pallava00001_hand2"></handNote>
 					 -->
-                        </handDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc status="draft"><change who="part:kuch" when="2020-06-16" status="draft">Modifications of edition, apparatus and bibliography</change>
-            <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-            <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-            <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
-        </revisionDesc>
-    </teiHeader>
-    <text xml:space="preserve">
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="draft">
+         <change who="part:kuch" when="2020-06-16" status="draft">Modifications of edition, apparatus and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
                 <p>
@@ -70,16 +76,12 @@
 <lb n="3"/>kumārasvāmi doṅ· vraḥ ka<unclear>ṁ</unclear>mratāṅ· Añ· śrī rudramahālaya
 <lb n="4"/>puṇya tāṅ· rudradāsa doṅ· gi vnok· phoṅṅa nu poñ· śruta<unclear>kī</unclear>rtti
 <lb n="5"/>ta qmā mahāvikrāntakesarī nu paṁre m<unclear>uhha</unclear>n· gi tel· prasāda
-<lb n="6"/>Aṁvi kanloṅṅa ta mahāvikrāntakesarī nu paṁre ta gi maddhyamapa<lb 
-    n="7" break="no"/>r<supplied reason="lost">i</supplied>cāraka gi sre piṅ· Aṁlac· le <unclear>g</unclear><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>on· <unclear>vrañai</unclear> vnur· pu maṅ· stuka
+<lb n="6"/>Aṁvi kanloṅṅa ta mahāvikrāntakesarī nu paṁre ta gi maddhyamapa<lb n="7" break="no"/>r<supplied reason="lost">i</supplied>cāraka gi sre piṅ· Aṁlac· le <unclear>g</unclear><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>on· <unclear>vrañai</unclear> vnur· pu maṅ· stuka
 <lb n="8"/>kinleṅ· prasān· sre cdiṅ· piṅ· poñ· vrau sre v<unclear>r</unclear>aḥ va<choice><sic cert="low">ṇ</sic><corr>n</corr></choice>a
-<lb n="9"/>sre trey· vrai krāy· stuk· slāṅ· sre vraḥ suvarṇnaliṅga pu<lb 
-    n="10" break="no"/>ṇya tāṅ· Īśvara sre kan<unclear>d</unclear>ac· tel· poñ· gap· tve sre
+<lb n="9"/>sre trey· vrai krāy· stuk· slāṅ· sre vraḥ suvarṇnaliṅga pu<lb n="10" break="no"/>ṇya tāṅ· Īśvara sre kan<unclear>d</unclear>ac· tel· poñ· gap· tve sre
 <lb n="11"/>sre jeṅ toc· sre piṅ· ta<unclear>ṁ</unclear>paḥ stuk· kracap· sre cdi<supplied reason="lost">ṅ·</supplied> <unclear>masār· ru</unclear>
 <lb n="12"/>hvat· man· vraḥ kaṁmratāṅ· Añ· ta dau śivapura prasāda <unclear>ta tāṅ·</unclear>
-<lb n="13"/>rudradāsa ta Aji mahāvikrāntakesarī gi tel· dhūli <unclear>jeṅ· vraḥ kaṁ</unclear><lb 
-    n="14" break="no"/>mratāṅ· Añ· prasāda ta mahāvikrāntakesarī nu paṁre ta gi ma<supplied reason="lost">d</supplied><unclear>dhya</unclear><supplied reason="omitted">ma</supplied><lb 
-        n="15" break="no"/>paricāraka ge ta dap· gi ge ta sak· gi ge ta pre roḥ gi ge cer·
+<lb n="13"/>rudradāsa ta Aji mahāvikrāntakesarī gi tel· dhūli <unclear>jeṅ· vraḥ kaṁ</unclear><lb n="14" break="no"/>mratāṅ· Añ· prasāda ta mahāvikrāntakesarī nu paṁre ta gi ma<supplied reason="lost">d</supplied><unclear>dhya</unclear><supplied reason="omitted">ma</supplied><lb n="15" break="no"/>paricāraka ge ta dap· gi ge ta sak· gi ge ta pre roḥ gi ge cer·
 <lb n="16"/>Ājñā vraḥ kaṁmratāṅ· qañ· ge tel· Oy· daṇdya || <unclear cert="low"><g type="gomutraFinal">.</g></unclear>           
                 </p>
             </div>
@@ -110,7 +112,7 @@
         <div type="translation" xml:lang="fra">
             <p n="1-5">665 <foreign>śaka</foreign>, ordre du Vraḥ Kaṃmratāṅ Añ au sujet du Vraḥ Kaṃmratāṅ Añ Śrī Tilakeśvara, œuvre pie du Mratāñ Kumārasvāmin et <supplied reason="subaudible">au sujet</supplied> du Vraḥ Kaṃmratāṅ Añ Śrī Rudramahālaya, œuvre pie de Tāṅ Rudradāsa avec l’ensemble de <supplied reason="explanation">son</supplied> groupe, le Poñ Śrutakīrtti, oncle de Mahāvikrāntakesarī, et le serviteur Muhhan.</p>
             <p n="5-7">Voici ce qu’il <supplied reason="explanation">le roi</supplied> donne du kanloṅ du palais à Mahāvikrāntakesarī et aux serviteurs qui sont <foreign>madhyamaparicāraka</foreign> :</p>
-            <p n="7-13">la rizière <supplied reason="explanation">près</supplied> de l’étang <gap reason="lost"></gap> colline de Pu Maṅ à Stuk Kinleṅ Prasān ; la rizière <supplied reason="explanation">près</supplied> de la rivière de l’étang du Poñ Vrau ; la rizière de la sainte forêt ; la rizière <supplied reason="explanation">près</supplied> de la rive de la grande forêt à Stuk Slāṅ ; la rizière <supplied reason="explanation">près</supplied> du saint <foreign>liṅga</foreign> d’or, fondation pie de Tāṅ Īśvara ; la petite rizière que le Poñ Gap cultive ; la rizière « d’un petit jeṅ » ; la rizière <supplied reason="explanation">près</supplied> de l’étang Taṃpaḥ à Stuk Kracap ; la rizière près de la rivière <gap reason="lost"></gap> que le Vraḥ Kaṃmratāṅ Añ qui est allé à Śivapura a donnée à Tāṅ Rudradāsa, ancêtre de Mahāvikrāntakesarī.</p>
+            <p n="7-13">la rizière <supplied reason="explanation">près</supplied> de l’étang <gap reason="lost"/> colline de Pu Maṅ à Stuk Kinleṅ Prasān ; la rizière <supplied reason="explanation">près</supplied> de la rivière de l’étang du Poñ Vrau ; la rizière de la sainte forêt ; la rizière <supplied reason="explanation">près</supplied> de la rive de la grande forêt à Stuk Slāṅ ; la rizière <supplied reason="explanation">près</supplied> du saint <foreign>liṅga</foreign> d’or, fondation pie de Tāṅ Īśvara ; la petite rizière que le Poñ Gap cultive ; la rizière « d’un petit jeṅ » ; la rizière <supplied reason="explanation">près</supplied> de l’étang Taṃpaḥ à Stuk Kracap ; la rizière près de la rivière <gap reason="lost"/> que le Vraḥ Kaṃmratāṅ Añ qui est allé à Śivapura a donnée à Tāṅ Rudradāsa, ancêtre de Mahāvikrāntakesarī.</p>
             <p n="13-15">Ceci est ce que sa majesté le Vraḥ Kaṃmratāṅ Añ donne à Mahāvikrāntakesarī et aux serviteurs qui sont <foreign>madhyamaparicāraka</foreign>.</p>
             <p n="15-16">Ceux qui bloquent l’accès à ces lieux, ceux qui y volent, ceux qui ordonnent d’y agir ainsi, ceux-là transgressent l’ordre du Vraḥ Kaṃmratāṅ Añ <supplied reason="subaudible">et</supplied> ceux-là doivent être châtiés.</p>
          </div>
