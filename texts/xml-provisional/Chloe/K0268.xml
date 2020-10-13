@@ -1,331 +1,333 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="eng">
-        <fileDesc>
-            <titleStmt>
-                <title>Doorjambs of the Northern tower of from Bat Chum (K. 268)</title>
-                <respStmt>
-                    <resp>Creation of the file</resp>
-                    <persName ref="part:chch">
-                        <forename>Chloé</forename>
-                        <surname>Chollet</surname>
-                    </persName>
-                </respStmt>
-                <respStmt>
-                    <resp>intellectual authorship of edition</resp>
-                    <persName ref="part:geco">
-                        <forename>George</forename>
-                        <surname>Cœdès</surname>
-                    </persName>
-                </respStmt>
-            </titleStmt>         
-            <publicationStmt>
-                <authority>DHARMA
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjambs of the Northern tower of from Bat Chum (K. 268)</title>
+            <respStmt>
+               <resp>Creation of the file</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:geco">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA
                     <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).
                     </note>
-                </authority>
-                <pubPlace>Paris</pubPlace>
-                <idno type="filename">K0268</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                        <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
-                    </licence>
-                </availability>
-                <date from="2019" to="2025">2019-2025</date>
-            </publicationStmt>
-            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
-                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-                    <msIdentifier>
-                        <repository>DHARMAbase</repository>
-                        <idno/><!-- don't modify this -->
-                    </msIdentifier>
-                    <msContents><!-- describe the intellectual content of an inscription -->
-                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
-                    </msContents>
-                    <physDesc>
-                        <handDesc>
-                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                            <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+            </authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">K0268</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
 						<handNote xml:id="Pallava00001_hand2"></handNote>
 					 -->
-                        </handDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc>
-            <change who="part:chch" when="2020-06-08" status="draft">Correction of the edition's encoding and addition of Cœdès' translation</change>
-            <change who="part:chch" when="2020-05-03" status="draft">Added bibliography and modifications to the apparatus</change>
-            <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-            <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-            <change who="part:chch" when="2019" status="draft">Initial encoding of the text</change>
-        </revisionDesc>
-    </teiHeader>
-    <text xml:space="preserve">
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="part:chch" when="2020-06-08" status="draft">Correction of the edition's encoding and addition of Cœdès' translation</change>
+         <change who="part:chch" when="2020-05-03" status="draft">Added bibliography and modifications to the apparatus</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:chch" when="2019" status="draft">Initial encoding of the text</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
         <body>
             <div type="edition" xml:lang="x-oldkhmer-Latn">
                    <lg n="1" met="vasantatilakā">
-                        <l n="a"  enjamb="yes"><milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label><lb n="S1"/> <g type="dDandaOrn">.</g> vuddho virājati samādhi-samitsamr̥ddha</l>
-  <l n="b" >vairāgyahetinihatāripamāravīryyaḥ</l>
-<l n="c" ><lb n="S2"/>yo vāpya vodhim avinaśvara-rājya-lakṣmīn</l>
- <l n="d" >nirvvāṇa-maṇdira-vare ramate dhirājaḥ <g type="dDandaOrn">.</g></l>
+                        <l n="a" enjamb="yes"><milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label><lb n="S1"/> <g type="dDandaOrn">.</g> vuddho virājati samādhi-samitsamr̥ddha</l>
+  <l n="b">vairāgyahetinihatāripamāravīryyaḥ</l>
+<l n="c"><lb n="S2"/>yo vāpya vodhim avinaśvara-rājya-lakṣmīn</l>
+ <l n="d">nirvvāṇa-maṇdira-vare ramate dhirājaḥ <g type="dDandaOrn">.</g></l>
                    </lg>
                     <lg n="2" met="vasantatilakā">
-                       <l n="a" ><lb n="S3"/>śri-bajrapāṇir avatān mahatāṁ vibhūtiṁ</l>
- <l n="b" >yo 'dvinmadāpakr̥tikalyam akunthitāgram·</l>
-<l n="c" ><lb n="S4"/><orig>b</orig>ajraṁ vahan prahasatīva sahasra-netraṁ</l>
-     <l n="d" >saṅgrāma-vairimadakunthita-vandhya-<orig>b</orig>ajram· <g type="dDandaOrn">.</g></l>
+                       <l n="a"><lb n="S3"/>śri-bajrapāṇir avatān mahatāṁ vibhūtiṁ</l>
+ <l n="b">yo 'dvinmadāpakr̥tikalyam akunthitāgram·</l>
+<l n="c"><lb n="S4"/><orig>b</orig>ajraṁ vahan prahasatīva sahasra-netraṁ</l>
+     <l n="d">saṅgrāma-vairimadakunthita-vandhya-<orig>b</orig>ajram· <g type="dDandaOrn">.</g></l>
                        </lg>
                      <lg n="3" met="śārdūlavikrīḍita">
-<l n="a" ><lb n="S5"/>prajñāpāramitā vibhāti bhuvanāmbhojodaya-śrī-karī</l>
-<l n="b" >kālākāra-mahāndhakāramathanī bhūtārtha-saṁvodhinī</l>
-<l n="c" ><lb n="S6"/>yā līlām api maṇdalasya dadhatī nirvvāṇa-vīthīraver</l>
- <l n="d" >abhrāntā rucim ātanoty api hitān naktan divaṁ bhāsvatīm· <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="S5"/>prajñāpāramitā vibhāti bhuvanāmbhojodaya-śrī-karī</l>
+<l n="b">kālākāra-mahāndhakāramathanī bhūtārtha-saṁvodhinī</l>
+<l n="c"><lb n="S6"/>yā līlām api maṇdalasya dadhatī nirvvāṇa-vīthīraver</l>
+ <l n="d">abhrāntā rucim ātanoty api hitān naktan divaṁ bhāsvatīm· <g type="dDandaOrn">.</g></l>
                     </lg>
                       <lg n="4" met="anuṣṭubh">
-                          <l n="a" ><lb n="S7"/>Āsīt saṣadrasaiśvaryyān</l>
-                          <l n="b" >dharmmāḍhyāṁvasudhān dadhat·</l>
-<l n="c" ><lb n="S8"/>śrī-madrājendrayarmmeśaḥ</l>
-                          <l n="d" >pr̥thuvat pr̥thu-vikramaḥ <g type="dDandaOrn">.</g></l>
+                          <l n="a"><lb n="S7"/>Āsīt saṣadrasaiśvaryyān</l>
+                          <l n="b">dharmmāḍhyāṁvasudhān dadhat·</l>
+<l n="c"><lb n="S8"/>śrī-madrājendrayarmmeśaḥ</l>
+                          <l n="d">pr̥thuvat pr̥thu-vikramaḥ <g type="dDandaOrn">.</g></l>
                       </lg>
                     <lg n="5" met="anuṣṭubh">
- <l n="a"  enjamb="yes"><lb n="S9"/>dagdhe smare nirāsthāna</l>
-                        <l n="b" >śokānalaśamād iva</l>
- <l n="c"  enjamb="yes"><lb n="S10"/>nimagnānaṅgakāntir yyat</l>
-                        <l n="d" >tanukāntisudhāmvudhau <g type="dDandaOrn">.</g></l>
+ <l n="a" enjamb="yes"><lb n="S9"/>dagdhe smare nirāsthāna</l>
+                        <l n="b">śokānalaśamād iva</l>
+ <l n="c" enjamb="yes"><lb n="S10"/>nimagnānaṅgakāntir yyat</l>
+                        <l n="d">tanukāntisudhāmvudhau <g type="dDandaOrn">.</g></l>
                     </lg>
 <lg n="6" met="anuṣṭubh">
-<l n="a" ><lb n="S11"/>trailokya-lakṣmīm ālokya</l>
-    <l n="b" >serṣyā yasyāṅga-saṅginīm·</l>
-<l n="c" ><lb n="S12"/>Indrādīn vodhayantīva</l>
-    <l n="d" >kīrttis strī daśa-dig-drutā <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="S11"/>trailokya-lakṣmīm ālokya</l>
+    <l n="b">serṣyā yasyāṅga-saṅginīm·</l>
+<l n="c"><lb n="S12"/>Indrādīn vodhayantīva</l>
+    <l n="d">kīrttis strī daśa-dig-drutā <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="7" met="anuṣṭubh">
-<l n="a"  enjamb="yes"><lb n="S13"/>Inamaṇdalasantāpa</l>
-    <l n="c" >paṭunā yasya tejasā</l>
-<l n="c" ><lb n="S14"/>santāpitā īvādyāpi</l>
-    <l n="c" >pivaty arkkaḥ karair apaḥ <g type="dDandaOrn">.</g></l>
+<l n="a" enjamb="yes"><lb n="S13"/>Inamaṇdalasantāpa</l>
+    <l n="c">paṭunā yasya tejasā</l>
+<l n="c"><lb n="S14"/>santāpitā īvādyāpi</l>
+    <l n="c">pivaty arkkaḥ karair apaḥ <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="8" met="anuṣṭubh">
-<l n="a" ><lb n="S15"/>paṭupratāpataptānyaḥ</l>
-    <l n="b" >padmāruḍhaḥ prajā-patiḥ</l>
-<l n="c" ><lb n="S16"/>kīrtti-dugdhāmvudhau namrān·</l>
-    <l n="d" >rāja-haṁsān nyamajjayat· <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="S15"/>paṭupratāpataptānyaḥ</l>
+    <l n="b">padmāruḍhaḥ prajā-patiḥ</l>
+<l n="c"><lb n="S16"/>kīrtti-dugdhāmvudhau namrān·</l>
+    <l n="d">rāja-haṁsān nyamajjayat· <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="9" met="anuṣṭubh">
-<l n="a" ><lb n="S17"/>vikramākrāntabhuvane</l>
-    <l n="b" >śrīdhare sarvvadevatāḥ</l>
-<l n="c" ><lb n="S18"/>muditā valitaḥ kṣīṇād</l>
-    <l n="d" >vivr̥ddhād eva yatra tu <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="S17"/>vikramākrāntabhuvane</l>
+    <l n="b">śrīdhare sarvvadevatāḥ</l>
+<l n="c"><lb n="S18"/>muditā valitaḥ kṣīṇād</l>
+    <l n="d">vivr̥ddhād eva yatra tu <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="10" met="anuṣṭubh">
-<l n="a" ><lb n="S19"/>śrī-rāja-siṁha mahiṣī</l>
-    <l n="b" >śritā śūnyāpy areḥ purī</l>
-<l n="c" ><lb n="S20"/>sarājyalīleva bhiyā</l>
-    <l n="d" >yato nv antarddadhe vane <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="S19"/>śrī-rāja-siṁha mahiṣī</l>
+    <l n="b">śritā śūnyāpy areḥ purī</l>
+<l n="c"><lb n="S20"/>sarājyalīleva bhiyā</l>
+    <l n="d">yato nv antarddadhe vane <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="11" met="anuṣṭubh">
-<l n="a" ><lb n="S21"/>tejobhir bhāsvatā yena</l>
-    <l n="b" >kartrāpi bhuvana-dyutim·</l>
-<l n="c" ><lb n="S22"/>yāne kenāpi sarvvāśā</l>
-    <l n="d" >vala-dhūlyāndha-kāritā <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="S21"/>tejobhir bhāsvatā yena</l>
+    <l n="b">kartrāpi bhuvana-dyutim·</l>
+<l n="c"><lb n="S22"/>yāne kenāpi sarvvāśā</l>
+    <l n="d">vala-dhūlyāndha-kāritā <g type="dDandaOrn">.</g></l>
 </lg>
             <lg n="12" met="anuṣṭubh">
-<l n="a" ><lb n="S23"/>ratna-siṁhāsana-giriṁ</l>
-                <l n="b" >rāja-siṁhe dhirohati</l>
-<l n="c" ><lb n="S24"/>yasmin vīryyeṇa santrastāḥ</l>
-                <l n="d" >praṇemū rāja-kuñjarāḥ <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="S23"/>ratna-siṁhāsana-giriṁ</l>
+                <l n="b">rāja-siṁhe dhirohati</l>
+<l n="c"><lb n="S24"/>yasmin vīryyeṇa santrastāḥ</l>
+                <l n="d">praṇemū rāja-kuñjarāḥ <g type="dDandaOrn">.</g></l>
             </lg>
  <lg n="13" met="anuṣṭubh">
-<l n="a" ><lb n="S25"/>jyāyāṁ sandviṣatīva śrīḥ</l>
-     <l n="b" >kr̥ṣṇan nidrānurāginam·</l>
-<l n="c" ><lb n="S26"/>nitya-vodhini śubhrāṅge</l>
-     <l n="d" >yūni yatrānurāginī <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="S25"/>jyāyāṁ sandviṣatīva śrīḥ</l>
+     <l n="b">kr̥ṣṇan nidrānurāginam·</l>
+<l n="c"><lb n="S26"/>nitya-vodhini śubhrāṅge</l>
+     <l n="d">yūni yatrānurāginī <g type="dDandaOrn">.</g></l>
  </lg>
  <lg n="14" met="anuṣṭubh">
-<l n="a" ><lb n="S27"/><orig>v</orig>ānāri-vijaya-śrīddham</l>
-     <l n="b" >aniruddha-valoddhuram·</l>
-<l n="c" ><lb n="S28"/>murārim iva dig-rājā</l>
-     <l n="d" >yam ajayyaṁ yudhīdire <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="S27"/><orig>v</orig>ānāri-vijaya-śrīddham</l>
+     <l n="b">aniruddha-valoddhuram·</l>
+<l n="c"><lb n="S28"/>murārim iva dig-rājā</l>
+     <l n="d">yam ajayyaṁ yudhīdire <g type="dDandaOrn">.</g></l>
  </lg>
                     <lg n="15" met="anuṣṭubh">
-<l n="a"  enjamb="yes"><lb n="S29"/>bhuvanodaya-saṁvarddha</l>
-                        <l n="b" >sāmādi-vidhi-śālinī</l>
-<l n="c" ><lb n="S30"/>dig-indra-mūrddha-vidhr̥tā</l>
-                        <l n="d" >yasyājñendra-guror iva <g type="dDandaOrn">.</g></l>
+<l n="a" enjamb="yes"><lb n="S29"/>bhuvanodaya-saṁvarddha</l>
+                        <l n="b">sāmādi-vidhi-śālinī</l>
+<l n="c"><lb n="S30"/>dig-indra-mūrddha-vidhr̥tā</l>
+                        <l n="d">yasyājñendra-guror iva <g type="dDandaOrn">.</g></l>
                     </lg>
 <lg n="16" met="anuṣṭubh">
-<l n="a" ><lb n="S31"/>yasya cakrī gadī śaṅkhī</l>
-    <l n="b" >dharaṇī-<choice><sic>v</sic><corr>dh</corr></choice>arasannidhiḥ</l>
-<l n="c" ><lb n="S32"/>yudhi dvi-cchrī-kacagrāhī</l>
-    <l n="d" >viṣṇor iva bhujo vabhau <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="S31"/>yasya cakrī gadī śaṅkhī</l>
+    <l n="b">dharaṇī-<choice><sic>v</sic><corr>dh</corr></choice>arasannidhiḥ</l>
+<l n="c"><lb n="S32"/>yudhi dvi-cchrī-kacagrāhī</l>
+    <l n="d">viṣṇor iva bhujo vabhau <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="17" met="anuṣṭubh">
-<l n="a" ><lb n="S33"/>yoṅga-saundaryya-dagdhāvdhau</l>
-    <l n="b" >dhautaṁ pūrṇṇendu-maṇdalam·</l>
-<l n="c"  enjamb="yes"><lb n="S34"/>vyaṅkapaṅkan<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>raṁ lakṣmī</l>
-    <l n="d" >bhāsvaraṁ vadanan dadhau <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="S33"/>yoṅga-saundaryya-dagdhāvdhau</l>
+    <l n="b">dhautaṁ pūrṇṇendu-maṇdalam·</l>
+<l n="c" enjamb="yes"><lb n="S34"/>vyaṅkapaṅkan<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>raṁ lakṣmī</l>
+    <l n="d">bhāsvaraṁ vadanan dadhau <g type="dDandaOrn">.</g></l>
 </lg>
                     <lg n="18" met="anuṣṭubh">
-<l n="a" ><lb n="S35"/>rājāṇāṁ dyu <seg met="-+"><gap reason="lost" quantity="2" unit="character"/></seg> vendrā</l>
-                        <l n="b" >jitād rājyaṁ vibhīṣaṇe</l>
-<l n="c" ><lb n="S36"/>pre <seg met="===-+"><gap reason="lost" quantity="5" unit="character"/></seg> th<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>ṇī</l>
-                        <l n="d" >yo dād rāma ivāparaḥ <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="S35"/>rājāṇāṁ dyu <seg met="-+"><gap reason="lost" quantity="2" unit="character"/></seg> vendrā</l>
+                        <l n="b">jitād rājyaṁ vibhīṣaṇe</l>
+<l n="c"><lb n="S36"/>pre <seg met="===-+"><gap reason="lost" quantity="5" unit="character"/></seg> th<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>ṇī</l>
+                        <l n="d">yo dād rāma ivāparaḥ <g type="dDandaOrn">.</g></l>
                     </lg>
 <lg n="19" met="anuṣṭubh">
-<l n="a" ><lb n="S37"/>makhānalo <seg met="-++="><gap reason="lost" quantity="4" unit="character"/></seg></l>
-    <l n="b" >mahā-mahiṣa-maṇdale</l>
-<l n="c" ><lb n="S38"/>yasya <seg met="==-+"><gap reason="lost" quantity="4" unit="character"/></seg> kīrṇne</l>
-    <l n="d" >kalyaśvaḥ kvāpi vidrutaḥ <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="S37"/>makhānalo <seg met="-++="><gap reason="lost" quantity="4" unit="character"/></seg></l>
+    <l n="b">mahā-mahiṣa-maṇdale</l>
+<l n="c"><lb n="S38"/>yasya <seg met="==-+"><gap reason="lost" quantity="4" unit="character"/></seg> kīrṇne</l>
+    <l n="d">kalyaśvaḥ kvāpi vidrutaḥ <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="20" met="anuṣṭubh">
-<l n="a" ><lb n="S39"/>Ekena sakalaṅ krāntvā</l>
-    <l n="b" >bhuvanaṁ vikrameṇa yaḥ</l>
-<l n="c" ><lb n="S40"/>śramād ivāṅghrisānnidhyaṁ</l>
-    <l n="d" >bhūbhr̥tāṁ mūrddhani vyadhāt· <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="S39"/>Ekena sakalaṅ krāntvā</l>
+    <l n="b">bhuvanaṁ vikrameṇa yaḥ</l>
+<l n="c"><lb n="S40"/>śramād ivāṅghrisānnidhyaṁ</l>
+    <l n="d">bhūbhr̥tāṁ mūrddhani vyadhāt· <g type="dDandaOrn">.</g></l>
 </lg>
                     <lg n="21" met="anuṣṭubh">
-<l n="a" ><milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label><lb n="N1"/><lb n="N1"/>
+<l n="a"><milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label><lb n="N1"/><lb n="N1"/>
     <seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-    <l n="b" ><seg met="===="><gap reason="lost" quantity="4" unit="character"/></seg>ṅghrinīrajam·</l>
-<l n="c" ><lb n="N2"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-    <l n="d" ><seg met="===="><gap reason="lost" quantity="4" unit="character"/></seg>ṇdalaśriyaḥ <g type="dDandaOrn">.</g></l>
+    <l n="b"><seg met="===="><gap reason="lost" quantity="4" unit="character"/></seg>ṅghrinīrajam·</l>
+<l n="c"><lb n="N2"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+    <l n="d"><seg met="===="><gap reason="lost" quantity="4" unit="character"/></seg>ṇdalaśriyaḥ <g type="dDandaOrn">.</g></l>
                     </lg>
 <lg n="22" met="anuṣṭubh">
-<l n="a" ><lb n="N3"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-<l n="b" ><seg met="===="><gap reason="lost" quantity="4" unit="character"/></seg>d dilīpavat·</l>
-<l n="c" ><lb n="N4"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-<l n="d" ><seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg>nirjjitāt· <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N3"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="b"><seg met="===="><gap reason="lost" quantity="4" unit="character"/></seg>d dilīpavat·</l>
+<l n="c"><lb n="N4"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="d"><seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg>nirjjitāt· <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="23" met="anuṣṭubh">
-<l n="a" ><lb n="N5"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-<l n="b" ><seg met="===="><gap reason="lost" quantity="4" unit="character"/></seg>mabhr̥d-dhruvam·</l>
-<l n="c" ><lb n="N6"/>meru<seg met="==-++="><gap reason="lost" quantity="6" unit="character"/></seg></l>
-<l n="d" ><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg> yena siñcati <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N5"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="b"><seg met="===="><gap reason="lost" quantity="4" unit="character"/></seg>mabhr̥d-dhruvam·</l>
+<l n="c"><lb n="N6"/>meru<seg met="==-++="><gap reason="lost" quantity="6" unit="character"/></seg></l>
+<l n="d"><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg> yena siñcati <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="24" met="anuṣṭubh">
-<l n="a" ><lb n="N7"/>rājendu<seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg></l>
-<l n="b" ><supplied reason="lost">yaśodha</supplied>ra-purāmvujam·</l>
-<l n="c" ><lb n="N8"/>śribhiḥ <seg met="==-++="><gap reason="lost" quantity="6" unit="character"/></seg></l> 
-<l n="d" ><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg>śadudayaṁ punaḥ <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N7"/>rājendu<seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg></l>
+<l n="b"><supplied reason="lost">yaśodha</supplied>ra-purāmvujam·</l>
+<l n="c"><lb n="N8"/>śribhiḥ <seg met="==-++="><gap reason="lost" quantity="6" unit="character"/></seg></l> 
+<l n="d"><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg>śadudayaṁ punaḥ <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="25" met="anuṣṭubh">
-<l n="a" ><lb n="N9"/>yaśo<supplied reason="lost">dhara-taṭākasya</supplied></l>
-<l n="b" ><supplied reason="lost">madhye</supplied>-śrīddhe dharādhare</l>
-<l n="c" ><lb n="N10"/>merāv iva <seg met="-++="><gap reason="lost" quantity="4" unit="character"/></seg></l>
-<l n="d" ><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>n samatiṣṭhipat· <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N9"/>yaśo<supplied reason="lost">dhara-taṭākasya</supplied></l>
+<l n="b"><supplied reason="lost">madhye</supplied>-śrīddhe dharādhare</l>
+<l n="c"><lb n="N10"/>merāv iva <seg met="-++="><gap reason="lost" quantity="4" unit="character"/></seg></l>
+<l n="d"><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>n samatiṣṭhipat· <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="26" met="anuṣṭubh">
-<l n="a" ><lb n="N11"/>śrīr ambhodhici<seg met="++="><gap reason="lost" quantity="3" unit="character"/></seg></l>
-<l n="b" ><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>paśamād iva</l>
-<l n="c" ><lb n="N12"/>Āśrayad yam ina<seg met="+="><gap reason="lost" quantity="2" unit="character"/></seg></l>
-<l n="d" ><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg>kojjvala-maṇdalam· <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N11"/>śrīr ambhodhici<seg met="++="><gap reason="lost" quantity="3" unit="character"/></seg></l>
+<l n="b"><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>paśamād iva</l>
+<l n="c"><lb n="N12"/>Āśrayad yam ina<seg met="+="><gap reason="lost" quantity="2" unit="character"/></seg></l>
+<l n="d"><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg>kojjvala-maṇdalam· <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="27" met="anuṣṭubh">
-<l n="a"  enjamb="yes"><lb n="N13"/>dharmmād ivāśritā yasm<supplied reason="lost">inn</supplied></l>
-    <l n="b" ><supplied reason="lost">a</supplied>dharmmeṇa virodhinaḥ</l>
-<l n="c" ><lb n="N14"/>niśreya-sābhyudayayos</l>
-    <l n="d" >siddhiṁ lokāḥ prapedire <g type="dDandaOrn">.</g></l>
+<l n="a" enjamb="yes"><lb n="N13"/>dharmmād ivāśritā yasm<supplied reason="lost">inn</supplied></l>
+    <l n="b"><supplied reason="lost">a</supplied>dharmmeṇa virodhinaḥ</l>
+<l n="c"><lb n="N14"/>niśreya-sābhyudayayos</l>
+    <l n="d">siddhiṁ lokāḥ prapedire <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="28" met="anuṣṭubh">
-<l n="a" ><lb n="N15"/>yuddhe dvābhyāṁ dvayoryyoge</l>
-    <l n="b" >vallabhe dve drute dvayam·</l>
-<l n="c" ><lb n="N16"/>padmayā yasya kīrttis svar</l>
-    <l n="d" >vvipatyārer vvadhūr vvanam· <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N15"/>yuddhe dvābhyāṁ dvayoryyoge</l>
+    <l n="b">vallabhe dve drute dvayam·</l>
+<l n="c"><lb n="N16"/>padmayā yasya kīrttis svar</l>
+    <l n="d">vvipatyārer vvadhūr vvanam· <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="29" met="anuṣṭubh">
-<l n="a" ><lb n="N17"/>hiraṇyakaśipu-śrībhir</l>
-   <l n="b" >vviyuktaṁ bhuvanaṁ vyadhāt·</l>
-<l n="c" ><lb n="N18"/>nr̥siṁho yas tu vipulaṁ</l>
-    <l n="d" >vicitrañ caritaṁ satām· <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N17"/>hiraṇyakaśipu-śrībhir</l>
+   <l n="b">vviyuktaṁ bhuvanaṁ vyadhāt·</l>
+<l n="c"><lb n="N18"/>nr̥siṁho yas tu vipulaṁ</l>
+    <l n="d">vicitrañ caritaṁ satām· <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="30" met="anuṣṭubh">
-<l n="a" ><lb n="N19"/>Abdhin devair mmathitvaikā</l>
-    <l n="b" >svārthā śrīś śauriṇā hr̥tā</l>
-<l n="c" ><lb n="N20"/>yuddhābdhiṁ suhr̥d-arthāpi</l>
-    <l n="d" >samastaikena yena tu <g type="dDandaOrn">.</g> <g type="eye"/> <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N19"/>Abdhin devair mmathitvaikā</l>
+    <l n="b">svārthā śrīś śauriṇā hr̥tā</l>
+<l n="c"><lb n="N20"/>yuddhābdhiṁ suhr̥d-arthāpi</l>
+    <l n="d">samastaikena yena tu <g type="dDandaOrn">.</g> <g type="eye"/> <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="31" met="anuṣṭubh">
-<l n="a" ><lb n="N21"/>cāraś candaujasas tasya</l>
-    <l n="b" >bhakty-āṅghrau vaddhayābabhau</l>
-<l n="c" ><lb n="N22"/>śrī-kavīndrārimathanaś</l>
-    <l n="d" >śriyāruṇa ivāmvuje <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N21"/>cāraś candaujasas tasya</l>
+    <l n="b">bhakty-āṅghrau vaddhayābabhau</l>
+<l n="c"><lb n="N22"/>śrī-kavīndrārimathanaś</l>
+    <l n="d">śriyāruṇa ivāmvuje <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="32" met="anuṣṭubh">
-<l n="a" ><lb n="N23"/>caturbhiś caturopāyair</l>
-    <l n="b" >yaśaskaravivekinī</l>
-<l n="c" ><lb n="N24"/>dharmmyārthasid dhikartrīyad</l>
-    <l n="d" >vuddhir nītir ivābabhau <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N23"/>caturbhiś caturopāyair</l>
+    <l n="b">yaśaskaravivekinī</l>
+<l n="c"><lb n="N24"/>dharmmyārthasid dhikartrīyad</l>
+    <l n="d">vuddhir nītir ivābabhau <g type="dDandaOrn">.</g></l>
 <lg n="33" met="anuṣṭubh">
-<l n="a" ><lb n="N25"/>vauddha-dharmmaikatāno yo</l>
-    <l n="b" >vauddhānām agraṇīr api</l>
-<l n="c" ><lb n="N26"/>kenāpi bhūpatau bhaktir</l>
-    <l n="d" >nnaddhāsmin parameśvare <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N25"/>vauddha-dharmmaikatāno yo</l>
+    <l n="b">vauddhānām agraṇīr api</l>
+<l n="c"><lb n="N26"/>kenāpi bhūpatau bhaktir</l>
+    <l n="d">nnaddhāsmin parameśvare <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="34" met="anuṣṭubh">
-<l n="a" ><lb n="N27"/>yaśodhara-pure ramyaṁ</l>
-    <l n="b" >mandiraṁ vivudha-priyaḥ</l>
-<l n="c" ><lb n="N28"/>śilpavid viśvakarmmeva</l> 
-     <l n="d" >yo nenendreṇa kāritaḥ<g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N27"/>yaśodhara-pure ramyaṁ</l>
+    <l n="b">mandiraṁ vivudha-priyaḥ</l>
+<l n="c"><lb n="N28"/>śilpavid viśvakarmmeva</l> 
+     <l n="d">yo nenendreṇa kāritaḥ<g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="35" met="anuṣṭubh">
-<l n="a" ><lb n="N29"/>preraṇe sarvvalokasya</l>
-    <l n="b" >yaś śailādikr̥tau kr̥tī</l>
-<l n="c" ><lb n="N30"/>yaśodharata<choice><orig>t</orig><reg>ṭ</reg></choice>ākasya</l>
-    <l n="d" >madhye rājñā niyojitaḥ <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N29"/>preraṇe sarvvalokasya</l>
+    <l n="b">yaś śailādikr̥tau kr̥tī</l>
+<l n="c"><lb n="N30"/>yaśodharata<choice><orig>t</orig><reg>ṭ</reg></choice>ākasya</l>
+    <l n="d">madhye rājñā niyojitaḥ <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="36" met="śārdūlavikrīḍita">
-<l n="a" ><lb n="N31"/>saṁsārārṇnavamocanaṁ praṇayinān nirvvāṇa saukhyaṁ yaśaś</l>
- <l n="b" >śubhran dīpitadiṅ-mukhaṁ sugamanaṁ vandhoś ca lokadvayam·</l>
-<l n="c" ><lb n="N32"/>prajñāpāramitātra tena vidadhāty etāny adhiṣṭhāpitā</l> 
-<l n="d" >karmmaikaṁ hi satān tanoti vahalaṁ sārvvaṁ phalaṁ vandhuram· <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N31"/>saṁsārārṇnavamocanaṁ praṇayinān nirvvāṇa saukhyaṁ yaśaś</l>
+ <l n="b">śubhran dīpitadiṅ-mukhaṁ sugamanaṁ vandhoś ca lokadvayam·</l>
+<l n="c"><lb n="N32"/>prajñāpāramitātra tena vidadhāty etāny adhiṣṭhāpitā</l> 
+<l n="d">karmmaikaṁ hi satān tanoti vahalaṁ sārvvaṁ phalaṁ vandhuram· <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="37" met="anuṣṭubh">
-<l n="a" ><lb n="N33"/>nitya-vaddha-nivāsena</l> 
-    <l n="b" >vītarāgeṇa vandhuram·</l>
-<l n="c" ><lb n="N34"/>prāsāda-maṇdalaṁ yogī</l>
-    <l n="d" >sa hr̥nnīrajavad vyadhāt· <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N33"/>nitya-vaddha-nivāsena</l> 
+    <l n="b">vītarāgeṇa vandhuram·</l>
+<l n="c"><lb n="N34"/>prāsāda-maṇdalaṁ yogī</l>
+    <l n="d">sa hr̥nnīrajavad vyadhāt· <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="38" met="anuṣṭubh">
-<l n="a" ><lb n="N35"/>svacchena pāvanenāptāṁ</l>
-    <l n="b" >payasā parikhām imām·</l>
-<l n="c" ><lb n="N36"/>yathā nirvvāṇa-saṁprāptiṁ</l>
-    <l n="d" >jñānena sa vinirmmame <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N35"/>svacchena pāvanenāptāṁ</l>
+    <l n="b">payasā parikhām imām·</l>
+<l n="c"><lb n="N36"/>yathā nirvvāṇa-saṁprāptiṁ</l>
+    <l n="d">jñānena sa vinirmmame <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="39" met="anuṣṭubh">
-<l n="a" ><lb n="N37"/>sarvva-sa<choice><sic>t</sic><corr>tt</corr></choice>vābhinandārthan</l>
-    <l n="b" >ta<choice><orig>t</orig><reg>ṭ</reg></choice>ākaṁ mahatāṁ matam·</l>
-<l n="c" ><lb n="N38"/>sa yathā-caritaṁ vauddhaṁ</l>
-    <l n="d" >vidadhau dharmma-varddhanam· <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N37"/>sarvva-sa<choice><sic>t</sic><corr>tt</corr></choice>vābhinandārthan</l>
+    <l n="b">ta<choice><orig>t</orig><reg>ṭ</reg></choice>ākaṁ mahatāṁ matam·</l>
+<l n="c"><lb n="N38"/>sa yathā-caritaṁ vauddhaṁ</l>
+    <l n="d">vidadhau dharmma-varddhanam· <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="40" met="anuṣṭubh">
-<l n="a" ><lb n="N39"/>rāja-haṅsāvagāhārhe</l>
-    <l n="b" >puṇye rāja-purohitaḥ</l>
-<l n="c" ><lb n="N40"/>snāyakāḥ parikhānīre</l>
-    <l n="d" >vīprā eveti tan-matiḥ <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N39"/>rāja-haṅsāvagāhārhe</l>
+    <l n="b">puṇye rāja-purohitaḥ</l>
+<l n="c"><lb n="N40"/>snāyakāḥ parikhānīre</l>
+    <l n="d">vīprā eveti tan-matiḥ <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="41" met="anuṣṭubh">
-<l n="a" ><lb n="N41"/>taṭāka-vanatas tasya</l>
-    <l n="b" >mātaṅgās taṭabhaṅginaḥ</l>
-<l n="c" ><lb n="N42"/>sādhu-siṅhair nnirudhyantān</l>
-    <l n="d" >dharmma-kesara-bhāsuraiḥ <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N41"/>taṭāka-vanatas tasya</l>
+    <l n="b">mātaṅgās taṭabhaṅginaḥ</l>
+<l n="c"><lb n="N42"/>sādhu-siṅhair nnirudhyantān</l>
+    <l n="d">dharmma-kesara-bhāsuraiḥ <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="42" met="mālinī">
-<l n="a" ><lb n="N43"/>Anavaratavināśānītapāpāndhakāraṁñ</l>
- <l n="b" >caturad <gap reason="lost" quantity="1" unit="character"/> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i <seg met="+++-+"><gap reason="lost" quantity="5" unit="character"/></seg> śeṣalokam·</l>
-<l n="c" ><lb n="N44"/> ravim iva vidadhānaṁ puṇya-padmodayarddhin</l>
-<l n="d" >nama<seg met="----+++"><gap reason="lost" quantity="7" unit="character"/></seg> janaṁ <gap reason="lost" quantity="1" unit="character"/> nu bhāvī <g type="dDandaOrn">.</g></l>
+<l n="a"><lb n="N43"/>Anavaratavināśānītapāpāndhakāraṁñ</l>
+ <l n="b">caturad <gap reason="lost" quantity="1" unit="character"/> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i <seg met="+++-+"><gap reason="lost" quantity="5" unit="character"/></seg> śeṣalokam·</l>
+<l n="c"><lb n="N44"/> ravim iva vidadhānaṁ puṇya-padmodayarddhin</l>
+<l n="d">nama<seg met="----+++"><gap reason="lost" quantity="7" unit="character"/></seg> janaṁ <gap reason="lost" quantity="1" unit="character"/> nu bhāvī <g type="dDandaOrn">.</g></l>
 </lg>
 <lg n="43" met="anuṣṭubh">
-<l n="a" ><lb n="N45"/>śivācyutābhidhānena</l>
-    <l n="b" ><seg met="====-+-"><gap reason="lost" quantity="7" unit="character"/></seg>ta</l>
-<l n="c" ><lb n="N46"/>prāsāde <seg met="=-++="><gap reason="lost" quantity="5" unit="character"/></seg></l> 
-<l n="d" ><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg>padyanavandha <seg met="="><gap reason="lost" quantity="1" unit="character"/></seg></l>
+<l n="a"><lb n="N45"/>śivācyutābhidhānena</l>
+    <l n="b"><seg met="====-+-"><gap reason="lost" quantity="7" unit="character"/></seg>ta</l>
+<l n="c"><lb n="N46"/>prāsāde <seg met="=-++="><gap reason="lost" quantity="5" unit="character"/></seg></l> 
+<l n="d"><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg>padyanavandha <seg met="="><gap reason="lost" quantity="1" unit="character"/></seg></l>
 </lg>
 </lg>
                 </div>
@@ -449,7 +451,7 @@
                     <rdg source="bib:Mertens2005_01">viprā</rdg>
            </app> 
  <app loc="N42"> 
-<lem  source="bib:Coedes1908_04">siṅhair</lem>
+<lem source="bib:Coedes1908_04">siṅhair</lem>
      <rdg source="bib:Mertens2005_01">siṁhair</rdg> <!--Mertens must have emended automatically. -->
  </app>
                     <app loc="N43"> 

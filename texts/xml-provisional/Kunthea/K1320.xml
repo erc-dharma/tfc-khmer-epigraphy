@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Stela of Īśānavarman in Museum of Vat Phu (K. 1320)</title>
@@ -10,13 +13,13 @@
                   <surname>Chhom</surname>
                </persName>
             </respStmt>
-         	<respStmt>
-         		<resp>intellectual authorship of edition</resp>
-         		<persName ref="part:dogo">
-         			<forename>Dominic</forename>
-         			<surname>Goodall</surname>
-         		</persName>
-         	</respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>DHARMA
@@ -28,7 +31,7 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-               	<p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
@@ -37,10 +40,12 @@
             <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
                <msIdentifier>
                   <repository>DHARMAbase</repository>
-                  <idno/><!-- don't modify this -->
+                  <idno/>
+                  <!-- don't modify this -->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
-                  <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
                </msContents>
                <physDesc>
                   <handDesc>
@@ -55,12 +60,13 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc status="draft"><change who="part:kuch" when="2020-04-29">Adding of English translation, apparatus and bibliography</change>
-        <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-        <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-        <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
-     </revisionDesc>
-  </teiHeader>
+      <revisionDesc status="draft">
+         <change who="part:kuch" when="2020-04-29">Adding of English translation, apparatus and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
    <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="san-Latn">
@@ -770,7 +776,7 @@
             <p rend="stanza" n="95">C’est ainsi que ce roi suprême, bien qu’il soit lui-même le point d’appui pour les requêtes d’une ribambelle de suppliants de toute sorte, bien qu’il n’ait jamais connu <supplied reason="explanation"><foreign>ajñātapūrvvī</foreign></supplied> auparavant <supplied reason="subaudible">même</supplied> le terme « supplication » <supplied reason="explanation"><foreign>yācanākhyām</foreign></supplied>, supplie les futurs rois des rois encore et encore :</p>
             <p rend="stanza" n="96">Ô vous qui êtes riches en mérite <supplied reason="explanation"><foreign>ṛddhapuṇyāḥ</foreign></supplied>, j’ai donné à Śrī Bhadreśvara les recettes qui proviennent de Liṅgapura avec l’idée qu’elles soient propriété du dieu : <supplied reason="subaudible">il s’agit d’une action pieuse</supplied> adoptive <supplied reason="subaudible">que vous devez partager</supplied> avec moi,  car le devoir <supplied reason="explanation"><foreign>dharmaḥ</foreign></supplied> d’un ami <supplied reason="subaudible">/parent</supplied> <supplied reason="subaudible">d’une œuvre pieuse</supplied> est quelque chose qui crée également du mérite <supplied reason="subaudible">comme la fondation indépendante de nouvelles institutions religieuses</supplied>.</p>
             </div>
-           <div type="translation" xml:lang="eng">
+           <div type="translation">
               <p rend="stanza" n="1">Hommage be to the Supreme Lord <supplied reason="explanation"><foreign>parameśvarāya</foreign></supplied>, who has as his body the Power that is called ”sentience”, in accordance with whose will the creation, maintenance and destruction are produced, each at the appropriate time <supplied reason="explanation"><foreign>kāle</foreign></supplied>, of the entire universe, from Brahmā <supplied reason="explanation"><foreign>nalinajādi</foreign>°</supplied> down to the grass <supplied reason="explanation">°<foreign>tṛṇāvasāna</foreign>°</supplied>.</p>
               <p rend="stanza" n="2">And may Dhūrjaṭi <supplied reason="explanation">Śiva</supplied> be victorious, who has as body the ether, the wind, the sun, water, earth, the self, fire and the moon, who is resplendent, who has the moon as his diadem; whose sovereignty <supplied reason="explanation"><foreign>īśatā</foreign></supplied> — <supplied reason="subaudible">already</supplied> fully <supplied reason="explanation"><foreign>alam</foreign></supplied> <supplied reason="subaudible">displayed</supplied> in his creation of the words and others <supplied reason="subaudible">of his cosmic acts</supplied>, <supplied reason="subaudible">which he accomplishes</supplied> through <supplied reason="subaudible">his yogic powers, such as</supplied> the capacity to become as small as an atom, etc. <supplied reason="explanation"><foreign>aṇimādyaiḥ</foreign></supplied> — is further <supplied reason="explanation"><foreign>bhūyaḥ</foreign></supplied> rendered visible <supplied reason="explanation"><foreign>sphuṭā</foreign></supplied> by the diadems of Brahmā and Hari <supplied reason="subaudible">placed</supplied> on his feet <supplied reason="explanation"><foreign>aṅghryoḥ</foreign></supplied>.</p>
               <p rend="stanza" n="3">May Bhavānī bestow generous prosperity to creatures, she whom the enemy of Love <supplied reason="subaudible">viz. Śiva</supplied> shrewdly <supplied reason="explanation"><foreign>nītyā</foreign></supplied> brought to a condition of being visibly half of his body, as though with the intention <supplied reason="explanation">°<foreign>dhiyā</foreign></supplied> of atoning for the fault of having burnt Love <supplied reason="explanation">°<foreign>daśārdhabāṇa</foreign>°</supplied> with the fire of his <supplied reason="subaudible">central</supplied> eye.</p>
@@ -782,7 +788,7 @@
               <p rend="stanza" n="9">This <supplied reason="subaudible">king</supplied>, who respected the authors of the treatises on grammar, <supplied reason="subaudible">and</supplied> although he was an expert in teaching about <supplied reason="subaudible">the correct formation of</supplied> words, rendered transitive <supplied reason="subaudible">the verbal root</supplied> bhū <supplied reason="explanation">"to be"</supplied> without a prefix in front of it <supplied reason="explanation"><foreign>ādau</foreign></supplied>, to arrive at the sense "exist" ...
                  <seg rend="pun">This <supplied reason="subaudible">king</supplied>, who respected the promulgators of laws, and being an expert at commanding by his word, caused the earth to work to obtain true wealth in a manner that was, for the first time <supplied reason="explanation"><foreign>ādau</foreign></supplied>, without troubles <supplied reason="explanation"><foreign>vinopasargeṇa</foreign></supplied>.</seg></p>
               <p rend="stanza" n="10">His kingdom shone like the face of the day, which brings forth the lotus <supplied reason="explanation"><foreign>sphuratpadmam</foreign></supplied>, which repels the night <supplied reason="explanation"><foreign>udastadoṣam</foreign></supplied>, which is enriched by the circle of rays of a favourable sun <supplied reason="explanation"><foreign>prasannabhāsvatkaramaṇḍalāḍhyam</foreign></supplied>, in which the redness of the sky <supplied reason="explanation">°<foreign>suramārgarāgam</foreign></supplied> is of incomparable splendour <supplied reason="explanation"><foreign>ananyatejaḥ</foreign>°</supplied>.
-              <seg rend="pun"></seg>His kingdom shone, in which Lakṣmī sparkled <supplied reason="explanation"><foreign>sphuratpadmam</foreign></supplied>, from which every fault had been chased away <supplied reason="explanation"><foreign>udastadoṣam</foreign></supplied>, which was serene <supplied reason="explanation"><foreign>prasanna</foreign>°</supplied>, radiant <supplied reason="explanation">°<foreign>bhāsvat</foreign>°</supplied>, and enriched by a mass of taxes <supplied reason="explanation">°<foreign>karamaṇḍalāḍhyam</foreign></supplied>, in which the passion of his subjects for reaching heaven was of incomparable ardour.</p>
+              <seg rend="pun"/>His kingdom shone, in which Lakṣmī sparkled <supplied reason="explanation"><foreign>sphuratpadmam</foreign></supplied>, from which every fault had been chased away <supplied reason="explanation"><foreign>udastadoṣam</foreign></supplied>, which was serene <supplied reason="explanation"><foreign>prasanna</foreign>°</supplied>, radiant <supplied reason="explanation">°<foreign>bhāsvat</foreign>°</supplied>, and enriched by a mass of taxes <supplied reason="explanation">°<foreign>karamaṇḍalāḍhyam</foreign></supplied>, in which the passion of his subjects for reaching heaven was of incomparable ardour.</p>
               <p rend="stanza" n="11">In his expeditions the agitation of the dust, augmented by his troops, masked the sun; let us not speak of <supplied reason="subaudible">the even more intense effects</supplied> of his fieriness <supplied reason="explanation"><foreign>pratāpaḥ</foreign></supplied>, made more severe by <supplied reason="subaudible">the might of</supplied> his arm, upon the crowd of other violent beings <supplied reason="subaudible">, namely his enemies</supplied>!</p>
               <p rend="stanza" n="12">Let us admit that in battle this expert in arms has repeatedly caused his enemies to dissolve back into the five elements as they drop their weapons; but the fact that with his sword he caused five enemies simultaneously to be killed, how on earth <supplied reason="explanation"><foreign>katham iva</foreign></supplied> could he do that, which no one else could accomplish?</p>
               <p rend="stanza" n="13">With its chariot, its horses and its coachman, installed on a high mountain, the sun is victorious <supplied reason="explanation"><foreign>vijetā</foreign></supplied> over its enemies the shades of darkness thanks to its thousand rays <supplied reason="explanation"><foreign>karaiḥ</foreign></supplied>; but he <supplied reason="subaudible">is victorious</supplied> in battle with <supplied reason="subaudible">just</supplied> one arm <supplied reason="explanation"><foreign>ekena kareṇa</foreign></supplied>, walking on foot and without seeking refuge in hard-to-reach places <supplied reason="explanation"><foreign>durgāṇi</foreign></supplied>.</p>

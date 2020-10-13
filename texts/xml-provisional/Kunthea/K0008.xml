@@ -1,82 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="eng">
-        <fileDesc>
-            <titleStmt>
-                <title>Doorjamb at Prasat Pram Loveng (K. 8)</title>
-                <respStmt>
-                    <resp>EpiDoc Encoding</resp>
-                    <persName ref="part:kuch">
-                        <forename>Kunthea</forename>
-                        <surname>Chhom</surname>
-                    </persName>
-                </respStmt>
-                <respStmt>
-                    <resp>intellectual authorship of edition</resp>
-                    <persName ref="part:doso">
-                        <forename>Dominique</forename>
-                        <surname>Soutif</surname>
-                    </persName>
-                    <persName ref="part:kuch">
-                        <forename>Kunthea</forename>
-                        <surname>Chhom</surname>
-                    </persName>
-                </respStmt>
-            </titleStmt>         
-            <publicationStmt>
-                <authority>DHARMA
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb at Prasat Pram Loveng (K. 8)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA
                     <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).
                     </note>
-                </authority>
-                <pubPlace>Siem Reap</pubPlace>
-                <idno type="filename">K0008</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                        <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
-                    </licence>
-                </availability>
-                <date from="2019" to="2025">2019-2025</date>
-            </publicationStmt>
-            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
-                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-                    <msIdentifier>
-                        <repository>DHARMAbase</repository>
-                        <idno/><!-- don't modify this -->
-                    </msIdentifier>
-                    <msContents><!-- describe the intellectual content of an inscription -->
-                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
-                    </msContents>
-                    <physDesc>
-                        <handDesc>
-                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                            <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+            </authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">K0008</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
 						<handNote xml:id="Pallava00001_hand2"></handNote>
 					 -->
-                        </handDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc status="draft"><change who="part:kuch" when="2020-05-28">Modifications of the edition, translation and bibliography</change>
-            <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-            <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-            <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
-        </revisionDesc>
-    </teiHeader>    
-    <text xml:space="preserve">
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="draft">
+         <change who="part:kuch" when="2020-05-28">Modifications of the edition, translation and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
                 <p>
 <lb n="1"/>kñuṁ vraḥ kamratāṅ· Añ· śrī Āmrātakeśvara puṇya poñ· kr̥ṣṇadatta
-<lb n="2"/>va Avai citta <num value="1"><g type="numeral">I</g></num> va tkep· <num value="1"><g type="numeral">I</g></num> va krovṅā <num value="1"><g type="numeral">I</g></num> va raṅgadatta <num value="1"><g type="numeral">I</g></num> va Adit· <num value="1"><g type="numeral">I</g></num> va maleṅ· <num value="1"><g type="numeral">I</g></num> va kā<lb n="3" 
-    break="no"/>c· taṁneṅ· <num value="1"><g type="numeral">I</g></num> va vrau <num value="1"><g type="numeral">I</g></num> va saṁtoḥ <num value="1"><g type="numeral">I</g></num> va kansoṁ <num value="1"><g type="numeral">I</g></num> va gramada <num value="1"><g type="numeral">I</g></num> va stoy· <num value="1"><g type="numeral">I</g></num> va devacandra 
+<lb n="2"/>va Avai citta <num value="1"><g type="numeral">I</g></num> va tkep· <num value="1"><g type="numeral">I</g></num> va krovṅā <num value="1"><g type="numeral">I</g></num> va raṅgadatta <num value="1"><g type="numeral">I</g></num> va Adit· <num value="1"><g type="numeral">I</g></num> va maleṅ· <num value="1"><g type="numeral">I</g></num> va kā<lb n="3" break="no"/>c· taṁneṅ· <num value="1"><g type="numeral">I</g></num> va vrau <num value="1"><g type="numeral">I</g></num> va saṁtoḥ <num value="1"><g type="numeral">I</g></num> va kansoṁ <num value="1"><g type="numeral">I</g></num> va gramada <num value="1"><g type="numeral">I</g></num> va stoy· <num value="1"><g type="numeral">I</g></num> va devacandra 
 <lb n="4"/>va vñau <num value="1"><g type="numeral">I</g></num> va vuka <num value="1"><g type="numeral">I</g></num> va kcana <num value="1"><g type="numeral">I</g></num> va kantāṅa <num value="1"><g type="numeral">I</g></num> va Asthita <num value="1"><g type="numeral">I</g></num> va raṁpañ· <num value="1"><g type="numeral">I</g></num> va kcana sina <num value="1"><g type="numeral">I</g></num> 
 <lb n="5"/>va saṁUya <num value="1"><g type="numeral">I</g></num> va śatavāra <num value="1"><g type="numeral">I</g></num> va kandeṅ· <num value="1"><g type="numeral">I</g></num> va tāsyoṅ· <num value="1"><g type="numeral">I</g></num> va caṁdaka vraḥ <num value="1"><g type="numeral">I</g></num> 
 <lb n="6"/>va kantek· <num value="1"><g type="numeral">I</g></num> va pdai <num value="1"><g type="numeral">I</g></num> va saṁUya sina <num value="1"><g type="numeral">I</g></num> va Androka <num value="1"><g type="numeral">I</g></num> va suhamūla <num value="1"><g type="numeral">I</g></num> 
-<lb n="7"/>va vrau sin· <num value="1"><g type="numeral">I</g></num> va mar· ta toc· <num value="1"><g type="numeral">I</g></num> ku vrauhv· <num value="1"><g type="numeral">I</g></num> ku Āsta vraḥ ku Añje ple sra<lb n="8" 
-    break="no"/>lañ· <num value="1"><g type="numeral">I</g></num> ku mānra Añ· <num value="1"><g type="numeral">I</g></num> ku kcan· <num value="1"><g type="numeral">I</g></num> ku sāminī <num value="1"><g type="numeral">I</g></num> ku Alaṅ· <num value="1"><g type="numeral">I</g></num> ku qme tveṅ· <num value="1"><g type="numeral">I</g></num> 
+<lb n="7"/>va vrau sin· <num value="1"><g type="numeral">I</g></num> va mar· ta toc· <num value="1"><g type="numeral">I</g></num> ku vrauhv· <num value="1"><g type="numeral">I</g></num> ku Āsta vraḥ ku Añje ple sra<lb n="8" break="no"/>lañ· <num value="1"><g type="numeral">I</g></num> ku mānra Añ· <num value="1"><g type="numeral">I</g></num> ku kcan· <num value="1"><g type="numeral">I</g></num> ku sāminī <num value="1"><g type="numeral">I</g></num> ku Alaṅ· <num value="1"><g type="numeral">I</g></num> ku qme tveṅ· <num value="1"><g type="numeral">I</g></num> 
 <lb n="9"/>kon ku pau tai <num value="1"><g type="numeral">I</g></num> ku sri <num value="1"><g type="numeral">I</g></num> ku kandin· <num value="1"><g type="numeral">I</g></num> ku pkā jhe <num value="1"><g type="numeral">I</g></num> ku sundarī <num value="1"><g type="numeral">I</g></num> ku kñuṁ vraḥ <num value="1"><g type="numeral">I</g></num> ku noc· vraḥ <num value="1"><g type="numeral">I</g></num> 
 <lb n="10"/>ku sal· klaṅ· poṅ· daiva <num value="1"><g type="numeral">I</g></num> ku me kaṁpār· <num value="1"><g type="numeral">I</g></num> ku Asarū <num value="1"><g type="numeral">I</g></num>                         
                 </p>
@@ -90,7 +94,7 @@
                   </app>
                </listApp>         
          </div>
-         <div type="translation" xml:lang="eng" resp="part:kuch">
+         <div type="translation" resp="part:kuch">
             <p n="1">Servants of My Lord Śrī Āmratakeśvara, the pious <supplied reason="subaudible">offering</supplied> of Poñ Kr̥ṣṇadatta.</p>
              <p n="2-10">List of 32 men <supplied reason="explanation">with honorific title <foreign>va</foreign></supplied>, 17 women <supplied reason="explanation">with honorific title <foreign>ku</foreign></supplied> and a baby girl <supplied reason="explanation"><foreign>pau tai</foreign></supplied>.</p>
          </div>

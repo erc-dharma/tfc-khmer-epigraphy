@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Stela of Preah Kuhea Luong (K. 44), 596 Śaka</title>
@@ -10,18 +13,18 @@
                   <surname>Chhom</surname>
                </persName>
             </respStmt>
-         	<respStmt>
-         		<resp>intellectual authorship of edition</resp>
-         	   <persName ref="http://viaf.org/viaf/66465311">
-         	      <forename>George</forename>
-         	      <surname>Cœdès</surname>
-         	   </persName>
-         	   <persName ref="part:kuch">
-         	      <forename>Kunthea</forename>
-         	      <surname>Chhom</surname>
-         	   </persName>
-         	</respStmt>
-         </titleStmt>         
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>DHARMA
                <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).
@@ -32,7 +35,7 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-               	<p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
@@ -41,10 +44,12 @@
             <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
                <msIdentifier>
                   <repository>DHARMAbase</repository>
-                  <idno/><!-- don't modify this -->
+                  <idno/>
+                  <!-- don't modify this -->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
-                  <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
                </msContents>
                <physDesc>
                   <handDesc>
@@ -59,10 +64,10 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc>
-        <change who="part:kuch" when="2020-09-03" status="draft">Initial encoding of the file</change>
-     </revisionDesc>
-  </teiHeader>   
+      <revisionDesc>
+         <change who="part:kuch" when="2020-09-03" status="draft">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
    <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
@@ -97,28 +102,19 @@
 <l n="d">yāvad arkkendu-tārakāḥ</l> 
 </lg>
 <p>
-<lb n="A6"/>saṇ-ṇavaty-uttara-pañcaśata śaka-parigraha Ai mandira purandarapura pañcamī ket· kārtti<lb 
-   n="A7" break="no"/>ka pūrvvāṣāḍha-nakṣatra Aṅgāra-dina-vāra Ājñā vraḥ kamratāṅ· Añ· nī vraḥ kamra<lb 
-      n="A8" break="no"/>tāṅ· Añ· śrī Utpanneśvara ta Ai <supplied reason="lost">c</supplied>n<supplied reason="lost">ar</supplied> punya vraḥ kamratāṅ· Añ· Aṁnoy· tāṅ·
+<lb n="A6"/>saṇ-ṇavaty-uttara-pañcaśata śaka-parigraha Ai mandira purandarapura pañcamī ket· kārtti<lb n="A7" break="no"/>ka pūrvvāṣāḍha-nakṣatra Aṅgāra-dina-vāra Ājñā vraḥ kamratāṅ· Añ· nī vraḥ kamra<lb n="A8" break="no"/>tāṅ· Añ· śrī Utpanneśvara ta Ai <supplied reason="lost">c</supplied>n<supplied reason="lost">ar</supplied> punya vraḥ kamratāṅ· Añ· Aṁnoy· tāṅ·
 <lb n="A9"/>Añ· kloñ· raṅ<supplied reason="lost">k</supplied>o doṅ· poñ· varāhasena Ai ta vraḥ kamratāṅ· Añ· Aṁvi
-<lb n="A10"/>kāla vraḥ kaṁratāṅ· Añ· śrī raudravarmma dāsa dāsī go mahiṣa kṣetrārā<lb 
-   n="A11" break="no"/>mādi gi parimaṇḍala gi sre Aṁvi dik· hera loḥ vrai taṁpoṅṅa loḥ thalā
+<lb n="A10"/>kāla vraḥ kaṁratāṅ· Añ· śrī raudravarmma dāsa dāsī go mahiṣa kṣetrārā<lb n="A11" break="no"/>mādi gi parimaṇḍala gi sre Aṁvi dik· hera loḥ vrai taṁpoṅṅa loḥ thalā
 <lb n="A12"/>can· cara loḥ travāṅ· pās· kmauhva loḥ cdiṅṅa lo<supplied reason="lost">ḥ</supplied> stuk· trassa <gap reason="illegible" quantity="1" unit="character"/> nhora <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="prescript"><gap reason="illegible" quantity="1" unit="component"/></seg>i
 <lb n="A13"/>poñ· totila gui taṅ· Ājñā vraḥ kamratāṅ· Añ· Oy· gui
 <lb n="A14"/>sr<unclear>u</unclear>k· ple draṅ· vnas· nu poñ· jon· bhuti śreṣṭhāśrama
                 </p>
 <p><milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Face</label>
-<lb n="B1"/>loḥ travaṅ· poñ· viṣ<supplied reason="lost">ṇu</supplied>kīrtti loḥ travaṅ<supplied reason="lost">·</supplied> pās· tāṅ· kanmeṅṅa loḥ gūha po Aṁ<lb 
-   n="B2" break="no"/>pakk vnaṁ vrai vnur· caṁno<supplied reason="lost">ṁ</supplied> tmur· cdiṅ· qnak· ta paṅgaṁ nī dai gi tel· Ājñā vraḥ kamratā<lb 
-      n="B3" break="no"/>ṅ· Añ· prasiddha Ai ta vraḥ kamratāṅ· Añ· śrī Utpanneśvara ta Ai cnar· smaṁ śresthā<lb 
-         n="B4" break="no"/>śrama jmon<supplied reason="lost">·</supplied> bhūti gi voṁ saṁ dhanvipura ge ta hau saṁpol· ta gi ge ta ckop·
+<lb n="B1"/>loḥ travaṅ· poñ· viṣ<supplied reason="lost">ṇu</supplied>kīrtti loḥ travaṅ<supplied reason="lost">·</supplied> pās· tāṅ· kanmeṅṅa loḥ gūha po Aṁ<lb n="B2" break="no"/>pakk vnaṁ vrai vnur· caṁno<supplied reason="lost">ṁ</supplied> tmur· cdiṅ· qnak· ta paṅgaṁ nī dai gi tel· Ājñā vraḥ kamratā<lb n="B3" break="no"/>ṅ· Añ· prasiddha Ai ta vraḥ kamratāṅ· Añ· śrī Utpanneśvara ta Ai cnar· smaṁ śresthā<lb n="B4" break="no"/>śrama jmon<supplied reason="lost">·</supplied> bhūti gi voṁ saṁ dhanvipura ge ta hau saṁpol· ta gi ge ta ckop·
 <lb n="B5"/>Ucita saṁvatsara ta gi ge ta soṁ gi nā Adhikāra ge ta hau qnak· lvāṅ· ta gi
-<lb n="B6"/>ge ta hau vyavahāra dai ta gi ge ta dār· dranap· ghoṣaṇā ta gi ge ta ca<lb 
-   n="B7" break="no"/>p· rddeḥ dok· tmur· krapi kñuṁ ta gi ge ta cracur· vraneṅ· chat· duk· snā<lb 
-      n="B8" break="no"/>ṅ· naṁ pitai kaṁluṅ<unclear>·</unclear> Aṅgaṇa vraḥ kamratāṅ· Añ· paṁnos· gi ta
+<lb n="B6"/>ge ta hau vyavahāra dai ta gi ge ta dār· dranap· ghoṣaṇā ta gi ge ta ca<lb n="B7" break="no"/>p· rddeḥ dok· tmur· krapi kñuṁ ta gi ge ta cracur· vraneṅ· chat· duk· snā<lb n="B8" break="no"/>ṅ· naṁ pitai kaṁluṅ<unclear>·</unclear> Aṅgaṇa vraḥ kamratāṅ· Añ· paṁnos· gi ta
 <lb n="B9"/>tve pūjā vraḥ kamratāṅ· Añ· paṁnos· ta pos· ta gi noḥ vnaṁ
-<lb n="B10"/>vraḥ kamratāṅ· Añ· satva ta siṅ· ta gi vojā ple qnak· paribha<lb 
-   n="B11" break="no"/>va Āgama Aṁvi ta gi noḥ sruk· vraḥ kamratāṅ· Añ· nu tve pūjā
+<lb n="B10"/>vraḥ kamratāṅ· Añ· satva ta siṅ· ta gi vojā ple qnak· paribha<lb n="B11" break="no"/>va Āgama Aṁvi ta gi noḥ sruk· vraḥ kamratāṅ· Añ· nu tve pūjā
 <lb n="B12"/>vraḥ kamratāṅ· Añ· ge ta soṁ gi ge ta dap· gi ge ta pre roḥ
 <lb n="B13"/>gi sot· ge cer· Ājñā vraḥ kamratāṅ· Añ· ge daṇḍa
                 </p>

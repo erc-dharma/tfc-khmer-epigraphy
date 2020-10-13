@@ -1,67 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="eng">
-        <fileDesc>
-            <titleStmt>
-                <title>A pillar at Prasat Lolei (K. 337)</title>
-                <respStmt>
-                    <resp>EpiDoc Encoding</resp>
-                    <persName ref="part:kuch">
-                        <forename>Kunthea</forename>
-                        <surname>Chhom</surname>
-                    </persName>
-                </respStmt>
-                <respStmt>
-                    <resp>intellectual authorship of edition</resp>
-                    <persName ref="part:doso">
-                        <forename>Dominique</forename>
-                        <surname>Soutif</surname>
-                    </persName>
-                </respStmt>
-            </titleStmt>         
-            <publicationStmt>
-                <authority>DHARMA
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A pillar at Prasat Lolei (K. 337)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA
                     <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).
                     </note>
-                </authority>
-                <pubPlace>Siem Reap</pubPlace>
-                <idno type="filename">K0337</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                        <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
-                    </licence>
-                </availability>
-                <date from="2019" to="2025">2019-2025</date>
-            </publicationStmt>
-            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
-                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-                    <msIdentifier>
-                        <repository>DHARMAbase</repository>
-                        <idno/><!-- don't modify this -->
-                    </msIdentifier>
-                    <msContents><!-- describe the intellectual content of an inscription -->
-                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
-                    </msContents>
-                    <physDesc>
-                        <handDesc>
-                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                            <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+            </authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">K0337</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
 						<handNote xml:id="Pallava00001_hand2"></handNote>
 					 -->
-                        </handDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc status="draft"><change who="part:kuch" when="2020-07-10">Modifications to edition, apparatus and bibliography</change>
-            <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-            <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-            <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
-        </revisionDesc>
-    </teiHeader>
-    <text xml:space="preserve">
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="draft">
+         <change who="part:kuch" when="2020-07-10">Modifications to edition, apparatus and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
                 <p><milestone type="pagelike" unit="item" n="A"/>
@@ -69,14 +75,11 @@
 <lb n="A2"/>brahma sot· <num value="1"><g type="numeral">I</g></num> tai kaṁpit· <num value="1"><g type="numeral">I</g></num> tai kaṁpit· sot· <gap reason="lost" quantity="12" unit="character"/>
 <lb n="A3"/>marendrapura <num value="1"><g type="numeral">I</g></num> Amraḥ śrīnidhī <num value="1"><g type="numeral">I</g></num> gho saṁAp· <num value="1"><g type="numeral">I</g></num> tai <gap reason="lost" quantity="1" unit="character"/>di<unclear>pā</unclear> <gap reason="lost" quantity="5" unit="character"/>
 <lb n="A4"/>rat· pnos· <num value="1"><g type="numeral">I</g></num> tai kaṁvic· <num value="1"><g type="numeral">I</g></num> lap· kanteṅ· <num value="1"><g type="numeral">I</g></num> lap· saṁAp <num value="1">I</num> lap· krau <num value="1"><g type="numeral">I</g></num> gvā<supplied reason="lost">l·</supplied> <unclear>pan</unclear>las· <num value="1"><g type="numeral">I</g></num> <gap reason="lost" quantity="1" unit="character"/>
-<lb n="A5"/>krau <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> vnvak· ta gi sruk can·doṅ· vuro pramān· śreṣthapura Amraḥ dhana<lb 
-    n="A6" break="no"/>ñjaya <num value="1"><g type="numeral">I</g></num> tai kmau <num value="1"><g type="numeral">I</g></num> sī rat· kr̥s· <num value="1"><g type="numeral">I</g></num> lap· kaṁprvat· <num value="1"><g type="numeral">I</g></num> tai kñuṁ <num value="1"><g type="numeral">I</g></num> sī rat· kaṁpas· <num value="1"><g type="numeral">I</g></num> tai kañjai <num value="1"><g type="numeral">I</g></num>
+<lb n="A5"/>krau <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> vnvak· ta gi sruk can·doṅ· vuro pramān· śreṣthapura Amraḥ dhana<lb n="A6" break="no"/>ñjaya <num value="1"><g type="numeral">I</g></num> tai kmau <num value="1"><g type="numeral">I</g></num> sī rat· kr̥s· <num value="1"><g type="numeral">I</g></num> lap· kaṁprvat· <num value="1"><g type="numeral">I</g></num> tai kñuṁ <num value="1"><g type="numeral">I</g></num> sī rat· kaṁpas· <num value="1"><g type="numeral">I</g></num> tai kañjai <num value="1"><g type="numeral">I</g></num>
 <lb n="A7"/>gvāl krau <num value="1"><g type="numeral">I</g></num> tai kanteṅ· <num value="1"><g type="numeral">I</g></num> tai pau kan·Aṁ <num value="1"><g type="numeral">I</g></num> tai kaṁvoṅ· <num value="1"><g type="numeral">I</g></num> tai kañcū <num value="1"><g type="numeral">I</g></num> sī rat· śveta <num value="1"><g type="numeral">I</g></num>
 <lb n="A8"/>gvāl· pitaradāsa <num value="1"><g type="numeral">I</g></num> tai paṁnaṅ· <num value="1"><g type="numeral">I</g></num> sī pau saṁAp· <num value="1"><g type="numeral">I</g></num> tai kñuṁ· <num value="1"><g type="numeral">I</g></num> tai kañcū <num value="1"><g type="numeral">I</g></num> gho śryāmaya
-<lb n="A9"/>gho Aṁdeṅ· <num value="1"><g type="numeral">I</g></num> gho graleṅ· <num value="1"><g type="numeral">I</g></num> gho panlas· <num value="1"><g type="numeral">I</g></num> gvāl· paṅ·hāṅ· <num value="1"><g type="numeral">I</g></num> psok· śambhu<lb 
-    n="A10" break="no"/>pura man· cat ta gi sruk· stuk· cok· gho priya <num value="1"><g type="numeral">I</g></num> gho kaṁpun· <num value="1"><g type="numeral">I</g></num> gvāl· kdeṅ· <num value="1"><g type="numeral">I</g></num> ta
-<lb n="A11"/>caṁpeṅ· <num value="1"><g type="numeral">I</g></num> tai pau kanrat· <num value="1"><g type="numeral">I</g></num> tai pansvaṁ <num value="1"><g type="numeral">I</g></num> tai pau kañcū <num value="1"><g type="numeral">I</g></num> tai kañcāṁ <num value="1"><g type="numeral">I</g></num> tai rat· kaṁ<lb 
-    n="A12" break="no"/>phāc· <num value="1"><g type="numeral">I</g></num> tai laṁṅāc· <num value="1"><g type="numeral">I</g></num> <g type="circle">.</g> psok· tryamvakapura man· cat ta gi sruk· pralāy·
+<lb n="A9"/>gho Aṁdeṅ· <num value="1"><g type="numeral">I</g></num> gho graleṅ· <num value="1"><g type="numeral">I</g></num> gho panlas· <num value="1"><g type="numeral">I</g></num> gvāl· paṅ·hāṅ· <num value="1"><g type="numeral">I</g></num> psok· śambhu<lb n="A10" break="no"/>pura man· cat ta gi sruk· stuk· cok· gho priya <num value="1"><g type="numeral">I</g></num> gho kaṁpun· <num value="1"><g type="numeral">I</g></num> gvāl· kdeṅ· <num value="1"><g type="numeral">I</g></num> ta
+<lb n="A11"/>caṁpeṅ· <num value="1"><g type="numeral">I</g></num> tai pau kanrat· <num value="1"><g type="numeral">I</g></num> tai pansvaṁ <num value="1"><g type="numeral">I</g></num> tai pau kañcū <num value="1"><g type="numeral">I</g></num> tai kañcāṁ <num value="1"><g type="numeral">I</g></num> tai rat· kaṁ<lb n="A12" break="no"/>phāc· <num value="1"><g type="numeral">I</g></num> tai laṁṅāc· <num value="1"><g type="numeral">I</g></num> <g type="circle">.</g> psok· tryamvakapura man· cat ta gi sruk· pralāy·
 <lb n="A13"/>vāt· gho ta hvāy· <num value="1"><g type="numeral">I</g></num> gho jhoṅ· <num value="1"><g type="numeral">I</g></num> gho A jhoṅ· <num value="1"><g type="numeral">I</g></num> gho A teṅ· <num value="1"><g type="numeral">I</g></num> gho A veṅ· <num value="1"><g type="numeral">I</g></num>
 <lb n="A14"/>gvāl· A lī <num value="1"><g type="numeral">I</g></num> gvāl· A troṅ· <num value="1"><g type="numeral">I</g></num> gvāl· A sat· <num value="1"><g type="numeral">I</g></num> gvāl A croṁ <num value="1"><g type="numeral">I</g></num> gvāl· kaṁpvañ· <num value="1"><g type="numeral">I</g></num> tai
 <lb n="A15"/>jneṅ· <num value="1"><g type="numeral">I</g></num> tai dhivaṅ· <num value="1"><g type="numeral">I</g></num> tai sup· <num value="1"><g type="numeral">I</g></num> sī rat· troṅ· <num value="1"><g type="numeral">I</g></num> tai A hoṅ· <num value="1"><g type="numeral">I</g></num> tai dhivaṅ· sot·
@@ -104,25 +107,18 @@
 <lb n="B16"/><gap reason="lost" extent="unknown" unit="character"/>c· <num value="1"><g type="numeral">I</g></num> tai <unclear>ka</unclear>nteṁ <num value="1"><g type="numeral">I</g></num> tai cke <num value="1"><g type="numeral">I</g></num> gho taṅka <num value="1"><g type="numeral">I</g></num> gho pandan· <num value="1"><g type="numeral">I</g></num> gho kañ·ye<gap reason="lost" quantity="1" unit="character"/>
 <lb n="B17"/>ṅ· <num value="1"><g type="numeral">I</g></num> gho qgat· <num value="1"><g type="numeral">I</g></num> gho kansip· <num value="1"><g type="numeral">I</g></num> gho pnos· <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> vraḥ vnvak· ta gi sruk· pralāy· vāt·
 <lb n="B18"/>pramān· malyāṅ· Amraḥ <unclear>kaṁ</unclear>pat· <num value="1"><g type="numeral">I</g></num> gho tcas· <num value="1"><g type="numeral">I</g></num> gho caṁvas· <num value="1"><g type="numeral">I</g></num> gho krau <num value="1"><g type="numeral">I</g></num> tai kaliha <num value="1"><g type="numeral">I</g></num>
-<lb n="B19"/>lap· kañjaṁ <num value="1"><g type="numeral">I</g></num> tai kandep· <num value="1"><g type="numeral">I</g></num> tai vraḥ qjī <num value="1"><g type="numeral">I</g></num> tai Aṅ·Oṅ· <num value="1"><g type="numeral">I</g></num> tai <unclear>A</unclear>mala <num value="1"><g type="numeral">I</g></num> g<supplied reason="lost">v</supplied>āl· c<unclear>p</unclear>oṅ· <num value="1"><g type="numeral">I</g></num> sī ra<lb 
-    n="B20" break="no"/>t· taṅker· <num value="1"><g type="numeral">I</g></num> lap· kñuṁ <num value="1"><g type="numeral">I</g></num> sī rat· saṁAp· <num value="1"><g type="numeral">I</g></num> sī <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B19"/>lap· kañjaṁ <num value="1"><g type="numeral">I</g></num> tai kandep· <num value="1"><g type="numeral">I</g></num> tai vraḥ qjī <num value="1"><g type="numeral">I</g></num> tai Aṅ·Oṅ· <num value="1"><g type="numeral">I</g></num> tai <unclear>A</unclear>mala <num value="1"><g type="numeral">I</g></num> g<supplied reason="lost">v</supplied>āl· c<unclear>p</unclear>oṅ· <num value="1"><g type="numeral">I</g></num> sī ra<lb n="B20" break="no"/>t· taṅker· <num value="1"><g type="numeral">I</g></num> lap· kñuṁ <num value="1"><g type="numeral">I</g></num> sī rat· saṁAp· <num value="1"><g type="numeral">I</g></num> sī <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="B21"/>pau <num value="1"><g type="numeral">I</g></num> sī rat· <num value="1"><g type="numeral">I</g></num> gvāl· smaṅ· <num value="1"><g type="numeral">I</g></num> tai <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="B22"/><unclear>pan</unclear>dan· <num value="1"><g type="numeral">I</g></num> gho kanteṅ· <num value="1"><g type="numeral">I</g></num> <supplied reason="lost">gh</supplied>o <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="B23"/>kan·har· <num value="1"><g type="numeral">I</g></num> gho <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>au</unclear> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="B24"/>ra<unclear>t</unclear>· <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>au</unclear> <num value="1" cert="low"><g type="numeral">I</g></num> <supplied reason="lost">t</supplied><unclear>ai</unclear> <gap reason="lost" extent="unknown" unit="character"/> <num value="1"><g type="numeral">I</g></num> tai <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="B25"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>t</unclear><supplied reason="lost">ai</supplied> kañcū <num value="1"><g type="numeral">I</g></num> tai ka<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="B26"/><num value="1" cert="low"><g type="numeral">I</g></num> <unclear>sī pau</unclear> ka<supplied reason="lost">n</supplied>teṅ· <num value="1"><g type="numeral">I</g></num> tai rat· kaṁ <gap reason="lost" quantity="7" unit="character"/> <supplied reason="lost">pa</supplied>nlas· <num value="1"><g type="numeral">I</g></num> gvāl· saṁ<unclear>A</unclear><gap reason="lost" extent="unknown" unit="character"/>
-<lb n="B27"/>lap· cpoṅ· <num value="1"><g type="numeral">I</g></num> tai knap· <num value="1"><g type="numeral">I</g></num> tai A<unclear>n</unclear>reṅ· <num value="1"><g type="numeral">I</g></num> gho ratnagarbha <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> Amraḥ ka<unclear>n</unclear><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>eṁ <num value="1"><g type="numeral">I</g></num> gho ma<lb 
-    n="B28" break="no"/>la <num value="1"><g type="numeral">I</g></num> tai kan·Ak· <num value="1"><g type="numeral">I</g></num> tai kan·As· <num value="1"><g type="numeral">I</g></num> sī pau ptal· <num value="1"><g type="numeral">I</g></num> tai Aṅ·Oṅ· <num value="1"><g type="numeral">I</g></num> sī pau <num value="1"><g type="numeral">I</g></num> sī rat· ka<lb 
-        n="B29" break="no"/>nteṅ· <num value="1"><g type="numeral">I</g></num> tai kaṁpit· <num value="1"><g type="numeral">I</g></num> tai rat· <unclear>t</unclear>gap· <num value="1"><g type="numeral">I</g></num> sī rat· kañcī <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> psok· śa<supplied reason="lost">m</supplied>bhupura man· duk·
-<lb n="B30"/>ta gi sruk· stuk· veṅ· pramān· malyāṅ· Amraḥ sraṅe <num value="1"><g type="numeral">I</g></num> gho srac· ta daiva <num value="1"><g type="numeral">I</g></num> gvā<lb 
-    n="B31" break="no"/>l· kanso <num value="1"><g type="numeral">I</g></num> tai kantin· <num value="1"><g type="numeral">I</g></num> sī rat· kaṁvai <num value="1"><g type="numeral">I</g></num> tai kaṁpur· <num value="1"><g type="numeral">I</g></num> tai pau <num value="1"><g type="numeral">I</g></num> tai jayadeva <num value="1"><g type="numeral">I</g></num> tai
-<lb n="B32"/>pau pandan· <num value="1"><g type="numeral">I</g></num> sī rat· vrahey· <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> psok tryambakapura man· duk· ta gi sru<lb 
-    n="B33" break="no"/>k· stuk· krel· pramān· troc· nāduk· tpallati<unclear>gb</unclear>e vnvak· Amraḥ saṁpva<lb 
-    n="B34" break="no"/>t· <num value="1"><g type="numeral">I</g></num> gho krān· <num value="1"><g type="numeral">I</g></num> gho kali <num value="1"><g type="numeral">I</g></num> gho A teṅ· <num value="1"><g type="numeral">I</g></num> gho geṅ· <num value="1"><g type="numeral">I</g></num> tai kraEṅ· <num value="1"><g type="numeral">I</g></num>
+<lb n="B27"/>lap· cpoṅ· <num value="1"><g type="numeral">I</g></num> tai knap· <num value="1"><g type="numeral">I</g></num> tai A<unclear>n</unclear>reṅ· <num value="1"><g type="numeral">I</g></num> gho ratnagarbha <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> Amraḥ ka<unclear>n</unclear><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>eṁ <num value="1"><g type="numeral">I</g></num> gho ma<lb n="B28" break="no"/>la <num value="1"><g type="numeral">I</g></num> tai kan·Ak· <num value="1"><g type="numeral">I</g></num> tai kan·As· <num value="1"><g type="numeral">I</g></num> sī pau ptal· <num value="1"><g type="numeral">I</g></num> tai Aṅ·Oṅ· <num value="1"><g type="numeral">I</g></num> sī pau <num value="1"><g type="numeral">I</g></num> sī rat· ka<lb n="B29" break="no"/>nteṅ· <num value="1"><g type="numeral">I</g></num> tai kaṁpit· <num value="1"><g type="numeral">I</g></num> tai rat· <unclear>t</unclear>gap· <num value="1"><g type="numeral">I</g></num> sī rat· kañcī <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> psok· śa<supplied reason="lost">m</supplied>bhupura man· duk·
+<lb n="B30"/>ta gi sruk· stuk· veṅ· pramān· malyāṅ· Amraḥ sraṅe <num value="1"><g type="numeral">I</g></num> gho srac· ta daiva <num value="1"><g type="numeral">I</g></num> gvā<lb n="B31" break="no"/>l· kanso <num value="1"><g type="numeral">I</g></num> tai kantin· <num value="1"><g type="numeral">I</g></num> sī rat· kaṁvai <num value="1"><g type="numeral">I</g></num> tai kaṁpur· <num value="1"><g type="numeral">I</g></num> tai pau <num value="1"><g type="numeral">I</g></num> tai jayadeva <num value="1"><g type="numeral">I</g></num> tai
+<lb n="B32"/>pau pandan· <num value="1"><g type="numeral">I</g></num> sī rat· vrahey· <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> psok tryambakapura man· duk· ta gi sru<lb n="B33" break="no"/>k· stuk· krel· pramān· troc· nāduk· tpallati<unclear>gb</unclear>e vnvak· Amraḥ saṁpva<lb n="B34" break="no"/>t· <num value="1"><g type="numeral">I</g></num> gho krān· <num value="1"><g type="numeral">I</g></num> gho kali <num value="1"><g type="numeral">I</g></num> gho A teṅ· <num value="1"><g type="numeral">I</g></num> gho geṅ· <num value="1"><g type="numeral">I</g></num> tai kraEṅ· <num value="1"><g type="numeral">I</g></num>
 <lb n="B35"/>tai ksu <num value="1"><g type="numeral">I</g></num> tai loṅ· <num value="1"><g type="numeral">I</g></num> tai pau trāy· <num value="1"><g type="numeral">I</g></num> tai dmey· <num value="1"><g type="numeral">I</g></num> tai qleṅ· <num value="1"><g type="numeral">I</g></num> sī rat·
-<lb n="B36"/>kali <num value="1"><g type="numeral">I</g></num> tai kaleṅ· <num value="1"><g type="numeral">I</g></num> gvāl· qley· <num value="1"><g type="numeral">I</g></num> gvāl· gyār· <num value="1"><g type="numeral">I</g></num> gvāl· klāṅ· <num value="1"><g type="numeral">I</g></num> gvāl· do<lb 
-    n="B37" break="no"/>ṅ· <num value="1"><g type="numeral">I</g></num> lap· dreṁ <num value="1"><g type="numeral">I</g></num> lap· vryay· <num value="1"><g type="numeral">I</g></num> lap· jarvay· <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> piṇda sruk· <num value="5">5</num>
+<lb n="B36"/>kali <num value="1"><g type="numeral">I</g></num> tai kaleṅ· <num value="1"><g type="numeral">I</g></num> gvāl· qley· <num value="1"><g type="numeral">I</g></num> gvāl· gyār· <num value="1"><g type="numeral">I</g></num> gvāl· klāṅ· <num value="1"><g type="numeral">I</g></num> gvāl· do<lb n="B37" break="no"/>ṅ· <num value="1"><g type="numeral">I</g></num> lap· dreṁ <num value="1"><g type="numeral">I</g></num> lap· vryay· <num value="1"><g type="numeral">I</g></num> lap· jarvay· <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> piṇda sruk· <num value="5">5</num>
 <lb n="B38"/>Amraḥ <num value="11">10+<g type="numeral">I</g></num> gho <num value="31">20+10+<g type="numeral">I</g></num> tai <num value="63">60+<g type="numeral">III</g></num> gvāl· <num value="9">9</num> lap· <num value="6">6</num> sī rat· <num value="17">10+7</num> tai
 <lb n="B39"/>rat· <num value="8">8</num> sī pau <num value="6">6</num> tai pau <num value="14">10+4</num> psaṁ <num value="165">100+60+5</num> <g type="circleTarget">.</g> psaṁ phoṅṅa vnvak·
 <lb n="B40"/>knet· nu rṇnocca <num value="359">300+40+10+9</num> <g type="circleTarget">.</g>
@@ -181,7 +177,7 @@
                  </app>
                 </listApp>
             </div>
-         <div type="translation" xml:lang="eng">
+         <div type="translation">
  	<!--translation encoded as per EG §9.2 -->
          </div>
          <div type="commentary">

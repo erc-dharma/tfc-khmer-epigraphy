@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Probably a stela from Angkor Borei (K. 1148)</title>
@@ -10,18 +13,19 @@
                   <surname>Chhom</surname>
                </persName>
             </respStmt>
-         	<respStmt>
-         		<resp>intellectual authorship of edition</resp>
-         		<persName ref="part:doso">
-         			<forename>Dominique</forename>
-         			<surname>Soutif</surname>
-         		</persName>
-         	   <persName ref="part:gege">
-         	      <forename>Gerdi</forename>
-         	      <surname>Gerschheimer</surname><!-- KC: To check if GG is involved and translates the Sanskit stanza. -->
-         	   </persName>
-         	</respStmt>
-         </titleStmt>         
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+                  <!-- KC: To check if GG is involved and translates the Sanskit stanza. -->
+               </persName>
+            </respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>DHARMA
                <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).
@@ -32,7 +36,7 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-               	<p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
@@ -41,10 +45,12 @@
             <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
                <msIdentifier>
                   <repository>DHARMAbase</repository>
-                  <idno/><!-- don't modify this -->
+                  <idno/>
+                  <!-- don't modify this -->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
-                  <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
                </msContents>
                <physDesc>
                   <handDesc>
@@ -59,41 +65,38 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc status="draft"><change who="part:kuch" when="2020-06-09" status="draft">Modifications of edition, apparatus and bibliography</change>
-        <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-        <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-        <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
-     </revisionDesc>
-  </teiHeader>
+      <revisionDesc status="draft">
+         <change who="part:kuch" when="2020-06-09" status="draft">Modifications of edition, apparatus and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
    <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="x-oldkhmer-Latn">
 <p>
-   <lb n="1"/>Aṁnoy· mratāñ· Akṣaravindu nu Anro<lb 
-      n="2" break="no"/>k· Añ· Ai ta Āśrama vā kdik· pOn·
+   <lb n="1"/>Aṁnoy· mratāñ· Akṣaravindu nu Anro<lb n="2" break="no"/>k· Añ· Ai ta Āśrama vā kdik· pOn·
    <lb n="3"/>vā <num value="2"><g type="numeral">II</g></num> ku niṣṭhura tnor· kñ<unclear>u</unclear>ṁ Āśrama man·
    <lb n="4"/>mratāñ· sāmanta tor· kon· ku phoṅ·
    <lb n="5"/>Is· ge Ai ta Āśrama sre tloṅ· <num value="3"><g type="numeral">III</g></num>
    <lb n="6"/>toṅ· tneṁ <num value="1"><g type="numeral">I</g></num> tmur· dneṁ <num value="1"><g type="numeral">I</g></num> Aṁnoy· poñ·
    <lb n="7"/>suman nibhā nu ge qnak· kantaiya sre tloṅ·
-   <lb n="8"/><num value="2"><g type="numeral">II</g></num> toṅ· tneṁ <num value="1"><g type="numeral">I</g></num> gi kṣetra ta nā jlaṅ· Ā<lb 
-      n="9" break="no"/>śrama jaṁnāhv· poñ· s<choice><unclear>u</unclear><unclear>a</unclear></choice>man· tel·
-   <lb n="10"/>Oy· teṁ puṇya mratāñ· yajamāna gi A<lb 
-      n="11" break="no"/>vā<del  status="unremarkable">dai</del>sa dai <num value="1"><g type="numeral">I</g></num>
+   <lb n="8"/><num value="2"><g type="numeral">II</g></num> toṅ· tneṁ <num value="1"><g type="numeral">I</g></num> gi kṣetra ta nā jlaṅ· Ā<lb n="9" break="no"/>śrama jaṁnāhv· poñ· s<choice><unclear>u</unclear><unclear>a</unclear></choice>man· tel·
+   <lb n="10"/>Oy· teṁ puṇya mratāñ· yajamāna gi A<lb n="11" break="no"/>vā<del status="unremarkable">dai</del>sa dai <num value="1"><g type="numeral">I</g></num>
 </p>
 <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
 <l n="a"><lb n="11"/>yad dattaṁ śramanādibhyo</l>
 <l n="b"><lb n="12"/>dadato pi na tad dhana<unclear>ṁ</unclear></l>
-<l n="c">tad ahāryyaṁ nr̥pe<lb 
-   n="13" break="no"/>nāpi</l>
-<l n="d">ki<del  status="unremarkable">ṁ</del> punas suta<space quantity="1" unit="character"/>vāndhavai<del  status="unremarkable">ḥ</del><g type="indistinct">.</g></l><!-- KC: The type of the symbole is to check on estampage  -->
+<l n="c">tad ahāryyaṁ nr̥pe<lb n="13" break="no"/>nāpi</l>
+<l n="d">ki<del status="unremarkable">ṁ</del> punas suta<space quantity="1" unit="character"/>vāndhavai<del status="unremarkable">ḥ</del><g type="indistinct">.</g></l><!-- KC: The type of the symbole is to check on estampage  -->
 </lg>
 </div>
 <div type="apparatus">
                <listApp>
                  <app loc="1">
                      <lem>Aṁnoy·</lem>
-                     <rdg source="bib:Pou2001_01"><supplied reason="lost"></supplied>Aṁnoy·</rdg>
+                     <rdg source="bib:Pou2001_01"><supplied reason="lost"/>Aṁnoy·</rdg>
                     <note>La présence de <foreign>Aṁ</foreign> est certaine. Il semble qu’un second <foreign>n</foreign> a été écrit, comme en exposant, au-dessus du <foreign>n</foreign> ; mais il peut aussi s’agir d’un redoublement de la barre supérieure du <foreign>o</foreign>.</note>
                   </app>
                   <app loc="2">
@@ -137,7 +140,7 @@
                     <note>Même sur la reproduction parue dans les NIC III, la consonne finale ne peut être lue <foreign>r</foreign>, et les reproductions à ma disposition confirment qu’il s’agit d’un <foreign>n</foreign> <supplied reason="explanation">comparer avec le <foreign>n</foreign> de <foreign>nā</foreign> en l. 8</supplied>. Bien que la lecture du premier graphème comme un <foreign>a</foreign> ne puisse être totalement exclue, il semble préférable de l’interpréter comme un <foreign>su</foreign> dont le <foreign>u</foreign> serait très court. Tous les <foreign>a</foreign>/<foreign>ā</foreign> de cette inscription dont la lecture est certaine présentent en effet, pour leur composante gauche, une forme en S dont la courbe inférieure manque apparemment ici : c’est sans doute, en effet, un défaut de la pierre qui peut en donner l’illusion sur les reproductions. Dans ces conditions, il semble bien qu’il soit question, à nouveau, du <foreign>poñ suman</foreign> de la l. 7.</note>
                   </app>
                    <app loc="11">
-                     <lem>vā<del  status="unremarkable">dai</del>sa</lem>
+                     <lem>vā<del status="unremarkable">dai</del>sa</lem>
                      <rdg source="bib:Pou2001_01">vā<gap reason="illegible" quantity="2" unit="character"/>s·</rdg>
                       <note>L’<foreign>akṣara dai</foreign>, clairement reconnaissable sur les documents à ma disposition, semble être annulé au moyen de quatre traits obliques. Il n’y a pas de <foreign>virāma</foreign> sur le <foreign>s</foreign>.</note>
                   </app>
@@ -161,12 +164,12 @@
                      <rdg source="bib:Pou2001_01">sr̥pa nā pi</rdg>
                   </app>
                   <app loc="13">
-                     <lem>ki<del  status="unremarkable">ṁ</del></lem>
+                     <lem>ki<del status="unremarkable">ṁ</del></lem>
                      <rdg source="bib:Pou2001_01">ki<supplied reason="lost">ṁ</supplied></rdg>
                      <note>On ne distingue en effet aucune trace d’<foreign>anusvāra</foreign> sur la pierre. Sa restitution s’impose.</note>
                   </app>
                  <app loc="13">
-                     <lem>suta<space quantity="1" unit="character"/>vāndhavai<del  status="unremarkable">ḥ</del></lem>
+                     <lem>suta<space quantity="1" unit="character"/>vāndhavai<del status="unremarkable">ḥ</del></lem>
                      <rdg source="bib:Pou2001_01">suta<gap reason="illegible" quantity="3" unit="character"/>vārdhavai</rdg>
                     <note>Il semble que le lapicide ait bien gravé une lettre après <foreign>suta</foreign>, qu’il a ensuite annulée d’une façon qui ne m’est pas claire ; l’hypothèse d’un défaut de la pierre préexistant à la gravure est moins plausible, d’après les reproductions. – Il n’est pas possible de reconnaître un <foreign>visarga</foreign> dans le dessin de ce qui doit être une fioriture finale <supplied reason="explanation">que je note @</supplied>. – En résumé, mètre et sens imposent de restituer <foreign>sutavāndhavaiḥ</foreign>.</note>
                   </app>

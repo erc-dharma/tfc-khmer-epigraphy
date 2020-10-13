@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Phnom Preah Netr Preah stelae (K. 1428)</title>
@@ -13,14 +13,14 @@
                   <surname>Chollet</surname>
                </persName>
             </respStmt>
-         	<respStmt>
-         		<resp>intellectual authorship of edition</resp>
-         	   <persName ref="part:chch">
-         			<forename>Chloé</forename>
-         			<surname>Chollet</surname>
-         		</persName>
-         	</respStmt>
-         </titleStmt>         
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>DHARMA
                <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
@@ -30,7 +30,7 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-               	<p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
@@ -39,10 +39,12 @@
             <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
                <msIdentifier>
                   <repository>DHARMAbase</repository>
-                  <idno/><!-- don't modify this -->
+                  <idno/>
+                  <!-- don't modify this -->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
-                  <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
                </msContents>
                <physDesc>
                   <handDesc>
@@ -57,39 +59,33 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc><change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-        <change who="part:chch" when="2020-02-01" status="draft">Creation of the file</change>
-         </revisionDesc>
-  </teiHeader>
-  <text xml:space="preserve">
+      <revisionDesc>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:chch" when="2020-02-01" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="x-oldkhmer-Latn">
             <div type="textpart" subtype="face" n="A">
 <ab>qom̐</ab>
             <p>  
 <lb n="A1"/><g type="symbol" subtype="initialGomutra"/> // <num value="897">897</num> śaka daśami ket· māgha qādityavā<unclear>ra nu</unclear> 
-<lb n="A2"/>vāp· qīśānaśiva khloñ· gmāl· qnin· paṅgaṁ thpvaṅ· ni<lb n="A3" 
-   break="no"/>vedana ta dhūli vraḥ pāda dhūlī jeṅ· vraḥ kamra<lb n="A4" 
-      break="no"/>teṅ· qañ· śrī jayavarmmadeva <unclear>,</unclear> mān· vraḥ karuṇā 
+<lb n="A2"/>vāp· qīśānaśiva khloñ· gmāl· qnin· paṅgaṁ thpvaṅ· ni<lb n="A3" break="no"/>vedana ta dhūli vraḥ pāda dhūlī jeṅ· vraḥ kamra<lb n="A4" break="no"/>teṅ· qañ· śrī jayavarmmadeva <unclear>,</unclear> mān· vraḥ karuṇā 
 <lb n="A5"/>ta paramapavitra ta ka<unclear>ṁ</unclear>mrateṅ· qañ· vraḥ guru <space/> pre 
-<lb n="A6"/>thve roḥha kalpanā vāp· vaktradeha ta vraḥ kaṁ<lb n="A7" 
-   break="no"/>mrateṅ· qañ· śivapāda giripura śvetatandula liḥ <num value="1"><g type="numeral">I</g></num> , 
+<lb n="A6"/>thve roḥha kalpanā vāp· vaktradeha ta vraḥ kaṁ<lb n="A7" break="no"/>mrateṅ· qañ· śivapāda giripura śvetatandula liḥ <num value="1"><g type="numeral">I</g></num> , 
 <lb n="A8"/>pratidina thṅāy· vraḥ <num value="2" cert="low"><g type="numeral">II</g></num> liḥ <num value="1"><g type="numeral">I</g></num> dik· sroṅ· khñuṁ 
 <lb n="A9"/>gho kaṁvut· gho kaṁvrau gho panlās· gho 
-<lb n="A10"/>kanlāṅ· gho kaṁvai <space/> tai thleṁ kvan· <num value="1"><g type="numeral">I</g></num> tai kan·<lb n="A11" 
-   break="no"/>qā tai phnos· <space/> tai kansu <space/> tai kanso kvan· <num value="2"><g type="numeral">II</g></num> , 
+<lb n="A10"/>kanlāṅ· gho kaṁvai <space/> tai thleṁ kvan· <num value="1"><g type="numeral">I</g></num> tai kan·<lb n="A11" break="no"/>qā tai phnos· <space/> tai kansu <space/> tai kanso kvan· <num value="2"><g type="numeral">II</g></num> , 
 <lb n="A12"/>tai panheṁ kvan· <num value="3"><g type="numeral">III</g></num> <space/> tai sraṅe <space/> tai saṁmr̥ddhi kvan· <supplied reason="lost"><num value="1"><g type="numeral">I</g></num></supplied>
 <lb n="A13"/>sre dakṣiṇā chloṅ· qit· jeṅ· <num value="1"><g type="numeral">I</g></num> vaudi <g type="numeral">I</g> , 
 <lb n="A14"/>s<unclear>b</unclear>ek· <num value="2"><g type="numeral">II</g></num> khāl· prāk· <num value="1"><g type="numeral">I</g></num> nū slā prāk· <num value="1"><g type="numeral">I</g></num> paṅkāp· <num value="1"><g type="numeral">I</g></num>
 <lb n="A15"/>krapi <num value="10"><g type="numeral">10</g></num> thmur· gi nā vāp· vaktradeha pragalpa 
 <lb n="A16"/>caṁnāṁ neḥ ta vāp· bhīma bhāgavata nu <unclear>m</unclear>rateñ·
 <lb n="A17"/>soma vvaṁ sutantra ta khloñ· vnaṁ khloñ· kāryya 
-<lb n="A18"/>pādamūla nau qnak· ta vvaṁ thve toya kalpa<lb n="A19" 
-   break="no"/>ṇā ta roḥha neḥha <unclear>d</unclear>au naraka nu santāna 
-<lb n="A20"/>phoṅṅa yāvat· vraḥ candrāditya ka mān· le<lb n="A21" 
-   break="no"/>ya nau ta thve to<unclear>ya</unclear> kalpaṇā ta <unclear>ro</unclear>ḥha
-<lb n="A22"/>neḥha ge mān· svargga nu santāna <unclear>ph</unclear>oṅṅa yā<lb n="A23" 
-   break="no"/>vat· vraḥ candrā<unclear>d</unclear>itya ka mān· leya <g type="symbol" subtype="complexFinial"/>
+<lb n="A18"/>pādamūla nau qnak· ta vvaṁ thve toya kalpa<lb n="A19" break="no"/>ṇā ta roḥha neḥha <unclear>d</unclear>au naraka nu santāna 
+<lb n="A20"/>phoṅṅa yāvat· vraḥ candrāditya ka mān· le<lb n="A21" break="no"/>ya nau ta thve to<unclear>ya</unclear> kalpaṇā ta <unclear>ro</unclear>ḥha
+<lb n="A22"/>neḥha ge mān· svargga nu santāna <unclear>ph</unclear>oṅṅa yā<lb n="A23" break="no"/>vat· vraḥ candrā<unclear>d</unclear>itya ka mān· leya <g type="symbol" subtype="complexFinial"/>
             </p>
             </div>
             <div type="textpart" subtype="face" n="B">
