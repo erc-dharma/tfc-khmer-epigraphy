@@ -389,7 +389,7 @@
 |K.	376 |# |# |#|
 |K.	377 |kuch |pending |#|
 |K.	378 |# |# |#|
-|K.	379 |# |# |#|
+|K.	379 |chch |done |IC VI|
 |K.	380 |# |# |#|
 |K.	381 |# |# |#|
 |K.	382 |# |# |#|
@@ -441,7 +441,7 @@
 |K.	428 |# |# |#|
 |K.	429 |kuch |done |Finot 1912|
 |K.	430 |kuch |pending |IC VI|
-|K.	431 = K. 371 |chch |pending |IC V|
+|K.	431 = K. 371 |chch |done |IC V|
 |K.	432 |# |# |#|
 |K.	433 |# |# |#|
 |K.	434 |# |# |#|
@@ -505,7 +505,7 @@
 |K.	492 |# |# |#|
 |K.	493 |kuch |done |IC II|
 |K.	494 |# |# |#|
-|K.	495 |# |# |#|
+|K.	495 |chch |pending |Seidenfaden 1922|
 |K.	496 |kuch |done |Seidenfaden 1922|
 |K.	497 |kuch |pending |#|
 |K.	498 |# |# |#|
