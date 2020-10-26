@@ -1,0 +1,13 @@
+os: linux
+dist: xenial
+language: java
+env:
+  - XML_DIRECTORY="texts/xml-provisional"
+
+addons:
+  apt:
+    packages:
+    - moreutils
+    - parallel
+script:
+  - find $XML_DIRECTORY -name "*.xml" | parallel --gnu --will-cite -X -j8 -u "java -jar validation/jing.jar http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng {}"
