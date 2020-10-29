@@ -54,7 +54,7 @@
 |K.	47 |# |# |#|
 |K.	48 |kuch |done |IC VI|
 |K.	49 |kuch |pending |ISC|
-|K.	50 |kuch |pending |ISC|
+|K.	50 |kuch | done |ISC|
 |K.	51 |kuch |done |IC V|
 |K.	52 |# |# |#|
 |K.	53 |kuch |done |ISC|
@@ -77,11 +77,11 @@
 |K.	70 |# |# |#|
 |K.	71 |# |# |#|
 |K.	72 |# |# |#|
-|K.	73 |kuch |pending |IC VI|
-|K.	74 |kuch |pending |IC VI|
+|K.	73 |kuch |done |IC VI|
+|K.	74 |kuch |done |IC VI|
 |K.	75 |# |# |#|
-|K.	76 |kuch |pending |IC V|
-|K.	77 |kuch |pending |IC V|
+|K.	76 |kuch |done |IC V|
+|K.	77 |kuch |done |IC V|
 |K.	78 |kuch |pending |IC VI|
 |K.	79 |kuch |done |Coedes 1904|
 |K.	80 |kuch |pending |ISC|
@@ -699,7 +699,7 @@
 |K.	686 |# |# |#|
 |K.	687 |# |# |#|
 |K.	688 |# |# |#|
-|K.	689 |kuch |pending |IC VI|
+|K.	689 |kuch |done |IC VI|
 |K.	690 |# |# |#|
 |K.	691 |# |# |#|
 |K.	692 |# |# |#|
@@ -765,7 +765,7 @@
 |K.	752 |# |# |#|
 |K.	753 |# |# |#|
 |K.	754 |# |# |#|
-|K.	755 |kuch |pending |IC VI|
+|K.	755 |kuch |done |IC VI|
 |K.	756 |# |# |#|
 |K.	757 |# |# |#|
 |K.	758 |# |# |#|
@@ -775,7 +775,7 @@
 |K.	762 |kuch |pending |IC I|
 |K.	763 |# |# |#|
 |K.	764 |kuch |pending |IC VI|
-|K.	765 |kuch |pending |IC V|
+|K.	765 |kuch |done |IC V|
 |K.	766 |# |# |#|
 |K.	767 |# |# |#|
 |K.	768 |# |# |#|
@@ -913,7 +913,7 @@
 |K.	900 |# |# |#|
 |K.	901 |# |# |#|
 |K.	902 |# |# |#|
-|K.	903 |kuch |pending |IC VI|
+|K.	903 |kuch |done |IC VI|
 |K.	904 |# |# |#|
 |K.	905 |# |# |#|
 |K.	906 |# |# |#|
