@@ -19,6 +19,10 @@
                         <forename>George</forename>
                         <surname>Cœdès</surname>
                     </persName>
+                    <persName ref="part:chch">
+                        <forename>Chloé</forename>
+                        <surname>Chollet</surname>
+                    </persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -44,7 +48,7 @@
                         <idno/>
                     </msIdentifier>
                     <msContents>
-                        <summary><!-- //// NOT MANDATORY  ////--></summary> 
+                        <summary><!-- //// NOT MANDATORY  ////--></summary>
                     </msContents>
                     <physDesc>
                         <handDesc>
@@ -69,54 +73,61 @@
             </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
-            <change who="part:chch" when="2020-10-29">Creation of the file</change>
-            <change who="part:axja" when="2020-10-12">Version 3.2 : movinng the xml:lang to the root</change>
-            <change who="part:axja" when="2020-07-02">Version 3.1: adding the encodingDesc and linking the template with the DHARMA Schema</change>
-            <change who="part:axja" when="2020-03-18">Version 2: addition of handDesc and summary</change>
-            <change who="part:axja" when="2019-12-18" status="draft">Creation of the
-                template</change>
+            <change who="part:chch" when="2020-10-29">started initial encoding of the inscription</change>
         </revisionDesc>
     </teiHeader>
     <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="x-oldkhmer-Latn">
              <p>
-                 <lb n="1"/><num value="944">944</num> śaka <g type="circle">.</g> caturdaśī ket· bhadrapa<lb n="2" 
-                 break="no"/>da Ādityavāra nu vraḥ pāda kaṁmrateṅ<unclear>·</unclear> kaṁtva<lb n="3" 
-    break="no"/>n· Añ· śrīsūryyavarmmadeva pandval· vraḥ ni<lb n="4" 
-    break="no"/>yama ru samācāra ta tapra pi bhūvana phoṅ·
-<lb n="5"/>dval· pi thve toya <g type="circle">.</g> nā sthāna tapasvi pho<lb n="6" 
-    break="no"/>ṅ· nu vraḥ paṁnvas· bhikṣu mahāyāna stha<lb n="7" 
-        break="no"/>vira <g type="circle">.</g> nau ru ta pvas· vyat· pi nu thvāy· tapaḥ ta
-<lb n="8"/>vraḥ pāda kaṁmrateṅ· kaṁtvan· Añ· śrī<lb n="9" 
-    break="no"/>sūryyavarmmadeva <g type="circle">.</g> nau ruva qnak ta cval· sāṁ<lb n="10" 
-        break="no"/>pi tamaḥ tapovanāvāsa noḥ pi thve
-<lb n="11"/>kaṅ·vala pi vvaṁ Aṁpān· pi tapasvi yogi
-<lb n="12"/>phoṅ· svat· mantra pi nu thvāy· tapaḥ ta
-<lb n="13"/>vraḥ pāda kaṁmrateṅ· kaṁtvan· Añ· śrīsū<lb n="14" 
-    break="no"/>ryyavarmmadeva ti pre cāp pi nāṁ cuñ· ta
-<lb n="15"/>sabhā stap· vyavahāra nirṇnaya toya 
-<lb n="16"/>Uttamasāha <g type="circle">.</g> gi n<unclear>u</unclear> ta nā<unclear>ṁ</unclear> samācāra neḥ
-<lb n="17"/>mok· vraḥ <gap reason="illegible" quantity="2" unit="character"/> <unclear>srethi</unclear> <g type="eye">.</g> <g type="simpleFinial">.</g>
-<lb n="18"/><num value="944">947</num> śaka <g type="circle">.</g> <gap reason="illegible" quantity="2" unit="character"/> roc māgha nu mā<lb n="19" 
-    break="no"/>n· vraḥ niya<supplied reason="lost">ma</supplied><gap reason="illegible" quantity="4" unit="character"/> nu tapa<lb n="20" 
-    break="no"/>svi phoṅ· vvaṁ <gap reason="illegible" quantity="4" unit="character"/> kaṁluṅ· <unclear>kā</unclear><lb n="21" 
-        break="no"/>śiti kralā <gap reason="lost" quantity="10" unit="character" precision="low"/>
-<lb n="22"/>Añcana vvaṁ Ā<unclear>c·</unclear> <gap reason="lost" quantity="8" unit="character" precision="low"/>
-<lb n="23"/>krapi jrvak· vave man· qdā svā <gap reason="lost" quantity="4" unit="character" precision="low"/>
-<lb n="24"/>Āc ti cval· ta sthāna ta ro<supplied reason="lost">ḥh</supplied> <gap reason="lost" quantity="4" unit="character" precision="low"/>
-<lb n="25"/><gap reason="illegible" quantity="1" unit="character"/>  paṇdita roḥha no<supplied reason="lost">ḥh·</supplied> <gap reason="lost" quantity="5" unit="character" precision="low"/>
-<lb n="26"/><gap reason="lost" quantity="2" unit="number"/><num value="7">7</num> śaka <g type="circle">.</g> ta gi <gap reason="lost" quantity="6" unit="character" precision="low"/>
-<lb n="27"/><gap reason="lost" quantity="4" unit="character" precision="low"/> <supplied reason="lost">vr̥ha</supplied>spativāra <gap reason="lost" quantity="6" unit="character" precision="low"/>
-<lb n="28"/><gap reason="lost" quantity="4" unit="character" precision="low"/> l· ta mra <gap reason="lost" quantity="7" unit="character" precision="low"/>
-<lb n="29"/><gap reason="lost" quantity="4" unit="character" precision="low"/> cuñ· <gap reason="lost" quantity="7" unit="character" precision="low"/>
+                 <lb n="1"/><g type="circleDouble"/> <num value="944">944</num> śaka<g type="circleDouble">.</g> caturdaśī ket· bhadrapa<lb
+                 n="2" break="no"/>da Ādityavāra nu vraḥ pāda kaṁmrateṅ<unclear>·</unclear> kaṁtva<lb
+                 n="3" break="no"/>n· Añ· śrīsūryyavarmmadeva pandval· vraḥ ni<lb
+                 n="4" break="no"/>yama ru samācāra ta tap ra<!-- argr: change all cases of tapra to tap ra in the txt files?--> pī bhūvana phoṅ·
+                <lb n="5"/>dval· pī thve toya<g type="circleHigh">.</g> nā sthāna tapasvi pho<lb
+                n="6" break="no"/>ṅ· nu vraḥ paṁnvas· bhikṣu mahāyāna stha<lb
+                n="7" break="no"/>vira<g type="circleHigh">.</g> nau ru ta pvas· vyat· pi nu thv<unclear>ā</unclear>y· tapaḥ ta
+                <lb n="8"/>vraḥ pāda kaṁmrateṅ· kaṁtvan· Añ· śrī<lb
+                n="9" break="no"/>sūryyavarmmadeva<g type="circleHigh">.</g> nau ruva qnak ta cval· sāṁ
+                <lb n="10"/>pi<!-- GC has sāṁpi as a single word, but Jenner (DAK, s.v. sāṁ) cites this passage with sāṁ and pi separated. --> tamaḥ tapovanāvāsa noḥ pi thve
+                <lb n="11"/>kaṅ·vala pi vvaṁ Aṁpāṇ· pi tapasvi yogi
+                <lb n="12"/>phoṅ· svat· mantra pi nu thvāy· tapaḥ ta
+                <lb n="13"/>vraḥ pāda kaṁmrateṅ· kaṁtvan· Añ· śrisū<lb
+                n="14" break="no"/>ryyavarmmadeva ti pre cāp pi nāṁ cuñ· ta
+                <lb n="15"/>sabhā stap· vyavahāra nirṇnaya<!-- read vyavahāranirṇaya as a single word? Cf. K. 598 ti vyavahāra kaṁmrateṅ phdai karoṁ nirṇṇaya --> toya
+                <lb n="16"/>Uttamasāha<!-- supply sa to get Uttamasāhasa?--> <g type="circle">.</g> gi n<unclear>u</unclear> ta nā<unclear>ṁ</unclear> samācāra neḥ
+                <lb n="17"/>mok· vraḥ <gap reason="illegible" quantity="2" unit="character"/> <unclear>srethi</unclear> <g type="eye">.</g> <g type="simpleFinial">.</g>
+                <lb n="18"/><num value="944">947</num> śaka <g type="circle">.</g> <gap reason="illegible" quantity="2" unit="character"/> roc māgha nu mā<lb
+                n="19" break="no"/>n· vraḥ niya<supplied reason="lost">ma</supplied><gap reason="illegible" quantity="4" unit="character"/> nu tapa<lb
+                n="20" break="no"/>svi phoṅ· vvaṁ <gap reason="illegible" quantity="4" unit="character"/> kaṁluṅ· <unclear>kā</unclear><lb
+                n="21" break="no"/>śiti kralā <gap reason="lost" quantity="10" unit="character" precision="low"/>
+                <lb n="22"/>Añcana vvaṁ Ā<unclear>c·</unclear> <gap reason="lost" quantity="8" unit="character" precision="low"/>
+                <lb n="23"/>krapi jrvak· vave man· qdā svā <gap reason="lost" quantity="4" unit="character" precision="low"/>
+                <lb n="24"/>Āc ti cval· ta sthāna ta ro<supplied reason="lost">ḥh</supplied> <gap reason="lost" quantity="4" unit="character" precision="low"/>
+                <lb n="25"/><gap reason="illegible" quantity="1" unit="character"/>  paṇdita roḥha no<supplied reason="lost">ḥh·</supplied> <gap reason="lost" quantity="5" unit="character" precision="low"/>
+                <lb n="26"/><gap reason="lost" quantity="2" unit="number"/><num value="7">7</num> śaka <g type="circle">.</g> ta gi <gap reason="lost" quantity="6" unit="character" precision="low"/>
+                <lb n="27"/><gap reason="lost" quantity="4" unit="character" precision="low"/> <supplied reason="lost">vr̥ha</supplied>spativāra <gap reason="lost" quantity="6" unit="character" precision="low"/>
+                <lb n="28"/><gap reason="lost" quantity="4" unit="character" precision="low"/> l· ta mra <gap reason="lost" quantity="7" unit="character" precision="low"/>
+                <lb n="29"/><gap reason="lost" quantity="4" unit="character" precision="low"/> cuñ· <gap reason="lost" quantity="7" unit="character" precision="low"/>
              </p>
          </div>
          <div type="apparatus">
                <listApp>
-                  <app loc="line">
-                     <lem><!-- fill in a lemma here --></lem>
-                     <rdg source="bib:AuthorYear_01"><!-- update the @source value, fill in variant reading here --></rdg>
+                  <app loc="4">
+                     <lem>pī</lem>
+                     <rdg source="bib:Coedes1929_01">pi</rdg>
+                  </app>
+                  <app loc="5">
+                     <lem>pī</lem>
+                     <rdg source="bib:Coedes1929_01">pi</rdg>
+                  </app>
+                  <app loc="11">
+                     <lem>Aṁpāṇ·</lem>
+                     <rdg source="bib:Coedes1929_01">Aṁpān·</rdg>
+                  </app>
+                  <app loc="13">
+                     <lem>śri</lem>
+                     <rdg source="bib:Coedes1929_01">śrī</rdg>
                   </app>
                </listApp>
          </div>
@@ -126,7 +137,7 @@
              <p n="26-29">En <gap reason="lost"/>7 <foreign>śaka</foreign> <gap reason="lost"/> un jeudi <gap reason="lost"/></p>
          </div>
           <div type="translation" xml:lang="fra" resp="part:chch">
-              
+
           </div>
          <div type="commentary">
             <p>The first date is Sunday, August 12, 1022 CE.</p>
