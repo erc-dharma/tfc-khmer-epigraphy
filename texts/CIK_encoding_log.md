@@ -179,7 +179,7 @@
 |K.	172 |chch |done |BEFEO 1911|
 |K.	173 |chch |done |Roeské 1914|
 |K.	174 |chch |done |Roeské 1914|
-|K.	175 |sapi |pending ||C VI |
+|K.	175 |sapi |done ||C VI |
 |K.	176 |chch |done |IC V|
 |K.	177 |# |# |#|
 |K.	178 |chch |done |IC VI|
@@ -454,7 +454,7 @@
 |K.	441 |kuch |pending |IC IV|
 |K.	442 |kuch |pending |IC IV|
 |K.	443 |# |# |#|
-|K.	444 |sapi |pending ||C II |
+|K.	444 |sapi |done ||C II |
 |K.	445 |# |# |#|
 |K.	446 |# |# |#|
 |K.	447 |# |# |#|
@@ -669,7 +669,7 @@
 |K.	656 |# |# |#|
 |K.	657 |kuch & chch |pending| IC VI|
 |K.	658 |kuch |pending |#|
-|K.	659 |# |# |#|
+|K.	659 |sapi |pending |IC V|
 |K.	660 |# |# |#|
 |K.	661 |# |# |#|
 |K.	662 |# |# |#|
@@ -878,7 +878,7 @@
 |K.	865 |# |# |#|
 |K.	866 |# |# |#|
 |K.	867 |# |# |#|
-|K.	868 |sapi |pending ||C VI
+|K.	868 |sapi |done ||C VI
 |K.	869 |# |# |#|
 |K.	870 |# |# |#|
 |K.	871 |# |# |#|
@@ -1080,7 +1080,7 @@
 |K.	1060 |# |# |#|
 |K.	1061 |# |# |#|
 |K.	1062 |# |# |#|
-|K.	1063 |sapi |pending |unpublished|
+|K.	1063 |sapi |done |unpublished|
 |K.	1064 |# |# |#|
 |K.	1065 |# |# |#|
 |K.	1066 |# |# |#|
