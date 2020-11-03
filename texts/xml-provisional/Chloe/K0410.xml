@@ -2,107 +2,106 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>San Sung stela (K. 410)</title>
-                <respStmt>
-                    <resp>EpiDoc Encoding</resp>
-                    <persName ref="part:chch">
-                        <forename>Chloé</forename>
-                        <surname>Chollet</surname>
-                    </persName>
-                </respStmt>
-                <respStmt>
-                    <resp>intellectual authorship of edition</resp>
-                    <persName ref="http://viaf.org/viaf/66465311">
-                        <forename>George</forename>
-                        <surname>Cœdès</surname>
-                    </persName>
-                    <persName ref="part:chch">
-                        <forename>Chloé</forename>
-                        <surname>Chollet</surname>
-                    </persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <authority>DHARMA</authority>
-                <pubPlace>Paris</pubPlace>
-                <idno type="filename">K0410</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>San Sung stela (K. 410)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">K0410</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
                             Licence. To view a copy of the licence, visit
                             https://creativecommons.org/licenses/by/4.0/ or send a letter to
                             Creative Commons, 444 Castro Street, Suite 900, Mountain View,
                             California, 94041, USA.</p>
-                        <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
-                    </licence>
-                </availability>
-                <date from="2019" to="2025">2019-2025</date>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>DHARMAbase</repository>
-                        <idno/>
-                    </msIdentifier>
-                    <msContents>
-                        <summary><!-- //// NOT MANDATORY  ////--></summary>
-                    </msContents>
-                    <physDesc>
-                        <handDesc>
-                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
-                        </handDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <projectDesc>
-                <p>This project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
-            </projectDesc>
-            <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
-            <listPrefixDef>
-                <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
-                    <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
-                </prefixDef>
-                <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
-                    <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
-                </prefixDef>
-            </listPrefixDef>
-        </encodingDesc>
-        <revisionDesc>
-            <change who="part:chch" when="2020-10-29">started initial encoding of the inscription</change>
-        </revisionDesc>
-    </teiHeader>
-    <text xml:space="preserve">
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+               </msIdentifier>
+               <msContents>
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:chch" when="2020-11-03">added personnal translation</change>
+         <change who="part:chch" when="2020-10-29">started initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="x-oldkhmer-Latn">
              <p>
-                 <lb n="1"/><g type="circleDouble"/> <num value="944">944</num> śaka<g type="circleDouble">.</g> caturdaśī ket· bhadrapa<lb
-                 n="2" break="no"/>da Ādityavāra nu vraḥ pāda kaṁmrateṅ<unclear>·</unclear> kaṁtva<lb
-                 n="3" break="no"/>n· Añ· śrīsūryyavarmmadeva pandval· vraḥ ni<lb
-                 n="4" break="no"/>yama ru samācāra ta tap ra<!-- argr: change all cases of tapra to tap ra in the txt files?--> pī bhūvana phoṅ·
-                <lb n="5"/>dval· pī thve toya<g type="circleHigh">.</g> nā sthāna tapasvi pho<lb
-                n="6" break="no"/>ṅ· nu vraḥ paṁnvas· bhikṣu mahāyāna stha<lb
-                n="7" break="no"/>vira<g type="circleHigh">.</g> nau ru ta pvas· vyat· pi nu thv<unclear>ā</unclear>y· tapaḥ ta
-                <lb n="8"/>vraḥ pāda kaṁmrateṅ· kaṁtvan· Añ· śrī<lb
-                n="9" break="no"/>sūryyavarmmadeva<g type="circleHigh">.</g> nau ruva qnak ta cval· sāṁ
+                 <lb n="1"/><g type="circleDouble"/> <num value="944">944</num> śaka<g type="circleDouble">.</g> caturdaśī ket· bhadrapa<lb n="2" break="no"/>da Ādityavāra nu vraḥ pāda kaṁmrateṅ<unclear>·</unclear> kaṁtva<lb n="3" break="no"/>n· Añ· śrīsūryyavarmmadeva pandval· vraḥ ni<lb n="4" break="no"/>yama ru samācāra ta tap ra<!-- argr: change all cases of tapra to tap ra in the txt files?--> pī bhūvana phoṅ·
+                <lb n="5"/>dval· pī thve toya<g type="circleHigh">.</g> nā sthāna tapasvi pho<lb n="6" break="no"/>ṅ· nu vraḥ paṁnvas· bhikṣu mahāyāna stha<lb n="7" break="no"/>vira<g type="circleHigh">.</g> nau ru ta pvas· vyat· pi nu thv<unclear>ā</unclear>y· tapaḥ ta
+                <lb n="8"/>vraḥ pāda kaṁmrateṅ· kaṁtvan· Añ· śrī<lb n="9" break="no"/>sūryyavarmmadeva<g type="circleHigh">.</g> nau ruva qnak ta cval· sāṁ
                 <lb n="10"/>pi<!-- GC has sāṁpi as a single word, but Jenner (DAK, s.v. sāṁ) cites this passage with sāṁ and pi separated. --> tamaḥ tapovanāvāsa noḥ pi thve
-                <lb n="11"/>kaṅ·vala pi vvaṁ Aṁpāṇ· pi tapasvi yogi
+                <lb n="11"/>kaṅ·vala pi vvaṁ Aṁpā<choice><orig>ṇ</orig><reg>n</reg></choice>· pi tapasvi yogi
                 <lb n="12"/>phoṅ· svat· mantra pi nu thvāy· tapaḥ ta
-                <lb n="13"/>vraḥ pāda kaṁmrateṅ· kaṁtvan· Añ· śrisū<lb
-                n="14" break="no"/>ryyavarmmadeva ti pre cāp pi nāṁ cuñ· ta
+                <lb n="13"/>vraḥ pāda kaṁmrateṅ· kaṁtvan· Añ· śrisū<lb n="14" break="no"/>ryyavarmmadeva ti pre cāp pi nāṁ cuñ· ta
                 <lb n="15"/>sabhā stap· vyavahāra nirṇnaya<!-- read vyavahāranirṇaya as a single word? Cf. K. 598 ti vyavahāra kaṁmrateṅ phdai karoṁ nirṇṇaya --> toya
                 <lb n="16"/>Uttamasāha<!-- supply sa to get Uttamasāhasa?--> <g type="circle">.</g> gi n<unclear>u</unclear> ta nā<unclear>ṁ</unclear> samācāra neḥ
                 <lb n="17"/>mok· vraḥ <gap reason="illegible" quantity="2" unit="character"/> <unclear>srethi</unclear> <g type="eye">.</g> <g type="simpleFinial">.</g>
-                <lb n="18"/><num value="944">947</num> śaka <g type="circle">.</g> <gap reason="illegible" quantity="2" unit="character"/> roc māgha nu mā<lb
-                n="19" break="no"/>n· vraḥ niya<supplied reason="lost">ma</supplied><gap reason="illegible" quantity="4" unit="character"/> nu tapa<lb
-                n="20" break="no"/>svi phoṅ· vvaṁ <gap reason="illegible" quantity="4" unit="character"/> kaṁluṅ· <unclear>kā</unclear><lb
-                n="21" break="no"/>śiti kralā <gap reason="lost" quantity="10" unit="character" precision="low"/>
+                <lb n="18"/><num value="944">947</num> śaka <g type="circle">.</g> <gap reason="illegible" quantity="2" unit="character"/> roc māgha nu mā<lb n="19" break="no"/>n· vraḥ niya<supplied reason="lost">ma</supplied><gap reason="illegible" quantity="4" unit="character"/> nu tapa<lb n="20" break="no"/>svi phoṅ· vvaṁ <gap reason="illegible" quantity="4" unit="character"/> kaṁluṅ· E<unclear>kā</unclear><lb n="21" break="no"/>śiti kralā <gap reason="lost" quantity="10" unit="character" precision="low"/>
                 <lb n="22"/>Añcana vvaṁ Ā<unclear>c·</unclear> <gap reason="lost" quantity="8" unit="character" precision="low"/>
-                <lb n="23"/>krapi jrvak· vave man· qdā svā <gap reason="lost" quantity="4" unit="character" precision="low"/>
+                <lb n="23"/>krapi jrvak· vave man· Adā svā <gap reason="lost" quantity="4" unit="character" precision="low"/>
                 <lb n="24"/>Āc ti cval· ta sthāna ta ro<supplied reason="lost">ḥh</supplied> <gap reason="lost" quantity="4" unit="character" precision="low"/>
                 <lb n="25"/><gap reason="illegible" quantity="1" unit="character"/>  paṇdita roḥha no<supplied reason="lost">ḥh·</supplied> <gap reason="lost" quantity="5" unit="character" precision="low"/>
                 <lb n="26"/><gap reason="lost" quantity="2" unit="number"/><num value="7">7</num> śaka <g type="circle">.</g> ta gi <gap reason="lost" quantity="6" unit="character" precision="low"/>
@@ -122,7 +121,7 @@
                      <rdg source="bib:Coedes1929_01">pi</rdg>
                   </app>
                   <app loc="11">
-                     <lem>Aṁpāṇ·</lem>
+                     <lem>Aṁpā<choice><orig>ṇ</orig><reg>n</reg></choice>·</lem>
                      <rdg source="bib:Coedes1929_01">Aṁpān·</rdg>
                   </app>
                   <app loc="13">
@@ -132,19 +131,32 @@
                </listApp>
          </div>
          <div type="translation" xml:lang="fra" source="bib:Coedes1929_01">
- 	<p n="1-17">En 944 <foreign>śaka</foreign>, le quatorzième jour de la lune croissante de Bhadrapada, dimanche, Sa Majesté Śrī Sūryavarmadeva édice cette prescription <supplied reason="explanation">niyama</supplied> comme règle de conduite <supplied reason="explanation">samācāra</supplied>, pour que dorénavant tout le monde s'y conforme respectueusement. Dans les lieux de résidence des ascètes et de ceux qui ont pris les ordres comme moines <supplied reason="explanation">bhikṣu</supplied> dans <supplied reason="subaudible">la secte</supplied> Mahāyāna ou <supplied reason="subaudible">dans la secte</supplied> Sthavira, que ceux qui ont pris les ordres d'un cœur sincère offrent leur ardeur <supplied reason="explanation">tapas</supplied> à Sa Majesté Śrī Sūryavarmadeva ; et les gens qui entrent pour obscurcir ces résidences forestières destinées aux pratiques de l'ascétisme, pour y causer du trouble et empêcher que les ascètes et les <foreign>yogin</foreign> ne récitent les formules <supplied reason="explanation">mantra</supplied> par lesquelles ils offrent leur ardeur à Sa Majesté Śrī Sūryavarmadeva, il est prescrit de se saisir d'eux et de les faire comparaître devant le tribunal pour y écouter leur procès <supplied reason="subaudible">qui devra être</supplied> jugé avec la plus grande fermeté. Celui qui a apporté ce règlement est Vraḥ <gap reason="illegible"/> srethi.</p>
-             <p n="18-25">En 947 <foreign>śaka</foreign>, le <gap reason="illegible"/> jour de la lune décroissante de Māgha, un édit <gap reason="illegible"/> les ascètes ne pas <gap reason="illegible"/> dans les autre-vingt-un <gap reason="lost"/> douves, ne pas <gap reason="lost"/> les buffles, cochons, chèvres, poules, canards, singes <gap reason="lost"/> n'entrent pas dans ces lieux <gap reason="lost"/> ces pandits <gap reason="lost"/></p>
+ 	<p n="1-17">En 944 <foreign>śaka</foreign>, le quatorzième jour de la lune croissante de Bhadrapada, dimanche, Sa Majesté Śrī Sūryavarmadeva édice cette prescription <supplied reason="explanation">niyama</supplied> comme règle de conduite <supplied reason="explanation">samācāra</supplied>, pour que dorénavant tout le monde s'y conforme respectueusement. Dans les lieux de résidence des ascètes et de ceux qui ont pris les ordres comme moines <supplied reason="explanation">bhikṣu</supplied> dans <supplied reason="subaudible">la secte</supplied> Mahāyāna ou <supplied reason="subaudible">dans la secte</supplied> Sthavira, que ceux qui ont pris les ordres d'un cœur sincère offrent leur ardeur <supplied reason="explanation">tapas</supplied> à Sa Majesté Śrī Sūryavarmadeva ; et les gens qui entrent pour obscurcir ces résidences forestières destinées aux pratiques de l'ascétisme, pour y causer du trouble et empêcher que les ascètes et les <foreign>yogin</foreign> ne récitent les formules <supplied reason="explanation">mantra</supplied> par lesquelles ils offrent leur ardeur à Sa Majesté Śrī Sūryavarmadeva, il est prescrit de se saisir d'eux et de les faire comparaître devant le tribunal pour y écouter leur procès <supplied reason="subaudible">qui devra être</supplied> jugé avec la plus grande fermeté. Celui qui a apporté ce règlement est Vraḥ <gap reason="illegible"/>srethi.</p>
+             <p n="18-25">En 947 <foreign>śaka</foreign>, le <gap reason="illegible"/> jour de la lune décroissante de Māgha, un édit <gap reason="illegible"/> les ascètes ne pas <gap reason="illegible"/> dans les quatre-vingt-un <gap reason="lost"/> douves, ne pas <gap reason="lost"/> les buffles, cochons, chèvres, poules, canards, singes <gap reason="lost"/> n'entrent pas dans ces lieux <gap reason="lost"/> ces pandits <gap reason="lost"/></p>
              <p n="26-29">En <gap reason="lost"/>7 <foreign>śaka</foreign> <gap reason="lost"/> un jeudi <gap reason="lost"/></p>
          </div>
           <div type="translation" xml:lang="fra" resp="part:chch">
-
+<p n="1-5">En 944 <foreign>śaka</foreign>, le quatorzième <supplied reason="subaudible">jour</supplied> de la lune croissante <supplied reason="subaudible">du mois</supplied> de Bhadrapada, un dimanche, c'est alors que Sa Majesté Śrī Sūryavarman a prononcé un ordre royal sous la forme d'un code de conduite convenable <supplied reason="explanation"><foreign>ta tap ra</foreign></supplied> à l'intention <supplied reason="explanation"><foreign>pī</foreign></supplied> de tous les individus le recevant avec humilité <!--chch: ou les individus de l'éminence ?--> afin qu'ils le mettent en application :</p>
+              <p n="5-9">Là où résident tous les <foreign>tapasvi</foreign> et les religieux <supplied reason="subaudible">qui sont</supplied> <foreign>bhikṣu</foreign> dans <supplied reason="subaudible">la secte</supplied> Mahāyāna ou <supplied reason="subaudible">dans la secte</supplied> Sthaviravāda : que ceux qui ont véritablement pris les ordres fassent don de leur <foreign>tapas</foreign> à Sa Majesté Śrī Sūryavarman.</p>
+              <p n="9-16">Quant aux personnes qui s'introduiront sans relâche afin de troubler ce <placeName>Tapovanāvāsa</placeName>, en empêchant tous les <foreign>tapasvi</foreign> <supplied reason="subaudible">et les</supplied> <foreign>yogi</foreign> de réciter les <foreign>mantra</foreign> dans le but d'offrir leur <foreign>tapas</foreign> à Sa Majesté Śrī Sūryavarman, il est demandé de les appréhender pour les mener devant la Cour, où le litige sera entendu et jugé sous la forme de punition la plus sévère.</p>
+              <p n="16-17">Celui qui a apporté cet ordre est Vraḥ <gap reason="illegible"/>srethi.</p>
+              <p n="18-25">En 947 <foreign>śaka</foreign>, <gap reason="illegible"/> quinzaine sombre <supplied reason="subaudible">du mois</supplied> de Māgha, c'est alors qu'un ordre royal <gap reason="illegible"/> et tous les <foreign>tapasvi</foreign> ne pas <gap reason="illegible"/> à l'intérieur des quatre-vingt-un <gap reason="lost"/> <foreign>kralā</foreign> <gap reason="lost"/> douves, ne pas <gap reason="lost"/> buffles, cochons, chèvres, poules, canards, singes <gap reason="lost"/> n'entrent pas dans cet endroit <gap reason="lost"/> ces <foreign>paṇdit</foreign> <gap reason="lost"/></p>
+              <p n="26-29">En <gap reason="lost"/>7 <foreign>śaka</foreign>, <gap reason="lost"/> un jeudi <gap reason="lost"/></p>
           </div>
          <div type="commentary">
             <p>The first date is Sunday, August 12, 1022 CE.</p>
+             <p>The term <foreign>kaṁtvan</foreign>, meaning "from the female ligneage" is commonly used in Sūryavarman I's titulature. On this question see <bibl><ptr target="bib:Griffiths+Soutif2008-2009_01"/><citedRange unit="page">54</citedRange></bibl>.</p>
+             <p>The term <foreign>samācāra</foreign> is a hapax.</p>
+             <!--<p>See also <ref target="K0091.xml">K. 91</ref>, l. B5, for the expression <foreign>kaṁluṅ Ekāśiti</foreign>.</p>-->
          </div>
         <div type="bibliography">
-           <p>First edited by George Cœdès with a French translation (<bibl rend="omitname"><ptr target="bib:Coedes1929_01"/><citedRange unit="page">10-12</citedRange></bibl>). Re-edited here by Chloé Chollet based on EFEO estampage n. 220.</p>
+           <p>First studied by Etienne Aymonier (<bibl rend="omitname"><ptr target="bib:Aymonier1900-1904_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">81-82</citedRange></bibl>). Edited later by George Cœdès with a French translation (<bibl rend="omitname"><ptr target="bib:Coedes1929_01"/><citedRange unit="page">10-12</citedRange></bibl>). Re-edited here by Chloé Chollet based on EFEO estampage n. 220.</p>
         	<listBibl type="primary">
+        	<bibl n="EA">
+	<ptr target="bib:Aymonier1900-1904_01"/>
+	<citedRange unit="volume">2</citedRange>
+	<citedRange unit="page">81-82</citedRange>
+	</bibl>
 	<bibl n="GC">
 	<ptr target="bib:Coedes1929_01"/>
         	<citedRange unit="page">10-12</citedRange>
