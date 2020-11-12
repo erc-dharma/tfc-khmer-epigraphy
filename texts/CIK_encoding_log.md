@@ -36,8 +36,8 @@
 |K.	29 |kuch|done|IC II|
 |K.	30 |kuch |done |IC II|
 |K.	31 |# |# |#|
-|K.	32 |# |# |#|
-|K.	33 |# |# |#|
+|K.	32 |chch |pending |IC II|
+|K.	33 |chch |pending |IC III|
 |K.	34 |# |# |#|
 |K.	35 |# |# |#|
 |K.	36 |# |# |#|
@@ -114,7 +114,7 @@
 |K.	108 |# |# |#|
 |K.	109 |kuch |pending |Coedes 1911|
 |K.	110 |# |# |#|
-|K.	111 |# |# |#|
+|K.	111 |chch |pending |IC VI|
 |K.	112 |# |# |#|
 |K.	113 |# |# |#|
 |K.	114 |# |# |#|
@@ -181,7 +181,7 @@
 |K.	174 |chch |done |Roeské 1914|
 |K.	175 |sapi |done ||C VI |
 |K.	176 |chch |done |IC V|
-|K.	177 |# |# |#|
+|K.	177 |chch |pending |IC VII|
 |K.	178 |chch |done |IC VI|
 |K.	179 |# |# |#|
 |K.	180 |# |# |#|
@@ -195,11 +195,11 @@
 |K.	188 |# |# |#|
 |K.	189 |# |# |#|
 |K.	190 |# |# |#|
-|K.	191 |# |# |#|
+|K.	191 |chch |pending |IC VI|
 |K.	192 |sapi |pending ||C VI |
 |K.	193 |# |# |#|
 |K.	194 |# |# |#|
-|K.	195 |# |# |#|
+|K.	195 |chch |pending |IC VI|
 |K.	196 |# |# |#|
 |K.	197 |# |# |#|
 |K.	198 |# |# |#|
@@ -215,7 +215,7 @@
 |K.	208 |# |# |#|
 |K.	209 |# |# |#|
 |K.	210 |# |# |#|
-|K.	211 |# |# |#|
+|K.	211 |chch |pending |IC III|
 |K.	212 |# |# |#|
 |K.	213 |kuch |pending |ISC|
 |K.	214 |chch |done |IC II |
@@ -231,7 +231,7 @@
 |K.	222 |# |# |#|
 |K.	223 |# |# |#|
 |K.	224 |# |# |#|
-|K.	225 |# |# |#|
+|K.	225 |chch |pending |IC III|
 |K.	226 |# |# |#|
 |K.	227 |# |# |#|
 |K.	228 |# |# |#|
@@ -259,12 +259,12 @@
 |K.	250 |# |# |#|
 |K.	251 |# |# |#|
 |K.	252 |# |# |#|
-|K.	253 |# |# |#|
+|K.	253 |chch |pending |IC III|
 |K.	254 |# |# |#|
 |K.	255 |# |# |#|
 |K.	256 |# |# |#|
 |K.	257 |# |# |#|
-|K.	258 |# |# |#|
+|K.	258 |chch |pending |IC IV|
 |K.	259 |# |# |#|
 |K.	260 |# |# |#|
 |K.	261 |# |# |#|
@@ -285,7 +285,7 @@
 |K.	276 |# |# |#|
 |K.	277 |# |# |#|
 |K.	278 |# |# |#|
-|K.	279 |# |# |#|
+|K.	279 |chch |pending |ISCC|
 |K.	280 |# |# |#|
 |K.	281 |# |# |#|
 |K.	282 |# |# |#|
@@ -293,10 +293,10 @@
 |K.	284 |# |# |#|
 |K.	285 |# |# |#|
 |K.	286 |# |# |#|
-|K.	287 |# |# |#|
+|K.	287 |chch |pending |IC IV|
 |K.	288 |# |# |#|
 |K.	289 |# |# |#|
-|K.	290 |# |# |#|
+|K.	290 |chch |pending |IC III|
 |K.	291 |# |# |#|
 |K.	292 |# |# |#|
 |K.	293-1 |kuch |done |Coedes 1913  BEFEO 1918  IC III, no trans.|
@@ -376,7 +376,7 @@
 |K.	363 |kuch |pending |Barth 1903|
 |K.	364 |# |# |#|
 |K.	365 |kuch |pending |Coedes 1956; Jacques 1962|
-|K.	366 |# |# |#|
+|K.	366 |chch |pending |IC V|
 |K.	367 |kuch |pending |Barth 1902|
 |K.	368 |# |# |#|
 |K.	369 |# |# |#|
@@ -384,17 +384,17 @@
 |K.	371 |# |# |#|
 |K.	372 |# |# |#|
 |K.	373 |# |# |#|
-|K.	374 |# |# |#|
+|K.	374 |chch |pending |IC VI|
 |K.	375 |# |# |#|
 |K.	376 |# |# |#|
 |K.	377 |kuch |pending |#|
 |K.	378 |# |# |#|
 |K.	379 |chch |done |IC VI|
 |K.	380 |# |# |#|
-|K.	381 |# |# |#|
+|K.	381 |chch |pending |IC VI|
 |K.	382 |# |# |#|
 |K.	383 |# |# |#|
-|K.	384 |# |# |#|
+|K.	384 |chch |pending |IC V|
 |K.	385 |# |# |#|
 |K.	386 |# |# |#|
 |K.	387 |# |# |#|
@@ -495,7 +495,7 @@
 |K.	482 |kuch |pending |#|
 |K.	483 |kuch |pending |IC I|
 |K.	484 |# |# |#|
-|K.	485 |# |# |#|
+|K.	485 |chch |pending |IC II|
 |K.	486 |# |# |#|
 |K.	487 |# |# |#|
 |K.	488 |# |# |#|
@@ -511,7 +511,7 @@
 |K.	498 |# |# |#|
 |K.	499 |kuch |done |Chhabra 1935, no trans.|
 |K.	500 |# |# |#|
-|K.	501 |# |# |#|
+|K.	501 |chch |pending |IC III|
 |K.	502 |kuch |pending |Coedes 1924|
 |K.	503 |kuch |pending |Coedes 1924|
 |K.	504 |# |# |#|
@@ -593,7 +593,7 @@
 |K.	580 |# |# |#|
 |K.	581 |# |# |#|
 |K.	582 |kuch |done |IC II|
-|K.	583 |# |# |#|
+|K.	583 |chch |pending |IC VII|
 |K.	584 |# |# |#|
 |K.	585 |# |# |#|
 |K.	586 |# |# |#|
@@ -679,7 +679,7 @@
 |K.	666 |kuch |pending |IC V|
 |K.	667 |# |# |#|
 |K.	668 |# |# |#|
-|K.	669 |# |# |#|
+|K.	669 |chch |pending |IC I|
 |K.	670 |kuch |pending |IC VII|
 |K.	671 |# |# |#|
 |K.	672 |# |# |#|
@@ -702,7 +702,7 @@
 |K.	689 |kuch |done |IC VI|
 |K.	690 |# |# |#|
 |K.	691 |# |# |#|
-|K.	692 |# |# |#|
+|K.	692 |chch |pending |IC I|
 |K.	693 |# |# |#|
 |K.	694 |# |# |#|
 |K.	695 |# |# |#|
@@ -717,7 +717,7 @@
 |K.	704 |# |# |#|
 |K.	705 |# |# |#|
 |K.	706 |# |# |#|
-|K.	707 |# |# |#|
+|K.	707 |chch |pending |IC V|
 |K.	708 |# |# |#|
 |K.	709 |kuch |pending |IC V|
 |K.	710 |kuch |pending |IC VI|
@@ -746,7 +746,7 @@
 |K.	733 |kuch |pending |IC I|
 |K.	734 |kuch |pending |unpublished|
 |K.	735 |# |# |#|
-|K.	736 |# |# |#|
+|K.	736 |chch |pending |IC V|
 |K.	737 |# |# |#|
 |K.	738 |# |# |#|
 |K.	739 |# |# |#|
@@ -819,7 +819,7 @@
 |K.	806 |# |# |#|
 |K.	807 |# |# |#|
 |K.	808 |# |# |#|
-|K.	809 |# |# |#|
+|K.	809 |chch |pending |IC I|
 |K.	810 |kuch |pending |IC VI|
 |K.	811 |kuch |pending |IC VI|
 |K.	812 |# |# |#|
@@ -840,11 +840,11 @@
 |K.	827 |# |# |#|
 |K.	828 |# |# |#|
 |K.	829 |# |# |#|
-|K.	830 |# |# |#|
+|K.	830 |chch |pending |IC V|
 |K.	831 |# |# |#|
 |K.	832 |# |# |#|
 |K.	833 |# |# |#|
-|K.	834 |# |# |#|
+|K.	834 |chch |pending |IC V|
 |K.	835 |# |# |#|
 |K.	836 |# |# |#|
 |K.	837 |# |# |#|
@@ -863,8 +863,8 @@
 |K.	850 |# |# |#|
 |K.	851 |kuch |done |Coedes IC I|
 |K.	852 |# |# |#|
-|K.	853 |# |# |#|
-|K.	854 |# |# |#|
+|K.	853 |chch |pending |IC I|
+|K.	854 |chch |pending |IC I|
 |K.	855 |chch |done |IC V|
 |K.	856 |chch |done |IC V|
 |K.	857 |# |# |#|
@@ -889,7 +889,7 @@
 |K.	876 |# |# |#|
 |K.	877 |kuch |pending |IC VI|
 |K.	878 |# |# |#|
-|K.	879 |# |# |#|
+|K.	879 |chch |pending |IC V|
 |K.	880 |# |# |#|
 |K.	881 |# |# |#|
 |K.	882 |# |# |#|
@@ -933,7 +933,7 @@
 |K.	920 |# |# |#|
 |K.	921 |# |# |#|
 |K.	922 |# |# |#|
-|K.	923 |# |# |#|
+|K.	923 |chch |pending |IC IV|
 |K.	924 |kuch |pending |unpublished|
 |K.	925 |# |# |#|
 |K.	926 |kuch |pending |#|
@@ -968,7 +968,7 @@
 |K.	954 |# |# |#|
 |K.	955 |# |# |#|
 |K.	956 |kuch |pending |IC VII|
-|K.	957 |# |# |#|
+|K.	957 |chch |pending |IC VII|
 |K.	958 |# |# |#|
 |K.	959 |# |# |#|
 |K.	960 |# |# |#|
@@ -1000,7 +1000,7 @@
 |K.	986 |# |# |#|
 |K.	987 |# |# |#|
 |K.	988 |# |# |#|
-|K.	989 |# |# |#|
+|K.	989 |chch |pending |IC VII|
 |K.	990 |# |# |#|
 |K.	991 |# |# |#|
 |K.	992 |# |# |#|
@@ -1057,7 +1057,7 @@
 |K.	1037 |# |# |#|
 |K.	1038 |# |# |#|
 |K.	1039 |# |# |#|
-|K.	1040 |# |# |#|
+|K.	1040 |chch |pending |unpublished|
 |K.	1041 |# |# |#|
 |K.	1042 |# |# |#|
 |K.	1043 |# |# |#|
@@ -1102,7 +1102,7 @@
 |K.	1082 |kuch |done |Gerschheimer and Pichard 2007|
 |K.	1083 |kuch |pending |unpublished|
 |K.	1084 |# |# |#|
-|K.	1085 |# |# |#|
+|K.	1085 |chch |pending |NIC II-III|
 |K.	1086 |# |# |#|
 |K.	1087 |# |# |#|
 |K.	1088 |# |# |#|
@@ -1245,7 +1245,7 @@
 |K.	1225 |kuch |pending |unpublished|
 |K.	1226 |# |# |#|
 |K.	1227 |# |# |#|
-|K.	1228 |# |# |#|
+|K.	1228 |chch |pending |unpublished|
 |K.	1229 |kuch |done |Soutif 2009|
 |K.	1230 |# |# |#|
 |K.	1231 |# |# |#|
@@ -1303,7 +1303,7 @@
 |K.	1283 |chch |done |Chevance 2014|
 |K.	1284 |chch |done |Chevance 2014|
 |K.	1285 |# |# |#|
-|K.	1286 |# |# |#|
+|K.	1286 |chch |pending |Estève et Soutif 2014|
 |K.	1287 |kuch |pending |NIC IV|
 |K.	1288 |kuch |pending |Vong Sotheara 2011|
 |K.	1289 |# |# |#|
