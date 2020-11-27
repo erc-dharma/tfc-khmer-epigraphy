@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ritual recipient of Prasat Preah Theat Prei Chong Srok (K. 761), 555 Śaka</title>
+            <title>Pedestal from Prasat Preah Theat Prei Chong Srok (K. 761), 555 Śaka</title>
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:kuch">
@@ -18,6 +18,10 @@
                <persName ref="http://viaf.org/viaf/66465311">
                   <forename>George</forename>
                   <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
                </persName>
             </respStmt>
          </titleStmt>
@@ -82,46 +86,57 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-26" status="draft">Creation of the file</change>
+         <change who="part:kuch" when="2020-11-26" status="draft">started initial encoding of the inscription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="san-Latn">
-                <p>
-                   <milestone type="pagelike" unit="upper surface"/>
-                   <lb n="1"/>$spiralR 555 śaka
-                    <milestone type="pagelike" unit="face" n="A"/>
-<lb n="1"/>
-                   (1) śrīdharasvāmiviprena saha kr̥ṣṇaharena ca
-- - - - - - - - - - - - (2) - - vr̥taḥ
-% kr̥ṣnaharena : La lecture kr̥ṣna est douteuse.
+                <div type="textpart" n="A">
+                  <head xml:lang="eng">Top</head>
+                   <p><lb n="1"/>$spiralR 555 śaka</p>
+                </div>
+                <div type="textpart" n="B">
+                  <head xml:lang="eng">Sides</head>
+                  <lg met="anusṭubh" n="1">
+                  <l n="a"><lb n="1"/>śrīdharasvāmiviprena</l>
+                  <l n="b">saha kr̥ṣṇaharena ca</l>
+                  <l n="c"><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+                  <l n="d"><seg met="===="><gap reason="illegible" quantity="4" unit="character"/></seg><lb n="2"/><seg met="-+"><gap reason="illegible" quantity="2" unit="character"/></seg>vr̥taḥ</l></lg>
+                  <lg met="anusṭubh" n="2">
+                    <l n="a">prāgdiśi yo 'sti sīmā</l>
+                    <l n="b">tatākaṁ yuja (m)ena -(?)</l>
+                    <l n="c">- (mo) yasmasyāṁ (A?)syā(ṁ?)</l>
+                    <l n="d">praticyāṁ prathukhānitaṁ</l><!-- should be pratīcyāṁ, no?> -->
+                  </lg>
+                  
+                                      <milestone type="pagelike" unit="face" n="b"/>
+                                      <lb n="b1"/>
+                                     (1) - - - - - - - - - - - - ⏑ - ⏑ -
+                  (2) śrī - - śrīdharasvāmi- vr̥ta - dīkṣa - ⏑ -
+                  % Le caractère qui suit vr̥ta° est complexe; on peut peut-être lire ñca ou ñcā.
+                                      <milestone type="pagelike" unit="face" n="C"/>
+                                      <lb n="C1"/>(disparu)
+                                      <milestone type="pagelike" unit="face" n="d"/>
+                                      <lb n="d1"/>
+                                     (1) ($spiralR sa)rvveṣu narakeṣu rauravādiṣu dāruṇāḥ
+                  (2) yātanāṁ yāva(/pa)t(/dā)rkendū kalpa(nā)hāpnuyān(/nāḥ)
 
-prāgdiśi (śayo) sti sīmā tatākaṁ yuja (m)ena -(?) 
-- (mo) yasmasyāṁ (A?)syā(ṁ?) praticyāṁ prathukhānitaṁ
-% La lecture °khāni n'est pas certaine.
-                    <milestone type="pagelike" unit="face" n="b"/>
-                    <lb n="b1"/>
-                   (1) - - - - - - - - - - - - ⏑ - ⏑ -
-(2) śrī - - śrīdharasvāmi- vr̥ta - dīkṣa - ⏑ -
-% Le caractère qui suit vr̥ta° est complexe; on peut peut-être lire ñca ou ñcā.
-                    <milestone type="pagelike" unit="face" n="C"/>
-                    <lb n="C1"/>(disparu)
-                    <milestone type="pagelike" unit="face" n="d"/>
-                    <lb n="d1"/>
-                   (1) ($spiralR sa)rvveṣu narakeṣu rauravādiṣu dāruṇāḥ
-(2) yātanāṁ yāva(/pa)t(/dā)rkendū kalpa(nā)hāpnuyān(/nāḥ)
-
-% ($spiralR sa)rvveṣu: - - rmmeṣu GC.
-                </p>
+                  % ($spiralR sa)rvveṣu: - - rmmeṣu GC.
+                                  </p>
+                </div>
             </div>
             <div type="apparatus">
                <listApp>
-                  <app loc="a8">
-                     <lem></lem>
-                      <note></note>
+                  <app loc="B1">
+                     <lem>kr̥ṣnaharena</lem>
+                      <note>La lecture kr̥ṣna est douteuse.</note>
                   </app>
-               </listApp>         
+                  <app loc="B2">
+                     <lem>prathukhānitaṁ</lem>
+                      <note>La lecture °khāni n'est pas certaine.</note>
+                  </app>
+               </listApp>
          </div>
          <div type="translation" xml:lang="fra">
  	<!--translation encoded as per EG §9.2 -->
