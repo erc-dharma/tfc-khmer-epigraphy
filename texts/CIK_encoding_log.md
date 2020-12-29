@@ -84,7 +84,7 @@
 |K.	77 |kuch |done |IC V|
 |K.	78 |kuch |pending |IC VI|
 |K.	79 |kuch |done |Coedes 1904|
-|K.	80 |kuch |pending |ISC|
+|K.	80 |kuch |done |ISC|
 |K.	81 |kuch |done|ISC|
 |K.	82 |# |# |#|
 |K.	83 |# |# |#|
@@ -158,7 +158,7 @@
 |K.	151 |kuch |pending |Coedes 1943|
 |K.	152 |# |# |#|
 |K.	153 |# |# |#|
-|K.	154 |kuch |pending |IC II|
+|K.	154 |kuch |done |IC II|
 |K.	155 |# |# |#|
 |K.	156 |kuch |done |IC V|
 |K.	157 |# |# |#|
@@ -433,10 +433,10 @@
 |K.	420 |# |# |#|
 |K.	421 |kuch |done |IC V|
 |K.	422 |kuch |pending |IC II|
-|K.	423 |kuch |pending |IC II|
+|K.	423 |kuch |done |IC II|
 |K.	424 |kuch |pending |IC II|
 |K.	425 |# |# |#|
-|K.	426 |kuch |pending |IC II|
+|K.	426 |kuch |done |IC II|
 |K.	427 |kuch |pending |IC VI|
 |K.	428 |# |# |#|
 |K.	429 |kuch |done |Finot 1912|
@@ -558,7 +558,7 @@
 |K.	545 |# |# |#|
 |K.	546 |# |# |#|
 |K.	547 |# |# |#|
-|K.	548 |kuch |pending |IC II|
+|K.	548 |kuch |done |IC II|
 |K.	549 |# |# |#|
 |K.	550 |# |# |#|
 |K.	551 |# |# |#|
@@ -573,7 +573,7 @@
 |K.	560 |kuch |pending |IC VI|
 |K.	561 |kuch |pending |IC II|
 |K.	562 |kuch |pending |IC II|
-|K.	563 |kuch |pending |IC II|
+|K.	563 |kuch |done |IC II|
 |K.	564 |# |# |#|
 |K.	565 |# |# |#|
 |K.	566 |# |# |#|
@@ -721,7 +721,7 @@
 |K.	708 |# |# |#|
 |K.	709 |kuch |pending |IC V|
 |K.	710 |kuch |pending |IC VI|
-|K.	711 |kuch |pending |IC VI|
+|K.	711 |kuch |done |IC VI|
 |K.	712 |kuch |pending |IC VI|
 |K.	713 |# |# |#|
 |K.	714 |chch |pending |unpublished|
@@ -729,7 +729,7 @@
 |K.	716 |chch |pending |NIC I|
 |K.	717 |# |# |#|
 |K.	718 |# |# |#|
-|K.	719 |kuch |pending |IC VI|
+|K.	719 |kuch |done |IC VI|
 |K.	720 |# |# |#|
 |K.	721 |# |# |#|
 |K.	722 |# |# |#|
@@ -771,7 +771,7 @@
 |K.	758 |# |# |#|
 |K.	759 |kuch |pending |IC VI|
 |K.	760 |# |# |#|
-|K.	761 |kuch |pending |IC VII|
+|K.	761 |kuch |done |IC VII|
 |K.	762 |kuch |pending |IC I|
 |K.	763 |# |# |#|
 |K.	764 |kuch |pending |IC VI|
@@ -795,7 +795,7 @@
 |K.	782 |# |# |#|
 |K.	783 |dogo |done |Coedes IC I|
 |K.	784 |kuch |pending |IC VI|
-|K.	785 |kuch |pending |IC VI|
+|K.	785 |kuch |done |IC VI|
 |K.	786 |# |# |#|
 |K.	787 |kuch |done |Coedes IC VI|
 |K.	788 |kuch |pending |IC VI|
@@ -821,7 +821,7 @@
 |K.	808 |# |# |#|
 |K.	809 |chch |pending |IC I|
 |K.	810 |kuch |pending |IC VI|
-|K.	811 |kuch |pending |IC VI|
+|K.	811 |kuch |done |IC VI|
 |K.	812 |# |# |#|
 |K.	813 |# |# |#|
 |K.	814 |# |# |#|
@@ -1021,7 +1021,7 @@
 |K.	1007 |# |# |#|
 |K.	1008 |# |# |#|
 |K.	1009 |kuch |done |Jacques 1969|
-|K.	1010 |kuch |pending  |unpublished|
+|K.	1010 |kuch |done |unpublished|
 |K.	1011.1 |chch |done |Jacques 1999|
 |K.	1011.2 |chch |done |Jacques 1999|
 |K.	1011.3 |chch |done |Jacques 1999|
@@ -1233,7 +1233,7 @@
 |K.	1213 |# |# |#|
 |K.	1214 |kuch |done |Griffiths 2005|
 |K.	1215 |kuch |done |Pou NIC II-III 2001 and Vong Sotheara 2001|
-|K.	1216 |kuch |pending|unpublished|
+|K.	1216 |kuch |done|unpublished|
 |K.	1217 |kuch |done |Soutif 2009|
 |K.	1218 |kuch |done |Soutif 2009|
 |K.	1219 |kuch |done |Soutif 2009|
@@ -1259,7 +1259,7 @@
 |K.	1239 |kuch |pending |unpublished|
 |K.	1240 |kuch |done |Soutif 2009|
 |K.	1241 |kuch |done | Pou NIC II-III 2001|
-|K.	1242 |kuch |pending |NIC II-III|
+|K.	1242 |kuch |done |NIC II-III|
 |K.	1243 |# |# |#|
 |K.	1244 |# |# |#|
 |K.	1245 |kuch |done |Soutif 2009|
@@ -1339,7 +1339,7 @@
 |K.	1319 |# |# |#|
 |K.	1320 |kuch |done |Goodall and Jacques 2014|
 |K.	1321 |# |# |#|
-|K.	1322 |kuch |pending |Griffiths 2014|
+|K.	1322 |kuch |done |Griffiths 2014|
 |K.	1323 |# |# |#|
 |K.	1324 |chch |pending |unpublished|
 |K.	1325.1 |chch |done |Chevance 2014|
