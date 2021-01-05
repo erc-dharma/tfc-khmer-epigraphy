@@ -25,14 +25,14 @@ jobs:
          uses: actions/upload-artifact@v2
          with:
            name: DHARMA_XMLCollection
-           path: workflow-output/editedxml
+           path: texts/workflow-output/editedxml
 
        # create a package with the resulting html files.
        - name: Archive HTML
          uses: actions/upload-artifact@v2
          with:
            name: DHARMA_HTMLCollection
-           path: workflow-output/html
+           path: texts/workflow-output/html
 
        - name: Updating the edited texts in the repository
          run: |
