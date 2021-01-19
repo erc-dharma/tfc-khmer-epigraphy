@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Tuol Ang Chi Chmar (K. 1352), 590 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">K1352</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom &amp; Arlo Griffiths.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary>
+                     <p>The inscription contains ten lines in Sanskrit forming five stanzas in anuṣṭubh metre. The poem opens with a praise of god Śiva. In the second verse, a devotee of god Śiva namely Nandīrāśi under the reign of king Jayavarman I established a hermitage (āśrama). The verse III mentions a donation of wealth of the protagonist to the hermitage. The last two stanzas consist of a malediction and a benediction for the protection of the foundation.</p>
+                  </summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-01-19" status="draft">initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="Anuṣṭubh">
+<l n="a"><lb n="1"/>(ja)yaty a(m)a(ra)ṇā(rthe) <space/></l>
+<l n="b">yaś śrīmāñ chaktitrayāt prabhuḥ</l>
+<l n="c"><lb n="2"/>jagat-sakala-ka(r)tt(e)śa_s</l>
+<l n="d">sārddha-candra-jaṭā-dharaḥ</l>
+</lg>
+<lg n="2" met="Anuṣṭubh">
+<l n="a"><lb n="3"/>(ta)s(m)i(n) r(ājādhirājasya) <space/></l>
+<l n="b">(rājye śrījayava)rmmaṇaḥ</l>
+<l n="c"><lb n="4"/>tad-āśramaṁ samaka(ro)_n</l>
+<l n="d">nandi(rā)śir vratī mahān·</l>
+</lg>
+                   <lg n="3" met="Anuṣṭubh">
+<l n="a"><lb n="5"/>nabhaś-chidra-śarair llakṣye <space/></l>
+<l n="b">śakāpde mādhavasya ca</l>
+<l n="c"><lb n="6"/>gu(rvartha)ṁ paurṇnāmāsyāñ ca <space/></l>
+<l n="d">so ’vyadād idam āśrame</l>
+</lg>
+                   <lg n="4" met="Anuṣṭubh">
+<l n="a"><lb n="7"/>yoginām āśrama-dravya_m</l>
+<l n="b">ito lokāj jihīrṣati</l>
+<l n="c"><lb n="8"/>sa pāpaśūro niraye _</l>
+<l n="d">nimajjed ā bhuvas sthite[ḥ]</l>
+</lg>
+                   <lg n="5" met="Anuṣṭubh">
+<l n="a"><lb n="9"/>svapuṇyaṁ parapuṇyam vā <space/></l>
+<l n="b">cira-kālena hīnakam·</l>
+<l n="c"><lb n="10"/>svadhanair yyo ’nuvarddheta $spiralR _</l>
+<l n="d">sa svarggāyopakalpyate</l>
+</lg>
+                </div>
+                <div type="apparatus">
+               <listApp>
+                 <app loc="1">
+                  <lem>a(m)a(ra)ṇā(rthe)</lem>
+                  <note>The term a(m)a(ra)ṇā(rthe) should perhaps more properly be transcribed amaraṇātho,14 since, if the final graph represents rthe, we would normally expect the final vowel-marker to be placed in front of the raised r (as in °kartteśas in the following line), rather than before the th underneath. But this requires assuming a (not impossible) grammatical anomaly. If we were to read amaraṇātho (instead of amaraṇārthe), we would have to assume mistaken retroflexion of the initial consonant of the word nātha, induced by the r in the preceding word in the compound. In that case, the verse would begin “He who (yaḥ) is victorious (jayati), the Lord of immortals (amaraṇāthaḥ), ...”.</note>
+                 </app>
+                 <app loc="8">
+                   <lem>sthite<supplied reason="lost">ḥ</supplied></lem>
+                   <note>For the suppletion of a final visarga, of which no trace is visible, see note to the translation below.</note>
+                 </app>
+                 <app loc="10">
+                    <lem></lem>
+                    <note></note>
+                 </app>
+                 <app loc="10">
+                   <lem></lem>
+                   <note></note>
+                 </app>
+               </listApp>
+         </div>
+         <div type="translation">
+          <p rend="stanza" n="1-2">He who (yaḥ) is victorious (jayati), for the sake of non-death (amaraṇārthe), who is glorious (śrīmān) [and] all-powerful (prabhuḥ) by means of His three powers (śaktitrayāt), the all-creator of the universe (jagatsakalakarttā), the Lord (īśaḥ), whose matted locks [are adorned] with the crescent moon (sārddhacandrajaṭādharaḥ), in this (tasmin) reign (rājye) of the overlord of kings (rājādhirājasya) Jayavarman [I], the great (mahān) follower of religious observances (vratī) Nandirāśi created/completed (samakarot) an āśrama of Him.</p>
+          <p rend="stanza" n="3-4">In the śaka year (śakābde) known (lakṣye) by void (0 = nabhaḥ°), orifices (9 = °chidra°), arrows (5 = °śaraiḥ), on the full-moon day (paurṇamāsyāṁ) of [the second month of spring, namely] Mādhava, he gave, for the merit of his parents (gurvartham), this [collection of] monastery goods (āśramadravyam) to the Yogins in the āśrama. [If someone] out of greed (lobhāt) desires to steal (jihīrṣati) from this [monastery] (itaḥ), that ace among villains (pāpaśūraḥ) must sink (nimajjet) into hell (niraye) for as long as (ā) the earth (bhuvaḥ) perdures (sthiteḥ).</p>
+            <p rend="stanza" n="5">He who, with his own wealth, increases his own or another’s merit[orious foundation, on the grounds that such a foundation is] liable to diminish over time, is fit for heaven.</p>
+           </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+       <div type="bibliography">
+          <p>First edited by Chhunteng Hun (<bibl rend="omitname"><ptr target="bib:Hun2018_01"/><citedRange unit="page">44-47</citedRange></bibl>) with a Khmer translation; re-edited by Dominic Goodall (<bibl rend="omitname"><ptr target="bib:Goodall2020_01"/><citedRange unit="page">325-343</citedRange></bibl>) with an English translation.</p>
+	 <listBibl type="primary">
+    <bibl n="DG">
+      <ptr target="bib:Goodall2020_01"/><citedRange unit="page">325-343</citedRange>
+    </bibl>
+   <bibl n="CH">
+     <ptr target="bib:Hun2018_01"/><citedRange unit="page">44-47</citedRange>
+   </bibl>
+ </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
