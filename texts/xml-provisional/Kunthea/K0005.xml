@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -180,7 +183,7 @@ sva<seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg>jā
                <listApp><!-- one <app> for each apparatus entry -->
                  <app loc="7">
                    <lem>Adyā<unclear>p</unclear>i</lem>
-                   <rdg source="Coedes1931_01">sva-hr̥di</rdg>
+                   <rdg source="bib:Coedes1931_01">sva-hr̥di</rdg>
                  </app>
                  <app loc="10">
                    <lem>tasyāvanī<seg met="---"><gap reason="lost" quantity="3" unit="character"/></seg>ter</lem>
@@ -188,16 +191,16 @@ sva<seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg>jā
                  </app>
                  <app loc="12">
                    <lem>-vikra<supplied reason="lost">meṇa</supplied></lem>
-                   <rdg source="Coedes1931_01">-vikra<supplied reason="lost">mena</supplied></rdg>
+                   <rdg source="bib:Coedes1931_01">-vikra<supplied reason="lost">mena</supplied></rdg>
                  </app>
                   <app loc="16">
                      <lem>vicitair</lem>
-                     <rdg source="Coedes1931_01">vicitrair</rdg>
+                     <rdg source="bib:Coedes1931_01">vicitrair</rdg>
                      <note>Cœdès' reading is unmetrical. The correct reading was noted by @@@!!!!Goodall forthcoming (Evans/Stark Encycolpedia)</note>
                   </app>
                </listApp>
          </div>
-           <div type="translation" xml:lang="eng" resp="part:kuch part:argr"><!-- kuch: 25-10-2020. The translation is to be revised by argr before getting encoded. -->
+           <div type="translation" resp="part:kuch part:argr"><!-- kuch: 25-10-2020. The translation is to be revised by argr before getting encoded. -->
           <p rend="stanza" n="1"><gap reason="lost"/></p>
               <p rend="stanza" n="2">... his ... favour ... the king ...; even the ocean of milk which was deprived of its water because of his hands, [became like] a pool of ambrosia.</p>
               <p rend="stanza" n="3">... in the battle-field with the king named Vīra ... the four-arm [god/goddess] (caturbhuja) ...</p>
