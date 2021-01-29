@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sīmā stone inscription from Vat Si That Pramancha (K. 981)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00981</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+							Licence. To view a copy of the licence, visit
+							https://creativecommons.org/licenses/by/4.0/ or send a letter to
+							Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+							California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+               </msIdentifier>
+               <msContents>
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:chch" when="2020-09-23" status="draft">Creation of the
+				file</change>
+         <change who="part:axja" when="2020-03-18">Version 2: addition of handDesc and summary</change>
+         <change who="part:axja" when="2019-12-18" status="draft">Creation of the
+				template</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+         	<lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/><seg met="====-+"><gap reason="lost" quantity="6" unit="character"/></seg> māyo</l>
+         		<l n="b">yatir vviprādipūjitaḥ</l>
+<l n="c">śilām imām asau saimīṁ</l>
+         		<l n="d">sthāpayām āsa bhikṣubhiḥ</l>
+         	</lg>
+         	<lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="1"/><seg met="====-++"><gap reason="lost" quantity="7" unit="character"/></seg>ne</l>
+         	<l n="b">	śucisaṁvatsare śake</l>
+<l n="c">daśame caitraśukle bhūt</l>
+         	<l n="d">sīmeyaṁ saṅghasammatā</l>
+         	</lg>
+         </div>
+         <div type="apparatus">
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+<p rend="stanza" n="1"> <gap reason="lost"/> cet ascète honoré par les brahmanes a érigé cette pierre tenant l’office de borne, avec les <foreign>bhikṣu</foreign>.</p>
+<p rend="stanza" n="2">En <foreign>śaka</foreign> <gap reason="lost"/> dans l’année Śuśi dixième jour de la lune croissante de Caitra, cette borne a été fixée par l’Assemblée.</p>
+         </div>
+         <div type="commentary">
+<p>The word <foreign>saima</foreign>, <foreign>saimī</foreign>, does not appear in the lexicons, but its derivation from <foreign>sīmā</foreign>, and hence its meaning, are both certain (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">7</citedRange><citedRange unit="page">160</citedRange><citedRange unit="note">1</citedRange></bibl>).</p>
+<p><foreign>śuśi</foreign> is possibly a synonym of <foreign>śukla</foreign>, name of the 3rd year of the sexagenarian cycle. In this case, we would have a choice between the years 611, 671, 731... (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">7</citedRange><citedRange unit="page">160</citedRange><citedRange unit="note">2</citedRange></bibl>).</p>         
+         </div>
+        <div type="bibliography">
+           <p>First edited by George Cœdès with a French translation (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">7</citedRange><citedRange unit="page">159-160</citedRange></bibl>). It is re-edited here by Chloé Chollet based on EFEO estampage n. 1382.</p>
+        	<listBibl type="primary">
+        		<bibl n="GC">
+		<ptr target="bib:Coedes1937-1966_01"/>
+	        	<citedRange unit="volume">7</citedRange>
+	        	<citedRange unit="page">159-160</citedRange>
+	      </bibl>
+			</listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

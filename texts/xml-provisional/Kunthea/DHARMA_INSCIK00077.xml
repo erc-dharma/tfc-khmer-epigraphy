@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Vat Sre Ampil (K. 77), 6th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00077</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:kuch" when="2020-10-27" status="draft">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="vasantatilakā">
+   <l n="a"><lb n="1"/>Ārāddhya yaṁ <seg met="---+"><gap reason="lost" quantity="4" unit="character"/></seg> bhagavān vidhātā</l>
+   <l n="b"><lb n="2"/>lokaṁ sasarjja sakalaṁ muditaẖ kr̥tārthaḥ</l>
+   <l n="c"><lb n="3"/>Āśr̥tya yañ ca paripāti haris samastaṁ</l>
+   <l n="d"><lb n="4"/>sa śrīnidhiḫ paśupatiḫ paripātu yuṣmān·</l>
+</lg>
+                   <lg n="2" met="vasantatilakā">
+   <l n="a"><lb n="5"/>nāmnā dhulir iti bhuvi prathito dvijendraḥ</l>
+   <l n="b"><lb n="6"/>pūrvva-dvijāti-caritād ana<seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg>bha<seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg>ttaḥ</l>
+   <l n="c"><lb n="7"/>Āgantukān dvija-gaṇāṁś ca yathā-pradhānam·</l>
+   <l n="d"><lb n="8"/>yas tarppayaty anudinaṁ vacanānna-pānaiḥ</l>
+</lg>
+                   <lg n="3" met="vasantatilakā">
+   <l n="a"><lb n="9"/>varṇṇātmanā paśupatau manasādhigamye</l>
+   <l n="b"><lb n="10"/>sthity<seg met="+-+-"><gap reason="lost" quantity="4" unit="character"/></seg> vimasaḥ sthitaye ca bhaktyā</l>
+   <l n="c"><lb n="11"/><add place="interlinear">susthāpitaṁ guṇavatā dvija-puṅgavena</add></l>
+   <l n="d"><lb n="12"/>teneha śāmbhavam idaṁ vidhivat suliṅgam<supplied reason="lost">·</supplied></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+   <l n="a"><lb n="13"/>nyāyenopārjjitan dravyaṁ</l>
+   <l n="b">strī-dhanena vinākr̥ta<supplied reason="lost">m·</supplied></l>
+   <l n="c"><lb n="14"/>siddheśvarāya tat sarvvam</l>
+   <l n="d">asmai dattam <seg met="-+-+"><gap reason="lost" quantity="4" unit="character"/></seg></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+   <l n="a"><lb n="15"/>kṣetra-dāsādikaṁ dravya</l>
+   <l n="b"><seg met="====-+-+"><gap reason="lost" quantity="8" unit="character"/></seg></l>
+   <l n="c"><lb n="16"/>yo haret <seg met="=-++="><gap reason="lost" quantity="5" unit="character"/></seg></l>
+   <l n="d"><seg met="====-+-+"><gap reason="lost" quantity="8" unit="character"/></seg></l>
+</lg>
+                </div>
+                <div type="apparatus">
+               <listApp>
+                  <app loc="13">
+                     <lem>nyāyenopārjjitan dravyaṁ</lem>
+                     <rdg source="bib:Coedes1937-1966_01">nyāyenopārjjitadravyaṁ</rdg>
+                  </app>
+                  
+                            </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+          <p rend="stanza" n="1">Puisse Celui que le bienheureux Créateur <gap reason="lost"/> rempli de joie et de satisfaction, a propitié avant sa création du monde entier, Celui à qui Hari fait appel pour la protection de l'univers, Paśupati, réceptacle de la Fortune, vous protéger.</p>
+            <p rend="stanza" n="2">Le premier des brâhmanes connu sur terre sous le nom de Dhuli <gap reason="lost"/> de la conduite des anciens brâhmanes, satisfait chaque jour par ordre de préséance les brâmanes étrangers, par la parole, la nourriture et les boissons.</p>
+            <p rend="stanza" n="3">Par dévotion à l'égard de Paśupati, dont on obtient la connaissance par la parole et la pensée, et pour la stabilité de <gap reason="lost"/> ce vertueux taureau des brâhmanes a établi ici ce bon <foreign>liṅga</foreign> de Śambhu conformément aux rites.</p>
+            <p rend="stanza" n="4">Il a donné à ce Siddheśvara tous ces biens acquis légitimement, sans l'apport de la fortune de son épouse.</p>
+            <p rend="stanza" n="5">Quiconque prendrait les biens à commencer par les champs et les esclaves <gap reason="lost"/></p>
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+       <div type="bibliography">
+          <p>First edited by George Coedes (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">47-48</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom from the photo of the EFEO estampage n. 796 and the photos of the stone AMPP 001817.jpg and AMPP 001830.jpg.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">47-48</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

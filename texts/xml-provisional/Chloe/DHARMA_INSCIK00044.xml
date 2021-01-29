@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stelae inscription from Preah Kuhear Luong (K. 44)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:geco">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00044</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:chch" when="2020-06-03" status="draft">correction of the edition encoding</change>
+         <change who="part:chch" when="2020-04-25" status="draft">Bibliography added</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:chch" when="2020-03-27" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="x-oldkhmer-Latn">
+            <div type="textpart" subtype="face" n="A">
+<lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+ <l n="a"><lb n="A1"/>jayatīśaḥ pravr̥tto 'pi</l>
+   <l n="b">nepsayā na jihāsayā</l>
+<l n="c">yasyecchā-cakra-ghaṭitaṁ</l>
+   <l n="d">viśvaṁ bhramat sa naikadhā</l>
+</lg>
+<lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A2"/>yena kandarppa-vapuṣā</l>
+   <l n="b">samudra-vasanā mahī</l>
+<l n="c">sahārimūrddhvamanibhiḥ</l><!-- argr: this pāda is incomprehensible to me? maybe some normalization/correction is necessary -->
+   <l n="d">vikramair adharīkr̥tā</l>
+</lg>
+<lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A3"/>jayinā nr̥patīndre<choice><orig>n</orig><reg>ṇ</reg></choice>a</l>
+   <l n="b">tena śrī-jayavarmmaṇā</l>
+<l n="c">Ājñayā satya-sandhyena</l>
+   <l n="d">sthitir evan nivaddhyate</l>
+</lg>
+<lg n="4" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="A4"/>kṣetra-go-mahiṣārāma</l>
+   <l n="b">bhr̥tyādi-dhana-saṁpadaḥ</l>
+<l n="c">Ahāryyāḥ puruṣair eṣāṁ</l>
+   <l n="d">patayas tāpasā Iti</l>
+</lg>
+            <lg n="5" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A5"/>śrīmad utpanneśvarasya</l>
+               <l n="b">haranti dravinā<choice><orig>n</orig><reg>ṇ</reg></choice>i ye</l>
+<l n="c">te vasanty andhatā-misre</l>
+               <l n="d">yāvad arkkendu-tārakāḥ</l>
+            </lg>
+<p>
+   <lb n="A6"/>saṇṇavatyuttarapañcaśata śakaparigraha Ai mandira purandarapura pañcamī ket kārtti<lb n="A7" break="no"/>ka pūrvvāṣāḍhanakṣatra Aṅgāradinavāra Ājñā vraḥ kamratāṅ Añ nī vraḥ kamra<lb n="A8" break="no"/>tāṅ Añ śrī Utpanneśvara ta Ai <supplied reason="lost">c</supplied>n<supplied reason="lost">ar</supplied> punya vraḥ kamratāṅ Añ Aṁnoy tāṅ 
+<lb n="A9"/>Añ kloñ raṅ<supplied reason="lost">k</supplied>o doṅ poñ varāhasena Ai ta vraḥ kamratāṅ Añ Aṁvi 
+<lb n="A10"/>kāla vraḥ kaṁratāṅ Añ śrī raudravarmma dāsa dāsī go mahiṣa kṣetrārā<lb n="A11" break="no"/>mādi gi parimaṇḍala gi sre Aṁvi dik hera loḥ vrai taṁpoṅṅ loḥ thalā 
+<lb n="A12"/>can cara loḥ travāṅ pās kmauhv loḥ cdiṅṅ lo<supplied reason="omitted">ḥ</supplied> stuk trass<gap reason="illegible" quantity="1" unit="character"/>nhora <gap reason="illegible" quantity="1" unit="character"/>i 
+<lb n="A13"/>poñ totil gui taṅ Ājñā vraḥ kamratāṅ Añ Oy gui 
+<lb n="A14"/>sruk ple draṅ vnas nu poñ jon bhuti śreṣṭhāśrama. 
+</p>
+            </div>
+            <div type="textpart" subtype="face" n="B">
+<p><lb n="B1"/> loḥ travaṅ poñ viṣ<supplied reason="lost">ṇu</supplied>kīrtti loḥ travaṅ pās tāṅ kanmeṅṅ loḥ gūha po Aṁ<lb n="B2" break="no"/>pakk vnaṁ vrai vnur caṁno<supplied reason="lost">ṁ</supplied> tmur cdiṅ qnak ta paṅgaṁ nī dai gi tel Ājñā vraḥ kamratā<lb n="B3" break="no"/>ṅ Añ prasiddha Ai ta vraḥ kamratāṅ Añ śrī Utpanneśvara ta Ai cnar smaṁ śresthā<lb n="B4" break="no"/>śrama jmon bhūti gi voṁ saṁ dhanvipura ge ta hau saṁpol ta gi ge ta ckop 
+<lb n="B5"/>Ucita saṁvatsara ta gi ge ta soṁ gi nā Adhikāra ge ta hau qnak lvāṅ ta gi 
+<lb n="B6"/>ge ta hau vyavahāra dai ta gi ge ta dār dranap ghoṣaṇā ta gi ge ta ca<lb n="B7" break="no"/>p rddeḥ dok tmur krapi kñuṁ ta gi ge ta cracur vraneṅ chat duk snā<lb n="B8" break="no"/>ṅ naṁ pitai kaṁluṅ Aṅgaṇa vraḥ kamratāṅ Añ paṁnos gi ta 
+<lb n="B9"/>tve pūjā vraḥ kamratāṅ Añ paṁnos ta pos ta gi noḥ vnaṁ 
+<lb n="B10"/>vraḥ kamratāṅ Añ satva ta siṅ ta gi vojā ple qnak paribha<lb n="B11" break="no"/>va Āgama Aṁvi ta gi noḥ sruk vraḥ kamratāṅ Añ nu tve pūjā 
+<lb n="B12"/>vraḥ kamratāṅ Añ ge ta soṁ gi ge ta dap gi ge ta pre roḥ 
+<lb n="B13"/>gi sot ge cer Ājñā vraḥ kamratāṅ Añ ge daṇḍa
+</p>
+            </div>
+         </div>
+         <div type="translation" xml:lang="fra">
+<p rend="stanza" n="1">Victorieux est Īśa, qui n'est mû ni par le desir de gagner, ni par celui de perdre, mais dont le désir, comme une roue (de potier), faconne sans cesse tout ce qui se meut.</p>
+<p rend="stanza" n="2">Ce <supplied reason="subaudible">roi</supplied>, beau comme l'Amour, ayant par ses exploits subjugué la terre revêtue de l'Océan avec les joyaux de la tête des ennemis,</p>
+<p rend="stanza" n="3">ce Śrī Jayavarman, souverain victorieux, fidèle aux engagements pris, a par un édit fixé comme suit la règle <supplied reason="subaudible">de cette fondation</supplied> :</p>
+<p rend="stanza" n="4">L'ensemble des biens, champs, bœufs, buffles, jardins, serviteurs, etc. ne peuvent être pris par des particuliers : les ascètes en sont les propriétaires.</p>
+<p rend="stanza" n="5">Que ceux qui prendraient les biens du venerable Utpanneśvara séjournent dans (l'enfer obscur) Andhatāmisra, tant que dureront le soleil, la lune et les étoiles.</p>
+ <p n="A6-8">596 śaka, à la résidence de Purandarapura, le 5e jour de la quinzaine claire de Kārtika, mansion lunaire Pūrvāṣādha, un mardi : Édit de Sa Majesté en faveur du dieu Śrī Utpanneśvara à <placeName>Cnar</placeName>, œuvre pie de Sa Majesté.</p>
+ <p n="A9-10">Les donations du <persName>Tāṅ Añ Kloñ Raṅko</persName> et du Poñ <persName>Varāhasena</persName> faites au dieu a l'époque de S. M. Śrī Raudravarman, esclaves hommes et femmes, bœufs, buffles, champs, jardins, etc. ;</p>
+<p n="A11-12">le domaine s'étendant depuis la source jusqu'à <placeName>Vrai Taṁpon</placeName>, jusqu'à <placeName>Thalā Can Cara</placeName>, jusqu'à l'étang de <placeName>Pās Kmauhv</placeName>, jusqu'à la rivière, jusqu'à <placeName>Stuk Tras-nhora-i</placeName>,</p>
+<p n="B1">jusqu'à l'étang de Poñ <persName>Viṣṇukīrti</persName>, jusqu'à l'étang de Pās Tāṅ Kanmeṅ, jusqu'à la grotte <placeName>Po Aṁpak</placeName> ;</p>
+<p n="B2-4">Ies collines, forêts, tertres, enclos à bœufs, rivières, serviteurs, etc., voilà ce que l'édit de Sa Majesté donne en toute propriété <supplied reason="explanation"><foreign>prasiddha</foreign></supplied> au Seigneur Śrī Utpanneśvara à <placeName>Cnar</placeName>, en le réunissant au <placeName>Śreṣṭhāśrama</placeName>, et en lui faisant remise de ces biens qu'il ne réunit pas a <placeName>Dhanvipura</placeName>.</p>
+<p n="B4-6">Ceux qui appellent les <foreign>saṁpol</foreign>, ceux qui lèvent une taxe annuelle, ceux qui demandent quelque chose au supérieur, ceux qui appellent les gens <foreign>lvāṅ</foreign>, ceux qui les citent en justice, etc., ceux qui formulent des revendications, des défenses, des proclamations,</p>
+<p n="B7-12">ceux qui s'emparent des charrettes, bateaux, bœufs, buffles, esclaves, ceux qui commettent des larcins à l'égard des <foreign>vraneṅ</foreign> des parasols gardés, <supplied reason="subaudible">à l'égard</supplied> des <foreign>snāṅ</foreign> à gâteaux <foreign>pitai</foreign> dans la cour du dieu, <supplied reason="subaudible">à l'égard</supplied> des religieux assurant le culte du dieu, des religieux exerçant leurs fonctions dans ce sanctuaire du dieu, des animaux demeurant ici, des récipients à fruits des gens fournissant les prestations de ce pays du dieu pour rendre un culte au dieu ;</p> 
+<p n="B12-13">ceux qui demandent, ceux qui empêchent, ceux qui emploient tout cela, ceux qui contestent l'édit de Sa Majesté, ceux-là seront punis.</p>
+<p n="A13">Le Poñ <persName>Totil</persName> érige l'édit de Sa Majesté pour le pays <foreign>ple draṅ vnas</foreign> et le Poñ fait remise des biens au <placeName>Śreṣṭhāśrama</placeName>.</p>
+         </div>
+        <div type="bibliography">
+           <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">10-13</citedRange><citedRange unit="page">10</citedRange></bibl>) with a French translation.</p>
+        	<listBibl type="primary">
+				   <bibl><ptr target="bib:Coedes1937-1966_01"/>
+      <citedRange unit="volume">2</citedRange><citedRange unit="page">10-13</citedRange>
+				</bibl>
+			</listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

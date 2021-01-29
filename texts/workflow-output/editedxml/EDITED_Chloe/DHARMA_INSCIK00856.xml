@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Kok Dong doorjamb inscription (K. 856)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:geco">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00856</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+							Licence. To view a copy of the licence, visit
+							https://creativecommons.org/licenses/by/4.0/ or send a letter to
+							Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+							California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The content of the Sanskrit stanzas is very similar to that of <ref target="K0468.xml">K. 468</ref>.</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:chch" when="2020-07-01">Creation of the file</change>
+         <change who="part:axja" when="2020-03-18">Version 2: addition of handDesc and summary</change>
+         <change who="part:axja" when="2019-12-18" status="draft">Creation of the
+				template</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+       <div type="edition" xml:lang="san-Latn">
+	<lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/><seg met="====-++=/"><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="b"><seg met="====-+-=/"><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="c"><lb n="2"/>devendrā <seg met="=-++=/"><gap reason="lost" quantity="5" unit="character"/></seg></l>
+<l n="d"><seg met="===="><gap reason="lost" quantity="4" unit="character"/></seg> tu <seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg> ś śriyam· <g type="dDandaOrn">.</g></l>
+	</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="3"/>vibhrad vasu<supplied reason="lost">dharām</supplied> <seg met="+=/"><gap reason="lost" quantity="2" unit="character"/></seg></l>
+<l n="b"><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg> bhujakoṭaraiḥ</l>
+<l n="c" enjamb="yes"><lb n="4"/>rājā śrījaya<supplied reason="lost">vīrādivarmmā</supplied></l>
+<l n="d">	<supplied reason="lost">ntākhyo</supplied> guṇākaraḥ <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="5"/>prave <seg met="==-++=/"><gap reason="lost" quantity="6" unit="character"/></seg></l>
+<l n="b"><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg> nādhyuṣitaṁ manaḥ</l>
+<l n="c"><lb n="6"/>svasthānaṁ yasya <supplied reason="lost">vītāṅgo</supplied></l>
+<l n="d">vāhyam aṅgam aśiśriyat· <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="7"/>ya<unclear>s</unclear>yorasi <seg met="-++=/"><gap reason="lost" quantity="4" unit="character"/></seg></l>
+<l n="b">lakṣmīṁ vāhau mahīm api</l>
+<l n="c"><lb n="8"/>nyakkarttum i<supplied reason="lost">va te vaktre</supplied></l>
+<l n="d">vasati sma sarasvatī <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="9"/>kr̥tyaloka <seg met="-++=/"><gap reason="lost" quantity="4" unit="character"/></seg></l>
+<l n="b">bhuvanatrayabhūṣaṇe</l>
+<l n="c"><lb n="10"/>subhāṣitā<supplied reason="lost">d</supplied>iratnāṇām</l>
+<l n="d">śataṁ yasmin niveśitam· <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="11"/>yam apakṣadamāruḍham</l>
+<l n="b">pariruddhārim āhave</l>
+<l n="c"><lb n="12"/>pranemur akhil<supplied reason="lost">orvvīpāḥ</supplied></l>
+<l n="d">pr̥thūpāyanapānayaḥ <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="13"/>śauryyasatyā <seg met="-++=/"><gap reason="lost" quantity="4" unit="character"/></seg></l>
+<l n="b">yasyaitat tritayaṁ priyaṁ</l>
+<l n="c"><lb n="14"/>rājyalakṣaṇam <supplied reason="lost">anyeṣāṁ</supplied></l>
+<l n="d">sambhavo sambhavo pi vā <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="15"/>vinatānandananano</l>
+<l n="b">dvijihvadamanodyataḥ</l>
+<l n="c"><lb n="16"/>tathāpy apakṣapātitvād</l>
+<l n="d">vainateyo yathā na yaḥ <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="17"/>rāmaśatrughnaputro yas</l>
+<l n="b">sumitrāpratimapriyaḥ</l>
+<l n="c"><lb n="18"/>Ajānandaka<supplied reason="lost">ro py evam</supplied></l>
+<l n="d">āḍhyo daśaratho na tu <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="19"/>kr̥tavā <seg met="="><gap reason="lost" quantity="1" unit="character"/></seg> <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ra</seg>śamanaḥ</l>
+<l n="b">prajāsu dadimātmakaḥ</l>
+<l n="c"><lb n="20"/>vīta<supplied reason="lost">hemoda</supplied>yo yo pi</l>
+<l n="d">varṇṇato nr̥pacandramāḥ <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="21"/>subhogyarājyasaṁpattir</l>
+<l n="b">atheṣāmarasātkr̥tā</l>
+<l n="c"><lb n="22"/><supplied reason="lost">śaśaṅsa</supplied> sarvvadevatvam</l>
+<l n="d">ātmapatsu yadudbhavam· <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="12" met="anuṣṭubh">
+<l n="a"><lb n="23"/>yaś śrīrājopakalpākhyāṁ</l>
+<l n="b">tryakṣarādyām upāgataḥ</l>
+<l n="c"><lb n="24"/>dolām arhām api tatas</l>
+<l n="d">satataṁ guṇatoṣitāt· <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="13" met="anuṣṭubh">
+<l n="a"><lb n="25"/>pitr̥to mātr̥taś cātra</l>
+	<l n="b">sthāne viṣṇor ime nime</l>
+<l n="c"><lb n="26"/>sthāpa<supplied reason="lost">yām āsa</supplied> <seg met="++"><gap reason="lost" quantity="1" unit="character"/></seg>r yyo</l>
+	<l n="d">pratyekaṁ yatkulardhaye <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="14" met="anuṣṭubh">
+<l n="a"><lb n="27"/>bhuktisākṣī svato <seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg> ṅsa</l>
+	<l n="b">asmin deśe <seg met="-+-=/"><gap reason="lost" quantity="4" unit="character"/></seg></l>
+<l n="c"><lb n="28"/>samāśrīkaraṇārtha <seg met="="><gap reason="lost" quantity="1" unit="character"/></seg></l>
+	<l n="d">praka <seg met="==-+"><gap reason="lost" quantity="4" unit="character"/></seg>nyadhāt <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="15" met="vasantatilakā">
+<l n="a"><lb n="29"/>ye varddhayeyur imam amvujadr̥ṅnimāḍhyaṁ</l>
+<l n="b">deśaṁ sadā sukham ihāstu parigr <seg met="-"><gap reason="lost" quantity="1" unit="character"/></seg> ai <seg met="="><gap reason="lost" quantity="1" unit="character"/></seg></l>
+<l n="c"><lb n="30"/><seg met="++"><gap reason="lost" quantity="2" unit="character"/></seg> ntu duḥkham atimātrakr̥tātmatāpaṁ</l>
+<l n="d">luṁpeyur eta <seg met="--+"><gap reason="lost" quantity="3" unit="character"/></seg> mukhayānaye <seg met="="><gap reason="lost" quantity="1" unit="character"/></seg></l>
+</lg>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="2">
+                     <lem source="bib:Coedes1937-1966_01">koṭaraiḥ</lem>
+                  	<note>We find <foreign>konaraiḥ</foreign>in <ref target="K0468.xml">K. 468</ref>, l.1. The reading of <foreign>konaraiḥ</foreign> by Cœdès with regard to K. 468 is a misreading.</note>
+                  </app>
+                  <app loc="2">
+               	<lem>rājā śrījaya<supplied reason="lost">vīrādivarmmā</supplied></lem>
+                  <note>Cœdès says in a note that it might be the king Jayavīravarman, but we do not see how to bring this name into the <foreign>pāda</foreign>, unless we cut it and restore <foreign>rājā śrījava<supplied reason="lost">vīrādivarmmānto yo</supplied> guṇākaraḥ</foreign>. The text of <ref target="K0468.xml">K. 468</ref>, st. I, supports the restitution adopted here.</note>
+                  </app>
+               	<app loc="3">
+<lem><supplied reason="lost">vītāṅgo</supplied></lem>
+<rdg source="bib:Coedes1937-1966_01"><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg></rdg>
+<note>Restitution from <ref target="K0468.xml">K. 468</ref>, st. IIc.</note>
+               	</app>
+               	<app loc="3">
+ <lem>aṅgam aśiśriyat</lem>
+ <rdg source="bib:Coedes1937-1966_01">a<sic>n</sic>gam a <seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg> kriyat</rdg>
+ <note>About <foreign>a <seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg> kriyat</foreign> Coedès remarks that the second syllable can be either <hi rend="italic">ki</hi>, <hi rend="italic">ti</hi> or <hi rend="italic">śi</hi>. <ref target="K0468.xml">K. 468</ref>, st. IId supports the restitution adopted here.</note>
+               	</app>
+               		<app loc="4">
+               		<lem>lakṣmīṁ</lem>
+               		<rdg source="bib:Coedes1937-1966_01">lakṣmī</rdg> 
+               		</app>
+               		<app loc="4">
+ 	<lem>ya<unclear>s</unclear>yorasi</lem>
+               <rdg source="bib:Coedes1937-1966_01">yaṁ <seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg></rdg>
+               		</app>
+               			<app loc="7">
+               <lem>śauryyasatyā <seg met="-++=/"><gap reason="lost" quantity="4" unit="character"/></seg></lem>
+ <rdg source="bib:Coedes1937-1966_01">śauryyasatya<supplied reason="lost">tyāga</supplied> <seg met="+-"><gap reason="lost" quantity="2" unit="character"/></seg></rdg>
+               			</app>
+               			<app loc="7">
+<lem><supplied reason="lost">anyeṣāṁ</supplied></lem>
+<rdg source="bib:Coedes1937-1966_01"><supplied reason="lost">tyāga</supplied> <seg met="++="><gap reason="lost" quantity="3" unit="character"/></seg></rdg>
+  <note>Restitution from <ref target="K0468.xml">K. 468</ref>, st. VIc.</note>
+               			</app>
+               			<app loc="8">
+ <lem>vinatānandananano</lem>
+<note>Corr.: °nandanānano." (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">189</citedRange></bibl>).</note>
+               			</app>
+               		<app loc="10">
+ <lem>vīta<supplied reason="lost">hemoda</supplied>yo</lem>
+               		<rdg source="bib:Coedes1937-1966_01">vīta <seg met="==-/"><gap reason="lost" quantity="3" unit="character"/></seg>yo</rdg>
+               		<note>Restitution from <ref target="K0468.xml">K. 468</ref>, st. IXc.</note>
+               		</app>
+               		<app loc="11">
+               		<lem><supplied reason="lost">śaśaṅsa</supplied></lem>
+               		 <rdg source="bib:Coedes1937-1966_01">iti <seg met="="><gap reason="lost" quantity="1" unit="character"/></seg></rdg>
+           <note>Coedès remarks that the non-transliterated character can be read <hi rend="italic">ṅsa</hi> or <hi rend="italic">ṅsi</hi>, which makes the reading <foreign>iti</foreign> improbable. Indeed, the text of <ref target="K0468.xml">K. 468</ref>, st. X, would support the reading <foreign>śaśaṅsa</foreign>.</note>               		
+               		</app>
+               		<app loc="15">
+               		 <lem>parigr</lem>
+               		<note>Or <foreign>pariśr°</foreign> (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">189</citedRange></bibl>).</note>
+               		</app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+<p rend="stanza" n="1"><gap reason="lost"/></p>
+<p rend="stanza" n="2">Portant la terre en <supplied reason="subaudible">l’an marqué</supplied> par les <supplied reason="explanation">9</supplied> ouvertures, les <supplied reason="explanation">2</supplied> bras, <supplied reason="explanation">et 4</supplied>, le roi Śrī Jaya<supplied reason="lost">vīravarman</supplied> <gap reason="lost"/> mine de vertus.</p>
+<p rend="stanza" n="3"><gap reason="lost"/> l’esprit occupé <gap reason="lost"/> sa propre demeure <gap reason="lost"/> la partie extérieure <gap reason="lost"/></p>
+<p rend="stanza" n="4"><gap reason="lost"/> comme pour humilier la Terre sous le bras de Lakṣmī, Sarasvatī réside (dans sa bouche).</p>
+<p rend="stanza" n="5"><gap reason="lost"/> dans ce roi ornement des trois mondes ont été placés une centaine de joyaux qui sont ses discours éloquents.</p>
+<p rend="stanza" n="6">A lui qui dans le combat avait obtenu la supériorité sur l’ennemi et l’avait arrêté, tous adressèrent leur salut en joignant les mains dans la salutation au maître Pṛthu.</p>
+<p rend="stanza" n="7">Héroïsme, sincérité, générosité, cette triade lui était chère en tant que caractéristique de la royauté <gap reason="lost"/> existence ou non existence.</p>
+<p rend="stanza" n="8">Possédant un visage qui faisait la joie des humbles <seg rend="pun">ou : de Vinatā, mère de Garuḍa</seg>, adonné à la défaite des fourbes <seg rend="pun">ou : des serpents</seg>, le fait d’être impartial <seg rend="pun">ou : de voler sans ailes</seg>, l’empêchait cependant de ressembler à Vainateya <supplied reason="explanation">Garuḍa</supplied>.</p>
+<p rend="stanza" n="9">Fils du charmant destructeur des ennemis <seg rend="pun">ou : ayant pour fils Rāma et Śatrughna</seg>, chéri au-delà de toute expression par son bon ami <seg rend="pun">ou : par Sumitrā, mère de Lakṣmaṇa et de Śatrughna</seg> <gap reason="lost"/> bien qu’il fût riche, il ne possédait pas dix chars <seg rend="pun">ou : il n’était pas Daśaratha</seg>.</p>
+<p rend="stanza" n="10">Ayant fait <gap reason="lost"/> calmant <gap reason="lost"/> manifestant à l’égard de ses sujets la nature de la grenade <gap reason="lost"/> il était par sa couleur <seg rend="pun">ou : par sa caste</seg> une lune parmi les rois.</p>
+<p rend="stanza" n="11">« Cette puissance royale, dont il est agréable de jouir, est respectée des Immortels » <gap reason="lost"/> c’est dans ce <supplied reason="subaudible">roi</supplied>, dans ses propres pieds, qu’a pris naissance la divinité de tous <supplied reason="subaudible">les dieux</supplied>.</p>
+<p rend="stanza" n="12">En reconnaissance de la satisfaction continuelle que lui procuraient ses vertus, le roi conféra à Śrī Rājopakalpa ce nom précédé de trois caractères, ainsi qu’un palanquin précieux.</p>
+<p rend="stanza" n="13">En cet endroit, il a érigé, de la part de son père et de sa mère respectivement, ces deux images de Viṣṇu, pour la prospérité de sa famille.</p>
+<p rend="stanza" n="14">Témoin de la jouissance <gap reason="lost"/> dans ce pays <gap reason="lost"/> en vue de procurer la fortune <gap reason="lost"/> il déposa <gap reason="lost"/></p>
+<p rend="stanza" n="15">Pour ceux qui feront prospérer sans relâche ce pays riche en images de <supplied reason="explanation">Viṣṇu</supplied> aux yeux de lotus, que soit ici-bas le bonheur complet ; que ceux qui déroberaient ce <gap reason="lost"/> <supplied reason="subaudible">souffrent</supplied> du malheur sans mesure qu’ils auront causé à eux-mêmes.</p>
+         </div>
+      	<div type="translation">
+<p rend="stanza" n="1"><gap reason="lost"/></p>
+<p rend="stanza" n="2">The King, whose name begins with Śrījayavīra- and ends with -varman, endowed with all virtues, procured the earth in the year Śaka 92[4], ...</p>
+<p rend="stanza" n="3">The mind <gap reason="lost"/> occupied <seg rend="pun">or: burnt</seg> <gap reason="lost"/> the body being disappeared, he entered an outer body as his own house.</p>
+<p rend="stanza" n="4"><gap reason="lost"/> as if to humiliate the earth herself on the arms of Lakṣmī, Sarasvatī resided in your (?) mouth.</p>
+<p rend="stanza" n="5"><gap reason="lost"/> upon him, ornament of the three worlds, have been placed a hundred of jewels – moral sentences.</p>
+<p rend="stanza" n="6">The rulers of the whole earth, whose hands are <supplied reason="subaudible">like</supplied> approaching Pṛthu, will salute him, who is gamous as the tamer of enemies in the battle, whose enemy is arrested in battle from all sides.</p>
+<p rend="stanza" n="7">Heorism, truthfulness, detachment <gap reason="lost"/>: this triad, the mark of royalty, was dear to him; what was possible for him, wasn’t possible for others.</p>
+<p rend="stanza" n="8">His face was the joy of the humble <seg rend="pun">or: of Vinatā</seg>, and he was intent on subduing villains <seg rend="pun">or: snakes</seg>, yet, due to this reluctance of siding with allies <seg rend="pun">or: his ability to fly without wings</seg>, he was really not Vainateya.</p>
+<p rend="stanza" n="9">He, the son of the splendid destroyer of enemies <seg rend="pun">or: whose sons were Rāma and Śatrughna</seg>, was loved by his friends beyond measure <seg rend="pun">or: was the incomparable beloved of Sumitrā</seg>; he even brought about bliss to the unborn <seg rend="pun">or: to Aja</seg>, and he was wealthy, but he wasn’t Daśaratha.</p>
+<p rend="stanza" n="10">Pacifying kings <gap reason="lost"/>, towards his subjects, his nature was that of the pomegranate; even though he, the moon amont kings, is extolled, he <supplied reason="subaudible">still</supplied> had pity for those deprived of gold.</p>
+<p rend="stanza" n="11">Then the prosperity of a well-enjoyed kingship, being the benefit/good work of all the undying/gods, praised the lordship over the entire universe, which arose in him to all those with a soul.</p>
+<p rend="stanza" n="12">Out of constant contentment with his virtues he <supplied reason="subaudible">i.e. the king</supplied> endowed him with the name – preceded by the three syllables – Śrī Rājopakalpa and an appropriate pallanquin as well.</p>
+<p rend="stanza" n="13">In this holy place/abode here he, on behalf of both his mother and his father, erected these two images of Viṣṇu separately, for the prosperity of this family.</p>
+<p rend="stanza" n="14">The witness/ observer of the <foreign>bhukti</foreign>’s/possession <gap reason="lost"/> in this country <gap reason="lost"/> for the sake of causing appeasing/ conciliatory glory/ distinction <gap reason="lost"/> he appointed/ deposited ...</p>
+<p rend="stanza" n="15">Let there be bliss here on earth for those who have continually caused to prosper this country rich with images of the lotus-eyed one <gap reason="lost"/>; let there be distress, which is the affliction beyond measure brought about by themselves, for those who violated/plundered this <gap reason="lost"/></p>
+      	</div>
+         <div type="commentary">
+             <p>As one could see throughout the apparatus section, many restitutions were made possible using the text of <ref target="K0468.xml">K. 468</ref>. Several stanzas are similar: K. 856, st. II = K. 468, st. I; K. 856, st. III = K. 468, st. II; K. 856, st. IV: K. 468, st. III; K. 856, st. V = K. 468, st. IV; K. 856, st. VI = K. 468, st. V; K. 856, st. VII = K. 468, st. VI; K. 856, st. VIII = K. 468, st. VII; K. 856, st. IX = K. 468, st. VII; K. 856, st. X = K. 468, st. IX; K. 856, st. XI = K. 468, st. X; K. 856, st. XII = K. 468, st. XI.</p>
+         </div>
+        <div type="bibliography">
+	<p>First edited by George Cœdès with a French translation (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">188-190</citedRange></bibl>). Edited here again from the EFEO estampages and by comparing with the text of the inscription <ref target="K0468.xml">K. 468</ref>, with integral translation into English.</p>
+        	<listBibl type="primary">
+			<bibl>
+				     <ptr target="bib:Coedes1937-1966_01"/>
+      <citedRange unit="volume">5</citedRange><citedRange unit="page">188-190</citedRange>
+				</bibl>
+			</listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
