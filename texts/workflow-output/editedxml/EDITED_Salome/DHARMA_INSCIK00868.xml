@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tuol Dan Khcas stela of Jayavarman V, 896 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">K0868</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+							Licence. To view a copy of the licence, visit
+							https://creativecommons.org/licenses/by/4.0/ or send a letter to
+							Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+							California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Salomé Pichon.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lines 2-4 of Face A are constituted by bigger <foreign>akṣara</foreign>s than the other lines of the stela.</p>
+                     <p>Line 7 of Face A presents an unusual form of the word <foreign>vidhi</foreign>.The consonnants are open on the top, and their headmarks seem to be joigned.</p>
+                     <p>The scribe makes scanty use of <foreign>virāma</foreign>, so that a few words known to be consonant-final are spelt without cancellation of the inherent vowel of the final consonant.</p>
+                     <p> Also noteworthy is the inclusion of the vowel marker <foreign>-i</foreign> in headmarks.</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:sapi" when="2021-01-05">few corrections</change>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:sapi part:kuch" when="2020-09-29">Further revisions of the inscription</change>
+         <change who="part:sapi part:argr" when="2020-09-21">finished first round of revisions</change>
+         <change who="part:sapi part:argr" when="2020-09-20">modification of the bibliography</change>
+         <change who="part:sapi" when="2020-09-18">correcting spelling mistakes</change>
+         <change who="part:sapi" when="2020-09-16">modification of the intellectual authorship</change>
+         <change who="part:sapi part:argr" when="2020-09-14">first round of revisions</change>
+         <change who="part:sapi" when="2020-09-10">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="x-oldkhmer-Latn">
+						 <ab><milestone type="pagelike" unit="face" n="A"/><lb n="01"/>Om̐</ab>
+					 <p><lb n="A1"/><g type="dandaOrnate"/><g type="floretComplex"/><g type="dandaOrnate"/><num value="896">896</num> śaka pañcamī<!-- i?--><!-- kuch: I think the vowel is short, i, but should be corrected/regularized as ī. --> ket· puṣya candra-vāra śatabhīṣa-nakṣatra nu dhūlī vraḥ
+						 <lb n="A2"/>pāda dhūlī jeṅ· vraḥ kamrateṅ· <space type="descender"/> Añ· śrī jayavarmmadeva <space/> ta
+						 <lb n="A3"/>svey· <space type="descender"/> vraḥ rājya <space/> nu śūnya-nava-Aṣṭa śaka <space/> thve vrahmayajña<!-- extremely elaborate form of subscript ñ! --> pi kamrate<lb n="A4" break="no"/>ṅ· Añ vraḥ guru thve mah<unclear>ā</unclear><!-- kuch: I would even add cert="low" here. -->ddhvara-vi<space type="descender"/>dhī nā vāgīśvarī-yāga nu dhūlī vraḥ
+						 <lb n="A5"/>pāda dhūlī jeṅ· vraḥ kamrate<space type="descender"/>ṅ· Añ· śrī jayavarmmadeva ryān·<!-- kuch: I would see the virāma here. Should we put the · in <supplied reason="omitted">?--> saṁrācca <space/> gi
+						 <lb n="A6"/>vraḥ vidyā phoṅ· ta tri-pañcāśat-parvva Aṣṭama-divasa Ādi-maddhyāvasāna Āy· nagara śrī
+						 <lb n="A7"/>yaśodharaparvvata nā vraḥ śilātatāka man· sracca vidhi mā<space type="descender"/>n· vraḥ śāsana dhūlī vraḥ
+						 <lb n="A8"/>pāda dhūlī jeṅ· vraḥ kamrateṅ· Añ· ta kamrateṅ· Añ· vraḥ guru pre res· paṁnva<lb n="A9" break="no"/>s· ta neḥ saptavarṇna nu kula nai Ācāryya-pradhāna ta pradvānna mo<space type="descender"/>k·<!-- kuch: Should we mark the virāme in <unclear>?--> pre duk· mūla
+						 <lb n="A10"/>khmuk· vraḥ kralā Arccaṇa <num value="20">20+</num> mūla karmmāntara <num value="20">20+</num> Oy· cralo phle gi nu sruk· sre bhūmyāka<lb n="A11" break="no"/>ra <space type="descender"/> leṅ· siddhi jā varṇna neḥ ta vyar<choice><orig>a</orig><reg>·</reg></choice> nā khmuk· vraḥ kralā A<space type="descender"/>rccana nu <space type="descender"/> karmmāntara nā paṁ<lb n="A12" break="no"/>nvās· gus· gi <space type="descender"/> nā thve vraḥ rāja-kāryya <space type="descender"/> vvaṁ Āc ti Oy· vrīhi paryyaṅ<choice><orig>a</orig><reg>·</reg></choice> <space type="descender"/> viṣaya ca<lb n="A13" break="no"/>ñcūla phoṅ· gi varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> gi nā prasiddhi phley<choice><orig>a</orig><reg>·</reg></choice> Anvaya neḥ nā khmuk· vraḥ kralā A<lb n="A14" break="no"/>rccana nu karmmāntara yāvat· vraḥ candrāditya  mān·<choice><orig>a</orig><reg>·</reg></choice> dau vvaṁ Āc ti mān nā sva<space type="descender"/>tantra ta dai ti le<lb n="A15" break="no"/>ṅ· khloñ· khmuk· vraḥ kralā Arccana <space type="descender"/> nu <space type="descender"/> khloñ· karmmāntara pradvānn<choice><orig>a</orig><reg>·</reg></choice> dau <space type="descender"/> nau rūpa paṁnva<lb n="A16" break="no"/>s· ta mān· vidyā nu śīla nu Ācāra phoṅ· res· ta gi neḥ varṇna neḥ ta vyar<choice><orig>a</orig><reg>·</reg></choice> gi ta
+						 <lb n="A17"/>Āc· cval· jā <space type="descender"/> Ācāryya homa Ācāryya caturācāryya pradhāna nau <space type="descender"/> Aṁpalla
+						 <lb n="A18"/>kule ta strījana<!-- kuch: Should we add a hyphen here? --> Oy· ta qnak· ta Uttama pi śivabhakti<!-- kuch: Should we add a hyphen here? --> vvaṁ Āc ti qnak· ta hīnajāti<!-- kuch: Should we add a hyphen here? --> yok·
+						 <lb n="A19"/>pi pañjā qnak· khloñ· hetu man· dai sañjakk<choice><orig>a</orig><reg>·</reg></choice> pi mukhya ta kamrateṅ· phdai karom·
+						 <lb n="A20"/>gus· pi yok· vvaṁ Āc ti Oy· ta qnak· ta sañjak ta rok kanakadaṇda<!-- kuch: Should we add a hyphen here? --> riy<choice><orig>a</orig><reg>·</reg></choice> man· Oy·
+						 <lb n="A21"/>ta varṇna ta Uttama piy<choice><orig>a</orig><reg>·</reg></choice> noḥ sañjak· rok kanakadaṇda<!-- kuch: Should we add a hyphen here? --> noḥ kule noḥ man· Oy·
+						 <lb n="A22"/>v<supplied reason="lost">va</supplied>ṁ Āc ti trāp· dau nā mr̥takadhana<!-- kuch: Should we add a hyphen here? --> <space/> nau ruv<choice><orig>a</orig><reg>·</reg></choice> kule ta qnak· sī man· ka Āc ti paryyāṇ·<!-- kuch: I think that the ṇ needs to be regularized as n. --> hoṅ·
+						 <lb n="A23"/>nāṁ m<unclear>o</unclear><supplied reason="lost">k</supplied>· <unclear>O</unclear>y· pi Ācāryya caturācāryya<!-- kuch: Should we add a hyphen here? --> pre paryyān· śīkṣā Āy· nagara pi pre
+						 <lb n="A24"/>ta vraḥ rājakāryya<!-- kuch: Should we add a hyphen here? --> n<unclear>ā</unclear> <unclear>pa</unclear>ṁ<unclear>n</unclear>vās<choice><orig>a</orig><reg>·</reg></choice> vvaṁ Āc ti bhāgavata kamrateṅ· Añ· vraḥ guru res· paṁnvā<lb n="A25" break="no"/>s· roḥ vraḥ śāsana dhūlī vraḥ pāda dhū<unclear>l</unclear>ī jeṅ· vraḥ kamrateṅ· Añ· nāṁ yal· vnek ni
+						 <lb n="A26"/>ta vraḥ vleṅ· nu vrāhmaṇācāryya nu kaṁsteṅ· Añ· <supplied reason="lost">rā</supplied><unclear>ja</unclear>k<unclear>u</unclear>lamahāmantrī<!-- kuch: Should we add hyphens here? --> nu khloñ·
+						 <lb n="A27"/>vala phoṅ· vraḥ karuṇā duk· jā varṇna khmuk· vraḥ kralā Arccana <unclear>jā</unclear> <supplied reason="lost">va</supplied>r<unclear>ṇ</unclear><supplied reason="lost">n</supplied>a karmmāntara vraḥ
+						 <lb n="A28"/>hau pandval· vṅya Oy· vara prasiddhi neḥ varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> vraḥ pre vrāhmaṇā<unclear>cā</unclear><supplied reason="lost">ry</supplied><unclear>ya</unclear> pand<unclear>v</unclear>a<lb n="A29" break="no"/>l· vṅya <space type="descender" quantity="3" unit="character"/> Oy· vara leṅ<choice><orig>a</orig><reg>·</reg></choice> neḥ varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> siddhi nā khmuk· vraḥ kralā A<supplied reason="lost">r</supplied>cca<unclear>na</unclear> <supplied reason="lost">nu</supplied>
+						 <lb n="A30"/>ka<space type="descender" quantity="2" unit="character"/>rmmāntara vraḥ pre duk ta vraḥ rikta kaṁvī mās<choice><orig>a</orig><reg>·</reg></choice> Āy· kan·loṅ· pre duk ta vraḥ rikta
+						 <lb n="A31"/>kaṁvī prāk· Āy· ta vraḥ dharmmādhikaraṇa pre duk ta praśasta śilāstambha ta gi sruk·
+						 <lb n="A32"/>naya neḥ varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> nau Aṁpalla santānānvaya nuv sruk· sre bhūmyākara khñuṁ
+						 <lb n="A33"/>nu vraḥ puṇya nai varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> ta mān ta vraḥ rikta kaṁvī mās· nu vraḥ rikta kaṁvī prāk nuv<choice><orig>a</orig><reg>·</reg></choice> ta
+						 <lb n="A34"/>gi praśasta śilāstambha<!-- kuch: Should we add a hyphen here? --> ta gi sruk· <space/> vvaṁ Āc ti khloñ· teṁ vidāryya pi cāp· viṅ· leṅ· nā va<milestone type="pagelike" unit="face" n="B"/><lb n="B1" break="no"/>rṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> <space/> nau ge ta vvaṁ thve roḥ vraḥ kalpanā dhūli vraḥ pāda dhūl<unclear>ī</unclear>
+						 <lb n="B2"/>jeṅ· vraḥ kamrateṅ· Añ· śrī jayavarmmadeva <space/> phley<choice><orig>a</orig><reg>·</reg></choice> māheśvarā<lb n="B3" break="no"/>nvaya dharmmakathā<!-- kuch: Should we add a hyphen here? --> vyava<unclear>h</unclear>āra qnak· noḥ nīrṇnaya<!-- kuch: Should we regularize the ī as i? --> leṅ· ru qnak ta sāhasika Ukka
+						 <lb n="B4"/>ge noḥ ta vvaṁ thve toy· dau dvātrīśanaraka<!-- kuch: Should we add a hyphen here? --> nu santāna phoṅ· mān· Issa yā<lb n="B5" break="no"/>tanā yāvat· candrāditya ka mān· ley<choice><orig>a</orig><reg>·</reg></choice> Aṁvī Ihaloka<!-- kuch: Should we add a hyphen here? --> <space/> lvoḥ para<space/> lo<lb n="B6" break="no"/>ka nau sādhusajjana<!-- kuch: Should we add hyphens here? --> ta ñyāṅ<choice><orig>a</orig><reg>·</reg></choice> varddheya pi thve roḥ<surplus>ha</surplus> <!-- Ici, roḥh est-il compté comme ayant une double consonne ? --><!-- kuch: I would mark the ha as <surplus>. --> kalpanā dhūlī vraḥ pāda dhūlī
+						 <lb n="B7"/>jeṅ· vraḥ kamrateṅ· Añ· śrī jayavarmmadeva ta svey· vraḥ dharmmarājya<!-- kuch: Should we add a hyphen here? --> nu śūnya<lb n="B8" break="no"/>navaAṣṭa<!-- kuch: Should we add hyphens here? --> śaka <space/> ta neḥ varṇna ta vyar<choice><orig>a</orig><reg>·</reg></choice> ge mān· svarga nu santāna phoṅ· yāvat· candrā<lb n="B9" break="no"/>ditya ka mān· ley· ta gi neḥ Ihaloka<!-- kuch: Should we add a hyphen here? --> lvoḥ paraloka<!-- kuch: Should we add a hyphen here? --> ge mān sukha sthītī<!-- kuch: I would regularize the two ī as i. --> R̥ddhi<!-- kuch: I would read r̥ddhi. --> nu santā<lb n="B10" break="no"/>na phoṅ· <space/> <g type="dandaOrnate"/> karmmāntaramūla<!-- kuch: Should we add a hyphen here? --> steñ· paramācāryya Ācāryya homa steñ· śivadhā<lb n="B11" break="no"/>ma <space/> steñ· hr̥dayaśiva <space/> teṅ· nau <space/> teṅ· lem· <space/> teṅ· neṁ <space/> loñ· den· <space/> loñ· śi<lb n="B12" break="no"/>valakṣmī <space/> teṅ· vrau teṅ· In· <space/> loñ· lip· <space/> loñ· grap· <space/> sruk· kaivalyapura sru<lb n="B13" break="no"/>k· k<space type="descender"/>ap· phlaḥ <space/> steñ· nandīkācāryya<!-- kuch: I would read ī but it should be regularized as i. --> <space/> steñ· paramaśiva steñ· śivavindu teṅ<choice><orig>a</orig><reg>·</reg></choice> hyaṅ·
+						 <lb n="B14"/>teṅ· pavitra teṅ· jū vikrāntapura teṁ nu vyādhapura teṁ dau nā karmmāntara nu sruk·
+						 <lb n="B15"/>sre bhūmyākara nu vraḥ puṇya naya noḥ phoṅ· vvaṁ Āc ti mān vakra tarāp· candrāditya man ley· <g type="dandaOrnate"/>
+					 </p>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="A4">
+                     <lem>mah<unclear>ā</unclear>ddhvaravi<space type="descender"/>dhī</lem>
+                     <rdg source="bib:Coedes1937-1966_01">mahāddhvaravidhi</rdg>
+                  </app>
+									<app loc="A5">
+										<lem>dhulī</lem>
+										<rdg source="bib:Coedes1937-1966_01">dhuli</rdg>
+									</app>
+									<app loc="A23">
+										<lem>śīkṣā</lem>
+										<rdg source="bib:Coedes1937-1966_01">śikṣā</rdg>
+									</app>
+									<app loc="B11">
+										<lem>teṅ·</lem>
+										<rdg source="bib:Coedes1937-1966_01">tek·</rdg>
+									</app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 				 <p n="A1-A7">896 śaka, 5e jour de la lune croissant de Puṣya, lundi, <foreign>nakṣatra</foreign> Śatabhīṣaj, il y eut un ordre de S. M. <foreign>śrī</foreign> Jayavarmadeva qui règne depuis 890 śaka. <supplied reason="subaudible">Sa Majesté</supplied> faisait alors un <foreign>vrahmayajña</foreign> pour le K. A. <foreign>Vraḥ Guru</foreign>, faisait un grand sacrifice en offrance à Vāgīśvarī, alors que S. M. <foreign>śrī</foreign> Jayavarmadeva achevait l’étude de toutes les sciences, lors du 53e <foreign>parvan</foreign>, le 8e jour, le matin, à midi et le soir, dans la ville de Yaśodharaparvata, au Saint Bassin de pierre.</p>
+				 <p n="A7-A12">À la fin de la cérémonie, il y eut un ordre de Sa Majesté <supplied reason="subaudible">adressé</supplied> au K. A. <foreign>Vraḥ Guru</foreign> le chargeant de choisir des religieux dans les sept <foreign>varṇa</foreign> et parmi les parents des chefs des <foreign>ācārya</foreign> qui se sont succédés, d’en garder 20 comme racine <supplied reason="subaudible">du <foreign>varṇa</foreign> chargé</supplied> des <foreign>khmuk</foreign> de la salle de culte, et 20 comme racine <supplied reason="subaudible">du <foreign>varṇa</foreign></supplied> des <foreign>karmāntara</foreign>, et de laisser le droit exclusif <supplied reason="explanation"><foreign>siddhi</foreign></supplied> sur les revenus des villages, rizières et terres à ces deux <foreign>varṇa</foreign>, celui des <foreign>khmuk</foreign> de la salle du culte et celui des <foreign>karmāntara</foreign>.</p>
+				 <p n="A12">À l’égard des religieux seulement, ceux qui accomplissent le service royal ne devront pas fournir riz, huile locale, huile de ricin.</p>
+				 <p n="A12-A15">Ceux qui seront les fruits de ces lignées <supplied reason="subaudible">à savoir</supplied> celle des <foreign>khmuk</foreign> de la salle de culte et celle des <foreign>karmāntara</foreign>, tant que dureront la lune et le soleil, ne devront pas reconnaître d’autre autorité que celle des chefs <supplied reason="explanation"><foreign>khloñ</foreign></supplied> des <foreign>khmuk</foreign> de la salle de culte et celle des chefs des <foreign>karmāntara</foreign> qui se succéderont à l’avenir.</p>
+				 <p n="A15-A17">Les religieux possédant science, moralité et bonne conduite, choisis dans ces deux <foreign>varṇa</foreign>, pourront devenir <foreign>ācāryahoma</foreign> et <foreign>ācārya</foreign> chef des <foreign>caturācārya</foreign>.</p>
+				 <p n="A17-A19">Toutes les femmes de leur famille seront données aux gens de haute caste pour le service de Śiva ; elles ne devront pas être prises par les gens de basse caste pour faire des <foreign>anak khloñ</foreign>.</p>
+				 <p n="A19-A21">C’est pourquoi, en dehors des trois <foreign>sañjak</foreign> principaux du roi qui seuls peuvent les prendre, on ne doit pas les donner aux <foreign>sañjak</foreign> titulaires du parasol à manche d’or.</p>
+				 <p n="A21-A22">Si on les donnes aux trois castes supérieures ou à ces trois <foreign>sañjak</foreign> titulaires du parasol à manche d’or, ces <supplied reason="subaudible">femmes</supplied> membres de la famille ainsi données ne doivent jamais être incluses dans les biens d’héritage.</p>
+				 <p n="A22-A24">Quant aux membres de la familles qui sont <foreign>si</foreign>, et qui sont capables d’enseigner, on doit les amener pour que l’<foreign>ācārya caturācārya</foreign> les charge d’enseigner les sciences à la capitale et pour qu’ils accomplissent le service royal comme religieux et non comme <foreign>bhāgavata</foreign>.</p>
+				 <p n="A24-A27">Le K. A. <foreign>Vraḥ Guru</foreign> ayant choisi <supplied reason="subaudible">les religieux</supplied> les amena en présene de Sa Majesté, les amena en présence du feu sacré, des brāhmanes et des <foreign>ācārya</foreign>, du Kamsteṅ Añ Rājakulamahāmantrin et de tous les <foreign>khloñ vala</foreign>. S. M. daigna les garder comme constituant le <foreign>varṇa</foreign> des <foreign>khmuk</foreign> de la salle de culte et le <foreign>varṇa</foreign> des <foreign>karmāntara</foreign>.</p>
+				 <p n="A27-A30">S. M. les appela pour leur offrir des fleurs et leur donner sa bénédiction, en proclamant que ces deux <foreign>varṇa</foreign> ont le droit exclusif <supplied reason="explanation"><foreign>siddhi</foreign></supplied> d’exercer les fonctions de <foreign>khmuk</foreign> de la salle de culte et de <foreign>karmāntara</foreign>.</p>
+				 <p n="A30-A32">S. M. a ordonné de déposer une plaque d’or <supplied reason="subaudible">inscrite</supplied> au Kanloṅ, a ordonné de déposer une plaque d’argent à la Saint Cour de Justice et a ordonné de placer une stèle de pierre aux pays qui sont sous l’autorité de ces deux <foreign>varṇa</foreign>, et de toute...<!-- kuch: Should we mark this ... ? --></p>
+				 <p n="A32-A34">Les villages, rizières, terres, esclaves, fondations... reconnus à ces deux <foreign>varṇa</foreign> qui possèdent une plaque d’or, une plaque d’argent et cette stèle en ce pays, ne doivent pas être molestés par les <foreign>khloñ teṁ</foreign> qui voudraient les reprendre.</p>
+				 <p n="A34-B5">Dans ces deux <foreign>varṇa</foreign>, ceux qui ne se conformeront pas aux prescriptions de S. M. Jayavarmadeva, fruit de la descendance de Māheśvara, feront l’objet d’une plainte en justice pour être condamnés comme des « audacieux » <supplied reason="explanation"><foreign>sāhasika</foreign></supplied>, et ceux qui ne se conformeront pas à cet ordre iront aux trente-deux enfers avec toute leur famille, et y subiront tous les tourments aussi longtemps que dureront la lune et le soleil, depuis ce monde jusque dans l’autre.</p>
+				 <p n="B5-B10">Les gens de bien qui feront prospérer et voudront exécuter la fondation de S. M. Jayavarmadeva, qui règne depuis 890 śaka, les gens de ces deux <foreign>varṇa</foreign> jouiront du ciel avec toute leur famille, aussi longtemps que dureront le soleil et la lune, depuis ce monde jusque dans l’autre. Ils auront bonheur, permanence, prospérité, avec toute leur famille.</p>
+				 <p n="B10-B15">Racines des karmmāntara. <supplied reason="explanation">Suit une liste de 11 noms et des possibles descriptions de terres</supplied><!-- kuch: Should the () be marked as <supplied reason="explanation">? -->.</p>
+         </div>
+         <div type="commentary">
+	<p>Lines A22-A29: the stela was broken and then reconstituted. That damaged some <foreign>akṣara</foreign>, tagged as “unclear” or “supplied”.</p>
+	<p> In modern khmer, the <foreign>virāma</foreign> is no longer in use to differentiate <foreign>akṣaras</foreign> to be pronounced with and without inherent -a. Therefore, in transcribing modern Khmer, one must decide to include the -a or not based on one’s understanding of the word-structure of the given text. In editing the present inscription, which use <foreign>virāma</foreign> much more sparingly than is the norm in Old Khmer, it would seem that George Cœdès has applied the same transcription mode. Since his transliteration system, anyhow never explicitly represent <foreign>virāma</foreign>, the difference between actually present <foreign>virāma</foreign> and editorially suppresed inherent -a is invisible in his edition. I have therefore made use of the tag <choice><orig>a</orig><reg>·</reg></choice>.</p> <!--sapi2argr Comme la plupart des akṣara sont tout de même surmontés d'un virāma, peut-être devrais-je inscrire les termes qui en sont dénués avec un "a" inhérent, et le préciser dans l'apparatus ?--><!-- kuch: No, I don't think we need to precise that in the apparatus. -->
+          <p>G. Cœdès doesn’t give any translation of this inscription in his edition. He explains that since the text of K. 868 is very similar to that of K. 444, we would have to refer to the latter. To translate this inscription, I therefore copied the translation of K. 444, adapting the lines’ numbers to those of K. 868. Note that the lines B10-B15 are in particular need of a proper translation, being totally different from K. 444. </p>
+         </div>
+        <div type="bibliography">
+           <p>First mentioned in the <foreign>Chronique</foreign> section of <bibl rend="journalNumDate"><ptr target="bib:BEFEO36_1936"/><citedRange unit="page">634</citedRange></bibl>, then edited by George Cœdès without any translation, because its contents are nearly identical to those of <ref target="K0444.xml">K. 444</ref> (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">170-172</citedRange></bibl>). Cœdès’ edition interprets most geminate consonants as a device for marking closed syllables, and transcribes such <foreign>akṣara</foreign>s without their inherent vowel <foreign>a</foreign>. The present edition, which transliterates these <foreign>akṣara</foreign>s without regard to their pronunciation, has been prepared here by Salomé Pichon on the basis of EFEO estampage n. 1120.</p>
+        	<listBibl type="primary">
+		<bibl n="GC">
+		<ptr target="bib:Coedes1937-1966_01"/>
+	        	<citedRange unit="volume">6</citedRange>
+	        	<citedRange unit="page">170-172</citedRange>
+	      </bibl>
+			</listBibl>
+           <listBibl type="secondary">
+             	<bibl><ptr target="bib:BEFEO36_1936"/><citedRange unit="page">634</citedRange></bibl>
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

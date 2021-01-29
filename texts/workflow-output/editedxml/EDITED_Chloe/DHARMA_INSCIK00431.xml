@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ho Chi Minh City Museum stela (K. 431)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">K0431</idno>
+            <!--            <idno type="filename">K0371</idno>-->
+            <!-- why is there 2 idno?  -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:chch" when="2020-10-16">Creation of the file</change>
+         <change who="part:axja" when="2020-10-12">Version 3.2 : movinng the xml:lang to the root</change>
+         <change who="part:axja" when="2020-07-02">Version 3.1: adding the encodingDesc and linking the template with the DHARMA Schema</change>
+         <change who="part:axja" when="2020-03-18">Version 2: addition of handDesc and summary</change>
+         <change who="part:axja" when="2019-12-18" status="draft">Creation of the
+                template</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="vasantatilakā">
+<l n="a"><lb n="1"/><seg met="++-+---+--+-+="><gap reason="lost" quantity="14" unit="character"/></seg></l>
+<l n="b"><seg met="++-+---+"><gap reason="lost" quantity="8" unit="character"/></seg> prasi <seg met="+-+="><gap reason="lost" quantity="4" unit="character"/></seg></l>
+<l n="c"><lb n="2"/><seg met="++-+---+--+-"><gap reason="lost" quantity="12" unit="character"/></seg> tantā</l>
+<l n="d">yogīti candrapuradhāmaguruś cakāra <supplied reason="lost"><g type="ddandaOrnate">.</g></supplied></l>
+</lg>
+<lg n="2" met="vaṁśasthā">
+<l n="a"><lb n="3"/><unclear>guhā pade smin vahudevayukta</unclear>hr̥d</l>
+<l n="b">guhā kalātattvavido ma <seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg> ha yā</l>
+<l n="c"><lb n="4"/><unclear>guhāya janmakṣayasiddhidā</unclear>yinaṁ</l>
+<l n="d">guhā haraṁ smartum alaṁ rarāja sā <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="3" met="vasantatilakā">
+<l n="a" enjamb="yes"><lb n="5"/><unclear>śaktīśvarapratatatuṅgaviśā</unclear>laramya</l>
+<l n="b">kṣāntyakṣayākṣatatatīndraguhālam eṣā</l>
+<l n="c"><lb n="6"/><unclear>yasyām vasan niyamavān</unclear> nijatattvavettā</l>
+<l n="d">yogy āpa siddhim atulāṁ śivasiddhiśakteḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="4" met="vasantatilakā">
+<l n="a"><lb n="7"/><unclear>yaś śabdaśāstra</unclear>viśado vahuśaivavettā</l>
+<l n="b">kṣīraṁ pivan gaṇitavit suśivavratasthaḥ</l>
+<l n="c"><lb n="8"/><unclear>janmāriva</unclear>d dhruvanirantaratattvavandhuḥ</l>
+<l n="d">sthitvā yuto tra yatibhis sa yayau khaśāntim· <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="5" met="vasantatilakā">
+<l n="a"><lb n="9"/><unclear>kr̥tvā guhā</unclear>racanam atra jalāśrayañ ca</l>
+<l n="b">yat kalpitaṁ yatihitāya punar mmayā tat</l>
+<l n="c"><lb n="10"/><unclear>sevanta</unclear> eva yatayas tapasāṁ prasiddhyai</l>
+<l n="d">siddhiṁ manoharakarīm vipulāṁ labhantām· <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="6" met="vasantatilakā">
+<l n="a"><lb n="11"/><unclear>samvar</unclear>rddhite kaliyuge vahupāpajuṣṭo</l>
+<l n="b">yo sau tapāṅsi yadi kr̥ty apunarbhavāya</l>
+<l n="c"><lb n="12"/><unclear>bhū</unclear>yo lpapunyavahupāpiphalāni bhuktvā</l>
+<l n="d">janmakṣaye cirabhayāni yamāl labhet saḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="7" met="vasantatilakā">
+<l n="a"><lb n="13"/><unclear>bho</unclear>gopabhogaparibhogavicitralobhād</l>
+<l n="b">bhūyaś ca janma śatadhānr̥tavā saduḥkhaḥ</l>
+<l n="c"><lb n="14"/><unclear>vi</unclear>stīrṇṇaṣaṇḍabhavanāśakumāraśastraṁ</l>
+<l n="d">lavdhvā yadīty a <seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg> sa naityakadurggatin tām· <g type="ddandaOrnate">.</g></l>
+</lg>
+         </div>
+         <div type="apparatus">
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p rend="stanza" n="1"><gap reason="lost"/> le <foreign>guru</foreign> nommé <gap reason="lost"/> <foreign>yogin</foreign>, résidant à <placeName>Candrapura</placeName> <gap reason="lost"/> fit <gap reason="lost"/></p>
+             <p rend="stanza" n="2">Cachée en ce lieu, la grotte dont le cœur est rempli de nombreuses divinités, qui <gap reason="lost"/> de celui qui connaître la vraie nature des arts, suffit par sa splendeur à rappeler Hara qui a réussi à supprimer la naissance pour Guha.</p>
+             <p rend="stanza" n="3">Cette grotte <supplied reason="subaudible">nommée</supplied> <placeName>Indraguhā</placeName>, dont toute l’étendue est remplie par Īśvara et sa Śakti, est élevée, spacieuse, charmante et d’une solidité à toute épreuve : il a suffi au <foreign>yogin</foreign> de demeurer dans cette grotte observant les prescriptions, connaissant sa propre nature, pour obtenir une réussite sans égale, par la puissance efficace de Śiva.</p>
+             <p rend="stanza" n="4">Versé dans la science des sons, très instruit dans la doctrine śivaïte, buvant du lait, expert en calcul, observant scupuleusement ses vœux envers Śiva, ami de la réalité permanente et ininterrompue, comme <supplied reason="subaudible">il convient à</supplied> un ennemi de la naissance, après avoir séjourné ici en compagnie des ascètes, il est parti pour jouir de la paix céleste.</p>
+             <p rend="stanza" n="5">De plus, tout ce qui a été prescrit pour le bien des ascètes par moi qui ai aménagé cette grotte et creusé une pièce d’eau, puissent les ascètes qui se conformeront <supplied reason="subaudible">à ces prescriptions</supplied> pour le succès de leurs austérités, obtenir une réussite complète et ravissant le cœur.</p>
+             <p rend="stanza" n="6">Si, tandis que progresse l’âge Kali, celui qui a accumulé les péchés pratique l’ascétisme afin d’éviter de renaître, puisse-t-il, recevant ensuite le prix des gens ayant peu de mérites et beaucoup de péchés, souffrir à sa mort de longues peines de la part de Yama.</p>
+             <p rend="stanza" n="7">Et qu’ensuite, ce trompeur, à cause de sa convoitise des biens, jouissances et commodités de toute sorte, renaissant cent fois malheureux, frappé par l’arme de Kumāra qui détruit l’existence des masses nombreuses <gap reason="lost"/> éternellement ce mauvais sort.</p>
+         </div>
+         <div type="commentary">
+            <p>Line 13: According to G. Cœdès, the reading <foreign>śatadhānr̥tavā</foreign> is doubtful. The <hi rend="italic">n</hi> consonant has another subscribed character (<hi rend="italic">r̥</hi>, <hi rend="italic">va</hi> or <hi rend="italic">dha</hi>). The next character is <hi rend="italic">ta</hi> or <hi rend="italic">bha</hi>.</p>
+             <p>Line 14: According to G. Cœdès, the character after <hi rend="italic">tya</hi> of <foreign>yadīty a</foreign> light be <hi rend="italic">ma</hi> or <hi rend="italic">tha</hi>.</p>
+             <p>Stanza 2: the stanza makes a probable allusion to the fact that Guha or Skanda was born directly from Śiva’s seed, without a woman.</p>
+             <p>Stanza 6: another possible traduction of "[...] celui qui a accumulé les péchés pratique l’ascétisme afin d’évite de renaître” is “celui qui pratique l’ascétisme, afin d’éviter de renaître, accumule les péchés”.</p>
+             <p>The traduction of the 7th stanza is conjectural as the text is unclear.</p>
+         </div>
+        <div type="bibliography">
+           <p>First edited by George Cœdès with a French translation (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">175-177</citedRange></bibl>).</p>
+        	<listBibl type="primary">
+				<bibl n="GC">
+		<ptr target="bib:Coedes1937-1966_01"/>
+	        	<citedRange unit="volume">5</citedRange>
+	        	<citedRange unit="page">175-177</citedRange>
+				</bibl>
+			</listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
