@@ -434,7 +434,7 @@
 |K.	421 |kuch |done |IC V|
 |K.	422 |kuch |pending |IC II|
 |K.	423 |kuch |done |IC II|
-|K.	424 |kuch |pending |IC II|
+|K.	424 |kuch |done |IC II|
 |K.	425 |# |# |#|
 |K.	426 |kuch |done |IC II|
 |K.	427 |kuch |pending |IC VI|
@@ -570,7 +570,7 @@
 |K.	557 |# |# |#|
 |K.	558 |# |# |#|
 |K.	559 |kuch |pending |IC II|
-|K.	560 |kuch |pending |IC VI|
+|K.	560 |kuch |done |IC VI|
 |K.	561 |kuch |pending |IC II|
 |K.	562 |kuch |pending |IC II|
 |K.	563 |kuch |done |IC II|
@@ -662,7 +662,7 @@
 |K.	649 |# |# |#|
 |K.	650 |# |# |#|
 |K.	651 |# |# |#|
-|K.	652 |kuch|pending|IC V|
+|K.	652 |kuch|done |IC V|
 |K.	653 |# |# |#|
 |K.	654 |kuch |pending |IC V|
 |K.	655 |# |# |#|
@@ -680,7 +680,7 @@
 |K.	667 |# |# |#|
 |K.	668 |# |# |#|
 |K.	669 |chch |pending |IC I|
-|K.	670 |kuch |pending |IC VII|
+|K.	670 |kuch |done |IC VII|
 |K.	671 |# |# |#|
 |K.	672 |# |# |#|
 |K.	673 |# |# |#|
@@ -951,7 +951,7 @@
 |K.	937 |# |# |#|
 |K.	938 |kuch |pending |IC VII|
 |K.	939 |kuch |pending |IC V|
-|K.	940 |kuch |pending |IC V|
+|K.	940 |kuch |done |IC V|
 |K.	941 |# |# |#|
 |K.	942 |# |# |#|
 |K.	943 |kuch |done |unpublished|
@@ -1193,7 +1193,7 @@
 |K.	1173 |kuch |pending |unpublished|
 |K.	1174 |kuch |pending |unpublished|
 |K.	1175 |# |# |#|
-|K.	1176 |kuch|pending|unpublished|
+|K.	1176 |kuch|done |unpublished|
 |K.	1177 |# |# |#|
 |K.	1178 |# |# |#|
 |K.	1179 |# |# |#|
@@ -1370,7 +1370,7 @@
 |K.	1349 |# |# |#|
 |K.	1350 |# |# |#|
 |K.	1351 |# |# |#|
-|K.	1352 |kuch |pending |unpublished|
+|K.	1352 |kuch |done |Goodall 2020|
 |K.	1353 |# |# |#|
 |K.	1354 |chch |done |Chollet 2019|
 |K.	1355 |kuch |pending |Skilling 2002|
