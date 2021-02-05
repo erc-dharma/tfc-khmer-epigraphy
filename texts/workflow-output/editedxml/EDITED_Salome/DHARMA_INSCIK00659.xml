@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prasat O Romduol northern doorjamb of the eastern door, 878 Śaka (K. 659)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00659</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Salomé Pichon.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Cursive script. No difference between dependent i and ī, both in an unusual shape of spiral. Alternance of simple and double ra.</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:sapi" when="2020-11-16" status="draft">few corrections</change>
+         <change who="part:sapi" when="2020-11-16" status="draft">addition of a new translation and correction of a few mistakes</change>
+         <change who="part:sapi" when="2020-11-12" status="draft">started initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="x-oldkhmer-Latn">
+           <p>
+             <lb n="1"/><g type="floretComplex"/> <num value="882">882</num> śaka<g type="dotMid">.</g> gi nū sthāpanā vraḥ kamrateṅ· Añ·
+             <lb n="2"/>śivaliṅga<g type="circleHigh">.</g> <num value="890">890</num> śaka mvāy· ket· bhādrapada toy<choice><orig>a</orig><reg>·</reg></choice> ca<lb n="3" break="no"/>ndramāsa vuddhavāra pūrvvaphālgūṇinakṣatra nū mān· vraḥ śā<lb n="4" break="no"/>sana dhūli vraḥ pāda dhūli jeṅ· vraḥ kamrateṅ· Añ· śrījayavarmma<lb n="5" break="no"/>deva ta kaṁsteṅ· Añ· rājakulamahāmantri ta kamrateṅ· Añ·
+             <lb n="6"/>vraḥ guru pi pre dau sthāpanā praśasta ta gi srūk· sre bhūmyā<lb n="7" break="no"/>kara vrai thṅās· ta ti vāp· paramācāryya jauv<choice><orig>a</orig><reg>·</reg></choice> ta cok· svāy·
+             <lb n="8"/>pi svaṁ vraḥ karuṇā prasāda pi sthāpanā śivaliṅga sthāpanā vraḥ
+             <lb n="9"/>paryyaṅ· saṁ gaṇa nū kamrateṅ· jagat· liṅgapūra nāṁ vraḥ pa<lb n="10" break="no"/>ryyaṅ· dau mvāy· vatta mvāy· chnāṁ thvāy· vraḥ bhoga vvaṁ jā svatantra
+             <lb n="11"/>ta vrīha vvaṁ jā pi svatantra ta kandvār· craṁlo vvaṁ jā pi svatantra ta
+             <lb n="12"/>bhūtāśa ta cañcūli phoṅ· vvaṁ jā pi Āyatta ta kūle kva<lb n="13" break="no"/>n· cau ta paṁnvās nī pi tyaṅ· dhārmma pi <add place="above">pa</add>ripāla gi dharmma gi ta Āc· mā<lb n="14" break="no"/>n· gūs· neḥ gi roḥ ka<supplied reason="omitted">lpa</supplied>nā yajamāna raṅko ta jā yajña je <num value="1">1</num>
+             <lb n="15"/>pratidina kriyā sroṅ· pratidina pañcagavya ghr̥ta madhū dadhi kṣīra
+             <lb n="16"/>gūda nārikela<g type="dotMid">.</g> gandhānūlepana<g type="dotMid">.</g> dīpa dhūpa tambūla kramūkaphala<g type="dotMid">.</g>
+             <lb n="17"/>tūryya tiṅ· toṅ· rāṁ cryaṅ· gandharvva hūdūka śikharā<g type="spiralL">.</g> nivandha vraḥ paṁ<lb n="18" break="no"/>nvas· smiṅ· steñ· purohita sru thlvaṅ· <num value="6">6</num> canlyāk· yau 1 tvaṅ·
+             <lb n="19"/>teṁ <num value="1">1</num> slā teṁ <num value="2">2</num> steṅ· ta pūjā ta vyar <g type="dotMid">.</g> Aṁpal steṅ· ta p<supplied reason="omitted">u</supplied>rohita Ukka mī<lb n="20" break="no"/>mvāy· qnāk· steñ· kāri ta vyar<choice><orig>a</orig><reg>·</reg></choice> canlyāk· vlaḥ <num value="1">1</num> sru thlvaṅ· <num value="2">2</num> je <num value="2">2</num> mīmvāy·
+             <lb n="21"/>qnāk· sre varah· thlvaṅ· <num value="2">2</num> je <num value="2">2</num> mīmvāy· smiṅ·<g type="dotMid">.</g> ta gi Utsava phoṅ· caṁre<lb n="22" break="no"/>n· raṅko je <num value="2">2</num> kriyā homa phoṅ·<g type="dotMid">.</g> devadravya<g type="dotMid">.</g> mās· prāk· svok·
+             <lb n="23"/>vaudi padigaḥ kadāha <unclear>ka</unclear>mandalū paṅkap· thmur· krapī taṁryya khñuṁ ta paṁ<lb n="24" break="no"/>re daṁnepra pamek· mahānasa patrakāra Aṁraḥ qnāk sre phsaṁma<lb n="25" break="no"/>khñuṁ phoṅ· <num value="40">40</num> <num value="10"><unclear>10</unclear></num> <num value="8">8</num> bhūmya ti pūrvva prasap· Agrandhasāra ti dakṣina
+             <lb n="26"/>prasap· vrai sūbheta thmā gol· ti paścima prasap· jarmmala thmā phlu
+             <lb n="27"/>ta diṅṅa <g type="dotMid">.</g> ti Uttara thmā gol<choice><orig>a</orig><reg>·</reg></choice> prasap· co<unclear>k</unclear>· svāy<choice><orig>a</orig><reg>·</reg></choice><g type="dotMid">.</g> neḥ gi roh<choice><orig>a</orig><reg>·</reg></choice> va<lb n="28" break="no"/>raśāpa vrāhma Ācāryya pandita yajamāna nau sādhu ta Ā<lb n="29" break="no"/>c· varddheya neḥ pūnya neḥ ge mān· svargga <g type="dotMid">.</g> nau ge ta lope
+             <lb n="30"/>pūnya neḥ ge mān· pāpa
+           </p>
+           <lg n="1" met="anuṣṭubh">
+             <l n="a">ye tāny apaharantīha<space/></l>
+             <l n="b">hīrāyanti dhanāni ca</l>
+             <l n="c">te yānti pitr̥bhis sārddhaṁ<space/></l>
+             <l n="d">rauravādyeṣu yātanām·</l>
+           </lg>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                 <app loc="16">
+                    <lem>gandhānūlepana</lem>
+                    <rdg source="bib:Coedes1937-1966_01">gandhā nū lepana</rdg>
+                 </app>
+                 <app loc="19">
+                    <lem>steṅ·</lem>
+                    <rdg source="bib:Coedes1937-1966_01">steṅi</rdg>
+                 </app>
+                 <app loc="19">
+                    <lem>steṅ·</lem>
+                    <rdg source="bib:Coedes1937-1966_01">steṅi</rdg>
+                 </app>
+                 <app loc="24">
+                    <lem>daṁnepra</lem>
+                    <rdg source="bib:Coedes1937-1966_01">damnepra</rdg>
+                 </app>
+                 <app loc="27">
+                    <lem>roh<choice><orig>a</orig><reg>·</reg></choice></lem>
+                    <rdg source="bib:Coedes1937-1966_01">roḥ</rdg>
+                 </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" resp="part:sapi">
+           <p n="1-2">882 <foreign>śaka</foreign> : c’est alors qu’eut lieu l’installation du <foreign>vraḥ kamrateṅ qañ</foreign> Śivaliṅga.</p>
+           <p n="2-6">890 <foreign>śaka</foreign>, première <supplied reason="subaudible"><foreign>tithi</foreign></supplied> de la quinzaine claire de Bhādrapada selon les <supplied reason="explanation">désignations des</supplied> mois lunaires, un mercredi, mansion lunaire de Pūrvaphalgunī : c’est alors qu’il y eut un ordre royal de Sa Majesté <foreign>śrī</foreign> Jayavarmadeva au <foreign>kaṁsteṅ qañ</foreign> Rājakulamahāmantri, au <foreign>kamrateṅ qañ vraḥ guru</foreign> afin de leur ordonner d’aller fonder l’inscription que voici.</p>
+           <p n="6-10">Le village <supplied reason="explanation"><foreign>sruk</foreign></supplied>, les rizières et les revenus de la terre de Vrai Thṅās <supplied reason="explanation">forêt ouverte</supplied>, que <foreign>vāp</foreign> Paramācārya a achetés à Cok Svāy <supplied reason="explanation"><q>bosquet des manguiers</q></supplied> pour requêter la faveur royale en vue de l’installation d’un <foreign>śivaliṅga</foreign>, de la mise à disposition d’huile sainte, du rassemblement du personnel avec celui du <foreign>kamrateṅ jagat</foreign> Liṅgapūra pour qu’il transmette de l’huile sainte une fois par an en guise d’offrande du matériel sacré.</p>
+           <p n="10-14"><supplied reason="subaudible">Ces biens fonciers</supplied> ne sont pas soumis à l’autorité du <foreign>vrīha</foreign>, pas soumis à l’autorité du <foreign>kandvār craṁlo</foreign>, ni soumis à l’autorité du <foreign>bhūtaśa</foreign> du ricin. Ils ne sont pas soumis à la juridiction des membres de la famille que sont les enfants et les petits-enfants. Les religieux entrés en service afin d’acquérir des connaissances sur le <foreign>dharma</foreign> <supplied reason="subaudible">et</supplied> de protéger la fondation, sont les seuls autorisés à l’avoir.</p>
+           <p n="14-17">Voici donc la fondation du donateur/prêtre ? : 1 <foreign>je</foreign> de riz décortiqué convenant à l’oblation chaque jour, les ustensiles de l’ablution chaque jour, les cinq produits de la vache <supplied reason="explanation"><foreign>pañcagavya</foreign></supplied>, le ghee, le miel, le lait caillé, le lait, la mélasse, les noix de coco ; les parfums, les onguents ; les lampes, l’encens, le bétel, les noix d’arec ; les instruments de musique à corde et à percussion, la danse, le chant, les chanteurs <supplied reason="explanation">ou, si on comprend <foreign>gāndharvva</foreign> : la musique</supplied>, les grands tambours, les <foreign>śikharā</foreign>.</p>
+           <p n="17-22">Les redevances des vénérables religieux, des résidents <supplied reason="subaudible">et</supplied> des <foreign>steñ</foreign> chapelains : 6 <foreign>thlvaṅ</foreign> de paddy, 1 <foreign>yau</foreign> de tissu <supplied reason="subaudible">pour <foreign>sampot</foreign></supplied>, 1 cocotier, 2 aréquiers pour les deux <foreign>steñ</foreign> qui effectuent le culte ainsi que pour chacun des <foreign>steñ</foreign> chapelains. <supplied reason="subaudible">Pour</supplied> chacun des deux <foreign>steñ kāri</foreign> :
+           1 paire de tissu <supplied reason="subaudible">pour <foreign>sampot</foreign></supplied>, 2 <foreign>thlvaṅ</foreign> <supplied reason="subaudible">et</supplied> 2 <foreign>je</foreign> de paddy. <supplied reason="subaudible">Pour</supplied> chacun des résidents : des rizières évaluées <supplied reason="explanation">varah</supplied> à 2 <foreign>thlvaṅ</foreign> <supplied reason="subaudible">et</supplied> 2 <foreign>je</foreign>. Lors de tous les festivals, on ajoute 2 <foreign>je</foreign> de riz décortiqué en tant qu’aliment à offrir pour toutes les oblations.</p>
+           <p n="22-25">Les biens du dieu sont de l’or, de l’argent, de grands plateaux, des cruches, des crachoirs, des chaudrons, des petites jarres, des hachoirs, des bœufs, des buffles, des éléphants, des esclaves assignés <supplied reason="subaudible">aux tâches</supplied> que voici : ceux qui s’occupent des fournitures de la cuisine, les fabricants de feuilles, les gardiens, le personnel des rizières. Au total, un ensemble de 58 serviteurs.</p>
+           <p n="25-27">La terre, à l’est touche Agrandhasāra, au sud touche la forêt de Sūbheta à l’endroit de la borne, à l’ouest touche Jarmala à l’endroit de la route en travers, au nord à l’endroit de la borne, elle touche Cok Svāy <supplied reason="explanation">bosquet des manguiers</supplied>.</p>
+           <p n="27-30">Voici donc la bénédiction et l’imprécation les brahmanes, les maîtres <supplied reason="explanation">ācārya</supplied>, les savants, les donateurs/prêtres ? : en ce qui concerne les gens de bien qui permettent de faire prospérer cette œuvre pie, ils obtiendront le ciel. En ce qui concerne les gens qui s’en prennent à cette œuvre méritoire seront coupables de péché.</p>
+           <p rend="stanza" n="1">Que ceux qui s’empareront ou feront prendre ici-bas ces biens, qu’ils rencontrent la vengeance, en compagnie de leurs ancêtres dans les enfers à commencer par le Raurava.</p>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	         <p n="1-2">En 882 <foreign>śaka</foreign> eut lieu l’érection de <foreign>V. K. A.</foreign> Śivalinga.</p>
+           <p n="2-6">En 890 <foreign>śaka</foreign>, premier jour de la lune croissante de Bhādrapada, mois lunaire, mercredi, mansion lunaire Pūrvaphalgunī, il y eu une ordonnance de S. M. Śrī Jayavarmadeva à <foreign>Kaṁsteṅ Añ</foreign> Rājakulamahāmantri et <foreign>K. A. Vraḥ Guru</foreign>, les chargeant d’aller placer une inscription ici.</p>
+           <p n="6-13">Le pays, rizières et terres de Vrai Thṅās que <foreign>Vāp</foreign> Paramācārya a achetés à Cok Svāy, en vue de demander au roi la faveur d’y élever un <foreign>Śivaliṅga</foreign>, d’instituer une redevance d’huile sainte, de réunir les biens <supplied reason="subaudible">du <foreign>Śivaliṅga</foreign></supplied> à ceux de <foreign>K. J.</foreign> Liṅgapura, d’amener l’huile sainte une fois par an, d’offrir le matériel sacré, <supplied reason="subaudible">ces terres</supplied> ne relèvent pas de l’autorité du <foreign>vrīha</foreign>, elles ne relèvent pas de l’autorité du <foreign>kandvār craṁlo</foreign>, elles ne relèvent pas de l’autorité du <foreign>Bhūtaśa</foreign> du ricin, elles ne relèvent pas de la compétence des membres de la famille. Ce sont les enfants et petits-enfants (du fondateur), entrés en religion pour étudier le <foreign>dharma</foreign> et garder cette fondation, qui possèdent cette compétence exclusivement.</p>
+           <p n="14-17">Voici la fondation du donateur : 1 <foreign>je</foreign> de riz décortiqué pour le sacrifice quotidiennement, les accessoires de l’ablution quotidiennement, le <foreign>pañcagavya</foreign>, beurre fondu, lait caillé, lait, mélasse, coco, parfum, onguent, luminaire, encens, bétel, noix d’arec, musique à corde et à percussion, danse, chant, musiciens, tambourins, <foreign>śikharā</foreign>.</p>
+           <p n="17-22">Fournitures attribuées aux religieux, aux officiants, au <foreign>Steñ</foreign> Purohita : 6 <foreign>thlvaṅ</foreign> de paddy, 1 <foreign>yau</foreign> de vêtements, 1 cocotier, 2 aréquiers pour chacun des deux <foreign>Steñ</foreign> qui célèbrent le culte, ainsi qu’à tous les <foreign>Steñ</foreign> qui sont <foreign>purohita</foreign> et à chacun des deux <foreign>Steñ kāri</foreign> ; 1 paire de vêtements, 2 <foreign>thlvaṅ</foreign> et 2 <foreign>je</foreign> de paddy, 2 <foreign>thlvaṅ</foreign>, 2 <foreign>je</foreign> de la rizière Varah à chacun des officiants. Aux fêtes on ajoute 2 <foreign>je</foreign> de riz décortiqué et les accessoires de l’oblation.</p>
+           <p n="22-25">Biens du dieu : or, argent, plateaux, <foreign>vaudi</foreign>, crachoirs, bassines, aiguières, <foreign>paṅkap</foreign>, bœufs, buffles, éléphants, esclaves, serviteurs, à savoir ouvreurs, cuisiniers, fabricants de feuilles, surveillants, riziculteurs, etc. ; total 58 esclaves.</p>
+           <p n="25-27">Le terrain touche à l’est Agrandhasāra, au sud Vrai Sūbheta jusqu’à la borne, à l’ouest Jarmala jusqu’au chemin en travers, au nord Cok Svāy jusqu’à la borne.</p>
+           <p n="27-30">Voici l’imprécation des brahmanes, <foreign>ācārya</foreign>, pandits, sacrificateurs : les gens de bien qui feront prospérer cette bonne œuvre auront le ciel. Ceux qui nuiront à cette bonne œuvre encourront le péché.</p>
+           <p rend="stanza" n="1">Que ceux qui prendront ou feront prendre ces biens aillent avec leurs ancêtres dans l’enfer Raurava et les autres enfers.</p>
+         </div>
+         <div type="commentary">
+            <p n="2-3"><foreign>candramāsa</foreign>: hapax, translated by “mois lunaire”.</p>
+            <p n="7">The position of Paramācārya after the title <foreign>Vāp</foreign> may suggest that it is here an anthroponym. However, the compound in itself means “supreme teacher” and could refer more generally to his function.</p>
+            <p>rassemblement du personnel</p>
+            <p> ablution chaque jour comme il y a tek sron, kala ta sron etc. le sens pls probable est celui d’ustensiles.</p>
+         </div>
+        <div type="bibliography">
+           <p>First edited by George Cœdès with a French translation (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">143-146</citedRange></bibl>). Re-edited here by Salomé Pichon based on EFEO estampage n. 788.</p>
+        	<listBibl type="primary">
+            <bibl n="GC">
+            <ptr target="bib:Coedes1937-1966_01"/>
+            <citedRange unit="volume">5</citedRange>
+            <citedRange unit="page">143-146</citedRange>
+            </bibl>
+			</listBibl>
+           <listBibl type="secondary">
+              <bibl/>
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

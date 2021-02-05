@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Preah Kuhea Luong (K. 44), 596 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00044</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:kuch" when="2020-09-03" status="draft">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="x-oldkhmer-Latn">
+<lg n="1" met="anuṣṭubh"><milestone type="pagelike" unit="item" n="A"/><label xml:lang="eng">Face</label>
+<l n="a"><lb n="A1"/>jayatīśaḥ pravr̥tto ’pi <space/></l>
+<l n="b">nepsayā na jihāsayā <space/></l>
+<l n="c" real="++++---+">yasyecchācakra-ghaṭitaṁ <space/></l>
+<l n="d">viśvaṁ bhramat sa naikadhā</l>                   
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a" real="+-++---+"><lb n="A2"/>yena kandarppa-vapuṣā <space/></l>
+<l n="b">samudra-vasanā mahī <space/></l>
+<l n="c" real="-+-+---+">sahāri-mūrddhva-manibhiḥ <space/></l>
+<l n="d">vikramair adharīkr̥tā</l> 
+                   </lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="A3"/>jayinā nr̥patīndrena <space/></l>
+<l n="b">tena śrī-jayavarmmaṇā <space/></l>
+<l n="c">Ājñayā satya-sandhyena <space/></l>
+<l n="d">sthitir evan nivaddhyate</l> 
+                   </lg>
+<lg n="4" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="A4"/>kṣetra-go-mahiṣārāma</l>
+<l n="b">bhr̥tyādi-dhana-saṁpadaḥ <space/></l>
+<l n="c">Ahāryyāḥ puruṣair eṣāṁ <space/></l>
+<l n="d">patayas tāpasā I<unclear>t</unclear>i</l> 
+                   </lg>
+<lg n="5" met="anuṣṭubh">
+<l n="a" real="+-+++---"><lb n="A5"/>śrīmad utpanneśvarasya <space/></l>
+<l n="b">haranti dravināni ye <space/></l>
+<l n="c">te vasanty andha-tāmisre <space/></l>
+<l n="d">yāvad arkkendu-tārakāḥ</l> 
+</lg>
+<p>
+<lb n="A6"/>saṇ-ṇavaty-uttara-pañcaśata śaka-parigraha Ai mandira purandarapura pañcamī ket· kārtti<lb n="A7" break="no"/>ka pūrvvāṣāḍha-nakṣatra Aṅgāra-dina-vāra Ājñā vraḥ kamratāṅ· Añ· nī vraḥ kamra<lb n="A8" break="no"/>tāṅ· Añ· śrī Utpanneśvara ta Ai <supplied reason="lost">c</supplied>n<supplied reason="lost">ar</supplied> punya vraḥ kamratāṅ· Añ· Aṁnoy· tāṅ·
+<lb n="A9"/>Añ· kloñ· raṅ<supplied reason="lost">k</supplied>o doṅ· poñ· varāhasena Ai ta vraḥ kamratāṅ· Añ· Aṁvi
+<lb n="A10"/>kāla vraḥ kaṁratāṅ· Añ· śrī raudravarmma dāsa dāsī go mahiṣa kṣetrārā<lb n="A11" break="no"/>mādi gi parimaṇḍala gi sre Aṁvi dik· hera loḥ vrai taṁpoṅṅa loḥ thalā
+<lb n="A12"/>can· cara loḥ travāṅ· pās· kmauhva loḥ cdiṅṅa lo<supplied reason="lost">ḥ</supplied> stuk· trassa <gap reason="illegible" quantity="1" unit="character"/> nhora <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="prescript"><gap reason="illegible" quantity="1" unit="component"/></seg>i
+<lb n="A13"/>poñ· totila gui taṅ· Ājñā vraḥ kamratāṅ· Añ· Oy· gui
+<lb n="A14"/>sr<unclear>u</unclear>k· ple draṅ· vnas· nu poñ· jon· bhuti śreṣṭhāśrama
+                </p>
+<p><milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Face</label>
+<lb n="B1"/>loḥ travaṅ· poñ· viṣ<supplied reason="lost">ṇu</supplied>kīrtti loḥ travaṅ<supplied reason="lost">·</supplied> pās· tāṅ· kanmeṅṅa loḥ gūha po Aṁ<lb n="B2" break="no"/>pakk vnaṁ vrai vnur· caṁno<supplied reason="lost">ṁ</supplied> tmur· cdiṅ· qnak· ta paṅgaṁ nī dai gi tel· Ājñā vraḥ kamratā<lb n="B3" break="no"/>ṅ· Añ· prasiddha Ai ta vraḥ kamratāṅ· Añ· śrī Utpanneśvara ta Ai cnar· smaṁ śresthā<lb n="B4" break="no"/>śrama jmon<supplied reason="lost">·</supplied> bhūti gi voṁ saṁ dhanvipura ge ta hau saṁpol· ta gi ge ta ckop·
+<lb n="B5"/>Ucita saṁvatsara ta gi ge ta soṁ gi nā Adhikāra ge ta hau qnak· lvāṅ· ta gi
+<lb n="B6"/>ge ta hau vyavahāra dai ta gi ge ta dār· dranap· ghoṣaṇā ta gi ge ta ca<lb n="B7" break="no"/>p· rddeḥ dok· tmur· krapi kñuṁ ta gi ge ta cracur· vraneṅ· chat· duk· snā<lb n="B8" break="no"/>ṅ· naṁ pitai kaṁluṅ<unclear>·</unclear> Aṅgaṇa vraḥ kamratāṅ· Añ· paṁnos· gi ta
+<lb n="B9"/>tve pūjā vraḥ kamratāṅ· Añ· paṁnos· ta pos· ta gi noḥ vnaṁ
+<lb n="B10"/>vraḥ kamratāṅ· Añ· satva ta siṅ· ta gi vojā ple qnak· paribha<lb n="B11" break="no"/>va Āgama Aṁvi ta gi noḥ sruk· vraḥ kamratāṅ· Añ· nu tve pūjā
+<lb n="B12"/>vraḥ kamratāṅ· Añ· ge ta soṁ gi ge ta dap· gi ge ta pre roḥ
+<lb n="B13"/>gi sot· ge cer· Ājñā vraḥ kamratāṅ· Añ· ge daṇḍa
+                </p>
+                </div>
+            <div type="apparatus">
+           <!--apparatus encoded as per EG §9.1, basic elements for apparatus below-->
+               <listApp><!-- one <app> for each apparatus entry -->
+                  <app loc="line"><!-- Update the value of @loc.-->
+                     <lem><!-- fill in a lemma here --></lem>
+                     <rdg source="bib:AuthorYear_01"><!-- update the @source value, fill in variant reading here --></rdg>
+                  </app>
+               </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p rend="stanza" n="1">Victorieux est Īśa, qui n’est mûni par le désir de gagner, ni par celui de perdre, mais dont le désir, comme une roue <supplied reason="explanation">de potier</supplied>, façonne sans cesse tout ce qui se meut.</p>
+            <p rend="stanza" n="2">Ce <supplied reason="explanation">roi</supplied>, beau comme l’Amour, ayant par ses exploits subjugué la terre revêtue de l’Océan avec les joyaux de la tête des ennemis,</p>
+            <p rend="stanza" n="3">ce Śrī Jayavarman, souverain victorieux, fidèle aux engagements pris, a par un édit fixé comme suit la règle <supplied reason="explanation">de cette fondation</supplied> :</p>
+            <p rend="stanza" n="4">L’ensemble des biens, champs, bœufs, buffles, jardins, serviteurs, etc. ne peuvent être pris par des particuliers : les ascètes en sont les propriétaires.</p>
+            <p rend="stanza" n="5">Que ceux qui prendraient les biens du vénérable Utpanneśvara séjournent dans <supplied reason="explanation">l’enfer obscur</supplied> Andhatāmisra, tantque dureront le soleil, la lune et les étoiles.</p>
+            <p n="A6-8">596 <foreign>śaka</foreign>, à la résidence de Purandarapura, le 5e jour de la quinzaine claire de Kārtika, mansion lunaire Pūrvāṣādha, un mardi : Edit de Sa Majesté en faveur du dieu Śrī Utpanneśvara à Cnar, œuvre pie de Sa Majesté.</p>
+            <p n="A9-10">Les donations du Tāṅ Añ Kloñ Raṅko et du Poñ Varāhasena faites au dieu à l’époque de S. M. Śrī Raudravarman, esclaves hommes et femmes, bœufs, buffles, champs, jardins, etc.;</p>
+            <p n="A11-12">le domaine s’étendant depuis la source jusqu’à Vrai Taṁpoṅ, jusqu’à Thalā Can Cara, jusqu’à l’étang de Pas Kmauhv, jusqu’à la rivière, jusqu’à Stuk Tras-nhora-i,</p>
+            <p n="B1">jusqu’à l’étang de Poñ Viṣṇukīrti, jusqu’à l’étang de Pās Tāṅ Kanmeṅ, jusqu’à la grotte Po Aṁpak ;</p>
+            <p n="B2-B4">les collines, forêts, tertres, enclos à bœufs, rivières, serviteurs, etc., voilà ce que l’édit de Sa Majesté donne en toute propriété <supplied reason="explanation"><foreign>prasiddha</foreign></supplied> au Seigneur Śrī Utpanneśvara à Cnar, en le réunissant au Śreṣṭhāśrama, et en lui faisant remise de ces biens qu’il ne réunit pas à Dhanvipura.</p>
+            <p n="B4-B6">Ceux qui appellent les saṁpol, ceux qui lèvent une taxe annuelle, ceux qui demandent quelque chose au supérieur, ceux qui appellent les gens lvāṅ, ceux qui les citent en justice, etc., ceux qui formulent des revendications, des défenses, des proclamations,</p>
+            <p n="B7-B12">ceux qui s’emparent des charrettes, bateaux, bœufs, buffles, esclaves, ceux qui commettent des larcins à l’égard des <foreign>vraneṅ</foreign> des parasols gardés, <supplied reason="explanation">à l’égard</supplied> des <foreign>snāṅ</foreign> à gâteaux <foreign>pitai</foreign> dans la cour du dieu, <supplied reason="explanation">à l’égard</supplied> des religieux assurant le culte du dieu, des religieux exerçant leurs fonctions dans ce sanctuaire du dieu, des animaux demeurant ici, des récipients à fruits des gens fournissant les prestations de ce pays du dieu pour rendre un culte au dieu ;</p>
+            <p n="B12-B13">ceux qui demandent, ceux qui empêchent, ceux qui emploient tout cela, ceux qui contestent l’édit de Sa Majesté, ceux-là seront punis.</p>
+            <p n="A13">Le Poñ Totil érige l’édit de Sa Majesté pour le pays <foreign>ple draṅ vnas</foreign> et le Poñ fait remise des biens au Śreṣṭhāśrama.</p>
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+          <p>Edited by George Coedes (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">11-13</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom from estampage EFEO n.392.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+<ptr target="bib:Coedes1937-1966_01"/>
+<citedRange unit="volume">2</citedRange><citedRange unit="page">11-13</citedRange>
+</bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
