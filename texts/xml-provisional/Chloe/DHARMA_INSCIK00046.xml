@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Stelae inscription from Phnom Nok cave (K. 46)</title>
+            <title>Stela inscription from Phnom Nok cave (K. 46)</title>
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:chch">
@@ -18,7 +18,7 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName ref="part:geco">
+               <persName ref="http://viaf.org/viaf/66465311">
                   <forename>George</forename>
                   <surname>Cœdès</surname>
                </persName>
@@ -50,11 +50,6 @@
                <physDesc>
                   <handDesc>
                      <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -85,11 +80,10 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:chch" when="2021-02-09" status="draft">Added modifications in the encoding</change>
          <change who="part:chch" when="2020-08-02" status="draft">Added modifications in the encoding</change>
          <change who="part:chch" when="2020-04-25" status="draft">Added bibliography</change>
-         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-         <change who="part:chch" when="2020-03-27" status="draft">Creation of the file</change>
+         <change who="part:chch" when="2020-03-27" status="draft">Initial encoding of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
@@ -130,14 +124,14 @@
 </p>
 
          </div>
-         <div type="translation" xml:lang="fra">
-<p rend="stanza" n="1">Ayant salué..., il a donné ce jardin...</p>
-<p n="A3-4">K. A. ... trāpadeśvara <supplied reason="subaudible">œuvre pie</supplied> de Mratāñ Śiva.</p>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+<p rend="stanza" n="1">Ayant salué <gap reason="lost"/>, il a donné ce jardin <gap reason="lost"/></p>
+<p n="A3-4">K. A. <gap reason="lost"/>trāpadeśvara <supplied reason="subaudible">œuvre pie</supplied> de Mratāñ Śiva.</p>
 <p n="A4-5">Esclaves du dieu (liste de <foreign>ku</foreign> et de <foreign>vā</foreign>).</p>
-<p n="A6-8">... 1 paire de bœufs. Rizière ... 20 cocotiers, 100 aréquiers ...</p>
-<p n="A9-11">Voici ce que <persName>Mratāñ Śiva</persName>, sacrificateur... Śrī Utpanneśvara.</p>
- <p rend="stanza" n="2">... deux champs, dix ... comportant beaucoup de céréales... à <persName>Jñānaśiva</persName>, il a donné une masse de richesses ...</p>
-<p n="B5-13">Dons du Mratāñ sacrificateur et de Poñ <persName>Jñānakumāra</persName> à V. K. A. Śrī Utpanneśvara : Esclaves hommes (3 <foreign>māṅ</foreign>), femmes (5 <foreign>oṅ</foreign>, 1 <foreign>kū</foreign> et sa sœur cadette), 20 bœufs, 1 paire de buffles, 2 <foreign>sare</foreign> de rizière, 20 <foreign>tvoṅ</foreign>, 1 <foreign>kaol</foreign>, Ku ... enfant de la ku ... donnés à <persName>Nak Pas Jnau</persName> du V. K. A. remplaçant le Mratāñ sacrificateur. Ceux qui dérobent ceci iront en enfer. Esclaves donnés ... 1 vêtement. Dons de Mratāñ ...</p>
+<p n="A6-8"><gap reason="lost"/> 1 paire de bœufs. Rizière <gap reason="lost"/> 20 cocotiers, 100 aréquiers <gap reason="lost"/></p>
+<p n="A9-11">Voici ce que <persName>Mratāñ Śiva</persName>, sacrificateur <gap reason="lost"/> Śrī Utpanneśvara.</p>
+ <p rend="stanza" n="2"><gap reason="lost"/> deux champs, dix <gap reason="lost"/> comportant beaucoup de céréales <gap reason="lost"/> à <persName>Jñānaśiva</persName>, il a donné une masse de richesses <gap reason="lost"/></p>
+<p n="B5-13">Dons du Mratāñ sacrificateur et de Poñ <persName>Jñānakumāra</persName> à V. K. A. Śrī Utpanneśvara : Esclaves hommes (3 <foreign>māṅ</foreign>), femmes (5 <foreign>oṅ</foreign>, 1 <foreign>kū</foreign> et sa sœur cadette), 20 bœufs, 1 paire de buffles, 2 <foreign>sare</foreign> de rizière, 20 <foreign>tvoṅ</foreign>, 1 <foreign>kaol</foreign>, <foreign>ku</foreign> <gap reason="lost"/> enfant de la <foreign>ku</foreign> <gap reason="lost"/> donnés à <persName>Nak Pas Jnau</persName> du V. K. A. remplaçant le Mratāñ sacrificateur. Ceux qui dérobent ceci iront en enfer. Esclaves donnés <gap reason="lost"/> 1 vêtement. Dons de Mratāñ <gap reason="lost"/></p>
          </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
@@ -145,9 +139,10 @@
         <div type="bibliography">
 	<p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">4</citedRange><citedRange unit="page">34</citedRange></bibl>) with a French translation.</p>
         	<listBibl type="primary">
-				<bibl>
+				<bibl n="GC">
 				   <ptr target="bib:Coedes1937-1966_01"/>
-      <citedRange unit="volume">4</citedRange><citedRange unit="page">34</citedRange>
+      <citedRange unit="volume">4</citedRange>
+				   <citedRange unit="page">34</citedRange>
 				</bibl>
 			</listBibl>
         </div>

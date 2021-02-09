@@ -50,11 +50,6 @@
                <physDesc>
                   <handDesc>
                      <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -85,36 +80,52 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
-         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:chch" when="2021-02-09" status="draft">Added corrections</change>
          <change who="part:chch" when="2020-03-11" status="draft">Creation of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="x-oldkhmer-Latn">
-<p><lb n="1"/><g type="symbol" subtype="initialGomutra"/> || nava rasa mūrtti śa<unclear>kena</unclear>
+<p>
+   <lb n="1"/><g type="gomutraInitial">.</g> <g type="ddandaPlain">.</g> nava rasa mūrtti śa<unclear>kena</unclear>
 <lb n="2"/>man na bhāyta <placeName>vraḥ guhā</placeName> ta mah<choice><sic>i</sic><corr>e</corr></choice>ndra 
-<lb n="3"/>deṅ gi ta na tathāga rudra 
-<lb n="4"/><gap reason="illegible" quantity="1" unit="character"/> jra sa ta mi bhakteditā  <!--%CC: I rather read vacoditā (and bhakti in l. 5).-->
-<lb n="5"/><gap reason="illegible" quantity="5" unit="character"/> ta bhakta <gap reason="illegible" quantity="1" unit="character"/></p>
+<lb n="3"/>phoṅa gi ta n<unclear>u</unclear> tathāga rudra <gap reason="illegible" quantity="1" unit="character"/>
+<lb n="4"/><gap reason="illegible" quantity="1" unit="character"/> jye sa ta mi <unclear>va</unclear>coditā
+<lb n="5"/><gap reason="illegible" quantity="5" unit="character"/> ta bhakti <gap reason="illegible" quantity="1" unit="character"/></p>
          </div>
          <div type="apparatus">
-                  <app loc="4">
-                     <lem>bhakteditā</lem>
-                     <rdg source="bib:Roeske1914_01">bhakteditū</rdg>
+            <app loc="3">
+                     <lem>phoṅa</lem>
+                     <rdg source="bib:Roeske1914_01">deṅ∙</rdg>
                   </app>    
+            <app loc="3">
+                     <lem>n<unclear>u</unclear></lem>
+                     <rdg source="bib:Roeske1914_01">na</rdg>
+                  </app>    
+            <app loc="4">
+                     <lem>-jye</lem>
+                     <rdg source="bib:Roeske1914_01">-jra</rdg>
+                  </app> 
+                  <app loc="4">
+                     <lem><unclear>va</unclear>coditā</lem>
+                     <rdg source="bib:Roeske1914_01">bhakteditū</rdg>
+                  </app> 
+            <app loc="5">
+                     <lem>bhakti</lem>
+                     <rdg source="bib:Roeske1914_01">bhakta</rdg>
+                  </app> 
          </div>
-         <div type="translation" xml:lang="fra">
- 	<p n="1-5">L'année du roi śaka, neuf, les saveurs, les formes <supplied reason="explanation">869</supplied>, dans la brillante grotte sainte du Mahendra, <supplied reason="subaudible">fut</supplied> élevée <supplied reason="subaudible">l'image</supplied> du <foreign>tathāgata</foreign>, Rudra ....... jra, érigée là par ses adorateurs, ........... là honoré .....</p>
+         <div type="translation" xml:lang="fra" source="bib:Roeske1914_01">
+ 	<p n="1-5">L'année du roi <foreign>śaka</foreign>, neuf, les saveurs, les formes <supplied reason="explanation">869</supplied>, dans la brillante grotte sainte du Mahendra, <supplied reason="subaudible">fut</supplied> élevée <supplied reason="subaudible">l'image</supplied> du <foreign>tathāgata</foreign>, Rudra <gap reason="illegible"/>jra, érigée là par ses adorateurs, <gap reason="illegible"/> là honoré <gap reason="illegible"/></p>
          </div>
          <div type="commentary">
-            <p>Aymonier signalait que "cette inscription comptait peut-être six ou sept lignes et n'en a conservé que cinq [...]" (<bibl><ptr target="bib:Aymonier1883_01"/><citedRange unit="page">444</citedRange></bibl>).</p>
+            <p>Aymonier had first described this inscription, saying that it probably had seven lines originally (<bibl><ptr target="bib:Aymonier1883_01"/><citedRange unit="page">444</citedRange></bibl>).</p>
          </div>
         <div type="bibliography">
-	<p>Edited by Jules Roeské (<bibl rend="omitname"><ptr target="bib:Roeske1914_01"/><citedRange unit="page">644</citedRange></bibl>).</p>
+	<p>First edited by Jules Roeské (<bibl rend="omitname"><ptr target="bib:Roeske1914_01"/><citedRange unit="page">644</citedRange></bibl>) with a French translation.</p>
         	<listBibl type="primary">
-				<bibl>
+				<bibl n="JR">
 				   <ptr target="bib:Roeske1914_01"/>
       <citedRange unit="page">644</citedRange>
 				</bibl>
