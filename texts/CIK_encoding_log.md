@@ -36,8 +36,8 @@
 |K.	29 |kuch|done|IC II|
 |K.	30 |kuch |done |IC II|
 |K.	31 |# |# |#|
-|K.	32 |chch |pending |IC II|
-|K.	33 |chch |pending |IC III|
+|K.	32 |chch |done |IC II|
+|K.	33 |chch |done |IC III|
 |K.	34 |# |# |#|
 |K.	35 |# |# |#|
 |K.	36 |# |# |#|
@@ -1440,7 +1440,7 @@
 |K.	1418 |# |# |#|
 |K.	1419 |kuch |done |Chhom 2019|
 |K.	1420 |# |# |#|
-|K.	1421 |# |# |#|
+|K.	1421 |chch |pending |unpublished|
 |K.	1422 |# |# |#|
 |K.	1423 |# |# |#|
 |K.	1424 |# |# |#|

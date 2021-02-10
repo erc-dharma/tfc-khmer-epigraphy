@@ -116,8 +116,6 @@
 <lg n="2" met="anuṣṭubh">
   <l n="a"><lb n="3"/>yo mahīpatibhir mūrddhnā <space/></l>
   <l n="b">dhr̥<unclear>t</unclear>ājñaḥ prathita<seg met="-="><gap reason="lost" quantity="2" unit="character"/></seg></l>
-    <!-- Daniel's suggestion:
-    prathita<seg type="aksara"><seg type="component" subtype="conjunct"><gap reason="lost" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel" met="-"><gap reason="lost" quantity="1" unit="component"/></seg></seg><seg met="="><gap reason="lost" quantity="1" unit="character"/></seg>-->
   <l n="c"><lb n="4"/>rājā śrī-jayava<unclear>r</unclear>mmā sa <space/></l>
   <l n="d">jayatīndra-sama-dyutiḥ</l>
 <!-- d. °dyutiḥ : les lettres tiḥ sont gravées sur une portion de la pierre déjà épaufrée. -->
@@ -132,11 +130,15 @@ a. mu<unclear>n</unclear>i: muCi GG
 a. nā(rai): (nārai) GG, with note "« lecture » très peu assurée".
   read nānai? nān[t]ai? nantrai? it at first sight seems disturbing that the -ā does not appear to be attached to the n, but reading a postconsonantal r on the next akṣara is also difficult, because stone is preserved for the space just below the na and the stroke after it does not continue below the line. See also shape of suspected -nā at the end of line 8.
 c. bhaga<unclear>s</unclear>V: bhaga<unclear>v</unclear>V GG
+
+Daniel's suggestion: bhaga(s) - can't this be bhaga(t)? Perhaps mark up as ambiguous, with both readings?
+
 -->
 </lg>
 <lg n="4" met="anuṣṭubh">
   <l n="a"><lb n="7"/>me<choice><sic>p</sic><corr>ṣ</corr></choice>ā<unclear>pt</unclear><seg met="==-++="><gap reason="lost" quantity="5" unit="character"/></seg></l>
-  <l n="b"><seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg>le nala<supplied reason="lost">ḥ</supplied></l>
+  <!-- Daniel's suggestion: You should do the same at L7 me¿p?⟨ṣ⟩ā(pt). The situation is the same here scriptwise: the vowel of pt is lost/illegible. You have encoded that vowel as part of the following lacuna, where you encode a gap of 5 characters, but give it a prosodic code of 6 syllables, <seg met="==-++="><gap reason="lost" quantity="5" unit="character"/></seg>. This should in my opinion be avoided; instead, the first = should be removed from the @met element, and you should use a <seg type="component" subtype="vowel" met="="><gap reason="lost" quantity="1" unit="component"/></seg> after pt and before the five-character gap.-->
+   <l n="b"><seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg>le nala<supplied reason="lost">ḥ</supplied></l>
   <l n="c"><lb n="8"/>siddhāyatana<seg met="++="><gap reason="lost" quantity="3" unit="character"/></seg></l>
   <l n="d"><seg met="====-+-"><gap reason="lost" quantity="7" unit="character"/></seg>nā</l>
 <!-- b. Le trait sous le n de la 7e syllabe du vers, qu’on pourrait à la limite interpréter comme un u, me paraît être la trace d’une égratignure sur la pierre : sa forme n’est pas celle d’un u standard sous n, qui devrait finir par une incurvation par la gauche – cf. hu dans st. Id, mu dans st. IIIa.
@@ -145,10 +147,14 @@ c. bhaga<unclear>s</unclear>V: bhaga<unclear>v</unclear>V GG
 </lg>
 <lg n="5" met="anuṣṭubh">
   <l n="a"><lb n="9"/>jñānam<seg met="+=-++="><gap reason="lost" quantity="5" unit="character"/></seg></l>
+   <!-- Daniel's suggestion: 
+   The same goes for L9 jñānam, where the vowel of m should not be in the @met of the following five-character lacuna. Since, again, we only know that this vowel was prosodically long, but don't know if that was by nature, the vowel needs to be encoded as a  <seg type="component" subtype="vowel" met="="><gap reason="lost" quantity="1" unit="component"/></seg>.
+   In the apparatus, we suspect whether the vowel of m is e or o.-->
   <l n="b"><seg met="====-+-"><gap reason="lost" quantity="7" unit="character"/></seg><unclear>t</unclear>iḥ</l>
   <l n="c"><lb n="10"/>śrīmad-āmrā<unclear>ta</unclear>k<unclear>e</unclear><seg met="+="><gap reason="lost" quantity="2" unit="character"/></seg></l>
   <l n="d"><seg met="====-"><gap reason="lost" quantity="5" unit="character"/><unclear>ka</unclear>lpi<unclear>ne</unclear></seg></l>
 </lg>
+            <!-- Daniel's suggestion: jñānam - read jñānam e, at least tentatively? -->
 <lg n="6" met="anuṣṭubh">
   <l n="a"><lb n="11"/>paratra vidyā-prāpty-a<unclear>rtha</unclear>m</l>
   <l n="b">ā<unclear>tma-mukt</unclear>y-a<unclear>rtham eva</unclear> ca</l>
@@ -160,6 +166,7 @@ c. bhaga<unclear>s</unclear>V: bhaga<unclear>v</unclear>V GG
                  But in any case, ātmamukti is not a puzzling expression, even if it is perhaps not particularly common.
                  To my ears, vakti seems quite normal.  As for the fourth pāda, I don't know what it says, but it doesn't
                  look like it starts with nīla.  The first letter looks like ni, but the one after doesn't look like a la. -->
+            <!-- Daniel's suggestion: nīla - this does not look convincing to me. I would definitely use <unclear cert="low"> here. The second character looks more like sa than la, and I'm not even sure that does not include part of the third character. If you read la (or sa) here, then the next two characters are both very narrow - can't the character after (nī) be a narrower one (va? da?), and the vertical line that you read as part of la actually part of the next character? I have nothing constructive to offer, only these doubts. -->
 <lg n="7" met="anuṣṭubh">
 <l n="a"><lb n="13"/><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg><unclear>sya</unclear> tu dhanaṁ dat<supplied reason="lost">taṁ</supplied> <space/></l>
     <l n="b"><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>s<unclear>v</unclear>arggam icchatā</l>
@@ -175,8 +182,13 @@ c. bhaga<unclear>s</unclear>V: bhaga<unclear>v</unclear>V GG
                      <note>Meter shows that the first lost <foreign>akṣara</foreign> must have started with a consonant cluster.
                         We suggest <foreign>prathita<supplied reason="lost">ḥ kṣitau</supplied></foreign>,
                           <!-- not prathita[ẖ kṣitau] because we have ḥ pra earlier in the line-->
+                        <!-- Daniel's suggestion: I suggest re-phrasing this because the visarga you plausibly restore is not really part of the first lost akṣara. -->
                         but other restorations are no doubt imaginable.</note>
                   </app>
+                  <!-- Apparatus for muni L5?
+                  Daniel's suggestion: The same applies to muni in L5: even if I'm wrong in suggesting munir there, the second and third syllables of a pāda should not both be long, so we expect ni to be long, i.e. to be followed by more than one consonant. But I would leave that to an apparatus note and leave the markup as you have it now.-->
+               <!-- Apparatus for bhaga L6?
+               Daniel's suggestion: Even more complex is bhaga in L6, where you read the consonant s (and where I suggest t as an alternative), whose vowel is unknown. We expect this vowel to be prosodically long (third syllable after a short second), but we don't know whether it was long by nature or only by position. I would retain the sub-akṣara markup here, just as you have used it, because we need it to encode the fact that the vowel part of an akṣara is illegible here. And the prosodic details are, again, apparatus topic.-->
                   <app loc="7"><!-- update the value of @loc.-->
                      <lem>me<choice><sic>p</sic><corr>ṣ</corr></choice>ā<unclear>pt</unclear><seg met="==-+-="><gap reason="lost" quantity="5" unit="character"/></seg></lem>
                      <note>Our correction <foreign><choice><sic>p</sic><corr>ṣ</corr></choice>ā</foreign> and our tentative reading <foreign>pt</foreign> (cf. <foreign>pty</foreign> in line 9) imply that this stanza is stating a date.</note>
@@ -207,6 +219,9 @@ c. bhaga<unclear>s</unclear>V: bhaga<unclear>v</unclear>V GG
                       ṣaḍviṃśatitattvarūpamahāvibhūtyātmakavāsudevākhyaparaprakṛtipariṇāmātmakaprakṛtyādijagadvādibhiḥ
                       pāñcarātrikair yan na dṛṣṭam iti sambandhaḥ || -->
                   </app>
+                  
+                  <!-- I think an apparatus for siddhāyatana is needed here as in K. 1239.
+                  Daniel's suggestion: I do not understand how you can be sure that Siddhāyatana is the name of a god here, when in K1239 you translate the same word as "sanctuaries".-->
                </listApp>
          </div>
          <div type="translation" resp="part:kuch part:argr"><!-- Translation to be proofread by argr. -->
