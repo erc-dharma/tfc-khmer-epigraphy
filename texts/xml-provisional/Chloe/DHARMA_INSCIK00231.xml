@@ -18,7 +18,7 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName ref="part:geco">
+               <persName ref="http://viaf.org/viaf/66465311">
                   <forename>George</forename>
                   <surname>Cœdès</surname>
                </persName>
@@ -49,12 +49,7 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
+                     <p>The inventory number K. 231 includes four distinct inscriptions all dated from the reign of Rājendravarman. Marks on the stone indicate that an attempt was made to erase the first inscription. Fortunately, it is still partly readable. Note also that a <foreign>gomūtra</foreign> as well as the word <foreign>pada</foreign> have been added (probably afterwards) at the top of the inscription, one in the left margin, the other in the right margin.</p>
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -85,66 +80,86 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
-         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-         <change who="part:chch" when="2020-04-05" status="draft">Creation of the file</change>
+         <change who="part:chch" when="2021-02-11" status="draft">Added corrections</change>
+         <change who="part:chch" when="2020-04-05" status="draft">Initial encoding of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="x-oldkhmer-Latn">
             <div type="textpart" subtype="inscription" n="A">
-           <p><lb n="1"/> <g type="symbol" subtype="initialGomutra"/> pada
-</p>
-<ab><lb n="2"/><g type="symbol" subtype="initialGomutra"/> siddhi <num atLeast="880" atMost="888">88<gap reason="lost" quantity="1" unit="number"/></num> śaka ta gi navamī ket· kārtti<supplied reason="lost">ka</supplied> vudhavāra gi nu
-<lb n="3"/>mān· vraḥ qālakṣa cuñ· ta mratāñ· śrīnr̥pavi<lb n="4" break="no"/>khyāta trvāc· vraḥ kralā phdaṁ nu mratāñ· khloñ· śrī<lb n="5" break="no"/>jayendrāyuddha qāy· vraḥ <gap reason="illegible" quantity="1" unit="character"/> sabhā <gap reason="illegible" quantity="1" unit="character"/> man· si va<lb n="6" break="no"/>ruṇa nu qme kule si varuṇa <gap reason="illegible" quantity="6" unit="character"/> si<lb n="7" break="no"/>ka man· keta gi sthāna kanloṅ· kaṁmrateṅ· qañ· rā<lb n="8" break="no"/>jaguhā nā man· rat· leṅ <gap reason="illegible" quantity="2" unit="character"/> man· paṁnvās· smiṅ· nu pā<lb n="9" break="no"/>damūla qoya p<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><gap reason="illegible" quantity="1" unit="character"/>ṁ cuñ· chley· qartha pi rat· cap· si va<lb n="10" break="no"/>ruṇa karṇṇanāsikaccheda si varuṇa jvan ta ka<lb n="11" break="no"/>nloṅ· kamrateṅ· qañ· rājaguhā nu qme kule phoṅ· 
-<lb n="12"/>siddhi <gap reason="illegible" quantity="1" unit="character"/> kanloṅ· kaṁmrateṅ· qañ· vvaṁ jā pi mān· vakra 
-<lb n="13"/>nā vraḥ jaṁnvana dhuli vraḥ pāda dhuli jeṅ· vraḥ kaṁmra<lb n="14" break="no"/>teṅ· qañ· śrīrājendravarmmadeva ta kanloṅ· kamra<lb n="15" break="no"/>teṅ· qañ· rājaguhā kamrateṅ· qañ· rājakulama<lb n="16" break="no"/>hāmantri nu mratāñ· śrīnr̥pavikhyāta nu steṅ· qañ· 
-<lb n="17"/>caturācāryya nu mān· vraḥ śāsana ta vāp· qātmaśi-
-<lb n="18"/>va <gap reason="illegible" quantity="8" unit="character"/>ryya purohita <gap reason="illegible" quantity="3" unit="character"/> 
-<lb n="19"/><gap reason="illegible" quantity="6" unit="character"/> vraḥ jaṁnvan· <gap reason="illegible" quantity="8" unit="character"/> vraḥ
-<lb n="20"/><gap reason="illegible" quantity="1" unit="line"/>
-<lb n="21"/><gap reason="illegible" quantity="1" unit="line"/>
-<lb n="22"/><gap reason="illegible" quantity="1" unit="line"/>
-<lb n="23"/><gap reason="illegible" quantity="1" unit="line"/>
-<lb n="24"/><gap reason="illegible" quantity="1" unit="line"/>
-<lb n="25"/><gap reason="illegible" quantity="1" unit="line"/>
-<lb n="26"/><gap reason="illegible" quantity="14" unit="character"/> <g type="symbol" subtype="complexFinial"/>
+           <ab>
+              <lb n="1"/><add place="left"><g type="initialGomutra">.</g></add> <add place="right">pada</add>
 </ab>
+<p><lb n="2"/><g type="initialGomutra">.</g> siddhi <num atLeast="880" atMost="888">88<gap reason="lost" quantity="1" unit="number"/></num> śaka ta gi navamī ket· kārtti<supplied reason="lost">ka</supplied> vudhavāra gi nu
+<lb n="3"/>mān· vraḥ Ālakṣa cuñ· ta mratāñ· śrīnr̥pavi<lb 
+   n="4" break="no"/>khyāta trvāc· vraḥ kralā phdaṁ nu mratāñ· khloñ· śrī<lb 
+      n="5" break="no"/>jayendrāyuddha Āy· vraḥ <gap reason="illegible" quantity="1" unit="character"/> sabhā <gap reason="illegible" quantity="1" unit="character"/> man· si va<lb n="6" break="no"/>ruṇa nu qme kule si varuṇa <gap reason="illegible" quantity="6" unit="character"/> si<lb 
+         n="7" break="no"/>ka man· keta gi sthāna kanloṅ· kaṁmrateṅ· Añ· rā<lb 
+   n="8" break="no"/>jaguhā nā man· rat· leṅ <gap reason="illegible" quantity="2" unit="character"/> man· paṁnvās· smiṅ· nu pā<lb 
+      n="9" break="no"/>damūla Oya p<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><gap reason="illegible" quantity="1" unit="character"/>ṁ cuñ· chley· Artha pi rat· cap· si va<lb 
+         n="10" break="no"/>ruṇa karṇṇanāsikaccheda si varuṇa jvan ta ka<lb 
+         n="11" break="no"/>nloṅ· kamrateṅ· Añ· rājaguhā nu qme kule phoṅ· 
+<lb n="12"/>siddhi <gap reason="illegible" quantity="1" unit="character"/> kanloṅ· kaṁmrateṅ· Añ· vvaṁ jā pi mān· vakra 
+<lb n="13"/>nā vraḥ jaṁnvana dhuli vraḥ pāda dhuli jeṅ· vraḥ kaṁmra<lb 
+   n="14" break="no"/>teṅ· Añ· śrīrājendravarmmadeva ta kanloṅ· kamra<lb 
+      n="15" break="no"/>teṅ· Añ· rājaguhā kamrateṅ· Añ· rājakulama<lb 
+         n="16" break="no"/>hāmantri nu mratāñ· śrīnr̥pavikhyāta nu steṅ· Añ· 
+<lb n="17"/>caturācāryya nu mān· vraḥ śāsana ta vāp· Ātmaśi<lb 
+   n="18" break="no"/>va <gap reason="illegible" quantity="8" unit="character"/>ryya purohita <gap reason="illegible" quantity="3" unit="character"/> 
+<lb n="19"/><gap reason="illegible" quantity="6" unit="character"/> vraḥ jaṁnvan· <gap reason="illegible" quantity="8" unit="character"/> vraḥ
+<lb n="20-25"/><gap reason="illegible" quantity="6" unit="line"/>
+<lb n="26"/><gap reason="illegible" quantity="14" unit="character"/> <g type="floretComplex">.</g>
+</p>
             </div>
             <div type="textpart" subtype="inscription" n="B">
           <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
-<l n="1"><lb n="1"/>kalpita<supplied reason="omitted">ṁ</supplied> ye vilūmpey<choice><sic>ū</sic><corr>u</corr></choice>r</l> <l n="2">llaṅ·ghayey<choice><sic>ū</sic><corr>u</corr></choice>ś ca śāsaṇaṁ</l> 
-<l n="3"><lb n="2"/>te yā<choice><sic>ṇ</sic><corr>n</corr></choice>ti naraka<supplied reason="omitted">ṁ</supplied> tāvat·</l> <l n="4">sthitau candradivākarau</l>
+<l n="a"><lb n="1"/>kalpita<supplied reason="omitted">ṁ</supplied> ye vilūmpey<choice><sic>ū</sic><corr>u</corr></choice>r</l> 
+             <l n="b">llaṅ·ghayey<choice><sic>ū</sic><corr>u</corr></choice>ś ca śāsaṇaṁ</l> 
+<l n="c"><lb n="2"/>te yā<choice><sic>ṇ</sic><corr>n</corr></choice>ti naraka<supplied reason="omitted">ṁ</supplied> tāvat·</l> 
+             <l n="d">sthitau candra-divākarau</l>
           </lg>
 <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
-<l n="1"><lb n="3"/>qanukuryy<supplied reason="omitted">u</supplied>r idaṁ ye<choice><sic>ṇ</sic><corr>n</corr></choice>a</l> <l n="4">śāsa<choice><sic>ṇ</sic><corr>n</corr></choice>aṁ parikalpita<supplied reason="omitted">m·</supplied></l>
-<l n="3"><lb n="4"/>vardhayeyuś ca puṇyasya</l> <l n="4">phalār<choice><sic>dh</sic><corr>d</corr></choice>dha<supplied reason="omitted">ṁ</supplied> pr<choice><sic>a</sic><corr>ā</corr></choice>p·nuva<choice><sic>ṇ</sic><corr>n</corr></choice>ti te //</l>
+<l n="a"><lb n="3"/>Anukuryy<supplied reason="omitted">u</supplied>r idaṁ ye<choice><sic>ṇ</sic><corr>n</corr></choice>a</l> 
+   <l n="b">śāsa<choice><sic>ṇ</sic><corr>n</corr></choice>aṁ parikalpita<supplied reason="omitted">m·</supplied></l>
+<l n="c"><lb n="4"/>vardhayeyuś ca puṇyasya</l> 
+   <l n="d">phalār<choice><sic>dh</sic><corr>d</corr></choice>dha<supplied reason="omitted">ṁ</supplied> pr<choice><sic>a</sic><corr>ā</corr></choice>p·nuva<choice><sic>ṇ</sic><corr>n</corr></choice>ti te <g type="ddandaOrnate">.</g></l>
 </lg>
             </div>
             <div type="textpart" subtype="inscription" n="C">
-<ab><lb n="1"/><num value="888">888</num> śakka ta gi dvādaśi roc· jeṣṭha candravāra nu kaṁ<lb n="2" break="no"/>steṅ· qañ· rājakullamahāmantrī nu mratāñ· śrī<lb n="3" break="no"/>nr̥ppabhaktiva<choice><sic>bh</sic><corr>ll</corr></choice>a<choice><sic>ll</sic><corr>bha</corr></choice>a khloñ glāṅ nā trini nu steṅ qañ 
-<lb n="4"/>qācāryya caturācāryya nā triṇi pandval· vraḥ śāsa<lb n="5" break="no"/>na dhūli vraḥ pāda dhūli jeṅ· vraḥ kaṁmrateṅ· qañ· 
-<lb n="6"/>ta qañ· ta pratyaya pi pre mok· pandval· vraḥ śāsaṇa 
-<lb n="7"/>ta puruṣapradhāna nā kanloṅ· kaṁmrateṅ· qañ· rāja<lb n="8" break="no"/>guhā neḥ ruva drāvya man· qnak· jvan· ta kanloṅ· kamra<lb n="9" break="no"/>teṅ· qañ· <g type="symbol" subtype="circle"/> mās· prāk· rātna taṁryya thmur· krapi khñuṁ drā<lb n="10" break="no"/>vya phoṅ· daha ti qnak· jvan· toy· khnetta siddhi toy· 
+<p><lb n="1"/><num value="888">888</num> śakka ta gi dvādaśi roc· jeṣṭha candravāra nu kaṁ<lb 
+   n="2" break="no"/>steṅ· Añ· rājakullamahāmantrī nu mratāñ· śrī<lb 
+      n="3" break="no"/>nr̥ppabhaktiva<choice><sic>bh</sic><corr>ll</corr></choice>a<choice><sic>ll</sic><corr>bha</corr></choice>a khloñ glāṅ nā trini nu steṅ Añ 
+<lb n="4"/>Ācāryya caturācāryya nā triṇi pandval· vraḥ śāsa<lb 
+   n="5" break="no"/>na dhūli vraḥ pāda dhūli jeṅ· vraḥ kaṁmrateṅ· Añ· 
+<lb n="6"/>ta Añ· ta pratyaya pi pre mok· pandval· vraḥ śāsaṇa 
+<lb n="7"/>ta puruṣapradhāna nā kanloṅ· kaṁmrateṅ· Añ· rāja<lb 
+   n="8" break="no"/>guhā neḥ ruva drāvya man· qnak· jvan· ta kanloṅ· kamra<lb 
+      n="9" break="no"/>teṅ· Añ·<g type="circleMed">.</g> mās· prāk· rātna taṁryya thmur· krapi khñuṁ drā<lb 
+      n="10" break="no"/>vya phoṅ· daha ti qnak· jvan· toy· khnetta siddhi toy· 
 <lb n="11"/>khneta daha ti qnak· jvan· toy· rṇṇoc· siddhi toy· rṇoca 
-<lb n="12"/>nā drāvya man· jvan· kaṁluṅa vraḥ guhā vvaṁ qāc· ti 
-<lb n="13"/>thve kalpanā pi duk ta qāśrama , prātya<add place="above">ya</add> ta mok· pa<lb n="14" break="no"/>dval· vraḥ śāsana mrateñ· paramācāryya <g type="symbol" subtype="circle"/></ab>
+<lb n="12"/>nā drāvya man· jvan· kaṁluṅa vraḥ guhā vvaṁ Āc· ti 
+<lb n="13"/>thve kalpanā pi duk ta Āśrama , prātya<add place="above">ya</add> ta mok· pa<lb 
+   n="14" break="no"/>dval· vraḥ śāsana mrateñ· paramācāryya <g type="circleMed">.</g></p>
             </div>
             <div type="textpart" subtype="inscription" n="D">
-<ab><lb n="1"/><num value="889">889</num> śaka ta gi qmāvasyā roc· puṣya sanaścara<lb n="2" break="no"/>vāra nu mān· vraḥ śāsana dhūli vraḥ pāda dhūli jeṅ· vraḥ kaṁ<lb n="3" break="no"/>mrateṅ· qañ· ta mratañ· śrīnr̥ppabhaktivalabha nu vāp· 
+<ab><lb n="1"/><num value="889">889</num> śaka ta gi qmāvasyā roc· puṣya sanaścara<lb 
+   n="2" break="no"/>vāra nu mān· vraḥ śāsana dhūli vraḥ pāda dhūli jeṅ· vraḥ kaṁ<lb 
+      n="3" break="no"/>mrateṅ· Añ· ta mratañ· śrīnr̥ppabhaktivalabha nu vāp· 
 <lb n="4"/>cāṁ qmuḥ dik· sroṅ· pandval· vraḥ śāsana ta vāp· 
-<lb n="5"/>dharmmapāla pre mok· qoya neḥ qnak· vraḥ jaṁnva<supplied reason="lost">n·</supplied>
+<lb n="5"/>dharmmapāla pre mok· Oya neḥ qnak· vraḥ jaṁnva<supplied reason="lost">n·</supplied>
 <lb n="6"/>ta jmaḥ tai caṁlauva kvan· tai caṁlau si qnanta si 
 <lb n="7"/>khmau si ka<supplied reason="omitted">ṁ</supplied>vai si phnos· jvan· ta kanloṅ· kamrateṅ· 
-<lb n="8"/>qañ· rājaguhā vvaṁ jā pi mān· vakra siddhi ta ka<lb n="9" break="no"/>nloṅ· kamrateṅ· qañ· , gi ta nu poṣna vraḥ ku<lb n="10" break="no"/>ti taṅ·vāy· steñ· rudrācāryya pūrohitta <g type="symbol" subtype="circle"/></ab>
+<lb n="8"/>Añ· rājaguhā vvaṁ jā pi mān· vakra siddhi ta ka<lb 
+   n="9" break="no"/>nloṅ· kamrateṅ· Añ· , gi ta nu poṣna vraḥ ku<lb 
+      n="10" break="no"/>ti taṅ·vāy· steñ· rudrācāryya pūrohitta <g type="circleMed">.</g></ab>
             </div>
          </div>
-         <div type="translation" xml:lang="fra">
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
              <div type="textpart" subtype="inscription" n="A">
-<p n="1-8">Succès! 88x <foreign>śaka</foreign>, neuvième jour de la lune croissante de Kārttika, mercredi, une missive fut envoyée à Mratāñ Śrī Nr̥pavikhyāta, surveillant de la couche royale et à Mratāñ Khloñ Śrī <persName>Jayendrāyudha</persName>, à - - - <supplied reason="subaudible">membre de la</supplied> Cour, <supplied reason="subaudible">exposant</supplied> que Si Varuṇa avec la mère et les parents de Si <persName>Varuṇa</persName> - - - étaient nés sur le domaine de Kanloṅ K. A. Rājaguhā.</p>
-<p n="8-14">S'étant enfui - - -, les religieux, les officiants et le vénérable firent sortir - - -, et répondre pour quelle raison il s'était enfui ; ils firent saisir Si Varuṇa, couper les oreilles et le nez de Si Varuṇa, et l'offrirent à Kanloṅ K. A. Rājaguhā avec sa mère et tous ses parents, comme propriété exclusive de Kanloṅ K. A., afin qu'il n'y ait pas de fraude dans les présents offerts par S. M. Śrī Rājendravarmadeva à Kanloṅ K. A. Rājaguhā.</p>
-<p n="15-19">K. A. <persName>Rājakulamahāmantri</persName>, Mratāñ Śrī <persName>Nr̥pavikhyāta</persName> et Steṅ Añ <persName>Caturācārya</persName> commandèrent à Vāp <persName>Ātmaśiva</persName> - - - - - le chapelain - - - - - présents royaux - - - - -</p>
+<p n="1-8">Succès! 88x <foreign>śaka</foreign>, neuvième jour de la lune croissante de Kārttika, mercredi, une missive fut envoyée à Mratāñ Śrī Nr̥pavikhyāta, surveillant de la couche royale et à Mratāñ Khloñ Śrī <persName>Jayendrāyudha</persName>, à <gap reason="illegible"/> <supplied reason="subaudible">membre de la</supplied> Cour, <supplied reason="subaudible">exposant</supplied> que Si Varuṇa avec la mère et les parents de Si <persName>Varuṇa</persName> <gap reason="illegible"/> étaient nés sur le domaine de Kanloṅ K. A. Rājaguhā.</p>
+<p n="8-14">S'étant enfui <gap reason="illegible"/>, les religieux, les officiants et le vénérable firent sortir <gap reason="illegible"/>, et répondre pour quelle raison il s'était enfui ; ils firent saisir Si Varuṇa, couper les oreilles et le nez de Si Varuṇa, et l'offrirent à Kanloṅ K. A. Rājaguhā avec sa mère et tous ses parents, comme propriété exclusive de Kanloṅ K. A., afin qu'il n'y ait pas de fraude dans les présents offerts par S. M. Śrī Rājendravarmadeva à Kanloṅ K. A. Rājaguhā.</p>
+<p n="15-19">K. A. <persName>Rājakulamahāmantri</persName>, Mratāñ Śrī <persName>Nr̥pavikhyāta</persName> et Steṅ Añ <persName>Caturācārya</persName> commandèrent à Vāp <persName>Ātmaśiva</persName> <gap reason="illegible"/> le chapelain <gap reason="illegible"/> présents royaux <gap reason="illegible"/></p>
 <p n="20-26">Liste illisible d'esclaves.</p> 
              </div>
             <div type="textpart" subtype="inscription" n="B">
@@ -163,11 +178,12 @@
             <!--commentary encoded as per section §9.3 -->
          </div>
         <div type="bibliography">
-	<p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">72-75</citedRange></bibl>).</p>
+	<p>First edited by George Cœdès with a French translation (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">72-75</citedRange></bibl>).</p>
            <listBibl type="primary">
-				<bibl>
+				<bibl n="GC">
 				     <ptr target="bib:Coedes1937-1966_01"/>
-      <citedRange unit="volume">3</citedRange><citedRange unit="page">72-75</citedRange>
+      <citedRange unit="volume">3</citedRange>
+				   <citedRange unit="page">72-75</citedRange>
 				</bibl>
            </listBibl>
         </div>
