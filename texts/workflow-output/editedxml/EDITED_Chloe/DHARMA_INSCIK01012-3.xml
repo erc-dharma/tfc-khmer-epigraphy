@@ -18,7 +18,7 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName ref="part:clja">
+               <persName ref="http://viaf.org/viaf/64048594">
                   <forename>Claude</forename>
                   <surname>Jacques</surname>
                </persName>
@@ -54,11 +54,6 @@
                <physDesc>
                   <handDesc>
                      <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -89,28 +84,26 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:chch" when="2021-02-12">Added corrections</change>
          <change who="part:chch" when="2020-05-03" status="draft">Bibliography added</change>
-         <change who="part:chch" when="2020-04-14" status="draft">Creation of the
+         <change who="part:chch" when="2020-04-14" status="draft">Initial encoding of the
 				file</change>
-         <change who="part:axja" when="2020-03-18">Version 2: addition of handDesc and summary</change>
-         <change who="part:axja" when="2019-12-18" status="draft">Creation of the
-				template</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="x-oldkhmer-Latn">
-         	<ab><lb n="1"/>ekarudra
+         	<ab><lb n="1"/>Ekarudra
          	<lb n="2"/>ti śrī <gap reason="lost" extent="unknown" unit="character"/></ab>
          </div>
          <div type="commentary">
-            <p><note>“Il s’agit très probablement de restes d’un texte khmer, mais cela même ne saurait être garanti. Ekarudra, bien lisible, ne peut être que l’un des huit Vidyeśvara. [...] Il n’est impossible que l’on ait eu ici la liste complète de ces Vidyeśvara." (<bibl><ptr target="bib:Jacques1999_01"/><citedRange unit="page">362</citedRange></bibl>)</note></p>
+            <p><note>“Il s’agit très probablement de restes d’un texte khmer, mais cela même ne saurait être garanti. <foreign>ekarudra</foreign>, bien lisible, ne peut être que l’un des huit Vidyeśvara. [...] Il n’est impossible que l’on ait eu ici la liste complète de ces Vidyeśvara." (<bibl><ptr target="bib:Jacques1999_01"/><citedRange unit="page">362</citedRange></bibl>)</note></p>
          </div>
         <div type="bibliography">
 	  <p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">362</citedRange></bibl>) with a French translation.</p>
         	<listBibl type="primary">
-				<bibl><ptr target="bib:Jacques1999_01"/>
+				<bibl n="CJ">
+				   <ptr target="bib:Jacques1999_01"/>
       <citedRange unit="page">362</citedRange>
 					</bibl>
         	</listBibl>
