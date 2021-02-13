@@ -26,6 +26,10 @@
                   <forename>Dominique</forename>
                   <surname>Soutif</surname>
                </persName>
+               <persName ref="http://viaf.org/viaf/18765688">
+                  <forename>Jean-Baptiste</forename>
+                  <surname>Chevance</surname>
+               </persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,11 +58,6 @@
                <physDesc>
                   <handDesc>
                      <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -89,9 +88,8 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:chch" when="2021-02-13" status="draft">Added corrections</change>
          <change who="part:chch" when="2020-05-17" status="draft">Bibliography added</change>
-         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
          <change who="part:chch" when="2020-02-27" status="draft">Creation of the file</change>
       </revisionDesc>
    </teiHeader>
@@ -101,14 +99,16 @@
             <ab><lb n="1"/>namo vuddhāya na<unclear>mo dharmmā</unclear>ya namas saṅghāya
 </ab>
          </div>
-         <div type="translation" xml:lang="fra">
+         <div type="translation" xml:lang="fra" source="bib:Chevance2014_01">
  	<p n="1">Loué soit le Buddha, loué soit le Dharma, loué soit le Saṅgha !</p>
          </div>
         <div type="bibliography">
-           <p>First edited by Jean-Baptiste Chevance <bibl rend="omitname"><ptr target="bib:Chevance2014_01"/><citedRange unit="page">212</citedRange></bibl>.</p>
+           <p>First edited by Jean-Baptiste Chevance <bibl rend="omitname"><ptr target="bib:Chevance2014_01"/><citedRange unit="page">212</citedRange></bibl> with a French translation.</p>
         	<listBibl type="primary">
-				<bibl><ptr target="bib:Chevance2014_01"/>
-      <citedRange unit="page">212</citedRange></bibl>
+				<bibl n="JBC">
+				   <ptr target="bib:Chevance2014_01"/>
+      <citedRange unit="page">212</citedRange>
+				</bibl>
 			</listBibl>
         </div>
       </body>

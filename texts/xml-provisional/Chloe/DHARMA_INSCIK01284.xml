@@ -18,9 +18,9 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName ref="part:chch">-
-         			<forename>Chloé</forename>
-                  <surname>Chollet</surname>
+               <persName ref="http://viaf.org/viaf/187656881">
+                  <forename>Jean-Baptiste</forename>
+                  <surname>Chevance</surname>
                </persName>
             </respStmt>
          </titleStmt>
@@ -85,19 +85,17 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:chch" when="2021-02-13" status="draft">Added corrections</change>
          <change who="part:chch" when="2020-05-03" status="draft">Bibliography added</change>
-         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-         <change who="part:axja" when="2020-02-23" status="draft">Creation of the file</change>
+         <change who="part:chch" when="2020-02-23" status="draft">Initial encoding of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="x-oldkhmer-Latn">
-            <ab><lb n="1"/> <supplied reason="lost">//</supplied> vraḥ tise bhūmi qāy· c<unclear>aṁ</unclear><gap reason="lost" quantity="4" unit="character"/> nu chok· <unclear>q</unclear>m<unclear>e</unclear> <unclear>ka</unclear><seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>r<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg></seg>sa</ab>
+            <p><lb n="1"/> <supplied reason="lost">// <!--vérifier nature ddanda sur estampage--></supplied> vraḥ tise bhūmi Āy· c<unclear>aṁ</unclear><gap reason="lost" quantity="4" unit="character"/> nu chok· <unclear>q</unclear>m<unclear>e</unclear> <unclear>ka</unclear><seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>r<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg></seg>sa</p>
          </div>
          <div type="apparatus">
-           <!--apparatus encoded as per EG §9.1, basic elements for apparatus below-->
                <listApp><!-- one <app> for each apparatus entry -->
                   <app loc="line"><!-- Update the value of @loc.-->
                      <lem><!-- fill in a lemma here --></lem>
@@ -105,17 +103,19 @@
                   </app>
                </listApp>         
          </div>
-         <div type="translation">
+         <div type="translation" xml:lang="fra" resp="part:chch">
  	<!--translation encoded as per EG §9.2 -->
          </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
          </div>
         <div type="bibliography">
-	<p>First edited by Jean Baptiste Chevance (<bibl rend="omitname"><ptr target="bib:Chevance2014_01"/><citedRange unit="page">204</citedRange></bibl>).</p>
+	<p>First edited by Jean Baptiste Chevance (<bibl rend="omitname"><ptr target="bib:Chevance2014_01"/><citedRange unit="page">204</citedRange></bibl>) without translation.</p>
         	<listBibl type="primary">
-				     <bibl><ptr target="bib:Chevance2014_01"/>
-      <citedRange unit="page">204</citedRange></bibl>
+				     <bibl n="JBC">
+				        <ptr target="bib:Chevance2014_01"/>
+      <citedRange unit="page">204</citedRange>
+				     </bibl>
 			</listBibl>
         </div>
       </body>

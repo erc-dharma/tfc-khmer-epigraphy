@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Rock inscription on the eastern slope of Phnom Preah Netr Preah (K. 1427)</title>
+            <title>Rock inscription from Phnom Preah Netr Preah (K. 1427)</title>
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:chch">
@@ -21,6 +21,10 @@
                <persName ref="part:chch">
                   <forename>Chloé</forename>
                   <surname>Chollet</surname>
+               </persName>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
                </persName>
             </respStmt>
          </titleStmt>
@@ -50,11 +54,6 @@
                <physDesc>
                   <handDesc>
                      <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -85,17 +84,16 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:chch" when="2021-02-13" status="draft">Corrections added</change>
          <change who="part:chch" when="2020-05-17" status="draft">Translation and bibliography added</change>
-         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-         <change who="part:chch" when="2020-02-01" status="draft">Creation of the file</change>
+         <change who="part:chch" when="2020-02-01" status="draft">Initial encoding of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn">
            <lg n="1" met="anuṣṭubh">
-<l n="1"><lb n="1"/><g type="symbol" subtype="initialGomutra"/> sa girir mmanusodaryyo</l> 
+<l n="1"><lb n="1"/><g type="gomutraInitial">.</g> sa girir mmanusodaryyo</l> 
               <l n="2">bhāgyotkar<unclear>ṣa</unclear>guṇākar<unclear>aiḥ</unclear></l>
 <l n="3" enjamb="yes"><lb n="2"/>yat puṣṇāt<unclear>i</unclear> mudaṁ svargg<unclear>ī</unclear></l>
               <l n="4"><choice><orig>ṇ</orig><reg>n</reg></choice>ā nirantara<unclear>sāda</unclear>gam·</l>
@@ -104,18 +102,20 @@
 <l n="1" enjamb="yes"><lb n="3"/>sar<unclear>v</unclear>vatas sva<unclear>r</unclear>ṇaratnaugha</l>
    <l n="2">mayo py ālpadhiyā vinā</l>
 <l n="3"><lb n="4"/>dhr̥teśānapad<unclear>o</unclear> mūrdhnā</l>
-   <l n="4">draveśānata qeva yaḥ <unclear><g type="symbol" subtype="complexFinial"/></unclear></l>
+   <l n="4">draveśānata Eva yaḥ <unclear><g type="floretComplex">.</g></unclear></l>
 </lg>
          </div>
-         <div type="translation" xml:lang="fra">
+         <div type="translation" xml:lang="fra" resp="part:chch">
 <p rend="stanza" n="1">Ce mont qui est le frère d’un homme, nourrit une joie perpétuelle, demeurant <gap reason="illegible"/> grâce aux mines de qualités abondantes en prospérité, puisque l’homme parti au ciel nourrit <supplied reason="subaudible">aussi</supplied> une joie par la quantité de ses qualités abondantes en bonne fortune.</p>
 <p rend="stanza" n="2">Lui qui <supplied reason="explanation">yaḥ = ce mont</supplied> est également empli d’une multitude d’or et de joyaux sauf pour celui de faible esprit, porte sur son sommet les pieds de Śiva précisément du fait d’être prosterné devant Draveśa <supplied reason="explanation">Śiva</supplied>.</p>
          </div>
         <div type="bibliography">
            <p>First edited by Chloé Chollet in her MA thesis (<bibl rend="omitname"><ptr target="bib:Chollet2019_01"/><citedRange unit="page">129</citedRange></bibl>).</p>
         	<listBibl type="primary">
-				<bibl><ptr target="bib:Chollet2019_01"/>
-      <citedRange unit="page">129</citedRange></bibl>
+				<bibl n="CC">
+				   <ptr target="bib:Chollet2019_01"/>
+      <citedRange unit="page">129</citedRange>
+				</bibl>
 			</listBibl>
         </div>
       </body>
