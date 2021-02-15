@@ -215,7 +215,7 @@
 |K.	208 |# |# |#|
 |K.	209 |# |# |#|
 |K.	210 |# |# |#|
-|K.	211 |chch |pending |IC III|
+|K.	211 |chch |done |IC III|
 |K.	212 |# |# |#|
 |K.	213 |kuch |pending |ISC|
 |K.	214 |chch |done |IC II |
@@ -237,7 +237,7 @@
 |K.	228 |# |# |#|
 |K.	229 |# |# |#|
 |K.	230 |# |# |#|
-|K.	231 |chch |pending |IC III|
+|K.	231 |chch |done |IC III|
 |K.	232 |# |# |#|
 |K.	233 |# |# |#|
 |K.	234 |# |# |#|
@@ -381,7 +381,7 @@
 |K.	368 |# |# |#|
 |K.	369 |# |# |#|
 |K.	370 |# |# |#|
-|K.	371 |# |# |#|
+|K.	371 = K. 431 |chch |done |IC V|
 |K.	372 |# |# |#|
 |K.	373 |# |# |#|
 |K.	374 |chch |pending |IC VI|
@@ -505,7 +505,7 @@
 |K.	492 |# |# |#|
 |K.	493 |kuch |done |IC II|
 |K.	494 |# |# |#|
-|K.	495 |chch |pending |Seidenfaden 1922|
+|K.	495 |chch |done |Seidenfaden 1922|
 |K.	496 |kuch |done |Seidenfaden 1922|
 |K.	497 |kuch |pending |#|
 |K.	498 |# |# |#|
@@ -725,16 +725,16 @@
 |K.	712 |kuch |pending |IC VI|
 |K.	713 |# |# |#|
 |K.	714 |chch |pending |unpublished|
-|K.	715 |chch |pending |NIC I|
-|K.	716 |chch |pending |NIC I|
+|K.	715 |chch |done |NIC I|
+|K.	716 |chch |done |NIC I|
 |K.	717 |# |# |#|
 |K.	718 |# |# |#|
 |K.	719 |kuch |done |IC VI|
 |K.	720 |# |# |#|
 |K.	721 |# |# |#|
 |K.	722 |# |# |#|
-|K.	723 |chch |pending |IC V|
-|K.	724 |chch |pending |IC V|
+|K.	723 |chch |done |IC V|
+|K.	724 |chch |done |IC V|
 |K.	725 |kuch |done |IC I|
 |K.	726 |# |# |#|
 |K.	727 |kuch |pending |IC V|
@@ -863,14 +863,14 @@
 |K.	850 |# |# |#|
 |K.	851 |kuch |done |Coedes IC I|
 |K.	852 |# |# |#|
-|K.	853 |chch |pending |IC I|
+|K.	853 |chch |done |IC I|
 |K.	854 |chch |pending |IC I|
 |K.	855 |chch |done |IC V|
 |K.	856 |chch |done |IC V|
 |K.	857 |# |# |#|
 |K.	858 |kuch |pending |IC I| |
 |K.	859 |# |# |#|
-|K.	860 |kuch|pending |IC I|
+|K.	860 |kuch |pending |IC I|
 |K.	861 |# |# |#|
 |K.	862 |# |# |#|
 |K.	863 |# |# |#|
@@ -1102,7 +1102,7 @@
 |K.	1082 |kuch |done |Gerschheimer and Pichard 2007|
 |K.	1083 |kuch |pending |unpublished|
 |K.	1084 |# |# |#|
-|K.	1085 |chch |pending |NIC II-III|
+|K.	1085 |chch |done |NIC II-III|
 |K.	1086 |# |# |#|
 |K.	1087 |# |# |#|
 |K.	1088 |# |# |#|
@@ -1303,7 +1303,7 @@
 |K.	1283 |chch |done |Chevance 2014|
 |K.	1284 |chch |done |Chevance 2014|
 |K.	1285 |# |# |#|
-|K.	1286 |chch |pending |Estève et Soutif 2014|
+|K.	1286 |chch |done |Estève et Soutif 2014|
 |K.	1287 |kuch |pending |NIC IV|
 |K.	1288 |kuch |pending |Vong Sotheara 2011|
 |K.	1289 |# |# |#|
