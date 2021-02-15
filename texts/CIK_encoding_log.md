@@ -863,14 +863,14 @@
 |K.	850 |# |# |#|
 |K.	851 |kuch |done |Coedes IC I|
 |K.	852 |# |# |#|
-|K.	853 |chch |pending |IC I|
+|K.	853 |chch |done |IC I|
 |K.	854 |chch |pending |IC I|
 |K.	855 |chch |done |IC V|
 |K.	856 |chch |done |IC V|
 |K.	857 |# |# |#|
 |K.	858 |kuch |pending |IC I| |
 |K.	859 |# |# |#|
-|K.	860 |kuch|pending |IC I|
+|K.	860 |kuch |pending |IC I|
 |K.	861 |# |# |#|
 |K.	862 |# |# |#|
 |K.	863 |# |# |#|
