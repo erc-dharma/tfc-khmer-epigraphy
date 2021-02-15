@@ -18,7 +18,7 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName ref="part:jech">
+               <persName ref="http://viaf.org/viaf/18765688">
                   <forename>Jean-Baptiste</forename>
                   <surname>Chevance</surname>
                </persName>
@@ -50,11 +50,6 @@
                <physDesc>
                   <handDesc>
                      <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -85,37 +80,37 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:chch" when="2021-02-13" status="draft">Added corrections</change>
          <change who="part:chch" when="2020-05-03" status="draft">Bibliography added</change>
-         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-         <change who="part:chch" when="2020-02-23" status="draft">Creation of the file</change>
+         <change who="part:chch" when="2020-02-23" status="draft">Initial encoding of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="x-oldkhmer-Latn">
-            <ab><lb n="1"/><milestone unit="fragment" n="a"/> // vraḥ sarasvat<unclear>ī</unclear> <milestone unit="fragment" n="b"/> bhūmi chok· kuṭi <milestone unit="fragment" n="c"/> <supplied reason="lost">bhū</supplied>mi p<unclear>uṅ</unclear><seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>a</unclear></seg><seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg></seg>·</ab>
+            <p><lb n="1"/><milestone unit="fragment" n="a"/> // <!--vérifier nature ddanda sur estampage--> vraḥ sarasvat<unclear>ī</unclear> <milestone unit="fragment" n="b"/> bhūmi chok· kuṭi <milestone unit="fragment" n="c"/> <supplied reason="lost">bhū</supplied>mi p<unclear>uṅ</unclear><seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>a</unclear></seg><seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg></seg>·</p>
          </div>
          <div type="apparatus">
-           <!--apparatus encoded as per EG §9.1, basic elements for apparatus below-->
-               <listApp><!-- one <app> for each apparatus entry -->
-                  <app loc="line"><!-- Update the value of @loc.-->
+               <listApp>
+                  <app loc="line">
                      <lem><!-- fill in a lemma here --></lem>
-                     <rdg source="bib:AuthorYear_01"><!-- update the @source value, fill in variant reading here --></rdg>
+                     <rdg source="bib:AuthorYear_01"/>
                   </app>
                </listApp>         
          </div>
-         <div type="translation">
+         <div type="translation" xml:lang="fra" resp="part:chch">
  	<!--translation encoded as per EG §9.2 -->
          </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
          </div>
        <div type="bibliography">
-	 <p>First edited by Jean Baptiste Chevance (<bibl rend="omitname"><ptr target="bib:Chevance2014_01"/><citedRange unit="page">203</citedRange></bibl>).</p>
+	 <p>First edited by Jean Baptiste Chevance (<bibl rend="omitname"><ptr target="bib:Chevance2014_01"/><citedRange unit="page">203</citedRange></bibl>) without translation.</p>
         	<listBibl type="primary">
-				     <bibl><ptr target="bib:Chevance2014_01"/>
-      <citedRange unit="page">203</citedRange></bibl>
+				     <bibl n="JBC">
+				        <ptr target="bib:Chevance2014_01"/>
+      <citedRange unit="page">203</citedRange>
+				     </bibl>
 			</listBibl>
         </div>
       </body>

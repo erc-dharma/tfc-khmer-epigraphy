@@ -11,14 +11,14 @@
             <title>Pedestal from Prasat O Top (K. 1283)</title>
             <respStmt>
                <resp>EpiDoc Encoding</resp>
-               <persName ref="part:chch">&gt;
+               <persName ref="part:chch">
                   <forename>Chloé</forename>
                   <surname>Chollet</surname>
                </persName>
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName ref="part:jech">
+               <persName ref="http://viaf.org/viaf/18765688">
                   <forename>Jean-Baptiste</forename>
                   <surname>Chevance</surname>
                </persName>
@@ -50,11 +50,6 @@
                <physDesc>
                   <handDesc>
                      <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -85,25 +80,26 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:chch" when="2021-02-13" status="draft">Added corrections</change>
          <change who="part:chch" when="2020-05-03" status="draft">Bibliography added</change>
-         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-         <change who="part:chch" when="2020-02-27" status="draft">Creation of the file</change>
+         <change who="part:chch" when="2020-02-27" status="draft">Initial encoding of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="x-oldkhmer-Latn">
-            <ab><lb n="1"/>//</ab>
+            <ab><lb n="1"/>// <!--verifier nature ddanda sur estampage--></ab>
          </div>
          <div type="commentary">
-            <p>Jean-Baptiste Chevance notes that for this inscription "[...] seul le signe de ponctuation liminaire est conservé mais nous pouvons supposer, en raison de la présence de ce même signe pour K. 1281 et K. 1282 (illisible mais probable sur K. 1284), qu’il s’agit d’une inscription du même type que les trois autres” (<bibl><ptr target="bib:Chevance2014_01"/><citedRange unit="page">203</citedRange><citedRange unit="note">9</citedRange></bibl>).</p>
+            <p>Jean-Baptiste Chevance notes that for this inscription "[...] seul le signe de ponctuation liminaire est conservé mais nous pouvons supposer, en raison de la présence de ce même signe pour <ref target="K1281.xml">K. 1281</ref> et <ref target="K1282.xml">K. 1282</ref> (illisible mais probable sur <ref target="K1284.xml">K. 1284</ref>), qu’il s’agit d’une inscription du même type que les trois autres” (<bibl><ptr target="bib:Chevance2014_01"/><citedRange unit="page">203</citedRange><citedRange unit="note">9</citedRange></bibl>).</p>
          </div>
         <div type="bibliography">
 	 <p>First edited by Jean Baptiste Chevance (<bibl rend="omitname"><ptr target="bib:Chevance2014_01"/><citedRange unit="page">204</citedRange></bibl>).</p>
         	<listBibl type="primary">
-				     <bibl><ptr target="bib:Chevance2014_01"/>
-      <citedRange unit="page">204</citedRange></bibl>
+				     <bibl n="JBC">
+				        <ptr target="bib:Chevance2014_01"/>
+      <citedRange unit="page">204</citedRange>
+				     </bibl>
 			</listBibl>
         </div>
       </body>
