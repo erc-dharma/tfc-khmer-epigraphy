@@ -94,14 +94,14 @@ However, if you need to do it locally, you can access all DHARMA RelexNG and Sch
 - Before working with this repository, make sure you always the latest version through a `git pull`
 - Create a XML file or edit an existing one.
 - Once, you are done use git to add, commit and push it on the repository.
-- Once you have done your `git push`, the XML files are validated against the Epidoc and Dharma RelaxNG with a CI service called Travis. This process is made possible with the existing `.travis.yml` file. **Do not delete not modify this file on your own.** You can access the resulting log [here](https://travis-ci.com/github/erc-dharma/tfa-melappaluvur-kilappaluvur-epigraphy)
+- Once you have done your `git push`, the XML files are validated against the Epidoc and Dharma RelaxNG with a CI service called Travis. This process is made possible with the existing `.travis.yml` file. **Do not delete not modify this file on your own.** You can access the resulting log [here](https://travis-ci.com/github/erc-dharma/tfc-khmer-epigraphy)
 - On the `git push`, we are also using github Actions service to transforme automatically the XML into a HTML version. We are using Ant in a java environment to do this batch transformation. The steps are declare in the `build.xml file`, while the automated scenario is provided under `.github/workflows/editorial.yml` **Do not delete not modify those files on your own.**
   - Step 1: it will editorially edit all the XMLs in the repository.
   - Step 2: from those edited XMLs, it will create a HTML output and retrieve Zotero data as well.
   - Step 3: it will push those files in the repository under `editedxml` and `htmloutput` folders.
   - Step 4: to access those newly created files, make a `git pull`
 
-*Please note that this process can break easily and requires high quality data*. The content log of the pipeline are available under [Actions tab](https://github.com/erc-dharma/tfa-melappaluvur-kilappaluvur-epigraphy/actions) of the repository, if you need to find the reason behind an error.
+*Please note that this process can break easily and requires high quality data*. The content log of the pipeline are available under [Actions tab](https://github.com/erc-dharma/tfc-khmer-epigraphy/actions) of the repository, if you need to find the reason behind an error.
 
 ![DHARMA XML workflow](https://github.com/erc-dharma/project-documentation/blob/master/guides/images/DHARMA_XMLWorkflow_v01.png)
 
