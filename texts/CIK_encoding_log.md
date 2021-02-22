@@ -534,7 +534,7 @@
 |K.	521 |# |# |#|
 |K.	522 |# |# |#|
 |K.	523 |chch |done |IC III|
-|K.	524 |chch |pending |IC III|
+|K.	524 |chch |done |IC III|
 |K.	525 |# |# |#|
 |K.	526 |# |# |#|
 |K.	527 |# |# |#|
@@ -1509,7 +1509,7 @@
 |K.	1487 |# |# |#|
 |K.	1488 |# |# |#|
 |K.	1489 |# |# |#|
-|K.	1490 |# |# |#|
+|K.	1490 |chch |pending |unpublished|
 |K.	1491 |# |# |#|
 |K.	1492 |chch |pending |NIC II-III|
 |K.	1493 |# |# |#|
