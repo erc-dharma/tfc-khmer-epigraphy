@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Phnom Aksar rock inscription (K. 524)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00524</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:chch" when="2021-02-12" status="draft">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="okz-Latn">
+<lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="1"/>vidyāvāseti-nāmāhaṁ</l>
+    <l n="b">tejasvī bhuvi viśrutaḥ</l>
+<l n="c" enjamb="yes">daśa-tāpa-tap saṁmyak kra</l>
+    <l n="d">tvā <unclear>l</unclear>e <gap reason="illegible" quantity="1" unit="character"/> <unclear>ś</unclear>va <gap reason="illegible" quantity="1" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>d<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="vowel"/></seg></seg> t<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>ḥ</unclear> <supplied reason="lost"><g type="ddandaHooked">.</g></supplied></l>
+</lg>
+<lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="2"/>sarvvāgamānukūla-gū<unclear>ḥ</unclear></l>
+    <l n="b"><choice><orig>s</orig><reg>ś</reg></choice>āstra-jño dharmma-tatparaḥ</l>
+<l n="c">tapaḥ-karmma-viśuddhātmā</l>
+    <l n="d">vāṅ-manaḥ-kāya-karmmaṇā <g type="ddandaHooked">.</g></l> 
+</lg>
+<lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="3"/>śrī-jaya-śśrīdharan<unclear>ī</unclear>ndra</l>
+    <l n="b">śśrī-sūryyādibhir e<unclear>va</unclear> ta</l> 
+<l n="c">rājabhiḥ pūjitas sasvat</l>
+    <l n="d">sarvvaṁ sat-kr̥ta-saṁpadā <g type="ddandaHooked">.</g></l>
+</lg>
+<lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="4"/>śrī-sūryyavarmma<choice><orig>n</orig><reg>ṇ</reg></choice>o rājye</l>
+    <l n="b">śiva-bhaktyābhicoditaḥ</l>
+<l n="c">syāmādri-saṁjñake tasmiṅ</l>
+    <l n="d">girau liṅga-trayaṁ śivaṁ <g type="ddandaHooked">.</g></l>
+</lg>
+<p>
+<lb n="5"/><unclear><g type="circleLarge">.</g></unclear> <num value="1039">1039</num> <unclear>śa</unclear>ka ta rāja vraḥ pāda kaṁmrateṅa Añ śrīsūryyavarmmadeva <gap reason="illegible" quantity="2" unit="character"/> nakṣatra pvāna roca <unclear>vai</unclear>sākha vivāṁra <gap reason="illegible" quantity="1" unit="character"/>ya<unclear>ṁ</unclear> dik <num value="1"><g type="numeral">I</g></num> <gap reason="illegible" quantity="1" unit="character"/> <num value="10"><g type="numeral">X</g></num> thmā thṅe gi nu Aña ta 
+<lb n="6"/><unclear>jmoḥ</unclear> vraḥ tapa<unclear>svi</unclear> vidyāvāsa sthāpaka vraḥ śivaliṅgatraya nā vnaṁ thṅe <seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ma</seg><unclear>pa</unclear> nu vraḥ <gap reason="illegible" quantity="1" unit="character"/>rāva<gap reason="illegible" quantity="1" unit="character"/> tirtha jvana <unclear>g</unclear>i mūla<g type="circleMed">.</g> gi karmmāntara śivāmaśiva<g type="circleMed">.</g> bhūmibhāga teṅa tvana 
+<lb n="7"/><seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><gap reason="illegible" quantity="1" unit="subscript"/>e</seg>da <gap reason="illegible" quantity="2" unit="character"/> nasurendra khloña vala qso gana bhā<unclear>ga</unclear> s<unclear>r</unclear>uk ta<unclear>ṁ</unclear>va<unclear>ṅa</unclear> jā ś<unclear>i</unclear>s<unclear>ya</unclear> ja<seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>yā</seg> <gap reason="illegible" quantity="1" unit="character"/>  y<seg type="aksara"><seg type="component" subtype="subscript"><gap reason="illegible" quantity="1" unit="component"/></seg>ā</seg>na bhūtā<unclear>śa</unclear> <unclear>Aña</unclear> jvan ta vraḥ śivaliṅga vnaṁ thṅe<g type="circleMed">.</g> yajña vraḥ śivaliṅga dina raṅko liḥ <num value="3"><g type="numeral">III</g></num> <unclear>viṅ</unclear>  
+<lb n="8"/>Aña thvāya <unclear>ta</unclear> vraḥ <gap reason="illegible" quantity="3" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>m<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg></seg> ra Añ· nu li<unclear>ṅga</unclear> <gap reason="illegible" quantity="3" unit="character"/> Aña <unclear>ti</unclear> ta <unclear>th</unclear>ve <unclear>nu gi</unclear> tapasvi ta jvan ta neḥ qnaka yātanā Āya dvātrisanaraka praṁvyala ka<unclear>ṁ</unclear>neta nu ta jā 
+<lb n="9"/>mān<unclear>u</unclear><choice><orig>s</orig><reg>ṣ</reg></choice><unclear>ya</unclear> sarvvāv<unclear>yā</unclear>dhividā
+</p>   
+<lg n="5" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><unclear>v</unclear>idhāna-viṣṭarāt saṁmy<choice><orig>ā</orig><reg>a</reg></choice>k</l>
+    <l n="b">tathā vi<unclear>bh</unclear>ava-viṣṭareḥ</l> 
+<l n="c"><lb n="10"/>nyastvā nivedya rāje<choice><orig>s</orig><reg>ś</reg></choice>aṁ</l>
+    <l n="d"><choice><orig>v</orig><reg>dh</reg></choice>armmaṁ  śūnya-śivaṁ yayau</l>
+</lg>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem>daśa-tāpa-tap saṁmyak</lem>
+                     <rdg source="bib:Coedes1937-1966_01">daśatāpataparamyaṁ</rdg>
+                      <note>A similar expression is found in <ref target="K0834.xml">K. 834</ref> as <foreign>daśatāpatapa</foreign>, st. XLII.</note>
+                  </app>
+                  <app loc="1">
+                     <lem>kratvā</lem>
+                     <rdg source="bib:Coedes1937-1966_01">kr̥tvā</rdg>
+                      <note>Correct with <foreign>kr̥tvā</foreign>. See also <ref target="K0523.xml">K. 523</ref>, st. I, l. 3.</note>
+                  </app>
+                  <app loc="1">
+                     <lem><unclear>l</unclear>e <gap reason="illegible" quantity="1" unit="character"/> <unclear>ś</unclear>va <gap reason="illegible" quantity="1" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>d<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="vowel"/></seg></seg> t<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>ḥ</unclear></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><seg met="==-+-+"><gap reason="illegible" quantity="6" unit="character"/></seg></rdg>
+                  </app>
+                  <app loc="3">
+                     <lem>dharan<unclear>ī</unclear>ndra</lem>
+                     <rdg source="bib:Coedes1937-1966_01">dharaṇ<unclear>ī</unclear>ndra</rdg>
+                      <note>Correct according to Cœdès’ reading.</note>
+                  </app>
+                  <app loc="3">
+                     <lem>ta</lem>
+                     <rdg source="bib:Coedes1937-1966_01">tu</rdg>
+                      <note>Correct according to Cœdès’ reading.</note>
+                  </app>
+                  <app loc="3">
+                     <lem>pūjitas sasvat</lem>
+                     <note>Correct with <foreign>pūjitaś śaśvat</foreign>. See <ref target="K0523.xml">K. 523</ref>, st. III, l. 7.</note>
+                  </app>
+                  <app loc="5">
+                     <lem>kaṁmrateṅa</lem>
+                     <rdg source="bib:Coedes1937-1966_01">kamrateṅ∙</rdg>
+                  </app>
+                  <app loc="5">
+                     <lem>vivāṁra</lem>
+                     <rdg source="bib:Coedes1937-1966_01">ravivāra</rdg>
+                      <note>Correct according to Cœdès’ reading.</note>
+                  </app>
+                   <app loc="5">
+                     <lem><gap reason="illegible" quantity="1" unit="character"/>ya<unclear>ṁ</unclear></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="illegible" quantity="2" unit="character"/></rdg>
+                  </app>
+                    <app loc="5">
+                     <lem><num value="10"><g type="numeral">X</g></num> thmā thṅe</lem>
+                     <rdg source="bib:Coedes1937-1966_01"><num value="2"><g type="numeral">II</g></num> <gap reason="illegible" quantity="4" unit="character"/></rdg>
+                  </app>
+                   <app loc="6">
+                     <lem>sthāpaka</lem>
+                     <rdg source="bib:Coedes1937-1966_01">sthāpanā</rdg>
+                  </app>
+                   <app loc="6">
+                     <lem><seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ma</seg><unclear>pa</unclear> nu vraḥ <gap reason="illegible" quantity="1" unit="character"/>rāva<gap reason="illegible" quantity="1" unit="character"/> tirtha</lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="illegible" quantity="8" unit="character"/></rdg>
+                  </app>
+                   <app loc="6">
+                     <lem>gi mūla</lem>
+                     <rdg source="bib:Coedes1937-1966_01"><seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i</seg> <gap reason="illegible" quantity="1" unit="character"/> le</rdg>
+                  </app>
+                   <app loc="6">
+                     <lem>śivāmaśiva</lem>
+                     <rdg source="bib:Coedes1937-1966_01">śivāma <gap reason="illegible" quantity="2" unit="character"/></rdg>
+                  </app>
+                   <app loc="7">
+                     <lem><seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><gap reason="illegible" quantity="1" unit="subscript"/>e</seg>da <gap reason="illegible" quantity="2" unit="character"/></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="illegible" quantity="4" unit="character"/></rdg>
+                  </app>
+                   <app loc="7">
+                     <lem>gana bhā<unclear>ga</unclear></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="illegible" quantity="2" unit="character"/>t∙</rdg>
+                  </app>
+                   <app loc="7">
+                     <lem>s<unclear>r</unclear>uk ta<unclear>ṁ</unclear>va<unclear>ṅa</unclear></lem>
+                     <rdg source="bib:Coedes1937-1966_01">sruk <gap reason="illegible" quantity="1" unit="character"/>n∙</rdg>
+                  </app>
+                   <app loc="7">
+                     <lem>jā ś<unclear>i</unclear>s<unclear>ya</unclear> ja<seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>yā</seg> <gap reason="illegible" quantity="1" unit="character"/></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="illegible" quantity="6" unit="character"/></rdg>
+                  </app>
+                   <app loc="7">
+                     <lem>y<seg type="aksara"><seg type="component" subtype="subscript"><gap reason="illegible" quantity="1" unit="component"/></seg>ā</seg>na bhūtā<unclear>śa</unclear></lem>
+                     <rdg source="bib:Coedes1937-1966_01">khloñ bhūtāśa</rdg>
+                  </app>
+                   <app loc="7">
+                     <lem><unclear>Aña</unclear> jvan ta</lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="illegible" quantity="4" unit="character"/></rdg>
+                  </app>
+                   <app loc="7">
+                     <lem><num value="3"><g type="numeral">III</g></num> <unclear>viṅ</unclear></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><num value="2"><g type="numeral">II</g></num> <gap reason="illegible" quantity="1" unit="character"/></rdg>
+                  </app>
+                   <app loc="8">
+                     <lem>Aña</lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="illegible" quantity="2" unit="character"/></rdg>
+                  </app>
+                   <app loc="8">
+                     <lem><unclear>ta</unclear> vraḥ <gap reason="illegible" quantity="3" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>m<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg></seg> ra Añ· nu li<unclear>ṅga</unclear> <gap reason="illegible" quantity="3" unit="character"/> Aña <unclear>ti</unclear> ta <unclear>th</unclear>ve <unclear>nu gi</unclear></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="illegible" quantity="20" unit="character"/></rdg>
+                  </app>
+                   <app loc="8">
+                     <lem>ta jvan ta</lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="illegible" quantity="4" unit="character"/></rdg>
+                  </app>
+                   <app loc="8">
+                     <lem>yātanā</lem>
+                     <rdg source="bib:Coedes1937-1966_01">yācanā</rdg>
+                  </app>
+                   <app loc="8">
+                     <lem>dvātrisanaraka</lem>
+                     <rdg source="bib:Coedes1937-1966_01">ta śrī <gap reason="illegible" quantity="3" unit="character"/></rdg>
+                  </app>
+                   <app loc="8">
+                     <lem>kaṁneta nu ta jā</lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="illegible" quantity="7" unit="character"/></rdg>
+                  </app>
+                   <app loc="9">
+                     <lem>sarvvā</lem>
+                     <note>Correct with <foreign>sarva</foreign>.</note>
+                  </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" resp="part:chch">
+<p rend="stanza" n="1">Moi, qui suis nommé Vidyāvāsa, renommé sur terre pour mon rayonnement, après avoir réalisé convenablement le tapas <supplied reason="subaudible">qui est le</supplied> <foreign>daśatapa</foreign> <gap reason="illegible"/> ;</p>
+<p rend="stanza" n="2">allant sur la voie de toutes les traditions, connaissant les traités, n’ayant en vue que la Loi, ayant l’esprit purifié par la pratique de l’ascétisme à l’aide de l’action <supplied reason="subaudible">réalisée par</supplied> la parole, la pensée et le corps ;</p>
+<p rend="stanza" n="3">comblé sans cesse, de toute manière, au moyen d’honneurs et de richesses, par les rois Śrī Jaya<supplied reason="subaudible">varman</supplied>, Śrī Dharaṇīndra<supplied reason="subaudible">varman</supplied> et Śrī Sūrya<supplied reason="subaudible">varman</supplied> ;</p>
+<p rend="stanza" n="4">Sous le règne de Śrī Sūryavarman, poussé par ma dévotion envers Śiva, <supplied reason="subaudible">j’ai érigé</supplied> sur cette montagne nommée Śyāmādri, une triade de <foreign>liṅga</foreign> propice.</p>
+<p n="5-7">En 1039 <foreign>śaka</foreign>, sous le règne de S. M. Śrī Sūryavarmadeva, <foreign>nakṣatra</foreign> <gap reason="illegible"/>, quatrième jour de la lune décroissante du mois de Vaiśākha, un dimanche, <gap reason="illegible"/> : moi, qui suis nommé le Saint ascète Vidyāvāsa, fondateur de la sainte triade de liṅga au Vnaṁ Thṅe <gap reason="illegible"/> ainsi que le Saint <gap reason="illegible"/> bassin, <supplied reason="subaudible">j’ai</supplied> offert à l’ensemble <supplied reason="explanation"><foreign>jvana gi mūla</foreign></supplied> un rite de funérailles <supplied reason="explanation"><foreign>karmmāntara</foreign></supplied>, un <foreign>śivāmaśiva</foreign> (?), une portion de terre de la Teṅ Tvan <gap reason="illegible"/> Nasurendra, Khloñ Vala ’So <supplied reason="subaudible">et les gens de</supplied> son groupe et de sa section du Sruk Taṁvaṅ (?) qui sont les disciples <gap reason="illegible"/></p>
+<p n="7-8">J’offre aux Vraḥ Śivaliṅga de Vnaṁ Thṅe des offrandes de 3 <foreign>liḥ</foreign> de riz quotidiens, en continu <supplied reason="explanation"><foreign>viṅ</foreign> ?</supplied>. Je salue le Vraḥ <gap reason="illegible"/></p> 
+<p n="8-9"><gap reason="illegible"/> ce que le <foreign>tapasvin</foreign> a offert : ces gens souffriront des tourments dans les trente-deux enfers pour sept renaissances en tant que <supplied reason="explanation"><foreign>ta jā</foreign></supplied> connaisseur(s) de toutes les maladies de l’homme <supplied reason="explanation"><foreign>mānusya sarvvāvyādhividā</foreign></supplied>.</p>
+<p rend="stanza" n="5">Après avoir planté <supplied reason="explanation"><foreign>nyastvā</foreign></supplied> <supplied reason="subaudible">les trois liṅga</supplied> convenablement <supplied reason="explanation"><foreign>saṁmyāk</foreign></supplied>, avec abondance de marques de majesté et abondance de prescriptions, et après avoir renseigné le seigneur des rois de cette œuvre <supplied reason="explanation"><foreign>dharmmaṁ</foreign></supplied>, il est allé au Śūnyaśiva.</p>
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+           <p>First edited later by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">34</citedRange></bibl>) with a French translation. Re-edited by Chloé Chollet from photographs.</p>
+        	<listBibl type="primary">
+				<bibl n="GC">
+				    <ptr target="bib:Coedes1937-1966_01"/>
+      <citedRange unit="volume">3</citedRange>
+				    <citedRange unit="page">34</citedRange>
+				</bibl>
+        	</listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
