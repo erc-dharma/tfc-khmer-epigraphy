@@ -22,10 +22,14 @@
                   <forename>Chloé</forename>
                   <surname>Chollet</surname>
                </persName>
-               <!--   <persName ref="part:sapo">
+               <persName ref="http://viaf.org/viaf/39382787">
                   <forename>Saveros</forename>
                   <surname>Pou</surname>
-               </persName>-->
+               </persName>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -58,11 +62,6 @@
                <physDesc>
                   <handDesc>
                      <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
-                     <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -90,6 +89,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:chch" when="2021-02-23" status="draft">Added corrections</change>
          <change who="part:chch" when="2021-02-07" status="draft">Added corrections and personal translation</change>
          <change who="part:chch" when="2021-01-25" status="draft">Initial encoding of the file</change>
       </revisionDesc>
@@ -98,19 +98,20 @@
       <body>
          <div type="edition" xml:lang="okz-Latn">
              <p>
-                 <lb n="1"/><unclear>Aṁ</unclear>noy· mratāñ· Akṣaravindu nu Anro<lb n="2" break="no"/><unclear>s</unclear>· Añ· AI ta Āśrama vā kdik· pqon· 
-             <lb n="3"/>vā <num value="2"><g type="numeral">II</g></num> ku niṣṭhura tnor·  kñuṁ Āśrama man· 
-             <lb n="4"/>mratāñ· sā<unclear>m</unclear>anta  tor· kon· ku phoṅ·<lb n="5" break="no"/><unclear>ṅa</unclear> saṁ ge AI ta Āśrama sre tl<unclear>o</unclear>ṅ· <num value="3"><g type="numeral">III</g></num> 
+                 <lb n="1"/><unclear>Aṁ</unclear>noy· mratāñ· Akṣaravindu nu Anro<lb n="2" break="no"/><unclear>s</unclear>· <!-- chch: ou k· ? Mais le sens du mot n'est pas clair dans ce contexte--> Añ· AI ta Āśrama vā kdik· pqon· 
+             <lb n="3"/>vā <num value="2"><g type="numeral">II</g></num> ku niṣṭhura tnor· kñuṁ Āśrama man· 
+             <lb n="4"/>mratāñ· sā<unclear>m</unclear>anta  tor· kon· ku phoṅ·
+                <lb n="5"/>Is· ge AI ta Āśrama sre tl<unclear>o</unclear>ṅ· <num value="3"><g type="numeral">III</g></num> 
              <lb n="6"/>toṅ· tneṁ <num value="1"><g type="numeral">I</g></num> tmur· dneṁ <num value="1"><g type="numeral">I</g></num> Aṁnoy· poñ· 
-             <lb n="7"/>sumannibhānu  ge qnak· kantaiya sre tlon· 
+             <lb n="7"/>sumannibhānu <!--chch: corriger le nom propre ici ?--> ge qnak· kantaiya sre tlon· 
              <lb n="8"/><num value="2"><g type="numeral">II</g></num> toṅ· tneṁ <num value="1"><g type="numeral">I</g></num> gi kṣetra ta nā jlaṅ· Ā<lb n="9" break="no"/>śrama jaṁnāhv· poñ· Amar· tel· 
              <lb n="10"/>Oy· teṁ puṇya mratāñ· yajamāna gi A<lb n="11" break="no"/>vā<seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ai</seg>sa dai<g type="dandaPlain">.</g> 
              </p>
              <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
-                 <l n="a">yad dant<choice><unclear>a</unclear><unclear>u</unclear></choice>ṁ śramanādibhyo</l>
+                 <l n="a">yad da<choice><sic>n</sic><corr>t</corr></choice>t<choice><unclear>a</unclear><unclear>u</unclear></choice>ṁ śramanādibhyo</l>
              <l n="b"><lb n="12"/>dada<choice><sic>bh</sic><corr>t</corr></choice>o’pi na tad dhana<unclear>ṁ</unclear></l> 
-                 <l n="c">tad ahāryya nr̥pe<lb n="13" break="no"/>nāpi</l>
-              <l n="d">ki<supplied reason="omitted">ṁ</supplied> punas suta<supplied reason="lost">s</supplied> vā<unclear>n</unclear>dhavai<supplied reason="omitted">ḥ</supplied><g type="gomutraFinal">.</g></l>
+                 <l n="c">tad ahāryyaṁ nr̥pe<lb n="13" break="no"/>nāpi</l>
+              <l n="d">ki<supplied reason="omitted">ṁ</supplied> punas suta<surplus><gap reason="illegible" quantity="1" unit="character"/></surplus>-vā<unclear>n</unclear>dhavai<supplied reason="omitted">ḥ</supplied> <g type="gomutraFinal">.</g></l>
              </lg>
          </div>
          <div type="apparatus">
@@ -122,18 +123,24 @@
                     <app loc="4">
                      <lem>sā<unclear>m</unclear>anta</lem>
                      <rdg source="bib:Pou2001_01">sāsāṅka</rdg>
+                       <note>This term is rarely used in Old Khmer inscriptions. The only occurrences of this term in Old Khmer portions can be found in pre-Angkorian inscriptions: <ref target="K0140.xml">K. 140</ref> (598 <foreign>śaka</foreign>), <ref target="K0904.xml">K. 904</ref> (635 <foreign>śaka</foreign>; l. A29). </note>
                   </app>
-                    <app loc="4-5">
+                 <!-- <app loc="4-5">
                      <lem>phoṅ·<unclear>ṅa</unclear></lem>
                      <rdg source="bib:Pou2001_01">phoṅ· <gap reason="lost" quantity="2" unit="character"/></rdg>
                       <note>The reading of the last consonant is uncertain, but <foreign>phoṅṅa</foreign>  is found several times in the corpus. The <foreign>virāma</foreign> above the first <foreign>ṅ</foreign> is therefore probably a mistake.</note>
+                  </app>-->
+                    <app loc="5">
+                     <lem>Is·</lem>
+                     <rdg source="bib:Pou2001_01"><gap reason="lost" quantity="2" unit="character"/> saṁ</rdg>
                   </app>
                    <app loc="11">
                      <lem><g type="dandaPlain">.</g></lem>
                      <rdg source="bib:Pou2001_01">1</rdg>
+                      <note>I interpret this sign as a punctuation marking the end of the Old Khmer portion, and not as the number 1 as Saveros Pou suggested.</note>
                   </app>
                   <app loc="11">
-                  <lem>dant<choice><unclear>a</unclear><unclear>u</unclear></choice>ṁ</lem>
+                  <lem>da<choice><sic>n</sic><corr>t</corr></choice>t<choice><unclear>a</unclear><unclear>u</unclear></choice>ṁ</lem>
                     <rdg source="bib:Pou2001_01">dānato</rdg>
                      <note>Correct with <foreign>dattaṁ</foreign>.</note>
                   </app>
@@ -145,13 +152,20 @@
                      <lem>nr̥penāpi</lem>
                      <rdg source="bib:Pou2001_01">sr̥pa nā pi</rdg>
                       <note>A similar stanza portion is found in the inscription <ref target="K0379.xml">K. 379</ref> from Prasat Krabas (10th century; <bibl><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">213</citedRange></bibl>; st. III): <foreign>tad ahāryyaṇ nr̥penāpi kim utaḥ svattavāndhavaiḥ</foreign>. But the epigraph, considered too erroneous, was not translated by Cœdès.</note>
+                   </app>
+                      <app loc="13">
+                         <lem>vā<unclear>n</unclear>dhavai<supplied reason="omitted">ḥ</supplied></lem>
+                         <rdg source="bib:Pou2001_01">vārdhavai</rdg>
                   </app>
                </listApp>
          </div>
          <div type="translation" xml:lang="fra" resp="part:chch">
-         <p n="1-6">Donation du <foreign>mratāñ</foreign> Akṣaravindu et <foreign>anros añ</foreign> <!--chch: titre désignant une catégorie de personnel d'un āśrama ?--> à l’<foreign>āśrama</foreign> : <foreign>vā</foreign> Kdik avec les deux cadets de <supplied reason="subaudible">ce même</supplied> <foreign>vā</foreign> ; <foreign>ku</foreign> Niṣṭhura échangée <supplied reason="explanation"><foreign>tnor</foreign></supplied> avec un esclave de l’<foreign>āśrama</foreign> d’un <foreign>mratāñ</foreign> voisin, échangé <supplied reason="subaudible">avec</supplied> tous les enfants <supplied reason="subaudible">de cette même</supplied> <foreign>ku</foreign> ; sont associés aux autres de l’<foreign>āśrama</foreign> ; 3 <foreign>tloṅ</foreign>  de rizières ; 1 cocotier ; 1 paire de bœufs.</p>
-          <p n="6-">Donations du poñ Sumannibhānu : plusieurs femmes, rizière(s) <supplied reason="subaudible">produisant</supplied> 2 <foreign>tloṅ</foreign> de riz ; 1 cocotier. La terre où se trouve la clôture de l’<foreign>āśrama</foreign> acquise par échange à <foreign>poñ</foreign> Amar qui fournit une nouvelle source de mérite au <foreign>mratāñ yajamāna</foreign> le <!--avānaisa-->.</p>
-<p rend="stanza" n="1">Ce qui a été donné aux <foreign>śramaṇa</foreign> etc., : cette donation ne peut jamais <supplied reason="explanation"><foreign>api na</foreign></supplied> être volée par un fils ou les membres de la famille et à plus forte raison <supplied reason="explanation"><foreign>kiṁ punaḥ</foreign></supplied> par le roi.</p>
+         <p n="1-6">Donation du <foreign>mratāñ</foreign> Akṣaravindu et de l’<foreign>anros añ</foreign> <!--chch: titre désignant une catégorie de personnel d'un āśrama ou expression désignant les esclaves ?--> à l’<foreign>āśrama</foreign> : <foreign>vā</foreign> Kdik avec les deux cadets de <supplied reason="subaudible">ce même</supplied> <foreign>vā</foreign> ; <foreign>ku</foreign> Niṣṭhura échangée <supplied reason="explanation"><foreign>tnor</foreign></supplied> avec un esclave de l’<foreign>āśrama</foreign> d’un <foreign>mratāñ</foreign> voisin, échangé <supplied reason="subaudible">avec</supplied> tous les enfants <supplied reason="subaudible">de cette même</supplied> <foreign>ku</foreign> ; ils sont associés aux autres <supplied reason="subaudible">esclaves</supplied> de l’<foreign>āśrama</foreign> ; 3 <foreign>tloṅ</foreign> de rizières ; 1 cocotier ; 1 paire de bœufs.</p>
+          <p n="6-11">Donations du <foreign>poñ</foreign> Sumaṇibhānu : des femmes, rizière(s) <supplied reason="subaudible">produisant</supplied> 2 <foreign>tloṅ</foreign> de riz ; 1 cocotier, la terre où se trouve la clôture de l’<foreign>āśrama</foreign>, acquise en effectuant un échange avec le <foreign>poñ</foreign> Amar, <supplied reason="subaudible">et</supplied> qui fournit une nouvelle source de mérite au <foreign>mratāñ yajamāna</foreign> le... <!--avānaisa?-->.</p>
+<p rend="stanza" n="1">Ce qui a été donné aux <foreign>śramaṇa</foreign> etc., : cette donation n’appartient même pas au donateur. Elle ne peut être ravie par les fils ou les membres de la famille et à plus forte raison <supplied reason="explanation"><foreign>kiṁ punaḥ</foreign></supplied> par le roi.</p>
+         </div>
+         <div type="translation" xml:lang="en" source="bib:Goodall2020_01">
+            <p rend="stanza" n="1">That which <supplied reason="explanation"><foreign>yad</foreign></supplied> has been given <supplied reason="explanation"><foreign>dattam</foreign></supplied> to the ascetics and others <supplied reason="subaudible">connected to this foundation</supplied> <supplied reason="explanation"><foreign>śramaṇādibhyaḥ</foreign></supplied>, that <supplied reason="explanation"><foreign>tat</foreign></supplied> wealth <supplied reason="explanation"><foreign>dhanam</foreign></supplied> does not belong even to the giver <supplied reason="explanation"><foreign>dadato ’pi</foreign></supplied>. That <supplied reason="explanation"><foreign>tat</foreign></supplied> should not be taken away <supplied reason="explanation"><foreign>ahāryam</foreign></supplied> even by the king <supplied reason="explanation"><foreign>nr̥penāpi</foreign></supplied>, not to speak of <supplied reason="explanation"><foreign>kim punaḥ</foreign></supplied> <supplied reason="subaudible">the giver’s</supplied> sons and relatives!</p>
          </div>
          <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
   <p n="1-6">Offrandes de Mratañ Akṣaravindu et Anros Añ à l’<foreign>āśrama</foreign> : Vā Kdik avec ses deux cadets ; Ku Niṣṭhura <gap reason="illegible"/> des serviteurs de l’<foreign>āśrama</foreign> que Mratāñ Śaśāṅka avait échangée, accompagnée de son (ses) enfant(s) <gap reason="illegible"/> réunis aux gens de l’<foreign>āśrama</foreign> ; 3 <foreign>tloṅ</foreign> de rizières ; 1 cocotier ; 1 paire de bœufs.</p>
@@ -159,14 +173,18 @@
 <p n="11-13">Ce qui est offert aux ascètes etc.</p>
          </div>
          <div type="commentary">
-            <!--commentary encoded as per section §9.3 -->
+            <p>Par rapport au mot <foreign>tloṅ</foreign>: comme le souligne Saveros Pou, l’emploi de l’unité de mesure <foreign>tloṅ</foreign> pour une rizière plutôt que pour du paddy (<foreign>sru</foreign>) est surprenant, d’autant que cet emploi se rencontre de nouveau à la ligne 7. Nous retrouvons toutefois cette même expression dans d’autres inscriptions préangkoriennes du corpus, à savoir <ref target="K0154.xml">K. 154</ref> (656 śaka; l. A8), <ref target="K0563.xml">K. 563</ref> (VIe siècle <foreign>śaka</foreign>) et <ref target="K0079.xml">K. 79</ref> (565 <foreign>śaka</foreign>; avec un emploi de <foreign>tloṅ</foreign> aussi bien pour du paddy que pour des rizières). Cet usage semble s’être perpétué durant la période angkorienne, puisque l’on trouve l’expression équivalente <foreign>vraḥ sre thlvaṅ</foreign> dans <ref target="K0523.xml">K. 523</ref> (1040 <foreign>śaka</foreign>; l. B20). L’article de Michel Antelme sur le terme <foreign>tloṅ</foreign> et ses équivalents (<bibl rend="omitname"><ptr target="bib:Antelme2011_02"/></bibl>) – bien que ne traitant pas de cet usage/cas de figure particulier – confirme l’association de ce terme avec une unité de capacité de mesure et de poids. La traduction adoptée tente donc de refléter ce sens.</p>
          </div>
         <div type="bibliography">
-           <p>First edited by Saveros Pou with a French translation of the Khmer part (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">198-199</citedRange></bibl>). Re-edited here by Chloé Chollet based on EFEO estampage n. 1713.</p>
+           <p>First edited by Saveros Pou with a French translation of the Khmer part (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">198-199</citedRange></bibl>). The Sanskrit part was edited and translated into English by Dominic Goodall (<bibl rend="omitname"><ptr target="bib:Goodall2020_01"/><citedRange unit="page">331</citedRange></bibl>). The inscription is re-edited here by Chloé Chollet based on EFEO estampage n. 1713.</p>
         	<listBibl type="primary">
 			<bibl n="SP">
             <ptr target="bib:Pou2001_01"/>
             <citedRange unit="page">198-199</citedRange>
+            </bibl>
+        	   	<bibl n="DG">
+            <ptr target="bib:Goodall2020_01"/>
+            <citedRange unit="page">331</citedRange>
             </bibl>
 			</listBibl>
         </div>
