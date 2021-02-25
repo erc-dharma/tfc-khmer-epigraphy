@@ -142,7 +142,7 @@
 |K.	136 |# |# |#|
 |K.	137 |kuch |pending |IC II|
 |K.	138 |kuch |pending |IC V|
-|K.	139 |# |# |#|
+|K.	139 |chch |pending |IC III|
 |K.	140 |kuch |pending |ISC|
 |K.	140 |kuch |pending |#|
 |K.	141 |# |# |#|
