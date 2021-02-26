@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lintel of Vat Kirivong (K. 666), 592 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00666</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-02-25" status="draft">Initial encoding of the inscriptin</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="śārdūlavikrīḍita">
+<l n="a"><lb n="1"/><seg met="+++--+-+---+++-++-+"><gap reason="lost" quantity="9" unit="character"/></seg><space/></l>
+<l n="b"><seg met="+++"><gap reason="lost" quantity="3" unit="character"/></seg>s sa v<unclear>r̥</unclear>r̥ṣo<unclear>da</unclear>y<unclear>e g</unclear>urur aya<supplied reason="lost">ṁ</supplied> kumbhe saśu<unclear>kro vudh</unclear>aḥ</l>
+<l n="c"><lb n="2"/>puṣyendus sa tulādhare ’vani-suto meṣālaye bhānujaḥ <space/></l>
+<l n="d">liṅgan tat parameśvarasya vidhinā saṁsthāpitaṁ ya<unclear>jva</unclear>nā <g type="dDanda">.</g></l>
+</lg>
+<lg n="2" met="upajāti">
+<l n="a"><lb n="3"/>rāja-prasādena hi somati-strī <space/></l>
+<l n="b">tas<unclear>y</unclear>āś <supplied reason="lost">ca</supplied> p<supplied reason="lost">u</supplied>trās tv atha pautrakāś ca <space/></l>
+<l n="c">Adāsa-bhāvaṁ prajagāma tasmai <space/></l>
+<l n="d">prabhāsasomā yama-<unclear>chi</unclear>dra-vānaiḥ</l>
+</lg>
+                </div>
+                <div type="apparatus">
+               <listApp>
+                 <app loc="1">
+                   <lem>saśu<unclear>kro vudh</unclear>aḥ</lem>
+                   <rdg source="bib:Coedes1937-1966_01">saśukravudhaḥ</rdg>
+                 </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+          <p rend="stanza" n="1"><gap reason="lost"/> Jupiter dans le Taureau à son lever, Mercure avec Vénus dans le Verseau, la lune dans Puṣya, Mars dans la Balance, Saturne dans le Bélier, ce <foreign>liṅga</foreign> de Parameśvara a été érigé suivant la règle par le sacrificateur.</p>
+           <p rend="stanza" n="2">Par faveur du roi envers celui-ci, Prabhāsomā, femme de Somati, a obtenu la liberté avec ses fils et ses petits-fils <supplied reason="explanation">dans l’année marquée</supplied> par les <supplied reason="explanation">5</supplied> flèches, les <supplied reason="explanation">9</supplied> ouvertures et le couple <supplied reason="explanation">= 2</supplied>.</p> 
+           </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+       <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">45</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom from the EFEO estampage n.798.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/>
+       <citedRange unit="volume">5</citedRange>
+      <citedRange unit="page">45</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
