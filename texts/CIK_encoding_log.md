@@ -1510,13 +1510,18 @@
 |K.	1488 |# |# |#|
 |K.	1489 |# |# |#|
 |K.	1490 |chch |pending |unpublished|
-|K.	1491 |# |# |#|
+|K.	1491 |chch |pending |unpublished|
 |K.	1492 |chch |pending |NIC II-III|
-|K.	1493 |# |# |#|
-|K.	1494 |# |# |#|
-|K.	1495 |# |# |#|
-|K.	1496 |# |# |#|
-|K.	1497 |# |# |#|
-|K.	1498 |# |# |#|
-|K.	1499 |# |# |#|
-|K.	1500 |# |# |#|
+|K.	1493 |chch |pending |unpublished|
+|K.	1494 |chch |pending |unpublished|
+|K.	1495 |chch |pending |unpublished|
+|K.	1496 |chch |pending |unpublished|
+|K.	1497 |chch |pending |unpublished|
+|K.	1498 |chch |pending |unpublished|
+|K.	1499 |chch |pending |unpublished|
+|K.	1500 |chch |pending |unpublished|
+K.	1501 |chch |pending |unpublished|
+K.	1502 |chch |pending |unpublished|
+K.	1503 |chch |pending |unpublished|
+K.	1504 |chch |pending |unpublished|
+K.	1505 |chch |pending |unpublished|
