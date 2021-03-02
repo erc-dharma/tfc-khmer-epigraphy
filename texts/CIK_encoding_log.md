@@ -41,7 +41,7 @@
 |K.	34 |# |# |#|
 |K.	35 |# |# |#|
 |K.	36 |# |# |#|
-|K.	37 |kuch |pending|IC II|
+|K.	37 |kuch | done|IC II|
 |K.	38 |kuch|done |IC II|
 |K.	39 |# |# |#|
 |K.	40 |kuch |done |Coedes 1931|
@@ -64,7 +64,7 @@
 |K.	57 |# |# |#|
 |K.	58 |# |# |#|
 |K.	59 |# |# |#|
-|K.	60 |kuch |pending |ISC|
+|K.	60 |kuch | done |ISC|
 |K.	61 |# |# |#|
 |K.	62 |# |# |#|
 |K.	63 |# |# |#|
@@ -426,7 +426,7 @@
 |K.	413 |# |# |#|
 |K.	414 |# |# |#|
 |K.	415 |# |# |#|
-|K.	416 |kuch |pending |IC II|
+|K.	416 |kuch | done |IC II|
 |K.	417 |# |# |#|
 |K.	418 |# |# |#|
 |K.	419 |kuch|done |BEFEO XIX(5)|
@@ -437,7 +437,7 @@
 |K.	424 |kuch |done |IC II|
 |K.	425 |# |# |#|
 |K.	426 |kuch |done |IC II|
-|K.	427 |kuch |pending |IC VI|
+|K.	427 |kuch | done |IC VI|
 |K.	428 |# |# |#|
 |K.	429 |kuch |done |Finot 1912|
 |K.	430 |kuch |pending |IC VI|
@@ -676,7 +676,7 @@
 |K.	663 |# |# |#|
 |K.	664 |kuch |pending |IC V|
 |K.	665 |# |# |#|
-|K.	666 |kuch |pending |IC V|
+|K.	666 |kuch | done |IC V|
 |K.	667 |# |# |#|
 |K.	668 |# |# |#|
 |K.	669 |chch |pending |IC I|
@@ -719,7 +719,7 @@
 |K.	706 |# |# |#|
 |K.	707 |chch |pending |IC V|
 |K.	708 |# |# |#|
-|K.	709 |kuch |pending |IC V|
+|K.	709 |kuch | done |IC V|
 |K.	710 |kuch |pending |IC VI|
 |K.	711 |kuch |done |IC VI|
 |K.	712 |kuch |pending |IC VI|
@@ -794,7 +794,7 @@
 |K.	781 |# |# |#|
 |K.	782 |# |# |#|
 |K.	783 |dogo |done |Coedes IC I|
-|K.	784 |kuch |pending |IC VI|
+|K.	784 |kuch | done |IC VI|
 |K.	785 |kuch |done |IC VI|
 |K.	786 |# |# |#|
 |K.	787 |kuch |done |Coedes IC VI|
@@ -868,9 +868,9 @@
 |K.	855 |chch |done |IC V|
 |K.	856 |chch |done |IC V|
 |K.	857 |# |# |#|
-|K.	858 |kuch |pending |IC I| |
+|K.	858 |kuch | done |IC I| |
 |K.	859 |# |# |#|
-|K.	860 |kuch |pending |IC I|
+|K.	860 | kuch | done |IC I|
 |K.	861 |# |# |#|
 |K.	862 |# |# |#|
 |K.	863 |# |# |#|
@@ -1256,7 +1256,7 @@
 |K.	1236 |kuch |pending |unpublished|
 |K.	1237 |kuch |done |Griffiths and Chhom 2019|
 |K.	1238 |kuch |done |Griffiths and Soutif 2008-09|
-|K.	1239 |kuch |pending |unpublished|
+|K.	1239 |kuch | done |unpublished|
 |K.	1240 |kuch |done |Soutif 2009|
 |K.	1241 |kuch |done | Pou NIC II-III 2001|
 |K.	1242 |kuch |done |NIC II-III|
