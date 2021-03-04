@@ -1287,7 +1287,7 @@
 |K.	1267 |kuch |done |Pou NIC II-III 2001|
 |K.	1268 |# |# |#|
 |K.	1269 |chch |done |Chevance 2014|
-|K.	1270 |kuch |pending |#|
+|K.	1270 |kuch |pending |unpublished|
 |K.	1271 |chch |done |Clouet 2019 |
 |K.	1272 |chch |done |Chevance 2014|
 |K.	1273 |# |# |#|
