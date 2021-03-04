@@ -428,7 +428,8 @@
 |K.	415 |# |# |#|
 |K.	416 |kuch | done |IC II|
 |K.	417 |# |# |#|
-|K.	418 |argr |pending |#|
+|K.	418-1 |argr |done |BEFEO IV and XXIX|
+|K.	418-2 |argr |done |BEFEO IV and XXIX|
 |K.	419 |kuch|done |BEFEO XIX(5)|
 |K.	420 |# |# |#|
 |K.	421 |kuch |done |IC V|
