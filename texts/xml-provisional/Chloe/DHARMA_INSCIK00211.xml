@@ -1,89 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Vat Ek northern doorjamb inscription (K. 211)</title>
-                <respStmt>
-                    <resp>EpiDoc Encoding</resp>
-                    <persName ref="part:chch">
-                        <forename>Chloé</forename>
-                        <surname>Chollet</surname>
-                    </persName>
-                </respStmt>
-                <respStmt>
-                    <resp>intellectual authorship of edition</resp>
-                    <persName ref="http://viaf.org/viaf/66465311">
-                        <forename>George</forename>
-                        <surname>Cœdès</surname>
-                    </persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <authority>DHARMA</authority>
-                <pubPlace>Paris</pubPlace>
-                <idno type="filename">DHARMA_INSCIK00211</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vat Ek northern doorjamb inscription (K. 211)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00211</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
                             Licence. To view a copy of the licence, visit
                             https://creativecommons.org/licenses/by/4.0/ or send a letter to
                             Creative Commons, 444 Castro Street, Suite 900, Mountain View,
                             California, 94041, USA.</p>
-                        <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
-                    </licence>
-                </availability>
-                <date from="2019" to="2025">2019-2025</date>
-            </publicationStmt>
-            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
-                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-                    <msIdentifier>
-                        <repository>DHARMAbase</repository>
-                        <idno/><!-- don't modify this -->
-                    </msIdentifier>
-                    <msContents><!-- describe the intellectual content of an inscription -->
-                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
-                    </msContents>
-                    <physDesc>
-                        <handDesc>
-                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
-                        </handDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <projectDesc>
-                <p>This project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
-            </projectDesc>
-            <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
-            <listPrefixDef>
-                <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
-                    <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
-                </prefixDef>
-                <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
-                    <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
-                </prefixDef>
-            </listPrefixDef>
-        </encodingDesc>
-        <revisionDesc>
-            <change who="part:chch" when="2021-02-13" status="draft">Initial encoding of the file</change>
-        </revisionDesc>
-    </teiHeader>
-    <text xml:space="preserve">
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:chch" when="2021-02-13" status="draft">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="okz-Latn">
 <p>
-    <lb n="1"/><g type="ddandaOrnate">.</g> <num value="959">959</num> śaka nu vraḥ kamrateṅ∙ Añ∙ śrīyogīśvarapandita sruk∙ vnur∙ kaṁdvāt∙ viṣaya vyādhapura Ācāryya sthāpaka vraḥ kamra<lb 
-    n="2" break="no"/>teṅ∙ Aṅ∙ śivaliṅga Āy∙ vraḥ śrī narendragrāma jvan∙ vraḥ kalaśa <num value="1">mvaya</num> hanira caṁdoṅa mukha vas∙ pi rvvat∙ vakama ṅana jya<lb 
-    n="3" break="no"/>ṅ∙ <num value="7">7</num> rūpyakaraṅka <num value="1">mvāya</num> ṅan∙ jyaṅ∙ <num value="2">vyara</num> liṅa <num value="15"><num value="10">10</num><num value="5">5</num></num> caṁnāṁ kalpaṇā sruk∙ jāgrāma pramān∙ qmoghapura śvetatandula thlva<lb 
-    n="4" break="no"/>ṅ∙ <num value="4">4</num> paryyaṅ∙ mās∙ <num value="1">mvāy<unclear>∙</unclear></num> sitacchatra <num value="1">mvāya</num> doṅ∙ <num value="1">mvāya</num> mi <num value="1">mvāya</num> śaka nau ru kula nu śiṣya nu qnak∙ sañjaka ta śrā<lb 
-    n="5" break="no"/>ddhā varddhe paripālana dharmma neḥ svey∙ phala samabhāga nu vraḥ kamrateṅ∙ Añ śrīyogīśvarapandita vvaṁ Āc ti pre qna<lb 
-    n="6" break="no"/>k∙ jāgrāma thve nār∙ vvaṁ Āc ti dār∙ vnās∙ cañcūla phoṅ∙ leṅ∙ Oya caṁnāṁ kalpaṇā neḥ guḥ leṅ∙ roḥha kalpaṇā vraḥ
-<lb n="7"/>kamrateṅ∙ Añ∙ śrīyogīśvarapandita sruka jāgrāma man∙ vraḥ pāda kamrateṅ∙ kaṁtvan∙ Añ∙ śrīsūryyavarmma de<lb 
-    n="8" break="no"/>va pre vāt∙ saṅ gol∙ pi Oy∙ nu khñuṁ noḥ phoṅ∙ jā vraḥ dakṣiṇā sthāpaka tarāpa bhūmi toy∙ pūrvva cval∙ stuk∙ <gap reason="illegible" quantity="1" unit="character"/>ṇ∙
+    <lb n="1"/><g type="ddandaOrnate">.</g> <num value="959">959</num> śaka nu vraḥ kamrateṅ∙ Añ∙ śrīyogīśvarapandita sruk∙ vnur∙ kaṁdvāt∙ viṣaya vyādhapura Ācāryya sthāpaka vraḥ kamra<lb n="2" break="no"/>teṅ∙ Aṅ∙ śivaliṅga Āy∙ vraḥ śrī narendragrāma jvan∙ vraḥ kalaśa <num value="1">mvaya</num> hanira caṁdoṅa mukha vas∙ pi rvvat∙ vakama ṅana jya<lb n="3" break="no"/>ṅ∙ <num value="7">7</num> rūpyakaraṅka <num value="1">mvāya</num> ṅan∙ jyaṅ∙ <num value="2">vyara</num> liṅa <num value="15"><num value="10">10</num><num value="5">5</num></num> caṁnāṁ kalpaṇā sruk∙ jāgrāma pramān∙ qmoghapura śvetatandula thlva<lb n="4" break="no"/>ṅ∙ <num value="4">4</num> paryyaṅ∙ mās∙ <num value="1">mvāy<unclear>∙</unclear></num> sitacchatra <num value="1">mvāya</num> doṅ∙ <num value="1">mvāya</num> mi <num value="1">mvāya</num> śaka nau ru kula nu śiṣya nu qnak∙ sañjaka ta śrā<lb n="5" break="no"/>ddhā varddhe paripālana dharmma neḥ svey∙ phala samabhāga nu vraḥ kamrateṅ∙ Añ śrīyogīśvarapandita vvaṁ Āc ti pre qna<lb n="6" break="no"/>k∙ jāgrāma thve nār∙ vvaṁ Āc ti dār∙ vnās∙ cañcūla phoṅ∙ leṅ∙ Oya caṁnāṁ kalpaṇā neḥ guḥ leṅ∙ roḥha kalpaṇā vraḥ
+<lb n="7"/>kamrateṅ∙ Añ∙ śrīyogīśvarapandita sruka jāgrāma man∙ vraḥ pāda kamrateṅ∙ kaṁtvan∙ Añ∙ śrīsūryyavarmma de<lb n="8" break="no"/>va pre vāt∙ saṅ gol∙ pi Oy∙ nu khñuṁ noḥ phoṅ∙ jā vraḥ dakṣiṇā sthāpaka tarāpa bhūmi toy∙ pūrvva cval∙ stuk∙ <gap reason="illegible" quantity="1" unit="character"/>ṇ∙
 <lb n="9"/>toy∙ dakṣiṇa prasap∙ śaṅkaraparvvata toy∙ paścima cval∙ kūpa toya Uttara prasap∙ travāṅ∙ svāy∙ <g type="ddandaPlain">.</g> <g type="floretComplex">.</g> <g type="ddandaPlain">.</g>
 </p>
 <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
