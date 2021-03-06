@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Platter from Phnom Svam / Nui Sam (K. 418-1)</title>
+            <respStmt>
+               <resp>EpiDoc encoding</resp>
+               <resp>Intellectual authorship of edition</resp>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Lyon</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00418-1</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Arlo Griffiths.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                     <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:argr" when="2021-03-03">initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+<!-- K 418-1 D32.41 MNPP ga 4798 -->
+<p><lb n="1"/><g type="circle"/>1088 śaka vraḥ dakṣiṇā kamrateṅa jagata śri kāla<unclear>mu</unclear>gdha nā thve saṁvatsa<unclear>ra</unclear>pū<supplied reason="omitted">r</supplied>ṇa kamrateṅa jagata śri tribhuvaneśvara <g type="circle"/>
+</p>
+         </div>
+         <div type="apparatus">
+               <listApp>
+	<app loc="1">
+                     <lem>śri kāla<unclear>mu</unclear>gdha</lem>
+                     <rdg source="bib:Finot1904_03">śrī kālapavva<add place="above">ka</add> nā</rdg>
+	         <rdg source="bib:Coedes1929_02">śrī kālapa<supplied reason="lost">r</supplied>vvata nā</rdg>
+		<note>I am unable to detect that <foreign>ka</foreign> or <foreign>ta</foreign> that Finot and Cœdès read before <foreign>nā</foreign>. </note>
+                  </app>
+                  <app loc="1">
+                     <lem>śri</lem>
+                     <rdg source="bib:Finot1904_03">śrī</rdg>
+                  </app>
+               </listApp>
+         </div>
+         <div type="translation" resp="part:argr">
+ 	<p>1088 Śaka: sacred offering to K.J. Śrī Kālamugdha on the occasion of the performance of the anniversary of K.J. Śrī Tribhuvaneśvara.&gt;</p>
+         </div>
+	<div type="translation" source="bib:Finot1904_03">
+ 	<p>1088 çaka. Sainte offrande du seigneur Çrī Kālapavvaka ; il fait la (cérémonie) du bout de l'an (?) au seigneur Çrī Tribhuvaneçvara.</p>
+         </div>
+	<div type="translation" source="bib:Coedes1929_02">
+ 	<p>1088 çaka, sainte offrande au K. J. Çrī Kālaparvata, au moment où est célébrée la cérémonie du bout de l'an du K. J. Çrī Tribhuvaneçvara.</p>
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+           <p>First edited by Louis Finot (<bibl rend="omitname"><ptr target="bib:Finot1904_03"/></bibl>); edited again by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1929_02"/></bibl>). Re-edited here by Arlo Griffiths based on photographs from the Phnom Penh National Museum.</p>
+        	<listBibl type="primary">
+				<bibl n="F"><ptr target="bib:Finot1904_03"/></bibl>
+				<bibl n="C"><ptr target="bib:Coedes1929_02"/><citedRange>305-308</citedRange></bibl>
+			</listBibl>
+           <listBibl type="secondary">
+              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

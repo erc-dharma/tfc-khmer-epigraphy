@@ -1,120 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Phnom Chisor stela, 939 śaka</title>
-                <respStmt>
-                    <resp>EpiDoc Encoding</resp>
-                    <persName ref="part:chch">
-                        <forename>Chloé</forename>
-                        <surname>Chollet</surname>
-                    </persName>
-                </respStmt>
-                <respStmt>
-                    <resp>intellectual authorship of edition</resp>
-                    <persName ref="http://viaf.org/viaf/66465311">
-                        <forename>George</forename>
-                        <surname>Cœdès</surname>
-                    </persName>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <authority>DHARMA</authority>
-                <pubPlace>Paris</pubPlace>
-                <idno type="filename">DHARMA_INSCIK00033</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Phnom Chisor stela, 939 śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00033</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
                             Licence. To view a copy of the licence, visit
                             https://creativecommons.org/licenses/by/4.0/ or send a letter to
                             Creative Commons, 444 Castro Street, Suite 900, Mountain View,
                             California, 94041, USA.</p>
-                        <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
-                    </licence>
-                </availability>
-                <date from="2019" to="2025">2019-2025</date>
-            </publicationStmt>
-            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
-                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-                    <msIdentifier>
-                        <repository>DHARMAbase</repository>
-                        <idno/><!-- don't modify this -->
-                    </msIdentifier>
-                    <msContents><!-- describe the intellectual content of an inscription -->
-                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
-                    </msContents>
-                    <physDesc>
-                        <handDesc>
-                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
-                        </handDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <projectDesc>
-                <p>This project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
-            </projectDesc>
-            <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
-            <listPrefixDef>
-                <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
-                    <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
-                </prefixDef>
-                <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
-                    <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
-                </prefixDef>
-            </listPrefixDef>
-        </encodingDesc>
-        <revisionDesc>
-            <change who="part:chch" when="2021-02-10">Initial encoding of the file</change>
-        </revisionDesc>
-    </teiHeader>
-    <text xml:space="preserve">
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:chch" when="2021-02-10">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="okz-Latn">
              <p>
-            <lb n="1"/><num value="9"><supplied reason="lost">9</supplied></num><gap reason="lost" quantity="1" unit="character"/><num value="7">7</num> śakka ta gi rājya<g type="circleMed">.</g> dhūli vraḥ pāda kaṁmrate<lb 
-                n="2" break="no"/><supplied reason="lost">ṅ·</supplied> <unclear>A</unclear>ñ śrī sūryyavarmmadeva<g type="circleMed">.</g> gi nu Aña jau bhūmi neḥ 
+            <lb n="1"/><num value="9"><supplied reason="lost">9</supplied></num><gap reason="lost" quantity="1" unit="character"/><num value="7">7</num> śakka ta gi rājya<g type="circleMed">.</g> dhūli vraḥ pāda kaṁmrate<lb n="2" break="no"/><supplied reason="lost">ṅ·</supplied> <unclear>A</unclear>ñ śrī sūryyavarmmadeva<g type="circleMed">.</g> gi nu Aña jau bhūmi neḥ 
 <lb n="3"/>ta mratāña kaṁpana drāvya nu Aña jau bhūmi taṁmrak· tul<unclear>·</unclear> <num value="2"><g type="numeral">II</g></num> 
 <lb n="4"/>Aṁvi ta gi <unclear>thnva</unclear>l<unclear>·</unclear> travāṅ<unclear>·</unclear> ti pūrvva lvaḥ ta gi thnvala ti dakṣina 
-<lb n="5"/>cat· Āśrama dūka jmaḥ yogindrālaiya duka caṁnāṁ sa<lb 
-    n="6" break="no"/>ṅ·krān·ta raṅako je <num value="1"><g type="numeral">I</g></num> Āya vraḥ vnaṁ kaṁpruṅ· khñuṁ ta O<lb 
-    n="7" break="no"/>y· neḥ tai kaṁpa ti duñ· ta mratāñ· khloñ· vnura khaqval· 
-<lb n="8"/>svoka <num value="1"><g type="numeral">I</g></num> jyaṅ· <num value="2"><g type="numeral">II</g></num> liṅ· <num value="10"><g type="numeral">X</g></num> chnāṅ· laṅ<unclear>·</unclear>gau I jya<supplied reason="omitted">ṅ</supplied> <num value="2"><g type="numeral">II</g></num> khala prāka <num value="1"><g type="numeral">I</g></num> li<lb 
-    n="9" break="no"/>ṅ· <num value="3"><g type="numeral">III</g></num> kalamvāna vī <num value="3"><g type="numeral">III</g></num> canlyaka yau <num value="1"><g type="numeral">I</g></num> tai māgha kalamvān<unclear>·</unclear> v<unclear>i</unclear> <num value="10"><g type="numeral">X</g></num> 
+<lb n="5"/>cat· Āśrama dūka jmaḥ yogindrālaiya duka caṁnāṁ sa<lb n="6" break="no"/>ṅ·krān·ta raṅako je <num value="1"><g type="numeral">I</g></num> Āya vraḥ vnaṁ kaṁpruṅ· khñuṁ ta O<lb n="7" break="no"/>y· neḥ tai kaṁpa ti duñ· ta mratāñ· khloñ· vnura khaqval· 
+<lb n="8"/>svoka <num value="1"><g type="numeral">I</g></num> jyaṅ· <num value="2"><g type="numeral">II</g></num> liṅ· <num value="10"><g type="numeral">X</g></num> chnāṅ· laṅ<unclear>·</unclear>gau I jya<supplied reason="omitted">ṅ</supplied> <num value="2"><g type="numeral">II</g></num> khala prāka <num value="1"><g type="numeral">I</g></num> li<lb n="9" break="no"/>ṅ· <num value="3"><g type="numeral">III</g></num> kalamvāna vī <num value="3"><g type="numeral">III</g></num> canlyaka yau <num value="1"><g type="numeral">I</g></num> tai māgha kalamvān<unclear>·</unclear> v<unclear>i</unclear> <num value="10"><g type="numeral">X</g></num> 
 <lb n="10"/>taṁmryak· jyaṅ· <num value="10"><g type="numeral">X</g></num> thyāṁ yau Aṁval· yau <num value="3"><g type="numeral">III</g></num> vāp· vai grāmavr̥dhi 
 <lb n="11"/>samayuga nu mratāñ· khloñ· vnur· khaqval<unclear>·</unclear> nu loñ· trvāc· 
 <lb n="12"/>vala Oya tai māgha ta Añ· tai dharmma taṁmreka tul· <num value="1"><g type="numeral">I</g></num> mratāñ· 
-<lb n="13"/>khloña Acāsa ta Oy· tai pan·he<supplied reason="omitted">ṁ</supplied> qnak· vyādhapura <space type="descender"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>u</seg> Ā<lb 
-    n="14" break="no"/>yati duk· nila cvāl· <space quantity="14" unit="character"/>
+<lb n="13"/>khloña Acāsa ta Oy· tai pan·he<supplied reason="omitted">ṁ</supplied> qnak· vyādhapura <space type="descender"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>u</seg> Ā<lb n="14" break="no"/>yati duk· nila cvāl· <space quantity="14" unit="character"/>
              </p>
 <p>
-<lb n="15"/><g type="circleHorned">.</g> <num value="939">939</num> śakka <space/> maṅya nakṣatra ta gi rājya dhūli vraḥ pāda kaṁ<lb 
-    n="16" break="no"/>mrateṅ· kaṁtvan· Añ· śrī sūryyavarmmadeva gi nu Añ· ta jmaḥ ste<lb 
-    n="17" break="no"/>ñ· śivācāryya vnur<unclear>·</unclear> sramo thvāy· saṁnvat· pi vraḥ kaṁmrateṅ<unclear>·</unclear> Añ· śrī 
-<lb n="18"/>vīrendravarmma paṅgaṁ thpvaṅ· nivedana cuḥ vraḥ Ālakṣaṇa ta vraḥ kaṁmra<lb 
-    n="19" break="no"/>teṅa Añ· śrī vīrendravarmma pandval· ta Añ· pi Oya gi bhūmi yoge<lb 
-        n="20" break="no"/>ndrālaya nu yogendrapura man ti jau <g type="circleConcentric">.</g> yogendrālaya ti jau ta 
+<lb n="15"/><g type="circleHorned">.</g> <num value="939">939</num> śakka <space/> maṅya nakṣatra ta gi rājya dhūli vraḥ pāda kaṁ<lb n="16" break="no"/>mrateṅ· kaṁtvan· Añ· śrī sūryyavarmmadeva gi nu Añ· ta jmaḥ ste<lb n="17" break="no"/>ñ· śivācāryya vnur<unclear>·</unclear> sramo thvāy· saṁnvat· pi vraḥ kaṁmrateṅ<unclear>·</unclear> Añ· śrī 
+<lb n="18"/>vīrendravarmma paṅgaṁ thpvaṅ· nivedana cuḥ vraḥ Ālakṣaṇa ta vraḥ kaṁmra<lb n="19" break="no"/>teṅa Añ· śrī vīrendravarmma pandval· ta Añ· pi Oya gi bhūmi yoge<lb n="20" break="no"/>ndrālaya nu yogendrapura man ti jau <g type="circleConcentric">.</g> yogendrālaya ti jau ta 
 <lb n="21"/>mratāñ<unclear>·</unclear> kaṁpan· khñu<supplied reason="omitted">ṁ</supplied> mvāya taṁmrek· tul· mvāya <unclear>nā</unclear> yogendrapura 
 <lb n="22"/>man· jau ta mratāñ· khloñ· saṁvaṅ· kantāl· canlyak· 
 <lb n="23"/>bhai <num value="1">mvāya</num> neḥ syaṅ<unclear>·</unclear> ti cāṁ caṁnāṁ ta kaṁmrateṅ· jagat· 
 <lb n="24"/><space/> śrī vr̥ddheśvara khñuṁ man duk ta Āśrama yogendrālaya tai 
 <lb n="25"/>dha<supplied reason="omitted">r</supplied>mma ta māgha tai nila tai kaṁpa ti pre Oy· raṅko je <num value="1">mvāya</num> 
-<lb n="26"/>saṅkrānta<g type="circleMed">.</g> nā yo<add place="above">ge</add>ndrapura khñuṁ ta gi tai kanahyaṅa ti duñ· ta mratā<lb 
-    n="27" break="no"/>ñ· khloñ· vnur· khqvāl· sru <num value="20">bhai mvāy·</num> kalmvān· vi <num value="2">vyara</num> tai kansān· 
+<lb n="26"/>saṅkrānta<g type="circleMed">.</g> nā yo<add place="above">ge</add>ndrapura khñuṁ ta gi tai kanahyaṅa ti duñ· ta mratā<lb n="27" break="no"/>ñ· khloñ· vnur· khqvāl· sru <num value="20">bhai mvāy·</num> kalmvān· vi <num value="2">vyara</num> tai kansān· 
 <lb n="28"/>ti duñ· kryau <num value="1">mvāya</num> sru tapa tai veda sru <num value="20">bhai mvāya</num> neḥ ti pre 
-<lb n="29"/>Oy· caṁnāṁ purṇamī qmāvasyā raṅko je kanlaḥ pra<unclear>t</unclear>i<lb 
-    n="30" break="no"/>pakṣa neḥ syaṅ· ti thvāy· jā vraḥ rājadharmma<g type="circleMed">.</g> ti 
-<lb n="31"/>Añ· svaṁ leṅ· Āc ti Añ· ta paṁnvas· pvās· paripā<lb 
-    n="32" break="no"/>la vvaṁ Āc· ti Āyatva ta kaṁloñ· phoṅ· nu kaṁha<lb 
-    n="33" break="no"/>ss<g type="circleMed">.</g> vvaṁ Āc ti mān nā Āyatva ta dai ti leṅ· santā<lb 
-    n="34" break="no"/>na Añ· phoṅ· nau ruva kule Añ· gi ta paripāla 
+<lb n="29"/>Oy· caṁnāṁ purṇamī qmāvasyā raṅko je kanlaḥ pra<unclear>t</unclear>i<lb n="30" break="no"/>pakṣa neḥ syaṅ· ti thvāy· jā vraḥ rājadharmma<g type="circleMed">.</g> ti 
+<lb n="31"/>Añ· svaṁ leṅ· Āc ti Añ· ta paṁnvas· pvās· paripā<lb n="32" break="no"/>la vvaṁ Āc· ti Āyatva ta kaṁloñ· phoṅ· nu kaṁha<lb n="33" break="no"/>ss<g type="circleMed">.</g> vvaṁ Āc ti mān nā Āyatva ta dai ti leṅ· santā<lb n="34" break="no"/>na Añ· phoṅ· nau ruva kule Añ· gi ta paripāla 
 <lb n="35"/>riya qnak ta paṁpāt· dharmma neḥ ge sveya doṣa ta 
-<lb n="36"/>gi <unclear>s</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1"
-unit="component"/></seg> <gap reason="lost" quantity="1" unit="character"/> jaṁn<supplied reason="lost" cert="low">van</supplied> <gap reason="lost" quantity="1" unit="character"/>s· nu santāna riya ta paripāla mān dharmma
+<lb n="36"/>gi <unclear>s</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> <gap reason="lost" quantity="1" unit="character"/> jaṁn<supplied reason="lost" cert="low">van</supplied> <gap reason="lost" quantity="1" unit="character"/>s· nu santāna riya ta paripāla mān dharmma
 </p>
          </div>
          <div type="apparatus">
@@ -153,9 +151,7 @@ unit="component"/></seg> <gap reason="lost" quantity="1" unit="character"/> ja�
                   </app>
                    <app loc="36">
                      <lem>jaṁn<supplied reason="lost" cert="low">van</supplied></lem>
-                     <rdg source="bib:Coedes1937-1966_01">j<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1"
-unit="component"/></seg>n<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1"
-unit="component"/></seg>s·</rdg>
+                     <rdg source="bib:Coedes1937-1966_01">j<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>n<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>s·</rdg>
                   </app>
                </listApp>
          </div>
