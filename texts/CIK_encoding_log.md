@@ -1520,9 +1520,9 @@
 |K.	1497 |chch |pending |unpublished|
 |K.	1498 |chch |pending |unpublished|
 |K.	1499 |chch |pending |unpublished|
-|K.	1500 |chch |pending |unpublished|
+|K.	1500 |chch |done |unpublished|
 K.	1501 |chch |pending |unpublished|
-K.	1502 |chch |pending |unpublished|
+K.	1502 |chch |done |unpublished|
 K.	1503 |chch |pending |unpublished|
 K.	1504 |chch |pending |unpublished|
 K.	1505 |chch |pending |unpublished|
