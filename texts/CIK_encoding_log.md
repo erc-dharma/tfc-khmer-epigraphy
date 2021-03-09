@@ -99,7 +99,7 @@
 |K.	92 |# |# |#|
 |K.	93 |# |# |#|
 |K.	94 |kuch |done|IC V|
-|K.	95 |# |# |#|
+|K.	95 |sapi |pending |ISCC|
 |K.	96 |# |# |#|
 |K.	97 |kuch |pending |unpublished|
 |K.	99 |# |# |#|
@@ -194,7 +194,7 @@
 |K.	187 |# |# |#|
 |K.	188 |# |# |#|
 |K.	189 |# |# |#|
-|K.	190 |# |# |#|
+|K.	190 |sapi |pending |ISCC IC VI|
 |K.	191 |chch |pending |IC VI|
 |K.	192 |sapi |pending ||C VI |
 |K.	193 |# |# |#|
@@ -262,10 +262,10 @@
 |K.	253 |chch |pending |IC III|
 |K.	254 |# |# |#|
 |K.	255 |# |# |#|
-|K.	256 |# |# |#|
+|K.	256 |sapi |pending |Cœdès et Dupont 1937|
 |K.	257 |# |# |#|
 |K.	258 |chch |pending |IC IV|
-|K.	259 |# |# |#|
+|K.	259 |sapi |pending |IC VII|
 |K.	260 |# |# |#|
 |K.	261 |# |# |#|
 |K.	262 |# |# |#|
@@ -322,15 +322,15 @@
 |K.	309 |# |# |#|
 |K.	310 |# |# |#|
 |K.	311 |# |# |#|
-|K.	312 |# |# |#|
-|K.	313 |# |# |#|
-|K.	314 |# |# |#|
+|K.	312 |sapi |pending |Pou NIC II-III |
+|K.	313 |sapi |pending |Pou NIC II-III |
+|K.	314 |sapi |pending |Pou NIC II-III |
 |K.	315 |# |# |#|
 |K.	316 |# |# |#|
 |K.	317 |# |# |#|
-|K.	318 |# |# |#|
+|K.	318 |sapi |pending |Pou NIC II-III |
 |K.	319 |# |# |#|
-|K.	320 |# |# |#|
+|K.	320 |sapi |pending |Pou NIC II-III |
 |K.	321 |# |# |#|
 |K.	322 |# |# |#|
 |K.	323 |# |# |#|
@@ -468,7 +468,7 @@
 |K.	454 |# |# |#|
 |K.	455 |# |# |#|
 |K.	456 |# |# |#|
-|K.	457 |# |# |#|
+|K.	457 |sapi |pending |Cœdès 1918|
 |K.	458 |# |# |#|
 |K.	459 |# |# |#|
 |K.	460 |# |# |#|
@@ -503,7 +503,7 @@
 |K.	489 |# |# |#|
 |K.	490 |# |# |#|
 |K.	491 |# |# |#|
-|K.	492 |# |# |#|
+|K.	492 |sapi |pending |IC II|
 |K.	493 |kuch |done |IC II|
 |K.	494 |# |# |#|
 |K.	495 |chch |done |Seidenfaden 1922|
@@ -724,7 +724,7 @@
 |K.	710 |kuch |pending |IC VI|
 |K.	711 |kuch |done |IC VI|
 |K.	712 |kuch |pending |IC VI|
-|K.	713 |# |# |#|
+|K.	713 |sapi |pending |IC I|
 |K.	714 |chch |pending |unpublished|
 |K.	715 |chch |done |NIC I|
 |K.	716 |chch |done |NIC I|
@@ -824,7 +824,7 @@
 |K.	810 |kuch |pending |IC VI|
 |K.	811 |kuch |done |IC VI|
 |K.	812 |# |# |#|
-|K.	813 |# |# |#|
+|K.	813 |sapi |pending |IC I|
 |K.	814 |# |# |#|
 |K.	815 |# |# |#|
 |K.	816 |# |# |#|
@@ -889,7 +889,7 @@
 |K.	875 |kuch |done |Coedes 1937|
 |K.	876 |# |# |#|
 |K.	877 |kuch |pending |IC VI|
-|K.	878 |# |# |#|
+|K.	878 |sapi |pending |IC V|
 |K.	879 |chch |pending |IC V|
 |K.	880 |# |# |#|
 |K.	881 |# |# |#|
