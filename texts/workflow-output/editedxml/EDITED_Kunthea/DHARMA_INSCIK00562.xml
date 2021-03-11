@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Tuol Ang Khvav (K. 562), 7th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00562</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The text consists of 23 lines, 8 and a half lines of which are of careful letters and well conserved. The letters of the rest of the text are smaller, neglected and separated by a space of one or two <foreign>akṣara</foreign>s.</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-03-10" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<p>
+   <lb n="1"/>Aṁnoy· mratāñ· maheśvarasvāmi doṅ· ge kloñ· yajamāna phoṅṅa vnāk· tnaḥ cāturvvidy·
+   <lb n="2"/>Āy· ta vraḥ kaṁmratāñ· śrī bhīmeśvara kantai kloñ· ta tel· Oy· kloñ· Amogha kon· I 
+   <lb n="3"/>kñuṁ ta siy· vā Aṁraḥ galū I vā cī kandin· I vā Ās· rval· I vā kumār· I vā samadhara I vā bhavi<lb n="4" break="no"/>tavya I vā bhānottha I vā klāṅ· I vā klāṅ· Aras· I vā Ekādaśī I kñuṁ ta kantaiy· ku salona I kon· ku III
+   <lb n="5"/>ku prāṇa I kon· ku I ku kanteṅ· I kon· I ku subhadra I kon· ku II ku surabhī kon· ku I ku vasantī I ku Aṁduḥ I
+   <lb n="6"/>ku nayanacandra I ku tvañ· I kon· ku III ku vilāsanī I kon· ku II ku Uy· kon· ku 7 cau II ku kantap· I kon· 7
+   <lb n="7"/>ku vṅā I ku vetti I ku candrasena I ku kmau I kon· ku I ku kantek· I ku dradās· I ku kanser· I ku sOt· I ku tgan· I
+   <lb n="8"/>ku vrau I sarvvapiṇḍa gan· kñuṁ savālavr̥ddha phoṅ· 60 II krapi dmeṁ 7 tmur· jmol· 20 III tmura ye 20 (8)
+   <lb n="9"/>vave 20 I sre sare IIIII ku saṁtoḥ kon· ku I ku (kla){1} Aras· I vā crake I
+   <lb n="10"/>vā goda I ku malinī [[I]] ku tarāñ· ku vin· ku {1} gadra kon· ku II ku ṅraṅo I
+   <lb n="11"/>ku san· Asaru ku prāp ku rudra I ku rnnoc· I ku {1} salī kon· ku I ku lamaṅgi kon· ku I
+   <lb n="12"/>ku kandaṁ kon· ku I ku śatru qnak· kon· ku III ku du(rga) śrī ku cpay· Avi kon· ku III ku k(n)au [[I]]
+   <lb n="13"/>kon· ku II ku latu kon· ku I ku jāyasi I ku kakkuli kon· ku I ku saniddha kon· ku IIIII ku Antrok· ku nakkhi [[I]]
+   <lb n="14"/>ku saṁvok· ku {2} kon· ku III ku pik· ku vāya ku kho(l?)i ku taṅka kon· ku IIII ku voṁ jā pi sAp· ku ka<lb n="15" break="no"/>ñcañ· kon· ku III can·cān· I kon· ku II ku tvañ· I daśā{1} ku loli kon· ku II vā
+   <lb n="16"/>kumāradat· I pOn· vā I vā rgāl· vā (sa)Ci(d)dha [[I]] vā vr̥ddhi vā kantaṅ· vā kdas· vā kaṁpit· [[I]]
+   <lb n="17"/>vā thgun· vā kte vā dhanakara vā ka(ga) I vā kaṁnod· I vā pa(n)ihatta vā ci A{1}ñ·
+   <lb n="18"/>{1} vā pañcami ku vṅā kon· ku III ku devasena kon· ku IIII ku kanha kon· ku IIIII
+   <lb n="19"/>ku klyānna ku kanteṅ· kon· ku II ku svāṅ· kon· ku II ku capi ho [vā] nirdoṣa vā vyuha vā kno(la) [[I]]
+   <lb n="20"/>ku kyel· I gaṇa mratāñ· yajamāna daṅ· dau daśa gi ve{1} mratāñ· doṅ· kloñ· loñ·
+   <lb n="21"/>Oy· phoṅ· ge kñuṁ ta vraḥ doṅ· sre doṅ· kaOll· doṅ· kralā doṅ· daṁriṅ· doṅ· cpar· doṅ·
+   <lb n="22"/>tmur· doṅ· krapi ta {1}ha gana Aṁras· phoṅ· Is· tel· Oy· ta vraḥ kamratāṅ· Añ· śrī
+   <lb n="23"/>bhīmeśvara
+   <lb n="24"/>bhūmi vraḥ neḥ pūrvveśana travāṅ· nāga dakṣiṇa grāmapāla paścinairr̥ti śrī {1} vā-
+   <lb n="25"/>yavyottara revati Āc· 10 2 nai gaṅgāpura vrāhma {1}
+</p>
+</div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="6">
+                     <lem/>
+                     <rdg source="bib:Coedes1937-1966_01"/>
+                  </app>
+               </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p n="1-2">Dons de Mratāñ Maheśvarasvāmi en compagnie de tous les Kloñ donateurs appartenant au groupe des Tnaḥ, versés dans les quatre Vedas, au V.K.A. Śrī Bhīmeśvara. Femme Kloñ donnée : Kloñ Amogha et 1 enfant.</p>
+            <p n="3-4">Esclaves mâles (1 vā aṁraḥ et 9 vā).</p>
+            <p n="4-7">Esclaves femmes (2 ku, 29 enfants, 2 petits-enfants).</p>
+            <p n="8-9">Total général de tous les esclaves adultes et enfants : 62. Buffles : 7 paires ; taureaux : 23 ; vaches...; chèvres : 20 ; rizières : 5 sare.</p>
+            <p n="9-19">(Liste d’une vingtaine de vā, d’une quarantaine de ku avec 50 enfants).</p>
+            <p n="20-23">La troupe du Mratāñ donateur... avec les Kloñ, les Loñ donnent tous ces esclaves du dieu, ainsi que les rizières, les kaOl, les aires, les potagers, les jardins, les boeufs, les buffles et tous les êtres vivants qu’ils offrent à V.K.A. Bhīmeśvara.</p>
+            <p n="24-25">Cette terre du dieu : à l’Est et au Nord-Est, la pièce d’eau de Nāga ; au Sud, le gardien du village ; à l’Ouest et au Sud-Ouest, Śrī...; au Nord-Ouest et au Nord, Revatī (?)... 12... de Gaṅgāpura...</p>
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">56</citedRange></bibl>) without translation; re-edited here by Kunthea Chhom from the photographs of the inscription.</p> 
+        <listBibl type="primary">
+     <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/>
+       <citedRange unit="volume">5</citedRange>
+      <citedRange unit="page">56</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
