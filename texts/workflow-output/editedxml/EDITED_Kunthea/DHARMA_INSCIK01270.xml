@@ -8,13 +8,17 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragment of Prasat Preah Ko, Ta Keo (K. 1270), 5th-6th century CE?</title>
+            <title>Fragment of Prasat Preah Ko, Ta Keo (K. 1270), 6th-7th century CE?</title>
             <!-- kuch: On the basis of letters 'śa', 'ya', 'ma' and 'ha', the inscription would be of 6th or 7th century. -->
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:kuch">
                   <forename>Kunthea</forename>
                   <surname>Chhom</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
                </persName>
             </respStmt>
             <respStmt>
@@ -26,6 +30,10 @@
                <persName ref="part:kuch">
                   <forename>Kunthea</forename>
                   <surname>Chhom</surname>
+               </persName>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
                </persName>
             </respStmt>
          </titleStmt>
@@ -85,25 +93,30 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch part:argr" when="2021-03-12" status="draft">revisions after comments from dogo</change>
          <change who="part:kuch part:argr" when="2021-03-05" status="draft">edition and encoding of the inscription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="san-Latn">
-<p><!-- dogo: It may be an anuṣṭubh. -->
-   <lb n="1"/><gap reason="lost" extent="unknown"/><gap reason="illegible" unit="characters" quantity="1"/><unclear>tatra</unclear>ś<unclear>ī</unclear>tyāyam abhūn mahākra<supplied reason="lost">t</supplied><unclear>u</unclear><supplied reason="lost">ḥ</supplied><!-- dogo: It may be the end of the śloka. -->
-</p>
+<lg n="1" met="uncertain"><!-- dogo: It may be an anuṣṭubh. --><!-- argr: I think not, because the pāda break would then fall inside the word aśītyā -->
+   <l><lb n="1"/><gap reason="lost" extent="unknown"/><gap reason="illegible" unit="characters" quantity="1"/><unclear>tatra</unclear>ś<unclear>ī</unclear>tyāyam abhūn mahākra<supplied reason="lost">t</supplied><unclear>u</unclear><supplied reason="lost">ḥ</supplied></l>
+</lg>
                     </div>
             <div type="apparatus">
-           <!--apparatus encoded as per EG §9.1, basic elements for apparatus below-->
+              <app loc="1">
+<lem><gap reason="lost" extent="unknown"/><gap reason="illegible" unit="characters" quantity="1"/><unclear>tatra</unclear>ś<unclear>ī</unclear>tyāyam</lem>
+<note>It seems impossible to interpret the sequence <foreign>ś<unclear>ī</unclear>tyāyam</foreign> otherwise than as containing the word <foreign>aśīti</foreign> and <foreign>ayam</foreign>. However, our tentative reading of the preceding <foreign>akṣara</foreign>s as <foreign><unclear>tatra</unclear></foreign> is not compatible with the idea that the text had the word <foreign>aśīti</foreign>: we would need <foreign>trā</foreign>, <foreign>tro</foreign>, <foreign>tre</foreign>,
+<foreign>tya</foreign> or <foreign>tva</foreign> before <foreign>śī</foreign>, but we are unable to match what we see on the photographs with any of those <foreign>akṣara</foreign>s.</note>
+              </app>
             </div>
         <div type="translation" resp="part:dogo">
- 	<p n="1">... this (ayam) great sacrifice (mahākratuḥ) took place (abhūt) using eighty (aśītyā) ....</p>
+ 	<p n="1">... this <supplied reason="explanation"><foreign>ayam</foreign></supplied> great sacrifice <supplied reason="explanation"><foreign>mahākratuḥ</foreign></supplied> took place <supplied reason="explanation"><foreign>abhūt</foreign></supplied> using eighty <supplied reason="explanation"><foreign>aśītyā</foreign></supplied> ...</p>
          </div>
          <div type="commentary">
-            <p>This fragment of a schist inscription was reused in a conduit for libations (a so-called <foreign>somasūtra</foreign>) in the brick temple Preah Ko that must have been erected not more than one or two centuries after the inscription was engarved.</p>
-         <!-- dogo: Epic is full of rājasūyas and horse-sacrfices that are described as mahākratu.  Eighty officiants, or eighty sacrificial victims, would make a pretty big sacrifice.  Perhaps you thought of all this but decided that actually advancing an interpretation would be too bold. -->
+           <p>The remaining text is compatible with three at least three verse types, namely <foreign>indravaṁśā</foreign>, <foreign>vaṁśamālā</foreign> and <foreign>vaṁśastha</foreign>, the latter being rather common in Cambodian Sanskrit inscriptions.</p>
+            <p>Epic Sanskrit texts are full of <foreign>rājasūya</foreign>s and <foreign>aśvamedha</foreign>s that are described as <foreign>mahākratu</foreign>. If we assume, despite the problem formulated in our apparatus, that the text contained the word <foreign>aśīti</foreign> meaning <q>eighty</q>, and that this word qualified officiants, or sacrificial victims, it would mean that indeed the text was dealing with a rather large-scale ritual.</p>
          </div>
         <div type="bibliography">
           <p>Edited by Arlo Griffiths &amp; Kunthea Chhom from the photographs KPreah Kô - 004 - 029.</p>
@@ -111,3 +124,6 @@
         </body>
     </text>
 </TEI>
+<!--
+<p>This fragment of a schist inscription was reused in a conduit for libations (a so-called <foreign>somasūtra</foreign>) in the brick temple Preah Ko that must have been erected not more than one or two centuries after the inscription was engarved.</p>
+-->
