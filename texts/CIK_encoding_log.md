@@ -1415,12 +1415,12 @@
 |K.	1393 |# |# |#|
 |K.	1394 |# |# |#|
 |K.	1395 |# |# |#|
-|K.	1396 |# |# |#|
-|K.	1397 |# |# |#|
-|K.	1398 |# |# |#|
-|K.	1399 |# |# |#|
-|K.	1400 |# |# |#|
-|K.	1401 |# |# |#|
+|K.	1396 |kuch |pending |Hun 2018|
+|K.	1397 |kuch |pending |Unpublished|
+|K.	1398 |kuch |pending |Unpublished|
+|K.	1399 |kuch |pending |Unpublished|
+|K.	1400 |kuch |pending |Unpublished|
+|K.	1401 |kuch |pending |Vong 2016|
 |K.	1402 |# |# |#|
 |K.	1403 |# |# |#|
 |K.	1404 |# |# |#|
@@ -1431,25 +1431,24 @@
 |K.	1409 |# |# |#|
 |K.	1410 |# |# |#|
 |K.	1411 |# |# |#|
-|K.	1412 |# |# |#|
-|K.	1413 |# |# |#|
+|K.	1412 |kuch |pending |Hun 2018|
+|K.	1413 |kuch |pending |Hun 2018|
 |K.	1414 |# |# |#|
 |K.	1415 |# |# |#|
-|K.	1416 |# |# |#|
-|K.	1417 |kuch |pending |#|
+|K.	1416 |kuch |pending |Hun 2018|
 |K.	1417 |kuch |pending |#|
 |K.	1418 |# |# |#|
 |K.	1419 |kuch |done |Chhom 2019|
 |K.	1420 |# |# |#|
 |K.	1421 |chch |pending |unpublished|
-|K.	1422 |# |# |#|
+|K.	1422 |kuch |pending|Hun (forthc.)|
 |K.	1423 |# |# |#|
 |K.	1424 |# |# |#|
 |K.	1425 |# |# |#|
 |K.	1426 |kuch |done |unpublished|
 |K.	1427 |chch |done |Chollet 2019|
 |K.	1428 |chch |done |Chollet 2019|
-|K.	1429 |# |# |#|
+|K.	1429 |kuch |pending |Unpublished|
 |K.	1430 |# |# |#|
 |K.	1431 |# |# |#|
 |K.	1432 |# |# |#|
@@ -1459,7 +1458,7 @@
 |K.	1436 |# |# |#|
 |K.	1437 |# |# |#|
 |K.	1438 |# |# |#|
-|K.	1439 |# |# |#|
+|K.	1439 |kuch |pending |Hun (forthc.)|
 |K.	1440 |# |# |#|
 |K.	1441 |# |# |#|
 |K.	1442 |# |# |#|
@@ -1471,11 +1470,11 @@
 |K.	1448 |# |# |#|
 |K.	1449 |# |# |#|
 |K.	1450 |# |# |#|
-|K.	1451 |# |# |#|
+|K.	1451 |kuch |pending |Nguyễn 1999|
 |K.	1452 |# |# |#|
 |K.	1453 |# |# |#|
 |K.	1454 |# |# |#|
-|K.	1455 |# |# |#|
+|K.	1455 |argr |done |Goodall and Revire (forthc.)|
 |K.	1456 |# |# |#|
 |K.	1457 |# |# |#|
 |K.	1458 |kuch |pending |#|
@@ -1485,7 +1484,7 @@
 |K.	1462 |# |# |#|
 |K.	1463 |# |# |#|
 |K.	1464 |# |# |#|
-|K.	1465 |# |# |#|
+|K.	1465 |kuch |pending |Unpublished|
 |K.	1466 |# |# |#|
 |K.	1467 |# |# |#|
 |K.	1468 |# |# |#|
