@@ -537,7 +537,7 @@
 |K.	523 |chch |done |IC III|
 |K.	524 |chch |done |IC III|
 |K.	525 |# |# |#|
-|K.	526 |# |# |#|
+|K.	526 |chch |done |Cœdès 1951; Soutif and Estève (forthc.)|
 |K.	527 |# |# |#|
 |K.	528 |# |# |#|
 |K.	529 |# |# |#|
@@ -1473,7 +1473,7 @@
 |K.	1451 |kuch |pending |Nguyễn 1999|
 |K.	1452 |# |# |#|
 |K.	1453 |# |# |#|
-|K.	1454 |# |# |#|
+|K.	1454 |chch |done |Soutif and Estève (forthc.)|
 |K.	1455 |argr |done |Goodall and Revire (forthc.)|
 |K.	1456 |# |# |#|
 |K.	1457 |# |# |#|
