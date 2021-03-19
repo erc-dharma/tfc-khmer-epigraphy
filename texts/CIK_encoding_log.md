@@ -831,7 +831,7 @@
 |K.	817 |# |# |#|
 |K.	818 |# |# |#|
 |K.	819 |# |# |#|
-|K.	820 |argr |pending |IC VII|
+|K.	820 |argr |done |IC VII|
 |K.	821 |# |# |#|
 |K.	822 |# |# |#|
 |K.	823 |# |# |#|
@@ -1374,7 +1374,7 @@
 |K.	1352 |kuch |done |Goodall 2020|
 |K.	1353 |# |# |#|
 |K.	1354 |chch |done |Chollet 2019|
-|K.	1355 |kuch |pending |Skilling 2002|
+|K.	1355 |argr and kuch |done |Skilling 2002, 2019|
 |K.	1356 |# |# |#|
 |K.	1357 |# |# |#|
 |K.	1358 |# |# |#|
