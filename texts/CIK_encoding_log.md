@@ -1166,7 +1166,7 @@
 |K.	1145 |# |# |#|
 |K.	1146 |# |# |#|
 |K.	1147 |kuch |done |NIC II-III|
-|K.	1148 |kuch |done |Pou NIC II-III 2001|
+|K.	1148 |kuch and chch |done |Pou NIC II-III 2001|
 |K.	1149 |kuch |pending |unpublished|
 |K.	1150 |kuch |done |Goodall 2019|
 |K.	1151 |# |# |#|
