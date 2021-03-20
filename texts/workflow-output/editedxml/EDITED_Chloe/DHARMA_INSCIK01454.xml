@@ -8,26 +8,30 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>K. 1455</title>
+            <title>Jayavarman VII’s "small inscription" from Banteay Prei (12th century)</title>
             <respStmt>
                <resp>EpiDoc Encoding</resp>
-               <persName ref="part:argr">
-                  <forename>Arlo</forename>
-                  <surname>Griffiths</surname>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
                </persName>
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName ref="part:dogo">
-                  <forename>Dominic</forename>
-                  <surname>Goodall</surname>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+               <persName ref="part:jues">
+                  <forename>Julia</forename>
+                  <surname>Estève</surname>
                </persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>DHARMA</authority>
-            <pubPlace>Lyon</pubPlace>
-            <idno type="filename">DHARMA_INSCIK01455</idno>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01454</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -35,7 +39,7 @@
                             https://creativecommons.org/licenses/by/4.0/ or send a letter to
                             Creative Commons, 444 Castro Street, Suite 900, Mountain View,
                             California, 94041, USA.</p>
-                  <p>Copyright (c) 2019-2025 by Dominic Goodall.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
@@ -54,11 +58,6 @@
                <physDesc>
                   <handDesc>
                      <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
-                     <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -86,51 +85,36 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:argr" when="2021-03-14" status="draft">revised encoding of the inscription</change>
-         <change who="part:argr" when="2021-03-13" status="draft">initial encoding of the inscription</change>
+         <change who="part:chch" when="2020-03-18">Initial encoding of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
       <body>
-         <div type="edition" xml:lang="san-Latn">
-<ab><lb n="1"/>bhagavāñ chākyamuniḥ</ab>
-<lg n="1" met="āryā">
-	<l n="ab"><lb n="2"/>dharma-mr̥ga-rāja-nāmnā <space/> sthavireṇa kr̥tā muner iyaṁ pratimā <space/></l> 
-	<l n="cd">sthaviram mātula-mātula<space/>-bhadanta-jinabhadram uddiśya<g type="ddandaStroke">.</g></l>
-         </lg>
-<lg n="2" xml:lang="pra-Latn" met="anuṣṭubh">
-<l n="a"><lb n="3"/>duẖkhaṁ duḥkha-samuppādo<space/></l>
-<l n="b">duḥkhassa ca Atikramo<space/></l>
-<l n="c">AIro caṭṭhaṅgiko maggo<space/></l> 
-<l n="d">khemopaśama-gāmiko<g type="ddandaStroke">.</g></l>
-</lg>
+         <div type="edition" xml:lang="okz-Latn">
+             <p>
+<lb n="1"/><g type="circleTarget">.</g> kamrateṅa jagata śrī nṛpe<unclear>ndreśvarī</unclear>
+<lb n="2"/><g type="circleTarget">.</g> rūpa kamrateṅa Aña śrī nṛpe<unclear>ndra</unclear>lakṣmī
+             </p>
          </div>
-         <!--<div type="apparatus">           
+         <!--<div type="apparatus">
                <listApp>
-                  <app loc="line"><!-\- update the value of @loc.-\->
+                  <app loc="line">
                      <lem><!-\- fill in a lemma here -\-></lem>
                      <rdg source="bib:AuthorYear_01"><!-\- update the @source value, fill in variant reading here -\-></rdg>
                   </app>
                </listApp>
-         </div>-->
-         <div type="translation" resp="part:dogo">
- 	<p n="1"><!--<hi rend="bold">Sanskrit</hi>-->Lord Śākyamuni.</p> 
-	<p rend="stanza" n="2">This <supplied reason="explanation"><foreign>iyam</foreign></supplied> image <supplied reason="explanation"><foreign>pratimā</foreign></supplied> of the Sage <supplied reason="explanation"><foreign>muneḥ</foreign></supplied> was made <supplied reason="explanation"><foreign>kr̥tā</foreign></supplied> by the Sthavira called Dharmamr̥garāja, for the sake of <supplied reason="subaudible">the merit of</supplied> <supplied reason="explanation"><foreign>uddiśya</foreign></supplied> the elder <supplied reason="explanation"><foreign>sthavira</foreign></supplied> Bhadanta Jinabhadra, who was his maternal uncle’s maternal uncle <supplied reason="explanation"><foreign>mātula-mātula</foreign></supplied>.</p>
-	<p rend="stanza" n="3"><!--<hi rend="bold">Pali</hi>-->Suffering, the arising of suffering, and the transcendence of suffering, and the noble eightfold path, leading to the cessation of suffering that is peace/emancipation <supplied reason="explanation"><foreign>khemopaśama</foreign></supplied>.</p>
+         </div>
+         <div type="translation">
+ 	<!-\-translation encoded as per EGD §9.2 -\->
          </div>
          <div type="commentary">
-            <!--commentary encoded as per section §9.3 -->
-<p>The second stanza is cited from the <title>Dhammapada</title> (Dhp 191 in the Pali Canon). The same stanza has also been found in the gold foil inscription from Go Xoai (<ref target="DHARMA_INSCIK01330.xml">K. 1330</ref>), has been found in contemporary inscriptions from Thailand and even in Andhra Pradesh, in India (<ref target="DHARMA_INSEIAD000218.xml">EIAD 218</ref>). See Skilling 1991 &amp; 1999.</p>
-         </div>
+            <!-\-commentary encoded as per section §9.3 -\->
+         </div>-->
         <div type="bibliography">
-           <p>Previously unpublished. Edited and studied for the first time by Dominic Goodall &amp; Nicolas Revire (<bibl rend="omitname"><ptr target="bib:Goodall+Revire2021_01"/></bibl>).</p>
-        <listBibl type="primary">
-		<bibl n="G"><ptr target="bib:Goodall+Revire2021_01"/></bibl>
-	</listBibl>
-              <listBibl type="secondary">
-              <bibl><ptr target="bib:Skilling1991_01"/></bibl>
-	<bibl><ptr target="bib:Skilling1999_01"/></bibl>
-           </listBibl>
+           <p>First edited by Dominique Soutif and Julia Estève for a forthcoming publication.</p>
+        	<listBibl type="primary">
+				<bibl n="siglum"/>
+			</listBibl>
         </div>
       </body>
   </text>
