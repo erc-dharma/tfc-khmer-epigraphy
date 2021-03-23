@@ -1509,7 +1509,7 @@
 |K.	1487 |# |# |#|
 |K.	1488 |# |# |#|
 |K.	1489 |# |# |#|
-|K.	1490 |chch |pending |unpublished|
+|K.	1490 |chch |done |unpublished|
 |K.	1491 |chch |pending |unpublished|
 |K.	1492 |chch |pending |NIC II-III|
 |K.	1493 |chch |pending |unpublished|
