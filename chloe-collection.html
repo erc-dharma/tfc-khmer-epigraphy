@@ -127,8 +127,8 @@
       const updateList = (data, filter = '') => {
         let htmlString = '';
         for (let file of data.filter(filterFiles(filter)).sort(sortFiles(filter))) {
-          const fileName = file.path.replace('texts/', '../texts/');
-          const fileDisplayName = fileName.replace('../texts/workflow-output/html/Chloe/', '').replace('.html', '');
+          const fileName = file.path;
+          const fileDisplayName = fileName.replace('texts/workflow-output/html/Chloe/', '').replace('.html', '');
           htmlString += `<li class="list-group-item"><a href="${fileName}">${fileDisplayName}</a></li>`;
         }
         document.getElementById('list').innerHTML = htmlString;
