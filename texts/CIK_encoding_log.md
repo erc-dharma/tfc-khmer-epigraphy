@@ -433,7 +433,7 @@
 |K.	419 |kuch|done |BEFEO XIX(5)|
 |K.	420 |# |# |#|
 |K.	421 |kuch |done |IC V|
-|K.	422 |kuch |pending |IC II|
+|K.	422 |kuch |done |IC II|
 |K.	423 |kuch |done |IC II|
 |K.	424 |kuch |done |IC II|
 |K.	425 |# |# |#|
@@ -573,7 +573,7 @@
 |K.	559 |kuch |pending |IC II|
 |K.	560 |kuch |done |IC VI|
 |K.	561 |kuch |pending |IC II|
-|K.	562 |kuch |pending |IC II|
+|K.	562 |kuch |done |IC II|
 |K.	563 |kuch |done |IC II|
 |K.	564 |# |# |#|
 |K.	565 |# |# |#|
@@ -951,14 +951,14 @@
 |K.	936 |kuch |done |IC IV|
 |K.	937 |# |# |#|
 |K.	938 |kuch |pending |IC VII|
-|K.	939 |kuch |pending |IC V|
+|K.	939 |kuch |done |IC V|
 |K.	940 |kuch |done |IC V|
 |K.	941 |# |# |#|
 |K.	942 |# |# |#|
 |K.	943 |kuch |done |unpublished|
 |K.	944 |# |# |#|
 |K.	945 |# |# |#|
-|K.	946 |kuch |pending |unpublished|
+|K.	946 |kuch |done |unpublished|
 |K.	947 |kuch |done |Soutif 2009|
 |K.	948 |# |# |#|
 |K.	949 |# |# |#|
@@ -1288,7 +1288,7 @@
 |K.	1267 |kuch |done |Pou NIC II-III 2001|
 |K.	1268 |# |# |#|
 |K.	1269 |chch |done |Chevance 2014|
-|K.	1270 |kuch |pending |unpublished|
+|K.	1270 |kuch |done |unpublished|
 |K.	1271 |chch |done |Clouet 2019 |
 |K.	1272 |chch |done |Chevance 2014|
 |K.	1273 |# |# |#|
@@ -1415,7 +1415,7 @@
 |K.	1393 |# |# |#|
 |K.	1394 |# |# |#|
 |K.	1395 |# |# |#|
-|K.	1396 |kuch |pending |Hun 2018|
+|K.	1396 |kuch |done |Hun 2018|
 |K.	1397 |kuch |pending |Unpublished|
 |K.	1398 |kuch |pending |Unpublished|
 |K.	1399 |kuch |pending |Unpublished|
@@ -1431,12 +1431,12 @@
 |K.	1409 |# |# |#|
 |K.	1410 |# |# |#|
 |K.	1411 |# |# |#|
-|K.	1412 |kuch |pending |Hun 2018|
-|K.	1413 |kuch |pending |Hun 2018|
+|K.	1412 |kuch |done |Hun 2018|
+|K.	1413 |kuch |done |Hun 2018|
 |K.	1414 |# |# |#|
 |K.	1415 |# |# |#|
 |K.	1416 |kuch |pending |Hun 2018|
-|K.	1417 |kuch |pending |#|
+|K.	1417 |kuch |pending |Goodall et al forthcoming|
 |K.	1418 |# |# |#|
 |K.	1419 |kuch |done |Chhom 2019|
 |K.	1420 |# |# |#|
@@ -1448,7 +1448,7 @@
 |K.	1426 |kuch |done |unpublished|
 |K.	1427 |chch |done |Chollet 2019|
 |K.	1428 |chch |done |Chollet 2019|
-|K.	1429 |kuch |pending |Unpublished|
+|K.	1429 |kuch |done |Unpublished|
 |K.	1430 |# |# |#|
 |K.	1431 |# |# |#|
 |K.	1432 |# |# |#|
