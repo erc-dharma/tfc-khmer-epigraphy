@@ -702,7 +702,7 @@
 |K.	688 |# |# |#|
 |K.	689 |kuch |done |IC VI|
 |K.	690 |# |# |#|
-|K.	691 |# |# |#|
+|K.	691 |chch |done |IC IV|
 |K.	692 |chch |pending |IC I|
 |K.	693 |# |# |#|
 |K.	694 |# |# |#|
