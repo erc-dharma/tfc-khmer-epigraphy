@@ -717,7 +717,7 @@
 |K.	703 |# |# |#|
 |K.	704 |# |# |#|
 |K.	705 |# |# |#|
-|K.	706 |# |# |#|
+|K.	706 |chch |pending |IC V|
 |K.	707 |chch |pending |IC V|
 |K.	708 |# |# |#|
 |K.	709 |kuch | done |IC V|
@@ -1102,7 +1102,7 @@
 |K.	1081 |# |# |#|
 |K.	1082 |kuch |done |Gerschheimer and Pichard 2007|
 |K.	1083 |kuch |pending |unpublished|
-|K.	1084 |# |# |#|
+|K.	1084 |chch |pending |unpublished|
 |K.	1085 |chch |done |NIC II-III|
 |K.	1086 |# |# |#|
 |K.	1087 |# |# |#|
