@@ -199,7 +199,7 @@
 |K.	192 |sapi |pending ||C VI |
 |K.	193 |# |# |#|
 |K.	194 |# |# |#|
-|K.	195 |chch |pending |IC VI|
+|K.	195 |chch |done |IC VI|
 |K.	196 |# |# |#|
 |K.	197 |# |# |#|
 |K.	198 |# |# |#|
