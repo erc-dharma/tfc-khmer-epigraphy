@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Tuol Ang Tnot (K. 561), 603 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00561</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-04-15" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+                    <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="1"/>jayaty aśeṣalokānā_n</l>
+<l n="b">nātha Eko maheśvaraḥ _</l>
+<l n="c">pratanoti sadāṣṭābhi_s</l>
+<l n="d">tanubhir yy(o) 'khilañ jagat·</l>
+                    </lg>
+                    <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="2"/>śrīraṇḍāparvvateśe(na) _</l>
+<l n="b">kr̥taṁ śrījayavarmmaṇā _</l>
+<l n="c">miśraṁ śrīkhaṇḍaliṅgā(kh)yaṁ _</l>
+<l n="d">trivyomartuyute śake</l>
+                    </lg>
+                   <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="3"/>śrīkhaṇḍa(liṅge) yad dattaṁ _</l>
+<l n="b">bhavacandrena yajvanā _</l>
+<l n="c">putrapautrair ahartta(vya)_m</l>
+<l n="d">anyaiś ca kulavāndhavaiḥ</l>
+                    </lg>
+                   <lg n="4" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="4"/>dravyaṁ śrīkhaṇḍaliṅgasya</l>
+<l n="b">ye haranti narādhamāḥ _</l>
+<l n="c">te 'vicinarakaṁ (yā)ntu _</l>
+<l n="d">pitr̥bhir vvāndhavais saha</l>
+                    </lg>
+                   <lg n="5" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="5"/>saṁkhyayā vi[ṅśa]ti vrīhe_r</l>
+<l n="b">eko bhr̥tyaḥ paṭadvayaṁ _</l>
+<l n="c">saṁvatsaram ito dattaṁ _</l>
+<l n="d">śrīraṇḍāparvvateśvare</l>
+                    </lg>
+                   <lg n="6" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="6"/>Utsaveṣū[t]s[ave]ṣv eva _</l>
+<l n="b">taṇḍulañ ca yathocittaṁ _</l>
+<l n="c">nivandhanañca yas tyaktvā _</l>
+<l n="d">sa tāmisram ito gataḥ</l>
+                    </lg>
+                <p>
+<lb n="7"/>satranivandha ple tdaiy· Āy· ta vraḥ kaṁmratāṅ· Añ· śrī khaṇḍaliṅga man· poñ· bhava-
+                   <lb n="8"/>candra Oy· sa Ākra raṅko liḥ I vanli liḥ III si ple liḥ II satra paṁnos· liḥ II satra
+                   <lb n="9"/>vñau liḥ I satra pitr̥ liḥ I canlek· ple vagr̥ṣā yogalla yau IIII Aṁval· yau I canlek· pitr̥
+                   <lb n="10"/>Aṁvlaḥ I satra kloñ· mr̥ta raṅko liḥ I canlek· Aṁval· vlaḥ satra kloñ· trasauk· 
+                   <lb n="11"/>raṅko liḥ I canlek· vlaḥ satra poñ· jānavin· ta vraḥ kamratāṅ· Añ· śrī khaṇḍa-
+                   <lb n="12"/>liṅga raṅko liḥ I canlek· Aṁval· vlaḥ I satra poñ· jānaprakāśa raṅko liḥ I canlek·
+                   <lb n="13"/>Aṁval· vlaḥ I satra kloñ· tāñ· raṅko liḥ I canlek· Aṁval· vlaḥ I satra poñ· vidyādharade-
+                   <lb n="14"/>va raṅko liḥ I canlek· Aṁval· vlaḥ I jīvana saṁpol· raṅko thloṅ· IIIII canlek· yau I kñuṁ I Aṁruṅ·
+                   <lb n="15"/>sre vraḥ kaṁmratāṅ· Añ· śrī khaṇḍaliṅga Aṁvi travaṅ[[·]] [dha]rmma[k]īrtti loḥ travaṅ· poñ· bhāśānti loḥ
+                   <lb n="16"/>travaṅ· poñ· dharmmadeva loḥ tel· ta travaṅ· hvacca loḥ travaṅ· poñ· kdatta tarap· gi jaṁnan·
+                   <lb n="17"/>kurāk(·) danle krohva lo[ḥ] travaṅ(·) Alāṅṅa loḥ travaṅ· poñ· devādhivāssa loḥ travaṅ·
+                   <lb n="18"/>mratāñ· dharmme loḥ travaṅ· poñ· vinita loḥ travaṅ· poñ· siddhikīrtti loḥ travaṅ· poñ·
+                   <lb n="19"/>candrānan· loḥ travaṅ· ku kañcanna loḥ travaṅ· kloñ· khe loḥ ta gi sre pradāna poñ(·) kaṁvinna
+                   <lb n="20"/>ta Āy· vrai tlanna gi Aṁruṅ· gi sre vraḥ kaṁmratāṅ· Añ· ś[r]ī khaṇḍaliṅga ge ta
+                   <lb n="21"/>sak(·) gui ge ta kmi ta gui ge dau Avicinarakka dauṅ· ge pitr̥ ge dauṅ· ge kulla ge ta daṅ·
+                   <lb n="22"/>ket· sinna daṁgop· vraḥ kaṁmratāṅ· Añ· tel· kap· pātra ge kule poñ(·)
+                   <lb n="23"/>bhavacandra sanme ni dauṅ· poññ· ge Oy· kñau[ṁ] bhaiy· I jamaḥ gui kñuṁ va kan· I ku pu I ku
+                   <lb n="24"/>kan(·)As· ku saṁAp· I vā kan·soṁ I vā tnak· I vā tkes· I ku tvāy· I ku vreṅ· I vā sraṅe I vā 
+                   <lb n="25"/>dha[r]mmadat· I vā saṁvara I ku syer· I ku chāñ· I ku krohva I vā yacjadat(·) I ku cakcek· vā dha-
+                   <lb n="26"/>rmmacan(·) I Aṁraḥ vā teṅ· I vā śveta kñuṁ ta man· kloñ· Aṁmr̥ta Oy· ta vraḥ ku Au I vā dharmmarakṣa I vā kan·-
+                   <lb n="27"/>saṁ I vā tyon· I ku vrohv· I vā caṁpeṅ· I kñuṁ man· poñ· candrānna Oy(·) ta pitr̥ ku kaṁput· I kñuṁ man·
+                   <lb n="28"/>kloñ· trasok· Oy· ta vraḥ vā sunīti I ku kandai kñuṁ ta man· poñ· jānaprakāśa Oy· ta vraḥ ku karuṁ vā
+                   <lb n="29"/>koc· vā saṁvar· kñuṁ ta ma[n·] poñ· vinduśakti pradāna ta vraḥ kamratāṅ· Añ· śrī khandaliṅga ku qnāda I 
+                   <lb n="30"/>ku laṁnāṅ· I vā subhava [I] vā karon· I ku janiEl· I kñuṁ ta man· mratāñ· jānavina Oy· ta vraḥ kaṁmratāṅ· Añ·
+                   <lb n="31"/>śrī khandaliṅga vā tmar· I ku karoṁ kñuṁ ta man· kloñ· tāñ· Oy· ta vraḥ ku tṅoh· I kñuṁ Aṁ-
+                   <lb n="32"/>noy· poñ· bhavacandra ta vraḥ kaṁmratāṅ· Añ· śrī khandaliṅga ku tpit· I ku kanso ku narek(· I)
+                   <lb n="33"/>vā dhanarakṣa I ku masi I ge tel· poñ· bhavacandra pre tve sre saṁpol· pre caṁ kOl(·) saṁpol· pre caṁ poṣa
+                   <lb n="34"/>saṁpol· ge diḥ paṁre ta vraḥ sin· gui kañ·jrap· ta man varta nā vraḥ kaṁmratāṅ· Añ· śrī (kai-)
+                   <lb n="35"/>lāsovara tel· poñ· vidyākumāra psaṁ paribhoga ta vraḥ kaṁmratāṅ· Añ· śrī khandali-
+                   <lb n="36"/>ṅga (space) Aṁruṅ· sre ta dai gui kañ·jrap· tloṅ· I kñuṁ I jaṁnon· Ākara ta vraḥ kaṁmratāṅ· Añ· śrī khandaliṅga raṅko tloṅ(·?) I
+                   <lb n="37"/>caṅlek· Aṁval· vlaḥ I pratisaṁvatsara ($dotMid?) ku saṁAp {3}k gui kañ·jrap(·?)
+                   <lb n="38"/>kñuṁ man· poñ· jānaprakāśa Oy· Antyanti sot· ta vraḥ [kaṁmratāṅ· Añ· śr]ī khaṇḍaliṅga
+                   <lb n="39"/>ku chāñ· I ku drahāy(·?) I kon· ku ku krahvāñ(·?) I k{5} psaṁ nu gui
+                   <lb n="40"/>Aṁ{6} ge sanme ni camm· raṅko ta {5} [Aṁ]val(·?) vlaḥ I
+                   <lb n="41"/>ye {4} satra ta roḥ {5} ge tel(·?)
+                   <lb n="42"/>{2}
+                </p>
+            </div>
+            <div type="apparatus">
+               <listApp>
+                  <app loc="2">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1937-1966_01"></rdg>
+                  </app>
+               </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p rend="stanza" n="1">Victoire à Maheśvara, unique protecteur de tous les mondes, qui se répand dans l'univers entier grâce à ses huit corps.</p>
+            <p rend="stanza" n="2">Jayavarman a associé le (dieu) nommé Śrī Khaṇḍaliṅga avec Raṇḍāparvateśa en śaka comportant (6) saisons, l'espace (= 0) et 3.</p>
+            <p rend="stanza" n="3">Ce qui a été donné à Śrī Khaṇḍaliṅga par le sacrificateur Bhavacandra ne doit être pris ni par ses enfants et petits-enfants, ni par les autres membres de sa famille.</p>
+            <p rend="stanza" n="4">Que les hommes vils qui s'empareraient du bien de Śrī Khaṇḍaliṅga, aillent dans l'enfer Avīci avec leurs ancêtres et leurs parents.</p>
+            <p rend="stanza" n="5">Au total: vingt (mesures) de riz, un serviteur, deux vêtements sont donnés annuellement d'ici à Raṇḍāparvateśvara.</p>
+            <p rend="stanza" n="6">Celui qui néglige (de donner) comme il sied, à chaque fête, le riz blanc, ainsi que la prestation fixée, va de ce chef dans [l'enfer] Tāmisra.</p>
+            <p n="7-14">Fixation des oblations et autres revenus du K. A. Śrī Khaṇḍaliṅga, que le Poñ Bhavacandra donne comme redevances : 1 liḥ de riz blanc, 3 liḥ de vanli, 2 liḥ de si ple. 
+Donations aux religieux : 2 liḥ. 
+Donation aux hôtes : 1 liḥ. 
+Donation aux mânes des ancêtres: 1 liḥ, 4 yau de vêtements ple vagr̥ṣā doubles, 1 yau d'aṁval, 1 vlaḥ de vêtements aṁval des ancêtres. 
+Donation du Kloñ Mr̥ta : 1 liḥ de riz blanc, 1 vlaḥ de vêtements aṁval. 
+Donations du Poñ Jñānavindu au K. A. Śrī Khaṇḍaliṅga: 1 liḥ de riz blanc, 1 vlaḥ de vêtements aṁval. 
+Donation du Poñ Jñānaprakâça: 1 liḥ de riz blanc, 1 vlaḥ de vêtements aṁval. 
+Donation du Kloñ Tāñ : 1 liḥ de riz blanc, 1 vlaḥ de vêtements aṁval. 
+Donation du Poñ Vidyādharadeva: 1 liḥ de riZ blanc, 1 vlaḥ de vêtements aṁval. 
+Entretien des saṁpol : 5 thloṅ de riz blanc, 1 yau de vêtements, 1 esclave.</p>
+            <p n="15-20">Etendue des rizières du V. K. A. Śrī Khaṇḍaliṅga : depuis l'étang de Dharmmakīrtti jusqu'à l'étang du Poñ Bhāśānti, jusqu'à l'étang du Poñ Dharmmadeva, jusqu'à l'eodroit où est l'étang de Hvac, jusqu'à l'étang du Poñ Kdat, tout le long de la foulée de Kurāk Danle Krohv jusqu'à l'étang Alāṅ, jusqu'à l'étang du Poñ Devādhivas, jusqu'à l'étang du Mratāñ
+Dharmme, jusqu'à l'étang du Poñ Viṇīta, jusqu'à l'étang du Poñ Siddhikīrtti, jusqu'à l'étang du Poñ Candrānan, jusqu'à i'étang de Ku Kañcan, jusqu'à l'étang du Kloñ Khe, jusqu'où [se trouve] la rizière offerte par le Poñ Kaṁvin dans la forêt de Tlan. Telle est l'étendue des rizières du K. A. Śrī Khaṇḍaliṅga.</p>
+            <p n="20-22">Ceux qui dérobent ceci, ceux qui réclament ceci, ceux-là iront dans l'enfer Avīci avec leurs ancêtres et tous leurs parents encore à naître.</p>
+            <p n="22-27">... du Seigneur, lorsqu'on a enfoui le bol, donnés par la famille du Poñ Bhavacandra de concert avec le Poñ : une vingtaine d'esclaves. 
+Noms des esclaves : (suit une liste de 10 vā, 9 ku, 1 aṁraḥ vā). 
+Esclaves que le Kloñ Amr̥ta donne au dieu : (2 ku, 4 vā). 
+Esclave que le Poñ Candrānna donne aux ancêtres (1 ku). 
+Esclaves que le Kloñ Trasok donne au dieu (2 esclaves dont 1 ku). 
+Esclaves que le Poñ Jñānaprakāśa donne au dieu (1 ku, 2 vā). 
+Esclaves que le Poñ Vinduśakti donne au V. K. A. Śrī Khaṇḍaliṅga (3 ku, 2 vā). 
+Esclaves que le Mratāñ Jñānavindu donne au V. K. A. Śrī Khaṇḍaliṅga (1 vā, l ku). 
+Esclave que le Kloñ Tāñ donne au dieu (1 ku). 
+Esclaves, don du Poñ Bhavacandra au V. K. A. Śrī Khaṇḍaliṅga (4 ku, 1 vā), que le Poñ Bhavacandra charge de faire les rizières des saṁpol, de fournir le kaOl des saṁpol, de fournir la nourriture des saṁpol. Ceux-là ... encore les serviteurs du dieu à Kañjrap qui réside devant le V. K. A. Śrī Kailāsovara, et dont le Poñ Vidyākumâra réunit les revenus avec ceux du V. K. A. Śrī
+Khaṇḍalinga. Etendue de la rizière et autres (biens) à Kañjrap: 1 tloṅ, 1 esclave. Fourniture des revenus du V. K. A. Śrī Khaṇḍaliṅga, 1 tloṅ de riz blanc, 1 vlaḥ de vêtements aṁval, annuellement.</p>
+            <p n="37-42">La ku SaṁAp ... Kañjrap.</p>
+         </div>
+         <div type="commentary">
+         </div>
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">39-44</citedRange></bibl>) without a French translation; reedited here by Kunthea Chhom basing on EFEO n. 409.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+<ptr target="bib:Coedes1937-1966_01"/>
+<citedRange unit="volume">2</citedRange><citedRange unit="page">39-44</citedRange>
+</bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
