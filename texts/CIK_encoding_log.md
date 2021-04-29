@@ -17,7 +17,7 @@
 |K.	10 |# |# |#|
 |K.	11 |kuch|done | IC II|
 |K.	12 |# |# |#|
-|K.	13 |kuch |pending |ISC|
+|K.	13 |kuch |done |ISC|
 |K.	14 |kuch |done |ISCC|
 |K.	15 |# |# |#|
 |K.	16 |# |# |#|
@@ -572,7 +572,7 @@
 |K.	558 |# |# |#|
 |K.	559 |kuch |pending |IC II|
 |K.	560 |kuch |done |IC VI|
-|K.	561 |kuch |pending |IC II|
+|K.	561 |kuch |done |IC II|
 |K.	562 |kuch |done |IC II|
 |K.	563 |kuch |done |IC II|
 |K.	564 |# |# |#|
@@ -1060,7 +1060,7 @@
 |K.	1039 |# |# |#|
 |K.	1040 |chch |pending |unpublished|
 |K.	1041 |# |# |#|
-|K.	1042 |# |# |#|
+|K.	1042 |kuch |done |Chhom etal 2021|
 |K.	1043 |# |# |#|
 |K.	1044 |# |# |#|
 |K.	1045 |# |# |#|
@@ -1435,7 +1435,7 @@
 |K.	1413 |kuch |done |Hun 2018|
 |K.	1414 |# |# |#|
 |K.	1415 |# |# |#|
-|K.	1416 |kuch |pending |Hun 2018|
+|K.	1416 |kuch |done |Hun 2018|
 |K.	1417 |kuch |pending |Goodall et al forthcoming|
 |K.	1418 |# |# |#|
 |K.	1419 |kuch |done |Chhom 2019|
@@ -1525,3 +1525,13 @@ K.	1502 |chch |done |unpublished|
 K.	1503 |chch |pending |unpublished|
 K.	1504 |chch |pending |unpublished|
 K.	1505 |chch |pending |unpublished|
+K.	1506 |# |# |#|
+K.	1507 |# |# |#|
+K.	1508 |# |# |#|
+K.	1509 |# |# |#|
+K.	1510 |# |# |#|
+K.	1511 |# |# |#|
+K.	1512 |# |# |#|
+K.	1513 |# |# |#|
+K.	1514 |# |# |#|
+K.	1515 |kuch |done |unpublished|
