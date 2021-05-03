@@ -1515,10 +1515,10 @@
 |K.	1493 |chch |pending |unpublished|
 |K.	1494 |chch |pending |unpublished|
 |K.	1495 |chch |pending |unpublished|
-|K.	1496 |chch |pending |unpublished|
-|K.	1497 |chch |pending |unpublished|
-|K.	1498 |chch |pending |unpublished|
-|K.	1499 |chch |pending |unpublished|
+|K.	1496 |chch |done |unpublished|
+|K.	1497 |chch |done |unpublished|
+|K.	1498 |chch |done |unpublished|
+|K.	1499 |chch |done |unpublished|
 |K.	1500 |chch |done |unpublished|
 K.	1501 |chch |pending |unpublished|
 K.	1502 |chch |done |unpublished|
