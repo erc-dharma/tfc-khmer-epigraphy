@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary Stela of Angkor Borei (K. 24), 7th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00024</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The basic punctuation sign in this text is an ornate double <foreign>daṇḍa</foreign> written in one continuous movement, resembling an inverted S-shape. The name of the poet being made known in the text itself, it is possibile that the hand is that of the poet.<!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2020-07-21">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+                   <div type="textpart" n="A"><head xml:lang="eng">Face</head>
+                <p>
+                   <lb n="A1"/>... poñ· vrau $dotMid va knoc· $dotMid va tmās· $dotMid va klV...
+                   <lb n="A2"/>...hv· $dotMid ti kantaiy· ku ñañ· $dotMid pau tai $dotMid ku ya huṅ· $dotMid ku ya ...
+                   <lb n="A3"/>...c· daṅ· $dotMid va Aṇḍaṅ· $dotMid va señ· ṭeṅ· $dotMid va ta Au $dotMid va ta Uy· $dotMid ...
+                   <lb n="A4"/>... va {1} lku {1} $dotMid va ta {2} $dotMid va tpeṅ· $dotMid va tvaiy· $dotMid va lahvāy· $dotMid va vleṅ· $dotMid va {2}ṅ...
+                   <lb n="A5"/>...hv· $dotMid va {1}kuñ· $dotMid va latuḥ $dotMid va tānmar· $dotMid va pāy· Añ· $dotMid va kāhv· seṅ· $dotMid va jeṅ· $dotMid va ta Ol· $dotMid va ...
+                   <lb n="A6"/>... va laṇḍan· $dotMid va lahvā $dotMid va cār· $dotMid va tahvan· $dotMid va slā $dotMid va tralā pju $dotMid va ta Uḥ $dotMid va vrai $dotMid va tkuñ· $dotMid va kantāṅ· $dotMid va...
+                   <lb n="A7"/>... Cvaṅ· $dotMid va dak· $dotMid [va] ta Oṅ· $dotMid va gulut· $dotMid va clohv· $dotMid va {2} $dotMid va tvaṅ· $dotMid va ta Oḥ $dotMid va kCaṁ $dotMid va ta duy· $dotMid va ta caC· $dotMid va CyV...
+                   <lb n="A8"/>... va tgor· $dotMid va tvaḥ $dotMid va tkaṅ· $dotMid va kliṅ· $dotMid va grec· $dotMid va {1}ñcaṅ $dotMid va tma{1} $dotMid va gñaḥ $dotMid va kuñjahv· $dotMid va tyas· $dotMid va Ustai $dotMid va kañcaṅ· $dotMid va ka...
+                   <lb n="A9"/>... ku priṅ· $dotMid ku qme ca tuṅ· $dotMid ku ktaṅ· $dotMid ku pekan· $dotMid ku yavai $dotMid ku {1}cat· $dotMid ku pheṁ $dotMid ku ya laḥ $dotMid ku stūr· $dotMid ku rV...
+                   <lb n="A10"/>... ku ya seṅ· $dotMid ku ya {3} $dotMid ku ya ṅau $dotMid ku ya pāc· $dotMid ku ya men· $dotMid pau sī $dotMid ku ya {1} $dotMid pau tai $dotMid ku ya sat· $dotMid pau...
+                   <lb n="A11"/>... pau tai $dotMid ku ta Āy· $dotMid pau sī $dotMid ku ya mās· $dotMid ku karttavaṅ· $dotMid ku tye $dotMid ku kantakoy· $dotMid ku ta Āy· $dotMid ku ya caṅ· $dotMid ku ya mun· $dotMid ...
+                   <lb n="A12"/>... ku ya vaṅ· $dotMid ku me tyuk· $dotMid ku kañcu $dotMid $dotMid ku prahvel· $dotMid ku ya voṁ $dotMid ku ya kān· $dotMid ku ya roñ· $dotMid ku ya{1}ñ· $dotMid lāṅ si $dotMid {2} ku ya...
+                   <lb n="A13"/>...ce {1} $dotMid ku ya lahv· $dotMid ku kantavaṅ· $dotMid ku ya {2} $dotMid ku sarac· $dotMid ku ya māl· $dotMid ku me vrai $dotMid ku ta {2} ku ya kā {1} $dotMid ku ya...
+                   <lb n="A14"/>... vināsa pa gū $dotMid ku hvaḥ $dotMid ku me ke {1} $dotMid ku met· $dotMid ku {1} tkaṅ· $dotMid ku kañjahv· $dotMid ku cāk· $dotMid ku mās· $dotMid ku līñ· $dotMid ku... $dotMid
+                   <lb n="A15"/>... ku ya {1} $dotMid ku ya {1}ñ· $dotMid ku mana $dotMid ku tgul· $dotMid ku {1}Ci $dotMid ku {1} $dotMid ku suc· $dotMid ku tmañ· $dotMid ya {1} $dotMid ya{1} ya ñ{1}hv· $dotMid ya roṅ· $dotMid ...
+                   <lb n="A16"/>... seṅ· pau {10} santan· ta {1}l $dotMid ya caṅ· $dotMid ta hvey· $dotMid {3} ku men· $dotMid po {3}
+                </p>
+                   </div>
+                   <div type="textpart" n="B"><head xml:lang="eng">Face</head>
+                      <p>
+                         <lb n="B1"/>... ku kur(·) sin· $dotMid ...
+                         <lb n="B2"/>... ku si $dotMid pau tai $dotMid ku tāṅ· $dotMid ku paṅ·... 
+                         <lb n="B3"/>... ku toṅ· kon· [d]e[r]· t]ai [$dotMid] pau sī...
+                         <lb n="B4"/>...ṅs(a) $dotMid ku ca...
+                         <lb n="B5"/>... pau sī $dotMid ku c(naṁ) ...
+                         <lb n="B6"/>... kur· $dotMid der· tai $dotMid {3} der[·] tai $dotMid p[au] t[ai] $dotMid ku ...
+                         <lb n="B7"/>... kur· $dotMid der· tai $dotMid pau tai $dotMid ku vāṅ[·] $dotMid ku mo $dotMid ku kur· sin· $dotMid ku so {1} $dotMid lāṅ(·) tai ...
+                         <lb n="B8"/>... Aṁraḥ toy· vac dha[r]mma {1} va jana $dotMid va {1}ṁ $dotMid va jāṅ· $dotMid va caṅ· $dotMid va kruṅ· $dotMid va sāy· $dotMid va jo sin· $dotMid va caṅ·...
+                         <lb n="B9"/>... va cau $dotMid va caṅ sin· $dotMid va {1} sin· $dotMid va {1} sin· $dotMid va kantāṅ· $dotMid va koñ· $dotMid va co $dotMid va kuñ· $dotMid [va] {1}ṅ· $dotMid va po $dotMid va caṁpeṅ· $dotMid va rañ· $dotMid ...
+                         <lb n="B10"/>... va (t)ā ka(n)mar· $dotMid caṁUk· va cāṅ· $dotMid va coṅ· $dotMid va pai luṅ· $dotMid va ye $dotMid va kvas· $dotMid va deṅ[[·]] $dotMid v[a] {2}ṅ· $dotMid va kaOn· $dotMid va co $dotMid va rāñ[[·]] $dotMid va kante(ṅ·) [$dotMid] ...
+                         <lb n="B11"/>... va kohv· $dotMid va kantau $dotMid va seṅ· $dotMid va coṅ· $dotMid va kaṁpoñ· $dotMid va viṅ· $dotMid va kañca sin· $dotMid va co $dotMid va moñ· $dotMid va cuṇi $dotMid va rāñ· sin· $dotMid va jmeṅ· $dotMid ...
+                         <lb n="B12"/>... va teṅ· $dotMid va dvār· $dotMid va jikāy· $dotMid va soḥ $dotMid va Ahaṁ mūla $dotMid va kohv· $dotMid va kāy· $dotMid va ṅas· ru $dotMid va piluṅ sin· $dotMid ta klamuṁ ku ṇiy· $dotMid ku teṅ· $dotMid ku vut· $dotMid ...
+                         <lb n="B13"/>... ku vut sin· $dotMid ku teṅ· $dotMid ku teṅ sin· $dotMid ku kur· $dotMid ku mas· $dotMid ku yoṅ· $dotMid ku roy· $dotMid ku son· $dotMid ku toy· $dotMid ku mau $dotMid ku tā {1}y· $dotMid ku jā Ārttai ku vo $dotMid ku teṁ $dotMid ku teṅ· $dotMid ...
+                         <lb n="B14"/>...y· $dotMid ku tai $dotMid ku tāṅ· $dotMid kantai ta konna ku tey· $dotMid lān tai $dotMid ku tak· $dotMid ku vai $dotMid pau si $dotMid ku vo sin· $dotMid ku cuṅ· $dotMid ku kur· $dotMid lāṅ tai $dotMid pau ...
+                      </p>
+                   </div>
+                </div>
+                <div type="apparatus">
+               <listApp>
+                  <app loc="3">
+                     <lem>śi va dat</lem>
+                     <rdg source="bib:Coedes1937-1966_01">śivadat<supplied reason="lost">ta</supplied></rdg>
+                  </app>
+               </listApp>         
+         </div>
+        <!-- <div type="translation">
+ 	<!-\-translation encoded as per EG §9.2 -\->
+         </div>-->
+         <div type="commentary">
+            <p>In his Inscriptions du Cambodge, volume VIII, Coedès states that there are 17 lines on the face A.</p>
+         </div>
+      <div type="bibliography">
+          <p>First edited by George Coedes (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">16-17</citedRange></bibl>) without translation; re-edited here by Kunthea Chhom from the EFEO estampage n. 395.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">16-17</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+         </body>
+    </text>
+</TEI>
