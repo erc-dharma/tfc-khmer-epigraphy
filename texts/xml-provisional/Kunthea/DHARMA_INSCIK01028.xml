@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Vat Prei Veng (K. 1028), 536 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01028</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-05-17">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Face</head>
+   <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A1"/>caṇḍakātyā(y)i(n)ī d(e)vī</l>
+<l n="b">sthāpitā yajña(dā)yinā</l>
+<l n="c"><lb n="A2"/>sthāpitā yajña(dā)yinā</l>
+<l n="d">khaveruṁ pal(p/y)atāṁ purīm·</l>
+</lg>
+   <lg n="2" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="a"><lb n="A3"/>yasyā ye vibhavā svayajñapatinā dattā svayaṁ śra(d)dhayā</l>
+<l n="b"><lb n="A4"/>tān hart(uṁ) manasāpi kim vata girā kāyena vā(ñ)chanti ye</l>
+<l n="c"><lb n="A5"/>(d)uẖkh(ā)rttā Iha (t)e paratra narakaṁ (ga)cchanti t(ī)[v]ran narāḥ</l>
+<l n="d"><lb n="A6"/>kas tasyā (na) (ma)naḫprasādam adhikaṁ kuryy(ān ma)hāśreyase</l>
+</lg>
+   <lg n="3" met="indravajrā" xml:lang="san-Latn">
+<l n="a"><lb n="A7"/>jātim varaṁ viprakuleṣu jātiṁ</l>
+<l n="b">medhāvitām iśvaratāṁ priyatvaṁ</l>
+<l n="c"><lb n="A8"/>bha(v)e bhave puṇyanayair avāpn(u)yād</l>
+<l n="d">devyā samaṁ yāvad a(m)okṣagāmī</l>
+</lg>
+   <lg n="4" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="a"><lb n="A9"/>ṣallokeṣvabhi(lakṣ)itā (ś)akasa(m)ā mā(s)o yadā kārttikaś</l>
+<l n="b"><lb n="A10"/>śuklo (dv)ādaśa(v)āsaro jhaṣagato mīnāntagaś candramāḥ</l>
+<l n="c"><lb n="A11"/>p(ū)r(v)vasyān diśi vr̥(ś)[c](i)(k)[aṁ/e] samu[d](it)aṁ lagnaṁ tadā sthāpitā</l>
+<l n="d"><lb n="A12"/>- - (n)ā (v)i(bha) - ~ - ~ ~ ~ - - caṇdakātyāyin(ī)</l>
+</lg>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Face</head>
+<p>
+<lb n="B1"/>
+   <lb n="B2"/>
+   <lb n="B3"/>
+   <lb n="B4"/>
+   <lb n="B5"/>
+   <lb n="B6"/>
+   <lb n="B7"/>
+   <lb n="B8"/>
+   <lb n="B9"/>
+   <lb n="B10"/>
+   <lb n="B11"/>
+   <lb n="B12"/>
+   <lb n="B13"/>
+   <lb n="B14"/>
+   <lb n="B15"/>
+   <lb n="B16"/>
+   <lb n="B17"/>
+   <lb n="B18"/>
+   <lb n="B19"/>
+   <lb n="B20"/>
+   <lb n="B21"/>
+</p>
+                   </div>
+                </div>
+                <div type="apparatus">
+               <listApp>
+                  <app loc="B4">
+                     <lem></lem>
+                     <rdg source="bib:Pou2001_01"></rdg>
+                    </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
+            <p n="1-12"></p>
+            <p n="1-12"></p>
+            <p n="1-12"></p>
+            <p n="1-12"></p>
+            <p n="1-12"></p>
+            </div>
+         <div type="commentary">
+            <p>The stanza IV mentions the date of the installation of the image of Goddess Caṇḍakātyāyinī. Its French translation by Roger Billard (March 01, 1970) is as follows:
+            Les années <foreign>śaka</foreign> étant marquées par 536 <supplied reason="explanation">les cinq flèches, les trois mondes, six</supplied>, au douzième jour de la quinzaine croissante du mois Kārttika, la Lune dans les Poissons, en dernier <supplied reason="explanation">décan</supplied> des Poissons, à l’orient le Scorpion étant au point levant <supplied reason="explanation">en « maison I »</supplied>, alors a été consacrée…
+            </p>
+         </div>
+       <div type="bibliography">
+          <p>The Khmer part on Face B is first edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">25-26</citedRange></bibl>) with a French translation. The Sanskrit part on Face A is first edited by G. Gerscheimer &amp; D. Goodall; re-edited here by Kunthea Chhom based on the EFEO estampage n. 1286.</p>
+	 <listBibl type="primary">
+    <bibl n="SP">
+      <ptr target="bib:Pou2001_01"/><citedRange unit="page">25-26</citedRange>
+    </bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
