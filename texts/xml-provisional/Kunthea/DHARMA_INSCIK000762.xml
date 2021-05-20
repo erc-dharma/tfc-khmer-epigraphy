@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb of Tuol Preah Theat (K. 762), 595 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK000762</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2021-05-20" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="āryā">
+<l n="a"><lb n="1"/>śaranavaśarāṅkitā<choice><orig>p</orig><reg>b</reg></choice>de <space/></l>
+<l n="b">vr̥ṣendralagne punarvvasuyutendau</l>
+<l n="c"><lb n="2"/>caitrasitapakṣanavame _</l>
+<l n="d">sthāpitam atraiśvaraṁ liṅgam·</l>
+</lg>
+                   <lg n="2" met="āryā">
+<l n="a"><lb n="3"/>jayati jagadekahetur _</l>
+<l n="b">nnatajananiśśreyasābhyudayakārī</l>
+<l n="c"><lb n="4"/>kāmañ jagatsucarita_c</l>
+<l n="d">chedanam iti yas sa nirddahati</l>
+</lg>
+                   <lg n="3" met="āryā">
+<l n="a"><lb n="5"/>yasyājitacakrabhr̥to _</l>
+<l n="b">jitaśatrugaṇasya vikrameṇa jitā</l>
+<l n="c"><lb n="6"/>Api sāgaraparyyantā _</l>
+<l n="d">karāvavaddhā harer iva bhūḥ</l>
+</lg>
+                   <lg n="4" met="āryā">
+<l n="a"><lb n="7"/>rājā śrījayavarmmā _</l>
+<l n="b">śrīpatir iva sarvvadā śriyā juṣṭaḥ</l>
+<l n="c"><lb n="8"/>raṇaśatajayināṁ rājñāṁ _</l>
+<l n="d">sa mānanīyaḥ puroyātaḥ</l>
+</lg>
+                   <lg n="5" met="āryā">
+<l n="a"><lb n="9"/>savalair api nr̥pasiṅhai_r</l>
+<l n="b">durllaṅghitaśāsanasya tasyaiva</l>
+<l n="c"><lb n="10"/>bhr̥tyas svāmyanurakta_s</l>
+<l n="d">tyāgī śūro vijitaśatru(ḥ)</l>
+</lg>
+                   <lg n="6" met="āryā">
+<l n="a"><lb n="11"/>svasvāminaḫ prasādā_t</l>
+<l n="b">sa ca rājasabhādhipatyakr̥tanāmā</l>
+<l n="c"><lb n="12"/>sauvarṇṇakalaśakaraṅka_</l>
+<l n="d">sitātapatrādisanmānaḥ</l>
+</lg>
+                   <lg n="7" met="āryā">
+<l n="a"><lb n="13"/>tenaikāntikabhaktyā _</l>
+<l n="b">śambhos svāyaṁbhuvaṁ mahāliṅgaṁ</l>
+<l n="c"><lb n="14"/>śrīkedāreśvara Iti _</l>
+<l n="d">nāmnā sa[ṁ]sthāpitaṁ vidhinā</l>
+</lg>
+                   <lg n="8" met="āryā">
+<l n="a"><lb n="15"/>haimaṁ kośaṁ makuṭaṁ _</l>
+<l n="b">kalaśakaraṅkaṁ tathā ca rūpyamayaṁ</l>
+<l n="c"><lb n="16"/>kṣetrārāmā vahavo _</l>
+<l n="d">gomahiṣā dāsavarggāś ca</l>
+</lg>
+                   <lg n="9" met="āryā">
+<l n="a"><lb n="17"/>vividho dravyaviśeṣaḥ _</l>
+<l n="b">śraddhādatto dhiyā kurājena</l>
+<l n="c"><lb n="18"/>śrīkedāreśvarasya _</l>
+<l n="d">pūjārthan tena bhaktimatā</l>
+</lg>
+                   <lg n="10" met="āryā">
+<l n="a"><lb n="19"/>dattam idam uttarodaya_</l>
+<l n="b">nāmābhyāṁ tatsvabhāgineyābhyāṁ</l>
+<l n="c"><lb n="20"/>sapuraṁ pūjāsthitaye _</l>
+<l n="d">tena ca tasyaiva devasya</l>
+</lg>
+                   <lg n="11" met="āryā">
+<l n="a"><lb n="21"/>śrīkedāreśadhanaṁ _</l>
+<l n="b">yat kiñ cit kaś cid āhr̥tya sarat[i]</l>
+<l n="c"><lb n="22"/>Ekāviṅśatinarakā_n</l>
+<l n="d">duẖkhānalatāpito vrajatu</l>
+</lg>
+                </div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1937-1966_01"></rdg>
+                      <note></note>
+                  </app>
+                   
+               </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p rend="stanza" n="1"></p>
+            <p rend="stanza" n="2"></p>
+            <p rend="stanza" n="3"></p>
+            <p rend="stanza" n="4"></p>
+            <p rend="stanza" n="5"></p>
+            <p rend="stanza" n="6"></p>
+            <p rend="stanza" n="7"></p>
+            <p rend="stanza" n="8"></p>
+            <p rend="stanza" n="9"></p>
+            <p rend="stanza" n="10"></p>
+            <p rend="stanza" n="11"></p>
+             </div>
+         <div type="commentary">
+            <p></p>
+         </div>
+         <div type="bibliography">
+          <p>First edited by George Coedès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">1</citedRange><citedRange unit="page">12-15</citedRange></bibl>) with a French translation; re-edited here by Gerdi Gerschheimer and Kunthea Chhom based on the EFEO estampage n.963.</p>
+	 <listBibl type="primary">
+    <bibl n="AB">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">1</citedRange><citedRange unit="page">12-15</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
