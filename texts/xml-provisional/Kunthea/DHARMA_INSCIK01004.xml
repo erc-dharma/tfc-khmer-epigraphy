@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb of Tuol Kuhear (K. 1004), 612 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311"> <!-- To change the viaf's number! -->
+                  <forename>Philip</forename>
+                  <surname>Jenner</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01004</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-06-01">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+   <lg n="1" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="a"><lb n="1"/>Abde śrīmati dasrakevalarasai rājñaś śakānā(ṁ) yadā <space/></l>
+<l n="b">(g)uṇye māghasite (va)r[iṣ]ṭhadivase samyag d(v)itīye (v)r̥(ṣ)e</l>
+<l n="c"><lb n="2"/>meṣasyāpy (u)dayo mr̥gendrabhavanasyādau himāṅśus sthito <space/></l>
+<l n="d">rājñā śrījayavarmmaṇātra nikhi(la)n dattan ta[dā] śāśana[m·]</l>
+</lg>
+<p>
+<lb n="3"/>Ājñā vraḥ kamratāṅ(·) Añ(·) n[i] gi canlek· Āgama man(·) Anak(·) j[on·] Āy(·) ta vraḥ kamratāṅ(·) A[ñ·]
+   <lb n="4"/>śrīmad āmrātakeśvara vojā ple Oy· Anāc· ta Anak(·) ge ple le gandharvva Anak· Aṅgaṇavādya ple sCVaCV
+   <lb n="5"/>draghoṣa ta hvera paṁre ta vraḥ kamratāṅ· Añ· ta gi mo ta kanla[ḥ]ha doṅ(·) Anak(·) ge vraḥha voṁ jā cloṅ
+   <lb n="6"/>dau sruk· moy· tel· pre caṁ pjuḥ vraḥ kamratāṅ· Añ· triṣkāla cracar· tṅai kñuṁ vraḥ sthiti ta cuḥ ka vra[ḥ]
+   <lb n="7"/>klaḥ pi bhayya ta cuḥ tṅai vraḥha śata moyya daha mān(·) kāryya vraḥ kamratāṅ· Añ· ple tve pre hau ple le vera
+   <lb n="8"/> gandharva vera Anak(·) Aṅgaṇa ponna mratāñ· bhagavata doṅ· ge mratāñ paṁjuḥ vraḥ kamratāṅ· Añ· phoṅṅa gi ta
+   <lb n="9"/>paOc· gi pūjā vraḥ kamratāṅ· Añ· cracar(·) tṅai ta gi triṣkāla ta gi mān(·) ta kliṣṭa co[[r·]] grap(·) roḥha ta man· pre Aṁ<lb 
+      n="10" break="no"/>vī kanloṅṅa pre ge mratāñ· kathāra gi ge ta kloñ(·) sruk(·) Amrāta pre Oy· Anak(·) pamre ta ge mratāñ· cor·
+   <lb n="11"/>grap· nau gi varṣā ge mratāñ· pre yatna tve gi p[l]e Oy(·) ta gi trayodaśī roc· Āśādha cor· grap· ple sa[ṁ]vatsara
+   <lb n="12"/>pre gi bhaktaśālā doṅ· gi Anak(·) cmaṁ gi pratibaddha mratā[ñ· bhagavata doṅ· ge mratāñ·] ta pa[ṁ]juḥ vraḥ kamratāṅ· Añ·
+   <lb n="13"/>phoṅṅa [gi] ta duk(·) gi khloñña nau ge ta cer(·) gi Aṁnoy· Aṁvi ta roḥ gi [ne]hha ge cmer(·) Ājñā vraḥ kamratāṅ(·) Añ(·) [ge daṇḍa]
+   
+</p>
+                </div>
+                <div type="apparatus">
+               <listApp>
+  <app loc="15">
+                     <lem></lem>
+                     <rdg source="bib:Pou2011_01"></rdg>
+                    </app>
+                  
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Pou2011_01">
+            <p n="11-13"></p>
+            </div>
+         <div type="commentary">
+            <p>The line 20 is not recorded by Pou.</p>
+         </div>
+       <div type="bibliography">
+          <p>The Khmer part is first edited by Philip Jenner <!-- To add SEAclassic analyzed inscriptions. --> with an English translation. The Sanskrit part on Face A is first edited by CIK; re-edited here by Kunthea Chhom based on the EFEO estampage n. 1292 and the photograph AMPP 000924.</p>
+	 <listBibl type="primary">
+    <bibl n="SP">
+      <ptr target="bib:Pou2011_01"/><citedRange unit="page">39-46</citedRange> <!-- To change -->
+    </bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
