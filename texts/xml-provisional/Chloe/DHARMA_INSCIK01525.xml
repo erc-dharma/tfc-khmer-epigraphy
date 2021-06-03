@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Doorjamb inscription from Tek Chha village, Kompong Cham province (K. 1525)</title>
+                <respStmt>
+                    <resp>EpiDoc Encoding</resp>
+                    <persName ref="part:chch">
+                        <forename>Chloé</forename>
+                        <surname>Chollet</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>intellectual authorship of edition</resp>
+                    <persName ref="part:chch">
+                        <forename>Chloé</forename>
+                        <surname>Chollet</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSCIK01525</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                        <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+                    </licence>
+                </availability>
+                <date from="2019" to="2025">2019-2025</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+            </projectDesc>
+            <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
+            <listPrefixDef>
+                <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+                    <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+                </prefixDef>
+                <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+                    <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:chch" when="2021-03-06">Initial encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+             <lg n="1" met="anuṣṭubh"> 
+<l n="a"><lb n="1"/><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg>tra<unclear>vā</unclear>ṅ-ruṅ<gap reason="illegible" quantity="1" unit="character"/><unclear>bhā</unclear>ge</l>
+    <l n="b">bhū<unclear>mi</unclear>ḥ <seg met="==-+-="><gap reason="lost" quantity="6" unit="character"/></seg></l> 
+<l n="c" enjamb="yes"><lb n="2"/><unclear>pa</unclear>digas-trapu-rai-dhānya</l>
+    <l n="d">kuntikābhis sa-dakṣiṇāḥ <unclear><g type="ddandaOrnate">.</g></unclear></l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="3"/>travāṅ-paśān-bhāge bhū<unclear>mi</unclear><supplied reason="omitted">ḥ</supplied></l>
+    <l n="b">ra<unclear>m</unclear>ya-grāmasya gopa<unclear>k</unclear>aiḥ</l>
+<l n="c" enjamb="yes"><lb n="4"/>padigas-sāṅguli-toṅ-sneṅ</l>
+    <l n="d">rūpya-rai-trapu-dhānya<unclear>k</unclear>aiḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="5"/>kumāra-candrasya bhāge</l>
+    <l n="b">bhūmir go-vastra-<unclear>s</unclear>ā<unclear>ja</unclear>kaiḥ</l>
+<l n="c"><lb n="6"/>kuntikā-dhānya-rai-rūpyaiḥ</l>
+    <l n="d">trapubh<supplied reason="omitted">i</supplied>s tri-tulādibhiḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="7"/>kriyārccana-catus-nehān·</l>
+    <l n="b">rājatān hāra-kāñ<supplied reason="omitted">c</supplied>anān·</l> 
+<l n="c" enjamb="yes"><lb n="8"/>dāsa-dāsī-kadāhādi</l>
+    <l n="d">padigas-sa-kamandalūn· <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="9"/>saṁkrānte tandulaṁ droṇaṁ</l>
+    <l n="b">śrī-jalāṅgeśvare 'diśat·</l>
+<l n="c"><lb n="10"/>dvi-hasta-liṅge vighneśe</l>
+    <l n="d">tat-padya-dva-dine sadā <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="11"/>sarvveṣāṁ bhūmi-bhāgā<choice><orig>ṇ</orig><reg>n</reg></choice>āṁ</l> 
+    <l n="b">gola-sīmāvadhīṁ dadhe</l>
+<l n="c" enjamb="yes"><lb n="12"/>tāsāṁ bhāge tu dhānyādi</l>
+    <l n="d">kalpitāni śivasya <unclear>vai</unclear> <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="13"/>tai-kansān·qgat-trasul-joṅ-vraḥ</l>
+    <l n="b">dāsīḥ hautra-samanvitāḥ</l>
+<l n="c" enjamb="yes"><lb n="14"/>sī-kaṁvit·-thkal-panlas<unclear>·</unclear>-chke-vā</l>
+    <l n="d">s-kaṁvau-dāsān sa-bhūmikān· <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="15"/>phala-priya-tapasvī yaḥ</l>
+<l n="b">kantāl-sruk·snaṅ-purī-girau</l>
+<l n="c" enjamb="yes"><lb n="16"/>yājako 'dhyāpakas sarvvā</l>
+<l n="d">n dadau liṅge dvi-hastake <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="17"/>dāsā na preritās sarvve</l> 
+    <l n="b">mukhendra-bhagavaj-janaiḥ</l>
+<l n="c" enjamb="yes"><lb n="18"/>pālitās te kulenādri</l>
+    <l n="d">patībhiḥ preritā navaiḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="19"/>kalpitāni vinaśyanti</l>
+    <l n="b">ye vilaṅghita-śāsanam·</l>
+<l n="c"><lb n="20"/>yair amutreha te yānti</l>
+    <l n="d">yātanā-narakān sadā <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="21"/>kalpitāni vivarddhante</l> 
+    <l n="b">ye nu kārita-śāsanam·</l>
+<l n="c"><lb n="22"/>yair amutreha te yānti</l> 
+    <l n="d">vipulān paramāṅ gatim· <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="12" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="23"/>tri-pādi-kāśikā-harṣa</l>
+    <l n="b">vaiśeṣika-mahotsavān·</l>
+<l n="c" enjamb="yes"><lb n="24"/>tri-pārameśvara-<choice><orig>ṇ</orig><reg>n</reg></choice>yāyā</l>
+    <l n="d">rāmāya<choice><orig>n</orig><reg>ṇ</reg></choice>a-sa-bhāratān· <g type="ddandaOrnate">.</g></l>
+</lg>
+         </div>
+         <div type="apparatus">
+         </div>
+         <div type="translation" xml:lang="fra" resp="part:chch">
+ 	<!--translation encoded as per EGD §9.2 -->
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+           <p>To be published in Chloé Chollet's PhD thesis.></p>
+        </div>
+      </body>
+  </text>
+</TEI>

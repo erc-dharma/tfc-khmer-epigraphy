@@ -1544,5 +1544,5 @@ K.	1521 |# |# |#|
 K.	1522 |# |# |#|
 K.	1523 |# |# |#|
 K.	1524 |# |# |#|
-K.	1525 |chch |pending |unpublished|
+K.	1525 |chch |done |unpublished|
 K.	1526 |# |# |#|
