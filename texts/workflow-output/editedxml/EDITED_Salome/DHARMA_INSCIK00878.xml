@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb of Phnom Kuk Pradak (K. 878), 820 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00878</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Salomé Pichon.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The scribe has made a use of a cursive script, caracterised by its irregularities. Both complete and abbreviated ña were engraved. A rather archaic form of double-downstroked ra has been used.</p>
+                     <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:sapi" when="2021-04-07" status="draft">started initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="okz-Latn">
+           <p>
+             <lb n="1"/>818 śaka nu dhūli vraḥ pāda śrīyaśovarmmadeva O<supplied reason="omitted">y·</supplied> sre je <num value="5">5</num> gamryāṅ· nu khñuṁ<space/> satta pramān·
+             <lb n="2"/>jeṅ<unclear>·</unclear> tarāñ· dakṣiṇā mratāñ· khloñ· rudra nā chloṅ· prāsāda vraḥ kamrateṅ· Añ· śrīyaśo<lb n="3" break="no"/>dharavr̥ṣaddhvaja jvan ta vraḥ kamrateṅ· Añ· śrīrudrasvāmi ta punya mratāñ· khloñ· rudra<g type="dotMid">.</g> gho laṁvi nārā<lb n="4" break="no"/>yana gho jen· gho śikhāśakti gho kan·hi<g type="dotMid">.</g> tai kandeṅ· tai chneṁ tai bhadra tai nai tai kaṁmah· tai saṁAp
+             <lb n="5"/>tai paṁnaṅ· tai prvot<choice><orig>a</orig><reg>·</reg></choice> tai kaṁvrau<g type="floretComplex">.</g>
+           </p>
+           <p><num value="820">820</num> nu mratāñ· khloñ· rudra svaṁ prasāda vrai bhūmi taṁvon· pramān· pū<lb n="6" break="no"/>rvvadiśa Oy· ta vraḥ kamrateṅ· śrīrudrasvāmi<g type="circleMed">.</g> vraḥ Ājñā pre mratāñ· śrīvikramāyudha vyā<lb n="7" break="no"/>pāra nā do dau Oy śapata Anak ta sruk· pvān· toy taṅ·tyaṅ· Aṁmruṅ<unclear>·</unclear> bhūmi taṁvon· saṅ gol·
+             <lb n="8"/>Oy ta vraḥ kamrateṅ· Añ rudrasvāmi<g type="circleMed">.</g> gol· ti pūrvva prasāp· l<unclear>i</unclear>peṅ·<g type="circleMed">.</g> gol· ti dakṣiṇa prasap·
+             <lb n="9"/>travāṅ· vrāhmaṇa gol· ti paścima lvoḥ ta phlū tadiṅ· gol· ti Uttara loḥ ta phlū prasap· sādhupalliya
+             <lb n="10"/>gho laṁvi vivāh· gho candravala gho vanvan· gho mandā tai laṅgāy· tai vicitra tai goli tai tirtha tai madhurā<g type="circleMed">.</g>
+             <lb n="11"/>kalpanā mratāñ· khloñ· rudra ta vraḥ kamrateṅ· Añ· śrīyaśodharavr̥ṣaddhvaja<g type="circleMed">.</g> slā ceṅ· mvāy· toṅ· vya<lb n="12" break="no"/>r<gap reason="illegible" quantity="4" unit="character"/>ra vvaṁ Āc ti hau Anak· vraḥ pi pre dai ti leṅ· jvan· dik· nu Oy· slā mahānavamī gus· Anak· bhadra-
+             <lb n="13"/>pattana <unclear>pramān</unclear>· jeṅ· vnaṁ gho kansip· gho kaṁvrau gho kaṁpur· tai jānuśrīy<choice><orig>a</orig><reg>·</reg></choice> tai bhadra tai paroṅ· neḥ gi ta Oy sñak<choice><orig>a</orig><reg>·</reg></choice>
+             <lb n="14"/>vinau mvāy· sahasra ta gi māgha gi nā svatantra Anak· vraḥ ta vrāhmaṇācāryya ta stāp· varttamāna<g type="circleMed">.</g> nau Ana<lb n="15" break="no"/>kka vvaṁ thve roḥ kalpanā neḥ ge dau ta naraka saptapuruṣāntara yāvat· candrāditya mān<unclear>·</unclear><g type="ddandaOrnate">.</g><g type="floretComplex">.</g><g type="ddandaOrnate">.</g>
+           </p>
+         </div>
+         <div type="apparatus">
+                <listApp>
+                 <app loc="8">
+                  <lem>l<unclear>i</unclear>peṅ·</lem>
+                  <rdg source="bib:Coedes1937-1966_01">peṅ·</rdg>
+                </app>
+                <app loc="12">
+                <lem>r<gap reason="illegible" quantity="4" unit="character"/>ra</lem>
+                <rdg source="bib:Coedes1937-1966_01">r<gap reason="illegible" quantity="5" unit="character"/></rdg>
+                </app>
+               </listApp>
+         </div>
+         <div type="translation" resp="part:sapi">
+           <p n="1-5">En 818 <foreign>śaka</foreign>, le roi <supplied reason="explanation"><foreign>dhūli vraḥ pāda</foreign></supplied> Śrī Yaśovarmadeva donne 5 </p>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+          <p n="1-5">En 818 <foreign>śaka</foreign>, S. M. Śrī Yaśovarmadeva donna 5 pieds de rizières à Gamryāṅ et des esclaves...... territoire de Jeṅ Tarāñ, en honoraire à Mratāñ Khloñ Rudra, lorsqu’on inaugura la tour de V. K. A. Śrī Yaśodharavṛṣadhvaja, pour l’offrir à V. K. A. Śrī Rudrasvāmi, œuvre méritoire de Mratāñ Khloñ Rudra <supplied reason="explanation">suit une liste de 4 <foreign>gho</foreign> et de 9 <foreign>tai</foreign></supplied>.
+          </p>
+          <p n="5-6">En 820, Mratāñ Khloñ Rudra demanda au roi de lui accorder gracieusement la forêt et la terre de Taṁvon, territoire de Pūrvadiśa, pour les donner à V. K. A. Śrī Rudrasvāmi.
+          </p>
+          <p n="6-8">Un ordre royal chargea Mratāñ Śrī Vikramāyudha, <foreign>vyāpāra</foreign> de deuxième catégorie, d’aller interroger sous la foi du serment les habitants des quatres pays <supplied reason="explanation">environnants</supplied> sur les dimensions de la terre de Taṁvon, et de planter les bornes pour les donner à V. K. A. Rudrasvāmi.
+          </p>
+          <p n="8-10">La borne de l’est touche à Peṅ ; la borne du sud touche à Travāṅ Brāhmaṇa ; la borne de l’ouest est au chemin de traverse ; la borne du nord est au chemin touchant Sādhupalliya <supplied reason="explanation">suit une liste de 4 <foreign>gho</foreign> et 5 <foreign>tai</foreign></supplied>.
+          </p>
+          <p n="11-12">Fondation de Mratāñ Khloñ Rudra en faveur de V. K. A. Śrī Yaśodharavṛṣadhvaja : un régime de noix d’arec, deux de noix de coco...... Défense est faite d’appeler les gens du sanctuaire pour les employer à d’autre besogne que celle consistant à fournir l’eau et à donner l’arec à la grande fête du neuvième jour.
+          </p>
+          <p n="13-14">Les gens de Bhadrapattana, territoire de Jeṅ Vnaṁ <supplied reason="explanation">suit une liste de 3 <foreign>gho</foreign> et de 3 <foreign>tai</foreign></supplied>, ceux-là donnent mille <foreign>sñak</foreign> d’Ægle marlelos lors <supplied reason="subaudible">de la fête</supplied> du mois de Māgha, et sont sous l’autorité du saint maître brâhmane qui est auditeur.
+          </p>
+          <p>Ceux qui ne se conformeraient pas aux termes de cette fondation iront en enfer avec sept générations de leurs parents, tant que dureront le soleil et la lune.
+          </p>
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+           <p>First edited by G. Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">88-90</citedRange></bibl>). Re-edited here by Salomé Pichon based on EFEO estampage n. 1139.</p>
+        	<listBibl type="primary">
+            <bibl n="C">
+            <ptr target="bib:Coedes1937-1966_01"/>
+            <citedRange unit="volume">5</citedRange>
+            <citedRange unit="page">89-90</citedRange>
+            </bibl>
+			</listBibl>
+           <listBibl type="secondary">
+             <bibl>
+               <ptr target="bib:BEFEO37_1937"/>
+               <citedRange unit="page">676</citedRange>
+             </bibl>
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
