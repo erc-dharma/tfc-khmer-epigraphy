@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Kompul Ta Non (K. 1236), 685 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01236</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-06-03">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+   
+   <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="1"/>= = = = = = = =</l>
+<l n="b">= = darttiharo haraḥ <space/></l>
+<l n="c">pralaya-sthiti-sarggāṇāṁ <space/></l>
+<l n="d">karttā yaḥ parameśvaraḥ $dDanda</l>
+</lg>
+                   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="2"/>= = = = = = = =</l>
+<l n="b">C(y)Vlahāro 'pi maṅgalaḥ <space/></l>
+<l n="c">Ayonir vviśva-yonir yyo <space/></l>
+<l n="d">viśveśaś ca nirīśvaraḥ [$dDanda]</l>
+</lg>
+                   <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="1"/> <space/></l>
+<l n="b"><space/></l>
+<l n="c"><space/></l>
+<l n="d"></l>
+</lg>
+                   <lg n="1" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="a"><lb n="3"/>= = = = = = = =</l>
+<l n="b">pratyakṣaś cāpy atīndriyaḥ <space/></l>
+<l n="c">nidrālur jāgarūkaś ca <space/></l>
+<l n="d">śūlapāṇir ddayālayaḥ $dDanda</l>
+</lg>
+                   <lg n="4" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="4"/>= = = = = = = =</l>
+<l n="b">y[o] yatīnām varo guruḥ <space/></l>
+<l n="c">samastaiśvaryya-yukto 'pi <space/></l>
+<l n="d">kr̥ttivāsāś ca yas svayam[·] $dDanda</l>
+</lg>
+                   <lg n="5" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="5"/>= = = = = = = =</l>
+<l n="b">yaṁ vedānta-vido viduḥ <space/></l>
+<l n="c">Ādityavarṇṇam uditam· <space/></l>
+<l n="d">purastāt tamasas svayam· $dDanda</l>
+</lg>
+                   <lg n="6" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="6"/>= = = = = = = =</l>
+<l n="b">maṇi-bhramara-lālitam· <space/></l>
+<l n="c">punāti bhuvanaṁ yasya <space/></l>
+<l n="d">pādāmvuja-rajaś cyutam· $dDanda</l>
+</lg>
+                   <lg n="7" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="7"/>= = = = = = = C(y)u<space/></l>
+<l n="b">vipatti-śamanī dhruvam· <space/></l>
+<l n="c">kr̥tā namaskriyā yatra <space/></l>
+<l n="d">sukha-tritaya-sādhanī $dDanda</l>
+</lg>
+                   <lg n="8" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="8"/>= = = = = (jV) rājā <space/></l>
+<l n="b">rāja-rāja-samadyutiḥ <space/></l>
+<l n="c">Asti śrījayavarmmeti <space/></l>
+<l n="d">rājanyārccita-śāsanaḥ $dDanda</l>
+</lg>
+                   <lg n="9" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="9"/>= = = [kṣa]tra-(dh)armme yaḥ <space/></l>
+<l n="b">prajā-rakṣaṇa-dakṣiṇaḥ <space/></l>
+<l n="c">kṣīṇātma-kilviṣakṣo(d)o <space/></l>
+<l n="d">dikṣu kṣoṇī-patīśvaraḥ [$dDanda]</l>
+</lg>
+                   <lg n="10" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="10"/>= = = pakṣa-kakṣe(ṣ)u <space/></l>
+<l n="b">samo yaś cāśuśukṣaṇeḥ <space/></l>
+<l n="c">vaddha-kakṣaḥ kṣites trāṇe <space/></l>
+<l n="d">puṇdarīkekṣaṇopamaḥ $dDanda</l>
+</lg>
+                   <lg n="11" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="11"/>= = kVkṣiti-pakṣuṇṇam· <space/></l>
+<l n="b">kāṅkṣan· dharmma-patha-kramaṁ <space/></l>
+<l n="c">yo rañjayat kṣamāṁ nityaṁ <space/></l>
+<l n="d">kṣamām iva hita-kṣamām(·) $dDanda</l>
+</lg>
+                   <lg n="12" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="12"/>= = (d a)kṣīṇam akṣudram· <space/></l>
+<l n="b">yo rarakṣad avikṣatam· <space/></l>
+<l n="c">dūrotkṣiptam apakṣālai<space/>r</l>
+<l n="d">llakṣmyāḥ kṣemaṅkaran nayaṁ $dDanda</l>
+</lg>
+                   <lg n="13" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="13"/>= - druma Ivānanta<space/></l>
+<l n="b">phalado 'py avipallavaḥ <space/></l>
+<l n="c">śaśīva kānti-nilayo <space/></l>
+<l n="d">na doṣodaya-lakṣitaḥ $dDanda</l>
+</lg>
+                   <lg n="14" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="14"/>= [śa]ṅkha-cakra-pāṇir yyo <space/></l>
+<l n="b">nārāyana Ivāparaḥ <space/></l>
+<l n="c">Ākrānta-bhuvanābhogo <space/></l>
+<l n="d">dānavāntakaro na ca $dDanda</l>
+</lg>
+                   <lg n="15" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="15"/>[ha](ṅsa)-rāja Ivāneka<space/></l>
+<l n="b">rāja-haṅsa-niṣevitaḥ <space/></l>
+<l n="c">na jātu pakṣa-pātī yaḥ <space/></l>
+<l n="d">sarvvadā mānasa-priyaḥ $dDanda</l>
+</lg>
+                   <lg n="16" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="16"/>= (kī)rttir bhirum iti yam· <space/></l>
+<l n="b">nissnehan dhana-sañcayaḥ <space/></l>
+<l n="c">tr̥ṣṇā durupasarpañ ca <space/></l>
+<l n="d">kalpavr̥kṣam iti dvijaḥ [$dDanda]</l>
+</lg>
+                   <lg n="17" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="17"/>(do)ṣo nāśrayaṇīyañ ca <space/></l>
+<l n="b">durgrahaṁ yam ananyajaḥ <space/></l>
+<l n="c">vyasanan nīrasam iti <space/></l>
+<l n="d">strī kolaṅ (k)rīla(m) [VC]yata $dDanda</l>
+</lg>
+                   <lg n="18" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="18"/>yenādirāja-carita<space/></l>
+<l n="b">prakṣālanam ane[ka]śaḥ <space/></l>
+<l n="c">svaguṇaiḥ kṣīra-kundendu<space/></l>
+<l n="d">tuṣāra-dhava[l](ai)ḥ kr̥taṁ $dDanda</l>
+</lg>
+                   <lg n="19" met="pr̥thvī / vilambitagati" xml:lang="san-Latn">
+<l n="a"><lb n="19"/>vinaśvaram aśāśvatan nidhana-dharmmi vudhvā dhanaṁ <space/></l>
+<l n="b">yaśas sthiram ahāryyam āry(ya)-jana-juṣṭam unmīlayan· $dDanda</l>
+<l n="c"><lb n="20"/>triviṣṭapam api prakāma-sukham anv agr̥hnan punaḥ <space/></l>
+<l n="d">sanātanam anāma(yañ ca) śivam āp(t)um icchan padaṁ $dDanda</l>
+</lg>
+                   <lg n="20" met="āryā" xml:lang="san-Latn">
+<l n="a"><lb n="20"/>[sa] śrījayaikanātha<space/>n</l>
+<l n="b">dvātriṅśad-bhāra-hema-saṁsiktaṁ <space/></l>
+<l n="c">prātiṣthipat parama[yā] <space/></l>
+<l n="d">(bha)ktyā vāṇāṣṭa-ṣaṭ·śāke $dDanda</l>
+</lg>
+<p>
+<lb n="22"/>{2 à 3 akṣ.}C(īt)[yu]tt(a)raṣaṭchata śakaparigraha pañcamī roc· kār(tt)ika puṣyanakṣatra candradivasavāra
+   <lb n="23"/>{env. 6}(ṅ)· Añ· śrī jayavarmmadeva pre l(ṅa)s(sa) paurajana phoṅ· ni vraḥ kamratāṅ· Añ·
+   <lb n="24"/>{env. 9} CV C(ai) vraḥ kamratā(ṅ)· Añ· dai tel· pre miśrabhoga daṅ· vraḥ kamratāṅ·
+   <lb n="25"/>... (m)V {2} kV rak(ṣ)a neḥ v(n)aṁ Āy· voṁ jā nā vrāhmaṇa rājakula rā<lb 
+      n="26" break="no"/>... CVy· slau pāna voṁ jā nā duk· vṅī ce slā Āy· kaṁl(u)ṅ· (A)<lb 
+         n="27" break="no"/>... Cai Āy· gu(s)· gi neḥ sthāna voṁ jā ple _ qnak ta kloñ·
+   <lb n="28"/>...C(·) (p)re cāturjātakapramāṇa māhātmika sthāna (ru) {1}
+   <lb n="29"/>... [l](o)pe gi cerra neḥ Āj(ñ)ā ta rohha neḥ
+   <lb n="30"/>... (te)l· yā(tta)nā yāvac candradiv(ākarau) $dDanda
+</p>
+                </div>
+                <div type="apparatus">
+               <listApp>
+  <app loc="15">
+                     <lem></lem>
+                     <rdg source="bib:Pou2011_01"></rdg>
+                    </app> 
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" resp="part:gege">
+            <p rend="stanza" n="1"></p>
+            <p rend="stanza" n="2"></p>
+            <p rend="stanza" n="3"></p>
+            <p rend="stanza" n="4"></p>
+            <p rend="stanza" n="5"></p>
+            <p rend="stanza" n="6"></p>
+            <p rend="stanza" n="7"></p>
+            <p rend="stanza" n="8"></p>
+            <p rend="stanza" n="9"></p>
+            <p rend="stanza" n="10"></p>
+            <p rend="stanza" n="11"></p>
+            <p rend="stanza" n="12"></p>
+            <p rend="stanza" n="13"></p>
+            <p rend="stanza" n="14"></p>
+            <p rend="stanza" n="15"></p>
+            <p rend="stanza" n="16"></p>
+            <p rend="stanza" n="17"></p>
+            <p rend="stanza" n="18"></p>
+            <p rend="stanza" n="19"></p>
+            <p rend="stanza" n="20"></p>
+            <p n="23-30"></p>
+         </div>
+         <div type="commentary">
+            <p></p>
+         </div>
+       <div type="bibliography">
+          <p>The inscription is first edited by Gerdi Gerschheimer and Dominic Goodall with a French translation of the Sanskrit portion; re-edited here by Kunthea Chhom based on the EFEO estampage n. 1765, n. 1766, n.1767 and the photograph AMPP 005290 and 005266.</p>
+        </div>
+        </body>
+    </text>
+</TEI>

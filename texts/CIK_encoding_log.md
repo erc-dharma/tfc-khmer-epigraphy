@@ -28,7 +28,7 @@
 |K.	21 |kuch |pending |IC V|
 |K.	22 |kuch |done |ISC|
 |K.	23 |# |# |#|
-|K.	24 |kuch |pending|IC II|
+|K.	24 |kuch |done|IC II|
 |K.	25 |kuch |done |IC II|
 |K.	26 |# |# |#|
 |K.	27 |# |# |#|
@@ -570,7 +570,7 @@
 |K.	556 |# |# |#|
 |K.	557 |# |# |#|
 |K.	558 |# |# |#|
-|K.	559 |kuch |pending |IC II|
+|K.	559 |kuch |done |IC II|
 |K.	560 |kuch |done |IC VI|
 |K.	561 |kuch |done |IC II|
 |K.	562 |kuch |done |IC II|
@@ -773,7 +773,7 @@
 |K.	759 |kuch |pending |IC VI|
 |K.	760 |# |# |#|
 |K.	761 |kuch |done |IC VII|
-|K.	762 |kuch |pending |IC I|
+|K.	762 |kuch |done |IC I|
 |K.	763 |# |# |#|
 |K.	764 |kuch |pending |IC VI|
 |K.	765 |kuch |done |IC V|
@@ -968,7 +968,7 @@
 |K.	953 |# |# |#|
 |K.	954 |# |# |#|
 |K.	955 |# |# |#|
-|K.	956 |kuch |pending |IC VII|
+|K.	956 |kuch |done |IC VII|
 |K.	957 |chch |pending |IC VII|
 |K.	958 |# |# |#|
 |K.	959 |# |# |#|
@@ -1046,7 +1046,7 @@
 |K.	1025 |# |# |#|
 |K.	1026 |# |# |#|
 |K.	1027 |# |# |#|
-|K.	1028 |kuch |pending |NIC II-III(Khmer part); Sanskrit part unpublished |
+|K.	1028 |kuch |done |NIC II-III(Khmer part); Sanskrit part unpublished |
 |K.	1029 |kuch |done |Soutif 2009|
 |K.	1030 |# |# |#|
 |K.	1031 |# |# |#|
@@ -1544,5 +1544,5 @@ K.	1521 |# |# |#|
 K.	1522 |# |# |#|
 K.	1523 |# |# |#|
 K.	1524 |# |# |#|
-K.	1525 |chch |pending |unpublished|
+K.	1525 |chch |done |unpublished|
 K.	1526 |# |# |#|
