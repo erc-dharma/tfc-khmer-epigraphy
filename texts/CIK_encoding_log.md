@@ -1505,7 +1505,7 @@
 |K.	1482 |# |# |#|
 |K.	1483 |# |# |#|
 |K.	1484 |# |# |#|
-|K.	1485 |chch and doso |pennding |unpublished|
+|K.	1485 |chch and doso |pending |unpublished|
 |K.	1486 |# |# |#|
 |K.	1487 |# |# |#|
 |K.	1488 |# |# |#|
@@ -1515,7 +1515,7 @@
 |K.	1492 |chch |pending |NIC II-III|
 |K.	1493 |chch |pending |unpublished|
 |K.	1494 |chch |pending |unpublished|
-|K.	1495 |chch |pending |unpublished|
+|K.	1495 |chch |done |unpublished|
 |K.	1496 |chch |done |unpublished|
 |K.	1497 |chch |done |unpublished|
 |K.	1498 |chch |done |unpublished|
