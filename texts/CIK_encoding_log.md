@@ -217,7 +217,7 @@
 |K.	210 |# |# |#|
 |K.	211 |chch |done |IC III|
 |K.	212 |# |# |#|
-|K.	213 |kuch |pending |ISC|
+|K.	213 |kuch |done |ISC|
 |K.	214 |chch |done |IC II |
 |K.	215 |chch |done |IC III|
 |K.	216-N1 |chch |done |IC III|
@@ -611,7 +611,7 @@
 |K.	596 |# |# |#|
 |K.	597 |# |# |#|
 |K.	598 |# |# |#|
-|K.	599 |kuch |pending |unpublished|
+|K.	599 |kuch |done |unpublished|
 |K.	600 |kuch |pending |IC II|
 |K.	601 |kuch |done |unpublished|
 |K.	602 |# |# |#|
@@ -722,7 +722,7 @@
 |K.	707 |chch |pending |IC V|
 |K.	708 |# |# |#|
 |K.	709 |kuch | done |IC V|
-|K.	710 |kuch |pending |IC VI|
+|K.	710 |kuch | done |IC VI|
 |K.	711 |kuch |done |IC VI|
 |K.	712 |kuch |pending |IC VI|
 |K.	713 |sapi |pending |IC I|
@@ -1017,7 +1017,7 @@
 |K.	1001 |# |# |#|
 |K.	1002 |# |# |#|
 |K.	1003 |kuch |pending |unpublished|
-|K.	1004 |kuch |pending |Winai Pongsripian ed. 1991|
+|K.	1004 |kuch | done |Winai Pongsripian ed. 1991|
 |K.	1005 |# |# |#|
 |K.	1006 |chch |pending |BEFEO 1971; Jacques et al. 2007|
 |K.	1007 |# |# |#|
@@ -1255,7 +1255,7 @@
 |K.	1233 |# |# |#|
 |K.	1234 |# |# |#|
 |K.	1235 |kuch|done|Goodall 2019|
-|K.	1236 |kuch |pending |unpublished|
+|K.	1236 |kuch | done |unpublished|
 |K.	1237 |kuch |done |Griffiths and Chhom 2019|
 |K.	1238 |kuch |done |Griffiths and Soutif 2008-09|
 |K.	1239 |kuch | done |unpublished|
@@ -1298,7 +1298,7 @@
 |K.	1276 |kuch |done |Jacques 2011|
 |K.	1277 |kuch |done |Soutif 2010|
 |K.	1278 |kuch |done |pending Pou NIC II-III 2001|
-|K.	1279 |kuch |pending |#|
+|K.	1279 |kuch | done |#|
 |K.	1280 |kuch |pending |#|
 |K.	1281 |chch |done |Chevance 2014|
 |K.	1282 |chch |done |Chevance 2014|
@@ -1421,7 +1421,7 @@
 |K.	1398 |kuch |pending |Unpublished|
 |K.	1399 |kuch |pending |Unpublished|
 |K.	1400 |kuch |pending |Unpublished|
-|K.	1401 |kuch |pending |Vong 2016|
+|K.	1401 |kuch | done |Vong 2016|
 |K.	1402 |# |# |#|
 |K.	1403 |# |# |#|
 |K.	1404 |# |# |#|
@@ -1442,7 +1442,7 @@
 |K.	1419 |kuch |done |Chhom 2019|
 |K.	1420 |# |# |#|
 |K.	1421 |chch |pending |unpublished|
-|K.	1422 |kuch |pending|Hun (forthc.)|
+|K.	1422 |kuch | done|Hun (forthc.)|
 |K.	1423 |# |# |#|
 |K.	1424 |# |# |#|
 |K.	1425 |# |# |#|
@@ -1485,7 +1485,7 @@
 |K.	1462 |# |# |#|
 |K.	1463 |# |# |#|
 |K.	1464 |# |# |#|
-|K.	1465 |kuch |pending |Unpublished|
+|K.	1465 |kuch | done |Unpublished|
 |K.	1466 |# |# |#|
 |K.	1467 |# |# |#|
 |K.	1468 |# |# |#|
