@@ -58,7 +58,7 @@
 |K.	51 |kuch |done |IC V|
 |K.	52 |# |# |#|
 |K.	53 |kuch |done |ISC|
-|K.	54 |kuch |pending |ISC|
+|K.	54 |kuch | done |ISC|
 |K.	55 |kuch |done|ISC|
 |K.	56 |# |# |#|
 |K.	57 |# |# |#|
@@ -82,7 +82,7 @@
 |K.	75 |# |# |#|
 |K.	76 |kuch |done |IC V|
 |K.	77 |kuch |done |IC V|
-|K.	78 |kuch |pending |IC VI|
+|K.	78 |kuch | done |IC VI|
 |K.	79 |kuch |done |Coedes 1904|
 |K.	80 |kuch |done |ISC|
 |K.	81 |kuch |done|ISC|
