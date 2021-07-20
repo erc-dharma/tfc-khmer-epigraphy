@@ -1473,7 +1473,7 @@
 |K.	1450 |# |# |#|
 |K.	1451 |kuch |pending |Nguyễn 1999|
 |K.	1452 |# |# |#|
-|K.	1453 |# |# |#|
+|K.	1453 |chch |pending |NIC IV|
 |K.	1454 |chch |done |Soutif and Estève (forthc.)|
 |K.	1455 |argr |done |Goodall and Revire (forthc.)|
 |K.	1456 |# |# |#|
@@ -1571,3 +1571,7 @@ K.	1547 |chch |done |unpublished|
 K.	1548 |# |# |#|
 K.	1549 |# |# |#|
 K.	1550 |# |# |#|
+K.	1551 |# |# |#|
+K.	1552 |# |# |#|
+K.	1553 |# |# |#|
+K.	1554 |# |# |#|
