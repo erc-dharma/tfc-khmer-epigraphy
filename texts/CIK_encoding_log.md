@@ -142,7 +142,7 @@
 |K.	136 |# |# |#|
 |K.	137 |kuch |pending |IC II|
 |K.	138 |kuch |pending |IC V|
-|K.	139 |chch |pending |IC III|
+|K.	139 |chch |done |IC III|
 |K.	140 |kuch |pending |ISC|
 |K.	140 |kuch |pending |#|
 |K.	141 |# |# |#|
@@ -480,7 +480,7 @@
 |K.	465 |# |# |#|
 |K.	466 |# |# |#|
 |K.	467 |# |# |#|
-|K.	468 |chch |done |IC 3|
+|K.	468 |chch |done |IC III|
 |K.	469 |# |# |#|
 |K.	470 |# |# |#|
 |K.	471 |# |# |#|
@@ -562,7 +562,7 @@
 |K.	547 |# |# |#|
 |K.	548 |kuch |done |IC II|
 |K.	549 |# |# |#|
-|K.	550 |# |# |#|
+|K.	550 |chch |done |Cœdès 1951|
 |K.	551 |# |# |#|
 |K.	552 |# |# |#|
 |K.	553 |# |# |#|
@@ -842,7 +842,7 @@
 |K.	827 |# |# |#|
 |K.	828 |# |# |#|
 |K.	829 |# |# |#|
-|K.	830 |chch |pending |IC V|
+|K.	830 |chch |done |IC V|
 |K.	831 |sapi |pending |IC V|
 |K.	832 |# |# |#|
 |K.	833 |# |# |#|
@@ -1087,7 +1087,7 @@
 |K.	1065 |# |# |#|
 |K.	1066 |# |# |#|
 |K.	1067 |# |# |#|
-|K.	1068 |chch |pending |NIC II-III|
+|K.	1068 |chch |done |NIC II-III|
 |K.	1069 |kuch |pending |#|
 |K.	1070 |# |# |#|
 |K.	1071 |# |# |#|
@@ -1136,7 +1136,7 @@
 |K.	1114 |# |# |#|
 |K.	1115 |# |# |#|
 |K.	1116 |# |# |#|
-|K.	1117 |# |# |#|
+|K.	1117 |chch |pending |Cha-em Kaeokhlai|
 |K.	1118 |# |# |#|
 |K.	1119 |# |# |#|
 |K.	1120 |# |# |#|
@@ -1363,11 +1363,11 @@
 |K.	1340 |kuch |pending |#|
 |K.	1341 |# |# |#|
 |K.	1342 |# |# |#|
-|K.	1343 |# |# |#|
+|K.	1343 |chch |done |unpublished|
 |K.	1344 |# |# |#|
 |K.	1345 |# |# |#|
 |K.	1346 |# |# |#|
-|K.	1347 |# |# |#|
+|K.	1347 |chch |done |unpublished|
 |K.	1348 |# |# |#|
 |K.	1349 |# |# |#|
 |K.	1350 |# |# |#|
@@ -1393,7 +1393,7 @@
 |K.	1370 |# |# |#|
 |K.	1371 |kuch |pending |unpublished|
 |K.	1372 |# |# |#|
-|K.	1373 |chch |done |upcoming publication|
+|K.	1373 |chch |done |Chollet et Goodall 2020|
 |K.	1374 |# |# |#|
 |K.	1375 |# |# |#|
 |K.	1376 |# |# |#|
@@ -1425,7 +1425,7 @@
 |K.	1402 |# |# |#|
 |K.	1403 |# |# |#|
 |K.	1404 |# |# |#|
-|K.	1405 |# |# |#|
+|K.	1405 |chch |pending |unpublished|
 |K.	1406 |chch |done |Clouet 2019|
 |K.	1407 |# |# |#|
 |K.	1408 |# |# |#|
@@ -1472,7 +1472,7 @@
 |K.	1449 |# |# |#|
 |K.	1450 |# |# |#|
 |K.	1451 |kuch |pending |Nguyễn 1999|
-|K.	1452 |# |# |#|
+|K.	1452 |chch |done |unpublished|
 |K.	1453 |chch |pending |NIC IV|
 |K.	1454 |chch |done |Soutif and Estève (forthc.)|
 |K.	1455 |argr |done |Goodall and Revire (forthc.)|
@@ -1511,7 +1511,7 @@
 |K.	1488 |# |# |#|
 |K.	1489 |# |# |#|
 |K.	1490 |chch |done |unpublished|
-|K.	1491 |chch |pending |unpublished|
+|K.	1491 |chch |done |unpublished|
 |K.	1492 |chch |pending |NIC II-III|
 |K.	1493 |chch |pending |unpublished|
 |K.	1494 |chch |pending |unpublished|
@@ -1526,10 +1526,10 @@ K.	1502 |chch |done |unpublished|
 K.	1503 |chch |pending |unpublished|
 K.	1504 |chch |pending |unpublished|
 K.	1505 |chch |pending |unpublished|
-K.	1506 |# |# |#|
-K.	1507 |# |# |#|
-K.	1508 |# |# |#|
-K.	1509 |# |# |#|
+K.	1506 |chch |pending |unpublished|
+K.	1507 |chch |pending |unpublished|
+K.	1508 |chch |pending |unpublished|
+K.	1509 |chch |pending |unpublished|
 K.	1510 |# |# |#|
 K.	1511 |# |# |#|
 K.	1512 |# |# |#|
@@ -1557,12 +1557,12 @@ K.	1533 |# |# |#|
 K.	1534 |# |# |#|
 K.	1535 |chch |done |unpublished|
 K.	1536 |# |# |#|
-K.	1537 |# |# |#|
+K.	1537 |chch |pending |unpublished|
 K.	1538 |# |# |#|
 K.	1539 |# |# |#|
 K.	1540 |# |# |#|
 K.	1541 |# |# |#|
-K.	1542 |# |# |#|
+K.	1542 |chch |pending |unpublished|
 K.	1543 |# |# |#|
 K.	1544 |# |# |#|
 K.	1545 |# |# |#|
@@ -1575,3 +1575,10 @@ K.	1551 |# |# |#|
 K.	1552 |# |# |#|
 K.	1553 |# |# |#|
 K.	1554 |# |# |#|
+K.	1555 |# |# |#|
+K.	1556 |# |# |#|
+K.	1557 |# |# |#|
+K.	1558 |# |# |#|
+K.	1559 |# |# |#|
+K.	1560 |# |# |#|
+K.	1561 |# |# |#|
