@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb of Kong Pisei (K. 1261), 7th-8th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311"><!-- This adress is that of George Cœdès. It seems that that of Saveros Pou has not been created. -->
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01261</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-08-12" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<p>
+   <lb n="1"/>tvot· <num value="1"><g type="numeral">I</g></num> vā kañcor· <num value="1"><g type="numeral">I</g></num> vā ga<gap reason="lost" quantity="3" unit="character"/> <supplied reason="lost"><num value="1"><g type="numeral">I</g></num></supplied> <unclear>vā</unclear> <gap reason="lost" quantity="1" unit="character"/>d<unclear>o</unclear>t<supplied reason="lost">· <num value="1"><g type="numeral">I</g></num></supplied> <unclear>v</unclear>ā qgat· <num value="1"><g type="numeral">I</g></num> vā <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="2"/>vā qnāda <num value="1"><g type="numeral">I</g></num> vā tyon· <num value="1"><g type="numeral">I</g></num> vā <gap reason="lost" quantity="3" unit="character"/> <num value="1"><g type="numeral">I</g></num> ku nidra <num value="1"><g type="numeral">I</g></num> ku tpit· <num value="1"><g type="numeral">I</g></num> kon ku <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="3"/>ku vlac· kon· ku mānra Añ<supplied reason="lost">·</supplied> ku gī ru pi kmi <num value="1"><g type="numeral">I</g></num> ku plas· <num value="1"><g type="numeral">I</g></num> ku trasik· <num value="1"><g type="numeral">I</g></num> ko<supplied reason="lost">n·</supplied>
+   <lb n="4"/>vā kanrap· va <num value="1"><g type="numeral">I</g></num> vā vilaka <num value="1"><g type="numeral">I</g></num> ku dṅo<unclear>ḥ</unclear> <num value="1"><g type="numeral">I</g></num> kon ku kanrap· <num value="1"><g type="numeral">I</g></num> ku tvañ· <num value="1"><g type="numeral">I</g></num> ku A<lb n="5" break="no"/>ñjva ti Añ· <num value="1"><g type="numeral">I</g></num> ku prek· <num value="1"><g type="numeral">I</g></num> ku tkāp· <num value="1"><g type="numeral">I</g></num> ku kaEk· <num value="1"><g type="numeral">I</g></num> sre stuk<unclear>·</unclear> sno Aṁruṅ· pra<lb n="6" break="no"/>māna gi phoṅ· loḥ travaṅ<unclear>·</unclear> snohv<unclear>·</unclear> dau loḥ cdiṅ· sno <num value="2"><g type="numeral">II</g></num> sre jaṁnāv·
+   <lb n="7"/>ta qme va mañ· ta poñ· somakīrtti mās <num value="8">8</num> sre pradāna poñ· lon· toṅ· kloñ·
+   <lb n="8"/>tvāssa <num value="1"><g type="numeral">I</g></num> mās· <num value="10">10</num> tloṅ· <num value="3"><g type="numeral">III</g></num> sre Ai Aṁhve cdiṅ· mās· <num value="5"><g type="numeral">IIIII</g></num> sre Ai vnur· svāy<unclear>·</unclear>
+   <lb n="9"/><supplied reason="lost">mās·</supplied> <num value="3"><g type="numeral">III</g></num> toṅ· tin<unclear>·</unclear> kantāṅ· krek· tneṁ <num value="3"><g type="numeral">III</g></num> toṅ<supplied reason="omitted">·</supplied> nā hvata poñ· somakumāra
+   <lb n="10"/>tneṁ <num value="3"><g type="numeral">III</g></num> toṅ· Ai koOl· tneṁ· <num value="11">10 <g type="numeral">I</g></num> tmur· dneṁ <num value="2"><g type="numeral">II</g></num> phoṅ· gi doṅ· vriha tel· poñ· yodha<lb n="11" break="no"/>pravala Oy<unclear>·</unclear> poñ· kr̥ṣṇadatta doṅ· kloñ· hrāppa daṅ· poñ· yodhaprakāśa
+   <lb n="12"/>ge ta dap· gi ge ta sak· gi ge te pre roḥ gi ge ta tve viptya gi ge dau kaṁluṅ gi sa<lb n="13" break="no"/>ptādhikanirraiyya nā ge dauhv·
+</p>
+</div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem>vā ga<gap reason="lost" quantity="3" unit="character"/> <supplied reason="lost"><num value="1"><g type="numeral">I</g></num></supplied> <unclear>vā</unclear> <gap reason="lost" quantity="1" unit="character"/>d<unclear>o</unclear>t<supplied reason="lost">· <num value="1"><g type="numeral">I</g></num></supplied> <unclear>v</unclear>ā qgat· <num value="1"><g type="numeral">I</g></num> vā <gap reason="lost" extent="unknown" unit="character"/></lem>
+                     <rdg source="bib:Pou2001_01">vā ga<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                  </app>
+                  <app loc="2">
+                     <lem>vā <gap reason="lost" quantity="3" unit="character"/></lem>
+                     <rdg source="bib:Pou2001_01">vā <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                  </app>
+                  <app loc="3">
+                     <lem>ku mānra Añ<supplied reason="lost">·</supplied></lem>
+                     <rdg source="bib:Pou2001_01">ku mānravi <gap reason="lost" quantity="2" unit="character" precision="low"/></rdg>
+                  </app>
+                  <app loc="4">
+                     <lem>vā kanrap· va <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Pou2001_01">vā kanrap· vā</rdg>
+                  </app>
+                  <app loc="4">
+                     <lem>ku dṅo<unclear>ḥ</unclear></lem>
+                     <rdg source="bib:Pou2001_01">ku djau</rdg>
+                  </app>
+                  <app loc="4">
+                     <lem>ku tvañ·</lem>
+                     <rdg source="bib:Pou2001_01">ku tcañ·</rdg>
+                  </app>
+                  <app loc="6">
+                     <lem>dau loḥ</lem>
+                     <rdg source="bib:Pou2001_01">dol loḥ</rdg>
+                  </app>
+                  <app loc="6">
+                     <lem>sno</lem>
+                    <note>The <foreign>s</foreign> is not clear.</note>
+                  </app>
+                  <app loc="9">
+                     <lem>nāhv· ta</lem>
+                     <rdg source="bib:Pou2001_01">nā hvata</rdg>
+                  </app>
+                  <app loc="11">
+                     <lem>hrāppa</lem>
+                     <rdg source="bib:Pou2001_01">hmāppa</rdg>
+                  </app>
+                  </listApp>         
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
+ 	<p n="1-5"><supplied reason="explanation">Noms de serviteurs.</supplied></p>
+              <p n="5-11">
+                 <list>
+                    <item>Rizière Stuk Sno dont les dimensions y compris l’étang Sno Dol et la rivière Sno, s’évaluent à 2 <supplied reason="subaudible"><foreign>mās</foreign></supplied>.</item>
+<item>
+Rizière achetée par la mère de Vā ṁañ à Poñ Somakīrti : 8 <foreign>mās</foreign>.</item>
+                    <item>
+Rizière offerte par Poñ Lon, et 1 cocotier Kloñ Tvās : 10 <foreign>mās</foreign>, 3 <foreign>tloṅ</foreign>.</item>
+                    <item>
+Rizière à Aṁve Cdiṅ : 5 <foreign>mās</foreign>.</item>
+                    <item>
+Rizière à Vnur Svāy : 3 <foreign>mās</foreign>.</item>
+                    <item>
+Des cocotiers à Tin Kantāṅ Krek : 3 arbres ; à Hvat de Poñ Somakumāra : 3 arbres ; à Ka-ol : 11 arbres ; ainsi que deux paires de bœufs. Avec du riz offert par Poñ Yodhapravala, Poñ Kr̥ṣṇadatta, Kloñ Māp, Poñ Yodhaprakāśa.
+              </item>
+                 </list>
+              </p>
+              <p n="12-13">Ceux qui gêneront ces dispositions, qui déroberont, qui emploieront <supplied reason="subaudible">ces serviteurs</supplied> qui ruineront <supplied reason="subaudible">cette œuvre</supplied>, ceux-là iront dans les sept enfers et plus : ils y iront.</p>
+         </div>
+         <div type="commentary">
+            <p>There are at least two lines in the beginning of the text which are not treated by S. Pou. There are few syllables legible: <foreign>vraḥ ka<supplied reason="lost">mratāṅ Añ</supplied></foreign> in the first line and <foreign>mra<supplied reason="lost">tāṅ</supplied></foreign> in the second.</p>
+           </div>
+        <div type="bibliography">
+          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">191-193</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 1712.</p>
+	 <listBibl type="primary">
+    <bibl n="SP">
+      <ptr target="bib:Pou2001_01"/><citedRange unit="page">191-193</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+      </body>
+    </text>
+</TEI>
