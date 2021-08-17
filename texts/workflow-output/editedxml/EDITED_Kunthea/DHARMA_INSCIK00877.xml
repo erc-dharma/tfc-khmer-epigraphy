@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragments of inscription of Tuol Ang Rolang Ken (K. 877), 6th-7th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00877</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-08-16" status="draft">Initial Encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+                    <div type="textpart" subtype="fragment" n="I">
+                        <p>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> hastanakṣatra <gap reason="lost" quantity="3" unit="character"/>
+                           <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> svāmi Ai ta vraḥ kamratāṅ·
+                           <lb n="3"/><supplied reason="lost">Añ·</supplied> <gap reason="lost" extent="unknown" unit="character"/>ditya jmah· gan· kñuṁ Aṁra kdep· <num value="1"><g type="numeral">I</g></num>
+                           <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1"><unclear><g type="numeral">I</g></unclear></num> ku qsāp· <num value="1"><g type="numeral">I</g></num> ku prek· <num value="1"><g type="numeral">I</g></num> ku kmer· <num value="1"><g type="numeral">I</g></num>
+                           <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> ku Asaru <num value="1"><g type="numeral">I</g></num> vā cuṅ· <num value="1"><g type="numeral">I</g></num> vā pen· <num value="1"><g type="numeral">I</g></num>
+                           <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> t<supplied reason="lost">·</supplied> <num value="1"><g type="numeral">I</g></num> vā kañcas· <num value="1"><g type="numeral">I</g></num> vā tkul· <num value="1"><g type="numeral">I</g></num> vā clauhv· <num value="1"><g type="numeral">I</g></num> pāni <num value="1"><g type="numeral">I</g></num>
+                           <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> panlā <num value="1"><g type="numeral">I</g></num> ku tvāy· <num value="1"><g type="numeral">I</g></num> ku knek· <num value="1"><g type="numeral">I</g></num> vā ṅraṅor· <num value="1"><g type="numeral">I</g></num>
+                           <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> kdok· <num value="1"><g type="numeral">I</g></num> vā malla <num value="1"><g type="numeral">I</g></num> ku kjat· <num value="1"><g type="numeral">I</g></num> ku tveh· <num value="1"><g type="numeral">I</g></num> ku raṁpañ· <num value="1"><g type="numeral">I</g></num>
+                           <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>ṅ· draṅ<unclear>·</unclear> <num value="1"><g type="numeral">I</g></num> ku Anis· <num value="1"><g type="numeral">I</g></num> ku prop· <num value="1"><g type="numeral">I</g></num> ku Ās ta vraḥ <num value="1"><g type="numeral">I</g></num>
+                           <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>n· <num value="1"><g type="numeral">I</g></num> vā jānukleśa <num value="1"><g type="numeral">I</g></num> ku cīna <num value="1"><g type="numeral">I</g></num> ku kañcak·
+                           <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> sambha <num value="1"><g type="numeral">I</g></num> vā <gap reason="lost" quantity="4" unit="character"/> <num value="1"><g type="numeral">I</g></num> k<supplied reason="lost">u</supplied> saṁsem· <num value="1"><g type="numeral">I</g></num>
+                           <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1"><g type="numeral">I</g></num> ku vrau <num value="1"><g type="numeral">I</g></num> vā caṁdak· <num value="1"><g type="numeral">I</g></num>
+                           <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1"><g type="numeral">I</g></num> vā kañjān· <num value="1"><g type="numeral">I</g></num>
+                           <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1"><g type="numeral">I</g></num> ku cpar<supplied reason="lost">·</supplied> <num value="1"><g type="numeral">I</g></num> ku kdū <num value="1"><g type="numeral">I</g></num> ku vṅāy· <num value="1"><g type="numeral">I</g></num>
+                           <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/>ddhi <num value="1"><g type="numeral">I</g></num> vā kandās· <num value="1"><g type="numeral">I</g></num> ku mañmoñ· <num value="1"><g type="numeral">I</g></num> vā klaṅ· Aras· <num value="1"><g type="numeral">I</g></num>
+                           <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/>lañ· <num value="1"><g type="numeral">I</g></num> ku tman· <num value="1"><g type="numeral">I</g></num> vā kanteṅ· <num value="1"><g type="numeral">I</g></num>
+                           <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>k</unclear><supplied reason="lost">u</supplied> panlas· <num value="1"><g type="numeral">I</g></num> ku kanseṅ· <num value="1"><g type="numeral">I</g></num>
+                           <lb n="18"/><gap reason="lost" extent="unknown" unit="character"/>ya <num value="1"><g type="numeral">I</g></num> <gap reason="lost" quantity="5" unit="character"/> sme <num value="1"><g type="numeral">I</g></num> vā can·cān· <num value="1"><g type="numeral">I</g></num>
+                           <lb n="19"/><gap reason="lost" quantity="11" unit="character"/> cor· <gap reason="lost" quantity="3" unit="character"/> doṅ gi sre Ai ñeṅ thalā poñ· va <gap reason="lost" quantity="2" unit="character"/> <supplied reason="lost">do</supplied>ṅ <supplied reason="lost">g</supplied>i
+                           <lb n="20"/><gap reason="lost" quantity="11" unit="character"/> pa sre kaṁvaṅ lohv<unclear>·</unclear> doṅ gi sre <gap reason="lost" quantity="8" unit="character"/>
+                           <lb n="21"/><gap reason="lost" quantity="11" unit="character"/> Aṁvi ta poñ· guṇātra viṅ· <gap reason="lost" quantity="12" unit="character"/>
+                           <lb n="22"/><gap reason="lost" quantity="11" unit="character"/> doṅ gi sre jaṁ<supplied reason="lost">n</supplied>au<supplied reason="lost">hv·</supplied> <gap reason="lost" quantity="11" unit="character"/>
+                           <lb n="23"/><gap reason="lost" quantity="3" unit="character"/> sre ta Aṁvi ta poñ· kaṁ <gap reason="lost" quantity="20" unit="character"/>
+                           <lb n="24"/><gap reason="lost" quantity="1" unit="character"/>r· doṅ gi sre Aṁno<supplied reason="lost">y·</supplied> <gap reason="lost" quantity="20" unit="character"/>
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="fragment" n="II">
+                        <p>
+                           <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">do</supplied>ṅ g<supplied reason="lost">i</supplied> sre Ai
+                           <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>y· vadāra Ai
+                           <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>rakīrtti ta Ai rnrāca
+                           <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> Oy· panlas· gi sre ta Ai ca
+                           <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>ñ<unclear>·</unclear> saṅ· doṅ gi sre jeṅ grāṅṅa
+                           <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">do</supplied>ṅ g<supplied reason="lost">i</supplied> tpal· gi doṅ gi vrai gi doṅ <gap reason="lost" quantity="2" unit="character"/>ṅ <supplied reason="lost">g</supplied>i sre tṅai ket·
+                           <lb n="7"/><gap reason="lost" quantity="5" unit="character"/> Ai vaddha <gap reason="lost" quantity="2" unit="character"/> doṅ gi sre Ai varñāss doṅ gi sre jaṁnohv· Aṁ<supplied reason="lost">vi</supplied> <gap reason="lost" quantity="5" unit="character"/> n <gap reason="lost" quantity="1" unit="character"/> dharmma
+                           <lb n="8"/><gap reason="lost" quantity="5" unit="character"/> vindu <gap reason="lost" quantity="2" unit="character"/> pānigraha Ai ta mratāñ· yajamānna sa <gap reason="lost" quantity="8" unit="character"/> hvañ·
+                           <lb n="9"/><gap reason="lost" quantity="3" unit="character"/> sreya doṅ gi kñuṁma gi tel Oy· Ai ta vraḥ kamratāṅ· Añ· śrībhaṭārā<supplied reason="lost">di</supplied>tya gi man parigraha 
+                           <lb n="10"/><gap reason="lost" quantity="3" unit="character"/> mratāñ· yajamāna <gap reason="lost" quantity="7" unit="character"/> ñauh<supplied reason="lost">vañ·</supplied> <gap reason="lost" quantity="2" unit="character"/> ta gi jmaḥ gan· kñuṁ ge kloñ ñauhvañ·
+                           <lb n="11"/><gap reason="lost" quantity="2" unit="character"/> saṁĀy· <num value="1"><g type="numeral">I</g></num> vā s<gap reason="lost" quantity="4" unit="character"/>s· <num value="1"><g type="numeral">I</g></num> ku sraIp <num value="1"><g type="numeral">I</g></num> ku tv<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><gap reason="lost" quantity="4" unit="character"/> nyāya <num value="1"><g type="numeral">I</g></num> vā vinās· teṁ vleṅ· <num value="1"><g type="numeral">I</g></num> vā
+                           <lb n="12"/><gap reason="lost" quantity="3" unit="character"/> <num value="1"><g type="numeral">I</g></num> kalaśa prak· <num value="1"><g type="numeral">I</g></num> ś<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><gap reason="lost" quantity="5" unit="character"/> <num value="3"><g type="numeral">III</g></num> sandal· prak· <num value="1"><g type="numeral">I</g></num> tnas· pranāla <num value="2"><g type="numeral">II</g></num> kaṭṭi <num value="3"><g type="numeral">III</g></num> liṅ· <num value="17">10 7</num> kalaśa saṁrit·
+                           <lb n="13"/><gap reason="lost" quantity="3" unit="character"/> danhum· <num value="3"><g type="numeral">III</g></num> bhājana laṅ<supplied reason="lost">gau</supplied> <gap reason="lost" quantity="1" unit="character"/> garo saṁruk· <num value="4"><g type="numeral">IIII</g></num> bhājana saṁrit· <num value="4"><g type="numeral">IIII</g></num> toṅ· saṁrit· <num value="1"><g type="numeral">I</g></num> śarāvana saṁrit· saṁru<lb n="14" break="no"/>[k·] <gap reason="lost" quantity="2" unit="character"/> śarāvana ta tel· duk· bhoga saṁruk· <num value="3"><g type="numeral">III</g></num> val<unclear>·</unclear>vel· <num value="3"><g type="numeral">III</g></num> klas saṁritta praluṅ· saṁruk· <num value="1"><g type="numeral">I</g></num> canhoy· prak·
+                           <lb n="15"/><gap reason="lost" quantity="3" unit="character"/> <num value="1"><g type="numeral">I</g></num> trayoṅ <num value="1"><g type="numeral">I</g></num> siṅhāsana vraḥ vrahmanidhi <gap reason="lost" quantity="5" unit="character"/> tmo pi <gap reason="lost" quantity="3" unit="character"/><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i <num value="1"><g type="numeral">I</g></num> chāya <num value="2"><g type="numeral">II</g></num> cakra <num value="1"><g type="numeral">I</g></num> śaṅkha <num value="1"><g type="numeral">I</g></num>
+                           <lb n="16"/><gap reason="lost" quantity="3" unit="character"/> <num value="1"><g type="numeral">I</g></num> kaṁ<gap reason="lost" quantity="3" unit="character"/>s· <num value="7">7</num> kaṭa <gap reason="lost" quantity="11" unit="character"/> <num value="1"><g type="numeral">I</g></num> Ūdaravandha <num value="1"><g type="numeral">I</g></num> śrīvatsa
+                           <lb n="17"/><gap reason="lost" quantity="3" unit="character"/> candal· <supplied reason="lost">pa</supplied>thavī <num value="1"><g type="numeral">I</g></num> Ardhacandra <num value="1"><g type="numeral">I</g></num> <gap reason="lost" extent="unknown" unit="character"/> tṅai ket·
+                           <lb n="18"/><gap reason="lost" quantity="4" unit="character"/>ñ· saṅ<unclear>·</unclear> doṅ gi <gap reason="lost" quantity="1" unit="character"/> <supplied reason="lost">jaṁ</supplied>nauh<supplied reason="lost">v</supplied>· <gap reason="lost" extent="unknown" unit="character"/> loṅ· <num value="1"><g type="numeral">I</g></num> <gap reason="lost" quantity="1" unit="character"/>
+                           <lb n="19"/><gap reason="lost" quantity="7" unit="character"/> doṅ gi <supplied reason="lost">k</supplied>Ol<supplied reason="lost">·</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        </p>
+                    </div>
+                   <div type="textpart" subtype="fragment" n="III">
+                        <p>
+                           <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> phoṅṅa doṅ gi da<supplied reason="lost">ṁ</supplied>r<supplied reason="lost">i</supplied>ṅṅa doṅ gi tvoṅ· phoṅṅa slā phoṅ gi cpar· ja
+                           <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> phoṅṅa doṅ gi Antam· phoṅ· gi cpar· phoṅṅa doṅ· tmur<unclear>·</unclear> doṅ· krapi gi neḥ
+                           <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> m<supplied reason="lost">ra</supplied>tāñ· yajamānna Oy· phoṅ· Ai ta vraḥ kaṁmra<supplied reason="lost">tāṅ· Añ·</supplied>
+                        </p>
+                    </div>
+                   <div type="textpart" subtype="fragment" n="IV">
+                        <p>
+                           <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">do</supplied>ṅ g<supplied reason="lost">i</supplied> sre <gap reason="lost" extent="unknown" unit="character"/>
+                           <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> sre tṅai ke<supplied reason="lost">·</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        </p>
+                    </div>
+                   <div type="textpart" subtype="fragment" n="V">
+                        <p>
+                         <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> yareṣ<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>d<unclear>e</unclear> <gap reason="lost" extent="unknown" unit="character"/>  
+                        </p>
+                    </div>
+            </div>
+           
+            <div type="apparatus">
+               <div type="textpart" subtype="fragment" n="I">
+               <listApp>
+                  <app loc="3">
+                     <lem/>
+                     <rdg source="bib:Coedes1937-1966_01"/>
+                  </app>
+                  <app loc="3">
+                     <lem/>
+                     <rdg source="bib:Coedes1937-1966_01"/>
+                  </app>
+                  <app loc="3">
+                     <lem/>
+                     <rdg source="bib:Coedes1937-1966_01"/>
+                  </app>
+               </listApp>         
+         </div>
+               <div type="textpart" subtype="fragment" n="II">
+               <listApp>
+                  <app loc="3">
+                     <lem/>
+                     <rdg source="bib:Coedes1937-1966_01"/>
+                  </app>
+                  <app loc="3">
+                     <lem/>
+                     <rdg source="bib:Coedes1937-1966_01">xx</rdg>
+                  </app>
+                  <app loc="3">
+                     <lem/>
+                     <rdg source="bib:Coedes1937-1966_01"/>
+                  </app>
+               </listApp>         
+         </div>
+            </div>
+        <!--    
+        <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p></p>
+ 	</div>
+            -->
+         <!-- <div type="commentary">
+            <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">66-68</citedRange></bibl>) without translation; re-edited here by Kunthea Chhom based on the estampage EFEO n.1141.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/>
+       <citedRange unit="volume">6</citedRange>
+      <citedRange unit="page">66-68</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
