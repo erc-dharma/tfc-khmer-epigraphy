@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Stela of the eastern gopura II of Phnom Sandak (K. 190), 817 Śaka</title>
+                <respStmt>
+                   <resp>EpiDoc Encoding</resp>
+                   <persName ref="part:sapi">
+                      <forename>Salomé</forename>
+                      <surname>Pichon</surname>
+                   </persName>
+                </respStmt>
+                <respStmt>
+                  <resp>intellectual authorship of edition</resp><!--sapi2argr dois-je ajouter  Barth et Bergaigne ainsi que Cœdès ?-->
+                  <persName ref="part:dogo">
+                     <forename>Dominic</forename>
+                     <surname>Goodall</surname>
+                  </persName>
+                  <persName ref="part:gege">
+                     <forename>Gerdi</forename>
+                     <surname>Gerschheimer</surname>
+                  </persName>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSCIK00190</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                        <p>Copyright (c) 2019-2025 by Salomé Pichon.</p>
+                    </licence>
+                </availability>
+                <date from="2019" to="2025">2019-2025</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                            <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+            </projectDesc>
+            <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
+            <listPrefixDef>
+                <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+                    <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+                </prefixDef>
+                <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+                    <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:sapi" when="2021-08-28" status="draft">Initial encoding of the inscription</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+           <ab><milestone type="pagelike" unit="face" n="A"/><lb n="A01"/><g type="gomutraInitial"/>śrī siddhi svasti jaya<g type="ddandaOrnate"/></ab>
+           <lg n="1" met="anuṣṭubh">
+           <l n="a" enjamb="yes"><lb n="A1"/>namaś śivāya yatpāda</l>
+           <l n="b">nakhajyotsnā virājate</l>
+           <l n="c" enjamb="yes">namrendramūrddhamaṇḍāra</l>
+           <l n="d">madhusekād ivodgatā<supplied reason="lost"><g type="ddandaOrnate">.</g></supplied></l>
+           </lg>
+           <lg n="2" met="anuṣṭubh">
+           <l n="a" enjamb="yes"><lb n="A2"/>rudran namata yasyāṅghri</l>
+           <l n="b">sarojodarajaṁ rajaḥ</l>
+           <l n="c" enjamb="yes">dhūmāyate suraśiro</l>
+           <l n="d">ruṇaratnāgnikoṭiṣu<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="3" met="anuṣṭubh">
+           <l n="a"><lb n="A3"/>jitan dhūrjjaṭinā yasya</l>
+           <l n="b">jaṭāvisphuritāruṇāḥ</l>
+           <l n="c">dahanāśaṅkayā śaṅke</l>
+           <l n="d">gaṅgāviśad umāruṣaḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="4" met="anuṣṭubh">
+           <l n="a"><lb n="A4"/>jitaṁ mahāvarāheṇa</l>
+           <l n="b">viṣāṇau yasya rājataḥ</l>
+           <l n="c" enjamb="yes">lokatrayapadavyāpi</l>
+           <l n="d">yaśasām aṅkurāv iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="5" met="anuṣṭubh">
+           <l n="a" enjamb="yes"><lb n="A5"/>viṣṇun namāmi yasyāṅga</l>
+           <l n="b">bhā sā pāṇau vibhāti bhūḥ</l>
+           <l n="c" enjamb="yes">dviṭchrīkacagrahāmodāl</l>
+           <l n="d">lagneva bhramarāṅganā<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="6" met="anuṣṭubh">
+           <l n="a"><lb n="A6"/>Ekārṇnavasaraḥpadme</l>
+           <l n="b">brahmavaktrāṇi pāntu vaḥ</l>
+           <l n="c">padmānīvodgatāny abje</l>
+           <l n="d">madhuk<choice><sic>et</sic><corr>aiṭ</corr></choice>abhamr̥tyave<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="7" met="anuṣṭubh">
+           <l n="a" enjamb="yes"><lb n="A7"/>namantu brahmaṇaḥ pāda</l>
+           <l n="b">pallavau satatāruṇau</l>
+           <l n="c" enjamb="yes">susthityāy āsanāmbhoja</l>
+           <l n="d">bodhaṁ kartum iva svayam·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="8" met="anuṣṭubh">
+           <l n="a"><lb n="A8"/>vande gaurīṁ hriyā yasyās</l>
+           <l n="b">sañcukoca mukhāmvujam·</l>
+           <l n="c" enjamb="yes">navasaṅge harasyendu</l>
+           <l n="d">candrikācumbanād iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="9" met="anuṣṭubh">
+           <l n="a"><lb n="A9"/>namo devyai sarasvatyai</l>
+           <l n="b">yasyāś śabdamayo guṇah</l>
+           <l n="c">Adhidevatayā vācāṁ</l>
+           <l n="d">śrūyate py anyakīrttane<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="10" met="anuṣṭubh">
+           <l n="a" enjamb="yes"><lb n="A10"/>rājenduś śrīyaśovarmmā</l>
+           <l n="b">bhavat pūrṇnatarodayaḥ</l>
+           <l n="c" enjamb="yes">yaśaḥkṣīrārṇṇavotpūra</l>
+           <l n="d">saṁplāvitajagattrayaḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="11" met="anuṣṭubh">
+           <l n="a"><lb n="A11"/>nopaiti nāśam adyāpi</l>
+           <l n="b">kīrttir yyasyātibhāsvatī</l>
+           <l n="c" enjamb="yes">gāyidivyāṅganāvaktra</l>
+           <l n="d">pīyūṣaluṭhanād iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="12" met="anuṣṭubh">
+           <l n="a"><lb n="A12"/>nūnan dhātrāmr̥tenaiva</l>
+           <l n="b">saudaryyaṁ yasya nirmmitam·</l>
+           <l n="c">yad akṣṇā vāṣpamārggeṇa</l>
+           <l n="d">viveśa jagatāṁ manaḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="13" met="anuṣṭubh">
+           <l n="a"><lb n="A13"/>na svavr̥ddhiḥ prajāvr̥ddhiṁ</l>
+           <l n="b">vinā yasmai sma rocate</l>
+           <l n="c">kiṁ svayaṁ varddhate candras</l>
+           <l n="d">sindhuvelām avarddhayan·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="14" met="anuṣṭubh">
+           <l n="a"><lb n="A14"/>samare vairiraktākto</l>
+           <l n="b">yasya khadgo vyarājata</l>
+           <l n="c">caraṇālaktakāṅkārdraḥ</l>
+           <l n="d">panthā Iva jayaśriyaḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="15" met="anuṣṭubh">
+           <l n="a" enjamb="yes"><lb n="A15"/>Adīrghanidram āgantu</l>
+           <l n="b">kāmā yaṁ svakulais sthitā</l>
+           <l n="c">kaustubhālālanāl lakṣmīś</l>
+           <l n="d">śaṅke keśavavakṣasi<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="16" met="anuṣṭubh">
+           <l n="a"><lb n="A16"/>yam asāmānyasaundaryyaṁ</l>
+           <l n="b">sr̥ṣṭvā sraṣṭānvacintayat·</l>
+           <l n="c">Upamānam ayañ cet syād</l>
+           <l n="d">upameyo paraḥ katham·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="17" met="anuṣṭubh">
+           <l n="a"><lb n="A17"/>śrīmān svabhāvalāvanyo</l>
+           <l n="b">gambhīro ratnasannidhiḥ</l>
+           <l n="c">yas samudrasamāno pi</l>
+           <l n="d">saṁpūrṇno na parodayaiḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="18" met="anuṣṭubh"><!--sapi2argr Note rtf : [a. na-vipulā: - ⏑ - - ⏑ ⏑ ⏑ -]-->
+           <l n="a"><lb n="A18"/>tasya rājye munivaro</l>
+           <l n="b">munivandyāṅghripaṅkajaḥ</l>
+           <l n="c" enjamb="yes">nāmnā somaśivaś śāstra</l>
+           <l n="d">ratnaratnākaro bhavat·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="19" met="anuṣṭubh">
+           <l n="a"><lb n="A19"/>bhagavacchivasomasya</l>
+           <l n="b">śiṣyo yo dharaṇībhujā</l>
+           <l n="c">śrīndravarmmeśvarakṣetre</l>
+           <l n="d">dhyāpakatve nyayujyata<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="20" met="anuṣṭubh">
+           <l n="a" enjamb="yes"><lb n="A20"/>śivaśāstrārṇnavaṁ buddhi</l>
+           <l n="b">maṇḍareṇa vimathya yaḥ</l>
+           <l n="c">svayaṁ jñānāmr̥taṁ pītvā</l>
+           <l n="d">dayayānyān apāyayat·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="21" met="anuṣṭubh"><!--sapi2argr Note rtf : [c. na-vipulā: ⏑ - ⏑ - ⏑ ⏑ ⏑ -]-->
+           <l n="a" enjamb="yes"><lb n="A21"/>galanmadhurasākāra</l>
+           <l n="b">śabdaśāstramanohare</l>
+           <l n="c">sarasvatī madhukarī</l>
+           <l n="d">yasyāsyābje ratābhavat·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="22" met="anuṣṭubh"><!--sapi2argr Note rtf : [c. na-vipulā: ⏑ - ⏑ - ⏑ ⏑ ⏑ -]-->
+           <l n="a" enjamb="yes"><lb n="A22"/>devatāguruviprāryyā</l>
+           <l n="b">tithipūjāvidhau kr̥tī</l>
+           <l n="c">garīyasām api gurur</l>
+           <l n="d">yyo jaghanya Ivābhavat·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="23" met="anuṣṭubh">
+           <l n="a"><lb n="A23"/>sa Ācāryya Idaṁ liṅgam</l>
+           <l n="b">aiśaṁ śivapure girau</l>
+           <l n="c">kṣīṇapūjañ ciratvena</l>
+           <l n="d">pūjāvr̥ddhyā vyavarddhayat·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="24" met="anuṣṭubh"><!--sapi2argr Note rtf : [a. bha-vipulā: ⏑ - ⏑ - - ⏑ ⏑ - ]-->
+           <l n="a"><lb n="A24"/>sa cātra samyag vidhinā</l>
+           <l n="b">śrībhadreśvaram ākhyayā</l>
+           <l n="c">śailendumūrttiśākābde</l>
+           <l n="d">śivaliṅgam atiṣṭhipat·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="25" met="anuṣṭubh">
+           <l n="a"><lb n="A25"/>dhanāny etāni dattāni</l>
+           <l n="b">kedārārāmakiṅkarān·</l>
+           <l n="c">tenābhyāṁ miśrabhogābhyāṁ</l>
+           <l n="d">pānti ye yāntu te divam·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="26" met="anuṣṭubh">
+           <l n="a"><lb n="A26"/>labhantāṁ yātanān te tu</l>
+           <l n="b">narakeṣv ā bhuvaḥ sthiteḥ</l>
+           <l n="c">Avīcirauravādyeṣu</l>
+           <l n="d">marddayanti haranti ye<g type="ddandaOrnate">.</g><g type="gomutraFinal">.</g></l>
+           </lg>
+           <ab><milestone type="pagelike" unit="face" n="B"/><lb n="B01"/><g type="gomutraInitial"/>śrī siddhi svasti jaya<g type="ddandaOrnate"/></ab>
+           <lg n="27" met="anuṣṭubh">
+           <l n="a"><lb n="B1"/>namo stu śambhave yasya</l>
+           <l n="b">niṣkalasyāpi cintane</l>
+           <l n="c">bhāsvanmūrttau sakalatā</l>
+           <l n="d">darś<unclear>ś</unclear>endor iva dr̥śyate<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="28" met="anuṣṭubh"><!-- sapi2argr note rtf: [a. na-vipulā : ⏑ - ⏑ - ⏑ ⏑ ⏑ - ]-->
+           <l n="a"><lb n="B2"/>vibhāti dhūrjjaṭijaṭā</l>
+           <l n="b">gala<unclear>d</unclear>gaṅgāmvuvindubhiḥ</l>
+           <l n="c" enjamb="yes">taddhāramauktikaiś candra</l>
+           <l n="d">koṭicchedacyutair iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="29" met="anuṣṭubh">
+           <l n="a"><lb n="B3"/>jayati tripuradhvaṁsī</l>
+           <l n="b">yasyāṅghrinakhabhā babhuḥ</l>
+           <l n="c" enjamb="yes">Ālīḍhabhāranāgendra</l>
+           <l n="d">roṣavahnyudgamā Iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="30" met="anuṣṭubh"><!-- sapi2argr note rtf : [c. na-vipulā : - - - - ⏑ ⏑ ⏑ - ] -->
+           <l n="a"><lb n="B4"/>namo stu haraye yasya</l>
+           <l n="b">padaḥ padmāṅkaśāyinaḥ</l>
+           <l n="c">bhābhis tannābhir abhavad</l>
+           <l n="d">bhinnanīlā<choice><sic>p</sic><corr>b</corr></choice>jasannibhā<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="31" met="anuṣṭubh">
+           <l n="a"><lb n="B5"/>svayaṁbhūḥ pātu vo yasya</l>
+           <l n="b">bhāsvatsvarṇnanibhaṁ vapuḥ</l>
+           <l n="c" enjamb="yes">Ābhāti saṁbhavāmbhoja</l>
+           <l n="d">kiñjalkasparśanād iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="32" met="anuṣṭubh">
+           <l n="a"><lb n="B6"/>vande parṇnāṁ pador yyasyāḥ</l>
+           <l n="b">gulphau līnau virājataḥ</l>
+           <l n="c" enjamb="yes">Āsannatarasarppābha</l>
+           <l n="d">nūpurātibhayād iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="33" met="anuṣṭubh">
+           <l n="a"><lb n="B7"/>Āsīc chrījayavarmmeti</l>
+           <l n="b">bhūpatīnām adhīśvaraḥ</l>
+           <l n="c" enjamb="yes">bhūpālamauliratnāṁśu</l>
+           <l n="d">vard<choice><sic>c</sic><corr>dh</corr></choice>itāṅghrinakhadyutiḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="34" met="anuṣṭubh">
+           <l n="a"><lb n="B8"/>yo bhūt prajodayāyaiva</l>
+           <l n="b">rājavaṅśe tinirmmale</l>
+           <l n="c">Apaṅkajamahāpadme</l>
+           <l n="d">padmodbhava Ivoditaḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="35" met="anuṣṭubh">
+           <l n="a"><lb n="B9"/>rāmā yaṁ vīkṣya jalpanti</l>
+           <l n="b">kāman nimiṣa locana</l>
+           <l n="c">na hi no manaso paiti</l>
+           <l n="d">subhago yaṁ kṣaṇād iti<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="36" met="anuṣṭubh">
+           <l n="a"><lb n="B10"/>yasya r<choice><sic>u</sic><corr>ū</corr></choice>popameyatvaṁ</l>
+           <l n="b">na syāt syād api vighnagam·</l>
+           <l n="c">mukhacchāyānur<choice><sic>u</sic><corr>ū</corr></choice>po hi</l>
+           <l n="d">candramā rāhuṇāvr̥taḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="37" met="anuṣṭubh">
+           <l n="a"><lb n="B11"/>nātibhārā bhuje yasya</l>
+           <l n="b">dharāmbhonidhimekhalā</l>
+           <l n="c">yathā jyāghātakinatā</l>
+           <l n="d">bhūbhr̥to pi vyanāmayat·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="38" met="anuṣṭubh">
+           <l n="a"><lb n="B12"/>siṁhamūrddhny āsanaṁ yasya</l>
+           <l n="b">rājamūrddhani śāsanam·</l>
+           <l n="c">mahendrādreḥ purī mūrddhni</l>
+           <l n="d">tathāpi na tu vismayaḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="39" met="anuṣṭubh">
+           <l n="a"><lb n="B13"/>saddharmmanirater yyasya</l>
+           <l n="b">padarājyena cakrire</l>
+           <l n="c">Upasarggāḥ kriyāyoge</l>
+           <l n="d">te prāg dhātor mmuner iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <p xml:lang="okz-Latn"><milestone type="pagelike" unit="face" n="C"/>
+           <lb n="C1"/>sre vraḥ kaṁmrateṅ· Añ·
+           <lb n="C2"/>śivapura nu vraḥ kaṁmrateṅ·
+           <lb n="C3"/>Añ śivaliṅga toy· dakṣi<lb
+           n="C4" break="no"/>ṇa neḥ vnaṁ neh· Aṁvi rlaṁ ka<lb
+           n="C5" break="no"/><gap reason="lost" quantity="1" unit="character"/> koh· prasap· rlaṁ jvik· lva<lb
+           n="C6" break="no"/>h· chok· khadira prasap·
+           <lb n="C7"/>vnur· khluṅ·<g type="eye">.</g><!--sapi2argrOu circleConcentric ?--> toy· dakṣiṇa
+           <lb n="C8"/>neḥ sre neha sot· Aṁ<lb
+           n="C9"/>vi chdiṅ· jmala sre Aṁlau cho<lb
+           n="C10"/>k· vrāl· vrai vyā canlattai
+           <lb n="C11"/>śivakṣetra sthalā pa<lb
+           n="C12"/>k· lvah· Aṅ·veya
+           <lb n="C13"/>chdiṅ· saṁroya sre
+           <lb n="C14"/>nā Āśrama Āy·
+           <lb n="C15"/>canlattai sot lva<lb
+           n="C16" break="no"/>h· prasap· paṁnikka<g type="eye">.</g>
+           <lb n="C17"/>toy· Uttara neḥ
+           <lb n="C18"/>vnaṁ neḥha toy·
+           <lb n="C19"/>paścima lvah· ta gi
+           <lb n="C20"/>travāṅ· vrai tra<lb
+           n="C21" break="no"/>peka sre krateṅ·
+           <lb n="C22"/>toy· pūrvva lvah·
+           <lb n="C23"/>vrai laṁpona lvah·
+           <lb n="C24"/>mat· dlaiya toy·
+           <lb n="C25"/>Uttara travāṅ· trā<lb
+           n="C26" break="no"/>c· lvah· vnaṁ kan·qItta<g type="spiralR">.</g>
+           <lb n="C27"/>nauva noḥ ta mān· pra<lb
+           n="C28" break="no"/>yoja ta gi neḥ bhū<lb
+           n="C29" break="no"/>vana ta roha neḥ
+           <lb n="C30"/>Aṁvi gm<unclear>u</unclear>ma dau syaṅ·
+           <lb n="C31"/>nai vraḥ kaṁmrateṅ· Añ· nau qnak ta yok· neḥ
+           <lb n="C32"/>sre ta roha neḥh Oy· nai dai ge dau nara<lb
+           n="C33" break="no"/>ka nuva gotra phoṅ<unclear>·</unclear> nau ge ta rakṣā neḥ ge
+           </p>
+         </div>
+         <div type="apparatus">
+           <listApp>
+             <app loc="A1">
+                 <lem>-sekād ivodgatā</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">-sekā divodgatā</rdg>
+                 <note>Barth correction (in footnote) : -<foreign>sekād ivodgatā</foreign>.</note>
+             </app>
+             <app loc="A2">
+                 <lem>-ruṇaratnā-</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">-ruharatnā-</rdg>
+                 <note>Barth correction (in footnote) : -<foreign>ruṇaratnā</foreign>-.</note>
+             </app>
+             <app loc="A5">
+                 <lem>yasyāṅgabhā sā</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">yasyāṅgabhāsā</rdg>
+                 <note>Barth correction (in footnote) : <foreign>yasyāṅgabhā sā</foreign>.</note>
+             </app>
+             <app loc="A6">
+                 <lem>Ekārṇna-</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">Ekārṇṇa-</rdg>
+             </app>
+             <app loc="A6">
+                 <lem>madhuk<choice><sic>et</sic><corr>aiṭ</corr></choice>abhamr̥tyave</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">madhuketabhamr̥tyave</rdg>
+             </app>
+             <app loc="A7">
+                 <lem>susthityāy</lem>
+                 <note>This seems just one possible sandhi-form for the dative. Bergaigne observes "<foreign>susthityā</foreign> serait plus conforme à l'usage général". Does he mean in Cambodia?</note>
+             </app>
+             <app loc="A7">
+                 <lem>svayam<g type="ddandaOrnate">.</g></lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">svayam</rdg>
+                 <note>The ISC edition omits the double <foreign>daṇḍa</foreign> at the end, yet this seems visible on the estampage.</note>
+             </app>
+             <app loc="A8">
+                 <lem>-candrikācumbanād</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">-candrikā cumbanād</rdg>
+                 <note>Barth's word-division: <foreign>candrikācumbanād</foreign>.</note>
+             </app>
+             <app loc="A8">
+                 <lem>iva<g type="ddandaOrnate">.</g></lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">iva</rdg>
+                 <note>The ISC edition omits the double <foreign>daṇḍa</foreign> at the end, yet this seems visible on the estampage.</note>
+             </app>
+             <app loc="A10">
+                 <lem>rājenduś</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">rājendraś</rdg>
+                 <note>Bergaigne transcribed <foreign>rājendraś</foreign>, but Barth remarks in a footnote that the correct reading is <foreign>rājenduś</foreign>, which one can indeed see on the estampage.</note>
+             </app>
+             <app loc="A10">
+                 <lem>pūrṇnatarodayaḥ</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">pūrṇṇatarodayaḥ</rdg>
+             </app>
+             <app loc="A10">
+                 <lem>-kṣīrārṇna-</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">-kṣīrārṇṇa-</rdg>
+             </app>
+             <app loc="A11">
+                 <lem>gāyid-</lem>
+                 <note>Barth remarks that <foreign>gāyin</foreign> is not in the dictionaries, but that it is used in Bāṇa's Kādambarī.</note>
+             </app>
+             <app loc="A12">
+                 <lem>akṣnā</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">akṣṇā</rdg>
+             </app>
+             <app loc="A16">
+                 <lem>yam asāmānyasaundaryyaṁ</lem>
+                 <note>Bergaigne and Barth split and interpret thus, but it seems possible that there is a <foreign>virodhābhāsa</foreign>-type joke here, since it is difficult to avoid first reading <foreign>yamasāmānyasaundaryyaṁ</foreign>, "whose beauty was of the same kind as that of Yama".</note>
+             </app>
+             <app loc="A17">
+                 <lem>saṁpūrṇno</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">saṁpūrṇṇo</rdg>
+             </app>
+             <app loc="A20">
+                 <lem>-śāstrārṇnavaṁ</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">-śāstrārṇṇavaṁ</rdg>
+             </app>
+             <app loc="A20">
+               <lem>apāyayat·<g type="ddandaOrnate">.</g></lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">apāyayat·</rdg>
+               <note>The ISC edition omits the double <foreign>daṇḍa</foreign> at the end, yet this seems visible on the estampage.</note>
+             </app>
+             <app loc="A20">
+               <lem>garīyasām</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">gariyasām</rdg>
+               <note>Bergaigne and Barth seem to print <foreign>gariyasām</foreign> (which would be wrong and unmetrical): broken type?</note>
+             </app>
+             <app loc="A25">
+               <lem>dhanāny</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01"><unclear>e</unclear>tāny</rdg>
+               <note><foreign>dhanāny</foreign> is legible in the estampage and is the reading of Barth, who corrects in a footnote Bergaigne's reading, <foreign><unclear>e</unclear>tāny</foreign>, which is nonetheless printed in the body of the text of their edition!</note>
+             </app>
+             <app loc="B01">
+               <lem><g type="gomutraInitial"/> śrī</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">śrī</rdg>
+               <note>The <foreign>gomūtra</foreign> symbol is interpreted by Barth as a <foreign>Oṁ</foreign>.</note>
+             </app>
+             <app loc="B2">
+               <lem>gala<unclear>d</unclear>-</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">galaṅ-</rdg>
+               <note>Barth correction (in footnote) : <foreign>galad</foreign>. He notes that it could even be the stone lesson, given the slight final inflection (visible on the facsimile and even more distinct on the stamping) of the lower line, inflexion that the -<foreign>ṅ</foreign> of the next group doesn't have (ISCC, p. 342 n. 5).</note>
+             </app>
+             <app loc="B3">
+               <lem>-bhāra-</lem>
+               <note>Note the appearance of -<foreign>bhā</foreign></note>
+             </app>
+             <app loc="B5">
+               <lem>-svarṇna-</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">-svarṇṇa-</rdg>
+             </app>
+             <app loc="B6">
+               <lem>-parṇnāṁ-</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">-parṇṇāṁ-</rdg>
+             </app>
+             <app loc="B6">
+               <lem>līnau</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">linau</rdg>
+               <note>Barth correction (in footnote) : <foreign>līnau</foreign>.</note>
+             </app>
+             <app loc="B9">
+               <lem>nimiṣa locana</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">nimiṣalocana</rdg>
+               <note>Barth correction (in footnote) : <foreign>nimiṣa locana</foreign>.</note>
+             </app>
+             <app loc="B11">
+               <lem>jyāghātakinatā</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">jyā ghāṭaki natā</rdg>
+               <note>Bergaigne offers to correct in <foreign>jyā ghāṭakī natā</foreign>. The right correction in suggested by Barth (in footnote) : <foreign>jyāghātakinatā</foreign>.</note>
+             </app>
+             <app loc="B12">
+               <lem>-mūrddhny</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">-mūrddhṇy</rdg>
+               <note>Barth correction (in footnote) : <foreign>-mūrddhṇy</foreign>. He qualifies the misuse of -<foreign>ṇ</foreign> as a lapsus. However, the inversion of the dental and the retroflexe -<foreign>n</foreign> is a common occurence in their edition.</note>
+             </app>
+             <app loc="B11">
+               <lem>purī</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">purī</rdg>
+               <note>Barth correction (in footnote) : <foreign>purī</foreign>.</note>
+             </app>
+               </listApp>
+         </div>
+         <div type="translation">
+ 	<!--translation encoded as per EGD §9.2 -->
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+           <p>Sanskrit parts first edited with translation into French by A. Barth and A. Bergaigne (<bibl rend="omitname"><ptr target="bib:Barth+Bergaigne1885-1893_01"/><citedRange unit="page">331-346</citedRange></bibl>). Khmer part first edited without any translation by G. Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">89-90</citedRange></bibl>). The inscription is re-edited here by Dominic Goodall, Gerdi Gerschheimer and Salomé Pichon based on autopsy and the EFEO estampages n. 760.</p>
+           <listBibl type="primary">
+             <bibl n="BB"><!--sapi2argr Est-ce le bon sigle ?-->
+             <ptr target="bib:Barth+Bergaigne1885-1893_01"/>
+             <citedRange unit="page">331-346</citedRange>
+             </bibl>
+             <bibl n="C">
+               <ptr target="bib:Coedes1937-1966_01"/>
+               <citedRange unit="volume">6</citedRange>
+               <citedRange unit="page">89-90</citedRange>
+             </bibl>
+ 			</listBibl>
+            <listBibl type="secondary">
+              <bibl/>
+            </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
