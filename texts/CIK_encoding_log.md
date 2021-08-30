@@ -53,7 +53,7 @@
 |K.	46 |kuch & chch |done |IC VI|
 |K.	47 |# |# |#|
 |K.	48 |kuch |done |IC VI|
-|K.	49 |kuch |pending |ISC|
+|K.	49 |kuch |done |ISC|
 |K.	50 |kuch | done |ISC|
 |K.	51 |kuch |done |IC V|
 |K.	52 |# |# |#|
@@ -105,14 +105,14 @@
 |K.	99 |# |# |#|
 |K.	100 |# |# |#|
 |K.	101 |# |# |#|
-|K.	102 |kuch |pending |IC V|
+|K.	102 |kuch |done |IC V|
 |K.	103 |# |# |#|
 |K.	104 |# |# |#|
 |K.	105 |kuch |done|IC VI|
 |K.	106 |# |# |#|
 |K.	107 |kuch |pending |IC VI|
 |K.	108 |# |# |#|
-|K.	109 |kuch |pending |Coedes 1911|
+|K.	109 |kuch |done |Coedes 1911|
 |K.	110 |# |# |#|
 |K.	111 |chch |pending |IC VI|
 |K.	112 |# |# |#|
@@ -138,7 +138,7 @@
 |K.	132 |# |# |#|
 |K.	133 |# |# |#|
 |K.	134 |# |# |#|
-|K.	135 |kuch |pending |Coedes 1905|
+|K.	135 |kuch |done |Coedes 1905|
 |K.	136 |# |# |#|
 |K.	137 |kuch |pending |IC II|
 |K.	138 |kuch |pending |IC V|
@@ -800,8 +800,8 @@
 |K.	786 |# |# |#|
 |K.	787 |kuch |done |Coedes IC VI|
 |K.	788 |kuch |done |IC VI|
-|K.	789 |kuch |pending|IC V|
-|K.	790 |kuch|pending |IC V|
+|K.	789 |kuch |done|IC V|
+|K.	790 |kuch|done |IC V|
 |K.	791 |# |# |#|
 |K.	792 |# |# |#|
 |K.	793 |# |# |#|
@@ -821,7 +821,7 @@
 |K.	807 |# |# |#|
 |K.	808 |# |# |#|
 |K.	809 |chch |pending |IC I|
-|K.	810 |kuch |pending |IC VI|
+|K.	810 |kuch |done |IC VI|
 |K.	811 |kuch |done |IC VI|
 |K.	812 |# |# |#|
 |K.	813 |sapi |pending |IC I|
@@ -888,7 +888,7 @@
 |K.	874 |# |# |#|
 |K.	875 |kuch |done |Coedes 1937|
 |K.	876 |# |# |#|
-|K.	877 |kuch |pending |IC VI|
+|K.	877 |kuch |done |IC VI|
 |K.	878 |sapi |pending |IC V|
 |K.	879 |chch |pending |IC V|
 |K.	880 |# |# |#|
@@ -1278,7 +1278,7 @@
 |K.	1258 |# |# |#|
 |K.	1259 |kuch |pending |#|
 |K.	1260 |# |# |#|
-|K.	1261 |kuch |pending |#|
+|K.	1261 |kuch |done |#|
 |K.	1262 |# |# |#|
 |K.	1263 |# |# |#|
 |K.	1264 |kuch |pending |#|
@@ -1457,7 +1457,7 @@
 |K.	1436 |# |# |#|
 |K.	1437 |# |# |#|
 |K.	1438 |# |# |#|
-|K.	1439 |kuch |pending |Hun (forthc.)|
+|K.	1439 |kuch |done |Hun (forthc.)|
 |K.	1440 |# |# |#|
 |K.	1441 |# |# |#|
 |K.	1442 |# |# |#|
