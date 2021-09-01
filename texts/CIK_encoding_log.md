@@ -193,7 +193,7 @@
 |K.	187 |# |# |#|
 |K.	188 |# |# |#|
 |K.	189 |# |# |#|
-|K.	190 |sapi |pending |ISCC IC VI|
+|K.	190 |sapi |done |ISCC IC VI|
 |K.	191 |chch |pending |IC VI|
 |K.	192 |sapi |pending ||C VI |
 |K.	193 |# |# |#|

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb from Longvek (K. 137), 6th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00137</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-08-31" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<p>
+   <lb n="1"/>Ājñā vraḥ kaṁmratāṅ· Añ· pre pu neṅ· sevabhāra naṁ kñuṁ vrau moy· slicca Oy(·)
+   <lb n="2"/>Āy· ta vraḥ mratāñ· kaṁmratāṅ· daṁdaṁ pre saṅ· snaṅ· praśasta Aṁpal· Aṁnoy·
+   <lb n="3"/>spit· dik· ta vraḥ vraḥ ka puṇya vraḥ kaṁmratāṅ· Añ· kaṁmratāṅ· pdai karoṁ ge vraḥ saṁ pari<lb 
+      n="4" break="no"/>bhoga droṅ· vraḥ kaṁmratāṅ· Añ· kaṁmratāṅ· teṁ kroṁ voṁ saṁ droṅ· samudrapura $dotMid
+   <lb n="5"/>ge kloñ· kantai mratāñ· kamratāṅ· daṁdaṁ ta tel· mratāñ· Oy· ta vraḥ kaṁmratāṅ· Añ·
+   <lb n="6"/>ta Acas· nakka paṁmre ta vraḥ panlas· mratāñ· $dotMid tāñ· Añ· I knāy· Añ· I kañ· poṅ· mratāñ· I 
+   <lb n="7"/>kañ· heṅ· vraḥ Añ· I syāṁ mratāñ· I sāṁ Añ· I chīñ· I kñuṁ joṅ· Añ· I din· Añ· I Adbhūta<lb 
+      n="8" break="no"/>matī Añ· I tāñ· vuṅ· Añ· I piṇḍa 10 I kñuṁ vraḥ rapaṁ cok· Añ· I vidyunmatī Añ· I ku dep· I
+   <lb n="9"/>ku chau I ku din· I caṁmreṅ ptau Añ· I ku juṅ· vaḥ I ku vrahey· I ku moy· qnak· I ku moy· qnak· sin· I
+   <lb n="10"/>ku tāṅ· qtā I ku Alaṅ· I ku trapāc· I ku kep· I ku saṁmreṅ· I ku panlas· I ku yi naṅ· I piṇḍa rapaṁ 5
+   <lb n="11"/>caṁmreṅ· 10 II cmuḥ ka vraḥ mratāṅ· qtā I tau Añ· I gurudeśa I lāṅ sī I śatru qnak· Añ· I ku sipāla I
+   <lb n="12"/>ku sukhā I ku Abhira I pau tai I ku tāṅ· Añ· I ku Aṁval· I pau tai I ku Aṁvoḥ I pau tai I ku guhī I pau tai I
+   <lb n="13"/>ku qnādarū I mratāṅ· svan· I ku poñ· vraḥ Añ· I ku ratnāvali I ku qnaṅ· vyā I pau sī I ku peñ· I lāṅ tai I pau sī I
+   <lb n="14"/>kpoñ· māda I ku pit· I syāṁ bharū I ku vau so I ku heṅ· kandin· I ku sruk· moy· I pramaḥ ku yi tāṅ·
+   <lb n="15"/>piṇḍa cmuḥ ka vraḥ 20 III lāṅ sī I pau sī II lāṅ tai I pau [[tai]] IIII $dotMid tmir· slik· ku qnāda I lāṅ sī I ku qnaṅ· I pavid· I
+   <lb n="16"/>ku yi dos· I lāṅ sī I pau tai I ku ci mratāṅ· I kon· cnaṅ· I ku noccarū I pau tai I ku cittavai I ku rapañ· I
+   <lb n="17"/>pau tai I taṁpeḥ ku me bhe I ku yaces· I pau tai I ku tkep· I pau tai I piṇḍa 10 lāṅ sī II pau tai 7 caṁUk·
+   <lb n="18"/>ple le $dotMid va tmo I va chau I va kandaṁ I va vrauhv· I va śāntideva I va tmak· I va Antyan· I va tvau I va can·car· I
+   <lb n="19"/>va kjar· I va tmāy· I va draṅ· cañ· I va cke I va kanter· I va tĀy· I va Añ·jul· I va then· I va svā kmau I va dyoṅ· I
+   <lb n="20"/>va lantoṅ· I va laĀc· I va tloṅ· I va klaṁ I va tloṅ· sin· I va kañjai I va tkaṅ· I va kcau I va kañjai sin· I va tmer· I
+   <lb n="21"/>va kjar· sin· I va tkir· I va bhe I va kliṅ· I cmap· stek· va kandin· I smon· va tAṅ· I piṇḍa ple le 20 10 7
+   <lb n="22"/>tmāñ· $dotMid ku poñ· daṁ daṁ I lāṅ tai I ku tāṅ· Añ· I ku yāṅ· tāṅ· I pau tai I ku tiḥ I lāṅ sī I ku kcī I ku cāk· I
+   <lb n="23"/>lāṅ sī I ku sruk· moy· I (space of 4 akṣaras) raṅ hvai $dotMid ku tāṅ· kandin· I lāṅ sī I pau sī I ku bhumi I
+   <lb n="24"/>ku noccarū I ku jīva I ku klon· seṅ· I ku yi meṅ· I ku Asarū I ku yi din· I ku raṁpen· I lāṅ sī I pau tai I
+   <lb n="25"/>ku kaṁvaṅ· I ku mratāṅ· sruk· I
+   <lb n="26"/>kñuṁ sre caṁnaṁ po yajamāna va jaṁ Āṅ· I va jāy· I va khaṇḍakumāra I ku nocca rū I lāṅ sī I pau sī
+   <lb n="27"/>ku kes· I ku kmau I ku tmār· I ku joñ· I ku jul· I ku An· I ku me kandat· I ku Au I derttai I lāṅ tai I
+   <lb n="28"/>pau sī I ku yi ṇiṅ· I ku yi tāṅ· I lāṅ si I ku ya meh· I ku santan· I ku plaṅ· I $dotMid caṁnaṁ po bhānudeva
+   <lb n="29"/>va tlai I va lahvan· I va kcī I ku Ū I ku rāṅ· I ku taṁve I ku hvāc· I ku Aṁvar· I ku yi ṇiṅ· I derttai I ku yi
+   <lb n="30"/>moy· I ku mar· yāṅ· I lāṅ si I ku yi pāk· I ku yi Āy· I lāṅ tai I ku cgoṅ· I derttai I pau tai I 
+   <lb n="31"/>ku jay· I ku yi mer· I $dotMid caṁnaṁ cī namaśśivāya $dotMid va kaṁpoñ· I va kaṁpoñ· sin· I ku yi caṅ· I lāṅ sī
+   <lb n="32"/>ku māṅ· kralā I lāṅ si I ku mar· hvāc· I ku lahvāy· I ku yi cuṅ· I ku yi lāṅ· I ku yi pāc· I 
+   <lb n="33"/>ku ceh· I ku lahve I ku kloñ· mratāṅ· I der· si I $dotMid caṁnaṁ po Adra I va klapit· I va kantāṅ· so I
+   <lb n="34"/>va kdoc· I va kansiṅ· I va kañ·joṅ· I ku yi Añ· I k[[u]] saṇi I de[[r·]] sī I lāṅ tai I ku yi des· I ku yi
+   <lb n="35"/>ten· I ku raṁpat· I ku yi son· I ku yi cok· I ku troy· I ku yi Añ· I $dotMid caṁnaṁ poñ· ka{1}m·
+</p>      
+                </div>
+           <div type="apparatus">
+               <listApp>
+                  <app loc="3">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1937-1966_01"></rdg>
+                  </app>
+               </listApp> 
+         </div> 
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p n="1-4">Ordre du roi chargeant Pu Neṅ Sevabhāra de mener 400 esclaves vrau à Vraḥ Mratāñ Kamratāṅ Daṁdaṁ, le chargeant de faire une inscription de tous les dons, et des ablutions d'eau sur tous les dieux, œuvres pies du Seigneur maître de la terre. Les dieux sont coparticipants avec le domaine du dieu Kamratāṅ Teṁ Kroṁ et ne le sont pas avec le domaine de Samudrapura.</p>
+            <p n="5">Kloñ kantai de Mratāñ Kamratāṅ Daṁdaṁ que le Mratāñ donne au V.K.A. le Vieux.</p>
+            <p n="6-8">Serviteurs du dieu, substituts du Mratāñ (liste de 11 noms se terminant presque tous par añ): total 11.</p>
+            <p n="8-10">Esclaves du dieu:
+Danseuses (5 noms), chanteuses (12 noms): total 5 danseuses, 12 chanteuses.</p>
+            <p n="11-15">Cmuḥ ka vraḥ (32 noms précédés la plupart de l'appellatif ku): total 23 cmuḥ ka vraḥ, 1 garçon lāṅ, 2 garçons au sein, 1 fille lāṅ, 4 filles au sein.</p>
+            <p n="15-17">Tmir slik (19 noms): total 10, 2 garçons lāṅ, 5 filles au sein.</p>
+            <p n="18-21">Cueilleurs de fruits (?) (37 noms de va): total 37 ple le.</p>
+            <p n="22-23">Tisserands (7 ku, 2 garçons lāṅ, 1 fille lāṅ, 1 fille au sein).</p>
+            <p n="23-25">Raṅhvai (11 ku, 2 garçons lāṅ, 1 garçon au sein, 1 fille au sein).</p>
+            <p n="26-28">Esclaves des rizières (constituant) la fondation de Po Yajamāna (3 va, 14 ku, 2 garçons lāṅ, 2 garçons au sein, 1 fille der, 1 fille lāṅ);</p>
+            <p n="28-31">fondation de Po Bhānudeva (3 va, 13 ku, 1 garçon lāṅ, 2 filles der, 1 fille lāṅ, 1 fille au sein);</p>
+            <p n="31-33">fondation de Ci Namaśśivāya (2 va, 10 ku, 2 garçons lāṅ, 1 garçon der);</p>
+            <p n="33-35">fondation de Po Adra (5 va, 9 ku, 1 garçon der, 1 fille lāṅ);</p>
+            <p n="35">fondation de Poñ ...</p>
+         </div>
+         <!-- <div type="commentary">
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">115-118</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 12.</p> 
+        <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">115-118</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
