@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lintel of Vat Baray (K. 140), 598 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00140</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-09-02" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+                   <lg n="1" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="a"><lb n="1"/>mūrttidvāraśaraiś śake sitadine prāpte daśaikottare _</l>
+   <l n="b">jyeṣṭhasyārkakujendujā mithunag(ā) - - ⏑ - - ⏑ -</l>
+<l n="c"><lb n="2"/>śukrasyārkkasuto vr̥ṣe suraguruẖ kanyā(ṁ) mr̥gārddhodaye _</l>
+<l n="d">śrīśambhoḫ pratimām ihaiva nihitāṁ - - ⏑ - - ⏑ -</l>
+</lg>
+<p>
+   <lb n="3"/>kñuṁ Aṁnoy· sāmantagajapati ta vraḥ kamratāṅ· Añ· śrī śaṅkara {3} vā taOṅ· I {7}
+   <lb n="4"/>vā qnak· klah· I vā klaṅ· Aras· I vā kandat(·) I vā kandin· I vā paroy· I vā kan· {7}
+   <lb n="5"/>vā vṅā I vā caṭṭī I vā kdic· I vā caṁpaṅ· I vā kañjoṅ· I vā stoy· I {7}
+   <lb n="6"/>vā sudānta I vā niṣṭhura I vā pañcamī I vā satī I vā vikalanetra I vā trayV {7}
+   <lb n="7"/>vā kānadat· I vā daśamī I vā dharmmavala I vā sudharmma I vā saṁUy· I vā ca {6}
+   <lb n="8"/>svanagarvvitā I kon vā viśākha I ku cavuṅ· I ma(va)haṅsikā I kon· vā svo {7}
+   <lb n="9"/>suvandhurā I ku tcaḥ I vasantavallī I kon· ku kralā I ku kaṁka I haṅsamanikā I {7}
+   <lb n="10"/>lalitavibhramā I kon· sulitā I suvibhramā I jākuka I kon· karapa {7}
+   <lb n="11"/>kon· vā mr̥s· gi I vā kantoṅ· ñaṅ· kon· ku laṅkaḥ vā Aras· I vā vīracan· {7}
+   <lb n="12"/>ku ku Aṁpik· I ku kaṁvai kon· ku vā dvok· ku pattibhāhv· ku stau vrai kon· ku {7}
+   <lb n="13"/>kanĀs I ku vrau kon· ku ku I Anrok· srāṅ· I ku jvik· I vā kaptaṅ(·) I ku k{7}
+   <lb n="14"/>{1}ṅ· I vā pūrṇṇamī I ku pe I kon· ku vā vñau I vā kcan· I ku sliṅ[[·]] I kon· ku {7}
+   <lb n="15"/>{2}ṅ· sai kon· ku vā raṁnoc· vraḥ I ku karoṁ I sā kanuṁ kaneṁ kon· ku ra {7}
+   <lb n="16"/>{2} kon· ku ku kaṅ {1}ṁ I k{4}
+</p>      
+                </div>
+           <div type="apparatus">
+               <listApp>
+                  <app loc="7">
+                     <lem/>
+                     <rdg source="bib:Coedes1937-1966_01"/>
+                  </app>
+                  </listApp> 
+         </div> 
+           <div type="translation" xml:lang="fra" source="bib:Barth1885_01">
+ 	<p rend="stanza" n="1">(L’an de) śaka (désigné) par corps, portes et flèches, le onzième jour de la quinzaine claire (du mois) de Jyeṣṭha étant venu : le Soleil, le fils de la Terre et le fils de la Lune sont arrivés dans les Gémeaux... de Śukra, le fils du Soleil (est) dans le Taureau, le précepteur des dieux (a atteint) la Vierge, le Capricorne étant à moitié levé ; (en ce moment) cette image ici placée de Śrī Śambhu...</p>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p rend="stanza" n="1">(En l’année) śaka marquée par les (5) flèches, les (9) ouvertures et les (8) corps, le onzième jour de la lune croissante de Jyeṣṭha étant arrivé, le Soleil, le fils de la terre (Mars), et le fils de la Lune (Mercure) étant dans les Gémeaux, (la Lune dans la Balance en compagnie) de Vénus, le fils du Soleil (Saturne) dans le Taureau, le précepteur des dieux (Jupiter) dans la Vierge, le Capricorne étant à moitié levé,... cette image ici placée de Śrī Śambhu.</p>
+            <p n="3-16">Esclaves donnés par le chef des éléphants du roi à V.K.A. Śrī Śaṅkara... (suit une liste d’esclaves, vā et ku, avec leurs enfants, kon).</p>
+         </div>
+         <!-- <div type="commentary">
+         </div> -->
+        <div type="bibliography">
+          <p>The Sanskrit stanza of the inscription was first edited by August Barth <bibl rend="omitname"><ptr target="bib:Barth1885_01"/><citedRange unit="page">75-77</citedRange></bibl>); re-edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">14-15</citedRange></bibl>) along with the Khmer text with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 974.</p> 
+        <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">115-118</citedRange>
+    </bibl>
+           <bibl n="AB">
+      <ptr target="bib:Barth1885_01"/><citedRange unit="page">75-77</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
