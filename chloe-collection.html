@@ -14,7 +14,8 @@
 <meta property="og:url" content="https://erc-dharma.github.io/tfc-khmer-epigraphy/"/>
 <meta property="og:site_name" content="tfc-khmer-epigraphy"/>
 <link rel="canonical" href="https://erc-dharma.github.io/tfc-khmer-epigraphy/"/>
-<link type="application/opensearchdescription+xml" rel="search" href="https://raw.githubusercontent.com/erc-dharma/erc-dharma.github.io/main/search.xml"/>
+  <link type="application/opensearchdescription+xml" rel="search" href="https://raw.githubusercontent.com/erc-dharma/erc-dharma.github.io/main/search.xml"/><link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
@@ -31,12 +32,59 @@
 
       gtag('config', 'G-CJ5KNWMVC7');
     </script>
+  <style>
+		@keyframes heartfade {
+			0% {
+				opacity : 1;
+			}
+			50% {
+				opacity : 0;
+			}
+		}
+		.heart {
+			z-index : 999;
+			animation : heartfade 6s linear;
+			position : absolute; 
+		}
+		.heart:before,
+		.heart:after {
+			content : "";
+			background-color : #fc2a62;
+			position : absolute;
+			height : 30px;
+			width : 45px;
+			border-radius : 15px 0px 0px 15px;
+		}
 
+		.heart:before {
+			transform : rotate(45deg);
+		}
 
+		.heart:after {
+			left : 10.5px;
+			transform : rotate(135deg);
+		}
+		</style>
+  <style>
+    h2{
+    animation-name: slidein;
+    animation-iteration-count: infinite;}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+  </style>
+  
   </head>
   <body>
-  <body>
-  <h1></h1>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="https://erc-dharma.github.io/">ERC-DHARMA</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -104,13 +152,16 @@
       </form>
     </div>
   </nav>
+    <div id="board"></div>
   <div class="container">
+    
     <div class="row">
         <div class="col">
     <h1>
       <a href="https://github.com/erc-dharma/tfc-khmer-epigraphy">Khmer Inscriptions</a>
     </h1>
-
+          <h2 class="animated infinite bounce text-center">🎉Great Work Chloé!🎉</h2>
+          
           <img src="https://img.shields.io/badge/licence-CC--BY-green.svg" class="img-fluid" alt="CC-BY"/>
           <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" class="img-fluid" alt="Open Science"/>
         <p>Texts edited in XML TEI by Chloé Chollet for the ERC-DHARMA Task force C.</p>
@@ -119,7 +170,6 @@
     </div>
     </div>
     </div>
-    </body>
     <!-- (async () => {
         const response = await fetch('https://api.github.com/repos/erc-dharma/tfc-khmer-epigraphy/contents/texts/htmloutput');
         const data = await response.json();
@@ -210,5 +260,106 @@
       })()
 
     </script>
-  <body>
+    <script>
+		
+		var brd = document.createElement("DIV");
+		document.body.insertBefore(brd, document.getElementById("board"));
+
+		const duration = 3000;
+		const speed = 0.5;
+		const cursorXOffset = 0;
+		const cursorYOffset = -5;
+
+		var hearts = [];
+		
+		function generateHeart(x, y, xBound, xStart, scale)
+		{
+			var heart = document.createElement("DIV");
+			heart.setAttribute('class', 'heart');
+			brd.appendChild(heart);
+			heart.time = duration;
+			heart.x = x;
+			heart.y = y;
+			heart.bound = xBound;
+			heart.direction = xStart;
+			heart.style.left = heart.x + "px";
+			heart.style.top = heart.y + "px";
+			heart.scale = scale;
+			heart.style.transform = "scale(" + scale + "," + scale + ")";
+			if(hearts == null)
+				hearts = [];
+			hearts.push(heart);
+			return heart;
+		}
+
+		var down = false;
+		var event = null;
+
+		document.onmousedown = function(e) {
+			down = true;
+			event = e;
+		}
+
+		document.onmouseup = function(e) {
+			down = false;
+		}
+
+		document.onmousemove = function(e) {
+			event = e;
+		}
+
+		document.ontouchstart = function(e) {
+			down = true;
+			event = e.touches[0];
+		}
+
+		document.ontouchend = function(e) {
+			down = false;
+		}
+
+		document.ontouchmove = function(e) {
+			event = e.touches[0];
+		}
+
+		var before = Date.now();
+		var id = setInterval(frame, 5);
+		var gr = setInterval(check, 100);
+
+		function frame()
+		{
+			var current = Date.now();
+			var deltaTime = current - before;
+			before = current;
+			for(i in hearts)
+			{
+				var heart = hearts[i];
+				heart.time -= deltaTime;
+				if(heart.time > 0)
+				{
+					heart.y -= speed;
+					heart.style.top = heart.y + "px";
+					heart.style.left = heart.x + heart.direction * heart.bound * Math.sin(heart.y * heart.scale / 30) / heart.y * 200 + "px";
+				}
+				else
+				{
+					heart.parentNode.removeChild(heart);
+					hearts.splice(i, 1);
+				}
+			}
+		}
+
+		function check()
+		{
+			if(down)
+			{
+				var start = 1 - Math.round(Math.random()) * 2;
+				var scale = Math.random() * Math.random() * 0.8 + 0.2;
+				var bound = 30 + Math.random() * 20;
+				generateHeart(event.pageX - brd.offsetLeft + cursorXOffset, event.pageY - brd.offsetTop + cursorYOffset, bound, start, scale);
+			}
+		}
+
+	</script>  
+
+	</body>
 </html>
