@@ -191,7 +191,7 @@
 |K.	185 |# |# |#|
 |K.	186 |# |# |#|
 |K.	187 |sapi |pendinc |IC I |
-|K.	188 |# |# |#|
+|K.	188 |sapi |pending  |NIC II-III|
 |K.	189 |# |# |#|
 |K.	190 |sapi |done |ISCC IC VI|
 |K.	191 |chch |pending |IC VI|
@@ -276,7 +276,7 @@
 |K.	268 |chch |done |Cœdès 1908; Mertens 2000|
 |K.	269 |# |# |#|
 |K.	270 |# |# |#|
-|K.	271 |# |# |#|
+|K.	271 |sapi |pending |IC IV|
 |K.	272 |# |# |#|
 |K.	273 |# |# |#|
 |K.	274 |# |# |#|
@@ -296,7 +296,7 @@
 |K.	288 |# |# |#|
 |K.	289 |# |# |#|
 |K.	290 |chch |pending |IC III|
-|K.	291 |# |# |#|
+|K.	291 |sapi |pending |IC III |
 |K.	292 |# |# |#|
 |K.	293-1 |kuch |done |Coedes 1913  BEFEO 1918  IC III, no trans.|
 |K.	293-2 |kuch |done |Coedes 1913  BEFEO 1918  IC III, no trans.|
@@ -693,7 +693,7 @@
 |K.	679 |# |# |#|
 |K.	680 |# |# |#|
 |K.	681 |# |# |#|
-|K.	682 |# |# |#|
+|K.	682 |sapi |pending |ICI I|
 |K.	683 |# |# |#|
 |K.	684 |# |# |#|
 |K.	685 |chch |done |IC IV|
@@ -835,7 +835,7 @@
 |K.	821 |# |# |#|
 |K.	822 |# |# |#|
 |K.	823 |# |# |#|
-|K.	824 |# |# |#|
+|K.	824 |sapi |pending |NIC II-III|
 |K.	825 |# |# |#|
 |K.	826 |# |# |#|
 |K.	827 |# |# |#|
@@ -897,7 +897,7 @@
 |K.	883 |# |# |#|
 |K.	884 |kuch |done |IC VI|
 |K.	885 |# |# |#|
-|K.	886 |# |# |#|
+|K.	886 |sapi |pending |IC V |
 |K.	887 |# |# |#|
 |K.	888 |# |# |#|
 |K.	889 |# |# |#|
@@ -1067,7 +1067,7 @@
 |K.	1047 |# |# |#|
 |K.	1048 |kuch |done |Gerschheimer and Vincent 2010|
 |K.	1049 |kuch |done |Goodall 2015|
-|K.	1050 |# |# |#|
+|K.	1050 |sapi |pending |NIC II-III|
 |K.	1051 |# |# |#|
 |K.	1052 |# |# |#|
 |K.	1053 |# |# |#|
@@ -1090,7 +1090,7 @@
 |K.	1070 |# |# |#|
 |K.	1071 |# |# |#|
 |K.	1072 |# |# |#|
-|K.	1073 |# |# |#|
+|K.	1073 |sapi |pending |NIC II-III|
 |K.	1074 |# |# |#|
 |K.	1075 |# |# |#|
 |K.	1076 |# |# |#|
@@ -1168,7 +1168,7 @@
 |K.	1148 |kuch and chch |done |Pou NIC II-III 2001|
 |K.	1149 |kuch |pending |unpublished|
 |K.	1150 |kuch |done |Goodall 2019|
-|K.	1151 |# |# |#|
+|K.	1151 |sapi |pending |NIC II-III|
 |K.	1152 |# |# |#|
 |K.	1153 |# |# |#|
 |K.	1154 |# |# |#|
