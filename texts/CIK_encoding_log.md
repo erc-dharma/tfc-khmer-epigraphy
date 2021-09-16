@@ -195,7 +195,7 @@
 |K.	189 |# |# |#|
 |K.	190 |sapi |done |ISCC IC VI|
 |K.	191 |chch |pending |IC VI|
-|K.	192 |sapi |pending ||C VI |
+|K.	192 |sapi |done ||C VI |
 |K.	193 |# |# |#|
 |K.	194 |# |# |#|
 |K.	195 |chch |done |IC VI|
@@ -322,8 +322,8 @@
 |K.	310 |# |# |#|
 |K.	311 |# |# |#|
 |K.	312 |sapi |pending |Pou NIC II-III |
-|K.	313 |sapi |pending |Pou NIC II-III |
-|K.	314 |sapi |pending |Pou NIC II-III |
+|K.	313 |sapi |done |Pou NIC II-III |
+|K.	314 |sapi |done |Pou NIC II-III |
 |K.	315 |# |# |#|
 |K.	316 |# |# |#|
 |K.	317 |# |# |#|
@@ -842,7 +842,7 @@
 |K.	828 |# |# |#|
 |K.	829 |# |# |#|
 |K.	830 |chch |done |IC V|
-|K.	831 |sapi |pending |IC V|
+|K.	831 |sapi |done |IC V|
 |K.	832 |# |# |#|
 |K.	833 |# |# |#|
 |K.	834 |chch |pending |IC V|
@@ -889,7 +889,7 @@
 |K.	875 |kuch |done |Coedes 1937|
 |K.	876 |# |# |#|
 |K.	877 |kuch |done |IC VI|
-|K.	878 |sapi |pending |IC V|
+|K.	878 |sapi |done |IC V|
 |K.	879 |chch |pending |IC V|
 |K.	880 |# |# |#|
 |K.	881 |# |# |#|
@@ -1068,7 +1068,7 @@
 |K.	1048 |kuch |done |Gerschheimer and Vincent 2010|
 |K.	1049 |kuch |done |Goodall 2015|
 |K.	1050 |sapi |pending |NIC II-III|
-|K.	1051 |# |# |#|
+|K.	1051 |sapi  |done  |NIC II-III|
 |K.	1052 |# |# |#|
 |K.	1053 |# |# |#|
 |K.	1054 |# |# |#|
@@ -1168,7 +1168,7 @@
 |K.	1148 |kuch and chch |done |Pou NIC II-III 2001|
 |K.	1149 |kuch |pending |unpublished|
 |K.	1150 |kuch |done |Goodall 2019|
-|K.	1151 |sapi |pending |NIC II-III|
+|K.	1151 |sapi |done |NIC II-III|
 |K.	1152 |# |# |#|
 |K.	1153 |# |# |#|
 |K.	1154 |# |# |#|
