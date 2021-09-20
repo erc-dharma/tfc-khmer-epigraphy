@@ -191,7 +191,7 @@
 |K.	185 |# |# |#|
 |K.	186 |# |# |#|
 |K.	187 |sapi |pendinc |IC I |
-|K.	188 |sapi |pending  |NIC II-III|
+|K.	188 |sapi |done  |NIC II-III|
 |K.	189 |# |# |#|
 |K.	190 |sapi |done |ISCC IC VI|
 |K.	191 |chch |pending |IC VI|
