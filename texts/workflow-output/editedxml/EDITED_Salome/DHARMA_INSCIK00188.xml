@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>West peristyle of East gopura II, group of North pillars, East pillar of Prasat Thom (K. 188), 851 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               <persName>
+                  <forename>Claude</forename>
+                  <surname>Jacques</surname>
+               </persName>
+               <persName><!--sapi2argr Quelle est la ref de E. Bourdonneau ? Sur le txt il est inscrit : Bourdonneau et al. (nd), in note-->
+                  <forename>Eric</forename>
+                  <surname>Bourdonneau</surname>
+               </persName>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00188</idno>
+            <!-- Replace by filename, e.g. Pallava00001 -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Salomé Pichon.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                     <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:sapi" when="2021-09-20" status="draft">started initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="okz-Latn">
+           <p>
+             <lb n="1"/><g type="gomutraInitial"/><g type="ddandaPlain"/> <num value="851">851</num> śaka nu bhagavan nā vraḥ kamrateṅ·
+             <lb n="2"/>Añ jagat ta rājya nivedana ta vraḥ kamrateṅ·
+             <lb n="3"/>Añ<choice><orig>a</orig><reg>·</reg></choice><g type="circleMed">.</g> lo <num value="1"><g type="numeral">I</g></num> gāyatriya vnak· <num value="1"><g type="numeral">I</g></num> śveta <num value="1"><g type="numeral">I</g></num> spai
+             <lb n="4"/>phyah Anrvaṁ jeṅ· mās· <num value="1"><g type="numeral">I</g></num> Āyoga <num value="1"><g type="numeral">I</g></num> canhva<lb n="5" break="no"/>ya <num value="1"><g type="numeral">I</g></num> yajñakośa <num value="1"><g type="numeral">I</g></num> bhājana <num value="1"><g type="numeral">I</g></num> ti duk ta gi Ā<lb n="6" break="no"/>rama śāntipada<g type="circleMed">.</g> sruk· chok<unclear>·</unclear> <unclear>kaṇ</unclear>ḍ<unclear>ā</unclear><supplied reason="lost">ṁ</supplied> si kanlo<lb n="7" break="no"/>ñ· si vrahey· si sneha si kr̥ṣṇadha<unclear>ra</unclear> si dha<lb n="8" break="no"/>rmma si j<unclear>i</unclear>va si kanloñ· si kamala si kañjai <num value="1"><g type="numeral">I</g></num>
+             <lb n="9"/>si har<unclear>i</unclear> si dharmma si ṣurākr̥ta tai kanlāṅ· tai kaṁ<lb n="10" break="no"/>vai tai jvīk· tai kañjā tai kanrat· tai kaṁ<lb n="11" break="no"/>prvat· tai Umāla tai dārikā tai thle<supplied reason="lost">ṁ</supplied> tai kaṁ<lb n="12" break="no"/>pañ· tai khmau tai khñuṁ tai magha phsaṁ <num value="25"><g type="numeral">20</g> <g type="numeral">5</g></num><g type="eye">.</g><!--sapi2argr Ou circleTarget?--> sruk·
+             <lb n="13"/>śaṅkarayāga sī go dhuk· si thkap· gvāl· krau
+             <lb n="14"/>gvāl<choice><orig>a</orig><reg>·</reg></choice> kanso tai dharaṇi tai krau tai qAme kan<lb n="15" break="no"/>so tai drakas· phsaṁ <num value="8">8</num><g type="eye">.</g><!--sapi2argr Ou circleTarget?--> sa
+           </p>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                 <app loc="1">
+                    <lem><num value="851">851</num></lem>
+                    <rdg source="bib:Pou2001_01"><num value="841">841</num></rdg>
+                 </app>
+                 <app loc="1">
+                    <lem>bhagavan nā</lem>
+                    <rdg source="bib:Pou2001_01">bhagavannā</rdg>
+                 </app>
+                 <app loc="2">
+                    <lem>jagat ta</lem>
+                    <rdg source="bib:Pou2001_01">jagatta</rdg>
+                 </app>
+                 <app loc="3">
+                    <lem>gāyatriya</lem>
+                    <rdg source="bib:Bourdonneau+al_">gāvatriya</rdg><!--de quelle référence s'agit-il ?-->
+                 </app>
+                 <app loc="4">
+                    <lem>canhva-</lem>
+                    <rdg source="bib:Pou2001_01">canhvā</rdg>
+                 </app>
+                 <app loc="5">
+                    <lem>-ya</lem>
+                    <rdg source="bib:Pou2001_01">-y</rdg>
+                 </app>
+                 <app loc="5">
+                    <lem>duk ta</lem>
+                    <rdg source="bib:Pou2001_01">dukta</rdg>
+                 </app>
+                 <app loc="6">
+                    <lem><unclear>kaṇ</unclear>ḍ<unclear>ā</unclear><supplied reason="lost">ṁ</supplied></lem>
+                    <rdg source="bib:Pou2001_01">kaṇḍāṁṅ</rdg>
+                    <rdg source="bib:Jacques2014_01">kaṇḍā<unclear>ṁ</unclear></rdg>
+                 </app>
+                 <app loc="7">
+                    <lem>sneha</lem>
+                    <rdg source="bib:Pou2001_01">vasnaha</rdg>
+                    <rdg source="Bourdonneau+al_">sn<unclear>e</unclear>ha</rdg><!--sapi2argr même question-->
+                 </app>
+                 <app loc="8">
+                    <lem>j<unclear>i</unclear>va</lem>
+                    <rdg source="bib:Pou2001_01">jīva</rdg>
+                    <rdg source="bib:Jacques2014_01">jiva</rdg>
+                 </app>
+                 <app loc="8">
+                    <lem>kañjai <num value="1"><g type="numeral">I</g></num></lem>
+                    <rdg source="bib:Pou2001_01">kañjai</rdg>
+                    <rdg source="bib:Jacques2014_01">kañ<unclear>j</unclear>ai <num value="1"><g type="numeral">I</g></num></rdg>
+                    <rdg source="Bourdonneau+al_">kañjai (<num value="1"><g type="numeral">I</g></num>)</rdg><!--sapi2argr même question + on ne peut pas mettre unclear autour de <num> donc j'ai rajouté les parenthèses à la main.-->
+                 </app>
+                 <app loc="9">
+                    <lem>har<unclear>i</unclear> si dharmma</lem>
+                    <rdg source="bib:Pou2001_01">harī si dharmma</rdg>
+                    <rdg source="bib:Jacques2014_01">hari si dharma</rdg>
+                 </app>
+                 <app loc="9">
+                    <lem>ṣurākr̥ta</lem>
+                    <rdg source="bib:Pou2001_01">śurākr̥ta</rdg>
+                    <rdg source="bib:Jacques2014_01">purākr̥ta</rdg>
+                    <rdg source="Bourdonneau+al_">ṣurakr̥ta</rdg><!--sapi2argr même question-->
+                 </app>
+                 <app loc="10">
+                    <lem>jvīk·</lem>
+                    <rdg source="bib:Pou2001_01">jvik</rdg>
+                 </app>
+                 <app loc="11">
+                    <lem>prvat·</lem>
+                    <rdg source="bib:Pou2001_01">pvat</rdg>
+                 </app>
+                 <app loc="12">
+                    <lem>pañ·</lem>
+                    <rdg source="bib:Pou2001_01">piñ·</rdg>
+                 </app>
+                 <app loc="13">
+                    <lem>sī go dhuk·</lem>
+                    <rdg source="bib:Pou2001_01">sī go dhak</rdg>
+                    <rdg source="bib:Jacques2014_01">si go dhuk</rdg>
+                    <rdg source="Bourdonneau+al_">si go dhuk</rdg><!--sapi2argr même question-->
+                 </app>
+                 <app loc="14">
+                    <lem>dharaṇi</lem>
+                    <rdg source="bib:Pou2001_01">dharaṇī</rdg>
+                 </app>
+                 <app loc="15">
+                    <lem>sa</lem>
+                    <rdg source="bib:Jacques2014_01">s<supplied reason="lost">ruk</supplied></rdg>
+                 </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Jacques2014_01">
+           <p n="1-6">En 851 <foreign>śaka</foreign>, le vénérable <supplied reason="subaudible">qui est</supplied> auprès de Monseigneur le dieu qui est le royaume fait savoir à Monseigneur : un <foreign>lo</foreign> <supplied reason="explanation">?</supplied>, une parure <foreign>gāyatriyā</foreign>, un parasol blanc, un <foreign>spaiphyah</foreign> à <foreign>anrvaṁ</foreign> et à pied d’or, un ornement, un <foreign>canhvay</foreign>, 1 coupe à libations <supplied reason="explanation"><foreign>yajñakośa</foreign></supplied>, 1 récipient, déposés à l’ermita de Śāntipada.</p>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
+           <p n="1-6">En 841 <foreign>śaka</foreign>, le vénérable assurant le service de V.K.A. le dieu du royaume présente à V.K.A. <supplied reason="subaudible">les offrandes suivantes</supplied> : 1 <foreign>lo</foreign>, 1 cotte dite <foreign>gāyatrī</foreign>, 1 parasol blanc, 1 écharpe couvrant les épaules et à bordure d’or, 1 parure, 1 brûle-parfum, 1 coupe pour le sacrifice, 1 plat <foreign>bhājana</foreign> ; <supplied reason="subaudible">ces offrandes</supplied> furent déposées à l’<foreign>āśrama</foreign> de Śāntipada.</p>
+           <p n="6-12">Au village de Chok Kandāṁ, voici les serviteurs : Si Kanloñ................... Tai Māgha : en tout 25.</p>
+          <p n="12-15">Au village de Śaṅkarayāga, voici les serviteurs : Sī Go Dhak........ Tai Drakas : en tout 8.</p>
+         </div>
+         <div type="commentary">
+            <p n="7-15">C. Jacques only translates the lines 1-6 of the inscription.</p>
+         </div>
+        <div type="bibliography">
+          <p>First edited in French by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">94-95</citedRange></bibl>). Then re-edited in French by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques2014_01"/><citedRange unit="page">107-108</citedRange></bibl>). Re-edited again in French by Eric Bourdonneau et al. <!--sapi2argr Ici je n'ai pas la référence.--> Re-edited here by Salomé Pichon based on EFEO estampage 210 and n. 90.</p>
+          <listBibl type="primary">
+            <bibl n="P">
+            <ptr target="bib:Pou2001_01"/>
+        	  <citedRange unit="page">94-95</citedRange>
+        	      </bibl>
+            <bibl n="J">
+            <ptr target="bib:Jacques2014_01"/>
+            <citedRange unit="page">107-108</citedRange>
+            	      </bibl>
+            <!--sapi Ajouter Bourdonneau-->
+			</listBibl>
+           <listBibl type="secondary">
+              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
