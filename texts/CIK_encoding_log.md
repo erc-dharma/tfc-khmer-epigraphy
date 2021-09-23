@@ -742,7 +742,7 @@
 |K.	728 |# |# |#|
 |K.	729 |# |# |#|
 |K.	730 |# |# |#|
-|K.	731 |# |# |#|
+|K.	731 |sapi |pending |JFCA 9B|
 |K.	732 |# |# |#|
 |K.	733 |kuch |pending |IC I|
 |K.	734 |kuch |pending |unpublished|
@@ -834,7 +834,7 @@
 |K.	820 |argr |done |IC VII|
 |K.	821 |# |# |#|
 |K.	822 |# |# |#|
-|K.	823 |# |# |#|
+|K.	823 |sapi |pending |IC VI ; Jacques 2014|
 |K.	824 |sapi |pending |NIC II-III|
 |K.	825 |# |# |#|
 |K.	826 |# |# |#|
@@ -946,7 +946,7 @@
 |K.	932 |# |# |#|
 |K.	933 |# |# |#|
 |K.	934 |kuch |done |IC IV|
-|K.	935 |# |# |#|
+|K.	935 |sapi |pending |IC IV|
 |K.	936 |kuch |done |IC IV|
 |K.	937 |# |# |#|
 |K.	938 |kuch |pending |IC VII|
@@ -1040,7 +1040,7 @@
 |K.	1020 |# |# |#|
 |K.	1021 |# |# |#|
 |K.	1022 |# |# |#|
-|K.	1023 |# |# |#|
+|K.	1023 |sapi |pending |unpublished|
 |K.	1024 |# |# |#|
 |K.	1025 |# |# |#|
 |K.	1026 |# |# |#|
@@ -1093,7 +1093,7 @@
 |K.	1073 |sapi |pending |NIC II-III|
 |K.	1074 |# |# |#|
 |K.	1075 |# |# |#|
-|K.	1076 |# |# |#|
+|K.	1076 |sapi |pending |unpublished|
 |K.	1077 |# |# |#|
 |K.	1078 |# |# |#|
 |K.	1079 |# |# |#|
@@ -1433,7 +1433,7 @@
 |K.	1412 |kuch |done |Hun 2018|
 |K.	1413 |kuch |done |Hun 2018|
 |K.	1414 |# |# |#|
-|K.	1415 |# |# |#|
+|K.	1415 |sapi |pending |unpublished|
 |K.	1416 |kuch |done |Hun 2018|
 |K.	1417 |kuch |pending |Goodall et al forthcoming|
 |K.	1418 |# |# |#|
@@ -1561,14 +1561,14 @@ K.	1539 |# |# |#|
 K.	1540 |# |# |#|
 K.	1541 |# |# |#|
 K.	1542 |chch |pending |unpublished|
-K.	1543 |# |# |#|
+K.	1543 |sapi |pending |unpublished|
 K.	1544 |# |# |#|
 K.	1545 |# |# |#|
 K.	1546 |# |# |#|
 K.	1547 |chch |done |unpublished|
 K.	1548 |# |# |#|
 K.	1549 |# |# |#|
-K.	1550 |# |# |#|
+K.	1550 |sapi |pending |unpublished|
 K.	1551 |# |# |#|
 K.	1552 |# |# |#|
 K.	1553 |# |# |#|
