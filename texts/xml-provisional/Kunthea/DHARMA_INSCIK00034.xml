@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Phnom Chisor (K. 34), 11th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00034</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-10-08">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Face</head>
+   <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="1"><lb n="A1"/><supplied reason="lost">na</supplied>mo hiraṇya-garbhāya <space/></l>
+<l n="2">vibhave bhūta-bhūtaye</l>
+<l n="3"><lb n="A2"/>yasyāsyendu-kalābhyas te <space/></l>
+<l n="4">catur-vedāḥ vinissr̥<supplied reason="lost">tāḥ</supplied></l>
+</lg>
+   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="1"><lb n="A3"/>sarggasthāya namas sthityai <space/></l>
+<l n="2">haraye paradhāriṇe</l>
+<l n="3"><lb n="A4"/>cakre cakreṇa yo rāje<space/>ś</l>
+<l n="4">cakrasya ka<seg met="-+-="><gap reason="lost" quantity="4" unit="character"/></seg></l>
+</lg>
+   <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="1"><lb n="A5"/>namaddhvan dhvānta-vidhvaṅsaṁ <space/></l>
+<l n="2">śaṅkaraṁ loka-śaṅkaram<unclear>·</unclear></l>
+<l n="3"><lb n="A6"/><supplied reason="lost">tri</supplied>lokyāraṇyadāhe yo <space/></l>
+<l n="4">durviṣahyataro nalaḥ</l>
+</lg>
+   <lg n="4" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="1"><lb n="A7"/><supplied reason="lost">Āsī</supplied>d ekānta-sarvvīya<space/>s</l>
+<l n="2">sarva-vāṅmaya-gocaraḥ</l>
+<l n="3"><lb n="A8"/>dvijo rāgādi-nirmmuktaḥ <space/></l>
+<l n="4">tamaseva divākaraḥ</l>
+</lg>
+   <lg n="5" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="1"><lb n="A9"/><seg met="===="><gap reason="lost" quantity="4" unit="character"/></seg> śramācāryya<space/></l>
+<l n="2"><seg met="="><gap reason="lost" quantity="1" unit="character"/></seg>ācāryyaśīva va<seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>iṇaḥ</l>
+<l n="3"><lb n="A10"/><supplied reason="lost">yasyā</supplied>sye rucire ramye <space/></l>
+<l n="4">reme śaśvat sarasvatī</l>
+</lg>
+   <lg n="6" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="1"><lb n="A11"/><seg met="====-+"><gap reason="lost" quantity="6" unit="character"/></seg>neva <space/></l>
+<l n="2">vidyā <seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg> ye si <seg met="="><gap reason="lost" quantity="1" unit="character"/></seg></l>
+<l n="3"><lb n="A12"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg> <supplied reason="lost"><space/></supplied></l>
+<l n="4"><seg met="===="><gap reason="lost" quantity="4" unit="character"/></seg> vane vasat<unclear>·</unclear></l>
+</lg>
+   <lg n="7" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="1"><lb n="A13"/><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>kāt pari<seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg>ṣṭa<space/></l>
+<l n="2">ca <seg met="===-+-="><gap reason="lost" quantity="7" unit="character"/></seg></l>
+<l n="3"><lb n="A14"/><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg> caturasyendu<space/></l>
+<l n="4"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+</lg>
+   <lg n="8" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="1"><lb n="A15"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg> <supplied reason="lost"><space/></supplied></l>
+<l n="2"><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>r vīkṣya <seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg>i<seg met="-="><gap reason="lost" quantity="2" unit="character"/></seg></l>
+<l n="3"><lb n="A16"/><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>ram <seg met="-+"><gap reason="lost" quantity="2" unit="character"/></seg>āraṁ <space/></l>
+<l n="4"><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg>ān sthāpayati sma yaḥ</l>
+</lg>
+   <p>
+      <lb n="A17"/><gap reason="lost" quantity="2" unit="character"/>apayātavana <g type="dotMid">.</g> vrai khlā <g type="dotMid">.</g> parvvar <g type="dotMid">.</g> teṁ duḥ saṁ rlāp danlā
+      <lb n="A18"/>śi<unclear>lpiśai</unclear>ndā <g type="dotMid">.</g> vadanā <g type="circle">.</g> travāṅ· Aṁnyāṁ <g type="dotMid">.</g> vidyādharmmā <g type="circle">.</g>
+   </p>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Face</head>
+<p>
+<lb n="B1"/><gap reason="lost" quantity="15" unit="character"/> kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> <gap reason="lost" quantity="9" unit="character"/>
+   <lb n="B2"/><gap reason="lost" quantity="3" unit="character"/> vraḥ pāda kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> paramakaivalyapada ta vraḥ <gap reason="lost" quantity="10" unit="character"/>
+   <lb n="B3"/>sūryyaparvvata loñ· <gap reason="lost" quantity="1" unit="character"/> so loñ· kadāyuḥ teṅ· vasā teṅ· <gap reason="lost" quantity="5" unit="character"/>
+   <lb n="B4"/>cī loñ· caṅ· loñ· <gap reason="lost" quantity="2" unit="character"/> teṅ· gaṅ· loñ· mūla loñ· <supplied reason="lost">dha</supplied>nañjaya loñ· <gap reason="lost" quantity="4" unit="character"/>
+   <lb n="B5"/>ṅ· <gap reason="lost" quantity="1" unit="character"/>ṅ· teṅ· nī teṅ· dic· loñ· jai teṅ· priya loñ· vut· teṅ· snā <gap reason="lost" quantity="3" unit="character"/>
+   <lb n="B6"/>vān· loñ· <gap reason="lost" quantity="2" unit="character"/> teṅ· spat· loñ· can· teṅ· kās· teṅ suvr̥ṣṭa teṅ· su<gap reason="lost" quantity="2" unit="character"/>
+   <lb n="B7"/>teṅ· laṁheṅ<unclear>·</unclear> teṅ· śrī teṅ· Umā teṅ· U teṅ· creṅ· loñ· sthira loñ· <gap reason="lost" quantity="2" unit="character"/>
+   <lb n="B8"/>rkkā loñ· s<unclear>u</unclear>vr̥ddhi loñ· <gap reason="lost" quantity="1" unit="character"/> teṅ· sān· teṅ· rāy· loñ· slut· teṅ· <gap reason="lost" quantity="3" unit="character"/>
+   <lb n="B9"/>ṅ<supplied reason="lost">·</supplied> krai loñ· sān· loñ· lāy· teṅ· sarāga loñ· srū teṅ· sra <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="B10"/>loñ· <gap reason="lost" quantity="1" unit="character"/>ma teṅ· dhi loñ· jun· teṅ· dhān· teṅ· kr̥ṣṇa loñ· sthira teṅ· <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="B11"/>teṅ· A<gap reason="lost" quantity="1" unit="character"/> teṅ· sārasvatī teṅ· jvan· teṅ sāṁ teṅ· lakṣmī teṅ· <gap reason="lost" quantity="1" unit="character"/>ṅ· <gap reason="lost" quantity="1" unit="character"/> teṅ<unclear>·</unclear>
+   <lb n="B12"/>pa <gap reason="lost" quantity="2" unit="character"/>ṅ<unclear>·</unclear> <gap reason="lost" quantity="1" unit="character"/> teṅ· travāṅ· phle loñ· vara teṅ· cau teṅ· nī loñ· sthira teṅ<unclear>·</unclear> <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="B13"/>teṅ· g<gap reason="lost" quantity="1" unit="character"/> loñ· cañ· teṅ· cau loñ· dhī loñ· gaṅ· caṁ rlāp· danlā taṁṅai srā<lb 
+      n="B14" break="no"/>ṅ· gol<unclear>·</unclear> sīmāvadhi ta gi bhūmi noḥ toy· pūrvva tarāp· canhvara toy· dakṣiṇa
+   <lb n="B15"/>tarāp· vnāṅ· toy· paścima tarāp· kantāl· piṅ· toy· Uttara prasap ta bhūmi
+   <lb n="B16"/>jeṅ· chdiṅ· bhūmi ta saṁ nu rlāp· danlā Anle vyar· rāṅ· nu rkkā syaṅ ta srāṅ· gol·
+   <lb n="B17"/>sīmāvadhi ta gi caṁnāṁ kalpanā phle bhūmi noḥ ta Anle pi ti qnak ta roḥh neḥha
+   <lb n="B18"/>phoṅ· thve raṅko saṅkrānta je <num value="1"><g type="numeral">I</g></num> karttika thlvaṅ· <num value="4">4</num> dīpa catusahasra vraḥ vasana yau <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="B19"/>vlaḥ śātakā yau <num value="4">4</num> <g type="circle">.</g> jaṁnvan· ta kamrateṅ· jagat· chnal· teṅ· nila teṅ· spata
+   <lb n="B20"/>teṅ· vasanta loñ· saṁ teṅ· gauri teṅ sarāga caṁnāṁ kalpanā ti q<supplied reason="lost">n</supplied>ak ta roḥ noha
+   <lb n="B21"/>thve raṅko saṅkrānta je <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> jaṁnvan ta kamrateṅ· jagat· śrī vr̥ṣadhvaja te<supplied reason="lost">ṅ·</supplied> ṅe teṅ· ratna
+   <lb n="B22"/>teṅ· lābha loñ<unclear>·</unclear> siddhikāra loñ<unclear>·</unclear> sai teṅ· dep· teṅ· sram· caṁnāṁ saṅkrānta je
+   <lb n="B23"/>kanlaḥ karttika raṅko je <num value="2"><g type="numeral">II</g></num> dīpa slik· <num value="1"><g type="numeral">I</g></num> śātakā yau <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> jaṁnvan· ta kamrateṅ· jagat·
+   <lb n="B24"/>vnaṁ vvas· teṅ· r̥ddhi loñ· śrādha loñ· śaśi caṁnāṁ saṅkrānta raṅko je kanlaḥ karttika je
+   <lb n="B25"/><num value="2"><g type="numeral">II</g></num> dīp· slik· <num value="1"><g type="numeral">I</g></num> śāṭakā yau <num value="1"><g type="numeral">I</g></num> <g type="circle">.</g> jaṁnvan· ta kamrateṅ· jagat· toṅ· carāp· teṅ· cren·
+   <lb n="B26"/>teṅ· vīja loñ· dhi ni caṁnāṁ saṅkrāntā raṅko je kanlaḥ karttika je <num value="1"><g type="numeral">I</g></num> dīp· śata <num value="2"><g type="numeral">II</g></num> śāṭakā
+   <lb n="B27"/>yau <num value="1"><g type="numeral">I</g></num> <g type="circle">.</g> jaṁnvan ta kaṁmrateṅ· jagat<unclear>·</unclear> vnaṁ hveṅ· teṅ· vrahma teṅ· vasa loñ· Aṅgāra loñ<unclear>·</unclear>
+   <lb n="B28"/>sthira teṅ· vāṅ· teṅ· vraḥ loñ· caturvveda teṅ<unclear>·</unclear> bhāgya nī caṁnāṁ saṅkrānta raṅko
+   <lb n="B29"/>je kanlaḥ karttika je <num value="1"><g type="numeral">I</g></num> dīpa śata <num value="2"><g type="numeral">II</g></num> śāṭakā yau <num value="1"><g type="numeral">I</g></num> <g type="circle">.</g> nau qnak ta ñyāpa pa<lb 
+      n="B30" break="no"/>ripālana dharmmārambha caṁnāṁ kalpanā ta roḥh neḥha mān· svarggāpavargga ri qna<lb 
+         n="B31" break="no"/>k ta paṁpāt<unclear>·</unclear> dharmmārambha neḥ le<choice><orig>n</orig><reg>ṅ</reg></choice>· qnak· noḥh dau ta durggatī <g type="gomutraFinial">.</g>
+</p>
+   <div type="textpart" n="C"><head xml:lang="eng">Face</head>
+<p>
+<lb n="C1"/>teṅ· dep·
+   <lb n="C2"/>loña cāṁ vnaṁ
+</p>
+   </div>
+                   </div>
+                </div>
+                <div type="apparatus">
+                   <div type="textpart" n="A"><head xml:lang="eng">Face</head>
+               <listApp>
+                  <app loc="18">
+                     <lem>śi<unclear>lpiśai</unclear>ndā</lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="lost" quantity="1" unit="character"/>pi<gap reason="lost" quantity="2" unit="character"/>nda</rdg>
+                  </app>
+               </listApp>
+                   </div>
+                   <div type="textpart" n="B"><head xml:lang="eng">Face</head>
+               <listApp>
+                  <app loc="B8">
+                     <lem>rkkā</lem>
+                     <rdg source="bib:Coedes1937-1966_01">rkka</rdg>
+                  </app>
+                  <app loc="B8">
+                     <lem>s<unclear>u</unclear>vr̥ddhi</lem>
+                     <rdg source="bib:Coedes1937-1966_01">vr̥ddhi</rdg>
+                  </app>
+                  <app loc="B11">
+                     <lem>sārasvatī</lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="lost" quantity="1" unit="character"/>ra <gap reason="lost" quantity="1" unit="character"/>ūtī</rdg>
+                  </app>
+                  <app loc="B24">
+                     <lem>loñ· śrādha loñ· śaśi</lem>
+                     <rdg source="bib:Coedes1937-1966_01">loñ· śrādhara teṅ· śaśi</rdg>
+                  </app>
+                  <app loc="B26">
+                     <lem>dīp·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">dīpa</rdg>
+                  </app>
+               </listApp>
+                   </div>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+           <p rend="stanza" n="1">Hommage au puissant Hiraṇyagarbha, dont les bouches, comme des portions de la lune, ont émis les quatre Vedas pour le bonheur des êtres.</p>
+            <p rend="stanza" n="2">Hommage à Hari, le conservateur suprême, qui réside dans la création pour en assurer la stabilité, qui a fait avec son disque <gap reason="lost"/> de la ligne du cercle <gap reason="lost"/>.</p>
+            <p rend="stanza" n="3">Saluez Śaṅkara, qui détruit l'obscurité, donne au monde la prospérité, et se comporte comme un feu irrésistible dans l'incendie de la forêt des trois mondes.</p>
+            <p rend="stanza" n="4">Il y eut un brâhmane, Divākara, uniquement attaché au bien de tous, ayant pour domaine tout ce qui touche à l'éloquence, délivré des passions comme <supplied reason="subaudible">le soleil</supplied> de l'obscurité.</p>
+            <p rend="stanza" n="5"><gap reason="lost"/> ce maître <gap reason="lost"/> Sarasvatī résidait à demeure dans sa bouche douce et charmante.</p>
+            <p rend="stanza" n="6"><gap reason="lost"/> il demeura dans la forêt.</p>
+            <p rend="stanza" n="7"><gap reason="lost"/></p>
+            <p rend="stanza" n="8">Ayant considéré <gap reason="lost"/> il fit ériger <gap reason="lost"/>.</p>
+            <p n="A17-A18"><supplied reason="explanation">Liste de noms de lieux.</supplied></p>
+               <p n="B1-B3"><gap reason="lost"/> S.M. Paramakaivalyapada à <gap reason="lost"/> Sūryaparvata.</p>
+               <p n="B3-B13"><supplied reason="explanation">Liste d'esclaves femmes <supplied reason="explanation"><foreign>teṅ</foreign></supplied> et homme <supplied reason="explanation"><foreign>loñ</foreign></supplied></supplied></p>
+               <p n="B13-B16"><supplied reason="explanation">Ces gens</supplied> sont affectés à Rlāp Danlā Taṁṅai. On plante les bornes de cette terre <supplied reason="explanation">qui s'étend</supplied> à l'est en suivant le fossé, au sud en suivant le mur, à l'ouest en suivant le meilleur de l'étang, au nord jusqu'à toucher la terre au pied de la rivière.</p>
+               <p n="B16-B17">Les terres réunies à Rlāp Danlā sont en deux endroits, à Rāṅ et à Rkā <supplied reason="explanation">"faux cotonnier"</supplied> où l'on plante les bornes.</p>
+               <p n="B17-B19">Les prestations fixées comme produit de ces trois endroits, tous ces gens les fournissent à raison de: 1 <foreign>je</foreign> de riz blanc au nouvel an, 4 <foreign>thlvaṅ</foreign> au mois de Kārttika, quatre milles luminaires, 1 paire de <foreign>yau</foreign> d'étoffe <supplied reason="explanation"><foreign>vasana</foreign></supplied>, 4 <foreign>yau</foreign> de <foreign>śāṭakā</foreign>.</p>
+               <p n="B19-B21">Dons à K.J. Chnal: <supplied reason="explanation">5 <foreign>teṅ</foreign>, 1 <foreign>loñ</foreign></supplied>; prestations fournies par ces gens: 1 <foreign>je</foreign> de riz blanc au nouvel an.</p>
+               <p n="B21-B23">Dons à K.J. Śrī Vr̥ṣadhvaja: <supplied reason="explanation">5 <foreign>teṅ</foreign>, 2 <foreign>loñ</foreign></supplied>; prestations: 1/2 <foreign>je</foreign> de riz blanc au nouvel an, 2 <foreign>je</foreign> au mois de Kārttika, 400 luminaires, 1 <foreign>yau</foreign> de <foreign>śāṭakā</foreign>.</p>
+               <p n="B23-B25">Dons à K.J. Vnaṁ Vvas <supplied reason="explanation">2 <foreign>teṅ</foreign>, 1 <foreign>loñ</foreign></supplied>; prestations: 1/2 <foreign>je</foreign> de riz blanc au nouvel an, 2 <foreign>je</foreign> au mois de Kārttika, 400 luminiares, 1 <foreign>yau</foreign> de <foreign>śāṭakā</foreign>.</p>
+               <p n="B25-B26">Dons à K.J. Toṅ Carāp <supplied reason="explanation">2 <foreign>teṅ</foreign>, 1 <foreign>loñ</foreign></supplied>; prestations: 1 <foreign>je</foreign> de riz blanc au nouvel an, 1 <foreign>je</foreign> au moins de Kārttika, 200 luminaires, 1 <foreign>yau</foreign> de <foreign>śāṭakā</foreign>.</p>
+            <p n="B27-B29">Dons à K.J. Vnaṁ Hveṅ <supplied reason="explanation">5 <foreign>teṅ</foreign>, 3 <foreign>loñ</foreign></supplied>; prestations: 1 <foreign>je</foreign> de riz blanc au nouvel an, 1 <foreign>je</foreign> au mois de Kārttika, 200 luminaires, 1 <foreign>yau</foreign> de <foreign>śāṭakā</foreign>.</p>
+               <p n="B29-B31">Que les gens qui s'empresseront de conserver cette œuvre pie et toutes les prestations ainsi fixées, obtiennent la béatitude céleste; que les gens qui détruiront cette œuvre pie tombent dans le malheur.</p>
+           <p n="C1-C2"><supplied reason="explanation">Deux noms d'esclaves.</supplied></p>
+         </div>
+         <div type="commentary">
+            <p>The two names of servants on the face C may be forgotten by the scribe while engraving the list of servants on the face B.</p>
+         </div>
+       <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">152-156</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 527.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">152-156</citedRange>
+    </bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
