@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Basak (K. 425), 890 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00425</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-10-19" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<p>
+<lb n="1"/>@ 890 śakka nu mān· vraḥ śāsana dhulī vraḥ pāda dhulī jeṅ vra[ḥ kaṁ]-
+   <lb n="2"/>mrateṅ· Añ· śrījayavarmmadeva Oy· sruk(·) thkvāl· joṅ· ta kaṁ-
+   <lb n="3"/>mrateṅ(·) jagat· vak· Ek· nā thve vraḥ caṁnāṁ śvetatandula je mvāy· pratidina [nu pa]-
+   <lb n="4"/>ryyaṅ· dīpa nu paryyaṅ· vraḥ go {1} gi nu kñuṁ ta dau {3} ta gi bhūmi pi Oy(·) [ta]
+   <lb n="5"/>kaṁmrateṅ· jagat(·) {5} na taṁmrvāc· vraḥ kralā phdaṁ nu mratāñ· śrīnr̥pendrā-
+   <lb n="6"/>yuddha $dotMid ta dau dār bhūmi steñ· khloñ· vnaṁ vak Ek· steñ· Añ· Ācāryyapuro- 
+   <lb n="7"/>hita nu kulapatiya nu guṇadoṣadarśiya nu devaparicāra nu kramapāla nu taṁmrvā[c·]
+   <lb n="8"/>nu chmāṁ glāṅ· $dotMid neḥ syaṅ ta dau dār· bhūmi nā thve vraḥ caṁnāṁ $dotMid {6}ṅ vargga vairāta
+   <lb n="9"/>dau raṁlik ta khloñ· vala ta vyāpāra kathā man(·) bhūmi {3}n· tāñ· nāṅ· Āc cañ·
+   <lb n="10"/>vyavahāra $dotMid khloñ· vala vraḥ kṣora paṅgaṁ thpvaṅ· nivedana man· bhūmi thkvāl· joṅ· gi ta O-
+   <lb n="11"/>y(·) vraḥ caṁnāṁ $dotMid pre mratāñ· śrīnarendrasiṅha senāpati vraḥ mukhadvāra dau
+   <lb n="12"/>saṅ· gol· ta gi bhūmi $dotMid sthāpanā praśasta Āy· vak Ek· siddha gi bhūmi ta kaṁmrate-
+   <lb n="13"/>ṅ· jagat· vak Ek· $dotMid gi śākha gi bhūmi nai varga vyādhapura man(·) varga vyādhapura ti dhulī vraḥ pā-
+   <lb n="14"/>da dhulī jeṅ· vraḥ kaṁmrateṅ· Añ· ta stac· dau parameśvara pre yok· pi dau duk·
+   <lb n="15"/>Āy· qmoghapura $dotMid vraḥ śāsana pre thve pra{4} ta gi sruk· thkvāl· [jo]-
+   <lb n="16"/>ṅ· dau jā rājadravya lvoḥ ta gi rājya dhulī vraḥ pāda dhulī jeṅ· vraḥ kaṁmrateṅ·
+   <lb n="17"/>Añ· ta stac· dau paramaśivaloka ti Oy· ta kaṁmrateṅ· jagat· vak Ek· $dotMid
+   <lb n="18"/>{2} ta gi rājya dhulī vraḥ pāda dhulī jeṅ· vraḥ kaṁmrateṅ· Añ· ta stac· dau
+   <lb n="19"/>rudraloka $circleSmall vāp· kṣetrajña vraḥ kralā phdaṁ srukka Āy· kantāl· sre dau
+   <lb n="20"/>cat· sruk· ta gi bhūmi thkvāl· joṅ· $circleSmall man· l̥ ta steñ· Īśvaravyāpī khloñ·
+   <lb n="21"/>{4} [puru]ṣapradhāna phoṅa nu khloñ· qnak· phoṅa {3} bhūmi {1}
+   <lb n="22"/>{6} bhūmi thkvāl· joṅ· $dotMid vāp kṣetrajña ra{7}
+   <lb n="23"/>{7} caṁnāṁ nā kaṁmrateṅ· jagat· vak Ek· {6}
+   <lb n="24"/>{6}k· yajña liḥ 2 dep· {2} khloñ· {6}
+   <lb n="25"/>{10} [paṅgaṁ] thpvaṅ· nivedana {9}
+   <lb n="26"/>{14} bhūmi {3} 
+</p>
+                </div>
+                <div type="apparatus">
+               <listApp>
+                  <app loc="5">
+                     <lem/>
+                     <rdg source="bib:Coedes1937-1966_01"/>
+                  </app>
+                  
+                            </listApp>         
+         </div>
+        <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+           <p n="1-6">En 890 śaka, il y eut un édit de S.M. Śrī Jayavarmadeva donnant au K.J. Vak Ek le pays de Thkvāl Joṅ en vue d’une prestation quotidienne de 1 je de riz blanc avec de l’huile à lampe et de l’huile (i.e. du beurre fondu) de la vache sacrée... et des esclaves. Ceux qui sont allés... le terrain pour le donner au dieu :... inspecteur de la chambre à coucher et Mratāñ Śrī Nr̥pendrāyuddha.</p>
+           <p n="6-8">Ceux qui sont allés demander le terrain : Steñ Añ, Vnaṁ Vak Ek, Steñ Añ Ācāryapurohita, le supérieur (kulapati), l’inspecteur des qualités et des défauts, le serviteur du dieu (devaparicāra), le gardien des règles (kramapāla), l’inspecteur et le gardien du trésor. Tels ont été ceux qui sont allés demander le terrain pour instituer la prestation.</p>
+           <p n="8-11">... de la subdivision de Vairāta alla rappeler au Khloñ Vala en fonctions (vyāpāra) que le terrain.... Tāñ Nāṅ avait perdu son procès. Khloñ Vala Vraḥ Kṣora informa le roi que c’était la terre de Thkvāl Joṅ qui avait été donnée pour la prestation.</p>
+           <p n="11-13">Ordre fut donné à Mratāñ Śrī Narendrasiṁha, général de la porte antérieure (mukhadvāra), d’aller planter les bornes sur cette terre, et d’ériger une stèle inscrite (praśasta) à Vak Ek, attribuant le droit exclusif (siddha) sur cette terre au K.J. Vak Ek.</p>
+           <p n="13-16">Voici la filiation de (cette) terre de la subdivision territoriale (varga) de Vyādhapura. Cette subdivision territoriale de Vyādhapura, S.M. Parameçvara (Jayavarman II) l’avait fait transférer à Amoghapura ; un ordre royal fit faire... au pays de Thkvāl Joṅ pour qu’il devînt propriété royale (rājadravya).</p>
+           <p n="16-26">Au règne de S.M. Paramaśivaloka (Yaśovarman), il fut donné au K.J. Vak Ek. Au règne de S.M. Rudraloka (Harṣavarman I), Vāp Kṣetrajña, de la chambre à coucher au pays de Kantāl Sre, alla fonder un village sur la terre de Thkvāl Joṅ. Cela vint aux oreilles de Steñ Īśvaravyāpi, de Khloñ... des notables et des Khloñ Anak... terre... terre de Thkvāl Joṅ. Vāp Kṣetrajña... prestation au K.J. Vak Ek... sacrifice, 2 liḥ. Ensuite... Khloñ... informa le roi... terre...</p>
+         </div>
+         <div type="commentary">
+            <p>The <foreign>virāma</foreign>virāma applied to the words <foreign>cat·</foreign> and <foreign>sruk·</foreign> in the line 20 and those in the lines 24 and 25 is hypothetic because they are lost on the estampage EFEO n.2. The last three lines are lost on the estampage; thus they cannot be varified in our re-edition.</p>
+         </div>
+       <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">142-144</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 2.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">142-144</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
