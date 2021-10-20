@@ -620,7 +620,7 @@
 |K.	606 |# |# |#|
 |K.	607 |kuch |done |Soutif 2009|
 |K.	608 |kuch |pending |Soutif 2009|
-|K.	609 |kuch |pending |Fint 1928|
+|K.	609 |kuch |pending |Finot 1928|
 |K.	610 |# |# |#|
 |K.	611 |# |# |#|
 |K.	612 |# |# |#|
