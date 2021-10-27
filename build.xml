@@ -43,13 +43,28 @@
 
     <!-- Transformation XML vers HTML -->
 
-           <xslt force="true" style="./project-documentation/stylesheets/inscriptions/start-edition-with-bibl.xsl" destdir="./texts/workflow-output/html" extension=".html" useImplicitFileset="false" classpath="./project-documentation/EditorialStylesheets/pipelineTools/saxon9he.jar">
-        <fileset refid="htmlFiles"/>
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <regexpmapper from="EDITED_(.*).xml" to="\1.html"/>
-    </xslt>
+           
 
     <!-- supprimer les fichiers résultant des étapes intermédiaires -->
     <!--<delete dir="./texts/editedxml"/>-->
 
+    <target name="init">
+        <condition property="files.available">
+            <xslt force="true" style="./project-documentation/stylesheets/inscriptions/start-edition-with-bibl.xsl" destdir="./texts/workflow-output/html" extension=".html" useImplicitFileset="false" classpath="./project-documentation/EditorialStylesheets/pipelineTools/saxon9he.jar">
+                <fileset refid="htmlFiles"/>
+                <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+                <regexpmapper from="EDITED_(.*).xml" to="\1.html"/>
+            </xslt>
+        </condition>
+    </target>
+    
+    <target name="default" depends="init" if="files.available">
+        <subant inheritall="false" failonerror="false">
+            <xslt force="true" style="./project-documentation/stylesheets/inscriptions/start-edition.xsl" destdir="./texts/workflow-output/html" extension=".html" useImplicitFileset="false" classpath="./project-documentation/EditorialStylesheets/pipelineTools/saxon9he.jar">
+                <fileset refid="htmlFiles"/>
+                <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+                <regexpmapper from="EDITED_(.*).xml" to="\1.html"/>
+            </xslt>
+        </subant>
+    </target>
 </project>
