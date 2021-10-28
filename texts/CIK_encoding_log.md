@@ -699,7 +699,7 @@
 |K.	685 |chch |done |IC IV|
 |K.	686 |# |# |#|
 |K.	687 |# |# |#|
-|K.	688 |# |# |#|
+|K.	688 |chch |pending |IC IV|
 |K.	689 |kuch |done |IC VI|
 |K.	690 |# |# |#|
 |K.	691 |chch |done |IC IV|
@@ -819,7 +819,7 @@
 |K.	805 |# |# |#|
 |K.	806 |# |# |#|
 |K.	807 |# |# |#|
-|K.	808 |# |# |#|
+|K.	808 |chch |done |IC IV|
 |K.	809 |chch |pending |IC I|
 |K.	810 |kuch |done |IC VI|
 |K.	811 |kuch |done |IC VI|
