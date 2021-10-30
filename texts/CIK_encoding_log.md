@@ -35,12 +35,12 @@
 |K.	28 |kuch |done |IC II|
 |K.	29 |kuch|done|IC II|
 |K.	30 |kuch |done |IC II|
-|K.	31 |kuch |pending |IC II|
+|K.	31 |kuch |done |IC II|
 |K.	32 |chch |done |IC II|
 |K.	33 |chch |done |IC III|
-|K.	34 |kuch |pending |IC III|
+|K.	34 |kuch |done |IC III|
 |K.	35 |kuch |pending |IC II, Jacques 2014|
-|K.	36 |kuch |pending | IC II|
+|K.	36 |kuch |done | IC II|
 |K.	37 |kuch | done|IC II|
 |K.	38 |kuch|done |IC II|
 |K.	39 |# |# |#|
@@ -60,7 +60,7 @@
 |K.	53 |kuch |done |ISC|
 |K.	54 |kuch | done |ISC|
 |K.	55 |kuch |done|ISC|
-|K.	56 |kuch |pending |IC VII|
+|K.	56 |kuch |done |IC VII|
 |K.	57 |kuch |pending |ISCC|
 |K.	58 |kuch |pending |unpublished|
 |K.	59 |# |# |#|
@@ -75,7 +75,7 @@
 |K.	68 |kuch |pending |IC VII|
 |K.	69 |kuch |pending |IC VI|
 |K.	70 |kuch |pending |Finot 1915, IC II|
-|K.	71 |kuch |pending |IC II|
+|K.	71 |kuch |done |IC II|
 |K.	72 |kuch |pending |IC VI, IC VII|
 |K.	73 |kuch |done |IC VI|
 |K.	74 |kuch |done |IC VI|
@@ -436,7 +436,7 @@
 |K.	422 |kuch |done |IC II|
 |K.	423 |kuch |done |IC II|
 |K.	424 |kuch |done |IC II|
-|K.	425 |kuch |pending |IC II|
+|K.	425 |kuch |done |IC II|
 |K.	426 |kuch |done |IC II|
 |K.	427 |kuch | done |IC VI|
 |K.	428 |# |# |#|
@@ -529,7 +529,7 @@
 |K.	515 |# |# |#|
 |K.	516 |kuch |pending |Parmentier 1920|
 |K.	517 |# |# |#|
-|K.	518 |kuch |pending |IC II|
+|K.	518 |kuch |done |IC II|
 |K.	519 |# |# |#|
 |K.	520 |kuch |done |Finot 1920|
 |K.	521 |# |# |#|
@@ -560,14 +560,14 @@
 |K.	546 |# |# |#|
 |K.	547 |# |# |#|
 |K.	548 |kuch |done |IC II|
-|K.	549 |kuch |pending |IC II|
+|K.	549 |kuch |done |IC II|
 |K.	550 |chch |done |Cœdès 1951|
 |K.	551 |# |# |#|
 |K.	552 |# |# |#|
 |K.	553 |# |# |#|
 |K.	554 |# |# |#|
 |K.	555 |# |# |#|
-|K.	556 |kuch |pending |IC II|
+|K.	556 |kuch |done |IC II|
 |K.	557 |# |# |#|
 |K.	558 |# |# |#|
 |K.	559 |kuch |done |IC II|
@@ -664,7 +664,7 @@
 |K.	650 |# |# |#|
 |K.	651 |# |# |#|
 |K.	652 |kuch|done |IC V|
-|K.	653 |kuch |pending |IC V|
+|K.	653 |kuch |done |IC V|
 |K.	654 |kuch |done |IC V|
 |K.	655 |kuch |pending |IC VI|
 |K.	656 |# |# |#|
