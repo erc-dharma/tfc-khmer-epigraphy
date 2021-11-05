@@ -968,7 +968,7 @@
 |K.	954 |# |# |#|
 |K.	955 |# |# |#|
 |K.	956 |kuch |done |IC VII|
-|K.	957 |chch |pending |IC VII|
+|K.	957 |chch |done |IC VII|
 |K.	958 |# |# |#|
 |K.	959 |# |# |#|
 |K.	960 |# |# |#|
