@@ -160,7 +160,7 @@
 |K.	154 |kuch |done |IC II|
 |K.	155 |# |# |#|
 |K.	156 |kuch |done |IC V|
-|K.	157 |# |# |#|
+|K.	157 |sapi |pending |IC VI|
 |K.	158 |# |# |#|
 |K.	159 |# |# |#|
 |K.	160 |chch |pending |unpublished|
@@ -168,7 +168,7 @@
 |K.	162 |# |# |#|
 |K.	163 |# |# |#|
 |K.	164 |# |# |#|
-|K.	165 |# |# |#|
+|K.	165 |sapi |pending |IC VI|
 |K.	166 |# |# |#|
 |K.	167 |# |# |#|
 |K.	168 |# |# |#|
@@ -183,25 +183,25 @@
 |K.	177 |chch |pending |IC VII|
 |K.	178 |chch |done |IC VI|
 |K.	179 |# |# |#|
-|K.	180 |# |# |#|
+|K.	180 |sapi |pending |BEFEO 1913|
 |K.	181 |# |# |#|
 |K.	182 |# |# |#|
 |K.	183 |# |# |#|
 |K.	184 |# |# |#|
 |K.	185 |# |# |#|
 |K.	186 |# |# |#|
-|K.	187 |sapi |pendinc |IC I |
+|K.	187 |sapi |pendinc |IC I|
 |K.	188 |sapi |done  |NIC II-III|
 |K.	189 |# |# |#|
 |K.	190 |sapi |done |ISCC IC VI|
 |K.	191 |chch |pending |IC VI|
-|K.	192 |sapi |done ||C VI |
+|K.	192 |sapi |done ||C VI|
 |K.	193 |# |# |#|
 |K.	194 |# |# |#|
 |K.	195 |chch |done |IC VI|
 |K.	196 |# |# |#|
 |K.	197 |# |# |#|
-|K.	198 |# |# |#|
+|K.	198 |sapi |pending |IC VI|
 |K.	199 |# |# |#|
 |K.	200 |# |# |#|
 |K.	201 |# |# |#|
@@ -243,7 +243,7 @@
 |K.	235 |# |# |#|
 |K.	236 |# |# |#|
 |K.	237 |# |# |#|
-|K.	238 |# |# |#|
+|K.	238 |sapi |pending |IC VI|
 |K.	239 |# |# |#|
 |K.	240 |# |# |#|
 |K.	241 |# |# |#|
@@ -321,7 +321,7 @@
 |K.	309 |# |# |#|
 |K.	310 |# |# |#|
 |K.	311 |# |# |#|
-|K.	312 |sapi |pending |Pou NIC II-III |
+|K.	312 |sapi |done |Pou NIC II-III |
 |K.	313 |sapi |done |Pou NIC II-III |
 |K.	314 |sapi |done |Pou NIC II-III |
 |K.	315 |# |# |#|
@@ -358,11 +358,11 @@
 |K.	345 |# |# |#|
 |K.	346 |# |# |#|
 |K.	347 |# |# |#|
-|K.	348 |# |# |#|
-|K.	349 |# |# |#|
+|K.	348 |sapi |pending |IC V|
+|K.	349 |sapi |pending |IC V|
 |K.	350 |# |# |#|
 |K.	351 |# |# |#|
-|K.	352 |# |# |#|
+|K.	352 |sapi |pending |IC V|
 |K.	353 |# |# |#|
 |K.	354 |# |# |#|
 |K.	355 |# |# |#|
@@ -883,7 +883,7 @@
 |K.	869 |# |# |#|
 |K.	870 |# |# |#|
 |K.	871 |# |# |#|
-|K.	872 |# |# |#|
+|K.	872 |sapi |pending |IC V|
 |K.	873 |# |# |#|
 |K.	874 |# |# |#|
 |K.	875 |kuch |done |Coedes 1937|
@@ -1169,7 +1169,7 @@
 |K.	1149 |kuch |pending |unpublished|
 |K.	1150 |kuch |done |Goodall 2019|
 |K.	1151 |sapi |done |NIC II-III|
-|K.	1152 |# |# |#|
+|K.	1152 |sapi |pending |NIC II-III|
 |K.	1153 |# |# |#|
 |K.	1154 |# |# |#|
 |K.	1155 |# |# |#|
