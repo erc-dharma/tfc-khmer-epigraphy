@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Phnom Sandak inscription, Preah Vihear province (K. 191, 1032 śaka)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00191</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:chch" when="2021-11-15">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+             <ab><milestone type="pagelike" unit="face" n="A"/><label xml:lang="eng">Face A</label><lb n="A0" style="text-align: center"/>Oṁ</ab>
+             <lg n="1" met="upajāti">
+<l n="a"><lb n="A1"/><milestone unit="zone" n="a"/><g type="gomutraInitial">.</g> namaś śivāyāstu ya Eka Eva</l>
+<l n="b"><milestone unit="zone" n="b"/>jñānakriyārūpatayā dvibhedaḥ</l>
+<l n="c"><lb n="A2"/><milestone unit="zone" n="a"/>bhūyo py anugrāhitayāṇuvr̥ṇde</l>
+<l n="d"><milestone unit="zone" n="b"/>vāmādibhedād vahudhā <space type="descender"/> vikīrṇaḥ</l>
+             </lg>
+             <lg n="2" met="upajāti">
+<l n="a"><lb n="A3"/><milestone unit="zone" n="a"/>yasyāḥ prasāde jagatāṁ vimuktir</l>
+<l n="b"><milestone unit="zone" n="b"/>vāllabhyataḥ patyur anādivandhāt·</l>
+<l n="c"><lb n="A4"/><milestone unit="zone" n="a"/>bhāvānyatāyām api vandhavr̥<space type="descender"/>ddhir·</l>
+<l n="d"><milestone unit="zone" n="b"/>vi<space type="descender"/>dyaiva <space type="descender"/> sā vo <space type="descender"/> vatu viśvarūpā</l>
+             </lg>
+             <lg n="3" met="indravajrā">
+<l n="a" enjamb="yes"><lb n="A5"/><milestone unit="zone" n="a"/>Āsīn namadbhūpati-vr̥ṇḍa<space type="descender"/>mau<space type="descender"/>li</l>
+<l n="b"><milestone unit="zone" n="b"/>ratna-prabhā-bhāsita-pāda-śobaḥ</l>
+<l n="c" enjamb="yes"><lb n="A6"/><milestone unit="zone" n="a"/>rājādhirā<space type="descender"/>jānvayavārivāha</l>
+<l n="d"><milestone unit="zone" n="b"/>mā<space type="descender"/>rggodito bhūdhararājabhāṇuḥ</l>
+             </lg>
+             <lg n="4" met="upajāti">
+<l n="a"><lb n="A7"/><milestone unit="zone" n="a"/>śaktyā kaleḥ pīḍitam apy adr̥śyas</l>
+<l n="b"><milestone unit="zone" n="b"/>saṅrakṣituṁ lokam iveśvaro yaḥ</l>
+<l n="c" enjamb="yes"><lb n="A8"/><milestone unit="zone" n="a"/>dagdhasmaras tan-nr̥pa-bhāva-śaṅkā</l>
+<l n="d"><milestone unit="zone" n="b"/>nude nr̥ṇān dr̥ṣṭa-tanur narendraḥ</l>
+             </lg>
+             <lg n="5" met="upajāti">
+<l n="a"><lb n="A9"/><milestone unit="zone" n="a"/>saddravyavr̥ṇda<space type="descender"/>kṣayakāraṇatvād</l>
+<l n="b"><milestone unit="zone" n="b"/>yānyan nr̥pa<space type="descender"/>n tāpayati prajābhiḥ</l>
+<l n="c"><lb n="A10"/><milestone unit="zone" n="a"/>anandayat sā akaraśūnyadikkā</l>
+<l n="d"><milestone unit="zone" n="b"/>s<space type="descender"/>amā <space type="descender"/> yam āśā paripūraṇena</l>
+             </lg>
+             <lg n="6" met="upajāti">
+<l n="a" enjamb="yes"><lb n="A11"/><milestone unit="zone" n="a"/>madīyahr̥<space type="descender"/>nnīraja-nitya-yoga</l>
+<l n="b"><milestone unit="zone" n="b"/>tri-netra-mūrdhāpta-padaṁ sva-vandhum·</l>
+<l n="c"><lb n="A12"/><milestone unit="zone" n="a"/>vodhā yadi syād ayam atra gacched</l>
+<l n="d"><milestone unit="zone" n="b"/>itīva yaḥ kāntijiteśvarāriḥ</l>
+             </lg>
+             <lg n="7" met="indravajrā">
+<l n="a"><lb n="A13"/><milestone unit="zone" n="a"/>prāg eva samyag grahaṇāt tri-varggān</l>
+<l n="b"><milestone unit="zone" n="b"/>ātasthuṣo bhāvi-kr̥tasya yasya</l>
+<l n="c"><lb n="A14"/><milestone unit="zone" n="a"/>śaṅke ’nukartuś śrutayaś cata<space type="descender"/>sras</l>
+<l n="d"><milestone unit="zone" n="b"/>sa<space type="descender"/>rvva-jñatāṁ śāstra-kr̥to vadanti</l>
+             </lg>
+             <lg n="8" met="indravajrā">
+<l n="a"><lb n="A15"/><milestone unit="zone" n="a"/>vadhyaṁ yato <space type="descender"/> vallabha-mantri-varggās</l>
+<l n="b"><milestone unit="zone" n="b"/>trātun na śaktā Api <space type="descender"/> patyur arthe</l>
+<l n="c"><lb n="A16"/><milestone unit="zone" n="a"/>dharmmas tu kāmaṁ svahitārtha<space type="descender"/>m eko</l>
+<l n="d"><milestone unit="zone" n="b"/>dr̥pto ’nuvāllabhyavalād ara<space type="descender"/>kṣat·</l>
+             </lg>
+             <lg n="9" met="indravajrā">
+<l n="a"><lb n="A17"/><milestone unit="zone" n="a"/>yasyāṅghrijād dīdhitir asta-doṣā</l>
+<l n="b"><milestone unit="zone" n="b"/>namrā karāṇāñ jagatīśvareṇa</l>
+<l n="c"><lb n="A18"/><milestone unit="zone" n="a"/>patyuś śri<space type="descender"/>yo <space type="descender"/> mūrdha<space type="descender"/>dhr̥<space type="descender"/>taiva nityaṅ</l>
+<l n="d"><milestone unit="zone" n="b"/>gaṅgā tu mārgaṁ pa<space type="descender"/>titā rathasya</l>
+             </lg>
+             <lg n="10" met="indravajrā">
+<l n="a"><lb n="A19"/><milestone unit="zone" n="a"/>ya<space type="descender"/>t-preṣite prāptavati pradeśaṁ</l>
+<l n="b"><milestone unit="zone" n="b"/>sainye surodbhāvita-bhūmi-kampā</l>
+<l n="c"><lb n="A20"/><milestone unit="zone" n="a"/>dviṭnaṣṭa<space type="descender"/>ye tair iti śa<space type="descender"/>ṅkitābhūd</l>
+<l n="d"><milestone unit="zone" n="b"/>daivā<space type="descender"/>d iyaṁ <space type="descender"/> kiṁ kim i<space type="descender"/>bhendramardāt·</l>
+             </lg>
+             <lg n="11" met="indravajrā">
+<l n="a"><lb n="A21"/><milestone unit="zone" n="a"/>Udyanti manye ripavo vibhinnāś</l>
+<l n="b"><milestone unit="zone" n="b"/>śakreṇa yat tad-dhata-pakṣa-śai<space type="descender"/>lāḥ</l>
+<l n="c"><lb n="A22"/><milestone unit="zone" n="a"/>yannirjitānutthitaśatur-pakṣan</l>
+<l n="d"><milestone unit="zone" n="b"/>niśritya senāṅgatayā sapakṣāḥ</l>
+             </lg>
+            <lg n="12" met="upajāti">
+<l n="a" enjamb="yes"><lb n="A23"/><milestone unit="zone" n="a"/>yenāvr̥te bhāsvati gacchatā <space type="descender"/> dviṭ</l>
+<l n="b"><milestone unit="zone" n="b"/>pu<space type="descender"/>raṁ rajobhī <space type="descender"/> ripavo nirāśāḥ</l>
+<l n="c"><lb n="A24"/><milestone unit="zone" n="a"/>matveva sendrādisurān svarāṣṭre</l>
+<l n="d"><milestone unit="zone" n="b"/><space type="descender"/> krodhād divā darśayatas triyāmām·</l>
+            </lg>
+             <lg n="13" met="upendravajrā">
+<l n="a" enjamb="yes"><lb n="A25"/><milestone unit="zone" n="a"/>dhanus triyāme<space type="descender"/>kṣitam aindra<space type="descender"/>m āpad</l>
+<l n="b"><milestone unit="zone" n="b"/>vidhāyi kāle vikr̥tagrahāṇām·</l>
+<l n="c"><lb n="A26"/><milestone unit="zone" n="a"/>kṣaṇekṣitaṁ saṅyati sugrahāṇām</l>
+<l n="d"><milestone unit="zone" n="b"/>api dviṣāṁ yasya tu tulyakālam·</l>
+             </lg>
+            <lg n="14" met="upajāti">
+<l n="a"><lb n="A27"/><milestone unit="zone" n="a"/>śastraṁ sakr̥n muktavatāpi yuddhe</l>
+<l n="b"><milestone unit="zone" n="b"/>yenārisaṅghān dadhatā gatāsūn·</l>
+<l n="c"><lb n="A28"/><milestone unit="zone" n="a"/>prajñāsinā <space type="descender"/> nirjjitam eva kāmaṅ</l>
+<l n="d"><milestone unit="zone" n="b"/>kenāpi kāntyā jayatāpi śā<space type="descender"/>ntiḥ</l>
+             </lg>
+             <lg n="15" met="upajāti">
+<l n="a"><lb n="A29"/><milestone unit="zone" n="a"/>śriyā samāliṅgitakāntakāyaṅ</l>
+<l n="b"><milestone unit="zone" n="b"/>kīrttir yam ālokya śucātipānduḥ</l>
+<l n="c" enjamb="yes"><lb n="A30"/><milestone unit="zone" n="a"/>nilīya cetassu nr̥ṇān tu tatra</l>
+<l n="d"><milestone unit="zone" n="b"/>sthitihriyevānanato drutāśāḥ</l>
+             </lg>
+             <lg n="16" met="upajāti">
+<l n="a"><lb n="A30"/><milestone unit="zone" n="a"/>Etāvataivāsa<space type="descender"/>matāñ jaganti</l>
+<l n="b"><milestone unit="zone" n="b"/>vruvanti yasya rddhivibhāga<space type="descender"/>kāle</l>
+<l n="c"><lb n="A31"/><milestone unit="zone" n="a"/>narendrabhogān dadatas sma bhr̥tye</l>
+<l n="d"><milestone unit="zone" n="b"/>’ntike <space type="descender"/> riṣu sva<space type="descender"/>rvvibhavāṅs tu dūrān·</l>
+             </lg>
+             <lg n="17" met="upajāti">
+<l n="a"><lb n="A33"/><milestone unit="zone" n="a"/>dūran na yasyānyaguṇair ivāres</l>
+<l n="b"><milestone unit="zone" n="b"/>suvr̥ṣṭyanāvr̥ṣṭikr̥to viśeṣaḥ</l>
+<l n="c"><lb n="A34"/><milestone unit="zone" n="a"/>dr̥ṣṭe payodasvajanākṣitoye</l>
+<l n="d"><milestone unit="zone" n="b"/>krameṇa te hy utkramato ’py arāṭeḥ</l>
+             </lg>
+             <lg n="18" met="upajāti">
+<l n="a" enjamb="yes"><lb n="A35"/><milestone unit="zone" n="a"/>yenājikhadgāhatavairilupta</l>
+<l n="b"><milestone unit="zone" n="b"/>triviṣṭapenāptagatir vviḍojāḥ</l>
+<l n="c"><lb n="A36"/><milestone unit="zone" n="a"/>matvānukampānvitacetaseva</l>
+<l n="d"><milestone unit="zone" n="b"/>kratukriyajāsranirastaśokaḥ</l>
+             </lg>
+            <lg n="19" met="upajāti">
+<l n="a"><lb n="A37"/><milestone unit="zone" n="a"/>yadddānavāri kṣitim ārdrabhāvan</l>
+<l n="b"><milestone unit="zone" n="b"/>nayat samastām iti śaṅkyate sma</l>
+<l n="c"><lb n="A38"/><milestone unit="zone" n="a"/>lokair idaṅ kin nu vr̥hatkareṇor</l>
+<l n="d"><milestone unit="zone" n="b"/>dattasya kin dātur udāra<space type="descender"/>kīrtteḥ</l>
+            </lg>
+             <lg n="20" met="indravajrā">
+<l n="a"><lb n="A39"/><milestone unit="zone" n="a"/>Apy anyadr̥ṣṭābhigamas svakāryye</l>
+<l n="b"><milestone unit="zone" n="b"/>kāryyidvayārthaprahitādaro yaḥ</l>
+<l n="c"><lb n="A40"/><milestone unit="zone" n="a"/>dānair anekārthihita<space type="descender"/>kriyāyāṁ</l>
+<l n="d"><milestone unit="zone" n="b"/>yat sādhunirṇītanr̥kāryyabhāraḥ</l>
+            </lg>
+             <lg n="21" met="upajāti">
+<l n="a" enjamb="yes"><lb n="A41"/><milestone unit="zone" n="a"/>kāryyidvayālocitakāryyasiddhi</l>
+<l n="b"><milestone unit="zone" n="b"/>prakhyāpane yaṁ samavāpya sabhyāḥ</l>
+<l n="c"><lb n="A42"/><milestone unit="zone" n="a"/>Aśakyavodhārthaniyogalābhād</l>
+<l n="d"><milestone unit="zone" n="b"/>dr̥ṣṭau yathāśāstram upāttaharṣāḥ</l>
+             </lg>
+            <lg n="22" met="upajāti">
+<l n="a"><lb n="A43"/><milestone unit="zone" n="a"/>durvvodharūpā kila yasya śaktau</l>
+<l n="b"><milestone unit="zone" n="b"/>kṣamā yatas sā sati duṣṭabhāve</l>
+<l n="c"><lb n="A44"/><milestone unit="zone" n="a"/>na cāsti tejobhayataḥ prajānām</l>
+<l n="d"><milestone unit="zone" n="b"/>ekāpi duṣṭaprakr̥tir vvimr̥ṣṭā</l>
+</lg>
+            <lg n="23" met="indravajrā">
+<l n="a"><lb n="A45"/><milestone unit="zone" n="a"/>jyeṣṭhasya sa śrījayavarmmadevo</l>
+<l n="b"><milestone unit="zone" n="b"/>yasya kṣitīśādhipatāṁ vidhātum·</l>
+<l n="c"><lb n="A46"/><milestone unit="zone" n="a"/>bhrātus svayaṁ pālayitā prajānān</l>
+<l n="d"><milestone unit="zone" n="b"/>devādhipatvaṁ suratān nv ayāsīt·</l>
+</lg>
+            <lg n="24" met="vasantatilakā">
+<l n="a"><lb n="A47"/><milestone unit="zone" n="a"/>varggeṣu raṇdhrakaraśūnyamanassu rājñām</l>
+<l n="b"><milestone unit="zone" n="b"/>āpādi teṣu niyamena nijasthitiṁ yaḥ</l>
+<l n="c" enjamb="yes"><lb n="A48"/><milestone unit="zone" n="a"/>yuktāñ chriyā jana <!--<seg met="⏑"><gap reason="lost" quantity="1" unit="character"/></seg>--> tān dharaṇīndravarmma</l>
+<l n="d"><milestone unit="zone" n="b"/>devābhidhām api dadhad dharaṇīpatīndraḥ</l>
+            </lg>
+             <ab><milestone type="pagelike" unit="face" n="B"/><label xml:lang="eng">Face B</label><lb n="B0" style="text-align: center"/>hūṁ</ab>
+             <lg n="25" met="vasantatilakā">
+<l n="a"><lb n="B1"/><milestone unit="zone" n="a"/>hr<supplied reason="lost">ī</supplied>kāntikīrttikamalābhir ajasrayuktas</l>
+<l n="b"><milestone unit="zone" n="b"/>sastrīkatām adhigato pi tapasvivr̥ttiḥ</l>
+<l n="c" enjamb="yes"><lb n="B2"/><milestone unit="zone" n="a"/>bhūbhr̥cchironi<space type="descender"/>hitapādatalo dyugāmi</l>
+<l n="d"><milestone unit="zone" n="b"/>dr̥ṣṭi<space type="descender"/>r vvisandhir apareṇa karodyato yaḥ</l>
+             </lg>
+             <lg n="26" met="vasantatilakā">
+<l n="a"><lb n="B3"/><milestone unit="zone" n="a"/>Aurvvānalo janitatāpatayā nu yasya</l>
+<l n="b"><milestone unit="zone" n="b"/>tejonalena hr̥daye ripumāninīnām·</l>
+<l n="c"><lb n="B4"/><milestone unit="zone" n="a"/>śokātigāḍhajaladhau nitarān nimajjya</l>
+<l n="d"><milestone unit="zone" n="b"/>netrair amocayad anantaraphenilāmbhaḥ</l>
+             </lg>
+             <lg n="27" met="vasantatilakā">
+<l n="a"><lb n="B5"/><milestone unit="zone" n="a"/>kāntopamānakr̥taye kr̥takāmadevo</l>
+<l n="b"><milestone unit="zone" n="b"/>vrahmātha cātmamatihīnarucan nirīkṣya</l>
+<l n="c"><lb n="B6"/><milestone unit="zone" n="a"/>tan naṣṭam īpsur iva rudradr̥gagnidāhe</l>
+<l n="d"><milestone unit="zone" n="b"/>hr̥ṣṭo tikāntam asr̥jad yam acintyarūpam·</l>
+             </lg>
+             <lg n="28" met="upajāti">
+<l n="a" enjamb="yes"><lb n="B7"/><milestone unit="zone" n="a"/>saujanyalāvanyavadanyabhāva</l>
+<l n="b"><milestone unit="zone" n="b"/>bhūmis tadīyā bhavati sma de<space type="descender"/>vī</l>
+<l n="c"><lb n="B8"/><milestone unit="zone" n="a"/>yā yat phalaṁ śrījayayor vicintyā</l>
+<l n="d"><milestone unit="zone" n="b"/>tad ākhyayā śrīvijayendralakṣmīḥ</l>
+             </lg>
+             <lg n="29" met="upajāti">
+<l n="a"><lb n="B9"/><milestone unit="zone" n="a"/>tilapramāṇottama-kāntihārī</l>
+<l n="b"><milestone unit="zone" n="b"/>tilottamāmūrtti-vidhāv akr̥cchraḥ</l>
+<l n="c" enjamb="yes"><lb n="B10"/><milestone unit="zone" n="a"/>tilāṇu-tulya-dyumā<space type="descender"/>rgaṇe ya<space/>t</l>
+<l n="d"><milestone unit="zone" n="b"/>sr̥ṣṭau dhruvaṁ yatnam apekṣya <space type="descender"/> vedhāḥ</l>
+             </lg>
+             <lg n="30" met="upajāti">
+<l n="a" enjamb="yes"><lb n="B11"/><milestone unit="zone" n="a"/>yadvāksudhāpū<space type="descender"/>ritam indu-vimvā</l>
+<l n="b"><milestone unit="zone" n="b"/>nukārivaktran dharaṇī<space type="descender"/>dharasya</l>
+<l n="c"><lb n="B12"/><milestone unit="zone" n="a"/>prodyaddyu<space type="descender"/>ti-prekṣiva-pūjanānāṁ</l>
+<l n="d"><milestone unit="zone" n="b"/>mukhāra-viṇḍāny adharīcakāra</l>
+             </lg>
+             <lg n="31" met="upajāti">
+<l n="a"><lb n="B13"/><milestone unit="zone" n="a"/>Iyan dyu<space type="descender"/>-lakṣmīś ca tayor vviśeṣo</l>
+<l n="b"><milestone unit="zone" n="b"/>nāsīd iyaṁ vātiśena sādhyā</l>
+<l n="c"><lb n="B14"/><milestone unit="zone" n="a"/>yekī<space type="descender"/>va dattā yuva-rāja-bhartrā</l>
+<l n="d"><milestone unit="zone" n="b"/>svarggacchatā śrī-jayavarmmaṇe ’pi</l>
+             </lg>
+             <lg n="32" met="upajāti">
+<l n="a"><lb n="B15"/><milestone unit="zone" n="a"/>kulānurāgād anugacchatāpi</l>
+<l n="b"><milestone unit="zone" n="b"/>svarggacchataś śrī-yuva-rāja-pūrvvān·</l>
+<l n="c"><lb n="B16"/><milestone unit="zone" n="a"/>dattā punaś śrī-jayavarmmaṇā yā</l>
+<l n="d"><milestone unit="zone" n="b"/>mū<space type="descender"/>rtteva bhaktir dharaṇīndra-deve</l>
+             </lg>
+             <lg n="33" met="upajāti">
+<l n="a" enjamb="yes"><lb n="B17"/><milestone unit="zone" n="a"/>sva-janma-de<space type="descender"/>śāmalakasthalākhya</l>
+<l n="b"><milestone unit="zone" n="b"/>grāmo yayāpto nija-poṣaṇāya</l>
+<l n="c" enjamb="yes"><lb n="B18"/><milestone unit="zone" n="a"/>prasādataś śrī-jayavarmadeva</l>
+<l n="d"><milestone unit="zone" n="b"/>nāmnas saha śrī-yuva-rāja-vācā</l>
+             </lg>
+             <lg n="34" met="upajāti">
+<l n="a"><lb n="B19"/><milestone unit="zone" n="a"/>kula-striyā utsava-maṅgalānāṁ</l>
+<l n="b"><milestone unit="zone" n="b"/>yayā kr̥tānām api līlayaiva</l>
+<l n="c" enjamb="yes"><lb n="B20"/><milestone unit="zone" n="a"/>sanda<space type="descender"/>rgata-śrī<space type="descender"/>-vibhavānya-devyo</l>
+<l n="d"><milestone unit="zone" n="b"/>hriyā natāsyāś śravaṇe dhunāpi</l>
+             </lg>
+             <lg n="35" met="upajāti">
+<l n="a" enjamb="yes"><lb n="B21"/><milestone unit="zone" n="a"/>yasyai dvijendrādi-purāvasāna</l>
+<l n="b"><milestone unit="zone" n="b"/>grāmo dvijendra-prakr̥<choice><sic>k</sic><corr>t</corr></choice>as sa-devaḥ</l>
+<l n="c"><lb n="B22"/><milestone unit="zone" n="a"/>sa-grīṣmavāpādir aneka-dāso</l>
+<l n="d"><milestone unit="zone" n="b"/>dattaḥ svayaṁ śri-jayavarmmanāmnā</l>
+             </lg>
+             <lg n="36" met="upajāti">
+<l n="a"><lb n="B23"/><milestone unit="zone" n="a"/>purāvasāno bhinavādideśo</l>
+<l n="b"><milestone unit="zone" n="b"/>madrāy iti khyāpitanāmadeśaḥ</l>
+<l n="c" enjamb="yes"><lb n="B24"/><milestone unit="zone" n="a"/>jaya-prasādākhya-puran tadīya</l>
+<l n="d"><milestone unit="zone" n="b"/>grāmānvitañ cāpi yayā narendrāt· <g type="ddandaOrnate">.</g></l>
+             </lg>
+             <lg n="37" met="indravajrā">
+<l n="a"><lb n="B25"/><milestone unit="zone" n="a"/>sāntānikā nr̥pati-datta-bhuvādhikā bhūr</l>
+<l n="b"><milestone unit="zone" n="b"/>yad-bhāgyato nr̥pati-kārita-sīma-vandhā</l>
+<l n="c"><lb n="B26"/><milestone unit="zone" n="a"/>yā kā cid ātma-kula-vr̥ṇḍa-dhānādi-lavdhā</l>
+<l n="d"><milestone unit="zone" n="b"/>dattī-kr̥taiva nr̥pater vviditā sabhāyām·</l>
+             </lg>
+             <lg n="38" met="indravajrā">
+<l n="a" enjamb="yes"><lb n="B27"/><milestone unit="zone" n="a"/>khyātā vageṅ iti purī vahubhis tadīya</l>
+<l n="b"><milestone unit="zone" n="b"/>grāmair anekagaṇadāsajanābhipūrṇā</l>
+<l n="c"><lb n="B28"/><milestone unit="zone" n="a"/>māyāvimānuṣalalāṭabhujāntarāṅge</l>
+<l n="d"><milestone unit="zone" n="b"/>bhūbhr̥llikhāpitalipiprakatā yayāptā</l>
+             </lg>
+             <lg n="39" met="anuṣṭubh">
+<l n="a"><lb n="B29"/><milestone unit="zone" n="a"/>bhrātā jyeṣṭho bhavat tasyāś</l>
+<l n="b"><milestone unit="zone" n="b"/>śrī-nr̥pendrādhi-pūrvvikām·</l>
+<l n="c"><lb n="B30"/><milestone unit="zone" n="a"/>pati-va<space type="descender"/>rmmā<space type="descender"/>ntikām ākhyāṁ</l>
+<l n="d"><milestone unit="zone" n="b"/>yo ’gāt senāgraṇītayā</l>
+            </lg>
+             <lg n="40" met="anuṣṭubh">
+<l n="a"><lb n="B31"/><milestone unit="zone" n="a"/>yaś śrī-jaya-prasādākhyāṁ</l>
+<l n="b"><milestone unit="zone" n="b"/>prāptaś śrī-jayavarmmaṇaḥ</l>
+<l n="c" enjamb="yes"><lb n="B32"/><milestone unit="zone" n="a"/>prasannāt sanr̥bhū<space type="descender"/>yiṣṭha</l>
+<l n="d"><milestone unit="zone" n="b"/>-tan-nāma grāmikāṁ purā</l>
+             </lg>
+             <lg n="41" met="anuṣṭubh">
+<l n="a"><lb n="B33"/><milestone unit="zone" n="a"/>yo ’pi vīraṇadhanvākhye</l>
+    <l n="b"><milestone unit="zone" n="b"/>grāme sarvvasvasañayaiḥ</l>
+<l n="c"><lb n="B34"/><milestone unit="zone" n="a"/>svīkr̥te ’tiṣṭhipac chaivaṁ</l>
+    <l n="d"><milestone unit="zone" n="b"/>liṅgaṁ viṣṇuṁ sarasvatīm·</l>
+             </lg>
+             <lg n="42" met="anuṣṭubh">
+<l n="a"><lb n="B35"/><milestone unit="zone" n="a"/>mano hare nidadhatā</l>
+    <l n="b"><milestone unit="zone" n="b"/>yena sā<space type="descender"/>ka<supplied reason="omitted">ṁ</supplied> mano-hare</l>
+<l n="c"><lb n="B36"/><milestone unit="zone" n="a"/>mano-hareṇa lokānāṁ</l>
+    <l n="d"><milestone unit="zone" n="b"/>grāmas sr̥ṣṭo mano-haraḥ</l>
+             </lg>
+             <lg n="43" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="B37"/><milestone unit="zone" n="a"/>yasmai jaya-prasādākhya</l>
+    <l n="b"><milestone unit="zone" n="b"/>-deśa-ja<space type="descender"/>nma<space type="descender"/>-bhuvārjitaḥ</l>
+<l n="c"><lb n="B38"/><milestone unit="zone" n="a"/>dāsena cchaukvaltvad-deśo</l>
+                 <l n="d"><milestone unit="zone" n="b"/>dattaś śrī-jayavarmmaṇā</l>
+             </lg>
+             <lg n="44" met="anuṣṭubh">
+<l n="a"><lb n="B39"/><milestone unit="zone" n="a"/>śrī-nr̥pendrāśramābhikhyan</l>
+    <l n="b"><milestone unit="zone" n="b"/>dattaṁ yenāśrama<supplied reason="omitted">ṁ</supplied> kr̥taṁ</l>
+<l n="c"><lb n="B40"/><milestone unit="zone" n="a"/>dāsa-kṣetra-dhanā-rāmair</l>
+    <l n="d"><milestone unit="zone" n="b"/>āḍhyaṁ śiva-pureśvare</l>
+             </lg>
+             <lg n="45" met="anuṣṭubh">
+<l n="a"><lb n="B41"/><milestone unit="zone" n="a"/>hema-nirmita-divyāṅgan</l>
+    <l n="b"><milestone unit="zone" n="b"/>nandinaṁ yo ’ti-nandinaḥ</l>
+<l n="c"><lb n="B42"/><milestone unit="zone" n="a"/>mahā-kālaṁ mahā-kāla</l>    
+    <l n="d"><milestone unit="zone" n="b"/>-sthāyi-kīrttir adāc chive</l>
+             </lg>
+             <lg n="45" met="śārdūlavikrīḍita">
+<l n="a"><lb n="B43"/>preyaś-śrī-yuva-rāja-bhūbhr̥d-anujasyālas tathā vallabhaś</l>
+<l n="b">śrīddha-śrī-jayavarmmadeva-nr̥pates sat-kīrti-bhārālayaḥ</l>
+<l n="c" enjamb="yes"><lb n="B44"/>vīraś śr<supplied reason="omitted">ī</supplied>-dharaṇīndravarmmamahitas senāpatir dor-jagad</l>
+<l n="b">-vyomendāv aditeśvare śiva-pure sa svarṇa-dehārccite</l>
+             </lg>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="line">
+                     <lem><!-- fill in a lemma here --></lem>
+                     <rdg source="bib:AuthorYear_01"><!-- update the @source value, fill in variant reading here --></rdg>
+                  </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<!--translation encoded as per EGD §9.2 -->
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+           <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">300-311</citedRange></bibl>) with a French translation.</p>
+        	<listBibl type="primary">
+	<bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/>
+      <citedRange unit="volume">6</citedRange>
+      <citedRange unit="page">300-311</citedRange>
+				</bibl>
+			</listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
