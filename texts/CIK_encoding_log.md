@@ -1011,7 +1011,7 @@
 |K.	997 |# |# |#|
 |K.	998 |# |# |#|
 |K.	999 |# |# |#|
-|K.	1000 |# |# |#|
+|K.	1000 |chch |pending |BEFEO 56|
 |K.	1001 |# |# |#|
 |K.	1002 |# |# |#|
 |K.	1003 |kuch |done |unpublished|
@@ -1371,7 +1371,7 @@
 |K.	1350 |# |# |#|
 |K.	1351 |# |# |#|
 |K.	1352 |kuch |done |Goodall 2020|
-|K.	1353 |# |# |#|
+|K.	1353 |chch |pending |unpublished|
 |K.	1354 |chch |done |Chollet 2019|
 |K.	1355 |argr and kuch |done |Skilling 2002, 2019|
 |K.	1356 |# |# |#|
