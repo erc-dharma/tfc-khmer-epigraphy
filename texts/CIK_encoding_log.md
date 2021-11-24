@@ -671,7 +671,7 @@
 |K.	657 |kuch & chch |pending| IC VI|
 |K.	658 |kuch |pending |unpublished
 |K.	659 |sapi |pending |IC V|
-|K.	660 |chch |pending |IC I|
+|K.	660 |chch |done |IC I|
 |K.	661 |chch |pending |IC I|
 |K.	662 |# |# |#|
 |K.	663 |# |# |#|
@@ -699,7 +699,7 @@
 |K.	685 |chch |done |IC IV|
 |K.	686 |# |# |#|
 |K.	687 |# |# |#|
-|K.	688 |chch |pending |IC IV|
+|K.	688 |chch |done |IC IV|
 |K.	689 |kuch |done |IC VI|
 |K.	690 |# |# |#|
 |K.	691 |chch |done |IC IV|
