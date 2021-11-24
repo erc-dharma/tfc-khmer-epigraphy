@@ -937,7 +937,7 @@
 |K.	923 |chch |pending |IC IV|
 |K.	924 |kuch |pending |unpublished|
 |K.	925 |# |# |#|
-|K.	926 |kuch |pending |#|
+|K.	926 |kuch |pending |IC V|
 |K.	927 |# |# |#|
 |K.	928 |# |# |#|
 |K.	929 |# |# |#|
