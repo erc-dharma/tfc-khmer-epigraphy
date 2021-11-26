@@ -1466,12 +1466,12 @@
 |K.	1445 |# |# |#|
 |K.	1446 |# |# |#|
 |K.	1447 |# |# |#|
-|K.	1448 |chch |pending |unpublished|
+|K.	1448 |chch |done |unpublished|
 |K.	1449 |# |# |#|
 |K.	1450 |# |# |#|
 |K.	1451 |kuch |pending |Nguyễn 1999|
 |K.	1452 |chch |done |unpublished|
-|K.	1453 |chch |pending |NIC IV|
+|K.	1453 |chch |done |NIC IV|
 |K.	1454 |chch |done |Soutif and Estève (forthc.)|
 |K.	1455 |argr |done |Goodall and Revire (forthc.)|
 |K.	1456 |# |# |#|
