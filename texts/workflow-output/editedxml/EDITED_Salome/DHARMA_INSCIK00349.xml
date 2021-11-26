@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Southern doorjamb of the central sanctuary of Prasat Ta Ros (K. 348), 876 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00349</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Salomé Pichon.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The scribe alternated between using the double-haste and the single <foreign>ra</foreign>.</p>
+                     <p>Note, line 27, a very peculiar notation of the vowel <foreign>ū</foreign>, in the word <foreign>bhūmi</foreign>.</p>
+                     <p>At the exception of the date, the numerals of the inscription, which higher number is 6, are systematically noted with vertical strokes.</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:sapi" when="2021-11-26" status="draft">initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="okz-Latn">
+           <p>
+             <lb n="1"/>876 śaka nu mān· vraḥ śāsana dhūli vraḥ pā<lb n="2" break="no"/>da dhūli jeṅ· vraḥ kaṁmrateṅ· Añ· śrīrāje<lb n="3" break="no"/>ndravarmmadeva ta steṅ· Añ· Āy· rudrā ta catu<lb n="4" break="no"/>rācāryya ṇā do pandval· ta steñ· śivācā<lb n="5" break="no"/>ryya pre mok· duk· jeṅ· It· ta gi vraḥ
+             <lb n="6"/>kuti śrīyaśodharāśrama Āy· śivapāda
+             <lb n="7"/>gi taṁrvac· vraḥ kuti nuv<choice><orig>a</orig><reg>·</reg></choice> khloñ· qnak· vraḥ ku<lb n="8" break="no"/>tiy<choice><orig>a</orig><reg>·</reg></choice> nu steñ· khloñ· vnaṁma nu pādamūla kaṁmra<lb n="9" break="no"/>teṅ· jagat· śivapāda Oy· dakṣiṇā phdai
+             <lb n="10"/>karoṁ Āy· svāy· ryyap· ta steñ· śivācā<lb n="11" break="no"/>ryya man· ka chloṅṅa gi vraḥ kuti śrīyaśodharā<lb n="12" break="no"/>śrama gi taṁrvac· vraḥ kuti nu khloñ· qnak· phoṅṅa nu
+             <lb n="13"/>steñ· khloñ· vnaṁma nu pādamūla kaṁmrateṅ· ja<lb n="14" break="no"/>gat· śivapāda Oy· dakṣiṇā phdai karoṁ Āy·
+             <lb n="15"/>saṁvey· ta steñ· śivācāryya ka gi noḥ
+             <lb n="16"/>phdai karoṁ noḥ ta jā dakṣiṇā hoṅ· <unclear>v</unclear>iṅ· jau
+             <lb n="17"/>sot· ta gi taṁrvac· vraḥ kuti nu khloñ· qnak·
+             <lb n="18"/>vraḥ kuti nu steñ· khloñ· vnaṁma nu pādamūla kaṁ<lb n="19" break="no"/>mrateṅ· jagat· śivapāda gi dravya nu jauv·
+             <lb n="20"/>phdai karoṁ noḥ tamrya <num value="1"><g type="numeral">I</g></num> vat· <num value="1"><g type="numeral">I</g></num> vaudi caṁdoṅ· pra<lb n="21" break="no"/>k <num value="1"><g type="numeral">I</g></num> vaudi mvay· ti padigaḥ <num value="1"><g type="numeral">I</g></num> svok· <num value="1"><g type="numeral">I</g></num> khal· prak· <num value="2"><g type="numeral">II</g></num>
+             <lb n="22"/>mās· liṅ· <num value="1"><g type="numeral">I</g></num> tāmradrava <num value="1"><g type="numeral">I</g></num> kamandalu <num value="2"><g type="numeral">II</g></num> krapi <num value="5"><g type="numeral">IIIII</g></num><!-- sapi2argr Bonne notation? -->
+             <lb n="23"/>canlyāk· vās· <num value="5"><g type="numeral">IIIII</g></num> Oy· hvap· le vl̥<g type="dotMid">.</g> riy·
+             <lb n="24"/>phdai karoṁ toy· dakṣiṇa vrai patau ti jau
+             <lb n="25"/>ta vāp· hr̥daya vāp· Ā vāp· dā tāñ· dharmma
+             <lb n="26"/>tāñ· pit· nuv· kule smoṅ· vnas· phoṅṅa gi dravya
+             <lb n="27"/>nu jauv· noḥ bhūmi noḥ vaudi jyaṅ· <num value="6"><g type="numeral">IIIIII</g></num> canlyā<lb n="28" break="no"/>k· vās <num value="2"><g type="numeral">II</g></num> srū bhai <num value="2"><g type="numeral">II</g></num> Oy· hvap· nu vave le vl̥<g type="dotMid">.</g> riy<unclear>·</unclear>
+             <lb n="29"/>phdai karoṁ toy· dakṣiṇa· noḥha chloṅ· yo<lb n="30" break="no"/>k· ti jau ta vāp· mit· vāp· dharmma nu qme vāp· dharmma
+             <lb n="31"/>gi dravya nu jau daup· thnap· phkā trasik· svok·
+             <lb n="32"/>Oy· hvap· le vl̥ Oy· thlās·<g type="dotMid">.</g>
+           </p>
+         </div>
+         <div type="apparatus">
+           <listApp>
+             <app loc="26">
+                <lem>nuv·</lem>
+                <rdg source="bib:Coedes1937-1966_01">nu</rdg>
+             </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+           <p n="1-6">En 876 śaka, il y eut une ordonnance de S.M. Śrī Rājendravarmadeva adressée à Steṅ Añ āy Rudrā qui est Caturācārya de deuxième catégorie, pour être notifiée à Steñ Śivācārya et enjoignant <supplied reason="subaudible">à celui-ci</supplied> de venir établir les fondations de briques à la sainte cellule de Śrī Yaśodharāśrama à Śivapāda.</p>
+           <p n="7-10">L’inspecteur de la sainte cellule, le chef du personnel de la sainte cellule, le Steñ chef de sanctuaire et le vénérable de K. J. Śivapāda donnèrent en honoraires à Steñ Śivācārya une terre à Svāy Ryap.</p>
+           <p n="11-15">Lorsqu’on inaugura la sainte cellule de Śrī Yaśodharāśrama, l’inspecteur de la sainte cellule, le chef du personnel, le Steñ chef du sanctuaire et le vénérable de K. J. Śivapāda donnèrent en honoraires à Steñ Śivācārya un terre à Saṁvey.</p>
+           <p n="16-19">Ces terres données en honoraires, <supplied reason="subaudible">Steñ Śivācārya</supplied> les acquit de nouveau à l’inspecteur de la sainte cellule, au chef du personnel de la sainte cellule, au Steñ chef du sanctuaire et au vénérable de K. J. Śivapāda.</p>
+           <p n="19-23">Biens au prix desquels furent acquises ces terres : 1 éléphant, 1 <foreign>vat</foreign>, 1 <foreign>vaudi caṁdoṅ</foreign> d’argent, un <foreign>vaudi</foreign> de terre, 1 crachoir, 1 plateau, 2 bols d’argent, 1 <foreign>liṅ</foreign> d’or, 1 rigole d’écoulement en cuivre, 2 aiguières, 5 buffles, 5 <foreign>vās</foreign> de vêtements, le droit de pâture sur les talus.</p>
+           <p n="24-28">Quant à la terre au sud de Vrai Patau <supplied reason="explanation">forêt de rotins</supplied> achetée à Vāp Hr̥daya, Vāp Ā, Vāp Dā, Tāñ Dharma, Tāñ Pit et à la famille des Smoṅ Vnas, elle a été acquise au prix des biens suivants : 1 <foreign>vaudi</foreign> de 6 <foreign>jyaṅ</foreign>, 2 <foreign>vās</foreign> de vêtements, 40 mesures de paddy, la pâture des chèvres sur les talus.</p>
+           <p>Pour la terre au sud de celle-là, lors de l’inauguration on a pris la terre achetée à Vāp Mit, Vāp Dharma, et à la mère de Vāp Dharma, au prix des biens suivants : <foreign>daup</foreign>, couvertures <supplied reason="explanation"><foreign>thnap</foreign></supplied>, fleurs d’oreille, plateau ; on donne la pâture sur les talus, on donne les honoraires.</p>
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+          <p>First edited by George Cœdès with a French translation (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">108-113</citedRange></bibl>). Re-edited here by Salomé Pichon based on EFEO estampage n. 772.</p>
+          <listBibl type="primary">
+            <bibl n="GC">
+            <ptr target="bib:Coedes1937-1966_01"/>
+            <citedRange unit="volume">5</citedRange>
+            <citedRange unit="page">108-113</citedRange>
+            </bibl>
+          </listBibl>
+           <listBibl type="secondary">
+             <bibl>
+               <ptr target="bib:LunetdeLajonquiere1907_01"/>
+               <citedRange unit="page">27-29</citedRange>
+             </bibl>
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
