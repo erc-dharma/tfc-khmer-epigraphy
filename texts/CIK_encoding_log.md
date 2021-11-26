@@ -358,8 +358,8 @@
 |K.	345 |# |# |#|
 |K.	346 |# |# |#|
 |K.	347 |# |# |#|
-|K.	348 |sapi |pending |IC V|
-|K.	349 |sapi |pending |IC V|
+|K.	348 |sapi |done |IC V|
+|K.	349 |sapi |done |IC V|
 |K.	350 |# |# |#|
 |K.	351 |# |# |#|
 |K.	352 |sapi |pending |IC V|
