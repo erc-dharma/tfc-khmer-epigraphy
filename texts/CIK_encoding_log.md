@@ -666,7 +666,7 @@
 |K.	652 |kuch|done |IC V|
 |K.	653 |kuch |done |IC V|
 |K.	654 |kuch |done |IC V|
-|K.	655 |kuch |pending |IC VI|
+|K.	655 |kuch |done |IC VI|
 |K.	656 |# |# |#|
 |K.	657 |kuch & chch |pending| IC VI|
 |K.	658 |kuch |pending |unpublished
@@ -746,7 +746,7 @@
 |K.	732 |# |# |#|
 |K.	733 |kuch |pending |IC I|
 |K.	734 |kuch |pending |unpublished|
-|K.	735 |kuch |pending |IC V|
+|K.	735 |kuch |done |IC V|
 |K.	736 |chch |pending |IC V|
 |K.	737 |# |# |#|
 |K.	738 |# |# |#|
@@ -767,11 +767,11 @@
 |K.	753 |# |# |#|
 |K.	754 |# |# |#|
 |K.	755 |kuch |done |IC VI|
-|K.	756 |kuch |pending |IC VI|
+|K.	756 |kuch |done |IC VI|
 |K.	757 |# |# |#|
 |K.	758 |# |# |#|
 |K.	759 |kuch |done |IC VI|
-|K.	760 |kuch |pending |IC V|
+|K.	760 |kuch |done |IC V|
 |K.	761 |kuch |done |IC VII|
 |K.	762 |kuch |done |IC I|
 |K.	763 |# |# |#|
@@ -861,7 +861,7 @@
 |K.	847 |# |# |#|
 |K.	848 |# |# |#|
 |K.	849 |# |# |#|
-|K.	850 |kuch |pending |IC I|
+|K.	850 |kuch |done |IC I|
 |K.	851 |kuch |done |Coedes IC I|
 |K.	852 |chch |done | Coedes IC I|
 |K.	853 |chch |done |IC I|
@@ -870,13 +870,13 @@
 |K.	856 |chch |done |IC V|
 |K.	857 |# |# |#|
 |K.	858 |kuch | done |IC I| |
-|K.	859 |kuch |pending |IC I|
+|K.	859 |kuch |done |IC I|
 |K.	860 | kuch | done |IC I|
-|K.	861 |kuch |pending | IC I|
-|K.	862 |kuch |pending |unpublished|
-|K.	863 |kuch |pending |IC I|
-|K.	864 |kuch |pending |unpublished|
-|K.	865 |kuch |pending |unpublished|
+|K.	861 |kuch |done | IC I|
+|K.	862 |kuch |done |unpublished|
+|K.	863 |kuch |done |IC I|
+|K.	864 |kuch |done |unpublished|
+|K.	865 |kuch |done |unpublished|
 |K.	866 |# |# |#|
 |K.	867 |# |# |#|
 |K.	868 |sapi |done ||C VI
@@ -922,7 +922,7 @@
 |K.	908 |# |# |#|
 |K.	909 |# |# |#|
 |K.	910 |kuch |done |IC V|
-|K.	911 |kuch |pending |IC V|
+|K.	911 |kuch |done |IC V|
 |K.	912 |kuch |pending |unpublished|
 |K.	913 |kuch |done|IC V|
 |K.	914 |# |# |#|
