@@ -1048,7 +1048,7 @@
 |K.	1028 |kuch |done |NIC II-III(Khmer part); Sanskrit part unpublished |
 |K.	1029 |kuch |done |Soutif 2009|
 |K.	1030 |# |# |#|
-|K.	1031 |# |# |#|
+|K.	1031 |kuch |pending |Vong 2003|
 |K.	1032 |kuch |pending |unpublished|
 |K.	1033 |# |# |#|
 |K.	1034 |# |# |#|
@@ -1059,7 +1059,7 @@
 |K.	1039 |# |# |#|
 |K.	1040 |chch |pending |unpublished|
 |K.	1041 |# |# |#|
-|K.	1042 |kuch |done |Chhom etal 2021|
+|K.	1042 |kuch |done |Chhom et al 2021|
 |K.	1043 |# |# |#|
 |K.	1044 |# |# |#|
 |K.	1045 |# |# |#|
@@ -1086,7 +1086,7 @@
 |K.	1066 |# |# |#|
 |K.	1067 |# |# |#|
 |K.	1068 |chch |done |NIC II-III|
-|K.	1069 |kuch |pending |#|
+|K.	1069 |kuch |pending |Cha-em Kaeokhlai|
 |K.	1070 |# |# |#|
 |K.	1071 |# |# |#|
 |K.	1072 |# |# |#|
@@ -1100,7 +1100,7 @@
 |K.	1080 |# |# |#|
 |K.	1081 |# |# |#|
 |K.	1082 |kuch |done |Gerschheimer and Pichard 2007|
-|K.	1083 |kuch |pending |unpublished|
+|K.	1083 |# | #|Vacant ?|
 |K.	1084 |chch |pending |unpublished|
 |K.	1085 |chch |done |NIC II-III|
 |K.	1086 |# |# |#|
@@ -1276,7 +1276,7 @@
 |K.	1256 |kuch |done|Soutif 2009|
 |K.	1257 |kuch |done|Soutif 2009|
 |K.	1258 |# |# |#|
-|K.	1259 |kuch |pending |#|
+|K.	1259 |kuch |pending |Long s.d., Oun 1998, Hun 2019|
 |K.	1260 |# |# |#|
 |K.	1261 |kuch |done |#|
 |K.	1262 |# |# |#|
