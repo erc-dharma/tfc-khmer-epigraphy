@@ -1243,15 +1243,15 @@
 |K.	1223 |# |# |#|
 |K.	1224 |kuch |pending |unpublished|
 |K.	1225 |kuch |pending |unpublished|
-|K.	1226 |# |# |#|
-|K.	1227 |# |# |#|
+|K.	1226 |chch |pending |unpublished|
+|K.	1227 |chch |pending |unpublished|
 |K.	1228 |chch |pending |unpublished|
 |K.	1229 |kuch |done |Soutif 2009|
 |K.	1230 |# |# |#|
-|K.	1231 |# |# |#|
-|K.	1232 |# |# |#|
-|K.	1233 |# |# |#|
-|K.	1234 |# |# |#|
+|K.	1231 |chch |pending |unpublished|
+|K.	1232 |chch |pending |unpublished|
+|K.	1233 chch |pending |unpublished|
+|K.	1234 |chch |done |unpublished|
 |K.	1235 |kuch|done|Goodall 2019|
 |K.	1236 |kuch | done |unpublished|
 |K.	1237 |kuch |done |Griffiths and Chhom 2019|
@@ -1260,14 +1260,14 @@
 |K.	1240 |kuch |done |Soutif 2009|
 |K.	1241 |kuch |done | Pou NIC II-III 2001|
 |K.	1242 |kuch |done |NIC II-III|
-|K.	1243 |# |# |#|
-|K.	1244 |# |# |#|
+|K.	1243 |chch |pending |unpublished|
+|K.	1244 |chch |pending |unpublished|
 |K.	1245 |kuch |done |Soutif 2009|
-|K.	1246 |# |# |#|
+|K.	1246 |chch |pending |unpublished|
 |K.	1247 |kuch |done |Pou NIC II-III 2001|
 |K.	1248 |kuch |done |Soutif 2009|
-|K.	1249 |# |# |#|
-|K.	1250 |# |# |#|
+|K.	1249 |chch |pending |unpublished|
+|K.	1250 |chch |pending |unpublished|
 |K.	1251 |kuch |done|Soutif 2009|
 |K.	1252 |# |# |#|
 |K.	1253 |kuch |done|Soutif 2009|
@@ -1282,7 +1282,7 @@
 |K.	1262 |# |# |#|
 |K.	1263 |# |# |#|
 |K.	1264 |kuch |pending |#|
-|K.	1265 |# |# |#|
+|K.	1265 |chch |done |Soutif 2009|
 |K.	1266 |kuch |done |Pou NIC II-III 2001|
 |K.	1267 |kuch |done |Pou NIC II-III 2001|
 |K.	1268 |# |# |#|
@@ -1291,7 +1291,7 @@
 |K.	1271 |chch |done |Clouet 2019 |
 |K.	1272 |chch |done |Chevance 2014|
 |K.	1273 |# |# |#|
-|K.	1274 |# |# |#|
+|K.	1274 |chch |done |Soutif 2009|
 |K.	1275 |kuch |done |Pou NIC II-III 2001|
 |K.	1276 |kuch |done |Jacques 2011|
 |K.	1277 |kuch |done |Soutif 2010|
@@ -1307,16 +1307,16 @@
 |K.	1287 |kuch |pending |NIC IV|
 |K.	1288 |kuch |pending |Vong Sotheara 2011|
 |K.	1289 |# |# |#|
-|K.	1290 |# |# |#|
-|K.	1291 |# |# |#|
+|K.	1290 |chch |pending |unpublished|
+|K.	1291 |chch |pending |unpublished|
 |K.	1292 |kuch |pending |unpublished|
-|K.	1293 |# |# |#|
+|K.	1293 |chch |done |unpublished|
 |K.	1294 |kuch |pending |unpublished|
-|K.	1295 |# |# |#|
+|K.	1295 chch |pending |unpublished|
 |K.	1296 |kuch |done |Griffiths and Vincent 2014|
 |K.	1297 |# |# |#|
 |K.	1298 |kuch |done |NIC II-III|
-|K.	1299 |# |# |#|
+|K.	1299 |chch |pending |unpublished|
 |K.	1300 |# |# |#|
 |K.	1301 |# |# |#|
 |K.	1302 |# |# |#|
@@ -1421,14 +1421,14 @@
 |K.	1400 |kuch |pending |Unpublished|
 |K.	1401 |kuch | done |Vong 2016|
 |K.	1402 |# |# |#|
-|K.	1403 |# |# |#|
+|K.	1403 |chch |pending |unpublished|
 |K.	1404 |# |# |#|
 |K.	1405 |chch |pending |unpublished|
 |K.	1406 |chch |done |Clouet 2019|
 |K.	1407 |# |# |#|
 |K.	1408 |# |# |#|
 |K.	1409 |# |# |#|
-|K.	1410 |# |# |#|
+|K.	1410 |chch |pending |Clouet 2019|
 |K.	1411 |chch|pending |unpublished|
 |K.	1412 |kuch |done |Hun 2018|
 |K.	1413 |kuch |done |Hun 2018|
@@ -1453,10 +1453,10 @@
 |K.	1432 |# |# |#|
 |K.	1433 |# |# |#|
 |K.	1434 |# |# |#|
-|K.	1435 |# |# |#|
-|K.	1436 |# |# |#|
-|K.	1437 |# |# |#|
-|K.	1438 |# |# |#|
+|K.	1435 |chch |pending |unpublished|
+|K.	1436 |chch |pending |unpublished|
+|K.	1437 |chch |pending |unpublished|
+|K.	1438 |chch |pending |unpublished|
 |K.	1439 |kuch |done |Hun (forthc.)|
 |K.	1440 |# |# |#|
 |K.	1441 |# |# |#|
