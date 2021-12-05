@@ -621,9 +621,11 @@
 |K.	607 |kuch |done |Soutif 2009|
 |K.	608 |kuch |pending |Soutif 2009|
 |K.	609 |kuch |pending |Finot 1928|
-|K.	610 |# |# |#|
-|K.	611 |# |# |#|
-|K.	612 |# |# |#|
+|K.	610-1 |chch |done |Finot 1928, IC IV, Clouet et al.|
+|K.	610-2 |chch |pending |Finot 1928, IC IV, Clouet et al.|
+|K.	611-1 |chch |done |Finot 1928, IC IV, Clouet et al.|
+|K.	610-2 |chch |pending |Finot 1928, IC IV, Clouet et al.|
+|K.	612 |chch |done |IC IV, Clouet et al.|
 |K.	613 |# |# |#|
 |K.	614 |# |# |#|
 |K.	615 |# |# |#|
@@ -748,7 +750,7 @@
 |K.	734 |kuch |pending |unpublished|
 |K.	735 |kuch |done |IC V|
 |K.	736 |chch |pending |IC V|
-|K.	737 |# |# |#|
+|K.	737 |chch |pending |Parmentier 1935, Dalet 1935|
 |K.	738 |# |# |#|
 |K.	739 |# |# |#|
 |K.	740 |# |# |#|
@@ -788,7 +790,9 @@
 |K.	774 |# |# |#|
 |K.	775 |# |# |#|
 |K.	776 |# |# |#|
-|K.	777 |# |# |#|
+|K.	777-1 |chch |done |Clouet et al (forthcoming)|
+|K.	777-2 |chch |done |Clouet et al (forthcoming)|
+|K.	777-3 |chch |done |Clouet et al (forthcoming)|
 |K.	778 |# |# |#|
 |K.	779 |kuch |done |Soutif 2008|
 |K.	780 |# |# |#|
@@ -807,7 +811,7 @@
 |K.	793 |# |# |#|
 |K.	794 |# |# |#|
 |K.	795 |kuch |done |Soutif 2009|
-|K.	796 |# |# |#|
+|K.	796 |chch |done |Clouet et al (forthcoming)|
 |K.	797 |# |# |#|
 |K.	798 |# |# |#|
 |K.	799 |# |# |#|
@@ -826,7 +830,7 @@
 |K.	812 |# |# |#|
 |K.	813 |sapi |pending |IC I|
 |K.	814 |# |# |#|
-|K.	815 |# |# |#|
+|K.	815 |chch |done |Clouet et al (forthc.)|
 |K.	816 |# |# |#|
 |K.	817 |# |# |#|
 |K.	818 |# |# |#|
@@ -877,7 +881,7 @@
 |K.	863 |kuch |done |IC I|
 |K.	864 |kuch |done |unpublished|
 |K.	865 |kuch |done |unpublished|
-|K.	866 |# |# |#|
+|K.	866 |chch |done |Clouet et al (forthcoming)|
 |K.	867 |# |# |#|
 |K.	868 |sapi |done ||C VI
 |K.	869 |# |# |#|
@@ -1344,7 +1348,8 @@
 |K.	1324 |chch |pending |unpublished|
 |K.	1325.1 |chch |done |Chevance 2014|
 |K.	1325.2 |chch |done |Chevance 2014|
-|K.	1326 |kuch |pending |unpublished|
+|K.	1326-1 |kuch |pending |unpublished|
+|K.	1326-2 |kuch |pending |unpublished|
 |K.	1327 |chch |pending |unpublished|
 |K.	1328 |kuch |done |Griffiths and Vincent 2014|
 |K.	1329 |# |# |#|
@@ -1386,7 +1391,7 @@
 |K.	1365 |# |# |#|
 |K.	1366 |# |# |#|
 |K.	1367 |# |# |#|
-|K.	1368 |# |# |#|
+|K.	1368 |chch |pending |unpublished|
 |K.	1369 |# |# |#|
 |K.	1370 |# |# |#|
 |K.	1371 |kuch |pending |unpublished|
@@ -1450,31 +1455,34 @@
 |K.	1429 |kuch |done |Unpublished|
 |K.	1430 |# |# |#|
 |K.	1431 |# |# |#|
-|K.	1432 |# |# |#|
+|K.	1432 |chch |pending |unpublished|
 |K.	1433 |# |# |#|
 |K.	1434 |# |# |#|
 |K.	1435 |chch |pending |unpublished|
-|K.	1436 |chch |pending |unpublished|
-|K.	1437 |chch |pending |unpublished|
-|K.	1438 |chch |pending |unpublished|
+|K.	1436 |chch |done |Clouet et al (forthc.)|
+|K.	1437 |chch |done |Clouet et al (forthc.)|
+|K.	1438 |chch |done |Clouet et al (forthc.)|
 |K.	1439 |kuch |done |Hun (forthc.)|
-|K.	1440 |# |# |#|
-|K.	1441 |# |# |#|
-|K.	1442 |# |# |#|
-|K.	1443 |# |# |#|
-|K.	1444 |# |# |#|
-|K.	1445 |# |# |#|
+|K.	1440 |chch |done |Clouet et al (forthc.)|
+|K.	1441 |chch |done |Clouet et al (forthc.)|
+|K.	1442 |chch |done |Clouet et al (forthc.)|
+|K.	1443-1 |chch |done |Clouet et al (forthc.)|
+|K.	1443-2 |chch |done |Clouet et al (forthc.)|
+|K.	1443-3 |chch |done |Clouet et al (forthc.)|
+|K.	1443-4 |chch |done |Clouet et al (forthc.)|
+|K.	1444 |chch |done |Clouet et al (forthc.)|
+|K.	1445 |chch |done |Clouet et al (forthc.)|
 |K.	1446 |# |# |#|
 |K.	1447 |# |# |#|
 |K.	1448 |chch |done |unpublished|
-|K.	1449 |# |# |#|
+|K.	1449 |chch |pending |Vong Sotheara 1999|
 |K.	1450 |# |# |#|
 |K.	1451 |kuch |pending |Nguyễn 1999|
 |K.	1452 |chch |done |unpublished|
 |K.	1453 |chch |done |NIC IV|
 |K.	1454 |chch |done |Soutif and Estève (forthc.)|
 |K.	1455 |argr |done |Goodall and Revire (forthc.)|
-|K.	1456 |# |# |#|
+|K.	1456 |chch |pending |unpublished|
 |K.	1457 |# |# |#|
 |K.	1458 |kuch |pending |#|
 |K.	1459 |# |# |#|
