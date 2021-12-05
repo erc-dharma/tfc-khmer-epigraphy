@@ -1307,7 +1307,7 @@
 |K.	1287 |kuch |pending |NIC IV|
 |K.	1288 |kuch |pending |Vong Sotheara 2011|
 |K.	1289 |# |# |#|
-|K.	1290 |chch |pending |unpublished|
+|K.	1290 |chch |done |unpublished|
 |K.	1291 |chch |pending |unpublished|
 |K.	1292 |kuch |pending |unpublished|
 |K.	1293 |chch |done |unpublished|
@@ -1381,7 +1381,7 @@
 |K.	1360 |# |# |#|
 |K.	1361 |# |# |#|
 |K.	1362 |# |# |#|
-|K.	1363 |# |# |#|
+|K.	1363 |chch |pending |unpublished|
 |K.	1364 |kuch |pending |unpublished|
 |K.	1365 |# |# |#|
 |K.	1366 |# |# |#|
