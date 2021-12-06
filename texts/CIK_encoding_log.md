@@ -622,9 +622,9 @@
 |K.	608 |kuch |pending |Soutif 2009|
 |K.	609 |kuch |pending |Finot 1928|
 |K.	610-1 |chch |done |Finot 1928, IC IV, Clouet et al.|
-|K.	610-2 |chch |pending |Finot 1928, IC IV, Clouet et al.|
+|K.	610-2 |chch |done |Finot 1928, IC IV, Clouet et al.|
 |K.	611-1 |chch |done |Finot 1928, IC IV, Clouet et al.|
-|K.	610-2 |chch |pending |Finot 1928, IC IV, Clouet et al.|
+|K.	610-2 |chch |done |Finot 1928, IC IV, Clouet et al.|
 |K.	612 |chch |done |IC IV, Clouet et al.|
 |K.	613 |# |# |#|
 |K.	614 |# |# |#|
@@ -750,7 +750,7 @@
 |K.	734 |kuch |pending |unpublished|
 |K.	735 |kuch |done |IC V|
 |K.	736 |chch |pending |IC V|
-|K.	737 |chch |pending |Parmentier 1935, Dalet 1935|
+|K.	737 |chch |done |Parmentier 1935, Dalet 1935|
 |K.	738 |# |# |#|
 |K.	739 |# |# |#|
 |K.	740 |# |# |#|
