@@ -1279,7 +1279,7 @@
 |K.	1255 |kuch |done|Soutif 2009|
 |K.	1256 |kuch |done|Soutif 2009|
 |K.	1257 |kuch |done|Soutif 2009|
-|K.	1258 |# |# |#|
+|K.	1258 |kuch |pending |unpublished|
 |K.	1259 |kuch |pending |Long s.d., Oun 1998, Hun 2019|
 |K.	1260 |# |# |#|
 |K.	1261 |kuch |done |#|
