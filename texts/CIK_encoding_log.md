@@ -89,7 +89,7 @@
 |K.	82 |# |# |#|
 |K.	83 |# |# |#|
 |K.	84 |# |# |#|
-|K.	85 |# |# |#|
+|K.	85 |chch |pending |IC VII|
 |K.	86 |# |# |#|
 |K.	87 |kuch |pending |unpublished|
 |K.	88 |# |# |#|
