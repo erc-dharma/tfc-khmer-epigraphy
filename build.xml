@@ -35,14 +35,14 @@
     <fileset id="htmlFiles" dir="./texts/workflow-output/editedxml" includes="**/*.xml"/>
 
     <!-- Transformation XML vers XML -->
-    <xslt force="true" style="./project-documentation/EditorialStylesheets/tpl-editorialConvention.xsl" destdir="./texts/workflow-output/editedxml" extension=".xml" useImplicitFileset="false" classpath="./project-documentation/EditorialStylesheets/pipelineTools/saxon9he.jar">
+    <xslt force="true" style="./project-documentation/editorialStylesheets/tpl-editorialConvention.xsl" destdir="./texts/workflow-output/editedxml" extension=".xml" useImplicitFileset="false" classpath="./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar">
         <fileset refid="xmlFiles"/>
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <regexpmapper from="(.*)" to="EDITED_\1"/>
     </xslt>
 
     <!-- Transformation XML vers HTML -->
-    <xslt force="true" style="./project-documentation/stylesheets/inscriptions/start-edition-with-bibl.xsl" destdir="./texts/workflow-output/html" extension=".html" useImplicitFileset="false" classpath="./project-documentation/EditorialStylesheets/pipelineTools/saxon9he.jar">
+    <xslt force="true" style="./project-documentation/stylesheets/inscriptions/start-edition-with-bibl.xsl" destdir="./texts/workflow-output/html" extension=".html" useImplicitFileset="false" classpath="./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar">
         <fileset refid="htmlFiles"/>
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <regexpmapper from="EDITED_(.*).xml" to="\1.html"/>
