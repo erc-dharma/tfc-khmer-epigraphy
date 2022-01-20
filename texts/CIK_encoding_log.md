@@ -828,7 +828,7 @@
 |K.	810 |kuch |done |IC VI|
 |K.	811 |kuch |done |IC VI|
 |K.	812 |# |# |#|
-|K.	813 |sapi |pending |IC I|
+|K.	813 |# |# |#|
 |K.	814 |# |# |#|
 |K.	815 |chch |done |Clouet et al (forthc.)|
 |K.	816 |# |# |#|
@@ -847,7 +847,7 @@
 |K.	829 |# |# |#|
 |K.	830 |chch |done |IC V|
 |K.	831 |sapi |done |IC V|
-|K.	832 |# |# |#|
+|K.	832 |sapi |pending |IC V|
 |K.	833 |# |# |#|
 |K.	834 |chch |pending |IC V|
 |K.	835 |# |# |#|
