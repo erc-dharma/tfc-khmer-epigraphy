@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Preah Phnom temple, Battambang province (K. 593; 852 śaka)</title>
+                <respStmt>
+                    <resp>EpiDoc Encoding</resp>
+                    <persName ref="part:chch">
+                        <forename>Chloé</forename>
+                        <surname>Chollet</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>intellectual authorship of edition</resp>
+                    <persName ref="http://viaf.org/viaf/66465311">
+                        <forename>George</forename>
+                        <surname>Cœdès</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSCIK00593</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                        <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+                    </licence>
+                </availability>
+                <date from="2019" to="2025">2019-2025</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+            </projectDesc>
+            <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
+            <listPrefixDef>
+                <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+                    <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+                </prefixDef>
+                <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+                    <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:chch" when="2022-01-30">Initial encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+<p>
+    <lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/><g type="circleLarge">.</g> bhakti-sthirī-karttuṁm avighna-kāriṇi</l>
+    <l n="b">dvi-pañca-mūrtto śivasoma-nāmā</l>
+<l n="c"><lb n="2"/>candīśvara-vighna-patiñ ca liṅgaṁ</l>
+    <l n="d">grahais saha sthāpitavān subhaktyā</l> 
+</lg>
+<lg n="2" met="upajāti">
+<l n="a"><lb n="3"/>bhadram vo 'stu svakaṁ punyaṁ</l>
+    <l n="b">bhūyād asmin valādhipāḥ</l>
+<l n="c"><lb n="4"/>rakṣantv idaṁ mudā ye hi</l>
+<l n="d">candiṇaṁm r̥ddhaye sadā</l>
+</lg>
+</p>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem>karttuṁm</lem>
+                     <rdg source="bib:Coedes1937-1966_01">karttum</rdg>
+                  </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+<p rend="stanza" n="1">Pour affermir la dévotion, le nommé Śivasoma, écartant les obstacles, dans <supplied reason="subaudible">l'année marquée par les</supplied> <supplied reason="explanation">8</supplied> formes <supplied reason="subaudible">de Śiva</supplied> - cinq - deux, a pieusement érigé Caṇḍī <supplied reason="explanation">Umā</supplied>, Īśvara <supplied reason="explanation">Śiva</supplied>, Vighnapati <supplied reason="explanation">Gaṇeśa</supplied>, un <foreign>liṅga</foreign>, avec les images des planètes.</p> 
+<p rend="stanza" n="2">Le bonheur soit pour vous ! Que le mérite de l'œuvre appartienne à son auteur ! Que les chefs de population gardent toujours avec joie celle-ci, en vue de la prospérité de <gap reason="illegible"/></p>
+         </div>
+         <div type="commentary">
+             <p>Stanza 1, l. 1: <foreign>kāriṇi</foreign> : corr. <foreign>kārīṇi</foreign></p>
+             <p>Stanza 1, l. 1: <foreign>murtto</foreign>: corr. <foreign>murttau</foreign>.</p>
+              <p>Stanza 1, l. 2: <foreign>candī</foreign>: corr. <foreign>caṇḍī</foreign>.</p>
+             <p>Stanza 2, l. 3: <foreign>punyaṁ</foreign>: corr. <foreign>puṇyaṁ</foreign>.</p>
+            <p>Stanza 2, l. 4: George Cœdès doesn't know how to interpret the word <foreign>candiṇam</foreign>.</p>
+         </div>
+        <div type="bibliography">
+ <p>First edited  by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">120</citedRange></bibl>) with a French translation.</p>
+        	<listBibl type="primary">
+				<bibl n="GC">
+				     <ptr target="bib:Coedes1937-1966_01"/>
+      <citedRange unit="volume">3</citedRange>
+				    <citedRange unit="page">120</citedRange>
+				</bibl>
+			</listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
