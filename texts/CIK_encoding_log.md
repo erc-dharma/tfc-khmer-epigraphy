@@ -196,8 +196,8 @@
 |K.	190 |sapi |done |ISCC IC VI|
 |K.	191 |chch |pending |IC VI|
 |K.	192 |sapi |done ||C VI|
-|K.	193 |# |# |#|
-|K.	194 |# |# |#|
+|K.	193 |chch |pending |IC VI|
+|K.	194 |chch |pending |Cœdès et Dupont 1943|
 |K.	195 |chch |done |IC VI|
 |K.	196 |# |# |#|
 |K.	197 |# |# |#|
