@@ -5,7 +5,7 @@
 
 |CIK |encoder |status |remark|
 |:-----:|:-----:|:-----:|:-----:|
-|K.  1 |kuch |pending |IC VI|
+|K.  1 |kuch |done |IC VI|
 |K.	2 |kuch |pending |Just mentioned in BEFEO XL|
 |K.	3 |kuch |done |Coedes 1936|
 |K.	4 |kuch |pending |unpublished|
@@ -39,7 +39,7 @@
 |K.	32 |chch |done |IC II|
 |K.	33 |chch |done |IC III|
 |K.	34 |kuch |done |IC III|
-|K.	35 |kuch |pending |IC II, Jacques 2014|
+|K.	35 |kuch |done |IC II, Jacques 2014|
 |K.	36 |kuch |done | IC II|
 |K.	37 |kuch | done|IC II|
 |K.	38 |kuch|done |IC II|
@@ -56,7 +56,7 @@
 |K.	49 |kuch |done |ISC|
 |K.	50 |kuch | done |ISC|
 |K.	51 |kuch |done |IC V|
-|K.	52 |kuch |pending |IC VI|
+|K.	52 |kuch |done |IC VI|
 |K.	53 |kuch |done |ISC|
 |K.	54 |kuch | done |ISC|
 |K.	55 |kuch |done|ISC|
@@ -65,18 +65,18 @@
 |K.	58 |kuch |pending |unpublished|
 |K.	59 |# |# |#|
 |K.	60 |kuch | done |ISC|
-|K.	61 |kuch |pending |ISCC, IC VII|
+|K.	61 |kuch |done |ISCC, IC VII|
 |K.	62 |# |# |#|
 |K.	63 |kuch |pending |unpublished|
 |K.	64 |# |# |#|
 |K.	65 |# |# |#|
 |K.	66 |kuch |done|Finot 1915 and IC II|
-|K.	67 |kuch |pending |IC VII|
-|K.	68 |kuch |pending |IC VII|
-|K.	69 |kuch |pending |IC VI|
-|K.	70 |kuch |pending |Finot 1915, IC II|
+|K.	67 |kuch |done |IC VII|
+|K.	68 |kuch |done |IC VII|
+|K.	69 |kuch |done |IC VI|
+|K.	70 |kuch |done |Finot 1915, IC II|
 |K.	71 |kuch |done |IC II|
-|K.	72 |kuch |pending |IC VI, IC VII|
+|K.	72 |kuch |done |IC VI, IC VII|
 |K.	73 |kuch |done |IC VI|
 |K.	74 |kuch |done |IC VI|
 |K.	75 |# |# |#|
@@ -494,7 +494,7 @@
 |K.	480 |kuch |pending |IC II|
 |K.	481 |# |# |#|
 |K.	482 |kuch |pending |IC V|
-|K.	483 |kuch |pending |IC I|
+|K.	483 |kuch |done |IC I|
 |K.	484 |# |# |#|
 |K.	485 |chch |pending |IC II|
 |K.	486 |# |# |#|
@@ -813,7 +813,7 @@
 |K.	795 |kuch |done |Soutif 2009|
 |K.	796 |chch |done |Clouet et al (forthcoming)|
 |K.	797 |# |# |#|
-|K.	798 |# |# |#|
+|K.	798 |kuch |done |inedit|
 |K.	799 |# |# |#|
 |K.	800 |# |# |#|
 |K.	801 |# |# |#|
@@ -869,7 +869,7 @@
 |K.	851 |kuch |done |Coedes IC I|
 |K.	852 |chch |done | Coedes IC I|
 |K.	853 |chch |done |IC I|
-|K.	854 |chch |pending |IC I|
+|K.	854 |kuch |done (would be revised by chch) |IC I|
 |K.	855 |chch |done |IC V|
 |K.	856 |chch |done |IC V|
 |K.	857 |# |# |#|
@@ -934,7 +934,7 @@
 |K.	916 |# |# |#|
 |K.	917 |# |# |#|
 |K.	918 |kuch |pending |unpublished|
-|K.	919 |# |# |#|
+|K.	919 |kuch |done |inedit|
 |K.	920 |# |# |#|
 |K.	921 |# |# |#|
 |K.	922 |# |# |#|
