@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Vat Romlok (K. 27), 949 Cullasakarāja (= 1587 CE)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00027</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-02-03" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="x-midkhmer-Latn">
+                <p>
+<lb n="1"/>$ddOrnate sīrī sākyamuṇī sabvañubuddha-
+                   <lb n="2"/>ssa parinibvāna dīvasato pa-
+                   <lb n="3"/>tthāya catu dīnnaṁ catu māssa
+                   <lb n="4"/>Ekuna tiṅsā Ekasata saṁva-
+                   <lb n="5"/>cchara satādīkānīdve saṁvaccha-
+                   <lb n="6"/>ra sahassānī Atīkuntānī A-
+                   <lb n="7"/>hesuṁ $ddOrnate Ai ta kāla bī sāṅa Ārāmma
+                   <lb n="8"/>neeḥ ku naksatra sakarāja cnāṁ 949
+                   <lb n="9"/>grā soek braḥ naressa khassa găpa moka
+                   <lb n="10"/>cpāṁṅa laveeka phaeka gnā grā noḥ $dDanda tala chlūva
+                   <lb n="11"/>trū sakkarāja 941 neeḥ kasāṅa braḥ vīhār
+                   <lb n="12"/>praḥmāna pī khae nai trai māssa ka saṁrecca
+                   <lb n="13"/>tecca khae māggha ka rāṁboeṅa niṅa sāṅa semā
+                   <lb n="14"/>ka bīccārnā thmaha 1 khae baesākya khaneta prāṁ
+                   <lb n="15"/>pī koeta sukra bāra pāna sakrāja neeḥ 942
+                   <lb n="16"/>guḥ luha pacu semā mhā săgha rājā dharmma khītra
+                   <lb n="17"/>sṭhīt jā pradāna māna braḥ rājaputra rājā brañā
+                   <lb n="18"/>sae senā Amaccā dăṅa pvaṅa Uka hlvaṅa rājavaṅa
+                   <lb n="19"/>mdheṅa jā pāsaka dāyaka dăṅa hlāya hmāya kāṁnata
+                   <lb n="20"/>kata dāna māna pāna pūjā mhā stecca bījyera ñāṇa
+                   <lb n="21"/>svāmī srī sāsnā jā Āṁbala sīssa gana dăṅa hlāya khvana
+                   <lb n="22"/>khvāya rănatăpa drabya toya māna pāna pīta semā nādanmī
+                   <lb n="23"/>ssa rāmjakara he rājabāra praḥ mīra braḥ Aṅga prāṁ bīra
+                   <lb n="24"/>sīṅa thmaha raccanā saṁma luḥ tūcca prāthnā braḥ sasstā
+                   <lb n="25"/>stecca juṁ braḥ sārīkadhātu nai ratta pallaṅa kujja
+                   <lb n="26"/>braḥ srī mhā bodhī prossa debvtā mānussa phoṅa
+                   <lb n="27"/>păma phoṅa Aña saṁma dăna braḥ buddha suta sāsnā prāṁ băna
+                   <lb n="28"/>vassā kaṁma glāta toya prāthnā kama māna satrū leya
+                </p>
+            </div>
+            <!--<div type="apparatus">
+               <listApp><!-\- one <app> for each apparatus entry -\->
+                  <listApp>
+                  <app loc="2">
+                     <lem>chnāma</lem>
+                     <rdg source="bib:AuthorYear_01"><!-\- update the @source value, fill in variant reading here -\-></rdg>
+                    <note>There is a cross sign above the letter <foreign>cha</foreign>.</note>
+                  </app>
+               </listApp>         
+         </div>-->
+         <div type="translation" xml:lang="fra" source="bib:Pou1981_02">
+ 	<p n="1-20"></p>
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Khin1980_02">
+ 	<p n="1-7">Depuis le jour où le sri Sakyamuni, le Buddha omniscient est entré sans le Parinirvana, il s'est écoulé deux mille cent vingt-neuf années, quatre mois et quatre jours.</p>
+              <p n="7-10">Au moment de la construction de cette pagode, en l'année du Porc, 949 de la petite ère, l'année de l'auguste Naressakhassa daigna venir attaquer Lavaek, à ce moment-là nous nous sommes dispersés.</p>
+              <p n="10-16">En cette année du Bœuf correspondant à 951 de la <supplied reason="subaudible">petite</supplied> ère, la construction de l'auguste sanctuaire fut achevée au bout de trois mois. A la fin du mois de Māgha, on pensa à la confection des Sima. Alors commença la préparation de la pierre qui dura jusqu'au vendredi huitième jour de la lune croissante du mois de Bisākha en 952 de la petite ère.</p>
+              <p n="16-25">Lors de la cérémonie du dépôt des bornes sacrées le roi des bonzes Dhamma Khitta était président. Il y avait des princes, des Bañā, des généraux, tous les conseillers du roi, des Uk luon et des membres de la famille royale. Ils étaient tous des fidèles, des bienfaiteurs; ils faisaient le programme et ils notaient les dons offerts au Grand Maître de la Connaissance, Maître de l'auguste religion. Celle-ci intéressait tous les disciples et les rendait préoccupés de préparer les biens pour les coller sur le Sima Nādanmīssa ... Les sept ... étaient tous en pierre et bien travaillés comme on le souhaitait. Le Maître ... les reliques du Buddha ... le trône en joyaux et en perles.</p>
+              <p n="26-28">L'auguste fortuné Maha Bodhi sauvait les dieux, les êtres humains également et faisait entrer dans les ordres. Je souhaite rejoindre le Buddha, sans m'éloigner de lui en l'an 5000 de l'ère bouddhique. Je désire qu'il n'y ait plus d'ennemis.</p>
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+          <p>First edited by Sok Khin (<bibl rend="omitname"><ptr target="bib:Khin1980_02"/><citedRange unit="page">125-131</citedRange></bibl>) with a French translation; re-edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou1981_02"/><citedRange unit="page">121-134</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 399.</p>
+	 <listBibl type="primary">
+    <bibl n="SP">
+<ptr target="bib:Pou1981_02"/>
+<citedRange unit="page">121-134</citedRange>
+</bibl>
+	    <bibl n="SK">
+<ptr target="bib:Khin1980_02"/>
+<citedRange unit="page">125-131</citedRange>
+</bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
