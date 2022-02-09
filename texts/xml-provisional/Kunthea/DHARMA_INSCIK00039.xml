@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Vat Bati (K. 39), 1496 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00039</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-02-09" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="xhm">
+                <p>
+                   <lb n="1"/><supplied reason="lost">mū</supplied>yni sota Añ nana prāthnā doḥ pi Aña paṅa pañcaskana Aṁbīya neḥ do<lb 
+                      n="2" break="no"/>va sūma Aña pāna jā mahācakkarbvatirāja luḥha braḥ srīĀryamaiyatrī<lb 
+                         n="3" break="no"/>ya qnaka trāsa pāna jā braḥ buddha qnaka cūla nibvān Aña khñuṁma sūma cūla phoṅa qnaka haṅa
+                   <lb n="4"/><g type="dDanda">.</g>sabhbamassatu <num value="1496">1496</num> saka ca naksatra pūramī phaguna brahāssa<lb 
+                      n="5" break="no"/>mpatībāra Oka khuṇa dibvāsenasaeṅa nu grū māna citra
+                   <lb n="6"/>sāradhā thve braḥ buddha <supplied reason="lost">A</supplied>ṅa <num value="5">5</num> khñuṁ <num value="11">11</num> krapīya <num value="4">4</num> nu sreha <num value="12">12</num> nu danl<unclear>ae</unclear>
+                   <lb n="7"/>Ā<space/>rāma phoṅa nu daṁṅa dhaṁma <num value="1">1</num> bītān <num value="4">4</num> chāt <num value="2">2</num> nā<unclear>ṁ</unclear>
+                   <lb n="8"/>daṅṅa thvāya kuṁl<supplied reason="lost">u</supplied>ṅa bīhāra sota <num value="66">66</num> daṅayūha <num value="9">9</num>
+                   <lb n="9"/>grā<gap reason="lost" extent="unknown" unit="character"/> desnā braḥ Abhīdhārma <num value="3">3</num> capa mahājātha <num value="3">3</num> capa
+                   <lb n="10"/>mahābuddhaguna Anisa<supplied reason="lost">ṁ</supplied> daṅa An<supplied reason="lost">i</supplied>sa<supplied reason="lost">ṁ</supplied> braḥha caṁmalā<lb 
+                      n="11" break="no"/>loṅa puna phoṅa nā dāna sapa bhyañja phoṅa syaṅa grapa hoṅa
+                   <lb n="12"/>mūyni sota Uk khuṇa dibvāsenasaeṅa <supplied reason="lost">nu</supplied> grū gāta nimana qnaka saṁteca braḥ dhamma<lb 
+                      n="13" break="no"/>trailāka nu qnaka saṁteca braḥ dhammavaṅsā nu qnaka saṁteca braḥ dhammaghosā nu kaṁryată<lb 
+                         n="14" break="no"/>ṅa therarānuthera bhīksususăgha phoṅa moka juṁnuṁ cauva Inda<lb 
+                            n="15" break="no"/>sudhara nu cauva hluoṅa braḥ ghlāṅa cau Indaprañā cauva sabhāvaṅsā
+                   <lb n="16"/>cauva tejodhūpesa moka juṁnuṁ duka jmoḥ khñuṁ mūya pā samacīta
+                   <lb n="17"/>me gana grū <num value="1">1</num> pā suka me bvaṁṅā kūna <num value="6">6</num> me kaeva <gap reason="lost" extent="unknown" unit="character"/>va moka
+                   <lb n="18"/>juṁnuṁ nā khñuṁ daṁṅa neḥ thvāya braḥ srīya ratanatraiya nā braḥ bīhāra
+                   <lb n="19"/>nu<gap reason="lost" extent="unknown" unit="character"/> mahāthera pavarasāsa neḥ jā cauva vatra doḥ pe māna poṅa phU<supplied reason="omitted">na</supplied> kū<lb 
+                      n="20" break="no"/>na cauva pe moka chnasa sratī bibvā<supplied reason="omitted">da</supplied> yoka jā khñuṁma thve Oya jāka Isa
+                   <lb n="21"/>braḥ buddha Aṁmpāla khseca moka trasa E <supplied reason="lost">kro</supplied>ya E bhneka kti kaṁmpī
+                   <lb n="22"/>prosa qnaka noḥ pāna leya subhā nā jūya re<supplied reason="omitted">sa</supplied> Oya no<gap reason="lost" extent="unknown" unit="character"/> dau nau mūya Anle<gap reason="lost" extent="unknown" unit="character"/>
+                   <lb n="23"/><gap reason="lost" extent="unknown" unit="character"/> nā pāpa Abacināraka nā hoṅa
+                </p>
+            </div>
+            <div type="apparatus">
+                  <listApp>
+                  <app loc="1">
+                     <lem><supplied reason="lost">mū</supplied>yni sota Añ nana</lem>
+                     <rdg source="bib:Khin1979_01">mvayni sot Añ nna</rdg>
+                     <note>The letter <foreign>na</foreign> is written as subscript form under the letter <foreign>na</foreign> initial.</note>
+                  </app>
+                     <app loc="1">
+                     <lem>pañcaskana</lem>
+                     <rdg source="bib:Khin1979_01">pañca skana</rdg>
+                  </app>
+                     <app loc="2">
+                     <lem>mahācakkarbvatirāja luḥha braḥ srīĀryamaiyatrī</lem>
+                     <rdg source="bib:Khin1979_01">mahā cakkabvratirāja luḥha braḥ srī Āryamaiytrī</rdg>
+                  </app>
+                     <app loc="3">
+                     <lem>trāsa</lem>
+                     <rdg source="bib:Khin1979_01">trāssa</rdg>
+                  </app>
+                     <app loc="4">
+                     <lem>sabhbamassatu</lem>
+                     <rdg source="bib:Khin1979_01">sabhba massatu</rdg>
+                  </app>
+                     <app loc="4">
+                     <lem>brahāssa</lem>
+                     <rdg source="bib:Pou1981_02">braḥhāssa</rdg>
+                        <rdg source="bib:Khin1979_01">brahāssaṁ</rdg>
+                  </app>
+                     <app loc="5">
+                     <lem>mpatībāra Oka khuṇa dibvāsenasaeṅ nu grū</lem>
+                     <rdg source="bib:Khin1979_01">mpatī bāra Uka khuṇa dibbā sena saeṅa nu gruo</rdg>
+                  </app>
+                     <app loc="6">
+                     <lem>sāradhā</lem>
+                     <rdg source="bib:Khin1979_01">sārdhā</rdg>
+                  </app>
+                     <app loc="6">
+                     <lem><num value="12">12</num></lem>
+                     <rdg source="bib:Khin1979_01"><num value="102">102</num></rdg>
+                  </app>
+                     <app loc="6">
+                     <lem>danl<unclear>ae</unclear></lem>
+                        <rdg source="bib:Pou1981_02">daṅṅa</rdg>
+                     <rdg source="bib:Khin1979_01">danlae</rdg>
+                  </app>
+                     <app loc="7">
+                     <lem>daṁṅa</lem>
+                     <rdg source="bib:Khin1979_01">daṅa</rdg>
+                  </app>
+                     <app loc="7">
+                     <lem>nā<unclear>ṁ</unclear></lem>
+                        <rdg source="bib:Pou1981_02">nā <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                     <rdg source="bib:Khin1979_01">nā <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                  </app>
+                     <app loc="8">
+                     <lem>daṅayūha <num value="9">9</num></lem>
+                        <rdg source="bib:Pou1981_02">daṅa yuha <num value="3">3</num></rdg>
+                     <rdg source="bib:Khin1979_01">daṅayuha <num value="9">9</num></rdg>
+                  </app>
+                     <app loc="9">
+                     <lem>grā<gap reason="lost" extent="unknown" unit="character"/></lem>
+                     <rdg source="bib:Khin1979_01">bhāga Oya</rdg>
+                  </app>
+                     <app loc="10">
+                     <lem>Anisa<supplied reason="lost">ṁ</supplied> daṅa An<supplied reason="lost">i</supplied>sa<supplied reason="lost">ṁ</supplied> braḥha caṁmalā</lem>
+                     <rdg source="bib:Khin1979_01">Ānasa daṅa Anusa braḥha dhamma Oya</rdg>
+                  </app>
+                     <app loc="12">
+                     <lem>dibvāsenasaeṅa <supplied reason="lost">nu</supplied> grū gāta nimana qnaka saṁteca</lem>
+                     <rdg source="bib:Khin1979_01">dibbā sena saeṅa nu gruo gāta nima qnaka sateca</rdg>
+                  </app>
+                     <app loc="12">
+                     <lem>nimana</lem>
+                        <note>The letter <foreign>na</foreign> is written as subscript form below the letter <foreign>ma</foreign>.</note>
+                  </app>
+                     <app loc="13">
+                     <lem>trailāka nu qnaka saṁteca braḥ dhammavaṅsā nu qnaka saṁteca braḥ dhammaghosā nu kaṁryată</lem>
+                     <rdg source="bib:Khin1979_01">trai lāka nu qnaka sateca braḥ dhamma vaṅsā nu qnaka sateca braḥ dhamma ghosā nu krăyā</rdg>
+                  </app>
+                     <app loc="14">
+                     <lem>therarānuthera bhīksususăgha</lem>
+                     <rdg source="bib:Khin1979_01">therrā nu thera bhiksusu saṅgha</rdg>
+                  </app>
+                     <app loc="14">
+                     <lem>cauva</lem>
+                     <rdg source="bib:Khin1979_01">cova</rdg>
+                  </app>
+                     <app loc="15">
+                     <lem>cauva hluoṅa braḥ ghlāṅa cau Indaprañā cauva sabhāvaṅsā</lem>
+                     <rdg source="bib:Khin1979_01">cova hluoṅa braḥ ghlāṅa co In praññā cova sabhā vaṅsā</rdg>
+                  </app>
+                     <app loc="16">
+                     <lem>cauva tejodhūpesa</lem>
+                     <rdg source="bib:Khin1979_01">cova tejodhūpesa</rdg>
+                  </app>
+                     <app loc="16">
+                     <lem>duka jmoḥ</lem>
+                     <rdg source="bib:Khin1979_01">dukkha chmoḥ</rdg>
+                  </app>
+                     <app loc="16">
+                     <lem>mūya pā samacīta</lem>
+                        <rdg source="bib:Pou1981_02">mūya pā samcī<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                     <rdg source="bib:Khin1979_01">muoya pāsamacita</rdg>
+                  </app>
+                     <app loc="17">
+                     <lem>pā suka me bvaṁṅā</lem>
+                     <rdg source="bib:Khin1979_01">pa suka me bū dhāṁ</rdg>
+                  </app>
+                     <app loc="17">
+                     <lem><gap reason="lost" extent="unknown" unit="character"/>va</lem>
+                     <rdg source="bib:Khin1979_01">le<gap reason="lost" quantity="3" unit="character"/>va</rdg>
+                  </app>
+                     <app loc="18">
+                     <lem>daṁṅa neḥ</lem>
+                     <rdg source="bib:Khin1979_01">denla neḥ</rdg>
+                  </app>
+                     <app loc="18">
+                     <lem>ratanatraiya</lem>
+                     <rdg source="bib:Khin1979_01">rutna nu traiya</rdg>
+                  </app>
+                     <app loc="19">
+                     <lem>nu<gap reason="lost" extent="unknown" unit="character"/></lem>
+                     <rdg source="bib:Khin1979_01">nu ta</rdg>
+                  </app>
+                     <app loc="19">
+                     <lem>pavarasāsa</lem>
+                     <rdg source="bib:Khin1979_01">pavara sāla</rdg>
+                  </app>
+                     <app loc="19">
+                     <lem>cauva vatra</lem>
+                     <rdg source="bib:Khin1979_01">cova <supplied reason="lost">va</supplied>tra</rdg>
+                  </app>
+                     <app loc="19">
+                     <lem>phU<supplied reason="omitted">na</supplied></lem>
+                        <rdg source="bib:Pou1981_02">phU<supplied reason="lost">na</supplied></rdg>
+                     <rdg source="bib:Khin1979_01">phUna</rdg>
+                  </app>
+                     <app loc="20">
+                     <lem>cauva</lem>
+                     <rdg source="bib:Khin1979_01">cova</rdg>
+                  </app>
+                     <app loc="20">
+                     <lem>chnasa</lem>
+                     <rdg source="bib:Khin1979_01">jnula</rdg>
+                  </app>
+                     <app loc="20">
+                     <lem>bibvā<supplied reason="omitted">da</supplied></lem>
+                        <rdg source="bib:Pou1981_02">bibvā<supplied reason="lost">da</supplied></rdg>
+                     <rdg source="bib:Khin1979_01">bibbā</rdg>
+                  </app>
+                     <app loc="20">
+                     <lem>jāka Isa</lem>
+                     <rdg source="bib:Khin1979_01">jā kaṁtīya</rdg>
+                        <note>The letter <foreign>sa</foreign> is written as subscript form below the letter <foreign>I</foreign>.</note>
+                  </app>
+                     <app loc="21">
+                     <lem>braḥ buddha</lem>
+                     <rdg source="bib:Khin1979_01">ṅa braḥ buddha</rdg>
+                  </app>
+                     <app loc="21">
+                     <lem>E <supplied reason="lost">kro</supplied>ya</lem>
+                     <rdg source="bib:Pou1981_02">E <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                  </app>
+                     <app loc="21">
+                     <lem>kti kaṁmpī</lem>
+                     <rdg source="bib:Khin1979_01">ktī kampī</rdg>
+                  </app>
+                     <app loc="22">
+                     <lem>jūya</lem>
+                         <rdg source="bib:Pou1981_02">juoya</rdg>
+                     <rdg source="bib:Khin1979_01">juoya</rdg>
+                  </app>
+                     <app loc="22">
+                     <lem>re<supplied reason="omitted">sa</supplied></lem>
+                         <rdg source="bib:Pou1981_02">re<supplied reason="lost">sa</supplied></rdg>
+                     <rdg source="bib:Khin1979_01">re</rdg>
+                  </app>
+                     <app loc="22">
+                     <lem>dau nau mūya Anle<gap reason="lost" extent="unknown" unit="character"/></lem>
+                     <rdg source="bib:Khin1979_01">Oya nau mvaya Anveṅa</rdg>
+                  </app>
+                     <app loc="23">
+                     <lem><gap reason="lost" extent="unknown" unit="character"/> nā pāpa Abacināraka</lem>
+                     <rdg source="bib:Khin1979_01">nā pāca Abacī nāraka</rdg>
+                  </app>
+               </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Pou1981_02">
+ 	<p n="1">En outre, je <gap reason="lost"/> souhaite ceci: quand j'abandonnerai les cinq agrégats, et quitterai ce <supplied reason="subaudible">monde-</supplied>ci,</p>
+            <p n="2">que je puisse devenir un grand souverain <foreign>cakrabarti</foreign> ! Lorsque le seigneur Srīāryamaitrī</p>
+            <p n="3">atteindra l'Eveil pour devenir un Buddha, et lorsqu'il entrera au nirvāṇa, je demanderai à y entrer avec lui.</p>
+            <p n="4">Que le succès soit ! En l'an 1496 Ṡaka, année du Chien, le jeudi, jour de pleine lune de Phalgun,</p>
+            <p n="5">Ok Khun Dibbāsenāsaeṅ et sa famille, au cœur rempli de</p>
+            <p n="6">foi, firent 5 statues de Buddha, <supplied reason="subaudible">offrirent</supplied> 11 esclaves, 4 buffles, et 12 rizière, ainsi</p>
+            <p n="7">que des jardins; puis ils firent 1 grand étendard, 4 dais, 2 parapluies; ils offrirent,</p>
+            <p n="8">pour l'intérieur du <foreign>bihār</foreign>, 66 orflammes et 3 parasols.</p>
+            <p n="9">Au moment <gap reason="lost"/> il y eut trois lectures de l'Abhidhamm, trois lectures du Mahājāt,</p>
+            <p n="10"><supplied reason="subaudible">lectures</supplied> du Mahābuddhaguṇ, de l'ānisaṅs des étendards, de l'anisaṅs <supplied reason="subaudible">des statues</supplied> du Buddha, <supplied reason="subaudible">puis</supplied> transfert</p>
+            <p n="11">des mérites lors du don de nourriture variée pour compléter <supplied reason="subaudible">ces rites</supplied>.</p>
+            <p n="12">D'autre part, Ok Khun Dibbāsenāsaeṅ et sa famille invitèrent Anak Saṁtec Brah Dhamma-</p>
+            <p n="13">trailakkh, Anak Saṁtec Braḥ Dhammavaṅsa, Anak Saṁtec Braḥ Dhammaghosā, et les seigneurs</p>
+            <p n="14">thera, grands et petits, les <foreign>bhiksu</foreign>, à s'assembler avec <supplied reason="subaudible">les laics que voici :</supplied> Cau Inda-</p> <!-- The @p does not allow break="no" -->
+            <p n="15">sudhar, Cau Hluoṅ Trésorier, Cau Indaprājñā, Cau Subhāvaṅsā,</p>
+            <p n="16">Cau Tejodhupes. Ils se réunirent <supplied reason="subaudible">donc</supplied> pour noter les noms des esclaves <supplied reason="subaudible">suivants</supplied> : Pā Sam Ci <gap reason="lost"/>,</p>
+            <p n="17">Me Gan et leurs enfants, Pā Sukh, Me Baṁṅā et six enfants, Me Kaev <gap reason="lost"/> En s'as-</p>
+            <p n="18">semblant au sujet de ces esclaves, ils les offrirent au glorieux Triple Joyau dans ce <foreign>bihār</foreign>,</p>
+            <p n="19">alors que le <foreign>mahāther</foreign> Pavarasāsn était chef du monastère. Au cas où des parents, des</p>
+            <p n="20">descendants viennent, abusivement, contester <supplied reason="subaudible">ces mesures</supplied> en reprenant <supplied reason="subaudible">les nommés ci-dessus</supplied> comme esclaves, que tous</p>
+            <p n="21">les Buddha, aussi nombreux que les grains de sable, ayant atteint l'Eveil, ne puissent</p>
+            <p n="22">jamais sauver ces contrevenants ! Les juges qui aideront <supplied reason="subaudible">ceux-ci</supplied> à reprendre <supplied reason="subaudible">ces esclaves</supplied>, qu'ils tombent avec</p>
+            <p n="23"><gap reason="lost"/> dans l'affreux enfer Avīci !</p>
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Khin1979_01">
+ 	<p n="1-3">En outre je souhaite devenir un grand roi universel, lorsque je quitterai ce monde et lorsque Braḥ Srei Arya Maitrei obtiendra l'éveil suprême et entrera au <foreign>nirvāṇa</foreign>, alors je souhaite entrer avec lui.</p>
+              <p n="4-11">Que le succès soit! En 1496 de la grande ère, année du Chien <foreign>nakṣatra</foreign>, jeudi quinzième jour de la lune croissante du mois de Phalguna, l'Uk Khon Tipea Sen Saeṅ et sa famille par foi offrirent cinq statues de Buddha, onze esclaves, quatre buffles, cent deux rizières, un lac, un emplacement <supplied reason="subaudible">pour la pagode</supplied>, un grand oriflamme, quatre dais et deux parapluies. Furent offerts au temple, soixante-six oriflammes et neuf parasols. Pour célébrer cette cérémonie, des offrandes destinées au sermon se composent de trois collections d'<foreign>abhidharma</foreign>, de trois collections de Mahājāti, de Mahābuddhaguṇa, d'<foreign>anisang tong</foreign>, d'<foreign>anisang braḥ dhaṁ</foreign>. Quant aux offrandes en nourriture, elles furent au complet.</p>
+              <p n="12-18">En outre l'Uk Khon Tipea Sen Saeṅ et sa famille invitèrent à l'assemblée l'Anak Samdac Braḥ Dharma Trai Lak, l'anak Samdac Braḥ Dharma Voṅsa, l'Anak Samdac Braḥ Dharma Ghosā, de même que les éminents, anciens et nouveaux moines. Cau In Suthor, Cau Luoṅ Braḥ Khlāṁṅ, Cau In Praññā, Cau Sabhā Voṅsā et Cau Decô Dhubês étaient présents à l'assemblée pour libérer un esclave nommé Ba Sam Cit. Se trouvaient à l'assemblée, la famille de Me Gun, Ba Sok et Me Bu avec leurs six enfants, Me Kèv <gap reason="lost"/>.</p>
+              <p n="18-19">Quant aux esclaves de ce lac, ils étaient offerts à l'auguste Triple Joyau l'auguste temple et à Mahāthera Bavar Sāl, chef de la pagode.</p>
+              <p n="19-23">S'il y a des frères et sœurs, des enfants et des petits-enfants venus les louer, les réclamer, les reprendre comme esclaves et leur causer des ennuis, qu'ils ne puissent jamais être sauvés par les futurs Buddhas aussi nombreux que les grains de sable. Que les juges qui aident à contester <supplied reason="subaudible">cet acte</supplied> restent pour toujours dans les cinq <foreign>avīci</foreign> de l'enfer.</p>
+         </div>
+         <div type="commentary">
+            <p></p>
+         </div>
+        <div type="bibliography">
+          <p>First edited by Sok Khin (<bibl rend="omitname"><ptr target="bib:Khin1979_01"/><citedRange unit="page">77-89</citedRange></bibl>) with a French translation; re-edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou1981_02"/><citedRange unit="page">121-134</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 412.</p>
+	 <listBibl type="primary">
+    <bibl n="SP">
+<ptr target="bib:Pou1981_02"/>
+<citedRange unit="page">121-134</citedRange>
+</bibl>
+	    <bibl n="SK">
+<ptr target="bib:Khin1979_01"/>
+<citedRange unit="page">77-89</citedRange>
+</bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
