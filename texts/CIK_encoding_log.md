@@ -1174,7 +1174,7 @@
 |K.	1150 |kuch |done |Goodall 2019|
 |K.	1151 |sapi |done |NIC II-III|
 |K.	1152 |sapi |pending |NIC II-III|
-|K.	1153 |# |# |#|
+|K.	1153 |chch|pending |NIC III|
 |K.	1154 |# |# |#|
 |K.	1155 |# |# |#|
 |K.	1156 |# |# |#|
