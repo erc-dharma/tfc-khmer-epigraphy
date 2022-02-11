@@ -379,7 +379,7 @@
 |K.	366 |chch |pending |IC V|
 |K.	367 |kuch |pending |Barth 1902|
 |K.	368 |# |# |#|
-|K.	369 |# |# |#|
+|K.	369 |chch |done |IC VI|
 |K.	370 |# |# |#|
 |K.	371 = K. 431 |chch |done |IC V|
 |K.	372 |# |# |#|
