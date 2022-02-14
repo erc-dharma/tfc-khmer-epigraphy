@@ -379,7 +379,7 @@
 |K.	366 |chch |pending |IC V|
 |K.	367 |kuch |pending |Barth 1902|
 |K.	368 |# |# |#|
-|K.	369 |# |# |#|
+|K.	369 |chch |done |IC VI|
 |K.	370 |# |# |#|
 |K.	371 = K. 431 |chch |done |IC V|
 |K.	372 |# |# |#|
@@ -1174,7 +1174,7 @@
 |K.	1150 |kuch |done |Goodall 2019|
 |K.	1151 |sapi |done |NIC II-III|
 |K.	1152 |sapi |pending |NIC II-III|
-|K.	1153 |# |# |#|
+|K.	1153 |chch|pending |NIC III|
 |K.	1154 |# |# |#|
 |K.	1155 |# |# |#|
 |K.	1156 |# |# |#|
