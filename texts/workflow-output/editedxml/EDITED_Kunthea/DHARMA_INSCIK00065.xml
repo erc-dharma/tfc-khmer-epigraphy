@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Koam Pradeuh (K. 65), 2395 and 2407 of Buddhist Era</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00065</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-02-17" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="khm-Latn">
+                     <p><milestone type="pagelike" unit="face" n="A"/>
+                        <lb n="A1"/>qnaka samteca braṁmasara 
+                        <lb n="A2"/>nāma toema jhmoḥ Ok taṁṅa
+                        <lb n="A3"/>dhvoeha jā sakrāca duka nūva
+                        <lb n="A4"/>vata gāma pratoesa neḥ
+                        <lb n="A5"/>Oya tiṅa phala Annīsaṅa
+                        <lb n="A6"/>phnuosa Āyūsa pāna 50 
+                        <lb n="A7"/>mūya puosa sāṅa vata kana-
+                        <lb n="A8"/>ntāla sāṅa braḥ cāsa Aṅa
+                        <lb n="A9"/>1 pālaṁṅa braḥ dhaṁma 1 ruoca ...
+                        <lb n="A10"/>sāṅṅa vat bhnaṁma guṅa sāṅṅa
+                        <lb n="A11"/>braḥ Aṅ 1 va<add place="below">ta</add> breya nagara
+                        <lb n="A12"/>1 nūva gāma pratoesa sāṅṅa
+                        <lb n="A13"/>braḥ Aṅa bīra dhaṁma cāsa
+                        <lb n="A14"/>1 gre dhāṁmmāsa bīra gre ...
+                        <lb n="A15"/>va posa bīra gre saṁmnoeṅa 1 
+                        <lb n="A16"/>kaṁmbīya tāka satrā croena
+                        <lb n="A17"/>cāra satrā vīyanaiya cre-
+                        <lb n="A18"/>nna hoṅa E Aṅa braḥ
+                        <lb n="A19"/>tūca cāsa thmīya croena [A-]
+                        <lb n="A20"/>ṅa {1} kamā ta jā diba Oya
+                     </p>
+                     <p><milestone type="pagelike" unit="face" n="B"/>
+                        <lb n="B1"/>ta Auva jā dāna mtaṅa
+                        <lb n="B2"/>puosa nāma phlūva puka-
+                        <lb n="B3"/>gala mtaṅa pāna puosa
+                        <lb n="B4"/>saṁmnera mtaṅa pān puo-
+                        <lb n="B5"/>sa bhīka pīya toṅa
+                        <lb n="B6"/>pāna sāṅa svāna
+                        <lb n="B7"/>bīra pāna loeka
+                        <lb n="B8"/>khmoca grūva Ācā-
+                        <lb n="B9"/>ra pīyatā mātā me-
+                        <lb n="B10"/>ṅa mā poṅa phUna ñā-
+                        <lb n="B11"/>ta pāna paṁmapuosa nā-
+                        <lb n="B12"/>gga bīra Aṅa pāna loḥ
+                        <lb n="B13"/>geya paṁmapuosa jā bhīka
+                        <lb n="B14"/>mūya Aṅa pāna pratau
+                        <lb n="B15"/>Oya rīena dharmma phaṅa
+                        <lb n="B16"/>Oya tiṅa guna saṁdāya kh...
+                        
+                     </p>
+                                        <p><milestone type="pagelike" unit="face" n="C"/>
+                        <lb n="C1"/>sabbamassatu braḥ sā-
+                        <lb n="C2"/>snā kanloṅa dova hoeya
+                        <lb n="C3"/>pāna 2 bāna pīya raya
+                        <lb n="C4"/>kova <add place="below">sepa</add> prāṁma braḥ va-
+                        <lb n="C5"/>sā pacuḥpana Ilūva neḥ
+                        <lb n="C6"/>chnāma jūta nasāka nūva
+                        <lb n="C7"/>knuṅa gimahanaratūva
+                        <lb n="C8"/>khaeha bīyasāka th[[ṅ]]aiya
+                        <lb n="C9"/>budda jjā sūrecca pa-
+                        <lb n="C10"/>pūra mleḥ Eṅa hoṅa
+                        <lb n="C11"/>ka vata nūva chnāma jūta kheha
+                        <lb n="C12"/>bīyasāka sāṅa braḥ bīya chnā-
+                        <lb n="C13"/>ma khāla sāṅa sālā paṅ-
+                        <lb n="C14"/>gana kuta roṅa hāta
+                        <lb n="C15"/>traiya 1 pāna Oya dāna saṁmba[[ta]]
+                        <lb n="C16"/>pān 100 dau muka 100 dau kroya
+                     </p>
+                                        <p><milestone type="pagelike" unit="face" n="D"/>
+                        <lb n="D1"/>sirīsabaṁmassatu braḥ bu- 
+                        <lb n="D2"/>ddhasākkharāja braḥ sāsnā A-
+                        <lb n="D3"/>tikānatā kanlaṅa dova hoeya 
+                        <lb n="D4"/>pāna 2 bān 400 niṅ 7 bra-
+                        <lb n="D5"/>ḥ vasā sesa saṅakheyā kheha
+                        <lb n="D6"/>kanlaṅa dova pāna 5 kheha se-
+                        <lb n="D7"/>sa thṅeya kanlaṅa dova pāna 26 
+                        <lb n="D8"/>thṅeya rīya niṅa sratīya pacuḥpana
+                        <lb n="D9"/>Iyalūvne chnāma jūta nasāka nū-
+                        <lb n="D10"/>va kn[[u]]ṅa vasanataratūva kheha 
+                        <lb n="D11"/>kātoeka 2 koeta thṅeya
+                        <lb n="D12"/>suka jā sūreca hoṅa $gomutraFinial
+                        <lb n="D13"/>pāna sāṅa Aṅa braḥ kathīna- 
+                        <lb n="D14"/>treya 8 vata pāna sāṅa braḥ
+                        <lb n="D15"/>vīyahā vata breka prāha
+                        <lb n="D16"/>jāmūya niṅa pīyatā mātā khñuṁ-
+                        <lb n="D17"/>ma sūma Oya bhneka cramoḥ tra[ceka] 
+                     </p>
+</div>
+<div type="apparatus">
+      <listApp>
+                  <app loc="3">
+                     <lem/>
+                    <note/>
+                  </app>
+      </listApp>
+         </div> 
+           
+            <div type="translation" xml:lang="fra" source="bib:Pou1989_01">
+                  <p n="A1-A6">Anak Saṁtec Brahmasar, dont le nom premier est Ok, nommé Saṅgharāj chargé de ce monastère de Gāṁ Praṭoes, proclame l’avantage du mérite issu de la prise d’habit.</p>
+                  <p n="A6-A9">Agé de cinquante-et-un ans, ce religieux a restauré le Monastère de Kantāl, édifié une statue du Buddha en mortier, un grand socle du Buddha.</p>
+               <p n="A9-A13">Puis, au Monastère de Bhnaṁ Gaṅ, il a édifié une statue de Seigneur ; au Monastère de Brai Nagar et à Gāṁ Praṭoes, il a restauré deux grandes statues du Seigneur.</p>
+               <p n="A14-A18">Il a fait [faire] deux chaires de pêche, deux..., un lit de moine, de nombreux livres pour noter les textes ; il a [fait] graver les textes du Vinaya plusieurs [fois].</p>
+               <p n="A18-A20">De nombreuses petites statues du Seigneur, vieilles ou neuvres... Les kamā... furent distribués</p>
+               <p n="B1">avec les vestes comme aumône, une fois.</p>
+               <p n="B2-B5">Il est entré en religion, pour montrer la voie aux gens, une fois ; il a pris l’habit de sāmaṇer une fois, celui de bhikkhu trois fois.</p>
+               <p n="B6-B10">Il a construit deux ponts, a célébré les obsèques de son maître, de ses père et mère, des oncles et tantes et d’autres parents.</p>
+               <p n="B11-B12">Il a fait entrer en religion deux personnes.</p>
+               <p n="B12-B16">Il a racheté un homme qu’il a fait entrer en religion comme bhikkhu ; il l’a éduqué, en lui enseignant la Sainte Loi, afin qu’il sache bien en général...</p>
+               <p n="C1-C5">Que le succès soit ! La religion du Seigneur dure depuis duex mille trois cent quatre-vingt-quinze ans.</p>
+               <p n="C5-C10">Nous sommes maintenant en l’année du Rat, en saison chaude, le mois étant celui de Bisākh et le jour le mercredi : voilà donc l’énoncé achevé !</p>
+               <p n="C11-C15">Il a bâti le monastère en l’année du Rat, au mois de Bisākh. Il a édifié deux statues du Seigneur en l’année du Tigre, édifé des sālā, des latrines, des maisonnettes des moines, des hangars... et une bibliothèque :</p>
+               <p n="C15-C16">Il a fait don d’étoffes : 100 par devant et 100 per derrière (?).</p>
+               <p n="D1-D8">Que la prospérité et le succès soient ! L’ère bouddhique dans la religion du Seigneur, dure depuis deux mille quatre cent sept ans, 5 mois et 26 jours.</p>
+               <p n="D8-D12">Pour parler du moment présent, nous sommes en l’année du Rat, en fin d’année, le mois étant Kattik, le jour le vendredi, deuxième jour de la lune croissante : il e est ainsi.</p>
+               <p n="D13-D16">Il a célébré le kathin dans huit monastères [pour offrir] des costumes aux moines. Il a construit (ou restauré) le sanctuaire du Monastère de Braek Prā, avec la collaboration de ses parents.</p>
+               <p n="D16-D17">« Je souhaite, dit-il, que mes yeux, mon nez, mes oreilles... »</p>
+         </div> 
+         <!-- <div type="commentary">
+            <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou1989_01"/><citedRange unit="page">68-75</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 730.</p>
+	 <listBibl type="primary">
+    <bibl n="SP">
+      <ptr target="bib:Pou1989_01"/><citedRange unit="page">68-75</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+      </body>
+    </text>
+</TEI>

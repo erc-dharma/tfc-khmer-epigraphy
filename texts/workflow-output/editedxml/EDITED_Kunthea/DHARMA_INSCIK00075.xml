@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liṅga from Vat Preah Nipean (K. 75), 990 of Buddhist Era (1628 CE)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00075</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-02-15" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="xhm-Latn">         
+                     <p><milestone type="pagelike" unit="face" n="A"/>
+                        <lb n="A1"/><unclear><g type="circleHorned">.</g></unclear> sabbhamastu <supplied reason="lost">maṅ</supplied><lb n="A2" break="no"/><supplied reason="lost">ga</supplied>lā jaiyyā <supplied reason="lost">tireka</supplied>
+                        <lb n="A3"/><num value="990">990</num> sā<gap reason="lost" extent="unknown" unit="character"/>
+                     </p>
+                   
+<p><milestone type="pagelike" unit="face" n="B"/>
+                        <lb n="B1"/>jesa <num value="5">5</num> roja buddhabā<lb n="B2" break="no"/>rasāraṇā mangi saṁtaeca
+                        <lb n="B3"/>braḥ varamātā pparammapubi
+                     </p>
+                      
+<p><milestone type="pagelike" unit="face" n="C"/>
+                        <lb n="C1" break="no"/>tra Oya dūla saṁmtaeca braḥ
+                        <lb n="C2"/>rājjaputa parammanāṭṭha para<lb n="C3" break="no"/>mapubita draṅa braḥ kūrṇā
+                     </p>
+                         
+<p><milestone type="pagelike" unit="face" n="D"/>
+                        <lb n="D1"/>thā sraeha neḥ Aṁbīya qna<lb n="D2" break="no"/>ka mahāOppārāja bra<lb n="D3" break="no"/>gena qnaka soma Ita niṅa qna
+                     </p>
+                           
+<p><milestone type="pagelike" unit="face" n="E"/>
+                        <lb n="E1" break="no"/>ka soma qnaka saṁtaeca braḥ rājakhsātr<supplied reason="lost">ī</supplied>
+                        <lb n="E2"/>bragena qnaka saṁtaeca braḥ bodhīñāṇa
+                        <lb n="E3"/>viña srae Oka ñā vaṅsāparā<gap reason="lost" extent="unknown" unit="character"/>
+                     </p>
+                               
+<p><milestone type="pagelike" unit="face" n="F"/>
+                        <lb n="F1"/>qnaka smanavirayā<num value="2">2</num> thvāya qnaka saṁ<lb n="F2" break="no"/>teca braḥ rājakhsātrīya<num value="2">2</num> ma brage<lb n="F3" break="no"/>na qnaka saṁteca braḥ bodhīñā<supplied reason="lost">ṇa</supplied>
+                     </p>
+                                  
+<p><milestone type="pagelike" unit="face" n="G"/>
+                        <lb n="G1"/>Ina maka bibāta sratiya debva samteca
+                        <lb n="G2"/>bodhīñāna mahāsagharāja thleṅa qna<lb n="G3" break="no"/>ka samtaeca braḥ dā<gap reason="lost" extent="unknown" unit="character"/>ma pubita
+                     </p>
+</div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="D1">
+                     <lem>Aṁbīya</lem>
+                     <note>The letter <foreign>ya</foreign> is written in subscript form below the letter <foreign>bī</foreign>.</note>
+                  </app>
+                  <app loc="D3">
+                     <lem>gena</lem>
+                    <note>The vowel <foreign>e</foreign> is indeed written in line D2.</note>
+                  </app>
+                  <app loc="E2">
+                     <lem>bodhīñāṇa</lem>
+                     <rdg source="bib:Pou1989_01">bodhiñāṇa</rdg>
+                  </app>
+                  <app loc="F1">
+                     <lem><num value="2">2</num></lem>
+                     <note>The <num value="2">2</num> indicates that the preceding word is to be repeated.</note>
+                  </app>
+                  <app loc="F2">
+                     <lem>ma</lem>
+                     <rdg source="bib:Pou1989_01">brama</rdg>
+                  </app>
+                  <app loc="F2">
+                     <lem>teca</lem>
+                     <rdg source="bib:Pou1989_01">taeca</rdg>
+                  </app>
+                  <app loc="F3">
+                     <lem>saṁteca</lem>
+                     <rdg source="bib:Pou1989_01">saṁtaeca</rdg>
+                  </app>
+                  <app loc="F3">
+                     <lem>bodhīñā<supplied reason="lost">ṇa</supplied></lem>
+                     <rdg source="bib:Pou1989_01">bodhiñā<supplied reason="lost">ṇa</supplied></rdg>
+                  </app>
+                  <app loc="G1">
+                     <lem>sratiya</lem>
+                     <note>The letter <foreign>ya</foreign> is written in subscript form below the letter <foreign>ti</foreign>.</note>
+                  </app>
+               </listApp>
+         </div> 
+           
+            <div type="translation" xml:lang="fra" source="bib:Pou1989_01">
+               <p n="A1-B2">Que le succès soit ! Félicité et immense Victoire ! Année 990 <supplied reason="subaudible">cullasakarāj, soit 1628 A.D.</supplied>, le mercredi, 5è jour de la lune décroissante de Jesth.</p>
+               <p n="B2-D3">Son Altesse, l’auguste et noble reine mère, donna l’ordre de reporter à la connaissance de son royal Fils, Notre auguste Protecteur, extrêmement pur, doué d’une Sainte Compassion, que cette rizière, provenant du Grand Uparāj, était offerte au <supplied reason="subaudible">Vénérable</supplied> Anak Som.</p>
+               <p n="D3-E3">Après le décès de ce dernier, l’illustre Princesse transféra la rizière à Anak Samtec Braḥ Boddhiñāṇ.</p>
+               <p n="E3-F1">La rizière de l’Ok Ñā Vaṅsāparā <gap reason="lost"/> <supplied reason="subaudible">fut donnée</supplied> à Anak Samaṇaviriyā, qui l’offrit à l’illustre Princesse ; et celle-ci la présenta à Anaka Samtec Boddhiñāṇ In.</p>
+               <p n="F1-G3">Cette mesure étant contestée, le Mahāsaṅgharāj Samtec Bodhiñāṇ s’en reporta à Anak Samtec Braḥ Dā <gap reason="lost"/>.</p>
+         </div> 
+         <div type="commentary">
+            <p>The inscription is incomplete.</p>
+         </div>
+        <div type="bibliography">
+          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou1989_01"/><citedRange unit="page">33-35</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 934  and EFEO n. 1218.</p>
+	 <listBibl type="primary">
+    <bibl n="SP">
+      <ptr target="bib:Pou1989_01"/><citedRange unit="page">33-35</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+      </body>
+    </text>
+</TEI>
