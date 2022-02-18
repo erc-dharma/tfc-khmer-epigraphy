@@ -1352,7 +1352,7 @@
 |K.	1326-2 |kuch |pending |unpublished|
 |K.	1327 |chch |pending |unpublished|
 |K.	1328 |kuch |done |Griffiths and Vincent 2014|
-|K.	1329 |# |# |#|
+|K.	1329 |chch |pending |NIC IV|
 |K.	1330 |argr |pending |Ha Van Tan 1995; Skilling 1999|
 |K.	1331 |# |# |#|
 |K.	1332 |# |# |#|
