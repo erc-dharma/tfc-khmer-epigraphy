@@ -14,7 +14,7 @@
 |K.	7 |kuch |done |Coedes 1936|
 |K.	8 |kuch |done |IC II, no trans.|
 |K.	9 |kuch |done |IC V|
-|K.	10 |# |# |#|
+|K.	10 |kuch |done |NIC I|
 |K.	11 |kuch|done | IC II|
 |K.	12 |kuch |pending |Barth 1903|
 |K.	13 |kuch |done |ISC|
@@ -31,7 +31,7 @@
 |K.	24 |kuch |done|IC II|
 |K.	25 |kuch |done |IC II|
 |K.	26 |# |# |#|
-|K.	27 |# |# |#|
+|K.	27 |kuch |done |Khin Sok 1980; Pou 1981|
 |K.	28 |kuch |done |IC II|
 |K.	29 |kuch|done|IC II|
 |K.	30 |kuch |done |IC II|
@@ -43,7 +43,7 @@
 |K.	36 |kuch |done | IC II|
 |K.	37 |kuch | done|IC II|
 |K.	38 |kuch|done |IC II|
-|K.	39 |# |# |#|
+|K.	39 |kuch |done |Khin Sok 1979; Pou 1981|
 |K.	40 |kuch |done |Coedes 1931|
 |K.	41 |kuch |done |IC VI|
 |K.	42 |kuch |pending |ISCC|
@@ -69,7 +69,7 @@
 |K.	62 |# |# |#|
 |K.	63 |kuch |pending |unpublished|
 |K.	64 |# |# |#|
-|K.	65 |# |# |#|
+|K.	65 |kuch |done |NIC I|
 |K.	66 |kuch |done|Finot 1915 and IC II|
 |K.	67 |kuch |done |IC VII|
 |K.	68 |kuch |done |IC VII|
@@ -79,7 +79,7 @@
 |K.	72 |kuch |done |IC VI, IC VII|
 |K.	73 |kuch |done |IC VI|
 |K.	74 |kuch |done |IC VI|
-|K.	75 |# |# |#|
+|K.	75 |kuch |done |NIC I|
 |K.	76 |kuch |done |IC V|
 |K.	77 |kuch |done |IC V|
 |K.	78 |kuch | done |IC VI|
@@ -711,7 +711,7 @@
 |K.	695 |# |# |#|
 |K.	696 |# |# |#|
 |K.	697 |# |# |#|
-|K.	698 |# |# |#|
+|K.	698 |kuch |done |unpublished|
 |K.	699 |# |# |#|
 |K.	700 |# |# |#|
 |K.	701 |# |# |#|
@@ -760,7 +760,7 @@
 |K.	744 |# |# |#|
 |K.	745 |# |# |#|
 |K.	746 |# |# |#|
-|K.	747 |# |# |#|
+|K.	747 |kuch |done |NIC I|
 |K.	748 |kuch |done |IC V|
 |K.	749 |kuch |pending |IC V|
 |K.	750 |# |# |#|
@@ -776,7 +776,7 @@
 |K.	760 |kuch |done |IC V|
 |K.	761 |kuch |done |IC VII|
 |K.	762 |kuch |done |IC I|
-|K.	763 |# |# |#|
+|K.	763 |kuch |done |NIC I|
 |K.	764 |kuch |done |IC VI|
 |K.	765 |kuch |done |IC V|
 |K.	766 |# |# |#|
@@ -818,8 +818,8 @@
 |K.	800 |# |# |#|
 |K.	801 |# |# |#|
 |K.	802 |# |# |#|
-|K.	803 |# |# |#|
-|K.	804 |# |# |#|
+|K.	803 |kuch |done |NIC I|
+|K.	804 |kuch |done |NIC I|
 |K.	805 |# |# |#|
 |K.	806 |# |# |#|
 |K.	807 |# |# |#|
