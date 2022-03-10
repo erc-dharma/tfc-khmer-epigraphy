@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vat Sithor stela inscription (K. 111 ; 890 śaka)</title>
+                <respStmt>
+                    <resp>EpiDoc Encoding</resp>
+                    <persName ref="part:chch">
+                        <forename>Chloé</forename>
+                        <surname>Chollet</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>intellectual authorship of edition</resp>
+                    <persName ref="http://viaf.org/viaf/66465311">
+                        <forename>George</forename>
+                        <surname>Cœdès</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSCIK00111</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                        <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+                    </licence>
+                </availability>
+                <date from="2019" to="2025">2019-2025</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+            </projectDesc>
+            <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
+            <listPrefixDef>
+                <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+                    <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+                </prefixDef>
+                <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_idListMembers_v01.xml#$1">
+                    <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_idListMembers_v01.xml</ref> file.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:chch" when="2022-03-10">Initial encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+             <p>
+                 <lg n="1" met="anuṣṭubh">
+                    <l n="a"><milestone type="pagelike" unit="face" n="A"/><label xml:lang="eng">Face A</label><lb n="A1"/><g type="gomutraInitial">.</g>
+ vande 'pi vyāpinaṁ vyaktaṁ</l> 
+                        <l n="b">svacchāśaya-jalāśaye</l>
+<l n="c"><lb n="A2"/>bhrājiṣṇu<supplied reason="omitted">ṁ</supplied> dharmma-kāyenduṁ</l> 
+    <l n="d">vimuktaṁ skandha-rāhuṇā <g type="ddandaOrnate">.</g></l>
+                 </lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="A3"/>namaddhvaṁ dharmma-kāyārkka-</l>
+   <l n="b">sāmbhogatanu-maṇḍalam∙</l>
+<l n="c"><lb n="A4"/>nānānirmmāṇa-dhāmāḍhyaṁ</l>
+    <l n="d">sādhyaṁ siddhyai maharṣibhiḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="A5"/>kalpa-drumam ivākalpa-</l>
+    <l n="b">lokābhyarthita-dāyinam∙</l>
+<l n="c"><lb n="A6"/>dr̥śyaṁ su-kr̥tinām eva</l>
+    <l n="d">dehan nairmmāṇikan name <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="A7"/>śāntam agryaṁ virāgānāṁ</l> 
+<l n="b">yoginām eva gocaram∙</l>
+<l n="c"><lb n="A8"/>agrāhyānabhilāpyañ ca</l> 
+<l n="d">sa-ddharmman namatāṁ muneḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="A9"/>yathā-bhūmi-praviṣṭānāṁ</l> 
+    <l n="b">pr̥thak-prajñānuvarttinam∙</l>
+<l n="c"><lb n="A10"/>dharmmaṁ sāmbhoginirddiṣṭaṁ</l>
+    <l n="d">dhyāna-grāhyan namāmy aham∙ <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="6" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="A11"/>vuddhājñā deva-daityādi-</l>
+    <l n="b">bhāṣopa-dhyanu-rodhinī</l>
+<l n="c"><lb n="A12"/>sva-varṇṇāpagatā svacchā</l>
+    <l n="d">sphaṭikābhā punātu vaḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="7" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="A13"/>vrahmādi-rūpiṇo nānā-</l>
+<l n="b">vineyāśānurodhataḥ</l>
+<l n="c"><lb n="A14"/>nirābhāsādi-bhūmi-ṣṭhā</l>
+<l n="d">vodhi-satvā jayanti te <g type="ddandaOrnate">.</g></l>
+</lg>
+             </p>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                   <app loc="line"><!-- update the value of @loc.-->
+                     <lem><!-- fill in a lemma here --></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><!-- update the @source value, fill in variant reading here --></rdg>
+                  </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+	<p>First edited  by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">195-211</citedRange></bibl>) with a French translation.</p>
+        	<listBibl type="primary">
+				<bibl n="GC">
+				     <ptr target="bib:Coedes1937-1966_01"/>
+      <citedRange unit="volume">6</citedRange>
+				    <citedRange unit="page">195-211</citedRange>
+				</bibl>
+			</listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
