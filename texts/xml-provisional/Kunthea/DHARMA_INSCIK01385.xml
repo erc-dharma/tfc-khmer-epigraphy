@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Udong on the Stupa of royal family (K. 1385), 1917 CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787"><!-- To find the Viaf ID of Men Rath Sambath -->
+                  <forename>Rath Sambath</forename>
+                  <surname>Men</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01385</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-03-22" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="khm-Latn">
+                <p>
+                   <lb n="1"/>braḥ bu <g type="circleSmall">.</g> <num value="2460">2460</num> ma <g type="circleSmall">.</g> <num value="1839">1839</num> cu <g type="circleSmall">.</g> <num value="1279">1279</num> 
+                   <lb n="2"/>thṅai buddha <num value="2">2</num> roja khae Ā<unclear>su</unclear>ja chnāṁ msāña nabva saksa <num value="3">3</num>
+                   <lb n="3"/>Okatūpa chnāṁ pārāṁṅa <num value="1917">1917</num> braḥ pāda saṁmteca braḥ
+                   <lb n="4"/>^sīsuvāta cama cakra baṅsa braḥ cau kruṅ kămbūjā
+                   <lb n="5"/>dhīptī draṅa sāṅa braḥ caettī loe caṅkeḥ bhnaṁma braḥ rāja drābbha
+                   <lb n="6"/>khaeta saṁroṅa <unclear>daṅa</unclear> dhvoe punya pancuḥ braḥ Aṭṭhiḥ braḥ rāja vaṅsānu
+                   <lb n="7"/>vaṅsa <g type="ddandaOrnate">.</g> <g type="gomutraFinial">.</g>
+                   <lb n="8"/><num value="1">1</num> braḥ Aṅga mcāsa' rattaṇaiya braḥ jansa <num value="40">40</num> chnāṁ braḥ rāja putrā braḥ pāda saṁmteca
+                   <lb n="9"/>braḥ ^sīsuvatta niṅa braḥ paraṁma tesa <space/> <num value="2">2</num> braḥ Aṅga mcāsa' khattiya braḥ jansa
+                   <lb n="10"/><num value="24">24</num> chnāṁ braḥ rāja putrā braḥ pāda saṁmteca braḥ ^sīsuvāta niṅa braḥ paraṁma
+                   <lb n="11"/>kalliyaṇiya qieṅa <num value="3">3</num> braḥ Aṅga mcāsa' kraḷuca <g type="circleSmall">.</g> <num value="14" cert="low">14</num><unclear>chnāṁ</unclear> <g type="circleSmall">.</g> niṅa braḥ rājathiṭā braḥ rāma<gap reason="lost" extent="unknown" unit="character"/> braḥ <unclear>Ānuja</unclear>
+                   <lb n="12"/><num value="4">4</num> braḥ Aṅga mcāsa' <gap reason="lost" extent="unknown" unit="character"/>rakkha <space quantity="3" unit="character"/> <g type="circleSmall">.</g> <num value="40">40</num> chnāṁ <space quantity="3" unit="character"/> <g type="circleSmall">.</g> niṅa braḥ paraṁma sobhāsaṁ<gap reason="lost" extent="unknown" unit="character"/>khāna
+                   <lb n="13"/><num value="5">5</num> <g type="circleSmall">.</g> khsatrīmanīrata <g type="circleSmall">.</g> <num value="8">8</num> chnāṁ <space quantity="3" unit="character"/> <g type="circleSmall">.</g> niṅa braḥ mnāṅa kañā <gap reason="lost" extent="unknown" unit="character"/> dhītā maiya
+                   <lb n="14"/><num value="6">6</num> <g type="circleSmall">.</g> khsatrāyuvasā <g type="circleSmall">.</g> <num value="6">6</num> chnāṁ <space quantity="3" unit="character"/> <g type="circleSmall">.</g> <gap reason="lost" extent="unknown" unit="character"/>
+                   <lb n="15"/><num value="7">7</num> <g type="circleSmall">.</g> khsatrī sudhāna<unclear cert="low">thā</unclear> <g type="circleSmall">.</g> <num value="29">29</num> chnāṁ <space quantity="3" unit="character"/> <g type="circleSmall">.</g> niṅa braḥ paraṁma kaliyāṇī qieṅa niṅa mama
+                   <lb n="16"/><num value="8">8</num> <g type="circleSmall">.</g> khsatri sa<gap reason="lost" extent="unknown" unit="character"/> <unclear cert="low">paena</unclear> <g type="circleSmall">.</g> <num value="27">27</num> chnāṁ braḥ rāja putrī braḥ pāda saṁmtaca' braḥ narottaṁma nuva ma<gap reason="lost" extent="unknown" unit="character"/>
+                   <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/>katasu<unclear cert="low">jā</unclear> <g type="circleSmall">.</g> <num value="2">2</num> <unclear>chnāṁ</unclear> braḥ rāja natā braḥ pāda saṁmtāca' braḥ ^sīsuvāta putrīya
+                   <lb n="18"/>saṁmtāca braḥ ^sīsakkhara<unclear cert="low">ga</unclear>
+                   <lb n="19"/><num value="10">10</num> qnaka Aṅga mcāsa' <unclear>nuya</unclear> <g type="circleSmall">.</g> 22 chnāṁ <g type="circleSmall">.</g> braḥ Aṅga mcāsa' rattaṇaiya niṅa qnaka ^huna
+                   <lb n="20"/><num value="11">11</num> <gap reason="illegible" extent="unknown" unit="character"/> <g type="circleSmall">.</g> <num value="17">17</num> chnāṁ <space/> <g type="circleSmall">.</g> <space/> vabyṇāva<gap reason="lost" quantity="1" unit="character"/> niṅa qnaka <gap reason="lost" extent="unknown" unit="character"/>
+                   <lb n="21"/><num value="12">12</num> <gap reason="illegible" extent="unknown" unit="character"/> <g type="circleSmall">.</g> <num value="37">37</num> chnāṁ <space/> <g type="circleSmall">.</g> <space/> rattanaiya <unclear>niṅa</unclear> qnaka ^hu<unclear>na</unclear>
+                   <lb n="22"/><num value="13">13</num> <gap reason="illegible" extent="unknown" unit="character"/> <g type="circleSmall">.</g> <num value="20">20</num> chnāṁ <space/> <g type="circleSmall">.</g> <space/> hāssa<unclear>ka</unclear> <gap reason="lost" quantity="1" unit="character"/> <unclear>niṅa</unclear> qnaka yima
+                   <lb n="23"/><num value="14">14</num> <gap reason="illegible" extent="unknown" unit="character"/> <g type="circleSmall">.</g> <num value="48">48</num> chnāṁ <g type="circleSmall">.</g> mnāṅa braḥ pāda saṁmteca braḥ narottaṁma
+                   <lb n="24"/><num value="15">15</num> muntrī Anna<unclear cert="low">jita</unclear> braḥ ñātti
+                   <lb n="25"/><num value="16">16</num> qnaka <gap reason="illegible" extent="unknown" unit="character"/>
+                   <lb n="26"/><gap reason="illegible" extent="unknown" unit="character"/>
+                </p>
+            </div>
+            <div type="apparatus">
+                  <listApp>
+                     <app loc="2">
+                     <lem>saksa</lem>
+                     <note>There are the numerals <num value="14">14</num> on the letter <foreign>ksa</foreign>.</note>
+                  </app>
+                     <app loc="4">
+                     <lem>^sīsuvāta</lem>
+                     <note>There is a diacritic sign called "<foreign>thmeñ kantula</foreign> <supplied reason="explanation">mouse teeth</supplied>" under the letter <foreign>vā</foreign>.</note>
+                  </app>
+                     <app loc="5">
+                     <lem>dhīptī</lem>
+                     <rdg source="bib:Men2007_01">dhiptī</rdg>
+                  </app>
+                     <app loc="5">
+                     <lem>drābbha</lem>
+                     <note>There is a diacritic sign called "<foreign>saṁyoga saññā</foreign> <supplied reason="explanation">combination sign</supplied>" between the letter <foreign>drā</foreign> and the letter <foreign>bbha</foreign>.</note>
+                  </app>
+                     <app loc="6">
+                     <lem>saṁroṅa</lem>
+                        <rdg source="bib:Men2007_01">saṁraoṅa</rdg>
+                     <note>There is a diacritic sign called "<foreign>thmeñ kantula</foreign> <supplied reason="explanation">mouse teeth</supplied>" above the letter <foreign>ro</foreign>.</note>
+                  </app>
+                     <app loc="6">
+                     <lem>Aṭṭhiḥ</lem>
+                     <rdg source="bib:Men2007_01">Aṭṭhi</rdg>
+                  </app>
+                     <app loc="8">
+                     <lem><num value="1">1</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     <app loc="8">
+                     <lem>rattaṇaiya</lem>
+                        <rdg source="bib:Men2007_01">rattanaiya</rdg>
+                     <note>The letter <unclear>ya</unclear> is written as subscript under the letter <unclear>ṇai</unclear>.</note>
+                  </app>
+                     <app loc="8">
+                     <lem>jansa</lem>
+                     <note>The letter <unclear>sa</unclear> is written as subscript under the letter <unclear>na</unclear>.</note>
+                  </app>
+                     <app loc="9">
+                     <lem>^sīsuvatta</lem>
+                     <note>There is a diacritic sign called "<foreign>thmeñ kantula</foreign> <supplied reason="explanation">mouse teeth</supplied>" under the letter <foreign>va</foreign>.</note>
+                  </app>
+                     <app loc="9">
+                     <lem><num value="2">2</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     <app loc="9">
+                     <lem>jansa</lem>
+                     <note>The letter <unclear>sa</unclear> is written as subscript under the letter <unclear>na</unclear>.</note>
+                  </app>
+                     <app loc="10">
+                     <lem>^sīsuvāta</lem>
+                     <note>There is a diacritic sign called "<foreign>thmeñ kantula</foreign> <supplied reason="explanation">mouse teeth</supplied>" under the letter <foreign>vā</foreign>.</note>
+                  </app>
+                     <app loc="11">
+                     <lem>kalliyaṇiya</lem>
+                        <rdg source="bib:Men2007_01">kalliyaniya</rdg>
+                     <note>The letter <unclear>ya</unclear> is written as subscript under the letter <unclear>ṇa</unclear>.</note>
+                  </app>
+                     <app loc="11">
+                     <lem><num value="3">3</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     <app loc="11">
+                     <lem>kraḷuca <g type="circleSmall">.</g> <num value="14" cert="low">14</num><unclear>chnāṁ</unclear> <g type="circleSmall">.</g> niṅa</lem>
+                     <note>kraluca <gap reason="lost" extent="unknown" unit="character"/>nda niṅa</note>
+                  </app>
+                     <app loc="12">
+                     <lem><num value="4">4</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     <app loc="13">
+                     <lem><num value="5">5</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     <app loc="13">
+                     <lem>maiya</lem>
+                     <note>The letter <unclear>ya</unclear> is written as subscript under the letter <unclear>mai</unclear>.</note>
+                  </app>
+                     <app loc="14">
+                     <lem><num value="6">6</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     <app loc="15">
+                     <lem><num value="7">7</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     <app loc="15">
+                     <lem>mama</lem>
+                     <note>There is a diacritic sign called "<foreign>thmeñ kantula</foreign> <supplied reason="explanation">mouse teeth</supplied>" above the first letter <foreign>ma</foreign>.</note>
+                  </app>
+                     <app loc="16">
+                     <lem><num value="8">8</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     <app loc="16">
+                     <lem>pāda</lem>
+                     <note>The letter <unclear>da</unclear> is written as subscript under the letter <unclear>pā</unclear>.</note>
+                  </app>
+                     <app loc="17">
+                     <lem>pāda</lem>
+                     <note>The letter <unclear>da</unclear> is written as subscript under the letter <unclear>pā</unclear>.</note>
+                  </app>
+                     <app loc="17">
+                     <lem>^sīsuvāta</lem>
+                     <note>There is a diacritic sign called "<foreign>thmeñ kantula</foreign> <supplied reason="explanation">mouse teeth</supplied>" under the letter <foreign>vā</foreign>.</note>
+                  </app>
+                     <app loc="17">
+                     <lem>putrīya</lem>
+                     <note>The letter <unclear>ya</unclear> is written as subscript under the letter <unclear>trī</unclear>.</note>
+                  </app>
+                     <app loc="19">
+                     <lem><num value="10">10</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     <app loc="19">
+                     <lem>rattaṇaiya</lem>
+                     <note>The letter <unclear>ya</unclear> is written as subscript under the letter <unclear>ṇai</unclear>.</note>
+                  </app>
+                     <app loc="20">
+                     <lem><num value="11">11</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     <app loc="21">
+                     <lem><num value="12">12</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     <app loc="21">
+                     <lem>^hu<unclear>na</unclear></lem>
+                     <rdg source="bib:Men2007_01">hu<unclear>na</unclear></rdg>
+                  </app>
+                     <app loc="22">
+                     <lem><num value="13">13</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     <app loc="23">
+                     <lem><num value="14">14</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     <app loc="24">
+                     <lem><num value="15">15</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     <app loc="25">
+                     <lem><num value="16">16</num></lem>
+                     <note>The numeral is written in a circle.</note>
+                  </app>
+                     </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Men2007_01">
+            <p n="1">En 2460 de l'ère bouddhique, 1839 de la grande ère, 1279 de la petite ère,</p>
+            <p n="2">le mercredi deuxième jour de la lune décroissante, du mois d'<foreign>asoch</foreign>, en l'année du Serpent neuvième de la décade, le 3</p>
+            <p n="3">octobre 1917 de l'ère chrétienne, Sa Majesté</p>
+            <p n="4">Sisowath Châm Chakrâpong, roi du Cambodge</p>
+            <p n="5">fit construire ce stoupa sur le flanc de la colline Preah Reach Troap</p>
+            <p n="6"><supplied reason="subaudible">située</supplied> dans la province de Sâmraong Tông <supplied reason="subaudible">afin de</supplied> célébrer la cérémonie de dépôt de cendres des membres</p>
+            <p n="7">de la famille royale.</p>
+            <p n="8">1- Le prince Ratanaiy, âgé de 40 ans, fils de Sa Majesté</p>
+            <p n="9">Sisowath et de la Preah Bârom Téh. 2- Le prince Khatteyah âgé de</p>
+            <p n="10">24 ans, fils de Sa Majesté Sisowath et de la Preah Bârom</p>
+            <p n="11">Kâlyanei Ieng. 3- Le prince Krâloch <gap reason="lost"/> et la princesse, qui sont frère et sœur</p>
+            <p n="12">4- Le prince <gap reason="lost"/>rakkha, âgé de 40 ans, fils du roi Sisowath et de la Preah Bârom Saophea Sâm, <gap reason="lost"/>khan?</p>
+            <p n="13">5- La princesse Monirâth<gap reason="lost"/>, âgé de 8 ans, fille de Sa Majesté Sisowath et de la Preah Mneang kaña<gap reason="lost"/> thida Maiy</p>
+            <p n="14">6- Le prince Yuvasa, âgé de 6 ans, fils de Sa Majesté Sisowath et de la Preah Mneang Kaña<gap reason="lost"/>thida Maiy</p>
+            <p n="15">7- La princesse Sotheanatha?, âgée de 29 ans, fille de Sa Majesté Sisowath et de la Preah Bârom Kâlyanei Ieng, et la Mâm?</p>
+            <p n="16">8- La princesse Sa <gap reason="lost"/> Pên?, âgé de 27 ans, fille du roi Norodom et?</p>
+            <p n="17"><gap reason="lost"/>Katasophea?, âgé de 2 ans, petit-fils de Sa Majesté Sisowath, fille de</p>
+            <p n="18">Sâmdach Preah Sisakkh Râkô</p>
+            <p n="19">10- Le prince Nuy, âgé de 22 ans, petite-fille de Sa Majesté Sisowath, fille du prince Ratanaiy et de la Neak Hun.</p>
+            <p n="20">11- <gap reason="lost"/>, âgé de 17 ans, petit(e)-fils/fille de S. M. Sisowath, fils/fille du prince Vathanavong et de la Neak <gap reason="lost"/></p>
+            <p n="21">12- <gap reason="lost"/>, âgé de 37 ans, petit(e)-fils/fille de S. M. Sisowath, fils/fille du prince Ratanaiy et de la Neak Hun,</p>
+            <p n="22">13- <gap reason="lost"/>, âgé de 20 ans, petit(e)-fils/fille de S. M. Sisowath, fils/fille du prince Hassakan et de la Neak Yim.</p>
+            <p n="23">14- <gap reason="lost"/>, âgé de 48 ans, une épouse secondaire du roi Norodom.</p>
+            <p n="24">15- Le Muntrei Inachit, membre de la famille royale</p>
+            <p n="25">15- Le Muntrei Inachit, membre de la famille royale</p>
+            <p n="26"><gap reason="lost"/>.</p>
+ 	</div>
+         <div type="commentary">
+            <p>In lines 11-23, there are two or three symbols "circleSmall". In some cases, it is used to mean "<foreign>braḥ Aṅga mcāsa'</foreign> <supplied reason="explanation">prince</supplied>", in some others, it means "<foreign>braḥ jansa</foreign> <supplied reason="explanation">aged</supplied>" and in some others it means "<foreign>braḥ rāja putrā braḥ pāda saṁmteca braḥ ^sīsuvāta</foreign> <supplied reason="explanation">son of His Majesty Sisowath</supplied>".</p>
+         </div>
+        <div type="bibliography">
+          <p>First edited by Rath Sambath Men (<bibl rend="omitname"><ptr target="bib:Men2007_01"/><citedRange unit="page">73-79</citedRange></bibl>) with a French translation in roman and Khmer script; the variants of reading are taken from the roman script. Re-edited here by Kunthea Chhom based on the figure in Rath Sambath Men's thesis on p. 139.</p>
+	 <listBibl type="primary">
+    <bibl n="RM">
+      <ptr target="bib:Men2007_01"/><citedRange unit="page">73-79</citedRange>
+    </bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
