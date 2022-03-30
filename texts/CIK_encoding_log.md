@@ -508,7 +508,7 @@
 |K.	494 |# |# |#|
 |K.	495 |chch |done |Seidenfaden 1922|
 |K.	496 |kuch |done |Seidenfaden 1922|
-|K.	497 |kuch |pending |#|
+|K.	497 |kuch |pending |Seidenfaden 1922|
 |K.	498 |# |# |#|
 |K.	499 |kuch |done |Chhabra 1935, no trans.|
 |K.	500 |# |# |#|
@@ -784,7 +784,7 @@
 |K.	768 |# |# |#|
 |K.	769 |# |# |#|
 |K.	770 |# |# |#|
-|K.	771 |# |# |#|
+|K.	771 |kuch |done |NIC I|
 |K.	772 |# |# |#|
 |K.	773 |# |# |#|
 |K.	774 |# |# |#|
@@ -1232,8 +1232,8 @@
 |K.	1208 |# |# |#|
 |K.	1209 |# |# |#|
 |K.	1210 |# |# |#|
-|K.	1211 |# |# |#|
-|K.	1212 |# |# |#|
+|K.	1211 |kuch |pending |de Bernon 2001|
+|K.	1212 |kuch |done |de Bernon 2002|
 |K.	1213 |# |# |#|
 |K.	1214 |kuch |done |Griffiths 2005|
 |K.	1215 |kuch |done |Pou NIC II-III 2001 and Vong Sotheara 2001|
@@ -1301,7 +1301,7 @@
 |K.	1277 |kuch |done |Soutif 2010|
 |K.	1278 |kuch |done |pending Pou NIC II-III 2001|
 |K.	1279 |kuch | done |#|
-|K.	1280 |kuch |pending |#|
+|K.	1280 |kuch |pending |unpublished|
 |K.	1281 |chch |done |Chevance 2014|
 |K.	1282 |chch |done |Chevance 2014|
 |K.	1283 |chch |done |Chevance 2014|
@@ -1361,9 +1361,9 @@
 |K.	1335 |# |# |#|
 |K.	1336 |# |# |#|
 |K.	1337 |kuch |pending |NIC II-III|
-|K.	1338 |kuch |pending |#|
-|K.	1339 |kuch |pending |#|
-|K.	1340 |kuch |pending |#|
+|K.	1338 |kuch |pending |unpublished|
+|K.	1339 |kuch |pending |unpublished|
+|K.	1340 |kuch |pending |unpublished|
 |K.	1341 |# |# |#|
 |K.	1342 |# |# |#|
 |K.	1343 |chch |done |unpublished|
@@ -1399,20 +1399,20 @@
 |K.	1373 |chch |done |Chollet et Goodall 2020|
 |K.	1374 |# |# |#|
 |K.	1375 |# |# |#|
-|K.	1376 |# |# |#|
-|K.	1377 |# |# |#|
-|K.	1378 |# |# |#|
-|K.	1379 |# |# |#|
-|K.	1380 |# |# |#|
-|K.	1381 |# |# |#|
-|K.	1382 |# |# |#|
-|K.	1383 |# |# |#|
-|K.	1384 |# |# |#|
-|K.	1385 |# |# |#|
-|K.	1386 |# |# |#|
-|K.	1387 |# |# |#|
-|K.	1388 |# |# |#|
-|K.	1389 |# |# |#|
+|K.	1376 |kuch |pending |de Bernon forthcoming|
+|K.	1377 |kuch |pending |de Bernon forthcoming|
+|K.	1378 |kuch |pending |de Bernon forthcoming|
+|K.	1379 |kuch |pending |de Bernon forthcoming|
+|K.	1380 |kuch |pending | de Bernon forthcoming|
+|K.	1381 |kuch |done |Men Rath Sambath 2007|
+|K.	1382 |kuch |done |Men Rath Sambath 2007|
+|K.	1383 |kuch |done |Men Rath Sambath 2007|
+|K.	1384 |kuch |done |Men Rath Sambath 2007|
+|K.	1385 |kuch |done |Men Rath Sambath 2007|
+|K.	1386 |kuch |done |Men Rath Sambath 2007|
+|K.	1387 |kuch |done |Men Rath Sambath 2007|
+|K.	1388 |kuch |pending |Men Rath Sambath 2007|
+|K.	1389 |kuch |done |Men Rath Sambath 2007|
 |K.	1390 |# |# |#|
 |K.	1391 |# |# |#|
 |K.	1392 |# |# |#|
@@ -1484,7 +1484,7 @@
 |K.	1455 |argr |done |Goodall and Revire (forthc.)|
 |K.	1456 |chch |pending |unpublished|
 |K.	1457 |# |# |#|
-|K.	1458 |kuch |pending |#|
+|K.	1458 |kuch |pending |unpublished|
 |K.	1459 |# |# |#|
 |K.	1460 |chch |pending |NIC IV|
 |K.	1461 |# |# |#|
