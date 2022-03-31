@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Udong on the Stupa of King Sisowath (K. 1388), 1927 CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787"><!-- To find the Viaf ID of Men Rath Sambath -->
+                  <forename>Rath Sambath</forename>
+                  <surname>Men</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01388</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-03-31" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="khm-Latn">
+                <p>
+                   <lb n="1"/>braḥ buddha sakkharāja 2470 mahā sakharāja 1850 culasakkharāja 129X
+                   <lb n="2"/>chnāṁ pārāṁṅsa 19(27) ... thṅai ... khae ... chnāṁ (ruined) ... saksa trūva niṅa thṅai
+                   <lb n="3"/>... khae ...
+                   <lb n="4"/>braḥ pāda saṁmteca braḥ ^sīsuvatti munivaṅsa cama cakrabuṅsa harirājja paraminda
+                   <lb n="5"/>bhuvaṇai krai kaeva hvā suḷāḷai braḥ cau kruṅ kambujādhipḍī jjā Aṁmcāsa'
+                   <lb n="6"/>jīvita loe thpūṅa $dandaOrnate niṅa samteca braḥ varājinī paramma pabitya druṅa kasāṅa
+                   <lb n="7"/>braḥ caettiya mūya Aṅga neḥ loe bhnaṁ braḥ rāja drābbha khaetra kantāla duṁhuṁm joe-
+                   <lb n="8"/>ṅ kosa 12 metra kuṁbusa 22 metra jā daksina braḥ caettiya trai
+                   <lb n="9"/>troeṅsa dhvoe punya thnāka' loe pancusa braḥ nicca samupāta māsa niṅa praka'
+                   <lb n="10"/>niṅa braḥ buddha padimākara khāṅa kraoma pancusa braḥ parama Aṭṭhi braḥ pāda samte-
+                   <lb n="11"/>ca braḥ ^sīsuvatti cama cakra buṅsa braḥ cau kruṅa kambujādhipḍī jā braḥ varāja pi-
+                   <lb n="12"/>tā $dandaOrnate tapa snaṅa saṅa braḥ daejaḥguṇa $danda braḥ pāda saṁmteca braḥ ^sīsuvatti jā
+                   <lb n="13"/>braḥ varāja putrā dī bī nai braḥ pāda samḍeca braḥ harirākkha rāmmā Issarādhipḍī braḥ
+                   <lb n="14"/>Aṅga duaṅa jā braḥ varāja pitā saṁmḍeca braḥ varājinīnātha braḥ nāmma bau jā braḥ va-
+                   <lb n="15"/>rāja mātā $dandaOrnate braḥ sūta thṅai Aṅgā 12 roj khae srābva chnāṁ jūta dosaksa
+                   <lb n="16"/>braḥ buddha sakkharāja 2384 cula sakkharāja 1202 $dandaOrnate braḥ jansāra
+                   <lb n="17"/>18 chnāṁ draṅa pāna jā samḍeca braḥ kaeva hvā $dandaOrnate braḥ jansa 30 chnāṁ steca
+                   <lb n="18"/>laoeṅa jā saṁmḍeca braḥ mahā Upparāja ...(erased)...
+                   <lb n="19"/>buddha sakkharāja 2448 $dandaOrnate mahā sakkharāja 1826 cula sa-
+                   <lb n="20"/>kkharāja 1266 chnāṁ roṅa cha saksa chnāṁ pārāṁṅsa 1904 thṅai Āditya 10
+                   <lb n="21"/>kaoeta khae bisāka trūva niṅa thṅai 24 Avarila braḥ junsā 65 chnāṁ draṅa rāja saṁpāta taṁ-
+                   <lb n="22"/>mnara bī braḥ pāda saṁmḍeca braḥ narotaṁma jā braḥ jeṭṭhā guṅa nau braḥ paramma rājavā-
+                   <lb n="23"/>ṅsa catumukkha bhnuṁ beña $dandaOrnate buddha sakkharāja 2450 mahā sakkharāja 1828
+                   <lb n="24"/>culasakkharāja 1268 chnāṁ mamī Aṭṭhasaksa chnāṁ pārāṁṅsa 1906 thṅai sukkha
+                   <lb n="25"/>5 kaoeta khae bisākha trūva niṅa 27 Āvarila braḥ junsā 67 chnāṁ steca laoe-
+                   <lb n="26"/>ṅa rājjābisaeka soya rāja saṁpātti ruma dāṅa Assa pāna 24 chnāṁ braḥ jana 88
+                   <lb n="27"/>chnāṁ draṅa divaṅguta nau thṅai Aṅgā 11 kaoeta khae srābva chnāṁ thoḥ nabbhasaksa 9
+                   <lb n="28"/>khae Ūta chnāṁ 1928 $dandaOrnate ... (erased)...
+                   <lb n="29"/>lusa tala thṅai sukkha 3 [[roja]] khae phalguṇa knuṅa chnāṁ thoḥ nubbhasaksa trūva niṅa thṅai
+                   <lb n="30"/>9 khae māsa' chnāṁ 1928 dhvoe punya thvāya braḥ bhloeṅa braḥ paramma sapa' knuṅa braḥ
+                   <lb n="31"/>mena braḥ caettiya neḥ saṁmteca cauhvā vāṅsa vara vieṅa jaiya jūna
+                   <lb n="32"/>dhipḍī kuṅsī saeṇāpati ... (ruined) ... Ukñā debva nimitra ccāṅhvāṅa $dandaOrnate
+                   <lb n="33"/>rasa jā ... (ruined)... $ddandaOrnate $gomutraFinial
+                </p>
+            </div>
+            <div type="apparatus">
+                  <listApp>
+                     <app loc="2">
+                     <lem>pārāṁṅa</lem>
+                     <note>There is a diacritic sign called "<foreign>thmeñ kantula</foreign> <supplied reason="explanation">mouse teeth</supplied>" under the letter <foreign>rāṁ</foreign>.</note>
+                  </app>
+                     </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Men2007_01">
+            <p n="1">En 2470 de l'ère bouddhique, 1850 de la grande ère, 129 de la petite ère,</p>
+            <p n="2">1927 de l'ère chrétienne, jour ... mois ... année ... décade, c'est-à-dire,</p>
+            <p n="3">le mois de ...</p>
+            <p n="4">Sa Majesté Sisowath Monivong Châm Chakrapong Harireach Bâramind</p>
+            <p n="5">Phouvanai Krai Kêvfa Solalai, roi du Cambodge (1927-1941), maître</p>
+            <p n="6">des vies, au-dessus des têtes, et Sa Majesté la reine ordonnèrent de construire</p>
+            <p n="7">ce saint stoupa sur la colline de Preah Reach Troap dans la province de Kandal. Sa base est un carré</p>
+            <p n="8">de douze mètres de côté, sa hauteur mesure vingt-deux mètres. Il est situé au Sud du (stoupa) Traitrœng.</p>
+            <p n="9">(A l'intérieur du stoupa), au niveau supérieur, furent déposés des statues de Bouddha et des plaques d'or et d'argent inscrites de formules de prières bouddhiques;</p>
+            <p n="10">au niveau inférieur, furent déposées les augustes cendres de Sa Majesté</p>
+            <p n="11">Sisowath Châm Chakrapong (ancien) roi du Cambodge, auguste père du (roi constructeur).</p>
+            <p n="12">(La construction de ce stoupa) est un acte de reconnaissance envers Sa Majesté Sisowath,</p>
+            <p n="13">deuxième fils de Sa Majesté Samdach Preah Harireak Reamea Issarathipadei Preah</p>
+            <p n="14">Ang Duong et de Sa Majesté la reine Voreachanineat nommée Pœuv.</p>
+            <p n="15">(Sa Majesté Sisowath) naquit le mardi douzième jour de la lune décroissante, du mois de srap, en l'année du Rat, deuxième de la décade,</p>
+            <p n="16">en 2384 de l'ère bouddhique, 1202 de la petite ère. A l'âge de</p>
+            <p n="17">18 ans, il reçut le titre de Samdach Preah Kêvfa. A 30 ans, il</p>
+            <p n="18">fut élevé au rang de Samdach Preah Maha Uparach. ...</p>
+            <p n="19">En 2448 de l'ère bouddhique, 1826 de la grande ère,</p>
+            <p n="20">1266 de la petite ère, en l'année du Naga, sixième de la décade, 1904 de l'ère chrétienne, le dimanche dixième</p>
+            <p n="21">de la lune croissante, du mois de Pisak, c'est-à-dire le 24 avril, âgé de 65 ans (le prince Sisowath, Maha Uparach)</p>
+            <p n="22">succéda à son frère aîné Sa Majesté Norodom. Il résida alors à l'auguste palais royal</p>
+            <p n="23">Chatomuk à Phnom Penh. En 2450 de l'ère bouddhique, 1828 de la grande ère,</p>
+            <p n="24">1268 de la petite ère, en l'année du Cheval, huitième de la décade, 1960 de l'ère chrétienne, le vendredi</p>
+            <p n="25">cinquième jour de la quinzaine claire, du mois de Pisak, c'est-à-dire le 27 avril, âgé de 67 ans (le prince Sisowath) fut couronné</p>
+            <p n="26">roi. (Après) 24 ans de (règne), à l'âge de 88 ans</p>
+            <p n="27">il mourut le mardi, onzième jour de la lune croissante, du mois de srap, en l'année du Lièvre neuvième de la décade, le 9</p>
+            <p n="28">août 1928 A.D. ...</p>
+            <p n="29">Le vendredi troisième (de la lune décroissante) du mois de phâlkun, en l'année du Lièvre, neuvième de la décade, c'est-à-dire</p>
+            <p n="30">le 9 mars 1928 A.D. eut lieu la cérémonie d'incinération de l'auguste dépouille royale dans le pavillon funéraire.</p>
+            <p n="31">(La construction de) ce stoupa (fut confiée) à Sâmdach Chaovea Veang Voreak Veangchey Chuon</p>
+            <p n="32">premier ministre [accident de la pierre] et à l'Okña Tep Nimit</p>
+            <p n="33">Ruah, directeur ...</p>
+ 	</div>
+         <!-- <div type="commentary">
+            <p></p>
+         </div>  -->
+        <div type="bibliography">
+          <p>First edited by Rath Sambath Men (<bibl rend="omitname"><ptr target="bib:Men2007_01"/><citedRange unit="page">93-105</citedRange></bibl>) with a French translation in roman and Khmer script; the variants of reading are taken from the roman script. Re-edited here by Kunthea Chhom based on the figure in Rath Sambath Men's thesis on p. 141. Unfortunately, the figure which is of low quality prevents us from reediting many passages.</p>
+	 <listBibl type="primary">
+    <bibl n="RM">
+      <ptr target="bib:Men2007_01"/><citedRange unit="page">93-105</citedRange>
+    </bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
