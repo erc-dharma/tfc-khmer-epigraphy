@@ -320,11 +320,11 @@
 |K.	308 |# |# |#|
 |K.	309 |# |# |#|
 |K.	310 |# |# |#|
-|K.	311 |# |# |#|
+|K.	311 |sapi |pending |Jacques 2014|
 |K.	312 |sapi |done |Pou NIC II-III |
 |K.	313 |sapi |done |Pou NIC II-III |
 |K.	314 |sapi |done |Pou NIC II-III |
-|K.	315 |# |# |#|
+|K.	315 |sapi |pending |Pou NIC II-III |
 |K.	316 |# |# |#|
 |K.	317 |# |# |#|
 |K.	318 |sapi |pending |Pou NIC II-III |
