@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of the Monument housing the statue of King Ang Duong at Ponhea Lu (K. 1391), 2003 CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787"><!-- To find the Viaf ID of Men Rath Sambath -->
+                  <forename>Jane</forename>
+                  <surname>Allison</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01391</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-04-25" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="khm-Latn">
+                <p>
+                   <lb n="1" style="text-align: center"/>braḥ paramarūpa
+                   <lb n="2"/>braḥ karuṇā braḥ pāda samteca braḥ hiraksa rāmā Issarādhipatī braḥ Aṅg ḍuoṅ <g type="dandaOrnate">.</g>
+                   <lb n="3"/><g type="gomutraFinial">.</g> Uppatti knuṅa rajjakāla dī bīra nai braḥ karuṇā braḥ pāda samteca braḥ narottama sīhanu
+                   <lb n="4"/>braḥ mahāksatra nai braḥ rājāṇācakra kambujā niṅa samtec braḥ rāja Aggamahesī narottama
+                   <lb n="5" style="text-align: center"/>munīnātha sīhanu jā dī sakkāra <g type="dandaOrnate">.</g>
+                   <lb n="6"/><g type="hyphen">-</g>thṅai canda <num value="3">3</num> koeta khae jes<choice><orig>d</orig><corr>sṭh</corr></choice>a chnāṁ thoḥ Ekasaka ba <g type="dot">.</g> sa <num value="2543">2543</num>
+                   <lb n="7"/>trūva niṅa thṅai dī <num value="17">17</num> khae Usabhā ga <g type="dot">.</g> sa <num value="1999">1999</num>1999 cāka’ ṭī paṁbeña jaṅhuka ṭai braeka <g type="dandaOrnate">.</g>
+                   <lb n="8"/><g type="hyphen">-</g>thṅai brahaspatti <num value="10">10</num> ro<choice><orig>j</orig><corr>c</corr></choice>a khae visākha chnāṁ msāña’ trīsaka ba <g type="dot">.</g> sa <num value="2545">2545</num>
+                   <lb n="9"/>trūva nịṅa thṅai dī <num value="17">17</num> khae Usabhā ga <g type="dot">.</g> sa <num value="2001">2001</num> ṭāka’ phaena silā ghīoena <g type="dandaOrnate">.</g>
+                   <lb n="10"/><g type="hyphen">-</g>thṅai budha <num value="2">2</num> koeta khae Assuja chnāṁ mamī catvāsaka ba <g type="dot">.</g> sa <num value="2546">2546</num>
+                   <lb n="11"/>trūva nịṅa thṅai dī <num value="19">19</num> khae kaññā ga <g type="dot">.</g> sa <num value="2001">2001</num> sita braḥ dī nāṁṅa manomaya
+                   <lb n="12"/><g type="hyphen">-</g>thṅai canda <num value="15">15</num> koeta khae Assuja chnāṁ mamī catvāsaka ba <g type="dot">.</g> sa <num value="2546">2546</num>
+                   <lb n="13"/>trūva nịṅa thṅai dī <num value="21">21</num> khae tulā ga <g type="dot">.</g> sa <num value="2002">2002</num> sita braḥ paramarūpa <g type="dandaOrnate">.</g>
+                   <lb n="14"/><g type="hyphen">-</g>thṅai budha <num value="4">4</num> koeta khae māgha chnāṁ mamī catvāsaka ba <g type="dot">.</g> sa 2546
+                   <lb n="15"/>trūva nịṅa thṅai dī <num value="5">5</num> khae kumbha ga <g type="dot">.</g> sa <num value="2003">2003</num>2003 hoeya sreca jā sthābara <g type="dandaOrnate">.</g>
+                   <lb n="16"/><g type="hyphen">-</g>braḥ tamriḥ yopala’ samtec braḥ saṅgharāja gaṇa mahānikāya debva vaṅsa <g type="dandaOrnate">.</g>
+                   <lb n="17"/><g type="hyphen">-</g>kasāṅa phdāla’ samteca braḥ Uttama paññā ṭūṅa phaṅa’ <g type="dandaOrnate">.</g>
+                </p>
+            </div>
+            <div type="apparatus">
+                  <listApp>
+                     <app loc="6">
+                     <lem>canda</lem>
+                    <note>There is a diacritic sign called "<foreign>saṁyoga saññā</foreign> <supplied reason="explanation">combination sign</supplied>" above the letter <foreign>ca</foreign>.</note>
+                  </app>
+                     <app loc="6">
+                     <lem>Ekasaka</lem>
+                    <note>There is a diacritic sign called "<foreign>saṁyoga saññā</foreign> <supplied reason="explanation">combination sign</supplied>" above the letter <foreign>sa</foreign>.</note>
+                  </app>
+                     <app loc="8">
+                     <lem>trīsaka</lem>
+                    <note>There is a diacritic sign called "<foreign>saṁyoga saññā</foreign> <supplied reason="explanation">combination sign</supplied>" above the letter <foreign>sa</foreign>.</note>
+                  </app>
+                     <app loc="10">
+                     <lem>catvāsaka</lem>
+                    <note>There is a diacritic sign called "<foreign>saṁyoga saññā</foreign> <supplied reason="explanation">combination sign</supplied>" above the letter <foreign>sa</foreign>.</note>
+                  </app>
+                     <app loc="11">
+                     <lem>manomaya</lem>
+                    <note>There is a diacritic sign called "<foreign>saṁyoga saññā</foreign> <supplied reason="explanation">combination sign</supplied>" above the letter <foreign>ma</foreign>.</note>
+                  </app>
+                     <app loc="12">
+                     <lem>canda</lem>
+                    <note>There is a diacritic sign called "<foreign>saṁyoga saññā</foreign> <supplied reason="explanation">combination sign</supplied>" above the letter <foreign>ca</foreign>.</note>
+                  </app>
+                     <app loc="12">
+                     <lem>catvāsaka</lem>
+                    <note>There is a diacritic sign called "<foreign>saṁyoga saññā</foreign> <supplied reason="explanation">combination sign</supplied>" above the letter <foreign>sa</foreign>.</note>
+                  </app>
+                     <app loc="14">
+                     <lem>catvāsaka</lem>
+                    <note>There is a diacritic sign called "<foreign>saṁyoga saññā</foreign> <supplied reason="explanation">combination sign</supplied>" above the letter <foreign>sa</foreign>.</note>
+                  </app>
+                     <app loc="15">
+                     <lem>kumbha</lem>
+                    <note>There is a diacritic sign called "<foreign>yugala bindu</foreign> <supplied reason="explanation">a pair of dots</supplied>" after the letter <foreign>bha</foreign>.</note>
+                  </app>
+                     <app loc="16">
+                     <lem>debva vaṅsa</lem>
+                    <note>The words are written in parentheses.</note>
+                  </app>
+                     <app loc="17">
+                     <lem>ṭūṅa phaṅa’</lem>
+                    <note>The words are written in parentheses.</note>
+                  </app>
+                     </listApp>         
+         </div>
+         <div type="translation" source="bib:Allison2015-2016_01"><note>The translation is Sorn Sokchea and Brice Vincent.</note>
+            <p n="1-17">
+               Braḥ Paramarūp <supplied reason="explanation">sacred statue</supplied> of His Majesty Harireak Reamea Issarathipadei Ang Duong 
+
+Originally offered in the second reign of His Majesty Norodom Sihanouk, sovereign of the kingdom of Cambodia, and venerated Queen Norodom Monineath Sihanouk
+<list>
+   <item>On Monday, the third day of the waxing moon of the month of <foreign>jesṭh</foreign>, year of the Rabbit, first year of the decade, 2543 of the Buddhist era, i.e. 17 May 1999 of the Christian era, the arm of canal was filled in with soil.</item>
+   <item>On Thursday, the tenth day of the waning moon of the month of <foreign>visākh</foreign>, year of the Snake, third year of the decade, 2545 of the Buddhist era, i.e. 17 May 2001 of the Christian era, the base made of stone was installed.</item>
+   <item>On Wednesday, the second day of the waxing moon of the month <foreign>assuj</foreign>, year of the Horse, fourth year of the decade, 2546 of the Buddhist era, i.e. 19 September 2001 of the Christian era, the royal mount was cast.</item>
+   <item>On Monday, the fifteenth day of the waxing moon of the month of <foreign>assuj</foreign>, year of the Horse, fourth year of the decade, 2546 of the Buddhist era, i.e. 21 October 2002 of the Christian era, the statue of the king was cast.</item>
+   <item>On Wednesday, the fourth day of the waxing moon of the month of <foreign>māgh</foreign>, year of the Horse, fourth year of the decade, 2546 of the Buddhist era, i.e. 5 February 2003 of the Christian era, the project was comprised.</item>
+</list>
+               Idea of the Mahānikāy Patriarch <supplied reason="explanation">Tep Vong</supplied>.
+Personally established by Samdec Braḥ Uttam Paññā <supplied reason="explanation">Daung Phang</supplied>.
+            </p>
+ 	</div>
+         <!-- <div type="commentary">
+            <p></p>
+         </div>  -->
+        <div type="bibliography">
+          <p>First edited by Jane Allison (<bibl rend="omitname"><ptr target="bib:Allison2015-2016_01"/><citedRange unit="page">93-94</citedRange></bibl>) with an English translation; re-edited here by Kunthea Chhom based on the figure 17 in Allison’s article on p. 94.</p>
+	 <listBibl type="primary">
+    <bibl n="JA">
+      <ptr target="bib:Allison2015-2016_01"/><citedRange unit="page">93-94</citedRange>
+    </bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
