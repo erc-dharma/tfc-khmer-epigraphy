@@ -8,7 +8,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Pillar from Khan Thevada (K. 496), 6th century Śaka</title>
+            <title>Pillar from Khan Thevada (inscription of Citrasena-Mahendravarman, K. 496), 6th century Śaka</title>
+            <!-- The stone looks like a stela than a pillar. -->
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:kuch">
@@ -18,9 +19,9 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName ref="part:doso">
-                  <forename>Dominique</forename>
-                  <surname>Soutif</surname>
+               <persName ref="http://viaf.org/viaf/22181866"><!-- To change to Viaf number of Seidenfaden. -->
+                  <forename>Erik</forename>
+                  <surname>Seidenfaden</surname>
                </persName>
             </respStmt>
          </titleStmt>
@@ -85,6 +86,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2022-04-28">Modifications to edition, translation and commentary</change>
          <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:kuch" when="2020-07-06">Modifications to edition and bibliography</change>
          <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
@@ -95,21 +97,21 @@
         <body>
                 <div type="edition" xml:lang="san-Latn">
 <lg n="1" met="anuṣṭubh">
-<l n="1"><lb n="1"/>naptā śrī-sārvva-bhaumasya</l>
-<l n="2">sūnuś śrī-vīra-varmmaṇaḥ</l>
-<l n="3"><lb n="2"/>śaktyānūnaẖ kaniṣṭho pi</l>
-<l n="4">bhrātā śri-bhava-varmmaṇaḥ</l>
+<l n="1"><lb n="1"/>naptā śrī-sārvvabhaumasya <space/></l>
+<l n="2">sūnuś śrī-vīravarmmaṇaḥ</l>
+<l n="3"><lb n="2"/>śaktyānūnaẖ kaniṣṭho ’pi <space/></l>
+<l n="4">bhrātā śrī-bhavavarmmaṇaḥ</l>
 </lg>
 <lg n="2" met="anuṣṭubh">
-<l n="1"><lb n="3"/>śrī-citra-sena-nāmā yaḫ</l>
+<l n="1"><lb n="3"/>śrī-citrasenanāmā yaḫ <space/></l>
 <l n="2">pūrvvam āhata-lakṣaṇaḥ</l>
-<l n="3"><lb n="4"/>sa śrī-mahendra-varmmeti</l>
-<l n="4">nāma bheje bhiṣekajam</l>
+<l n="3"><lb n="4"/>sa śrī-mahendravarmmeti <space/></l>
+<l n="4">nāma bheje ’bhiṣekajam</l>
 </lg>
 <lg n="3" met="anuṣṭubh">
-<l n="1" real="++++---+"><lb n="5"/>jitveman ṭeṣam akhilaṅ</l>
+<l n="1"><lb n="5"/>jitveman <choice><orig>ṭ</orig><corr>d</corr></choice>eśam akhila<space/>ṅ</l>
 <l n="2">giriśasyeha bhū-bhr̥ti</l>
-<l n="3"><lb n="6"/>liṅgan niveśayām āsa</l>
+<l n="3"><lb n="6"/>liṅgan niveśayām āsa <space/></l>
 <l n="4">jaya-cihnam ivātmanaḥ</l>
 </lg>
 </div>
@@ -122,17 +124,25 @@
                </listApp>         
          </div> -->
          <div type="translation" xml:lang="fra" source="bib:Seidenfaden1922_01">
-             <p rend="stanza" n="1">Petit-fils de Śrī Sārvabhauma, fils de Śrī Vīravarman, et, bien que le plus jeune frère de Śrī Bhavavarman, nullement inférieur en puissance <supplied reason="explanation">à ce dernier</supplied>.</p>
+             <p rend="stanza" n="1">Petit-fils de Śrī Sārvabhauma, fils de Śrī Vīravarman, et, bien que le plus jeune frère de Śrī Bhavavarman, nullement inférieur en puissance <supplied reason="subaudible">à ce dernier</supplied>.</p>
              <p rend="stanza" n="2">Lui, qui était réputé autrefois sous le nom de Śrī Citrasena, a pris le nom de Śrī Mahendravarman lors de son sacre.</p>
              <p rend="stanza" n="3">Après avoir conquis toute la contrée, il a, sur ce mont, établi ce <foreign>liṅga</foreign> de Giriśa comme le signe de sa victoire.</p>
          </div>
-         <!-- <div type="commentary">
-         </div> -->
+           <div type="translation" resp="part:kuch"><!-- The translation is to be revised after checking the identical inscriptions. -->
+              <p rend="stanza" n="1">Grandson of Śrī Sārvabhauma <supplied reason="subaudible">and</supplied> son of Śrī Vīravarman, in spite of being the youngest brother of Śrī Bhavavarman <supplied reason="subaudible">he was</supplied> not inferior in power.</p>
+              <p rend="stanza" n="2">He whose mark was well known <supplied reason="explanation"><foreign>āhatalakṣaṇaḥ</foreign></supplied> previously by name Śrī Citrasena received Śrī Mahendravarman as a name created <supplied reason="subaudible">at the time of his</supplied> crowning.</p>
+              <p rend="stanza" n="3">Having conquered this entire country, <supplied reason="subaudible">he</supplied> installed on the mountain here a <foreign>liṅga</foreign> of Giriśa as his insignia of victory.</p>
+           </div>
+        <div type="commentary">
+            <p>The three stanzas of this inscription are identical to those of five inscriptions, viz. K. 363, K. 497, K. 508, K. 1106 and K. 1190.</p> <!-- There is another identical inscription Ka 218 but it is not fully identified for the time being. -->
+        <p>The first two stanzas of this inscription are identical to those of five inscriptions, viz. K. 509, K. 1102, K. 1174, K. 1339 and K. 1340.</p>
+            <p>The first stanza of this inscription is identical to that of inscriptions K. 1173 and K. 1341.</p>
+            </div>
         <div type="bibliography">
-          <p>Edited by Erik Seidenfaden (<bibl rend="omitname"><ptr target="bib:Seidenfaden1922_01"/><citedRange unit="page">57</citedRange></bibl>) with a French translation.</p>
+          <p>Edited by Erik Seidenfaden (<bibl rend="omitname"><ptr target="bib:Seidenfaden1922_01"/><citedRange unit="page">57-58</citedRange></bibl>) with a French translation by George Coedès.</p>
 	 <listBibl type="primary">
     <bibl n="ES">
-      <ptr target="bib:Seidenfaden1922_01"/><citedRange unit="page">57</citedRange>
+      <ptr target="bib:Seidenfaden1922_01"/><citedRange unit="page">57-58</citedRange>
     </bibl>
   </listBibl>
         </div>
