@@ -119,7 +119,7 @@
 |K.	113 |# |# |#|
 |K.	114 |# |# |#|
 |K.	115 |kuch |pending |IC VI|
-|K.	116 |kuch |pending |IC II|
+|K.	116 |kuch |done |IC II|
 |K.	117 |# |# |#|
 |K.	118 |# |# |#|
 |K.	119 |# |# |#|
@@ -373,7 +373,7 @@
 |K.	360 |kuch | done |IC V|
 |K.	361 |kuch |pending |unpublished|
 |K.	362 |# |# |#|
-|K.	363 |kuch |pending |Barth 1903|
+|K.	363 |kuch |done |Barth 1903|
 |K.	364 |# |# |#|
 |K.	365 |kuch |pending |Coedes 1956; Jacques 1962|
 |K.	366 |chch |pending |IC V|
@@ -524,8 +524,8 @@
 |K.	510 |# |# |#|
 |K.	511 |# |# |#|
 |K.	512 |# |# |#|
-|K.	513 |kuch |pending |unpublished|
-|K.	514 |kuch |pending |unpublished|
+|K.	513 |kuch |done |unpublished|
+|K.	514 |kuch |done |unpublished|
 |K.	515 |# |# |#|
 |K.	516 |kuch |pending |Parmentier 1920|
 |K.	517 |# |# |#|
@@ -984,7 +984,7 @@
 |K.	966 |# |# |#|
 |K.	967 |kuch |done |IC VI|
 |K.	968 |# |# |#|
-|K.	969 |kuch |pending |Chhabra 1961; IC VII|
+|K.	969 |kuch |done |Chhabra 1961; IC VII|
 |K.	970 |# |# |#|
 |K.	971 |# |# |#|
 |K.	972 |# |# |#|
@@ -1232,7 +1232,7 @@
 |K.	1208 |# |# |#|
 |K.	1209 |# |# |#|
 |K.	1210 |# |# |#|
-|K.	1211 |kuch |pending |de Bernon 2001|
+|K.	1211 |kuch |done |de Bernon 2001|
 |K.	1212 |kuch |done |de Bernon 2002|
 |K.	1213 |# |# |#|
 |K.	1214 |kuch |done |Griffiths 2005|
@@ -1361,7 +1361,7 @@
 |K.	1335 |# |# |#|
 |K.	1336 |# |# |#|
 |K.	1337 |kuch |pending |NIC II-III|
-|K.	1338 |kuch |pending |unpublished|
+|K.	1338 |kuch |done |unpublished|
 |K.	1339 |kuch |pending |unpublished|
 |K.	1340 |kuch |pending |unpublished|
 |K.	1341 |# |# |#|
@@ -1411,11 +1411,11 @@
 |K.	1385 |kuch |done |Men Rath Sambath 2007|
 |K.	1386 |kuch |done |Men Rath Sambath 2007|
 |K.	1387 |kuch |done |Men Rath Sambath 2007|
-|K.	1388 |kuch |pending |Men Rath Sambath 2007|
+|K.	1388 |kuch |done |Men Rath Sambath 2007|
 |K.	1389 |kuch |done |Men Rath Sambath 2007|
-|K.	1390 |kuch |pending |Allison 2015-2016|
-|K.	1391 |kuch |pending |Allison 2015-2016|
-|K.	1392 |kuch |pending |Allison 2015-2016|
+|K.	1390 |kuch |done |Allison 2015-2016|
+|K.	1391 |kuch |done |Allison 2015-2016|
+|K.	1392 |kuch |done |Allison 2015-2016|
 |K.	1393 |# |# |#|
 |K.	1394 |# |# |#|
 |K.	1395 |# |# |#|
@@ -1484,7 +1484,7 @@
 |K.	1455 |argr |done |Goodall and Revire (forthc.)|
 |K.	1456 |chch |pending |unpublished|
 |K.	1457 |# |# |#|
-|K.	1458 |kuch |pending |unpublished|
+|K.	1458 |kuch |done |unpublished|
 |K.	1459 |# |# |#|
 |K.	1460 |chch |pending |NIC IV|
 |K.	1461 |# |# |#|
