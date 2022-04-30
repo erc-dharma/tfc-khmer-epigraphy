@@ -863,7 +863,7 @@
 |K.	845 |# |# |#|
 |K.	846 |# |# |#|
 |K.	847 |chch |done |IC VI|
-|K.	848 |# |# |#|
+|K.	848 |chch |pending |IC I|
 |K.	849 |# |# |#|
 |K.	850 |kuch |done |IC I|
 |K.	851 |kuch |done |Coedes IC I|
