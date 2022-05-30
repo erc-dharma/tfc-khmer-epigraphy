@@ -212,7 +212,7 @@
 |K.	206 |# |# |#|
 |K.	207 |# |# |#|
 |K.	208 |# |# |#|
-|K.	209 |# |# |#|
+|K.	209 |kuch |pending |Barth 1903 and IC III|
 |K.	210 |# |# |#|
 |K.	211 |chch |done |IC III|
 |K.	212 |# |# |#|
@@ -231,8 +231,8 @@
 |K.	223 |# |# |#|
 |K.	224 |# |# |#|
 |K.	225 |chch |pending |IC III|
-|K.	226 |# |# |#|
-|K.	227 |# |# |#|
+|K.	226 |kuch |pending |Cœdès 1951, IC III|
+|K.	227 |kuch |pending |Cœdès 1929, 1951; RS III|
 |K.	228 |# |# |#|
 |K.	229 |# |# |#|
 |K.	230 |# |# |#|
@@ -277,9 +277,9 @@
 |K.	269 |# |# |#|
 |K.	270 |# |# |#|
 |K.	271 |sapi |pending |IC IV|
-|K.	272 |# |# |#|
+|K.	272 |kuch |pending |Cœdès 1951|
 |K.	273 |# |# |#|
-|K.	274 |# |# |#|
+|K.	274 |kuch |pending |Cœdès 1951|
 |K.	275 |# |# |#|
 |K.	276 |chch |done |IC IV|
 |K.	277 |chch |pending |IC IV|
@@ -289,7 +289,7 @@
 |K.	281 |# |# |#|
 |K.	282 |# |# |#|
 |K.	283 |# |# |#|
-|K.	284 |# |# |#|
+|K.	284 |kuch |pending |Cœdès 1951|
 |K.	285 |# |# |#|
 |K.	286 |# |# |#|
 |K.	287 |chch |pending |IC IV|
@@ -298,12 +298,48 @@
 |K.	290 |chch |pending |IC III|
 |K.	291 |sapi |pending |IC III |
 |K.	292 |# |# |#|
-|K.	293-1 |kuch |done |Coedes 1913  BEFEO 1918  IC III, no trans.|
-|K.	293-2 |kuch |done |Coedes 1913  BEFEO 1918  IC III, no trans.|
-|K.	293-3 |kuch |done|Coedes 1913  BEFEO 1918  IC III, no trans.|
-|K.	293-4 |# |# |#|
-|K.	293-5 |kuch |done |Coedes 1913  BEFEO 1918  IC III, no trans.|
-|K.	294 |# |# |#|
+|K.	293-1 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
+|K.	293-2 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
+|K.	293-3 |kuch |done|Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
+|K.	293-4 |kuch |pending |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
+|K.	293-5 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
+|K.	293-6 |kuch |pending |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
+|K.	293-7 |kuch |pending |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
+|K.	293-8 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-9 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-10 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-11 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-12 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-13 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-14 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-15 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-16 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-17 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-18 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-19 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-20 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-21 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-22 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-23 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-24 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-25 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-26 |kuch |pending |Cœdès 1913, 1928, 1951 Groslier 1973|
+|K.	293-27 |kuch |pending |Cœdès 1913, 1928, 1951 Groslier 1973|
+|K.	293-28 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-29 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-30 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-31 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-32 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-33 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-34 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-35 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-36 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-37 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-38 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-39 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-40 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-41 |kuch |pending |Groslier 1973|
+K.	294 |# |# |#|
 |K.	295 |# |# |#|
 |K.	296 |# |# |#|
 |K.	297 |# |# |#|
@@ -378,16 +414,16 @@
 |K.	365 |kuch |pending |Coedes 1956; Jacques 1962|
 |K.	366 |chch |pending |IC V|
 |K.	367 |kuch |pending |Barth 1902|
-|K.	368 |# |# |#|
+|K.	368 |kuch |pending |Finot 1903|
 |K.	369 |chch |done |IC VI|
 |K.	370 |# |# |#|
 |K.	371 = K. 431 |chch |done |IC V|
 |K.	372 |# |# |#|
 |K.	373 |# |# |#|
 |K.	374 |chch |pending |IC VI|
-|K.	375 |# |# |#|
+|K.	375 |kuch |pending |Barth 1903|
 |K.	376 |# |# |#|
-|K.	377 |kuch |pending |IC V|
+|K.	377 |kuch |done |IC V|
 |K.	378 |# |# |#|
 |K.	379 |chch |done |IC VI|
 |K.	380 |# |# |#|
@@ -396,8 +432,8 @@
 |K.	383 |# |# |#|
 |K.	384 |chch |pending |IC V|
 |K.	385 |# |# |#|
-|K.	386 |# |# |#|
-|K.	387 |# |# |#|
+|K.	386 |kuch |pending |Barth 1903|
+|K.	387 |kuch |pending |Barth 1903|
 |K.	388 |kuch | done |IC VI|
 |K.	389 |kuch | done |IC VI|
 |K.	390 |# |# |#|
@@ -405,14 +441,14 @@
 |K.	392 |# |# |#|
 |K.	393 |# |# |#|
 |K.	394 |# |# |#|
-|K.	395 |# |# |#|
+|K.	395 |kuch |pending |Barth 1903|
 |K.	396 |# |# |#|
 |K.	397 |# |# |#|
 |K.	398 |# |# |#|
 |K.	399 |# |# |#|
 |K.	400 |kuch |pending |IC VI|
 |K.	401 |# |# |#|
-|K.	402 |# |# |#|
+|K.	402 |kuch |pending |unpublished|
 |K.	403 |# |# |#|
 |K.	404 |# |# |#|
 |K.	405 |# |# |#|
@@ -446,7 +482,7 @@
 |K.	432 |# |# |#|
 |K.	433 |# |# |#|
 |K.	434 |# |# |#|
-|K.	435 |# |# |#|
+|K.	435 |kuch |pending |Finot 1915|
 |K.	436 |# |# |#|
 |K.	437 |kuch |pending |IC IV|
 |K.	438 |kuch |pending |IC IV|
@@ -508,7 +544,7 @@
 |K.	494 |# |# |#|
 |K.	495 |chch |done |Seidenfaden 1922|
 |K.	496 |kuch |done |Seidenfaden 1922|
-|K.	497 |kuch |pending |Seidenfaden 1922|
+|K.	497 |kuch |done |Seidenfaden 1922|
 |K.	498 |# |# |#|
 |K.	499 |kuch |done |Chhabra 1935, no trans.|
 |K.	500 |# |# |#|
@@ -519,8 +555,8 @@
 |K.	505 |kuch |pending |IC V|
 |K.	506 |kuch |pending |IC V|
 |K.	507 |# |# |#|
-|K.	508 |kuch |pending |BEFEO XXII|
-|K.	509 |kuch |pending |Seidenfaden 1922|
+|K.	508 |kuch |done |BEFEO XXII|
+|K.	509 |kuch |done |Seidenfaden 1922|
 |K.	510 |# |# |#|
 |K.	511 |# |# |#|
 |K.	512 |# |# |#|
@@ -548,7 +584,7 @@
 |K.	534 |# |# |#|
 |K.	535 |# |# |#|
 |K.	536 |# |# |#|
-|K.	537 |# |# |#|
+|K.	537 |kuch |pending |unpublished|
 |K.	538 |# |# |#|
 |K.	539 |# |# |#|
 |K.	540 |# |# |#|
@@ -613,7 +649,7 @@
 |K.	599 |kuch |done |unpublished|
 |K.	600 |kuch |done |IC II|
 |K.	601 |kuch |done |unpublished|
-|K.	602 |# |# |#|
+|K.	602 |kuch |pending |unpublished|
 |K.	603 |# |# |#|
 |K.	604 |kuch |done |Goodall 2019|
 |K.	605 |# |# |#|
@@ -627,7 +663,7 @@
 |K.	610-2 |chch |done |Finot 1928, IC IV, Clouet et al.|
 |K.	612 |chch |done |IC IV, Clouet et al.|
 |K.	613 |# |# |#|
-|K.	614 |# |# |#|
+|K.	614 |kuch |pending |unpublished|
 |K.	615 |# |# |#|
 |K.	616 |# |# |#|
 |K.	617 |# |# |#|
@@ -680,7 +716,7 @@
 |K.	664 |kuch |done |IC V|
 |K.	665 |# |# |#|
 |K.	666 |kuch | done |IC V|
-|K.	667 |# |# |#|
+|K.	667 |kuch |pending |unpublished|
 |K.	668 |# |# |#|
 |K.	669 |chch |pending |IC I|
 |K.	670 |kuch |done |IC VII|
@@ -967,10 +1003,10 @@
 |K.	949 |# |# |#|
 |K.	950 |kuch |pending |IC VI|
 |K.	951 |# |# |#|
-|K.	952 |# |# |#|
+|K.	952 |kuch |pending |unpublished|
 |K.	953 |# |# |#|
 |K.	954 |# |# |#|
-|K.	955 |# |# |#|
+|K.	955 |kuch |pending |unpublished|
 |K.	956 |kuch |done |IC VII|
 |K.	957 |chch |done |IC VII|
 |K.	958 |# |# |#|
@@ -1123,11 +1159,11 @@
 |K.	1099 |# |# |#|
 |K.	1100 |# |# |#|
 |K.	1101 |# |# |#|
-|K.	1102 |kuch |pending |Wimonkasem 1995|
+|K.	1102 |kuch |done |Wimonkasem 1995|
 |K.	1103 |# |# |#|
 |K.	1104 |# |# |#|
 |K.	1105 |# |# |#|
-|K.	1106 |kuch |pending |unpublished|
+|K.	1106 |kuch |done |unpublished|
 |K.	1107 |# |# |#|
 |K.	1108 |# |# |#|
 |K.	1109 |# |# |#|
@@ -1136,7 +1172,7 @@
 |K.	1112 |# |# |#|
 |K.	1113 |# |# |#|
 |K.	1114 |# |# |#|
-|K.	1115 |# |# |#|
+|K.	1115 |kuch |pending |unpublished|
 |K.	1116 |# |# |#|
 |K.	1117 |chch |pending |Cha-em Kaeokhlai|
 |K.	1118 |# |# |#|
@@ -1191,11 +1227,11 @@
 |K.	1167 |# |# |#|
 |K.	1168 |# |# |#|
 |K.	1169 |# |# |#|
-|K.	1170 |# |# |#|
+|K.	1170 |kuch |pending |unpublished|
 |K.	1171 |chch |done |unpublished|
 |K.	1172 |# |# |#|
-|K.	1173 |kuch |pending |unpublished|
-|K.	1174 |kuch |pending |unpublished|
+|K.	1173 |kuch |done |unpublished|
+|K.	1174 |kuch |done |unpublished|
 |K.	1175 |# |# |#|
 |K.	1176 |kuch|done |unpublished|
 |K.	1177 |# |# |#|
@@ -1211,7 +1247,7 @@
 |K.	1187 |# |# |#|
 |K.	1188 |# |# |#|
 |K.	1189 |# |# |#|
-|K.	1190 |kuch |pending |unpublished|
+|K.	1190 |kuch |done |unpublished|
 |K.	1191 |chch | done |Clouet 2019 |
 |K.	1192 |# |# |#|
 |K.	1193 |# |# |#|
@@ -1301,7 +1337,7 @@
 |K.	1277 |kuch |done |Soutif 2010|
 |K.	1278 |kuch |done |pending Pou NIC II-III 2001|
 |K.	1279 |kuch | done |#|
-|K.	1280 |kuch |pending |unpublished|
+|K.	1280 |kuch |done |unpublished|
 |K.	1281 |chch |done |Chevance 2014|
 |K.	1282 |chch |done |Chevance 2014|
 |K.	1283 |chch |done |Chevance 2014|
@@ -1362,9 +1398,9 @@
 |K.	1336 |# |# |#|
 |K.	1337 |kuch |pending |NIC II-III|
 |K.	1338 |kuch |done |unpublished|
-|K.	1339 |kuch |pending |unpublished|
-|K.	1340 |kuch |pending |unpublished|
-|K.	1341 |# |# |#|
+|K.	1339 |kuch |done |unpublished|
+|K.	1340 |kuch |done |unpublished|
+|K.	1341 |kuch |done |unpublished|
 |K.	1342 |# |# |#|
 |K.	1343 |chch |done |unpublished|
 |K.	1344 |# |# |#|
@@ -1425,7 +1461,7 @@
 |K.	1399 |kuch |pending |Unpublished|
 |K.	1400 |kuch |pending |Unpublished|
 |K.	1401 |kuch | done |Vong 2016|
-|K.	1402 |# |# |#|
+|K.	1402 |kuch |pending |unpublished|
 |K.	1403 |chch |pending |unpublished|
 |K.	1404 |# |# |#|
 |K.	1405 |chch |pending |unpublished|
@@ -1545,12 +1581,12 @@ K.	1515 |kuch |done |unpublished|
 K.	1516 |# |# |#|
 K.	1517 |chch |done |unpublished|
 K.	1518 |chch |pending |unpublished|
-K.	1519 |# |# |#|
-K.	1520 |# |# |#|
-K.	1521 |# |# |#|
-K.	1522 |# |# |#|
-K.	1523 |# |# |#|
-K.	1524 |# |# |#|
+K.	1519 |kuch |pending |Phimphan Phaibunwangcharoen 2546 BE = 2003 CE|
+K.	1520 |kuch |pending |Phimphan Phaibunwangcharoen 2546 BE = 2003 CE|
+K.	1521 |kuch |pending |unpublished|
+K.	1522 |kuch |pending |Kongkaeo Wiraprachak 2553 BE = 2010 CE|
+K.	1523 |kuch |pending |unpublished|
+K.	1524 |kuch |pending |Cha-em Kaeokhlai 2529, 2531 BE = 1986, 1988 CE|
 K.	1525 |chch |done |unpublished|
 K.	1526 |# |# |#|
 K.	1527 |# |# |#|
