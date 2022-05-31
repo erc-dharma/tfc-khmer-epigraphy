@@ -505,11 +505,11 @@ K.	294 |# |# |#|
 |K.	455 |# |# |#|
 |K.	456 |# |# |#|
 |K.	457 |sapi |pending |Cœdès 1918|
-|K.	458 |# |# |#|
-|K.	459 |# |# |#|
-|K.	460 |# |# |#|
+|K.	458 = 551|kuch|pending |Cœdès 1951|
+|K.	459 = 550 |kuch|pending |Cœdès 1951|
+|K.	460 |kuch|pending |Cœdès 1951|
 |K.	461 |# |# |#|
-|K.	462 |# |# |#|
+|K.	462 |kuch |pending |Cœdès 1951|
 |K.	463 |# |# |#|
 |K.	464 |# |# |#|
 |K.	465 |# |# |#|
@@ -578,7 +578,7 @@ K.	294 |# |# |#|
 |K.	528 |# |# |#|
 |K.	529 |# |# |#|
 |K.	530 |# |# |#|
-|K.	531 |# |# |#|
+|K.	531 |kuch |pending |IC II, Cœdès 1951|
 |K.	532 |# |# |#|
 |K.	533 |# |# |#|
 |K.	534 |# |# |#|
@@ -586,7 +586,7 @@ K.	294 |# |# |#|
 |K.	536 |# |# |#|
 |K.	537 |kuch |pending |unpublished|
 |K.	538 |# |# |#|
-|K.	539 |# |# |#|
+|K.	539 = 293.24b |kuch |pending |BEFEO XVIII (10), Cœdès 1928|
 |K.	540 |# |# |#|
 |K.	541 |# |# |#|
 |K.	542 |# |# |#|
@@ -598,7 +598,7 @@ K.	294 |# |# |#|
 |K.	548 |kuch |done |IC II|
 |K.	549 |kuch |done |IC II|
 |K.	550 |chch |done |Cœdès 1951|
-|K.	551 |# |# |#|
+|K.	551 |kuch |pending |Cœdès 1951|
 |K.	552 |# |# |#|
 |K.	553 |# |# |#|
 |K.	554 |# |# |#|
@@ -639,7 +639,7 @@ K.	294 |# |# |#|
 |K.	589 |# |# |#|
 |K.	590 |# |# |#|
 |K.	591 |# |# |#|
-|K.	592 |# |# |#|
+|K.	592 |kuch |pending |Cœdès 1951, IC III|
 |K.	593 |chch |done |IC III|
 |K.	594 |# |# |#|
 |K.	595 |# |# |#|
@@ -670,28 +670,28 @@ K.	294 |# |# |#|
 |K.	618 |# |# |#|
 |K.	619 |# |# |#|
 |K.	620 |# |# |#|
-|K.	621 |# |# |#|
-|K.	622 |# |# |#|
-|K.	623 |# |# |#|
-|K.	624 |# |# |#|
-|K.	625 |# |# |#|
-|K.	626 |# |# |#|
-|K.	627 |# |# |#|
-|K.	628 |# |# |#|
-|K.	629 |# |# |#|
-|K.	630 |# |# |#|
-|K.	631 |# |# |#|
-|K.	632 |# |# |#|
-|K.	633 |# |# |#|
-|K.	634 |# |# |#|
-|K.	635 |# |# |#|
-|K.	636 |# |# |#|
-|K.	637 |# |# |#|
-|K.	638 |# |# |#|
-|K.	639 |# |# |#|
-|K.	640 |# |# |#|
-|K.	641 |# |# |#|
-|K.	642 |# |# |#|
+|K.	621 |kuch |pending |Cœdès 1951|
+|K.	622 |kuch |pending |Cœdès 1951|
+|K.	623 |kuch |pending |Cœdès 1951|
+|K.	624 |kuch |pending |Cœdès 1951|
+|K.	625 |kuch |pending |Cœdès 1951|
+|K.	626 |kuch |pending |Cœdès 1951|
+|K.	627 |kuch |pending |Cœdès 1951|
+|K.	628 |kuch |pending |Cœdès 1951|
+|K.	629 |kuch |pending |Cœdès 1951|
+|K.	630 |kuch |pending |Cœdès 1951|
+|K.	631 |kuch |pending |Cœdès 1951|
+|K.	632 |kuch |pending |Cœdès 1951|
+|K.	633 |kuch |pending |Cœdès 1951|
+|K.	634 |kuch |pending |Cœdès 1951|
+|K.	635 |kuch |pending |Cœdès 1951|
+|K.	636 |kuch |pending |Cœdès 1951|
+|K.	637 |kuch |pending |Cœdès 1951|
+|K.	638 |kuch |pending |Cœdès 1951|
+|K.	639 |kuch |pending |Cœdès 1951|
+|K.	640 |kuch |pending |Cœdès 1951|
+|K.	641 |kuch |pending |Cœdès 1951|
+|K.	642 |kuch |pending |Cœdès 1951|
 |K.	643 |# |# |#|
 |K.	644 |# |# |#|
 |K.	645 |# |# |#|
@@ -745,7 +745,7 @@ K.	294 |# |# |#|
 |K.	693 |# |# |#|
 |K.	694 |# |# |#|
 |K.	695 |# |# |#|
-|K.	696 |# |# |#|
+|K.	696 |kuch |pending |Cœdès 1951|
 |K.	697 |# |# |#|
 |K.	698 |kuch |done |unpublished|
 |K.	699 |# |# |#|
@@ -852,7 +852,7 @@ K.	294 |# |# |#|
 |K.	798 |kuch |done |inedit|
 |K.	799 |# |# |#|
 |K.	800 |# |# |#|
-|K.	801 |# |# |#|
+|K.	801 = 293.4 |kuch |pending |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
 |K.	802 |# |# |#|
 |K.	803 |kuch |done |NIC I|
 |K.	804 |kuch |done |NIC I|
@@ -878,7 +878,7 @@ K.	294 |# |# |#|
 |K.	824 |sapi |pending |NIC II-III|
 |K.	825 |# |# |#|
 |K.	826 |# |# |#|
-|K.	827 |# |# |#|
+|K.	827 |kuch |pending |Cœdès 1951|
 |K.	828 |# |# |#|
 |K.	829 |# |# |#|
 |K.	830 |chch |done |IC V|
@@ -957,32 +957,32 @@ K.	294 |# |# |#|
 |K.	903 |kuch |done |IC VI|
 |K.	904 |# |# |#|
 |K.	905 |# |# |#|
-|K.	906 |# |# |#|
-|K.	907 |# |# |#|
+|K.	906 |kuch |pending |Cœdès 1951|
+|K.	907 |kuch |pending |Cœdès 1951|
 |K.	908 |# |# |#|
-|K.	909 |# |# |#|
+|K.	909 |kuch|pending |Cœdès 1951|
 |K.	910 |kuch |done |IC V|
 |K.	911 |kuch |done |IC V|
 |K.	912 |kuch |pending |unpublished|
 |K.	913 |kuch |done|IC V|
-|K.	914 |# |# |#|
+|K.	914 |kuch|pending |Cœdès 1951|
 |K.	915 |kuch |done |Soutif 2009|
 |K.	916 |# |# |#|
 |K.	917 |# |# |#|
 |K.	918 |kuch |pending |unpublished|
 |K.	919 |kuch |done |inedit|
-|K.	920 |# |# |#|
+|K.	920 |kuch |pending |Cœdès 1951|
 |K.	921 |# |# |#|
 |K.	922 |# |# |#|
 |K.	923 |chch |pending |IC IV|
 |K.	924 |kuch |pending |unpublished|
-|K.	925 |# |# |#|
+|K.	925 |kuch |pending |Cœdès 1951|
 |K.	926 |kuch |pending |IC V|
 |K.	927 |# |# |#|
 |K.	928 |# |# |#|
 |K.	929 |# |# |#|
 |K.	930 |# |# |#|
-|K.	931 |# |# |#|
+|K.	931 |kuch |pending |Cœdès 1951|
 |K.	932 |# |# |#|
 |K.	933 |# |# |#|
 |K.	934 |kuch |done |IC IV|
@@ -1013,7 +1013,7 @@ K.	294 |# |# |#|
 |K.	959 |# |# |#|
 |K.	960 |# |# |#|
 |K.	961 |# |# |#|
-|K.	962 |# |# |#|
+|K.	962 |kuch|pending |Unpublished|
 |K.	963 |# |# |#|
 |K.	964 |kuch |pending |Coedes 1958; śilpākara II; RS III|
 |K.	965 |# |# |#|
@@ -1096,7 +1096,7 @@ K.	294 |# |# |#|
 |K.	1036 |chch |pending |NIC II-III|
 |K.	1037 |# |# |#|
 |K.	1038 |# |# |#|
-|K.	1039 |# |# |#|
+|K.	1039 |kuch|pending |Unpublished|
 |K.	1040 |chch |pending |unpublished|
 |K.	1041 |# |# |#|
 |K.	1042 |kuch |done |Chhom et al 2021|
@@ -1118,8 +1118,8 @@ K.	294 |# |# |#|
 |K.	1058 |# |# |#|
 |K.	1059 |chch |pending |Lintingre 1974|
 |K.	1060 |# |# |#|
-|K.	1061 |# |# |#|
-|K.	1062 |# |# |#|
+|K.	1061 |kuch|pending |Unpublished|
+|K.	1062 |kuch|pending |Unpublished|
 |K.	1063 |sapi |done |unpublished|
 |K.	1064 |# |# |#|
 |K.	1065 |# |# |#|
@@ -1171,7 +1171,7 @@ K.	294 |# |# |#|
 |K.	1111 |# |# |#|
 |K.	1112 |# |# |#|
 |K.	1113 |# |# |#|
-|K.	1114 |# |# |#|
+|K.	1114 |kuch|pending |Unpublished|
 |K.	1115 |kuch |pending |unpublished|
 |K.	1116 |# |# |#|
 |K.	1117 |chch |pending |Cha-em Kaeokhlai|
@@ -1370,10 +1370,10 @@ K.	294 |# |# |#|
 |K.	1310 |# |# |#|
 |K.	1311 |# |# |#|
 |K.	1312 |# |# |#|
-|K.	1313 |# |# |#|
-|K.	1314 |# |# |#|
-|K.	1315 |# |# |#|
-|K.	1316 |# |# |#|
+|K.	1313 |kuch|pending |Maxwell 2009|
+|K.	1314 |kuch|pending |Maxwell 2009|
+|K.	1315 |kuch|pending |Maxwell 2009|
+|K.	1316 |kuch|pending |Maxwell 2009|
 |K.	1317 |# |# |#|
 |K.	1318 |kuch |done |Jacques 2014|
 |K.	1319 |# |# |#|
