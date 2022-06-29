@@ -414,7 +414,7 @@ K.	294 |# |# |#|
 |K.	365 |kuch |pending |Coedes 1956; Jacques 1962|
 |K.	366 |chch |pending |IC V|
 |K.	367 |kuch |pending |Barth 1902|
-|K.	368 |kuch |pending |Finot 1903|
+|K.	368 |kuch |done |Finot 1903|
 |K.	369 |chch |done |IC VI|
 |K.	370 |# |# |#|
 |K.	371 = K. 431 |chch |done |IC V|
@@ -432,7 +432,7 @@ K.	294 |# |# |#|
 |K.	383 |# |# |#|
 |K.	384 |chch |pending |IC V|
 |K.	385 |# |# |#|
-|K.	386 |kuch |pending |Barth 1903|
+|K.	386 |kuch |done |Barth 1903|
 |K.	387 |kuch |pending |Barth 1903|
 |K.	388 |kuch | done |IC VI|
 |K.	389 |kuch | done |IC VI|
@@ -482,7 +482,7 @@ K.	294 |# |# |#|
 |K.	432 |# |# |#|
 |K.	433 |# |# |#|
 |K.	434 |# |# |#|
-|K.	435 |kuch |pending |Finot 1915|
+|K.	435 |kuch |done |Finot 1915|
 |K.	436 |# |# |#|
 |K.	437 |kuch |pending |IC IV|
 |K.	438 |kuch |pending |IC IV|
@@ -716,7 +716,7 @@ K.	294 |# |# |#|
 |K.	664 |kuch |done |IC V|
 |K.	665 |# |# |#|
 |K.	666 |kuch | done |IC V|
-|K.	667 |kuch |pending |unpublished|
+|K.	667 |kuch |done |unpublished|
 |K.	668 |# |# |#|
 |K.	669 |chch |pending |IC I|
 |K.	670 |kuch |done |IC VII|
@@ -1172,7 +1172,7 @@ K.	294 |# |# |#|
 |K.	1112 |# |# |#|
 |K.	1113 |# |# |#|
 |K.	1114 |kuch|pending |Unpublished|
-|K.	1115 |kuch |pending |unpublished|
+|K.	1115 |kuch |done |Kaeokhlai 1986|
 |K.	1116 |# |# |#|
 |K.	1117 |chch |pending |Cha-em Kaeokhlai|
 |K.	1118 |# |# |#|
@@ -1227,7 +1227,7 @@ K.	294 |# |# |#|
 |K.	1167 |# |# |#|
 |K.	1168 |# |# |#|
 |K.	1169 |# |# |#|
-|K.	1170 |kuch |pending |unpublished|
+|K.	1170 |kuch |done |unpublished|
 |K.	1171 |chch |done |unpublished|
 |K.	1172 |# |# |#|
 |K.	1173 |kuch |done |unpublished|
