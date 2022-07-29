@@ -212,7 +212,7 @@
 |K.	206 |# |# |#|
 |K.	207 |# |# |#|
 |K.	208 |# |# |#|
-|K.	209 |kuch |pending |Barth 1903 and IC III|
+|K.	209 |kuch |done |Barth 1903 and IC III|
 |K.	210 |# |# |#|
 |K.	211 |chch |done |IC III|
 |K.	212 |# |# |#|
@@ -584,7 +584,7 @@ K.	294 |# |# |#|
 |K.	534 |# |# |#|
 |K.	535 |# |# |#|
 |K.	536 |# |# |#|
-|K.	537 |kuch |pending |unpublished|
+|K.	537 |kuch |done |unpublished|
 |K.	538 |# |# |#|
 |K.	539 = 293.24b |kuch |pending |BEFEO XVIII (10), Cœdès 1928|
 |K.	540 |# |# |#|
@@ -649,7 +649,7 @@ K.	294 |# |# |#|
 |K.	599 |kuch |done |unpublished|
 |K.	600 |kuch |done |IC II|
 |K.	601 |kuch |done |unpublished|
-|K.	602 |kuch |pending |unpublished|
+|K.	602 |kuch |done |unpublished|
 |K.	603 |# |# |#|
 |K.	604 |kuch |done |Goodall 2019|
 |K.	605 |# |# |#|
@@ -663,7 +663,7 @@ K.	294 |# |# |#|
 |K.	610-2 |chch |done |Finot 1928, IC IV, Clouet et al.|
 |K.	612 |chch |done |IC IV, Clouet et al.|
 |K.	613 |# |# |#|
-|K.	614 |kuch |pending |unpublished|
+|K.	614 |kuch |done |unpublished|
 |K.	615 |# |# |#|
 |K.	616 |# |# |#|
 |K.	617 |# |# |#|
@@ -1003,10 +1003,10 @@ K.	294 |# |# |#|
 |K.	949 |# |# |#|
 |K.	950 |kuch |pending |IC VI|
 |K.	951 |# |# |#|
-|K.	952 |kuch |pending |unpublished|
+|K.	952 |kuch |done |unpublished|
 |K.	953 |# |# |#|
 |K.	954 |# |# |#|
-|K.	955 |kuch |pending |unpublished|
+|K.	955 |kuch |done |unpublished|
 |K.	956 |kuch |done |IC VII|
 |K.	957 |chch |done |IC VII|
 |K.	958 |# |# |#|
