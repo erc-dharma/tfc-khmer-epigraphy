@@ -22,6 +22,10 @@
                   <forename>Claude</forename>
                   <surname>Jacques</surname>
                </persName>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -55,11 +59,6 @@
                <physDesc>
                   <handDesc>
                      <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -90,6 +89,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:chch" when="2022-08-03">Added new edition</change>
          <change who="part:chch" when="2021-02-12">Added corrections</change>
          <change who="part:chch" when="2020-05-03" status="draft">Bibliography added</change>
          <change who="part:chch" when="2020-04-14">Initial encoding of the
@@ -100,20 +100,31 @@
       <body>
          <div type="edition" xml:lang="san-Latn">
          	<lg n="1" met="anuṣṭubh">
-                    <l n="a"><lb n="1"/><unclear>ru</unclear>dra-dhārā śivārnāsā</l>
+                    <l n="a"><lb n="1"/>rudra-dhārābhidhānā sā</l>
                <l n="b">gaṅgā ghoṣa-vatī babhau</l>
- <l n="c"><lb n="2"/><unclear>lo</unclear>ka-kilbiṣa-saṁhartrī</l>
+ <l n="c"><lb n="2"/>loka-kilbiṣa-saṁhartrī</l>
                 <l n="d">pratyakṣan dyuna-dīva yā <g type="ddandaHooked">.</g></l>
             </lg>
          </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                         <lem>ābhidhānā sā</lem>
+                        <rdg source="bib:Jacques1999_01">śivārnāsā</rdg>
+                    </app>
+               </listApp>
+         </div>
          <div type="translation" xml:lang="fra" source="bib:Jacques1999_01">
  	<p rend="stanza" n="1">Torrent de Rudra, rivière de Śiva, cette Gaṅgā s'est manifestée visiblement, bruyante, elle qui détruit complètement les fautes du monde, comme la rivière céleste !</p>
+         </div>
+         <div type="translation" xml:lang="fra" resp="part:chch">
+ 	<p rend="stanza" n="1">Cette Gaṅgā, portant le nom de Rudradhārā, qui détruit les maux du monde <supplied reason="explanation"><foreign>loka-kilbiṣa-saṁhartrī</foreign></supplied>, s’est manifestée <supplied reason="explanation"><foreign>babhau</foreign></supplied> clairement <supplied reason="explanation"><foreign>pratyakṣan</foreign></supplied> <supplied reason="subaudible">et</supplied> bruyamment <supplied reason="explanation"><foreign>ghoṣavatī</foreign></supplied>, comme la rivière céleste <supplied reason="explanation"><foreign>dyunadī iva</foreign></supplied> !</p>
          </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
          </div>
         <div type="bibliography">
-	<p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">361</citedRange></bibl>) with a French translation.</p>
+	<p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">361</citedRange></bibl>) with a French translation. Re-edited here by Chloé Chollet using photogrammetric models.</p>
         	<listBibl type="primary">
 				<bibl n="CJ">
 				   <ptr target="bib:Jacques1999_01"/>
