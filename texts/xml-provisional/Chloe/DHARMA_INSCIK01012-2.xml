@@ -22,6 +22,11 @@
                   <forename>Claude</forename>
                   <surname>Jacques</surname>
                </persName>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,11 +59,6 @@
                <physDesc>
                   <handDesc>
                      <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -89,6 +89,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:chch" when="2022-08-23">Added corrections to the edition and translation</change>
          <change who="part:chch" when="2021-02-12">Added corrections</change>
          <change who="part:chch" when="2020-04-25" status="draft">Added modifications to the file</change>
          <change who="part:chch" when="2020-04-14" status="draft">Initial encoding of the
@@ -99,26 +100,67 @@
       <body>
          <div type="edition" xml:lang="san-Latn">
 <lg n="1" met="anuṣṭubh">
-                    <l n="a"><lb n="1"/><unclear>Oṁ</unclear> vrahma-viṣṇv-īśvarāyu <gap reason="illegible" quantity="1" unit="character"/> s</l>
-<l n="b">	stu <gap reason="illegible" quantity="1" unit="character"/> ṣṭr̥ṣur itāyugatā</l>
-<l n="c">yo śiva-puṣpin dra tir</l>
-	<l n="d">yyādrau rudrādir ānuśā</l>
+                    <l n="a"><lb n="1"/>Oṁ vrahma-viṣnvīśvara-yaśas</l>
+<l n="b">santuṣ-ṭr̥ṣur ivāyugāt·</l>
+<l n="c">pheṇa-puṣpān· prakīryyādrau</l>
+	<l n="d">rudradhārānugāya<seg met="="><gap reason="illegible" quantity="1" unit="character"/></seg></l>
 </lg>
 <lg n="2" met="anuṣṭubh">
- <l n="a"><lb n="2"/>śivan namāmi yo haṅ sa</l>
-	<l n="b">yo haṅsa-parikīrttitaḥ</l>
-<l n="c">Iti tattva-vidaḥ prāhu<supplied reason="lost">r</supplied></l>
-	<l n="d"><seg met="====-+"><gap reason="illegible" quantity="6" unit="character"/></seg>namaḥ</l>
+ <l n="a"><lb n="2"/><g type="symbol" subtype="ddandaHooked"/>śivan namāmi yo 'haṅ sa</l>
+	<l n="b">yo haṅsa-parikirttitaḥ</l>
+<l n="c">Iti tat<supplied reason="omitted">tva-vidaḥ prāhur</supplied></l>
+	<l n="d"><supplied reason="omitted"><seg met="====-+"><gap reason="undefined" quantity="6" unit="character"/></seg> namaḥ</supplied></l>
 </lg>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                         <lem>viṣnv</lem>
+                        <rdg source="bib:Jacques1999_01">viṣṇv</rdg>
+                    </app>
+                  <app loc="1">
+                         <lem>īśvara-yaśas</lem>
+                        <rdg source="bib:Jacques1999_01">īśvarāyu<seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg>s</rdg>
+                    </app>
+                  <app loc="1">
+                         <lem>santuṣ-ṭr̥ṣur</lem>
+                        <rdg source="bib:Jacques1999_01">stu <seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg> sṭr̥ṣur</rdg>
+                    </app>
+                  <app loc="1">
+                         <lem>ivāyugāt·</lem>
+                        <rdg source="bib:Jacques1999_01">itāyugatā</rdg>
+                    </app>
+                   <app loc="1">
+                         <lem>pheṇa-puṣpān·</lem>
+                        <rdg source="bib:Jacques1999_01">śivapuṣpin</rdg>
+                    </app>
+                  <app loc="1">
+                         <lem>prakīryyādrau</lem>
+                        <rdg source="bib:Jacques1999_01">dra tir yyādrau</rdg>
+                    </app>
+                  <app loc="1">
+                         <lem>rudrādhārānugāya</lem>
+                        <rdg source="bib:Jacques1999_01">rudrādir ānuśā</rdg>
+                    </app>
+                  <app loc="2">
+                         <lem>parikirttitaḥ</lem>
+                        <rdg source="bib:Jacques1999_01">parikīrttitaḥ</rdg>
+                   <note>Corr. <foreign>parikīrttitaḥ</foreign>.</note>
+                    </app>
+               </listApp>
          </div>
          <div type="translation" xml:lang="fra" source="bib:Jacques1999_01">
  <p rend="stanza" n="2">"Je m'incline personnellement devant Śiva, celui qui est célébré comme le Haṅsa", ainsi disent ceux qui connaissent la Réalité, <gap reason="lost"/> salut !</p>
+         </div>
+         <div type="translation" xml:lang="fra" resp="part:chch">
+            <p rend="stanza" n="1">Oṁ. La gloire est à Brahma, Viṣṇu et le Seigneur <supplied reason="explanation">Śiva</supplied>, après avoir répandu <supplied reason="explanation"><foreign>prakīrya</foreign></supplied> des fleurs d’écume sur la montagne ...</p>
+            <p rend="stanza" n="2">"Je m'incline personnellement devant Śiva, celui qui est célébré comme le Haṅsa", ainsi disent ceux qui connaissent la Réalité, <gap reason="lost"/> salut !</p>
          </div>
          <div type="commentary">
             <p><note>En ce qui concerne la première stance, "Il est impossible de donner une interprétation de cette suite de syllabes mal assurées ; tout au moins reconnaît-on des noms de divinités, ainsi que le mot <foreign>adrau</foreign>, 'sur la montagne'" (<bibl><ptr target="bib:Jacques1999_01"/><citedRange unit="page">362</citedRange></bibl>). </note></p>
          </div>
         <div type="bibliography">
-           <p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">362</citedRange></bibl>) with a French translation.</p>
+           <p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">362</citedRange></bibl>) with a French translation. Re-edited by Chloé Chollet from a photogrammetric model.</p>
         	<listBibl type="primary">
 				<bibl n="CJ">
 				   <ptr target="bib:Jacques1999_01"/>

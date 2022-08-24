@@ -22,6 +22,10 @@
                   <forename>Claude</forename>
                   <surname>Jacques</surname>
                </persName>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -65,6 +69,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:chch" when="2022-08-23">Added corrections to the edition and translation</change>
          <change who="part:chch" when="2021-02-12">Added corrections</change>
          <change who="part:chch" when="2020-05-03" status="draft">Added bibliography</change>
          <change who="part:chch" when="2020-04-09" status="draft">Creation of the file</change>
@@ -74,27 +79,73 @@
       <body>
          <div type="edition" xml:lang="okz-Latn">
    <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
-      <l n="1"><lb n="1"/><g type="symbol" subtype="circle"/>śrīsūryyavarmmaṇo mantrī</l>
-      <l n="2"><unclear>sra</unclear>la<unclear>ñ</unclear> nāmā <unclear>ha</unclear>yā <seg met="-="><gap reason="illegible" quantity="2" unit="character"/></seg></l>
+      <l n="1"><lb n="1"/><g type="symbol" subtype="danda"/>śrīsūryyavarmmaṇo mantrī</l>
+      <l n="2">sralañ nāmā dayā<seg met="-="><gap reason="illegible" quantity="2" unit="character"/></seg></l>
 <l n="3"><lb n="2"/>sahasraliṅgam aiśvaryyañ</l>
       <l n="4">cakre ṣacchailaran<choice><sic>dha</sic><corr>dhra</corr></choice>kaiḥ</l>
    </lg>
-<ab><lb n="3"/>vraḥ sahasraliṅga <num value="986">9<unclear>8</unclear>6</num> neḥ ti vra<unclear>ḥ</unclear>
-<lb n="4"/>kamrateṅa A<supplied reason="lost">ñ</supplied> śrī nar<supplied reason="lost">e</supplied>nd<supplied reason="lost">r</supplied>ava<unclear>rmma</unclear><gap reason="illegible" quantity="1" unit="character"/>
-<lb n="5"/>sruka <unclear>sralaña</unclear> <gap reason="illegible" quantity="2" unit="character"/> ta thve ta <unclear>pa</unclear>nna ta <gap reason="illegible" quantity="3" unit="character" precision="low"/>
-<lb n="6"/><gap reason="lost" quantity="5" unit="character"/> jā toya vidhi <gap reason="lost" quantity="4" unit="character"/>
-<lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
+<ab><lb n="3"/>vraḥ sahasraliṅga <num value="986">986</num> neḥ ti vraḥ
+<lb n="4"/>kamrateṅa Aña śrī narendravarm<supplied reason="lost">ma</supplied>
+<lb n="5" break="no"/>sruka <unclear>sralaka</unclear> gi ta thve ti pandita <unclear>ta</unclear><lb 
+   n="6"/>ttvanyāsa n<supplied reason="lost">u</supplied> p<supplied reason="lost">ū</supplied>jā toya vidhi 
 </ab>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                         <lem>śri</lem>
+                        <rdg source="bib:Jacques1999_01">śrī</rdg>
+                     <note>Corr. <foreign>śrī</foreign>.</note>
+                    </app>
+                  <app loc="1">
+                         <lem>mantri</lem>
+                        <rdg source="bib:Jacques1999_01">mantrī</rdg>
+                     <note>Corr. <foreign>mantrī</foreign>.</note>
+                    </app>
+                  <app loc="1">
+                         <lem>sralaṅ</lem>
+                        <rdg source="bib:Jacques1999_01"><unclear>sra</unclear>lañ</rdg>
+                     <note>Claude Jacques' reading is interesting since <foreign>sralañ</foreign> – which means “to love, to affectionate” (<bibl rend="omitname"><ptr target="bib:Pou2004_01"/><citedRange unit="page">515</citedRange></bibl>) – is attested in Old Khmer, in particular as the name of a slave, unlike <foreign>sralaṅ</foreign>. However, our reading is certain.</note>
+                    </app>
+                  <app loc="1">
+                         <lem>dayā<seg met="-="><gap reason="illegible" quantity="2" unit="character"/></seg></lem>
+                        <rdg source="bib:Jacques1999_01"><unclear>ha</unclear>yā<seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg></rdg>
+                    </app>
+                  <app loc="5">
+                         <lem>gi</lem>
+                        <rdg source="bib:Jacques1999_01"><gap reason="illegible" quantity="1" unit="character"/></rdg>
+                    </app>
+                  <app loc="5">
+                         <lem>ti</lem>
+                        <rdg source="bib:Jacques1999_01">ta</rdg>
+                    </app>
+                  <app loc="5">
+                         <lem>pandita</lem>
+                        <rdg source="bib:Jacques1999_01"><unclear>pa</unclear>nna ta</rdg>
+                    </app>
+                  <app loc="5-6">
+                         <lem>tattvanyāsa</lem>
+                        <rdg source="bib:Jacques1999_01"><gap reason="illegible" quantity="4" unit="character"/></rdg>
+                    </app>
+                  <app loc="6">
+                         <lem>n<supplied reason="lost">u</supplied> p<supplied reason="lost">ū</supplied>jā</lem>
+                        <rdg source="bib:Jacques1999_01"><gap reason="illegible" quantity="2" unit="character"/> jā</rdg>
+                    </app>
+               </listApp>
          </div>
          <div type="translation" xml:lang="fra" source="bib:Jacques1999_01">
 <p rend="stanza" n="1">Le mandarin de Śrī Sūryavarman nommé <persName>Sralañ</persName> a fait un <foreign>sahasraliṅga</foreign> d'Īśvara en <supplied reason="explanation">9</supplied> ouvertures, <supplied reason="explanation">7</supplied> montagnes et 6.</p>
             <p n="3-6">Cet auguste <foreign>sahasraliṅga</foreign> (de ?) 986 que Monseigneur Śrī Narendravarman de <placeName>Vraḥ Sruk</placeName> (Sralañ) <gap reason="lost"/> qu'a fabriqué <gap reason="lost"/> selon le rite <gap reason="lost"/></p>
          </div>
+         <div type="translation" xml:lang="fra" resp="part:chch">
+            <p rend="stanza" n="1">Le ministre <supplied reason="explanation"><foreign>mantrī</foreign></supplied> de sa Majesté <persName type="human" subtype="king">Sūryavarman</persName>, du nom de <persName type="human">Sralaṅ</persName>  a fait ce <foreign>sahasraliṅga</foreign> puissant <supplied reason="explanation"><foreign>aiśvaryam</foreign></supplied> <seg rend="pun">ou : de Śiva</seg> en <supplied reason="explanation">9</supplied> cavités, <supplied reason="explanation">7</supplied> montagnes et 6.</p>
+            <p n="3-6">Le saint <foreign>sahasraliṅga</foreign> de 986 <supplied reason="subaudible"><foreign>liṅga</foreign></supplied>, c’est ce que <supplied reason="explanation"><foreign>neḥ ti</foreign></supplied> le <foreign>vraḥ kamrateṅ Añ</foreign> Śrī <persName type="human">Narendravarman</persName> du village de Sralak <supplied reason="subaudible">a réalisé</supplied> pour que <supplied reason="explanation"><foreign>gi ta</foreign></supplied> le <foreign>paṇḍit</foreign> fasse le <foreign>tattvanyāsa</foreign> et la <foreign>pūjā</foreign> en suivant le rite prescrit <supplied reason="explanation"><foreign>toy vidhi</foreign></supplied>.</p>
+         </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
          </div>
         <div type="bibliography">
-	<p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">358</citedRange></bibl>), with a French translation.</p>
+	<p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">358</citedRange></bibl>), with a French translation. Re-edited by Chloé Chollet from a photogrammetric model.</p>
         	<listBibl type="primary">
 				<bibl n="CJ">
 				   <ptr target="bib:Jacques1999_01"/>
