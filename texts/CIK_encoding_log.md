@@ -421,7 +421,7 @@ K.	294 |# |# |#|
 |K.	372 |# |# |#|
 |K.	373 |# |# |#|
 |K.	374 |chch |pending |IC VI|
-|K.	375 |kuch |pending |Barth 1903|
+|K.	375 |kuch |done |Barth 1903|
 |K.	376 |# |# |#|
 |K.	377 |kuch |done |IC V|
 |K.	378 |# |# |#|
@@ -433,7 +433,7 @@ K.	294 |# |# |#|
 |K.	384 |chch |pending |IC V|
 |K.	385 |# |# |#|
 |K.	386 |kuch |done |Barth 1903|
-|K.	387 |kuch |pending |Barth 1903|
+|K.	387 |kuch |done |Barth 1903|
 |K.	388 |kuch | done |IC VI|
 |K.	389 |kuch | done |IC VI|
 |K.	390 |# |# |#|
@@ -448,7 +448,7 @@ K.	294 |# |# |#|
 |K.	399 |# |# |#|
 |K.	400 |kuch |pending |IC VI|
 |K.	401 |# |# |#|
-|K.	402 |kuch |pending |unpublished|
+|K.	402 |kuch |done |unpublished|
 |K.	403 |# |# |#|
 |K.	404 |# |# |#|
 |K.	405 |# |# |#|
@@ -963,7 +963,7 @@ K.	294 |# |# |#|
 |K.	909 |kuch|pending |Cœdès 1951|
 |K.	910 |kuch |done |IC V|
 |K.	911 |kuch |done |IC V|
-|K.	912 |kuch |pending |unpublished|
+|K.	912 |kuch |done |unpublished|
 |K.	913 |kuch |done|IC V|
 |K.	914 |kuch|pending |Cœdès 1951|
 |K.	915 |kuch |done |Soutif 2009|
@@ -1461,7 +1461,7 @@ K.	294 |# |# |#|
 |K.	1399 |kuch |pending |Unpublished|
 |K.	1400 |kuch |pending |Unpublished|
 |K.	1401 |kuch | done |Vong 2016|
-|K.	1402 |kuch |pending |unpublished|
+|K.	1402 |kuch |done |unpublished|
 |K.	1403 |chch |pending |unpublished|
 |K.	1404 |# |# |#|
 |K.	1405 |chch |pending |unpublished|
@@ -1583,7 +1583,7 @@ K.	1517 |chch |done |unpublished|
 K.	1518 |chch |pending |unpublished|
 K.	1519 |kuch |pending |Phimphan Phaibunwangcharoen 2546 BE = 2003 CE|
 K.	1520 |kuch |pending |Phimphan Phaibunwangcharoen 2546 BE = 2003 CE|
-K.	1521 |kuch |pending |unpublished|
+K.	1521 |kuch |done |unpublished|
 K.	1522 |kuch |pending |Kongkaeo Wiraprachak 2553 BE = 2010 CE|
 K.	1523 |kuch |pending |unpublished|
 K.	1524 |kuch |pending |Cha-em Kaeokhlai 2529, 2531 BE = 1986, 1988 CE|
