@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Srah Srang pedestal inscription (1086 <foreign>śaka</foreign>, K. 1581)</title>
+                <respStmt>
+                    <resp>EpiDoc Encoding</resp>
+                    <persName ref="part:chch">
+                        <forename>Chloé</forename>
+                        <surname>Chollet</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>intellectual authorship of edition</resp>
+                    <persName ref="part:doso">
+                        <forename>Dominique</forename>
+                        <surname>Soutif</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSCIK01581</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                        <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+                    </licence>
+                </availability>
+                <date from="2019" to="2025">2019-2025</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+            </projectDesc>
+            <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
+            <listPrefixDef>
+                <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+                    <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+                </prefixDef>
+                <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_idListMembers_v01.xml#$1">
+                    <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_idListMembers_v01.xml</ref> file.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:chch" when="2022-09-22">Initial encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="okz-Latn">
+    <div type="textpart" subtype="face" n="A">
+        <p>
+        <lb n="1"/><g type="unknown"/> <num value="1086">1086</num> śaka vraḥ <unclear>sugu</unclear>ṇa guru vraḥ <unclear>ka</unclear><gap quantity="1" unit="character" reason="lost"/><unclear>t</unclear>e<gap quantity="1" unit="character" reason="lost"/> 
+            </p>
+    </div>
+<div type="textpart" subtype="face" n="B">
+    <p>
+    <lb n="2"/><unclear>y</unclear> saṁnvata duka kamrateṅa jagat ta vraḥ ku<unclear>ṭ</unclear>i
+</p></div>
+<div type="textpart" subtype="face" n="C">
+    <p>
+    <lb n="3"/>jā vraḥ rājadharmma</p>
+</div>
+         </div>
+         <div type="apparatus">
+         </div>
+         <div type="translation" xml:lang="fra" resp="part:chch">
+ 	<p n="1-3">En 1086 <foreign>śaka</foreign>, le Saint Suguṇa, <foreign>guru</foreign> du <foreign>vraḥ</foreign> <gap reason="lost"/> a présenté une requête afin d'installer le <foreign>kamrateṅ jagat</foreign> de la sainte cellule <supplied reason="explanation"><foreign>vraḥ kuṭi</foreign></supplied> qui est une sainte fondation royale <supplied reason="explanation"><foreign>rājadharmma</foreign></supplied>.</p>
+         </div>
+         <div type="commentary">
+             <p>Before the word <foreign>saṁnvat</foreign> (l. 2) we could reconstitute the verb <foreign>thvāy</foreign> or <foreign>Oy</foreign>.</p>
+         </div>
+        <div type="bibliography">
+           <p>Unpublished inscription. Edition by Dominique Soutif from photographs, and translation by Chloé Chollet.</p>
+        </div>
+      </body>
+  </text>
+</TEI>

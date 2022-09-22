@@ -22,6 +22,10 @@
                   <forename>Claude</forename>
                   <surname>Jacques</surname>
                </persName>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,11 +58,6 @@
                <physDesc>
                   <handDesc>
                      <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -89,6 +88,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:chch" when="2022-09-22">Corrections in edition and addition of my translation</change>
          <change who="part:chch" when="2021-02-12">Added corrections</change>
          <change who="part:chch" when="2020-04-25">Initial encoding of the file</change>
       </revisionDesc>
@@ -98,28 +98,106 @@
          <div type="edition" xml:lang="san-Latn">
          	<lg n="1" met="upajāti">
 <l n="a"><lb n="1"/>vibhāti nandī parameśa-nandī</l> 
-         		<l n="b">dīpto prabhādhvasta<supplied reason="omitted">ta</supplied>mas samūhaḥ</l>
-<l n="c"><lb n="2"/> siddhi-pradātūṁ bhuvi liṅga-rūpo</l> 
-         		<l n="d">divyāsthito siddhe vibhur nane <gap reason="illegible" quantity="1" unit="character"/></l>
+         		<l n="b">dīpte prabhādhvasta<supplied reason="omitted">ta</supplied>mas samūhaḥ</l>
+<l n="c"><lb n="2"/>siddhiṁ pradātūṁ bhuvi liṅga-rūpo</l> 
+         		<l n="d">divyāṁ sthito sindh<unclear>um ito</unclear> <add place="above">gi</add>rīndre <g type="danda">.</g></l>
 </lg>
 <lg n="2" met="upajāti">
 <l n="a"><lb n="3"/>saṁkṣipya tejo ravi-koṭi-kāntam</l>
-	<l n="b"><unclear>akārṇṇave</unclear> <seg met="+--+-+="><gap reason="illegible" quantity="7" unit="character"/></seg></l>
-<l n="c"><lb n="4"/>tadeva tadyāpi samā sthito yo</l>
-	<l n="d">vitas i ta mānnam ābhu <seg met="-+="><gap reason="illegible" quantity="3" unit="character"/></seg></l>
+	<l n="b"><unclear>e</unclear>kārṇṇave <seg met="+--+"><gap reason="illegible" quantity="4" unit="character"/></seg> ma<seg met="+"><gap reason="illegible" quantity="1" unit="character"/></seg>śaḥ</l>
+<l n="c"><lb n="4"/>tadeva tadyāpi sama sthito yo</l>
+	<l n="d"><seg met="=+"><gap reason="illegible" quantity="2" unit="character"/></seg> liṅgaṁ <seg met="+-"><gap reason="illegible" quantity="2" unit="character"/></seg>nnam <unclear>ābhu</unclear>m· <g type="ddanda">.</g></l>
 </lg>
 <lg n="3" met="upajāti">
-<l n="a"><lb n="5"/>cyutāśa davdāgiri-mastakāgrā</l>
-	<l n="b"><seg met="=+"><gap reason="illegible" quantity="2" unit="character"/></seg>rma-dhārāsimahendra-vāha</l>
-<l n="c"><lb n="6"/>śambhor ja<choice><sic>t</sic><corr>ṭ</corr></choice>ā-madhya-lasaty</l>
-	<l n="d">ubhāvā si vi va rā <unclear>vi</unclear>bhāti</l>
+<l n="a" enjamb="yes"><lb n="5"/>cyutāśaśavdā giri-mastakāgrā</l>
+	<l n="b">t sā <seg met="+-"><gap reason="illegible" quantity="2" unit="character"/></seg> dhārā sa-mahendra-vāha</l>
+<l n="c"><lb n="6"/>śambhor ja<unclear>ṭ</unclear>ā-madhya-lasat</l>
+	<l n="d">prabhāvā <seg met="++--"><gap reason="illegible" quantity="4" unit="character"/></seg> <unclear>vi</unclear>bhāti <g type="ddanda">.</g></l>
 </lg>
 <lg n="4" met="upajāti">
-<l n="a"><lb n="5"/>Aho pi siddhā vahu-siddhim aryāḥ</l>
-	<l n="b">siddhārthinaḥ kartum ime prasiddhāḥ</l>
+<l n="a"><lb n="5"/>Aṣṭo ’pi siddhā vahu-siddhi-sarv<supplied reason="omitted">v</supplied>ān·</l>
+	<l n="b">siddhārthināṁ kartum ime prasiddhāḥ</l>
 <l n="c"><lb n="5"/>Asmin girau nandi-giri-prasiddhe</l>
-	<l n="d">siddhyai sthitās tān munayo namadhva<supplied reason="lost">m</supplied></l>
+	<l n="d">siddhyai sthitās tān munayo namadhvam· <g type="ddanda">.</g></l>
 </lg>
+         </div>
+         <div type="apparatus">
+         <listApp>
+                  <app loc="1">
+                         <lem>dīpte</lem>
+                        <rdg source="bib:Jacques1999_01">dīpto</rdg>
+                    </app>
+            <app loc="2">
+                         <lem>siddhiṁ pradātūṁ</lem>
+                        <rdg source="bib:Jacques1999_01">siddhi-pradātūṁ</rdg>
+                    </app>
+            <app loc="2">
+                         <lem>divyāṁ sthito</lem>
+                        <rdg source="bib:Jacques1999_01">divyāsthito</rdg>
+                    </app>
+            <app loc="2">
+                         <lem>sindh<unclear>um ito</unclear></lem>
+                        <rdg source="bib:Jacques1999_01">siddhe vibhur</rdg>
+                    </app>
+             <app loc="2">
+                         <lem>girīndre</lem>
+                        <rdg source="bib:Jacques1999_01">nane <seg met="="><gap reason="illegible" quantity="1" unit="character"/></seg></rdg>
+                <note>The syllable <foreign>gi</foreign>, forgotten when the inscription was engraved, was added above the line.</note>
+                    </app>
+            <app loc="3">
+                         <lem><unclear>e</unclear>kārṇṇave</lem>
+                        <rdg source="bib:Jacques1999_01"><unclear>akārṇṇave</unclear></rdg>
+                    </app>
+             <app loc="4">
+                         <lem>sama</lem>
+                        <rdg source="bib:Jacques1999_01">samā</rdg>
+                    </app>
+             <app loc="4">
+                         <lem><seg met="=+"><gap reason="illegible" quantity="2" unit="character"/></seg> liṅgaṁ</lem>
+                        <rdg source="bib:Jacques1999_01">vitas i ta</rdg>
+                    </app>
+            <app loc="5">
+                         <lem>cyutāśaśavdā</lem>
+                        <rdg source="bib:Jacques1999_01">cyutāśa davdā-</rdg>
+                    </app>
+            <app loc="5">
+                         <lem>giri-mastakāgrāt</lem>
+                        <rdg source="bib:Jacques1999_01">giri-mastakāgrā<seg met="="><gap reason="illegible" quantity="1" unit="character"/></seg></rdg>
+                    </app>
+            <app loc="5">
+                         <lem>sā</lem>
+                        <rdg source="bib:Jacques1999_01"><seg met="+"><gap reason="illegible" quantity="1" unit="character"/></seg></rdg>
+                    </app>
+            <app loc="5">
+                         <lem>sa-mahendra-vāhā</lem>
+                        <rdg source="bib:Jacques1999_01">si-mahendra-vāhā</rdg>
+                    </app>
+            <app loc="6">
+                         <lem>ja<unclear>ṭ</unclear>ā-madhya-lasat</lem>
+                        <rdg source="bib:Jacques1999_01">jatā</rdg>
+               <rdg source="bib:Jacques1999_01">lasaty</rdg>
+                    </app>
+            <app loc="6">
+                         <lem>prabhāvā</lem>
+                        <rdg source="bib:Jacques1999_01">ubhāvā</rdg>
+                    </app>
+            <app loc="7">
+                         <lem>Aṣṭo</lem>
+                        <rdg source="bib:Jacques1999_01">Aho</rdg>
+                    </app>
+            <app loc="7">
+                         <lem>siddhi-sarv<supplied reason="omitted">v</supplied>ān·</lem>
+                        <rdg source="bib:Jacques1999_01">siddhim aryāḥ</rdg>
+                    </app>
+            <app loc="7">
+                         <lem>siddhārthināṁ</lem>
+                        <rdg source="bib:Jacques1999_01">siddhārthinaḥ</rdg>
+                    </app>
+            <app loc="8">
+                         <lem>namadhvam·</lem>
+                        <rdg source="bib:Jacques1999_01">namadhva<supplied reason="lost">m</supplied></rdg>
+                    </app>
+         </listApp>
          </div>
          <div type="translation" xml:lang="fra" source="bib:Jacques1999_01">
  	<p rend="stanza" n="1">Nandin resplendit, qui réjouit Parameśa ; brillant, lui par la lumière de qui la masse des ténèbres a été détruite, qui a forme de <foreign>liṅga</foreign> sur la terre afin de donner la <foreign>siddhi</foreign>, il se tient dans le ciel, tout puissant <gap reason="illegible"/></p>
@@ -127,11 +205,17 @@
  	<p rend="stanza" n="3">Donnant de l’eau obtenue en tombant, éminente au sommet de la montagne, source <gap reason="illegible"/>, coulant avec <supplied reason="subaudible">celle du</supplied> Mahendra[parvata ?], brillante au milieu du chignon de Śambhu, <gap reason="illegible"/>, elle brille.</p>
  	<p rend="stanza" n="4">Oh ! bien qu’accomplis, ces nobles chercheurs de la Réalité, célèbres pour <supplied reason="subaudible">obtenir</supplied> la Réalisation, se tiennent sur cette montagne connue comme « la montagne de Nandin » en vue de la Réalisation : saluez ces <foreign>muni</foreign> !"</p>
          </div>
+         <div type="translation" xml:lang="fra" resp="part:chch">
+ 	<p rend="stanza" n="1"/>
+ 	<p rend="stanza" n="2"/>
+ 	<p rend="stanza" n="3"/>
+ 	<p rend="stanza" n="4"/>
+         </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
          </div>
         <div type="bibliography">
-           <p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">363</citedRange></bibl>) with a French translation.</p>
+           <p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">363</citedRange></bibl>) with a French translation. Re-edited by Chloé Chollet from a photogrammetric model.</p>
         	<listBibl type="primary">
 				<bibl n="CJ">
 				   <ptr target="bib:Jacques1999_01"/>
