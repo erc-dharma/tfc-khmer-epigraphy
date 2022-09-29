@@ -16,7 +16,7 @@
 |K.	9 |kuch |done |IC V|
 |K.	10 |kuch |done |NIC I|
 |K.	11 |kuch|done | IC II|
-|K.	12 |kuch |pending |Barth 1903|
+|K.	12 |kuch |done |Barth 1903|
 |K.	13 |kuch |done |ISC|
 |K.	14 |kuch |done |ISCC|
 |K.	15 |kuch |pending |unpublished|
@@ -441,7 +441,7 @@ K.	294 |# |# |#|
 |K.	392 |# |# |#|
 |K.	393 |# |# |#|
 |K.	394 |# |# |#|
-|K.	395 |kuch |pending |Barth 1903|
+|K.	395 |kuch |done |Barth 1903|
 |K.	396 |# |# |#|
 |K.	397 |# |# |#|
 |K.	398 |# |# |#|
@@ -1255,7 +1255,7 @@ K.	294 |# |# |#|
 |K.	1195 |# |# |#|
 |K.	1196 |# |# |#|
 |K.	1197 |# |# |#|
-|K.	1198 |# |# |#|
+|K.	1198 |kuch |pending |NIC II-III|
 |K.	1199 |# |# |#|
 |K.	1200 |# |# |#|
 |K.	1201 |kuch |pending |unpublished|
@@ -1581,12 +1581,12 @@ K.	1515 |kuch |done |unpublished|
 K.	1516 |# |# |#|
 K.	1517 |chch |done |unpublished|
 K.	1518 |chch |pending |unpublished|
-K.	1519 |kuch |pending |Phimphan Phaibunwangcharoen 2546 BE = 2003 CE|
-K.	1520 |kuch |pending |Phimphan Phaibunwangcharoen 2546 BE = 2003 CE|
+K.	1519 |kuch |done |Phimphan Phaibunwangcharoen 2546 BE = 2003 CE|
+K.	1520 |kuch |done |Phimphan Phaibunwangcharoen 2546 BE = 2003 CE|
 K.	1521 |kuch |done |unpublished|
-K.	1522 |kuch |pending |Kongkaeo Wiraprachak 2553 BE = 2010 CE|
+K.	1522 |kuch |done |Kongkaeo Wiraprachak 2553 BE = 2010 CE|
 K.	1523 |kuch |pending |unpublished|
-K.	1524 |kuch |pending |Cha-em Kaeokhlai 2529, 2531 BE = 1986, 1988 CE|
+K.	1524 |kuch |done |Cha-em Kaeokhlai 2529, 2531 BE = 1986, 1988 CE|
 K.	1525 |chch |done |unpublished|
 K.	1526 |# |# |#|
 K.	1527 |# |# |#|
