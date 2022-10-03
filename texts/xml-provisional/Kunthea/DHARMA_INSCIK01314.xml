@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Doorjamb on the Northern Tower of the central section of Banteay Chhmar temple (K. 1062), 12th century Śaka</title><!-- The northern tower is known as BC 38 (number by Olivier Cunin). -->
+            <title>Doorjamb on the sanctuary BC 17 of Banteay Chhmar temple (K. 1314), 12th century Śaka</title><!-- Number BC 17 is by Olivier Cunin. -->
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:kuch">
@@ -18,6 +18,10 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311"><!-- To change the viaf number to Thomas Maxwell's  -->
+                  <forename>Thomas</forename>
+                  <surname>Maxwell</surname>
+               </persName>
                <persName ref="part:kuch">
                   <forename>Kunthea</forename>
                   <surname>Chhom</surname>
@@ -27,7 +31,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Siem Reap</pubPlace>
-            <idno type="filename">DHARMA_INSCIK01062</idno>
+            <idno type="filename">DHARMA_INSCIK01314</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
@@ -85,23 +89,29 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:kuch" when="2022-09-30" status="draft">Initial encoding of the inscription</change>
+         <change who="part:kuch" when="2022-10-03" status="draft">Initial encoding of the inscription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="okz-Latn">
                    <p>
-                      <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
-                      <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="1"/><supplied reason="lost"><g type="circleTarget">.</g> ka</supplied>mrateṅ· jagat· śrītribhuvanavarmmeśvara
+                      <lb n="2"/><supplied reason="lost"><g type="circleTarget">.</g> da</supplied>kṣiṇa <g type="circleSmall">.</g> vraḥ kanloṅ· kamrateṅ· Añ· śrītribhuvanacū<choice><orig>dd</orig><corr>ḍ</corr></choice>āmaṇī <g type="circleTarget">.</g>
+                      <lb n="3"/><g type="circleTarget">.</g> Uttara <g type="circleSmall">.</g> vraḥ kanloṅ· kamrateṅ· Añ· śrīyaśorājacū<choice><orig>dd</orig><corr>ḍ</corr></choice>āmaṇī <g type="circleTarget">.</g>
                    </p>
 </div>
            <div type="apparatus">
                <listApp>
+                  <app loc="1">
+                     <lem><supplied reason="lost"><g type="circleTarget">.</g> ka</supplied>mrateṅ·</lem>
+                     <rdg source="bib:Maxwell2007_01">kamrateṅ·</rdg>
+                  </app>
                   <app loc="2">
-                     <lem><gap reason="lost" extent="unknown" unit="character"/></lem>
-                     <note>Claude Jacques <supplied reason="explanation">unpublished manuscript</supplied> can read a word: <foreign>añ</foreign>.</note>
-                  </app>     
+                     <lem><supplied reason="lost"><g type="circleTarget">.</g> da</supplied>kṣiṇa</lem>
+                     <rdg source="bib:Maxwell2007_01">dakṣiṇa</rdg>
+                  </app>
+                  
                </listApp>         
          </div>
            <!--  <div type="translation">
@@ -110,11 +120,15 @@
             <p></p>
          </div> -->
         <div type="bibliography">
-          <p>Edited by Kunthea Chhom (<bibl rend="omitname"><ptr target="bib:Chhom2020_01"/><citedRange unit="page">34</citedRange></bibl>) in Khmer language.</p>
+          <p>First edited by Thomas Maxwell (<bibl rend="omitname"><ptr target="bib:Maxwell2007_01"/><citedRange unit="page">144</citedRange></bibl>); reedited by Kunthea Chhom (<bibl rend="omitname"><ptr target="bib:Chhom2020_01"/><citedRange unit="page">33</citedRange></bibl>) in Khmer language.</p>
 	 <listBibl type="primary">
     <bibl n="KC">
 <ptr target="bib:Chhom2020_01"/>
-<citedRange unit="page">34</citedRange>
+<citedRange unit="page">33</citedRange>
+</bibl>
+	    <bibl n="TM">
+<ptr target="bib:Maxwell2007_01"/>
+<citedRange unit="page">144</citedRange>
 </bibl>
 	 </listBibl>
         </div>
