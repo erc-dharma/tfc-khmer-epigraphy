@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Ban Hin Khon (K. 389), 6th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00389</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-09-20" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="textpart" n="A" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+<p>
+<lb n="A1"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="A2"/><gap reason="lost" extent="unknown" unit="character"/>s sarvvadyā <gap reason="lost" quantity="1" unit="character"/> kanakama<gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="A3"/><gap reason="lost" quantity="1" unit="character"/>ntarlloka <gap reason="lost" quantity="1" unit="character"/>i<gap reason="lost" quantity="1" unit="character"/> praharṣaḥ <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="A4"/><gap reason="lost" quantity="1" unit="character"/>ākāravr̥ṇḍapravara<gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="A5"/><gap reason="lost" extent="unknown" unit="character"/> mābhiṣikta<gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="A6"/><gap reason="lost" extent="unknown" unit="character"/> siddhi <gap reason="lost" quantity="3" unit="character"/>
+   <lb n="A7"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="A8"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="A9"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="A10"/><gap reason="lost" quantity="3" unit="character"/> yārāmikais <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="A11"/><gap reason="lost" extent="unknown" unit="character"/> tyakaśaṅkhavādyapa<gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="A12"/>pānādibhiḥ bhūyas sarvv<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="character"/></seg><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="A13"/>yakr̥vān pañcatrayastobha<gap reason="lost" quantity="1" unit="character"/>
+</p>
+                </div>
+           <div type="textpart" n="b" xml:lang="okz-Latn"><head xml:lang="eng">Face</head>
+<p>
+<lb n="b1"/><gap reason="lost" quantity="2" unit="character"/>y kantai moy <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="b2"/><gap reason="lost" quantity="1" unit="character"/>ra <g type="dDanda">.</g> knoc kantai ko<gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="b3"/><gap reason="lost" quantity="1" unit="character"/> śīlagana neḥ kantai moy <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="b4"/><gap reason="lost" quantity="2" unit="character"/>āvi daṅ kaṁpaiy qme ka<gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="b5"/><gap reason="lost" quantity="1" unit="character"/>tna dharmmabhakti nu qme ya<gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="b6"/><gap reason="lost" quantity="1" unit="character"/> sugatapāla <g type="dotMid">.</g> vidyā <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="b7"/><gap reason="lost" quantity="1" unit="character"/> dāsa <g type="dotMid">.</g> ñānakī<supplied reason="lost">rtti <g type="dotMid">.</g> vi</supplied><lb n="b8" break="no"/>dyākīrtti <g type="dotMid">.</g> daṁriṅ ver<gap reason="lost" quantity="1" unit="character"/>
+   <lb n="b9"/><gap reason="lost" quantity="2" unit="character"/>āṅ tal doṅ Ā<supplied reason="lost">y sro</supplied>
+   <lb n="b10"/><supplied reason="lost">vr</supplied>āaḥ tmur tap dnem <g type="dotMid">.</g> <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="b11"/>pār nu slā laṅ te<supplied reason="lost">m</supplied>
+   <lb n="b12"/><gap reason="lost" quantity="2" unit="character"/>tta vodi vrahmarudhira
+   <lb n="b13"/>kalaśa carā dhūpa <g type="dotMid">.</g> <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="b14"/>pon saṁrukk ñaṅ mo
+   <lb n="b15"/><gap reason="lost" quantity="1" unit="character"/>kk kaṅsatāla piy samr̥<supplied reason="lost">t</supplied>
+   <lb n="b16"/>śaṅkha piy Uden neḥ
+   <lb n="b17"/>Ampall paribhoga <supplied reason="lost">v</supplied>ra<supplied reason="lost">ḥ</supplied>
+   <lb n="b18"/>kaṁmrateṅ Añ <g type="dotMid">.</g> <gap reason="lost" quantity="1" unit="character"/>
+</p>
+           </div>
+<div type="textpart" n="c" xml:lang="okz-Latn"><head xml:lang="eng">Face</head>
+           <p>
+   <lb n="c1"/>neḥ gui <gap reason="lost" quantity="1" unit="character"/> Upāddhyāya
+   <lb n="c2"/>rājavihāra jon
+   <lb n="c3"/>ta vraḥ <g type="dDanda">.</g> mah kaṁ <gap reason="lost" quantity="2" unit="character"/>
+   <lb n="c4"/>vraḥ kaṁmrateṅ Añ
+   <lb n="c5"/>pi dan tap ha<gap reason="lost" quantity="3" unit="character"/>
+   <lb n="c6"/>nu cāh vraḥ kaṁmra<supplied reason="lost">teṅ A</supplied><lb n="c7" break="no"/>ñ klaḥ pra<gap reason="lost" quantity="1" unit="character"/>n liṅ sā<gap reason="lost" quantity="1" unit="character"/>
+   <lb n="c8"/><gap reason="lost" quantity="4" unit="character"/>ṅṅ <g type="dDanda">.</g> gui ta <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="c9"/><gap reason="lost" quantity="2" unit="character"/> prāp Āy sro
+   <lb n="c10"/>vrāaḥ vipākapuṇya
+   <lb n="c11"/><supplied reason="lost">U</supplied>pāddhyāya rājavihā<supplied reason="lost">ra</supplied>
+   <lb n="c12"/><gap reason="lost" quantity="2" unit="character"/>ra leha nu Upakā<supplied reason="lost">ra</supplied><lb n="c13" break="no"/>kṣetra <g type="dDanda">.</g> sarvve sattvāḥ sa <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="c14"/><gap reason="lost" quantity="1" unit="character"/> vuddhā bhavantu <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="c15"/>sarvvajña tājñāna <g type="dDanda">.</g>
+</p>
+                   </div>
+          <!--  <div type="apparatus">
+         </div> -->
+                  <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01"><head xml:lang="eng">Face A</head>
+ 	<p n="A1-A13">Texte sanskrit ruiné. A la ligne 10, il est question des <foreign>ārāmika</foreign> « jardiniers » ou « habitants d’un <foreign>ārāma</foreign>", et à la ligne 11, il est fait mention d’instruments de musique, à la ligne 13 de <foreign>stobha</foreign> « interjection chantée ».</p>
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01"><head xml:lang="eng">Face b</head>
+           <p n="b1-b7">Liste de noms d’esclaves avec leurs femmes.</p>
+              <p n="b7-b11">Deux plantations <gap reason="lost"/> à Sro Vrāaḥ ; dix paires de bœufs <gap reason="lost"/> et <gap reason="lost"/> aréquiers <foreign>laṅ</foreign> ;</p>
+              <p n="b12-b16"><gap reason="lost"/> <foreign>vodi</foreign>, <foreign>brahmarudhira</foreign>, flacon, <foreign>carā</foreign> à encens <gap reason="lost"/>, 3 gongs en bronze, 3 conques.</p>
+              <p n="b17-b18">Tout cela est au service du V. K. A.</p>
+           </div>
+           <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01"><head xml:lang="eng">Face c</head>
+           <p n="c1-c2">Voici ce que l’upādhyāya du Rājavihāra offre au temple :</p>
+              <p n="c3-c8"><gap reason="lost"/></p>
+              <p n="c8-c13">Ce qui <gap reason="lost"/> à Sro Vrāaḥ, résultat des mérites de l’<foreign>upādhyāya</foreign> du Rājavihāra <gap reason="lost"/> métal, accessoires, champs.</p>
+              <p n="c13-c15">Que tous les êtres <gap reason="lost"/> deviennent Buddha <gap reason="lost"/> <supplied reason="explanation">et obtiennent</supplied> l’omniscience.</p>
+              </div>
+         <div type="commentary">
+            <p>The symbols <foreign>dDanda</foreign> and <foreign>dotMid</foreign> are a presumption based on the similar inscription, viz. K. 388, because the estampage EFEO 418 is not available to us at the time of encoding.</p>
+         </div>
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">78-79</citedRange></bibl>) with a French translation.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+<ptr target="bib:Coedes1937-1966_01"/>
+<citedRange unit="volume">6</citedRange><citedRange unit="page">78-79</citedRange>
+</bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

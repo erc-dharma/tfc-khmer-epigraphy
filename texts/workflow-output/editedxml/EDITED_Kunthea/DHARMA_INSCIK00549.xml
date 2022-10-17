@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Phnom Da (K. 549), late 12th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00549</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-10-27" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<p xml:lang="san-Latn">
+   <lb n="1"/>lokādeya vo <gap reason="lost" quantity="4" unit="character"/> sa <gap reason="lost" quantity="2" unit="character"/>
+   <lb n="2"/>te kamvuna <gap reason="lost" quantity="2" unit="character"/> keśava <gap reason="lost" quantity="3" unit="character"/>
+   <lb n="3"/>va <gap reason="lost" quantity="1" unit="character"/> ga <gap reason="lost" quantity="1" unit="character"/>mbiṇi <gap reason="lost" quantity="4" unit="character"/>
+   <lb n="4"/>govārdhasnasvāminaṁ tasmin<unclear>·</unclear> va <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="5"/><supplied reason="lost">nārā</supplied>yaṇā <gap reason="lost" quantity="4" unit="character"/> sri cā <gap reason="lost" quantity="1" unit="character"/> rū<lb n="6" break="no"/>pa hari <gap reason="lost" quantity="2" unit="character"/> tvā maṇi <gap reason="lost" quantity="1" unit="character"/> trivi<lb n="7" break="no"/>kramapada sri rodravārmmā <gap reason="lost" quantity="3" unit="character"/><lb n="8" break="no"/>ḥ <gap reason="lost" quantity="2" unit="character"/> guha <gap reason="lost" quantity="4" unit="character"/>ṇakṣa
+   <lb n="9"/>saiyala kamb<supplied reason="lost">u</supplied>guyasthāpya <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="10"/>ni rudranāmā yāsmin saṅsthāpi<lb n="11" break="no"/>tā <gap reason="lost" quantity="2" unit="character"/> dhārmmikaṁ sri rodravārmmaṇā
+</p>
+                   <p>
+                      <lb n="12"/>mana sraca rājā supratisthā harika<lb n="13" break="no"/>mvujendra ta guhā māna vraḥ nr̥paññā
+                      <lb n="14"/>pandvala pre <gap reason="lost" quantity="2" unit="character"/> caṁneka nu
+                      <lb n="15"/>Upaddhi nā vraḥ hari <gap reason="lost" quantity="5" unit="character"/>
+                      <lb n="16"/>sruka bhāga caṁnāṁ ti Oya toya
+                      <lb n="17"/>viṣṇup<choice><orig>u</orig><reg>ū</reg></choice>jā ti duka sruka vnura laṅkā
+                      <lb n="18"/><gap reason="lost" quantity="2" unit="character"/> sni praveca sraca bhāga vraḥ duka taṁ<lb n="19" break="no"/>nāla neḥ phoṅa syaṅ sādhu nare<lb n="20" break="no"/>ndra <gap reason="lost" quantity="1" unit="character"/> vaddhi nā vraḥ harikaṁmv<supplied reason="lost">u</supplied>nākhya
+                      <lb n="21"/>vāmā kṣetra giripāda <gap reason="lost" quantity="2" unit="character"/> ti viṣaya
+                      <lb n="22"/>senagiri pāścimā rājā sri rodravā<lb n="23" break="no"/>rmmā ta dau <gap reason="lost" quantity="5" unit="character"/> ti jyak sa <gap reason="lost" quantity="2" unit="character"/>
+                      <lb n="24"/>neḥ jā <gap reason="lost" quantity="2" unit="character"/>narendra <gap reason="lost" quantity="3" unit="character"/> śriliṅga<lb n="25" break="no"/>mukha nā giri prā <gap reason="lost" quantity="1" unit="character"/> travāṅa khpvara can<gap reason="lost" quantity="2" unit="character"/>nti
+                      <lb n="26"/><gap reason="lost" quantity="1" unit="character"/> dau lvaḥ sā giriprisṭhā kuṁ māna ta <gap reason="lost" quantity="2" unit="character"/> ta je<supplied reason="lost">ṅa</supplied>
+                      <lb n="27"/>vnaṁ giri <gap reason="lost" quantity="1" unit="character"/> pati vraḥ śrī rodravārmmā gi ta
+                      <lb n="28"/>Oya toya viṣṇup<choice><orig>u</orig><reg>ū</reg></choice>jā ti duka <gap reason="lost" quantity="2" unit="character"/>
+                      <lb n="29"/><gap reason="lost" quantity="1" unit="character"/> sri rodravārmmā ta ta <gap reason="lost" quantity="2" unit="character"/> śri guṇāsane
+                      <lb n="30"/><gap reason="lost" quantity="4" unit="character"/> kāttā saurisahāsrama sthira<lb n="31" break="no"/>kr̥ti pujā <gap reason="lost" quantity="4" unit="character"/> vārnṇā suniyu<lb n="32" break="no"/>kti dhārmmā
+                   </p>
+                </div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="18">
+                     <lem>taṁ</lem>
+                     <rdg source="bib:Coedes1937-1966_01">kaṁ</rdg>
+                  </app>
+                  <app loc="30">
+                     <lem>saurisahāsrama</lem>
+                     <rdg source="bib:Coedes1937-1966_01">saurisahāsramma</rdg>
+                  </app>
+               </listApp> 
+         </div>
+        <!-- <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	 </div> -->
+          <div type="commentary">
+             <p>There is absence of <foreign>virāma</foreign> in this inscription. This may be a characteristic of the Khmer inscriptions in the late Angkorian period; hence the regularization of orthograph is not applied in our encoding.</p>
+         </div>
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">155-156</citedRange></bibl>) without translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 368.</p> 
+        <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">155-156</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

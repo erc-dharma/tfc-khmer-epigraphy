@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Socle of Tuol Vat Komnou (K. 600), 533 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00600</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-07-02" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<p><milestone type="pagelike" unit="face" n="north"/>
+   <lb n="1"/>traitrīśottarapañcaśata śaka parigra<supplied reason="lost">ha</supplied> trayodaśī ket· māgha puṣyanakṣatra tulalagna <g type="dotMid">.</g> poñ Uy· Oy· kñuṁ Ai ta kpoñ· kamratāṅ· Añ· <g type="dotMid">.</g> va klapit· <num value="1"><g type="numeral">I</g></num> va kantāṅ· srāṅ· <num value="1"><g type="numeral">I</g></num> va tloṅ· <num value="1"><g type="numeral">I</g></num>
+   <lb n="2"/>va kcār· <num value="1"><g type="numeral">I</g></num> ku kantau <num value="1"><g type="numeral">I</g></num> kon·· ku va Alaṅ<unclear>·</unclear> <num value="1"><g type="numeral">I</g></num> ku yaleṅ· <num value="1"><g type="numeral">I</g></num> tmur <num value="60">60</num> krapī <num value="2"><g type="numeral">II</g></num> vave <num value="10"><g type="numeral">10</g></num> toṅ· tneṁ <num value="40">40</num> sre sanre <num value="2"><g type="numeral">II</g></num> Ai Aṁpoṅ· <g type="dotMid">.</g> kñuṁ Aṁnoy· jaṁ Añ· Ai ta vraḥ kamratāṅ· Añ· mahāgaṇapati <g type="dotMid">.</g>
+   <lb n="3"/>va nñā <num value="1"><g type="numeral">I</g></num> va kantāṅ· <num value="1"><g type="numeral">I</g></num> va knoc· <num value="1"><g type="numeral">I</g></num> va tmo <num value="1"><g type="numeral">I</g></num> va daśamī <num value="1"><g type="numeral">I</g></num> ku koñ· vraḥ <num value="1"><g type="numeral">I</g></num> ku juṅ· poñ· <num value="1"><g type="numeral">I</g></num> kon· ku <num value="1"><g type="numeral">I</g></num> ku mānra Añ· <num value="1"><g type="numeral">I</g></num> ku plas· <num value="1"><g type="numeral">I</g></num> tmur· <num value="20">20</num> kantai ta pos· Oy· yajamāna kpoñ· <num value="1"><g type="numeral">I</g></num> ta cuḥ tṅai vraḥ jon· vṅe ṅnau danhuṁ <num value="1"><g type="numeral">I</g></num> ci Añ· <num value="1"><g type="numeral">I</g></num> tāñ· <num value="1"><g type="numeral">I</g></num>
+   </p>
+                   <p><milestone type="pagelike" unit="face" n="south"/>
+   <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Āṅ· vraḥ Añ· <num value="1"><g type="numeral">I</g></num> dalā Añ· <num value="1"><g type="numeral">I</g></num>
+   <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> ku tpoñ· <num value="1"><g type="numeral">I</g></num> ku lacak· <num value="1"><g type="numeral">I</g></num> kon· ku <num value="3"><g type="numeral">III</g></num>
+   <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> mratāṅ· bhānu <num value="1"><g type="numeral">I</g></num> kñuṁ ku tanmāru <num value="1"><g type="numeral">I</g></num> va lavo <num value="1"><g type="numeral">I</g></num>
+   </p>
+                   <p><milestone type="pagelike" unit="face" n="east"/>
+   <lb n="1"/>kñuṁ vraḥ kamratāṅ· Añ<unclear>·</unclear> <gap reason="lost" quantity="4" unit="character"/>śvara man<unclear>·</unclear> mratāṅ· Antār· Oy· saṁ paribhoga Ai ta vraḥ kamratāṅ· Añ· kamratāṅ· teṁ kroṁ <g type="dotMid">.</g> ramaṁ <num value="7">7</num> <g type="dotMid">.</g> caṁreṅ <num value="11">10 <g type="numeral">I</g></num> tmīṅ· viṇa kañjaṅ· lāhv· <num value="4"><g type="numeral">IIII</g></num> <g type="dotMid">.</g>
+   <lb n="2"/>caṁ Uk· va paṁre kralā vraḥ <num value="22">20 <unclear><g type="numeral">II</g></unclear></num> kñuṁ sre <num value="44">40 <unclear><g type="numeral">IIII</g></unclear></num> tmur· <num value="100">100</num> krapi <num value="20">20</num> sre Ai kantok· <num value="17">10 7</num> sre Ai caṁrai sanre <num value="4"><g type="numeral">IIII</g></num> sre Ai knar· teṁ sanre <num value="4"><g type="numeral">IIII</g></num> sre Ai piṅ· tvaṅ· sanre <num value="10">10</num> sre Ai pradul· sanre <num value="2"><g type="numeral">II</g></num> <g type="dotMid">.</g>
+   <lb n="3"/>sre Ai <gap reason="lost" quantity="1" unit="character"/>l· laṁ Añ· sanre <num value="2"><g type="numeral">II</g></num> daṁriṅ· Ai panla<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="character"/></seg>aṅān· <num value="1"><g type="numeral">I</g></num> jmaḥ ge ram· <g type="dotMid">.</g> carumatī <num value="1"><g type="numeral">I</g></num> priyasenā <num value="1"><g type="numeral">I</g></num> Aruṇamatī <num value="1"><g type="numeral">I</g></num> madanapriyā <num value="1"><g type="numeral">I</g></num> samarasenā <num value="1"><g type="numeral">I</g></num> vasantamallikā <num value="1"><g type="numeral">I</g></num> <g type="dotMid">.</g> jmaḥ ge caṁreṅ· <g type="dotMid">.</g> tanvaṅgī <num value="1"><g type="numeral">I</g></num> guṇadhārī <num value="1"><g type="numeral">I</g></num> dayitavatī <num value="1"><g type="numeral">I</g></num> sārāṅgī <num value="1"><g type="numeral">I</g></num>
+                      <lb n="4"/>payodharī <num value="1"><g type="numeral">I</g></num> ratimatī <num value="1"><g type="numeral">I</g></num> stanottarī <num value="1"><g type="numeral">I</g></num> rativindu <num value="1"><g type="numeral">I</g></num> manovatī <num value="1"><g type="numeral">I</g></num> pit Añ· <num value="1"><g type="numeral">I</g></num> juṅ· poñ· <num value="1"><g type="numeral">I</g></num> <g type="dotMid">.</g> tmiṅ· kanjaṅ· sakhipriyā <num value="1"><g type="numeral">I</g></num> madhurasenā <num value="1"><g type="numeral">I</g></num> tmiṅ· vīṇa gandhinī <num value="1"><g type="numeral">I</g></num> tmiṅ· lāhv· vinayavatī <num value="1"><g type="numeral">I</g></num> <g type="dotMid">.</g> jmaḥ caṁ-Uk· va laṅ·soṅ· <num value="1"><g type="numeral">I</g></num> va tpun· <num value="1"><g type="numeral">I</g></num> va Ahvāṅ· Aṁve ley· <num value="1"><g type="numeral">I</g></num>
+                      <lb n="5"/>va sUy· <num value="1"><g type="numeral">I</g></num> va cke <num value="1"><g type="numeral">I</g></num> va kañcan· <num value="1"><g type="numeral">I</g></num> va śivadāsa <num value="1"><g type="numeral">I</g></num> va toy· bhāgya <num value="1"><g type="numeral">I</g></num> va kroṅ· <num value="1"><g type="numeral">I</g></num> va ṅā <num value="1"><g type="numeral">I</g></num> va lābha <num value="1"><g type="numeral">I</g></num> va la<unclear>vd</unclear>u <num value="1"><g type="numeral">I</g></num> va santos· <num value="1"><g type="numeral">I</g></num> va soc· tarka <num value="1"><g type="numeral">I</g></num> va ragāl· <num value="1"><g type="numeral">I</g></num> va prāsāda <num value="1"><g type="numeral">I</g></num> va vrau <num value="1"><g type="numeral">I</g></num> va ta-Ūṁ <num value="1"><g type="numeral">I</g></num> va krāñ· <num value="1"><g type="numeral">I</g></num> va kcī <num value="1"><g type="numeral">I</g></num> va rapak· <num value="1"><g type="numeral">I</g></num> va cmā <num value="1"><g type="numeral">I</g></num> <g type="dotMid">.</g> jmaḥ qnak· sre <g type="dotMid">.</g>
+                      <lb n="6"/>va tvaḥ <num value="1"><g type="numeral">I</g></num> va tpaṅ· <num value="1"><g type="numeral">I</g></num> va Aras· <num value="1"><g type="numeral">I</g></num> va caṁ-Uk· vraḥ <num value="1"><g type="numeral">I</g></num> va tvin· <num value="1"><g type="numeral">I</g></num> va troh· <num value="1"><g type="numeral">I</g></num> va tya<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="character"/></seg>· <num value="1"><unclear><g type="numeral">I</g></unclear></num> <unclear>va tr</unclear>āṅ· <num value="1"><g type="numeral">I</g></num> va crañ· <num value="1"><g type="numeral">I</g></num> va knāy· <num value="1"><g type="numeral">I</g></num> va cke <num value="1"><g type="numeral">I</g></num> va tvāṅ· <num value="1"><g type="numeral">I</g></num> va kaṁpoñ· <num value="1"><g type="numeral">I</g></num> va jyeṣṭhahvarmma <num value="1"><g type="numeral">I</g></num> va tvoc· <num value="1"><g type="numeral">I</g></num> va daśamī <num value="1"><g type="numeral">I</g></num> va Adās· <num value="1"><g type="numeral">I</g></num> va phāñ· <num value="1"><g type="numeral">I</g></num> va panlas· <num value="1"><g type="numeral">I</g></num> ku cpoṅ· I ku vnāk· <num value="1"><g type="numeral">I</g></num>
+                      <lb n="7"/>ku Asaru <num value="1"><g type="numeral">I</g></num> ku tacaṅ· <num value="1"><g type="numeral">I</g></num> ku tvāṅ· <num value="1"><g type="numeral">I</g></num> ku tĀy· <num value="1"><g type="numeral">I</g></num> ku knur· <num value="1"><g type="numeral">I</g></num> ku mañjarī <num value="1"><g type="numeral">I</g></num> ku tyor· <num value="1"><g type="numeral">I</g></num> ku yatey· <num value="1"><g type="numeral">I</g></num> ku yapan· <num value="1"><g type="numeral">I</g></num> ku śaṁṅkha <num value="1"><g type="numeral">I</g></num> ku ya-Ir· <num value="1"><g type="numeral">I</g></num> ku yaluṅ· <num value="1"><g type="numeral">I</g></num> ku raṅap· <num value="1"><g type="numeral">I</g></num> ku lahve <num value="1"><g type="numeral">I</g></num> ku raṁnoc· ta mān· <num value="1"><g type="numeral">I</g></num> ku klaṅ· vroṅ· <num value="1"><g type="numeral">I</g></num> ku tyuṅ· <num value="1"><g type="numeral">I</g></num> ku tvuc· <num value="1"><g type="numeral">I</g></num>
+                      <lb n="8"/>ku ravā <num value="1"><g type="numeral">I</g></num> kon ku <num value="2"><g type="numeral">II</g></num> ku kañheṅ· <num value="1"><g type="numeral">I</g></num> ku men· kan· <num value="1"><g type="numeral">I</g></num> ku poñ· vraḥ Añ· <num value="1"><g type="numeral">I</g></num> ku kpoñ· <num value="1"><g type="numeral">I</g></num> ku laṅgāy· <num value="1"><g type="numeral">I</g></num> ku syāṁ po <num value="1"><g type="numeral">I</g></num> ku taṁve ru <num value="1"><g type="numeral">I</g></num> ku vaḥ kloñ· <num value="1"><g type="numeral">I</g></num> ku Aras· <num value="1"><g type="numeral">I</g></num> ku Asaru <num value="1"><g type="numeral">I</g></num> ku vaḥ cī <num value="1"><g type="numeral">I</g></num> ku putiḥ <num value="1"><g type="numeral">I</g></num> ku mratāṅ· <num value="1"><g type="numeral">I</g></num> ku mratāṅ· jīva <num value="1"><g type="numeral">I</g></num> ku vrau srac· <num value="1"><g type="numeral">I</g></num>
+                      <lb n="9"/>ku Aṁvai ru <num value="1"><g type="numeral">I</g></num> <g type="dotMid">.</g> kñuṁ vraḥ maṇīśvara Aṁnoy· Ācāryya kandin· <num value="1"><g type="numeral">I</g></num> va nirākranda <num value="1"><g type="numeral">I</g></num> va śivadāsa <num value="1"><g type="numeral">I</g></num> va haradāsa <num value="1"><g type="numeral">I</g></num> va kñuṁ vraḥ <num value="1"><g type="numeral">I</g></num> va kiṅkara <num value="1"><g type="numeral">I</g></num> va puṇyāśraya <num value="1"><g type="numeral">I</g></num> va mitradatta <num value="1"><g type="numeral">I</g></num> va dhara <num value="1"><g type="numeral">I</g></num> kantai kloñ mratāṅ· <num value="1"><g type="numeral">I</g></num> loṅ· Añ· <num value="1"><g type="numeral">I</g></num> ku Aras· <num value="1"><g type="numeral">I</g></num>
+                      <lb n="10"/><gap reason="lost" quantity="2" unit="character"/>l· vṅā <num value="1"><g type="numeral">I</g></num> tmur· <num value="10">10</num> <g type="dotMid">.</g>
+   </p>
+</div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="6">
+                     <lem>vañau</lem>
+                     <rdg source="bib:Coedes1937-1966_01">vañān·</rdg>
+                  </app>
+               </listApp>         
+         </div>
+            <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p n="1-2"><milestone type="pagelike" unit="face" n="north"/>533 Śaka, 13e jour de la lune croissante de Māgha, mansion lunaire Puṣya, la Balance étant à l’horizon. Le Poñ Uy donne des esclaves au Kpoñ Kamratāṅ Añ : <supplied reason="explanation">4 <foreign>va</foreign>, 2 <foreign>ku</foreign>, 1 enfant mâle</supplied>, 60 bœufs, 2 buffles, 10 chèvres, 40 cocotiers, 2 sanre de rizières à Ampoṅ.
+ 	</p>
+               <p n="2-3">Esclaves donnés par Jaṁ Añ au V.K.A. Mahāgaṇapati : <supplied reason="explanation">5 <foreign>va</foreign>, 4 <foreign>ku</foreign>, 1 enfant</supplied>, 20 bœufs, femmes <supplied reason="lost"><foreign>kantai</foreign></supplied> qui entrent en religion pour le sacrificateur du Kpoñ, une qui marque les jours saints, offre des fleurs <gap reason="lost"/> odorantes, Ci Añ, Tāñ.</p>
+               
+               <p n="1-3"><milestone type="pagelike" unit="face" n="south"/><supplied reason="explanation">Fragment d’une liste de noms de serviteurs</supplied>.</p>
+               
+               <p n="1-3"><milestone type="pagelike" unit="face" n="east"/>Esclaves du V.K.A. <gap reason="lost"/> śvara dont le Mratāñ Antār réunit les moyens de subsistance avec le V.K.A. Kamratāṅ Teṁ Kroṁ : 7 danseuses, 11 chanteuses, 4 joueuses de <foreign>vīṇā</foreign>, de <foreign>kañjaṅ</foreign> et de <foreign>lāhv</foreign>, 22 <foreign>caṁ-uk</foreign> va pour le service de l’aire du dieu, <supplied reason="subaudible">57</supplied> esclaves pour la rizière, 100 bœufs, 20 buffles, 16 rizières à Kantok, 4 <foreign>sanre</foreign> de rizière à Caṁrai, 4 sanre de rizière à Knar Teṁ, 10 <foreign>sanre</foreign> de rizière à Piṅ Tvaṅ, 2 <foreign>sanre</foreign> de rizière à Pradul, 2 <foreign>sanre</foreign> de rizière à <gap reason="lost"/> 1 Laṁ Añ, 1 potager à Panla <gap reason="lost"/>aṅan.</p>
+               <p n="3-4">Noms des danseuses : <supplied reason="explanation">6 noms</supplied>. Noms des chanteuses : <supplied reason="explanation">11 noms</supplied>. Joueuses de <foreign>kañjaṅ</foreign> <supplied reason="explanation">2 noms</supplied>, joueuse de <foreign>vīṇā</foreign> <supplied reason="explanation">1 nom</supplied>, joueuse de <foreign>lāhv</foreign> <supplied reason="explanation">1 nom</supplied>.</p>
+               <p n="4-8">Noms des caṁ-uk <supplied reason="explanation">22 noms de <foreign>va</foreign></supplied>. Noms des gens de la rizière : <supplied reason="explanation">18 <foreign>va</foreign>, 37 <foreign>ku</foreign>, 2 enfants</supplied>.</p>
+               <p n="9-10">Esclaves de Vraḥ Maṇīśvara, dons de l’<foreign>ācārya</foreign> Kandin : <supplied reason="explanation">8 <foreign>va</foreign></supplied>, esclaves femmes du Kloñ Mratāṅ, Loṅ Añ, Ku Aras, <gap reason="lost"/> 10 bœufs.</p>
+         </div>
+         <div type="commentary">
+            <p>The south face of this inscription has been inventoried as K. 557.</p>
+         </div>
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">21-23</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom from the estampage EFEO n. 1054.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">21-23</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+      </body>
+    </text>
+</TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stone slab of Tuol Prasat (K. 72), 9th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00072</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-12-09" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<p>
+   <lb n="1"/><gap reason="lost" quantity="9" unit="character"/> ta gi rājya vraḥ pāda staca dau rudralo<supplied reason="lost">ka</supplied>
+   <lb n="2"/><gap reason="lost" quantity="4" unit="character"/> vraḥ laṁvāṅa <gap reason="lost" quantity="4" unit="character"/> jā senāpati śamabhupūra loñ Indra
+   <lb n="3"/><gap reason="lost" quantity="4" unit="character"/> khloña glāṅa nā <gap reason="lost" quantity="2" unit="character"/> śarvvapura sandhanipura neḥ gi vraḥ rāja
+   <lb n="4"/><gap reason="lost" quantity="3" unit="character"/> yeṅa caña leṅa vra<supplied reason="lost">ḥ pāda</supplied> staca d<choice><orig>ā</orig><reg>au</reg></choice> rudraloka pandvala Oya prasāda
+   <lb n="5"/><gap reason="lost" quantity="2" unit="character"/> canacyaṁ pura pi pre dau [p]rajeña ta khloña choka gargyara ta trvaca paṁcāṁ
+   <lb n="6"/><supplied reason="lost">O</supplied>ya prasāda travāṅa ruṅa vraiya mana hāma rasa neḥ gi vraḥ rājya nu khloña
+   <lb n="7"/><supplied reason="lost">va</supplied>la khloña glāṅa nu khloña vala senāpati duka praśa<choice><orig>ṣṭ</orig><reg>st</reg></choice>a neḥ ta gi vraḥ rājya
+   <lb n="8"/>staca dau paramarudraloka loña Ina jā senāpati saṁvoka loña <gap reason="lost" quantity="2" unit="character"/>
+   <lb n="9"/>mūla teṅa hyaṅa jā svāmi loña Ārjuna mūla loña Em trvaca vraḥ kralā phdaṁ
+</p>
+                </div>
+            <div type="apparatus">
+               <listApp>
+                  <app loc="2">
+                     <lem>loñ Indra</lem>
+                     <rdg source="bib:Coedes1937-1966_01">loñ In pū, in GC. vol. VI</rdg>
+                  </app>
+                  <app loc="2">
+                     <lem>śamabhupūra</lem>
+                     <rdg source="bib:Coedes1937-1966_01">śaṁbhupūra</rdg>
+                  </app>
+                  <app loc="4">
+                     <lem>d<choice><orig>ā</orig><reg>au</reg></choice></lem>
+                     <rdg source="bib:Coedes1937-1966_01">d<supplied reason="lost">au</supplied></rdg>
+                  </app>
+                  <app loc="5">
+                     <lem>paṁcāṁ</lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="lost" quantity="3" unit="character"/>, in GC. vol. VI</rdg>
+                  </app>
+                  <app loc="7">
+                     <lem>khloña glāṅa nu</lem>
+                     <rdg source="bib:Coedes1937-1966_01">khloña bhojana, in GC. vol. VI</rdg>
+                  </app>
+                  <app loc="7">
+                     <lem>khloña vala senāpati</lem>
+                     <rdg source="bib:Coedes1937-1966_01">khloña senāpati, in GC. vol. VI</rdg>
+                  </app>
+                  <app loc="7">
+                     <lem>praśa<choice><orig>ṣṭ</orig><reg>st</reg></choice>a</lem>
+                     <rdg source="bib:Coedes1937-1966_01">praśasta, in GC. vol. VI</rdg>
+                  </app>
+                  </listApp>
+            </div>
+        <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p n="1-6"><gap reason="lost"/>. Sous le règne de S. M. le roi qui est allé au Rudraloka <gap reason="lost"/>. Vraḥ Laṁvaṅ <gap reason="lost"/> qui est Senāpati de Śambhupura, Loñ Indra <gap reason="lost"/> chef des magasins <gap reason="lost"/> à Śarvapura et Sandhanipura. Voici le <foreign>rāja</foreign> <gap reason="lost"/> que nous <foreign>cañ</foreign> <gap reason="lost"/>. S. M. le roi qui est allé au Rudraloka avait ordonné de donner par faveur <gap reason="lost"/> <foreign>cancyāṁ pura</foreign> pour le charger d’aller inviter le chef de Chok Gargyar, inspecteur des <foreign>paṁcāṁ</foreign>, à donner par faveur Travān Ruṅ Vrai <gap reason="lost"/>.</p>
+           <p n="6-7">Sous ce règne le Khloñ Vala, chef des magasins et le Khloñ vala Senāpati conservaient cet acte inscrit.</p>
+           <p n="7-9">Sous le règne de S. M. le roi qui est allé au Paramarudraloka, Loñ In, Senāpati de Saṁvok ; Loñ <gap reason="lost"/> <foreign>mūla</foreign> ; Teṅ Hyaṅ son épouse ; Loñ Arjuna, <foreign>mūla</foreign>mūla ; Loñ Em, inspecteur de la couche royale <gap reason="lost"/>.</p>
+        </div>
+         <div type="commentary">
+            <p>There is an illegible line before the line 1 on the estampage EFEO n. 959.</p>
+         </div>
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">114</citedRange></bibl>) without translation; re-edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">7</citedRange><citedRange unit="page">130, 135-136</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 959.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">7</citedRange><citedRange unit="page">130, 135-136</citedRange>
+    </bibl>
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">114</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

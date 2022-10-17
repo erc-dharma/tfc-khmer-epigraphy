@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Vat Unnalom (K. 1211), 2422 Buddhist Era (= 1879 CE)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787"><!-- To find the Viaf ID of Olivier de Bernon -->
+                  <forename>Olivier</forename>
+                  <surname>de Bernon</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01211</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-04-04" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="khm-Latn">
+                <p>
+                   <lb n="1"/>subhamasaḍa<unclear cert="low">ḥ</unclear> braḥ buddhasakarāja kanal̥aṅa dau <num value="2410">2410</num> chnaṁ roṅa saṁriddhisaksa samḍeca braḥ mahā saṁgharāja guṅa vata Uṇāl̥oma pāna sāṅa vihāra
+                   <lb n="2"/>Uṇāl̥oma mḍaṅa ṭala chnāṁ <add place="above">roṅa</add> dosaksa <num value="2422">2422</num> pāna paṭisaṁkharaṇa juosajula braḥ cetiay ta kuṁbūla lāpa pita saṁIta saṁĀṅa l̥öṅa jā thmī dhvö
+                   <lb n="3"/>chāta pāṁṅa bī lö Ukañā Aggamahāsèṇā ṭöma jhmoḥ prāka jā qnaka juoya daṁnuka Amruṅa kāra juosajula ṭala chnāṁ msāñ trīsaksa <num value="2423">2423</num>
+                   <lb n="4"/>braḥ siri sumaṅgalācāra laṅkādvipa prö mahā thera muoya Aṅga jhmoḥ Oṇāthaviriya Oya nāṁma braḥ paramasāririkadhātu muoya braḥ Aṅga maka thvāya knaṅa chnāṁ msāña khè pu<lb n="5" break="no"/>sa Asa nāhmīna mukkha mantrī dhaṁ tūca nau Asa prajārāsa phaṅ dāṁṅa hlāyaa mān citta trika Ara sādara grubva gnā ṭala thṅai <num value="13">13</num> köta khè bisākkha pāna rīepa sampo<lb n="6" break="no"/>dha pūjā ṭoya gröṅa sakāra phsiṅ <num value="2">2</num> höya pāna līeṅa braḥ saṅgha thvāya daiyadāna grubva <num value="3">3</num> thṅai ṭala thṅai beña pūramī khè bīsākkha ṭaṅhe braḥ paramadhātu
+                   <lb n="7"/>pradakkhasiṇa pancuḥ knaṅa braḥ cetiya dhaṁ ṭala chnāṁ mame pañcasakss <num value="2425">2425</num> pāna rö vihāra jā cāss phlāsa dhvö vihāra thmī dhaṁ dūlāya jāṅa vihāra cāsa pāna
+                   <lb n="8"/>rīepa kara pālaṅka dhvö jā thmī reccaṇā kpūrakpāca lāpa pita māsa ṭaṁkala braḥ jī dhaṁ knaṅa braḥ vihāra Ukañā savvātabhogā ṭöma jhmoḥ sāma hū jā qnaka juoya
+                   <lb n="9"/>dhvö ṭala chnāṁ ca Aṭṭhasaksa <num value="2427">2427</num> nau thṅai <num value="13">13</num> köta khè bisākkha pāna rīepa pancuḥ semā Abhiseka braḥ chlaṅa vihāra brama dāṁṅa Asa nau thṅai beñ pūramī
+                   <lb n="10"/>khè bisākkha ṭala chnāṁ thoḥ trīsaksa <num value="2433">2433</num> pāna sāṅa braḥ cetiya dāṁṅa gūra khāṅa mukkha braḥ cetiya dhaṁ sqIta sqĀṅa gūra vāsa lāpa pita māsa srāca höya
+                   <lb n="11"/>pāna sāṅa siddha braḥ jinarūpa snaṅa Aṅga muoya braḥ Aṅga damṅuna <num value="4">4</num> hāpa ṭaṁkala duka knaṅa braḥ cetiya khāṅa thpūṅa Ukañā dhārādhirāja ṭöma jhmoḥ paka sāṅa siddha muo<lb n="12" break="no"/>ya braḥ Aṅga saṅa guṇa mātā damṅuna <num value="4">4</num> hāpa ṭamkala dukkha knāṅa braḥ cetiya khāṅa jöṅa höya pāna paṭisaṁkharaṇa juosajula braḥ buddha seyyāsa lö māta dvāra
+                   <lb n="13"/>braḥ cetiya dhaṁ lāpa ṭuḥ khāta pita māsa Abhiseka brama gnā dāṁṅa <num value="3">3</num> braḥ Aṅga saṅgāyanā chlāṅa nau thṅai beña pūramī khè bisākkha jā sureca nau chnāṁ mamī catvā<lb n="14" break="no"/>saksa <num value="2424">2424</num> pāna sāṅa vata prajuṁ sāgara ṭala chnāṁ kura mahāthera muoya jhmoḥ ratana sāra nāṁma ṭöma braḥ bodhibriksa bī braḥ Aṅga maka thvāya muoya ṭāṁ
+                   <lb n="15"/>vata patumavatī muoya braḥ Aṅga ṭala chnāṁ jūta pancuḥ semā vata prajuṁ sāgara pāna ṭaṅhè dau nau thṅai <num value="6">6</num> köta khè bīsākkha ṭāṁ höya sambhodha chlaṅ brama niṅa semā
+                </p>
+            </div>
+            <div type="apparatus">
+                  <listApp>
+                     <app loc="2">
+                     <lem>sakkha</lem>
+                     <note>There is a diacritic sign on the letter <foreign>sa</foreign>.</note>
+                  </app>
+                     </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Bernon2001_01">
+            <p n="1">Prospérité ! L’auguste Ère Bouddhique étant dans sa 2410e année <supplied reason="subaudible">1867 A.D.</supplied>, l’année du Dragon, dixième de la décade, le Suprême Patriarche résidant au Vatt Uṇṇālom a <supplied reason="subaudible">fait</supplied> construire le sanctuaire</p>
+            <p n="2">Uṇṇālom en une fois jusqu’en l’année du Dragon, 2422 <supplied reason="subaudible">1879 A.D.</supplied>, deuxième de la décade. <supplied reason="subaudible">Il</supplied> a <supplied reason="subaudible">fait</supplied> restaurer l’auguste Cetiya en lui ajoutant un sommet <supplied reason="subaudible">pyramidal</supplied>, en rénovant l’enduit soigneusement à neuf.</p>
+            <p n="3">Il a fait <supplied reason="subaudible">poser</supplied> un parasol sur le sommet. L’Ukña Aggamahāsèna du nom de Prak est la personne qui a patronné ces réparations jusqu’en l’année du Serpent, troisième de la décade, 2423 <supplied reason="subaudible">1880 A.D.</supplied>.</p>
+            <p n="4">L’auguste seigneur Sumaṅgalācār de Ceylan a ordonné à un vénérable moine du nom de Aoṇāthaviriya d’apporter une auguste relique du Buddha dont il a fait l’hommage, l’année du Serpent, au mois de</p>
+            <p n="5"><foreign>puss</foreign>. Tous les officiers et fonctionnaires, les plus importants et les plus petits, de même que toute la population civile, se sont réjouis vivement le 13e jour de la lune croissante du mois de <foreign>bisākh</foreign> lorsque fut organisé</p>
+            <p n="6">la cérémonie d’inauguration et de consécration de plusieurs objets sacrés. Ils ont invité les vénérables moines pour leur offrir de la nourriture. Pendant les trois jours de la pleine lune du mois de <foreign>bisākh</foreign>, on a organisé des processions de l’auguste relique du Buddha</p>
+            <p n="7">autour de l’auguste Cetiya <supplied reason="subaudible">avant de</supplied> l’enfuir à l’intérieur. L’année de la Chèvre, cinquième de la décade, l’an 2425 <supplied reason="subaudible">1882 A.D.</supplied>, on a démoli l’ancien sanctuaire pour le remplacer par un nouveau, plus vaste que l’ancien. On a</p>
+            <p n="8">rénové le piédestal <supplied reason="subaudible">de la statue du Buddha</supplied> en l’ornant de décors sculptés, recouverts de dorure. On a placé la grande statue du Buddha <supplied reason="explanation"><foreign>jī dhaṁ</foreign></supplied> dans le sanctuaire. L’Ukña Savvātabhogā, du nom de Sām Hū, est la personne qui a patronné ces</p>
+            <p n="9">travaux jusqu’en l’année du Chien, huitième de la décade, 2427 <supplied reason="subaudible">1884 A.D.</supplied>. Le 13e jour de la lune croissante du mois de <foreign>bisākh</foreign> a été organisée la pose de <foreign>sīmā</foreign> qui consacrent l’achèvement total du sanctuaire le jour de la pleine lune du</p>
+            <p n="10">mois de <foreign>bisākh</foreign>. L’année du Lièvre, troisième de la décade, 2433 <supplied reason="subaudible">1890 A.D.</supplied>, on a construit deux cetiya devant le Grand Cetiya, ornés de décors, recouverts de dorure. Cela étant accompli</p>
+            <p n="11">on a construit une statue de l’auguste Victorieux de 4 coudées qui a été déposée dans l’auguste cetiya du sud. L’Ukña Dhārādhirāj du nom de Pak a construit une</p>
+            <p n="12"><supplied reason="subaudible">autre</supplied> statue, en l’honneur des vertus de sa mère, de 4 coudées, déposée dans l’auguste cetiya du nord, puis il a dévotement fait restaurer les Buddha couchés sur les linteaux des portes </p>
+            <p n="13">du Grand Cetiya <supplied reason="subaudible">et</supplied> les a fait recouvrir de dorure. Les trois statues du Buddha ont été ondoyées ensemble par la communauté des moines le jour de la pleine lune du mois de <foreign>bisākh</foreign>, et cela fut achevé. L’année du Cheval, quatrième de la</p>
+            <p n="14">décade, 2424 <supplied reason="subaudible">1881 A.D.</supplied>, on a édifié le monastère de Prajuṁ Sāgar. L’année du Cochon <supplied reason="subaudible">1886 A.D.</supplied>, un vénérable du nom de Ratana Sār a apporté un <supplied reason="subaudible">rejeton</supplied> de l’arbre de l’Illumination dont il a fait l’hommage en le plantant</p>
+            <p n="15">au Vatt Padum Vaṭī. L’année du Rat <supplied reason="subaudible">1887 A.D.</supplied>, on a posé les <foreign>sīmā</foreign> du Vatt Prajuṁ Sāgar. On a fait une procession jusqu’au 6e jour de la lune croissante du mois de <foreign>bisākh</foreign> <supplied reason="subaudible">et</supplied> l’on a planté <supplied reason="subaudible">l’arbre de l’Illumination</supplied> qui a été consacré en même temps que les <foreign>sīmā</foreign>.</p>
+ 	</div>
+        <!--  <div type="commentary">
+            <p></p>
+         </div>  -->
+        <div type="bibliography">
+          <p>First edited by Olivier de Bernon (<bibl rend="omitname"><ptr target="bib:Bernon2001_01"/><citedRange unit="page">249-260</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on a photograph by LY Reaksmey.</p>
+	 <listBibl type="primary">
+    <bibl n="RM">
+      <ptr target="bib:Bernon2001_01"/><citedRange unit="page">249-260</citedRange>
+    </bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Tuol Ang Chi Chmar (K. 1352), 590 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               <persName ref="part:chhu">
+                  <forename>Chhunteng</forename>
+                  <surname>Hun</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap; Lyon</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01352</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom &amp; Arlo Griffiths.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary>
+                     <p>The inscription contains ten lines in Sanskrit forming five stanzas in anuṣṭubh metre. The poem opens with a praise of god Śiva. In the second verse, a devotee of god Śiva namely Nandīrāśi under the reign of king Jayavarman I established a hermitage (āśrama). The verse III mentions a donation of wealth of the protagonist to the hermitage. The last two stanzas consist of a malediction and a benediction for the protection of the foundation.</p>
+                  </summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-01-19" status="draft">initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/><unclear>ja</unclear>yaty a<unclear>m</unclear>a<unclear>ra</unclear>ṇā<unclear>rthe</unclear><space/></l>
+<l n="b">yaś śrīmāñ chakti-trayāt prabhuḥ</l>
+<l n="c"><lb n="2"/>jagat-sakala-ka<unclear>r</unclear>tt<unclear>e</unclear>śa<space/>s</l>
+<l n="d">sārddha-candra-jaṭā-dharaḥ</l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="3"/><unclear>ta</unclear>s<unclear>m</unclear>i<unclear>n</unclear> r<unclear>ājādhirājasya</unclear><space/></l>
+<l n="b"><unclear>rājye śrījayava</unclear>rmmaṇaḥ</l>
+<l n="c" real="-+-+---+"><lb n="4"/>tad-āśramaṁ samaka<unclear>ro</unclear><space/>n</l>
+<l n="d">nandi<unclear>rā</unclear>śir vratī mahān·</l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="5"/>nabhaś-chidra-śarair llakṣye<space/></l>
+<l n="b">śakāpde mādhavasya ca</l>
+<l n="c" real="+++++++-"><lb n="6"/>gu<unclear>rvartha</unclear>ṁ paurṇnāmāsyāñ ca<space/></l>
+<l n="d">so’vyadād idam āśrame</l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="7"/>yoginām āśrama-dravya<space/>m</l>
+<l n="b">ito lobhāj jihīrṣati</l>
+<l n="c" real="-+-++--+"><lb n="8"/>sa pāpaśūro niraye<space/></l>
+<l n="d">nimajjed ā bhuvas sthite<supplied reason="lost">ḥ</supplied></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="9"/>svapuṇyaṁ parapuṇyam vā<space/></l>
+<l n="b">cira-kālena hīnakam·</l>
+<l n="c"><lb n="10"/>svadhanair yyo’nuvarddheta <g type="spiralR"/><space/></l>
+<l n="d">sa svarggāyopakalpyate</l>
+</lg>
+                </div>
+                <div type="apparatus">
+               <listApp>
+                 <app loc="1">
+                  <lem>a<unclear>m</unclear>a<unclear>ra</unclear>ṇā<unclear>rthe</unclear></lem>
+                    <rdg source="bib:Hun2018_01">amaraṇātho</rdg>
+                  <note>The term <foreign>amaraṇārthe</foreign> should perhaps more properly be transcribed <foreign>amaraṇātho</foreign>, since, if the final graph represents <foreign>rthe</foreign>, we would normally expect the final vowel-marker to be placed in front of the raised <foreign>r</foreign> (as in <foreign>°kartteśas</foreign> in the following line), rather than before the <foreign>th</foreign> underneath. But this requires assuming a <supplied reason="explanation">not impossible</supplied> grammatical anomaly. If we were to read <foreign>amaraṇātho</foreign> <supplied reason="explanation">instead of <foreign>amaraṇārthe</foreign></supplied>, we would have to assume mistaken retroflexion of the initial consonant of the word <foreign>nātha</foreign>, induced by the <foreign>r</foreign> in the preceding word in the compound. In that case, the verse would begin “He who <supplied reason="explanation"><foreign>yaḥ</foreign></supplied> is victorious <supplied reason="explanation"><foreign>jayati</foreign></supplied>, the Lord of immortals <supplied reason="explanation"><foreign>amaraṇāthaḥ</foreign></supplied>, <gap reason="ellipsis"/>”.</note>
+                 </app>
+                  <app loc="4">
+                  <lem>samaka<unclear>ro</unclear>_n nandi<unclear>rā</unclear>śir</lem>
+                    <rdg source="bib:Hun2018_01">samakaro<space/>t tandirāśi</rdg>
+                 </app>
+                  <app loc="6">
+                  <lem>’vyadād</lem>
+                    <rdg source="bib:Hun2018_01">’bhyadād</rdg>
+                 </app>
+                 <app loc="8">
+                   <lem>sthite<supplied reason="lost">ḥ</supplied></lem>
+                   <note>For the suppletion of a final <foreign>visarga</foreign>, of which no trace is visible, see note to the translation below.</note>
+                 </app>
+                 <app loc="10">
+                    <lem><g type="spiralR"/></lem>
+                    <note>At the end of the third quarter-quarter, there is a counter-clockwise spiral which long puzzled me because the meter forbids another syllable here. Hun Chhunteng has kindly supplied the solution: he has explained, in an unpublished paper, that this symbol is used simply to fill space so that the end of this third quarter is aligned with the previous third quarters of the inscription, and he has shown that the symbol is used elsewhere, for instance in another pre-Angkorian inscription that we read at the TIISRR, namely K. 1417. Since his pointing this out, I notice that it also occurs in K. 151 after the third quarter of stanza VIII, where it also evidently puzzled Cœdès.</note>
+                 </app>
+                 <app loc="10">
+                   <lem>°kalpyate</lem>
+                   <note>As Kataoka Kei has pointed out, we expect rather <foreign>°kalpate</foreign>, which would give the intended sense. We have translated as though the text read <foreign>°kalpate</foreign>.</note>
+                 </app>
+                  <app loc="10">
+                  <lem>svadhanair</lem>
+                    <rdg source="bib:Hun2018_01">svavanair</rdg>
+                 </app>
+               </listApp>
+         </div>
+         <div type="translation" source="bib:Goodall2020_01">
+          <p rend="stanza" n="1-2">He who <supplied reason="explanation"><foreign>yaḥ</foreign></supplied> is victorious <supplied reason="explanation"><foreign>jayati</foreign></supplied>, for the sake of non-death <supplied reason="explanation"><foreign>amaraṇārthe</foreign></supplied>, who is glorious <supplied reason="explanation"><foreign>śrīmān</foreign></supplied> <supplied reason="subaudible">and</supplied> all-powerful <supplied reason="explanation"><foreign>prabhuḥ</foreign></supplied> by means of His three powers <supplied reason="explanation"><foreign>śaktitrayāt</foreign></supplied>, the all-creator of the universe <supplied reason="explanation"><foreign>jagatsakalakarttā</foreign></supplied>, the Lord <supplied reason="explanation"><foreign>īśaḥ</foreign></supplied>, whose matted locks <supplied reason="subaudible">are adorned</supplied> with the crescent moon <supplied reason="explanation"><foreign>sārddhacandrajaṭādharaḥ</foreign></supplied>, in this <supplied reason="explanation"><foreign>tasmin</foreign></supplied> reign <supplied reason="explanation"><foreign>rājye</foreign></supplied> of the overlord of kings <supplied reason="explanation"><foreign>rājādhirājasya</foreign></supplied> Jayavarman <supplied reason="subaudible">I</supplied>, the great <supplied reason="explanation"><foreign>mahān</foreign></supplied> follower of religious observances <supplied reason="explanation"><foreign>vratī</foreign></supplied> Nandirāśi created/completed <supplied reason="explanation"><foreign>samakarot</foreign></supplied> an <foreign>āśrama</foreign> of Him.</p>
+          <p rend="stanza" n="3-4">In the <foreign>śaka</foreign> year <supplied reason="explanation"><foreign>śakābde</foreign></supplied> known <supplied reason="explanation"><foreign>lakṣye</foreign></supplied> by void <supplied reason="explanation">0 = <foreign>nabhaḥ°</foreign></supplied>, orifices <supplied reason="explanation">9 = <foreign>°chidra°</foreign></supplied>, arrows <supplied reason="explanation">5 = <foreign>°śaraiḥ</foreign></supplied>, on the full-moon day <supplied reason="explanation"><foreign>paurṇamāsyāṁ</foreign></supplied> of <supplied reason="subaudible">the second month of spring, namely</supplied> Mādhava, he gave, for the merit of his parents <supplied reason="explanation"><foreign>gurvartham</foreign></supplied>, this <supplied reason="subaudible">collection of</supplied> monastery goods <supplied reason="explanation"><foreign>āśramadravyam</foreign></supplied> to the Yogins in the <foreign>āśrama</foreign>. <supplied reason="subaudible">If someone</supplied> out of greed <supplied reason="explanation"><foreign>lobhāt</foreign></supplied> desires to steal <supplied reason="explanation"><foreign>jihīrṣati</foreign></supplied> from this <supplied reason="subaudible">monastery</supplied> <supplied reason="explanation"><foreign>itaḥ</foreign></supplied>, that ace among villains <supplied reason="explanation"><foreign>pāpaśūraḥ</foreign></supplied> must sink <supplied reason="explanation"><foreign>nimajjet</foreign></supplied> into hell <supplied reason="explanation"><foreign>niraye</foreign></supplied> for as long as <supplied reason="explanation"><foreign>ā</foreign></supplied> the earth <supplied reason="explanation"><foreign>bhuvaḥ</foreign></supplied> perdures <supplied reason="explanation"><foreign>sthiteḥ</foreign></supplied>.</p>
+            <p rend="stanza" n="5">He who, with his own wealth, increases his own or another’s merit<supplied reason="subaudible">orious foundation, on the grounds that such a foundation is</supplied> liable to diminish over time, is fit for heaven.</p>
+           </div>
+         <!-- <div type="commentary">
+         </div> -->
+       <div type="bibliography">
+          <p>First edited by Chhunteng Hun (<bibl rend="omitname"><ptr target="bib:Hun2018_01"/><citedRange unit="page">44-47</citedRange></bibl>) with a Khmer translation; re-edited by Dominic Goodall (<bibl rend="omitname"><ptr target="bib:Goodall2020_01"/><citedRange unit="page">325-343</citedRange></bibl>) with an English translation.</p>
+	 <listBibl type="primary">
+    <bibl n="DG">
+      <ptr target="bib:Goodall2020_01"/><citedRange unit="page">325-343</citedRange>
+    </bibl>
+   <bibl n="CH">
+     <ptr target="bib:Hun2018_01"/><citedRange unit="page">44-47</citedRange>
+   </bibl>
+ </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

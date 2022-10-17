@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lintel of Vat Baray (K. 140), 598 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00140</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-09-02" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+                   <lg n="1" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="a"><lb n="1"/>mūrtti-dvāra-śaraiś śake sita-dine prāpte daśaikottare <space/>_</l>
+   <l n="b">jyeṣṭhasyārka-kujendujā mithuna-g<unclear>ā</unclear><seg met="++-++-+"><gap reason="lost" quantity="7" unit="character"/></seg></l>
+<l n="c"><lb n="2"/>śukrasyārkka-suto vr̥ṣe sura-guruẖ kanyā<unclear>ṁ</unclear> mr̥gārddhodaye <space/></l>
+<l n="d">śrīśambhoḫ pratimām ihaiva nihitāṁ <seg met="++-++-+"><gap reason="lost" quantity="7" unit="character"/></seg></l>
+</lg>
+<p>
+   <lb n="3"/>kñuṁ Aṁnoy· sāmantagajapati ta vraḥ kamratāṅ· Añ· śrī śaṅkara <gap reason="lost" quantity="3" unit="character"/> vā taOṅ· <num value="1"><g type="numeral">I</g></num> <gap reason="lost" quantity="7" unit="character"/>
+   <lb n="4"/>vā qnak· klah· <num value="1"><g type="numeral">I</g></num> vā klaṅ· Aras· <num value="1"><g type="numeral">I</g></num> vā kandat<unclear>·</unclear> <num value="1"><g type="numeral">I</g></num> vā kandin· <num value="1"><g type="numeral">I</g></num> vā paroy· <num value="1"><g type="numeral">I</g></num> vā kan· <gap reason="lost" quantity="7" unit="character"/>
+   <lb n="5"/>vā vṅā <num value="1"><g type="numeral">I</g></num> vā caṭṭī <num value="1"><g type="numeral">I</g></num> vā kdic· <num value="1"><g type="numeral">I</g></num> vā caṁpaṅ· <num value="1"><g type="numeral">I</g></num> vā kañjoṅ· <num value="1"><g type="numeral">I</g></num> vā stoy· <num value="1"><g type="numeral">I</g></num> <gap reason="lost" quantity="7" unit="character"/>
+   <lb n="6"/>vā sudānta <num value="1"><g type="numeral">I</g></num> vā niṣṭhura <num value="1"><g type="numeral">I</g></num> vā pañcamī <num value="1"><g type="numeral">I</g></num> vā satī <num value="1"><g type="numeral">I</g></num> vā vikalanetra <num value="1"><g type="numeral">I</g></num> vā tray<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> <gap reason="lost" quantity="7" unit="character"/>
+   <lb n="7"/>vā kānadat· <num value="1"><g type="numeral">I</g></num> vā daśamī <num value="1"><g type="numeral">I</g></num> vā dharmmavala <num value="1"><g type="numeral">I</g></num> vā sudharmma <num value="1"><g type="numeral">I</g></num> vā saṁUy· <num value="1"><g type="numeral">I</g></num> vā ca <gap reason="lost" quantity="6" unit="character"/>
+   <lb n="8"/>svanagarvvitā <num value="1"><g type="numeral">I</g></num> kon vā viśākha <num value="1"><g type="numeral">I</g></num> ku cavuṅ· <num value="1"><g type="numeral">I</g></num> ma<unclear>va</unclear>haṅsikā <num value="1"><g type="numeral">I</g></num> kon· vā svo <gap reason="lost" quantity="7" unit="character"/>
+   <lb n="9"/>suvandhurā <num value="1"><g type="numeral">I</g></num> ku tcaḥ <num value="1"><g type="numeral">I</g></num> vasantavallī <num value="1"><g type="numeral">I</g></num> kon· ku kralā <num value="1"><g type="numeral">I</g></num> ku kaṁka <num value="1"><g type="numeral">I</g></num> haṅsamanikā <num value="1"><g type="numeral">I</g></num> <gap reason="lost" quantity="7" unit="character"/>
+   <lb n="10"/>lalitavibhramā <num value="1"><g type="numeral">I</g></num> kon· sulitā <num value="1"><g type="numeral">I</g></num> suvibhramā <num value="1"><g type="numeral">I</g></num> jākuka <num value="1"><g type="numeral">I</g></num> kon· karapa <gap reason="lost" quantity="7" unit="character"/>
+   <lb n="11"/>kon· vā mr̥s· gi <num value="1"><g type="numeral">I</g></num> vā kantoṅ· ñaṅ· kon· ku laṅkaḥ vā Aras· <num value="1"><g type="numeral">I</g></num> vā vīracan· <gap reason="lost" quantity="7" unit="character"/>
+   <lb n="12"/>ku ku Aṁpik· <num value="1"><g type="numeral">I</g></num> ku kaṁvai kon· ku vā dvok· ku pattibhāhv· ku stau vrai kon· ku <gap reason="lost" quantity="7" unit="character"/>
+   <lb n="13"/>kanĀs <num value="1"><g type="numeral">I</g></num> ku vrau kon· ku ku <num value="1"><g type="numeral">I</g></num> Anrok· srāṅ· <num value="1"><g type="numeral">I</g></num> ku jvik· <num value="1"><g type="numeral">I</g></num> vā kaptaṅ<unclear>·</unclear> <num value="1"><g type="numeral">I</g></num> ku k<gap reason="lost" quantity="7" unit="character"/>
+   <lb n="14"/><gap reason="lost" quantity="1" unit="character"/>ṅ· <num value="1"><g type="numeral">I</g></num> vā pūrṇṇamī <num value="1"><g type="numeral">I</g></num> ku pe <num value="1"><g type="numeral">I</g></num> kon· ku vā vñau <num value="1"><g type="numeral">I</g></num> vā kcan· <num value="1"><g type="numeral">I</g></num> ku sliṅ<supplied reason="omitted">·</supplied> <num value="1"><g type="numeral">I</g></num> kon· ku <gap reason="lost" quantity="7" unit="character"/>
+   <lb n="15"/><gap reason="lost" quantity="2" unit="character"/>ṅ· sai kon· ku vā raṁnoc· vraḥ <num value="1"><g type="numeral">I</g></num> ku karoṁ <num value="1"><g type="numeral">I</g></num> sā kanuṁ kaneṁ kon· ku ra <gap reason="lost" quantity="7" unit="character"/>
+   <lb n="16"/><gap reason="lost" quantity="2" unit="character"/> kon· ku ku kaṅ <gap reason="lost" quantity="1" unit="character"/>ṁ <num value="1"><g type="numeral">I</g></num> k<gap reason="lost" quantity="4" unit="character"/>
+</p>      
+                </div>
+           <div type="apparatus">
+               <listApp>
+                  <app loc="8">
+                     <lem>ma<unclear>va</unclear>haṅsikā</lem>
+                     <rdg source="bib:Coedes1937-1966_01">ma<gap reason="lost" quantity="1" unit="character"/>haṅsikā</rdg>
+                  </app>
+                  <app loc="12">
+                     <lem>dvok·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">dmok·</rdg>
+                  </app>
+                  <app loc="13">
+                     <lem>kanĀs</lem>
+                     <rdg source="bib:Coedes1937-1966_01">No trace of this two-syllable word is discernable on the estampage; the <foreign>virāma</foreign> is not applied to the final consonant of each syllable.</rdg>
+                  </app>
+                  <app loc="14">
+                     <lem><gap reason="lost" quantity="1" unit="character"/>ṅ· <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="lost" quantity="1" unit="character"/>ṅ·</rdg>
+                  </app>
+                  </listApp> 
+         </div> 
+           <div type="translation" xml:lang="fra" source="bib:Barth1885_01">
+ 	<p rend="stanza" n="1"><supplied reason="explanation">L’an de</supplied> <foreign>śaka</foreign> <supplied reason="explanation">désigné</supplied> par corps, portes et flèches, le onzième jour de la quinzaine claire <supplied reason="explanation">du mois</supplied> de Jyeṣṭha étant venu : le Soleil, le fils de la Terre et le fils de la Lune sont arrivés dans les Gémeaux <gap reason="lost"/> de Śukra, le fils du Soleil <supplied reason="lost">est</supplied> dans le Taureau, le précepteur des dieux <supplied reason="explanation">a atteint</supplied> la Vierge, le Capricorne étant à moitié levé ; <supplied reason="explanation">en ce moment</supplied> cette image ici placée de Śrī Śambhu <gap reason="lost"/>.</p>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p rend="stanza" n="1"><supplied reason="explanation">En l’année</supplied> <foreign>śaka</foreign> marquée par les <supplied reason="subaudible">5</supplied> flèches, les <supplied reason="subaudible">9</supplied> ouvertures et les <supplied reason="subaudible">8</supplied> corps, le onzième jour de la lune croissante de Jyeṣṭha étant arrivé, le Soleil, le fils de la terre <supplied reason="explanation">Mars</supplied>, et le fils de la Lune <supplied reason="explanation">Mercure</supplied> étant dans les Gémeaux, <supplied reason="explanation">la Lune dans la Balance en compagnie</supplied> de Vénus, le fils du Soleil <supplied reason="explanation">Saturne</supplied> dans le Taureau, le précepteur des dieux <supplied reason="explanation">Jupiter</supplied> dans la Vierge, le Capricorne étant à moitié levé, <gap reason="lost"/> cette image ici placée de Śrī Śambhu.</p>
+            <p n="3-16">Esclaves donnés par le chef des éléphants du roi à V.K.A. Śrī Śaṅkara <gap reason="lost"/> <supplied reason="explanation">suit une liste d’esclaves, <foreign>vā</foreign> et <foreign>ku</foreign>, avec leurs enfants, <foreign>kon</foreign></supplied>.</p>
+         </div>
+         <div type="commentary">
+            <p>From line 5 onward, the size of character is almost doubled of the previous lines.<!-- KC: Not sure if this should be in #handDesc above. --></p>
+         <p>There are some traces of two or three more lines after the last line.</p>
+         </div>
+        <div type="bibliography">
+          <p>The Sanskrit stanza of the inscription was first edited by August Barth <bibl rend="omitname"><ptr target="bib:Barth1885_01"/><citedRange unit="page">75-77</citedRange></bibl>); re-edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">14-15</citedRange></bibl>) along with the Khmer text with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 974.</p> 
+        <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">115-118</citedRange>
+    </bibl>
+           <bibl n="AB">
+      <ptr target="bib:Barth1885_01"/><citedRange unit="page">75-77</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

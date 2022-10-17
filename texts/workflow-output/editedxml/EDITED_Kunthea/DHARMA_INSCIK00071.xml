@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Basak (K. 71), 9th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00071</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-10-18" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<p>
+<lb n="1"/><gap reason="lost" quantity="16" unit="character"/> vvaṁ Āc<unclear>·</unclear> mān· <gap reason="lost" quantity="3" unit="character"/>
+   <lb n="2"/><gap reason="lost" quantity="15" unit="character"/>y<supplied reason="lost">·</supplied> ley· <g type="dotMid">.</g> mān· <gap reason="lost" quantity="3" unit="character"/>
+   <lb n="3"/><gap reason="lost" quantity="15" unit="character"/>ṅ· Añ· ta kamrateṅ· Añ· vraḥ guru pre <gap reason="lost" quantity="4" unit="character"/>
+   <lb n="4"/><gap reason="lost" quantity="12" unit="character"/> <supplied reason="lost">p</supplied>uliṇṇa cval· saṁ nuva paryyaṅ· dharmmādhikaraṇa <gap reason="lost" quantity="3" unit="character"/>
+   <lb n="5"/><gap reason="lost" quantity="3" unit="character"/> kamrateṅ <gap reason="lost" quantity="5" unit="character"/> khloñ bhūtā<choice><orig>ṣ</orig><reg>ś</reg></choice>a paryyaṅ· pratyaya paryyaṅ·
+   <lb n="6"/>tamrvāc· paryyaṅ· dār· dau nā rājadravya <g type="unidentified">.</g> nau ruva kalpanā kamsteṅ· Añ· rājakula<lb n="7" break="no"/>mahāmantri vrāhmaṇācāryya khloñ· vala <gap reason="lost" quantity="3" unit="character"/>ka sāmānyajana nu khñuṁ vraḥ ka<lb n="8" break="no"/>mrateṅ· Añ· ta mān Aṁve kaṁnuṅṅa vraḥ puliṇṇa <unclear><g type="dotMid">.</g></unclear> pre syaṅ· ta Oy· paryyaṅ· sro<lb n="9" break="no"/>ṅ· ta vraḥ kamrateṅ· Añ· vvaṁ Āc· ti Oy· qnak ta dyala kaṁnuṅṅa vraḥ puliṇṇa <g type="dotMid">.</g> duk·
+   <lb n="10"/>dmār· paryyaṅ· <num value="4">4</num> pratipakṣa ta nu dār· paryyaṅ· <g type="dotMid">.</g> gi paryyaṅ· phoṅ· nu dmār· paryyaṅ·
+   <lb n="11"/>ta pvānna Āyatta ta mrateñ· rājadvāra toy· khneta gi ta nu Oy<unclear>·</unclear> paryyaṅ· prati<lb n="12" break="no"/>pakṣa nu sroṅ· kamrateṅ· jagat· <g type="unidentified">.</g> nau Aṁpālla qnak ta mān vyavahāra nā dharmmādhikara<lb n="13" break="no"/>ṇa tatāp· Oy· paryyaṅ· vinaya ta kamrateṅ· jagat· <g type="dotMid">.</g> dār· syaṅ· thmur· yyuga ni<lb n="14" break="no"/>yata toy doṣa qnakka <g type="unidentified">.</g> pi duk· jā thpala <g type="dotMid">.</g> dār· chmāṁ dharmmādhikaraṇa sī nu
+   <lb n="15"/>tai tap· pramvāya pratipakṣa ta nu cāṁ vraḥ thpal· gi ta nu Oy· paryyaṅ· nu
+   <lb n="16"/>sroṅ· kamrateṅ· jagat· <g type="unidentified">.</g> gi thpal· noḥ nu chmāṁ dharmmādhikaraṇa ta cāpa <g type="dotMid">.</g> Āya<lb n="17" break="no"/>tta ta mrateñ· rājadvāra toy· khnet· khloñ· vnaṁ kulapati khloñ· kāryya de<lb n="18" break="no"/>vaparicāraka grāmapāla tamrvāc· thve gośāla rṇṇoc· mvāya khnet· mvāya
+   <lb n="19"/>nā duk· vraḥ thpal· <g type="unidentified">.</g> vela gośāla neḥ ta vyara nu kṣaya <g type="dotMid">.</g> gi khloñ vnaṁ
+   <lb n="20"/>kulapati khloñ· kāryya devaparicāraka grāmapāla tamrvāc· gi ta
+   <lb n="21"/>puraskr̥ta viṅ· sot· <g type="unidentified">.</g> s[t]eñ· ta siṅ· phoṅ· nau ruva paryyaṅ· śeṣa t<unclear>a</unclear><choice><unclear>bh</unclear><unclear>t</unclear></choice><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>ḥ</unclear>
+</p>
+                </div>
+                <div type="apparatus">
+               <listApp>
+                  <app loc="5">
+                     <lem>bhūtā<choice><orig>ṣ</orig><reg>ś</reg></choice>a</lem>
+                     <rdg source="bib:Coedes1937-1966_01">bhūtāśa</rdg>
+                  </app>
+                  <app loc="21">
+                     <lem>śeṣa t<unclear>a</unclear><choice><unclear>bh</unclear><unclear>t</unclear></choice><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>ḥ</unclear></lem>
+                     <rdg source="bib:Coedes1937-1966_01">śeṣa</rdg>
+                  </app>
+                            </listApp>         
+         </div>
+        <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+           <p n="1-6"><gap reason="lost"/> qu’il n’y ait pas <gap reason="lost"/>. Il y eut <supplied reason="subaudible">un édit</supplied> du roi au K.A. Vraḥ Guru ordonnant <gap reason="lost"/> la Sainte Ile, entrer ainsi que l’huile de la cour de justice <gap reason="lost"/> <supplied reason="subaudible">l’huile du</supplied> Kamrateṅ <gap reason="lost"/> <supplied reason="subaudible">l’huile</supplied> du Khloñ Bhūtāśa, l’huile des curateurs <supplied reason="explanation"><foreign>pratyaya</foreign></supplied>, l’huile des inspecteurs, l’huile perçue par le trésor royal.</p>
+           <p n="6-9">Conformément à la fondation : le Kaṁsteṅ Añ Rājakula Mahāmantri, les brâhmanes et les maîtres, les Khloñ Vala <gap reason="lost"/> les gens de commun et les esclaves du dieu <supplied reason="explanation"><foreign>vraḥ kamrateṅ añ</foreign></supplied> qui ont un emploi dans la Sainte Ile, reçoivent l’ordre de donner de l’huile pour l’onction du dieu mais de ne pas en donner à ceux qui <gap reason="lost"/> dans la Sainte Ile.</p>
+           <p n="10-12">Il est nommé quatre percepteurs d’huile pour chaque quinzaine, chargés de percevoir l’huile. Cette <supplied reason="subaudible">fourniture d’</supplied>huile et les quatre percepteurs d’huile relèvent de l’autorité du Mrateñ Rājadvāra de la quinzaine claire qui donne l’huile à chaque quinzaine pour l’onction des divinités <supplied reason="explanation"><foreign>kamrateṅ jagat</foreign></supplied>.</p>
+           <p n="12-14">Sur tous les gens ayant un procès devant la cour de justice qui ont coutume de donner l’huile réglementaire aux divinités, il est perçu une paire de bœufs comme amende en cas de condamnation, en vue de conserver <supplied reason="subaudible">ces bœufs</supplied> comme troupeau.</p>
+           <p n="14-16">Il est réclamé au gardien de la cour de justice seize esclaves hommes et femmes par quinzaine pour garder le saint troupeau qui donne l’huile pour l’onction des divinités. Quant àce troupeau, c’est le gardien de la cour de justice qui le détient.</p>
+           <p n="17-21">Il appartient au Mrateñ Rājadvāra de la quinzaine claire, au Khloñ Vnaṁ chef du temple <supplied reason="explanation"><foreign>kulapati</foreign></supplied>, au Khloñ Kārya serviteur du dieu <supplied reason="explanation"><foreign>devaparicāraka</foreign></supplied>, au gardien du village, et àl’inspecteur, de faire une étable à bœufs, pour la quinzaine obscure et une pour la quinzaine claire, où l’on gardera le sainte troupeau. Quand ces deux étables à bœufs seront dégradées, ce sont les Khloñ Vnaṁ chef du temple, Khloñ Kārya serviteur du dieu, le gardien de village et l’inspecteur, qui devront les réparer. Tous les Steñ qui officient, et l’huile qui reste <gap reason="lost"/>.</p>
+         </div>
+         <div type="commentary">
+            <p>The <foreign>virāma</foreign> applied to the words in the beginning of each line is hypothetic because they are lost on the estampage EFEO n.169.</p>
+         </div>
+       <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">54-57</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 169.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">54-57</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

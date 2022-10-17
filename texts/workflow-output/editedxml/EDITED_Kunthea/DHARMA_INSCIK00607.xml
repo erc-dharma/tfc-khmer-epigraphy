@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela in front of the temple S1 at Sambor Prei Kuk (K. 607), 6th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00607</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2020-11-30">Modifications to edition regarding numerals and punctuation symbols</change>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:kuch" when="2020-06-30">Modifications to edition, apparatus, translation and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+         <!-- add a <change> for each change to the file, the first change should replace this one and record your creation of a file using this template. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+                <p>
+<milestone type="pagelike" unit="item" n="A"/><label xml:lang="eng">Fragment</label>                   
+<lb n="A1"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>t</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>rmma</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="A2"/><gap reason="lost" quantity="17" unit="character"/> taḥ <g type="dotMid">.</g> <space quantity="2" unit="character"/> <g type="dotMid">.</g> ku <gap reason="lost" quantity="6" unit="character"/>
+<lb n="A3"/><gap reason="lost" quantity="11" unit="character"/> <unclear>Adra</unclear> <g type="dotMid">.</g> va <choice><unclear>kra</unclear><unclear>tra</unclear></choice>kara <g type="dotMid">.</g> <supplied reason="lost">k</supplied>ñu<supplied reason="lost">ṁ</supplied> vraḥ kamratāṅ· Añ· <gap reason="lost" quantity="4" unit="character"/> <unclear>Āy</unclear><supplied reason="lost">·</supplied> <gap reason="lost" quantity="1" unit="character"/>
+<lb n="A4"/><gap reason="lost" quantity="1" unit="character"/> <supplied reason="lost">man· vraḥ kamratā</supplied>ṅ<supplied reason="lost">·</supplied> Añ· śrī bhavavarmma Oy· <g type="dotMid">.</g> ku vau <g type="dotMid">.</g> ku <gap reason="lost" quantity="2" unit="character"/> <unclear>v</unclear>iḥ <g type="dotMid">.</g> ku vraḥ Añ· <g type="dotMid">.</g> k<unclear>o</unclear>n· ku
+<lb n="A5"/><gap reason="lost" quantity="5" unit="character"/> vā maleṅ· <g type="dotMid">.</g> ku Aras tamrū <g type="dotMid">.</g> ku kloñ· <g type="dotMid">.</g> ku jaṁ <g type="dotMid">.</g> ku mah· <g type="dotMid">.</g> ku din· <g type="dotMid">.</g> ku qaṅ· <g type="dotMid">.</g> va qvek·
+<lb n="A6"/><gap reason="lost" quantity="2" unit="character"/> y<unclear>ā</unclear> vraḥ <g type="dotMid">.</g> va Aṁduḥ <g type="dotMid">.</g> vā sal· mar· Añ· mān· <g type="dotMid">.</g> vā saṁUy· <g type="dotMid">.</g> vā kañjau <g type="dotMid">.</g> vā tpun· <g type="dotMid">.</g> vā klapit· <g type="dotMid">.</g> va kdet· <g type="dotMid">.</g>
+<lb n="A7"/>ku tāṅ· Uṅ· <g type="dotMid">.</g> ku qme draṅ· vot· <g type="dotMid">.</g> ku draṅ· vot· <g type="dotMid">.</g> ku vaḥ meṅ· <g type="dotMid">.</g> ku kla<unclear>pit</unclear>· <g type="dotMid">.</g> ku Anroka <g type="dotMid">.</g> ku Anaṅ· ci <g type="dotMid">.</g>
+<lb n="A8"/>ku saṁvok· <g type="dotMid">.</g> ku smaṅ· <g type="dotMid">.</g> ku yi rāṅ· <g type="dotMid">.</g> ku tmaṅ· <g type="dotMid">.</g> ku At· <g type="dotMid">.</g> kon ku pau sī <g type="dotMid">.</g> ku tmi <g type="dotMid">.</g> kon ku va klaṅ· Aras· <g type="dotMid">.</g> va tanlaṅ· <g type="dotMid">.</g>
+<lb n="A9"/>ku ya māy· <g type="dotMid">.</g> kon ku pau <g type="dotMid">.</g> ku tvau <g type="dotMid">.</g> kon ku miḥ jmaḥ <g type="dotMid">.</g> ku qme kan<choice><unclear>y</unclear><unclear>d</unclear></choice>o <g type="circle">.</g> ku sa<unclear>n</unclear>· loy· <g type="dotMid">.</g> kon ku ku naraka <g type="dotMid">.</g> va kumār· <g type="dotMid">.</g> <unclear>ku ka</unclear>ntāṅ·
+<lb n="A10"/>kñuṁ vraḥ kamratāṅ· Añ· mucalinda <g type="dotMid">.</g> man· vraḥ kamratāṅ· Añ· Oy· <g type="dotMid">.</g> vrau <g type="dotMid">.</g> vā <unclear>t</unclear>loṅ· <g type="dotMid">.</g> va <unclear>tl</unclear>āy· <g type="dotMid">.</g> va <unclear>qdoṅ·</unclear>  va ka<unclear>ñ·</unclear><lb n="A11" break="no"/>col· <g type="dotMid">.</g> vā tpaṅ· <g type="dotMid">.</g> va tnāṅ· <g type="dotMid">.</g> ku saṅ· <g type="dotMid">.</g> ku slā <g type="dotMid">.</g> ku ya col· <g type="dotMid">.</g> ku leḥ <g type="dotMid">.</g> ku proṅ· <g type="dotMid">.</g> ku lvāṅ· <g type="dotMid">.</g> ku koti <g type="dotMid">.</g> ku yi<lb n="A12" break="no"/><supplied reason="lost">d</supplied>i<unclear>n</unclear>· <g type="dotMid">.</g> ku slā <g type="dotMid">.</g> ku pr̥ <g type="dotMid">.</g> ku plak· taṁkik· <g type="dotMid">.</g> vā col· <g type="dotMid">.</g> vā dvādaśī <g type="dotMid">.</g> vā tpun· <g type="dotMid">.</g> va kañcuhv· <g type="dotMid">.</g> ku <unclear>ta</unclear>Āy· <g type="dotMid">.</g> ku
+<lb n="A13"/><gap reason="lost" quantity="3" unit="character"/>l· pāṅ· <supplied reason="omitted"><g type="dotMid">.</g></supplied> ku Aras· <g type="dotMid">.</g> ku vlaj jaṁnā <g type="dotMid">.</g> ku loṅ· <g type="dotMid">.</g> vā kañ· joṅ· <g type="dotMid">.</g> vā Aṁval· <g type="dotMid">.</g> vā kma<unclear>n·</unclear> <supplied reason="omitted"><g type="dotMid">.</g></supplied> va <gap reason="lost" quantity="2" unit="character"/> <unclear>m</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>
+<lb n="A14"/><unclear>vā soṅ·</unclear> <supplied reason="lost"><g type="dotMid">.</g></supplied> ku tpoñ· <g type="dotMid">.</g> ku vrai rloṁ <g type="dotMid">.</g> ku raṅ· kon ku paṅket· <g type="dotMid">.</g> ku klapit· <g type="dotMid">.</g> va cak·cek· <g type="dotMid">.</g> qme dvika
+<lb n="A15"/>ku mar· vai vai <supplied reason="lost"><g type="dotMid">.</g></supplied> ku <unclear>gān ro</unclear> <g type="dotMid">.</g> ku paOc· ple toy· <g type="dotMid">.</g> ku dves· <g type="dotMid">.</g> ku raṅ· <g type="dotMid">.</g> va kavan· <g type="dotMid">.</g> ku poñ· <g type="dotMid">.</g> ku juṅ·
+<lb n="A16"/>ku slā vrai kon ku pau tai <g type="dotMid">.</g> qme va vamī <g type="dotMid">.</g> va vamī <g type="dotMid">.</g> ku Ame kañjā <g type="dotMid">.</g> va titāy· <g type="dotMid">.</g> qme qtau <gap reason="lost" quantity="2" unit="character"/> vā kra<lb n="A17" break="no"/>hvāṅ· <g type="dotMid">.</g> ku yiṅ· <g type="dotMid">.</g> ku vrau <g type="dotMid">.</g> kon ku tau Urañ· <g type="dotMid">.</g> ku tau dmet· <g type="dotMid">.</g> ta kmer· <g type="dotMid">.</g> ku Assarū <g type="dotMid">.</g> k<supplied reason="lost">u</supplied> yi voñ· <g type="dotMid">.</g> va taqul· <g type="dotMid">.</g>
+<lb n="A18"/>vā tloṅ· <unclear cert="low"><g type="dotMid">.</g></unclear> ku yāṅ· <g type="dotMid">.</g> kon· ku can<choice><unclear>d</unclear><unclear>ḍ</unclear></choice>er· sī <g type="dotMid">.</g> ku <choice><unclear>g</unclear><unclear>ś</unclear></choice><choice><unclear>u</unclear><unclear>ya</unclear></choice>mī <g type="dotMid">.</g> ku cat· <g type="dotMid">.</g> tmur· moy· slikka <g type="dotMid">.</g> krapi praṁbhai<lb n="A19" break="no"/>ya <g type="dotMid">.</g> sre Āriṅo <num value="10">10</num> daṁmriṅ· <num value="3">III</num> sre Āy· jeṅ· vnaṁ <num value="7">7</num> sre Āyimo
+<lb n="A20"/><num value="10">10</num>                   
+<milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Fragment</label>                   
+<lb n="B1"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>srā</unclear>ṅ· ku klapi<supplied reason="lost">t·</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B3"/><gap reason="lost" extent="unknown" unit="character"/>la <g type="circleSmall">.</g> ku kdun· <g type="dotMid">.</g> pau tai <g type="dotMid">.</g> <unclear>ku</unclear> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>au <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B4"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>vā</unclear> k<supplied reason="lost">la</supplied>pit· vā saṁ<gap reason="lost" extent="unknown" unit="character"/>
+<milestone type="pagelike" unit="item" n="D"/><label xml:lang="eng">Fragment</label>
+<lb n="D1"/><gap reason="lost" extent="unknown" unit="character"/>
+<milestone type="pagelike" unit="item" n="a"/><label xml:lang="eng">Fragment</label>                   
+<lb n="a1"/><gap reason="lost" extent="unknown" unit="character"/>ṇ<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="a2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ra</unclear>s· ple<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="a3"/><gap reason="lost" extent="unknown" unit="character"/>yal· <g type="dotMid">.</g> kon· ku <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="a4"/><gap reason="lost" extent="unknown" unit="character"/> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>au <gap reason="lost" extent="unknown" unit="character"/>
+<milestone type="pagelike" unit="item" n="b"/><label xml:lang="eng">Fragment</label>                   
+<lb n="b1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>n</unclear>dan<unclear>·</unclear> <g type="dotMid">.</g> vā <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="b2"/><gap reason="lost" extent="unknown" unit="character"/>vaṅā <g type="dotMid">.</g> vā <unclear>s</unclear>l<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="b3"/><gap reason="lost" extent="unknown" unit="character"/> vā t<unclear>m</unclear>oṅ· <gap reason="lost" extent="unknown" unit="character"/>
+<milestone type="pagelike" unit="item" n="c"/><label xml:lang="eng">Fragment</label>                   
+<lb n="c1"/><gap reason="lost" extent="unknown" unit="character"/> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>bh<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="c2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>dra</unclear>ṅ<unclear>·</unclear> smal·<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="c3"/><gap reason="lost" extent="unknown" unit="character"/>ṭeṅ· ni<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="c4"/><gap reason="lost" extent="unknown" unit="character"/>
+<milestone type="pagelike" unit="item" n="d"/><label xml:lang="eng">Fragment</label>                   
+<lb n="d1"/><gap reason="lost" extent="unknown" unit="character"/>ṇa ku <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="d2"/><gap reason="lost" extent="unknown" unit="character"/>vā kaṁ<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="d3"/><gap reason="lost" extent="unknown" unit="character"/>
+<milestone type="pagelike" unit="item" n="e"/><label xml:lang="eng">Fragment</label>                   
+<lb n="e1"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>v</unclear>ā <g type="dotMid">.</g> vā t<unclear>n</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="e2"/><gap reason="lost" extent="unknown" unit="character"/>kdep· <g type="dotMid">.</g> v<unclear>ā</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="e3"/><unclear>y</unclear>·<gap reason="lost" extent="unknown" unit="character"/>
+<milestone type="pagelike" unit="item" n="f"/><label xml:lang="eng">Fragment</label>                   
+<lb n="f1"/><gap reason="lost" extent="unknown" unit="character"/>ra <g type="dotMid">.</g> vā <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="f2"/><gap reason="lost" extent="unknown" unit="character"/>ḥ <g type="dotMid">.</g>
+<lb n="f3"/><gap reason="lost" extent="unknown" unit="character"/>de<unclear>n</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="f4"/><gap reason="lost" extent="unknown" unit="character"/>
+<milestone type="pagelike" unit="item" n="g"/><label xml:lang="eng">Fragment</label>                   
+<lb n="g1"/><gap reason="lost" extent="unknown" unit="character"/> kaṁ<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i <gap reason="lost" extent="unknown" unit="character"/>  
+                </p>
+            </div>
+            <div type="apparatus">
+               <listApp>
+                  <app loc="A3">
+                     <lem><unclear>kra</unclear>kara</lem>
+                       <note>Cette lecture est très incertaine. On pourrait aussi lire <foreign>tra</foreign>.</note>
+                  </app>
+                   <app loc="A4">
+                     <lem><supplied reason="lost">man· vraḥ kamratā</supplied>ṅ<supplied reason="lost">·</supplied></lem>
+                       <note>La restitution de <foreign>man·</foreign> est proposée par Ph. N. Jenner <supplied reason="explanation">comm. pers., décembre 2006</supplied>.</note>
+                  </app>
+                   <app loc="A4">
+                     <lem><unclear>v</unclear>iḥ</lem>
+                       <note>On pourrait aussi lire <foreign>ciḥ</foreign>.</note>
+                  </app>
+                   <app loc="A5">
+                     <lem><gap reason="lost" quantity="5" unit="character"/></lem>
+                       <note>Étant donnée la structure de cette liste, on peut supposer que cette lacune précisait d’abord la classe d’âge et le sexe de l’enfant de la fin de la ligne 4, suivi de la mention d’un enfant. On pourrait alors restituer : kon· ku <num value="5" cert="low">5</num> <gap reason="lost" quantity="2" unit="character"/> <supplied reason="lost">kon· ku</supplied> vā maleṅ· <g type="dotMid">.</g>.</note>
+                  </app>
+                   <app loc="A7">
+                     <lem>Anaṅ·</lem>
+                       <note>Le <foreign>ṅ</foreign> semble avoir été ajouté après coup. De plus, une rayure, sous ce caractère, laisse un doute sur son identification.</note>
+                  </app>
+                   <app loc="A9">
+                     <lem>kanyo</lem>
+                       <note>Un signe voyelle <foreign>e</foreign> ou <foreign>o</foreign> semble gravé au-dessus du <foreign>nyo</foreign> et la consonne souscrite est douteuse <supplied reason="explanation" cert="low"><foreign>kando</foreign></supplied>.</note>
+                  </app>
+                   <app loc="A13">
+                     <lem>kma<unclear>n·</unclear></lem>
+                       <note>On pourrait peut-être lire <foreign>kmaṅ·</foreign>.</note>
+                  </app>
+                   <app loc="A14">
+                     <lem>paṅket·</lem>
+                       <note>Le <foreign>e</foreign> est attaché au <foreign>k</foreign> souscrit.</note>
+                  </app>
+                   <app loc="A18">
+                     <lem>can der·</lem>
+                       <note>Remarquer la forme du <foreign>d</foreign> souscrit: on pourrait lire <foreign>can ḍer·</foreign>.</note>
+                  </app>
+                   <app loc="A18">
+                     <lem>gumī</lem>
+                       <note>Cette lecture est un peu incertaine <supplied reason="explanation"><foreign>g</foreign>/<foreign>ś</foreign>; <foreign>u</foreign>/<foreign>ya</foreign></supplied>, mais une autre occurrence de <foreign>gumī</foreign> est attestée dans le corpus : K. 1256, l. A. 4.</note>
+                  </app>
+               </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" resp="part:doso">
+ 	<p n="A1-3"><supplied reason="explanation">illisible ; liste d’esclaves incomplète</supplied></p>
+             <p n="A3-4">Esclaves du Vraḥ Kamratāṅ Añ <gap reason="lost"/> de <gap reason="lost"/> que le Vraḥ Kamratāṅ Añ Śrī Bhavavarman a donné :</p>
+             <p n="A4-9"><supplied reason="explanation">Liste d’esclaves comprenant <supplied reason="explanation">dans l’ordre</supplied> : neuf femmes <supplied reason="explanation"><foreign>ku</foreign></supplied>, l’une avec deux enfants <supplied reason="explanation" cert="low">kon <foreign>ku vā </foreign>Et</supplied> ; neuf hommes <supplied reason="explanation"><foreign>vā</foreign></supplied> ; dix-huit femmes <supplied reason="explanation"><foreign>ku</foreign> et <foreign>ku qme</foreign></supplied> avec sept enfants <supplied reason="explanation"><foreign>kon ku pau sī</foreign> ; <foreign>kon ku pau</foreign> ; <foreign>kon ku va</foreign> ; <foreign>kon ku ku</foreign> ; <foreign>kon ku</foreign></supplied></supplied></p>
+             <p n="A10">Esclaves du Vraḥ Kamratāṅ Añ Mucalinda que le Vraḥ Kamratāṅ Añ a donné :</p>
+             <p n="A10-17">Vrau : <supplied reason="explanation">liste d’esclaves comprenant : vingt hommes <supplied reason="explanation"><foreign>vā</foreign></supplied>, trente-cinq femmes <supplied reason="explanation"><foreign>ku</foreign>et<foreign>ku qme</foreign></supplied> et trois enfants <supplied reason="explanation"><foreign>kon ku</foreign> ; <foreign>kon ku vā</foreign> ; <foreign>kon ku pau tai</foreign></supplied></supplied>,</p>
+             <p n="A17-18">et Khmer : <supplied reason="explanation">liste d’esclaves comprenant : deux hommes <supplied reason="explanation"><foreign>va</foreign></supplied>, cinq femmes <supplied reason="explanation"><foreign>ku</foreign></supplied> et un enfant <supplied reason="explanation"><foreign>kon ku</foreign>... <foreign>der sī</foreign></supplied></supplied>.</p>
+             <p n="A18-19">400 bœufs ; 100 buffles.</p>
+             <p n="A19-20">Une rizière à Āriṅo, 10 <supplied reason="subaudible">unités</supplied> ; trois plantations ; une rizière à Jeṅ Vnaṃ, 7 <supplied reason="subaudible">unités</supplied> ; Une rizière à Āyimo, 10 <supplied reason="subaudible">unités</supplied>.</p>
+         </div>
+         <!-- <div type="commentary">
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="page">411-415</citedRange></bibl>) with a French translation.</p>
+	 <listBibl type="primary">
+    <bibl n="DS">
+      <ptr target="bib:Soutif2009_03"/>
+      <citedRange unit="page">411-415</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

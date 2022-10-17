@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Vat Pothivong Leu (K. 1239), 574 śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap; Lyon</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01239</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom &amp; Arlo Griffiths.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                     <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:argr part:kuch" when="2021-02-05" status="draft">revised initial encoding of the inscription</change>
+         <change who="part:kuch" when="2021-02-01" status="draft">started initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="anuṣṭubh">
+  <l n="a"><lb n="1"/><g type="spiralR"/> jayatīndrādidevāsya<space/>ś</l>
+   <!-- Daniel's reflexion about SPACE:
+   I see that you encoded jayatīndrādidevāsya<space/>ś and so on at points where spaces separate akṣaras in a way that does not correspond to actual word boundaries. I have nothing against that but want to note that I've faced this situation only once so far, with punctuation marks instead of spaces, used in verse in a similar way. There, I encoded a normalisation for each instance, so that in the normalised text the offending consonant was moved to before the punctuation mark, e.g. dhīmā<choice><orig><g type="dandaSerif">.</g>n</orig><reg>n<g type="dandaSerif">.</g></reg></choice>. I'm not 100% happy with this solution (since technically you would need N instead of n before a punctuation mark in the original script), but I've let it go, thinking that normalisation concerns the transliterated text, and thus my encoding is as acceptable as our usual method of putting <l> boundaries inside a transliterated akṣara where applicable. So, at any rate, you might consider encoding similar normalisations in your case, e.g. jayatīndrādidevāsya<choice><orig><space/>ś</orig><reg>ś<space/></reg></choice> . Or, if you are averse to that, would you prefer if I removed my normalisations of this kind and just left the untouched text? And should we say something about this in the EGD?
+ -->
+  <l n="b">śrīmān yajñapatīśvaraḥ</l>
+  <l n="c"><lb n="2"/>jita-svarājyair yyas sādhu <space/></l>
+  <l n="d">tarppito bhuvi yajvabhiḥ</l>
+</lg>
+            <lg n="2" met="anuṣṭubh">
+  <l n="a"><lb n="3"/>vibh<supplied reason="lost">ū</supplied>ti-yaj<supplied reason="lost">ñ</supplied>aiẖ
+  <supplied reason="lost">kh</supplied><unclear>y</unclear>ātena <space/></l>
+  <l n="b">rājñā śrīśānavarmmaṇā</l>
+  <l n="c"><lb n="4"/>yo ’mātya-mukhyo ’dhikr̥ta<space/>ẖ</l>
+  <l n="d">kr̥tajño lekha-vācakaḥ</l>
+</lg>
+            <lg n="3" met="anuṣṭubh">
+  <l n="a"><lb n="5"/>śauryya-tyāgādi-yuktena <space/></l>
+  <l n="b">rājñā śrībhavavarmmaṇā</l>
+  <l n="c" enjamb="yes"><lb n="6"/>yaś cārtha-vastu-gaṇanā<space/></l>
+  <l n="d">-niyukto lekha-vācakaḥ</l>
+</lg>
+            <lg n="4" met="anuṣṭubh">
+  <l n="a"><lb n="7"/>Ā-campā-bhūmi-jayinā <space/></l>
+  <l n="b">rājñā śrījayavarmmaṇā</l>
+  <l n="c" enjamb="yes"><lb n="8"/>san-mānya-siddhāyatana<space/></l>
+  <l n="d">-pālane <unclear>yas sa</unclear>marppitaḥ</l>
+</lg>
+            <lg n="5" met="anuṣṭubh">
+  <l n="a"><lb n="9"/>Ācāryya-kavicandreṇa <space/></l>
+  <l n="b">gurv<supplied reason="lost">va</supplied><seg met="==-+-"><gap reason="lost" quantity="5" unit="character"/></seg><unclear>nā</unclear></l>
+  <l n="c"><lb n="10"/>yajñeśvarasya pratimā <space/></l>
+  <l n="d"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+</lg>
+            <lg n="6" met="anuṣṭubh">
+  <l n="a" met="na-vipulā" real="-+++---+"><lb n="11"/>catur-dvīpeṣu-gaṇite <space/></l>
+               <!-- Daniel's suggestion:
+               dvīpeṣu, with apparatus suggesting dvipeṣu instead. (Would that be 8 instead of 7?) If you are confident about that, as your apparatus text seems to indicate, then I would make that emendation in the text (and keep the apparatus note to explain). I would also reflect that emendation in the translation.-->
+  <l n="b">śa<unclear>k</unclear><supplied reason="lost">ābde</supplied> <seg met="==-+-"><gap reason="lost" quantity="5" unit="character"/></seg></l>
+  <l n="c" enjamb="yes"><lb n="12"/>rohiṇīndur yyadā pauṣa<space/></l>
+  <l n="d">-sitai<unclear>kā</unclear><supplied reason="lost">daśa-</supplied><unclear>vā</unclear>sa<unclear>re</unclear></l>
+</lg>
+            <lg n="7" met="anuṣṭubh">
+  <l n="a"><lb n="13"/>yad dattam asyai dāsādi <space/></l>
+  <l n="b">te<unclear>nā</unclear>py apaharanti ye</l>
+  <l n="c" met="bha-vipulā" real="++-++---"><lb n="14"/>te yāntv avīcī-naraka<space/>m</l>
+  <l n="d">ati-dīrgghaṁ savāndhavāḥ <g type="ddandaHooked"/></l>
+</lg>
+            <ab xml:lang="okz-Latn"><!-- we havejust the (unfinished) beginning of a Khmer part — no need to encode textpart, it seem -->
+               <lb n="15"/>vraḥ kamra
+            </ab>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="11">
+                     <lem>-dvīpeṣu-</lem>
+                     <note>It seems that chronological considerations make it necessary to correct this to -<foreign>dvipeṣu</foreign>-.</note>
+                   </app>
+               </listApp>
+         </div>
+        <div type="translation" resp="part:kuch part:argr">
+ 	   <p rend="stanza" n="1">Victorious is the illustrious Yajñaptīśvara, who, to be venerated <supplied reason="subaudible">even</supplied> by the gods such as Indra,
+             is well satisfied on earth by those patrons <supplied reason="explanation"><foreign>yajvan</foreign></supplied> who have conquered their own kingdoms.</p>
+             <p rend="stanza" n="2">By King Śrī Īśānavarman <supplied reason="explanation">I</supplied>, renowned for his abundant patronage <supplied reason="explanation"><foreign>yajña</foreign></supplied>, the grateful secretary was appointed as chief minister.</p>
+             <p rend="stanza" n="3">By King Śrī Bhavavarman <supplied reason="explanation">II</supplied>, endowed with heroism and liberality, the secretary was employed for accounting of wealth and property.</p>
+             <p rend="stanza" n="4">By King Jayavarman <supplied reason="explanation">I</supplied>, who conquered the earth up to Campā, he was transfered to the protection of sanctuaries esteemed by good people.</p>
+             <p rend="stanza" n="5-6"><supplied reason="subaudible">By him,</supplied> the preceptor Kavicandra, who <gap reason="lost"/> his master, the image of Yajñeśvara <supplied reason="subaudible">has been installed</supplied>, in the Śaka year reckoned by four, <supplied reason="explanation">7</supplied> islands, <supplied reason="explanation">5</supplied> arrows <supplied reason="explanation">i.e., 574</supplied>, <gap reason="lost"/>, when the moon was in Rohiṇī, on the eleventh day of the waxing <supplied reason="explanation">fortnight</supplied> of <supplied reason="explanation">the month</supplied> Pauṣa.</p>
+             <p rend="stanza" n="7">Those who steal whatever slaves, etc., he has also given to it <supplied reason="explanation">the image</supplied>, they will for a very long time go to the Avīcī-hell, together with their relatives.</p>
+         </div>
+         <div type="translation" xml:lang="fre" resp="part:gege">
+ 	  <p rend="stanza" n="1">Gloire à Sa Majesté le Seigneur qui est le / du Maître du Sacrifice, honoré par les dieux à commencer par Indra, lui que satisfont comme il convient <seg rend="pun">lui que les patrons <supplied reason="explanation"><foreign>yajvan</foreign></supplied> qui ont conquis le ciel <supplied reason="explanation"><foreign>jita-svar</foreign></supplied> ont satisfait <supplied reason="explanation"><foreign>tr̥p-</foreign></supplied> comme il convient <supplied reason="explanation"><foreign>sādhu</foreign></supplied> par des <supplied reason="explanation">libations de</supplied> beurre fondu <supplied reason="explanation"><foreign>ājyaiḥ</foreign></supplied> sur terre <supplied reason="explanation"><foreign>bhuvi</foreign></supplied></seg>, ici-bas, les sacrifiants qui ont conquis leur propre royaume <seg rend="pun">un royaume indépendant <supplied reason="explanation">par leurs offrandes</supplied></seg>.</p>
+            <p rend="stanza" n="2">Secrétaire, il fut nommé, lui qui discerne le bien, principal ministre/conseiller par le roi Śrī Īśānavarman, renommé pour *** et ses sacrifices.</p>
+            <p rend="stanza" n="3">Et <supplied reason="explanation">toujours</supplied> secrétaire, il fut chargé par le roi Śrī Bhavavarman, doué de vaillance, de générosité, etc., de la comptabilité des biens matériels.</p>
+            <p rend="stanza" n="4"><supplied reason="subaudible">Il</supplied> fut préposé par le roi Śrī Jayavarman, conquérant de territoires (allant) jusqu’au Campā, à la garde du *** de ***.</p>
+            <p rend="stanza" n="5"><supplied reason="subaudible">Le</supplied> Maître Kavicandra <supplied reason="explanation">« Lune parmi les poètes »</supplied> <supplied reason="explanation">a installé</supplied> une image de Yajñeśvara <supplied reason="explanation">« le Seigneur du Sacrifice »</supplied> <gap reason="lost"/>.</p>
+            <p rend="stanza" n="6"><supplied reason="subaudible">En l’an</supplied> <foreign>śaka</foreign> compté par quatre, les <supplied reason="explanation">7</supplied> continents et les <supplied reason="explanation">5</supplied> flèches, <gap reason="lost"/>, alors que la Lune était dans <supplied reason="explanation">la mansion lunaire</supplied> Rohiṇī, au <supplied reason="subaudible">onzième</supplied> jour <supplied reason="explanation">de la quinzaine</supplied> claire <supplied reason="explanation">du mois</supplied> de <foreign>pauṣa</foreign>.</p>
+            <p rend="stanza" n="7">Ceux qui s’emparent des esclaves, etc., qu’il a également donnés à cette <supplied reason="explanation">image</supplied>, qu’ils aillent dans l’enfer Avīcī pour très longtemps, avec leur parentèle.</p>
+         </div>
+         <div type="commentary" xml:lang="fre" resp="part:gege">
+           <p n="1">Après plusieurs essais infructueux ou peu concluants d’interpréter le vers a en y lisant le terme āsya comme nom (neutre) signifiant « bouche, gueule », je me résous à l’interpréter en y voyant l’adjectif d’obligation (gérondif) āsya du verbe ĀS-, « *** », au sens de... upāsya, e. a. « (devant être) honoré ». Un tel emploi de ĀS- n’est certes pas enregistré par les dictionnaires courants, mais la valeur « to solemnize, celebrate » proposée par MW et Apte [CHECK BR, Schmidt] incite à admettre une telle valeur pour le verbe simple. Moins probablement, on dira que
+           Cf. devavaktra?</p>
+           <p n="1"><foreign>yajñapatīśvaraḥ</foreign>: La mention de la divinité est – peut-être intentionnellement – ambiguë. D’une part, yajñapatīśvara peut s’analyser comme « le Seigneur (īśvara) du yajñapati », c.-à-d. la divinité d’élection du « Maître du sacrifice », en l’occurrence le « sacrifiant », le « donateur » (cf. Barth dans ISC *** sur l’usage ***). Mais il peut aussi s’analyser comme « le Seigneur qui est le Maître du Sacrifice », donc la divinité à qui l’on « sacrifie ». Dans les deux cas, il est quasi certain que le terme renvoie à la divinité même dont l’image est installée par le héros de notre inscription (voir infra st. V), sous le nom de Yajñeśvara, « le Seigneur du Sacrifice ».
+           Le théonyme Yajñapatīśvara n’apparaît, à ma connaissance, que dans une seule autre inscription préangkorienne: K. 30, datée par Cœdès du VIIe s. de n. è., trouvée au V. Chamnom (prov. de Takeo, voir carte ***). Il s’agit là, à n’en pas douter, du véritable nom propre de cette divinité installée par un certain Kr̥ṣṇamitra, désignée deux fois en khmer par vraḥ kaṁmratāṅ’añ śrī yajñapatīśvara (l. 9-10, 13), mais à laquelle la partie sanskrite ne renvoie que par les épithètes bhagavān īśvaraḥ pra[bhuḥ] (st. Id). L’identification de cette divinité a été plusieurs fois débattue. Bergaigne a émis l’hypothèse que « le dieu est sans doute un Hari-Hara » (note 5 de A. B. dans Aymonier 1883: 450-451), hypothèse reprise en tant que telle par Aymonier (1900: 196). Parmentier (1927: 118) reprend cette identification, mais sans en mentionner, hélas, le caractère hypothétique. En 1942, Cœdès, pour qui « le texte sanskrit parle de la fondation d’un Īśvara, c’est-à-dire d’une image de Çiva », rappelle qu’il « est possible, mais non certain » que la divinité en question soit un Hari-Hara et propose d’expliquer l’hypothèse de Bergaigne par le fait que « Yajñapati [dans le nom khmer de la divinité] désigne parfois Soma ou Viṣṇu » (IC II, p. 26). Vickery, reprenant la question (1998: 142), se fonde sur des arguments de peu de poids pour avancer que yajñapatīśvara est « a name which more probably indicates Viṣṇu »: parti pour montrer que °īśvara ne désigne pas forcément “Siva dans le corpus préangkorien – ce qui semble hors de doute (cf. la note 34 dans Griffiths 2005: 20-21) –, il étaie son point de vue en déclarant que le terme bhagavant, dans bhagavān īśvaraḥ, « is more likely Viṣṇuite than Śivaite » et que « the name of the establishment’s founder, Kr̥ṣnamitra, is also Viṣṇuite ». La connotation vishnouite de bhagavant est aussi mal établie que celle de īśvara (cf. n. 34 dans Griffiths 2005: 21). Quant au nom d’un donateur, il ne reflète pas forcément son obédience religieuse: Yajñavarāha, fils du brahmane Dāmodara, et son frère utérin Viṣṇukumāra, au Xe s., ont des noms typiquement « vishnouites » — le « sanglier du Sacrifice », « *** »; le premier *** K. 842, st. IX ***; le second *** ***.
+         <!-- Dominic's suggestion:
+        "One idea that seemed to me worth exploring in the annotation was the possibility that Yajñapatīśvara might be a theonym for Agni (or Śivāgni).
+This would explain the use of the verb tarpitaḥ (typically used of fire), and it would make sense of āsya in the well-attested sense of “mouth”: Agni is the mouth of the gods.
+It also seems to me to go some way towards explaining why those who “satisfy” him have to be sacrificers (yajvabhiḥ) who have conquered kingdoms (jitasvarājyaiḥ),
+since fire-sacrifices are hugely expensive.""
+  Arlo adds: take into account the occurrence of Yajñapatīśvara in K. 30 — can it be an Agni there?
+-->
+           </p>
+         <p n="4">
+            <foreign>kr̥tajño</foreign>:
+            Kr̥ta-jña est souvent ambigu. Signifiant « qui connaît ce qui est bien, correct », il justifie ici la décision du roi de nommer Kavicandra au poste en question; mais le composé, entendu comme « qui reconnaît le bienfait », pourrait aussi faire allusion à la reconnaissance que Kavicandra éprouve envers le roi.
+         </p>
+         <p n="4">
+            <foreign>lekhavācakaḥ</foreign>:
+            Le composé lekha-vācaka (littéralement « qui dit, récite, les écrits, les lettres ») ne figure pas dans les dictionnaires courants [CHECK BR etc.].
+La capacité à lire les documents (lekha-vācana) est mentionnée comme l’une des qualités du scribe, du secrétaire (lekhaka) dans l’Arthaśāstra de Kauṭilya,
+au « chapitre des édits » (śāsanādhikāra): tasmād amātyasaṁpadopetaḥ sarvasamayavid āśugranthaś cārvakṣaro lekhavācanasamartho lekhakaḥ syāt (texte selon R. P. Kangle, I p. 48, 2.10.3), « Therefore [cf. 2.10.2: For, kings principally depend on edicts (śāsana), peace and war being rooted in them], the scribe should be endowed with the excellences of a minister, conversant with all conventions, quick in composing, with a beautiful hand and capable of reading a document », trad. R. P. Kangle, II p. 106). J’ai supposé que lekha-vācaka désignait ici une fonction du type « secrétaire ».
+         </p>
+            <p n="6">
+            <foreign>cārtha-vastu-gaṇanā-</foreign>:
+            Je ne sais trop que faire du composé arthavastugaṇanā, que j’analyse en « (dé)compte des arthavastu ». Quant à arthavastu, j’y vois un composé non pas copulatif (« artha et vastu », par ex. « biens et objets »), mais déterminatif: « vastu qui est/sont artha », soit, à peu près, « les objets (matériels) qui sont des propriétés, des biens ». La fonction exacte ainsi dénotée n’est pas claire: une sorte de ministre de finances?
+          </p>
+               <p n="7">
+            <foreign>Ā-campā-</foreign>:
+            À ma connaissance, ceci est la première inscription mentionnant la conquête, par Jayavarman Ier, de « territoires allant jusqu’au Campā », et ce .
+            La préposition ā est hélas amphibologique, qui peut être inclusive ou exclusive! Voir dans l’histoire du Campā? Voir K. 989 st. XXX?
+          </p>
+         <p n="8">
+            <foreign>-siddhāyatana-</foreign>:
+            Le terme <foreign>siddhāyatana</foreign>, qu’on retrouve *** <!-- argr and kuch add:
+            pre-Angkorian: K. 426, K. 502, K. 1176
+            Angkorian: K. 235, K. 831, K. 832, K. 1151
+          -->, pourrait bien être un siddha-tapovana ou siddha-āçrama (cf. Raghuvaṁça 6.46).
+          </p>
+                  <p n="10">
+            <foreign>pratimā</foreign>
+            Bien que rien ne permette ne restituer la forme verbale passive ou le participe passé prédicat de « l’image » (pratimā), il n’est pas douteux que l’opération évoquée est du type « installation » (pratiṣṭhā), (mais peut-être aussi nihitā, etc.). Pour des emplois de pratimā avec *** K. 225, XI; K. 232, XI; K. 235, LVIII; K. 256 st. X, K. 275 st. VII, K. 317 st. IX et K. 713A st. XXVIII, K. 323, K. 324, K. 325, K. 330, K. 331, K. 56B, K. 440 st. XXXIII, K. 567 [passim: à revoir en détail], K. 834?, K. 899?, XXIX , K. 989, K. 991???, K. 1084, K. 1141, st. XXVIII , K. 1151 st. VIII, K. 1228???, K. 176?, K. 286, XLV? K. 716? K. 782, XIV; K. 140; K. 235, XLVIII; K. 235, LX; K. 834?; K. 853???, K. 875? Vérifier aussi sur Sakamoto, Sealang. Il faudrait voir, bien sûr, également nimā!
+          </p>
+                     <p n="11">
+            <foreign>-dvīpeṣu-</foreign>
+            Millésime. Le seul autre emploi que je connaisse, dans le corpus des inscriptions du pays khmer, de dvīpa pour désigner 7 – en raison des sept continents de la ****; cf. ***) – figure dans l’inscription angkorienne K. 253N/***, st. XX (dvīpadvayadvāraiḥ). Encore ne peut-on exclure totalement qu’il faille y lire dvipa°! Voir ci-dessous. La valeur 4, également possible, nous ramènerait en 544 śaka (= 622/3 de n. è.), sous Īśānavarman Ier (donné comme régnant en *** , en octobre 627 [K. 604] et en ***); elle peut donc être exclue ***. La mention de sept continents figure dans des inscriptions de l’époque angkorienne: voir K. 782/*** (11e s.), st. V.; K. 834/***, st. XXXIX, toutes deux ***? Voir aussi Pre Rup (K. 806), st. 81, allusion.             <!-- kuch: JV I's reign starts in 657
+              if we assume 544 Śaka, this means 622-12-19 CE;
+              if we assume 574 Śaka, this means 652-12-07 CE;
+              if we assume 584 Śaka, this means 662-12-27 CE.
+          -->
+         </p>
+         <p n="12">
+            <foreign>-sitai<unclear>kā</unclear><supplied reason="lost">daśa</supplied><unclear>vā</unclear>sa<unclear>re</unclear></foreign>
+            Les données certaines du mois, de la quinzaine et de la position de la Lune indiquent que l’on est aux environs, à +/- 2 jours, du 11e jour (cf. Eade 1995: 34). La lecture certaine de la voyelle ai (pāda d) et celle quasi certaine de la consonne k, permettent de restituer avec certitude le pāda d en sitaikādaśavāsare, « au onzième jour clair ».
+         </p>
+         <p n="13">
+            <foreign>asyai</foreign>
+            Le pronom asyai (datif fém. de idam, « celui-ci ») renvoie assurément à l’image (pratimā) de la stance V. Pour d’autres exemples où c’est bien à l’image qu’est donné quelque chose, voir ...
+            Chercher autre inscription où c’est bien à l’image qu’est donné quelque chose. Cf. K. 567/14e s. (Angkor Thom), st. XXXII, XXXIII, LIX.
+          </p>
+         <p n="14">
+            <foreign>avīcī-</foreign>
+            Le nom de cet enfer – le plus couramment évoqué dans les stances comminatoires de nos inscriptions – est normalement donné, dans les dictionnaires, sous la forme avīci, masculine [CHECK BR]. Il n’y a pas lieu de supposer une erreur chez le lapicide, qui distingue soigneusement, on l’a vu, les ī longs des i brefs (même si une correction avīci° transformerait . <!-- probably gege intended to write something here about transformation of bha to na-vipulā in case of correction ī to i -->
+              Mais Kṣīrasvāmin signale (ad Amarakośa I, narakavarga, st. **) que le mot peut être féminin, et la forme féminine avīcī est attestée, par exemple, dans le Parākhyatantra (V.16a, V.31a : cf. Goodall 2004 : 72 &amp; 76) ou dans le Niśvāsamukha tel que cité par Sanderson 2003-2004, p. 422 n. 270. C’est aussi la forme employée dans K. 1201/654, st. XIIa (avīcī[ṁ] prathamaṁ yānti).
+	K. 299.
+            </p><!-- argr: the following commentary to be merged with the previous one-->
+            <p n="14">Il est fréquent, en particulier dans l’épigraphie angkorienne, que la distinction graphique en i bref et ī long soit délicate sinon impossible. Et une correction de  notre texte en caturdvipeṣugaṇite serait a priori envisageable au point de vue de la métrique – le rythme conviendrait à une na-vipulā – comme à celui de l’astronomie!  On serait alors en 584 śaka, avec dvipa, « éléphant », valant pour 8 (les huit éléphants des directions ***). La date serait équivalente au ***:
+Mais cette correction est sans fondement, l’inscription distinguant soigneusement les i brefs des ī longs, les premiers notés par un cercle (dans Ia, Ic, Id, Id, Id,
+IIa, IIa, IIc, IIIa, IIId, IVa, IVa, IVc, IVd, Va, Vc, VIa °gaṇite, VIc rohiṇīndur, VId sita°, VIIa, VIIb, VIId), les seconds par un cercle se finissant par une spirale
+qui prend le plus souvent la forme d’un petit cercle intérieur et tangent au premier (Ia, Ib, Ib, IIb, IIIb, IVb, VIc rohiṇīndur, VIIc, VIIc avīcī° [voir infra], VIId
+[***]). La probabilité est grande que ce soit bien le mot signifiant « île » qui est visé.</p>
+         </div>
+        <div type="bibliography">
+	 <p>This previously unpublished inscription is edited here by Kunthea Chhom and Arlo Griffiths on the basis of a preliminary edition by Gerdi Gerschheimer, making use of the estampage EFEO n. 1757 and photo 005299.</p>
+        	<!--
+          <listBibl type="primary">
+				     <bibl n="siglum"/>
+			          </listBibl>
+           <listBibl type="secondary">
+              <bibl/>
+           </listBibl>
+         -->
+        </div>
+      </body>
+  </text>
+</TEI>

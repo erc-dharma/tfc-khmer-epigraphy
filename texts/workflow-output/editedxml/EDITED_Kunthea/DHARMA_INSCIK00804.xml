@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pedestral or pilaster of Vat Char (K. 804), 2418 Buddhist Era (= 1873 CE)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00804</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-02-10" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="khm">
+                <p>
+                   <lb n="1"/>saṁbbhamassaṭu braḥ budhdha<add place="above">sa</add>krājja braḥ sāsnā atikantā kanlaṅa dova
+                   <lb n="2"/>pān bī bāna puona raya prāṁmpī dantapa braḥ vasāra <gap reason="illegible" quantity="1" unit="character"/> loka grūva braḥ
+                   <lb n="3"/>budhdhaviriyavīnaivaṅsāra pān rīep caṁma vaḍha vā nūva Isa ñāta
+                   <lb n="4"/>saththā tāṁma toema jhoera knuṅa dīya Uppaccāra prathnā duka saṁmrāppa vaḍha
+                   <lb n="5"/>ṭaṁmṇara tara rīeṅa dau poe loka Eṇāra guṅa jāra ccau vaḍha hoeya
+                   <lb n="6"/>kraeṅa braḥ vīhā sīlā kuṭṭha pāka paeka Oya bīyaccāṇā moela
+                   <lb n="7"/>jousa jula braḥ vīhā sīlāra kuṭṭha mina pāna ṭāṁma ṭākkha dāna de
+                   <lb n="8"/>hoeya <gap reason="lost" extent="unknown" unit="character"/> ṇā jita chṅāya <gap reason="lost" extent="unknown" unit="character"/> ṭoem sduḥ saṁmpaka chlaka
+                   <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> nīsita Eṅ bvaṁ <gap reason="lost" extent="unknown" unit="character"/> traṅa braḥ buddha braḥ dharmma braḥ sagha qnaka
+                   <lb n="10"/>noḥ duka jā raṁlāya braḥ sāsnā braḥ <gap reason="lost" quantity="4" unit="character"/> nīṅa dhlākkha knuṅa na<lb n="11" break="no"/>ruka <num value="500">500</num> jāta ruoca maka keota jā manussa <gap reason="lost" extent="unknown" unit="character"/>
+                   <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> kraeṅ nīṅa pāna dau koeta jā <gap reason="lost" extent="unknown" unit="character"/> tammāna ruoma
+                   <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> māna parivā mūya saena <gap reason="lost" extent="unknown" unit="character"/> paṁroeha tae sabva
+                   <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/> bvaṁ taela <gap reason="illegible" extent="unknown" unit="character"/>
+                </p>
+            </div>
+            <div type="apparatus">
+                  <listApp>
+                  <app loc="1">
+                     <lem>saṁbbhamassaṭu</lem>
+                     <note>There are two small vertical strokes below the letter <foreign>ma</foreign>.</note>
+                  </app>
+                     <app loc="1">
+                     <lem>kanlaṅa</lem>
+                     <note>There are two small vertical strokes above the letter <foreign>na</foreign>.</note>
+                  </app>
+                     <app loc="2">
+                     <lem>bāna</lem>
+                     <note>There is a horizontal stroke as diacritical sign on the letter <foreign>na</foreign>.</note>
+                  </app>
+                     <app loc="2">
+                     <lem>raya</lem>
+                     <note>The letter <foreign>ya</foreign>ya is written as subscript form below the letter <foreign>ra</foreign>.</note>
+                  </app>
+                     <app loc="2">
+                     <lem>dantapa</lem>
+                        <note>There is a horizontal stroke as diacritical sign on the letter <foreign>pa</foreign>.</note>
+                  </app>
+                     <app loc="2">
+                     <lem>vasāra <gap reason="illegible" quantity="1" unit="character"/> loka</lem>
+                     <rdg source="bib:Pou1989_01">vasāra loka</rdg>
+                  </app>
+                     <app loc="3">
+                     <lem>caṁma</lem>
+                     <note>There are two small vertical strokes below the letter <foreign>ca</foreign>.</note>
+                  </app>
+                     <app loc="3">
+                     <lem>vā</lem>
+                     <note>There are two small vertical strokes below the letter <foreign>vā</foreign>.</note>
+                  </app>
+                     <app loc="3">
+                     <lem>Isa</lem>
+                     <note>The letter <foreign>sa</foreign> is written as subscript form below the letter <foreign>I</foreign>.</note>
+                  </app>
+                     <app loc="4">
+                     <lem>tāṁma</lem>
+                     <note>The letter <foreign>ma</foreign> is written as subscript form below the letter <foreign>tāṁ</foreign>.</note>
+                  </app>
+                     <app loc="4">
+                     <lem>dīya</lem>
+                     <note>The letter <foreign>ya</foreign> is written as subscript form below the letter <foreign>dī</foreign>.</note>
+                  </app>
+                     <app loc="5">
+                     <lem>hoeya</lem>
+                     <note>The letter <foreign>ya</foreign> is written as subscript form below the letter <foreign>ha</foreign>.</note>
+                  </app>
+                     <app loc="6">
+                     <lem>vīhā</lem>
+                     <note>There is a horizontal stroke as diacritical sign on the letter <foreign>hā</foreign>.</note>
+                  </app>
+                     <app loc="6">
+                     <lem>sīlā</lem>
+                     <note>There are two small vertical strokes above the letter <foreign>lā</foreign>.</note>
+                  </app>
+                     <app loc="6">
+                     <lem>Oya</lem>
+                     <note>The letter <foreign>ya</foreign> is written as subscript form below the letter <foreign>O</foreign>.</note>
+                  </app>
+                     <app loc="6">
+                     <lem>bīyaccāṇā</lem>
+                     <note>The letter <foreign>ya</foreign> is written as subscript form below the letter <foreign>bī</foreign>.</note>
+                  </app>
+                     <app loc="7">
+                     <lem>vīhā</lem>
+                     <note>There is a horizontal stroke as diacritical sign on the letter <foreign>hā</foreign>.</note>
+                  </app>
+                     <app loc="8">
+                     <lem>chṅāya</lem>
+                     <note>The letter <foreign>ya</foreign> is written as subscript form below the letter <foreign>chā</foreign>.</note>
+                  </app>
+                     <app loc="8">
+                     <lem>chlaka</lem>
+                     <note>There are two small vertical strokes above the letter <foreign>cha</foreign>.</note>
+                  </app>
+                     <app loc="9">
+                     <lem>sagha</lem>
+                     <note>There is a horizontal stroke as diacritical sign on the letter <foreign>gha</foreign>.</note>
+                  </app>
+                     <app loc="10">
+                     <lem>raṁlāya</lem>
+                     <note>The letter <foreign>ya</foreign> is written as subscript form below the letter <foreign>lā</foreign>.</note>
+                  </app>
+                     <app loc="14">
+                     <lem><gap reason="lost" extent="unknown" unit="character"/> bvaṁ taela <gap reason="illegible" extent="unknown" unit="character"/></lem>
+                     <note>The line is reported half lost half illegible in Pou’s edition.</note>
+                  </app>
+                     </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Pou1989_01">
+ 	<p n="1-4">Que les succès soit ! L’ère du Seigneur le Buddha s’étant écoulé de deux mille quatre cent dix-huit ans, le Vénérable Braḥ Buddhaviriyavinayavaṅsā a réorganisé tout le monastère en compagnie de ses parents et amis. De piété, il a planté des arbres dans l’enceinte du monastère pour les besoins de ce dernier.</p>
+            <p n="5-7"><supplied reason="subaudible">Il déclara :</supplied> « A l’avenir, au cas où le sanctuaire de pierre ou les maisonnettes des moines se détériorent, que celui qui est nommé supérieur examine la situation, en vue de réparer les dégâts. »</p>
+            <p n="7-10">Je n’ai pas planté <supplied reason="subaudible">ces arbres</supplied> comme aumône. Ensuite, les gens de partout <gap reason="lost"/> écorcer les arbres <gap reason="lost"/> des <foreign>nisīd</foreign> <gap reason="lost"/> à l’endroit du Buddha, du Dharma et du Saṅgha, ces gens-là seront considérés comme destructeurs de la religion du Seigneur.</p>
+            <p n="10-11">Ils tomberont dans les enfers durant cinq cents existences, après quoi ils reprendront naissance chez les humains <gap reason="lost"/>.</p>
+            <p n="12"><gap reason="lost"/> ils pourront renaître comme <gap reason="lost"/> avec</p>
+            <p n="13"><gap reason="lost"/> auront un entourage de cent mille <supplied reason="subaudible">personnes</supplied> pour les servir tous <supplied reason="subaudible">les jours</supplied> <gap reason="lost"/>.</p>
+         </div>
+         <!-- <div type="commentary">
+            <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou1989_01"/><citedRange unit="page">82-84</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 1033.</p>
+	 <listBibl type="primary">
+    <bibl n="SP">
+<ptr target="bib:Pou1989_01"/>
+<citedRange unit="page">82-84</citedRange>
+</bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

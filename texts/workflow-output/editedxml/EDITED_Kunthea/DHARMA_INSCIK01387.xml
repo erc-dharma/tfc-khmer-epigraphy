@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Udong on the Stupa of King Ang Duong (K. 1387), 1917 CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787"><!-- To find the Viaf ID of Men Rath Sambath -->
+                  <forename>Rath Sambath</forename>
+                  <surname>Men</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01387</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-03-28" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="khm-Latn">
+                <p>
+                   <lb n="1"/>braḥ bu <g type="circleSmall">.</g> <num value="2434">2434</num> ma <g type="circleSmall">.</g> <num value="1813">1813</num> cu <g type="circleSmall">.</g> <num value="1253">1253</num> thoḥ trī sakkha’
+                   <lb n="2"/>Aṅgā <num value="3">3</num> roja māgh dhaṁma pārāṁṅa <num value="1891">1891</num> braḥ pāda saṁmteca’ braḥ
+                   <lb n="3"/>narottama braḥ cau kruṅa kambūjādhiptī sāṅa braḥ cettī neḥ loe bhnaṁma braḥ
+                   <lb n="4"/>rāja drābya khaeta saṁroṅa daṅa dhvoe puna pancuḥ braḥ paraṁma Aṭṭhiḥ braḥ pāda
+                   <lb n="5"/>saṁmteca braḥ hārirākkha rāmmā braḥ Aṅga ṭuoṅa braḥ cau kruṅa kambū<lb n="6" break="no"/>jādhiptī jā braḥ va rāj pītā braḥ sūta chnāṁ roṅa Aṭṭha sakkha’ svoya rāja
+                   <lb n="7"/><num value="14">14</num> chnāṁ suvaṇagata vaka dosakkha’ chnāṁ pārāṁṅa <num value="1796">1796</num> braḥ jansa
+                   <lb n="8"/><num value="65">65</num> chnāṁ niṅa saṁmteca braḥ varājīnī paraṁma pabitya paena braḥ sūta
+                   <lb n="9"/>chnāṁ kūra sapta sakkha’ draṅa braḥ nāma <num value="31">31</num> chnaṁ suvaṇagata chnaṁ mamae
+                   <lb n="10"/>nabva sakkha’ chnāṁ pārāṁṅa <num value="1895">1895</num> braḥ jansa <num value="81">81</num> chnāṁ
+                   <lb n="11"/>braḥ bu <g type="circleSmall">.</g> <num value="2460">2460</num> ma <g type="circleSmall">.</g> <num value="1839">1839</num> cu <g type="circleSmall">.</g> <num value="1279">1279</num> msāña nab<choice><orig>dh</orig><reg>v</reg></choice>a sakkha’
+                   <lb n="12"/>bu <num value="2">2</num> roja Āsuca chnāṁ pārāṁṅa <num value="1917">1917</num> thṅai <num value="3">3</num> sepatama braḥ pāda
+                   <lb n="13"/>saṁmteca brah ^sīsuvatti cama cakra bansa braḥ cau kruṅa kambūjādhiptī
+                   <lb n="14"/>dhvoe puna pancuḥ braḥ paraṁma Aṭṭhiḥ saṁmteca braḥ varājinīnāṭṭha bau
+                   <lb n="15"/>jā braḥ varāja mātā braḥ sūta chnāṁ roṅa dosakkha’ chnāṁ pārāṁṅa <num value="1820">1820</num>
+                   <lb n="16"/>sugata chnāṁ roṅa saṁriddhisakkha’ chnāṁ pārāṁṅa <num value="1868">1868</num> braḥ jansa <num value="49">49</num> chnāṁ
+                   <lb n="17"/>knuṅa braḥ caettiya naeḥ jā mūya niṅa braḥ paraṁma Aṭṭhiḥ saṁmteca braḥ hā<lb n="18" break="no"/>rirākkha’ rāmā braḥ Aṅga ṭuoṅa jā braḥ rāja svāmī <g type="ddandaOrnate">.</g> <g type="gomutraFinial">.</g>
+                   <lb n="19"/><unclear>n</unclear>iṅa braḥ Aṭṭhi<unclear>ḥ</unclear> braḥ Aggamhaesī braḥ srī vakhsatra braḥ rājjinīnā<unclear cert="low">ṭa Ūta</unclear> sūra<unclear cert="low">gata</unclear>
+                   <lb n="20"/>knuṅa braḥ jansa <num value="39" cert="low">39</num> <gap reason="lost" extent="unknown" unit="character"/> <unclear>A</unclear>ṭṭhiḥ braḥ rājadhītā braḥ riema
+                   <lb n="21"/>kramula sugata <gap reason="lost" extent="unknown" unit="character"/> <num value="5">5</num> chnāṁ
+                </p>
+            </div>
+            <div type="apparatus">
+                  <listApp>
+                     <app loc="2">
+                     <lem>pārāṁṅa</lem>
+                     <note>There is a diacritic sign called "<foreign>thmeñ kantula</foreign> <supplied reason="explanation">mouse teeth</supplied>" under the letter <foreign>rāṁ</foreign>.</note>
+                  </app>
+                     <app loc="2">
+                     <lem>saṁmteca’</lem>
+                     <rdg source="bib:Men2007_01">saṁmteca</rdg>
+                  </app>
+                     <app loc="3">
+                     <lem>bhnaṁma</lem>
+                     <rdg source="bib:Men2007_01">bhnaṁ</rdg>
+                  </app>
+                     <app loc="4">
+                     <lem>saṁroṅa</lem>
+                     <note>There is a diacritic sign called "<foreign>thmeñ kantula</foreign> <supplied reason="explanation">mouse teeth</supplied>" above the letter <foreign>ro</foreign>.</note>
+                  </app>
+                     <app loc="5">
+                     <lem>hārirākkha</lem>
+                        <note>There is a diacritic sign called "<foreign>saṁyoga saññā</foreign> <supplied reason="explanation">combination sign</supplied>" above the letter <foreign>kkha</foreign>.</note>
+                     </app>
+                     <app loc="5">
+                     <lem>kambū</lem>
+                        <note>There is a diacritic sign called "<foreign>saṁyoga saññā</foreign> <supplied reason="explanation">combination sign</supplied>" between the letter <foreign>ka</foreign> and the letter <foreign>mbū</foreign>.</note>
+                     </app>
+                     <app loc="6">
+                     <lem>svoya</lem>
+                     <note>The letter <foreign>ya</foreign> is written as subscript under the letter <foreign>svo</foreign>.</note>
+                  </app>
+                     <app loc="7">
+                     <lem>pārāṁṅa</lem>
+                     <note>There is a diacritic sign called "<foreign>thmeñ kantula</foreign> <supplied reason="explanation">mouse teeth</supplied>" under the letter <foreign>rāṁ</foreign>.</note>
+                  </app>
+                     <app loc="7">
+                     <lem>jansa</lem>
+                     <note>The letter <foreign>sa</foreign> is written as subscript under the letter <foreign>jan</foreign>.</note>
+                  </app>
+                     <app loc="8">
+                     <lem>paena</lem>
+                     <note>The word is written in round brackets.</note>
+                  </app>
+                     <app loc="10">
+                     <lem>jansa</lem>
+                     <note>The letter <foreign>sa</foreign> is written as subscript under the letter <foreign>jan</foreign>.</note>
+                  </app>
+                     <app loc="12">
+                     <lem>pārāṁṅa</lem>
+                     <note>There is a diacritic sign called "<foreign>thmeñ kantula</foreign> <supplied reason="explanation">mouse teeth</supplied>" under the letter <foreign>rāṁ</foreign>.</note>
+                  </app>
+                     <app loc="14">
+                     <lem>Aṭṭhiḥ</lem>
+                     <rdg source="bib:Men2007_01">Aṭṭhi</rdg>
+                     </app>
+                     <app loc="14">
+                     <lem>bau</lem>
+                     <note>The word is written in round brackets.</note>
+                  </app>
+                     <app loc="15">
+                     <lem>pārāṁṅa</lem>
+                     <note>There is a diacritic sign called "<foreign>thmeñ kantula</foreign> <supplied reason="explanation">mouse teeth</supplied>" under the letter <foreign>rāṁ</foreign>.</note>
+                  </app>
+                     <app loc="16">
+                     <lem>jansa</lem>
+                     <note>The letter <foreign>sa</foreign> is written as subscript under the letter <foreign>jan</foreign>.</note>
+                  </app>
+                     <app loc="17">
+                     <lem>mūya</lem>
+                     <note>The letter <foreign>ya</foreign> is written as subscript under the letter <foreign>mū</foreign>.</note>
+                  </app>
+                     <app loc="17">
+                     <lem>Aṭṭhiḥ saṁmteca braḥ</lem>
+                     <rdg source="bib:Men2007_01">Aṭṭhiḥ braḥ</rdg>
+                     </app>
+                     <app loc="20">
+                     <lem>jansa</lem>
+                     <note>The letter <foreign>sa</foreign> is written as subscript under the letter <foreign>jan</foreign>.</note>
+                  </app>
+                     <app loc="20">
+                     <lem><unclear>A</unclear>ṭṭhiḥ</lem>
+                     <rdg source="bib:Men2007_01"><unclear>A</unclear>ṭṭhi</rdg>
+                     </app>
+                     <app loc="21">
+                     <lem>kramula</lem>
+                     <note>There is a diacritic sign called "<foreign>thmeñ kantula</foreign> <supplied reason="explanation">mouse teeth</supplied>" above the letter <foreign>mu</foreign>.</note>
+                  </app>
+                     </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Men2007_01">
+            <p n="1">En 2434 de l’ère bouddhique, 1813 de la grande ère, 1253 de la petite ère, en l’année du Lièvre troisième de la décade,</p>
+            <p n="2">le mardi troisième jour de la lune décroissante, du mois de <foreign>meak thom</foreign>, 1891 de l’ère chrétienne, Sa Majesté</p>
+            <p n="3">Norodom, roi du Cambodge <supplied reason="subaudible">ordonna</supplied> de construire ce stoupa sur la colline de Preah</p>
+            <p n="4">Reach Troap dans la province de Sâmraong Tông, <supplied reason="subaudible">afin de</supplied> célébrer la cérémonie de dépôt des augustes cendres de Sa Majesté</p>
+            <p n="5">Samdech Preah Harireak Reamea Preah Ang Duong, <supplied reason="subaudible">ancien</supplied> roi du Cambodge,</p>
+            <p n="6">père du roi ; <supplied reason="subaudible">Preah Ang Duong</supplied> était né en l’année du Naga huitième de la décade, <supplied reason="subaudible">après</supplied> 14 ans de règne</p>
+            <p n="7">il mourut en l’année du Singe deuxième de la décade, en 1796 de l’ère chrétienne, à l’âge de</p>
+            <p n="8">65 ans et de celles de Samdach auguste reine, nommée Pèn qui fut née</p>
+            <p n="9">en l’année du Porc septième de la décade, <supplied reason="subaudible">elle</supplied> était nommée 31 ans, elle mourut en l’année de la Chèvre</p>
+            <p n="10">neuvième de la décade, 1895 de l’ère chrétienne, à l’âge de 81 ans.</p>
+            <p n="11">En 2460 de l’ère bouddhique, 1839 de la grande ère, 1279 de la petite ère, en l’année du Serpent neuvième de la décade,</p>
+            <p n="12">le mercredi deuxième jour de la lune décroissante, du mois d’<foreign>asoch</foreign>, 1917 de l’ère chrétienne, <supplied reason="subaudible">c’est-à-dire</supplied> le 3 septembre, Sa Majesté</p>
+            <p n="13">Sisowath Châm Chakrapong, roi du Cambodge</p>
+            <p n="14">célébra la cérémonie de dépôt des augustes cendres de Sâmdach Preah Voreachnineat Peou,</p>
+            <p n="15">sa mère qui fut née en l’année du Naga deuxième de la décade, 1820 A.D.,</p>
+            <p n="16">et mourut en l’année du Naga deuxième de la décade, 1868 de l’ère chrétienne à l’âge de 49 ans.</p>
+            <p n="17"><supplied reason="subaudible">Ses cendres</supplied> ont été déposées dans ce stoupa avec celles de Sa Majesté</p>
+            <p n="18">Samdach Preah Harireak Reamea Preah Ang Duong, son auguste mari.</p>
+            <p n="19">Et les cendres de son auguste épouse royale, Preah Srei Vôkhsat Preah Reachchinineat <supplied reason="explanation" cert="low">Aut</supplied>, décédée</p>
+            <p n="20">à l’âge de <supplied reason="explanation" cert="low">39</supplied> ans, <gap reason="lost"/> les cendres de sa fille aînée</p>
+            <p n="21"><supplied reason="subaudible">nommée</supplied> Krâmol, décédée <supplied reason="subaudible">à l’âge de</supplied> <gap reason="lost"/> 5 ans.</p>
+ 	</div>
+         <!-- <div type="commentary">
+            <p></p>
+         </div>  -->
+        <div type="bibliography">
+          <p>First edited by Rath Sambath Men (<bibl rend="omitname"><ptr target="bib:Men2007_01"/><citedRange unit="page">85-93</citedRange></bibl>) with a French translation in roman and Khmer script; the variants of reading are taken from the roman script. Re-edited here by Kunthea Chhom based on the figure in Rath Sambath Men’s thesis on p. 140.</p>
+	 <listBibl type="primary">
+    <bibl n="RM">
+      <ptr target="bib:Men2007_01"/><citedRange unit="page">85-93</citedRange>
+    </bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Basalt Plate of Vat Krapoeu Chaet (K. 747), end of the 19th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00747</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-02-10" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="khm">
+                <p>
+                   <lb n="1"/>qnaka samteca cănda jota kova māna cita tamlā sāddhā knuṅa braḥ sāsnā loe<lb n="2" break="no"/>ka srae krasāṁṅa jjā E joeṅa bhūma sīema rāpa pragaena saṁrāpa vattha khāṅa E joeṅa sūma jā pracaiya
+                   <lb n="3"/>dova Ai Anāgata sūma Oya pāna saṁreca tūca seca ktiya prāthnā rīeṅa rāpa tarā<lb n="4" break="no"/>pa tala nagara kaeva prasoera kuṁ piya ghlāta loeya yāvanibvānaṁ paccayo hotu
+                   <lb n="5"/>sraeha neḥ pragena saṁrāpa vattha krabvoeha cqeta jā taṁṇara bra<supplied reason="omitted">ḥ</supplied> sāsnā hoṅa
+                </p>
+            </div>
+            <div type="apparatus">
+                  <listApp>
+                  <app loc="2">
+                     <lem>krasāṁṅa</lem>
+                     <note>The letter <foreign>ṅa</foreign> is written in subscript form under the letter <foreign>sāṁ</foreign>.</note>
+                  </app>
+                     <app loc="2">
+                     <lem>pracaiya</lem>
+                     <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>cai</foreign>.</note>
+                  </app>
+                     <app loc="3">
+                     <lem>Oya</lem>
+                     <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>O</foreign>.</note>
+                  </app>
+                     <app loc="3">
+                     <lem>ktiya</lem>
+                     <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>kti</foreign>.</note>
+                  </app>
+                     <app loc="4">
+                     <lem>piya</lem>
+                     <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>pi</foreign>.</note>
+                  </app>
+                     <app loc="4">
+                     <lem>loeya</lem>
+                     <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>loe</foreign>.</note>
+                  </app>
+                     <app loc="5">
+                     <lem>taṁṇara bra<supplied reason="omitted">ḥ</supplied> sāsnā</lem>
+                     <rdg source="bib:Pou1989_01">taṁṇara sāsnā</rdg>
+                  </app>
+                     </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Pou1989_01">
+ 	<p n="1-2">Les Anak Samtec Cand, Jot, Kau, le cœur rasséréné par la foi dans la religion du Seigneur, font offrande de la rizière de Krasāṁṅ au Nord du village de Sīemrāp, au monastère de côté Nord.</p>
+            <p n="2-4">Que <supplied reason="subaudible">cette offrande</supplied> soit la condition <supplied reason="subaudible">de leur succès</supplied> dans le futur ! Que nos souhaits se réalisent totalement, jusqu’à ce que nous atteignions la noble Cité de Cristal, sans jamais faillir ! Que <supplied reason="subaudible">ceci</supplied> soit la condition <supplied reason="subaudible">de la réussite</supplied>, jusqu’à l’arrivée au <foreign>nirvāṇa</foreign>!</p>
+            <p n="5">Cette rizière est une offrande au Monastère de Kraboe Ch-aet, pour la continuation de la religion du Seigneur.</p>
+         </div>
+         <div type="commentary">
+            <p>There is a phrase in Pali in line 4: <foreign>yāvanibvānaṁ paccayo hotu</foreign> “jusqu’à l’arrivée au <foreign>nirvāṇa</foreign>!"</p>
+         </div>
+        <div type="bibliography">
+          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou1989_01"/><citedRange unit="page">93-94</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 944.</p>
+	 <listBibl type="primary">
+    <bibl n="SP">
+<ptr target="bib:Pou1989_01"/>
+<citedRange unit="page">93-94</citedRange>
+</bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

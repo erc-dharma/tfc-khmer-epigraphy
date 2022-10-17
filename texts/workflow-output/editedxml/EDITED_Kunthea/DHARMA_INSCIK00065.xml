@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Koam Pradeuh (K. 65), 2395 and 2407 of Buddhist Era</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00065</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-02-17" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="khm-Latn">
+                     <p><milestone type="pagelike" unit="face" n="A"/>
+                        <lb n="A1"/>qnaka samteca braṁmasara 
+                        <lb n="A2"/>nāma toema jhmoḥ Oka taṁṅa
+                        <lb n="A3"/>dhvoeha jā sakrāca duka nūva
+                        <lb n="A4"/>vata gāma pratoesa neḥ
+                        <lb n="A5"/>Oya tiṅa phala Annīsaṅa
+                        <lb n="A6"/>phnuosa Āyūsa pāna <num value="50">50</num>5
+                        <lb n="A7"/>mūya puosa sāṅa vata kana<lb n="A8" break="no"/>ntāla sāṅa braḥ cāsa Aṅa
+                        <lb n="A9"/><num value="1">1</num> pālaṁṅa braḥ dhaṁma <num value="1">1</num> ruoca <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="A10"/>sāṅṅa vat bhnaṁma guṅa sāṅṅa
+                        <lb n="A11"/>braḥ Aṅ <num value="1">1</num> va<add place="below">ta</add> breya nagara
+                        <lb n="A12"/><num value="1">1</num> nūva gāma pratoesa sāṅṅa
+                        <lb n="A13"/>braḥ Aṅa bīra dhaṁma cāsa
+                        <lb n="A14"/><num value="1">1</num> gre dhāṁmmāsa bīra gre <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="A15"/>va posa bīra gre saṁmnoeṅa <num value="1">1</num> 
+                        <lb n="A16"/>kaṁmbīya tāka satrā croena
+                        <lb n="A17"/>cāra satrā vīyanaiya cre<lb n="A18" break="no"/>nna hoṅa E Aṅa braḥ
+                        <lb n="A19"/>tūca cāsa thmīya croena <supplied reason="lost">A</supplied><lb n="A20" break="no"/>ṅa <gap reason="lost" quantity="1" unit="character"/> kamā ta jā diba Oya
+                     </p>
+                     <p><milestone type="pagelike" unit="face" n="B"/>
+                        <lb n="B1"/>ta Auva jā dāna mtaṅa
+                        <lb n="B2"/>puosa nāma phlūva puka<lb n="B3" break="no"/>gala mtaṅa pāna puosa
+                        <lb n="B4"/>saṁmnera mtaṅa pān puo<lb n="B5" break="no"/>sa bhīka pīya toṅa
+                        <lb n="B6"/>pāna sāṅa svāna
+                        <lb n="B7"/>bīra pāna loeka
+                        <lb n="B8"/>khmoca grūva Ācā<lb n="B9" break="no"/>ra pīyatā mātā me<lb n="B10" break="no"/>ṅa mā poṅa phUna ñā<lb n="B11" break="no"/>ta pāna paṁmapuosa nā<lb n="B12" break="no"/>gga bīra Aṅa pāna loḥ
+                        <lb n="B13"/>geya paṁmapuosa jā bhīka
+                        <lb n="B14"/>mūya Aṅa pāna pratau
+                        <lb n="B15"/>Oya rīena dharmma phaṅa
+                        <lb n="B16"/>Oya tiṅa guna saṁdāya kh<gap reason="lost" extent="unknown" unit="character"/>
+                        
+                     </p>
+                                        <p><milestone type="pagelike" unit="face" n="C"/>
+                        <lb n="C1"/>sabbamassatu braḥ sā<lb n="C2" break="no"/>snā kanloṅa dova hoeya
+                        <lb n="C3"/>pāna <num value="2">2</num> bāna pīya raya
+                        <lb n="C4"/>kova <add place="below">sepa</add> prāṁma braḥ va<lb n="C5" break="no"/>sā pacuḥpana Ilūva neḥ
+                        <lb n="C6"/>chnāma jūta nasāka nūva
+                        <lb n="C7"/>knuṅa gimahanaratūva
+                        <lb n="C8"/>khaeha bīyasāka th<supplied reason="omitted">ṅ</supplied>aiya
+                        <lb n="C9"/>budda jjā sūrecca pa<lb n="C10" break="no"/>pūra mleḥ Eṅa hoṅa
+                        <lb n="C11"/>ka vata nūva chnāma jūta kheha
+                        <lb n="C12"/>bīyasāka sāṅa braḥ bīya chnā<lb n="C13" break="no"/>ma khāla sāṅa sālā paṅ<lb n="C14" break="no"/>gana kuta roṅa hāta
+                        <lb n="C15"/>traiya <num value="1">1</num> pāna Oya dāna saṁmba<supplied reason="omitted">ta</supplied>
+                        <lb n="C16"/>pān <num value="100">100</num> dau muka <num value="100">100</num> dau kroya
+                     </p>
+                                        <p><milestone type="pagelike" unit="face" n="D"/>
+                        <lb n="D1"/>sirīsabaṁmassatu braḥ bu<lb n="D2" break="no"/>ddhasākkharāja braḥ sāsnā A<lb n="D3" break="no"/>tikānatā kanlaṅa dova hoeya 
+                        <lb n="D4"/>pāna <num value="2">2</num> bān <num value="400">400</num> niṅ <num value="7">7</num> bra<lb n="D5" break="no"/>ḥ vasā sesa saṅakheyā kheha
+                        <lb n="D6"/>kanlaṅa dova pāna <num value="5">5</num> kheha se<lb n="D7" break="no"/>sa thṅeya kanlaṅa dova pāna <num value="26">26</num>
+                        <lb n="D8"/>thṅeya rīya niṅa sratīya pacuḥpana
+                        <lb n="D9"/>Iyalūvne chnāma jūta nasāka nū<lb n="D10" break="no"/>va kn<supplied reason="omitted">u</supplied>ṅa vasanataratūva kheha 
+                        <lb n="D11"/>kātoeka <num value="2">2</num> koeta thṅeya
+                        <lb n="D12"/>suka jā sūreca hoṅa <g type="gomutraFinial">.</g>
+                        <lb n="D13"/>pāna sāṅa Aṅa braḥ kathīna<lb n="D14" break="no"/>treya <num value="8">8</num> vata pāna sāṅa braḥ
+                        <lb n="D15"/>vīyahā vata breka prāha
+                        <lb n="D16"/>jāmūya niṅa pīyatā mātā khñuṁ<lb n="D17" break="no"/>ma sūma Oya bhneka cramoḥ tra<supplied reason="lost">ceka</supplied>
+                     </p>
+</div>
+<div type="apparatus">
+      <listApp>
+                  <app loc="A2">
+                     <lem>taṁṅa</lem>
+                    <note>The letter <foreign>ṅa</foreign> is written in subscript form under the letter <foreign>dāṁ</foreign>.</note>
+                  </app>
+         <app loc="A3">
+                     <lem>sakrāca</lem>
+                    <note>The letter <foreign>ca</foreign> is written in subscript form under the letter <foreign>krā</foreign>.</note>
+                  </app>
+         <app loc="A4">
+                     <lem>gāma</lem>
+                    <note>There is a cross sign on the vowel <foreign>gā</foreign>.</note>
+                  </app>
+         <app loc="A5">
+                     <lem>Oya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>O</foreign>.</note>
+                  </app>
+         <app loc="A7">
+                     <lem>mūya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>mū</foreign>.</note>
+                  </app>
+         <app loc="A8">
+                     <lem>cāsa Aṅa</lem>
+                    <rdg source="bib:Pou1989_01">pāya Ara</rdg>
+            <note>The letter <foreign>sa</foreign> is written in subscript form under the letter <foreign>cā</foreign>.</note>
+                  </app>
+         <app loc="A9">
+                     <lem>pālaṁṅa</lem>
+                    <note>The letter <foreign>ṅa</foreign> is written in subscript form under the letter <foreign>lāṁ</foreign>.</note>
+                  </app>
+         <app loc="A11">
+                     <lem>breya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>bre</foreign>.</note>
+                  </app>
+         <app loc="A12">
+                     <lem>gāma</lem>
+                    <note>There is a cross sign on the vowel <foreign>gā</foreign>.</note>
+                  </app>
+         <app loc="A13">
+                     <lem>cāsa</lem>
+                    <note>The letter <foreign>sa</foreign> is written in subscript form under the letter <foreign>cā</foreign>.</note>
+                  </app>
+         <app loc="A19">
+                     <lem>cāsa</lem>
+                    <note>The letter <foreign>sa</foreign> is written in subscript form under the letter <foreign>cā</foreign>.</note>
+                  </app>
+         <app loc="A19">
+                     <lem>thmīya</lem>
+                   <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>thmī</foreign>.</note>
+                  </app>
+         <app loc="A20">
+                     <lem>Oya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>O</foreign>.</note>
+                  </app>
+         <app loc="B2">
+                     <lem>nāma</lem>
+                    <note>There is a cross sign on the vowel <foreign>nā</foreign>.</note>
+            <note>The letter <foreign>ma</foreign> is written in subscript form under the letter <foreign>nā</foreign>.</note>
+                  </app>
+         <app loc="B3">
+                     <lem>puosa</lem>
+                    <note>The letter <foreign>sa</foreign> is written in subscript form under the letter <foreign>puo</foreign>.</note>
+                  </app>
+         <app loc="B5">
+                     <lem>pīya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>pī</foreign>.</note>
+                  </app>
+         <app loc="B9">
+                     <lem>pīyatā</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>pī</foreign>.</note>
+                  </app>
+         <app loc="B11">
+                     <lem>ta pāna</lem>
+                    <note>There is a vertical stroke between the letter <foreign>ta</foreign> and <foreign>pā</foreign>.</note>
+                  </app>
+         <app loc="B13">
+                     <lem>geya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>ge</foreign>.</note>
+                  </app>
+         <app loc="B14">
+                     <lem>mūya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>mū</foreign>.</note>
+                  </app>
+         <app loc="B16">
+                     <lem>saṁdāya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>dā</foreign>.</note>
+                  </app>
+         <app loc="C2">
+                     <lem>hoeya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>hoe</foreign>.</note>
+                  </app>
+         <app loc="C3">
+                     <lem>pīya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>pī</foreign>.</note>
+                  </app>
+         <app loc="C3">
+                     <lem>raya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>ra</foreign>.</note>
+            <note>There is a vowel <foreign>e</foreign> at the end of the line, which might belong to the first word of the next line, viz. <foreign>kova</foreign>.</note>
+                  </app>
+         <app loc="C6">
+                     <lem>chnāma</lem>
+                    <note>There is a cross sign on the vowel <foreign>chā</foreign>.</note>
+                  </app>
+         
+         <app loc="C7">
+                     <lem>gimahanaratūva</lem>
+                    <rdg source="bib:Pou1989_01">gimahanaratūva <gap reason="lost" extent="unknown" unit="character"/></rdg>
+            <note>There is a vowel <foreign>e</foreign> at the end of the line which might belong to the first word of the next line, viz. <foreign>khaeha</foreign>.</note>
+                  </app>
+         <app loc="C8">
+                     <lem>bīyasāka</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>bī</foreign>.</note>
+                  </app>
+         <app loc="C8">
+                     <lem>th<supplied reason="omitted">ṅ</supplied>aiya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>tha</foreign>.</note>
+                  </app>
+         <app loc="C9">
+                     <lem>budda</lem>
+                    <rdg source="bib:Pou1989_01">budha</rdg>
+                  </app>
+         <app loc="C9">
+                     <lem>pa</lem>
+                    <rdg source="bib:Pou1989_01">para</rdg>
+                  </app>
+         <app loc="C11">
+                     <lem>chnāma</lem>
+                    <note>There is a cross sign on the vowel <foreign>chā</foreign>.</note>
+                  </app>
+         <app loc="C12">
+                     <lem>bīyasāka</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>bī</foreign>.</note>
+                  </app>
+         <app loc="C12">
+                     <lem>bīya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>bī</foreign>.</note>
+                  </app>
+         <app loc="C12">
+                     <lem>chnā</lem>
+                    <note>There is a cross sign on the vowel <foreign>chā</foreign>.</note>
+                  </app>
+         <app loc="C13">
+                     <lem>sālā</lem>
+                    <note>There are two vertical strokes as a diacritical sign on the letter <foreign>lā</foreign>.</note>
+                  </app>
+         <app loc="C14">
+                     <lem>hāta</lem>
+                    <rdg source="bib:Pou1989_01">hāta <gap reason="lost" extent="unknown" unit="character"/></rdg>
+            <note>There is a vowel <foreign>ae</foreign> at the end of the line which might belong to the first word of the next line, viz. <foreign>traiya</foreign>.</note>
+                  </app>
+         <app loc="C15">
+                     <lem>traiya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>trai</foreign>.</note>
+                  </app>
+         <app loc="C15">
+                     <lem>saṁmba<supplied reason="omitted">ta</supplied></lem>
+                    <note>saṁmbata</note>
+                  </app>
+         <app loc="C16">
+                     <lem>kroya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>krā</foreign>.</note>
+                  </app>
+         <app loc="D3">
+                     <lem>tikānatā</lem>
+                    <note>There are two vertical strokes as a diacritical sign on the letter <foreign>tā</foreign>.</note>
+                  </app>
+         <app loc="D3">
+                     <lem>hoeya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>hoe</foreign>.</note>
+                  </app>
+         <app loc="D5">
+                     <lem>sesa</lem>
+                    <note>The letter <foreign>sa</foreign> is written in subscript form under the letter <foreign>se</foreign>.</note>
+                  </app>
+         <app loc="D5">
+                     <lem>saṅakheyā</lem>
+                    <note>There are two vertical strokes as diacritic sign on the letter <foreign>yā</foreign>.</note>
+            <note>The letter <foreign>yā</foreign> is written in subscript form under the letter <foreign>khe</foreign>.</note>
+                  </app>
+         <app loc="D7">
+                     <lem>thṅeya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>thṅa</foreign>.</note>
+                  </app>
+         <app loc="D8">
+                     <lem>thṅeya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>thṅa</foreign>.</note>
+                  </app>
+         <app loc="D8">
+                     <lem>rīya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>rī</foreign>.</note>
+                  </app>
+         <app loc="D8">
+                     <lem>sratīya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>tī</foreign>.</note>
+                  </app>
+         <app loc="D9">
+                     <lem>chnāma</lem>
+                    <note>There is a cross sign on the letter <foreign>chā</foreign>.</note>
+                  </app>
+         <app loc="D10">
+                     <lem>kn<supplied reason="omitted">u</supplied>ṅa</lem>
+                    <rdg source="bib:Pou1989_01">knuṅa</rdg>
+                  </app>
+         <app loc="D11">
+                     <lem>thṅeya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>thṅa</foreign>.</note>
+                  </app>
+         <app loc="D14">
+                     <lem>treya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>tra</foreign>.</note>
+                  </app>
+         <app loc="D15">
+                     <lem>vīyahā</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>vī</foreign>.</note>
+                    <note>There are two vertical strokes as diacritic sign on the letter <foreign>hā</foreign>.</note>
+                  </app>
+         <app loc="D16">
+                     <lem>jāmūya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>mū</foreign>.</note>
+                  </app>
+         <app loc="D16">
+                     <lem>pīyatā</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>pī</foreign>.</note>
+                  </app>
+         <app loc="D17">
+                     <lem>Oya</lem>
+                    <note>The letter <foreign>ya</foreign> is written in subscript form under the letter <foreign>O</foreign>.</note>
+                  </app>
+      </listApp>
+         </div> 
+           
+            <div type="translation" xml:lang="fra" source="bib:Pou1989_01">
+                  <p n="A1-A6">Anak Saṁtec Brahmasar, dont le nom premier est Ok, nommé Saṅgharāj chargé de ce monastère de Gāṁ Praṭoes, proclame l’avantage du mérite issu de la prise d’habit.</p>
+                  <p n="A6-A9">Agé de cinquante-et-un ans, ce religieux a restauré le Monastère de Kantāl, édifié une statue du Buddha en mortier, un grand socle du Buddha.</p>
+               <p n="A9-A13">Puis, au Monastère de Bhnaṁ Gaṅ, il a édifié une statue de Seigneur ; au Monastère de Brai Nagar et à Gāṁ Praṭoes, il a restauré deux grandes statues du Seigneur.</p>
+               <p n="A14-A18">Il a fait <supplied reason="subaudible">faire</supplied> deux chaires de pêche, deux <gap reason="lost"/>, un lit de moine, de nombreux livres pour noter les textes ; il a <supplied reason="subaudible">fait</supplied> graver les textes du Vinaya plusieurs <supplied reason="subaudible">fois</supplied>.</p>
+               <p n="A18-A20">De nombreuses petites statues du Seigneur, vieilles ou neuvres <gap reason="lost"/>. Les <foreign>kamā</foreign> <gap reason="lost"/> furent distribués</p>
+               <p n="B1">avec les vestes comme aumône, une fois.</p>
+               <p n="B2-B5">Il est entré en religion, pour montrer la voie aux gens, une fois ; il a pris l’habit de <foreign>sāmaṇer</foreign> une fois, celui de <foreign>bhikkhu</foreign> trois fois.</p>
+               <p n="B6-B10">Il a construit deux ponts, a célébré les obsèques de son maître, de ses père et mère, des oncles et tantes et d’autres parents.</p>
+               <p n="B11-B12">Il a fait entrer en religion deux personnes.</p>
+               <p n="B12-B16">Il a racheté un homme qu’il a fait entrer en religion comme <foreign>bhikkhu</foreign>; il l’a éduqué, en lui enseignant la Sainte Loi, afin qu’il sache bien en général <gap reason="lost"/>.</p>
+               <p n="C1-C5">Que le succès soit ! La religion du Seigneur dure depuis duex mille trois cent quatre-vingt-quinze ans.</p>
+               <p n="C5-C10">Nous sommes maintenant en l’année du Rat, en saison chaude, le mois étant celui de Bisākh et le jour le mercredi : voilà donc l’énoncé achevé !</p>
+               <p n="C11-C15">Il a bâti le monastère en l’année du Rat, au mois de Bisākh. Il a édifié deux statues du Seigneur en l’année du Tigre, édifé des <foreign>sālā</foreign>, des latrines, des maisonnettes des moines, des hangars <gap reason="lost"/> et une bibliothèque :</p>
+               <p n="C15-C16">Il a fait don d’étoffes : 100 par devant et 100 per derrière (?).</p>
+               <p n="D1-D8">Que la prospérité et le succès soient ! L’ère bouddhique dans la religion du Seigneur, dure depuis deux mille quatre cent sept ans, 5 mois et 26 jours.</p>
+               <p n="D8-D12">Pour parler du moment présent, nous sommes en l’année du Rat, en fin d’année, le mois étant Kattik, le jour le vendredi, deuxième jour de la lune croissante : il e est ainsi.</p>
+               <p n="D13-D16">Il a célébré le <foreign>kathin</foreign> dans huit monastères <supplied reason="subaudible">pour offrir</supplied> des costumes aux moines. Il a construit <supplied reason="subaudible">ou restauré</supplied> le sanctuaire du Monastère de Braek Prā, avec la collaboration de ses parents.</p>
+               <p n="D16-D17">« Je souhaite, dit-il, que mes yeux, mon nez, mes oreilles <gap reason="lost"/>. »</p>
+         </div> 
+         <!-- <div type="commentary">
+            <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou1989_01"/><citedRange unit="page">68-75</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 730.</p>
+	 <listBibl type="primary">
+    <bibl n="SP">
+      <ptr target="bib:Pou1989_01"/><citedRange unit="page">68-75</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+      </body>
+    </text>
+</TEI>

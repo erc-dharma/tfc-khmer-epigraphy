@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Cheung Ek (K. 426), 6th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00426</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2020-11-05" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<p>
+   <lb n="1"/>Ājñā vraḥ kamratāṅ· Añ· nī vraḥ kamratāṅ· Añ·
+   <lb n="2"/>siddhāyatana ta Āy· cuṅ· muh· tel· Oy· saṁ pari<lb n="3" break="no"/>bhoga ta vraḥ kamratāṅ· Añ· śrī Acaleśvara kñuṁ
+   <lb n="4"/>tmur·<g type="dotMid">.</g> krapī<g type="dotMid">.</g> sre<g type="dotMid">.</g> srū<g type="dotMid">.</g> daṁriṅ·<g type="dotMid">.</g> karom·<g type="dotMid">.</g> caṁ<lb n="5" break="no"/>kā<g type="dotMid">.</g> gan· pradāna qnak· phoṅ· Āy· ta vraḥ<g type="dotMid">.</g> ge ta sa<lb n="6" break="no"/>k· gui<g type="dotMid">.</g> ge ta cap· qnak· ta gui<g type="dotMid">.</g> ge ta tve kaṁlaṅ· ta
+   <lb n="7"/>gui<g type="dotMid">.</g> ge ta pre roḥ gui<g type="dotMid">.</g> ge ta dār· pañjas· ta gui
+   <lb n="8"/>ge ta ckop· reṅ· cuṅ· stau ta gui<g type="dotMid">.</g> ge ta cap· tmur·
+   <lb n="9"/>radeḥ dok· ta gui ge cer· Ājñā ge daṇda ga<unclear>n</unclear><supplied reason="lost">·<g type="dotMid">.</g></supplied>
+</p>
+</div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="2">
+                     <lem>saṁ pari<lb n="3" break="no"/>bhoga</lem>
+                     <rdg source="bib:Coedes1924_01">saparibhoga</rdg>
+                  </app>
+                  <app loc="3">
+                     <lem>kñuṁ</lem>
+                     <rdg source="bib:Coedes1937-1966_01">kñuṁ<g type="dotMid">.</g></rdg>
+                     <rdg source="bib:Coedes1924_01">kñuṁ<g type="dotMid">.</g></rdg>
+                  </app>
+                  <app loc="5">
+                     <lem>qnak·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">anak·</rdg>
+                     <rdg source="bib:Coedes1924_01">anak·</rdg>
+                  </app>
+                  <app loc="6">
+                     <lem>qnak·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">anak·</rdg>
+                     <rdg source="bib:Coedes1924_01">anak·</rdg>
+                  </app>
+                  <app loc="6">
+                     <lem>kaṁlaṅ·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">kaṁloṅ·</rdg>
+                     <rdg source="bib:Coedes1924_01">kaṁloṅ·</rdg>
+                  </app>
+                  <app loc="7">
+                     <lem>ta gui</lem>
+                     <rdg source="bib:Coedes1937-1966_01">ta gui<g type="dotMid">.</g></rdg>
+                     <rdg source="bib:Coedes1924_01">ta gui<g type="dotMid">.</g></rdg>
+                  </app>
+                  <app loc="8">
+                     <lem>tmur·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">tmur·<g type="dotMid">.</g></rdg>
+                     <rdg source="bib:Coedes1924_01">tmur·<g type="dotMid">.</g></rdg>
+                  </app>
+                  <app loc="9">
+                     <lem>radeḥ</lem>
+                     <rdg source="bib:Coedes1937-1966_01">radeḥ<g type="dotMid">.</g></rdg>
+                     <rdg source="bib:Coedes1924_01">radeḥ<g type="dotMid">.</g></rdg>
+                  </app>
+                  <app loc="9">
+                     <lem>daṇda</lem>
+                     <rdg source="bib:Coedes1937-1966_01">daṇḍa</rdg>
+                     <rdg source="bib:Coedes1924_01">daṇḍa</rdg>
+                  </app>
+                  <app loc="9">
+                     <lem>ga<unclear>n</unclear><supplied reason="lost">·<g type="dotMid">.</g></supplied></lem>
+                     <rdg source="bib:Coedes1937-1966_01">gan·<g type="dotMid">.</g></rdg>
+                     <rdg source="bib:Coedes1924_01">gan·<g type="dotMid">.</g></rdg>
+                  </app>
+               </listApp>         
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p n="1-5">Ordre de Sa Majesté au sujet du V.K.A. Siddhāyatana à Cuṅ Muh, dont il fait réunir les moyens de subsistance avec ceux du V.K.A. Śrī Acaleśvara : les esclaves, les boeufs, les buffles, les rizières, le paddy, les potagers, les terrains bas, les brûlis, donnés par tous les gens au dieu :</p>
+              <p n="6-9">ceux qui dérobent ceci, ceux qui prennent les gens ici, ceux qui agissent à l’intérieur de ceci, ceux qui donnent des ordres à ceci, ceux qui exigent avec insolence ici, ceux qui lient et tressent des bouts de sdau ici, ceux qui prennent les boeufs, les voitures, les barques ici, ceux qui contestent l’ordre royal, ceux-là seront punis.</p>
+         </div>
+         <div type="commentary">
+            <p>On the top of the inscribed text, there is a graving of a flourishing lotus with a trident in the middle. There is also a “string of perls” (to repeat G. Cœdès’ words) at the bottom of the text.</p>
+         </div>
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1924_01"/><citedRange unit="page">356</citedRange></bibl>); reedited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">121-122</citedRange></bibl>) with a French translation; re-edited here by Gerdi Gerschheimer and Kunthea Chhom from the estampage EFEO  n. 188 and the photograph of the stone MNPP3068-2.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">121-122</citedRange>
+    </bibl>
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1924_01"/><citedRange unit="page">356</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+      </body>
+    </text>
+</TEI>
