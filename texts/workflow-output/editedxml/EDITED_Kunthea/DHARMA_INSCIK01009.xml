@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Pedestal from Depot of Phimai (K. 1009), 7th century Śaka</title>
+            <title>Pedestal from Wat Chantheuk (K. 1009), 6th century CE</title>
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:kuch">
@@ -21,6 +21,10 @@
                <persName ref="http://viaf.org/viaf/64048594">
                   <forename>Claude</forename>
                   <surname>Jacques</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/64048594"><!-- To change to Skilling's viaf. -->
+                  <forename>Peter</forename>
+                  <surname>Skilling</surname>
                </persName>
             </respStmt>
          </titleStmt>
@@ -85,6 +89,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2022-10-10" status="draft">Revising the edition and the translation</change>
          <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:kuch" when="2020-06-16" status="draft">Modifications of edition and bibliography</change>
          <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
@@ -94,21 +99,44 @@
    <text xml:space="preserve">
         <body>
                 <div type="edition" xml:lang="san-Latn">
-<ab>
-    <lb n="1"/>mūrttim asthāpayad devī <gap reason="lost" quantity="1" unit="character"/> <supplied reason="lost">śr</supplied>īn tāthāgatīm imām <g type="dDandaOrn">.</g>
-</ab>
+                   <lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/><seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg>tava <space/></l>
+<l n="b">sutā dvāravatīpateḥ</l>
+<l n="c">mūrttim asthāpayad devī <space/></l>
+<l n="d"><supplied reason="lost">śail</supplied>īn tāthāgatīm imām· <g type="dDanda">.</g></l>
+</lg>
 </div>
-           <!--  <div type="apparatus">
-            
-         </div> -->
+           <div type="apparatus">
+            <listApp>
+                  <app loc="1">
+                     <lem><seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg>tava <space/></lem>
+                     <note>This <foreign>pāda</foreign> is not known to Claude Jacques.</note>
+                  </app>
+               <app loc="1">
+                     <lem>sutā dvāravatīpateḥ</lem>
+                     <note>This <foreign>pāda</foreign> is not known to Claude Jacques.</note>
+                  </app>
+               <app loc="1">
+                     <lem><supplied reason="lost">śail</supplied>īn</lem>
+                     <rdg source="bib:Jacques1969_01"><gap reason="lost" quantity="1" unit="character"/> <supplied reason="lost">śr</supplied>īn</rdg>
+                  </app>
+            </listApp>
+         </div>
          <div type="translation" xml:lang="fra" source="bib:Jacques1969_01">
-             <p n="1">La princesse a fait installer cette statue de Śrī, qui est adepte du Tathāgata.</p>
+             <p rend="stanza" n="1">La princesse a fait installer cette statue de Śrī, qui est adepte du Tathāgata.</p>
+             </div>
+            <div type="translation" xml:lang="fra" source="bib:Jacques1969_01">
+             <p rend="stanza" n="1"><gap reason="lost"/> daughter of the Lord of Dvāravatī <gap reason="lost"/> the queen set up this <supplied reason="subaudible">stone</supplied> image of the Tathāgata.</p>
              </div>
         <!--  <div type="commentary">
          </div> -->
         <div type="bibliography">
-          <p>Edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1969_01"/><citedRange unit="page">69</citedRange></bibl>) with a French translation.</p>
+          <p>Edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1969_01"/><citedRange unit="page">69</citedRange></bibl>) with a French translation, reedited by Peter Skilling (<bibl rend="omitname"><ptr target="bib:Skilling2019_02"/><citedRange unit="page">65-81</citedRange></bibl>) with an English translation.</p>
 	 <listBibl type="primary">
+	    <bibl n="PS">
+      <ptr target="bib:Skilling2019_02"/>
+      <citedRange unit="page">65-81</citedRange>
+    </bibl>
     <bibl n="CJ">
       <ptr target="bib:Jacques1969_01"/>
       <citedRange unit="page">69</citedRange>

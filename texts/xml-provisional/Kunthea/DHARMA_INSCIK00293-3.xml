@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb of the outer gallery west of Bayon Temple (K. 293-3), 12th century Śaka</title><!-- The structure is numbered BY 64 by Olivier Cunin. -->
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/66465311"><!-- To change to Groslier's viaf number. -->
+                  <forename>Bernard-Philippe</forename>
+                  <surname>Groslier</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00293-3</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-10-14" status="draft">Modifications to edition and bibliography</change>
+         <change who="part:kuch" when="2021-06-23">Slight modification to the edition and adding translation</change>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:kuch" when="2020-08-10">Modifications to edition and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<p>
+<lb n="1"/>vraḥ kuṭi U<supplied reason="lost">ttaravāya</supplied>vyadakṣiṇa <g type="circleSmall">.</g> kamrateṅ· jagat· śrī jaya<supplied reason="lost">ma</supplied><lb 
+   n="2" break="no"/>hānātha nagara śrī jayarājapurī <g type="circleSmall">.</g> kamrateṅ· jagat· śrī tribhuvanade<supplied reason="lost">va <g type="circleSmall">.</g></supplied>
+<lb n="3"/> kamrateṅ· jagat· śrī bhaiṣajyaguruvaidūryyaprabharāja Anle noḥ <g type="circleSmall">.</g> kamra<lb 
+   n="4" break="no"/>teṅ· jagat· śrī sūryyagiri <g type="circleSmall">.</g> kamrateṅ· jagat· śrī sūryyaśakti dmaḥ <g type="circleSmall">.</g> kamra<lb 
+      n="5" break="no"/>teṅ· jagat· śrī bhaiṣajyaguruvaidūryyaprabharāja dmaḥ <g type="circleSmall">.</g> kamrateṅ· 
+</p>
+</div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem>vraḥ</lem>
+                     <rdg source="bib:Groslier1973_01"><g type="circleTarget">.</g> vraḥ</rdg>
+                  </app>
+                  <app loc="1">
+                     <lem>śrī jaya<supplied reason="lost">ma</supplied></lem>
+                     <rdg source="bib:Coedes1937-1966_01">śrījaya<supplied reason="lost">ma</supplied></rdg>
+                     <rdg source="bib:Groslier1973_01">śrījaya<supplied reason="lost">ma</supplied></rdg>
+                  </app>
+                  <app loc="2">
+                     <lem>śrī jayarājapurī</lem>
+                     <rdg source="bib:Coedes1937-1966_01">śrījayarājapurī</rdg>
+                     <rdg source="bib:Groslier1973_01">śrījayarājapurī</rdg>
+                  </app>
+                  <app loc="2">
+                     <lem>śrī tribhuvanade</lem>
+                     <rdg source="bib:Coedes1937-1966_01">śrītribhuvanade</rdg>
+                     <rdg source="bib:Groslier1973_01">śrītribhuvanade</rdg>
+                  </app>
+                  <app loc="3">
+                     <lem>śrī bhaiṣajyaguruvaidūryyaprabharāja</lem>
+                     <rdg source="bib:Coedes1937-1966_01">śrībhaiṣajyaguruvaidūryaprabharāja</rdg>
+                     <rdg source="bib:Groslier1973_01">śrībhaiṣajyaguruvaidūryaprabharāja</rdg>
+                  </app>
+                  <app loc="3">
+                     <lem><g type="circleSmall">.</g> kamra</lem>
+                     <rdg source="bib:Coedes1937-1966_01"><g type="circleTarget">.</g> kamra</rdg>
+                     <rdg source="bib:Groslier1973_01"><g type="circleSmall">.</g> ka<supplied reason="lost">mra</supplied></rdg>
+                  </app>
+                  <app loc="4">
+                     <lem>śrī sūryyagiri</lem>
+                     <rdg source="bib:Coedes1937-1966_01">śrīsūryyagiri</rdg>
+                     <rdg source="bib:Groslier1973_01">śrīsūryyagiri</rdg>
+                  </app>
+                  <app loc="4">
+                     <lem>śrī sūryyaśakti</lem>
+                     <rdg source="bib:Coedes1937-1966_01">śrīsūryyaśakti</rdg>
+                     <rdg source="bib:Groslier1973_01">śrīsūryyaśaktī</rdg>
+                  </app>
+                  <app loc="4">
+                     <lem><g type="circleSmall">.</g> kamra</lem>
+                     <rdg source="bib:Groslier1973_01"><g type="circleSmall">.</g> ka<supplied reason="lost">mra</supplied></rdg>
+                  </app>
+                  <app loc="5">
+                     <lem>śrī bhaiṣajyaguruvaidūryyaprabharāja</lem>
+                     <rdg source="bib:Coedes1937-1966_01">śrībhaiṣajyaguruvaidūryyaprabharāja</rdg>
+                     <rdg source="bib:Groslier1973_01">śrībhaiṣajyaguruvaidūryyaprabharāja</rdg>
+                  </app>
+                  </listApp>         
+         </div>
+                     <div type="translation" resp="part:kuch">
+                <p n="1-5">The holy chapels in the north-northwest-south: Kamrateṅ Jagat Śrī Jayamahānātha <supplied reason="subaudible">at</supplied> the city Śrī Jayarājapurī; Kamrateṅ Jagat Śrī Tribhuvanadeva; Kamrateṅ Jagat Śrī Bhaiṣajyaguruvaidūryyaprabharāja <supplied reason="subaudible">at</supplied> that place; Kamrateṅ Jagat Śrī Sūryyagiri; Kamrateṅ Jagat Śrī Sūryyaśakti Dmaḥ; Kamrateṅ Jagat Śrī Bhaiṣajyaguruvaidūryyaprabharājya Dmaḥ; Kamrateṅ</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription is incomplete.</p>
+            </div>
+             <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">194</citedRange></bibl>) without any translation; reedited by Bernard-Philippe Groslier (<bibl rend="omitname"><ptr target="bib:Groslier1973_01"/><citedRange unit="page">86</citedRange></bibl>); reedited by Kunthea Chhom (<bibl rend="omitname"><ptr target="bib:Chhom2020_01"/><citedRange unit="page">44</citedRange></bibl>) in Khmer language.</p>
+	 <listBibl type="primary">
+	    <bibl n="KC">
+<ptr target="bib:Chhom2020_01"/>
+<citedRange unit="page">44</citedRange>
+</bibl>
+	    <bibl n="BPG">
+<ptr target="bib:Groslier1973_01"/>
+<citedRange unit="page">86</citedRange>
+</bibl>
+    <bibl n="GC">
+<ptr target="bib:Coedes1937-1966_01"/>
+<citedRange unit="volume">3</citedRange><citedRange unit="page">194</citedRange>
+</bibl>
+    </listBibl>
+                <listBibl type="secondary">
+	    <bibl n="GC">
+<ptr target="bib:Coedes1913_02"/>
+<citedRange unit="page">84</citedRange>
+</bibl>
+    <bibl n="GC">
+<ptr target="bib:Coedes1928_01"/>
+<citedRange unit="page">105</citedRange>
+</bibl>
+    </listBibl>
+        </div>
+       </body>
+    </text>
+</TEI>

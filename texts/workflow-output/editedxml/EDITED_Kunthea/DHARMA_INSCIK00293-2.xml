@@ -8,7 +8,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Doorjamb at Prasat Bayon (K. 293-2), 12th century Śaka</title>
+            <title>Doorjamb of the west gopura of the outer gallery west of Bayon Temple (K. 293-2), 12th century Śaka</title>
+            <!-- The structure is numbered BY 63 by Olivier Cunin. -->
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:kuch">
@@ -18,9 +19,9 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName ref="part:doso">
-                  <forename>Dominique</forename>
-                  <surname>Soutif</surname>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
                </persName>
                <persName ref="part:kuch">
                   <forename>Kunthea</forename>
@@ -89,6 +90,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2022-10-13" status="draft">Modifications to edition and bibliography</change>
          <change who="part:kuch" when="2021-06-23">Slight modification to the edition and adding translation</change>
          <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:kuch" when="2020-08-10">Modifications to edition and bibliography</change>
@@ -101,20 +103,27 @@
         <body>
                 <div type="edition" xml:lang="okz-Latn">
 <ab>
-<lb n="1"/><supplied reason="lost"><g type="circle">.</g> kamrateṅ· ja</supplied>gat· sakavrāhmaṇa <g type="circle">.</g> kamrateṅ· jagat· ta rāja <supplied reason="lost"><g type="circle">.</g></supplied>
-<lb n="2"/><supplied reason="lost"><g type="circle">.</g> kamrateṅ·</supplied> jagat· kaṁdvat· dika <g type="circle">.</g> kamrateṅ· jagat· se<lb n="3" break="no"/><supplied reason="lost">nāpati</supplied> laṁvāṅ· kaṁdvat· dika <g type="circle">.</g> kamrateṅ· jagat· Ubha<lb n="4" break="no"/><gap reason="lost" quantity="3" unit="character" precision="low"/><g type="circle">.</g> kamrateṅ· jagat· saralāyattana teṁ <g type="circle">.</g> kamra<lb n="5" break="no"/><supplied reason="lost">teṅ· ja</supplied>gat· chok· gar·gyara <g type="circle">.</g> kamrateṅ· jagat· sambhupura
-<lb n="6"/><supplied reason="lost"><g type="circle">.</g> ka</supplied>mrateṅ· jagat· saralāyattana cuṅ· <g type="circle">.</g> kamrateṅ· jaga<lb n="7" break="no"/><supplied reason="lost">t·</supplied> nāgasṭhāna <g type="circle">.</g> 
+<lb n="1"/><supplied reason="lost"><g type="circleSmall">.</g> kamrateṅ· ja</supplied>gat· sakavrāhmaṇa <g type="circleSmall">.</g> kamrateṅ· jagat· ta rāja <supplied reason="lost"><g type="circleSmall">.</g></supplied>
+<lb n="2"/><supplied reason="lost"><g type="circleSmall">.</g> kamrateṅ·</supplied> jagat· kaṁdvat· dika <g type="circleSmall">.</g> kamrateṅ· jagat· se<lb n="3" break="no"/><supplied reason="lost">nāpati</supplied> laṁvāṅ· kaṁdvat· dika <g type="circleSmall">.</g> kamrateṅ· jagat· Ubha<lb n="4" break="no"/><gap reason="lost" quantity="3" unit="character"/><g type="circleSmall">.</g> kamrateṅ· jagat· saralāyattana teṁ <g type="circleSmall">.</g> kamra<lb n="5" break="no"/><supplied reason="lost">teṅ· ja</supplied>gat· chok· gar·gyara <g type="circleSmall">.</g> kamrateṅ· jagat· sambhupura
+<lb n="6"/><supplied reason="lost"><g type="circleSmall">.</g> ka</supplied>mrateṅ· jagat· saralāyattana cuṅ· <g type="circleSmall">.</g> kamrateṅ· jaga<lb n="7" break="no"/><supplied reason="lost">t·</supplied> nāgas<choice><orig>ṭ</orig><corr>t</corr></choice>hāna <g type="circleSmall">.</g> 
 </ab>
 </div>
-<!--<div type="apparatus">
-           <!-\-apparatus encoded as per EG §9.1, basic elements for apparatus below-\->
-               <listApp><!-\- one <app> for each apparatus entry -\->
-                  <app loc="line"><!-\- Update the value of @loc.-\->
-                     <lem><!-\- fill in a lemma here -\-></lem>
-                     <rdg source="bib:AuthorYear_01"><!-\- update the @source value, fill in variant reading here -\-></rdg>
+<div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem>ta rāja <supplied reason="lost"><g type="circleSmall">.</g></supplied></lem>
+                     <rdg source="bib:Coedes1937-1966_01">ta rāja</rdg>
                   </app>
-               </listApp>         
-         </div>-->
+                  <app loc="3">
+                     <lem><supplied reason="lost">nāpati</supplied></lem>
+                     <rdg source="bib:Coedes1937-1966_01">nāpati</rdg>
+                  </app>
+                  <app loc="7">
+                     <lem>nāgas<choice><orig>ṭ</orig><corr>t</corr></choice>hāna</lem>
+                     <rdg source="bib:Coedes1937-1966_01">nāgasthāna</rdg>
+                  </app>
+                  </listApp>         
+         </div>
             <div type="translation" resp="part:kuch">
                 <p n="1-7">Kamrateṅ Jagat Sakavrāhmaṇa; Kamrateṅ Jagat Ta Rāja; Kamrateṅ Jagat Kaṁdvat Dika; Kamrateṅ Jagat Senapati Laṁvāṅ Kaṁdvat Dika; Kamrateṅ Jagat <gap reason="lost"/>; Kamrateṅ Jagat Saralāyattana, the first; Kamrateṅ Jagat Chok Gargyara; Kamrateṅ Jagat Sambhupura; Kamrateṅ Jagat Saralāyattana, the last; Kamrateṅ Jagat Nāgasṭhāna.</p>
             </div>
@@ -122,8 +131,12 @@
                 <!--commentary encoded as per section §9.3 -->
             </div>
             <div type="bibliography">
-          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">195</citedRange></bibl>) without translation; reedited here by Dominique Soutif and Kunthea Chhom based on the estampage EFEO n. 39.2.</p>
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">195</citedRange></bibl>) without translation; reedited by Kunthea Chhom (<bibl rend="omitname"><ptr target="bib:Chhom2020_01"/><citedRange unit="page">43-44</citedRange></bibl>) in Khmer language.</p>
 	 <listBibl type="primary">
+	    <bibl n="KC">
+<ptr target="bib:Chhom2020_01"/>
+<citedRange unit="page">43-44</citedRange>
+</bibl>
     <bibl n="GC">
 <ptr target="bib:Coedes1937-1966_01"/>
 <citedRange unit="volume">3</citedRange><citedRange unit="page">195</citedRange>
