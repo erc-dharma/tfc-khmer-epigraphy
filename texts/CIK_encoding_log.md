@@ -1211,7 +1211,7 @@ K.	294 |# |# |#|
 |K.	1151 |sapi |done |NIC II-III|
 |K.	1152 |sapi |pending |NIC II-III|
 |K.	1153 |chch|pending |NIC III|
-|K.	1154 |# |# |#|
+|K.	1154 |chch |done |NIC II-III|
 |K.	1155 |# |# |#|
 |K.	1156 |# |# |#|
 |K.	1157 |# |# |#|
