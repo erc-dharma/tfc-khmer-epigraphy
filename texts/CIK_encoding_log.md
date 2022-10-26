@@ -925,7 +925,7 @@ K.	294 |# |# |#|
 |K.	871 |# |# |#|
 |K.	872 |sapi |pending |IC V|
 |K.	873 |# |# |#|
-|K.	874 |# |# |#|
+|K.	874 |sapi |done |IC V |
 |K.	875 |kuch |done |Coedes 1937|
 |K.	876 |# |# |#|
 |K.	877 |kuch |done |IC VI|
