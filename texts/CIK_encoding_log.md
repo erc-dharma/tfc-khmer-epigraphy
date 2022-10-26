@@ -925,7 +925,7 @@ K.	294 |# |# |#|
 |K.	871 |# |# |#|
 |K.	872 |sapi |pending |IC V|
 |K.	873 |# |# |#|
-|K.	874 |# |# |#|
+|K.	874 |sapi |done |IC V |
 |K.	875 |kuch |done |Coedes 1937|
 |K.	876 |# |# |#|
 |K.	877 |kuch |done |IC VI|
@@ -1005,7 +1005,7 @@ K.	294 |# |# |#|
 |K.	951 |# |# |#|
 |K.	952 |kuch |done |unpublished|
 |K.	953 |# |# |#|
-|K.	954 |# |# |#|
+|K.	954 |sapi |done |IC VII|
 |K.	955 |kuch |done |unpublished|
 |K.	956 |kuch |done |IC VII|
 |K.	957 |chch |done |IC VII|
@@ -1014,7 +1014,7 @@ K.	294 |# |# |#|
 |K.	960 |# |# |#|
 |K.	961 |# |# |#|
 |K.	962 |kuch|pending |Unpublished|
-|K.	963 |# |# |#|
+|K.	963 |sapi |done |IC VII |
 |K.	964 |kuch |pending |Coedes 1958; śilpākara II; RS III|
 |K.	965 |# |# |#|
 |K.	966 |# |# |#|
@@ -1024,7 +1024,7 @@ K.	294 |# |# |#|
 |K.	970 |# |# |#|
 |K.	971 |# |# |#|
 |K.	972 |# |# |#|
-|K.	973 |# |# |#|
+|K.	973 |sapi |done |IC VII|
 |K.	974 |# |# |#|
 |K.	975 |kuch |pending |unpublished|
 |K.	976 |# |# |#|
