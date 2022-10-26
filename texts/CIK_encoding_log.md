@@ -1005,7 +1005,7 @@ K.	294 |# |# |#|
 |K.	951 |# |# |#|
 |K.	952 |kuch |done |unpublished|
 |K.	953 |# |# |#|
-|K.	954 |# |# |#|
+|K.	954 |sapi |done |IC VII|
 |K.	955 |kuch |done |unpublished|
 |K.	956 |kuch |done |IC VII|
 |K.	957 |chch |done |IC VII|
