@@ -1014,7 +1014,7 @@ K.	294 |# |# |#|
 |K.	960 |# |# |#|
 |K.	961 |# |# |#|
 |K.	962 |kuch|pending |Unpublished|
-|K.	963 |# |# |#|
+|K.	963 |sapi |done |IC VII |
 |K.	964 |kuch |pending |Coedes 1958; śilpākara II; RS III|
 |K.	965 |# |# |#|
 |K.	966 |# |# |#|
