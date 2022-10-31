@@ -277,7 +277,7 @@
 |K.	269 |# |# |#|
 |K.	270 |# |# |#|
 |K.	271 |sapi |pending |IC IV|
-|K.	272 |kuch |pending |Cœdès 1951|
+|K.	272 |kuch |done |Cœdès 1951|
 |K.	273 |# |# |#|
 |K.	274 |kuch |pending |Cœdès 1951|
 |K.	275 |# |# |#|
@@ -289,7 +289,17 @@
 |K.	281 |# |# |#|
 |K.	282 |# |# |#|
 |K.	283 |# |# |#|
-|K.	284 |kuch |pending |Cœdès 1951|
+|K.	284-1|kuch |done |Cœdès 1951|
+|K.	284-2 |kuch |done |Cœdès 1951|
+|K.	284-3 |kuch |done |Cœdès 1951|
+|K.	284-4 |kuch |done |Cœdès 1951|
+|K.	284-5 |kuch |done |Cœdès 1951|
+|K.	284-6 |kuch |done |Cœdès 1951|
+|K.	284-7 |kuch |done |Cœdès 1951|
+|K.	284-8 |kuch |done |Cœdès 1951|
+|K.	284-9 |kuch |done |Cœdès 1951|
+|K.	284-10 |kuch |done |Cœdès 1951|
+|K.	284-11 |kuch |done |Cœdès 1951|
 |K.	285 |# |# |#|
 |K.	286 |# |# |#|
 |K.	287 |chch |pending |IC IV|
@@ -301,19 +311,19 @@
 |K.	293-1 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
 |K.	293-2 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
 |K.	293-3 |kuch |done|Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
-|K.	293-4 |kuch |pending |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
+|K.	293-4 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
 |K.	293-5 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
-|K.	293-6 |kuch |pending |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
-|K.	293-7 |kuch |pending |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
-|K.	293-8 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-9 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-10 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-11 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-12 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-13 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-14 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-15 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-16 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-6 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
+|K.	293-7 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
+|K.	293-8 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-9 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-10 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-11 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-12 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-13 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-14 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-15 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-16 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
 |K.	293-17 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
 |K.	293-18 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
 |K.	293-19 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
@@ -505,9 +515,14 @@ K.	294 |# |# |#|
 |K.	455 |# |# |#|
 |K.	456 |# |# |#|
 |K.	457 |sapi |pending |Cœdès 1918|
-|K.	458 = 551|kuch|pending |Cœdès 1951|
+|K.	458 = 551|kuch|done |Cœdès 1951|
 |K.	459 = 550 |kuch|pending |Cœdès 1951|
-|K.	460 |kuch|pending |Cœdès 1951|
+|K.	460-1 |kuch|done |Cœdès 1951|
+|K.	460-2 |kuch|done |Cœdès 1951|
+|K.	460-3 |kuch|done |Cœdès 1951|
+|K.	460-4 |kuch|done |Cœdès 1951|
+|K.	460-5 |kuch|done |Cœdès 1951|
+|K.	460-6 |kuch|done |Cœdès 1951|
 |K.	461 |# |# |#|
 |K.	462 |kuch |pending |Cœdès 1951|
 |K.	463 |# |# |#|
@@ -598,7 +613,7 @@ K.	294 |# |# |#|
 |K.	548 |kuch |done |IC II|
 |K.	549 |kuch |done |IC II|
 |K.	550 |chch |done |Cœdès 1951|
-|K.	551 |kuch |pending |Cœdès 1951|
+|K.	551 |kuch |done |Cœdès 1951|
 |K.	552 |# |# |#|
 |K.	553 |# |# |#|
 |K.	554 |# |# |#|
@@ -1096,7 +1111,7 @@ K.	294 |# |# |#|
 |K.	1036 |chch |pending |NIC II-III|
 |K.	1037 |# |# |#|
 |K.	1038 |# |# |#|
-|K.	1039 |kuch|pending |Unpublished|
+|K.	1039 |kuch|done |Unpublished|
 |K.	1040 |chch |pending |unpublished|
 |K.	1041 |# |# |#|
 |K.	1042 |kuch |done |Chhom et al 2021|
@@ -1118,8 +1133,8 @@ K.	294 |# |# |#|
 |K.	1058 |# |# |#|
 |K.	1059 |chch |pending |Lintingre 1974|
 |K.	1060 |# |# |#|
-|K.	1061 |kuch|pending |Unpublished|
-|K.	1062 |kuch|pending |Unpublished|
+|K.	1061 |kuch|done |Unpublished|
+|K.	1062 |kuch|done |Unpublished|
 |K.	1063 |sapi |done |unpublished|
 |K.	1064 |# |# |#|
 |K.	1065 |# |# |#|
@@ -1370,10 +1385,10 @@ K.	294 |# |# |#|
 |K.	1310 |# |# |#|
 |K.	1311 |# |# |#|
 |K.	1312 |# |# |#|
-|K.	1313 |kuch|pending |Maxwell 2009|
-|K.	1314 |kuch|pending |Maxwell 2009|
-|K.	1315 |kuch|pending |Maxwell 2009|
-|K.	1316 |kuch|pending |Maxwell 2009|
+|K.	1313 |kuch|done |Maxwell 2009|
+|K.	1314 |kuch|done |Maxwell 2009|
+|K.	1315 |kuch|done |Maxwell 2009|
+|K.	1316 |kuch|done |Maxwell 2009|
 |K.	1317 |# |# |#|
 |K.	1318 |kuch |done |Jacques 2014|
 |K.	1319 |# |# |#|
