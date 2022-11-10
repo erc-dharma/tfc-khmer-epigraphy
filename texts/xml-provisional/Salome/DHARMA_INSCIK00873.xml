@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Stela of the East Door of Prasat Beng Vien (K. 873), 843 Śaka</title>
+                <respStmt>
+                  <resp>EpiDoc Encoding</resp>
+                  <persName ref="part:sapi">
+                     <forename>Salomé</forename>
+                     <surname>Pichon</surname>
+                  </persName>
+                </respStmt>
+                <respStmt>
+                  <resp>intellectual authorship of edition</resp>
+                  <persName ref="http://viaf.org/viaf/66465311">
+                     <forename>George</forename>
+                     <surname>Cœdès</surname>
+                  </persName>
+                  <persName ref="part:sapi">
+                     <forename>Salomé</forename>
+                     <surname>Pichon</surname>
+                  </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSCIK00873</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                        <p>Copyright (c) 2019-2025 by Salomé Pichon.</p>
+                    </licence>
+                </availability>
+                <date from="2019" to="2025">2019-2025</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                          <p>The scribe doesn't inscribe any <foreign>virāma</foreign>, so that the words known to be consonant-final are spelt without cancellation of the inherent vowel of the final consonant.</p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+            </projectDesc>
+            <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
+            <listPrefixDef>
+                <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+                    <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+                </prefixDef>
+                <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_idListMembers_v01.xml#$1">
+                    <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_idListMembers_v01.xml</ref> file.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <revisionDesc>
+          <change who="part:sapi" when="2022-11-07" status="draft">initial encoding of the inscription</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="okz-Latn">
+           <p><lb n="1"/><num value="843">843</num> śaka pi ket<choice><orig>a</orig><reg>·</reg></choice> <unclear>vaiśākha</unclear> punarvvasunakṣatra
+           <lb n="2"/>yā vyar<choice><orig>a</orig><reg>·</reg></choice> thmā thṅai nu vraḥ karuṇā pre cār<choice><orig>a</orig><reg>·</reg></choice> prasa<lb
+           n="3" break="no"/>ṣṭha jaṁnvan<choice><orig>a</orig><reg>·</reg></choice> sre bhūmyākara vraḥ kamrateṅ<choice><orig>a</orig><reg>·</reg></choice> Añ<choice><orig>a</orig><reg>·</reg></choice>
+           <lb n="4"/><g type="circleLarge">.</g> sruk<choice><orig>a</orig><reg>·</reg></choice> kanloṅ<choice><orig>a</orig><reg>·</reg></choice> thmi <space/> sruk<choice><orig>a</orig><reg>·</reg></choice> muṁ vryaṅ<choice><orig>a</orig><reg>·</reg></choice>
+           <lb n="5"/><g type="circleMed">.</g> caṁnat<choice><orig>a</orig><reg>·</reg></choice> kracap<choice><orig>a</orig><reg>·</reg></choice> <space/> caṁnat<choice><orig>a</orig><reg>·</reg></choice> teṁ jrai
+           <lb n="6"/><g type="circleMed">.</g> caṁnat<choice><orig>a</orig><reg>·</reg></choice> thmiṅ<choice><orig>a</orig><reg>·</reg></choice> <num value="1"><g type="numeral">I</g></num> <space/> caṁnat<choice><orig>a</orig><reg>·</reg></choice> vnur<choice><orig>a</orig><reg>·</reg></choice> le
+           <lb n="7"/><g type="circleMed">.</g> caṁnat<choice><orig>a</orig><reg>·</reg></choice> caṁryyaṅ<choice><orig>a</orig><reg>·</reg></choice> <space/> caṁnat<choice><orig>a</orig><reg>·</reg></choice> vnur<choice><orig>a</orig><reg>·</reg></choice> kantāl<choice><orig>a</orig><reg>·</reg></choice>
+           <lb n="8"/><g type="circleMed">.</g> caṁnat<choice><orig>a</orig><reg>·</reg></choice> haṁ kluṅ<choice><orig>a</orig><reg>·</reg></choice> <space/> caṁnat<choice><orig>a</orig><reg>·</reg></choice> vnur<choice><orig>a</orig><reg>·</reg></choice> kārom<choice><orig>a</orig><reg>·</reg></choice>
+           <lb n="9"/><g type="circleMed">.</g> sruk<choice><orig>a</orig><reg>·</reg></choice> camraiḥ <space/> sruk<choice><orig>a</orig><reg>·</reg></choice> kuḍi ruṅ<choice><orig>a</orig><reg>·</reg></choice> bhāga mvāy<choice><orig>a</orig><reg>·</reg></choice>
+           <lb n="10"/><g type="circleMed">.</g> sruk<choice><orig>a</orig><reg>·</reg></choice> jotigrāma <space/> caṁnat<choice><orig>a</orig><reg>·</reg></choice> madhyamadeśa
+           <lb n="11"/><g type="circleMed">.</g> caṁnat<choice><orig>a</orig><reg>·</reg></choice> tval<choice><orig>a</orig><reg>·</reg></choice> <space/> caṁnat<choice><orig>a</orig><reg>·</reg></choice> saṁlaṅ<choice><orig>a</orig><reg>·</reg></choice> <num value="1"><g type="numeral">I</g></num>
+           <lb n="12"/><g type="circleMed">.</g> bhūmi caṅvat<choice><orig>a</orig><reg>·</reg></choice> jeṅ<choice><orig>a</orig><reg>·</reg></choice> kryal<choice><orig>a</orig><reg>·</reg></choice> pūrvva prasap<choice><orig>a</orig><reg>·</reg></choice> gol<choice><orig>a</orig><reg>·</reg></choice>
+           <lb n="13"/>krau jaṁnyak<choice><orig>a</orig><reg>·</reg></choice> Āgneya Indrakhila dakṣiṇa vraḥ thnal<choice><orig>a</orig><reg>·</reg></choice>
+           <lb n="14"/>naiR̥tiya sthalā paścima prasap<choice><orig>a</orig><reg>·</reg></choice> danle śrīndreśvara
+           <lb n="15"/>vāyavya travāṅ<choice><orig>a</orig><reg>·</reg></choice> crapic<choice><orig>a</orig><reg>·</reg></choice> Uttara rājakaruṇā
+           <lb n="16"/>Īśāna svetabhagra tai khnor<choice><orig>a</orig><reg>·</reg></choice> Anle vyar<choice><orig>a</orig><reg>·</reg></choice> <num value="1"><unclear><g type="numeral">I</g></unclear></num>
+           <lb n="17"/>sre smiṅ<choice><orig>a</orig><reg>·</reg></choice> dakṣiṇa vraḥ lvaḥ vraḥ thnal<choice><orig>a</orig><reg>·</reg></choice>
+         </p>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                 <app loc="1">
+                    <lem><unclear>vaiśākha</unclear></lem>
+                    <note>Although G. Cœdès seems quite sure about this reading, the estampage shows some ambiguity. To be verified on the stone?</note>
+                 </app>
+                 <app loc="8">
+                    <lem>kārom<choice><orig>a</orig><reg>·</reg></choice></lem>
+                    <rdg source="bib:Coedes1937-1966_01">karom</rdg>
+                 </app>
+                 <app loc="9">
+                    <lem>mvāy<choice><orig>a</orig><reg>·</reg></choice></lem>
+                    <note>The reading <foreign>mvay</foreign> would also be possible.</note>
+                 </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	         <p n="1-3">843 <foreign>śaka</foreign>, troisième jour de la lune croissante de Vaiśākha, mansion lunaire Punarvasu, deuxième veille du jour, Sa Majesté a ordonné de graver une inscription concernant la donation de rizières, de terres avec leurs revenus au V.K.A.</p>
+           <p n="4-11"><supplied reason="explanation">Liste de 16 villages (<foreign>sruk</foreign>) et établissements (<foreign>caṁnat</foreign>)</supplied>.</p>
+           <p n="12-16">Délimitation de la terre de Jeṅ Kryal : à l'est, elle touche à la borne en dehors de la fosse ; au sud-est, à l'<foreign>indrakhīla</foreign> ; au sud, à la sainte chaussée ; au sud-ouest, au tertre ; à l'ouest, au bassin de Śrīndreśvara ; au nord-ouest, à Travāṅ Crapic ; au nord, à <supplied reason="subaudible">la terre reçue de</supplied> la bonté royale ; au nord-est, à Svetabhagra et Tai Khnor, deux endroits.</p>
+           <p n="17">Rizière de Smiṅ au sud du sanctuaire jusqu'à la sainte chaussée.</p>
+         </div>
+         <div type="commentary">
+          <p>As G. Cœdès stated, the inscription is dated from the same year as the foundation of the Prasat Thom of Koh Ker by Jayavarman IV. But the king isn't named so we can't say for sure whether the Prasat Beng Vien was under his authority or those of the king Harṣavarman Ier, also ruling in Yaśodhapura at that time.</p>
+         </div>
+        <div type="bibliography">
+          <p>First edited by George Cœdès with a French translation (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">104-105</citedRange></bibl>). Re-edited here by Salomé Pichon.</p>
+          <listBibl type="primary">
+           <bibl n="C">
+           <ptr target="bib:Coedes1937-1966_01"/>
+           <citedRange unit="volume">5</citedRange>
+           <citedRange unit="page">104-105</citedRange>
+           </bibl>
+			</listBibl>
+           <listBibl type="secondary">
+              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
