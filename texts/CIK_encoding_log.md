@@ -324,31 +324,34 @@
 |K.	293-14 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
 |K.	293-15 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
 |K.	293-16 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-17 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-18 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-19 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-20 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-21 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-22 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-23 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-24 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-25 |kuch |pending |Cœdès 1913, 1928, 1951; Groslier 1973|
-|K.	293-26 |kuch |pending |Cœdès 1913, 1928, 1951 Groslier 1973|
-|K.	293-27 |kuch |pending |Cœdès 1913, 1928, 1951 Groslier 1973|
-|K.	293-28 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
-|K.	293-29 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
-|K.	293-30 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
-|K.	293-31 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
-|K.	293-32 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
-|K.	293-33 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
-|K.	293-34 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
-|K.	293-35 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
-|K.	293-36 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
-|K.	293-37 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
-|K.	293-38 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
-|K.	293-39 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
-|K.	293-40 |kuch |pending |Cœdès 1913, 1928; Groslier 1973|
-|K.	293-41 |kuch |pending |Groslier 1973|
+|K.	293-17 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-18 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-19 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-20 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-21 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-22 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-23 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-24A |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-24B |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-25 |kuch |done |Cœdès 1913, 1928, 1951; Groslier 1973|
+|K.	293-26 |kuch |done |Cœdès 1913, 1928, 1951 Groslier 1973|
+|K.	293-27 |kuch |done |Cœdès 1913, 1928, 1951 Groslier 1973|
+|K.	293-28A |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-28B |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-29 |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-30 |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-31 |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-32A |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-32B |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-33 |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-34 |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-35 |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-36 |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-37 |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-38 |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-39 |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-40 |kuch |done |Cœdès 1913, 1928; Groslier 1973|
+|K.	293-41 |kuch |done |Groslier 1973|
 K.	294 |# |# |#|
 |K.	295 |# |# |#|
 |K.	296 |# |# |#|
@@ -602,7 +605,7 @@ K.	294 |# |# |#|
 |K.	537 |kuch |done |unpublished|
 |K.	538 |# |# |#|
 |K.	539 = 293.24b |kuch |pending |BEFEO XVIII (10), Cœdès 1928|
-|K.	540 |# |# |#|
+|K.	540 |kuch |done |IC III|
 |K.	541 |# |# |#|
 |K.	542 |# |# |#|
 |K.	543 |# |# |#|
