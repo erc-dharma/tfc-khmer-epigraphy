@@ -688,28 +688,28 @@ K.	294 |# |# |#|
 |K.	618 |# |# |#|
 |K.	619 |# |# |#|
 |K.	620 |# |# |#|
-|K.	621 |kuch |pending |Cœdès 1951|
-|K.	622 |kuch |pending |Cœdès 1951|
-|K.	623 |kuch |pending |Cœdès 1951|
-|K.	624 |kuch |pending |Cœdès 1951|
-|K.	625 |kuch |pending |Cœdès 1951|
-|K.	626 |kuch |pending |Cœdès 1951|
-|K.	627 |kuch |pending |Cœdès 1951|
-|K.	628 |kuch |pending |Cœdès 1951|
-|K.	629 |kuch |pending |Cœdès 1951|
-|K.	630 |kuch |pending |Cœdès 1951|
-|K.	631 |kuch |pending |Cœdès 1951|
-|K.	632 |kuch |pending |Cœdès 1951|
-|K.	633 |kuch |pending |Cœdès 1951|
-|K.	634 |kuch |pending |Cœdès 1951|
-|K.	635 |kuch |pending |Cœdès 1951|
-|K.	636 |kuch |pending |Cœdès 1951|
-|K.	637 |kuch |pending |Cœdès 1951|
-|K.	638 |kuch |pending |Cœdès 1951|
-|K.	639 |kuch |pending |Cœdès 1951|
-|K.	640 |kuch |pending |Cœdès 1951|
-|K.	641 |kuch |pending |Cœdès 1951|
-|K.	642 |kuch |pending |Cœdès 1951|
+|K.	621 |kuch |done |Cœdès 1951|
+|K.	622 |kuch |done |Cœdès 1951|
+|K.	623 |kuch |done |Cœdès 1951|
+|K.	624 |kuch |done |Cœdès 1951|
+|K.	625 |kuch |done |Cœdès 1951|
+|K.	626 |kuch |done |Cœdès 1951|
+|K.	627 |kuch |done |Cœdès 1951|
+|K.	628 |kuch |done |Cœdès 1951|
+|K.	629 |kuch |done |Cœdès 1951|
+|K.	630 |kuch |done |Cœdès 1951|
+|K.	631 |kuch |done |Cœdès 1951|
+|K.	632 |kuch |done |Cœdès 1951|
+|K.	633 |kuch |done |Cœdès 1951|
+|K.	634 |kuch |done |Cœdès 1951|
+|K.	635 |kuch |done |Cœdès 1951|
+|K.	636 |kuch |done |Cœdès 1951|
+|K.	637 |kuch |done |Cœdès 1951|
+|K.	638 |kuch |done |Cœdès 1951|
+|K.	639 |kuch |done |Cœdès 1951|
+|K.	640 |kuch |done |Cœdès 1951|
+|K.	641 |kuch |done |Cœdès 1951|
+|K.	642 |kuch |done |Cœdès 1951|
 |K.	643 |# |# |#|
 |K.	644 |# |# |#|
 |K.	645 |# |# |#|
@@ -976,7 +976,27 @@ K.	294 |# |# |#|
 |K.	904 |# |# |#|
 |K.	905 |# |# |#|
 |K.	906 |kuch |pending |Cœdès 1951|
-|K.	907 |kuch |pending |Cœdès 1951|
+|K.	907-1 |kuch |done |Cœdès 1951|
+|K.	907-2 |kuch |done |Cœdès 1951|
+|K.	907-3 |kuch |done |Cœdès 1951|
+|K.	907-4 |kuch |done |Cœdès 1951|
+|K.	907-5 |kuch |done |Cœdès 1951|
+|K.	907-6 |kuch |done |Cœdès 1951|
+|K.	907-7 |kuch |done |Cœdès 1951|
+|K.	907-8 |kuch |done |Cœdès 1951|
+|K.	907-9 |kuch |done |Cœdès 1951|
+|K.	907-10 |kuch |done |Cœdès 1951|
+|K.	907-11 |kuch |done |Cœdès 1951|
+|K.	907-12 |kuch |done |Cœdès 1951|
+|K.	907-13 |kuch |done |Cœdès 1951|
+|K.	907-14 |kuch |done |Cœdès 1951|
+|K.	907-15 |kuch |done |Cœdès 1951|
+|K.	907-16 |kuch |done |Cœdès 1951|
+|K.	907-17 |kuch |done |Cœdès 1951|
+|K.	907-18 |kuch |done |Cœdès 1951|
+|K.	907-19 |kuch |done |Cœdès 1951|
+|K.	907-20 |kuch |done |Cœdès 1951|
+|K.	907-21 |kuch |done |Cœdès 1951|
 |K.	908 |# |# |#|
 |K.	909 |kuch|pending |Cœdès 1951|
 |K.	910 |kuch |done |IC V|
