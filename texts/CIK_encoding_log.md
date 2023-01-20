@@ -780,7 +780,7 @@ K.	294 |# |# |#|
 |K.	710 |kuch | done |IC VI|
 |K.	711 |kuch |done |IC VI|
 |K.	712 |kuch |done |IC VI|
-|K.	713 |sapi |pending |IC I|
+|K.	713 |sapi |done |IC I|
 |K.	714 |chch |pending |unpublished|
 |K.	715 |chch |done |NIC I|
 |K.	716 |chch |done |NIC I|
