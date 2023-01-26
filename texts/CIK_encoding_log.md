@@ -306,7 +306,7 @@
 |K.	288 |# |# |#|
 |K.	289 |# |# |#|
 |K.	290 |chch |pending |IC III|
-|K.	291 |sapi |pending |IC III |
+|K.	291 |sapi |done |IC III |
 |K.	292 |# |# |#|
 |K.	293-1 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
 |K.	293-2 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
