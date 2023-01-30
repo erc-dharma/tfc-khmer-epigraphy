@@ -231,8 +231,13 @@
 |K.	223 |# |# |#|
 |K.	224 |# |# |#|
 |K.	225 |chch |pending |IC III|
-|K.	226 |kuch |pending |Cœdès 1951, IC III|
-|K.	227 |kuch |pending |Cœdès 1929, 1951; RS III|
+|K.	226-1 |kuch |done |Cœdès 1951, IC III|
+|K.	226-2 |kuch |done |Cœdès 1951, IC III|
+|K.	226-3 |kuch |done |Cœdès 1951, IC III|
+|K.	226-4 |kuch |done |Cœdès 1951, IC III|
+|K.	226-5 |kuch |done |Cœdès 1951, IC III|
+|K.	226-6 |kuch |done |Cœdès 1951, IC III|
+|K.	227 |kuch |done |Cœdès 1929, 1951; RS III|
 |K.	228 |# |# |#|
 |K.	229 |# |# |#|
 |K.	230 |# |# |#|
@@ -527,7 +532,20 @@ K.	294 |# |# |#|
 |K.	460-5 |kuch|done |Cœdès 1951|
 |K.	460-6 |kuch|done |Cœdès 1951|
 |K.	461 |# |# |#|
-|K.	462 |kuch |pending |Cœdès 1951|
+|K.	462-1 |kuch |done |Cœdès 1951|
+|K.	462-2 |kuch |done |Cœdès 1951|
+|K.	462-3 |kuch |done |Cœdès 1951|
+|K.	462-4 |kuch |done |Cœdès 1951|
+|K.	462-5 |kuch |done |Cœdès 1951|
+|K.	462-6 |kuch |done |Cœdès 1951|
+|K.	462-7 |kuch |done |Cœdès 1951|
+|K.	462-8 |kuch |done |Cœdès 1951|
+|K.	462-9 |kuch |done |Cœdès 1951|
+|K.	462-10 |kuch |done |Cœdès 1951|
+|K.	462-11 |kuch |done |Cœdès 1951|
+|K.	462-12 |kuch |done |Cœdès 1951|
+|K.	462-13 |kuch |done |Cœdès 1951|
+|K.	462-14 |kuch |done |Cœdès 1951|
 |K.	463 |# |# |#|
 |K.	464 |# |# |#|
 |K.	465 |# |# |#|
@@ -657,7 +675,7 @@ K.	294 |# |# |#|
 |K.	589 |# |# |#|
 |K.	590 |# |# |#|
 |K.	591 |# |# |#|
-|K.	592 |kuch |pending |Cœdès 1951, IC III|
+|K.	592 |kuch |done |Cœdès 1951, IC III|
 |K.	593 |chch |done |IC III|
 |K.	594 |# |# |#|
 |K.	595 |# |# |#|
@@ -763,7 +781,9 @@ K.	294 |# |# |#|
 |K.	693 |# |# |#|
 |K.	694 |# |# |#|
 |K.	695 |# |# |#|
-|K.	696 |kuch |pending |Cœdès 1951|
+|K.	696-1 |kuch |done |Cœdès 1951|
+|K.	696-2 |kuch |done |Cœdès 1951|
+|K.	696-3 |kuch |done |Cœdès 1951|
 |K.	697 |# |# |#|
 |K.	698 |kuch |done |unpublished|
 |K.	699 |# |# |#|
@@ -896,7 +916,7 @@ K.	294 |# |# |#|
 |K.	824 |sapi |pending |NIC II-III|
 |K.	825 |# |# |#|
 |K.	826 |# |# |#|
-|K.	827 |kuch |pending |Cœdès 1951|
+|K.	827 |kuch |done |Cœdès 1951|
 |K.	828 |# |# |#|
 |K.	829 |# |# |#|
 |K.	830 |chch |done |IC V|
@@ -975,7 +995,7 @@ K.	294 |# |# |#|
 |K.	903 |kuch |done |IC VI|
 |K.	904 |# |# |#|
 |K.	905 |# |# |#|
-|K.	906 |kuch |pending |Cœdès 1951|
+|K.	906 |kuch |done |Cœdès 1951|
 |K.	907-1 |kuch |done |Cœdès 1951|
 |K.	907-2 |kuch |done |Cœdès 1951|
 |K.	907-3 |kuch |done |Cœdès 1951|
@@ -1014,7 +1034,7 @@ K.	294 |# |# |#|
 |K.	922 |# |# |#|
 |K.	923 |chch |pending |IC IV|
 |K.	924 |kuch |pending |unpublished|
-|K.	925 |kuch |pending |Cœdès 1951|
+|K.	925 |kuch |done |Cœdès 1951|
 |K.	926 |kuch |pending |IC V|
 |K.	927 |# |# |#|
 |K.	928 |# |# |#|
