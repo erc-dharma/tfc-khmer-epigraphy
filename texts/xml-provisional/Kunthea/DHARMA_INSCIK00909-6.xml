@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Trident slab of Preah Vihear Thom (K. 520), 6th-7th century Śaka</title>
+            <title>Doorjamb of the structure TP 65 of Preah Khan temple (K. 909-6), 12th century Śaka</title><!-- The structure is numbered by Olivier Cunin. -->
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:kuch">
@@ -18,16 +18,16 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName ref="part:gege">
-                  <forename>Gerdi</forename>
-                  <surname>Gerschheimer</surname>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
                </persName>
-            </respStmt>
+               </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Siem Reap</pubPlace>
-            <idno type="filename">DHARMA_INSCIK00520</idno>
+            <idno type="filename">DHARMA_INSCIK00909-6</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
@@ -85,49 +85,44 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
-         <change who="part:kuch" when="2020-06-23" status="draft">Modifications of edition and bibliography</change>
-         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
-         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+         <change who="part:kuch" when="2023-02-07" status="draft">Initial encoding of the inscription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
         <body>
-                <div type="edition" xml:lang="san-Latn">
-<lg n="1" met="anuṣṭubh">
-    <l n="a"><lb n="1"/>Iha liṅga-pratiṣṭhātur</l>
-    <l n="b">bhojasyāśīti-varṣiṇaḥ</l>
-    <l n="c" real="-+-++--+"><lb n="2"/>triśūla-mūle nihitā</l>
-    <l n="d">daṁṣṭrās tā yā mukha-cyutāḥ</l>
-</lg>
+                <div type="edition" xml:lang="okz-Latn">
+                   <p>
+                      <lb n="1"/><g type="circleSmall">.</g> kamrateṅ· jagat· śrī pr̥thivīndreśvara
+                   </p>
 </div>
-<!-- <div type="apparatus">
-               <listApp>
-                  <app loc="line">
-                     <lem></lem>
-                     <rdg source="bib:AuthorYear_01"></rdg>
+        <!--    <div type="apparatus">
+                 <listApp>
+               <app loc="1">
+                     <lem>śrīpr̥thivīndreśvara</lem>
+                     <rdg source="bib:Coedes1951_02">śrīpr̥thivīndreśvara</rdg>
                   </app>
-               </listApp>         
-         </div> -->
-         <div type="translation" xml:lang="fra" source="bib:Finot1920_01">
- 	<p rend="stanza" n="1">De l'octogénaire Bhoja, qui érigea ici le <foreign>liṅga</foreign>, les dents tombées de sa bouche ont été déposées à la base de <foreign>triśūla</foreign>.</p>
+                  </listApp>         
          </div>
-           <div type="translation" resp="part:argr">
-              <p rend="stanza" n="1">Of Bhoja, the eighty-year-old installer of the liṅga here, the canine teeth which had fallen from his mouth were placed at the base of the trident.</p>
-           </div>
-           <!-- 
+          <div type="translation">
+             <p rend="stanza" n="1"></p></div> -->
          <div type="commentary">
-         </div>-->
+            <p>In Cœdès' edition, the inscription is mistakenly designated as K. 913.</p>
+            <p>Cœdès remarks that it can also be <foreign>pr̥thivīndreśvarī</foreign>.</p>
+         </div>  
         <div type="bibliography">
-          <p>Edited by Louis Finot (<bibl rend="omitname"><ptr target="bib:Finot1920_01"/><citedRange unit="page">6</citedRange></bibl>) with a French translation; reedited here by Gerdi Gerschheimer.</p>
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1951_02"/><citedRange unit="page">105</citedRange></bibl>).</p>
 	 <listBibl type="primary">
-    <bibl n="LF">
-      <ptr target="bib:Finot1920_01"/>
-      <citedRange unit="page">6</citedRange>
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1951_02"/><citedRange unit="page">105</citedRange>
     </bibl>
-  </listBibl>
-        </div>
-        </body>
+	 </listBibl>
+           <listBibl type="secondary">
+	    <bibl n="KC">
+<ptr target="bib:Chhom2020_01"/>
+<citedRange unit="page">19</citedRange>
+</bibl>
+             </listBibl>
+           </div>
+</body>
     </text>
 </TEI>
