@@ -1,6 +1,5 @@
 # This workflow will build a Java project with Ant
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-ant
-
 name: Editorial updates
 
 on:
@@ -20,20 +19,6 @@ jobs:
            java-version: '17'
        - name: Build with Ant
          run: ant -noinput -buildfile build.xml
-
-# create a package with the resulting XML files.
-       - name: Archive XML
-         uses: actions/upload-artifact@v2
-         with:
-           name: DHARMA_XMLCollection
-           path: texts/workflow-output/editedxml
-
-       # create a package with the resulting html files.
-       - name: Archive HTML
-         uses: actions/upload-artifact@v2
-         with:
-           name: DHARMA_HTMLCollection
-           path: texts/workflow-output/html
 
        - name: Updating the edited texts in the repository
          run: |
