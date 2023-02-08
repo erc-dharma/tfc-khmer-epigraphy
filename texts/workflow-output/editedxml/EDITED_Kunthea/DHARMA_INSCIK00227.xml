@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb of the structure BC 44 of Banteay Chhmar temple (K. 227), 12th century Śaka</title>
+            <!-- The structure is numbered by Olivier Cunin. -->
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00227</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2023-01-26" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+                   <p>
+                      <lb n="1"/><g type="circleTarget">.</g> ta vraḥ gr̥ha ratna ti kantāla kamrateṅ· jagat· śrī śrīndradeva
+                      <lb n="2"/>rūpa kamrateṅ· Añ· śrī śrīndrakumāra rājaputra <g type="gomutraFinial">.</g>
+                      <lb n="3"/><g type="circleTarget">.</g> Āgneya kamrateṅ· jagat· Arjunadeva <g type="gomutraFinial">.</g>
+                      <lb n="4"/><g type="circleTarget">.</g> Īśāna kamrateṅ· jagat· śrī dharadevapuradeva <g type="gomutraFinial">.</g>
+                      <lb n="5"/><g type="circleTarget">.</g> nairr̥ti kamrateṅ· jagat· śrī devadeva <g type="gomutraFinial">.</g>
+                      <lb n="6"/><g type="circleTarget">.</g> vāyavya kamrateṅ· jagat· śrī varddhanadeva syaṅ· mantrī <g type="gomutraFinial">.</g>
+                      <lb n="7"/><g type="circleTarget">.</g> nā bharata rāhu saṁ vuddhi droha ta vraḥ pāda śrī yaśovarmmade<lb n="8" break="no"/>va pi thleṅ· cap· vraḥ mandira Isa vala nagara phoṅ· paṅ pitaya ka<lb n="9" break="no"/>ntāl· mattavāra rat· Issa stac· thleṅ· chpaṅ· qnak sañjak· Arjuna qna<lb n="10" break="no"/>k sañjak· śrī dharadevapura chpaṅ· kar· saṁtac· syaṅ ta tval· toy· vne<lb n="11" break="no"/>ka stac· phjal· muḥ phtval· bharata rāhu caṁnyara phtyaṅ ni pre Oy· nāma vraḥ ka<lb n="12" break="no"/>mrateṅ<supplied reason="omitted">·</supplied> Añ· śrī nr̥pasiṅhavarmma ta qnak· sañjak· devapura ta jā pu<lb n="13" break="no"/>tra qnak sañjak· śrī dharadevapura Oy· nāma Aṁteṅa ta qnak sañjak ta vyara
+                      <lb n="14"/>sthāpanā rūpa Isa kulapakṣa phoṅ· stac· prakop saṁpat· nu krama <g type="gomutraFinial">.</g>
+                      <lb n="15"/><g type="circleTarget">.</g> nā stac· dau dvīpa cāmpa ta pūrvvakāla srac· stac· cap· durgga ti kuruṅ·
+                      <lb n="16"/>cāmpa ta jmoḥ śrī jayaIndravarmma pre thve le vnaṁ cet katāṅ· stac· viṅ· se<lb n="17" break="no"/>nāpati cāmpa daṁnepra krvay bhā yāṅ· mahātāla nāṁ cāmpa velā Aphu<lb n="18" break="no"/>y· vyar· dantap· mukha vala toy· skat· lap· kroy· cañ· qnak samudā<lb n="19" break="no"/>ya qyatta prasam· ley· stac· pañcyar· vala phoṅ· stac· viṅ· chpaṅ· kar<unclear>·</unclear>
+                      <lb n="20"/>lvaḥ vnaṁ trayā car· le vnaṁ noḥ cāmpa coṁjuṁ Oy· chnvata thleṅ· qnak samudā<lb n="21" break="no"/>ya trū phsyat· Issa gaṅ· qnak· bhay· mvaya tapa guḥ stac· chpaṅ· cuḥ tal ta je<lb n="22" break="no"/>ṅ· vnaṁ noḥ cāmpa sroṁ saṁtac· qyat<unclear>·</unclear> qnak· mvaya ta Āc· chpaṅṅa ley· qnak sa<lb n="23" break="no"/>ñjak· śrī deva qnak sañjak· śrī varddhana jā kule pratijñā syaṅ· qnak sruk·
+                      <lb n="24"/>vijayapura nā spota qvyaḥ tel<unclear>·</unclear> mān· vraḥ sarvvajña ti kroya hoṅ·
+                      <lb n="25"/>gal· dval· man nu chpaṅ· paṅa khlvan· toy· vnek· stac<unclear>·</unclear> paṅgaṁ tiṅ· cāmpa thle<unclear>ṅ·</unclear>
+                      <lb n="26"/>cren· ti phtval· sal taiya cāmpa poḥ nu laṁveṅa trū ta phdai syaṅ ta tval·
+                      <lb n="27"/>roḥ pratijñā <g type="circleSmall">.</g> pandval· Aṁpala rājapuṇya nā stac· nāṁ qnak· khmer· taṁpiṅ· pva<lb n="28" break="no"/>na chpaṅ· Anle bhai piya tap praṁpiya kar· gaṅ· Issa lvaḥ kamvujadeśa
+                      <lb n="29"/>prasāda ta qnak sañjak· ta vyara Oy· nāma Aṁteṅa sthāpanā rūpa <g type="gomutraFinial">.</g>
+                   </p>
+</div>
+          <div type="apparatus">
+               <listApp>
+                  <app loc="12">
+                     <lem>mrateṅ<supplied reason="omitted">·</supplied></lem>
+                     <note>The <foreign>virāma</foreign> was omitted probably because of lack of space.</note>
+                  </app>
+                  <app loc="16">
+                     <lem>cet</lem>
+                     <rdg source="bib:Coedes1929_02">cek</rdg>
+                  </app>
+                  <app loc="18">
+                     <lem>cañ·</lem>
+                     <rdg source="bib:Coedes1929_02">vañ·</rdg>
+                  </app>
+                  <app loc="19">
+                     <lem>prasam·</lem>
+                     <rdg source="bib:Coedes1929_02">pralam·</rdg>
+                  </app>
+                  <app loc="19">
+                     <lem>chpaṅ·</lem>
+                     <rdg source="bib:Coedes1929_02">cpaṅ·</rdg>
+                  </app>
+                  <app loc="25">
+                     <lem>man nu</lem>
+                     <rdg source="bib:Coedes1929_02">manna</rdg>
+                  </app>
+                  <app loc="25">
+                     <lem>thle<unclear>ṅ·</unclear></lem>
+                     <rdg source="bib:Coedes1929_02">thleṅ·</rdg>
+                  </app>
+                   </listApp>         
+         </div>
+            <div type="translation">
+             <p n="1-2">Dans la sainte cella centrale: le Kamrateṅ Jagat Śrī Śrīndradeva, image du Kamrateṅ Añ Śrī Śrīndrakumārarājaputra.</p>
+               <p n="3">Au Sud-Est, le Kamrateṅ Jagat Arjunadeva.</p>
+               <p n="4">Au Nord-Est, le Kamrateṅ Jagat Śrī Dharadevapuradeva.</p>
+               <p n="5">Au Sud-Ouest, le Kamrateṅ Jagat Śrī Devadeva.</p>
+               <p n="6">Au Nord-Ouest, le Kamrateṅ Jagat Śrī Vardhanadeva. Tous conseillers.</p>
+               <p n="7-14">Lorsque Bharata Rāhu manifesta son esprit de traîtrise contre le roi Śrī Yaśovarmadeva pour s’emparer du saint palais <supplied reason="explanation">royal</supplied>, toutes les troupes de la capitale jetèrent des pitay au milieu de sa gueule et s’enfuirent toutes. Le prince engagea le combat. L’Anak Sañjak Arjuna et l’Anak Sañjak Śrī Dharadevapura combattirent pour défendre le Saṁtac. Ils tombèrent devant <supplied reason="explanation">lui</supplied>. Le prince frappa le nez de Bharata Rāhu et le renversa. Dans la suite, ordre ful donné de décerner le titre de Vraḥ Kamrateṅ Añ Śrī Nr̥pasiṅhavarma à l’Anak Sañjak Devapura fils de l’Anak Sañjak Śrī Dharadevapura, de décerner le titre de Aṁteṅ aux deux Anak Sañjak <supplied reason="explanation">Arjuna et Śrī Dharadevapura</supplied> et d’ériger leurs statues; quant à tous les membres de leurs familles, le prince leur accorda richesses et dignités.</p>
+               <p n="15-27">Autrefois le prince était allé au pays des Cāmpa <supplied reason="explanation">Chams</supplied>. Après qu’il eut pris la forteresse que le roi des Chams nommé Śrī JayaIndravarman avait fait faire sur le mont Cek Katāṅ, le prince revint. Le généraux chams, à commencer par Krvay Bhā Yāṅ Mahātāla conduisaient les Chams. Au moment des douze aphuy, l’avant-garde de l’armée chame prenant un raccourci suivit furtivement <supplied reason="explanation">les Khmèrs</supplied> et surprit par ruse leur arrière-garde qui ne put se masser. Le prince fit revenir toutes ses forces en arrière pour se porter au secours <supplied reason="explanation">de son arrière-garde</supplied>. Arrivé sur le mont Trayā, il avançait sur ce mont, lorsque les Chams se rassemblèrent pour que l’avant-garde montât <supplied reason="explanation">à l’assaut du mont</supplied>. Les gens de l’arrière-garde <supplied reason="explanation">khmère</supplied> furent tous enfoncés; il n’en demeura que trente. Le prince descendit en combattant jusqu’au pied du mont. Les Chams encerclèrent le Saṁtac; il n’y avait pas un de ses hommes qui osât combattre. l’Anak Sañjak Śrī Deva et l’Anak Sañjak Śrī Vardhana qui étaient parents <supplied reason="explanation" cert="low">du prince</supplied> firent serment: les gens de Vijayapura ... quand naître le Buddha futur. Ils vinrent trouver <supplied reason="explanation">le prince</supplied> et l’en informèrent. Alors ils combattirent et se jetèrent devant lui, baissant la tête, et repoussèrent les Chams qui montaient en grand nombre; une fois renversés à terre, il leur restait leurs mains <supplied reason="explanation">pour combattre</supplied>. Les Chams, frappant de leurs lances, les atteignirent au ventre. Ils tombèrent <supplied reason="explanation">fidèles à</supplied> leur serment.</p>
+               <p n="27-29"><supplied reason="explanation">Le prince</supplied> ordonna toutes les cérémonies royales. Lorsqu’il mena les quatre divisions(?) de l’armée khmère se battre en soixante-dix-huit endroits, <supplied reason="explanation">ses gens</supplied> de défendirent tous de pied ferme. Arrivé au pays des Kambuja, il daigna conférer aux deux Anak Sañjak le titre de Aṁteṅ et faire élever leurs statues.</p>
+            </div> 
+      <!--   <div type="commentary">
+            <p></p>
+         </div>  -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1929_02"/><citedRange unit="page">309-315</citedRange></bibl>) and George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1951_02"/><citedRange unit="page">117</citedRange></bibl>); reedited by Dominique Soutif and Kunthea Chhom from estampage EFEO  n. 315.</p>
+	 <listBibl type="primary">
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1951_02"/><citedRange unit="page">118</citedRange>
+    </bibl>
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1929_02"/><citedRange unit="page">309-315</citedRange>
+    </bibl>
+	 </listBibl>
+           <listBibl type="secondary">
+              <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">315</citedRange><citedRange unit="note">3</citedRange>
+    </bibl>
+              <bibl n="IL">
+      <ptr target="bib:Lowman2012_01"/><citedRange unit="page">243-249</citedRange>
+    </bibl>
+           </listBibl>
+           </div>
+</body>
+    </text>
+</TEI>
