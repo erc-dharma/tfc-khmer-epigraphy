@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gold coin or medallion of Īśānavarman (K. 1322), 7th century CE</title>
+            <title>Doorjamb of the structure TP 25 of Ta Prohm temple (K. 274-1), 12th century Śaka</title><!-- The structure is numbered by Olivier Cunin. -->
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:kuch">
@@ -18,16 +18,16 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName ref="part:argr">
-                  <forename>Arlo</forename>
-                  <surname>Griffiths</surname>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
                </persName>
-            </respStmt>
+               </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Siem Reap</pubPlace>
-            <idno type="filename">DHARMA_INSCIK01322</idno>
+            <idno type="filename">DHARMA_INSCIK00274-1</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
@@ -85,49 +85,43 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:kuch" when="2020-12-16" status="draft">Initial encoding of the inscription</change>
-         <change who="part:kuch" when="2023-02-10" status="draft">Modification of edition and translation</change>
+         <change who="part:kuch" when="2023-02-13" status="draft">Initial encoding of the inscription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
         <body>
-                <div type="edition" xml:lang="san-Latn"><!-- Not sure at all of the language of the inscription; it can be Old Khmer. -->
-                      <ab>
-                         <pb n="1r"/>
-                         <lb n="1"/>śrīśānavarmma
-                      </ab>
-                   <ab>
-                         <pb n="1v"/>
-                         <lb n="1"/>Īśānapu<unclear>ra</unclear>
-                      </ab>
-            </div>
-            <div type="apparatus">
-               <listApp>
-                  <app loc="1r">
-                     <lem>śrīśānavarmma</lem>
-                     <rdg source="bib:Griffiths2014_01">śrīśānavarmma<supplied reason="omitted">ṇaḥ</supplied></rdg>
+                <div type="edition" xml:lang="okz-Latn">
+                   <p>
+                      <lb n="1"/><supplied reason="lost"><g type="circleSmall">.</g> ka</supplied>mrateṅ· jagat· śrī rājatilakeśvarī <g type="circleSmall">.</g>
+                   </p>
+</div>
+        <!--    <div type="apparatus">
+                 <listApp>
+               <app loc="1">
+                     <lem>śrī rājatilakeśvarī</lem>
+                     <rdg source="bib:Coedes1951_02">śrīrājatilakeśvarī</rdg>
                   </app>
-               </listApp>
+                  </listApp>         
          </div>
-           <div type="translation" resp="part:argr part:kuch">
-              <p rend="recto" n="1">Śrī Īśānavarman</p>
-            <p rend="verso" n="1">Īśānapura</p>
-           </div>
-         <div type="translation" source="bib:Griffiths2014_01">
-            <p rend="recto" n="1">Of Īśānavarman</p>
-            <p rend="verso" n="1">Īśānapura</p>
-         </div> 
-         <!-- <div type="commentary">
-         </div> -->
+          <div type="translation">
+             <p rend="stanza" n="1"></p></div> 
+         <div type="commentary">
+            <p></p>
+         </div>  -->
         <div type="bibliography">
-          <p>Edited by Arlo Griffiths (<bibl rend="omitname"><ptr target="bib:Griffiths2014_01"/><citedRange unit="page">56-57</citedRange></bibl>) with an English translation; re-edited here by Arlo Griffiths and Kunthea Chhom.</p>
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1951_02"/><citedRange unit="page">104</citedRange></bibl>).</p>
 	 <listBibl type="primary">
-    <bibl n="AG">
-<ptr target="bib:Griffiths2014_01"/>
-<citedRange unit="page">56-57</citedRange>
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1951_02"/><citedRange unit="page">104</citedRange>
+    </bibl>
+	 </listBibl>
+           <listBibl type="secondary">
+	    <bibl n="KC">
+<ptr target="bib:Chhom2020_01"/>
+<citedRange unit="page">17</citedRange>
 </bibl>
-    </listBibl>
-        </div>
-        </body>
+             </listBibl>
+           </div>
+</body>
     </text>
 </TEI>
