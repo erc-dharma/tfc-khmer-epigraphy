@@ -57,7 +57,7 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>Angkorian cursive writing (11th century CE?).</p>
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -88,6 +88,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:chch" when="2023-02-15">Added modifications in the encoding</change>
          <change who="part:chch" when="2022-08-23">Added corrections to the edition and translation</change>
          <change who="part:chch" when="2021-02-12">Added corrections</change>
          <change who="part:chch" when="2020-04-25" status="draft">Added modifications to the file</change>
@@ -98,15 +99,16 @@
    <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn">
+            <lb n="1"/><ab>Oṁ</ab>
 <lg n="1" met="anuṣṭubh">
-                    <l n="a"><lb n="1"/>Oṁ vrahma-viṣnvīśvara-yaśas</l>
-<l n="b">santuṣ-ṭr̥ṣur ivāyugāt·</l>
+                    <l n="a">vrahma-viṣ<choice><orig>n</orig><reg>ṇ</reg></choice>v-īśvara-yaśa<space/>s</l>
+<l n="b">santu<choice><orig>ṣṭ</orig><reg>st</reg></choice>r̥ṣur<!--adjectif désidératif--> ivāyugāt· <space/></l>
 <l n="c">pheṇa-puṣpān· prakīryyādrau</l>
-	<l n="d">rudradhārānugāya<seg met="="><gap reason="illegible" quantity="1" unit="character"/></seg></l>
+	<l n="d">rudra-dhārānugāya<unclear>ti</unclear></l>
 </lg>
 <lg n="2" met="anuṣṭubh">
- <l n="a"><lb n="2"/><g type="symbol" subtype="ddandaHooked"/>śivan namāmi yo ’haṅ sa</l>
-	<l n="b">yo haṅsa-parikirttitaḥ</l>
+ <l n="a"><lb n="2" style="text-align: center"/><g type="symbol" subtype="ddandaHooked"/>śivan namāmi yo ’haṅ sa</l>
+	<l n="b">yo haṅsa-parik<choice><orig>i</orig><reg>ī</reg></choice>rttitaḥ <space/></l>
 <l n="c">Iti tat<supplied reason="omitted">tva-vidaḥ prāhur</supplied></l>
 	<l n="d"><seg met="====-+"><gap reason="omitted" quantity="6" unit="character"/></seg> <supplied reason="omitted">namaḥ</supplied></l>
 </lg>
@@ -114,15 +116,11 @@
          <div type="apparatus">
                <listApp>
                   <app loc="1">
-                         <lem>viṣnv</lem>
-                        <rdg source="bib:Jacques1999_01">viṣṇv</rdg>
-                    </app>
-                  <app loc="1">
-                         <lem>īśvara-yaśas</lem>
+                         <lem>-īśvara-yaśas</lem>
                         <rdg source="bib:Jacques1999_01">īśvarāyu<seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg>s</rdg>
                     </app>
                   <app loc="1">
-                         <lem>santuṣ-ṭr̥ṣur</lem>
+                         <lem>santu<choice><orig>ṣṭ</orig><reg>st</reg></choice>r̥ṣur</lem>
                         <rdg source="bib:Jacques1999_01">stu <seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg> sṭr̥ṣur</rdg>
                     </app>
                   <app loc="1">
@@ -131,33 +129,26 @@
                     </app>
                    <app loc="1">
                          <lem>pheṇa-puṣpān·</lem>
-                        <rdg source="bib:Jacques1999_01">śivapuṣpin</rdg>
+                        <rdg source="bib:Jacques1999_01">śivapuṣpin·</rdg>
                     </app>
                   <app loc="1">
                          <lem>prakīryyādrau</lem>
                         <rdg source="bib:Jacques1999_01">dra tir yyādrau</rdg>
                     </app>
                   <app loc="1">
-                         <lem>rudrādhārānugāya</lem>
+                         <lem>rudradhārānugāya<unclear>ti</unclear></lem>
                         <rdg source="bib:Jacques1999_01">rudrādir ānuśā</rdg>
-                    </app>
-                  <app loc="2">
-                         <lem>parikirttitaḥ</lem>
-                        <rdg source="bib:Jacques1999_01">parikīrttitaḥ</rdg>
-                   <note>Corr. <foreign>parikīrttitaḥ</foreign>.</note>
                     </app>
                </listApp>
          </div>
-         <div type="translation" xml:lang="fra" source="bib:Jacques1999_01">
- <p rend="stanza" n="2">« Je m’incline personnellement devant Śiva, celui qui est célébré comme le Haṅsa », ainsi disent ceux qui connaissent la Réalité, <gap reason="lost"/> salut !</p>
-         </div>
          <div type="translation" xml:lang="fra" resp="part:chch">
-            <p rend="stanza" n="1-2">L’oie chante les éloges du fleuve <supplied reason="explanation"><foreign>rudradharam</foreign></supplied>, ayant répandu les fleurs d’écume, comme si elle prenait plaisir à la gloire de Brahmā, Viṣṇu et Īśvara jusqu’à la fin du <foreign>yuga</foreign>. Cette oie, que je suis moi-même, vénère Śiva, qui est aussi lui-même un <foreign>haṅsa</foreign>, c’est ainsi que parlent les <foreign>tattvavida</foreign>.</p>
+            <p rend="stanza" n="1-2">L’oie chante les éloges de la Rudradhārā, ayant jeté sur la montagne les fleurs d’écume, comme si elle souhaitait répandre la gloire de Brahmā, Viṣṇu et Īśvara jusqu’à la fin du <foreign>yuga</foreign>. Cette oie, que je suis moi-même, vénère Śiva, qui est aussi lui-même un <foreign>haṅsa</foreign>, c’est ainsi que parlent les <foreign>tattvavida</foreign>.</p>
          </div>
          <div type="commentary">
+            <p>The two last <foreign>pādas</foreign>, omitted here without clear reason, have been restored according to <ref target="DHARMA_INSCIK01011-4.xml">K. 1011-4</ref>.</p>
          </div>
         <div type="bibliography">
-           <p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">362</citedRange></bibl>) with a French translation. Re-edited by Chloé Chollet from a photogrammetric model.</p>
+           <p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">362</citedRange></bibl>) with a French translation. Re-edited by Chloé Chollet from a photogrammetric model created by Adeline Levivier in May 2022.</p>
         	<listBibl type="primary">
 				<bibl n="CJ">
 				   <ptr target="bib:Jacques1999_01"/>
