@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Rock inscription from Kbal Spean (K. 1343, 94(6) śaka ?)</title>
+            <title>Rock inscription from Kbal Spean (K. 1343)</title>
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:chch">
@@ -19,8 +19,8 @@
             <respStmt>
                <resp>intellectual authorship of edition</resp>
                <persName ref="http://viaf.org/viaf/2069417">
-                  <forename>Gerdi</forename>
-                  <surname>Gerschheimer</surname>
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
                </persName>
             </respStmt>
          </titleStmt>
@@ -47,11 +47,11 @@
                   <idno/><!-- don't modify this -->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
-                  <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                     <p>Cursive angkorian script, ca. 11th century CE.</p>
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -78,6 +78,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:chch" when="2023-02-16">Added modifications to the encoding</change>
          <change who="part:chch" when="2021-07-28">Initial encoding of the file</change>
       </revisionDesc>
    </teiHeader>
@@ -89,21 +90,23 @@
       <body>
          <div type="edition" xml:lang="okz-Latn">
 <p>
-<lb n="1"/>925 nu ket·<g type="ddandaPlain">.</g>
-<lb n="2"/>94<unclear>6</unclear> tapaḥ
-<lb n="3"/><unclear>Oṁ</unclear>
+<lb n="1"/><num value="925">925</num> nu keta<g type="ddanda">.</g>
+<lb n="2"/><num value="946">94<unclear>6</unclear></num> tapaḥ
 </p>
+            <ab><lb n="3" rend="bt-rotated"/><unclear>Oṁ</unclear></ab>
          </div>
          <div type="apparatus">
          </div>
          <div type="translation" xml:lang="fra" resp="part:chch">
- 	<!--translation encoded as per EGD §9.2 -->
+<p n="1">En 924 <supplied reason="explanation">śaka</supplied>, quinzaine claire.</p> <!--G. G. avait lu 925-->
+<p n="2">En 946 <supplied reason="explanation">śaka</supplied>, le <foreign>tapas</foreign>.</p>
+<p n="3">Oṁ</p>
          </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
          </div>
         <div type="bibliography">
-           <p>Unpublished inscription. Edition made from photographs. To be published in Chloé Chollet's PhD thesis.</p>
+           <p>Unpublished inscription. Edition made by Chloé Chollet from photographs and a rubbing (EFEO n. 2335).</p>
         </div>
       </body>
   </text>
