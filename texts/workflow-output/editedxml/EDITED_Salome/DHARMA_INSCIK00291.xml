@@ -90,6 +90,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:sapi" when="2023-02-15">Addition of placeName and measure tagging</change>
          <change who="part:sapi" when="2023-01-26" status="draft">Initial encoding of the inscription and addition of Cœdès’ translation</change>
       </revisionDesc>
    </teiHeader>
@@ -193,7 +194,7 @@
            <lb n="N18"/>gho saṁAp· <num value="1"><g type="numeral">I</g></num> tai kanlāt· <num value="1"><g type="numeral">I</g></num> tai kanteṅ· <num value="1"><g type="numeral">I</g></num> tai thar· <num value="1"><g type="numeral">I</g></num> tai kaṁpit· <num value="1"><g type="numeral">I</g></num> tai kan·syaṅ· <num value="1"><g type="numeral">I</g></num>
            <lb n="N19"/>tai kan·hyaṅ· <num value="1"><g type="numeral">I</g></num> tai <unclear>ka</unclear>ntvan· <num value="1"><g type="numeral">I</g></num> tai panheṁ <num value="1"><g type="numeral">I</g></num> tai thkyap· <num value="1"><g type="numeral">I</g></num> kalpe satra ra<lb n="N20" break="no"/>ṅko je pi mvay· thṅai <space/> <g type="circleTarget">.</g> <space/> tai khñuṁ vraḥ <num value="1"><g type="numeral">I</g></num> tai dharmma <num value="1"><g type="numeral">I</g></num> sī panheṁ
            <lb n="N21"/>si <gap reason="illegible" quantity="2" unit="character"/> <num value="1"><g type="numeral">I</g></num> tai <unclear>yu</unclear>vatī <num value="1"><g type="numeral">I</g></num> tai chpoṅ· <num value="1"><g type="numeral">I</g></num> gvāl· panheṁ <num value="1"><g type="numeral">I</g></num> <g type="circleMed">.</g> vraḥ jaṁnva<supplied reason="lost">n</supplied>
-           <lb n="N22"/>sre kaṁluṅ· vraḥ maṇḍira veṅ· slik· <num value="2"><g type="numeral">II</g></num> <g type="numeral">200</g> ruṅṅa slik· <num value="1"><g type="numeral">I</g></num> <g type="numeral">100</g>
+           <lb n="N22"/>sre kaṁluṅ· vraḥ maṇḍira veṅ· <measure type="unitLength" subtype="length" quantity="1000" commodity="field">slik· <num value="2"><g type="numeral">II</g></num> <g type="numeral">200</g></measure> ruṅṅa <measure type="unitLength" subtype="width" quantity="500" commodity="field">slik· <num value="1"><g type="numeral">I</g></num> <g type="numeral">100</g></measure>
            <lb n="N23"/>tai jiva <num value="1"><g type="numeral">I</g></num> tai thaqyak· <num value="1"><g type="numeral">I</g></num> tai kanteṅ· <num value="1"><g type="numeral">I</g></num> tai kaṁpas· <num value="1"><g type="numeral">I</g></num> tai chpoṅ·
            <lb n="N24"/>qnak· mahā<unclear>nasa</unclear> <gap reason="illegible" quantity="4" unit="character"/> <g type="dotMid">.</g> sre <unclear>śaṁbh</unclear>upura vraḥ jaṁnvan· so<supplied reason="lost">t·</supplied>
            <lb n="N25"/>mandira <gap reason="illegible" quantity="1" unit="character"/><unclear>sana</unclear><gap reason="illegible" quantity="1" unit="character"/> kantāl· Āy<unclear>·</unclear> <gap reason="illegible" quantity="1" unit="character"/>p· sa<unclear>h</unclear>āk<choice><sic>s</sic><corr>ṣ</corr></choice>ara thkval· raṁtyaṅ· kā <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/>
@@ -202,7 +203,7 @@
            <lb n="N28"/><gap reason="illegible" quantity="1" unit="character"/> mvāy· thṅai <g type="circleMed">.</g> gho dharmma vraḥ ja<unclear>ṁ</unclear>nvan· <g type="circleMed">.</g>
            <lb n="N29"/><gap reason="illegible" quantity="14" unit="character"/> <unclear>cāṁ</unclear> kṣe<unclear>tr</unclear>a vraḥ jaṁnva<supplied reason="lost">n·</supplied>
            <lb n="N30"/><gap reason="illegible" quantity="7" unit="character"/> <num value="1"><g type="numeral">I</g></num> gho <unclear>pandān</unclear>· <num value="1"><g type="numeral">I</g></num> tai mahānasī <num value="1"><g type="numeral">I</g></num> patra<supplied reason="lost">kā</supplied><lb n="N31" break="no"/>ra <num value="1"><g type="numeral">I</g></num> <unclear>vraḥ vṅya</unclear> <num value="1"><g type="numeral">I</g></num> sman· nirāja <num value="1"><g type="numeral">I</g></num> raṅko liḥ <num value="4">4</num> pratidina saṅkrānta
-           <lb n="N32"/>pujā neḥ nai sruk· thnval· tvāl· <g type="circleConcentric"/>
+           <lb n="N32"/>pujā neḥ nai sruk· <placeName type="settlement" subtype="village" key="Thnval Tvāl">thnval· tvāl·</placeName> <g type="circleConcentric"/>
            </p>
          </div>
          <div type="apparatus">
@@ -334,7 +335,7 @@
              <p n="N7-N10">Esclaves légalement acquis que Vāp Pañca <gap reason="undefined"/> <foreign>khloñ vala</foreign> retiré du service, offre au V.K.A. <supplied reason="explanation">3 <foreign>gho</foreign>, 6 <foreign>tai</foreign>, 1 <foreign>sī rat</foreign></supplied>. Total : 10.</p>
              <p n="N10-N11">Gho Krau, esclave provenant de l’héritage de Mratāñ Śrī Guṇavijaya du pays de <gap reason="undefined"/>.</p>
              <p n="N11-N19">Esclaves sacrés que Mratāñ Śrī Satyāśraya a obtenus à titre gracieux, et qu’un ordre de S.M. le roi qui est allé au Paramaśivaloka a prescrit d’offrir à V.K.A. Śrī Trailokyanātha <supplied reason="explanation">1 <foreign>aṁraḥ</foreign>, 8 <foreign>gho</foreign>, 5 <foreign>tai</foreign> et 1 <foreign>aṁraḥ</foreign>, 5 <foreign>gho</foreign>, 9 <foreign>tai</foreign></supplied>.</p>
-             <p n="N19-N22">Fixation de la fourniture pour le sacrifice : 3 <foreign>je</foreign> de riz décortiqué par jour, <supplied reason="explanation">liste de 4 <foreign>tai</foreign>, 2 <foreign>sī</foreign>, 1 <foreign>gvāl</foreign></supplied>, offerts en don. Rizière à l’intérieur du palais, longueur 1000, largent 500.</p>
+             <p n="N19-N22">Fixation de la fourniture pour le sacrifice : 3 <foreign>je</foreign> de riz décortiqué par jour, <supplied reason="explanation">liste de 4 <foreign>tai</foreign>, 2 <foreign>sī</foreign>, 1 <foreign>gvāl</foreign></supplied>, offerts en don. Rizière à l’intérieur du palais, longueur 1000, largeur 500.</p>
              <p n="N23-N26"><supplied reason="explanation">Liste de 5 <foreign>tai</foreign></supplied>, un cuisinier <gap reason="undefined"/>. Rizière <gap reason="undefined"/>pura offerte en don <gap reason="undefined"/> palais <gap reason="undefined"/> milieu à <supplied reason="explanation">noms de lieux ?</supplied>, 2 <foreign>je</foreign> de riz décortiqué pour le culte du dieu.</p>
              <p n="N27-N28"><gap reason="undefined"/> Tai Vakula, offert en don. Fixation de la fourniture pour le sacrifice : <gap reason="undefined"/> <foreign>je</foreign> par jour. Gho Dharma offert en don.</p>
              <p n="N29-N31"><gap reason="undefined"/> gardent les champs offerts en don. <supplied reason="explanation">Liste d’esclaves</supplied>. Quatre <foreign>liḥ</foreign> de riz décortiqué par jour, et au nouvel an pour ce culte du pays de Thnval Bhvās.</p>
