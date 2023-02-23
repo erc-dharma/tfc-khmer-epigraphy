@@ -522,7 +522,7 @@ K.	294 |# |# |#|
 |K.	454 |# |# |#|
 |K.	455 |# |# |#|
 |K.	456 |# |# |#|
-|K.	457 |sapi |pending |Cœdès 1918|
+|K.	457 |sapi |done |Cœdès 1918|
 |K.	458 = 551|kuch|done |Cœdès 1951|
 |K.	459 = 550 |kuch|pending |Cœdès 1951|
 |K.	460-1 |kuch|done |Cœdès 1951|
