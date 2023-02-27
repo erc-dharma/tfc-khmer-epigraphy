@@ -284,7 +284,15 @@
 |K.	271 |sapi |pending |IC IV|
 |K.	272 |kuch |done |Cœdès 1951|
 |K.	273 |# |# |#|
-|K.	274 |kuch |pending |Cœdès 1951|
+|K.	274-1 |kuch |done |Cœdès 1951|
+|K.	274-2 |kuch |done |Cœdès 1951|
+|K.	274-3 |kuch |done |Cœdès 1951|
+|K.	274-4 |kuch |done |Cœdès 1951|
+|K.	274-5 |kuch |done |Cœdès 1951|
+|K.	274-6 |kuch |done |Cœdès 1951|
+|K.	274-7 |kuch |done |Cœdès 1951|
+|K.	274-8 |kuch |done |Cœdès 1951|
+|K.	274-9 |kuch |done |Cœdès 1951|
 |K.	275 |# |# |#|
 |K.	276 |chch |done |IC IV|
 |K.	277 |chch |pending |IC IV|
@@ -1018,18 +1026,27 @@ K.	294 |# |# |#|
 |K.	907-20 |kuch |done |Cœdès 1951|
 |K.	907-21 |kuch |done |Cœdès 1951|
 |K.	908 |# |# |#|
-|K.	909 |kuch|pending |Cœdès 1951|
+|K.	909-1 |kuch|done |Cœdès 1951|
+|K.	909-2 |kuch|done |Cœdès 1951|
+|K.	909-3 |kuch|done |Cœdès 1951|
+|K.	909-4 |kuch|done |Cœdès 1951|
+|K.	909-5 |kuch|done |Cœdès 1951|
+|K.	909-6 |kuch|done |Cœdès 1951|
+|K.	909-7 |kuch|done |Cœdès 1951|
+|K.	909-8 |kuch|done |Cœdès 1951|
 |K.	910 |kuch |done |IC V|
 |K.	911 |kuch |done |IC V|
 |K.	912 |kuch |done |unpublished|
 |K.	913 |kuch |done|IC V|
-|K.	914 |kuch|pending |Cœdès 1951|
+|K.	914-1 |kuch|done |Cœdès 1951|
+|K.	914-2 |kuch|done |Cœdès 1951|
+|K.	914-3 |kuch|done |Cœdès 1951|
 |K.	915 |kuch |done |Soutif 2009|
 |K.	916 |# |# |#|
 |K.	917 |# |# |#|
 |K.	918 |kuch |pending |unpublished|
 |K.	919 |kuch |done |inedit|
-|K.	920 |kuch |pending |Cœdès 1951|
+|K.	920 |kuch |done |Cœdès 1951|
 |K.	921 |# |# |#|
 |K.	922 |# |# |#|
 |K.	923 |chch |pending |IC IV|
@@ -1040,7 +1057,7 @@ K.	294 |# |# |#|
 |K.	928 |# |# |#|
 |K.	929 |# |# |#|
 |K.	930 |# |# |#|
-|K.	931 |kuch |pending |Cœdès 1951|
+|K.	931 |kuch |done |Cœdès 1951|
 |K.	932 |# |# |#|
 |K.	933 |# |# |#|
 |K.	934 |kuch |done |IC IV|
@@ -1229,7 +1246,7 @@ K.	294 |# |# |#|
 |K.	1111 |# |# |#|
 |K.	1112 |# |# |#|
 |K.	1113 |# |# |#|
-|K.	1114 |kuch|pending |Unpublished|
+|K.	1114 |kuch|done |Chhom 2020|
 |K.	1115 |kuch |done |Kaeokhlai 1986|
 |K.	1116 |# |# |#|
 |K.	1117 |chch |pending |Cha-em Kaeokhlai|
