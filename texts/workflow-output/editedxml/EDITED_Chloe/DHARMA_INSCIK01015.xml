@@ -18,10 +18,6 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName ref="http://viaf.org/viaf/64048594">
-                  <forename>Claude</forename>
-                  <surname>Jacques</surname>
-               </persName>
                <persName ref="part:chch">
                   <forename>Chloé</forename>
                   <surname>Chollet</surname>
@@ -57,7 +53,7 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>Cursive angkorian script, typical of the 11th century CE.</p>
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -88,6 +84,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:chch" when="2023-02-17">Added corrections</change>
          <change who="part:chch" when="2021-02-12">Added corrections</change>
          <change who="part:chch" when="2020-04-25" status="draft">Creation of the
 				file</change>
@@ -97,41 +94,81 @@
       <body>
          <div type="edition" xml:lang="okz-Latn"><!--    ⏓ – ⏑ – – ⏑ ⏑ – ⏑ – ⏓    -->
             <lg n="1" met="upajāti">
-<l n="a"><lb n="1"/>? <unclear>giriṇāṁ</unclear> varāṅga-ratna-<space type="defect"/>vr̥ndāvali-liphaga-padma<unclear>ṁ</unclear> Aharṇniśam tad-duri-vihantu<supplied reason="lost">m·</supplied>
-<lb n="2"/><unclear>bhakt</unclear>yāra-<unclear>vi</unclear>mukta-kara<unclear>ṁ</unclear> prakāmaM <g type="ddandaPlain">.</g> <!--cak.yā-->
-            </l></lg>
+<l n="a"><lb n="1"/><gap reason="lost" quantity="5" unit="character"/>la-varāṅga-ratna-<space/></l>
+   <l n="b">vr̥ndāval<choice><orig>i</orig><reg>ī</reg></choice>-l<choice><orig>i</orig><reg>ī</reg></choice>ḍha-ś<choice><sic>a</sic><corr>i</corr></choice>vā<supplied reason="lost">ṅgh</supplied>r<supplied reason="lost">i</supplied>-padma<unclear>ṁ</unclear></l> 
+   <l n="c">Ahar-<choice><orig>ṇ</orig><reg>n</reg></choice>niśaṁ tad-duri<supplied reason="omitted">taṁ</supplied> vihantum·</l>
+<l n="d"><lb n="2"/>bhaktyā ra-<unclear>vi</unclear>-mukta-kara<unclear>ṁ</unclear> prakāmaM <g type="ddandaPlain">.</g></l> <!--caśśyā-->
+           </lg>
                      <p>
 <lb n="3"/>vrahma
                      </p>
-            <lg n="2" met="vasantatilakā">
-<l n="a"><lb n="4"/><supplied reason="omitted">U</supplied>ktaś śavda-vaṅśo man<choice><orig>i</orig><reg>ī</reg></choice>ṣiṇām <g type="ddandaPlain">.</g>
-<lb n="5" style="text-align: right"/>vraḥ-vilasyādri-śr̥ṅge ’smi<supplied reason="omitted">n·</supplied>
-</l>            </lg>
+            <p>
+               <lg n="2" met="anuṣṭubh">
+                  <l n="a"><seg met="====-+"><gap reason="omitted" quantity="6" unit="character"/></seg><lb n="4"/>ktaś</l>
+<l n="b">śarvva-vaṅśo man<unclear>ī</unclear>ṣiṇām <g type="ddandaPlain">.</g></l>
+<l n="c"><lb n="5" style="text-align: right"/>vraḥ-vilasyādri-śr̥ṅge ’smi<supplied reason="omitted">n·</supplied></l>
+                  <l n="d"><seg met="====-+-="><gap reason="omitted" quantity="8" unit="character"/></seg></l>
+               </lg>
+            </p>
          </div>
          <div type="apparatus">
                <listApp>
                   <app loc="1">
-                     <lem>mā kala <gap reason="illegible" quantity="1" unit="character"/> rāṅgaratna</lem>
-                     <rdg source="bib:Jacques1999_01">ma nā rāṅgaratna</rdg>
+                     <lem>-varāṅga-ratna-</lem>
+                     <rdg source="bib:Jacques1999_01">rāṅga-ratna</rdg>
                   </app>
                	<app loc="1">
-<lem>li<gap reason="illegible" quantity="1" unit="character"/>ga <gap reason="illegible" quantity="2" unit="character"/></lem>
+<lem>-vr̥ndāval<choice><orig>i</orig><reg>ī</reg></choice>-</lem>
+               		<rdg source="bib:Jacques1999_01">vr̥ndāvali</rdg>
+               	</app>
+                  <app loc="1">
+<lem>-l<choice><orig>i</orig><reg>ī</reg></choice>ḍha-ś<choice><sic>a</sic><corr>i</corr></choice>vā<supplied reason="lost">ṅgh</supplied>r<supplied reason="lost">i</supplied>-padma<unclear>ṁ</unclear></lem>
                		<rdg source="bib:Jacques1999_01">li ga s sra</rdg>
                	</app>
-               	<app loc="1">
-               		<lem/>
-               		<note/>
+                  <app loc="1">
+<lem>Ahar-<choice><orig>ṇ</orig><reg>n</reg></choice>niśaṁ</lem>
+               		<rdg source="bib:Jacques1999_01">Aharṇṇniśaṁ</rdg>
+               	</app>
+                  <app loc="1">
+<lem>tad-duri<supplied reason="omitted">taṁ</supplied></lem>
+               		<rdg source="bib:Jacques1999_01">tand</rdg>
+               	</app>
+                  <app loc="1">
+<lem>vihantum·</lem>
+               		<rdg source="bib:Jacques1999_01">vi ha tta</rdg>
+                     <rdg source="bib:Jacques1999_01">Le <foreign>m</foreign> final n’apparaît pas sur l’estampage EFEO n. 1279 car il n’avait pas été pris en compte.</rdg>
+                     <rdg source="bib:Jacques1999_01">The final <foreign>m</foreign> doest not appear on the rubbing EFEO n. 1279 since it wasn’t taken into consideration.</rdg>
+               	</app>
+                  <app loc="2">
+<lem>-mukta-kara<unclear>ṁ</unclear></lem>
+               		<rdg source="bib:Jacques1999_01">-mukta kara</rdg>
+               	</app>
+                  <app loc="2">
+<lem>prakāmaM</lem>
+               		<rdg source="bib:Jacques1999_01"><gap reason="illegible" quantity="4" unit="character"/></rdg>
+               	</app>
+               	<app loc="3">
+               		<lem>vrahma</lem>
+               		<note>Claude Jacques didn’t read this word.</note>
+               	</app>
+               	   <app loc="4">
+<lem>śarvva-vaṅśo</lem>
+               		<rdg source="bib:Jacques1999_01">śavda-vaṅśo</rdg>
                	</app>
                </listApp>
          </div>
+         <div type="translation" resp="part:chch">
+            <p rend="stanza" n="1"/>
+            <p rend="stanza" n="2"/>
+         </div>
          <div type="translation" xml:lang="fra" resp="part:chch">
- 	<!--translation encoded as per EG §9.2 -->
+<p rend="stanza" n="1"/>
+            <p rend="stanza" n="2">La lignée de Śiva <supplied reason="explanation"><foreign>śavda-vaṅśo</foreign></supplied> des sages <supplied reason="explanation"><foreign>manīṣiṇām</foreign></supplied> se trouve au sommet du mont de Vraḥ Vila <supplied reason="explanation">« La sainte grotte »</supplied>.</p>
          </div>
          <div type="commentary">
-           <p>Jacques notes that the meter used is unclear. It might be <foreign>upajāti</foreign>.</p>
          </div>
         <div type="bibliography">
-           <p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">363</citedRange></bibl>). Re-edited by Chloé Chollet from a photogrammetric model furnished by Adeline Levivier.</p>
+           <p>First edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1999_01"/><citedRange unit="page">363</citedRange></bibl>) without translation. Re-edited by Chloé Chollet with translations into English and French from a photogrammetric model created by Adeline Levivier in May 2022.</p>
         	<listBibl type="primary">
 				<bibl n="CJ">
 				   <ptr target="bib:Jacques1999_01"/>
