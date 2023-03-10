@@ -65,7 +65,8 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                     <p>The right portion of the lines 9-12 seems to be eroded.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
                      <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -98,6 +99,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2023-03-10" status="draft">Modifications to edition</change>
          <change who="part:argr part:kuch" when="2021-02-05" status="draft">revised initial encoding of the inscription</change>
          <change who="part:kuch" when="2021-02-01" status="draft">started initial encoding of the inscription</change>
       </revisionDesc>
@@ -106,54 +108,53 @@
       <body>
          <div type="edition" xml:lang="san-Latn">
 <lg n="1" met="anuṣṭubh">
-  <l n="a"><lb n="1"/><g type="spiralR"/> jayatīndrādidevāsya<space/>ś</l>
+  <l n="a"><lb n="1"/><milestone unit="column" n="a"/><g type="spiralR"/> jayatīndrādidevāsya<space/>ś</l>
    <!-- Daniel's reflexion about SPACE:
    I see that you encoded jayatīndrādidevāsya<space/>ś and so on at points where spaces separate akṣaras in a way that does not correspond to actual word boundaries. I have nothing against that but want to note that I've faced this situation only once so far, with punctuation marks instead of spaces, used in verse in a similar way. There, I encoded a normalisation for each instance, so that in the normalised text the offending consonant was moved to before the punctuation mark, e.g. dhīmā<choice><orig><g type="dandaSerif">.</g>n</orig><reg>n<g type="dandaSerif">.</g></reg></choice>. I'm not 100% happy with this solution (since technically you would need N instead of n before a punctuation mark in the original script), but I've let it go, thinking that normalisation concerns the transliterated text, and thus my encoding is as acceptable as our usual method of putting <l> boundaries inside a transliterated akṣara where applicable. So, at any rate, you might consider encoding similar normalisations in your case, e.g. jayatīndrādidevāsya<choice><orig><space/>ś</orig><reg>ś<space/></reg></choice> . Or, if you are averse to that, would you prefer if I removed my normalisations of this kind and just left the untouched text? And should we say something about this in the EGD?
  -->
-  <l n="b">śrīmān yajñapatīśvaraḥ</l>
-  <l n="c"><lb n="2"/>jita-svarājyair yyas sādhu <space/></l>
-  <l n="d">tarppito bhuvi yajvabhiḥ</l>
+  <l n="b"><milestone unit="column" n="b"/>śrīmān yajñapatīśvaraḥ</l>
+  <l n="c"><lb n="2"/><milestone unit="column" n="a"/>jita-svarājyair yyas sādhu</l>
+  <l n="d"><milestone unit="column" n="b"/>tarppito bhuvi yajvabhiḥ</l>
 </lg>
             <lg n="2" met="anuṣṭubh">
-  <l n="a"><lb n="3"/>vibh<supplied reason="lost">ū</supplied>ti-yaj<supplied reason="lost">ñ</supplied>aiẖ
-  <supplied reason="lost">kh</supplied><unclear>y</unclear>ātena <space/></l>
-  <l n="b">rājñā śrīśānavarmmaṇā</l>
-  <l n="c"><lb n="4"/>yo 'mātya-mukhyo 'dhikr̥ta<space/>ẖ</l>
-  <l n="d">kr̥tajño lekha-vācakaḥ</l>
+  <l n="a"><lb n="3"/><milestone unit="column" n="a"/>vibh<supplied reason="lost">ū</supplied>ti-yaj<supplied reason="lost">ñ</supplied>aiẖ <supplied reason="lost">kh</supplied><unclear>y</unclear>ātena</l>
+  <l n="b"><milestone unit="column" n="b"/>rājñā śrīśānavarmmaṇā</l>
+  <l n="c"><lb n="4"/><milestone unit="column" n="a"/>yo 'mātya-mukhyo 'dhikr̥ta<space/>ẖ</l>
+  <l n="d"><milestone unit="column" n="b"/>kr̥tajño lekha-vācakaḥ</l>
 </lg>
             <lg n="3" met="anuṣṭubh">
-  <l n="a"><lb n="5"/>śauryya-tyāgādi-yuktena <space/></l>
-  <l n="b">rājñā śrībhavavarmmaṇā</l>
-  <l n="c" enjamb="yes"><lb n="6"/>yaś cārtha-vastu-gaṇanā<space/></l>
-  <l n="d">-niyukto lekha-vācakaḥ</l>
+  <l n="a"><lb n="5"/><milestone unit="column" n="a"/>śauryya-tyāgādi-yuktena</l>
+  <l n="b"><milestone unit="column" n="b"/>rājñā śrībhavavarmmaṇā</l>
+  <l n="c" enjamb="yes"><lb n="6"/><milestone unit="column" n="a"/>yaś cārtha-vastu-gaṇanā</l>
+  <l n="d"><milestone unit="column" n="b"/>-niyukto lekha-vācakaḥ</l>
 </lg>
             <lg n="4" met="anuṣṭubh">
-  <l n="a"><lb n="7"/>Ā-campā-bhūmi-jayinā <space/></l>
-  <l n="b">rājñā śrījayavarmmaṇā</l>
-  <l n="c" enjamb="yes"><lb n="8"/>san-mānya-siddhāyatana<space/></l>
-  <l n="d">-pālane <unclear>yas sa</unclear>marppitaḥ</l>
+  <l n="a"><lb n="7"/><milestone unit="column" n="a"/>Ā-campā-bhūmi-jayinā</l>
+  <l n="b"><milestone unit="column" n="b"/>rājñā śrījayavarmmaṇā</l>
+  <l n="c" enjamb="yes"><lb n="8"/><milestone unit="column" n="a"/>san-mānya-siddhāyatana</l>
+  <l n="d"><milestone unit="column" n="b"/>-pālane <unclear>yas sa</unclear>marppitaḥ</l>
 </lg>
             <lg n="5" met="anuṣṭubh">
-  <l n="a"><lb n="9"/>Ācāryya-kavicandreṇa <space/></l>
-  <l n="b">gurv<supplied reason="lost">va</supplied><seg met="==-+-"><gap reason="lost" quantity="5" unit="character"/></seg><unclear>nā</unclear></l>
-  <l n="c"><lb n="10"/>yajñeśvarasya pratimā <space/></l>
-  <l n="d"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+  <l n="a"><lb n="9"/><milestone unit="column" n="a"/>Ācāryya-kavicandreṇa</l>
+  <l n="b"><milestone unit="column" n="b"/>gurv<supplied reason="lost">va</supplied><seg met="==-+-"><gap reason="lost" quantity="5" unit="character"/></seg><unclear>nā</unclear></l>
+  <l n="c"><lb n="10"/><milestone unit="column" n="a"/>yajñeśvarasya pratimā</l>
+  <l n="d"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
 </lg>
             <lg n="6" met="anuṣṭubh">
-  <l n="a" met="na-vipulā" real="-+++---+"><lb n="11"/>catur-dvīpeṣu-gaṇite <space/></l>
+  <l n="a" met="na-vipulā" real="-+++---+"><lb n="11"/><milestone unit="column" n="a"/>catur-dvīpeṣu-gaṇite</l>
                <!-- Daniel's suggestion:
                dvīpeṣu, with apparatus suggesting dvipeṣu instead. (Would that be 8 instead of 7?) If you are confident about that, as your apparatus text seems to indicate, then I would make that emendation in the text (and keep the apparatus note to explain). I would also reflect that emendation in the translation.-->
-  <l n="b">śa<unclear>k</unclear><supplied reason="lost">ābde</supplied> <seg met="==-+-"><gap reason="lost" quantity="5" unit="character"/></seg></l>
-  <l n="c" enjamb="yes"><lb n="12"/>rohiṇīndur yyadā pauṣa<space/></l>
-  <l n="d">-sitai<unclear>kā</unclear><supplied reason="lost">daśa-</supplied><unclear>vā</unclear>sa<unclear>re</unclear></l>
+  <l n="b"><milestone unit="column" n="b"/>śa<unclear>k</unclear><supplied reason="lost">ābde</supplied> <seg met="==-+-"><gap reason="lost" quantity="5" unit="character"/></seg></l>
+  <l n="c" enjamb="yes"><lb n="12"/><milestone unit="column" n="a"/>rohiṇīndur yyadā pauṣa</l>
+  <l n="d"><milestone unit="column" n="b"/>-sitai<unclear>kā</unclear><supplied reason="lost">daśa-</supplied><unclear>vā</unclear>sa<unclear>re</unclear></l>
 </lg>
             <lg n="7" met="anuṣṭubh">
-  <l n="a"><lb n="13"/>yad dattam asyai dāsādi <space/></l>
-  <l n="b">te<unclear>nā</unclear>py apaharanti ye</l>
-  <l n="c" met="bha-vipulā" real="++-++---"><lb n="14"/>te yāntv avīcī-naraka<space/>m</l>
-  <l n="d">ati-dīrgghaṁ savāndhavāḥ <g type="ddandaHooked"/></l>
+  <l n="a"><lb n="13"/><milestone unit="column" n="a"/>yad dattam asyai dāsādi</l>
+  <l n="b"><milestone unit="column" n="b"/>te<unclear>nā</unclear>py apaharanti ye</l>
+  <l n="c" met="bha-vipulā" real="++-++---"><lb n="14"/><milestone unit="column" n="a"/>te yāntv avīcī-naraka<space/>m</l>
+  <l n="d"><milestone unit="column" n="b"/>ati-dīrgghaṁ savāndhavāḥ <g type="ddandaHooked"/></l>
 </lg>
-            <ab xml:lang="okz-Latn"><!-- we havejust the (unfinished) beginning of a Khmer part — no need to encode textpart, it seem -->
+            <ab xml:lang="okz-Latn"><!-- we have just the (unfinished) beginning of a Khmer part — no need to encode textpart, it seem -->
                <lb n="15"/>vraḥ kamra
             </ab>
          </div>
