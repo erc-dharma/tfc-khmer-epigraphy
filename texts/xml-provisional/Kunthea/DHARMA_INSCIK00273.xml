@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Ta Prohm (K. 273), 1108 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK000273</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The <foreign>akṣara</foreign>s are of square form which is characteristic of the script belonging to the reign of Jayavarman VII.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2023-04-13" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="12" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="13" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="14" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="15" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="16" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="17" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="18" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="19" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="20" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="21" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="22" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="23" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="24" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="25" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="26" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="27" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="28" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="29" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="30" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="31" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="32" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="33" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="34" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="35" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="36" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="37" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="38" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="39" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="40" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="41" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="42" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="43" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="44" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="45" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="46" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="47" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="48" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="49" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="50" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="51" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="52" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="53" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="54" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="55" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="56" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="57" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="58" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="59" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="60" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="61" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="62" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="63" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="64" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="65" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="66" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="67" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="68" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="69" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="70" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="71" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="72" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="73" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="74" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="75" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="76" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="77" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="78" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="79" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="80" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="81" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="82" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="83" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="84" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="85" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="86" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="87" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="88" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="89" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="90" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="91" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="92" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="93" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="94" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="95" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="96" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="97" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="98" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="99" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="100" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="101" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="102" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="103" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="104" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="105" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="106" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="107" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="108" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="109" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="110" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="111" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="112" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="113" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="114" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="115" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="116" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="117" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="118" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="119" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="120" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="121" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="122" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="123" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="124" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="125" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="126" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="127" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="128" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="129" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="130" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="131" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="132" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="133" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="134" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="135" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="136" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="137" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="138" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="139" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="140" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="141" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="142" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="143" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="144" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="145" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                </div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1906_01"></rdg>
+                     </app> 
+               </listApp>         
+         </div>
+           <div type="translation" resp="part:dogo"><!-- To add S.L.P. Anjaneya Sarma @resp -->
+ 	<p rend="stanza" n="1"></p>
+            <p rend="stanza" n="2"></p>
+            <p rend="stanza" n="3"></p>
+            <p rend="stanza" n="4"></p>
+            <p rend="stanza" n="5"></p>
+            <p rend="stanza" n="6"></p>
+            <p rend="stanza" n="7"></p>
+            <p rend="stanza" n="8"></p>
+            <p rend="stanza" n="9"></p>
+            <p rend="stanza" n="10"></p>
+            <p rend="stanza" n="11"></p>
+            <p rend="stanza" n="12"></p>
+            <p rend="stanza" n="13"></p>
+            <p rend="stanza" n="15"></p>
+            <p rend="stanza" n="16"></p>
+            <p rend="stanza" n="17"></p>
+            <p rend="stanza" n="18"></p>
+            <p rend="stanza" n="19"></p>
+            <p rend="stanza" n="20"></p>
+            <p rend="stanza" n="21"></p>
+            <p rend="stanza" n="22"></p>
+            <p rend="stanza" n="23"></p>
+            <p rend="stanza" n="24"></p>
+            <p rend="stanza" n="25"></p>
+            <p rend="stanza" n="26"></p>
+            <p rend="stanza" n="27"></p>
+            <p rend="stanza" n="28"></p>
+            <p rend="stanza" n="29"></p>
+            <p rend="stanza" n="30"></p>
+            <p rend="stanza" n="31"></p>
+            <p rend="stanza" n="32"></p>
+            <p rend="stanza" n="33"></p>
+            <p rend="stanza" n="34"></p>
+            <p rend="stanza" n="35"></p>
+            <p rend="stanza" n="36"></p>
+            <p rend="stanza" n="37"></p>
+            <p rend="stanza" n="38"></p>
+            <p rend="stanza" n="39"></p>
+            <p rend="stanza" n="40"></p>
+            <p rend="stanza" n="41"></p>
+            <p rend="stanza" n="42"></p>
+            <p rend="stanza" n="43"></p>
+            <p rend="stanza" n="44"></p>
+            <p rend="stanza" n="45"></p>
+            <p rend="stanza" n="46"></p>
+            <p rend="stanza" n="47"></p>
+            <p rend="stanza" n="48"></p>
+            <p rend="stanza" n="49"></p>
+            <p rend="stanza" n="50"></p>
+            <p rend="stanza" n="51"></p>
+            <p rend="stanza" n="52"></p>
+            <p rend="stanza" n="53"></p>
+            <p rend="stanza" n="54"></p>
+            <p rend="stanza" n="55"></p>
+            <p rend="stanza" n="56"></p>
+            <p rend="stanza" n="57"></p>
+            <p rend="stanza" n="58"></p>
+            <p rend="stanza" n="59"></p>
+            <p rend="stanza" n="60"></p>
+            <p rend="stanza" n="61"></p>
+            <p rend="stanza" n="62"></p>
+            <p rend="stanza" n="63"></p>
+            <p rend="stanza" n="64"></p>
+            <p rend="stanza" n="65"></p>
+            <p rend="stanza" n="66"></p>
+            <p rend="stanza" n="67"></p>
+            <p rend="stanza" n="68"></p>
+            <p rend="stanza" n="69"></p>
+            <p rend="stanza" n="70"></p>
+            <p rend="stanza" n="71"></p>
+            <p rend="stanza" n="72"></p>
+            <p rend="stanza" n="73"></p>
+            <p rend="stanza" n="74"></p>
+            <p rend="stanza" n="75"></p>
+            <p rend="stanza" n="76"></p>
+            <p rend="stanza" n="77"></p>
+            <p rend="stanza" n="78"></p>
+            <p rend="stanza" n="79"></p>
+            <p rend="stanza" n="80"></p>
+            <p rend="stanza" n="81"></p>
+            <p rend="stanza" n="82"></p>
+            <p rend="stanza" n="83"></p>
+            <p rend="stanza" n="84"></p>
+            <p rend="stanza" n="85"></p>
+            <p rend="stanza" n="86"></p>
+            <p rend="stanza" n="87"></p>
+            <p rend="stanza" n="88"></p>
+            <p rend="stanza" n="89"></p>
+            <p rend="stanza" n="90"></p>
+            <p rend="stanza" n="91"></p>
+            <p rend="stanza" n="92"></p>
+            <p rend="stanza" n="93"></p>
+            <p rend="stanza" n="94"></p>
+            <p rend="stanza" n="95"></p>
+            <p rend="stanza" n="96"></p>
+            <p rend="stanza" n="97"></p>
+            <p rend="stanza" n="98"></p>
+            <p rend="stanza" n="99"></p>
+            <p rend="stanza" n="100"></p>
+            <p rend="stanza" n="101"></p>
+            <p rend="stanza" n="102"></p>
+            <p rend="stanza" n="103"></p>
+            <p rend="stanza" n="104"></p>
+            <p rend="stanza" n="105"></p>
+            <p rend="stanza" n="106"></p>
+            <p rend="stanza" n="107"></p>
+            <p rend="stanza" n="108"></p>
+            <p rend="stanza" n="109"></p>
+            <p rend="stanza" n="110"></p>
+            <p rend="stanza" n="101"></p>
+            <p rend="stanza" n="102"></p>
+            <p rend="stanza" n="103"></p>
+            <p rend="stanza" n="104"></p>
+            <p rend="stanza" n="105"></p>
+            <p rend="stanza" n="106"></p>
+            <p rend="stanza" n="107"></p>
+            <p rend="stanza" n="108"></p>
+            <p rend="stanza" n="109"></p>
+            <p rend="stanza" n="110"></p>
+            <p rend="stanza" n="111"></p>
+            <p rend="stanza" n="112"></p>
+            <p rend="stanza" n="113"></p>
+            <p rend="stanza" n="114"></p>
+            <p rend="stanza" n="115"></p>
+            <p rend="stanza" n="116"></p>
+            <p rend="stanza" n="117"></p>
+            <p rend="stanza" n="118"></p>
+            <p rend="stanza" n="119"></p>
+            <p rend="stanza" n="120"></p>
+            <p rend="stanza" n="121"></p>
+            <p rend="stanza" n="122"></p>
+            <p rend="stanza" n="123"></p>
+            <p rend="stanza" n="124"></p>
+            <p rend="stanza" n="125"></p>
+            <p rend="stanza" n="126"></p>
+            <p rend="stanza" n="127"></p>
+            <p rend="stanza" n="128"></p>
+            <p rend="stanza" n="129"></p>
+            <p rend="stanza" n="130"></p>
+            <p rend="stanza" n="131"></p>
+            <p rend="stanza" n="132"></p>
+            <p rend="stanza" n="133"></p>
+            <p rend="stanza" n="134"></p>
+            <p rend="stanza" n="135"></p>
+            <p rend="stanza" n="136"></p>
+            <p rend="stanza" n="137"></p>
+            <p rend="stanza" n="138"></p>
+            <p rend="stanza" n="139"></p>
+            <p rend="stanza" n="140"></p>
+            <p rend="stanza" n="141"></p>
+            <p rend="stanza" n="142"></p>
+            <p rend="stanza" n="143"></p>
+            <p rend="stanza" n="144"></p>
+            <p rend="stanza" n="145"></p>
+             </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1906_01">
+ 	<p rend="stanza" n="1"></p>
+            <p rend="stanza" n="2"></p>
+            <p rend="stanza" n="3"></p>
+            <p rend="stanza" n="4"></p>
+            <p rend="stanza" n="5"></p>
+            <p rend="stanza" n="6"></p>
+            <p rend="stanza" n="7"></p>
+            <p rend="stanza" n="8"></p>
+            <p rend="stanza" n="9"></p>
+            <p rend="stanza" n="10"></p>
+            <p rend="stanza" n="11"></p>
+            <p rend="stanza" n="12"></p>
+            <p rend="stanza" n="13"></p>
+            <p rend="stanza" n="15"></p>
+            <p rend="stanza" n="16"></p>
+            <p rend="stanza" n="17"></p>
+            <p rend="stanza" n="18"></p>
+            <p rend="stanza" n="19"></p>
+            <p rend="stanza" n="20"></p>
+            <p rend="stanza" n="21"></p>
+            <p rend="stanza" n="22"></p>
+            <p rend="stanza" n="23"></p>
+            <p rend="stanza" n="24"></p>
+            <p rend="stanza" n="25"></p>
+            <p rend="stanza" n="26"></p>
+            <p rend="stanza" n="27"></p>
+            <p rend="stanza" n="28"></p>
+            <p rend="stanza" n="29"></p>
+            <p rend="stanza" n="30"></p>
+            <p rend="stanza" n="31"></p>
+            <p rend="stanza" n="32"></p>
+            <p rend="stanza" n="33"></p>
+            <p rend="stanza" n="34"></p>
+            <p rend="stanza" n="35"></p>
+            <p rend="stanza" n="36"></p>
+            <p rend="stanza" n="37"></p>
+            <p rend="stanza" n="38"></p>
+            <p rend="stanza" n="39"></p>
+            <p rend="stanza" n="40"></p>
+            <p rend="stanza" n="41"></p>
+            <p rend="stanza" n="42"></p>
+            <p rend="stanza" n="43"></p>
+            <p rend="stanza" n="44"></p>
+            <p rend="stanza" n="45"></p>
+            <p rend="stanza" n="46"></p>
+            <p rend="stanza" n="47"></p>
+            <p rend="stanza" n="48"></p>
+            <p rend="stanza" n="49"></p>
+            <p rend="stanza" n="50"></p>
+            <p rend="stanza" n="51"></p>
+            <p rend="stanza" n="52"></p>
+            <p rend="stanza" n="53"></p>
+            <p rend="stanza" n="54"></p>
+            <p rend="stanza" n="55"></p>
+            <p rend="stanza" n="56"></p>
+            <p rend="stanza" n="57"></p>
+            <p rend="stanza" n="58"></p>
+            <p rend="stanza" n="59"></p>
+            <p rend="stanza" n="60"></p>
+            <p rend="stanza" n="61"></p>
+            <p rend="stanza" n="62"></p>
+            <p rend="stanza" n="63"></p>
+            <p rend="stanza" n="64"></p>
+            <p rend="stanza" n="65"></p>
+            <p rend="stanza" n="66"></p>
+            <p rend="stanza" n="67"></p>
+            <p rend="stanza" n="68"></p>
+            <p rend="stanza" n="69"></p>
+            <p rend="stanza" n="70"></p>
+            <p rend="stanza" n="71"></p>
+            <p rend="stanza" n="72"></p>
+            <p rend="stanza" n="73"></p>
+            <p rend="stanza" n="74"></p>
+            <p rend="stanza" n="75"></p>
+            <p rend="stanza" n="76"></p>
+            <p rend="stanza" n="77"></p>
+            <p rend="stanza" n="78"></p>
+            <p rend="stanza" n="79"></p>
+            <p rend="stanza" n="80"></p>
+            <p rend="stanza" n="81"></p>
+            <p rend="stanza" n="82"></p>
+            <p rend="stanza" n="83"></p>
+            <p rend="stanza" n="84"></p>
+            <p rend="stanza" n="85"></p>
+            <p rend="stanza" n="86"></p>
+            <p rend="stanza" n="87"></p>
+            <p rend="stanza" n="88"></p>
+            <p rend="stanza" n="89"></p>
+            <p rend="stanza" n="90"></p>
+            <p rend="stanza" n="91"></p>
+            <p rend="stanza" n="92"></p>
+            <p rend="stanza" n="93"></p>
+            <p rend="stanza" n="94"></p>
+            <p rend="stanza" n="95"></p>
+            <p rend="stanza" n="96"></p>
+            <p rend="stanza" n="97"></p>
+            <p rend="stanza" n="98"></p>
+            <p rend="stanza" n="99"></p>
+            <p rend="stanza" n="100"></p>
+            <p rend="stanza" n="101"></p>
+            <p rend="stanza" n="102"></p>
+            <p rend="stanza" n="103"></p>
+            <p rend="stanza" n="104"></p>
+            <p rend="stanza" n="105"></p>
+            <p rend="stanza" n="106"></p>
+            <p rend="stanza" n="107"></p>
+            <p rend="stanza" n="108"></p>
+            <p rend="stanza" n="109"></p>
+            <p rend="stanza" n="110"></p>
+            <p rend="stanza" n="101"></p>
+            <p rend="stanza" n="102"></p>
+            <p rend="stanza" n="103"></p>
+            <p rend="stanza" n="104"></p>
+            <p rend="stanza" n="105"></p>
+            <p rend="stanza" n="106"></p>
+            <p rend="stanza" n="107"></p>
+            <p rend="stanza" n="108"></p>
+            <p rend="stanza" n="109"></p>
+            <p rend="stanza" n="110"></p>
+            <p rend="stanza" n="111"></p>
+            <p rend="stanza" n="112"></p>
+            <p rend="stanza" n="113"></p>
+            <p rend="stanza" n="114"></p>
+            <p rend="stanza" n="115"></p>
+            <p rend="stanza" n="116"></p>
+            <p rend="stanza" n="117"></p>
+            <p rend="stanza" n="118"></p>
+            <p rend="stanza" n="119"></p>
+            <p rend="stanza" n="120"></p>
+            <p rend="stanza" n="121"></p>
+            <p rend="stanza" n="122"></p>
+            <p rend="stanza" n="123"></p>
+            <p rend="stanza" n="124"></p>
+            <p rend="stanza" n="125"></p>
+            <p rend="stanza" n="126"></p>
+            <p rend="stanza" n="127"></p>
+            <p rend="stanza" n="128"></p>
+            <p rend="stanza" n="129"></p>
+            <p rend="stanza" n="130"></p>
+            <p rend="stanza" n="131"></p>
+            <p rend="stanza" n="132"></p>
+            <p rend="stanza" n="133"></p>
+            <p rend="stanza" n="134"></p>
+            <p rend="stanza" n="135"></p>
+            <p rend="stanza" n="136"></p>
+            <p rend="stanza" n="137"></p>
+            <p rend="stanza" n="138"></p>
+            <p rend="stanza" n="139"></p>
+            <p rend="stanza" n="140"></p>
+            <p rend="stanza" n="141"></p>
+            <p rend="stanza" n="142"></p>
+            <p rend="stanza" n="143"></p>
+            <p rend="stanza" n="144"></p>
+            <p rend="stanza" n="145"></p>
+             </div>
+         <div type="commentary">
+            <p></p>
+         </div>
+         <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1906_01"/><citedRange unit="page">44-81</citedRange></bibl>) with a French translation; re-edited here by Dominic Goodall and S.L.P. Anjaneya Sarma (EFEO) in the context of the ERC DHARMA project during reading sessions in 2021-2022, in which Kunthea Chhom, Harunaga Isaacson, S. A. S. Sarma, R. Sathyanarayanan, Judit Törzsök and others participated.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1906_01"/><citedRange unit="page">44-81</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
