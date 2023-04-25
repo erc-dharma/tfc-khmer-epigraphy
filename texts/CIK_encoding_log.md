@@ -1166,7 +1166,7 @@ K.	294 |# |# |#|
 |K.	1031 |kuch |pending |Vong 2003|
 |K.	1032 |kuch |pending |unpublished|
 |K.	1033 |# |# |#|
-|K.	1034 |# |# |#|
+|K.	1034 |sapi |done |Jacques 1970 ; Pou 2011|
 |K.	1035 |# |# |#|
 |K.	1036 |chch |pending |NIC II-III|
 |K.	1037 |# |# |#|
