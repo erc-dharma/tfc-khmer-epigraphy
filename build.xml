@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project basedir="." name="dharma">
 
     <!-- Macrodef taken from tlrobinson.net blog-->
@@ -33,8 +33,8 @@
     <!-- Steps for the mdt -->
     <git-clone-pull repository="https://github.com/erc-dharma/mdt-texts.git" dest="mdt-texts" />
 
-    <fileset id="xmlFiles" dir="./texts/xml-provisional" includes="**/*.xml"/>
-    <fileset id="htmlFiles" dir="./texts/workflow-output/editedxml" includes="**/*.xml"/>
+    <fileset id="xmlFiles" dir="./texts/xml-provisional" includes="*.xml"/>
+    <fileset id="htmlFiles" dir="./texts/workflow-output/editedxml" includes="*.xml"/>
     <!-- fileset for mdt -->
     <fileset id="mdtFiles" dir="./mdt-texts/output" includes="DHARMA_mdt_INSCIK*.xml"/>
 
