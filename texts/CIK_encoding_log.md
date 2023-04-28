@@ -283,7 +283,7 @@
 |K.	270 |# |# |#|
 |K.	271 |sapi |pending |IC IV|
 |K.	272 |kuch |done |Cœdès 1951|
-|K.	273 |# |# |#|
+|K.	273 |kuch |done |Cœdès 1906|
 |K.	274-1 |kuch |done |Cœdès 1951|
 |K.	274-2 |kuch |done |Cœdès 1951|
 |K.	274-3 |kuch |done |Cœdès 1951|
@@ -1025,7 +1025,7 @@ K.	294 |# |# |#|
 |K.	907-19 |kuch |done |Cœdès 1951|
 |K.	907-20 |kuch |done |Cœdès 1951|
 |K.	907-21 |kuch |done |Cœdès 1951|
-|K.	908 |# |# |#|
+|K.	908 |kuch |pending |Cœdès 1941|
 |K.	909-1 |kuch|done |Cœdès 1951|
 |K.	909-2 |kuch|done |Cœdès 1951|
 |K.	909-3 |kuch|done |Cœdès 1951|
