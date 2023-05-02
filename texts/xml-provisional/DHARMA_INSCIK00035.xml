@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb of Prasat Neang Khmau (K. 35), 9th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00035</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The letters of lines 2-5 are bigger than the rest.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2023-04-05" status="draft">Adding paleographical remark and modifications to edition</change>
+         <change who="part:kuch" when="2022-01-03" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/><g type="gomutraInitial">.</g> <g type="ddandaOrnate">.</g> namaś śrīlokanāthāya</l>
+<l n="b"><milestone unit="column" n="b"/>yo yatā<note>The reading of yatā° is doubtful. The second <foreign>akṣara</foreign>can also be read <foreign>thā</foreign>, <foreign>bhe</foreign> or <foreign>ña</foreign>.</note>yati-śaktibhiḥ</l>
+<l n="c" met="na-vipulā" real="---+---+"><milestone unit="column" n="c"/>tri-pada-krānta-dharaṇ<choice><orig>i</orig><reg>ī</reg></choice></l>
+<l n="d"><milestone unit="column" n="d"/>vyoma-vrahmāṇḍa-ma<choice><orig>nd</orig><reg>ṇḍ</reg></choice>alaḥ <g type="ddandaOrnate">.</g></l>
+                   </lg> 
+                   <lg n="2" met="vasantatilakā">
+<l n="a"><lb n="2"/><milestone unit="column" n="a"/>śrīlokanātham iti śavdam iman dadhāti</l>
+<l n="b"><milestone unit="column" n="b"/>yuktaṁ haris tri-bhuvana-pravikīrṇ<choice><orig>n</orig><reg>ṇ</reg></choice>a-kīrttiḥ</l>
+<l n="c"><lb n="3"/><milestone unit="column" n="a"/>pāda-trivikrama-rucāmvara-śaila-śr̥ṅga<milestone unit="column" n="b" break="no"/>s</l>
+<l n="d">saṁlakṣito bhagavatāyuga-vistarāntāt· <g type="ddandaOrnate">.</g></l>
+                   </lg> 
+                   <lg n="3" met="upajāti">
+<l n="a" enjamb="yes"><lb n="4"/><milestone unit="column" n="a"/>namrāvanīndrottama-mūrddha-mauli</l>
+<l n="b"><milestone unit="column" n="b"/>-ratna-dyuti-dyotitapāda-padmaḥ</l>
+<l n="c"><lb n="5"/><milestone unit="column" n="a"/>śrīkamvujendraḥ kha-śarāṣṭa-rājyo</l>
+<l n="d"><milestone unit="column" n="b"/>rarāja yaś śrījayavarmmadevaḥ <g type="ddandaOrnate">.</g></l>
+                   </lg> 
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="6"/><milestone unit="column" n="a"/>Ari-vakṣas-sthalodbhrānta</l>
+<l n="b"><milestone unit="column" n="b"/>śriyāseḥ pātanād bhr̥śaṁ</l>
+<l n="c"><milestone unit="column" n="c"/>yasya vakṣomvuje prītyā</l>
+<l n="d"><milestone unit="column" n="d"/>yuddheṣv āśv āśrayaḥ kr̥taḥ <g type="dDanda">.</g></l>
+                   </lg> 
+                   <lg n="5" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="7"/><milestone unit="column" n="a"/>yuddheṣu yena nirmmukta</l>
+<l n="b"><milestone unit="column" n="b"/>śānaughaiḥ pūritāmvaraiḥ</l>
+<l n="c"><milestone unit="column" n="c"/>niśāyāṁ dr̥pta-śatrūṇāṁ</l>
+<l n="d"><milestone unit="column" n="d"/>locaneṣu kr̥tan tamaḥ <g type="ddandaOrnate">.</g></l>
+                   </lg> 
+                   <lg n="6" met="upajāti">
+<l n="a"><lb n="8"/><milestone unit="column" n="a"/>prāk ced anaṅgasya vibhāsa <seg met="++"><gap reason="lost" quantity="2" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><supplied reason="lost">Ana</supplied>ṅga-śobheva jitātma-śobhā</l>
+<l n="c"><milestone unit="column" n="c"/>tri-netra-netra<seg met="--+-++"><gap reason="lost" quantity="6" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="d"/><seg met="===++--+-++"><gap reason="lost" quantity="11" unit="character"/></seg></l>
+                   </lg> 
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="9"/><milestone unit="column" n="a"/>pāṇigraham akurvvā<choice><orig>n</orig><reg>ṇ</reg></choice>o</l>
+<l n="b"><milestone unit="column" n="b"/>lakṣ<supplied reason="omitted">m</supplied>yā yo 'mr̥ta-ma<choice><orig>ṇṭh</orig><reg>nth</reg></choice>ane</l>
+<l n="c" met="na-vipulā" real="-+-+++++"><milestone unit="column" n="c"/>Avāpta-lakṣmīṁ yuddhāvdhau</l>
+<l n="d"><milestone unit="column" n="d"/>na vāhuṁ vahv amanyata <g type="dDanda">.</g></l>
+                   </lg> 
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="10"/><milestone unit="column" n="a"/>yat-kīrṇ<choice><orig>n</orig><reg>ṇ</reg></choice>a-kīrtti-pīyūṣai<milestone unit="column" n="b" break="no"/>ś</l>
+<l n="b">śānta-tāpāgni-sañcayaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>ke<choice><orig>ṇ</orig><reg>n</reg></choice>āpi nitarān dikṣu</l>
+<l n="d"><milestone unit="column" n="d"/>jvalaty adyāpi kāntibhiḥ <g type="dDanda">.</g></l>
+                   </lg> 
+                  
+                </div>
+           <div type="apparatus">
+              <listApp>
+                 <app loc="2">
+                     <lem>°kīrttiḥ</lem>
+                      <rdg source="bib:Jacques2014_01">kīrtiḥ</rdg>
+                      </app>
+                 <app loc="4">
+                     <lem>°mūrddha°</lem>
+                      <rdg source="bib:Jacques2014_01">mūrdha</rdg>
+                      </app>
+                 <app loc="8">
+                     <lem>jitātmaśobhā</lem>
+                      <rdg source="bib:Jacques2014_01">gitātmaśobhā</rdg>
+                      </app>
+                 <app loc="9">
+                     <lem>lakṣ<supplied reason="omitted">m</supplied>yā</lem>
+                      <rdg source="bib:Jacques2014_01">lakṣmyā</rdg>
+                      </app>
+                  </listApp> 
+         </div> 
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p rend="stanza" n="1">Hommage à Śrī Lokanātha qui, grâce à son pouvoir illimité d'expansion, a franchi en trois pas la terre, l'atmosphère et la circonférence de l'œuf de Brahmā.</p>
+            <p rend="stanza" n="2">C'est à juste titre que ce nom de Śrī Lokanātha est porté par Hari, dont la gloire est répandue dans les trois mondes. Le Bienheureux a, jusqu'à la fin des siècles, marqué par la splendeur des trois pas de ses pieds le sommet de la montagne du ciel.</p>
+            <p rend="stanza" n="3">Śrī Jayavarmadeva, roi des Kambujas, dont les pieds-lotus étaient illuminés par l'éclat des joyaux ornant les diadèmes des plus éminents des rois inclinés, régna en 8-<supplied reason="subaudible">5</supplied> flèches-éther <supplied reason="subaudible">= 0</supplied>.</p>
+            <p rend="stanza" n="4">Dans les combats, la Fortune que le coup de son épée avait fait violemment sursauter sur la poitrine de l'ennemi, se hâta avec joie de prendre refuge sur le lotus de sa poitrine.</p>
+            <p rend="stanza" n="5">Dans les combats, la multitude de pierres lancées par lui remplissait le ciel et produisait aux yeux des ennemis arrogants l'obscurité de la nuit.</p>
+            <p rend="stanza" n="6">Si auparavant, la beauté de l'Amour <gap reason="lost"/> comme la beauté de l'Amour surpassant sa propre beauté, l'œil de Śiva <gap reason="lost"/>.</p>
+            <p rend="stanza" n="7">Parce qu'il n'avait pas pris Lakṣmī par la main dans le barattement de l'ambroisie, il méprisait son bras qui avait pris Lakṣmī dans l'océan de la bataille.</p>
+            <p rend="stanza" n="8">Le brasier des tourments <supplied reason="subaudible">des créatures</supplied> éteint par l'ambroisie de sa gloire répandue, semble flamber encore violemment dans les points cardinaux par suite de sa beauté.</p>
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Jacques2014_01">
+ 	<p rend="stanza" n="1">Hommage à Śrī Lokanātha, lui qui, grâce à ses possibilités d'expansion maîtrisées, a franchi en trois enjambées l'ensemble de la terre, de l'espace et de l'œuf de Brahma.</p>
+            <p rend="stanza" n="2">C'est à juste titre que Hari porte ce nom de Śrī Lokanātha, dont la renommée est répandue dans les trois mondes: le sommet de la montagne et l'espace sont marqués de la bienheureuse lumière de la triple enjambée de ses pieds jusqu'à la fin des <foreign>yuga</foreign>.</p>
+            <p rend="stanza" n="3">Celui dont la splendeur des joyaux de diadèmes des têtes des plus éminents rois de la terre inclinés illuminait le lotus des pieds, le roi des augustes Kambuja Śrī Jayavarman a brillé dans son royaume en 8 - flèches <supplied reason="subaudible">= 5</supplied> - éther <supplied reason="subaudible">= 0</supplied>.</p>
+            <p rend="stanza" n="4">Chassée de la poitrine de son ennemi par un violent coup d'épée lors de combats, Śrī se hâta de prendre refuge avec joie sur le lotus de sa poitrine.</p>
+            <p rend="stanza" n="5">Lors des combats, à cause de la nuée de "pierres" qu'il lançait et qui remplissait le ciel, il créait l'obscurité de la nuit aux yeux des ennemis arrogants.</p>
+            <p rend="stanza" n="6"><gap reason="lost"/></p>
+            <p rend="stanza" n="7"><supplied reason="explanation">Il est difficile de donner une interprétation précise de cette stance, trop mutilée; cependant l'image de Kāma brûlé par Śiva et à laquelle se substitue celle du roi est banale dans l'épigraphie khmère, le roi khmer est en effet beau, par définition.</supplied></p>
+            <p rend="stanza" n="8">N'ayant pas fait la "prise de la main" de Lakṣmī lors du barattage de l'<foreign>amr̥ta</foreign>, il n'estimait guère son bras qui avait obtenu Lakṣmī dans la mer de la bataille.</p>
+              <p rend="stanza" n="9">La multitude de deux des tourments, éteinte par les nectars de sa renommée répandue, flamboie aujourd'hui encore dans les horizons d'une certaine manière, à cause de ses beautés. </p>
+         </div>
+         <div type="commentary">
+            <p>The columns a and b of the stanzas I, IV-V, VII-VII in <foreign>anuṣṭubh</foreign> meter and of the stanza VI in <foreign>upajāti</foreign> meter correspond to the column a of the stanzas II-III in <foreign>vasantatilakā</foreign> and <foreign>upajāti</foreign> meters; the columns c and d of the stanzas I, IV-VIII correspond to the column b of the stanzas II-III.</p>
+            <p>There is a blank space between lines 7 and 8. Claude Jacques (2014) suggests that the space was a stanza which has been erased because of a political reason; hence in his translation, there are 9 stanzas whereas in Cœdès', there are only 8.</p>
+            </div>
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">32-34</citedRange></bibl>) with a French translation; re-edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques2014_01"/><citedRange unit="page">377-380</citedRange></bibl>) with a French translation; re-edited here by Dominique Soutif and Kunthea Chhom based on the estampage EFEO n. 404 and cliché EFEO CIK·K0035·001.</p> 
+        <listBibl type="primary">
+           <bibl n="CJ">
+      <ptr target="bib:Jacques2014_01"/><citedRange unit="page">377-380</citedRange>
+    </bibl>
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">32-34</citedRange>
+    </bibl>
+	     
+        </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

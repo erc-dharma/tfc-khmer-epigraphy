@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Thap Muoi, Prasat Pram Loveng (K. 6), 6th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00006</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The first five lines are smaller than the rest. The letter <foreign>la</foreign> has long tail and the letter <foreign>ra</foreign> has double equal vertical stokes.  
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2023-04-03" status="draft">Adding paleographical remark</change>
+         <change who="part:kuch" when="2021-06-24" status="draft">Translating the Apparatus from French into English</change>
+         <change who="part:kuch" when="2020-11-13" status="draft">Modification regarding numerals</change>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:kuch" when="2020-07-08" status="draft">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+                <p>
+<lb n="1"/>vraḥ kamratāṅ· Añ· śrīpuṣpavaṭasvāmi puṇya mratā<lb 
+   n="2" break="no"/>ñ· śucidatta Ai kaṁluṅ· kūdya vraḥ kaṁmratāṅ A<lb 
+      n="3" break="no"/>ñ· mūlasthāna kñuṁ Aṁnoy· mratāñ· ta vraḥ vā vrau <num value="1"><g type="numeral">I</g></num>
+<lb n="4"/>vā bhinava <num value="1"><g type="numeral">I</g></num> vā noc· vraḥ <num value="1"><g type="numeral">I</g></num> karoṁ sre Aṁve cī
+<lb n="5"/>sau slā slik· teṁ <num value="1"><g type="numeral">I</g></num> <unclear>Ai</unclear> sruk· slā slik· teṁ <num value="1"><g type="numeral">I</g></num> to<unclear>ṅ·</unclear>
+<lb n="6"/>teṁ <num value="20"><g type="numeral">20</g></num> toṅ· Ai ta vraḥ teṁ <num value="20"><g type="numeral">20</g></num> saparibho<lb 
+   n="7" break="no"/>ga ta vraḥ kamratāṅ· Añ· śrīpuṣkarākṣa
+<lb n="8"/>gui ta yajamāna pan·las· mratāñ· poñ·
+<lb n="9"/>prabhavadat<unclear>ta</unclear> gui ta nā gui kñuṁ phoṅ· nau ge
+<lb n="10"/><gap reason="lost" quantity="2" unit="character" precision="low"/>n <gap reason="lost" quantity="4" unit="character" precision="low"/> Aṁnoy· ta vraḥ
+                </p>
+                </div>
+                <div type="apparatus">
+               <listApp>
+                  <app loc="2">
+                     <lem>kaṁluṅ·</lem>
+                     <note>The vowel <foreign>u</foreign> is not clear; it may be omitted by the engraver.</note>
+                  </app>
+                  <app loc="2">
+                     <lem>kūdya</lem>
+                     <note>There is on the <foreign>akṣara dya</foreign> <supplied reason="explanation">or <foreign>ḍya</foreign></supplied> a dot, similar to an <foreign>anusvāra</foreign>, which may be just a hole in the stone.</note>
+                  </app>
+                  <app loc="6">
+                     <lem>Ai ta</lem>
+                     <note>Doubtful reading : we can also read <foreign>aik</foreign>.</note>
+                  </app> 
+                  <app loc="6">
+                     <lem>saparibhoga</lem>
+                     <note>It is possible to read also <foreign>saṁparibhoga</foreign>.</note>
+                  </app>
+                  <app loc="8">
+                     <lem>gui</lem>
+                     <note>Cœdès transliterates it as <foreign>gyi</foreign> which he transliterates it later as <foreign>gui</foreign>. This problem occurs also in the line 9.</note>
+                  </app>
+                  <app loc="10">
+                     <lem>saparibhoga</lem>
+                     <note>It is possible to read also <foreign>saṁparibhoga</foreign>.</note>
+                  </app>
+               </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1936_01">
+          <p n="1-10">Le saint K.A. Puṣpavaṭasvāmi, oeuvre pie du Mratāñ Śucidatta dans l'enceinte du saint K.A. Mūlasthāna. Esclaves donnés par le Mratāñ <supplied reason="explanation">Śucidatta</supplied> à la divinité: Vā Vrau 1, Vā Abhinava 1, Vā Noc vraḥ 1, Karoṁ, rizière, au delà de Cī Sau: 400 aréquiers; dans le village: 400 aréquiers, vingt cocotiers; dans <supplied reason="explanation">le terrain du</supplied> temple: vingt cocotiers. La jouissance <supplied reason="explanation">de cette fondation</supplied> est commune avec le saint K.A. Puṣkarākṣa. Le sacrificateur suppléant le Mratāñ <supplied reason="explanation">Śucidatta</supplied>, le Poñ Prabhavadatta, le <gap reason="lost"/>, tous les esclaves <gap reason="lost"/> donnés à la divinité.</p>
+            </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+       <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1936_01"/><citedRange unit="page">6</citedRange></bibl>) with a French translation; re-edited here by Dominique Soutif &amp; Kunthea Chhom from the estampage BN 306.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1936_01"/><citedRange unit="page">6</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Vat Prei Veng (K. 1028), 536 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01028</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>There are engravings of a blooming lotus and a disc on the lotus on the top of face A. On the top of the fragmentary face B, there seems to be an engraving of a lotus. 
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2023-03-24" status="draft">Slight modifications to edition</change>
+         <change who="part:kuch" when="2023-03-07" status="draft">Modifications to edition</change>
+         <change who="part:kuch" when="2021-05-17">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Face</head>
+   <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A1"/><milestone unit="column" n="a"/>caṇḍakātyā<unclear>y</unclear>i<unclear>n</unclear>ī d<unclear>e</unclear>vī</l>
+<l n="b"><milestone unit="column" n="b"/>sthāpitā yajña<unclear>dā</unclear>yinā</l>
+<l n="c"><lb n="A2"/><milestone unit="column" n="a"/>durggadinnena <unclear>sā</unclear> yatra</l>
+<l n="d"><milestone unit="column" n="b"/>khaveruṁ pal<choice><unclear>p</unclear><unclear>y</unclear></choice>atāṁ purīm·</l>
+</lg>
+   <lg n="2" met="śārdūlavikrīḍitā" xml:lang="san-Latn">
+<l n="a"><lb n="A3"/>yasyā ye vibhavā svayajñapatinā dattā svayaṁ śra<unclear>d</unclear>dhayā</l>
+<l n="b"><lb n="A4"/>tān hart<unclear>uṁ</unclear> manasāpi kim vata girā kāyena vā<unclear>ñ</unclear>chanti ye</l>
+<l n="c"><lb n="A5"/><unclear>d</unclear>uẖkh<unclear>ā</unclear>rttā Iha <unclear>t</unclear>e paratra narakaṁ <unclear>ga</unclear>cchanti t<unclear>ī</unclear><supplied reason="lost">v</supplied>ran narāḥ</l>
+<l n="d"><lb n="A6"/>kas tasyā <unclear>na ma</unclear>naḫprasādam adhikaṁ kuryy<unclear>ān ma</unclear>hāśreyase</l>
+</lg>
+   <lg n="3" met="indravajrā" xml:lang="san-Latn">
+<l n="a"><lb n="A7"/><milestone unit="column" n="a"/>jātim varaṁ viprakuleṣu jātiṁ</l>
+<l n="b"><milestone unit="column" n="b"/>medhāvitām iśvaratāṁ priyatvaṁ</l>
+<l n="c"><lb n="A8"/><milestone unit="column" n="a"/>bha<unclear>v</unclear>e bhave puṇyanayair avāpn<unclear>u</unclear>yā<milestone unit="column" n="b" break="no"/>d</l>
+<l n="d">devyā samaṁ yāvad a<unclear>m</unclear>okṣagāmī</l>
+</lg>
+   <lg n="4" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="a"><lb n="A9"/>ṣallokeṣvabhi<unclear>lakṣ</unclear>itā <unclear>ś</unclear>akasa<unclear>m</unclear>ā mā<unclear>s</unclear>o yadā kārttika<lb n="A10" break="no"/>ś</l>
+<l n="b">śuklo <unclear>dv</unclear>ādaśa<unclear>v</unclear>āsaro jhaṣagato mīnāntagaś candramāḥ</l>
+<l n="c"><lb n="A11"/>p<unclear>ū</unclear>r<unclear>v</unclear>vasyān diśi vr̥<unclear>ś</unclear><supplied reason="lost">c</supplied><unclear>ik</unclear><supplied reason="lost">aṁ</supplied> samu<supplied reason="lost">d</supplied><unclear>it</unclear>aṁ lagnaṁ tadā sthāpitā</l>
+<l n="d"><lb n="A12"/><seg met="++"><gap reason="lost" quantity="2" unit="character"/></seg> <unclear>n</unclear>ā <unclear>v</unclear>i<unclear>bha</unclear> <seg met="+-+---++"><gap reason="lost" quantity="8" unit="character"/></seg> caṇ<choice><orig>d</orig><reg>ḍ</reg></choice>akātyāyin<unclear>ī</unclear></l>
+</lg>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Face</head>
+<p>
+<lb n="B1"/><gap reason="lost" extent="unknown"/>
+   <lb n="B2"/><gap reason="lost" extent="unknown"/>
+   <lb n="B3"/><gap reason="lost" quantity="4" unit="character"/><unclear>p</unclear>r<unclear>a</unclear>t<unclear>i</unclear>ṣ<unclear>ṭha</unclear> vraḥ kamratāṅ· Añ· śrī caṇḍa<lb 
+      n="B4" break="no"/>kātyā<supplied reason="lost">yinī</supplied> droṅ· vraḥ mahāgaṇapatī saṁ paribhoga dro<lb 
+         n="B5" break="no"/>ṅ<unclear>·</unclear> vraḥ kamratāṅ· Añ· śrī Aṁ<choice><orig>v</orig><reg>m</reg></choice>rātakeśvara
+   <lb n="B6"/><unclear>Ai</unclear> kha<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="character"/></seg><seg type="component" subtype="prescript">g</seg>er· Aṁnoy· tāṅ· Añ· Ai ta vraḥ śrī
+   <lb n="B7"/>caṇḍakātyāyinī kantai tāñ· Añ· devī Añ·
+   <lb n="B8"/>gui ta yajamāna ta vraḥ taṅai vraḥ vaṅe jnau da<lb 
+      n="B9" break="no"/>nhuṁ pañjut· cuḥ saṁvaḥ vraḥ ku panlāṅ· tel·
+   <lb n="B10"/>Oy· ta vraḥ kñuṁ Aṁnoy· Ai ta vraḥ vā kandā<lb 
+      n="B11" break="no"/>s· <g type="dotMid">.</g> vā tvaḥ <g type="dotMid">.</g> vā vaṅā man sot· <g type="dotMid">.</g> vā vaṅā Añ· kā<lb 
+         n="B12" break="no"/>la Asanna <g type="dotMid">.</g> vā kanseṅ· <g type="dotMid">.</g> vā kant<unclear>o</unclear><supplied reason="lost">ṅ· vā pa</supplied><lb 
+            n="B13" break="no"/>ñcoṅ· <g type="dotMid">.</g> ku dmoc· kon ku <num value="5"><g type="numeral">IIIII</g></num> ku tyuṅ· ko<unclear>n</unclear> <supplied reason="lost">ku</supplied>
+   <lb n="B14"/><unclear>t</unclear>mī <g type="dotMid">.</g> ku seṅ· nā qvai kon ku <num value="3"><g type="numeral">III</g></num> ku kañju <gap reason="lost" quantity="2" unit="character"/>
+   <lb n="B15"/>vinās· panheṁ <g type="dotMid">.</g> ku cap· ta qvai <g type="dotMid">.</g> ku mañju<supplied reason="lost">r·</supplied>
+   <lb n="B16"/>ku plas· guṇe <g type="dotMid">.</g> ku taṁve <g type="dotMid">.</g> ku kañjuṅ· kon ku
+   <lb n="B17"/>ku palihaṭṭa <g type="dotMid">.</g> ku kalpit· <g type="dotMid">.</g> ku cĀp· kona
+   <lb n="B18"/>ku Arasa kon· <num value="2"><g type="numeral">II</g></num> ku juṅ· lāṅ· ku taṁnar· vā kañcit·
+   <lb n="B19"/>vā tmul·
+   <lb n="B20"/>m<supplied reason="lost">ū</supplied>a t<unclear>m</unclear><supplied reason="lost">u</supplied>r· vraḥ <num value="40">40</num> mūla krapī <num value="20">20</num> <g type="dotMid">.</g> sre sanre
+   <lb n="B21"/><gap reason="lost" quantity="7" unit="character"/> <num value="200"><unclear>200</unclear></num> slā Ai je <gap reason="lost" quantity="2" unit="character"/>
+</p>
+                   </div>
+                </div>
+                <div type="apparatus">
+                   <div type="textpart" n="A"><head xml:lang="eng">Face</head>
+               <listApp>
+                  <app loc="A11">
+                     <lem>vr̥<unclear>ś</unclear><supplied reason="lost">c</supplied><unclear>ik</unclear><supplied reason="lost">aṁ</supplied></lem>
+                     <note>The supplied ending can also be -<foreign>e</foreign>, viz. <foreign>vr̥ścike</foreign>.</note>
+                    </app>
+               </listApp>
+                   </div>
+                   <div type="textpart" n="B"><head xml:lang="eng">Face</head>
+                      <listApp>
+                  <app loc="B5">
+                     <lem>Aṁ<choice><orig>v</orig><reg>m</reg></choice>rātakeśvara</lem>
+                     <rdg source="bib:Pou2001_01">Aṁmrātakeśvara </rdg>
+                    </app>
+                  <app loc="B6">
+                     <lem>kha<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="character"/></seg><seg type="component" subtype="prescript">g</seg>er·</lem>
+                     <rdg source="bib:Pou2001_01">c<gap reason="lost" quantity="2" unit="character"/>r·</rdg>
+                    </app>
+                  <app loc="B7">
+                     <lem>caṇḍakātyāyinī</lem>
+                     <rdg source="bib:Pou2001_01">caṇdakātyāyinī</rdg>
+                    </app>
+                  <app loc="B9">
+                     <lem>danhuṁ</lem>
+                     <rdg source="bib:Pou2001_01">danhaṁ</rdg>
+                    </app>
+                  <app loc="B9">
+                     <lem>vraḥ</lem>
+                     <rdg source="bib:Pou2001_01">braḥ</rdg>
+                    </app>
+                  <app loc="B11">
+                     <lem>man sot·</lem>
+                     <rdg source="bib:Pou2001_01">mansot·</rdg>
+                    </app>
+                  <app loc="B12">
+                     <lem>vā kant<unclear>o</unclear><supplied reason="lost">ṅ· vā pa</supplied></lem>
+                     <rdg source="bib:Pou2001_01">vā kant<unclear>o</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                  <app loc="B13">
+                     <lem>ko<unclear>n</unclear> <supplied reason="lost">ku</supplied></lem>
+                     <rdg source="bib:Pou2001_01">ko<unclear>n</unclear> <gap reason="lost" quantity="1" unit="character"/></rdg>
+                    </app>
+                  <app loc="B14">
+                     <lem>kañju <gap reason="lost" quantity="2" unit="character"/></lem>
+                     <rdg source="bib:Pou2001_01">kañjuñ·</rdg>
+                    </app>
+                  <app loc="B15">
+                     <lem>panheṁ</lem>
+                     <rdg source="bib:Pou2001_01">pansoṁ</rdg>
+                    </app>
+                  <app loc="B15">
+                     <lem>ku mañju<supplied reason="lost">r·</supplied></lem>
+                     <rdg source="bib:Pou2001_01">ku mañju</rdg>
+                    </app>
+                  <app loc="B16">
+                     <lem>kañjuṅ· kon ku</lem>
+                     <rdg source="bib:Pou2001_01">kañjuṅ· kon ku <num value="1"><g type="numeral">I</g></num></rdg>
+                    </app>
+                  <app loc="B17">
+                     <lem>palihaṭṭa</lem>
+                     <rdg source="bib:Pou2001_01">palihaddha</rdg>
+                    </app>
+                         <app loc="B17">
+                     <lem>kona</lem>
+                     <rdg source="bib:Pou2001_01">kon· <num value="1"><g type="numeral">I</g></num></rdg>
+                    </app>
+                         <app loc="B18">
+                     <lem>Arasa</lem>
+                     <rdg source="bib:Pou2001_01">Aṁras·</rdg>
+                    </app>
+                         <app loc="B20">
+                     <lem><num value="40">40</num></lem>
+                     <rdg source="bib:Pou2001_01"><num value="20">20</num></rdg>
+                    </app>
+                         <app loc="B21">
+                     <lem>je</lem>
+                     <rdg source="bib:Pou2001_01">ju</rdg>
+                    </app>
+               </listApp>
+                   </div>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
+            <p n="3-6"><gap reason="lost"/> érigé V.K.A. Śrī Caṇḍakātyāyinī avec Vraḥ Mahāgaṇapati, en associant leurs ressources à celles de V.K.A. Śrī Āmratakeśvara à C<gap reason="lost"/>.</p>
+            <p n="6-9">Servantes offertes par la Tāṅ Añ à Śrī Caṇḍakātyāyinī: les femmes Tāṅ Añ et Devī Añ <supplied reason="subaudible">sous les ordres</supplied> du sacrificateur des dieux, les jours de préparation des décorations florales sacrées, des aromates, des parfums raffinés.</p>
+            <p n="9-10">Chargée du culte des dieux: Ku Panlāṅ, offerte au temple</p>
+            <p n="10-19">Serviteurs offerts aux dieux: Vā Kandās, Vā Tvaḥ, Vā Vaṅā Mansot, Vā Vṅā Añ Kāla Āsanna, Vā Kanseṅ, Vā Kanto <gap reason="lost"/>ñcoṅ, Kun Dmoc avec 5 enfants, Ku Tyuṅ avec <gap reason="lost"/> enfant, <gap reason="lost"/> Tmī, Ku Seṅ Nā Avai avec 3 enfants, Ku Kañjuṅ Vinās Pansoṁ, Ku Cap Ta Avai, Ku Mañju <gap reason="lost"/>, Ku Plas Guṇe, Ku Taṁve, Ku Kañjuṅ avec 1 enfant, Ku Palihaddha, Ku Kalpit, Ku CĀp avec 1 enfant, Ku Aṁras avec 2 enfants, Ku Juṅ Lāṅ, Ku Taṁnar, Vā Kañcit, Vā Tmul.</p>
+            <p n="20-21">Stock de boeufs du temple: 20; celui de buffles: 20. <gap reason="lost"/> sanre de rizières <gap reason="lost"/> aréquiers.</p>
+            </div>
+         <div type="commentary">
+            <p>In a limited inscribing space, the scribe apparently failed to apply columns to the stanzas II and IV in <foreign>śārdūlavikrīḍita</foreign> meter.</p>
+            <!-- kuch: To move this as a note in the translation of the Sanskrit portion. --><p>The stanza IV mentions the date of the installation of the image of Goddess Caṇḍakātyāyinī. Its French translation by Roger Billard <supplied reason="explanation">March 01, 1970</supplied> is as follows:
+            Les années <foreign>śaka</foreign> étant marquées par <num value="536">536</num> <supplied reason="explanation">les cinq flèches, les trois mondes, six</supplied>, au douzième jour de la quinzaine croissante du mois Kārttika, la Lune dans les Poissons, en dernier <supplied reason="explanation">décan</supplied> des Poissons, à l’orient le Scorpion étant au point levant <supplied reason="explanation">en « maison I »</supplied>, alors a été consacrée <gap reason="lost"/>.
+            </p>
+         </div>
+       <div type="bibliography">
+          <p>The Khmer part on Face B is first edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">25-26</citedRange></bibl>) with a French translation. The Sanskrit part on Face A is first edited by G. Gerscheimer &amp; D. Goodall; re-edited here by Kunthea Chhom based on the estampage EFEO n. 1286.</p>
+	 <listBibl type="primary">
+    <bibl n="SP">
+      <ptr target="bib:Pou2001_01"/><citedRange unit="page">25-26</citedRange>
+    </bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
