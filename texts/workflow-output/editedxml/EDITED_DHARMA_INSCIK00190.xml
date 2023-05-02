@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of the eastern gopura II of Phnom Sandak (K. 190), 817 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <!--sapi2argr dois-je ajouter  Barth et Bergaigne ainsi que Cœdès ?-->
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00190</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Salomé Pichon.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                     <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:sapi" when="2023-01-03" status="draft">Adding tagging of places</change>
+         <change who="part:sapi" when="2022-10-05" status="draft">Finishing translation of unpublished khmer text</change>
+         <change who="part:sapi" when="2022-09-30" status="draft">Adding translation of sanskrit parts and beggining translation of unpublished khmer text</change>
+         <change who="part:sapi" when="2021-08-28" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+           <ab><milestone type="pagelike" unit="face" n="A"/><lb n="A01"/><g type="gomutraInitial"/>śrī siddhi svasti jaya<g type="ddandaOrnate"/></ab>
+           <lg n="1" met="anuṣṭubh">
+           <l n="a" enjamb="yes"><lb n="A1"/><milestone unit="column" n="a"/>namaś śivāya yatpāda</l>
+           <l n="b"><milestone unit="column" n="b"/>-nakhajyotsnā virājate</l>
+           <l n="c" enjamb="yes"><milestone unit="column" n="c"/>namrendramūrddhamaṇḍāra</l>
+           <l n="d"><milestone unit="column" n="d"/>-madhusekād ivodgatā<supplied reason="lost"><g type="ddandaOrnate">.</g></supplied></l>
+           </lg>
+           <lg n="2" met="anuṣṭubh">
+           <l n="a" enjamb="yes"><lb n="A2"/><milestone unit="column" n="a"/>rudran namata yasyāṅghri</l>
+           <l n="b"><milestone unit="column" n="b"/>-sarojodarajaṁ rajaḥ</l>
+           <l n="c" enjamb="yes"><milestone unit="column" n="c"/>dhūmāyate suraśiro</l>
+           <l n="d"><milestone unit="column" n="d"/>-ruṇaratnāgnikoṭiṣu<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="3" met="anuṣṭubh">
+           <l n="a"><lb n="A3"/><milestone unit="column" n="a"/>jitan dhūrjjaṭinā yasya</l>
+           <l n="b"><milestone unit="column" n="b"/>jaṭāvisphuritāruṇāḥ</l>
+           <l n="c"><milestone unit="column" n="c"/>dahanāśaṅkayā śaṅke</l>
+           <l n="d"><milestone unit="column" n="d"/>gaṅgāviśad umāruṣaḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="4" met="anuṣṭubh">
+           <l n="a"><lb n="A4"/><milestone unit="column" n="a"/>jitaṁ mahāvarāheṇa</l>
+           <l n="b"><milestone unit="column" n="b"/>viṣāṇau yasya rājataḥ</l>
+           <l n="c" enjamb="yes"><milestone unit="column" n="c"/>lokatrayapadavyāpi</l>
+           <l n="d"><milestone unit="column" n="d"/>-yaśasām aṅkurāv iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="5" met="anuṣṭubh">
+           <l n="a" enjamb="yes"><lb n="A5"/><milestone unit="column" n="a"/>viṣṇun namāmi yasyāṅga</l>
+           <l n="b"><milestone unit="column" n="b"/>-bhā sā pāṇau vibhāti bhūḥ</l>
+           <l n="c" enjamb="yes"><milestone unit="column" n="c"/>dviṭchrīkacagrahāmodā<milestone unit="column" n="d" break="no"/>l</l>
+           <l n="d">-lagneva bhramarāṅganā<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="6" met="anuṣṭubh">
+           <l n="a"><lb n="A6"/><milestone unit="column" n="a"/>Ekārṇnavasaraḥpadme</l>
+           <l n="b"><milestone unit="column" n="b"/>brahmavaktrāṇi pāntu vaḥ</l>
+           <l n="c"><milestone unit="column" n="c"/>padmānīvodgatāny abje</l>
+           <l n="d"><milestone unit="column" n="d"/>madhuk<choice><sic>et</sic><corr>aiṭ</corr></choice>abhamr̥tyave<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="7" met="anuṣṭubh">
+           <l n="a" enjamb="yes"><lb n="A7"/><milestone unit="column" n="a"/>namantu brahmaṇaḥ pāda</l>
+           <l n="b"><milestone unit="column" n="b"/>-pallavau satatāruṇau</l>
+           <l n="c" enjamb="yes"><milestone unit="column" n="c"/>susthityāy āsanāmbhoja</l>
+           <l n="d"><milestone unit="column" n="d"/>-bodhaṁ kartum iva svayam·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="8" met="anuṣṭubh">
+           <l n="a"><lb n="A8"/><milestone unit="column" n="a"/>vande gaurīṁ hriyā yasyā<milestone unit="column" n="b" break="no"/>s</l>
+           <l n="b">sañcukoca mukhāmvujam·</l>
+           <l n="c" enjamb="yes"><milestone unit="column" n="c"/>navasaṅge harasyendu</l>
+           <l n="d"><milestone unit="column" n="d"/>-candrikācumbanād iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="9" met="anuṣṭubh">
+           <l n="a"><lb n="A9"/><milestone unit="column" n="a"/>namo devyai sarasvatyai</l>
+           <l n="b"><milestone unit="column" n="b"/>yasyāś śabdamayo guṇah</l>
+           <l n="c"><milestone unit="column" n="c"/>Adhidevatayā vācāṁ</l>
+           <l n="d"><milestone unit="column" n="d"/>śrūyate py anyakīrttane<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="10" met="anuṣṭubh">
+           <l n="a" enjamb="yes"><lb n="A10"/><milestone unit="column" n="a"/>rājenduś śrīyaśovarmmā</l>
+           <l n="b"><milestone unit="column" n="b"/>-bhavat pūrṇnatarodayaḥ</l>
+           <l n="c" enjamb="yes"><milestone unit="column" n="c"/>yaśaḥkṣīrārṇṇavotpūra</l>
+           <l n="d"><milestone unit="column" n="d"/>-saṁplāvitajagattrayaḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="11" met="anuṣṭubh">
+           <l n="a"><lb n="A11"/><milestone unit="column" n="a"/>nopaiti nāśam adyāpi</l>
+           <l n="b"><milestone unit="column" n="b"/>kīrttir yyasyātibhāsvatī</l>
+           <l n="c" enjamb="yes"><milestone unit="column" n="c"/>gāyidivyāṅganāvaktra</l>
+           <l n="d"><milestone unit="column" n="d"/>-pīyūṣaluṭhanād iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="12" met="anuṣṭubh">
+           <l n="a"><lb n="A12"/><milestone unit="column" n="a"/>nūnan dhātrāmr̥tenaiva</l>
+           <l n="b"><milestone unit="column" n="b"/>saudaryyaṁ yasya nirmmitam·</l>
+           <l n="c"><milestone unit="column" n="c"/>yad akṣṇā vāṣpamārggeṇa</l>
+           <l n="d"><milestone unit="column" n="d"/>viveśa jagatāṁ manaḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="13" met="anuṣṭubh">
+           <l n="a"><lb n="A13"/><milestone unit="column" n="a"/>na svavr̥ddhiḥ prajāvr̥ddhiṁ</l>
+           <l n="b"><milestone unit="column" n="b"/>vinā yasmai sma rocate</l>
+           <l n="c"><milestone unit="column" n="c"/>kiṁ svayaṁ varddhate candra<milestone unit="column" n="d" break="no"/>s</l>
+           <l n="d">sindhuvelām avarddhayan·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="14" met="anuṣṭubh">
+           <l n="a"><lb n="A14"/><milestone unit="column" n="a"/>samare vairiraktākto</l>
+           <l n="b"><milestone unit="column" n="b"/>yasya khadgo vyarājata</l>
+           <l n="c"><milestone unit="column" n="c"/>caraṇālaktakāṅkārdraḥ</l>
+           <l n="d"><milestone unit="column" n="d"/>panthā Iva jayaśriyaḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="15" met="anuṣṭubh">
+           <l n="a" enjamb="yes"><lb n="A15"/><milestone unit="column" n="a"/>Adīrghanidram āgantu</l>
+           <l n="b"><milestone unit="column" n="b"/>-kāmā yaṁ svakulais sthitā</l>
+           <l n="c"><milestone unit="column" n="c"/>kaustubhālālanāl lakṣmī<milestone unit="column" n="d" break="no"/>ś</l>
+           <l n="d">śaṅke keśavavakṣasi<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="16" met="anuṣṭubh"><!-- SEE THIS COLUMN BREAK c-d -->
+           <l n="a"><lb n="A16"/><milestone unit="column" n="a"/>yam asāmānyasaundaryyaṁ</l>
+           <l n="b"><milestone unit="column" n="b"/>sr̥ṣṭvā sraṣṭānvacintayat·</l>
+           <l n="c"><milestone unit="column" n="c"/>Upamānam ayañ cet syā<milestone unit="column" n="d" break="no"/>d</l>
+           <l n="d">upameyo paraḥ katham·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="17" met="anuṣṭubh">
+           <l n="a"><lb n="A17"/><milestone unit="column" n="a"/>śrīmān svabhāvalāvanyo</l>
+           <l n="b"><milestone unit="column" n="b"/>gambhīro ratnasannidhiḥ</l>
+           <l n="c"><milestone unit="column" n="c"/>yas samudrasamāno pi</l>
+           <l n="d"><milestone unit="column" n="d"/>saṁpūrṇno na parodayaiḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="18" met="anuṣṭubh"><!--sapi2argr Note rtf : [a. na-vipulā: - ⏑ - - ⏑ ⏑ ⏑ -]-->
+           <l n="a"><lb n="A18"/><milestone unit="column" n="a"/>tasya rājye munivaro</l>
+           <l n="b"><milestone unit="column" n="b"/>munivandyāṅghripaṅkajaḥ</l>
+           <l n="c" enjamb="yes"><milestone unit="column" n="c"/>nāmnā somaśivaś śāstra</l>
+           <l n="d"><milestone unit="column" n="d"/>-ratnaratnākaro bhavat·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="19" met="anuṣṭubh">
+           <l n="a"><lb n="A19"/><milestone unit="column" n="a"/>bhagavacchivasomasya</l>
+           <l n="b"><milestone unit="column" n="b"/>śiṣyo yo dharaṇībhujā</l>
+           <l n="c"><milestone unit="column" n="c"/>śrīndravarmmeśvarakṣetre</l>
+           <l n="d"><milestone unit="column" n="d"/>dhyāpakatve nyayujyata<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="20" met="anuṣṭubh">
+           <l n="a" enjamb="yes"><lb n="A20"/><milestone unit="column" n="a"/>śivaśāstrārṇnavaṁ buddhi</l>
+           <l n="b"><milestone unit="column" n="b"/>-maṇḍareṇa vimathya yaḥ</l>
+           <l n="c"><milestone unit="column" n="c"/>svayaṁ jñānāmr̥taṁ pītvā</l>
+           <l n="d"><milestone unit="column" n="d"/>dayayānyān apāyayat·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="21" met="anuṣṭubh"><!--sapi2argr Note rtf : [c. na-vipulā: ⏑ - ⏑ - ⏑ ⏑ ⏑ -]-->
+           <l n="a" enjamb="yes"><lb n="A21"/><milestone unit="column" n="a"/>galanmadhurasākāra</l>
+           <l n="b"><milestone unit="column" n="b"/>-śabdaśāstramanohare</l>
+           <l n="c"><milestone unit="column" n="c"/>sarasvatī madhukarī</l>
+           <l n="d"><milestone unit="column" n="d"/>yasyāsyābje ratābhavat·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="22" met="anuṣṭubh"><!--sapi2argr Note rtf : [c. na-vipulā: ⏑ - ⏑ - ⏑ ⏑ ⏑ -]-->
+           <l n="a" enjamb="yes"><lb n="A22"/><milestone unit="column" n="a"/>devatāguruviprāryyā</l>
+           <l n="b"><milestone unit="column" n="b"/>-tithipūjāvidhau kr̥tī</l>
+           <l n="c"><milestone unit="column" n="c"/>garīyasām api guru<milestone unit="column" n="d" break="no"/>r</l>
+           <l n="d">yyo jaghanya Ivābhavat·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="23" met="anuṣṭubh">
+           <l n="a"><lb n="A23"/><milestone unit="column" n="a"/>sa Ācāryya Idaṁ liṅga<milestone unit="column" n="b" break="no"/>m</l>
+           <l n="b">aiśaṁ śivapure girau</l>
+           <l n="c"><milestone unit="column" n="c"/>kṣīṇapūjañ ciratvena</l>
+           <l n="d"><milestone unit="column" n="d"/>pūjāvr̥ddhyā vyavarddhayat·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="24" met="anuṣṭubh"><!--sapi2argr Note rtf : [a. bha-vipulā: ⏑ - ⏑ - - ⏑ ⏑ - ]-->
+           <l n="a"><lb n="A24"/><milestone unit="column" n="a"/>sa cātra samyag vidhinā</l>
+           <l n="b"><milestone unit="column" n="b"/>śrībhadreśvaram ākhyayā</l>
+           <l n="c"><milestone unit="column" n="c"/>śailendumūrttiśākābde</l>
+           <l n="d"><milestone unit="column" n="d"/>śivaliṅgam atiṣṭhipat·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="25" met="anuṣṭubh">
+           <l n="a"><lb n="A25"/><milestone unit="column" n="a"/>dhanāny etāni dattāni</l>
+           <l n="b"><milestone unit="column" n="b"/>kedārārāmakiṅkarān·</l>
+           <l n="c"><milestone unit="column" n="c"/>tenābhyāṁ miśrabhogābhyāṁ</l>
+           <l n="d"><milestone unit="column" n="d"/>pānti ye yāntu te divam·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="26" met="anuṣṭubh">
+           <l n="a"><lb n="A26"/><milestone unit="column" n="a"/>labhantāṁ yātanān te tu</l>
+           <l n="b"><milestone unit="column" n="b"/>narakeṣv ā bhuvaḥ sthiteḥ</l>
+           <l n="c"><milestone unit="column" n="c"/>Avīcirauravādyeṣu</l>
+           <l n="d"><milestone unit="column" n="d"/>marddayanti haranti ye<g type="ddandaOrnate">.</g><g type="gomutraFinal">.</g></l>
+           </lg>
+           <ab><milestone type="pagelike" unit="face" n="B"/><lb n="B01"/><g type="gomutraInitial"/>śrī siddhi svasti jaya<g type="ddandaOrnate"/></ab>
+           <lg n="27" met="anuṣṭubh">
+           <l n="a"><lb n="B1"/><milestone unit="column" n="a"/>namo stu śambhave yasya</l>
+           <l n="b"><milestone unit="column" n="b"/>niṣkalasyāpi cintane</l>
+           <l n="c"><milestone unit="column" n="c"/>bhāsvanmūrttau sakalatā</l>
+           <l n="d"><milestone unit="column" n="d"/>darś<unclear>ś</unclear>endor iva dr̥śyate<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="28" met="anuṣṭubh"><!-- sapi2argr note rtf: [a. na-vipulā : ⏑ - ⏑ - ⏑ ⏑ ⏑ - ]-->
+           <l n="a"><lb n="B2"/><milestone unit="column" n="a"/>vibhāti dhūrjjaṭijaṭā</l>
+           <l n="b"><milestone unit="column" n="b"/>gala<unclear>d</unclear>gaṅgāmvuvindubhiḥ</l>
+           <l n="c" enjamb="yes"><milestone unit="column" n="c"/>taddhāramauktikaiś candra</l>
+           <l n="d"><milestone unit="column" n="d"/>-koṭicchedacyutair iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="29" met="anuṣṭubh">
+           <l n="a"><lb n="B3"/><milestone unit="column" n="a"/>jayati tripuradhvaṁsī</l>
+           <l n="b"><milestone unit="column" n="b"/>yasyāṅghrinakhabhā babhuḥ</l>
+           <l n="c" enjamb="yes"><milestone unit="column" n="c"/>Ālīḍhabhāranāgendra</l>
+           <l n="d"><milestone unit="column" n="d"/>-roṣavahnyudgamā Iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="30" met="anuṣṭubh"><!-- sapi2argr note rtf : [c. na-vipulā : - - - - ⏑ ⏑ ⏑ - ] -->
+           <l n="a"><lb n="B4"/><milestone unit="column" n="a"/>namo stu haraye yasya</l>
+           <l n="b"><milestone unit="column" n="b"/>padaḥ padmāṅkaśāyinaḥ</l>
+           <l n="c"><milestone unit="column" n="c"/>bhābhis tannābhir abhava<milestone unit="column" n="d" break="no"/>d</l>
+           <l n="d">bhinnanīlā<choice><sic>p</sic><corr>b</corr></choice>jasannibhā<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="31" met="anuṣṭubh">
+           <l n="a"><lb n="B5"/><milestone unit="column" n="a"/>svayaṁbhūḥ pātu vo yasya</l>
+           <l n="b"><milestone unit="column" n="b"/>bhāsvatsvarṇnanibhaṁ vapuḥ</l>
+           <l n="c" enjamb="yes"><milestone unit="column" n="c"/>Ābhāti saṁbhavāmbhoja</l>
+           <l n="d"><milestone unit="column" n="d"/>-kiñjalkasparśanād iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="32" met="anuṣṭubh">
+           <l n="a"><lb n="B6"/><milestone unit="column" n="a"/>vande parṇnāṁ pador yyasyāḥ</l>
+           <l n="b"><milestone unit="column" n="b"/>gulphau līnau virājataḥ</l>
+           <l n="c" enjamb="yes"><milestone unit="column" n="c"/>Āsannatarasarppābha</l>
+           <l n="d"><milestone unit="column" n="d"/>-nūpurātibhayād iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="33" met="anuṣṭubh">
+           <l n="a"><lb n="B7"/><milestone unit="column" n="a"/>Āsīc chrījayavarmmeti</l>
+           <l n="b"><milestone unit="column" n="b"/>bhūpatīnām adhīśvaraḥ</l>
+           <l n="c" enjamb="yes"><milestone unit="column" n="c"/>bhūpālamauliratnāṁśu</l>
+           <l n="d"><milestone unit="column" n="d"/>-vard<choice><sic>c</sic><corr>dh</corr></choice>itāṅghrinakhadyutiḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="34" met="anuṣṭubh">
+           <l n="a"><lb n="B8"/><milestone unit="column" n="a"/>yo bhūt prajodayāyaiva</l>
+           <l n="b"><milestone unit="column" n="b"/>rājavaṅśe tinirmmale</l>
+           <l n="c"><milestone unit="column" n="c"/>Apaṅkajamahāpadme</l>
+           <l n="d"><milestone unit="column" n="d"/>padmodbhava Ivoditaḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="35" met="anuṣṭubh">
+           <l n="a"><lb n="B9"/><milestone unit="column" n="a"/>rāmā yaṁ vīkṣya jalpanti</l>
+           <l n="b"><milestone unit="column" n="b"/>kāman nimiṣa locana</l>
+           <l n="c"><milestone unit="column" n="c"/>na hi no manaso paiti</l>
+           <l n="d"><milestone unit="column" n="d"/>subhago yaṁ kṣaṇād iti<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="36" met="anuṣṭubh">
+           <l n="a"><lb n="B10"/><milestone unit="column" n="a"/>yasya r<choice><sic>u</sic><corr>ū</corr></choice>popameyatvaṁ</l>
+           <l n="b"><milestone unit="column" n="b"/>na syāt syād api vighnagam·</l>
+           <l n="c"><milestone unit="column" n="c"/>mukhacchāyānur<choice><sic>u</sic><corr>ū</corr></choice>po hi</l>
+           <l n="d"><milestone unit="column" n="d"/>candramā rāhuṇāvr̥taḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="37" met="anuṣṭubh">
+           <l n="a"><lb n="B11"/><milestone unit="column" n="a"/>nātibhārā bhuje yasya</l>
+           <l n="b"><milestone unit="column" n="b"/>dharāmbhonidhimekhalā</l>
+           <l n="c"><milestone unit="column" n="c"/>yathā jyāghātakinatā</l>
+           <l n="d"><milestone unit="column" n="d"/>bhūbhr̥to pi vyanāmayat·<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="38" met="anuṣṭubh">
+           <l n="a"><lb n="B12"/><milestone unit="column" n="a"/>siṁhamūrddhny āsanaṁ yasya</l>
+           <l n="b"><milestone unit="column" n="b"/>rājamūrddhani śāsanam·</l>
+           <l n="c"><milestone unit="column" n="c"/>mahendrādreḥ purī mūrddhni</l>
+           <l n="d"><milestone unit="column" n="d"/>tathāpi na tu vismayaḥ<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <lg n="39" met="anuṣṭubh"><!-- SEE THIS COLUMN BREAK -->
+           <l n="a"><lb n="B13"/><milestone unit="column" n="a"/>saddharmmanirater yyasya</l>
+           <l n="b"><milestone unit="column" n="b"/>padarājyena cakrire</l>
+           <l n="c"><milestone unit="column" n="c"/>Upasarggāḥ kriyāyoge</l>
+           <l n="d"><milestone unit="column" n="d"/>te prāg dhātor mmuner iva<g type="ddandaOrnate">.</g></l>
+           </lg>
+           <p xml:lang="okz-Latn"><milestone type="pagelike" unit="face" n="C"/>
+           <lb n="C1"/>sre vraḥ kaṁmrateṅ· Añ·
+           <lb n="C2"/>śivapura nu vraḥ kaṁmrateṅ·
+           <lb n="C3"/>Añ śivaliṅga <seg type="desc">toy· dakṣi<lb n="C4" break="no"/>ṇa neḥ vnaṁ neh· Aṁvi rlaṁ <placeName type="hydrographic" subtype="wetland">ka<lb n="C5" break="no"/><gap reason="lost" quantity="1" unit="character"/> koh·</placeName> prasap· rlaṁ <placeName type="hydrographic" subtype="wetland" key="Jvik">jvik·</placeName> lva<lb n="C6" break="no"/>h· chok· <placeName type="naturalPlace" subtype="grove" key="Khadira">khadira</placeName> prasap·
+           <lb n="C7"/>vnur· khluṅ· <g type="circleConcentric">.</g> toy· dakṣiṇa
+           <lb n="C8"/>neḥ sre neha sot· Aṁ<lb n="C9"/>vi chdiṅ· jmala sre <placeName type="cultivation" subtype="field" key="Aṁlau">Aṁlau</placeName> cho<lb n="C10"/>k· vrāl· vrai <placeName type="naturalPlace" subtype="forest" key="Vyā">vyā</placeName> <placeName type="undetermined" key="Canlattai">canlattai</placeName><!-- ou village -->
+           <lb n="C11"/><placeName type="settlement" subtype="village" key="Śivakṣetra">śivakṣetra</placeName><!-- peut être un field? ou undetermined? --> sthalā pa<lb n="C12"/>k· lvah· Aṅ·veya
+           <lb n="C13"/>chdiṅ· saṁroya sre
+           <lb n="C14"/>nā Āśrama Āy·
+           <lb n="C15"/><placeName type="undetermined" key="Canlattai">canlattai</placeName>sot lva<lb n="C16" break="no"/>h· prasap· <placeName type="undetermined" key="Paṁnik">paṁnikka</placeName> <g type="circleConcentric">.</g>
+           <lb n="C17"/>toy· Uttara neḥ
+           <lb n="C18"/>vnaṁ neḥha toy·
+           <lb n="C19"/>paścima lvah· ta gi
+           <lb n="C20"/>travāṅ· vrai <placeName type="naturalPlace" subtype="forest" key="Trapeka">tra<lb n="C21" break="no"/>peka</placeName> sre <placeName type="cultivation" subtype="field" key="Krateṅ">krateṅ·</placeName>
+           <lb n="C22"/>toy· pūrvva lvah·
+           <lb n="C23"/>vrai <placeName type="naturalPlace" subtype="forest" key="Laṁpona">laṁpona</placeName> lvah·
+           <lb n="C24"/><placeName type="undetermined" key="Mat Dlaiy">mat· dlaiya</placeName><!-- undetermined? --> toy·
+           <lb n="C25"/>Uttara travāṅ· <placeName type="hydrographic" subtype="tank" key="Trāc">trā<lb n="C26" break="no"/>c·</placeName> lvah· vnaṁ <placeName type="builtPlace" subtype="temple" key="Kan It">kan·qItta</placeName><!-- or a hill? --> <g type="spiralR">.</g></seg>
+           <lb n="C27"/>nauva noḥ ta mān· pra<lb n="C28" break="no"/>yoja ta gi neḥ bhū<lb n="C29" break="no"/>vana ta roha neḥ
+           <lb n="C30"/>Aṁvi gm<unclear>u</unclear>ma dau syaṅ·
+           <lb n="C31"/>nai vraḥ kaṁmrateṅ· Añ· nau qnak ta yok· neḥ
+           <lb n="C32"/>sre ta roha neḥh Oy· nai dai ge dau nara<lb n="C33" break="no"/>ka nuva gotra phoṅ<unclear>·</unclear> nau ge ta rakṣā neḥ ge
+           </p>
+         </div>
+         <div type="apparatus">
+           <listApp>
+             <app loc="A1">
+                 <lem>-sekād ivodgatā</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">-sekā divodgatā</rdg>
+                 <note>Barth correction (in footnote) : -<foreign>sekād ivodgatā</foreign>.</note>
+             </app>
+             <app loc="A2">
+                 <lem>-ruṇaratnā-</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">-ruharatnā-</rdg>
+                 <note>Barth correction (in footnote) : -<foreign>ruṇaratnā</foreign>-.</note>
+             </app>
+             <app loc="A5">
+                 <lem>yasyāṅgabhā sā</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">yasyāṅgabhāsā</rdg>
+                 <note>Barth correction (in footnote) : <foreign>yasyāṅgabhā sā</foreign>.</note>
+             </app>
+             <app loc="A6">
+                 <lem>Ekārṇna-</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">Ekārṇṇa-</rdg>
+             </app>
+             <app loc="A6">
+                 <lem>madhuk<choice><sic>et</sic><corr>aiṭ</corr></choice>abhamr̥tyave</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">madhuketabhamr̥tyave</rdg>
+             </app>
+             <app loc="A7">
+                 <lem>susthityāy</lem>
+                 <note>This seems just one possible sandhi-form for the dative. Bergaigne observes "<foreign>susthityā</foreign> serait plus conforme à l’usage général". Does he mean in Cambodia?</note>
+             </app>
+             <app loc="A7">
+                 <lem>svayam<g type="ddandaOrnate">.</g></lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">svayam</rdg>
+                 <note>The ISC edition omits the double <foreign>daṇḍa</foreign> at the end, yet this seems visible on the estampage.</note>
+             </app>
+             <app loc="A8">
+                 <lem>-candrikācumbanād</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">-candrikā cumbanād</rdg>
+                 <note>Barth’s word-division: <foreign>candrikācumbanād</foreign>.</note>
+             </app>
+             <app loc="A8">
+                 <lem>iva<g type="ddandaOrnate">.</g></lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">iva</rdg>
+                 <note>The ISC edition omits the double <foreign>daṇḍa</foreign> at the end, yet this seems visible on the estampage.</note>
+             </app>
+             <app loc="A10">
+                 <lem>rājenduś</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">rājendraś</rdg>
+                 <note>Bergaigne transcribed <foreign>rājendraś</foreign>, but Barth remarks in a footnote that the correct reading is <foreign>rājenduś</foreign>, which one can indeed see on the estampage.</note>
+             </app>
+             <app loc="A10">
+                 <lem>pūrṇnatarodayaḥ</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">pūrṇṇatarodayaḥ</rdg>
+             </app>
+             <app loc="A10">
+                 <lem>-kṣīrārṇna-</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">-kṣīrārṇṇa-</rdg>
+             </app>
+             <app loc="A11">
+                 <lem>gāyid-</lem>
+                 <note>Barth remarks that <foreign>gāyin</foreign> is not in the dictionaries, but that it is used in Bāṇa’s Kādambarī.</note>
+             </app>
+             <app loc="A12">
+                 <lem>akṣnā</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">akṣṇā</rdg>
+             </app>
+             <app loc="A16">
+                 <lem>yam asāmānyasaundaryyaṁ</lem>
+                 <note>Bergaigne and Barth split and interpret thus, but it seems possible that there is a <foreign>virodhābhāsa</foreign>-type joke here, since it is difficult to avoid first reading <foreign>yamasāmānyasaundaryyaṁ</foreign>, "whose beauty was of the same kind as that of Yama".</note>
+             </app>
+             <app loc="A17">
+                 <lem>saṁpūrṇno</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">saṁpūrṇṇo</rdg>
+             </app>
+             <app loc="A20">
+                 <lem>-śāstrārṇnavaṁ</lem>
+                 <rdg source="bib:Barth+Bergaigne1885-1893_01">-śāstrārṇṇavaṁ</rdg>
+             </app>
+             <app loc="A20">
+               <lem>apāyayat·<g type="ddandaOrnate">.</g></lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">apāyayat·</rdg>
+               <note>The ISC edition omits the double <foreign>daṇḍa</foreign> at the end, yet this seems visible on the estampage.</note>
+             </app>
+             <app loc="A20">
+               <lem>garīyasām</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">gariyasām</rdg>
+               <note>Bergaigne and Barth seem to print <foreign>gariyasām</foreign> (which would be wrong and unmetrical): broken type?</note>
+             </app>
+             <app loc="A25">
+               <lem>dhanāny</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01"><unclear>e</unclear>tāny</rdg>
+               <note><foreign>dhanāny</foreign> is legible in the estampage and is the reading of Barth, who corrects in a footnote Bergaigne’s reading, <foreign><unclear>e</unclear>tāny</foreign>, which is nonetheless printed in the body of the text of their edition!</note>
+             </app>
+             <app loc="B01">
+               <lem><g type="gomutraInitial"/> śrī</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">śrī</rdg>
+               <note>The <foreign>gomūtra</foreign> symbol is interpreted by Barth as a <foreign>Oṁ</foreign>.</note>
+             </app>
+             <app loc="B2">
+               <lem>gala<unclear>d</unclear>-</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">galaṅ-</rdg>
+               <note>Barth correction (in footnote) : <foreign>galad</foreign>. He notes that it could even be the stone lesson, given the slight final inflection (visible on the facsimile and even more distinct on the stamping) of the lower line, inflexion that the -<foreign>ṅ</foreign> of the next group doesn’t have (ISCC, p. 342 n. 5).</note>
+             </app>
+             <app loc="B3">
+               <lem>-bhāra-</lem>
+               <note>Note the appearance of -<foreign>bhā</foreign></note>
+             </app>
+             <app loc="B5">
+               <lem>-svarṇna-</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">-svarṇṇa-</rdg>
+             </app>
+             <app loc="B6">
+               <lem>-parṇnāṁ-</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">-parṇṇāṁ-</rdg>
+             </app>
+             <app loc="B6">
+               <lem>līnau</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">linau</rdg>
+               <note>Barth correction (in footnote) : <foreign>līnau</foreign>.</note>
+             </app>
+             <app loc="B9">
+               <lem>nimiṣa locana</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">nimiṣalocana</rdg>
+               <note>Barth correction (in footnote) : <foreign>nimiṣa locana</foreign>.</note>
+             </app>
+             <app loc="B11">
+               <lem>jyāghātakinatā</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">jyā ghāṭaki natā</rdg>
+               <note>Bergaigne offers to correct in <foreign>jyā ghāṭakī natā</foreign>. The right correction in suggested by Barth (in footnote) : <foreign>jyāghātakinatā</foreign>.</note>
+             </app>
+             <app loc="B12">
+               <lem>-mūrddhny</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">-mūrddhṇy</rdg>
+               <note>Barth correction (in footnote) : <foreign>-mūrddhṇy</foreign>. He qualifies the misuse of -<foreign>ṇ</foreign> as a lapsus. However, the inversion of the dental and the retroflexe -<foreign>n</foreign> is a common occurence in their edition.</note>
+             </app>
+             <app loc="B11">
+               <lem>purī</lem>
+               <rdg source="bib:Barth+Bergaigne1885-1893_01">purī</rdg>
+               <note>Barth correction (in footnote) : <foreign>purī</foreign>.</note>
+             </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" resp="part:sapi">
+           <p n="C1-C7">La rizière du <foreign>vraḥ kamrateṅ añ</foreign> Śivapura et du <foreign>vraḥ kamrateṅ añ</foreign> Śivaliṅga suit au sud ce sanctuaire à partir de ce marécage <supplied reason="explanation">terrain innondé ?</supplied> Ka<gap reason="illegible"/>koh touche le marécage Jvik <supplied reason="explanation">marécage aux lotus</supplied> jusqu’au bosquet Khadira <supplied reason="explanation">bosquet de catechus</supplied>. Elle touche la butte Khluṅ <supplied reason="explanation">la butte des arbres <foreign>dipterocarpus tuberculatus</foreign></supplied>.</p>
+           <p n="C7-C16">Également suivant le sud de cette rizière, <supplied reason="subaudible">on suit</supplied> à partir de la rivière Jmal <supplied reason="explanation">la rivière tressée</supplied>, de la rizière Aṁlau,<!-- Aṁlau, conjecture de Jenner : perhaps for *qaṁnau, pfx /?ǝN-/ + *lau = dwelling, house, abode. Saveros Pou n'est pas si sûre.--> du bosquet Vrāl <supplied reason="explanation">bosquet des arbustes <foreign>colona auriculata</foreign></supplied>, de la forêt Vyā, de Canlattai, de Śivakṣetra<!-- hapax --> <supplied reason="subaudible">et</supplied> de la colline Pak <supplied reason="explanation">la colline brisée</supplied>, jusqu’à l’autre côté de la rivière Saṃroy <supplied reason="subaudible">et</supplied> la rizière située dans l’<foreign>āśrama</foreign> également à Canlattai, jusqu’à toucher Paṁnikka.</p>
+           <p n="C17-C26">On suit au nord ce sanctuaire. On suit à l’ouest jusqu’au réservoir, la forêt Trapeka <supplied reason="subaudible">et</supplied> la rizière Krateṅ. On suit à l’est jusqu’à la forêt Laṁpona<!-- hapax -->, jusqu’à Mat Dlaiy. On suit au nord le réservoir Trāc <supplied reason="explanation">le réservoir des arbres <foreign>dipterocarpus intricatus</foreign></supplied> jusqu’à le sanctuaire Kan Itta <supplied reason="explanation">le sanctuaire qui tient des briques</supplied>.</p>
+           <p n="C27-C33">Au sujet de ceux qui sont affectées à ces terres susmentionnées, sont<!-- syaṅ : la plus vieille occurence d'après Jenner. --> à partir de maintenant les possessions de <foreign>vraḥ kamrateṅ añ</foreign>. Au sujet des hommes qui s’emparent de ces rizières <supplied reason="subaudible">et les</supplied> donnent à autre <supplied reason="subaudible">sont</supplied>, à partir de maintenant, ils vont en enfer avec des membres de <supplied reason="subaudible">leur</supplied> famille. Au sujet de ceux qui protègent ces <supplied reason="subaudible">terres</supplied>, ils...</p>
+           <!--QUESTIONS
+              L'expression toy· dakṣiṇa neḥ X neh
+            Est ce que le neh est un démonstratif contenant implicitement le mot rizière : cette à traduire comme "cette rizière", en mimétisme avec le texte sanskrit ?-->
+
+            </div>
+         <div type="translation" xml:lang="fra" source="bib:Barth+Bergaigne1885-1893_01">
+           <p n="A01">Om ! Fortune ! Succès ! Bonheur ! Victoire !</p>
+           <p rend="stanza" n="1">Adoration à Śiva, des ongles des pieds duquel rayonne une douce lumière, qu’on dirait issue des aspersions de miel du <foreign>mandāra</foreign> répandues sur le front d’Indra prosterné <supplied reason="subaudible">à ses pieds</supplied>.</p>
+           <p rend="stanza" n="2">Rendez hommage à Rudra, des pieds duquel, semblables au calice d’un lotus, la poudre <supplied reason="explanation">le pollen</supplied> se répand en nuages, comme la fumée des millions de feux représentés par les rouges joyaux qui ornent la tête des dieux <supplied reason="subaudible">prosternés devant lui</supplied>.</p>
+           <p rend="stanza" n="3">Victoire à Dhūrjatin, dans les tresses duquel, <supplied reason="subaudible">bien qu’elles soient aussi</supplied> d’un rouge flamboyant, la Gangā s’est enfoncée, craignant, je suppose, d’être consumée par le courroux d’Umā.</p>
+           <p rend="stanza" n="4">Victoire à Mahāvarāha, dont les deux défenses jaillissent brillantes, comme les bourgeons de sa gloire qui pénètre en ses <supplied reason="subaudible">trois</supplied> pas à travers les trois mondes.</p>
+           <p rend="stanza" n="5">Je m’incline devant Vishṇu, sur la main duquel la terre apparaît brillante sous forme humaine ; désireuse de prendre par les cheveux Śrī, sa rivale, on dirait une abeille qui y serait restée prisonnière.</p>
+           <p rend="stanza" n="6">Que du haut du lotus du bassin de l’océan universel, les <supplied reason="subaudible">quatre</supplied> visages de Brahmā vous protègent, qui sont comme autant de fleurs issues du <supplied reason="subaudible">même</supplied> lotus, pour la mort des abeilles avides d’en ravir le miel <supplied reason="explanation">pour la mort de Madhu et de Kaiṭabha</supplied>.</p>
+           <p rend="stanza" n="7">Qu’on s’incline devant les pieds de Brahmā, ces boutons <supplied reason="subaudible">de lotus</supplied> toujours rouges, comme pour procurer <supplied reason="subaudible">sans cesse et</supplied> de soi-même, afin qu’il y soit à l’aise <supplied reason="explanation">en vue de la conservation universelle</supplied>, l’épanouissement du lotus qui lui sert de trône.</p>
+           <p rend="stanza" n="8">Je célèbre Gaurī, dont le visage lotus se ferme par pudeur aux premiers embrassements de Hara, comme pour se soustraire aux caresses des rayons de la lune <supplied reason="subaudible">que son époux porte au front</supplied>.</p>
+           <p rend="stanza" n="9">Adoration à la déesse Sarasvati ! Divinité suprême des paroles, son excellence, qui consiste dans le son, est perçue <supplied reason="explanation">est célébrée</supplied> dans la louange même qui s’adresse à d’autres.</p>
+           <p rend="stanza" n="10">Cette lune d’entre les roi, śrī-Yaśovarman, s’est levé dans toute sa plénitude, inondant les trois mondes du flot montant de cet océan de lait, sa gloire.</p>
+           <p rend="stanza" n="11">Aujourd’hui encore sa louange <supplied reason="explanation">sa clarté</supplied> extrêmement brillante n’est pas près de prendre fin <supplied reason="explanation">de disparaître</supplied>, puisqu’elle continue en quelque sorte à se baigner dans le nectar <supplied reason="subaudible">qui sort</supplied> de la bouche <supplied reason="explanation">puisque son nectar continue à se jouer dans la bouche</supplied> des chantres et des femmes célestes.</p>
+           <p rend="stanza" n="12">Certes c’est de pur <foreign>amr̥ta</foreign> que sa beauté à été formée par Brahmā, puis qu’elle a pénétré dans l’âme des hommes par l’oeil, la voie des larmes.</p>
+           <p rend="stanza" n="13">Jamais il n’a aimé son propre profit sans le profit de ses sujets. Voit-on que la lune croisse sans faire croître le flot de la mer ?</p>
+           <p rend="stanza" n="14">Dans la mêlée, teint du sang de l’ennemi, son glaive brillait comme le chemin de la victoire tout humide des marques de laque qu’y ont imprimées les pieds <supplied reason="subaudible">de la déesse</supplied>.</p>
+           <p rend="stanza" n="15">Lakshmi, même au milieu des siens <supplied reason="explanation">des dieux</supplied>, est désireuse d’approcher ce <supplied reason="subaudible">héros</supplied> qui ne connaît pas le long sommeil, et elle renonce volontiers, je suppose, à caresser le <foreign>kaustubha</foreign> sur la poitrine de Keśava.</p>
+           <p rend="stanza" n="16">Quand il l’eut créé de cette unique beauté, le créateur se dit à lui-même : Si celui-ci doit être l’objet à qui l’on compare, quel autre pourrait être l’objet à comparer ?</p>
+           <p rend="stanza" n="17">Fortuné <supplied reason="explanation">possédant Śrī</supplied>, naturellement aimable <supplied reason="explanation">salé</supplied>, profond, possesseur de joyaux <supplied reason="explanation">excellent réceptacle des joyaux</supplied>, bien que semblable à l’océan, il ne se remplit pas aux dépens du bien d’autrui <supplied reason="explanation">du bien des autres, c’est à dire des rivières</supplied>.</p>
+           <p rend="stanza" n="18">Sous le règne de ce <supplied reason="subaudible">prince</supplied> il y eut un sage excellent, dont les pieds de lotus étaient signes de l’hommage des sages, une mine de ces joyaux qui sont les Śāstras, du nom de Somaśiva.</p>
+           <p rend="stanza" n="19">Et c’est un disciple du révérend Somaśiva que le maître de la terre a établi comme instructeur dans le domaine de śrī-Indravarmeśvara.</p>
+           <p rend="stanza" n="20">Celui-ci, après avoir baratté avec le Mandara de l’intelligence l’océan du <supplied reason="subaudible">ou des</supplied> Śivaśāstra et en avoir bu lui-même l’<foreign>amr̥ta</foreign> qui est la science, l’a fait, par compassion, aussi boire aux autres.</p>
+           <p rend="stanza" n="21">Dans le lotus de sa bouche rendu délicieux par le Śabdaśastra <supplied reason="explanation">la grammaire</supplied>, qui en découle sous forme de miel, l’abeille Sarasvati se plaît à demeurer.</p>
+           <p rend="stanza" n="22">Exact à rendre l’honneur dû aux dieux, aux <foreign>gurus</foreign>, aux brāhmanes, aux hommes de rang et aux hôtes, bien qu’il fût un <foreign>guru</foreign> pour ceux qui lui étaient supérieurs <supplied reason="subaudible">par l’âge ou par la dignité</supplied>, il se comportait comme s’il eût été l’inférieur.</p>
+           <p rend="stanza" n="23">C’est ce maître qui, sur ce mont, en ce Śivapura, a honoré <supplied reason="subaudible">de nouveau</supplied> et d’un culte plus grand ce <foreign>liṅga</foreign> du Seigneur, dont le culte était tombé par la suite du temps.</p>
+           <p rend="stanza" n="24">Et il a érigé ici, avec tous les honneurs prescrits, ce <foreign>liṅga</foreign> sous le nom de śrī-Bhadreśvara, en l’an <supplied reason="subaudible">de l’ère</supplied> <foreign>śaka</foreign> désigné par les montagnes, la lune et les corps.</p>
+           <p rend="stanza" n="25">Ces biens <supplied reason="subaudible">consistant en</supplied> champs irrigables, parc et serviteurs, qui ont été donnés à ces deux <supplied reason="subaudible">divinités</supplied> associées en un même culte, que ceux qui les protègeront aillent au ciel.</p>
+           <p rend="stanza" n="26">Mais qu’ils reçoivent aussi une juste punition dans l’Avīci, dans le Raurava et dans les autres enfers, tant que la terre sera debout, ceux qui les déroberont ou y porteront atteinte.</p>
+           <p n="B01">Om ! Fortune ! Succès ! Bonheur ! Victoire !</p>
+           <p rend="stanza" n="27">Adoration à Śambhu, que la pensée conçoit sans parties, mais dans la manifestation resplendissante duquel apparaît pourtant comme une présence de parties <supplied reason="subaudible">sous forme</supplied> de la nouvelle lune <supplied reason="subaudible">qu’il porte au front et</supplied> <supplied reason="explanation">qui a une de ses <foreign>kalās</foreign></supplied>.</p>
+           <p rend="stanza" n="28">Il reluit, le chignon de Dhūrjaṭin, tout étincelant des gouttes de l’eau de la Gangā, qui en découlent comme autant de perles échappées de leurs cordons qu’auraient tranchés les cornes de la lune.</p>
+           <p rend="stanza" n="29">Victoire au destructeur de Tripura, des ongles des pieds duquel se répandent des lueurs qu’on prendrait pour l’éruption des flammes de la colère du roi des serpents léchant <supplied reason="subaudible">la terre</supplied> son fardeau.</p>
+           <p rend="stanza" n="30">Adoration à Hari, dont le pied, par son éclat, quand il repose dans le giron de Padmā, donne au nombril de la <supplied reason="subaudible">déesse</supplied> l’apparence d’un lotus bleu entr’ouvert.</p>
+           <p rend="stanza" n="31">Que Svayambhū vous protège, dont le corps a l’apparence de l’or éclatant, comme par suite de son contact avec les étamines du lotus où il a pris naissance.</p>
+           <p rend="stanza" n="32">Je célèbre Aparṇā, dont les chevilles brillantes se serrent étroitement contre le pied, par crainte, dirait-on, de leurs anneaux, qui ressemblent à des serpents trop voisins.</p>
+           <p rend="stanza" n="33">Il fut un suprême seigneur des maîtres de la terre, du nom de śrī-Jayavarman, le lustre des ongles des pieds duquel était accru par les rayons des pierres précieuses des tiares des rois <supplied reason="subaudible">prosternés devant lui</supplied>.</p>
+           <p rend="stanza" n="34">Pour la prospérité des sujets <supplied reason="explanation">pour la production des créatures</supplied>, dans cette race parfaitement pure des rois, grand lotus qui n’avait plus de tige, il surgit comme une floraison nouvelle <supplied reason="explanation">il surgit comme Brahmā dans le grand lotus qui n’était pas sorti du limon mais du nombril de Vishṇu</supplied>.</p>
+           <p rend="stanza" n="35">Dès qu’elles l’ont aperçu, les jeunes femmes disent : Vous pouvez vous fermer, mes yeux ; car cet être charmant ne sortira plus un instant de ma pensée.</p>
+           <p rend="stanza" n="36">Rien ne saurait être comparé à sa beauté, eût-elle subi même quelque atteinte ; car, même enveloppée par Rāhu, la lune conserve les traits aimables de son visage.</p>
+           <p rend="stanza" n="37">La terre ceinte de l’océan n’est pas trop lourde à son bras, de même qu’il a suffi du <supplied reason="subaudible">léger</supplied> calus qu’y avaient produit les chocs de la corde de l’art, pour humilier les rois <supplied reason="explanation">les montagnes</supplied>.</p>
+           <p rend="stanza" n="38">Il s’est assis sur le front des lions, il a imposé ses commandements au front des rois, il a établi sa résidence sur le front du <supplied reason="subaudible">mont</supplied> Mahendra, et pour tant il n’y eut en lui nul orgueil.</p>
+           <p rend="stanza" n="39">Sous le règne de ce <supplied reason="subaudible">prince</supplied> qui se plaisait à observer les devoirs des gens de bien, il ne se commit aucune négligence dans l’accomplissement des pratiques, pas plus que s’il eût été un <foreign>muni</foreign> au sens refrénés. <supplied reason="explanation">Grâce à la façon dont ce <supplied reason="subaudible">prince</supplied>, qui se plaisait à observer l’usage des gens habiles, régna sur les mots, les prépositions étaient jointes à un verbe et se mettaient devant la racine, comme s’il eût été le Muni <supplied reason="explanation">Pāṇini</supplied> lui-même.</supplied></p>
+         </div>
+         <div type="commentary">
+            <p>There is a desire to create a four-column division between the <foreign>pāda</foreign>s of the <foreign>anuṣṭubh</foreign> stanzas, more or less successful. When the text takes up too much space, the columns are less clear. They have however been systematically annotated here.</p>
+         </div>
+        <div type="bibliography">
+           <p>Sanskrit parts first edited with translation into French by A. Barth and A. Bergaigne (<bibl rend="omitname"><ptr target="bib:Barth+Bergaigne1885-1893_01"/><citedRange unit="page">331-346</citedRange></bibl>). Khmer part first edited without any translation by G. Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">89-90</citedRange></bibl>). The inscription is re-edited here by Dominic Goodall, Gerdi Gerschheimer and Salomé Pichon based on autopsy and the EFEO estampages n. 760.</p>
+           <listBibl type="primary">
+             <bibl n="BB"><!--sapi2argr Est-ce le bon sigle ?-->
+             <ptr target="bib:Barth+Bergaigne1885-1893_01"/>
+             <citedRange unit="page">331-346</citedRange>
+             </bibl>
+             <bibl n="C">
+               <ptr target="bib:Coedes1937-1966_01"/>
+               <citedRange unit="volume">6</citedRange>
+               <citedRange unit="page">89-90</citedRange>
+             </bibl>
+ 			</listBibl>
+            <listBibl type="secondary">
+              <bibl/>
+            </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

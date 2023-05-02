@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Rājendravarman of Phnom Sandak (K. 192), 878 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00192</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+							Licence. To view a copy of the licence, visit
+							https://creativecommons.org/licenses/by/4.0/ or send a letter to
+							Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+							California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Salomé Pichon.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The scribe makes very scanty use of <foreign>virāma</foreign>, so that most words known to be consonant-final are spelt without cancellation of the inherent vowel of the final consonant. Notice the inclusion of -i in headmarks. The scribe doesn’t do any distinction between the ña and the ñca : the ligatured ca is absorbed in the <foreign>akṣara</foreign> ña.</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:sapi" when="2023-01-09">Addition of placeName and seg tagging</change>
+         <change who="part:sapi" when="2021-01-05">few corrections</change>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:sapi" when="2020-10-18">further revisions</change>
+         <change who="part:sapi part:argr part:chch" when="2020-10-20">Further revisions of the translation</change>
+         <change who="part:sapi" when="2020-10-18">correcting the translation</change>
+         <change who="part:sapi" when="2020-10-13">few corrections</change>
+         <change who="part:sapi" when="2020-10-09">adding my translation</change>
+         <change who="part:sapi" when="2020-09-24">modification of the apparatus</change>
+         <change who="part:sapi" when="2020-09-10">modification of the intellectual authorship</change>
+         <change who="part:sapi" when="2020-09-10">further revisions resolved question of the "ryya bhagavan·" </change>
+         <change who="part:sapi" when="2020-09-05">further revisions</change>
+         <change who="part:sapi part:argr" when="2020-09-04">first revision</change>
+         <change who="part:sapi" when="2020-09-03">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="okz-Latn">
+         	<p>
+         	<lb n="1"/><g type="complexFinial"/>jaya siddhi svāsti <num value="878">878</num> śaka Aṣṭami ket<unclear>·</unclear> puṣya candravāra nu mān<unclear>·</unclear> vraḥ
+         	<lb n="2"/>śāsana dhūli vraḥ pāda dhūli jeṅ<choice><orig>a</orig><reg>·</reg></choice> vraḥ pāda kaṁmrateṅ<unclear>·</unclear> Añ<choice><orig>a</orig><reg>·</reg></choice> ta mratāñ<choice><orig>a</orig><reg>·</reg></choice> khloñ<choice><orig>a</orig><reg>·</reg></choice> vnaṁ kaṁmra<lb n="3" break="no"/>teṅ<choice><orig>a</orig><reg>·</reg></choice> jagat<choice><orig>a</orig><reg>·</reg></choice> śivapura nu mratāñ<unclear>·</unclear> śrīvirendravijaya thve pāñjiy<choice><orig>a</orig><reg>·</reg></choice> <choice><sic>ś</sic><corr>g</corr></choice>i qnak<choice><orig>a</orig><reg>·</reg></choice> steṅ<choice><orig>a</orig><reg>·</reg></choice> Añ<choice><orig>a</orig><reg>·</reg></choice> Ācā<lb n="4" break="no"/><add place="left">ryya bha</add><subst><del rend="corrected">ryya</del><add place="overstrike">gavan<choice><orig>a</orig><reg>·</reg></choice></add></subst> nu yā kaṁmrateṅ<choice><orig>a</orig><reg>·</reg></choice> Añ<choice><orig>a</orig><reg>·</reg></choice> rājaputra Āy<choice><orig>a</orig><reg>·</reg></choice> vnur<choice><orig>a</orig><reg>·</reg></choice> <placeName type="naturalPlace" subtype="mound" key="Vinau">vinau</placeName><!--sapi Ajouter mound à la liste des natural places --> ta qcas<choice><orig>a</orig><reg>·</reg></choice> nu kaṁmrateṅ<choice><orig>a</orig><reg>·</reg></choice> Añ<choice><orig>a</orig><reg>·</reg></choice> ta kanmyaṅ<choice><orig>a</orig><reg>·</reg></choice>
+         	<lb n="5"/>ta phqvan<choice><orig>a</orig><reg>·</reg></choice> nu dravya ta mān<choice><orig>a</orig><reg>·</reg></choice> phoṅ<choice><orig>a</orig><reg>·</reg></choice> khñuṁ thmur<choice><orig>a</orig><reg>·</reg></choice> krapi taṁmrya qseḥ svok<choice><orig>a</orig><reg>·</reg></choice> vaudi gadāha <!-- kuch: I'm wondering if we should regularize the g to k; i.e. kaṭāha. --> sruk<choice><orig>a</orig><reg>·</reg></choice>
+         	<lb n="6"/>sre khñuṁ vraḥ vleṅ<choice><orig>a</orig><reg>·</reg></choice> man<choice><orig>a</orig><reg>·</reg></choice> kalpa<supplied reason="lost">nā</supplied> gho kansat<choice><orig>a</orig><reg>·</reg></choice> gho vara gho bhāja tai kandhan<choice><orig>a</orig><reg>·</reg></choice> tai kandic<choice><orig>a</orig><reg>·</reg></choice> tai
+         	<lb n="7"/>khnap<choice><orig>a</orig><reg>·</reg></choice> kulā ka<unclear>ṁ</unclear>pit· tai mādhavi tai kanteṅ<choice><orig>a</orig><reg>·</reg></choice> tai laṅgāyā tai phEk<choice><orig>a</orig><reg>·</reg></choice> tai panlās<choice><orig>a</orig><reg>·</reg></choice> tai bhadra
+         	<lb n="8"/>gho thgot<choice><orig>a</orig><reg>·</reg></choice> gho kañyuṁs<unclear>·</unclear> <!-- kuch: I think the last syllable s· should not be there as to the Khmer phonetic rule. But how to regularize it? --> gho L̥m̐ta gho kaṁvan<choice><orig>a</orig><reg>·</reg></choice> kvala piṅgala tai gandha tai ka<unclear>ṁ</unclear>vrau tai kaṅvāt<choice><orig>a</orig><reg>·</reg></choice>
+         	<lb n="9"/>gho ranoc<choice><orig>a</orig><reg>·</reg></choice> kvala saṁvara gho kaṁvrau Ātmāpradāna tai kan<choice><orig>a</orig><reg>·</reg></choice>As<choice><orig>a</orig><reg>·</reg></choice> tai <choice><orig>kana</orig><reg>kan</reg></choice>hyaṅ<choice><orig>a</orig><reg>·</reg></choice> tai jvik<choice><orig>a</orig><reg>·</reg></choice> tai kaṁprvat<choice><orig>a</orig><reg>·</reg></choice>
+         	<lb n="10"/>tai saṁAp<choice><orig>a</orig><reg>·</reg></choice> tai kañjā tai Utpala kvala caṁlāk<choice><orig>a</orig><reg>·</reg></choice> tai saṁAp<choice><orig>a</orig><reg>·</reg></choice> kvan<choice><orig>a</orig><reg>·</reg></choice> saṁAp<choice><orig>a</orig><reg>·</reg></choice> phoṅ<choice><orig>a</orig><reg>·</reg></choice> tai kaṁpit<choice><orig>a</orig><reg>·</reg></choice> nu kvan<choice><orig>a</orig><reg>·</reg></choice>
+         	<lb n="11"/>kaṁpit<choice><orig>a</orig><reg>·</reg></choice> phoṅ<choice><orig>a</orig><reg>·</reg></choice> tai ka<choice><orig>ñ</orig><reg>ñc</reg></choice>ān<choice><orig>a</orig><reg>·</reg></choice> tai kaṁpit<choice><orig>a</orig><reg>·</reg></choice> nu kvan· kaṁpit<choice><orig>a</orig><reg>·</reg></choice> phoṅ<choice><orig>a</orig><reg>·</reg></choice> tai pindā tai thpal<choice><orig>a</orig><reg>·</reg></choice> gi jmaḥh<choice><orig>a</orig><reg>·</reg></choice> kvan<choice><orig>a</orig><reg>·</reg></choice> pindā
+         	<lb n="12"/>nu tai kan<choice><orig>a</orig><reg>·</reg></choice>In<choice><orig>a</orig><reg>·</reg></choice> tai panheṁ gho kan<choice><orig>a</orig><reg>·</reg></choice>rāk<choice><orig>a</orig><reg>·</reg></choice> gho varmmaśiva gho kaṁvrau gho gandha gho panlas<choice><orig>a</orig><reg>·</reg></choice> gho
+         	<lb n="13"/>Amr̥ta gho kanso gho thleṁ gho kaṁvās<choice><orig>a</orig><reg>·</reg></choice> tai dharmma si panheṁ phaqvan<choice><orig>a</orig><reg>·</reg></choice> panheṁ vyar<choice><orig>a</orig><reg>·</reg></choice> tai kra tai Utpa<lb n="14" break="no"/>la <space/> sot<choice><orig>a</orig><reg>·</reg></choice> gho kaṁpur<unclear>·</unclear> tai panlās<choice><orig>a</orig><reg>·</reg></choice> kvan<unclear>·</unclear> panlās<choice><orig>a</orig><reg>·</reg></choice> phoṅ<choice><orig>a</orig><reg>·</reg></choice> tai saṁAp<choice><orig>a</orig><reg>·</reg></choice> tai pandān<choice><orig>a</orig><reg>·</reg></choice> nu kvan<choice><orig>a</orig><reg>·</reg></choice> pandān·
+         	<lb n="15"/>vrai tāñ<choice><orig>a</orig><reg>·</reg></choice> tiṁ tai pandān<unclear>·</unclear> gho mahendra tai kañcu nu kvan<choice><orig>a</orig><reg>·</reg></choice> kañcu phoṅ<choice><orig>a</orig><reg>·</reg></choice> qme panlās<choice><orig>a</orig><reg>·</reg></choice> nu panlās<unclear>·</unclear>
+         	<lb n="16"/>daya vāp<choice><orig>a</orig><reg>·</reg></choice> gap<choice><orig>a</orig><reg>·</reg></choice> nu gaṇā vāp<unclear>·</unclear> phoṅ<choice><orig>a</orig><reg>·</reg></choice> tai srāc ta vraḥ nu kvan<choice><orig>a</orig><reg>·</reg></choice> phoṅ<choice><orig>a</orig><reg>·</reg></choice> tai kaṁpit<choice><orig>a</orig><reg>·</reg></choice> sot<choice><orig>a</orig><reg>·</reg></choice> nu kvan<choice><orig>a</orig><reg>·</reg></choice>
+         	<lb n="17"/>phoṅ<choice><orig>a</orig><reg>·</reg></choice> tai chke tai kaṁpur<choice><orig>a</orig><reg>·</reg></choice> nu <supplied reason="omitted">kvan</supplied> kaṁpur<choice><orig>a</orig><reg>·</reg></choice> phoṅ<choice><orig>a</orig><reg>·</reg></choice> sre <seg type="desc">Aṁvi jeṅ<choice><orig>a</orig><reg>·</reg></choice> vraḥ daṁnapp<choice><orig>a</orig><reg>·</reg></choice> cap<choice><orig>a</orig><reg>·</reg></choice> travāṅ<choice><orig>a</orig><reg>·</reg></choice>
+<!-- sapi first encoded svāy<choice><sic>ā</sic><corr>a</corr></choice> -->
+<!-- daba suggested <choice>svāy<orig><choice><sic>ā</sic><corr>a</corr></choice></orig><reg>·</reg></choice> -->
+<!-- argr suggests -->
+<placeName type="hydrographic" subtype="tank" key="Svāy">svāy</placeName><choice><orig><choice><sic>ā</sic><corr>a</corr></choice></orig><reg>·</reg></choice>
+dau lvaḥ
+         	<lb n="18"/>stuk<choice><orig>a</orig><reg>·</reg></choice> <placeName type="hydrographic" subtype="pond" key="Krapi">krapi</placeName> lvaḥ <placeName type="undetermined" key="Īśānapada">Īśānapada</placeName><!-- sapi S'agit-il d'un pramān? --> nu sruk<choice><orig>a</orig><reg>·</reg></choice> phle gi sruk<choice><orig>a</orig><reg>·</reg></choice> <placeName type="settlement" subtype="village" key="Pās Khmau">pās<choice><orig>a</orig><reg>·</reg></choice> khmau</placeName> nu sre phle gi sre Aṁve vāp<choice><orig>a</orig><reg>·</reg></choice> śikhā<lb n="19" break="no"/>śānti Āy<choice><orig>a</orig><reg>·</reg></choice> vrai <placeName type="naturalPlace" subtype="forest" key="Patau">patau</placeName> nu chpār<choice><orig>a</orig><reg>·</reg></choice> phle gi sre <placeName type="cultivation" subtype="field" key="Pās Khyal">pās<choice><orig>a</orig><reg>·</reg></choice> khyal<choice><orig>a</orig><reg>·</reg></choice></placeName> sre <placeName type="cultivation" subtype="field" key="Vak Dnyāṁ">vak<choice><orig>a</orig><reg>·</reg></choice> dnyāṁ</placeName> nu chpār<choice><orig>a</orig><reg>·</reg></choice> phle gi sre caṁnāṁ
+         	<lb n="20"/>steṅ<choice><orig>a</orig><reg>·</reg></choice> Añ<choice><orig>a</orig><reg>·</reg></choice> Āy<choice><orig>a</orig><reg>·</reg></choice> vyoma sre caṁnāṁ steṅ<choice><orig>a</orig><reg>·</reg></choice> Añ<choice><orig>a</orig><reg>·</reg></choice> Āy<choice><orig>a</orig><reg>·</reg></choice> stuk<choice><orig>a</orig><reg>·</reg></choice> <placeName type="naturalPlace" subtype="grove" key="Ransi">ransi</placeName> jmaḥ <placeName type="cultivation" subtype="field" key="Canhvar Vrac">canhvar<choice><orig>a</orig><reg>·</reg></choice> vracca</placeName></seg> neḥ
+         	<lb n="21"/>gi Aṁpālla gi javānatala <g type="circleSmall">.</g>
+         </p>
+         </div>
+         <div type="apparatus">
+                <listApp>
+                  <app loc="3">
+                     <lem>śivapura</lem>
+                     <note>One could also read <foreign>śivapuri</foreign>. However, the reoccurence in epigraphy of the term <foreign>śivapura</foreign> led me to think that the round part on the top of the <foreign>ra</foreign> must be an overly accentuated hook.</note>
+                  </app>
+	        <app loc="3">
+		<lem>śrivirendravijaya</lem>
+		<rdg source="bib:Coedes1937-1966_01">śrīvirendravijaya</rdg>
+                  </app>
+	        <app loc="3">
+		<lem>pāñjiy<choice><orig>a</orig><reg>·</reg></choice></lem>
+		<rdg source="bib:Coedes1937-1966_01">pāñjiya</rdg>
+	        </app>
+                  <app loc="8">
+		<lem>thgot<choice><orig>a</orig><reg>·</reg></choice></lem>
+		<rdg source="bib:Coedes1937-1966_01">thkot·</rdg>
+	        </app>
+                  <app loc="8">
+                  	<lem>kañyuṁs<unclear>·</unclear></lem>
+                  	<rdg source="bib:Coedes1937-1966_01">kañyus·</rdg>
+                  </app>
+					<app loc="9">
+									<lem>ranoc<choice><orig>a</orig><reg>·</reg></choice></lem>
+									<rdg source="bib:Coedes1937-1966_01">noc·</rdg>
+									</app>
+	        <app loc="9">
+                  	<lem>kanahyaṅ<choice><orig>a</orig><reg>·</reg></choice></lem>
+                  	<rdg source="bib:Coedes1937-1966_01">kanhyaṅ·</rdg>
+                  </app>
+	        <app loc="11">
+		<lem>ka<choice><orig>ñ</orig><reg>ñc</reg></choice>ān<choice><orig>a</orig><reg>·</reg></choice></lem>
+		<rdg source="bib:Coedes1937-1966_01">kañcān·</rdg>
+    	        </app>
+							<app loc="12">
+				<lem>panheṁ</lem>
+				<rdg source="bib:Coedes1937-1966_01">panhyeṁ</rdg>
+		    	        </app>
+									<app loc="13">
+						<lem>panheṁ</lem>
+						<rdg source="bib:Coedes1937-1966_01">panhyeṁ</rdg>
+				    	        </app>
+											<app loc="13">
+								<lem>panheṁ</lem>
+								<rdg source="bib:Coedes1937-1966_01">panhyeṁ</rdg>
+						    	        </app>
+                  <app loc="17">
+                  	<lem>svāyā</lem>
+                  	<rdg source="bib:Coedes1937-1966_01">svāy·</rdg>
+                  </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" resp="part:sapi">
+					 <p n="1-6"> Victoire ! Succès ! Prospérité ! En 878 śaka, le huitième <supplied reason="explanation"><foreign>tithi</foreign></supplied> de la quinzaine claire de Puṣya, un lundi, il y eut un ordre royal du <foreign>dhūli vraḥ pāda dhūli jeṅ vraḥ pāda kamrateṅ ’añ</foreign> <supplied reason="explanation">Rājendravarman II</supplied>, au <foreign>mratāñ</foreign> chef de sanctuaire du <foreign>kamrateṅ jagat</foreign> de Śivapurī ainsi qu’au <foreign>mratāñ</foreign> Śrī Vīrendravijaya de faire un registre des gens du <foreign>steṅ añ</foreign> Ācārya Bhagavan, de la grand-mère <supplied reason="explanation"><foreign>yā</foreign></supplied> du <foreign>kamrateṅ añ</foreign> Rājaputra <supplied reason="explanation">le prince</supplied> à Vnur Vinau, l’aîné, et du <foreign>kamrateṅ añ</foreign> <supplied reason="subaudible">le prince</supplied> son cadet, ainsi que de l’ensemble des biens qu’ils possèdent : esclaves, bœufs, buffles, éléphants, chevaux, plateaux, cruches, chaudrons, villages, rizières.</p>
+					 <p n="6-17"> Les esclaves <supplied reason="subaudible">chargés du maintien</supplied> du feu sacré qui <supplied reason="subaudible">y</supplied> ont été assignés sont <foreign>gho</foreign> Kansat, <foreign>gho</foreign> Vara, <foreign>gho</foreign> Bhāja, <foreign>tai</foreign> Kandhan, <foreign>tai</foreign> Kandic, <foreign>tai</foreign> Khnap, la famille de Kaṁpit, <foreign>tai</foreign> Mādhavi, <foreign>tai</foreign> Kanteṅ, <foreign>tai</foreign> Laṅgāyā, <foreign>tai</foreign> Ph’ek, <foreign>tai</foreign> Panlās, <foreign>tai</foreign> Bhadra, <foreign>gho</foreign> Thgot, <foreign>gho</foreign> Kañyuṁs, <foreign>gho</foreign> L̥m̐ta, <foreign>gho</foreign> Kaṁvan Kvala Piṅgala, <foreign>tai</foreign> Gandha, <foreign>tai</foreign> Kaṁvrau, <foreign>tai</foreign> Kaṅvāt, <foreign>gho</foreign> Ranoc Kvala Saṁvara, <foreign>gho</foreign> Kaṁvrau Ātmāpradāna, <foreign>tai</foreign> Kanas, <foreign>tai</foreign> Kanhyaṅ, <foreign>tai</foreign> Jvik, <foreign>tai</foreign> Kaṁprvat, <foreign>tai</foreign> Sam’ap, <foreign>tai</foreign> Kañjā, <foreign>tai</foreign> Utpala Kvala Caṁlāk, <foreign>tai</foreign> Saṁ’ap <supplied reason="subaudible">et</supplied> tous ses enfants, <foreign>tai</foreign> Kaṁpit et tous ses enfants, <foreign>tai</foreign> Kañcān, <foreign>tai</foreign> Kaṁpit et tous ses enfants, <foreign>tai</foreign> Pindā, <foreign>tai</foreign> Thpal nommée enfant de Pindā et <foreign>tai</foreign> Kan’in, <foreign>tai</foreign> Panheṁ, <foreign>gho</foreign> Kanrāk, <foreign>gho</foreign> Varmaśiva, <foreign>gho</foreign> Kaṁvrau, <foreign>gho</foreign> Gandha, <foreign>gho</foreign> Panlas, <foreign>gho</foreign> Amr̥ta, <foreign>gho</foreign> Kanso, <foreign>gho</foreign> Thleṁ, <foreign>gho</foreign> Kaṁvās, <foreign>tai</foreign> Dharma, <foreign>si</foreign> Panheṁ <supplied reason="subaudible">et</supplied> ses deux cadets, <foreign>tai</foreign> Kra, une autre <foreign>tai</foreign> Utpala, <foreign>gho</foreign> Kaṁpur, <foreign>tai</foreign> Panlās <supplied reason="subaudible">et</supplied> tous ses enfants, <foreign>tai</foreign> Saṁ’ap, <foreign>tai</foreign> Pandān et ses enfants : Vrai, Tāñ <supplied reason="subaudible">et</supplied> Tiṁ, <foreign>tai</foreign> Pandān, <foreign>gho</foreign> Mahendra, <foreign>tai</foreign> Kañcu et tous ses enfants, le chef des remplaçants et des remplaçants volontaires : le <foreign>vāp</foreign> Gap et l’ensemble du groupe de travail du <foreign>vāp</foreign>, <foreign>tai</foreign> Srāc Ta Vraḥ et tous ses enfants, une autre <foreign>tai</foreign> Kaṁpit et tous ses enfants, <foreign>tai</foreign> Chke, <foreign>tai</foreign> Kaṁpur et tous ses enfants ?.</p>
+					 <p n="17-20">La rizière, à partir du pied la sainte digue qui retient le Travāṅ Svāy <supplied reason="explanation">le bassin des manguiers</supplied> continuant jusqu’à Stuk Krapi <supplied reason="explanation">l’étang ou le bosquet des buffles</supplied>, jusqu’à Īśānapada avec le village qui en dépend. Le village de Pās Khmau <supplied reason="explanation" cert="low">la vigne noire</supplied> ainsi que la rizière qui en dépend. La rizière fondée par <foreign>vāp</foreign> Śikhāśanti à Vrai Patau <supplied reason="explanation">forêt de rotins</supplied> ainsi que le parc qui en dépend. La rizière de Pās Khyal <supplied reason="explanation" cert="low">la vigne au sud</supplied>. La rizière de Vak Dnyāṁ <supplied reason="explanation" cert="low">porter le joug</supplied> ainsi que le parc qui en dépend. La rizière pourvoyant aux besoins <!--Vérifier le terme caṁnāṁ --> du <foreign>steṅ añ</foreign> à Vyoma. La rizière pourvoyant aux besoins  du <foreign>steṅ añ</foreign> à Stuk Ransi <supplied reason="explanation">l’étang ou le bosquet des bambous</supplied> nommée Canhvar Vrac <supplied reason="explanation">fossé des bambous</supplied>.</p>
+ 				 <p n="20-21">L’intégralité de ces <supplied reason="subaudible">rizières</supplied> est <foreign>javānatala</foreign>.</p>
+				</div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p n="1-6">En 878 śaka, huitième jour de la lune croissante de Puṣya, lundi, il y eut un ordre de Sa Majesté au Mratāñ chef de sanctuaire <supplied reason="explanation"><foreign>khloñ vnaṁ</foreign></supplied> du K. J. de Śivapura et à Mratāñ Śrī Vīrendravijaya, de faire la liste des gens du Steṅ Añ Ācārya Bhagavan, de Yā K. A. Rājaputra à Vnur Vinau <supplied reason="explanation">tertre des orangers du Malabar</supplied> le vieux, et de K. A. le jeune son frère, ainsi que <supplied reason="subaudible">celle</supplied> de tous leurs biens, esclaves, bœufs, buffles, éléphants, chevaux, plateaux, vases, bassines, villages, rizières.</p>
+         	<p n="6-17">Esclaves du feu sacré qui sont affectés <supplied reason="subaudible">au temple</supplied> <supplied reason="explanation">suit la liste d’une vingtaine de <foreign>gho</foreign> et d’une quarantaine de <foreign>tai</foreign> avec leurs enfants</supplied>.</p>
+         	<p n="17-20">Rizière, à partir du pied de la sainte digue qui retient <supplied reason="subaudible">l’eau de</supplied> Travāṅ Svāy <supplied reason="explanation">bassin des manguiers</supplied> jusqu’à Stuk Krapi <supplied reason="explanation">mare à buffles</supplied>, jusqu’à Īśānapada, avec le village qui en dépend ; village de Pās Khmau avec la rizière qui en dépend ; rizière au delà de Vāp Śikhāśanti à Vrai Patau <supplied reason="explanation">forêt de rotins</supplied> avec le jardin qui en dépend ; rizière de Pās Khyal ; rizière de Vak Dnyāṁ avec le jardin qui en dépend ; rizière prestataire de Steṅ Añ à Vyoma ; rizière prestataire de Steṅ Añ à Stuk Ransi <supplied reason="explanation">mare des bambous</supplied>, nommée Canhvar Vrac.</p>
+         	<p n="21">Toutes ces rizières sont <foreign>javānatala</foreign>.</p>
+         </div>
+         <div type="commentary">
+					 <p>In modern khmer, the <foreign>virāma</foreign> is no longer in use to differentiate akṣaras to be pronounced with and without inherent -a. Therefore, in transcribing modern Khmer, one must decide to include the -a or not based on one’s understanding of the word-structure of the given text. In editing the present inscription, which use virāma much more sparingly than is the norm in Old Khmer, it would seem that George Cœdès has applied the same transcription mode. Since his transliteration system, anyhow never explicitly represent virāma, the difference between actually present virāma  and editorially suppresed inherent -a is invisible in his edition. In order to avoid an edited text with an abnormally high precentage of a-final words, I have made copious use of the tag <choice><orig>a</orig><reg>·</reg></choice>.</p>
+					 <p n="2"><foreign>dhūli vraḥ pāda dhūli jeṅ vraḥ pāda kamrateṅ ’añ</foreign> is a royal honorific title alluding to Rājendravarman II.</p>
+         	 <p n="4">Concerning the encoding of “ryya bhagavan·", at the beggining of l. 4: the scribe has most likely erased an already written “ryya” because he forgot to leave some space for “bhagavan·". Therefore, the syllables “ryya bha” were re-written in the margin, followed by “ghavan·", inscribed over the original “ryya” that we still can distinguished underneath.</p>
+					 <p n="10-11">There are a lot of name repetitions in this list. In thoses lines, for instance, the names Sam’ap and Kaṁpit are used to designate several individuals.</p>
+           <p n="15"><foreign>qme panlās nu panlās daya</foreign>: one translation of the word <foreign>qme</foreign> by Jenner is “chief”. He used it to translate <foreign>me kñuṁ</foreign> in K. 956. I decided to choose an analogue meaning for this translation. <foreign>Panlās</foreign> could therefore designate the substitutes slaves that this chief commands.</p>
+           <p n="21">As Cœdès explained, <foreign>javānatala</foreign> is an unclear expression, only found in this inscription. If <foreign>tala</foreign> means “ground”, javāna does not mean anything. A possible correction would be <foreign>jīvanatala</foreign>, meaning “lands of subsistence”, but that would imply a lot of modifications.</p>
+         </div>
+        <div type="bibliography">
+        	<p>First studied by Etienne Aymonier (<bibl rend="omitname"><ptr target="bib:Aymonier1900_01"/><citedRange unit="volume">1</citedRange><citedRange unit="page">393-394</citedRange></bibl>). Edited later by George Cœdès with a French translation (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">128-130</citedRange></bibl>). Re-edited here by Salomé Pichon based on EFEO estampage n. 762. Note that the <foreign>editio princeps</foreign> ignores the difference between consonant-final words written with <foreign>virāma</foreign> and words where a <foreign>virāma</foreign> is expected but not written.</p>
+        	<listBibl type="primary">
+	        <bibl n="A">
+          <ptr target="bib:Aymonier1900_01"/>
+	        <citedRange unit="volume">1</citedRange>
+          <citedRange unit="page">393-394</citedRange>
+	        </bibl>
+          <bibl n="C">
+        	<ptr target="bib:Coedes1937-1966_01"/>
+        	<citedRange unit="volume">6</citedRange>
+        	<citedRange unit="page">128-130</citedRange>
+        	</bibl>
+	</listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

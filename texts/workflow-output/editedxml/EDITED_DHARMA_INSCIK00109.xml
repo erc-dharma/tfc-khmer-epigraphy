@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb of Prasat Preah Theat (K. 109), 577 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00109</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The letters of the Sanskrit portion of the northern doorjamb are bigger than those of the Khmer portions.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2023-03-24" status="draft">Slight modifications to edition</change>
+         <change who="part:kuch" when="2023-03-08" status="draft">Modifications to edition</change>
+         <change who="part:kuch" when="2021-08-24" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+                   <milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label>
+<lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+   <l n="a"><lb n="1"/><milestone unit="column" n="a"/><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>driśaraiś śāke</l>
+   <l n="b"><milestone unit="column" n="b"/>dine <seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg> caturddaśe</l>
+   <l n="c"><lb n="2"/><milestone unit="column" n="a"/>prajñāvaddharmma-sthitaye</l>
+   <l n="d"><milestone unit="column" n="b"/>dattaṁ saṁbhavapustakam·</l>
+</lg>
+                   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+   <l n="a"><lb n="3"/><milestone unit="column" n="a"/>bhavajñānena nihitaṁ</l>
+   <l n="b"><milestone unit="column" n="b"/>vyāsa-satra-nivandhanaṁ</l>
+   <l n="c"><lb n="4"/><milestone unit="column" n="a"/>yo nāśayati durvuddhiḥ</l>
+   <l n="d"><milestone unit="column" n="b"/>niraye sa ciraṁ vaset·</l>
+</lg>
+                   <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+   <l n="a"><lb n="5"/><milestone unit="column" n="a"/>santānam eva vañcan y<choice><orig>aḥ</orig><reg>o</reg></choice></l>
+   <l n="b"><milestone unit="column" n="b"/>vyāsa-satra-vināśakr̥t·</l>
+   <l n="c"><lb n="6"/><milestone unit="column" n="a"/>yāvat sūryyaś ca candraś ca</l>
+   <l n="d"><milestone unit="column" n="b"/>sa vaset narakeṣu vai</l>
+</lg>
+            <milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label>
+                   <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+   <l n="a"><lb n="1"/><milestone unit="column" n="a"/>jayaty ekāgra-yuktānāṁ</l>
+   <l n="b"><milestone unit="column" n="b"/>dhyānagamyo manīṣiṇām·</l>
+   <l n="c"><lb n="2"/><milestone unit="column" n="a"/>Ādau yataś ca yatrānte</l>
+   <l n="d"><milestone unit="column" n="b"/>bhūtāni sa maheśvaraḥ</l>
+</lg>
+                   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+   <l n="a"><lb n="3"/><milestone unit="column" n="a"/>saptaśailaśarāṅkā<choice><orig>p</orig><reg>b</reg></choice>de</l>
+   <l n="b"><milestone unit="column" n="b"/>candre dvandvādi-yogini</l>
+   <l n="c"><lb n="4"/><milestone unit="column" n="a"/>tapasyaśuklanavame</l>
+   <l n="d"><milestone unit="column" n="b"/>lagne meṣagate sati</l>
+</lg>
+                   <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+   <l n="a"><lb n="5"/><milestone unit="column" n="a"/>tadā dhruvapureśasya</l>
+   <l n="b"><milestone unit="column" n="b"/>nujo vyādhapureśvaraḥ</l>
+   <l n="c"><lb n="6"/><milestone unit="column" n="a"/>nāmnā vibhur iti khyāto</l>
+   <l n="d"><milestone unit="column" n="b"/>dāntaḥ tyāgī śuciḥ prabhuḥ</l>
+</lg>
+                   <lg n="4" met="anuṣṭubh" xml:lang="san-Latn">
+   <l n="a"><lb n="7"/><milestone unit="column" n="a"/>teneha vidhinā samyak·</l>
+   <l n="b"><milestone unit="column" n="b"/>sthāpitaṁ liṅgam aiśvaram·</l>
+   <l n="c"><lb n="8"/><milestone unit="column" n="a"/>nāma tasya dvijāś cakru<milestone unit="column" n="b" break="no"/>r</l>
+   <l n="d">iti rudramahālayam·</l>
+</lg>
+                   <lg n="5" met="anuṣṭubh" xml:lang="san-Latn">
+   <l n="a" enjamb="yes"><lb n="9"/><milestone unit="column" n="a"/>dāsī-dāsa-paśu-kṣetrā</l>
+   <l n="b"><milestone unit="column" n="b"/>-rāmā-bharaṇa-bhūmayaḥ</l>
+   <l n="c"><lb n="10"/><milestone unit="column" n="a"/>sa tasmai sarvvam adita</l>
+   <l n="d"><milestone unit="column" n="b"/>nirayaṁ yātu yo haret·</l>
+</lg>
+                   <p>
+   <lb n="11"/>Aṁnoy· kurāk· kloñ· vyādhapura Āy· ta vraḥ kamratāṅ· Añ· śrī rudramahālaya
+                      <lb n="12"/>kñuṁ ta si <g type="circleSmall">.</g> vā tmeṅ· <g type="circleSmall">.</g> vā vṅā vā Aras· nai <g type="circleSmall">.</g> vā kantek· <g type="circleSmall">.</g> vā kaṁdot· <g type="circleSmall">.</g> vā kpaṅ· <g type="circleSmall">.</g> vā mratāṅ· <g type="circleSmall">.</g> vā mra<lb n="13" break="no"/>sañ· <g type="circleSmall">.</g> vā kros· <g type="circleSmall">.</g> vā can· <g type="circleSmall">.</g> vā carita <g type="circleSmall">.</g> vā kañjā <g type="circleSmall">.</g> vā daśamī <g type="circleSmall">.</g> vā kaṁhāk <g type="circleSmall">.</g> vā khal<unclear>·</unclear> <g type="circleSmall">.</g> vā kvoṁ <g type="circleSmall">.</g>
+                      <lb n="14"/>vā nirguṇa <g type="circleSmall">.</g> vā srāṅ· <g type="circleSmall">.</g> vā klaṅ· Aras· <g type="circleSmall">.</g> vā cpit· <g type="circleSmall">.</g> vā taṅ ku <g type="circleSmall">.</g> vā vrau <g type="circleSmall">.</g> vā raṁnoc<unclear>·</unclear> vraḥ <g type="circleSmall">.</g>
+                      <lb n="15"/>vā vr̥ddhi <g type="circleSmall">.</g> vā tmāṅ· <g type="circleSmall">.</g> vā pleṅ· <g type="circleSmall">.</g> vā kandoc· <g type="circleSmall">.</g> vā chaṭṭī <g type="circleSmall">.</g> vā cloṅ· <g type="circleSmall">.</g> vā Anrok<unclear>·</unclear> vā
+                      <lb n="16"/>ktāṁ <g type="circleSmall">.</g> vā tye <g type="circleSmall">.</g> vā <gap reason="lost" quantity="1" unit="character"/> vl<unclear cert="low">o</unclear> lān· <g type="circleSmall">.</g> vā drañ· <g type="circleSmall">.</g> vā kmen· <g type="circleSmall">.</g> vā dmik· <g type="circleSmall">.</g> vā vātahara <g type="circleSmall">.</g> vā vācamātra <g type="circleSmall">.</g>
+                      <lb n="17"/>vā kmau <g type="circleSmall">.</g> vā taru <gap reason="lost" quantity="2" unit="character"/> <g type="circleSmall">.</g> vā skāk· <g type="circleSmall">.</g> vā kandin· <g type="circleSmall">.</g> kñuṁ ta kantai <g type="circleSmall">.</g> ku kdai kon· ku vā kandaṁ ku <gap reason="lost" quantity="1" unit="character"/>
+                      <lb n="18"/>rek<unclear>·</unclear> <g type="circleSmall">.</g> ku srī <g type="circleSmall">.</g> ku srac· jīva kon· ku <g type="circleSmall">.</g> vā kdap· ku mās tāṅ· <g type="circleSmall">.</g> ku kvan· ku Anrok· ku cke <g type="circleSmall">.</g>
+                      <lb n="19"/>ku saṁAp· <g type="circleSmall">.</g> ku cpit· ku caṁnaṁ cān· <g type="circleSmall">.</g> ku lajeṅ· ku kjaṅ· vā kacor· ku cr<unclear>a</unclear>cok· ku cnai
+                      <lb n="20"/>ku ṭikā ku kan·puc· ku seṅ· vā hyaṁ ku vrahey· vā raṅko vā kaṁhañ· ku santap<unclear>·</unclear>
+                      <lb n="21"/>vā can·cān· ku tanmāru ku kaṁveṁ ku Anek· ku kantyar· vā kanmar· ku laṅ· vā laddu ku <gap reason="lost" quantity="1" unit="character"/>k·
+                      <lb n="22"/>vrau ku yanoc· ku smau ku Aṁvikā ku kdai ku Aras· vā Anrok· srāṅ· ku <gap reason="lost" quantity="2" unit="character"/>
+                      <lb n="23"/>can·cān· ku vrau ku <gap reason="lost" quantity="2" unit="character"/> dharmma vā <gap reason="lost" quantity="2" unit="character"/> ku Aras· Āy· ku kaṁru ku kañjar· ku jmā ku kaṁ
+                      <lb n="24"/><gap reason="lost" quantity="1" unit="character"/> kñuṁ tāñ· suvarṇṇa man· parigraha ta kurāk· vyādhapura <gap reason="lost" quantity="3" unit="character"/>
+                      <lb n="25"/>phoṅ· ta vraḥ kamratāṅ· Añ· śrī rudramahālaya <g type="circleSmall">.</g>
+                   </p>
+</div>
+<div type="apparatus">
+   <milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Southern Doorjamb</label>
+               <listApp>
+                  <app loc="6">
+                     <lem>vaset narake</lem>
+                     <note>Sic pour l’<foreign>asandhi</foreign> ; c’est la ligature <foreign>tn</foreign> qui est utilisée.</note>
+                  </app>
+               </listApp>         
+         </div>
+           <div type="apparatus">
+   <milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label>
+               <listApp>
+                  <app loc="16">
+                     <lem>vl<unclear cert="low">o</unclear> lān·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">vl<seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg> lān·</rdg>
+                  </app>
+                  <app loc="19">
+                     <lem>vā kacor· ku cr<unclear>a</unclear>cok· ku cnai</lem>
+                     <rdg source="bib:Coedes1937-1966_01">vā kaOr· ku cnai</rdg>
+                  </app>
+               </listApp>         
+         </div>
+            <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label>
+               <p rend="stanza" n="1"><supplied reason="explanation">Dans l’année des</supplied> Śāka <supplied reason="subaudible">marquée</supplied> par les <supplied reason="subaudible">5</supplied> flèches <gap reason="lost"/>, le quatorzième jour <gap reason="lost"/>, un manuscrit du Sambhavaparvan a été donné, en vue du maintien de la doctrine des savants.</p>
+            <p rend="stanza" n="2">Que l’insensé qui détruirait ce qui a été affecté par Bhavajñāna comme offrande à Vyāsa, demeure longtemps dans l’enfer.</p>
+               <p rend="stanza" n="3">Que celui qui, décevant même sa lignée, détruirait l’offrande à Vyāsa, demeure dans les enfers aussi longtemps que <supplied reason="subaudible">dureront</supplied> le soleil et la lune.</p>
+               </div>
+               <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Northern Doorjamb</label>
+               <p rend="stanza" n="1">La victoire est à Maheśvara, origine et fin des êtres, qui est accessible aux sages par une méditation exclusivement concentrée sur lui.</p>
+            <p rend="stanza" n="2">Dans l’année marquée par les <supplied reason="subaudible">5</supplied> flèches, les <supplied reason="subaudible">7</supplied> montagnes et sept, la lune étant en conjonction avec le commencement des Gémeaux, le neuvième jour de la lune croissante de Tapasya, l’horoscope étant dans le Bélier.</p>
+               <p rend="stanza" n="3">alors le frère cadet du chef de Dhruvapura, chef de Vyādhapura, nommé Vibhu, apaisé, généreux, pur, puissant,</p>
+                  <p rend="stanza" n="4">a érigé ici, avec tous les rites au complet, un liṅga de Śiva, auquel les brâhmanes ont donné le nom de Rudramahālaya.</p>
+                  <p rend="stanza" n="5">Esclaves femmes et hommes, bétail, champs, jardins, parures et terres, il a donné tout cela à ce <supplied reason="subaudible"><foreign>liṅga</foreign></supplied> : que celui qui le prendrait aille en enfer :</p>
+                  <p n="11">Dons de Kurāk Kloñ Vyādhapura à V.K.A. Śrī Rudramahālaya.</p>
+                  <p n="12-17">Esclaves hommes <supplied reason="explanation"><foreign>si</foreign></supplied> : <supplied reason="explanation">liste de 42 ou 43 <foreign>vā</foreign></supplied>.</p>
+                  <p n="17-23">Esclaves femmes <supplied reason="explanation"><foreign>kantai</foreign></supplied> : <supplied reason="explanation">liste d’une quarantaine de <foreign>ku</foreign>, avec leurs enfants</supplied>.</p>
+                  <p n="24-25">Les esclaves de Tāñ Suvarṇa sont totalisés avec ceux de Kurāk Vyādhapura et <supplied reason="explanation">offerts</supplied> aussi à V.K.A. Śrī Rudramahālaya.</p>
+         </div>
+         <!-- <div type="commentary">
+            </div> -->
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">41-44</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 743.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">41-44</citedRange>
+    </bibl>
+	    
+  </listBibl>
+        </div>
+      </body>
+    </text>
+</TEI>

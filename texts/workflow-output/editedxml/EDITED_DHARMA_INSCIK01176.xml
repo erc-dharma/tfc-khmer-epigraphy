@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Tuol Kuhear (K. 1176), 7th-8th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap; Lyon</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01176</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom &amp; Arlo Griffiths.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The <foreign>akṣara</foreign>s of the first line are bigger than the rest.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                     <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2023-03-24" status="draft">Adding a paleographical remark</change>
+         <change who="part:kuch" when="2023-03-07" status="draft">Modifications to edition</change>
+         <change who="part:argr part:kuch" when="2021-02-12" status="draft">revisions based on feedback from part:daba</change>
+         <change who="part:argr part:kuch" when="2021-01-29" status="draft">finished initial encoding of the inscription</change>
+         <change who="part:argr part:kuch" when="2021-01-15" status="draft">started initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="anuṣṭubh">
+  <l n="a"><lb n="1"/><milestone unit="column" n="a"/>śrīmad-āmrātakeśena</l>
+  <l n="b"><milestone unit="column" n="b"/>jitan tripura-ghātinā</l>
+  <l n="c"><lb n="2"/><milestone unit="column" n="a"/>dagdhas samūlato yasya</l>
+  <l n="d"><milestone unit="column" n="b"/>kāmo huṅkāra-bah<unclear>n</unclear>inā</l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+  <l n="a"><lb n="3"/><milestone unit="column" n="a"/>yo mahīpatibhir mūrddhnā</l>
+  <l n="b"><milestone unit="column" n="b"/>dhr̥<unclear>t</unclear>ājñaḥ prathita<seg met="-="><gap reason="lost" quantity="2" unit="character"/></seg></l>
+  <l n="c"><lb n="4"/><milestone unit="column" n="a"/>rājā śrī-jayava<unclear>r</unclear>mmā sa</l>
+  <l n="d"><milestone unit="column" n="b"/>jayatīndra-sama-dyutiḥ</l>
+<!-- d. °dyutiḥ : les lettres tiḥ sont gravées sur une portion de la pierre déjà épaufrée. -->
+</lg>
+<lg n="3" met="anuṣṭubh">
+  <l n="a"><lb n="5"/><milestone unit="column" n="a"/>yo mu<unclear>n</unclear>i<unclear>r</unclear> <seg met="=-+"><gap reason="lost" quantity="3" unit="character"/></seg>nā<unclear>rai</unclear></l>
+  <l n="b"><milestone unit="column" n="b"/><seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg><unclear>bh</unclear>ūbhuj<unclear>ai</unclear><supplied reason="lost">ḥ</supplied></l>
+  <l n="c"><lb n="6"/><milestone unit="column" n="a"/>bhaga<choice><unclear>s</unclear><unclear>v</unclear><unclear>t</unclear></choice><seg type="component" subtype="vowel" met="="><gap reason="lost" quantity="1" unit="component"/></seg><seg met="=-++="><gap reason="lost" quantity="6" unit="character"/></seg></l>
+  <l n="d"><milestone unit="column" n="b"/><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg> vijitendri<supplied reason="lost">yaḥ</supplied></l>
+<!--
+a. mu<unclear>n</unclear>i: muCi GG
+a. nā(rai): (nārai) GG, with note "« lecture » très peu assurée".
+  read nānai? nān[t]ai? nantrai? it at first sight seems disturbing that the -ā does not appear to be attached to the n, but reading a postconsonantal r on the next akṣara is also difficult, because stone is preserved for the space just below the na and the stroke after it does not continue below the line. See also shape of suspected -nā at the end of line 8.
+c. bhaga<unclear>s</unclear>V: bhaga<unclear>v</unclear>V GG
+-->
+</lg>
+<lg n="4" met="anuṣṭubh">
+  <l n="a"><lb n="7"/><milestone unit="column" n="a"/>me<choice><sic>p</sic><corr>ṣ</corr></choice>ā<unclear>pt</unclear><seg type="component" subtype="vowel" met="="><gap reason="lost" quantity="1" unit="component"/></seg><seg met="=-++="><gap reason="lost" quantity="5" unit="character"/></seg></l>
+   <l n="b"><milestone unit="column" n="b"/><seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg>le nala<supplied reason="lost">ḥ</supplied></l>
+  <l n="c"><lb n="8"/><milestone unit="column" n="a"/>siddhāyatana<seg met="++="><gap reason="lost" quantity="3" unit="character"/></seg></l>
+  <l n="d"><milestone unit="column" n="b"/><seg met="====-+-"><gap reason="lost" quantity="7" unit="character"/></seg>nā</l>
+<!-- b. Le trait sous le n de la 7e syllabe du vers, qu’on pourrait à la limite interpréter comme un u, me paraît être la trace d’une égratignure sur la pierre : sa forme n’est pas celle d’un u standard sous n, qui devrait finir par une incurvation par la gauche – cf. hu dans st. Id, mu dans st. IIIa.
+    b. nala[ḥ]: The na looks like a da to me.
+    d. nā: Like in line 5, the ā does not seem to be attached to the na.-->
+</lg>
+<lg n="5" met="anuṣṭubh">
+  <l n="a"><lb n="9"/><milestone unit="column" n="a"/>jñānam<seg type="component" subtype="vowel" met="+"><gap reason="lost" quantity="1" unit="component"/></seg><seg met="=-++="><gap reason="lost" quantity="5" unit="character"/></seg></l>
+  <l n="b"><milestone unit="column" n="b"/><seg met="====-+-"><gap reason="lost" quantity="7" unit="character"/></seg><unclear>t</unclear>iḥ</l>
+  <l n="c"><milestone unit="column" n="a"/><lb n="10"/>śrīmad-āmrā<unclear>ta</unclear>k<unclear>e</unclear><seg met="+="><gap reason="lost" quantity="2" unit="character"/></seg></l>
+  <l n="d"><milestone unit="column" n="b"/><seg met="====-"><gap reason="lost" quantity="5" unit="character"/><unclear>ka</unclear>lpi<unclear>ne</unclear></seg></l>
+</lg>
+<lg n="6" met="anuṣṭubh">
+  <l n="a"><lb n="11"/><milestone unit="column" n="a"/>paratra vidyā-prāpty-a<unclear>rtha</unclear>m</l>
+  <l n="b"><milestone unit="column" n="b"/>ā<unclear>tma-mukt</unclear>y-a<unclear>rtham eva</unclear> ca</l>
+  <l n="c"><lb n="12"/><milestone unit="column" n="a"/><unclear>t</unclear>eneyaṁ sthāpi<unclear>tā</unclear> dev<unclear>ī</unclear></l>
+  <l n="d"><milestone unit="column" n="b"/><unclear cert="low">nīla</unclear><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg> śi<unclear>lā</unclear>may<unclear>ī</unclear></l>
+</lg>
+             <!-- Dominic's email 2021-01-27:
+                 I think that the Śivasaṃhitā is regarded as a relatively late work of Haṭhayoga.
+                 But in any case, ātmamukti is not a puzzling expression, even if it is perhaps not particularly common.
+                 To my ears, vakti seems quite normal.  As for the fourth pāda, I don't know what it says, but it doesn't
+                 look like it starts with nīla.  The first letter looks like ni, but the one after doesn't look like a la. -->
+            <!-- Daniel's suggestion: nīla - this does not look convincing to me. I would definitely use <unclear cert="low"> here. The second character looks more like sa than la, and I'm not even sure that does not include part of the third character. If you read la (or sa) here, then the next two characters are both very narrow - can't the character after (nī) be a narrower one (va? da?), and the vertical line that you read as part of la actually part of the next character? I have nothing constructive to offer, only these doubts. -->
+<lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="13"/><milestone unit="column" n="a"/><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg><unclear>sya</unclear> tu dhanaṁ dat<supplied reason="lost">taṁ</supplied></l>
+    <l n="b"><milestone unit="column" n="b"/><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>s<unclear>v</unclear>arggam icchatā</l>
+<l n="c"><lb n="14"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+    <l n="d"><milestone unit="column" n="b"/><seg met="====-+"><gap reason="lost" quantity="6" unit="character"/></seg>k<choice><unclear>a</unclear><unclear>u</unclear></choice><seg met="="><gap reason="lost" quantity="1" unit="character"/></seg></l>
+</lg>
+
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="3">
+                     <lem>prathita<seg met="-="><gap reason="lost" quantity="2" unit="character"/></seg></lem>
+                     <note>The last syllable of <foreign>prathita</foreign> must have been metrically long.
+                        We suggest restoring <foreign>prathita<supplied reason="lost">ḥ kṣitau</supplied></foreign>,
+                        but other ways to fill the gap are no doubt imaginable.</note>
+                        <!-- not prathita[ẖ kṣitau] because we have ḥ pra earlier in the line-->
+                  </app>
+                  <!-- Apparatus for muni L5?
+                  Daniel's suggestion: The same applies to muni in L5: even if I'm wrong in suggesting munir there, the second and third syllables of a pāda should not both be long, so we expect ni to be long, i.e. to be followed by more than one consonant. But I would leave that to an apparatus note and leave the markup as you have it now.-->
+                  <app loc="6">
+                    <lem>bhaga<choice><unclear>s</unclear><unclear>v</unclear><unclear>t</unclear></choice><seg type="component" subtype="vowel" met="="><gap reason="lost" quantity="1" unit="component"/></seg><seg met="=-++="><gap reason="lost" quantity="6" unit="character"/></seg></lem>
+                    <note>The vowel of the only partially preserved consonant after <foreign>bhaga</foreign> is unknown. We expect this vowel to be prosodically long (third syllable after a short second), but we don’t know whether it was long by nature or only by position.</note>
+                  </app>
+                  <app loc="7">
+                     <lem>me<choice><sic>p</sic><corr>ṣ</corr></choice>ā<unclear>pt</unclear><seg met="==-+-="><gap reason="lost" quantity="5" unit="character"/></seg></lem>
+                     <note>Our correction <foreign><choice><sic>p</sic><corr>ṣ</corr></choice>ā</foreign> and our tentative reading <foreign>pt</foreign> (cf. <foreign>pty</foreign> in line 9) imply that this stanza is stating a date.</note>
+                  </app>
+                  <app loc="9">
+                      <lem>jñānam<seg type="component" subtype="vowel" met="+"><gap reason="lost" quantity="1" unit="component"/></seg><seg met="=-++="><gap reason="lost" quantity="5" unit="character"/></seg></lem>
+                      <note>The <foreign>akṣara</foreign> after <foreign>jñāna</foreign> must have been <foreign>me</foreign> or <foreign>mo</foreign>. In the former case, one could imagine that the original text had <foreign>jñānam eva</foreign>; in the latter one that it had <foreign>jñāna-mokṣa-</foreign>.</note>
+                  </app>
+                  <app loc="11">
+                      <lem>ā<unclear>tma-mukt</unclear>y-a<unclear>rtham</unclear></lem>
+                      <note>The reading is quite unclear because the stone is quite worn for much of this line, but little doubt remains in the end, as the key term <foreign>ātmamukti</foreign> is found in some important Sanskrit texts, notably the <title>Kathāsaritsāgara</title> <supplied reason="explanation">12.3.20</supplied> and the <title>Śivasaṁhitā</title>, in which latter we read as stanza 1.2: <foreign>atha bhaktānurakto ’haṁ <sic>vakti</sic> yogānuśāsanam | īśvaraḥ sarvabhūtānām ātmamuktipradāyakaḥ</foreign>.</note>
+                      <!--
+                    Kathāsaritsāgara
+                      yuddhabandīkṛtena prāksa hi pitrātmamuktaye /<br>
+                      niyamāya pratinidhistātasyeha samarpyata // SoKss_12,3.20 //
+                    Śivasaṁhitā, prathamaḥ paṭalaḥ
+                      ekaṁ jñānaṁ nityam ādyantaśūnyaṁ nānyat kiñcidvatte te vastu satyam |
+                      yadbhedo 'sminn indriyopādhinā vai jñānasyāyaṁ bhāsate nānyathaiva || 1-1 ||
+                      atha bhaktānurakto 'haṃ vakti yogānuśāsanam |
+                      īśvaraḥ sarvabhūtānām ātmamuktipradāyakaḥ || 1-2 ||
+                      tyaktvā vivādaśīlānāṁ mataṁ durjñānahetukam |
+                      ātmajñānāya bhūtānām ananyagaticetasām || 1-3 ||
+                    Uddyota on Svacchandatantra 10.676
+                      yan na sāṃkhyair na yogair vā na caiva pāñcarātrikaiḥ |
+                      svabhāvavādibhir nāpi na ca karmapravādibhiḥ || 10-676 ||
+                        prakṛtipuruṣayor avivekamātrāt saṃsāro vivekāt tu muktir itīdṛgjñānaiḥ sāṃkhyaiḥ,
+                      atraiva cittaikāgryātmayogāveśasamprāpya draṣṭṛsvarūpāvasthityātmamuktivādibhir yogaśāstrasthaiḥ,
+                      ṣaḍviṃśatitattvarūpamahāvibhūtyātmakavāsudevākhyaparaprakṛtipariṇāmātmakaprakṛtyādijagadvādibhiḥ
+                      pāñcarātrikair yan na dṛṣṭam iti sambandhaḥ || -->
+                  </app>
+               </listApp>
+         </div>
+         <div type="translation" resp="part:kuch part:argr"><!-- Translation to be proofread by argr. -->
+ 	           <p rend="stanza" n="1">Victorious is the Slayer of Tripura, the illustrious Āmrātakeśa, by the fire of whose <supplied reason="subaudible">mere</supplied> <supplied reason="explanation">menacing</supplied> sound <foreign>hum</foreign> Kāma has been entirely burnt.</p>
+             <p rend="stanza" n="2">Victorious <supplied reason="subaudible">likewise</supplied> is the king Jayavarman, he whose order is carried on the head by the kings,  spread <gap reason="lost"/>, whose light is equal to that of Indra.</p>
+             <p rend="stanza" n="3">He who has conquered the senses <gap reason="lost"/> by the kings <gap reason="lost"/>.</p>
+             <p rend="stanza" n="4"><gap reason="lost"/> arriving in Aries (?) <gap reason="lost"/> the <supplied reason="undefined">God</supplied> Siddhāyatana <gap reason="lost"/>.</p>
+             <p rend="stanza" n="5"><gap reason="lost"/> knowledge <gap reason="lost"/> the illustrious Āmrātakeśa <gap reason="lost"/>.</p>
+             <p rend="stanza" n="6">In order to obtain the knowledge about the other world and in order to liberate himself, he has established this dark-blue <gap reason="lost"/> stone-made Goddess.</p>
+             <p rend="stanza" n="7"><gap reason="lost"/> the wealth is offered <gap reason="lost"/> by him who desires heaven <gap reason="lost"/>.</p>
+         </div>
+         <div type="commentary">
+            <p n="8">The word <foreign>siddhāyatana</foreign> designates a deity in <ref target="DHARMA_INSK00426.xml">K. 426</ref> (from near Phnom Penh), where the deity’s resources are ordered to be shared with Acaleśvara. See also <ref target="DHARMA_INSK01239.xml">K. 1239</ref>.</p>
+            <!-- Daniel's suggestion: I do not understand how you can be sure that Siddhāyatana is the name of a god here, when in K1239 you translate the same word as "sanctuaries".-->
+         </div>
+        <div type="bibliography">
+	<!--bibliography encoded as per section §9.4 -->
+	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
+           <p>This previously unpublished inscription is edited here by Kunthea Chhom and Arlo Griffiths on the basis of a preliminary edition by Gerdi Gerschheimer, making use of the estampage EFEO n. 1746 and photos 351-25.jpg, 351-26.jpg, AMPP001145.</p>
+        	<!--
+          <listBibl type="primary">
+				     <bibl n="siglum"/>
+			          </listBibl>
+           <listBibl type="secondary">
+              <bibl/>
+           </listBibl>
+         -->
+        </div>
+      </body>
+  </text>
+</TEI>

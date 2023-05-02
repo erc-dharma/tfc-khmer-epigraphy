@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bronze dagger at Boston Museum of Fine Arts no 68.289 (K. 1048), 962 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01048</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:kuch" when="2020-06-16" status="draft">Modifications of apparatus and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<p>
+<lb n="1"/><num value="962">962</num> śaka ja<supplied reason="lost">ṁ</supplied>nvan· loña qyak· can·hvara ta mūla
+<lb n="2"/>ta kamrateṅ· jagat<unclear>a</unclear> treḥ
+</p>
+</div>
+<div type="apparatus">
+    <listApp>
+    <app loc="1">
+                <lem><num value="962">962</num></lem>
+                 <rdg source="bib:Jacques1971_02"><num value="964">964</num></rdg>
+                <rdg source="bib:Bunker+Latchford2004_01"><num value="962">962</num></rdg>
+    </app>
+        <app loc="1">
+                <lem>ja<supplied reason="lost">ṁ</supplied>nvan·</lem>
+                 <rdg source="bib:Jacques1971_02">jaṁnvan·</rdg>
+                <rdg source="bib:Bunker+Latchford2004_01">jamnvan·</rdg>
+    </app>
+        <app loc="1">
+                <lem>jagata</lem>
+                 <rdg source="bib:Jacques1971_02"><!-- KC: No mention in K. 1048.txt. Presumably, it's the same reading as GG+BV.--></rdg>
+                <rdg source="bib:Bunker+Latchford2004_01">jagat ta</rdg>
+            <note>On ne distingue pas, sur la photo, de <foreign>virāma</foreign> sur le <foreign>t</foreign> de <foreign>jagat</foreign>. Il est par contre certain qu’il n’y a pas de <foreign>ta</foreign> après <foreign>jagat<unclear>a</unclear></foreign>.</note>
+    </app>
+            <app loc="2">
+                <lem>treḥ</lem>
+                <rdg source="bib:Jacques1971_02"><!-- KC: No mention in K. 1048.txt. Presumably, it's the same reading as GG+BV.--></rdg>
+                <rdg source="bib:Bunker+Latchford2004_01">tre<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                <note>Bunker et Latchford proposent de restituer <foreign>treḥ</foreign>en <foreign>traibhūvaneśvara</foreign>. Bien qu’il y ait effectivement, après <foreign>treḥ</foreign>, la place pour plus d’une demi-douzaine de lettres, il ne semble pas, d’après la photo, qu’elle ait été gravée ; d’autre part, la voyelle <foreign>e</foreign>, et non <foreign>ai</foreign>, est très claire, comme aussi le <foreign>visarga</foreign>.</note>
+            </app>
+        </listApp>
+            </div>
+            <div type="translation" xml:lang="fra" source="bib:Gerschheimer+Vincent2010_01">
+                <p>962 <foreign>śaka</foreign> <supplied reason="subaudible">= 1040-41 de n. è.</supplied>. Offrande du Loñ Qyak <supplied reason="explanation">de</supplied> Canhvar, qui est <foreign>mūla</foreign>, au Kamrateṅ Jagat <supplied reason="explanation">de</supplied> Treḥ.</p>
+            </div>
+                     <!-- <div type="commentary">
+         </div> -->
+        <div type="bibliography">
+          <p>First read by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1971_02"/><citedRange unit="page">183</citedRange></bibl>) <!-- KC: It does not seem to be published. -->, edited by Emma Bunker and Douglas Latchford (<bibl rend="omitname"><ptr target="bib:Bunker+Latchford2004_01"/><citedRange unit="page"><!-- KC: To check. --></citedRange></bibl>); reedited by Gerdi Gerschheimer and Brice Vincent (<bibl rend="omitname"><ptr target="bib:Gerschheimer+Vincent2010_01"/><citedRange unit="page">110</citedRange></bibl>) with a French translation.</p>
+	 <listBibl type="primary">
+<bibl n="EB+DL">
+      <ptr target="bib:Bunker+Latchford2004_01"/>
+      <citedRange unit="page"><!-- KC: To check. --></citedRange>
+    </bibl>
+	    <bibl n="GG+BV">
+      <ptr target="bib:Gerschheimer+Vincent2010_01"/>
+      <citedRange unit="page">110</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

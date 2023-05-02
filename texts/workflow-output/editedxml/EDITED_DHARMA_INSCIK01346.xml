@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rock inscription from Kbal Spean (K. 1346)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01346</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Cursive angkorian script, typical of the 11th century CE.</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_idListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_idListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:chch" when="2023-02-19">Modifications added to the encoding</change>
+         <change who="part:chch" when="2022-10-06">First encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+         	<lg n="1" met="anuṣṭubh">
+         	    <l n="a"><lb n="1"/><milestone unit="column" n="a"/>namāmy annābhi-padma-stho</l>
+         	    <l n="b"><milestone unit="column" n="b"/>yasya padmodbhavoddhruvam·</l>
+         	    <l n="c"><lb n="2"/><lb n="1"/><milestone unit="column" n="a"/>catur-vvāhu-guṇaṁ vaktuṁ</l>
+         	    <l n="d"><lb n="1"/><milestone unit="column" n="b"/>bhūri-vaddha-catur-mmukhaḥ <g type="ddanda">.</g></l>
+         	</lg>
+             <lg n="2" met="anuṣṭubh">
+                  <l n="a"><lb n="3"/><milestone unit="column" n="a"/>mahā-bhuje bhima-bhujaṅga-śobhe</l>
+                 <l n="b"><milestone unit="column" n="b"/>lavdhā yudhākrānta-mahāricikre</l>
+                 <l n="c"><lb n="4"/><milestone unit="column" n="a"/>vidhāya-varyya-pratitaṁ yaśovdhau</l>
+                 <l n="d"><milestone unit="column" n="b"/>śauriḥ purā śonasatan vande <g type="ddanda">.</g></l>
+             </lg>
+             <lg n="2" met="anuṣṭubh">
+                  <l n="a"><lb n="5"/> nāmān a</l>
+                 <l n="b">ta-mahā-bhuti/vi-siddhi.obhaa</l>
+                 <l n="c"><lb n="6"/></l>
+                 <l n="d"> <g type="danda">.</g>
+                ta pi  paripala n
+                nandizvara</l>
+             </lg>
+         </div>
+         <div type="apparatus">
+         </div>
+         <div type="translation" resp="part:chch">
+ 	<!--translation encoded as per EGD §9.2 -->
+         </div>
+             <div type="translation" xml:lang="fra" resp="part:chch">
+                 <p rend="stanza" n="1">Celui à quatre visages qui se tient sur le lotus-vaisseau honore (?) pour parler des qualités de celui qui a quatre bras, immuable jailli de son lotus</p>
+         </div>
+         <div type="commentary">
+         </div>
+        <div type="bibliography">
+           <p>First edited in French and English by Chloé Chollet in her PhD thesis, from a photogrammetric model created by Adeline Levivier in May 2022.</p>
+        </div>
+      </body>
+  </text>
+</TEI>

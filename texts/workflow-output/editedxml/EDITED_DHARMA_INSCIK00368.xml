@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Say Fong (inscription of hosptital of King Jayavarman VII, K. 368), 1108 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311"><!-- To change the viaf number to Louis Finot's  -->
+                  <forename>Louis</forename>
+                  <surname>Finot</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00368</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-06-03" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn">
+                   <div type="textpart" n="1"><head xml:lang="eng">Face A</head>
+<lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="A1"/><g type="ddandaOrnate">.</g> <g type="circleTarget">.</g> namo vuddhāya nirmmāṇa<space/></l>
+<l n="b">dharmma-sāmbhoga-mūrttaye</l>
+<l n="c"><lb n="A2"/>bhāvābhāva-dvayātīto <space/></l>
+<l n="d">dvayātmā yo nirātmakaḥ</l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="A3"/><g type="circleTarget">.</g> bhaiṣajyaguru-vaidūryya<space/></l>
+<l n="b">prabharāja-jinan name</l>
+<l n="c"><lb n="A4"/>kṣemārogyāṇi janyante <space/></l>
+<l n="d">yena nāmāpi śr̥ṇvatām·</l>
+</lg>
+                   <lg n="3" met="upajāti">
+<l n="a"><lb n="A5"/><g type="circleTarget">.</g> śrīsūryyavairocanaca<choice><orig>nd</orig><corr>ṇḍ</corr></choice>arociḥ <supplied reason="omitted"><space/></supplied></l>
+<l n="b">śrīcandravairocanarohiṇīśaḥ</l>
+<l n="c"><lb n="A6"/>rujāndhakārāpaharau prajānāṁ <space/></l>
+<l n="d">munīndra-meror jayatām upānte</l>
+</lg>
+                   <lg n="4" met="upajāti">
+<l n="a"><lb n="A7"/><g type="circleTarget">.</g> Āsīn nr̥paś śrīdharaṇīndravarmma<space/></l>
+<l n="b">devātmajaś śrījayavarmmadevaḥ</l>
+<l n="c"><lb n="A8"/>jāto jayāditya-pureśvarāyāṁ <supplied reason="omitted"><space/></supplied></l>
+<l n="d">vedāmvaraikendubhir āptarājyaḥ</l>
+</lg>
+                   <lg n="5" met="upajāti">
+<l n="a"><lb n="A9"/><g type="circleTarget">.</g> niśśeṣarājanya-śirovataṁsa<space/></l>
+<l n="b">pādāmvujas saṁyati saṁhr̥tāriḥ</l>
+<l n="c"><lb n="A10"/>paryyagrahīt sad-guṇa-ratna-bhūṣāṁ <space/></l>
+<l n="d">yat-kīrtti-hārāṁ vasudhāṅganāṁ yaḥ</l>
+</lg>
+                   <lg n="6" met="upajāti">
+<l n="a"><lb n="A11"/><g type="circleTarget">.</g> sadāmudā varddhita-dāna-vāri<space/>s</l>
+<l n="b">sadāna-varddhi-priya-saṁpadāḍhyaḥ</l>
+<l n="c"><lb n="A12"/>Iṣṭyāhavaiḥ kliṣṭa-surārikānto <space/></l>
+<l n="d">yaḥ kr̥ṣṇa-kalpo ’py avadātavarṇaḥ</l>
+</lg>
+                   <lg n="7" met="upajāti">
+<l n="a"><lb n="A13"/><g type="circleTarget">.</g> yo ’bhyarthitāṁ bhūpatibhir durāpāṁ <space/></l>
+<l n="b">lakṣmīm upekṣya svayam abhyupetām·</l>
+<l n="c"><lb n="A14"/>dikṣu drutāṁ hlādayati sma kīrtti<space/>m</l>
+<l n="d">aho vicitrā rucir indriyāṇām·</l>
+</lg>
+                   <lg n="8" met="upajāti">
+<l n="a"><lb n="A15"/><g type="circleTarget">.</g> yaṁ vīkṣya dhāmnā vijite ’pi nāthe <supplied reason="omitted"><space/></supplied></l>
+<l n="b">vuddhveva kāntyā vijitañ ca kāmam·</l>
+<l n="c"><lb n="A16"/>śucan tyajantyo nijanāma sārthaṁ <space/></l>
+<l n="d">vandhīkr̥tāri-pramadāḥ pracakruḥ</l>
+</lg>
+                   <lg n="9" met="upajāti">
+<l n="a"><lb n="A17"/><g type="circleTarget">.</g> puṇyāyuṣaḥ kṣīṇatayā yuge ’ntye <supplied reason="omitted"><space/></supplied></l>
+<l n="b">kṣayaṅ gatāyāṁ kṣayavat prajāyām·</l>
+<l n="c"><lb n="A18"/>prajāpatiḥ prāg-yugavad vitene <space/></l>
+<l n="d">yo ’bhyutthitiṁ pūrṇavr̥ṣāṁ samr̥ddhām·</l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="A19"/><g type="circleTarget">.</g> R̥ddhyā svargg<choice><orig>i</orig><corr>ī</corr></choice>kr̥tāṁ pr̥thvīṁ <space/></l>
+<l n="b">matvā maraṇa-dūṣitām·</l>
+<l n="c"><lb n="A20"/>martyānām amaratvāya <space/></l>
+<l n="d">yo ’diśad bheṣajāmr̥tam·</l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="A21"/><g type="circleTarget">.</g> puṣyaṅ kr̥tī kr̥tīkr̥tya <space/></l>
+<l n="b">pūrṇāṅgaṁ yo ’karod vr̥ṣam·</l>
+<l n="c"><lb n="A22"/>rāja-vaidyā-cikitsyāṅghri<space/></l>
+<l n="d">bhaṅgan triyugadoṣataḥ</l>
+</lg>
+                   <lg n="12" met="anuṣṭubh">
+<l n="a"><lb n="A23"/><g type="circleTarget">.</g> jitvānyagopativr̥ṣaṁ <space/></l>
+<l n="b">svairan tribhuvanāṅgane</l>
+<l n="c"><lb n="A24"/>jr̥mbhate ninadan dhīraṁ <space/></l>
+<l n="d">vr̥ṣo yat-puṣkalīkr̥taḥ</l>
+</lg>
+                   </div>
+                   <div type="textpart" n="2"><head xml:lang="eng">Face B</head>
+                   <lg n="13" met="anuṣṭubh">
+<l n="a"><lb n="B1"/><g type="circleTarget">.</g> dehinān deha-rogo ya<space/><supplied reason="lost">n</supplied></l>
+<l n="b"><supplied reason="lost">na svaro</supplied>go rujattarām·</l>
+<l n="c"><lb n="B2"/>rāṣṭra-duḥkhaṁ hi bhart<unclear>r̥̄</unclear>ṇā<space/>n</l>
+<l n="d">duḥkhaṁ duḥkhan tu nātmanaḥ</l>
+</lg>
+   <lg n="14" met="anuṣṭubh">
+<l n="a"><lb n="B3"/><g type="circleTarget">.</g> Āyurvvedāstra-vedeṣu <space/></l>
+<l n="b">vaidya-vīrair vviśāradaiḥ</l>
+<l n="c" real="++-++--+"><lb n="B4"/>yo ’ghātayad rāṣṭra-rujo <space/></l>
+<l n="d">rujārīn bheṣajāyudhaiḥ</l>
+</lg>  
+                   <lg n="15" met="anuṣṭubh">
+<l n="a"><lb n="B5"/><g type="circleTarget">.</g> sarvveṣām aparādhān ya<space/>s</l>
+<l n="b">sarvvataḥ pariśodhayan·</l>
+<l n="c" real="-+-++--+"><lb n="B6"/>yugāparādhena rujā<space/>m</l>
+<l n="d">aparādhān vyaśodhayat·</l>
+</lg>
+                   <lg n="16" met="anuṣṭubh">
+<l n="a" real="++-++--+"><lb n="B7"/><g type="circleTarget">.</g> sārogya-śālaṁ parito <space/></l>
+<l n="b">bhaiṣajya-sugataṁ vyadhāt·</l>
+<l n="c"><lb n="B8"/>sārddhañ jinaurasābhyāṁ ya<space/>s</l>
+<l n="d">sadā-śāntyai prajā-rujām·</l>
+</lg>
+                   <lg n="17" met="anuṣṭubh">
+<l n="a"><lb n="B9"/><g type="circleTarget">.</g> sa vyadhād idam ārogya<space/></l>
+<l n="b">śālaṁ sasugatālayam·</l>
+<l n="c"><lb n="B10"/>bhaiṣajya-sugatañ ceha <space/></l>
+<l n="d">dehāmvara-hr̥d-indunā</l>
+</lg>
+                   <lg n="18" met="anuṣṭubh">
+<l n="a"><lb n="B11"/><g type="circleTarget">.</g> so ’tiṣṭhipad imau cātra <space/></l>
+<l n="b">rogiṇāṁ roga-ghātinau</l>
+<l n="c"><lb n="B12"/>śrīmantau sūryya-candrādi<space/></l>
+<l n="d">vairocana-jinātmajau</l>
+</lg>
+                   <lg n="19" met="anuṣṭubh">
+<l n="a"><lb n="B13"/><g type="circleTarget">.</g> cikitsyā Atra catvāro <space/></l>
+<l n="b">varṇā dvau bhiṣajau tayoḥ</l>
+<l n="c"><lb n="B14"/>pumān ekaḥ striyau ca dve <space/></l>
+<l n="d">Ekaśaḥ sthitidāyinaḥ</l>
+</lg>
+                   <lg n="20" met="anuṣṭubh">
+<l n="a"><lb n="B15"/><g type="circleTarget">.</g> nidhipālau pumāṅsau dvau <space/></l>
+<l n="b">bheṣajānāṁ vibhājakau</l>
+<l n="c"><lb n="B16"/>grāhakau vrīhi-kāṣṭhānā<space/>n</l>
+<l n="d">tad-dāyibhyaḥ pratiṣṭhitau</l>
+</lg>
+                   <lg n="21" met="anuṣṭubh">
+<l n="a"><lb n="B17"/><g type="circleTarget">.</g> pācakau tu pumāṅsau dvau <space/></l>
+<l n="b">pākaidhodaka-dāyinau</l>
+<l n="c"><lb n="B18"/>puṣpa-darbha-harau deva<space/></l>
+<l n="d">vasateś ca viśodhakau</l>
+</lg>
+                   <lg n="22" met="anuṣṭubh">
+<l n="a"><lb n="B19"/><g type="circleTarget">.</g> dvau yajña-hāriṇau pattra<space/></l>
+<l n="b">kārau pattra-śalākayoḥ</l>
+<l n="c"><lb n="B20"/>dātārāv atha bhaiṣajya<space/></l>
+<l n="d">pākendhana-harāv ubhau</l>
+</lg>
+                   <lg n="23" met="anuṣṭubh">
+<l n="a"><lb n="B21"/><g type="circleTarget">.</g> narāś caturdaśārogya<space/></l>
+<l n="b">śālā-saṁrakṣiṇaḥ punaḥ</l>
+<l n="c"><lb n="B22"/>dātāro bheṣajānā<seg met="="><gap reason="lost" quantity="1" unit="character"/></seg> <space/></l>
+<l n="d"><seg met="====-+"><gap reason="lost" quantity="6" unit="character"/></seg>s<unclear>thi</unclear>te</l>
+</lg>
+                   <lg n="24" met="anuṣṭubh">
+<l n="a"><lb n="B23"/><g type="circleTarget">.</g> teṣām e<unclear>ko</unclear> na<unclear>r</unclear>o <seg met="+="><gap reason="lost" quantity="2" unit="character"/></seg> <space/></l>
+<l n="b"><seg met="====-+-"><gap reason="lost" quantity="7" unit="character"/></seg>naḥ</l>
+<l n="c"><lb n="B24"/>vāri-santā<supplied reason="lost">pa</supplied>-bhaiṣaja<space/></l>
+<l n="d"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+</lg>
+                   </div>
+                   <div type="textpart" n="3"><head xml:lang="eng">Face C</head>
+                   <lg n="25" met="anuṣṭubh">
+<l n="a"><lb n="C1"/>dve tu vrīhy-avaghātinyau <space/></l>
+<l n="b">tā Aṣṭau pi<choice><orig>nd</orig><corr>ṇḍ</corr></choice>itāḥ striyaḥ</l>
+<l n="c"><lb n="C2"/>tāsān tu sthiti-dāyinyaḥ <space/></l>
+<l n="d">pratyekaṁ yoṣitāv ubhe</l>
+</lg>
+                   <lg n="26" met="anuṣṭubh">
+<l n="a"><lb n="C3"/>punaḥ pi<choice><orig>nd</orig><reg>ṇḍ</reg></choice>īkr̥tās te tu <space/></l>
+<l n="b">dvā-triṁśat paricārikāḥ</l>
+<l n="c"><lb n="C4"/>bhūyo ’ṣṭānavatis sarvve <space/></l>
+<l n="d">pi<choice><orig>nd</orig><corr>ṇḍ</corr></choice>itās sthitidais saha</l>
+</lg>
+                   <lg n="27" met="anuṣṭubh">
+<l n="a"><lb n="C5"/>ta<choice><orig>nd</orig><corr>ṇḍ</corr></choice>ulā deva-pūjāṅśā <space/></l>
+<l n="b">Eka-droṇā dine dine</l>
+<l n="c"><lb n="C6"/>śeṣā yajñāḥ pradātavyā <space/></l>
+<l n="d">rogibhyaḥ prati-vāsaram·</l>
+</lg>
+                   <lg n="28" met="anuṣṭubh">
+<l n="a"><lb n="C7"/><g type="circleTarget">.</g> prati-varṣan tv idaṁ grāhyaṁ <space/></l>
+<l n="b"> triṣ-kr̥tvo bhūpater nidheḥ</l>
+<l n="c"><lb n="C8"/>pratyekañ caitra-pūrṇamyāṁ <space/></l>
+<l n="d">śrāddhe cāpy uttarāyaṇe</l>
+</lg>
+                   <lg n="29" met="anuṣṭubh">
+<l n="a" real="++-+----"><lb n="C9"/><g type="circleTarget">.</g> raktāntajāla-vasana<space/>m</l>
+<l n="b">ekaṁ dhautāmvarāṇi ṣaṭ·</l>
+<l n="c" real="+++++--+"><lb n="C10"/>dve gobhikṣe pañcapalaṁ <space/></l>
+<l n="d">takkaṁ kr̥ṣṇā ca tāvatī</l>
+</lg>
+                   <lg n="30" met="anuṣṭubh">
+<l n="a"><lb n="C11"/><g type="circleTarget">.</g> Ekaḥ pañca-palas siktha<space/></l>
+<l n="b">dīpa Eka-palāḥ punaḥ</l>
+<l n="c"><lb n="C12"/>catvāro madhunaḥ prasthā<space/>s</l>
+<l n="d">trayaḥ prasthās tilasya ca</l>
+</lg>
+                   <lg n="31" met="anuṣṭubh">
+<l n="a"><lb n="C13"/><g type="circleTarget">.</g> ghr̥taṁ prastho ’tha bhaiṣajyaṁ <space/></l>
+<l n="b">pippalī-reṇu-dīpyakam·</l>
+<l n="c"><lb n="C14"/>punnāgañ caikaśaḥ pāda<space/></l>
+<l n="d">dvayañ jātī-phala-trayam·</l>
+</lg>
+                   <lg n="32" met="anuṣṭubh">
+<l n="a" real="+++++-++"><lb n="C15"/><g type="circleTarget">.</g> hiṅgu-kṣāraṁ kottha-jīrṇa<space/>m</l>
+<l n="b">ekaikañ caika-pādakam·</l>
+<l n="c"><lb n="C16"/>pañca-vimvan tu karpūraṁ <space/></l>
+<l n="d">śarkarāyāḥ pala-dvayam·</l>
+</lg>
+                   <lg n="33" met="anuṣṭubh">
+<l n="a" real="++++---+"><lb n="C17"/><g type="circleTarget">.</g> daṅdaṅsākhyā jala-carāḥ <space/></l>
+<l n="b">pañcākhyātā Athaikaśaḥ</l>
+<l n="c"><lb n="C18"/>śrīvāsañ candanan dhānyaṁ <space/></l>
+<l n="d">śatapuṣpaṁ palaṁ smr̥tam·</l>
+</lg>
+                   <lg n="34" met="anuṣṭubh">
+<l n="a" real="+++---++"><lb n="C19"/><g type="circleTarget">.</g> Elānāgara-kakola<supplied reason="lost">ṁ</supplied> <space/></l>
+<l n="b"> marican tu pala-dvayam·</l>
+<l n="c"><lb n="C20"/>praty-ekam ekaśaḥ prasthau <space/></l>
+<l n="d">dvau pracīvala-sarṣṣapau</l>
+</lg>
+                   <lg n="35" met="anuṣṭubh">
+<l n="a" real="++-++++-"><lb n="C21"/><g type="circleTarget">.</g> tvak-sārddhamuṣṭiḥ pathyās t<supplied reason="lost">u</supplied> <space/></l>
+<l n="b">catvāriṅśat prakalpitāḥ</l>
+<l n="c"><lb n="C22"/>dārvīchidā-dvayañ cātha <space/></l>
+<l n="d">sārddhaika-palam ekaśaḥ</l>
+</lg>
+                   <lg n="36" met="anuṣṭubh">
+<l n="a" real="++-++++-"><lb n="C23"/><g type="circleTarget">.</g> kandaṅ halāy jansyaṅ deva<space/></l>
+<l n="b">dāru <seg met="="><gap reason="lost" quantity="1" unit="character"/></seg>vyaṁ prakalpitam<unclear>·</unclear></l>
+<l n="c" real="+-++---+"><lb n="C24"/>Eka-pādaika-palako <space/></l>
+<l n="d">’pi <seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg>vaḥ prakalpitaḥ</l>
+</lg>
+                   </div>
+                   <div type="textpart" n="4"><head xml:lang="eng">Face D</head>
+                   <lg n="37" met="anuṣṭubh">
+<l n="a" real="-+-+--++"><lb n="D1"/><g type="circleTarget">.</g> Athaikaśo madhu-guddau <space/></l>
+<l n="b">ku<choice><orig>d</orig><corr>ḍ</corr></choice>uva-trayamānitau</l>
+<l n="c"><lb n="D2"/>Ekaḥ prasthas tu sauvīra<space/></l>
+<l n="d">nirasya parikalpitaḥ</l>
+</lg>
+                   <lg n="38" met="anuṣṭubh">
+<l n="a" real="++-++--+"><lb n="D3"/><g type="circleTarget">.</g> dvau yājakau tad-gaṇaka<space/>ś</l>
+<l n="b">caikas te dharmma-dhāriṇaḥ</l>
+<l n="c" real="-+-++++-"><lb n="D4"/>trayo niyojyāś śrīrāja<space/></l>
+<l n="d">vihārādhyāpakena ca</l>
+</lg>
+                   <lg n="39" met="anuṣṭubh">
+<l n="a"><lb n="D5"/><g type="circleTarget">.</g> varṣe varṣe tv idan teṣu <space/></l>
+<l n="b">praty-ekaṁ parikalpitam·</l>
+<l n="c"><lb n="D6"/>tisro vr̥hatyo dvādaśa<space/></l>
+<l n="d">yugā daśakarāḥ paṭāḥ</l>
+</lg>
+                   <lg n="40" met="anuṣṭubh">
+<l n="a"><lb n="D7"/><g type="circleTarget">.</g> yugmāni nava hastānāṁ <space/></l>
+<l n="b">vāsasān daśa pañca ca</l>
+<l n="c"><lb n="D8"/>dvi-kaṭṭikaṁ punaḥ pātra<space/></l>
+<l n="d">tritayan trāpuṣaṁ smr̥tam·</l>
+</lg>
+                   <lg n="41" met="anuṣṭubh">
+<l n="a"><lb n="D9"/><g type="circleTarget">.</g> deyā dvādaśa khāryyaś ca <space/></l>
+<l n="b">ta<choice><orig>nd</orig><corr>ṇḍ</corr></choice>ulānām athaikaśaḥ</l>
+<l n="c" real="+-++---+"><lb n="D10"/>sikthatakke tripalake <space/></l>
+<l n="d">deye kr̥ṣṇā tu ṣaṭpalā</l>
+</lg>
+                   <lg n="42" met="upajāti">
+<l n="a"><lb n="D11"/><g type="circleTarget">.</g> vadanya-vr̥ṇ<choice><orig>d</orig><corr>ḍ</corr></choice>āgrasaro ’pi rājā <space/></l>
+<l n="b">prajārtha-cintā-janitārthi-bhāvaḥ</l>
+<l n="c"><lb n="D12"/>bhūyo ’py asau yācata Ity ajasraṁ <supplied reason="omitted"><space/></supplied></l>
+<l n="d">praditsataḥ kamvuja-rājasiṁhān<unclear>·</unclear></l>
+</lg>
+                   <lg n="43" met="upajāti">
+<l n="a"><lb n="D13"/><g type="circleTarget">.</g> kr̥taṁ mayaitat sukr̥taṁ bhavadbhi<space/>s</l>
+<l n="b">saṁrakṣaṇīyaṁ bhavadīyam etat<unclear>·</unclear></l>
+<l n="c"><lb n="D14"/> puṇyasya kartuḥ phala-bhāk prakr̥ṣṭaṁ <supplied reason="omitted"><space/></supplied></l>
+<l n="d">saṁrakṣitety uktam idaṁ hi vr̥ddhaiḥ</l>
+</lg>
+                   <lg n="44" met="upajāti">
+<l n="a"><lb n="D15"/><g type="circleTarget">.</g> yo rājadhānyān nihitaḥ prabhutve <supplied reason="omitted"><space/></supplied></l>
+<l n="b">mantrī sa Evātra niyojanīyaḥ</l>
+<l n="c"><lb n="D16"/>na preṣitavyā Iha karmma-kārāḥ <space/></l>
+<l n="d">karādi-dāneṣu na cānya-kāryye</l>
+</lg>
+                   <lg n="45" met="upajāti">
+<l n="a"><lb n="D17"/><g type="circleTarget">.</g> praty-agradoṣā Api dehinas te <supplied reason="omitted"><space/></supplied></l>
+<l n="b">na daṇ<choice><orig>d</orig><corr>ḍ</corr></choice>anīyā Iha ye praviṣṭāḥ</l>
+<l n="c"><lb n="D18"/>te daṇ<choice><orig>d</orig><corr>ḍ</corr></choice>anīyās tu na marṣaṇīyā <space/></l>
+<l n="d">ye prāṇi-hiṁsāniratā Ihasthāḥ</l>
+</lg>
+                   <lg n="46" met="upajāti">
+<l n="a"><lb n="D19"/><g type="circleTarget">.</g> jagad-dhitātyartha-tr̥ṣas sa rājā <space/></l>
+<l n="b">punar vabhāṣe praṇidhānam etat·</l>
+<l n="c"><lb n="D20"/>bhavābdhi-magnāñ janatāṁ samastā<space/>m</l>
+<l n="d">uttārayeyaṁ sukr̥tena tena</l>
+</lg>
+                   <lg n="47" met="upajāti">
+<l n="a"><lb n="D21"/><g type="circleTarget">.</g> ye kamvujendrāḥ kuśalānuraktā <supplied reason="omitted"><space/></supplied></l>
+<l n="b">Imāṁ pratiṣṭhāṁ mama rakṣitāraḥ</l>
+<l n="c"><lb n="D22"/>te sānvayāntaḥ-pura-mantri-mittrā <supplied reason="omitted"><space/></supplied></l>
+<l n="d">nirāmayaṁ mokṣa-puraṁ labheran·</l>
+</lg>
+            <lg n="48" met=" sragdharā">
+<l n="a"><lb n="D23"/><g type="circleTarget">.</g> nānā-divyāṅganābhir viracita-ratibhir bhūri-divyopabhogair</l>
+<l n="b"><lb n="D24"/><seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg> vyeyur divyadehā diśi diśi <seg met="--"><gap reason="lost" quantity="2" unit="character"/></seg>jās tejasā tejayantaḥ</l>
+<l n="c"><lb n="D25"/>dār<seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg>itvā samantād acalita<seg met="--+"><gap reason="lost" quantity="1" unit="character"/></seg>svagra<seg met="++-+"><gap reason="lost" quantity="4" unit="character"/></seg>ṇa</l>
+<l n="d"><lb n="D26"/>ye <seg met="+++-++-"><gap reason="lost" quantity="7" unit="character"/></seg>kuśalada<seg met="-"><gap reason="lost" quantity="1" unit="character"/></seg>aṁ puṇyam etan madīyam<unclear>·</unclear></l>
+</lg>       
+</div>
+                </div>
+            <div type="apparatus">
+               <div type="textpart" n="1"><head xml:lang="eng">Face A</head>
+               <listApp>
+                  <app loc="A3">
+                     <lem>vaidūryya</lem>
+                     <rdg source="bib:Finot1903_01">vaiḍūryya</rdg>
+                  </app>
+                  <app loc="A5">
+                     <lem>ca<choice><orig>nd</orig><corr>ṇḍ</corr></choice></lem>
+                     <rdg source="bib:Finot1903_01">caṇḍa</rdg>
+                  </app>
+                  <app loc="A6">
+                     <lem>upānte</lem>
+                     <rdg source="bib:Finot1903_01">uhante</rdg>
+                  </app>
+                  <app loc="A10">
+                     <lem>bhūṣāṁ</lem>
+                     <rdg source="bib:Finot1903_01">bhūmāṁ</rdg>
+                  </app>
+                  <app loc="A12">
+                     <lem>Iṣṭyāhavaiḥ</lem>
+                     <rdg source="bib:Finot1903_01">naṣṭyāhavaiḥ</rdg>
+                     <rdg source="bib:Finot1915_05">Iṣṭyāhavaiḥ</rdg>
+                  </app>
+                  <app loc="A19">
+                     <lem>R̥ddhyā</lem>
+                     <rdg source="bib:Finot1903_01">buddhyā</rdg>
+                     <rdg source="bib:Finot1915_05">R̥ddhyā</rdg>
+                  </app>
+                  <app loc="A19">
+                     <lem>svargg<choice><orig>i</orig><corr>ī</corr></choice></lem>
+                     <rdg source="bib:Finot1903_01">svarggī</rdg>
+                  </app>
+               </listApp>
+               </div>
+               <div type="textpart" n="2"><head xml:lang="eng">Face B</head>
+                  <listApp>
+                  <app loc="B1">
+                     <lem><supplied reason="lost">na svaro</supplied>go</lem>
+                     <rdg source="bib:Finot1915_05">manorogo</rdg>
+                     <note>It is the reading in the almost identical inscription of Kok Roka K. 435.</note>
+                  </app>
+                  <app loc="B3">
+                     <lem>Āyurvvedāstra</lem>
+                     <rdg source="bib:Finot1903_01">Āyurvedāstra</rdg>
+                  </app>
+                  <app loc="B3">
+                     <lem>vviśāradaiḥ</lem>
+                     <rdg source="bib:Finot1903_01">viśāradaiḥ</rdg>
+                  </app>
+                  <app loc="B6">
+                     <lem>yugāparādhena</lem>
+                     <rdg source="bib:Finot1915_05">yugāparādhe na</rdg>
+                  </app>
+                  </listApp>
+               </div>
+               <div type="textpart" n="3"><head xml:lang="eng">Face C</head>
+                  <listApp>
+                  <app loc="C1">
+                     <lem>pi<choice><orig>nd</orig><corr>ṇḍ</corr></choice>itāḥ</lem>
+                     <rdg source="bib:Finot1903_01">piṇḍitāḥ</rdg>
+                  </app>
+                  <app loc="C3">
+                     <lem>pi<choice><orig>nd</orig><reg>ṇḍ</reg></choice>īkr̥tās</lem>
+                     <rdg source="bib:Finot1903_01">piṇḍīkr̥tās</rdg>
+                  </app>
+                  <app loc="C4">
+                     <lem>’ṣṭānavatis</lem>
+                     <rdg source="bib:Finot1903_01">’ṣṭhānavatis</rdg>
+                  </app>
+                  <app loc="C4">
+                     <lem>pi<choice><orig>nd</orig><corr>ṇḍ</corr></choice>itāḥ</lem>
+                     <rdg source="bib:Finot1903_01">piṇḍitāḥ</rdg>
+                  </app>
+                  <app loc="C5">
+                     <lem>ta<choice><orig>nd</orig><corr>ṇḍ</corr></choice>ulā</lem>
+                     <rdg source="bib:Finot1903_01">taṇḍulā</rdg>
+                  </app>
+                  <app loc="C22">
+                     <lem>dārvīchidā</lem>
+                     <rdg source="bib:Finot1903_01">dārvībhidā</rdg>
+                     <rdg source="bib:Finot1915_05">dārvīchidā</rdg>
+                  </app>
+                  <app loc="C23">
+                     <lem>halāy</lem>
+                     <rdg source="bib:Finot1915_05">ha<choice><unclear>l</unclear><unclear>rl</unclear></choice>āy</rdg>
+                  </app>
+                  </listApp>
+               </div>
+               <div type="textpart" n="4"><head xml:lang="eng">Face D</head>
+                  <listApp>
+                  <app loc="D1">
+                     <lem>ku<choice><orig>d</orig><corr>ḍ</corr></choice>uva°</lem>
+                     <rdg source="bib:Finot1903_01">kuḍuva°</rdg>
+                  </app>
+                  <app loc="D9">
+                     <lem>ta<choice><orig>nd</orig><corr>ṣḍ</corr></choice>ulānām</lem>
+                     <rdg source="bib:Finot1903_01">taṇḍulānām</rdg>
+                  </app>
+                  <app loc="D11">
+                     <lem>vadanya</lem>
+                     <rdg source="bib:Finot1903_01">varānya</rdg>
+                  </app>
+                  <app loc="D11">
+                     <lem>vr̥ṇ<choice><orig>d</orig><corr>ḍ</corr></choice>āgrasaro</lem>
+                     <rdg source="bib:Finot1903_01">°vr̥ṇḍāgrasaro</rdg>
+                  </app>
+                  <app loc="D16">
+                     <lem>preṣitavyā</lem>
+                     <rdg source="bib:Finot1903_01">preṣatavyā</rdg>
+                     <rdg source="bib:Finot1915_05">preṣitavyā</rdg>
+                  </app>
+                  <app loc="D17">
+                     <lem>daṇ<choice><orig>d</orig><corr>ḍ</corr></choice>anīyā</lem>
+                     <rdg source="bib:Finot1903_01">daṇḍanīyā</rdg>
+                  </app>
+                  <app loc="D18">
+                     <lem>daṇ<choice><orig>d</orig><corr>ḍ</corr></choice>anīyās</lem>
+                     <rdg source="bib:Finot1903_01">daṇḍanīyās</rdg>
+                  </app>
+                  <app loc="D18">
+                     <lem>Ihasthāḥ</lem>
+                     <rdg source="bib:Finot1903_01">Ihāsthāḥ</rdg>
+                     <rdg source="bib:Finot1915_05">Ihasthāḥ</rdg>
+                  </app>
+                  <app loc="D19">
+                     <lem>°tr̥ṣas</lem>
+                     <rdg source="bib:Finot1903_01">°kr̥pas</rdg>
+                     <rdg source="bib:Finot1915_05">°tr̥ṣas</rdg>
+                  </app>
+                  <app loc="D19">
+                     <lem>praṇidhānam</lem>
+                     <rdg source="bib:Finot1903_01">pranidhānam</rdg>
+                  </app>
+               </listApp>         
+               </div>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Finot1903_01">
+             <p rend="stanza" n="1">Hommage au Buddha, qui a les formes de la matière, de la nature et de l’esprit, qui dépasse la dualité de l’être et du non-être, qui personnifie la non-dualité, étant toutefois impersonnel.</p>
+            <p rend="stanza" n="2">Je m’incline devant le Jina Bhaiṣajyaguruvaiḍūryaprabharāja, qui donne la paix et la santé à ceux qui entendent seulement son nom.</p>
+            <p rend="stanza" n="3">Śrī Sūryavairocanacaṇḍarocis, Śrī Candravairocanarohiṇīśa, qui tous deux écartent des créatures les ténèbres de la maladie, reconnaissent la supériorité de ce Meru des saints.</p>
+            <p rend="stanza" n="4">Il était un roi, Śrī Jayavarmadeva, fils de Śrī Dharaṇīndravarmadeva, né d’une princesse de Jayādityapura : il acquit la royauté par l’onde unique <supplied reason="subaudible">que verse</supplied> le ciel Veda.</p>
+            <p rend="stanza" n="5">Ses pieds étaient une couronne de lotus sur la tête de tous les princes ; il repoussait ses ennemis dans les combats ; riche en joyaux, qui étaient des vertus, il prit pour femme la Terre et lui donna pour collier sa gloire.</p>
+            <p rend="stanza" n="6">Augmentant avec une joie constante le flot des libéralités, riche d’une prospérité favorisée d’un succès toujours renouvelé, obscurcissant par des combats d’extermination l’éclat des ennemis des dieux, il était semblable à Kr̥ṣṇa malgré la blancheur de son teint.</p>
+            <p rend="stanza" n="7">Après avoir vu la capricieuse Lakṣmī <supplied reason="explanation">la fortune</supplied>, que courtise les rois, venir d’elle même à lui, il réjouissait la volage Kīrtī <supplied reason="explanation">la gloire</supplied> à tous les points de l’espace : miraculeux éclat de son énergie !</p>
+            <p rend="stanza" n="8">Sentant à sa vue, - en dépit de leurs époux vaincus par sa majesté, - leur amour vaincu par sa grâce, oubliant leur chagrin, les femmes des ennemis captifs proclamaient, avec intention, leurs noms.</p>
+            <p rend="stanza" n="9">Le bien, principe de la vie, s’épuise, et le monde se meurt au dernier yuga : ainsi se mourrait son peuple ; mais, tel que prajāpati au début des temps nouveaux, il créa une renaissance prospère, où le taureau était complet.</p>
+            <p rend="stanza" n="10">Voyant que la terre, dont sa sagesse avait fait le ciel, était opprimée par la mort, il indiqua l’ambroisie des remèdes pour l’immortalité des mortels.</p>
+            <p rend="stanza" n="11">Faisant, par son adresse, de l’âge de Kali à l’âge Kr̥ta, il rendit l’intégralité de ses membres au taureau, dont les médecins du royaume n’eussent pu guérir les pieds mutilés par trois <foreign>yuga</foreign>.</p>
+            <p rend="stanza" n="12">Victorieux du taureau des autres rois, allant à sa fantaisie dans le parc univers, le Taureau, qu’il a rendu fort, prospère et pousse de profonds mugissements.</p>
+            <p rend="stanza" n="13">Il souffrait des maladies de ses sujets plus que des siennes : car c’est la douleur publique qui fait la douleur des rois, et non leur propre douleur.</p>
+            <p rend="stanza" n="14">Par des guerriers - les médecins - versé dans la science des armes - la médecine - il détruisait les ennemis qui infestaient son royaume - les maladies - au moyen de ses armes : les remèdes.</p>
+            <p rend="stanza" n="15">Excusant entièrement les fautes de tous par la faute du temps, il effaçait les fautes des maladies.</p>
+            <p rend="stanza" n="16">Il érigea le Sugata Bhaiṣajya avec un hôpital à l’entour et les deux fils du Jina, pour le soulagement perpétuel des maladies de ses sujets.</p>
+            <p rend="stanza" n="17">Il établit ici cet hôpital avec un temple de Sugata et un Sugata Bhaiṣajya, par le cœur, lune, de son corps, ciel.</p>
+            <p rend="stanza" n="18">Il érigea de même ici ces deux guérisseurs des malades, les vénérables Sūrya- et candravairocana etc., fils du Jina.</p>
+            <p rend="stanza" n="19">Les quatre castes peuvent être soignées ici. Il y a deux médecins ; pour chacun d’eux, un homme et deux femmes, ayant droit au logement.</p>
+            <p rend="stanza" n="20">Deux magasiniers chargés de la distribution des remèdes, recevant les mesures de riz et préposés à ceux qui y participent.</p>
+            <p rend="stanza" n="21">Deux cuisiniers, ayant droit au combustible et à l’eau, chargés d’enlever les fleurs et le gazon, et de nettoyer le temple.</p>
+            <p rend="stanza" n="22">Deux <foreign>yajñahārin</foreign>, chargés de faire les feuilles, de donner les feuilles et les baguettes, ayant droit aux remèdes et au combustible.</p>
+            <p rend="stanza" n="23">Quatorze gardiens de l’hôpital, chargés d’administrer les remèdes.</p>
+            <p rend="stanza" n="24">De ceux-ci, un homme <gap reason="lost"/>.</p>
+            <p rend="stanza" n="25">Deux pilleuses de riz ; au total huit femmes, ayant droit au logement, à raison de deux par logis.</p>
+            <p rend="stanza" n="26">Le nombre total des assistants est donc de trente-deux et, en y ajoutant ceux qui se logent à leurs frais, de quatre-vingt-dix-huit.</p>
+            <p rend="stanza" n="27">Le riz faisant partie de l’oblation aux divinités <supplied reason="subaudible">fixé à</supplied> un boisseau par jour <supplied reason="subaudible">et</supplied> les reliefs des sacrifices seront donnés quotidiennement aux malades.</p>
+            <p rend="stanza" n="28">Trois fois par ans : le jour de la pleine lune de Caitra, le jour de l’anniversaire funèbre et le jour du solstice d’été, ce qui suit sera pris dans les magasins royaux : </p>
+            <p rend="stanza" n="29">Un vêtement tissé avec une bordure rouge, et six vêtements blancs ; deux <foreign>gobhikṣās</foreign>, cinq palas de <foreign>takka</foreign> et autant de <foreign>kr̥ṣṇā</foreign>.</p>
+            <p rend="stanza" n="30">Un flambeau de cire de cinq <foreign>palas</foreign>, un autre d’un <foreign>pala</foreign> ; quatre <foreign>prasthas</foreign> de miel et trois de sésame.</p>
+            <p rend="stanza" n="31">Beurre fondu, un <foreign>prastha</foreign> ; - médicament composé de poivre en poudre, de cumin et rottleria tinctoria, deux <foreign>pādas</foreign> de chaque substance ; - muscade, trois <foreign>pādas</foreign>.</p>
+            <p rend="stanza" n="32">Résin d’assa fœtida, <foreign>kotthajīrṇa</foreign>, un <foreign>pāda</foreign> de chacun ; - camphre, cinq <foreign>bimbas</foreign> ; sucre, deux palas.</p>
+            <p rend="stanza" n="33">Animaux aquatiques appelés <foreign>daṅdaṅsa</foreign>, cinq <foreign>ākhyātas</foreign> ; - térébenthine, santal, coriandre, anethum sowa, un <foreign>pala</foreign> de chacun.</p>
+            <p rend="stanza" n="34">Cardamome, gingembre, <foreign>kakola</foreign>, origan, deux palas de chacun : - <foreign>pracībala</foreign> et graine de moutarde, deux <foreign>prasthas</foreign>.</p>
+            <p rend="stanza" n="35">Une poignée et demie de casse (?). Quarante <supplied reason="subaudible">remèdes ?</supplied> salutaires sont préparés. curccuma aromatica de deux espèces, un <foreign>pala</foreign> et demi de chacune.</p>
+            <p rend="stanza" n="36"><foreign>Kandaṅ</foreign>, <foreign>halāy</foreign>, <foreign>jansyaṅ</foreign>, <foreign>devadāru</foreign> <gap reason="lost"/> préparé. Un <foreign>pala</foreign> et un quart <gap reason="lost"/> préparé.</p>
+            <p rend="stanza" n="37">Miel et <foreign>gudda</foreign>, trois kuḍuvas de chacun ; - un <foreign>prastha</foreign> de <foreign>sauvīranīra</foreign> préparé.</p>
+            <p rend="stanza" n="38">Deux sacrificateurs et un astrologue, tous trois pieux, doivent être nommés par le supérieur du monastère royal.</p>
+            <p rend="stanza" n="39">Tous les ans, on fournira à chacun d’entre eux ce qui suit : trois manteaux de douze <foreign>yugas</foreign> et <supplied reason="subaudible">trois</supplied> pièces d’étoffe de dix <foreign>karas</foreign>.</p>
+            <p rend="stanza" n="40">Quinze paires de vêtements de neuf <foreign>hastas</foreign> ; trois vases d’étain de deux <foreign>kaṭṭikas</foreign>.</p>
+            <p rend="stanza" n="41">On doit aussi leur donner douze <foreign>khārīs</foreign>, de paddy, trois <foreign>palas</foreign> de cire et de <foreign>takka</foreign> et six <foreign>palas</foreign> de poivre.</p>
+            <p rend="stanza" n="42">Bien que marchant en tête de la troupe des autres personnes d’élite, le roi se fait solliciteur en pensant aux besoins de ses sujets ; bien plus, il supplie à toujours les charitables rois du Cambodge.</p>
+            <p rend="stanza" n="43">La bonne œuvre que j’ai faite, vous devez la préserver, car elle est vôtre aussi : le protecteur d’une œuvre pie reçoit une part éminente des fruits mérités par son auteur, disent les sages.</p>
+            <p rend="stanza" n="44">Le mandarin qui occupe le premier rang à la capitale doit être préposé ici. On ne doit pas envoyer ici de fonctionnaires pour exiger l’impôt ou d’autres prestations.</p>
+            <p rend="stanza" n="45">Même coupables de délits répétés, les habitants de ce lieu ne doivent pas être punis ; mais il faut punir sans merci ceux qui se plaisent à faire du mal aux êtres vivants.</p>
+            <p rend="stanza" n="46">Plein d’une extrême sympathie pour le bien du monde, le roi, en outre, exprima ce vœu : tous les êtres qui sont plongés dans l’océan des existences, puissé-je les en tirer par la vertu de cette bonne œuvre !</p>
+            <p rend="stanza" n="47">Puissent les rois du Cambodge, attachés au bien, qui protégeront ma fondation, atteindre, avec leur lignée, leurs femmes, leurs mandarins, leurs amis, le séjour de la délivrance, où il n’est plus de maladie !</p>
+            <p rend="stanza" n="48">Puissent-ils, avec les femmes célestes, qui suscitent le plaisir d’amour, qui abondent en voluptés divines, se jouer, revêtus d’un corps divin, à tous les points de l’espace, illuminant de leur éclat <gap reason="lost"/> ce mérite spirituel, qui est à moi.</p>
+         </div> 
+           <div type="translation" xml:lang="fra" source="bib:Finot1915_05"><note>The translation is an emandation of that by Finot 1903. The translation of the verses VI, VIII, XI, XIII, XV, XXX, XLIV and XLVIII was by Auguste Barth ; and the translation of the verses XXXI, XXXIV and XXXV was made with collaboration with P. Cordier.</note>
+             <p rend="stanza" n="3">Que Śrī Sūryavairocana, ce soleil, et Śrī Candravairocana, cette lune... triomphent aux côtés du Roi des Munis, ce Meru !</p>
+              <p rend="stanza" n="4"> « Il acquit la royauté par les Vedas, le ciel, un et la lune », c’est-à-dire en 1104 <foreign>śaka</foreign> = 1182 A.D.</p>
+              <p rend="stanza" n="6">Obscurcissant par des combats, qui étaient ses sacrifices, l’éclat...</p>
+              <p rend="stanza" n="8">A sa vue,... s’apercevant que l’Amour était vaincu par sa beauté, les femmes des ennemis captifs confessaient que son nom <supplied reason="subaudible">de Protégé de la Victoire</supplied>était vraiment significatif.</p>
+              <p rend="stanza" n="10">dont sa puissance avait fait le ciel.</p>
+              <p rend="stanza" n="11">dont ses médecins <supplied reason="subaudible">naturels</supplied>, les rois, n’avaient pu guérir...</p>
+              <p rend="stanza" n="13">Le mal qui afflige le corps des hommes devenait chez lui mal de l’âme et d’autant plus cuisant.</p>
+              <p rend="stanza" n="15">Il purifiait <supplied reason="subaudible">vraiment</supplied> le monde de tous méfaits ; il ne s’en excusait pas sur la perversité du temps.</p>
+              <p rend="stanza" n="17">« par les corps, le ciel, le cœur, la lune », c’est-à-dire en 1108 <foreign>śaka</foreign> = 1186 A.D.</p>
+              <p rend="stanza" n="23">Quatorze gardiens de l’hôpital et <supplied reason="subaudible">huit</supplied> chargés d’administrer le remèdes, en tout 22.</p>
+              <p rend="stanza" n="24">De ceux-ci un homme et une femme ont chacun droit au logement. Pour faire chauffer l’eau et broyer les médicaments, six femmes.</p>
+              <p rend="stanza" n="29">« moutarde noire ».</p>
+              <p rend="stanza" n="30">« et d’autres d’un <foreign>pala</foreign>".</p>
+              <p rend="stanza" n="31">Nigello <supplied reason="explanation"><foreign>bhaiṣajya</foreign></supplied>, poivre long <supplied reason="explanation"><foreign>pippalī</foreign></supplied>, poivre orangé <supplied reason="explanation"><foreign/></supplied><supplied reason="explanation"><foreign>reṇu</foreign> = <foreign>hareṇu</foreign></supplied>, cumin <supplied reason="explanation"><foreign>dīpyakam</foreign></supplied>, calophylle <supplied reason="explanation"><foreign>punnāgaḥ</foreign></supplied>.</p>
+              <p rend="stanza" n="33">« Cinq animaux aquatiques appelés <foreign>daṅdaṅsa</foreign>, oléorésine de pin », etc.</p>
+              <p rend="stanza" n="34">Lavanga scandens <supplied reason="explanation"><foreign>kakola</foreign></supplied>... vétiver <supplied reason="explanation"><foreign>pracīvala</foreign> = <foreign>vīraṇa</foreign></supplied>.</p>
+              <p rend="stanza" n="35">Une poignée et demie de cannelle <supplied reason="explanation"><foreign>tvak</foreign> = <foreign>guḍatvak</foreign></supplied> et quarante myrobolans <supplied reason="explanation"><foreign>pathyā</foreign> = <foreign>harītakī</foreign></supplied> sont prescrits ; deux coupures (?) de curcuma aromatica, chacune avec 1 1/2 <foreign>pala</foreign>.</p>
+              <p rend="stanza" n="41">"... douze <foreign>khārī</foreign>s de riz ».</p>
+              <p rend="stanza" n="42">« Bien que marchant en tête de la foule des bienfaiteurs ».</p>
+              <p rend="stanza" n="44">Les travailleurs <supplied reason="subaudible">employés</supplied> ici ne doivent pas être contraints à des paiements, tels que taxes, etc., ni à des corvées autres <supplied reason="subaudible">que celles de leur emploi</supplied>.</p>
+              <p rend="stanza" n="46">« Désirant extrêmement le bien du monde ».</p>
+              <p rend="stanza" n="48">Goûtant les voluptés que leur offrirent les troupes de femmes célestes, comblés de jouissances célestes, puissent-ils s’ébattre au ciel, revêtus d’un corps céleste, illuminant de leur éclat les enfants de Diti et de Danu, ceux qui, la rendant absolument solide, inébranlable, par une protection constante, se feront une échelle, pour montrer au ciel, de cette mienne bonne œuvre destructrice du péché !</p>
+           </div>
+         <div type="commentary">
+            <p>The lacuna in the stanzas XXIII, XXIV, XXXVI and XLVIII of this inscription can be restituted based on the almost identical inscritpion of Kok Roka K. 435.</p>
+         <p>The <foreign>pāda</foreign> d of stanza XLIV of  K. 435 has <foreign>cāryye</foreign> instead of <foreign>kāryye</foreign> of this inscription.</p>
+         </div>
+        <div type="bibliography">
+          <p>First edited by Louis Finot (<bibl rend="omitname"><ptr target="bib:Finot1903_01"/><citedRange unit="page">18-33</citedRange></bibl>) with a French translation; the edition was revised by Louis Finot (<bibl rend="omitname"><ptr target="bib:Finot1915_05"/><citedRange unit="page">108-111</citedRange></bibl>). The inscription is reedited by Kunthea Chhom from the estampage EFEO n. 125.</p>
+	 
+          <listBibl type="primary">
+             <bibl n="LF">
+      <ptr target="bib:Finot1915_05"/><citedRange unit="page">108-111</citedRange>
+    </bibl>
+				     <bibl n="LF">
+      <ptr target="bib:Finot1903_01"/><citedRange unit="page">18-33</citedRange>
+    </bibl>
+           </listBibl>
+      
+        </div>
+        </body>
+    </text>
+</TEI>

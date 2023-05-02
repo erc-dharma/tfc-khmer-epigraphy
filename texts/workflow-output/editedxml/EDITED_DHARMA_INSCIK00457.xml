@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Doorjamb of the East Door of Phnom Dei II (K. 457), 815 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:sapi">
+                  <forename>Salomé</forename>
+                  <surname>Pichon</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00457</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Salomé Pichon.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>In the khmer text, a new voyel seems to have been written by the scribe, transcribed as -oi by George Cœdès. This takes the form of the vowel -o topped by the circle of the vowel -i.</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_idListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_idListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:sapi" when="2023-02-23" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="okz-Latn">
+           <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+           <l n="a"><lb n="1"/><milestone unit="column" n="a"/><g type="initialGomutra"/> dvi<unclear>ma</unclear><!-- dviṣa? dvịpa? -->-putraharau yau ca</l>
+           <l n="b"><milestone unit="column" n="b"/>saṁvr̥ttau bhedam āgatau <unclear><g type="floretQuatrefoil">.</g></unclear></l>
+           <l n="c"><lb n="2"/><milestone unit="column" n="a"/>jagataś śaṅkarau vande</l>
+           <l n="d"><milestone unit="column" n="b"/>nityañ· caitau harīśvarau</l>
+           </lg>
+           <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+           <l n="a"><lb n="3"/><milestone unit="column" n="a"/>śrīharācyutayos sīmā</l>
+           <l n="b"><milestone unit="column" n="b"/>śrīyaśovarmmaṇā kr̥tā</l>
+           <l n="c"><lb n="4"/><milestone unit="column" n="a"/>śrīharācyutayo dattā</l>
+           <l n="d"><milestone unit="column" n="b"/>śrīpurandaraparvvate</l>
+           </lg>
+           <p><lb n="5"/><g type="floretQuatrefoil"/> <num value="815">815</num> śaka gi nu dhūlī vraḥ pāda dhūlī jeṅ· vraḥ kamrate<lb n="6" break="no"/>ṅ· Añ śrīyaśovarmmadeva pre chvāt· bhūmīsīmā sa<unclear>ṅgo</unclear>l·
+           <lb n="7"/>praśasta pi Oy· ta vraḥ kamra<supplied reason="omitted">teṅ·</supplied> Añ· śaṅkaranārāyana Āy· śrīpurandara<lb n="8" break="no"/>parvvata toy· pūrvva lvaḥ ta gi cam·kā hiṅ· huṅ· <space/> toi Āgneya
+           <lb n="9"/>jrāṁ kaṁvaṅ· tamrya lvaḥ ta gi vighneśa <space/> toi dakṣiṇa vrai <unclear>dval·</unclear>
+           <lb n="10"/>dval<unclear>·</unclear> thnā lvaḥ ta gi stuk· kmval· toy· nairqR̥tīya stuk· viṅ·vneṅ· toy·
+           <lb n="11"/>paścima chdiṅ· toy· vāyavya daṁnap· vavval· toy· Uttara vraḥ
+           <lb n="12"/>travāṅ· toy· Īśāna krīḍāparvvata lvaḥ ta gi guhā viṣṇu vināyaka
+           </p>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                    <lem>dvi<unclear>ma</unclear></lem>
+                    <rdg source="bib:Coedes1918_02">dvi<seg met="-"><gap reason="lost" quantity="1" unit="character"/></seg></rdg>
+                 </app>
+                 <app loc="4">
+                   <lem>-harācyutayo dattā</lem>
+                   <rdg source="bib:Coedes1918_02">harācyutayos dattā</rdg>
+                </app>
+                <app loc="6">
+                  <lem>sa<unclear>ṅgo</unclear>l·</lem>
+                  <rdg source="bib:Coedes1918_02">sa<gap reason="undefined"/>l</rdg>
+               </app>
+               <app loc="10">
+                 <lem>kmval· toy·</lem>
+                 <rdg source="bib:Coedes1918_02">kmval toi</rdg>
+              </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1918_02">
+ 	         <p rend="stanza" n="1">J’adore sans relâche Hari et Īśvara <gap reason="undefined"/> bienfaisants pour les créatures, qui sont à la fois divisés et réunis.</p>
+           <p rend="stanza" n="2">Les limites <supplied reason="subaudible">du domaine</supplied> de Śrī Harācyuta, fixées par Śrī Yaśovarman, sont données à Śrī Harācyuta <supplied reason="subaudible">qui réside</supplied> sur le Śrī Purandaraparvata.</p>
+           <p n="5-12">En 815 śaka, Sa Majesté Śrī Yaśovarmadeva prescrit de tracer les limites du domaine <gap reason="undefined"/> qu’il convient de donner au dieu Śaṅkaranārāyana sur le Śrī Purandaraparvata. À l’Est, <supplied reason="subaudible">ce domaine s’étend</supplied> jusqu’à la rizière des crapauds-buffles coassant ; au Sud-Est <supplied reason="subaudible">la limite est marqué par</supplied> la boue du gué des éléphants, jusqu’au Vighneśa ; au Sud, par la forêt, le tertre et l’enclos jusqu’au bosquet sombre ; au Sud-Ouest, par le bosquet de <foreign>viṅvneṅ</foreign> ; à l’Ouest, par la rivière ; au Nord-Ouest, par le barrage <supplied reason="subaudible">dit</supplied> des pigeons verts ; au Nord, par l’étang sacré ; au Nord-Est, par la colline artificielle jusqu’à la grotte de Viṣṇu Vināyaka.</p>
+         </div>
+         <div type="commentary">
+            <p>The Northern doorjamb of the inscription has been damaged by hand and is now illegible.</p>
+         </div>
+        <div type="bibliography">
+	<!--bibliography encoded as per section §9.4 -->
+           <p>First edited in French by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1918_02"/><citedRange unit="page">13-14</citedRange></bibl>). Re-edited here by Salomé Pichon based on EFEO estampage n. 87 and n. 88.&gt;</p>
+           <listBibl type="primary">
+             <bibl n="C">
+             <ptr target="bib:Coedes1918_02"/>
+             <citedRange unit="page">13-14</citedRange>
+             </bibl>
+           </listBibl>
+           <listBibl type="secondary">
+              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
