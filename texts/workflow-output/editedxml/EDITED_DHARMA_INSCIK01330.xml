@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gò Xoài gold foil (K. 1330), 7th-8th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Lyon</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01330</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Gerdi Gerschheimer &amp; Arlo Griffiths.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The <foreign>visarga</foreign> takes the shape of three vertically arranged dots.
+			The short <foreign>-i</foreign> marker takes the shape of a superscribed circle with a crescent inside; the long <foreign>-ī</foreign> marker has an appendix down the left hand side of the <foreign>akṣara</foreign> (except in line 5 <foreign>kīrtti</foreign>).
+		</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:argr" when="2021-10-07" status="draft">changed @type="ddandaTripleDot" to @type="ddandaDotTriple"</change>
+         <change who="part:argr" when="2021-03-20" status="draft">finished initial encoding of the inscription</change>
+         <change who="part:argr" when="2021-03-16" status="draft">started initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="pra-Latn">
+<lg n="1" met="āryā">
+<l n="ab" real="+++++--+++++-+-+---"><milestone unit="zone" n="1"/><lb n="1"/>ye dharmmā hetu-ppabhavā <space/> tesaṁ hetuṁ ta<milestone unit="zone" n="2"/>thāgato Avaca <space/></l>
+<l n="cd">tesañ ca yo ni<milestone unit="zone" n="3"/>rodho <space/> Evaṁ-vādī mahā-saman<milestone unit="zone" n="4"/>o <g type="gomutraFinal"/></l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a"><milestone unit="zone" n="1"/><lb n="2"/>duḥkhaṁ duḥkha-samutpādo <space/></l> 
+<l n="b">duḥkha<milestone unit="zone" n="2"/>ssa ca At<choice><sic>ī</sic><corr>i</corr></choice>-kkamo <space/></l>
+<l n="c">Airo <milestone unit="zone" n="3"/>Aṭṭhaṅgiko maggo <space/></l> 
+<l n="d">duḥkhopaśama<milestone unit="zone" n="4"/>-gāmiko <g type="gomutraFinal"/></l>
+</lg>
+<p><milestone unit="zone" n="1"/><lb n="3"/>tadyathā<g type="ddandaDotTriple"/> daṇḍake<g type="ddandaDotTriple"/> paṇḍake <milestone unit="zone" n="2"/> <g type="ddandaDotTriple"/> kauraṇḍe<g type="ddandaDotTriple"/> keyūre<g type="ddandaDotTriple"/> <milestone unit="zone" n="3"/> dantīle<g type="ddandaDotTriple"/> dantrīle<g type="ddandaDotTriple"/> svāhāḥ <g type="gomutraFinal"/> <milestone unit="zone" n="4"/> <g type="gomutraFinal"/></p>
+<p><milestone unit="zone" n="1"/><lb n="4"/>tadyathā A<choice><unclear>v</unclear><unclear>dh</unclear></choice>ame Amvare A<milestone unit="zone" n="2"/>mvare <space/> pariku<space type="descender"/>ñja nāṭa <milestone unit="zone" n="3"/>nā<space type="descender"/>ṭa pu<space type="descender"/>ṣkarā<choice><unclear>v</unclear><unclear>dh</unclear></choice>aha ja<milestone unit="zone" n="4"/>lū khama khaya Ili mi<milestone unit="zone" n="1" break="no"/><lb n="5" break="no"/>li ki<space type="descender"/>li <milestone unit="zone" n="2"/>mili kīrtti cara mu<milestone unit="zone" n="3"/>dre mudra-mu<space type="descender"/>khe svāhāḥ <milestone unit="zone" n="4"/><g type="gomutraFinal"/></p>
+         </div>
+         <div type="apparatus">
+               <listApp>
+	<app loc="1">
+                     <lem>dharmmā</lem>
+                     <rdg source="bib:Skilling1999_01">dhammā</rdg>
+	<note><bibl><ptr target="bib:Skilling1999_01"/><citedRange unit="page">172</citedRange><citedRange unit="note">5</citedRange></bibl> noted: <q>Ha Van Tan reads <foreign>dharmmā</foreign>. I cnnnot see the <sic><foreign>ra</foreign></sic> in the plate, which is not entirely clear. The reading can only be resolved with a better reproduction. (Note that Ha Van Tan’s transcript uses only one diacritic, <foreign>a = ā</foreign>).</q> The photographs that have since become available remove all doubt about the presence of <foreign>r</foreign>.</note>
+                  </app>
+<app loc="1">
+<lem source="bib:Skilling1999_01">hetu-ppabhavā</lem>
+<rdg source="bib:HaVanTan1995_01">hetu-pabhavā</rdg>
+<note>The reading <foreign>ppa</foreign> is beyond doubt.</note>
+</app>
+<app loc="1">
+<lem><g type="gomutraFinal"/></lem>
+<note><bibl><ptr target="bib:Skilling1999_01"/></bibl> throughout notes this symbol sign as double <foreign>daṇḍa</foreign>.</note>
+</app>
+<!--
+c. evaṁvādi : evaṁvādī  Skilling 1999. – Rien ne permet de penser qu’il faut lire ī la voyelle antéposée à la consonne. Cf. du reste, infra l. 3, les i de dantile et de dantrile.
+	AG: I rather agree with PS
+d. -samano: possibility of reading -samaṇo? -->
+<app loc="2">
+                     <lem>At<choice><sic>ī</sic><corr>i</corr></choice>-kkamo</lem>
+                     <rdg source="bib:Skilling1999_01">Atī-kkamo</rdg>
+	<note>The vowel marker on the <foreign>t</foreign> is the same as in <foreign>Evaṁvādī</foreign> in line 1, and so definitely intended as <foreign>ī</foreign>. The syllable is long by position and this seems to have induced the scribe to spell <foreign>ī</foreign> instead of expected <foreign>i</foreign>.</note>
+                  </app>
+<app loc="3">
+                     <lem><g type="ddandaDotTriple"/></lem>
+                     <note><bibl><ptr target="bib:Skilling1999_01"/></bibl> throughout notes this <q>punctuation</q> sign as double <foreign>daṇḍa</foreign>.</note>
+                  </app>
+	<app loc="3">
+	<lem source="bib:Skilling1999_01">daṇḍake, paṇḍake, kauraṇḍe</lem>
+	<note>The script is ambiguous on the cluster <foreign>ṇḍ</foreign>, which could in each instance also be read <foreign>ṇd</foreign>.</note>
+	</app>
+	<app loc="3">
+                     <lem>keyūre</lem>
+                     <rdg source="bib:Skilling1999_01">keyyūre</rdg>
+                  </app>
+	<app loc="3">
+                <lem>dantīle<g type="ddandaDotTriple"/> dantrīle</lem>
+                <rdg source="bib:Skilling1999_01">dantile<g type="ddanda"/> dantile</rdg>
+	<note>Skilling ignores the fact that the second word is differentiated from the first by presence of <foreign>r</foreign>.</note>
+                  </app>
+<app loc="3">
+                     <lem>svāhāḥ <g type="gomutraFinal"/> <milestone unit="zone" n="4"/> <g type="gomutraFinal"/></lem>
+                     <rdg source="bib:Skilling1999_01">svāhāḥ <g type="ddanda"/></rdg>
+                  </app>
+ <app loc="4">
+                     <lem>A<choice><unclear>v</unclear><unclear>dh</unclear></choice>ame</lem>
+                     <rdg source="bib:Skilling1999_01">Adhame</rdg>
+                  </app>
+                  <app loc="4">
+                     <lem>pu<space type="descender"/>ṣkarā<choice><unclear>v</unclear><unclear>dh</unclear></choice>aha</lem>
+                     <rdg source="bib:Skilling1999_01">puṣkarādhahā</rdg>
+                  </app>
+	<app loc="4">
+                     <lem>jalū</lem>
+                     <rdg source="bib:Skilling1999_01">jala</rdg>
+                  </app>
+	<app loc="4">
+                     <lem>jalū</lem>
+                     <rdg source="bib:Skilling1999_01">jala</rdg>
+                  </app>
+	<app loc="4">
+                     <lem>Ili mi<milestone unit="zone" n="1" break="no"/><lb n="5" break="no"/>li</lem>
+                     <rdg source="bib:Skilling1999_01">Ilīmī<lb n="5" break="no"/>li</rdg>
+                  </app>
+               </listApp>
+         </div>
+         <div type="translation" resp="part:argr">
+	<p rend="stanza" n="1">The states arisen from a cause, their cause the Tathāgata proclaims, as well as their cessation: this is the teaching of the Great Ascetic.</p>
+ 	<p rend="stanza" n="2">Suffering, the arising of suffering, and the transcendence of suffering, and the noble eightfold path, leading to the cessation of suffering that is emancipation <supplied reason="explanation"><foreign>khemopaśama</foreign></supplied></p>
+	<p n="3-5">As follows: <foreign>a(v/dh)ame amvare amvare  parikuñja nāṭa nāṭa puṣkarā(v/dh)aha jalū khama khaya ili mili kili mili kīrtti cara mudre mudra-mukhe svāhāḥ</foreign>.</p>
+         </div>
+         <div type="commentary">
+	<p>The translations for stanzas I and II are taken here from the ones offered by other scholars for <ref target="DHARMA_INSCIK00820.xml">K. 820</ref> and <ref target="DHARMA_INSCIK01455.xml">K. 1455</ref>.</p>
+            <p rend="stanza" n="1">On the metrical deviance of the first four <foreign>gaṇa</foreign>s, see <bibl><ptr target="bib:Hinueber2015_01"/><citedRange>4</citedRange></bibl>.</p>
+         </div>
+        <div type="bibliography">
+           <p>Provisionally edited by Hà Văn Tấn <bibl rend="omitname"><ptr target="bib:HaVanTan1995_01"/></bibl> being edited and translated by Peter Skilling more professionally (<bibl rend="omitname"><ptr target="bib:Skilling1999_01"/></bibl>); re-edited here by Gerdi Gerschheimer &amp; Arlo Griffiths from color photographs.</p>
+       <!-- Bibliography provided by P-Y Manguin:
+       Hà Văn Tấn, 1994. Từ minh văm trên lá vàng ở Gò Xoai (Long An) bàn thêm về Pháp thân kệ [Further discussion on the Ye Dhama Sutra with the inscription from Go Xoai (Long An)], in New Discoveries in Archaeology of 1993, Ha Nôi, p. 318.
+
+Hà Văn Tấn, 1995, “Từ minh văn trên lá vàng ở Gò Xoai (Long An)”, in Lê Xuân Diệm, Ðào Linh Côn and Võ Sĩ Khãi, 1995, Văn hoá Óc Eo: những khám phá mới. Hà Nội, Nhà xuất bản khoa học xã hội, pp. 439-441.
+
+Hà Văn Tấn, 1998. “Ghi chú thêm về minh văn ở Gò Xoài (Long An)” [Further notes on the Go Xoai imcription (Long An)]”, in Những phát hiện mới về khảo cồ học năm 1997, Hanoi, Social Sciences Publishing House, pp. 694-696.
+
+Hà Văn Tấn, 2001. “Ghi chú thêm về minh văn ở Gò Xoài (Long An)” [Further notes on the Go Xoai imcription (Long An)]), in Khảo cổ học Long An những thế kỉ đầu Công Nguyên, pp. 212-214. [PYM]
+
+Lê Thị Liên, 2005, "Gold Plaques and their Cultural Contexts in the Oc Eo Culture", Bulletin of the Indo-Pacific Prehistory Association, 25, pp. 145-154.  [PDF]
+
+Lê Thị Liên, 2006, Nghệ thuật Phật giáo và Hindu giáo ở Đồng bằng Cửu Long trứớc thế kỷ X [Buddhist and Hindu Art in the Mekong Delta until the Xth century]. Hà Nội, Nhà xuất bản Thế Giới.   [PYM]
+[repro de l’inscription p. 141, rien dans le texte]
+
+Lê Xuân Diệm, Ðào Linh Côn and Võ Sĩ Khãi, 1995, Văn hoá Óc Eo: những khám phá mới. Hà Nội, Nhà xuất bản khoa học xã hội, pp. 186-189.   [PYM]
+[pp. 186-189: notes sur le seul site de Gò Xoài ; Appendice, pp. 439-441 = Ha Van Tan 1995]
+
+Ramesh, K. V. 1991: Transcription and translation of the Go Xoai inscription (line
+1st and 2nd), document of Long An Museum.
+
+Skilling, Peter, 1999 [2542], "A Buddhist inscription from Go Xoai, southern Vietnam and notes towards a classification of 'ye dharmâ' inscriptions", in  80 pi sasatrachan dr. prasert na nagara: ruam botkhwam vichakan dan charük lae ekasan boran [80 Years: A collection of articles on epigraphy and ancient documents published on the occasion of the celebration of the 80th birthday of Prof. Dr. Prasert Na Nagara]. Bangkok, p. 171-187. [PDF + TaP]
+	
+Skilling, Peter, 2002, "Some Citation Inscriptions from South-East Asia", Journal of the Pali Text Society, 27, p. 159-175.  [PDF]
+	
+Skilling, Peter, 2003-04, "Traces of the Dharma: Preliminary reports on some ye dhammā and ye dharmmā inscriptions from Mainland Southeast Asia", Bulletin de l'Ecole française d'Extrême-Orient, 90-91, p. 273-288.
+
+Thái Văn Chải, 1996. Minh văn vàng Ɖức Hoà Long An [Gold Inscription of Ɖức Hoà, Long An]. Tư liệu Bảo tàng Long An.
+
+Nancy Tingley (éd.), 2009. Arts of Ancient Viet Nam: From River Plain to Open Sea, Houston, New Haven: Asia Society, The Museum of Fine Arts, Yale University Press. 
+[p. 166 : notice de l’inscription (fondée essentiellement sur Skilling 1999) ; p. 167: cliché de l’inscription].
+
+Trinh Thi Hoa, 1996, « Réflexions sur les vestiges de la culture d'Oc Eo », Etudes vietnamiennes, 50(120), p. 111-123. / = « The vestiges of Oc Eo culture—some reflections », Vietnamese Studies 50(120), p. 121-134 
+
+Vo Si Khai, 1988, Recent archaeological discoveries in the Long-an Province: the Oc-eo Culture; the Funan king's edict on the withdrawal of his army (550 AD). Long An, The Service of Culture and Information, Province of Long An. [Tapuscrit, PDF]
+	[Traduction fantaisiste de Thái Văn Chải]
+Vo Si Khai, 2003, “The Kingdom of Fu Nan and the Culture of Oc Eo”, in James C. M. Khoo (éd.), Art & Archaeology of Fu Nan, Pre-Khmer Kingdom of the Lower Mekong Valley, Bangkok, Orchid Press.
+[repro de l’inscription p. 41, rien dans le texte]
+
+       -->
+            <listBibl type="primary">
+	<bibl n="H"><ptr target="bib:HaVanTan1995_01"/></bibl>
+	<bibl n="S"><ptr target="bib:Skilling1999_01"/><citedRange unit="page">171-178</citedRange></bibl>
+	</listBibl>
+           <listBibl type="secondary">
+	<bibl><ptr target="bib:HaVanTan1998_01"/></bibl>
+	<bibl><ptr target="bib:LeThiLien2007_01"/><citedRange unit="page">148</citedRange><citedRange unit="figure">2</citedRange></bibl>
+              <bibl><ptr target="bib:Tingley2009_01"/><citedRange unit="page">166-167</citedRange><citedRange unit="item">49</citedRange></bibl>
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

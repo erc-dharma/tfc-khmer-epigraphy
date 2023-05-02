@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Prasat Ang Preah Theat (K. 784), 7th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00784</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-02-15" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+                   <p>
+                      <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> ni Āy· ta vraḥ kamratāṅ· Añ· <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>reśvara kñuṁ ta ka<unclear>ntai</unclear> <unclear cert="low">kloñ·</unclear> ma<unclear>n·</unclear> <gap reason="lost" quantity="1" unit="character"/> no<gap reason="lost" quantity="1" unit="character"/> ku Aṁ<unclear>vau</unclear> <num value="1"><g type="numeral">I</g></num> <gap reason="lost" quantity="1" unit="character"/>
+                      <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> k<unclear cert="low">ā</unclear><gap reason="lost" quantity="1" unit="character"/> <num value="1"><g type="numeral">I</g></num> ku Āka<unclear>ṁre</unclear>m· <num value="1"><g type="numeral">I</g></num> ku <unclear>roy</unclear>· <num value="1"><g type="numeral">I</g></num> ku caṅ·hvā<unclear>r</unclear>· <num value="1"><g type="numeral">I</g></num> ku <gap reason="lost" quantity="1" unit="character"/>
+                      <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> ku <gap reason="lost" quantity="1" unit="character"/> <num value="1"><g type="numeral">I</g></num> ku <gap reason="lost" quantity="1" unit="character"/>
+                      <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> ku <gap reason="lost" quantity="1" unit="character"/> <num value="1"><g type="numeral">I</g></num> kon ku k<unclear>u</unclear> <gap reason="lost" extent="unknown" unit="character"/> <num value="1"><g type="numeral">I</g></num> ku <unclear>tva</unclear>ṅ· <num value="1"><g type="numeral">I</g></num>
+                      <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> vā karola <num value="1"><g type="numeral">I</g></num> ku tvaṅ· <num value="1"><g type="numeral">I</g></num> kon ku ku <unclear cert="low">prā</unclear>he<unclear>r</unclear>· <num value="1"><g type="numeral">I</g></num> vā <gap reason="lost" quantity="1" unit="character"/>
+                      <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> k<unclear>u c</unclear>pās· <num value="1"><g type="numeral">I</g></num> kon ku k<unclear>u</unclear> kaṁjak· <num value="1"><g type="numeral">I</g></num> vā prā <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1"><g type="numeral">I</g></num> kon ku ku cpi <num value="1"><g type="numeral">I</g></num> ku <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1"><g type="numeral">I</g></num> vā A<unclear>n</unclear>rok· <num value="1"><g type="numeral">I</g></num> <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1"><g type="numeral">I</g></num> <unclear>kon ku</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> ku <unclear>snāy·</unclear> <num value="1"><g type="numeral">I</g></num> <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1"><g type="numeral">I</g></num> ku pi<unclear>t</unclear> kandin<unclear>·</unclear> <num value="1"><g type="numeral">I</g></num> ku <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><choice><unclear>e</unclear><unclear>o</unclear></choice>ṅ· <num value="1"><g type="numeral">I</g></num> kon ku <gap reason="lost" quantity="3" unit="character"/>
+                      <lb n="13"/>ku <unclear cert="low">dv</unclear>āya <num value="1"><g type="numeral">I</g></num> kon ku vā <unclear>jīva</unclear> <num value="1"><g type="numeral">I</g></num> ku smau <num value="1"><g type="numeral">I</g></num> ku k<unclear cert="low">v</unclear>oṅ· <num value="1"><g type="numeral">I</g></num> vā <gap reason="lost" quantity="2" unit="character"/>
+                      <lb n="14"/><gap reason="lost" quantity="1" unit="character"/> ku karoṁ <num value="1"><g type="numeral">I</g></num> kon ku <unclear>vā ch</unclear>k<unclear>o</unclear> <num value="1" cert="low"><unclear><g type="numeral">I</g></unclear></num> vā ca <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1"><g type="numeral">I</g></num> ku <unclear>se</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1"><g type="numeral">I</g></num> <unclear>v</unclear>ā kandos· <num value="1"><g type="numeral">I</g></num> vā <unclear>U</unclear>ṅ·<gap reason="lost" quantity="1" unit="character"/>n· <num value="1"><g type="numeral">I</g></num>
+                   </p>
+            </div>
+         <div type="translation" resp="part:kuch">
+            <p n="1-16"><gap reason="lost"/> to Vraḥ Kamratāṅ Añ <gap reason="lost"/>. The female servants of Kloñ <gap reason="lost"/>: Ku Aṁvau, <gap reason="lost"/>, Ku Ākaṁrem, Ku Roy, Ku CaṅHvār, <gap reason="lost"/>, the daughter of the servant Ku <gap reason="lost"/>, Ku Tvaṅ, <gap reason="lost"/> Vā Karola, Ku Tvaṅ, the daughter of the servant Ku Prāher, Vā <gap reason="lost"/> Ku Cpās, the daughter of the servant  Ku Kaṁjak, Vā <gap reason="lost"/>, the daughter of the servant Ku Cpi, <gap reason="lost"/> Vā Anrok <gap reason="lost"/> Ku Snāy <gap reason="lost"/>.</p>
+         </div>
+         <div type="commentary">
+            <p>On the top, there is a graving of floral motive and a string of pearl. Coedès’ edition does not contain the list of the servants <supplied reason="explanation"><foreign>ku</foreign> and <foreign>vā</foreign></supplied>.</p>
+         </div>
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">59</citedRange></bibl>) without translation, reedited here by Kunthea Chhom based on the estampage EFEO n. 1010.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+<ptr target="bib:Coedes1937-1966_01"/>
+<citedRange unit="volume">6</citedRange><citedRange unit="page">59</citedRange>
+</bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Phnom Da fragmentary inscription (K. 830, 1028 śaka)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00830</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                     Licence. To view a copy of the licence, visit
+                     https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                     Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                     California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="class" matchPattern="([0-9]+)" replacementPattern="">
+               <p>Internal IDs with the prefix class for script classification declared inside OpenTheso to be mapped with ARK URIs opened to the public</p>
+            </prefixDef>
+            <prefixDef ident="maturity" matchPattern="([0-9]+)" replacementPattern="">
+               <p>Internal IDs with the prefix maturity for script maturity declared inside OpenTheso to be mapped with ARK URIs opened to the public</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:chch" when="2021-07-28">Added translation and modifications to the edition</change>
+         <change who="part:chch" when="2021-07-20">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- Part to be used only, if you want to declare and link some photos with your encoding -->
+   <facsimile>
+      <graphic url="filename.jpg" xml:id="photo1"/>
+   </facsimile>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="okz-Latn">
+<p>
+<lb n="1"/><g type="ddandaOrnate">.</g> <num value="994">994</num> śaka ta rāja vraḥ pāda <gap reason="lost" quantity="18" unit="character"/>
+<lb n="2"/>gi nu tapasvi śivasthāna ta pvasa <unclear>Ā</unclear><gap reason="lost" quantity="12" unit="character"/> 
+<lb n="3"/>bhūmi muḥ thnala ta vraḥ jeṅa go sa<supplied reason="omitted">ṁ</supplied> nu <gap reason="lost" quantity="4" unit="character"/> <supplied reason="lost">ṅa</supplied><lb n="4" break="no"/>na jyaṅa pvana sme kuntikā pamvāya ṅana <gap reason="lost" quantity="5" unit="character"/>
+<lb n="5"/>ṅa tapa go bhaya mvāya canlyaka yau ta<supplied reason="lost">p</supplied> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="6"/>ta <num value="1028">1028</num> śaka co nakṣatra ta rāja vraḥ <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="7"/>śrījayavarmmadeva<g type="circleMed">.</g> Aña dau dvala vraḥ karu<supplied reason="lost">ṇā</supplied> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="8"/>sabhāpati ta pvana nu vraḥ kaṁmrateṅ A<supplied reason="lost">ñ</supplied> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="9"/>rmma ta khloña viṣaya vikrānta y<supplied reason="lost">uga</supplied>pata pa<supplied reason="lost">n</supplied>di <gap reason="lost" quantity="3" unit="character"/>
+<lb n="10"/>ta jmaḥ vraḥ śivani <gap reason="lost" quantity="10" unit="character"/> Oya <gap reason="lost" quantity="3" unit="character"/>
+<lb n="11"/>ta śa<supplied reason="lost">ka</supplied> noḥ <gap reason="lost" quantity="4" unit="character"/> Añ jvana bhūmi noḥ ru <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="12"/>kamrateṅa jaga<supplied reason="lost">t</supplied> śrīviśvarūpa<g type="circleMed">.</g> pakṣa <gap reason="lost" quantity="6" unit="character"/>
+<lb n="13"/><gap reason="lost" quantity="3" unit="character"/> teṅa śra <gap reason="lost" quantity="4" unit="character"/> teṅa <gap reason="lost" quantity="10" unit="character"/>
+</p>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="4">
+                     <lem>kuntikā</lem>
+                     <note>Understand <foreign>kuṇḍikā</foreign>.</note>
+                  </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p n="1-5">994 <foreign>śaka</foreign>, sous le règne de sa Majesté <supplied reason="explanation">Harṣavarman III</supplied> <gap reason="lost"/> le <foreign>tapasvin</foreign> de Śivasthāna qui est entré en religion <gap reason="lost"/> la terre de Muḥ Thnal à Vraḥ Jeṅ Go réunie avec <gap reason="lost"/> pesant quatre <foreign>jyaṅ</foreign> également, six pots à eau pesant dix <gap reason="lost"/>, vingts bœufs, dix <foreign>yau</foreign> de vêtements.</p>
+            <p n="6-11">En 1028 <foreign>śaka</foreign>, année du Chien, sous le règne de S. M. Śrī Jayavarmadeva, j’ai été informer Sa Majesté <gap reason="lost"/>, les quatre <foreign>sabhāpati</foreign>, le V. K. A. <gap reason="lost"/>rma, le Khloñ Viṣaya Vikrānta, de concert avec le <foreign>paṇḍita</foreign> nommé Vraḥ Śiva<gap reason="lost"/> donné <gap reason="lost"/> cette année-là <gap reason="lost"/></p>
+            <p n="11-13">J’offre cette terre comme <gap reason="lost"/> au K. J. Viṣvarūpa : Quinzaine <gap reason="lost"/></p>
+         </div>
+         <div type="commentary">
+            <p>Note that in this inscription there are no <foreign>virāma</foreign> above the consonants. </p>
+         </div>
+        <div type="bibliography">
+           <p>First edited by George Cœdès with a French translation (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">278-279</citedRange></bibl>).</p>
+           <listBibl type="primary">
+        		<bibl n="GC">
+        	<ptr target="bib:Coedes1937-1966_01"/>
+        	<citedRange unit="volume">5</citedRange>
+        	<citedRange unit="page">278-279</citedRange>
+        	</bibl>
+	</listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

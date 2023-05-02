@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb at Phnom Trop (K. 94), 884 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00094</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:kuch" when="2020-08-19">Modifications to edition, apparatus and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="vasantatilakā">
+<l n="a"><lb n="1"/><g type="gomutraInitial">.</g> <g type="dDandaOrn">.</g> kīṭānta-mīna-dhanu-vr̥ścika-mārga-mārge</l>
+<l n="b"><lb n="2"/>kīṭādi-pārśva-nayanodbhava Ādidevaḥ</l>
+<l n="c" enjamb="yes"><lb n="3"/>pīthe ’rtha-śaila-tanubhir vibhutāsthitaś śrī</l>
+<l n="d"><lb n="4"/>bhadrodayeśvara Iti prathitābhidhānaḥ <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="2" met="vasantatilakā">
+<l n="a" enjamb="yes"><lb n="5"/>dvandvārka-somya-bhr̥gu-bhoma-tulārddha-candra</l>
+<l n="b"><lb n="6"/>siṅhodbhavāmara-gurau makarārka-sūnau</l>
+<l n="c"><lb n="7"/>netrāṣṭa-mūrtti-śuci-yāma-dineṣu śuk<unclear>l</unclear>e</l> 
+<l n="d"><lb n="8"/>śrībhaktivikrama Ihājam atiṣṭhipat saḥ <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="3" met="vasantatilakā">
+<l n="a" enjamb="yes"><lb n="9"/>vārṣāli-madhya-mithuna-stana-taula-mīnā</l>
+<l n="b"><lb n="10"/>mbho-bhr̥d-vr̥ḍhekṣaṇa-gate ’rka-mukhe salagne</l>
+<l n="c"><lb n="11"/>vedāṣṭa-maṅgala-samādhava-vahni-kr̥ṣne</l>
+<l n="d"><lb n="12"/>śrībhaktivikrama Upendram atiṣṭhipat saḥ <g type="dDandaOrn">.</g></l>
+</lg>
+</div>
+<div type="apparatus">
+   <listApp>
+                  <app loc="1">
+                     <lem>kīṭāntamīnadhanuvr̥ścikamārgamārge</lem>
+                     <note>Concernant le mot <foreign>mīna</foreign>, la pierre porte plutôt, semble-t-il, <foreign>mina</foreign>.</note>
+                  </app>
+      <app loc="3">
+                     <lem>pīthe</lem>
+                     <note>La pierre semble porter, plutôt, <foreign>pithe</foreign>. Lire <foreign>pīṭhe</foreign> <supplied reason="explanation">sur la confusion des dentales et des cérébrales, cf. K. Bhattacharya, RVISC, p. 9, n. 47</supplied>. Revoir la forme du <foreign>th</foreign> sur l’estampage.</note>
+                  </app>
+               <app loc="5">
+                   <lem>dvandvārkasomyabhr̥gubhomatulārddhacandra</lem>
+                   <note>Pour les formes <foreign>somya</foreign> et bhoma au lieu de saumya et bhauma, cf. K. Bhattacharya, RVISC, p. 10, qui relève aussi d’autres exemples de o pour au <supplied reason="explanation">pour <foreign>somya</foreign>, voir aussi Renou, Grammaire sanscrite, p. 184</supplied>.</note>
+               </app>
+      <app loc="6">
+                     <lem>makarārkasūnau</lem>
+                     <note>La boucle supérieure du <foreign>au</foreign> n’est pas très marquée, en raison de la présence du <foreign>dr</foreign> de la ligature de <foreign>candra</foreign> dans la ligne du dessus.</note>
+                  </app>
+      <app loc="9">
+                     <lem>vārṣālimadhyamithunastanataulamīnā</lem>
+                     <note>Il n’est pas certain que le petit point discernable à l’intérieur du cercle du <foreign>i</foreign> soit voulu et que la pierre ne porte pas, plutôt, <foreign>mina</foreign>.</note>
+                  </app>
+      <app loc="10">
+                     <lem>mbhobhr̥dvr̥ḍhekṣaṇagate ’rkamukhe</lem>
+                     <rdg source="bib:Coedes1937-1966_01">mbhobhr̥dvr̥ḍhe kṣaṇagate ’rkamukhe</rdg>
+                  </app>
+      <app loc="10">
+                     <lem>salagne</lem>
+                     <note>Noter la forme du <foreign>n</foreign> souscrit. Voir aussi, au vers c, <foreign>vahni</foreign> et <foreign>kr̥ṣne</foreign>.</note>
+                  </app>
+      <app loc="11">
+                     <lem>vedāṣṭamaṅgalasamādhavavahnikr̥ṣne</lem>
+                     <rdg source="bib:Coedes1937-1966_01">vedāṣṭamaṅgalasamādhavavahnikr̥ṣṇe</rdg>
+                  </app>
+      </listApp>
+</div>
+
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p rend="stanza" n="1"><supplied reason="explanation">Les six planètes à commencer par la lune étant respectivement</supplied> dans l’extrêmité du Scorpion, dans les Poissons, le Sagittaire, le Scorpion, le Capricorne et le Capricorne, le soleil se levant au commencement du Scorpion, <supplied reason="explanation">dans l’année marquée</supplied> par les <supplied reason="explanation">8</supplied> corps, les <supplied reason="explanation">7</supplied> montagnes et les <supplied reason="explanation">5</supplied> objets des sens, le dieu primordial connu sous le nom de Śrī Bhadrodayeśvara a été élevé à la souveraineté sur son piédestal.</p>
+            <p rend="stanza" n="2">Le soleil, Mercure, Vénus, Mars étant dans les Gémeaux, la lune dans la Balance, Jupiter se levant dans le Lion, Saturne dans le Capricorne, <supplied reason="explanation">dans l’année marquée</supplied> par les <supplied reason="explanation">8</supplied> formes, huit et les <supplied reason="explanation">2</supplied> yeux, un samedi du mois de Śuci, dans la quinzaine claire, Śrī Bhaktivikrama a érigé ici un Aja.</p>
+            <p rend="stanza" n="3"><supplied reason="explanation">Les sept planètes étant</supplied> solidement installées dans le Taureau, le milieu du Scorpion, les Gémeaux, le Verseau, la Balance, les Poissons et le Verseau, au moment où le Soleil était à l’horizons, <supplied reason="explanation">dans l’année marquée</supplied> par les <supplied reason="explanation">8</supplied> bonheurs, huit et les <supplied reason="explanation">4</supplied> Vedas, un lundi du mois de Mādhava, dans la quinzaine obscure, Śrī Bhaktivikrama a érigé Upendra.</p>
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">106</citedRange></bibl>) with a French translation; re-edited here by Dominique Soutif and Kunthea Chhom from estampage EFEO 104 and EFEO  n. 735.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+<ptr target="bib:Coedes1937-1966_01"/>
+<citedRange unit="volume">5</citedRange><citedRange unit="page">106</citedRange>
+</bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

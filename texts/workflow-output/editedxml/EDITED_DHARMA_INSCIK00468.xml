@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjambs of the north door of North Khleang (K. 468)</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00468</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+							Licence. To view a copy of the licence, visit
+							https://creativecommons.org/licenses/by/4.0/ or send a letter to
+							Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+							California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+               </msIdentifier>
+               <msContents>
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:chch" when="2021-02-11">Added corrections</change>
+         <change who="part:chch" when="2020-06-24">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+           <div type="edition" xml:lang="okz-Latn">
+           	<lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label><lb n="S1"/><seg met="====-++=/ "><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+	<l n="b"><seg met="====-"><gap reason="illegible" quantity="5" unit="character"/></seg> ko naraiḥ</l>
+<l n="c" enjamb="yes">rājā śrī-jayavīrādi</l>
+<l n="d">varmmāntākhyo guṇākaraḥ <g type="dDandaOrn">.</g></l>
+           	</lg>
+	<lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S2"/> pra <seg met="===-++=/ "><gap reason="illegible" quantity="7" unit="character"/></seg></l>
+		<l n="b"><seg met="===="><gap reason="illegible" quantity="4" unit="character"/></seg> <seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i</seg>taṁ manaḥ</l>
+<l n="c">sva-sthānaṁ yasya vītāṅgo</l>
+		<l n="d">vāhyam aṅgam aśiśriyat· <g type="dDandaOrn">.</g></l>
+	</lg>
+	<lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S3"/> <seg met="====-++=/"><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b">lakṣmī <seg met="=="><gap reason="illegible" quantity="2" unit="character"/></seg> mahīm api</l>
+<l n="c">nyakkarttum iva te vāktre</l>
+<l n="d">vasati sma sarasvatī <g type="dDandaOrn">.</g></l>
+	</lg>
+<lg n="4" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S4"/> <seg met="====-++"><gap reason="illegible" quantity="7" unit="character"/></seg> na</l>
+<l n="b">	<seg met="==="><gap reason="illegible" quantity="3" unit="character"/></seg>d rayi-bhūṣaṇe</l>
+<l n="c">subhāṣitādi-ratnānāṁ</l>
+<l n="d">śataṁ yasmin niveśitam· <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="5" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S5"/><seg met="====-++=/"><gap reason="illegible" quantity="8" unit="character"/></seg>m </l>
+	<l n="b">ari-ru<orig>ddh</orig>iram āhave</l>
+<l n="c">pranemur akhilorvvīpā</l>
+	<l n="d">pr̥thūpāyana-pā<choice><orig>n</orig><reg>ṇ</reg></choice>ayaḥ <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="6" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S6"/><seg met="====-++=/"><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b">yasyaitat tri-tayaṁ priyaṁ</l>
+<l n="c">rājya-lakṣaṇam anyeṣāṁ</l>
+<l n="d">sambhavo sambhavo pi vā <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="7" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S7"/><seg met="====-++=/"><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b">	dvi-jihva-damanodyataḥ</l>
+<l n="c">tathāpy apakṣapātitvād</l>
+<l n="d">vainateyo yathā na yaḥ <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="8" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S8"/><seg met="====-++=/"><gap reason="illegible" quantity="8" unit="character"/></seg>s</l>
+<l n="b">sumitrāpratimapriyaḥ</l>
+<l n="c">Ajānandakaro py evam</l>
+<l n="d">ā<choice><orig>dh</orig><reg>ḍh</reg></choice>yo daśaratho na tu <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="9" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S9"/><seg met="====-++=/"><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b">	prajāsu <seg met="="><gap reason="illegible" quantity="1" unit="character"/></seg> ni <gap reason="illegible" quantity="1" unit="character"/> ātmakaḥ</l>
+<l n="c">vīta-hemodayo yo pi</l>
+<l n="d">varṇṇito nr̥pa-candramāḥ <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="10" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S10"/><seg met="====-++=/"><gap reason="illegible" quantity="8" unit="character"/></seg>r</l>
+<l n="b">aśeṣām <seg met="=-+-=/"><gap reason="illegible" quantity="5" unit="character"/></seg></l>
+<l n="c">śaśaṅsa sarvva-devā <seg met="="><gap reason="illegible" quantity="1" unit="character"/></seg> m</l>
+<l n="d">ātma-vatsu yad-udbhavam· <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="11" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S11"/><seg met="====-++=/"><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b"><seg met="="><gap reason="illegible" quantity="1" unit="character"/></seg> yakṣaṇam upāgataḥ</l>
+<l n="c">dolām arhām api <seg met="++"><gap reason="illegible" quantity="2" unit="character"/></seg> s</l>
+<l n="d">satataṁ guṇa-toṣitāt· <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="12" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S12"/><seg met="====-++=/"><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b">bhaktāpra<seg met="=-+"><gap reason="illegible" quantity="3" unit="character"/></seg> nr̥paḥ</l>
+<l n="c">valadeva <seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i</seg> <gap reason="illegible" quantity="1" unit="character"/> nemaṁ</l>
+<l n="d">sopāyaṁ yatra so diśat· <g type="dDandaOrn">.</g></l>
+</lg>
+<lg n="13" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S13"/><seg met="====-++=/"><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b">so <seg met="="><gap reason="illegible" quantity="1" unit="character"/></seg> nīja <seg met="-+-="><gap reason="illegible" quantity="4" unit="character"/></seg></l>
+<l n="c">bhukti-sākṣyaika-kāryyan</l>
+<l n="d">tam akhile<gap reason="illegible" quantity="1" unit="character"/>m akārayat· <g type="dDandaOrn">.</g></l>
+</lg>
+<p>
+<milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label><lb n="N1"/><gap reason="lost" quantity="23" unit="character"/> dhūli jeṅ· vraḥ <supplied reason="lost">ka</supplied>mrate<supplied reason="lost">ṅ· Añ·</supplied> śrījaya <gap reason="lost" quantity="2" unit="character"/>	
+<lb n="N2"/><gap reason="illegible" quantity="5" unit="character"/> vraḥ <gap reason="illegible" quantity="3" unit="character"/> caturmma <gap reason="lost" quantity="12" unit="character"/>n vraḥ karuṇā ta paramapavi<supplied reason="lost">tra</supplied> <gap reason="lost" quantity="2" unit="character"/> kata <gap reason="lost" quantity="3" unit="character"/>
+<lb n="N3"/><gap reason="illegible" quantity="5" unit="character"/> śilastambha <gap reason="lost" quantity="15" unit="character"/> jaṁnvan· kalpanā tāñ· <supplied reason="lost">A</supplied>ñ· svyāc· <gap reason="lost" quantity="4" unit="character"/>
+<lb n="N4"/>pāda kamrateṅ· kaṁtvan· Añ· <gap reason="lost" quantity="10" unit="character"/> kamrateṅ· jagat· liṅgapura <gap reason="lost" quantity="5" unit="character"/> <supplied reason="lost">ka</supplied>mrateṅ· <gap reason="lost" quantity="4" unit="character"/>
+<lb n="N5"/>sruk· kandin· jaṁnvan· ta kamrateṅ· ja<supplied reason="lost">gat·</supplied> <gap reason="lost" quantity="6" unit="character"/> jaṁnvan· ta kanloṅ· kamra<supplied reason="lost">teṅ·</supplied> <gap reason="lost" quantity="10" unit="character"/>
+<lb n="N6"/><gap reason="illegible" quantity="2" unit="character"/> ta dau ta kamrateṅ· jagat· sa <gap reason="lost" quantity="12" unit="character"/> mvāy· Anle <gap reason="lost" quantity="12" unit="character"/>
+<lb n="N7"/>kalpanā <gap reason="illegible" quantity="1" unit="character"/> <num value="1"><g type="numeral">I</g></num> neḥ leṅ· Āc<unclear>·</unclear> ti tāñ<unclear>·</unclear> kamrateṅ<unclear>·</unclear> <gap reason="lost" quantity="5" unit="character"/> vraḥ pāda ta stāc· dau <gap reason="lost" quantity="12" unit="character"/>
+	
+<lb n="N8"/>stāc· dau rudraloka Oy· caṁ ta vraḥ kaṁsteṅ· śrī <gap reason="lost" quantity="4" unit="character"/><supplied reason="lost">va</supplied>rmma <unclear>saṅko</unclear> nu tāñ· kamrateṅ· Añ<unclear>·</unclear> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="N9"/><supplied reason="lost">ta gi vraḥ rājya</supplied> kamrateṅ· Añ· ta stāc· dau paramarudra<supplied reason="lost">lo</supplied>ka <gap reason="lost" quantity="1" unit="character"/> roḥh· śāka sru<supplied reason="lost">k·</supplied> <gap reason="lost" quantity="10" unit="character"/>
+<lb n="N10"/><gap reason="illegible" quantity="3" unit="character"/> kamrateṅ· Añ· <unclear>saṅko</unclear> qoy<unclear>·</unclear> ta <gap reason="lost" quantity="4" unit="character"/> <supplied reason="lost">kamra</supplied>te<supplied reason="lost">ṅ· A</supplied>ñ· cok· <gap reason="illegible" quantity="2" unit="character"/> tāñ· <gap reason="lost" quantity="10" unit="character"/>
+<lb n="N11"/>tāñ<unclear>·</unclear> kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> satīvrata nu kvan· tāñ<unclear>·</unclear> kamrateṅ<unclear>·</unclear> <supplied reason="lost">Añ·</supplied> satīvrata Oya ta t<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><gap reason="lost" quantity="12" unit="character"/> 
+<lb n="N12"/>ta gi vraḥ rājya kamrateṅ· Añ· ta stāc<unclear>·</unclear> dau paramaśiva <gap reason="lost" quantity="9" unit="character"/>  kamrateṅ· ja<supplied reason="lost">gat·</supplied> <gap reason="lost" quantity="9" unit="character"/>
+<lb n="N13"/><gap reason="illegible" quantity="3" unit="character"/> paṅgaṁ thpvaṅ· nivedana , vraḥ śāsana vraḥ pāda dhūli jeṅ<unclear>·</unclear> <gap reason="lost" quantity="8" unit="character"/> <unclear>,</unclear> kamrateṅ· Añ· <gap reason="lost" quantity="9" unit="character"/>
+<lb n="N14"/><gap reason="illegible" quantity="4" unit="character"/> caṁ devapratyaya mr̥takadhana <gap reason="lost" quantity="9" unit="character"/> Ājya <gap reason="lost" quantity="12" unit="character"/>
+<lb n="N15"/>kamrateṅ· Añ· śrī raṇakesari kaṁsteṅ<unclear>·</unclear> <gap reason="illegible" quantity="25" unit="character"/>
+<lb n="N16"/>ñ· svyāc· neḥ sruka kandin· ti santāna <gap reason="illegible" quantity="25" unit="character"/>
+<lb n="N17"/><gap reason="illegible" quantity="1" unit="character"/> tai kanruṅ· <gap reason="illegible" quantity="1" unit="character"/> kvan· tai krāñ· <gap reason="lost" quantity="25" unit="character"/>
+<lb n="N18"/><gap reason="illegible" quantity="4" unit="character"/>ṇā noḥ phoṅṅa dau ta <gap reason="lost" quantity="25" unit="character"/>
+<lb n="N19"/>ñ· svyāc· qrassa tāñ· steñ· ta O<supplied reason="lost">y·</supplied> <gap reason="lost" quantity="25" unit="character"/>
+<lb n="N20"/>ṣa gi ta Oy<unclear>·</unclear> caṁnāṁn· ta roḥha neḥha <gap reason="lost" quantity="25" unit="character"/>
+<lb n="N21"/>ta gi paraloka <gap reason="illegible" quantity="7" unit="character"/><gap reason="lost" quantity="23" unit="character"/>
+<lb n="N22"/>st <gap reason="illegible" quantity="1" unit="character"/> nā <gap reason="illegible" quantity="1" unit="character"/> sr <gap reason="illegible" quantity="3" unit="character"/>
+</p>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="S8">
+                  <lem source="bib:Coedes1937-1966_01">ā<choice><orig>dh</orig><reg>ḍh</reg></choice>yo</lem>
+                  	<note>The text of <ref target="K0856.xml">K. 856</ref>, st. IX confirms this reading suggestion.</note>
+                  </app>
+               	<app loc="S13">
+           	<lem source="bib:Coedes1937-1966_01">akhile</lem>
+               	<note>Uncertain reading. We could also read <foreign>taṁ makhale</foreign> - -, <foreign>taṁ mekhale</foreign> - -. (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">226</citedRange><citedRange unit="note">1</citedRange></bibl>).</note>
+                  </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+<p rend="stanza" n="1">Le roi, mine de vertus, dont le nom commence par Śrī Jayavīra° et se termine par °varman <gap reason="lost"/></p>
+<p rend="stanza" n="2">(L’Amour ?) <gap reason="lost"/> ayant abandonné son propre corps, prit comme demeure le corps de ce roi.</p>
+<p rend="stanza" n="3">Comme pour humilier Lakṣmī et la Terre <gap reason="lost"/> Sarasvatī résidait dans sa bouche.</p>
+<p rend="stanza" n="4">Dans ce roi qui avait pour ornement la richesse <gap reason="lost"/> cent joyaux tels que sentences morales, etc., avaient été déposés.</p>
+<p rend="stanza" n="5"> <gap reason="lost"/> le sang de l’ennemi dans le combat <gap reason="lost"/> tous les rois le saluèrent, les mains tendues vers lui comme vers Pṛthu.</p>
+<p rend="stanza" n="6"> <gap reason="lost"/> cette triade lui etait chère : la marque de la royauté, l’existence des autres ou leur inexistence.</p>
+<p rend="stanza" n="7"><gap reason="lost"/> ardent a réprimer les fourbes <seg rend="pun">ou : les serpents</seg>, à cause de son impartialité <seg rend="pun">ou : de son absence d’ailes</seg>, il n’était pas comme Garuḍa.</p>
+<p rend="stanza" n="8"><gap reason="lost"/> extrêmement cher à ses amis <seg rend="pun">ou : incomparable époux de Sumitrā</seg>, faisant la joie des immortels <seg rend="pun">ou : d’Aja</seg>, riche, il ne possédait cependant pas dix chars <seg rend="pun">ou : il n’était pas Daśaratha</seg>.</p>
+<p rend="stanza" n="9"><gap reason="lost"/> bien qu’il fit la prospérité de ceux qui étaient dépourvus d’or, il était réputé comme une lune entre les rois.</p>
+<p rend="stanza" n="10"><gap reason="lost"/> célébra sa naissance parmi les êtres animés.</p>
+<p rend="stanza" n="11"><gap reason="lost"/> un palanquin approprié <supplied reason="subaudible">à son rang</supplied> <gap reason="lost"/> continuellement, en reconnaissance de ses vertus.</p>
+<p rend="stanza" n="12">Le roi lui a assigné ce <gap reason="lost"/> accompagné des moyens de subsistance, avec <gap reason="lost"/> de Valadeva.</p>
+<p rend="stanza" n="13"><gap reason="lost"/> il a fait faire tout ce <gap reason="lost"/> ayant pour unique objet de rendre visible la possession <gap reason="lost"/>.</p>
+         </div>
+         <div type="commentary">
+            <p>The content of the Sanskrit stanzas is very similar to that of <ref target="K0856.xml">K. 856</ref>.</p>
+         </div>
+        <div type="bibliography">
+           <p>First edited by George Cœdès with a French translation of the Sanskrit part (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">225-228</citedRange></bibl>).</p>
+        	<listBibl type="primary">
+			<bibl n="GC">
+				     <ptr target="bib:Coedes1937-1966_01"/>
+      <citedRange unit="volume">3</citedRange>
+			   <citedRange unit="page">225-228</citedRange>
+				</bibl>
+			</listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

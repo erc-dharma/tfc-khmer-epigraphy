@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary Stela from Phnom Bayang (K. 854), 863 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00854</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2022-01-05" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn">
+                   <div type="textpart" subtype="fragment" n="I">
+                      <p part="I">
+                         <lb n="1"/><g type="gomutraInitial">.</g> siddhi
+                      </p>
+  <lg n="1" met="anuṣṭubh">
+     <l n="a"><lb n="1"/>vande śivāya deveśaṁ <space/></l>
+<l n="b">śrīmadutpannakeś<supplied reason="lost">v</supplied>araṁ <space/></l>
+<l n="c">yasyāge saṁsthatā nitya<space/></l>
+<l n="d">nn<seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg>rānāk<seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg>nirād<seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg>r<seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg> <g type="ddandaOrn">.</g></l>
+                   </lg>
+                      <lg n="2" met="anuṣṭubh">
+                         <l n="a"><lb n="2"/>śauryyād rājādhirājo ’bhū<space/>d</l>
+<l n="b">rājā rājīva-locanaḥ <space/></l>
+<l n="c">janye ’nanya-śrayaś śrīddho <space/></l>
+<l n="d">yo rikṣayakaro kṣayaḥ <g type="ddandaOrn">.</g></l>
+                      </lg>
+                      <lg n="3" met="anuṣṭubh">
+                         <l n="a"><lb n="3"/>śata-kratu-vato yasya <space/></l>
+<l n="b">kratūn vīkṣya śata-kratuḥ <space/></l>
+<l n="c">kin nv ahañ cyāvitas tene<space/></l>
+<l n="d">tīva cin<supplied reason="lost">t</supplied>āparo paraḥ <unclear><g type="ddandaOrn">.</g></unclear></l>
+                      </lg>
+                      <lg n="4" met="anuṣṭubh">
+                         <l n="a"><lb n="4"/>yasya tribhuvanasthāne <space/></l>
+<l n="b">sthāne sthitavatān nr̥nāṁ <space/></l>
+<l n="c">vrahmeśopendra-devendra<space/></l>
+<l n="d">lokālokanaśaithilaḥ <unclear><g type="ddandaOrn">.</g></unclear></l>
+                      </lg>
+                      <lg n="5" met="anuṣṭubh">
+                         <l n="a"><lb n="5"/>rājā śrījayavarmmākhyo <space/></l>
+<l n="b">varmmāvarmmy ari-bhañja-kr̥t· <space/></l>
+<l n="c">raṇa-raṅgeṣu bhogīndra<space/></l>
+<l n="d"><supplied reason="lost">bho</supplied>gābheddha-kuśeśayāt·</l>
+                      </lg>
+                      <lg n="6" met="anuṣṭubh">
+                         <l n="a"><lb n="6"/>tena sanmānya-bhū-bhartrā<space/></l>
+<l n="b">dhikr̥to yo yatīśvaraḥ <space/></l>
+<l n="c">jārāṅgaviṣa<supplied reason="lost">ya</supplied><seg met="+="><gap reason="lost" quantity="2" unit="character"/></seg> <space/>y</l>
+<l n="d">atrādhipatir ādarāt· <unclear><g type="ddandaOrn">.</g></unclear></l>
+                      </lg>
+                      <lg n="7" met="anuṣṭubh">
+                         <l n="a"><lb n="7"/>jārāṅga-viṣayāntair yyo <space/></l>
+<l n="b">nigr̥hītvāna gr̥hyate <space/></l>
+<l n="c">svañ cittan darśśayan nūnam<unclear>·</unclear> <space/></l>
+<l n="d">śavdādi-viṣayāgrahaṁ <unclear><g type="ddandaOrn">.</g></unclear></l>
+                      </lg>
+                      <lg n="8" met="anuṣṭubh">
+                         <l n="a"><lb n="8"/>yo yogyadhikr̥tas tenā<space/></l>
+<l n="b">hr̥tas svāmi-guru-guruḥ <space/></l>
+<l n="c">dhairyyāc chivapure <supplied reason="lost">ś</supplied>ai<supplied reason="lost">lā</supplied><space/></l>
+<l n="d">dhipatis sarvva-varṇṇiṇāṁ <unclear><g type="ddandaOrn">.</g></unclear></l>
+                      </lg>
+                      <lg n="9" met="anuṣṭubh">
+                         <l n="a"><lb n="9"/>pu<choice><orig>n</orig><reg>ṇ</reg></choice>yepsau tasya dākṣyatvā<space/>t</l>
+<l n="b">sarvva-śailādhipādhipaḥ <space/></l>
+<l n="c">śailādhipam itī <seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg> y <seg met="="><gap reason="lost" quantity="1" unit="character"/></seg> <space/></l>
+<l n="d">himavantam ivāhasat· <unclear><g type="ddandaOrn">.</g></unclear></l>
+                      </lg>
+                      <lg n="10" met="anuṣṭubh">
+                         <l n="a"><lb n="10"/>śrīharṣavarmmanāmā yo <space/></l>
+<l n="b">rājā śrījayavarmmaṇaḥ <space/></l>
+<l n="c">sūnus sva-vāhu-yugme<choice><orig>ṇ</orig><reg>n</reg></choice>a <space/></l>
+<l n="d">labdha-rājyo sa-vandhunā <unclear><g type="ddandaOrn">.</g></unclear></l>
+                      </lg>
+                      <lg n="11" met="anuṣṭubh">
+                         <l n="a"><lb n="11"/>rāja-lakṣmyā guṇa-tyāga<space/></l>
+<l n="b">saundaryyaiḥ pitr̥-tulyatā <space/></l>
+<l n="c">prajānandakare śauryye <space/></l>
+<l n="d">pitur yyasya viśiṣṭatā <unclear><g type="ddandaOrn">.</g></unclear></l>
+                      </lg>
+                      <lg n="12" met="anuṣṭubh">
+                         <l n="a"><lb n="12"/>yasyādbhūtaṁ raṇe śauryyaṁ <space/></l>
+<l n="b">cintayitvārayo niśam· <space/></l>
+<l n="c">divāniśam a <seg met="++"><gap reason="lost" quantity="2" unit="character"/></seg> <seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>y<seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg> <space/></l>
+<l n="d">na nidrāṁ lebhire kva cit· <unclear><g type="ddandaOrn">.</g></unclear></l>
+                      </lg>
+                      <lg n="13" met="anuṣṭubh">
+                         <l n="a"><lb n="13"/>tena sanmānyayo bhūyo <space/></l>
+<l n="b">riṇāge hemadolay <seg met="="><gap reason="lost" quantity="1" unit="character"/></seg> <space/></l>
+<l n="c"><seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg> h<seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg>tākṣa<space/></l>
+<l n="d">śvetaiḥ purbhis samr̥ddhibhi<supplied reason="lost">ḥ</supplied> <unclear><g type="ddandaOrn">.</g></unclear></l>
+                      </lg>
+                      <lg n="14" met="anuṣṭubh">
+                         <l n="a"><lb n="14"/>karaṅkāmatra-bhr̥ṅgāra<space/></l>
+<l n="b">kṣoma-cīnāṅśukā <seg met="-="><gap reason="lost" quantity="2" unit="character"/></seg> <space/></l>
+<l n="c"><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg> <space/></l>
+<l n="d">prayukto <seg met="=-+-="><gap reason="lost" quantity="5" unit="character"/></seg></l>
+                      </lg>
+                      <lg n="15" met="anuṣṭubh">
+                         <l n="a"><lb n="15"/>vikṣobhya yo gr̥hītvārīn· <space/></l>
+<l n="b">puram indrapurāhva<supplied reason="lost">yam·</supplied> <space/></l>
+<l n="c">dhanāny<seg met="==-++="><gap reason="lost" quantity="6" unit="character"/></seg> <space/></l>
+<l n="d">vyadhāś chrī <seg met="=-+-="><gap reason="lost" quantity="5" unit="character"/></seg></l>
+                      </lg>
+                      <lg n="16" met="anuṣṭubh">
+                         <l n="a"><lb n="16"/>sa Eva paramācāryya <space/></l>
+<l n="b">Āryya Ācāryya <seg met="+-="><gap reason="lost" quantity="3" unit="character"/></seg> <space/></l>
+<l n="c">dvija-vidva <seg met="-++="><gap reason="lost" quantity="4" unit="character"/></seg> <space/></l>
+<l n="d">tapā<seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>r <seg met="=-+-="><gap reason="lost" quantity="5" unit="character"/></seg></l>
+                      </lg>
+                      <lg n="17" met="anuṣṭubh">
+                         <l n="a"><lb n="17"/>yuvāpi yuvatīṁ lakṣmīṁ <space/></l>
+<l n="b">yo vihāyeva kā <seg met="-="><gap reason="lost" quantity="2" unit="character"/></seg> <space/></l>
+<l n="c"><supplied reason="lost">vi</supplied>dyāṁ vr̥ddhā<supplied reason="lost">m</supplied> <seg met="-++="><gap reason="lost" quantity="4" unit="character"/></seg> <space/></l>
+<l n="d">na ca <seg met="==-+-="><gap reason="lost" quantity="6" unit="character"/></seg></l>
+                      </lg>
+                      <lg n="18" met="anuṣṭubh">
+                         <l n="a"><lb n="18"/>lakṣmī-sarasvatībhyāṁ yaṁ <space/></l>
+<l n="b">yaśo vīkṣyopagūḍhitaṁ <space/></l>
+<l n="c">vyacarad di <seg met="-++="><gap reason="lost" quantity="4" unit="character"/></seg> <space/></l>
+<l n="d"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+                      </lg>
+                      <lg n="19" met="anuṣṭubh">
+                         <l n="a"><lb n="19"/>Eka-vrahma-nidhānaṁ ya<space/>d</l>
+<l n="b">viṣṇu-nābhi-saroruham· <space/></l>
+<l n="c">yad-vaktra <seg met="=-++="><gap reason="lost" quantity="5" unit="character"/></seg> <space/></l>
+<l n="d"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+                      </lg>
+                      <lg n="20" met="anuṣṭubh">
+                         <l n="a"><lb n="20"/>yavīyān api tadbhrātā <space/></l>
+<l n="b">jyeṣṭhena prati-rūpakaḥ <space/></l>
+<l n="c">vibhūti-tyāga-gām<supplied reason="lost">bhī</supplied>ryya <space/></l>
+<l n="d"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+                      </lg>
+                      <lg n="21" met="anuṣṭubh">
+                         <l n="a"><lb n="21"/>nitya-vyāpyāhvayo yogī <space/></l>
+<l n="b">nityānitya-viśāradaḥ <space/></l>
+<l n="c">tenaiva <seg met="=-++="><gap reason="lost" quantity="5" unit="character"/></seg> <space/></l>
+<l n="d"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+                      </lg>
+                      <lg n="22" met="anuṣṭubh">
+                         <l n="a"><lb n="22"/>cakārādri-tate ramye <space/></l>
+<l n="b">girīndrāśramam āśramaṁ <space/></l>
+<l n="c"><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg> <space/></l>
+<l n="d"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+                      </lg>
+                      <lg n="23" met="anuṣṭubh">
+                         <l n="a"><lb n="23"/>tayos tu poṣaṇārthan tu <space/></l>
+<l n="b">gri <seg met="===-+-="><gap reason="lost" quantity="7" unit="character"/></seg> <space/></l>
+<l n="c"><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg> <space/></l>
+<l n="d"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+                      </lg>
+</div>
+<div type="textpart" subtype="fragment" n="II">
+  <lg part="F" n="24" met="unidentified">
+     <l n="a"><lb n="24"/><gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="b"><gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="c"><gap reason="lost" extent="unknown" unit="character"/>rasannidhā<gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="d"><gap reason="lost" extent="unknown" unit="character"/></l>
+                   </lg>
+   <lg n="25" met="upajāti">
+                         <l n="a"><lb n="25"/><seg met="=+-++--+-+="><gap reason="lost" quantity="11" unit="character"/></seg> <supplied reason="lost"><space/></supplied></l>
+<l n="b"><seg met="=+-++--+-+="><gap reason="lost" quantity="11" unit="character"/></seg> <space/></l>
+<l n="c"><seg met="=+-"><gap reason="lost" quantity="3" unit="character"/></seg> dattāni maheśvarāya <space/></l>
+<l n="d"><seg met="=+-++--+"><gap reason="lost" quantity="8" unit="character"/></seg> tr<seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg>bhis svaiḥ <unclear><g type="dDanda">.</g></unclear></l>
+                      </lg>
+   <lg n="26" met="anuṣṭubh">
+                         <l n="a"><lb n="26"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg> <supplied reason="lost"><space/></supplied></l>
+<l n="b"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg> <space/></l>
+<l n="c">sva-bhaktyāṅkuravacch<seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg> <seg met="="><gap reason="lost" quantity="1" unit="character"/></seg> <space/></l>
+<l n="d"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+                      </lg>
+   <lg n="27" met="anuṣṭubh">
+                         <l n="a"><lb n="27"/>deveṣvanyeṣu yaddāna<space/></l>
+<l n="b"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg> <space/></l>
+<l n="c">gaṇaye vyo <seg met="-++="><gap reason="lost" quantity="4" unit="character"/></seg> <space/></l>
+<l n="d"><seg met="====-++"><gap reason="lost" quantity="7" unit="character"/></seg> na <unclear><g type="dDanda">.</g></unclear></l>
+                      </lg>
+   <lg n="28" met="upajāti">
+                         <l n="a"><lb n="28"/>pradāya sarvvāni vicintya ke nā<space/></l>
+<l n="b">bhūta-plavāt kīrttim imaṁ vadanti <space/></l>
+<l n="c">prākāram<unclear>a</unclear> <seg met="++--+-+="><gap reason="lost" quantity="8" unit="character"/></seg> <space/></l>
+<l n="d"><seg met="++-++--+"><gap reason="lost" quantity="8" unit="character"/></seg> <seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg> ivaddhaṁ <unclear><g type="dDanda">.</g></unclear></l>
+                      </lg>
+   <lg n="29" met="anuṣṭubh">
+                         <l n="a"><lb n="29"/>rāmartu-vasu-śākeṇa <space/></l>
+<l n="b">rakta-pāṣā<choice><orig>n</orig><reg>ṇ</reg></choice>a-rañjitam· <space/></l>
+<l n="c">cakāra <seg met="=-++="><gap reason="lost" quantity="5" unit="character"/></seg> <space/></l>
+<l n="d"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+                      </lg>
+   <lg n="30" met="unidentified">
+                         <l n="a"><lb n="30"/>dvitaya-mahāśramādhipe <space/></l>
+<l n="b">kula-patāv adhitāpasottame <space/></l>
+<l n="c"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><space/></supplied></l>
+<l n="d"><gap reason="lost" extent="unknown" unit="character"/></l>
+                      </lg>
+   <lg n="31" met="vasantatilakā">
+                         <l n="a"><lb n="31"/>ye laṅghayanti parikalpitam āśrame te <space/></l>
+<l n="b">lumpanti dattam iha bhūta-patau haranti <space/></l>
+<l n="c">chinnāṅghri-karṇṇa-kara-nāsika-śiśna <seg met="+="><gap reason="lost" quantity="2" unit="character"/></seg> <space/></l>
+<l n="d"><seg met="++-+---+--+-+="><gap reason="lost" quantity="14" unit="character"/></seg></l>
+                      </lg>
+   <lg n="32" met="vasantatilakā">
+                         <l n="a"><lb n="32"/>ye pālayanti ca yathā parikalpitāni <space/></l>
+<l n="b">saṁvardhayanti na haranti yathā svapu<choice><orig>n</orig><reg>ṇ</reg></choice>yaṁ <space/></l>
+<l n="c">te cārghya-pādya-pha<add place="above">la</add>-puṣpa-dharaiḥ pra <seg met="+="><gap reason="lost" quantity="2" unit="character"/></seg> <space/></l>
+<l n="d"><seg met="++-+---+--+-++"><gap reason="lost" quantity="14" unit="character"/></seg> <unclear><g type="circleTarget">.</g></unclear></l>
+                      </lg>
+</div>
+</div>
+ <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem>°nirād<seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg>°</lem>
+                      <rdg source="bib:Coedes1937-1966_01">°nirāt<seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg>°</rdg>
+                      </app>
+                  <app loc="4">
+                     <lem>śaithilaḥ</lem>
+                      <note><foreign>śaithilaḥ</foreign> <supplied reason="explanation">masculin</supplied> does not appear in the lexiques; only <foreign>śaithilya</foreign><supplied reason="explanation">neutre</supplied>.</note>
+                      </app>
+                  <app loc="28">
+                     <lem>prākāram<unclear>a</unclear></lem>
+                      <rdg source="bib:Coedes1937-1966_01">prākāram</rdg>
+                      </app>
+                  <app loc="29">
+                     <lem>rāmartuvasuśākeṇa</lem>
+                      <rdg source="bib:Coedes1937-1966_01">rāmarttuvasuśākena</rdg>
+                      </app>
+                  <app loc="31">
+                     <lem>bhūtapatau</lem>
+                      <rdg source="bib:Coedes1937-1966_01">bhūtapatāv</rdg>
+                      </app>
+               </listApp>         
+         </div> 
+            <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+               <p rend="stanza" n="1">Je salue avec joie le maître des dieux, le vénérable Utpannakeśvara, dont le séjour sur la montagne <gap reason="lost"/> éternellement.</p>
+               <p rend="stanza" n="2">Il fut un roi aux yeux de lotus, devenu par sou héroïsme roi suprême des rois, n’ayant d’autre soutien dans sa race que lui-même, enflammé par Śrī, à l’abri de la ruine, faisant la ruine des ennemis.</p>
+               <p rend="stanza" n="3"><supplied reason="subaudible">Indra</supplied> aux cent sacrifices, qui croyait fermement n’avoir pas de rival, voyant les sacrifices de roi auteur de cent sacrifices, se dit en quelque sorte : « Ne suis-je pas à cause de lui déchu <supplied reason="subaudible">de mon titre</supplied>?"</p>
+               <p rend="stanza" n="4">Les hommes résidant dans son domaine, qui était le domaine des trois mondes, se souciaient peu de contempler les mondes de Brahmā, d’Īśa, d’Upendra et de Devendra.</p>
+               <p rend="stanza" n="5">Le roi nommé Śrī Jayavarman, dépourvu de cuirasse, cause sur les champs de bataille la ruine de l’ennemi avec le lotus <supplied reason="explanation">?</supplied> enflammé par la lumière des replis <supplied reason="explanation">?</supplied> du roi des serpents.</p>
+               <p rend="stanza" n="6">Par ce roi digne du respect des gens de bien, le chef du district de Jārāṅga <gap reason="lost"/> a été fait ici même supérieur des ascètes.</p>
+               <p rend="stanza" n="7">Lui qui, supprimant sa pensée, manifestait la non-perception des objets des sens <supplied reason="explanation"><foreign>viṣaya</foreign></supplied> à commencer par le son, est saisi maintenant par les limites du district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied> de Jārāṅga.</p>
+               <p rend="stanza" n="8">Choisi par cet homme qui avait été placé à la tête des <foreign>yogin</foreign>, le <foreign>guru</foreign> Svāmiguru a été à cause de sa fermeté nommé à Śivapura <foreign>śailādhipati</foreign> des <foreign>sarvavarṇin</foreign>.</p>
+               <p rend="stanza" n="9">Ayant, grâce aux bonnes dispositions de ce <supplied reason="explanation" cert="low"><foreign>yogin</foreign></supplied> à l’égard de celui qui désire acquérir des mérites, <supplied reason="subaudible">obtenu le titre de</supplied> chef suprême de tous les <foreign>śailādhipa</foreign> <supplied reason="explanation"><foreign>sarvaśailādhipādhipa</foreign></supplied>, il se moquait en quelque sorte de l’Himavat qui n’est que « roi des monts » <supplied reason="explanation"><foreign>śailādhipa</foreign></supplied>.</p>
+               <p rend="stanza" n="10">Le roi, fils de Śrī Jayavarman, nommé Śrī Harṣavarman, acquit la royauté par la paire de ses bras, sans le secours d’aucun ami.</p>
+               <p rend="stanza" n="11">Il égalait la fortune royale de son père par les vertus, la libéralité, la beauté, mais il la surpassait par sa valeur qui faisait la joie de ses sujets.</p>
+               <p rend="stanza" n="12">Ses ennemis, qui ne cessaient jour et nuit de penser à son héroïsme extraordinaire dans les combats, ne connurent jamais le sommeil.</p>
+               <p rend="stanza" n="13">Abondamment honoré par ce roi dévot, <supplied reason="subaudible">il reçut</supplied> sur la montagne une litière d’or avec des richesses : <gap reason="lost"/> rosaires, parasols blancs, villages.</p>
+               <p rend="stanza" n="14">Un vase à boire <supplied reason="explanation"><foreign>amatra</foreign></supplied> en forme de crâne, un vase <supplied reason="explanation"><foreign>bhr̥ṅgāra</foreign></supplied>, des étoffes de lin et de soie <gap reason="lost"/></p>
+               <p rend="stanza" n="15">Ayant jeté la confusion parmi les ennemis et pris la ville nommée Indrapura, il donna <gap reason="lost"/> des biens à Śrī.</p>
+               <p rend="stanza" n="16">Lui aussi, le professeur <supplied reason="explanation"><foreign>ācārya</foreign></supplied> éminent, le noble professeur <gap reason="lost"/> brâhmane <gap reason="lost"/></p>
+               <p rend="stanza" n="17">Ayant, bien qu’étant jeune, répudié en quelque sorte la jeune vierge Fortune <gap reason="lost"/> <supplied reason="subaudible">il épousa</supplied> la Science âgée <gap reason="lost"/></p>
+               <p rend="stanza" n="18">La Gloire, le voyant embrassé par la Fortune et l’Eloquence, se répandit <supplied reason="subaudible">par jalousie dans l’espace</supplied>.</p>
+               <p rend="stanza" n="19"><gap reason="lost"/> le lotus du nombril de Viṣṇu, unique séjour de Brahmâ <gap reason="lost"/> son visage <gap reason="lost"/></p>
+               <p rend="stanza" n="20">Son frère qui, bien que plus jeune, était l’image de son aîné <gap reason="lost"/> par la puissance, la libéralité, la profondeur <gap reason="lost"/></p>
+               <p rend="stanza" n="21">Le <foreign>yogin</foreign> nommé Nityavyāpi, versé dans la science du permanent et de l’impermanent, <gap reason="lost"/> par lui <gap reason="lost"/></p>
+               <p rend="stanza" n="22">En un lieu charmant s’étendant sur la montagne il a fait l’ermitage Girīndrāśrama <gap reason="lost"/></p>
+               <p rend="stanza" n="23">Pour l’entretien de ces deux <gap reason="lost"/></p>
+               <p rend="stanza" n="24"><gap reason="lost"/></p>
+               <p rend="stanza" n="25"> <gap reason="lost"/> donnés à Maheśvara <gap reason="lost"/></p>
+               <p rend="stanza" n="26"><gap reason="lost"/> possédant le germe de sa propre dévotion <gap reason="lost"/></p>
+               <p rend="stanza" n="27"><gap reason="lost"/> ses dons aux autres dieux <gap reason="lost"/></p>
+               <p rend="stanza" n="28">Quels sont ceux qui, songeant à lui qui a donné tout cela, ne diraient pas sa gloire, avec le flot inouï <gap reason="lost"/></p>
+               <p rend="stanza" n="29">En Śāka <supplied reason="subaudible">marqué par</supplied> les <supplied reason="subaudible">8</supplied> Vasu, les <supplied reason="subaudible">6</supplied> saisons et les <supplied reason="subaudible">3</supplied> Rāma, il a fait <gap reason="lost"/> coloré par de la pierre rouge <gap reason="lost"/></p>
+               <p rend="stanza" n="30"><gap reason="lost"/> le <foreign>kulapati</foreign>, supérieur des deux grands ermitages, le premier d’entre les ascètes <gap reason="lost"/></p>
+               <p rend="stanza" n="31">Ceux qui détournent ce qui a été octroyé à l’ermitage, qui volent, prennent ici ce qui a été donné à <supplied reason="subaudible">Śiva</supplied> seigneur des créatures, qu’on leur coupe les pieds ; les oreilles, les mains, le nez, le membre viril <gap reason="lost"/></p>
+               <p rend="stanza" n="32">Ceux qui protègent ce qui a été octroyé, le font prospérer, et ne le prennent en aucune façon, que ceux-là <gap reason="lost"/> avec les porteurs de fruits, de fleurs, de <supplied reason="subaudible">vases</supplied> <foreign>arghya</foreign> et <foreign>pādya</foreign> <gap reason="lost"/></p>
+            </div>
+         <div type="commentary">
+            <p>We follow the numbering of the stanzas of George Cœdès. It is not possible to estimate the number of stanza which are lost between stanzas XXIII and XXIV.</p>
+         </div>
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">1</citedRange><citedRange unit="page">260-266</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on estampage EFEO  n. 1109.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">1</citedRange><citedRange unit="page">260-266</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+      </body>
+    </text>
+</TEI>

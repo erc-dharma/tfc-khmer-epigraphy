@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A pillar at Prasat Lolei (K. 337), 815 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00337</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:sapi" when="2021-09-08" status="draft">Adding a new translation</change>
+         <change who="part:kuch" when="2020-12-09" status="draft">Modifications regarding numerals</change>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:kuch" when="2020-07-10">Modifications to edition, apparatus and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+                <p><milestone type="pagelike" unit="item" n="A"/><label xml:lang="eng">Face</label>
+<lb n="A1"/><gap reason="lost" extent="unknown" unit="character"/> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>y<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="A2"/>brahma sot· <num value="1"><g type="numeral">I</g></num> tai kaṁpit· <num value="1"><g type="numeral">I</g></num> tai kaṁpit· sot· <gap reason="lost" quantity="12" unit="character"/>
+<lb n="A3"/>marendrapura <num value="1"><g type="numeral">I</g></num> Amraḥ śrīnidhī <num value="1"><g type="numeral">I</g></num> gho saṁAp· <num value="1"><g type="numeral">I</g></num> tai <gap reason="lost" quantity="1" unit="character"/>di<unclear>pā</unclear> <gap reason="lost" quantity="5" unit="character"/>
+<lb n="A4"/>rat· pnos· <num value="1"><g type="numeral">I</g></num> tai kaṁvic· <num value="1"><g type="numeral">I</g></num> lap· kanteṅ· <num value="1"><g type="numeral">I</g></num> lap· saṁAp <num value="1">I</num> lap· krau <num value="1"><g type="numeral">I</g></num> gvā<supplied reason="lost">l·</supplied> <unclear>pan</unclear>las· <num value="1"><g type="numeral">I</g></num> <gap reason="lost" quantity="1" unit="character"/>
+<lb n="A5"/>krau <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> vnvak· ta gi sruk can·doṅ· vuro pramān· śreṣthapura Amraḥ dhana<lb n="A6" break="no"/>ñjaya <num value="1"><g type="numeral">I</g></num> tai kmau <num value="1"><g type="numeral">I</g></num> sī rat· kr̥s· <num value="1"><g type="numeral">I</g></num> lap· kaṁprvat· <num value="1"><g type="numeral">I</g></num> tai kñuṁ <num value="1"><g type="numeral">I</g></num> sī rat· kaṁpas· <num value="1"><g type="numeral">I</g></num> tai kañjai <num value="1"><g type="numeral">I</g></num>
+<lb n="A7"/>gvāl krau <num value="1"><g type="numeral">I</g></num> tai kanteṅ· <num value="1"><g type="numeral">I</g></num> tai pau kan·Aṁ <num value="1"><g type="numeral">I</g></num> tai kaṁvoṅ· <num value="1"><g type="numeral">I</g></num> tai kañcū <num value="1"><g type="numeral">I</g></num> sī rat· śveta <num value="1"><g type="numeral">I</g></num>
+<lb n="A8"/>gvāl· pitaradāsa <num value="1"><g type="numeral">I</g></num> tai paṁnaṅ· <num value="1"><g type="numeral">I</g></num> sī pau saṁAp· <num value="1"><g type="numeral">I</g></num> tai kñuṁ· <num value="1"><g type="numeral">I</g></num> tai kañcū <num value="1"><g type="numeral">I</g></num> gho śryāmaya
+<lb n="A9"/>gho Aṁdeṅ· <num value="1"><g type="numeral">I</g></num> gho graleṅ· <num value="1"><g type="numeral">I</g></num> gho panlas· <num value="1"><g type="numeral">I</g></num> gvāl· paṅ·hāṅ· <num value="1"><g type="numeral">I</g></num> psok· śambhu<lb n="A10" break="no"/>pura man· cat ta gi sruk· stuk· cok· gho priya <num value="1"><g type="numeral">I</g></num> gho kaṁpun· <num value="1"><g type="numeral">I</g></num> gvāl· kdeṅ· <num value="1"><g type="numeral">I</g></num> tai<!--sapi J'ai ajouté un "i" pour faire "tai" ; ai je bien fait ? -->
+<lb n="A11"/>caṁpeṅ· <num value="1"><g type="numeral">I</g></num> tai pau kanrat· <num value="1"><g type="numeral">I</g></num> tai pansvaṁ <num value="1"><g type="numeral">I</g></num> tai pau kañcū <num value="1"><g type="numeral">I</g></num> tai kañcāṁ <num value="1"><g type="numeral">I</g></num> tai rat· kaṁ<lb n="A12" break="no"/>phāc· <num value="1"><g type="numeral">I</g></num> tai laṁṅāc· <num value="1"><g type="numeral">I</g></num> <g type="circle">.</g> psok· tryamvakapura man· cat ta gi sruk· pralāy·
+<lb n="A13"/>vāt· gho ta hvāy· <num value="1"><g type="numeral">I</g></num> gho jhoṅ· <num value="1"><g type="numeral">I</g></num> gho A jhoṅ· <num value="1"><g type="numeral">I</g></num> gho A teṅ· <num value="1"><g type="numeral">I</g></num> gho A veṅ· <num value="1"><g type="numeral">I</g></num>
+<lb n="A14"/>gvāl· A lī <num value="1"><g type="numeral">I</g></num> gvāl· A troṅ· <num value="1"><g type="numeral">I</g></num> gvāl· A sat· <num value="1"><g type="numeral">I</g></num> gvāl A croṁ <num value="1"><g type="numeral">I</g></num> gvāl· kaṁpvañ· <num value="1"><g type="numeral">I</g></num> tai
+<lb n="A15"/>jneṅ· <num value="1"><g type="numeral">I</g></num> tai dhivaṅ· <num value="1"><g type="numeral">I</g></num> tai sup· <num value="1"><g type="numeral">I</g></num> sī rat· troṅ· <num value="1"><g type="numeral">I</g></num> tai A hoṅ· <num value="1"><g type="numeral">I</g></num> tai dhivaṅ· sot·
+<lb n="A16"/>sī pau <num value="1"><g type="numeral">I</g></num> lap· kñuṁ <num value="1"><g type="numeral">I</g></num> lap· kal·hvay· <num value="1"><g type="numeral">I</g></num> lap· vryal· <num value="1"><g type="numeral">I</g></num> <g type="circle">.</g> piṇda sruk· <num value="7">7</num>
+<lb n="A17"/>Amraḥ <num value="10">10</num> gho <num value="51">40 10 <g type="numeral">I</g></num> tai <num value="85">80 5</num> gvāl· <num value="12">10 <g type="numeral">2</g></num> lap· <num value="19">10 9</num> sī rat·
+<lb n="A18"/><num value="14">10 4</num> tai rat· <num value="6">6</num> sī pau <num value="7">7</num> tai pau <num value="12">10 2</num> <g type="circle">.</g> psaṁ <num value="216">200 10 6</num> <g type="circleTarget">.</g> psaṁ phoṅṅa vnvak·
+<lb n="A19"/>knet· nu rṇnocca <num value="396">300 80 10 6</num> <g type="circleTarget">.</g>
+                </p>
+                    <p><milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Face</label>
+<lb n="B1"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B2"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B3"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B4"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B5"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B6"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B7"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B8"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B9"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B10"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B11"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ka</unclear>ndai <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B12"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B13"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B14"/>kanle <gap reason="lost" quantity="5" unit="character"/>· <num value="1"><g type="numeral">I</g></num> tai rat· manyā <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B15"/><gap reason="lost" extent="unknown" unit="character"/> rat· <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>au <num value="1"><g type="numeral">I</g></num> tai <gap reason="lost" extent="unknown" unit="character"/> tai vraḥ <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>r̥
+<lb n="B16"/><gap reason="lost" extent="unknown" unit="character"/>c· <num value="1"><g type="numeral">I</g></num> tai <unclear>ka</unclear>nteṁ <num value="1"><g type="numeral">I</g></num> tai cke <num value="1"><g type="numeral">I</g></num> gho taṅka <num value="1"><g type="numeral">I</g></num> gho pandan· <num value="1"><g type="numeral">I</g></num> gho kañ·ye<gap reason="lost" quantity="1" unit="character"/>
+<lb n="B17"/>ṅ· <num value="1"><g type="numeral">I</g></num> gho qgat· <num value="1"><g type="numeral">I</g></num> gho kansip· <num value="1"><g type="numeral">I</g></num> gho pnos· <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> vraḥ vnvak· ta gi sruk· pralāy· vāt·
+<lb n="B18"/>pramān· malyāṅ· Amraḥ <unclear>kaṁ</unclear>pat· <num value="1"><g type="numeral">I</g></num> gho tcas· <num value="1"><g type="numeral">I</g></num> gho caṁvas· <num value="1"><g type="numeral">I</g></num> gho krau <num value="1"><g type="numeral">I</g></num> tai kaliha <num value="1"><g type="numeral">I</g></num>
+<lb n="B19"/>lap· kañjaṁ <num value="1"><g type="numeral">I</g></num> tai kandep· <num value="1"><g type="numeral">I</g></num> tai vraḥ qjī <num value="1"><g type="numeral">I</g></num> tai Aṅ·Oṅ· <num value="1"><g type="numeral">I</g></num> tai <unclear>A</unclear>mala <num value="1"><g type="numeral">I</g></num> g<supplied reason="lost">v</supplied>āl· c<unclear>p</unclear>oṅ· <num value="1"><g type="numeral">I</g></num> sī ra<lb n="B20" break="no"/>t· taṅker· <num value="1"><g type="numeral">I</g></num> lap· kñuṁ <num value="1"><g type="numeral">I</g></num> sī rat· saṁAp· <num value="1"><g type="numeral">I</g></num> sī <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B21"/>pau <num value="1"><g type="numeral">I</g></num> sī rat· <num value="1"><g type="numeral">I</g></num> gvāl· smaṅ· <num value="1"><g type="numeral">I</g></num> tai <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B22"/><unclear>pan</unclear>dan· <num value="1"><g type="numeral">I</g></num> gho kanteṅ· <num value="1"><g type="numeral">I</g></num> <supplied reason="lost">gh</supplied>o <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B23"/>kan·har· <num value="1"><g type="numeral">I</g></num> gho <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>au</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B24"/>ra<unclear>t</unclear>· <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>au</unclear> <num value="1" cert="low"><g type="numeral">I</g></num> <supplied reason="lost">t</supplied><unclear>ai</unclear> <gap reason="lost" extent="unknown" unit="character"/> <num value="1"><g type="numeral">I</g></num> tai <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B25"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>t</unclear><supplied reason="lost">ai</supplied> kañcū <num value="1"><g type="numeral">I</g></num> tai ka<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B26"/><num value="1" cert="low"><g type="numeral">I</g></num> <unclear>sī pau</unclear> ka<supplied reason="lost">n</supplied>teṅ· <num value="1"><g type="numeral">I</g></num> tai rat· kaṁ <gap reason="lost" quantity="7" unit="character"/> <supplied reason="lost">pa</supplied>nlas· <num value="1"><g type="numeral">I</g></num> gvāl· saṁ<unclear>A</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="B27"/>lap· cpoṅ· <num value="1"><g type="numeral">I</g></num> tai knap· <num value="1"><g type="numeral">I</g></num> tai A<unclear>n</unclear>reṅ· <num value="1"><g type="numeral">I</g></num> gho ratnagarbha <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> Amraḥ ka<unclear>n</unclear><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>eṁ <num value="1"><g type="numeral">I</g></num> gho ma<lb n="B28" break="no"/>la <num value="1"><g type="numeral">I</g></num> tai kan·Ak· <num value="1"><g type="numeral">I</g></num> tai kan·As· <num value="1"><g type="numeral">I</g></num> sī pau ptal· <num value="1"><g type="numeral">I</g></num> tai Aṅ·Oṅ· <num value="1"><g type="numeral">I</g></num> sī pau <num value="1"><g type="numeral">I</g></num> sī rat· ka<lb n="B29" break="no"/>nteṅ· <num value="1"><g type="numeral">I</g></num> tai kaṁpit· <num value="1"><g type="numeral">I</g></num> tai rat· <unclear>t</unclear>gap· <num value="1"><g type="numeral">I</g></num> sī rat· kañcī <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> psok· śa<supplied reason="lost">m</supplied>bhupura man· duk·
+<lb n="B30"/>ta gi sruk· stuk· veṅ· pramān· malyāṅ· Amraḥ sraṅe <num value="1"><g type="numeral">I</g></num> gho srac· ta daiva <num value="1"><g type="numeral">I</g></num> gvā<lb n="B31" break="no"/>l· kanso <num value="1"><g type="numeral">I</g></num> tai kantin· <num value="1"><g type="numeral">I</g></num> sī rat· kaṁvai <num value="1"><g type="numeral">I</g></num> tai kaṁpur· <num value="1"><g type="numeral">I</g></num> tai pau <num value="1"><g type="numeral">I</g></num> tai jayadeva <num value="1"><g type="numeral">I</g></num> tai
+<lb n="B32"/>pau pandan· <num value="1"><g type="numeral">I</g></num> sī rat· vrahey· <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> psok tryambakapura man· duk· ta gi sru<lb n="B33" break="no"/>k· stuk· krel· pramān· troc· nāduk· tpallati<unclear>gb</unclear>e vnvak· Amraḥ saṁpva<lb n="B34" break="no"/>t· <num value="1"><g type="numeral">I</g></num> gho krān· <num value="1"><g type="numeral">I</g></num> gho kali <num value="1"><g type="numeral">I</g></num> gho A teṅ· <num value="1"><g type="numeral">I</g></num> gho geṅ· <num value="1"><g type="numeral">I</g></num> tai kraEṅ· <num value="1"><g type="numeral">I</g></num>
+<lb n="B35"/>tai ksu <num value="1"><g type="numeral">I</g></num> tai loṅ· <num value="1"><g type="numeral">I</g></num> tai pau trāy· <num value="1"><g type="numeral">I</g></num> tai dmey· <num value="1"><g type="numeral">I</g></num> tai qleṅ· <num value="1"><g type="numeral">I</g></num> sī rat·
+<lb n="B36"/>kali <num value="1"><g type="numeral">I</g></num> tai kaleṅ· <num value="1"><g type="numeral">I</g></num> gvāl· qley· <num value="1"><g type="numeral">I</g></num> gvāl· gyār· <num value="1"><g type="numeral">I</g></num> gvāl· klāṅ· <num value="1"><g type="numeral">I</g></num> gvāl· do<lb n="B37" break="no"/>ṅ· <num value="1"><g type="numeral">I</g></num> lap· dreṁ <num value="1"><g type="numeral">I</g></num> lap· vryay· <num value="1"><g type="numeral">I</g></num> lap· jarvay· <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g> piṇda sruk· <num value="5">5</num>
+<lb n="B38"/>Amraḥ <num value="11">10 <g type="numeral">I</g></num> gho <num value="31">20 10 <g type="numeral">I</g></num> tai <num value="63">60<g type="numeral">III</g></num> gvāl· <num value="9">9</num> lap· <num value="6">6</num> sī rat· <num value="17">10 7</num> tai
+<lb n="B39"/>rat· <num value="8">8</num> sī pau <num value="6">6</num> tai pau <num value="14">10 4</num> psaṁ <num value="165">100 60 5</num> <g type="circleTarget">.</g> psaṁ phoṅṅa vnvak·
+<lb n="B40"/>knet· nu rṇnocca <num value="359">300 40 10 9</num> <g type="circleTarget">.</g>
+</p>
+            </div>
+            <div type="apparatus">
+            <listApp>
+                <app loc="A2">
+                    <lem>brahma</lem>
+                <rdg source="bib:Pou2001_01">vrahma</rdg>
+                </app>
+                <app loc="A6">
+                    <lem>ñjaya</lem>
+                <rdg source="bib:Pou2001_01">jñaya</rdg>
+                </app>
+                <app loc="A7">
+                    <lem>kanteṅ·</lem>
+                <rdg source="bib:Pou2001_01">kandeṅ·</rdg>
+                </app>
+                <app loc="A8">
+                    <lem>śryāmaya</lem>
+                <rdg source="bib:Pou2001_01">srayāmaya <num value="1"><g type="numeral">I</g></num></rdg>
+                </app>
+                <app loc="A10">
+                    <lem>cat ta</lem>
+                <rdg source="bib:Pou2001_01">catta</rdg>
+                </app>
+                <app loc="A10">
+                    <lem>kdeṅ·</lem>
+                <rdg source="bib:Pou2001_01">kneṅ·</rdg>
+                </app>
+                <app loc="A17">
+                    <lem><num value="51">40 10 <g type="numeral">I</g></num></lem>
+                <rdg source="bib:Pou2001_01"><num value="31">20 10 <g type="numeral">I</g></num></rdg>
+                </app>
+                <app loc="A17">
+                    <lem><num value="85">80 5</num></lem>
+                <rdg source="bib:Pou2001_01"><num value="65">60 5</num></rdg>
+                </app>
+                <app loc="A18">
+                    <lem><num value="7">7</num></lem>
+                <rdg source="bib:Pou2001_01"><num value="10">10</num></rdg>
+                </app>
+                <app loc="A18">
+                    <lem><num value="216">200 10 6</num></lem>
+                <rdg source="bib:Pou2001_01"><num value="116">100 10 6</num></rdg>
+                    <note>Aymonier 1883 : 2(16) La lecture des chiffres, conforme aux totaux lus par Aymonier (JA 1883) est confirmée par le total partiel : 10+51+85+12+19+14+6+7+12=216.</note>
+                </app>
+                <app loc="A19">
+                    <lem><num value="396">300 80 10 6</num></lem>
+                <rdg source="bib:Pou2001_01"><num value="276">200 60 10 6</num></rdg>
+                    <note>Aymonier <supplied reason="explanation">1883</supplied> lit 396.</note>
+                </app>
+                 <app loc="B32">
+                     <lem/>
+                     <note>Il faut noter la variante <foreign>tryamvakapura</foreign> de la ligne 12 de la Face A. La distinction en les <foreign>ba</foreign> et les <foreign>va</foreign> est remarquablement respectée à Lolei, ce qui est assez rare dans le reste du corpus. Sans doute faut-il y voir un témoignage de l’intérêt de Yaśovarman Ier pour la mise au point de l’écriture.</note>
+                 </app>
+                </listApp>
+            </div>
+         <div type="translation" xml:lang="fra" resp="part:sapi">
+           <p n="A1-A2"><gap reason="lost"/>1 Brahma supplémentaire ; 1 <foreign>tai</foreign> Kaṁpit supplémentaire ; <gap reason="lost"/> 1 Marendrapura.</p>
+           <p n="A2-A5">1 <foreign>amraḥ</foreign> Śrīnidhi ; 1 <foreign>gho</foreign> Saṁap ; 1 <foreign>lap</foreign> Krau ; 1 <foreign>gval</foreign> Panlas ; <gap reason="lost"/> 1 Krau.</p>
+           <p n="A5-A9">La force de travail du village de Candoṅ Vuro du <foreign>pramān</foreign> Śreṣthapura <supplied reason="explanation">s’ensuit une liste de 1 <foreign>amraḥ</foreign> ; 9 <foreign>tai</foreign>, 3 <foreign>sī rat</foreign>, 1 <foreign>lap</foreign>, 3 <foreign>gvāl</foreign>, 1 <foreign>tai pau</foreign>, 1 <foreign>sī pau</foreign>, 4 <foreign>gho</foreign></supplied> :
+           1 <foreign>amraḥ</foreign> Dhanañjaya ; 1 <foreign>tai</foreign> Kmau ; 1 <foreign>sī rat</foreign> Kr̥s ; 1 <foreign>lap</foreign> Kaṁprvat ; 1 <foreign>tai</foreign> Kñum ; 1 <foreign>sī rat</foreign> Kaṁpas ; 1 <foreign>tai</foreign> Kañjai ; 1 <foreign>gvāl</foreign> Krau ; 1 <foreign>tai</foreign>Kanteṅ ; 1 <foreign>tai pau</foreign> Kanaṁ ; 1 <foreign>tai</foreign> Kaṁvoṅ ; 1 <foreign>tai</foreign> Kañcū ; 1 <foreign>sī rat</foreign> Śveta ; 1 <foreign>gvāl</foreign> Pitaradāsa ; 1 <foreign>tai</foreign> Paṁnaṅ ; 1 <foreign>sī pau</foreign> Saṁap ; 1 <foreign>tai</foreign> Kñuṁ ; 1 <foreign>tai</foreign> Kañcū ; 1 <foreign>gho</foreign> Śryāmaya ; 1 <foreign>gho</foreign> Aṁdeṅ ; 1 <foreign>gho</foreign> Graleṅ ; 1 <foreign>gho</foreign> Panlas ; 1 <foreign>gvāl</foreign> Paṅhāṅ.</p>
+           <p n="A9-A12">Les prisonniers de guerre de Śambhupura qui sont assignés au village de Stuk Cok <supplied reason="explanation">s’ensuit une liste de 2 <foreign>gho</foreign>, 1 <foreign>gvāl</foreign>, 4 <foreign>tai</foreign>, 2 <foreign>tai pau</foreign>, 1 <foreign>tai rat</foreign></supplied> : 1 <foreign>gho</foreign> Priya ; 1 <foreign>gho</foreign> Kaṁpun ; 1 <foreign>gvāl</foreign> Kdeṅ ; 1 <foreign>tai</foreign> Caṁpeṅ ; 1 <foreign>tai pau</foreign> Kanrat ; 1 <foreign>tai</foreign> Pansvaṁ ; <foreign>tai pau</foreign> Kañcū ; <foreign>tai</foreign> Kañcāṁ ; <foreign>tai rat</foreign> Kaṁphāc ; <foreign>tai</foreign> Laṁṅāc.</p>
+           <p n="A12-A16">Les prisonniers de guerre de Tryamvakapura qui sont assignés au village de Pralāy Vāt <supplied reason="explanation">s’ensuit une liste de 5 <foreign>gho</foreign>, 5 <foreign>gvāl</foreign>, 5 <foreign>tai</foreign>, 1 <foreign>sī rat</foreign>, 1 <foreign>sī pau</foreign></supplied> : 1 <foreign>gho</foreign> Ta Hvāy ; 1 <foreign>gho</foreign> Jhoṅ ; 1 <foreign>gho</foreign> A jhoṅ ; 1 <foreign>gho</foreign> A Teṅ ; 1 <foreign>gho</foreign> A Veṅ ; 1 <foreign>gvāl</foreign> A Lī ; 1 <foreign>gvāl</foreign> A Troṅ ; 1 <foreign>gvāl</foreign> A Sat ; 1 <foreign>gvāl</foreign> A Croṁ ; 1 <foreign>gvāl</foreign> Kaṁpvañ ; 1 <foreign>tai</foreign> Jneṅ ; 1 <foreign>tai</foreign> Dhivaṅ ; 1 <foreign>tai</foreign> Sup ; 1 <foreign>sī rat</foreign> Troṅ ; 1 <foreign>tai</foreign> A Hoṅ ; 1 <foreign>tai</foreign> Dhivaṅ additionnel ; 1 <foreign>sī pau</foreign> ; 1 <foreign>lap</foreign> Kñuṁ ; 1 <foreign>lap</foreign> Kalhvay ; 1 <foreign>lap</foreign> Vryal.</p>
+           <p n="A16-A18">Total : 7 villages, 10 <foreign>amraḥ</foreign>, 51 <supplied reason="explanation">40-10-1</supplied> <foreign>gho</foreign>, 85 <supplied reason="explanation">80-5</supplied> <foreign>tai</foreign>, 12 <supplied reason="explanation">10-2</supplied> <foreign>gvāl</foreign>, 19 <supplied reason="explanation">10-9</supplied> <foreign>lap</foreign>, 14 <supplied reason="explanation">10-4</supplied> <foreign>sī rat</foreign>, 6 <foreign>tai rat</foreign>, 7 <foreign>sī pau</foreign>, 12 <foreign>tai pau</foreign> ; en tout : 216 <supplied reason="explanation">200-10-6</supplied>.</p>
+           <p n="A18-A19">Total des forces de travail des quinzaines claire et sombre : 396 <supplied reason="explanation">300 80 10 6</supplied>.</p>
+           <p n="B1-B13"><gap reason="lost"/> Kandai <gap reason="lost"/></p>
+           <p n="B14-B17">Kanle <gap reason="lost"/> 1 <gap reason="lost"/> ; <supplied reason="lost">1</supplied> <foreign>tai rat</foreign> Manyā <gap reason="lost"/>, 1 <foreign>rat</foreign> <gap reason="lost"/>au ; <foreign>tai</foreign> <gap reason="lost"/> ; <supplied reason="lost">1</supplied> <foreign>tai</foreign> Vraḥ <gap reason="lost"/>r̥ ; 1 <gap reason="lost"/>c ; 1 <foreign>tai</foreign> Kanteṁ ; 1 <foreign>tai</foreign> Cke ; 1 <foreign>gho</foreign> Taṅka ; 1 <foreign>gho</foreign> Pandan ; 1 <foreign>gho</foreign> Kañye<gap reason="lost"/>ṅ ; 1 <foreign>gho</foreign> Agat ; 1 <foreign>gho</foreign> Kansip ; 1 <foreign>gho</foreign> Pnos.</p>
+           <p n="B17-B27">Les saintes forces de travail du village de Pralāy Vāt du <foreign>pramān</foreign> Malyāṅ : 1 <foreign>amraḥ</foreign> Kaṁpat ; 1 <foreign>gho</foreign> Tcas ; 1 <foreign>gho</foreign> Caṁvas ; 1 <foreign>gho</foreign> Krau ; 1 <foreign>tai</foreign> Kaliha ; 1 <foreign>lap</foreign> Kañjaṁ ; <foreign>tai</foreign> Kandep ; <foreign>tai</foreign> Vraḥ Ajī ; <foreign>tai</foreign> Aṅoṅ ; <foreign>tai</foreign> Amala ; <foreign>gvāl</foreign> Cpoṅ ; <foreign>sī rat</foreign> Taṅker ; 1 <foreign>lap</foreign> Kñuṁ ; 1 <foreign>sī rat</foreign> Saṁap ; <supplied reason="lost">1</supplied> <foreign>sī</foreign> <gap reason="lost"/> ; 1 <foreign>pau</foreign> ; 1 <foreign>sī rat</foreign> ; 1 <foreign>gvāl</foreign> Smaṅ ; <supplied reason="lost">1</supplied> <foreign>tai</foreign> <gap reason="lost"/> ; 1 Pandan ; 1 <foreign>gho</foreign> Kanteṅ ; <supplied reason="lost">1</supplied> <foreign>gho</foreign> <gap reason="lost"/> ; 1 Kanhar ; 1 <foreign>gho</foreign> <gap reason="lost"/>au <gap reason="lost"/> ; 1 <foreign>rat</foreign> <gap reason="lost"/>au ; 1 <foreign>tai</foreign> <gap reason="lost"/> ; <supplied reason="lost">1</supplied> <foreign>tai</foreign> <gap reason="lost"/> ; 1 tai Kañcū ; <supplied reason="lost">1</supplied> <foreign>tai</foreign> Ka<gap reason="lost"/> ; 1 ; 1 <foreign>sī pau</foreign> Kanteṅ ; <foreign>tai rat</foreign> Kaṁ<gap reason="lost"/> ; 1 Panlas ; 1 <foreign>gvāl</foreign> Saṁa<gap reason="lost"/> ; 1 <foreign>lap</foreign> Cpoṅ ; 1 <foreign>tai</foreign> Knap ; 1 <foreign>tai</foreign> Anreṅ ; 1 <foreign>gho</foreign> Ratnagarbha.</p>
+           <p n="B27-B29">1 <foreign>amraḥ</foreign> Kan<gap reason="lost"/>eṁ ; 1 <foreign>gho</foreign> Mala ; <foreign>tai</foreign> Kanak ; 1 <foreign>tai</foreign> Kanas ; 1 <foreign>sī pau</foreign> Ptal ; 1 <foreign>tai</foreign> Aṅoṅ ; 1 <foreign>sī pau</foreign> ; 1 <foreign>sī rat</foreign> Kanteṅ ; 1 <foreign>tai</foreign> Kaṁpit ; 1 <foreign>tai rat</foreign> Tgap ; 1 <foreign>sī rat</foreign> Kañci.</p>
+           <p n="B29-B32">Les prisonniers de guerre de Śambhupura qui sont assignés au village de Stuk Veṅ du <foreign>pramān</foreign> Malyāṅ <supplied reason="explanation">s’ensuit une liste de 1 <foreign>amraḥ</foreign>, 1 <foreign>gho</foreign>, 1 <foreign>gvāl</foreign>, 3 <foreign>tai</foreign>, 2 <foreign>sī rat</foreign>, 2 <foreign>tai pau</foreign></supplied> : 1 <foreign>amraḥ</foreign> Sraṅe ; 1 <foreign>gho</foreign> Srac Ta Daiva ; 1 <foreign>gvāl</foreign> Kanso ; 1 <foreign>tai</foreign> Kantin ; 1 <foreign>sī rat</foreign> Kaṁvai ; 1 <foreign>tai</foreign> Kaṁpur ; 1 <foreign>tai pau</foreign> ; 1 <foreign>tai</foreign> Jayadeva ; 1 <foreign>tai pau</foreign> Pandan ; 1 <foreign>sī rat</foreign> Vrahey.</p>
+           <p n="B32-B37">Les prisonniers de guerre de Tryambakapura qui sont assignés au village Stuk Krel du <foreign>pramān</foreign> Troc Nāduk Tpallatigbe en équipe <supplied reason="explanation">s’ensuit une liste de 1 <foreign>amraḥ</foreign>, 4 <foreign>gho</foreign>, 7 <foreign>tai</foreign>, 1 <foreign>tai pau</foreign>, 1 <foreign>sī rat</foreign>, 4 <foreign>gvāl</foreign>, 3 <foreign>lap</foreign></supplied> : 1 <foreign>amraḥ</foreign> Saṁpvat ; 1 <foreign>gho</foreign> Krān ; 1 <foreign>gho</foreign> Kali ; 1 <foreign>gho</foreign> Ateṅ ; 1 <foreign>gho</foreign> Geṅ ; 1 <foreign>tai</foreign> Kraeṅ ; 1 <foreign>tai</foreign> Ksu ; <foreign>tai</foreign> Loṅ ; 1 <foreign>tai pau</foreign> Trāy ; 1 <foreign>tai</foreign> Dmey ; 1 <foreign>tai</foreign> Aleṅ ; 1 <foreign>sī rat</foreign> Kali ; 1 <foreign>tai</foreign> Kaleṅ ; 1 <foreign>gvāl</foreign> Aley ; 1 <foreign>gvāl</foreign> Gyār ; 1 <foreign>gvāl</foreign> Klāṅ ; 1 <foreign>gvāl</foreign> Doṅ ; 1 <foreign>lap</foreign> Dreṁ ; 1 <foreign>lap</foreign> Vryay ; 1 <foreign>lap</foreign> Jarvay.</p>
+           <p n="B37-B39">Total : 5 villages, 11 <supplied reason="explanation">10-<num value="1"><g type="numeral">I</g></num></supplied> <foreign>amraḥ</foreign>, 31 <supplied reason="explanation">20-10-<num value="1"><g type="numeral">I</g></num></supplied> <foreign>gho</foreign>, 63 <supplied reason="explanation">60-<num value="3"><g type="numeral">III</g></num></supplied> <foreign>tai</foreign>, 9 <foreign>gvāl</foreign>, 6 <foreign>lap</foreign>, 17 <supplied reason="explanation">10-7</supplied>
+           <foreign>sī rat</foreign>, 8 <foreign>tai rat</foreign>, 6 <foreign>sī pau</foreign>, 14 <supplied reason="explanation">10 4</supplied> <foreign>tai pau</foreign> ; en tout : 165 <supplied reason="explanation">100 60 5</supplied>.</p>
+           <p n="B40">Total des forces de travail des quinzaines claire et sombre : 359 <supplied reason="explanation">300 40 10 9</supplied>.</p>
+         </div>
+         <div type="commentary">
+             <p>La face A de K. 337 est la seule de cet ensemble d’inscriptions à avoir été publiée à ce jour <supplied reason="explanation">NIC II-III p. 87</supplied>. C’est aussi la seule qui soit encore conservée et pour laquelle nous disposons d’estampages à la chinoise. L’estampage dit « Lottin de Laval » de la BN témoigne du fait que l’inscription a encore souffert depuis sa découverte par Aymonier. Il permet en outre de compléter l’édition de Saveros Pou et de corriger les totaux.</p>
+         </div>
+        <div type="bibliography">
+          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">87</citedRange></bibl>); reedited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="page">510-511</citedRange></bibl>) without translation.</p>
+	 <listBibl type="primary">
+    <bibl n="DS">
+      <ptr target="bib:Soutif2009_03"/>
+      <citedRange unit="page">510-511</citedRange>
+    </bibl>
+	     <bibl n="SP">
+      <ptr target="bib:Pou2001_01"/>
+      <citedRange unit="page">87</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Slab of stone of Prasat Neang Khmau (K. 1147), pre-Angkorian period</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName xml:id="gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01147</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2020-12-01">Modifications to edition and translation</change>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:kuch" when="2020-05-04" status="draft">Modifications of edition, apparatus and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="1"/><seg met="= = = = ="><gap reason="illegible" quantity="5" unit="character"/></seg> bhaktena</l>
+<l n="b">kr̥ta-jñair <unclear>g</unclear>uru-vaṅśa-<supplied reason="lost">j</supplied><unclear>ai</unclear><supplied reason="lost">ḥ</supplied></l>
+<l n="c"><supplied reason="lost">Ī</supplied>śvara-jñāna-dhanyena</l>
+<l n="d">sthāpitey<supplied reason="lost">aṁ sa</supplied>rasvatī</l>
+</lg>
+<lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="2"/><supplied reason="lost">Īś</supplied><unclear>va</unclear>ra-jñāna-dānāni</l>
+<l n="b">devyai yāva<unclear>n</unclear>ti kāni ci<supplied reason="lost">t·</supplied></l>
+<l n="c"><seg met="= = ="><gap reason="illegible" quantity="3" unit="character"/></seg> <unclear>ta</unclear>pramāṇāni</l>
+<l n="d">yo har<unclear>e</unclear>n narake patet·</l>
+</lg>
+<p>
+<lb n="3"/>Aṁnoy· poñ· Iśvarajñāna yajamāna <supplied reason="lost">Ai ta</supplied> kpo<supplied reason="lost">ñ· ka</supplied><unclear>m</unclear>ra<unclear>t</unclear>āṅ· Añ· sarassvatī <g type="dotMid">.</g> <unclear>vā bh</unclear>āṅ· <num value="1"><g type="numeral">I</g></num> vā <choice><unclear>d</unclear><unclear>h</unclear><unclear>ph</unclear></choice><unclear>ok</unclear>· <num value="1"><g type="numeral">I</g></num>
+<lb n="4"/><supplied reason="lost">vā</supplied> <choice><unclear>A</unclear><unclear>Ā</unclear></choice><supplied reason="lost">ṅ</supplied>ga<unclear>r</unclear>· <num value="1"><g type="numeral">I</g></num> vā <gap reason="illegible" quantity="2" unit="character"/> <num value="1"><g type="numeral">I</g></num> ku tanmāru <num value="1"><g type="numeral">I</g></num> ku sraṅe <num value="1"><g type="numeral">I</g></num> vā <unclear>ka</unclear><supplied reason="lost">ṁ</supplied>v<supplied reason="lost">a</supplied>ñ· <num value="1"><g type="numeral">I</g></num> ku Iṅ· Oṅ· <num value="1"><g type="numeral">I</g></num> <unclear>v</unclear>ā <unclear>ka</unclear>vac· <num value="1"><g type="numeral">I</g></num> vā tmāṅ· <num value="1"><g type="numeral">I</g></num>
+<lb n="5"/>ku Āgara hval· <num value="1"><g type="numeral">I</g></num> vā caṁpot· <num value="1"><g type="numeral">I</g></num> ku <unclear>s</unclear>yer· <num value="1"><g type="numeral">I</g></num> vā <supplied reason="lost">d</supplied>ra<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear cert="low">y</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> <num value="1"><g type="numeral">I</g></num> ku t<unclear>p</unclear>it· <num value="1"><g type="numeral">I</g></num> <supplied reason="lost">v</supplied>ā <supplied reason="lost">kloñ</supplied>· <num value="1"><g type="numeral">I</g></num> vā durvvalaṁ <num value="1"><g type="numeral">I</g></num>
+<lb n="6"/>ku mañjarī <num value="1"><g type="numeral">I</g></num> kon· ku ku Aśakti <num value="1"><g type="numeral">I</g></num> ku <unclear>t</unclear>vu<unclear>c</unclear>· <num value="1"><g type="numeral">I</g></num> vā bhap· <num value="1"><g type="numeral">I</g></num> vā <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i<gap reason="illegible" quantity="2" unit="character" precision="low"/> <num value="1"><g type="numeral">I</g></num> ku cander· <num value="1"><g type="numeral">I</g></num>
+<lb n="7"/>ko<unclear>n</unclear>· ku vā kansala <num value="1"><g type="numeral">I</g></num> ku tvoc· <num value="1"><g type="numeral">I</g></num> ku smau <num value="1"><g type="numeral">I</g></num> ku kandai <num value="1"><g type="numeral">I</g></num> vā tpun· <num value="1"><g type="numeral">I</g></num> vā dhanadatta <num value="1"><g type="numeral">I</g></num>
+<lb n="8"/>vā raṁnoc· vraḥ <num value="1"><g type="numeral">I</g></num> ku paṅ· ket· <num value="1"><g type="numeral">I</g></num> ku martta Ilu <num value="1"><g type="numeral">I</g></num> vā jā rhval· <num value="1"><g type="numeral">I</g></num> ku gan· <num value="1"><g type="numeral">I</g></num>
+<lb n="9"/>ku kloñ· <num value="1"><g type="numeral">I</g></num> kon· ku tvau <num value="1"><g type="numeral">I</g></num> vā kandās· <num value="1"><g type="numeral">I</g></num> ku smau <num value="1"><g type="numeral">I</g></num> ku saṁ U<unclear>y·</unclear> <num value="1"><g type="numeral">I</g></num> vā rhval· <num value="1"><g type="numeral">I</g></num>
+<lb n="10"/>ku dhan· <num value="1"><g type="numeral">I</g></num> vā vaḥ kandin· <num value="1"><g type="numeral">I</g></num> vā sraṅe <num value="1"><g type="numeral">I</g></num> damriṅ· <num value="1"><g type="numeral">I</g></num> kOl· <num value="1"><g type="numeral">I</g></num> sre sanr<supplied reason="lost">e</supplied> <num value="2"><g type="numeral">II</g></num>
+<lb n="11"/>sre Ai tem· toṅ· sanre <num value="3"><g type="numeral">III</g></num> slā teṁ bhaiy· <num value="10">10</num> toṅ· teṁ bhaiy· <num value="3"><g type="numeral">III</g></num>
+<lb n="12"/><unclear>n</unclear>i ku mar· Añ· voṁ kathā gi n<unclear>aṁ t</unclear>var· ku vambhanī kon· ku
+<lb n="13"/><gap reason="lost" quantity="1" unit="character"/> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>· <unclear>ta</unclear> kpoñ· sārasvati ple pros· ge ta hau k<unclear>u</unclear> ple
+<lb n="14"/><gap reason="illegible" quantity="3" unit="character" precision="low"/> roḥ gi <choice><unclear>n</unclear><unclear>t</unclear></choice><choice><unclear>o</unclear><unclear>e</unclear></choice>ḥ pāpavā<unclear>n</unclear>i<unclear>ṣ</unclear>ā<choice><unclear cert="low">ṭh</unclear><unclear cert="low">gr</unclear></choice>a ge mān ra gi
+                </p>
+                </div>
+                <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem><lb n="1"/><seg met="= = = = ="><gap reason="illegible" quantity="5" unit="character"/></seg></lem>
+                     <note>On distingue ce qui est sans doute un <foreign>ra</foreign> souscrit pour la 4e syllabe, et pour la 5e la partie droite d’un graphème que je ne sais comment interpréter <supplied reason="explanation" cert="low">dh</supplied>.</note>
+                  </app>
+                  <app loc="1">
+                     <lem><unclear>g</unclear>uru-vaṅśa<supplied reason="lost">j</supplied><unclear>ai</unclear><supplied reason="lost">ḥ</supplied></lem>
+                     <note>On distingue assez clairement la voyelle <foreign>Ai</foreign>.</note>
+                  </app>
+               <app loc="2">
+                     <lem>yāva<unclear>n</unclear>ti kāni ci<supplied reason="lost">t·</supplied></lem>
+                     <note>Le <foreign>na</foreign> de <foreign>yāvanti</foreign> semble bien maigre, mais c’est le cas de plusieurs autres <foreign>na</foreign> de l’inscription <supplied reason="explanation">ici même, <foreign>pāda</foreign> c</supplied>. La consonne finale <foreign>ta</foreign> est peut-être lisible sur la pierre, ou sur un estampage différent. Au total, la séquence <foreign>yāvanti kāni cit</foreign> est assurée.</note>
+                  </app>
+               <app loc="2">
+                     <lem><seg met="= = ="><gap reason="illegible" quantity="3" unit="character"/></seg> <unclear>ta</unclear>pramāṇāni</lem>
+                     <note>La présence d’une voyelle <foreign>i</foreign>, sur la consonne précédant <foreign>ta</foreign>, n’est pas assurée. La consonne <foreign>t</foreign> est du reste peut-être surmontée d’un <foreign>r</foreign> suscrit.</note>
+                  </app>
+               <app loc="2">
+                     <lem>har<unclear>e</unclear>n</lem>
+                     <note>Le <foreign>e</foreign> semble être noté sous le <foreign>ha</foreign>, par une boucle qu’il faut rapporter au <foreign>ra</foreign> qui suit.</note>
+                  </app>
+               <app loc="3">
+                     <lem>Iśvarajñāna</lem>
+                     <rdg source="bib:Pou2001_01">Īśvarajñāna</rdg>
+                  <note>Le graphème initial ne présente pas le signe diacritique qui doit distinguer <foreign>i</foreign> bref de <foreign>ī</foreign> long, et il est identique à celui de <foreign>Iṅ· Oṅ·</foreign> dans la l. 4 <supplied reason="explanation">et de <foreign>Ilu</foreign> dans la l. 8</supplied>.</note>
+                  </app>
+                  <app loc="3">
+                     <lem><supplied reason="lost">Ai ta</supplied></lem>
+                     <rdg source="bib:Pou2001_01"><supplied reason="lost">ta</supplied></rdg>
+                     <note>Les deux <foreign>akṣara</foreign> ont disparus dans l’usure de la pierre. Mais l’estampage permet de distinguer encore, une fois admise la forte probabilité de la restitution <foreign>Ai ta</foreign>, la trace infime de la boucle supérieure gauche du <foreign>Ai</foreign>Ai et de la partie gauche du <foreign>ta</foreign>.</note>
+                  </app>
+                  <app loc="3">
+                     <lem>kpo<supplied reason="lost">ñ· ka</supplied><unclear>m</unclear>ra<unclear>t</unclear>āṅ· Añ</lem>
+                     <rdg source="bib:Pou2001_01">kpoñ· <gap reason="illegible" extent="unknown" unit="character"/>Añ</rdg>
+                     <note>Ne disposant apparemment que d’un estampage imparfait de l’inscription, S. Pou voit ici un défaut « pré-existant à la gravure que les ciseleurs ont simplement contournés en notant le texte. Une tache confuse apparaît nettement au milieu de la ligne 3, entamant à la fois les lignes sanskrites et cette première ligne khmère, séparant ainsi <foreign>kpoñ·</foreign> de <foreign>Añ·</foreign>. Sachant que ces deux éléments ne forment qu’un seul terme, en l’occurrence le titre d’une déesse en usage à l’époque pré-angkorienne, on a ainsi la preuve que le graveur les a séparés par nécessité, vu le défaut de la pierre » <supplied reason="explanation">NIC III, p. 195</supplied>. C’est ce défaut qu’elle note par un long tiret. Indépendamment du fait que la séquence <foreign>kpoñ· Añ·</foreign>, à ma connaissance, n’est pas attestée – on trouve soit <foreign>kpoñ· ka<supplied reason="explanation">ṁ</supplied>mratāṅ· Añ·</foreign> <supplied reason="explanation">et une occurrence de <foreign>kpoñ· kaṁmratāṅ·</foreign>, dans K. 790 et K. 904 et <foreign>kpoñ· kamratāñ·</foreign> dans Ka 10</supplied>, soit <foreign>kpoñ·</foreign> suivi du nom de la divinité, soit <foreign>kpoñ·</foreign> comme anthroponyme –, indépendamment aussi du fait qu’on voit mal où le lapicide, contournant un défaut préexistant, aurait gravé les premières syllabes du 3e quart de la 2e stance sanskrite, de meilleures reproductions, confirmées par un examen de la pierre elle-même, présentent le <foreign>ra</foreign> souscrit et le bas du <foreign>m</foreign> de la syllabe <foreign>mra</foreign>, une trace claire du <foreign>ta</foreign> et le <foreign>ā</foreign> de la syllabe <foreign>tā</foreign>, l’empreinte de <foreign>ṅa</foreign> avec son <foreign>virāma</foreign>. C’est donc bien un décollement secondaire de la pierre qui est responsable de la perte de graphèmes que l’on peut restituer sans hésitation.</note>
+                  </app>
+                  <app loc="3">
+                     <lem>sarassvatī</lem>
+                     <rdg source="bib:Pou2001_01">sarasvatī</rdg>
+                  </app>
+                  <app loc="3">
+                     <lem><unclear>vā bh</unclear>āṅ·</lem>
+                     <rdg source="bib:Pou2001_01">vā <gap reason="illegible" extent="unknown" unit="character"/></rdg>
+                     <note>La lecture <foreign>bha</foreign> est très incertaine, mais tout de même la plus probable <supplied reason="explanation">cf. <foreign>bha</foreign> dans la l. 1</supplied>. Certes l’anthroponyme <foreign>bhāṅ·</foreign> n’est pas encore attesté à ma connaissance ; mais <foreign>bhāṅ·</foreign> l’est <supplied reason="explanation">K. 78, entre 668 et 678 de n. è., l. 17 : <foreign>vā bhaṅ·</foreign></supplied>.</note>
+                  </app>
+                  <app loc="3">
+                     <lem>vā <choice><unclear>d</unclear><unclear>h</unclear><unclear>ph</unclear></choice><unclear>ok</unclear>· <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Pou2001_01">vā daiva ku <gap reason="illegible" extent="unknown" unit="character"/></rdg>
+                     <note>La difficulté à identifier la première consonne de l’anthroponyme entraîne une indécision sur l’interprétation de la voyelle : lire <foreign><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="character"/></seg>ok·</foreign> ou <foreign>r<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="character"/></seg>ek·</foreign> ? La lecture <foreign>dok·</foreign> est la plus probable.</note>
+                  </app>
+                  <app loc="4">
+                     <lem><supplied reason="lost">vā</supplied> <choice><unclear>A</unclear><unclear>Ā</unclear></choice><supplied reason="lost">ṅ</supplied>ga<unclear>r</unclear>· <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Pou2001_01"><gap reason="illegible" extent="unknown" unit="character"/> <num value="1">1</num></rdg>
+                     <note>Pour <foreign>vā</foreign>, il reste des traces très faibles du sommet du <foreign>va</foreign> et du <foreign>Ā</foreign> ; la restitution paraît certaine. La voyelle initiale de l’anthroponyme est assurément <foreign>A</foreign> ou <foreign>Ā</foreign>. La barre horizontale supérieure du <foreign>ṅa</foreign> est encore visible. Hélas, je ne sais pas comment interpréter le graphème de la consonne finale <supplied reason="explanation">dont le <foreign>virāma</foreign>, lui, est certain</supplied> : je lirais volontiers <foreign>ra</foreign>, mais ce serait alors le seul exemple de ce graphème, dans les l. 1-11, qui ne présente pas la forme allongée, dépassant sous la ligne d’écriture <supplied reason="explanation" cert="low">voir cependant <foreign>cander·</foreign>, l. 6</supplied>.</note>
+                  </app>
+                  <app loc="4">
+                     <lem>vā <gap reason="illegible" quantity="2" unit="character"/> <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Pou2001_01">vā <gap reason="illegible" extent="unknown" unit="character"/> <num value="1">1</num></rdg>
+                     <note>Les traces sont trop faibles pour permettre une restitution. Avec deux <foreign>akṣara</foreign>, la voyelle de la première syllabe pourrait être <foreign>ā</foreign> ; sinon, il s’agirait de la trace d’un <foreign>na</foreign>. Le dernier graphème illisible a laissé une trace semblable à celle d’un <foreign>u</foreign> initial.</note>
+                  </app>
+                  <app loc="4">
+                     <lem><unclear>ka</unclear><supplied reason="lost">ṁ</supplied>v<supplied reason="lost">a</supplied>ñ·</lem>
+                     <rdg source="bib:Pou2001_01">taṁviñ·</rdg>
+                     <note>Un décollement de la pierre affecte le haut des deux premières consonnes. La première consonne ne semble pas présenter la boucle fermée à gauche caractéristique du <foreign>ta</foreign>, et cette forme du <foreign>ka</foreign>, sans appendice inférieur, est conforme à celle des autres <foreign>ka</foreign> au début de l’épigraphe <supplied reason="explanation">cf. <foreign>kāni</foreign> et <foreign>narake</foreign> en l. 2 ; forme à « appendice » dans <foreign>kansala</foreign> et <foreign>kandai</foreign>, l. 7 ; <foreign>kandin·</foreign>, l. 9</supplied>. Ce qui peut paraître comme la trace d’un <foreign>i</foreign> sur la deuxième consonne <supplied reason="explanation"><foreign>i</foreign> qui serait alors à gauche de l’axe du <foreign>va</foreign>va</supplied> peut être dû au décollement de la pierre.</note>
+                  </app>
+                  <app loc="4">
+                     <lem><unclear>v</unclear>ā <unclear>ka</unclear>vac·</lem>
+                     <rdg source="bib:Pou2001_01">vā kavaca</rdg>
+                     <note>Autre exemple d’un probable <foreign>ka</foreign> sans appendice <supplied reason="explanation">voir note précédente</supplied>. La présence d’un <foreign>virāma</foreign> sur le <foreign>ca</foreign> est certaine.</note>
+                  </app>
+                  <app loc="4">
+                     <lem>tmāṅ·</lem>
+                     <rdg source="bib:Pou2001_01">tvāṅ·</rdg>
+                  </app>
+                  <app loc="5">
+                     <lem>caṁpot·</lem>
+                     <rdg source="bib:Pou2001_01">caṁdot·</rdg>
+                  </app>
+                  <app loc="5">
+                     <lem><supplied reason="explanation">s</supplied>yer·</lem>
+                     <rdg source="bib:Pou2001_01">sperī</rdg>
+                     <note>Si la consonne <foreign>sa</foreign> est rien moins que sûre, la souscrite, elle, est bien plus certainement <foreign>ya</foreign> que <foreign>pa</foreign> ; quant au <foreign>virāma</foreign>, pris pour un <foreign>ī</foreign> par les NIC III, il est certain.</note>
+                  </app>
+                  <app loc="5">
+                     <lem><supplied reason="lost">d</supplied>ra<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear cert="low">y</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg></lem>
+                     <rdg source="bib:Pou2001_01">dra <gap reason="illegible" extent="unknown" unit="character"/></rdg>
+                     <note>Je renonce provisoirement à comprendre les traces, pourtant assez nettes, de cet anthroponyme. S’il y a une souscrite y, elle semble bien petite <supplied reason="explanation">cf. <foreign>devyai</foreign>, l. 2</supplied> ; quant à l’ensemble de signes qui précède <supplied reason="explanation" cert="low">le second groupe consonantique</supplied>, je ne me résous ni à l’interpréter comme la voyelle <foreign>ai</foreign>, ni à <foreign>y</foreign> voir un <foreign>ra</foreign> suscrit avec la voyelle <foreign>e</foreign> ou <foreign>ai</foreign>.</note>
+                  </app>
+                  <app loc="5">
+                     <lem>t<unclear>p</unclear>it·</lem>
+                     <rdg source="bib:Pou2001_01">tpit·</rdg>
+                     <note>La lecture ne fait aucun doute.</note>
+                  </app>
+                  <app loc="5">
+                     <lem><supplied reason="lost">v</supplied>ā <supplied reason="lost">kloñ</supplied>· <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Pou2001_01"><gap reason="illegible" extent="unknown" unit="character"/></rdg>
+                     <note>La restitution du nom propre est donnée sous réserve d’un examen de la pierre. La nasale, en particulier, est douteuse.</note>
+                  </app>
+                  <app loc="5">
+                     <lem>vā durvvalaṁ</lem>
+                     <rdg source="bib:Pou2001_01">vā durvvala</rdg>
+                     <note>Le point qui figure sur le <foreign>la</foreign> ne semble pas, d’après la photo, être un défaut de la pierre, et il est trop petit pour être un <foreign>virāma</foreign>. Peut-être s’agit-il d’une erreur du lapicide.</note>
+                  </app>
+                  <app loc="6">
+                     <lem>ku <unclear>t</unclear>vu<unclear>c</unclear>·</lem>
+                     <rdg source="bib:Pou2001_01">ku <gap reason="illegible" extent="unknown" unit="character"/></rdg>
+                     <note>Ce qui est ici interprété comme un <foreign>ca</foreign> ressemble un peu à un <foreign>kha</foreign>, bien improbable.</note>
+                  </app>
+                  <app loc="6">
+                     <lem>vā <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i<gap reason="illegible" quantity="2" unit="character" precision="low"/> <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Pou2001_01">vā <gap reason="illegible" extent="unknown" unit="character"/> <num value="1">I</num></rdg>
+                     <note>La consonne C pourrait être un <foreign>ja</foreign>.</note>
+                  </app>
+                  <app loc="7">
+                     <lem>ko<unclear>n</unclear>·</lem>
+                     <rdg source="bib:Pou2001_01">kon·</rdg>
+                     <note>Restitution évidente. L’absence de <foreign>virāma</foreign> sur le <foreign>la</foreign> de <foreign>kansala</foreign> est peut-être due à la proximité des appendices inférieurs des deux lettres <foreign>ku ku</foreign> de la l. 6 ?</note>
+                  </app>
+                  <app loc="8">
+                     <lem>Ilu</lem>
+                     <rdg source="bib:Pou2001_01">Īlu</rdg>
+                     <note>Cf. supra ad <foreign>Iśvarajñāna</foreign> de la l. 3.</note>
+                  </app>
+                  <app loc="8">
+                     <lem>jā rhval·</lem>
+                     <rdg source="bib:Pou2001_01">jeṣṭhā<gap reason="illegible" extent="unknown" unit="character"/></rdg>
+                     <note>La lecture des NIC III est improbable.</note>
+                  </app>
+                  <app loc="8">
+                     <lem>gan·</lem>
+                     <rdg source="bib:Pou2001_01">saṁ</rdg>
+                  </app>
+                  <app loc="9">
+                     <lem>saṁ U<unclear>y·</unclear></lem>
+                     <rdg source="bib:Pou2001_01">saṁva<gap reason="illegible" extent="unknown" unit="character"/></rdg>
+                     <note>Abîmé, il y a cependant laissé assez de traces sur l’estampage pour que la lecture soit assurée.</note>
+                  </app>
+                   <app loc="10">
+                     <lem>dhan·</lem>
+                     <rdg source="bib:Pou2001_01">dhana</rdg>
+                      <note>Le <foreign>virāma</foreign> est très clair sur l’estampage.</note>
+                  </app>
+                   <app loc="10">
+                     <lem>vā vaḥ kandin·</lem>
+                     <rdg source="bib:Pou2001_01">va sakandin·</rdg>
+                      <note>La lecture <foreign>vā</foreign> est assurée, et <foreign>va</foreign> des NIC III est une coquille. Une éraflure affecte le bas droit du <foreign>va</foreign> de <foreign>vaḥ</foreign> et le point inférieur du <foreign>visarga</foreign>, donnant l’impression que l’on peut, pour l’ensemble <foreign>vaḥ</foreign>, restituer le graphème <foreign>sa</foreign> ; mais les deux points du <foreign>visarga</foreign> sont absolument nets, interdisant qu’on les prenne pour la hampe droite d’un <foreign>sa</foreign>.</note>
+                  </app>
+                   <app loc="10">
+                     <lem>damriṅ·</lem>
+                     <rdg source="bib:Pou2001_01">daṁriṅ·</rdg>
+                  </app>
+                   <app loc="10">
+                     <lem>sanr<supplied reason="lost">e</supplied></lem>
+                     <rdg source="bib:Pou2001_01">sanre</rdg>
+                      <note>Pour être en partie mutilé, le mot n’en est pas moins certain.</note>
+                  </app>
+                   <app loc="11">
+                     <lem>tem· toṅ·</lem>
+                     <rdg source="bib:Pou2001_01">tem· toṅ·</rdg>
+                      <note>Le <foreign>ma</foreign> surmonté d’un <foreign>virāma</foreign> est très clair.</note>
+                  </app>
+                   <app loc="12">
+                     <lem><unclear>n</unclear>i</lem>
+                     <rdg source="bib:Pou2001_01">ni</rdg>
+                      <note>L’interprétation de la consonne comme un <foreign>na</foreign> paraît la seule possible.</note>
+                  </app>
+                   <app loc="12">
+                     <lem>ku mar· Añ·</lem>
+                     <rdg source="bib:Pou2001_01">kumara Añ·</rdg>
+                      <note>Il y a presque certainement un <foreign>virāma</foreign> sur le <foreign>ra</foreign>.</note>
+                  </app>
+                   <app loc="12">
+                     <lem>voṁ kathā gi</lem>
+                     <rdg source="bib:Pou2001_01">gotamāgni</rdg>
+                  </app>
+                   <app loc="12">
+                     <lem>n<unclear>aṁ t</unclear>var·</lem>
+                     <rdg source="bib:Pou2001_01">ni svara</rdg>
+                      <note>Lecture peu assurée. Ce que j’interprète comme un <foreign>anusvāra</foreign> sur le <foreign>na</foreign> peut être un défaut de la pierre, mais ne saurait être un <foreign>i</foreign> ; du reste, il se peut que la voyelle soit <foreign>u</foreign> <supplied reason="explanation">marque que j’interprète comme une éraflure de la pierre</supplied>. Le groupe consonantique lu <foreign>tva</foreign> <supplied reason="explanation">cf. la forme du <foreign>ta</foreign> dans <foreign>sārasvati</foreign> de la l. 13</supplied> ne peut être <foreign>sva</foreign>, mais pourrait aussi être interprété, à la rigueur, comme <foreign>nva</foreign> ou <foreign>vva</foreign> ? La présence d’un <unclear>virāma</unclear> sur le <foreign>ra</foreign>, en revanche, est certaine.</note>
+                  </app>
+                   <app loc="12">
+                     <lem>vambhanī</lem>
+                     <rdg source="bib:Pou2001_01">gambhanī</rdg>
+                      <note>La lecture <foreign>va</foreign> <supplied reason="explanation">au lieu de <foreign>ga</foreign></supplied>, quasi certaine, est confortée par l’existence d’un <foreign>vā vambhanadāsa</foreign> dans K. 66 <supplied reason="explanation" cert="low">du viie s.</supplied>, face A, l. 24. Je ne sais pas comment Long Seam <supplied reason="explanation">sd. : 512</supplied> obtient pour ce dernier anthroponyme, assurément d’origine sanskrite, la glose « esclave désobéissant » <supplied reason="explanation" cert="low">confusion avec sk. <foreign>dambhana</foreign>, « tromperie »</supplied>. <foreign>Vambhana</foreign>/<foreign>bambhana</foreign> me semble être une forme intensive de la racine <foreign>bhan</foreign>-/<foreign>bhaṇ</foreign>-, « parler », et pourrait signifier « éloquent ; bavard ». Le premier de ces deux sens permettrait qu’on l’applique à, par ex., Śiva, dont on sait qu’il a pour corps la parole <supplied reason="explanation"><foreign>śabdadeha</foreign> : cf. K. Bhattacharya, RBAC, p. 67</supplied> ! Les deux sens peuvent motiver l’emploi comme nom propre de personne. – Il n’est pas sûr que le lapicide ait voulu distinguer le <foreign>ī</foreign> final long d’un <foreign>i</foreign> bref. NB : sur <foreign>vambhana</foreign>, voir Kamaleswar Bhattacharya, « Notes lexicographiques sur les inscriptions du Cambodge », JA 283/1 (1995), p. 209-212, p. 209 : <foreign>bambhana</foreign> ou <foreign>bambhaṇa</foreign> = forme prâkrite ancienne de <foreign>brāhmaṇa</foreign>.</note>
+                  </app>
+                   <app loc="13">
+                     <lem><gap reason="lost" quantity="1" unit="character"/> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>· <unclear>ta</unclear></lem>
+                     <rdg source="bib:Pou2001_01"><gap reason="illegible" extent="unknown" unit="character"/> ta</rdg>
+                      <note>Les deux premiers <foreign>akṣara</foreign> de la ligne peuvent avoir comporté le nom de l’enfant de <foreign>ku vambhanī</foreign> <supplied reason="explanation">cf. <foreign>kon ku tvau</foreign>, l. 9</supplied>. Contre les estampages, la photo incite en effet à lire <foreign>ta</foreign> plutôt que <foreign>ga</foreign>.</note>
+                  </app>
+                   <app loc="13">
+                     <lem>ple pros·</lem>
+                     <rdg source="bib:Pou2001_01">Airā saṁ</rdg>
+                      <note>La lecture des NIC III me paraît tout à fait impossible.</note>
+                  </app>
+                  <app loc="13">
+                     <lem>hau k<unclear>u</unclear></lem>
+                     <rdg source="bib:Pou2001_01">poka</rdg>
+                     <note>La lecture <foreign>hau</foreign> <supplied reason="explanation">au lieu de <foreign>po</foreign></supplied> est certaine ; quand à la consonne <foreign>ka</foreign>, elle ne présente aucune trace d’un <foreign>virāma</foreign>, et bien que l’appendice notant la voyelle <foreign>u</foreign> soit réduit au minimum, sa présence semble assurée <supplied reason="explanation">cf., bien qu’il soit plus marqué, l’appendice de <foreign>ku</foreign> dans <foreign>kon ku</foreign> de la l. 12, dont l’interprétation est certaine</supplied>. Si nécessaire, il est possible de lire <foreign>ka</foreign> au lieu de <foreign>ku</foreign>.</note>
+                  </app>
+                  <app loc="13">
+                     <lem>ple</lem>
+                     <rdg source="bib:Pou2001_01">ple <gap reason="illegible" extent="unknown" unit="character"/></rdg>
+                     <note>Il y a en effet, à droite de <foreign>ple</foreign>, un défaut de la pierre qui aurait pu cacher un graphème ; mais il semble trop distant de ple pour que ç’ait été le cas.</note>
+                  </app>
+                  <app loc="14">
+                     <lem><choice><unclear>n</unclear><unclear>t</unclear></choice><choice><unclear>o</unclear><unclear>e</unclear></choice>ḥ</lem>
+                     <note>La consonne devrait être un <foreign>na</foreign>, mais elle ressemble beaucoup au <foreign>ta</foreign> de <foreign>sārasvati</foreign> <supplied reason="explanation">l. 13</supplied>. C’est bien un <foreign>o</foreign> qui apparaît sur les reproductions ; mais la partie supérieure, parfaitement verticale et dans l’axe de la consonne, pourrait être une éraflure de la pierre, auquel cas il faudrait lire <foreign>e</foreign>. Au total, il doit s’agir, néanmoins, de <foreign>noḥ</foreign> ou de <foreign>neḥ</foreign>.</note>
+                  </app>
+                  <app loc="14">
+                     <lem>pāpavā<unclear>n</unclear>i<unclear>ṣ</unclear>ā<choice><unclear cert="low">ṭh</unclear><unclear cert="low">gr</unclear></choice>a</lem>
+                     <note>Je ne sais que faire de cette suite de graphèmes, pourtant assez clairement gravés, que je ne me hasarde pas en découper en mots. Je suppose qu’il faut lire <foreign>pāpa</foreign> <supplied reason="explanation">et non pas <foreign>hapa</foreign></supplied>, emprunté au sanskrit. Je ne vois pas ce que viendrait faire un <foreign>vā</foreign> ici <supplied reason="explanation">il ne peut tout de même pas s’agir du <foreign>vā</foreign> sanskrit, « ou bien » ?</supplied>, à moins que les <foreign>akṣara</foreign> suivants cachent une adaptation improbable du sanskrit <foreign>niṣāda</foreign>, « homme d’une tribu méprisée, etc. ». Le <foreign>ṣa</foreign> pourrait même, si <foreign>sa</foreign> composante horizontale était une éraflure de la pierre, être interprété comme un <foreign>daṇḍa</foreign> suivi d’un <foreign>va</foreign> ! Quant au dernier graphème, je ne suis même pas certain qu’il ne s’agisse pas d’une marque de ponctuation. J’hésite beaucoup à chercher dans la direction du sanskrit <foreign>śaṭha</foreign>, « trompeur, traître, faux, perfide, insidieux » <supplied reason="explanation" cert="low">croisé avec <foreign>śāta</foreign> « fripon »</supplied>.</note>
+                  </app>
+               </listApp>         
+         </div>
+           <div type="translation" xml:lang="fra" resp="part:gege">
+              <p rend="stanza" n="1">Cette Sarasvatī a été installée par un dévot de <gap reason="lost"/>, <supplied reason="subaudible">le fortuné Īśvarajñāna</supplied> riche en connaissance du Seigneur grâce à ceux qui sont <supplied reason="subaudible">nés</supplied> dans la lignée du maître spirituel, qui connaissent ce qui est bien.</p>
+              <p rend="stanza" n="2">« Tous les dons d’Īśvarajñāna à la déesse, quels qu’ils soient, <supplied reason="explanation">sont</supplied> sous l’autorité de <gap reason="lost"/> ; que celui qui <supplied reason="explanation">les</supplied> ravirait tombe en enfer.  »</p>
+           </div>
+           <div type="translation" xml:lang="fra" source="bib:Pou2001_01"><note type="credit">The translation is given after <bibl><ptr target="bib:Pou2001_01"/></bibl> with modifications because of new reading.</note>
+ 	<p n="3-10">Offrande du sacrificateur, Poñ Īśvarajñāna, à la déesse Sarasvatī : <supplied reason="explanation">liste de serviteurs</supplied>.</p>
+              <p n="10-11">Une plantation, 1 <foreign>kaOl</foreign>, 2 <foreign>sanre</foreign> de rizière, 3 <foreign>sanre</foreign> de rizière Teṁ Toṅ, 30 aréquiers, 60 cocotiers.</p>
+              <p n="11-14">A propos de Ku Mar, je ne dit pas <supplied reason="subaudible">qu’elle soit</supplied> échangée <supplied reason="subaudible">avec/contre</supplied> Ku Vambhanī et enfant <gap reason="lost"/> à la déesse Sarasvatī, les serviteurs hommes. Ceux qui appellent les servantes <gap reason="lost"/><note>Passage abîmé ; il s’agit peut-être d’une malédiction.</note>.</p>
+         </div>
+         <!-- <div type="commentary">
+         </div> -->
+       <div type="bibliography">
+          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">195</citedRange></bibl>) only the Khmer portion with a French translation; re-edited here by Gerdi Gerschheimer and Dominique Soutif from estampage EFEO n. 1741 with both Sanskrit and Khmer portions and a translation of the Sanskrit portion.</p>
+	 <listBibl type="primary">
+    <bibl n="SP">
+      <ptr target="bib:Pou2001_01"/>
+      <citedRange unit="page">195</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb at Prasat Ta Muong (K. 1253), 10th-11th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01253</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:kuch" when="2020-05-13" status="draft">Modifications of edition, apparatus, translation and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+         <!-- add a <change> for each change to the file, the first change should replace this one and record your creation of a file using this template. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+                <p>
+<lb n="1"/><unclear>vas</unclear>v<unclear>ā</unclear> <gap reason="lost" quantity="1" unit="character" precision="low"/> <unclear>gho</unclear> <gap reason="lost" quantity="12" unit="character" precision="low"/> 
+<lb n="2"/>Āditya gho kaṁpañ· sot· gho qnāya gho kaṁ<unclear>pu</unclear> <supplied reason="lost">gho</supplied> <gap reason="lost" quantity="2" unit="character" precision="low"/>
+<lb n="3"/><unclear>ñ·</unclear> <g type="symbol" subtype="spiralL"/>  tai sarac· tai <space type="vacat" quantity="2" unit="character"/> thqyak· tai paroṅ· tai sa<supplied reason="lost">ṁ</supplied>A<unclear>p</unclear><supplied reason="lost">·</supplied>
+<lb n="4"/>t<unclear>ai</unclear> kaṁvī tai kañcrok· tai sra<unclear>j</unclear>ai tai <unclear>sv</unclear>at· tai kañje 
+<lb n="5"/><supplied reason="lost">tai</supplied> kaṁvrau <space type="vacat" quantity="1" unit="character"/> tai saṁAp· tai kanthun· tai kañ<unclear>c</unclear>an· tai phle<lb n="6" break="no"/><supplied reason="lost">ṅ·</supplied> tai kaṁvr̥k· tai chneṁ tai saṁqap· sot· tai jaṁnan·
+<lb n="7"/><supplied reason="lost">tai</supplied> kaṁprvat· tai saṁUy· tai kañjan· tai chpoṅ· tai bho<unclear>da</unclear>
+<lb n="8"/>tai <unclear>ph</unclear>sok· tai yūdhīkā tai Utpala tai Utpala
+<lb n="9"/>sot· tai kaṁvai sot· tai kañju tai kanteṅ· tai <unclear>la</unclear><lb n="10" break="no"/>ṅgāy· tai kan·In· tai kaṁvai tai kaṁvān· tai ka<supplied reason="lost">ṁ</supplied>p<unclear>u</unclear>
+<lb n="11"/>tai ratnaśrīya tai can·doṅ· <g type="symbol" subtype="circleTarget"/> khñuṁ vraḥ kaṁmrate<supplied reason="lost">ṅ·</supplied>
+<lb n="12"/>Añ· ta kanmyaṅ· nā yā tāñ· steñ· gho kaṁpit· gho 
+<lb n="13"/>kañjai gho taṅker· gho pandan· gho Aṅgāra <g type="symbol" subtype="circleTarget"/> tai ka<lb n="14" break="no"/>nsat· tai kanteṁ tai panlas· tai samr̥ddhī tai kansa tai <supplied reason="lost">kaṁ</supplied><lb n="15" break="no"/>vrau tai kaṁvāñ· tai kaṁpit· tai laṅgāy· tai tī<unclear>rtha</unclear> <supplied reason="lost">tai</supplied><lb n="16" break="no"/>ka<unclear>ṁ</unclear>vai <g type="symbol" subtype="complexfinial"/>
+</p>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app loc="1">
+                         <lem><unclear>vas</unclear>v<unclear>ā</unclear></lem>
+                     <note>Il est possible qu’il soit restitué en <foreign>devasvāmi</foreign>. La lecture <foreign>valvā</foreign> est également possible, mais on ne verrait plus de restitution possible.</note>
+                 </app>
+                    <app loc="2">
+                         <lem>sot·</lem>
+                     <note>Le terme <foreign>sot</foreign> implique nécessairement la présence d’un autre <foreign>gho kaṁpañ·</foreign> dans la partie brisée.</note>
+                 </app>
+                    <app loc="2">
+                         <lem>kaṁ<unclear>pu</unclear></lem>
+                     <note>La seule autre occurrence connue est à la ligne 10 et de lecture également très incertaine. On ne peut donc pas négliger la possibilité : kaṁpu<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg> <supplied reason="lost">gho</supplied>.</note>
+                 </app>
+                    <app loc="3">
+                         <lem><unclear>ñ·</unclear></lem>
+                     <note>Ce caractère est incertain <supplied reason="explanation" cert="low">n·</supplied> ; la comparaison avec la ligne 10 <supplied reason="explanation">kan·In·</supplied> interdit la lecture <foreign>i</foreign>.</note>
+                 </app>
+                    <app loc="3">
+                         <lem><space type="vacat" quantity="2" unit="character"/></lem>
+                     <note>Un défaut de la pierre a vraisemblablement provoqué un blanc, qui semble suivi de deux points. Il semble que le lapicide ne disposait pas d’un excellent état de surface car on retrouve le même problème à la ligne 5 <supplied reason="explanation">c’est aussi la raison pour laquelle les lignes 8 et 16 ne sont pas justifiées à gauche</supplied>.</note>
+                 </app>
+                    <app loc="3">
+                         <lem>sa<supplied reason="lost">ṁ</supplied>A<unclear>p</unclear><supplied reason="lost">·</supplied></lem>
+                     <note>Cette lecture est très incertaine. Si cette restitution sa<supplied reason="lost">ṁ</supplied>A<unclear>p</unclear><supplied reason="lost">·</supplied> est exacte, on devrait avoir saṁqap· sot· à la ligne 5. On remarquera d’ailleurs un <foreign>saṁAp· sot·</foreign> à la ligne 6.</note>
+                 </app>
+                    <app loc="4">
+                         <lem>sra<unclear>j</unclear>ai</lem>
+                     <note>On pourrait lire <foreign>sraṁ jai</foreign>, mais ce qui pourrait être pris pour un <foreign>anusvāra</foreign> ne correspond sans doute qu’aux cheveux du <foreign>sa</foreign>. Quoi qu’il en soit, cet anthroponyme est inédit.</note>
+                 </app>
+                    <app loc="4">
+                         <lem><unclear>sv</unclear>at·</lem>
+                     <note>Cette lecture est incertaine. On devine à peine le <foreign>sva</foreign>sva et <foreign>svat</foreign> n’est pas attesté comme anthroponyme.</note>
+                 </app>
+                    <app loc="6">
+                         <lem>phle<lb n="6" break="no"/><supplied reason="lost">ṅ·</supplied></lem>
+                     <note>La restitution <foreign>phleṅ·</foreign> est possible, mais incertaine. <foreign>phler·</foreign> serait également envisageable.</note>
+                 </app>
+                 <app loc="8">
+                         <lem>sot·</lem>
+                     <note>L’anthroponyme <foreign>yūthīkā</foreign> est inédit dans le corpus.</note>
+                 </app>
+                    <app loc="9">
+                         <lem>kaṁvai sot·</lem>
+                     <note>Ici, la tai <foreign>kaṁvai sot</foreign> précède inexplicablement la <foreign>tai kaṁvai</foreign> de la ligne 10.</note>
+                 </app>
+                    <app loc="10">
+                         <lem>kaṁvān·</lem>
+                     <note>On peut lire un <foreign>ta</foreign> au lieu de <foreign>va</foreign> si on compare ce caractère au troisième <foreign>tai</foreign> de la ligne 4. On pourrait alors lire <foreign>kaṁtañ·</foreign> à la ligne 15.</note>
+                 </app>
+                    <app loc="11">
+                        <lem>can·doṅ·</lem>
+                        <note>L’anthroponyme <foreign>can·doṅ·</foreign> est attesté comme toponyme dans K. 337 A, l. 5 <supplied reason="explanation"><foreign>caṁdoṅ</foreign>, « de taille moyenne » ? Pou 2004, s.v., p. 154, 158</supplied>.</note>
+                    </app>
+                    <app loc="13">
+                         <lem><g type="symbol" subtype="circleTarget"/></lem>
+                     <note>Le premier signe de ponctuation, une spirale <supplied reason="explanation">l. 3</supplied>, sépare la liste des hommes <foreign>gho</foreign> de celle des femmes <foreign>tai</foreign> alors que le deuxième <supplied reason="explanation">l. 11, œil de poulet</supplied> marque le passage à une autre liste d’esclave. Enfin, dans ce troisième cas, la séparation entre <foreign>gho</foreign> et <foreign>tai</foreign> est matérialisée par un œil de poulet. La distinction entre ces deux signes n’est donc peut-être pas pertinente. Selon Michel Antelme, la spirale et les deux cercles concentriques sont tous deux désignés par le terme khmer <foreign>bhnaeka mān’</foreign> « œil de poulet » dans les manuscrits modernes ; cf. Antelme 2007, p. 46.</note>
+                 </app>
+                </listApp>
+            </div>
+         <div type="translation" xml:lang="fra" source="bib:Soutif2009_03">
+ 	<p n="1-11"><supplied reason="explanation">Liste d’esclaves incomplète comportant au moins 5 hommes <supplied reason="explanation"><foreign>gho</foreign></supplied> et 37 femmes <supplied reason="explanation"><foreign>tai</foreign></supplied></supplied>.</p>
+             <p n="11-16">Esclaves de Vraḥ Kamrateṅ Añ « le jeune » auprès de la grand-mère, la Tāñ Steñ : <supplied reason="explanation">suit une liste d’esclaves comprenant 5 hommes <supplied reason="explanation"><foreign>gho</foreign></supplied> et 11 femmes <supplied reason="explanation"><foreign>tai</foreign></supplied></supplied>.</p>
+         </div>
+         <!-- <div type="commentary">
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="page">583</citedRange></bibl>) with a French translation.</p>
+	 <listBibl type="primary">
+    <bibl n="DS">
+      <ptr target="bib:Soutif2009_03"/>
+      <citedRange unit="page">583</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
