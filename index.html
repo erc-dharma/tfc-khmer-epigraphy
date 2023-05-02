@@ -221,7 +221,7 @@
       }
       (async () => {
         // Get GitHub repository file info
-        const response = await fetch('https://api.github.com/repos/erc-dharma/tfc-khmer-epigraphy/contents/workflow-output/html');
+        const response = await fetch('https://api.github.com/repos/erc-dharma/tfc-khmer-epigraphy/contents/texts/workflow-output/html');
         const data = await response.json();
         // Initialize search fields and results
         const search_form = document.getElementById('search_form');
