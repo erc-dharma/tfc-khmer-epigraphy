@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -53,7 +53,8 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>The <foreign>akṣara</foreign>s are of the rounded caracteristic form of the 9th and 10th centuries.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -89,6 +90,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2023-05-09" status="draft">Adding paleographical remark and modification to edition, apparatus and commentary</change>
          <change who="part:sapi" when="2023-01-06" status="draft">Small corrections and addition of placeName and measure tagging</change>
          <change who="part:kuch" when="2021-10-12" status="draft">Initial encoding of the inscription</change>
       </revisionDesc>
@@ -111,7 +113,7 @@
 </lg>
    <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
 <l n="a"><lb n="A5"/>Āsīd dakṣa-dviṣac-chakti</l>
-<l n="b"><seg met="===="><gap reason="lost" quantity="4" unit="character"/></seg> vanikṣitām</l>
+<l n="b"><seg met="===="><gap reason="lost" quantity="4" unit="character"/></seg> vanikṣitām·</l>
 <l n="c"><lb n="A6"/>śrīmadrājendravarmmeti</l>
 <l n="d">rājā somānvayodbhavaḥ</l>
 </lg>
@@ -123,7 +125,7 @@
 </lg>
    <lg n="5" met="anuṣṭubh" xml:lang="san-Latn">
 <l n="a"><lb n="A9"/><supplied reason="lost">A</supplied>nukarttum avodyuktaṁ</l>
-<l n="b">pāṇḍa<seg met="==-"><gap reason="lost" quantity="3" unit="character"/></seg>rānalam</l>
+<l n="b">pāṇḍa<seg met="==-"><gap reason="lost" quantity="3" unit="character"/></seg>rānalam·</l>
 <l n="c"><lb n="A10"/><supplied reason="lost">ya</supplied>sya tejo jvalonmadair</l>
 <l n="d">adahad duṣṭa-bhoginaḥ</l>
 </lg>
@@ -141,7 +143,7 @@
 </lg>
    <lg n="8" met="anuṣṭubh" xml:lang="san-Latn">
 <l n="a"><lb n="A15"/><supplied reason="lost">hema-do</supplied>lāsita-cchatra</l>
-<l n="b">māyūrātapa-vāraṇam</l>
+<l n="b">māyūrātapa-vāraṇam·</l>
 <l n="c"><lb n="A16"/><seg met="====-+"><gap reason="lost" quantity="6" unit="character"/></seg><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg>ñ ca</l>
 <l n="d">raśanāṅ garggarīm api</l>
 </lg>
@@ -155,79 +157,79 @@
 <l n="a"><lb n="A19"/><seg met="====-"><gap reason="lost" quantity="6" unit="character"/></seg> yat-kāyo</l>
 <l n="b"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
 <l n="c"><lb n="A20"/><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>nena nitarāṁ</l>
-<l n="d"><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg>y api hi cānanam</l>
+<l n="d"><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg>y api hi cānanam·</l>
 </lg>
 
 
    <lg n="11" met="anuṣṭubh" xml:lang="san-Latn"><milestone type="pagelike" unit="face" n="B"/>
-<l n="a"><lb n="B1"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-<l n="b"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-<l n="c"><lb n="B2"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-<l n="d"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="a"><lb n="B1"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="c"><lb n="B2"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
 </lg>
 <lg n="12" met="anuṣṭubh" xml:lang="san-Latn">
-<l n="a"><lb n="B3"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-<l n="b"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-<l n="c"><lb n="B4"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-<l n="d"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="a"><lb n="B3"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="c"><lb n="B4"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
 </lg>
 <lg n="13" met="anuṣṭubh" xml:lang="san-Latn">
-<l n="a"><lb n="B5"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-<l n="b"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-<l n="c"><lb n="B6"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-<l n="d"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="a"><lb n="B5"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="c"><lb n="B6"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
 </lg>
                    <lg n="14" met="anuṣṭubh" xml:lang="san-Latn">
-<l n="a"><lb n="B7"/>Abhūtābibhra<seg met="++"><gap reason="lost" quantity="2" unit="character"/></seg>me</l>
-<l n="b"><seg met="="><gap reason="lost" quantity="1" unit="character"/></seg>r̥<seg met="="><gap reason="lost" quantity="1" unit="character"/></seg><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>yanujam udgatau</l>
-<l n="c"><lb n="B8"/>śrīnarendropakalpasya</l>
-<l n="d">vrā<seg met="="><gap reason="lost" quantity="1" unit="character"/></seg>tamārir ity api</l>
+<l n="a"><lb n="B7"/><milestone unit="column" n="a"/>Abhūtābibhra<seg met="++"><gap reason="lost" quantity="2" unit="character"/></seg>me</l>
+<l n="b"><milestone unit="column" n="b"/><seg met="="><gap reason="lost" quantity="1" unit="character"/></seg>r̥<seg met="="><gap reason="lost" quantity="1" unit="character"/></seg><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>yanujam udgatau</l>
+<l n="c"><lb n="B8"/><milestone unit="column" n="a"/>śrīnarendropakalpasya</l>
+<l n="d"><milestone unit="column" n="b"/>vrā<seg met="="><gap reason="lost" quantity="1" unit="character"/></seg>tamārir ity api</l>
 </lg>
                    <lg n="15" met="anuṣṭubh" xml:lang="san-Latn">
-<l n="a"><lb n="B9"/>nr̥patīndropakalpākhyaś</l>
+<l n="a"><lb n="B9"/><milestone unit="column" n="a"/>nr̥patīndropakalpākhya<milestone unit="column" n="b" break="no"/>ś</l>
 <l n="b">śrīmān <supplied reason="lost">ya</supplied>n-mātr̥mātulaḥ</l>
-<l n="c"><lb n="B10"/>kalpaśāstrā<seg met="-"><gap reason="lost" quantity="1" unit="character"/></seg>vid vidvān</l>
+<l n="c"><lb n="B10"/><milestone unit="column" n="a"/>kalpaśāstrā<seg met="-"><gap reason="lost" quantity="1" unit="character"/></seg>vid vidvā<milestone unit="column" n="b" break="no"/>n</l>
 <l n="d"><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>yudhi viśrutaḥ</l>
 </lg>
                    <lg n="16" met="anuṣṭubh" xml:lang="san-Latn">
-<l n="a"><lb n="B11"/>yad-bhāgiṇeyī mahiṣī</l>
-<l n="b">śrīmadrājendravarmmaṇaḥ</l>
-<l n="c"><lb n="B12"/>narendradevīty abhavat</l>
-<l n="d">sarvvābharaṇa-bhūmi-bhāk</l>
+<l n="a"><lb n="B11"/><milestone unit="column" n="a"/>yad-bhāgiṇeyī mahiṣī</l>
+<l n="b"><milestone unit="column" n="b"/>śrīmadrājendravarmmaṇaḥ</l>
+<l n="c"><lb n="B12"/><milestone unit="column" n="a"/>narendradevīty abhava<milestone unit="column" n="b" break="no"/>t</l>
+<l n="d">sarvvābharaṇa-bhūmi-bhāk·</l>
 </lg>
                    <lg n="17" met="anuṣṭubh" xml:lang="san-Latn">
-<l n="a"><lb n="B13"/><seg met="="><gap reason="lost" quantity="1" unit="character"/></seg>padma-pāṅsu-rūḍhāṅgīṁ</l>
-<l n="b">lakṣmīṁ yaḥ kula-pāvanīḥ</l>
-<l n="c"><lb n="B14"/>catasraś śripater arccā</l>
-<l n="d">janma-bhūmāv atiṣṭhipat</l>
+<l n="a"><lb n="B13"/><milestone unit="column" n="a"/><seg met="="><gap reason="lost" quantity="1" unit="character"/></seg>padma-pāṅsu-rūḍhāṅgīṁ</l>
+<l n="b"><milestone unit="column" n="b"/>lakṣmīṁ yaḥ kula-pāvanīḥ</l>
+<l n="c"><lb n="B14"/><milestone unit="column" n="a"/>catasraś śripater arccā</l>
+<l n="d"><milestone unit="column" n="b"/>janma-bhūmāv atiṣṭhipat·</l>
 </lg>
                    <lg n="18" met="anuṣṭubh" xml:lang="san-Latn">
-<l n="a"><lb n="B15"/>vaiṣṇavīṁ pratimām aśma<space/></l>
-<l n="b">saronāthasya sadmani</l>
-<l n="c"><lb n="B16"/>bhūyo bhūrivibhām <placeName type="settlement" subtype="town" key="Bhīmapura" next="#placename1_b" xml:id="placename1_a">bhīma<space/></placeName></l>
-<l n="d"><placeName type="settlement" subtype="town" key="Bhīmapura" prev="#placename1" xml:id="placename1_b">pure</placeName><!-- Comment effacer le message d'erreur? --> kātyāyinī-tanum</l>
+<l n="a"><lb n="B15"/><milestone unit="column" n="a"/>vaiṣṇavīṁ pratimām aśma</l>
+<l n="b"><milestone unit="column" n="b"/>saronāthasya sadmani</l>
+<l n="c"><lb n="B16"/><milestone unit="column" n="a"/>bhūyo bhūrivibhām <placeName type="settlement" subtype="town" key="Bhīmapura" next="#placename1_b" xml:id="placename1_a">bhīma</placeName></l>
+<l n="d"><milestone unit="column" n="b"/><placeName type="settlement" subtype="town" key="Bhīmapura" prev="#placename1" xml:id="placename1_b">pure</placeName><!-- Comment effacer le message d'erreur? --> kātyāyinī-tanum·</l>
 </lg>
                    <lg n="19" met="anuṣṭubh" xml:lang="san-Latn">
-<l n="a"><lb n="B17"/><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg>ine pāvite pāda_</l>
-<l n="b">vinyāsena pinākinaḥ</l>
-<l n="c"><lb n="B18"/> vakakākeśvarabhakte<space/>r</l>
-<l n="d">ekāṁ tripathagāṁ tanum</l>
+<l n="a"><lb n="B17"/><milestone unit="column" n="a"/><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg>ine pāvite pāda</l>
+<l n="b"><milestone unit="column" n="b"/>vinyāsena pinākinaḥ</l>
+<l n="c"><lb n="B18"/><milestone unit="column" n="a"/>vakakākeśvarabhakte<milestone unit="column" n="b" break="no"/>r</l>
+<l n="d">ekāṁ tripathagāṁ tanum·</l>
 </lg>
                    <lg n="20" met="anuṣṭubh" xml:lang="san-Latn">
-<l n="a"><lb n="B19"/>Upatyakāyām <placeName>indrādre<space/><supplied reason="lost">r</supplied></placeName></l>
+<l n="a"><lb n="B19"/><milestone unit="column" n="a"/>Upatyakāyām <placeName>indrādre<milestone unit="column" n="b" break="no"/><supplied reason="lost">r</supplied></placeName></l>
 <l n="b"><seg met="="><gap reason="lost" quantity="1" unit="character"/></seg>dite tīrtha<seg met="+-="><gap reason="lost" quantity="3" unit="character"/></seg></l>
-<l n="c"><lb n="B20"/>yoga-nidrālum ekañ ca <space/></l>
-<l n="d"><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>ñ jalaśāyinam <g type="unidentified">.</g></l>
+<l n="c"><lb n="B20"/><milestone unit="column" n="a"/>yoga-nidrālum ekañ ca</l>
+<l n="d"><milestone unit="column" n="b"/><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>ñ jalaśāyinam· <g type="unidentified">.</g></l>
 </lg>
    <lg n="21" met="anuṣṭubh" xml:lang="san-Latn"><milestone type="pagelike" unit="face" n="C"/>
 <l n="a"><lb n="C1"/><placeName type="settlement" subtype="town" key="Yaśodharapura">śrīmadyaśodharapure</placeName></l>
 <l n="b">sa maya<seg met="=-+-="><gap reason="lost" quantity="5" unit="character"/></seg></l>
 <l n="c"><lb n="C2"/>cakrahates tanū dve ca</l>
-<l n="d"> tanayābhyudaya-kṣame</l>
+<l n="d">tanayābhyudaya-kṣame</l>
 </lg>
                    <lg n="22" met="anuṣṭubh" xml:lang="san-Latn">
 <l n="a"><lb n="C3"/><placeName type="hydrographic" subtype="river" key="Ūrmiprasyandinī">Ūrmmi-prasyandinī</placeName>nāmnīṁ</l>
-<l n="b">vāhinīn nīkaṣāṭavim</l>
+<l n="b">vāhinīn nīkaṣāṭavim·</l>
 <l n="c"><lb n="C4"/>grāmīkr̥tya punas tatra</l>
 <l n="d">govarddhanadharaṁ <seg met="-="><gap reason="lost" quantity="2" unit="character"/></seg></l>
 </lg>
@@ -247,7 +249,7 @@
 <l n="a"><lb n="C9"/>prāsādasyā<seg met="-"><gap reason="lost" quantity="1" unit="character"/></seg>i<seg met="++="><gap reason="lost" quantity="3" unit="character"/></seg></l>
 <l n="b">māri-jananañ ca yaḥ</l>
 <l n="c"><lb n="C10"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
-<l n="d">ramye <placeName type="settlement" subtype="town" key="Viṣṇupura">viṣṇupure</placeName> ’karot</l>
+<l n="d">ramye <placeName type="settlement" subtype="town" key="Viṣṇupura">viṣṇupure</placeName> ’karot·</l>
 </lg>
                    <lg n="26" met="anuṣṭubh" xml:lang="san-Latn">
 <l n="a"><lb n="C11"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
@@ -265,7 +267,7 @@
 <l n="a"><lb n="C15"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
 <l n="b">’bhidhāne paramātmanaḥ</l>
 <l n="c"><lb n="C16"/><seg met="====-+"><gap reason="lost" quantity="6" unit="character"/></seg>yogī</l>
-<l n="d">prāsādataraṇaṁ vyadhāt <g type="unidentified">.</g></l>
+<l n="d">prāsādataraṇaṁ vyadhāt· <g type="unidentified">.</g></l>
 </lg>
                    <lg n="29" met="śārdūlavikrīḍitā" xml:lang="san-Latn">
 <l n="a"><lb n="C17"/>durggaḥ kaṇṭhaka-koṭi-kīrṇṇa-kaṭukaḥ kāleyapaṅkāṅlkito</l>
@@ -277,7 +279,7 @@
 <l n="a"><lb n="D1"/><seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg>gdhopaskr̥tavān <placeName type="settlement" subtype="town" key="Purandarapura">purandarapura</placeName> prāsā<seg met="-++-="><gap reason="lost" quantity="5" unit="character"/></seg></l>
 <l n="b"><seg met="+++--+-+---+++"><gap reason="lost" quantity="14" unit="character"/></seg> <lb n="D2"/> lyasad gahvare</l>
 <l n="c">chinnottuṅga<seg met="-+-+"><gap reason="lost" quantity="4" unit="character"/></seg>ntara ṇa<seg met="++-++-="><gap reason="lost" quantity="7" unit="character"/></seg></l>
-<l n="d"><seg met="+++--+-+"><gap reason="lost" quantity="8" unit="character"/></seg><lb n="D3"/>na mahiṣī-go-dāsa-dāsī-yutām <g type="unidentified">.</g></l>
+<l n="d"><seg met="+++--+-+"><gap reason="lost" quantity="8" unit="character"/></seg><lb n="D3"/>na mahiṣī-go-dāsa-dāsī-yutām· <g type="unidentified">.</g></l>
 </lg>
                    <lg n="31" met="āryā" xml:lang="san-Latn">
 <l n="a"><placeName type="settlement" subtype="town" key="Gajarapura">gahjaḥpure</placeName> prati<seg met="++"><gap reason="lost" quantity="2" unit="character"/></seg></l>
@@ -289,7 +291,7 @@
 <l n="a"><seg met="++-"><gap reason="lost" quantity="6" unit="character"/></seg> nāthasya <placeName type="settlement" subtype="town" key="Puraṇḍarapura">puraṇḍar<supplied reason="lost">ā</supplied></placeName><supplied reason="lost">kh</supplied>ye</l>
 <l n="b"><lb n="D5"/> pure puraḥ puṇyaparāyano yaḥ</l>
 <l n="c">pūjā-vivr̥ddhiṅ kr̥tavān vyatānīd</l>
-<l n="d">anindyadhīr amvu-nidhin taṭākam <g type="unidentified">.</g></l>
+<l n="d">anindyadhīr amvu-nidhin taṭākam· <g type="unidentified">.</g></l>
 </lg>
                    <lg n="33" met="anuṣṭubh" xml:lang="san-Latn">
 <l n="a"><lb n="D6"/> yo kārṣid iṣṭakā-harmmyan</l>
@@ -306,7 +308,7 @@
                    <lg n="35" met="upajāti" xml:lang="san-Latn">
 <l n="a"><lb n="D9"/>rāṣṭrodayāya svayam apy upeto</l>
 <l n="b">mantri<seg met="-++"><gap reason="lost" quantity="3" unit="character"/></seg>nr̥patin nive<supplied reason="lost">d</supplied>ya</l>
-<l n="c"><lb n="D10"/>bhūyo <placeName type="hydrographic" subtype="river" key="Raṅroṅ">raṅroṅ</placeName>nāma nadīn narāṇām</l>
+<l n="c"><lb n="D10"/>bhūyo <placeName type="hydrographic" subtype="river" key="Raṅroṅ">raṅroṅ</placeName>nāma nadīn narāṇām·</l>
 <l n="d">ya<seg met="+-++"><gap reason="lost" quantity="4" unit="character"/></seg>mapure ru<seg met="+="><gap reason="lost" quantity="2" unit="character"/></seg></l>
 </lg>
                    <lg n="36" met="upajāti" xml:lang="san-Latn">
@@ -355,7 +357,7 @@
       <lb n="A35"/><supplied reason="lost">pa</supplied>ścima lvah travāṅ <placeName type="hydrographic" subtype="tank" key="Trapek">trapekk</placeName> <g type="unidentified">.</g> Aṁvi travāṅ <placeName type="hydrographic" subtype="river" key="Trapek">trapekk</placeName> dai ti Uttara lvah prasap <gap reason="lost" quantity="2" unit="character"/>
       <lb n="A36"/><gap reason="lost" quantity="2" unit="character"/> ta gi muṁ sthalā paścimagneya dau pūrvva lvah <placeName type="undetermined" key="Śivaruci">śivaruci
       <!-- un village ? --></placeName></seg> qnak gi si <num value="24">20 4</num>
-   <lb n="B25"/>tai <num value="20">20 9</num> gvāl· <num value="1"><g type="numeral">I</g></num> rat· <num value="2"><g type="numeral">II</g></num> pau <num value="4">4</num> phsaṁ <num value="60">60</num> <unclear><g type="circle">.</g></unclear> sruk· <placeName type="settlement" subtype="village" key="Ransī Gvāl">ransī gvāl·</placeName> <g type="circle">.</g> <seg type="desc">bhūmi toy· pūrvva Iss piṅ <g type="unidentified">.</g> dakṣiṇa lvah can<lb n="B26" break="no"/>hvar· prasap· <placeName type="undetermined" key="Jnāṅ">jnāṅṅa</placeName> <g type="circle">.</g> paścima lvah· ta gi <placeName type="undetermined" key="Lañjāy">lañjāyya</placeName> <g type="circle">.</g> Uttara lvah· canhvar· muṁ <placeName type="undetermined" key="Panliṅ">panli<unclear>ṅṅa</unclear></placeName> <unclear><g type="circle">.</g></unclear></seg> qnak ta gi si <num value="17">10 7</num> tai <num value="26">20 6</num> pau <num value="5">5</num>
+   <lb n="B25"/>tai <num value="29">20 9</num> gvāl· <num value="1"><g type="numeral">I</g></num> rat· <num value="2"><g type="numeral">II</g></num> pau <num value="4">4</num> phsaṁ <num value="60">60</num> <unclear><g type="circle">.</g></unclear> sruk· <placeName type="settlement" subtype="village" key="Ransī Gvāl">ransī gvāl·</placeName> <g type="circle">.</g> <seg type="desc">bhūmi toy· pūrvva Iss piṅ <g type="unidentified">.</g> dakṣiṇa lvah can<lb n="B26" break="no"/>hvar· prasap· <placeName type="undetermined" key="Jnāṅ">jnāṅṅa</placeName> <g type="circle">.</g> paścima lvah· ta gi <placeName type="undetermined" key="Lañjāy">lañjāyya</placeName> <g type="circle">.</g> Uttara lvah· canhvar· muṁ <placeName type="undetermined" key="Panliṅ">panli<unclear>ṅṅa</unclear></placeName> <unclear><g type="circle">.</g></unclear></seg> qnak ta gi si <num value="17">10 7</num> tai <num value="26">20 6</num> pau <num value="5">5</num>
       <lb n="B27"/>phsaṁ <num value="48">40 8</num> <g type="circle">.</g> qnak ta tāṁ Aṁvau si <num value="5">5</num> tai <num value="5">5</num> phsaṁ <num value="10">10</num> <g type="circle">.</g> qnak ta paṁre si <num value="7">7</num> tai <num value="6">6</num> kvan· <num value="2"><g type="numeral">II</g></num> phsaṁ <num value="15">10 5</num> <unclear><g type="circle">.</g></unclear> phsaṁ khñuṁ daṁnep· jvann<gap reason="lost" quantity="1" unit="character"/>
       <lb n="B28"/>si <num value="53">40 10 <g type="numeral">III</g></num> tai <num value="66">60 6</num> gvāl· <num value="1"><g type="numeral">I</g></num> rat· <num value="2"><g type="numeral">II</g></num> pau <num value="11">10 <g type="numeral">I</g></num> <g type="circle">.</g> phsaṁ phoṅṅ <num value="133">100 20 10 <g type="numeral">III</g></num> <g type="circle">.</g> vraḥ kamrateṅ· Añ· puṇḍarikākṣa yajña saE<lb n="B29" break="no"/>kra liḥ <num value="1"><g type="numeral">I</g></num> dau ta cañ· van·l̥ śucyanna liḥ <num value="1"><g type="numeral">I</g></num> ta chloñ· ta pūjā <g type="circle">.</g> saṁvibhāga liḥ II cuḥ śāla <g type="circle">.</g> devayajña liḥ <num value="2" cert="low">2</num> dov·
       <lb n="B30"/>ta pamek· nu mahānasa yappa liḥ <num value="2"><g type="numeral">II</g></num> dau ta chloñ· pūjā liḥ <num value="1"><g type="numeral">I</g></num> ta qnak· vraḥ liḥ <gap reason="lost" quantity="1" unit="character"/> pūjā vraḥ kamrateṅ· Añ·
@@ -399,7 +401,7 @@
 <l n="a"><lb n="A21"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
 <l n="b">aṣṭārddha-droṇa-saindhavam</l>
 <l n="c">māsaṁ prati samām ekāṁ</l>
-<l n="d">dattāṁ pūrvvavad ācaret</l>
+<l n="d">dattāṁ pūrvvavad ācaret·</l>
 </lg>
           <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
 <l n="a"><lb n="B21"/><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg>-kalpitam anyeṣu</l>
@@ -426,7 +428,7 @@
 <l n="a"><lb n="A22"/><seg met="=+-++--+-+="><gap reason="lost" quantity="11" unit="character"/></seg></l>
 <l n="b"><seg met="=+-++--+-+="><gap reason="lost" quantity="11" unit="character"/></seg></l>
 <l n="c"><seg met="=+-++--+-+="><gap reason="lost" quantity="11" unit="character"/></seg></l>
-<l n="d">namo ’stu te sarvvata Eva sarvvam <g type="unidentified">.</g></l>
+<l n="d">namo ’stu te sarvvata Eva sarvvam· <g type="unidentified">.</g></l>
 </lg>
 
                       <lg n="3" met="unidentified" xml:lang="san-Latn">
@@ -453,7 +455,7 @@
 <l n="a"><lb n="C23"/>tenāgra-janmākṣata-puṣpa-pāṇiḥ</l>
 <l n="b">sañc<supplied reason="lost">o</supplied>d<supplied reason="lost">i</supplied>taś śāpam ima<supplied reason="lost">ṁ</supplied> vabhāṣe</l>
 <l n="c"><lb n="C24"/>ye gr̥dhnavo dattam idaṁ haranti</l>
-<l n="d">te vāṅ-mukhās saṁprapantv avīcīm</l>
+<l n="d">te vāṅ-mukhās saṁprapantv avīcīm·</l>
 </lg>
                       <lg n="4" met="unidentified" xml:lang="san-Latn">
 <l n="a"><lb n="D23"/><gap reason="lost" extent="unknown"/></l>
@@ -629,7 +631,8 @@
          </div>
 
          <div type="commentary">
-            <p>The estampage EFEO n. 728 allows us to verify partly Cœdès’ edition, viz. some parts of the faces B and D.</p>
+            <p>The estampage EFEO n. 728 allows us to verify partly Cœdès’ edition, viz. some parts of the faces A, B and D.</p>
+            <p>The <foreign>virāma</foreign> applied in the Sanskrit portion is hypothetic as it is either unclear or unavailable on the estampage.</p>
              <p n="C26-C30">The exact same toponyms - Subhava, Bhadrapura, Mādhavapura, Dharmapaṭṭana - can be found in the inscription <ref target="K0760.xml">K. 760</ref>. In the sanskrit part of K. 56, the toponym Mādhavapura is qualified as a <foreign>grāma</foreign>, which is why it was tagged as a village.</p>
          </div>
        <div type="bibliography">
