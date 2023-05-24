@@ -15,6 +15,10 @@
                   <forename>Chloé</forename>
                   <surname>Chollet</surname>
                </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
@@ -64,7 +68,7 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                     <p>Pre-Angkorian script, ca. 7-8th century CE.</p>
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -92,10 +96,14 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:chch part:kuch" when="2023-05-24" status="draft">Merging duplicate files into one</change>
          <change who="part:chch" when="2021-03-20" status="draft">Added corrections</change>
          <change who="part:chch" when="2021-02-23" status="draft">Added corrections</change>
          <change who="part:chch" when="2021-02-07" status="draft">Added corrections and personal translation</change>
          <change who="part:chch" when="2021-01-25" status="draft">Initial encoding of the file</change>
+         <change who="part:kuch" when="2020-12-01">Modifications to edition</change>
+         <change who="part:kuch" when="2020-06-09" status="draft">Modifications of edition, apparatus and bibliography</change>
+         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
@@ -103,20 +111,21 @@
          <div type="edition" xml:lang="okz-Latn">
              <p>
                  <lb n="1"/>Aṁnoy· mratāñ· Akṣaravindu nu Anro<lb 
-                    n="2" break="no"/>k· Añ· AI ta Āśrama vā kdik· pOn·
-             <lb n="3"/>vā <num value="2"><g type="numeral">II</g></num> ku niṣṭhura tnor· kñuṁ Āśrama man·
+                    n="2" break="no"/>k· Añ· Ai ta Āśrama vā kdik· pqOn·
+             <lb n="3"/>vā <num value="2"><g type="numeral">II</g></num> ku niṣṭhura tnor· kñ<unclear>u</unclear>ṁ Āśrama man·
              <lb n="4"/>mratāñ· sāmanta  tor· kon· ku phoṅ·
-                <lb n="5"/>Is· ge AI ta Āśrama sre tloṅ· <num value="3"><g type="numeral">III</g></num>
+                <lb n="5"/>Is· ge Ai ta Āśrama sre tloṅ· <num value="3"><g type="numeral">III</g></num>
              <lb n="6"/>toṅ· tneṁ <num value="1"><g type="numeral">I</g></num> tmur· dneṁ <num value="1"><g type="numeral">I</g></num> Aṁnoy· poñ·
              <lb n="7"/>sumannibhānu ge qnak· kantaiya sre tloṅ·
              <lb n="8"/><num value="2"><g type="numeral">II</g></num> toṅ· tneṁ <num value="1"><g type="numeral">I</g></num> gi kṣetra ta nā jlaṅ· Ā<lb 
-                n="9" break="no"/>śrama jaṁnāhv· poñ· Aman· tel·
+                n="9" break="no"/>śrama jaṁnāhv· poñ· <choice><unclear>A</unclear><unclear>su</unclear></choice>man· tel·
              <lb n="10"/>Oy· teṁ puṇya mratāñ· yajamāna gi A<lb 
-                n="11" break="no"/>vā<del rend="other">dai</del>sa dai<g type="dandaPlain">.</g>
-             </p>
+                n="11" break="no"/>vā<del rend="other">dai</del>sa dai<g type="dandaPlain">.</g> <!--ou <num value="1"><g type="numeral">I</g></num>
+ ?
+-->             </p>
              <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
                  <l n="a">yad da<choice><sic>n</sic><corr>t</corr></choice>taṁ śramanādibhyo</l>
-             <l n="b"><lb n="12"/>dadato ’pi na tad dhanaṁ</l>
+             <l n="b"><lb n="12"/>dadato 'pi na tad dhanaṁ</l>
                  <l n="c">tad ahāryyaṁ nr̥pe<lb 
                     n="13" break="no"/>nāpi</l>
               <l n="d">ki<supplied reason="omitted">ṁ</supplied> punas suta<del rend="other" ><gap reason="illegible" quantity="1" unit="character"/></del>-vāndhavai<supplied reason="omitted">ḥ</supplied> <g type="gomutraFinal">.</g></l>
@@ -124,30 +133,69 @@
          </div>
          <div type="apparatus">
                <listApp>
+                  <!--<lem>Aṁnoy·</lem>
+                     <app loc="1">
+                     <rdg source="bib:Pou2001_01"><supplied reason="lost"/>Aṁnoy·</rdg>
+                    <note>La présence de <foreign>Aṁ</foreign> est certaine. Il semble qu’un second <foreign>n</foreign> a été écrit, comme en exposant, au-dessus du <foreign>n</foreign> ; mais il peut aussi s’agir d’un redoublement de la barre supérieure du <foreign>o</foreign>.</note>
+                  </app>-->
+                  <app loc="1-2">
+                     <lem>Anrok·</lem>
+                     <rdg source="bib:Pou2001_01">Anros·</rdg>
+                     <note>La lecture de la dernière consonne du mot <supplied reason="explanation">k</supplied>, 1er <foreign>Akṣara</foreign> de la ligne 2, est certaine ; l’estampage des NIC III est de mauvaise qualité à cet endroit <supplied reason="explanation">l’indistinction de la barre gauche du <foreign>k</foreign> et une éraflure à droite de ce <foreign>k</foreign> expliquent la lecture <foreign>s</foreign></supplied>.</note>
+                  </app>
                   <app loc="3">
                      <lem>tnor·</lem>
                      <rdg source="bib:Pou2001_01">tnop·</rdg>
+                      <note>Le graphème lu <foreign>p</foreign> par S. Pou se lit plus « naturellement » comme un <foreign>r</foreign>. Il est certes un peu large pour un <foreign>r</foreign>, et ne descend pas assez en dessous de la ligne ; mais on pourrait en dire autant de l’<foreign>akṣara r</foreign> dans <foreign>tmur</foreign> de la ligne 6, dont l’interprétation est, elle, certaine. Le <foreign>p</foreign> dans cette inscription présente quant à lui deux angles droits le plus souvent accusés, parfois légèrement arrondis <supplied reason="explanation">cf. l. 2 <foreign>pOn </foreign>; l. 6 <foreign>poñ</foreign> ; l. 9 <foreign>poñ</foreign> ; l. 10 <foreign>puṇya</foreign> ; l. 12 <foreign>pi</foreign> ; l. 12-13 <foreign>nr̥penāpi</foreign> ; l. 13 <foreign>punas</foreign> ; voir aussi les <foreign>ṣ</foreign> de <foreign>niṣṭhura</foreign>, l.3 et <foreign>kṣetra</foreign>, l. 8, mais non pas celui de <foreign>Akṣara</foreign>°, en l. 1</supplied>. – Le terme <foreign>tnop</foreign>, du reste, ne semble pas attesté, et le commentaire de S. Pou à cet endroit est intriguant <supplied reason="explanation">sa traduction « Ku Niṣṭhura ---- [appel de note 2] des serviteurs de l’<foreign>Āśrama</foreign> <gap reason="ellipsis"/> » renvoie à une note <supplied reason="explanation">n° 2, p. 199</supplied> selon laquelle « le mot effacé pourrait être le déterminant de “serviteurs” » ; mais il n’y a ici rien d’effacé</supplied>. Pour autant, la décision finale sur la lecture adoptée dépendra d’une traduction éventuelle que je suis bien incapable de proposer.</note>
+                  </app>
+                  <app loc="3">
+                     <lem>kñ<unclear>u</unclear>ṁ</lem>
+                     <rdg source="bib:Pou2001_01">kñuṁ</rdg>
+                    <note>Je suis, comme bien souvent et en l’absence d’autre exemple de <foreign>ñ</foreign> souscrit dans cette inscription, incapable de certifier à 100 % que la voyelle <foreign>u</foreign> est bien présente.</note>
                   </app>
                     <app loc="4">
                      <lem>sāmanta</lem>
                      <rdg source="bib:Pou2001_01">sāsāṅka</rdg>
+                       <note>La lecture adoptée est quasi certaine. Du reste, même sur la reproduction parue dans les NIC III, la nasale <foreign>ṅ</foreign> est improbable et ce que S. Pou lit comme la seconde occurrence de l’<foreign>Akṣara sā</foreign> ne présente pas de trace de <foreign>ā</foreign> long.</note>
                   </app>
                     <app loc="5">
                      <lem>Is·</lem>
                      <rdg source="bib:Pou2001_01"><gap reason="lost" quantity="2" unit="character"/> saṁ</rdg>
+                       <note>Le <foreign>I</foreign> et le <foreign>virāma</foreign> sont très distincts sur les documents à ma disposition, alors que la reproduction parue dans les NIC III ne permet pas de lire le premier et que la trace du second <foreign>y</foreign> ressemble à un <foreign>anusvāra</foreign>. C’est en fait le graphème lu <foreign>s</foreign> qui, mal formé, pourrait prêter à discussion.</note>
                   </app>
-                   <app loc="11">
+                  <!--<app loc="7">
+                     <lem>suman nibhā nu</lem>
+                     <rdg source="bib:Pou2001_01">sumannibhānu</rdg>
+                    <note>L’interprétation des différents graphèmes semble certaine. Tout au plus relèvera-t-on que le cercle de la voyelle sur la ligature <foreign>nn</foreign> semble, sur certaines reproductions, être pointé, notant peut-être un <foreign>ī</foreign>ī long. Mais deux points surmontent également chacun des deux premiers <foreign>akṣara</foreign>, et on en vient à se demander si les deux ou trois premiers <foreign>akṣara</foreign> ne sont pas exponctués ! C’est peu probable, et les points en question s’expliquent peut-être par la technique de gravure. – La véritable difficulté tient au découpage des mots, et je n’en propose un que pour en signaler la possibilité. Ni <foreign>sumannibhānu</foreign> <supplied reason="explanation">cf. skt <foreign>bhānu</foreign></supplied>, <foreign>ni sumannibhā</foreign> <supplied reason="explanation" cert="low">cf. skt °<foreign>nibha</foreign> ; cf. aussi <foreign>suma</foreign>, <foreign>sumat</foreign> ; <foreign>sumana</foreign></supplied> ne s’expliquent aisément comme noms propres tirés du sanskrit <gap reason="ellipsis"/></note>
+                  </app>-->
+                  <app loc="9">
+                     <lem><choice><unclear>A</unclear><unclear>su</unclear></choice>man·</lem>
+                     <rdg source="bib:Pou2001_01">Amar·</rdg>
+                    <note>Même sur la reproduction parue dans les NIC III, la consonne finale ne peut être lue <foreign>r</foreign>, et les reproductions à ma disposition confirment qu’il s’agit d’un <foreign>n</foreign> <supplied reason="explanation">comparer avec le <foreign>n</foreign> de <foreign>nā</foreign> en l. 8</supplied>. Bien que la lecture du premier graphème comme un <foreign>a</foreign> ne puisse être totalement exclue, il semble préférable de l’interpréter comme un <foreign>su</foreign> dont le <foreign>u</foreign> serait très court. Tous les <foreign>a</foreign>/<foreign>ā</foreign> de cette inscription dont la lecture est certaine présentent en effet, pour leur composante gauche, une forme en S dont la courbe inférieure manque apparemment ici : c’est sans doute, en effet, un défaut de la pierre qui peut en donner l’illusion sur les reproductions. Dans ces conditions, il semble bien qu’il soit question, à nouveau, du <foreign>poñ suman</foreign> de la l. 7.</note>
+                  </app>
+                   <!--<app loc="11">
                      <lem><g type="dandaPlain">.</g></lem>
                      <rdg source="bib:Pou2001_01">1</rdg>
                       <note>I interpret this sign as a punctuation marking the end of the Old Khmer portion, and not as the number 1 as Saveros Pou suggested.</note>
-                  </app>
+                  </app>-->        
                   <app loc="11">
-                  <lem>da<choice><sic>n</sic><corr>t</corr></choice>taṁ</lem>
-                    <rdg source="bib:Pou2001_01">dānato</rdg>
+                     <lem>vā<del rend="other">dai</del>sa</lem>
+                     <rdg source="bib:Pou2001_01">vā<gap reason="illegible" quantity="2" unit="character"/>s·</rdg>
+                      <note>L’<foreign>akṣara dai</foreign>, clairement reconnaissable sur les documents à ma disposition, semble être annulé au moyen de quatre traits obliques. Il n’y a pas de <foreign>virāma</foreign> sur le <foreign>s</foreign>.</note>
                   </app>
-                   <app loc="12">
-                     <lem>dhana<unclear>ṁ</unclear></lem>
-                     <rdg source="bib:Pou2001_01">dhana</rdg>
+                  <app loc="12">
+                     <lem>yad dattaṁ</lem>
+                     <rdg source="bib:Pou2001_01">yaddānato</rdg>
+                  </app>
+                  <app loc="12">
+                     <lem>tad dhanaṁ</lem>
+                     <rdg source="bib:Pou2001_01">taddhana</rdg>
+                     <note>L’<foreign>anusvāra</foreign>, douteux sur la reproduction des NIC III, semble clair sur les documents à ma disposition ; qu’il soit si proche de la lettre n s’expliquerait par la présence, à la ligne supérieure, de la ligature <foreign>dd</foreign>. Mais il pourrait aussi s’agir d’un point lié à la technique de gravure <supplied reason="explanation">cf. supra ad suman, l. 7</supplied>. – Quoi qu’il en soit, il faut lire ou restituer <foreign>dhanaṁ</foreign> ou <foreign>dhanam·</foreign>.</note>
+                  </app>
+                  <app loc="12">
+                     <lem>tad ahāryyaṁ</lem>
+                     <rdg source="bib:Pou2001_01">tadahāryya</rdg>
+                     <note>Quasi inexistant sur la reproduction des NIC III, l’<foreign>anusvāra</foreign> est clair les documents à notre disposition.</note>
                   </app>
                    <app loc="12-13">
                      <lem>nr̥penāpi</lem>
@@ -155,8 +203,9 @@
                       <note>A similar stanza portion is found in stanza III of the somewhat later, and very carelessly engraved, inscription <ref target="K0379.xml">K. 379</ref>: <foreign>tad ahāryyaṇ nr̥penāpi kim utaḥ svattavāndhavaiḥ</foreign>.</note>
                    </app>
                       <app loc="13">
-                         <lem>vāndhavai<supplied reason="omitted">ḥ</supplied></lem>
-                         <rdg source="bib:Pou2001_01">vārdhavai</rdg>
+                         <lem>suta<del rend="other" ><gap reason="illegible" quantity="1" unit="character"/></del>-vāndhavai<supplied reason="omitted">ḥ</supplied></lem>
+                         <rdg source="bib:Pou2001_01">suta<gap reason="illegible" quantity="3" unit="character"/>vārdhavai</rdg>
+                    <note>Il semble que le lapicide ait bien gravé une lettre après <foreign>suta</foreign>, qu’il a ensuite annulée d’une façon qui ne m’est pas claire ; l’hypothèse d’un défaut de la pierre préexistant à la gravure est moins plausible, d’après les reproductions. En résumé, mètre et sens imposent de restituer <foreign>sutavāndhavaiḥ</foreign>.</note>
                   </app>
                </listApp>
          </div>
@@ -171,18 +220,18 @@
             <p rend="stanza" n="1">That which <supplied reason="explanation"><foreign>yad</foreign></supplied> has been given <supplied reason="explanation"><foreign>dattam</foreign></supplied> to the ascetics and others <supplied reason="subaudible">connected to this foundation</supplied> <supplied reason="explanation"><foreign>śramaṇādibhyaḥ</foreign></supplied>, that <supplied reason="explanation"><foreign>tat</foreign></supplied> wealth <supplied reason="explanation"><foreign>dhanam</foreign></supplied> does not belong even to the giver <supplied reason="explanation"><foreign>dadato 'pi</foreign></supplied>. That <supplied reason="explanation"><foreign>tat</foreign></supplied> should not be taken away <supplied reason="explanation"><foreign>ahāryam</foreign></supplied> even by the king <supplied reason="explanation"><foreign>nr̥penāpi</foreign></supplied>, not to speak of <supplied reason="explanation"><foreign>kim punaḥ</foreign></supplied> <supplied reason="subaudible">the giver's</supplied> sons and relatives!</p>
          </div>
          <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
-  <p n="1-6">Offrandes de Mratañ Akṣaravindu et Anros Añ à l'<foreign>āśrama</foreign> : Vā Kdik avec ses deux cadets ; Ku Niṣṭhura <gap reason="illegible"/> des serviteurs de l'<foreign>āśrama</foreign> que Mratāñ Śaśāṅka avait échangée, accompagnée de son (ses) enfant(s) <gap reason="illegible"/> réunis aux gens de l'<foreign>āśrama</foreign> ; 3 <foreign>tloṅ</foreign> de rizières ; 1 cocotier ; 1 paire de bœufs.</p>
+  <p n="1-6">Offrandes de Mratañ Akṣaravindu et Anros Añ à l'<foreign>āśrama</foreign> : Vā Kdik avec ses deux cadets ; Ku Niṣṭhura <gap reason="illegible"/> des serviteurs de l'<foreign>āśrama</foreign> que Mratāñ Sāmanta avait échangée, accompagnée de son <seg rend="pun">ses</seg> enfant<seg rend="pun">s</seg> <gap reason="illegible"/> réunis aux gens de l'<foreign>āśrama</foreign> ; 3 <foreign>tloṅ</foreign> de rizières ; 1 cocotier ; 1 paire de bœufs.</p>
 <p n="6-11">Offrandes de Poñ Sumannibhānu : des servantes ; 2 <foreign>tloṅ</foreign> de rizières ; 1 cocotier. Les champs à Jlaṅ Āśrama achetés par Poñ Amar forment un capital de mérites pour le Mratāñ donateur <gap reason="illegible"/>.</p>
 <p n="11-13">Ce qui est offert aux ascètes etc.</p>
          </div>
          <div type="commentary">
-           <p n="4">The term <foreign>sāmanta</foreign> term is rarely used in Old Khmer inscriptions. The only occurrences of this term in Old Khmer portions can be found in pre-Angkorian inscriptions: <ref target="K0140.xml">K. 140</ref> (598 <foreign>śaka</foreign>), <ref target="K0904.xml">K. 904</ref> (635 <foreign>śaka</foreign>; l. A29).</p>
+           <p n="4">The term <foreign>sāmanta</foreign>  is rarely used in Old Khmer inscriptions. The only occurrences of this term in Old Khmer portions can be found in pre-Angkorian inscriptions: <ref target="K0140.xml">K. 140</ref> (598 <foreign>śaka</foreign>), <ref target="K0904.xml">K. 904</ref> (635 <foreign>śaka</foreign>; l. A29).</p>
             <p>Par rapport au mot <foreign>tloṅ</foreign> : comme le souligne Saveros Pou, l’emploi de l’unité de mesure <foreign>tloṅ</foreign> pour une rizière plutôt que pour du paddy (<foreign>sru</foreign>) est surprenant, d’autant que cet emploi se rencontre de nouveau à la ligne 7. Nous retrouvons toutefois cette même expression dans d’autres inscriptions préangkoriennes du corpus, à savoir <ref target="K0154.xml">K. 154</ref> (656 śaka ; l. A8), <ref target="K0563.xml">K. 563</ref> (VIe siècle <foreign>śaka</foreign>) et <ref target="K0079.xml">K. 79</ref> (565 <foreign>śaka</foreign> ; avec un emploi de <foreign>tloṅ</foreign> aussi bien pour du paddy que pour des rizières). Cet usage semble s’être perpétué durant la période angkorienne, puisque l’on trouve l’expression équivalente <foreign>vraḥ sre thlvaṅ</foreign> dans <ref target="K0523.xml">K. 523</ref> (1040 <foreign>śaka</foreign> ; l. B20). L’article de Michel Antelme sur le terme <foreign>tloṅ</foreign> et ses équivalents (<bibl rend="omitname"><ptr target="bib:Antelme2011_02"/></bibl>) – bien que ne traitant pas de cet usage/cas de figure particulier – confirme l’association de ce terme avec une unité de capacité de mesure et de poids. La traduction adoptée tente donc de refléter ce sens.</p>
             <p>A l'intérieur de la résidence (<foreign>Avādaisa dai</foreign>) : le sens du mot <foreign>dai</foreign> est pluriel et signifie aussi bien "nouveau" que "autre". Un troisième sens peut lui être imputé, si on rapproche le terme du vieux môn <foreign>ḍey</foreign> et du vieux cham <foreign>di</foreign> ou <foreign>dī</foreign>, à savoir "à l'intérieur de".</p>
             <p><foreign>teṁ puṇya</foreign>:</p>
          </div>
         <div type="bibliography">
-           <p>First edited by Saveros Pou with a French translation of the Khmer part (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">198-199</citedRange></bibl>). The Sanskrit part was edited and translated into English by Dominic Goodall (<bibl rend="omitname"><ptr target="bib:Goodall2020_01"/><citedRange unit="page">331</citedRange></bibl>). The inscription is re-edited here by Chloé Chollet based on EFEO estampage n. 1713 and photography AMPP 000826.</p>
+           <p>First edited by Saveros Pou with a French translation of the Khmer part (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">198-199</citedRange></bibl>). The Sanskrit part was edited and translated into English by Dominic Goodall (<bibl rend="omitname"><ptr target="bib:Goodall2020_01"/><citedRange unit="page">331</citedRange></bibl>). The inscription is re-edited here by Chloé Chollet and Kunthea Chhom based on EFEO estampage n. 1713 and photography AMPP 000826.</p>
         	<listBibl type="primary">
 			<bibl n="SP">
             <ptr target="bib:Pou2001_01"/>
