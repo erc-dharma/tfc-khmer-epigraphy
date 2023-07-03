@@ -316,7 +316,7 @@
 |K.	285 |# |# |#|
 |K.	286 |# |# |#|
 |K.	287 |chch |pending |IC IV|
-|K.	288 |# |# |#|
+|K.	288 |kuch |pending |IC IV|
 |K.	289 |# |# |#|
 |K.	290 |chch |pending |IC III|
 |K.	291 |sapi |done |IC III |
@@ -575,7 +575,7 @@ K.	294 |# |# |#|
 |K.	481 |# |# |#|
 |K.	482 |kuch |pending |IC V|
 |K.	483 |kuch |done |IC I|
-|K.	484 |# |# |#|
+|K.	484 |kuch |pending |Cœdès 1918, Lewitz 1971|
 |K.	485 |chch |pending |IC II|
 |K.	486 |# |# |#|
 |K.	487 |# |# |#|
@@ -638,7 +638,7 @@ K.	294 |# |# |#|
 |K.	544 |# |# |#|
 |K.	545 |# |# |#|
 |K.	546 |# |# |#|
-|K.	547 |# |# |#|
+|K.	547 |kuch |pending |IC IV|
 |K.	548 |kuch |done |IC II|
 |K.	549 |kuch |done |IC II|
 |K.	550 |chch |done |Cœdès 1951|
@@ -688,7 +688,7 @@ K.	294 |# |# |#|
 |K.	594 |# |# |#|
 |K.	595 |# |# |#|
 |K.	596 |# |# |#|
-|K.	597 |# |# |#|
+|K.	597 |kuch |pending |IC IV|
 |K.	598 |# |# |#|
 |K.	599 |kuch |done |unpublished|
 |K.	600 |kuch |done |IC II|
