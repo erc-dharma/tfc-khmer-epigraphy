@@ -489,7 +489,7 @@ K.	294 |# |# |#|
 |K.	414 |# |# |#|
 |K.	415 |# |# |#|
 |K.	416 |kuch | done |IC II|
-|K.	417 |# |# |#|
+|K.	417 |kuch | pending |Finot 1915; IC II|
 |K.	418-1 |argr |done |BEFEO IV and XXIX|
 |K.	418-2 |argr |done |BEFEO IV and XXIX|
 |K.	419 |kuch|done |BEFEO XIX(5)|
@@ -973,7 +973,7 @@ K.	294 |# |# |#|
 |K.	873 |sapi |done |IC V |
 |K.	874 |sapi |done |IC V |
 |K.	875 |kuch |done |Coedes 1937|
-|K.	876 |# |# |#|
+|K.	876 |kuch |pending |IC V|
 |K.	877 |kuch |done |IC VI|
 |K.	878 |sapi |done |IC V|
 |K.	879 |chch |pending |IC V|
