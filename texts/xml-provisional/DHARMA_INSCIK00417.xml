@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Prasat Chikreng (K. 417), 892 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/7401978">
+                  <forename>Louis</forename>
+                  <surname>Finot</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00417</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the tenth century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2023-08-07" status="draft">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="vasantatilakā">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/><g type="gomutraInitial">.</g> lokeśvaro jayati yasya varāṅghri-dhūli<milestone unit="column" n="b" break="no"/>r</l>
+<l n="b">āvīcikan dhagadhag ity ativr̥ddha-vahnim·</l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/>nīrīcakāra naraka-vyasanāpahā<space quantity="1" unit="character"/>re</l>
+<l n="d"><milestone unit="column" n="b"/>tasmin madīya-natir astu sahasra-vāram·<g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="2" met="āryā">
+<l n="ab"><lb n="3"/><seg met="="><gap reason="illegible" quantity="1" unit="character"/></seg>āsīd aninditāṅśo<space/>yaś śrīsamarendravikhyātaḥ<space/></l>
+<l n="cd">tasyometi tu naptā<space/>śarad-indur ivānvaya-vyomni<g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="3" met="vasantatilakā">
+<l n="a" enjamb="yes"><lb n="4"/><seg met="="><gap reason="illegible" quantity="1" unit="character"/></seg>raṇādbhuta-saṅgrāma<space/></l>
+<l n="b">sutā sa<space unit="character" quantity="1"/>rvva-kalādbhutā <space/></l>
+<l n="c">śambhor ggaurīva mahiṣī <space/></l>
+<l n="d">śrīmahīdharavarmmaṇaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="5"/><supplied reason="lost">A</supplied>lañcakāra lokeśa<space/>m</l>
+<l n="b">alaṅkāra-ravi-prabhaiḥ<space/></l>
+<l n="c" met="na-vipulā" real="+-++---+">ratna-rai-rūpya-racitai<space/>r</l>
+<l n="d">ddvi-nnavāṣṭa-śakena yā<g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="6"/>tad-agrajaś ca saudaryyo<space/></l>
+<l n="b">hr̥dyācāryyābhidhāna-dhr̥k·<space/></l>
+<l n="c">Arddha-prāsāda-bhūṣe yaḥ<space/></l>
+<l n="d">pratyak lokeśvare 'diśat·<g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="6" met="sragdharā">
+<l n="a"><lb n="7"/>puṇyenānena ratna-dyuti-nikara-lasat-svarṇ<choice><orig>n</orig><reg>ṇ</reg></choice>a-padmopari syāṁ<space/></l>
+<l n="b">gandhair unmāditālir nara-nayana-manohāri-saundaryya-jātaḥ</l>
+<l n="c"><lb n="8"/>jātaś cet kṣudra-jantāv akuśala-malino lokanāthāntike 'smin</l>
+<l n="d">bhūyobhūyā samunmūlita-mada-jaḍatāmatsarāhaṅkr̥tis syāṁ<g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="7" met="āryā">
+<l n="ab"><lb n="3"/><supplied reason="lost">rā</supplied>ja-bhayādyaṣṭabhayaṁ<space/>bhayam api ghorāvīcikādiṣu vā<space/></l>
+<l n="cd">duḥkhāny adhamāni ca me<space/>bhave bhave 'nena mā bhūvan·<g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="8" met="vasantatilakā">
+<l n="a"><lb n="10"/>nyāyena labdham avalokiṭa-bhūṣanaṁ me <space/></l>
+<l n="b">sabhrātr̥kena racitan dr̥ḍha-bhakti-dhautam·<space/></l>
+<l n="c">ye ratna-rai-rajata-lubdhatayā <lb n="11"/> haranti<space/></l>
+<l n="d">ghore patantu narake saha vandhubhis te<g type="ddandaOrnate">.</g></l>
+</lg>
+<lg n="9" met="vasantatilakā">
+<l n="a">rakṣanti <space unit="character" quantity="1"/> vandhu-suhr̥d-anyajanā madīyaṁ<space/></l>
+<l n="b">ye pu<choice><orig>n</orig><reg>ṇ</reg></choice>yam eta<lb n="12"/>d iha deva-puraṁ prayāntu<space/></l>
+<l n="c">jātiṁ prati prahasitānana-maṇ<choice><orig>d</orig><corr>ḍ</corr></choice>i<space unit="character" quantity="1"></space>tās te</l>
+<l n="d">vāgbhir jjagatsu vapuṣā subhagā <lb n="13"/> bhavantu<g type="ddandaOrnate">.</g></l>
+</lg>
+                </div>
+                <div type="apparatus">
+               <listApp>
+                 <app loc="1">
+                   <lem><g type="gomutraInitial">.</g> lokeśvaro</lem>
+                   <rdg source="bib:Coedes1942_02">lokeśvaro</rdg>
+                 </app>
+                  <app loc="3">
+                   <lem><seg met="="><gap reason="illegible" quantity="1" unit="character"/></seg>āsīd aninditāṅśo</lem>
+                   <rdg source="bib:Finot1915_01"><gap reason="lost" unit="character" quantity="5"></gap> titāṅśo</rdg>
+                 </app>
+                  <app loc="7">
+                   <lem>nnara-</lem>
+                   <rdg source="bib:Coedes1942_02">nara-</rdg>
+                 </app>
+                  <app loc="7">
+                   <lem>-saundaryya-</lem>
+                   <rdg source="bib:Coedes1942_02">-s undaryya-</rdg>
+                 </app>
+                  <app loc="7">
+                   <lem>-bhūṣaṇaṁ</lem>
+                   <rdg source="bib:Coedes1942_02">-bhūṣanaṁ</rdg>
+                 </app>
+               </listApp>
+         </div>
+            <div type="translation" xml:lang="fra" source="bib:Coedes1942_02">
+          <p rend="stanza" n="1">Vive Lokeśvara dont la poussière des pieds vénérables a éteint le feu crépitant et extrêmement ardent de l'enfer Avīci! Puissé-je m'incliner mille fois devant Lui qui supprime les tourments de l'enfer.</p>
+            <p rend="stanza" n="2">Il y eut un<gap reason="lost"></gap>, à l'héritage irréprochable, nommé Śrī Samarendra; sa petite fille Umā était comme la lune d'automne dans le ciel de sa famille.</p>
+               <p rend="stanza" n="3">Douée d'une connaissance prodigieuse de tous les arts, cette fille de Saṅgrāma, renommé pour ses prodiges de valeur dans les combats, fut l'épouse de Śrī Mahīdharavarman, comme Gaurī le fut de Śambhu.</p>
+            <p rend="stanza" n="4">En <foreign>śaka</foreign> huit-neuf-deux, elle orna Lokeśa avec des ornements brillants comme le soleil, faits de gemmes, de matières précieuses et d'argent.</p>
+               <p rend="stanza" n="5">Son frère aîné, né de la même mère, nommé Hr̥dyācārya, consacra à Lokeśvara deux ornements <supplied reason="subaudible">en forme de</supplied> demi-<foreign>prāsāt</foreign>.</p>
+            <p rend="stanza" n="6">Par le mérite de cette bonne-œuvre, puissé-je naître doué d'une beauté captivant le cœur et les yeux des hommes, sur un lotus d'or où se joue le faisceau de rayons des joyaux, enivrant les abeilles de son parfum; mais si, souillé par le péché, je viens à naître comme un petit animal, puissé-je en présence de ce Lokanātha dépouiller sans cesse et complètement l'orgueil, la paresse, l'envie et l'égoime.</p>
+               <p rend="stanza" n="7">Par ce <supplied reason="subaudible">mérite</supplied> puissé-je, d'existence en existence, éviter les huit périls, à commencer par la colère royale, et aussi le péril du terrible Avīci et des autres enfers, ainsi que les pires malheurs.</p>
+            <p rend="stanza" n="8">Ceux qui, par convoitise, envers les gemmes, les matières précieuses et l'argent, prendraient cette parure d'Avalokita ornée, purifiée par la dévotion et dûment offerte par moi et ma sœur, que ceux-là tombent dans l'enfer teriible avec leurs parents.</p>
+               <p rend="stanza" n="9">Que ceux qui, parents, amis ou étrangers, protégeront ici cette mienne œuvre, aillent au séjour des dieux; qu'à chaque naissance, ils soient ornés de visages souriants, et qu'ils se distinguent parmi les créatures par le charme de leur voix et de leur corps.</p>
+           </div>
+           <div type="translation" xml:lang="fra" source="bib:Finot1915_01">
+          <p rend="stanza" n="2-3">Uma, petite-fille de Śrī Amarendra, pareille à une lune d'automne dans le firmament de sa race, fille de Saṅgrāma aux glorieux <supplied reason="subaudible">exploits</supplied>, <supplied reason="subaudible">femme</supplied> du <foreign>maharṣi</foreign> Śrī Mahīdharavarman, comme Gaurī l'est de Śambhu.</p>
+           </div>
+         <div type="commentary">
+            <p>There about six large graffiti characters at the bottom of the stone.</p>
+         </div>
+       <div type="bibliography">
+          <p>First partly edited by Louis Finot (<bibl rend="omitname"><ptr target="bib:Finot1915_01"/><citedRange unit="page">19-20</citedRange></bibl>) <!-- KC: Only stanzas II-III were edited and translated. -->, George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1942_02"/><citedRange unit="page">48-50</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom from estampage EFEO n. 168 and photographs of the stone K417_01.jpg and K417_02.jpg (sent by Arlo Griffiths in July 2023).</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1942_02"/><citedRange unit="page">48-50</citedRange>
+    </bibl>
+	    <bibl n="LF">
+      <ptr target="bib:Finot1915_01"/><citedRange unit="page">19-20</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
