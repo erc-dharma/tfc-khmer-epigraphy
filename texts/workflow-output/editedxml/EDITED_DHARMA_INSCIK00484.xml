@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bilingual stela from Phimeanakas Temple (K. 484), 12th century śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Lewitz</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00484</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage.  -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The shape of the letters is characteristic of the twelth and thirteenth centuries CE.</p>
+                     <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. -->
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2023-08-09" status="draft">Initial encoding of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn">
+                   <div type="textpart" n="A">
+<lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="A1"/><milestone unit="column" n="a"/><g type="circleTarget">.</g> vrahma-mūla śiva-skandha</l>
+<l n="b"><milestone unit="column" n="b"/>viṣṇu-śākha sanātana</l>
+<l n="c"><lb n="A2"/><milestone unit="column" n="a"/>vr̥kṣa-rāja mahā-bhāgya</l>
+<l n="d"><milestone unit="column" n="b"/>sarvvāśraya phala-prada</l>
+</lg>
+                      <lg n="2" met="anuṣṭubh">
+<l n="a" met="bha-vipulā" real="++-++--+"><lb n="A3"/><milestone unit="column" n="a"/><g type="circleTarget">.</g> mā tvāśanir mmā paraśu<milestone unit="column" n="b" break="no"/>r</l>
+<l n="b">mmānilo mā hutāśanaḥ</l>
+<l n="c"><lb n="A4"/><milestone unit="column" n="a"/>mā rājā mā gajaḥ kruddho</l>
+<l n="d"><milestone unit="column" n="b"/>vināśam upaneśyati</l>
+</lg>
+                      <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="A5"/><milestone unit="column" n="a"/><g type="circleTarget">.</g>Akṣi-spandaṁ bhruvos spanda<milestone unit="column" n="b" break="no"/>n</l>
+<l n="b">dus-svapnan dur-vvicintitam·</l>
+<l n="c"><lb n="A6"/><milestone unit="column" n="a"/>Aśvattha śamayet sarvvaṁ</l>
+<l n="d"><milestone unit="column" n="b"/>yad divyaṁ yac ca mānuṣam·</l>
+</lg>
+                      </div>
+                   <div type="textpart" n="B" xml:lang="okz-Latn">
+                      <p>
+                      <lb n="B1"/><g type="circle">.</g> hai vraḥ mahāvodhi <g type="dotMid">.</g> hai ta mān teṁ ta gi vraḥ vrahma
+                      <lb n="B2"/>hai ta mān· khlvan· ta gi vraḥ Īśvara <g type="dotMid">.</g> hai ta mān· mek· ta
+                      <lb n="B3"/>gi vraḥ viṣṇu <g type="dotMid">.</g> hai ta nitya <g type="dotMid">.</g> hai ta jā kuruṅ· ta vr̥kṣa pho<lb n="B4" break="no"/>ṅ· <g type="dotMid">.</g> hai ta bhāgya veg· <g type="dotMid">.</g> hai ta jā Āśraya ta jagat· pho<lb n="B5" break="no"/>ṅ· <g type="dotMid">.</g> hai ta Oy· phala cyar thmā <g type="dotMid">.</g> kaṁpi randaḥ pañ· kamrateṅ·
+                         <lb n="B6"/>Añ· kaṁpi trū tiṅ· kaṁpi vraḥ vāyu kac· kaṁpi vraḥ
+                         <lb n="B7"/>vleṅa tut· <g type="dotMid">.</g> kaṁpi kamrateṅ· phdai karoṁ paṁpat· kaṁpi
+                         <lb n="B8"/>tamrya krodha pi vrac· nau kamreka vnek· yeṅ· ta
+                         <lb n="B9"/>Asaru nau kamrek· caṁceṁ ta Asaru <g type="dotMid">.</g> nau svapna ta A<lb n="B10" break="no"/>saru <g type="dotMid">.</g> nau cintā ta Asaru <g type="dotMid">.</g> nau maḥ ta Asaru pho<lb n="B11" break="no"/>ṅ· ta mān· ta svargga ta manuṣya loḥ cura paṁpata noḥ <g type="gomutraFinial">.</g>
+                         </p>
+                   </div>
+                </div>
+                <div type="apparatus">
+                   <div type="textpart" subtype="column" n="B">
+               <listApp>
+                  <app loc="B5">
+                       <lem>cyar</lem>
+                     <rdg source="bib:Coedes1918_02">cya</rdg>
+                     <rdg source="bib:Lewitz1971_01">cya<supplied reason="lost">r</supplied></rdg>
+                   </app>
+                  <app loc="B7">
+                       <lem>vleṅa</lem>
+                     <rdg source="bib:Coedes1918_02">vleṅ·</rdg>
+                     <rdg source="bib:Lewitz1971_01">vleṅ·</rdg>
+                   </app>
+                  <app loc="B8">
+                       <lem>kamreka</lem>
+                     <rdg source="bib:Coedes1918_02">kamrek·</rdg>
+                     <rdg source="bib:Lewitz1971_01">kamrek·</rdg>
+                   </app>
+                  <app loc="B11">
+                       <lem>paṁpata</lem>
+                     <rdg source="bib:Coedes1918_02">paṁpat·</rdg>
+                     <rdg source="bib:Lewitz1971_01">paṁpat·</rdg>
+                   </app>
+               </listApp>
+                   </div>         
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Lewitz1971_01">
+          <p n="B1-B11">Ô, Auguste Arbre de la <foreign>bodhi</foreign>! Ô vous dont la souche est Brahma ! Ô vous dont le tronc est Śiva ! Ô vous dont les branches représentent Viṣṇu ! Ô vous qui êtes éternels1 Ô vous qui êtes le roi de tous les autres ! Ô vous, suprême Fortuné ! Ô vous qui êtes le refuge de tous les êtres ! Ô vous qui donnez des fruits au-delà du temps ! Puisse la fondre ne pas vous toucher, seigneur ! Puissiez-vous ne jamais être exposé à la hache ! Puisse le Vent ne pas vous casser ! Puisse le Feu ne pas vous brûler ! Puissent les rois ne pas vous anéantir ! Puisse l’éléphant furieux ne pas vous piétiner ! Cillement de paupières impur, contraction de sourcils impure, rêves impurs, pensées impures, toutes les souillures qui puissent atteindre les dieux ou les hommes, tout cela, veuillez le faire disparaître !</p>
+            </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1918_02">
+          <p rend="stanza" n="1-3">O toi dont les racines sont Brahmā, dont le tronc est Śiva et dont les branches sont Viṣṇu, ô éternel, roi des arbres, fortuné, refuge de tous les êtres, donneur de fruits ; qui ni la foudre, ni la hache, ni le vent, ni le feu, ni le roi, ni l’éléphant furieux ne causent ta ruine. Clignement des yeux, tremblement des sourcils, mauvais rêves, mauvaises pensées, ô Figuier, délivre de tous <supplied reason="subaudible">ces maux</supplied> les êtres divins et humains.</p>
+            <p n="B1-B11">O Saint <foreign>mahābodhi</foreign>, ô <supplied reason="subaudible">toi</supplied> qui as une base qui est Brahmā, ô <supplied reason="subaudible">toi</supplied> qui as un corps qui est Īśvara, ô <supplied reason="subaudible">toi</supplied> qui as des branches qui sont Viṣṇu, ô <supplied reason="subaudible">toi</supplied> qui es éternel, ô <supplied reason="subaudible">toi</supplied> qui es roi de tous les arbres, ô <supplied reason="subaudible">toi</supplied> qui as beaucoup de bonheur, ô <supplied reason="subaudible">toi</supplied> qui es le refuge de tous les êtres, ô (toi) qui donnes des fruits à manger. Que la fondre ne te frappe pas ; que la hache ne te touche pas, que Vāyu ne te brise pas, que le feu ne te brûle pas, que le roi ne te détruise pas, que l’éléphant furieux ne te renverse pas. Le clignement de nos yeux qui est chose mauvaise, le tremblement des sourcils qui est chose mauvaise, les rêves mauvais, les pensées mauvaises, tous les <gap reason="lost"/> mauvais de ceux qui possèdent le ciel ou la condition humaine, délivres-en, détruis-les.</p>
+            </div>
+       <!--   <div type="commentary">
+            <p></p>
+         </div> -->
+       <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1918_02"/><citedRange unit="page">9-12</citedRange></bibl>) with a French translation; the Khmer portion was reedited by Saveros Lewitz (<bibl rend="omitname"><ptr target="bib:Lewitz1971_01"/><citedRange unit="page">91-103</citedRange></bibl>) with a French translation; reedited here by Kunthea Chhom from the estampage EFEO n. 184.</p>
+	 <listBibl type="primary">
+    <bibl n="SL">
+      <ptr target="bib:Lewitz1971_01"/><citedRange unit="page">91-103</citedRange>
+    </bibl>
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1918_02"/><citedRange unit="page">9-12</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
