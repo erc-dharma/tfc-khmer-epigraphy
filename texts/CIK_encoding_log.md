@@ -316,7 +316,7 @@
 |K.	285 |# |# |#|
 |K.	286 |# |# |#|
 |K.	287 |chch |pending |IC IV|
-|K.	288 |kuch |pending |IC IV|
+|K.	288 |kuch |done |IC IV|
 |K.	289 |# |# |#|
 |K.	290 |chch |pending |IC III|
 |K.	291 |sapi |done |IC III |
@@ -489,7 +489,7 @@ K.	294 |# |# |#|
 |K.	414 |# |# |#|
 |K.	415 |# |# |#|
 |K.	416 |kuch | done |IC II|
-|K.	417 |kuch | pending |Finot 1915; IC II|
+|K.	417 |kuch | done |Finot 1915; IC II|
 |K.	418-1 |argr |done |BEFEO IV and XXIX|
 |K.	418-2 |argr |done |BEFEO IV and XXIX|
 |K.	419 |kuch|done |BEFEO XIX(5)|
@@ -575,7 +575,7 @@ K.	294 |# |# |#|
 |K.	481 |# |# |#|
 |K.	482 |kuch |pending |IC V|
 |K.	483 |kuch |done |IC I|
-|K.	484 |kuch |pending |Cœdès 1918, Lewitz 1971|
+|K.	484 |kuch |done |Cœdès 1918, Lewitz 1971|
 |K.	485 |chch |pending |IC II|
 |K.	486 |# |# |#|
 |K.	487 |# |# |#|
@@ -973,7 +973,7 @@ K.	294 |# |# |#|
 |K.	873 |sapi |done |IC V |
 |K.	874 |sapi |done |IC V |
 |K.	875 |kuch |done |Coedes 1937|
-|K.	876 |kuch |pending |IC V|
+|K.	876 |kuch |done |IC V|
 |K.	877 |kuch |done |IC VI|
 |K.	878 |sapi |done |IC V|
 |K.	879 |chch |pending |IC V|
