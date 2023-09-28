@@ -315,7 +315,7 @@
 |K.	284-11 |kuch |done |Cœdès 1951|
 |K.	285 |# |# |#|
 |K.	286 |# |# |#|
-|K.	287 |chch |pending |IC IV|
+|K.	287 |kuch |done |IC IV|
 |K.	288 |kuch |done |IC IV|
 |K.	289 |# |# |#|
 |K.	290 |chch |pending |IC III|
@@ -638,7 +638,7 @@ K.	294 |# |# |#|
 |K.	544 |# |# |#|
 |K.	545 |# |# |#|
 |K.	546 |# |# |#|
-|K.	547 |kuch |pending |IC IV|
+|K.	547 |kuch |done |IC IV|
 |K.	548 |kuch |done |IC II|
 |K.	549 |kuch |done |IC II|
 |K.	550 |chch |done |Cœdès 1951|
@@ -688,7 +688,7 @@ K.	294 |# |# |#|
 |K.	594 |# |# |#|
 |K.	595 |# |# |#|
 |K.	596 |# |# |#|
-|K.	597 |kuch |pending |IC IV|
+|K.	597 |kuch |done |IC IV|
 |K.	598 |# |# |#|
 |K.	599 |kuch |done |unpublished|
 |K.	600 |kuch |done |IC II|
