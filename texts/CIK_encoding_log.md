@@ -102,22 +102,23 @@
 |K.	95 |sapi |pending |ISCC|
 |K.	96 |# |# |#|
 |K.	97 |kuch |pending |unpublished|
+|K.	98 |kuch |pending |IC VII|
 |K.	99 |# |# |#|
 |K.	100 |# |# |#|
 |K.	101 |# |# |#|
 |K.	102 |kuch |done |IC V|
-|K.	103 |# |# |#|
+|K.	103 |kuch |pending |IC V|
 |K.	104 |# |# |#|
 |K.	105 |kuch |done|IC VI|
 |K.	106 |# |# |#|
 |K.	107 |kuch |pending |IC VI|
-|K.	108 |# |# |#|
+|K.	108 |kuch |pending |IC VI|
 |K.	109 |kuch |done |Coedes 1911|
 |K.	110 |# |# |#|
 |K.	111 |chch |pending |IC VI|
 |K.	112 |# |# |#|
-|K.	113 |# |# |#|
-|K.	114 |# |# |#|
+|K.	113 = K. 114 |# |# |#|
+|K.	114 |kuch |pending |IC VI|
 |K.	115 |kuch |pending |IC VI|
 |K.	116 |kuch |done |IC II|
 |K.	117 |# |# |#|
@@ -501,7 +502,7 @@ K.	294 |# |# |#|
 |K.	425 |kuch |done |IC II|
 |K.	426 |kuch |done |IC II|
 |K.	427 |kuch | done |IC VI|
-|K.	428 |# |# |#|
+|K.	428 |kuch |pending |IC VII|
 |K.	429 |kuch |done |Finot 1912|
 |K.	430 |kuch | done |IC VI|
 |K.	431 = K. 371 |chch |done |IC V|
@@ -821,7 +822,7 @@ K.	294 |# |# |#|
 |K.	723 |chch |done |IC V|
 |K.	724 |chch |done |IC V|
 |K.	725 |kuch |done |IC I|
-|K.	726 |# |# |#|
+|K.	726 |kuch |pending |IC V|
 |K.	727 |kuch |done |IC V|
 |K.	728 |# |# |#|
 |K.	729 |# |# |#|
@@ -840,7 +841,7 @@ K.	294 |# |# |#|
 |K.	742 |# |# |#|
 |K.	743 |# |# |#|
 |K.	744 |# |# |#|
-|K.	745 |# |# |#|
+|K.	745 |kuch |pending |IC VII|
 |K.	746 |# |# |#|
 |K.	747 |kuch |done |NIC I|
 |K.	748 |kuch |done |IC V|
@@ -1149,7 +1150,7 @@ K.	294 |# |# |#|
 |K.	1014 |# |# |#|
 |K.	1015 |chch |done |Jacques 1999|
 |K.	1016 |chch |done |Jacques 1999|
-|K.	1017 |# |# |#|
+|K.	1017 |kuch |pending |NIC II-III|
 |K.	1018 |# |# |#|
 |K.	1019 |# |# |#|
 |K.	1020 |# |# |#|
@@ -1599,7 +1600,7 @@ K.	294 |# |# |#|
 |K.	1459 |# |# |#|
 |K.	1460 |chch |pending |NIC IV|
 |K.	1461 |# |# |#|
-|K.	1462 |# |# |#|
+|K.	1462 |kuch |pending |Chhom et al in preperation|
 |K.	1463 |# |# |#|
 |K.	1464 |# |# |#|
 |K.	1465 |kuch | done |Unpublished|
@@ -1626,7 +1627,7 @@ K.	294 |# |# |#|
 |K.	1486 |# |# |#|
 |K.	1487 |# |# |#|
 |K.	1488 |# |# |#|
-|K.	1489 |# |# |#|
+|K.	1489 |kuch |pending |unpublished|
 |K.	1490 |chch |done |unpublished|
 |K.	1491 |chch |done |unpublished|
 |K.	1492 |chch |pending |NIC II-III|
