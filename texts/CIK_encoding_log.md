@@ -94,7 +94,7 @@
 |K.	87 |kuch |pending |unpublished|
 |K.	88 |# |# |#|
 |K.	89 |# |# |#|
-|K.	90 |kuch |pending |IC V|
+|K.	90 |kuch |done |IC V|
 |K.	91 |# |# |#|
 |K.	92 |# |# |#|
 |K.	93 |# |# |#|
@@ -102,12 +102,12 @@
 |K.	95 |sapi |pending |ISCC|
 |K.	96 |# |# |#|
 |K.	97 |kuch |pending |unpublished|
-|K.	98 |kuch |pending |IC VII|
+|K.	98 |kuch |done |IC VII|
 |K.	99 |# |# |#|
 |K.	100 |# |# |#|
 |K.	101 |# |# |#|
 |K.	102 |kuch |done |IC V|
-|K.	103 |kuch |pending |IC V|
+|K.	103 |kuch |done |IC V|
 |K.	104 |# |# |#|
 |K.	105 |kuch |done|IC VI|
 |K.	106 |# |# |#|
