@@ -118,8 +118,8 @@
 |K.	111 |chch |pending |IC VI|
 |K.	112 |# |# |#|
 |K.	113 = K. 114 |# |# |#|
-|K.	114 |kuch |pending |IC VI|
-|K.	115 |kuch |pending |IC VI|
+|K.	114 |kuch |done |IC VI|
+|K.	115 |kuch |done |IC VI|
 |K.	116 |kuch |done |IC II|
 |K.	117 |# |# |#|
 |K.	118 |# |# |#|
@@ -742,7 +742,7 @@ K.	294 |# |# |#|
 |K.	645 |# |# |#|
 |K.	646 |# |# |#|
 |K.	647 |# |# |#|
-|K.	648 |kuch|pending |IC VI|
+|K.	648 |kuch|done |IC VI|
 |K.	649 |# |# |#|
 |K.	650 |# |# |#|
 |K.	651 |# |# |#|
