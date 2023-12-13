@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Daun To (K. 1017), 7th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01017</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the seventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2023-12-08" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn">
+                   <p>
+                      <lb n="1"/>śrīmā(tano?)...ka...(niyatsu)ro{2}
+                      <lb n="2"/>ta(sm)ai (bhaga)va(te) ...
+                      <lb n="3"/>da(d)au kṣ(et)rV... (kra)mukadviśatnv(itam·)
+                      <lb n="4"/>{2}pi kṣe(t)rV...
+                      <lb n="5"/><gap reason="illegible" extent="unknown" unit="character"/>
+                      <lb n="6"/>ta si ... toṅ(· 10)
+                      <lb n="7"/>(slā) 10-(7) ... (vraḥ kamratāṅ· Añ·) {5}
+                      <lb n="8"/><gap reason="illegible" extent="unknown" unit="character"/>
+                   </p>
+                   <p xml:lang="okz-Latn">
+                    <lb n="9"/>Aṁnoy· (m)ra(tāñ)· {4} (Āy· ta vraḥ kamra)[tāṅ·] (Añ·) {2}(tivarddha)
+                      <lb n="10"/>Āy· ta vraḥ ka(mratāṅ·) A(ñ·) {7} ranoc· vraḥ
+                      <lb n="11"/>ku gui {5} gui ... toṅ· (teṁ) IIIIII slā teṁ (40) 10
+                      <lb n="12"/>sre sanre I kloñ· ... tel· Oy· {4}
+                      <lb n="13"/>ta vraḥ ka(m)ratā(ṅ·) (A)ñ· {5} (tel· O)y· (nā) ...
+                      <lb n="14"/>... ku {1} (bhadra)
+                      <lb n="15"/>poñ· {8} (vraḥ kamratāṅ· A)ñ· {2}
+                      <lb n="16"/>(sth)ān· ku ka... III
+                   </p>
+                   <p>
+                      <lb n="17"/>{3} pramo(ca) ...
+                      <lb n="18"/>(ta)smai bhagavate ...
+                      <lb n="19"/>(da)dau k(ṣ)et(r)ā(ṇi) ca
+                   </p>
+</div>
+         <!--  <div type="apparatus">
+                 </div>
+        <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+             
+          </div>    -->
+          <div type="commentary">
+             <p n="15">The is a space of about two lines between the lines 16 and 17.</p>
+         </div>
+        <div type="bibliography">
+          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">179</citedRange></bibl>) without translation, reedited by Kunthea Chhom from the estampage EFEO n. 1397.</p>
+	 <listBibl type="primary">
+	    <bibl n="SP">
+      <ptr target="bib:Pou2001_01"/>
+      <citedRange unit="page">179</citedRange>
+    </bibl>
+             </listBibl>
+           </div>
+</body>
+    </text>
+</TEI>
