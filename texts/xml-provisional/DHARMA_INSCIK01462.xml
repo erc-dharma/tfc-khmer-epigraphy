@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lintel of Prasat Kuk Lvea Ter (K. 1462), 6th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01462</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the sixth century.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2023-12-19" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn">
+                   <lg n="1" met="śārdūlavikrīḍita">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/><seg met="+++--+-+---+"><gap reason="lost" quantity="12" unit="character"/></seg><unclear cert="low">s</unclear> sv<supplied reason="lost">ai</supplied>r llakṣaṇair uttamai<milestone unit="column" n="b" break="no"/>r</l>
+<l n="b">ddevo yady api pūrvvam eva vidhivad viprair ayaṁ sthāpita<unclear>ḥ</unclear></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/><seg met="+++--+-+---++"><gap reason="lost" quantity="13" unit="character"/></seg>ṅ sthāpito ’bhyarccina<milestone unit="column" n="b" break="no"/>s</l>
+<l n="d">tena prītyamr̥taṁ pived a<unclear>mara</unclear><supplied reason="lost">pa</supplied><unclear>s</unclear> tatkārako bhojakaḥ</l>
+</lg>
+                   <lg n="2" met="śārdūlavikrīḍita">
+<l n="a"><lb n="3"/><milestone unit="column" n="a"/><seg met="+++--+-+---+"><gap reason="lost" quantity="12" unit="character"/></seg><supplied reason="lost">svā</supplied><unclear>m</unclear>ī svayaṁ hy āgato</l>
+<l n="b"><milestone unit="column" n="b"/>devendrapratimo ’py ayaṁ dhr̥tiguṇād atyadrirājo ’pi san·</l>
+<l n="c"><lb n="4"/><milestone unit="column" n="a"/><seg met="+++--+-+---+"><gap reason="lost" quantity="12" unit="character"/></seg><supplied reason="lost">prāyu</supplied><unclear>ṅkta</unclear>m āyuḫ-phalam·</l>
+<l n="d"><milestone unit="column" n="b"/><unclear>de</unclear>venāpi yadī<unclear>d</unclear>r̥<unclear>ś</unclear>a<unclear>ṁ</unclear> nr̥pa<unclear>tinā</unclear> ta<unclear cert="low">syā</unclear>ntara<unclear>ṁ da</unclear>rśitam· <g type="spiralL">.</g><g type="dDandaOrn">.</g></l>
+</lg>
+                   <lg n="3" met="śārdūlavikrīḍita">
+<l n="a"><lb n="5"/><milestone unit="column" n="a"/><seg met="+++--+-+---++"><gap reason="lost" quantity="13" unit="character"/></seg> <supplied reason="lost"><unclear>e</unclear><unclear>ī</unclear></supplied>ha dattam <unclear>bha</unclear>vet·</l>
+<l n="b"><milestone unit="column" n="b"/><supplied reason="lost" cert="low">vi</supplied><unclear cert="low">śle</unclear>ṣaṅ k<unclear>a</unclear>laśādi copakaraṇaṅ hai<unclear>ma</unclear>n tathā rājata<unclear>ṁ</unclear></l>
+<l n="c"><lb n="6"/><milestone unit="column" n="a"/><seg met="+++--+-+---+++-++-="><gap reason="lost" quantity="19" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="b"/><seg met="+++--+-+---+++-++-="><gap reason="lost" quantity="19" unit="character"/></seg></l>
+</lg>
+                   <lg n="4" met="śārdūlavikrīḍita">
+<l n="a"><lb n="7"/><milestone unit="column" n="a"/><seg met="+++--+-+---+++-++-"><gap reason="lost" quantity="18" unit="character"/></seg>ś ca</l>
+<l n="b"><milestone unit="column" n="b"/><seg met="+++--+-+---+++-++-="><gap reason="lost" quantity="19" unit="character"/></seg></l>
+<l n="c" enjamb="yes"><lb n="8"/><milestone unit="column" n="a"/><seg met="+++--+-+---+++-"><gap reason="lost" quantity="15" unit="character"/></seg>yā <seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg> <choice><unclear>śai</unclear><unclear>śī</unclear></choice>la</l>
+<l n="d"><milestone unit="column" n="b"/>-<seg met="+++--+-+---+++-++-="><gap reason="lost" quantity="19" unit="character"/></seg></l>
+</lg>
+                   <lg n="5" met="śārdūlavikrīḍita">
+<l n="a"><lb n="9"/><milestone unit="column" n="a"/><seg met="+++--+-+---+++-++"><gap reason="lost" quantity="17" unit="character"/></seg>la<unclear>ye</unclear></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="+++--+-+---+++-++-="><gap reason="lost" quantity="19" unit="character"/></seg></l>
+<l n="c"><lb n="10"/><milestone unit="column" n="a"/><seg met="+++--+-+---+++"><gap reason="lost" quantity="14" unit="character"/></seg>s taṭākottamam· <g type="spiralL">.</g></l>
+<l n="d"><milestone unit="column" n="b"/>yatnāt kār<unclear>i</unclear>tavān satāṅ katata<unclear>ṭa</unclear><supplied reason="lost">ṁ</supplied> h<unclear cert="low">eka</unclear><seg met="-++"><gap reason="lost" quantity="3" unit="character"/></seg> <unclear>sadā</unclear> <g type="spiralL">.</g></l>
+</lg>
+                   <lg n="6" met="śārdūlavikrīḍita">
+<l n="a"><lb n="11"/><milestone unit="column" n="a"/><seg met="+++--+-+---++"><gap reason="lost" quantity="13" unit="character"/></seg><supplied reason="lost">vi</supplied><unclear>prāya</unclear> bhojyaṁ kr̥tam· <g type="spiralL">.</g></l>
+<l n="b"><milestone unit="column" n="b"/>satraṁ pratyaham atra cāpi vihitaṁ sarvvopabho<unclear>gakṣa</unclear><supplied reason="lost">mam·</supplied> <supplied reason="lost"><g type="spiralL">.</g></supplied></l>
+<l n="c"><lb n="12"/><milestone unit="column" n="a"/><seg met="+++--+-+---+++"><gap reason="lost" quantity="14" unit="character"/></seg>s saha sthāpi<unclear>ta</unclear>ḥ <g type="spiralL">.</g></l>
+<l n="d"><milestone unit="column" n="b"/>satrañ ca svagr̥he ’pi bhojaka<unclear>va</unclear>reṇānena saṅyo<unclear>j</unclear><supplied reason="lost">itam·</supplied> <seg met="-="><gap reason="lost" quantity="2" unit="character"/></seg> <supplied reason="lost"><g type="spiralL">.</g></supplied></l>
+</lg>
+                   <lg n="7" met="śārdūlavikrīḍita">
+<l n="a"><lb n="13"/><milestone unit="column" n="a"/><seg met="+++--+-+---+++-"><gap reason="lost" quantity="15" unit="character"/></seg>m imām sam<unclear>padam</unclear>· <unclear><g type="spiralL">.</g></unclear></l>
+<l n="b"><milestone unit="column" n="b"/>kartum bhoktu<unclear>m a</unclear>haṁ prabhuś ca vividhān bhogān durā<seg met="+-="><gap reason="lost" quantity="3" unit="character"/></seg> <supplied reason="lost"><g type="spiralL">.</g></supplied></l>
+<l n="c"><lb n="14"/><milestone unit="column" n="a"/><seg met="+++--+-+---++"><gap reason="lost" quantity="13" unit="character"/></seg><supplied reason="lost">a</supplied>ṅghrireṇvā<supplied reason="lost">p</supplied><unclear>taye</unclear> <supplied reason="lost"><g type="spiralL">.</g></supplied></l>
+<l n="d"><milestone unit="column" n="b"/>niś<unclear>ś</unclear>eṣam pari<unclear>ṇā</unclear>mayāmi kuśalan nānāvidhaṁ sarvva<supplied reason="lost">d</supplied><unclear>ā</unclear> <g type="spiralL">.</g></l>
+</lg>
+<p xml:lang="okz-Latn">
+   <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/> <seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="lost" quantity="1" unit="component"/></seg>ḥ vraḥ kaṁmratāṅ· Añ· Ai taṅ· vraḥ dik· kñuṁ ley· nau ta saṁ perran· nau ta cap· vnas<unclear>·</unclear> <g type="dotMid">.</g>
+   <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/> p· tar gui cor· tāṅ· Añ· mān· ra gui dhuli jeṅ· vraḥ kaṁmratāṅ· Añ· jaṁ <unclear cert="low">n</unclear>ā moy· <g type="dotMid">.</g>
+   <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">A</supplied>ñ· kloñ· kroṁ vera ta jā ta g<unclear>oṁ</unclear> ge vi tar· dharmma ge vi voṁ jā bhakti ra kuruṅ· <unclear>v</unclear>raḥ <g type="dotMid">.</g>
+   <lb n="18"/><gap reason="lost" extent="unknown" unit="character"/> rakk<unclear>r</unclear>a ge vraḥ nnaḥ sin· <unclear cert="low">s</unclear>rac· ta t<unclear cert="low">u</unclear> ge ta hau qnak· vraḥ hau vnas· <add place="below">ple pre</add> Āy· ley· <g type="dotMid">.</g>
+</p>
+</div>
+<!-- <div type="apparatus">
+               <listApp>
+                  <app loc="8">
+                     <lem></lem>
+                     <note></note>
+                  </app>            
+               </listApp>         
+         </div> -->
+         <div type="translation" resp="part:kuch">
+ 	<p n="1-3"></p>
+         </div>
+          <div type="commentary">
+            <p>The stone which carries the inscription K. 1462 was most likely a doorjamb which had been brought from a neighboring temple to be reused as a lintel at this temple of Kuk Lvea Ter. The inscribed face is placed downward. The Sanskrit portion has fourteen fragmentary lines forming seven stanzas in Śārdūlavikrīḍita meter, while the Khmer portion is written in prose and has four lines. The two portions are separated by a space of approximately nine lines.</p>
+             <p>The above edition and translation were discussed in reading sessions in September 2022 with Dominic Goodall, Diwakar Acharya, Chloé Chollet, and Nina Mirnig.</p>
+         </div>
+        <div type="bibliography">
+          <p>Edited by Kunthea Chhom, Chhunteng Hun and Sopheaktra Suon (in preperation) with a Khmer translation.</p> 
+        <!-- <listBibl type="primary">
+    <bibl n="KC">
+      <ptr target="bib:Chhom+al2020_01"/><citedRange unit="page">41-77</citedRange>
+    </bibl>
+  </listBibl> -->
+        
+        </div>
+        </body>
+    </text>
+</TEI>
