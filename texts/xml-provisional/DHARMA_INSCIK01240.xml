@@ -22,6 +22,10 @@
                   <forename>Dominique</forename>
                   <surname>Soutif</surname>
                </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -49,7 +53,8 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the seventh century.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -85,12 +90,13 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2023-12-21">Adding paleographic description and modifications to edition, apparatus and commentary</change>
          <change who="part:kuch" when="2020-12-03">Modifications to edition regarding punctuation signs</change>
          <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:kuch" when="2020-05-15" status="draft">Modifications of edition and bibliography</change>
          <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
          <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+         <change who="part:kuch" when="2019-12-15" status="draft">Creation of the file</change>
          <!-- add a <change> for each change to the file, the first change should replace this one and record your creation of a file using this template. -->
       </revisionDesc>
    </teiHeader>
@@ -100,33 +106,36 @@
                 <p>
 <lb n="1"/><g type="spiralR">.</g> <num value="616">ṣodaśottaraṣaṭśata</num> śakaparigraha daśamī ket· Āṣāḍha
 <lb n="2"/>svātinakṣatra candradivasavāra Āy· kanloṅ· purandarapura <g type="spiralR">.</g>
-                   <lb n="3"/><unclear>Ā</unclear>j<supplied reason="lost">ñ</supplied>ā <unclear>vraḥ</unclear> <gap reason="lost" quantity="4" unit="character"/>· <gap reason="lost" quantity="2" unit="character"/>· <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ī <gap reason="lost" quantity="5" unit="character"/>· <gap reason="lost" quantity="2" unit="character"/>· <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ī 
+                   <lb n="3"/><unclear>Ā</unclear>j<supplied reason="lost">ñ</supplied>ā <unclear>vraḥ</unclear> <supplied reason="lost">kamratāṅ</supplied>· <supplied reason="lost">Añ</supplied>· <supplied reason="lost">n</supplied>i <gap reason="lost" quantity="5" unit="character"/>· <gap reason="lost" quantity="2" unit="character"/>· <gap reason="lost" quantity="2" unit="character"/> 
                     
                 </p>
             </div>
-            <div type="apparatus">
+         <!--    <div type="apparatus">
                <listApp>
                   <app loc="1">
-                   <lem><g type="spiralR">.</g></lem>
-                   <note>La spirale est en forme de 6.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                    <app loc="3">
-                   <lem><gap reason="lost" quantity="4" unit="character"/>· <gap reason="lost" quantity="2" unit="character"/>· <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ī <gap reason="lost" quantity="5" unit="character"/>· <gap reason="lost" quantity="2" unit="character"/>· <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ī</lem>
-                   <note>Étant donné la position des virāma et des voyelles, il est tentant de restituer : <supplied reason="lost">kamrateṅ</supplied>· <supplied reason="lost">Añ</supplied>· <supplied reason="lost">n</supplied>ī <supplied reason="lost">vraḥ</supplied>· <supplied reason="lost">kamrateṅ</supplied>· <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ī<gap reason="lost" quantity="2" unit="character"/></note>
+                   <lem></lem>
+                   <note></note>
                </app>
                </listApp>         
-         </div>
+         </div> -->
          <div type="translation" xml:lang="fra" source="bib:Soutif2009_03">
  	<p n="1-2">616 <foreign>śaka</foreign>, dixième jour de la quinzaine claire d’<foreign>Āṣaḍha</foreign>, mansion lunaire Svāti, un lundi, au palais de Purandarapura.</p>
          </div>
-         <!-- <div type="commentary">
-         </div> -->
+         <div type="commentary">
+            <p n="1">La spirale est en forme de 6.</p>
+            <p n="3">Étant donné la position des <foreign>virāma</foreign>s et des voyelles, il est tentant de restituer : <supplied reason="lost">kamrateṅ</supplied>· <supplied reason="lost">Añ</supplied>· <supplied reason="lost">n</supplied>ī <supplied reason="lost">vraḥ</supplied>· <supplied reason="lost">kamrateṅ</supplied>· <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ī<gap reason="lost" quantity="2" unit="character"/>.</p>
+         </div>
          <div type="bibliography">
-          <p>Edited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="page">416</citedRange></bibl>) with a French translation.</p>
+          <p>Edited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="volume">II</citedRange><citedRange unit="page">425</citedRange></bibl>) with a French translation, reedited here by Kunthea Chhom based on the photograph of the inscription in thesis of Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="volume">III</citedRange><citedRange unit="page">C</citedRange></bibl>).</p>
 	 <listBibl type="primary">
     <bibl n="DS">
       <ptr target="bib:Soutif2009_03"/>
-      <citedRange unit="page">416</citedRange>
+       <citedRange unit="volume">II</citedRange>
+      <citedRange unit="page">425</citedRange>
     </bibl>
   </listBibl>
         </div>
