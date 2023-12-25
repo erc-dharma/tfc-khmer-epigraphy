@@ -10,7 +10,18 @@
          <titleStmt>
             <title>South and North doorjambs of West door of the Northern tower of the first row of Prasat Lolei (K. 326), 815 Śaka</title>
             <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
                <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
                <persName ref="part:doso">
                   <forename>Dominique</forename>
                   <surname>Soutif</surname>
@@ -46,7 +57,8 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the ninth century.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -82,6 +94,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2023-12-25" status="draft">Adding paleographic description and modifications to apparatus and commentary</change>
          <change who="part:kuch" when="2020-12-08" status="draft">Modifications regarding numerals</change>
          <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:kuch" when="2020-07-31">Modifications to edition, apparatus and bibliography</change>
@@ -128,10 +141,6 @@
             </div>
             <div type="apparatus">
                <listApp>
-                  <app loc="S2">
-                     <lem><gap reason="lost" quantity="1" unit="character"/></lem>
-                      <note>Étant donné l'espace disponible, il semble difficile de restituer <supplied reason="subaudible"><foreign>ta gi sruk</foreign></supplied>.</note>
-                  </app>
                    <app loc="S10">
                      <lem>tbeṅ·</lem>
                      <rdg source="bib:Pou2001_01">tveṅ·</rdg>
@@ -140,17 +149,9 @@
                      <lem>Āñcāj·</lem>
                      <rdg source="bib:Pou2001_01">Āñaj·</rdg>
                   </app>
-                   <app loc="N10">
-                     <lem>vāṅ·goṅ·</lem>
-                       <note>We can also read <foreign>vāṅ·voṅ·</foreign>.</note>
-                  </app>
                    <app loc="N12">
                      <lem>vārlop·</lem>
                      <rdg source="bib:Pou2001_01">valauy·</rdg>
-                  </app>
-                   <app loc="N13">
-                     <lem>cāy·</lem>
-                       <note>Une autre lecture possible: thāy·</note>
                   </app>
                    <app loc="N14">
                      <lem>rvvāṅ·</lem>
@@ -164,9 +165,12 @@
          </div>
          <div type="commentary">
             <p>Le début de l'inscription est en grande partie détruit, et la restitution reste incertaine.</p>
+            <p n="S2">Étant donné l'espace disponible, il semble difficile de restituer <supplied reason="subaudible"><foreign>ta gi sruk</foreign></supplied>.</p>
+         <p n="N10">The term <foreign>vāṅ·goṅ·</foreign> can also be read <foreign>vāṅ·voṅ·</foreign>.</p>
+         <p n="N13">The term <foreign>cāy·</foreign> can also be read <foreign>thṅāy·</foreign>.</p>
          </div>
         <div type="bibliography">
-          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">69</citedRange></bibl>); reedited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="page">522</citedRange></bibl>) with a French translation.</p>
+          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">69</citedRange></bibl>); reedited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="page">522</citedRange></bibl>) with a French translation; reedited here by Kunthea Chhom based on the estampage EFEO n.1261.</p>
 	 <listBibl type="primary">
 	     <bibl n="DS">
       <ptr target="bib:Soutif2009_03"/>
