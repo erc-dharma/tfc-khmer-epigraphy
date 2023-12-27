@@ -18,13 +18,21 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName ref="part:doso">
+              <persName ref="http://viaf.org/viaf/51700452">
+                <forename>Abel</forename>
+                <surname>Bergaigne</surname>
+              </persName>
+              <persName ref="http://viaf.org/viaf/39382787">
+                <forename>Saveros</forename>
+                <surname>Pou</surname>
+              </persName>
+              <persName ref="http://viaf.org/viaf/7537">
+                <forename>Kamaleswar</forename>
+                <surname>Bhattacharya</surname>
+              </persName>
+              <persName ref="part:doso">
                   <forename>Dominique</forename>
                   <surname>Soutif</surname>
-               </persName>
-               <persName ref="part:kuch">
-                  <forename>Kunthea</forename>
-                  <surname>Chhom</surname>
                </persName>
             </respStmt>
          </titleStmt>
@@ -53,7 +61,8 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                    <p>The <foreign>akṣara</foreign>s are characteristic of the ninth century.
+                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -89,12 +98,13 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+        <change who="part:kuch" when="2023-12-27" status="draft">Adding paleographic description and modifications to apparatus and commentary</change>
          <change who="part:kuch" when="2020-12-09" status="draft">Modifications regarding numerals</change>
          <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:kuch" when="2020-07-23">Modifications to edition, apparatus, translation and bibliography</change>
          <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
          <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+         <change who="part:kuch" when="2019-12-15" status="draft">Creation of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
@@ -238,7 +248,7 @@
                   <app loc="S22">
                      <lem>duhatai</lem>
                      <rdg source="bib:Pou2001_01">duhitai</rdg>
-                      <note>Aucune trace de <foreign>i</foreign> n'est visible sur l'estampage.</note>
+                    
                   </app>
                    <app loc="S22">
                      <lem>vrasai</lem>
@@ -271,7 +281,7 @@
                    <app loc="S29">
                      <lem>tai ṅāk·</lem>
                      <rdg source="bib:Pou2001_01">tai pāk·</rdg>
-                       <note>Peu probable, peut-être pourrait-on lire <foreign>dāk·</foreign> <supplied reason="explanation">cf. l. 25</supplied>.</note>
+                      
                   </app>
                    <app loc="S30">
                      <lem>kañjai</lem>
@@ -300,7 +310,7 @@
                    <app loc="S34">
                      <lem>saṁUy·</lem>
                      <rdg source="bib:Pou2001_01">saṁjay·</rdg>
-                       <note>Cette lecture est incertaine, peut-être <foreign>saṁjay·</foreign> ou <foreign>saṁṅay·</foreign>.</note>
+                       
                   </app>
                    <app loc="S35">
                      <lem>śikharā</lem>
@@ -350,14 +360,6 @@
                      <lem>yvan·</lem>
                      <rdg source="bib:Pou2001_01">yaṁ</rdg>
                   </app>
-                   <app loc="S46">
-                     <lem>sī rat·</lem>
-                       <note>Saveros Pou ne note que le <foreign>sī tat</foreign> final de la ligne 46 et son estampage ne lui permettait pas, semble-t-il, de lire la fin de l'inscription.</note>
-                  </app>
-                   <app loc="N10">
-                     <lem>tmoṅ· <num value="1">I</num></lem>
-                     <note>Saveros Pou ne note pas ce <foreign>daṇḍa</foreign>, à vrai dire assez inattendu.</note>
-                  </app>
                    <app loc="N12">
                      <lem>thar·</lem>
                      <rdg source="bib:Pou2001_01">var·</rdg>
@@ -401,7 +403,7 @@
                    <app loc="N38">
                      <lem>sthiradāsa</lem>
                      <rdg source="bib:Pou2001_01">sī radasa</rdg>
-                       <note>Un éclat imparfaitement circulaire pourrait inciter à lire <foreign>ri</foreign> ou <foreign>rī</foreign>.</note>
+                      
                   </app>
                    <app loc="N39">
                      <lem>munidāsa</lem>
@@ -422,7 +424,12 @@
              <p rend="stanza" n="1">In the Śaka year denoted by arrow <supplied reason="subaudible">5</supplied>, one <supplied reason="subaudible">1</supplied> and eight <supplied reason="subaudible">8</supplied>, on the sixth white <supplied reason="explanation">or black, <foreign>śiti</foreign></supplied> day of the month of Śuci, the moon in the middle of Pisces, the son of the moon <supplied reason="explanation">Mercury</supplied> in Leo, the horoscope together with the son of Bhṛgu <supplied reason="explanation">Venus</supplied> in Taurus, the sin in Cancer, the Guru of the gods <supplied reason="explanation">Jupiter</supplied> in Sagittarius, the son of the Earth <supplied reason="explanation">Mars</supplied> together with the son of the sun <supplied reason="explanation">Saturn</supplied> in Libra, the images of Śiva and Gaurī, made by himself, were erected together by Śrī Yaśovarman.</p>
          </div>
          <div type="commentary">
-            <!--commentary encoded as per section §9.3 -->
+            <p n="S22">Aucune trace de <foreign>i</foreign> n'est visible sur l'estampage.</p>
+           <p n="S29">Peu probable, peut-être pourrait-on lire <foreign>dāk·</foreign> <supplied reason="explanation">cf. l. 25</supplied>.</p>
+         <p n="S34">Cette lecture est incertaine, peut-être <foreign>saṁjay·</foreign> ou <foreign>saṁṅay·</foreign>.</p>
+         <p n="S46">Saveros Pou ne note que le <foreign>sī tat</foreign> final de la ligne 46 et son estampage ne lui permettait pas, semble-t-il, de lire la fin de l'inscription.</p>
+         <p n="N10">A propos de <foreign>tmoṅ I</foreign>, Saveros Pou ne note pas ce <foreign>daṇḍa</foreign>, à vrai dire assez inattendu.</p>
+         <p n="N38">A propos de <foreign>sthiradāsa</foreign>, un éclat imparfaitement circulaire pourrait inciter à lire <foreign>ri</foreign> ou <foreign>rī</foreign>.</p>
          </div>
         <div type="bibliography">
           <p>The Sanskrit part is first edited by Abel Bergaigne (<bibl rend="omitname"><ptr target="bib:Bergaigne1893_01"/><citedRange unit="page">319</citedRange></bibl>); reedited by Kamaleswar Bhattacharya (<bibl rend="omitname"><ptr target="bib:Bhattacharya2009_01"/><citedRange unit="page">69-71, 73, 77</citedRange></bibl>) with an English translation of the preliminary benedictory formula and the 8 verses. The Khmer part is first edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">78</citedRange></bibl>); reedited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="page">484</citedRange></bibl>) without translation.</p>

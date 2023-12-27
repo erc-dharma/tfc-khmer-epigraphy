@@ -18,6 +18,10 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
                <persName ref="part:doso">
                   <forename>Dominique</forename>
                   <surname>Soutif</surname>
@@ -53,7 +57,8 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the ninth century.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -89,12 +94,13 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2023-12-27" status="draft">Adding paleographic description and modifications to apparatus and commentary</change>
          <change who="part:kuch" when="2020-12-08" status="draft">Modifications regarding numerals</change>
          <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:kuch" when="2020-07-22">Modifications to edition, apparatus, translation and bibliography</change>
          <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
          <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+         <change who="part:kuch" when="2019-12-15" status="draft">Creation of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
@@ -139,10 +145,6 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                 <app loc="E1">
-                    <lem/>
-                     <note>Le mauvais état du piédroit entraîne la perte de la fin des premières lignes ainsi que de tout ce qui se trouvait après la onzième. Cet état s'est encore aggravé depuis la réalisation de l'estampage « Lottin de Laval » de la Bibliothèque Nationale.</note>
-                 </app>
                     <app loc="E6">
                      <lem>tlvoṅ·</lem>
                      <rdg source="bib:Pou2001_01">tloṅ·</rdg>
@@ -162,12 +164,10 @@
                     <app loc="W6">
                      <lem><num value="200">200</num></lem>
                      <rdg source="bib:Pou2001_01"><num value="100">100</num></rdg>
-                        <note>Même erreur à la ligne suivante.</note>
                   </app>
                     <app loc="W9">
                         <lem><num value="200">200</num></lem>
                      <rdg source="bib:Pou2001_01"><num value="110" cert="low">100 10</num></rdg>
-                        <note>Dans ces inscriptions, il est effectivement possible de confondre <foreign>gi</foreign> et 10. Ici, le cercle est bien détaché et la leçon semble assurée.</note>
                     </app>
                      </listApp>
             </div>
@@ -183,10 +183,11 @@
              <p n="W13-18">Le religieux <supplied reason="explanation">qui est</supplied> le chef du temple et le chef des devoirs <supplied reason="explanation">Kloñ Kārya</supplied> recevront <supplied reason="subaudible">et</supplied> distribueront au Vraḥ Kamrateṅ Añ Śrī Indravarmeśvara cinq parts, au<supplied reason="explanation">x</supplied> Vraḥ Kamrateṅ Añ <gap reason="lost"/></p>
          </div>
          <div type="commentary">
-            <!--commentary encoded as per section §9.3 -->
+            <p n="E1">Le mauvais état du piédroit entraîne la perte de la fin des premières lignes ainsi que de tout ce qui se trouvait après la onzième. Cet état s'est encore aggravé depuis la réalisation de l'estampage « Lottin de Laval » de la Bibliothèque Nationale.</p>
+         <p n="W9">Dans ces inscriptions, il est effectivement possible de confondre <foreign>gi</foreign> et 10. Ici, le cercle est bien détaché et la leçon semble assurée.</p>
          </div>
         <div type="bibliography">
-          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">76</citedRange></bibl>); reedited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="page">529-532</citedRange></bibl>) with a French translation.</p>
+          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">76</citedRange></bibl>); reedited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="page">529-532</citedRange></bibl>) with a French translation; reedited here by Kunthea Chhom based on the estampage EFEO n. 594, n. 595 and n. 1262.</p>
 	 <listBibl type="primary">
 	     <bibl n="DS">
       <ptr target="bib:Soutif2009_03"/>

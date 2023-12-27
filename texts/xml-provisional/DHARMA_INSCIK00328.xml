@@ -18,6 +18,11 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               
                <persName ref="part:doso">
                   <forename>Dominique</forename>
                   <surname>Soutif</surname>
@@ -49,7 +54,8 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the ninth century.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -85,12 +91,13 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2023-12-27" status="draft">Adding paleographic description and modifications to apparatus and commentary</change>
          <change who="part:kuch" when="2020-12-08" status="draft">Modifications regarding numerals</change>
          <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:kuch" when="2020-07-29">Modifications to edition, apparatus and bibliography</change>
          <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
          <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+         <change who="part:kuch" when="2019-12-14" status="draft">Creation of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
@@ -104,7 +111,7 @@
 <lb n="5"/>vraḥ kamrateṅ·
 <lb n="6"/>Añ· śrī mahī<lb 
    n="7" break="no"/>patīśvara sruk·
-<lb n="8"/><choice><unclear>kvāc·</unclear><corr>kcāc·</corr></choice> Amraḥ
+<lb n="8"/>kvāc· Amraḥ
 <lb n="9"/>śrī dhara <num value="1">I</num> gho pno<lb 
    n="10" break="no"/>s· <num value="1">I</num> gho vrahe<lb 
       n="11" break="no"/>y· <num value="1">I</num> gho cke <num value="1">I</num> gho
@@ -127,10 +134,6 @@
                      <lem>narā<lb n="4" break="no"/>dhipativarmma</lem>
                      <rdg source="bib:Pou2001_01">dharā<lb n="4" break="no"/>dhipativarmma</rdg>
                   </app>
-                 <app loc="7">
-                    <lem>sruk·</lem>
-                     <note>Après sruk Saveros Pou note <gap reason="lost" quantity="3" unit="character"/>, pourtant, tous les caractères sont lisibles et il semble que rien n'était inscrit après ce mot.</note>
-                 </app>
                     <app loc="8">
                      <lem>kcāc·</lem>
                      <rdg source="bib:Pou2001_01">kvāc·</rdg>
@@ -151,7 +154,7 @@
              <p n="19-22">Total : 1 commune, 1 contremaître, 5 hommes, 5 femmes, 1 garçon en âge de courir, 1 bébé de sexe masculin ; au total : 13.</p>
          </div>
          <div type="commentary">
-            <!--commentary encoded as per section §9.3 -->
+           <p n="7">Après <foreign>sruk</foreign> Saveros Pou note <gap reason="lost" quantity="3" unit="character"/>, pourtant, tous les caractères sont lisibles et il semble que rien n'était inscrit après ce mot.</p>
          </div>
         <div type="bibliography">
           <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">75</citedRange></bibl>); reedited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="page">525</citedRange></bibl>) with a French translation.</p>
