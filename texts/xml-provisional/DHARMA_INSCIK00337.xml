@@ -18,6 +18,10 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
+                <persName ref="http://viaf.org/viaf/39382787">
+                    <forename>Saveros</forename>
+                    <surname>Pou</surname>
+                </persName>
                <persName ref="part:doso">
                   <forename>Dominique</forename>
                   <surname>Soutif</surname>
@@ -49,7 +53,8 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                      <p>The <foreign>akṣara</foreign>s are characteristic of the ninth century.
+                         <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -85,13 +90,14 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+          <change who="part:kuch" when="2023-12-27" status="draft">Adding paleographic description and modifications to apparatus and commentary</change>
         <change who="part:sapi" when="2021-09-08" status="draft">Adding a new translation</change>
          <change who="part:kuch" when="2020-12-09" status="draft">Modifications regarding numerals</change>
          <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:kuch" when="2020-07-10">Modifications to edition, apparatus and bibliography</change>
          <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
          <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+         <change who="part:kuch" when="2019-12-19" status="draft">Creation of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
@@ -202,17 +208,12 @@
                 <app loc="A18">
                     <lem><num value="216">200 10 6</num></lem>
                 <rdg source="bib:Pou2001_01"><num value="116">100 10 6</num></rdg>
-                    <note>Aymonier 1883 : 2(16) La lecture des chiffres, conforme aux totaux lus par Aymonier (JA 1883) est confirmée par le total partiel : 10+51+85+12+19+14+6+7+12=216.</note>
+                    
                 </app>
                 <app loc="A19">
                     <lem><num value="396">300 80 10 6</num></lem>
                 <rdg source="bib:Pou2001_01"><num value="276">200 60 10 6</num></rdg>
-                    <note>Aymonier <supplied reason="explanation">1883</supplied> lit 396.</note>
                 </app>
-                 <app loc="B32">
-                     <lem/>
-                     <note>Il faut noter la variante <foreign>tryamvakapura</foreign> de la ligne 12 de la Face A. La distinction en les <foreign>ba</foreign> et les <foreign>va</foreign> est remarquablement respectée à Lolei, ce qui est assez rare dans le reste du corpus. Sans doute faut-il y voir un témoignage de l'intérêt de Yaśovarman Ier pour la mise au point de l'écriture.</note>
-                 </app>
                 </listApp>
             </div>
          <div type="translation" xml:lang="fra" resp="part:sapi">
@@ -236,6 +237,9 @@
          </div>
          <div type="commentary">
              <p>La face A de K. 337 est la seule de cet ensemble d'inscriptions à avoir été publiée à ce jour <supplied reason="explanation">NIC II-III p. 87</supplied>. C'est aussi la seule qui soit encore conservée et pour laquelle nous disposons d'estampages à la chinoise. L'estampage dit « Lottin de Laval » de la BN témoigne du fait que l'inscription a encore souffert depuis sa découverte par Aymonier. Il permet en outre de compléter l'édition de Saveros Pou et de corriger les totaux.</p>
+         <p n="A18">La lecture des chiffres, conforme aux totaux lus par Aymonier <supplied reason="explanation">1883</supplied>, est confirmée par le total partiel : 10+51+85+12+19+14+6+7+12=216.</p>
+         <p n="A19">Aymonier <supplied reason="explanation">1883</supplied> lit 396.</p>
+             <p n="B32">Il faut noter la variante <foreign>tryamvakapura</foreign> de la ligne 12 de la Face A. La distinction en les <foreign>ba</foreign> et les <foreign>va</foreign> est remarquablement respectée à Lolei, ce qui est assez rare dans le reste du corpus. Sans doute faut-il y voir un témoignage de l'intérêt de Yaśovarman Ier pour la mise au point de l'écriture.</p>
          </div>
         <div type="bibliography">
           <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">87</citedRange></bibl>); reedited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="page">510-511</citedRange></bibl>) without translation.</p>

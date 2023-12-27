@@ -22,10 +22,6 @@
                   <forename>Dominique</forename>
                   <surname>Soutif</surname>
                </persName>
-               <persName ref="part:kuch">
-                  <forename>Kunthea</forename>
-                  <surname>Chhom</surname>
-               </persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -53,7 +49,8 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the ninth century.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -89,12 +86,13 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2023-12-27" status="draft">Adding paleographic description and modifications to apparatus and commentary</change>
          <change who="part:kuch" when="2020-12-09" status="draft">Modifications regarding numerals</change>
          <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:kuch" when="2020-07-15">Modifications to edition and bibliography</change>
          <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
          <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+         <change who="part:kuch" when="2019-12-17" status="draft">Creation of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
@@ -200,14 +198,14 @@
 <lb n="B55"/>rat· <num value="10">10</num> tai rat· <num value="18">188</num> sī pau <num value="7">7</num> tai pau <num value="9">9</num> <g type="circleTarget">.</g> psaṁ <num value="244">200404</num> <g type="circleTarget">.</g>
 </p>
                     </div>
-            <div type="apparatus">
+           <!--  <div type="apparatus">
             <listApp>
                  <app loc="B23">
-                     <lem>smva</lem>
-                     <note>Ce qui ressemble à un caractère suscrit au-dessus du <foreign>s</foreign> du mot <foreign xml:lang="khm-Latn">smva</foreign> n'est sans doute qu'un défaut de la pierre.</note>
+                     <lem></lem>
+                     <note></note>
                  </app>
                 </listApp>
-            </div>
+            </div> -->
          <div type="translation" xml:lang="fra" source="bib:Soutif2009_03">
  	<p n="A1-5"><gap reason="lost"/></p>
              <p n="A6-10"><supplied reason="explanation">Liste incomplète de serviteurs comprenant au moins: 4 <foreign>gho</foreign>, 8 <foreign>tai</foreign>, 2 <foreign>gvāl</foreign>, 2 <foreign>tai pau</foreign>, 2 <foreign>sī tat</foreign>, 1 <foreign>sī pau</foreign></supplied> ;</p>
@@ -240,7 +238,7 @@
              <p n="B53-55">Total: <supplied reason="subaudible">répartis dans</supplied> 12 communes, 1 chef de groupe, 14 <foreign>qamraḥ</foreign>, 68 <foreign>gho</foreign>, 94 <foreign>tai</foreign>, 13 <foreign>gvāl</foreign>, 10 <foreign>lap</foreign>, 10 <foreign>sī rat</foreign>, 18 <foreign>tai rat</foreign>, 7 <foreign>sī pau</foreign>, 9 <foreign>tai pau</foreign>. Au total 244.</p>
          </div>
          <div type="commentary">
-            <!--commentary encoded as per section §9.3 -->
+            <p n="B23">A propos de <foreign>smva</foreign>, ce qui ressemble à un caractère suscrit au-dessus du <foreign>s</foreign> du mot <foreign xml:lang="khm-Latn">smva</foreign> n'est sans doute qu'un défaut de la pierre.</p>
          </div>
         <div type="bibliography">
           <p>Edited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="page">501-503</citedRange></bibl>) with a French translation.</p>
