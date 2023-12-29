@@ -841,7 +841,7 @@ K.	294 |# |# |#|
 |K.	742 |# |# |#|
 |K.	743 |# |# |#|
 |K.	744 |# |# |#|
-|K.	745 |kuch |pending |IC VII|
+|K.	745 |kuch |done |IC VII|
 |K.	746 |# |# |#|
 |K.	747 |kuch |done |NIC I|
 |K.	748 |kuch |done |IC V|
@@ -1150,7 +1150,7 @@ K.	294 |# |# |#|
 |K.	1014 |# |# |#|
 |K.	1015 |chch |done |Jacques 1999|
 |K.	1016 |chch |done |Jacques 1999|
-|K.	1017 |kuch |pending |NIC II-III|
+|K.	1017 |kuch |done |NIC II-III|
 |K.	1018 |# |# |#|
 |K.	1019 |# |# |#|
 |K.	1020 |# |# |#|
@@ -1600,7 +1600,7 @@ K.	294 |# |# |#|
 |K.	1459 |# |# |#|
 |K.	1460 |chch |pending |NIC IV|
 |K.	1461 |# |# |#|
-|K.	1462 |kuch |pending |Chhom et al in preperation|
+|K.	1462 |kuch |done |Chhom et al in preperation|
 |K.	1463 |# |# |#|
 |K.	1464 |# |# |#|
 |K.	1465 |kuch | done |Unpublished|
