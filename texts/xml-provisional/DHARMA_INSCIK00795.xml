@@ -18,6 +18,10 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
                <persName ref="part:doso">
                   <forename>Dominique</forename>
                   <surname>Soutif</surname>
@@ -49,7 +53,8 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the eleventh century.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -85,11 +90,12 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2023-12-28" status="draft">Adding paleographic description and modifications to apparatus and commentary</change>
          <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:kuch" when="2020-06-22" status="draft">Modifications of edition, apparatus and bibliography</change>
          <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
          <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+         <change who="part:kuch" when="2019-12-21" status="draft">Creation of the file</change>
          <!-- add a <change> for each change to the file, the first change should replace this one and record your creation of a file using this template. -->
       </revisionDesc>
    </teiHeader>
@@ -102,23 +108,25 @@
 <lb n="3"/><gap reason="lost" quantity="2" unit="character"/> <g type="dotMid">.</g> tai kansuc· <g type="circleSmall">.</g> tai thgun· <unclear cert="low"><g type="circleTarget">.</g></unclear>
                 </p>
             </div>
-            <div type="apparatus">
+         <!--    <div type="apparatus">
                <listApp>
                   <app loc="3">
-                        <lem><gap reason="lost" quantity="2" unit="character"/></lem>
-                        <note>Un caractère <supplied reason="explanation" cert="low"><foreign>bha</foreign></supplied> est partiellement lisible, mais difficile à préciser. La pierre est brisée, mais il ne manque pas plus de trois caractères, vraisemblablement le nom d'un<supplied reason="explanation">e</supplied> troisième esclave.</note>
+                        <lem></lem>
+                        <note></note>
                     </app>
                    <app loc="3">
-                        <lem><unclear cert="low"><g type="circleTarget">.</g></unclear></lem>
-                        <note>Un éclat empêche de s'assurer de la nature du signe de ponctuation final.</note>
+                        <lem></lem>
+                        <note></note>
                     </app>
                </listApp>         
-         </div>
+         </div>  -->
          <div type="translation" xml:lang="fra" source="bib:Soutif2009_03">
  	<p n="1-3">En 942 <foreign>śaka</foreign>, l’<foreign>ācārya</foreign> Dharmapaṇḍita a offert des esclaves au Vraḥ Kamrateṅ Añ : <gap reason="lost"/> tai Kansuc, tai Thg<choice><unclear>a</unclear><unclear>u</unclear></choice>n.</p>
          </div>
-         <!-- <div type="commentary">
-         </div> -->
+          <div type="commentary">
+             <p n="3">Un caractère <supplied reason="explanation" cert="low"><foreign>bha</foreign></supplied> est partiellement lisible, mais difficile à préciser. La pierre est brisée, mais il ne manque pas plus de trois caractères, vraisemblablement le nom d'un<supplied reason="explanation">e</supplied> troisième esclave.</p>
+         <p n="3">Un éclat empêche de s'assurer de la nature du signe de ponctuation final.</p>
+          </div>
         <div type="bibliography">
           <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">240</citedRange></bibl>) with only few words legible; re-edited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="page">600</citedRange></bibl>) with a French translation.</p>
 	 <listBibl type="primary">
