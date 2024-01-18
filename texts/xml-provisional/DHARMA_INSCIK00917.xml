@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Stela from Vat Sasar Muoy Roy (inscription of Citrasena-Mahendravarman, K. 1458), 6th century Śaka</title>
+            <title>Inscription on balustre of Phnom Thom temple (K. 917), Angkorian period</title>
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:kuch">
@@ -18,16 +18,16 @@
             </respStmt>
             <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName ref="part:doso">
-                  <forename>Dominique</forename>
-                  <surname>Soutif</surname>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
                </persName>
-            </respStmt>
+               </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Siem Reap</pubPlace>
-            <idno type="filename">DHARMA_INSCIK01458</idno>
+            <idno type="filename">DHARMA_INSCIK00917</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
@@ -49,7 +49,8 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of Angkorian period <supplied reason="explanation">9th-14th centuries CE</supplied>.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -85,48 +86,33 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:kuch" when="2022-04-11" status="draft">Initial encoding of the inscription</change>
+         <change who="part:kuch" when="2024-01-18" status="draft">Initial encoding of the inscription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
         <body>
-                <div type="edition" xml:lang="san-Latn">
-<lg n="1" met="anuṣṭubh">
-<l n="a" enjamb="yes"><lb n="1"/>bhaktyā bhagavataś śambho</l>
-<l n="b"><lb n="2"/>r mmātāpitror anujñayā</l>
-<l n="c"><lb n="3"/><unclear>s</unclear>thāpitañ ci<unclear>t</unclear>rasen<supplied reason="lost">e</supplied>na</l>
-<l n="d"><lb n="4"/>liṅgañ jayati ś<supplied reason="lost">āmbhavam·</supplied></l>
-</lg>
+                <div type="edition" xml:lang="okz-Latn">
+                   <p>
+                      <lb n="1"/><unclear>ka</unclear> kha <unclear>ga</unclear>
+                   </p>
 </div>
-            <!--<div type="apparatus">
-            <!-\-apparatus encoded as per EG §9.1, basic elements for apparatus below-\->
-               <listApp><!-\- one <app> for each apparatus entry -\->
-                  <app loc="line"><!-\- Update the value of @loc.-\->
-                     <lem><!-\- fill in a lemma here -\-></lem>
-                     <rdg source="bib:AuthorYear_01"><!-\- update the @source value, fill in variant reading here -\-></rdg>
-                  </app>
-               </listApp>         
+        <!--    <div type="apparatus">
+                          
          </div>
-         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
-             <p rend="stanza" n="1"></p>
-         </div> -->
-           <div type="translation" resp="part:kuch">
-             <p rend="stanza" n="1">Victorious is the liṅga of Śambhu having been installed by Citrasena with devotion towards Lord Śambhu <supplied reason="subaudible">and</supplied> with the permission from his parents.</p>
-         </div>
+          <div type="translation">
+             <p rend="stanza" n="1"></p></div>  -->
          <div type="commentary">
-            <p>This inscription is identical to three inscriptions, viz. K. 116, K. 122 and K. 1338. The restitutions in <foreign>pādas</foreign> c and d are based on these inscriptions.</p>
-         </div>
+            <p>The content of the inscription, consisting of first three letters of the Khmer alphabet, seems to suggest that it is a modern creation.</p>
+         </div> 
         <div type="bibliography">
-          <p>Preliminarily edited by Dominique Soutif, making use of a photo of the estampage K.1458.jpg <supplied reason="explanation">sent by Michel Tranet</supplied>.</p>
-	 <!--
-          <listBibl type="primary">
-				     <bibl n="siglum"/>
-			          </listBibl>
-           <listBibl type="secondary">
-              <bibl/>
-           </listBibl>
-         -->
-        </div>
-        </body>
+          <p>Preliminarily edited by Kunthea Chhom based on the estampage EFEO n. 1193.</p>
+	 <!-- <listBibl type="primary">
+	    <bibl n="KC">
+<ptr target="bib:Chhom2020_01"/>
+<citedRange unit="page">21</citedRange>
+</bibl>
+             </listBibl> -->
+           </div>
+</body>
     </text>
 </TEI>
