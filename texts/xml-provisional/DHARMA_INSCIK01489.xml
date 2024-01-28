@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription of Tuol Slaeng (K. 1489), 563 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+               <persName ref="part:chhu">
+                  <forename>Chhunteng</forename>
+                  <surname>Hun</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+               </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01489</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the seventh century.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-01-27" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+                   <lg n="1" met="sragdharā">
+                      <l n="a"><lb n="1"/>rājñā śākena piṇdaṁ dahana-rasa-śarair aṅkitaṁ vatsarāṇāṁ <g type="circleSmall">.</g></l>
+                      <l n="b">māghasyādye ca pakṣe dvi-divasa-ra<choice><unclear>h</unclear><unclear>m</unclear><unclear>p</unclear></choice>ite yāmini sā yadā syāt· <g type="circleSmall">.</g></l>
+                      <l n="c" enjamb="yes">senduḫ puṣyas <unclear>t</unclear>adāyaṁ tri-<unclear>bh</unclear>uvana-<unclear>va</unclear>radas sthāpita<unclear>s tatra saśrī</unclear></l>
+                      <l n="d"><lb n="2" style="text-align: center"/>-<unclear>v</unclear>i<unclear>ṣṇ</unclear>ur yyogai<unclear>śubha</unclear>smair vviracita-makareṇodite ca grahāṇā<supplied reason="lost">m· <g type="circleTarget">.</g></supplied></l>
+                   </lg>
+                   <lg n="2" met="anuṣṭubh">
+                      <l n="a"><lb n="3"/><milestone unit="column" n="a"/>yad dattaṁ śramanādibhyo</l>
+                      <l n="b"><milestone unit="column" n="b"/>tad ato 'pi na tad dhanaṁ</l>
+                      <l n="c"><milestone unit="column" n="c"/>tad ahāryya<unclear>ṁ</unclear> nr̥peṇāpi</l>
+                      <l n="d"><milestone unit="column" n="d"/>kiṁ punaḥ suta-vāndhavaiḥ <g type="circleTarget">.</g></l>
+                   </lg>
+                   <lg n="3" met="anuṣṭubh">
+                      <l n="a"><milestone unit="column" n="e"/>pāka-<supplied reason="lost">bhe</supplied>do kr̥taghnaś ca</l>
+                      <l n="b"><milestone unit="column" n="f"/>bhumi-ha<supplied reason="lost">r</supplied>tt<supplied reason="lost">ā</supplied> ca te trayaḥ</l>
+                      <l n="c"><lb n="4"/><milestone unit="column" n="a"/>narakān na nivarttate</l>
+                      <l n="d"><milestone unit="column" n="b"/>yāvat soma-divākaraḥ <g type="circleTarget">.</g></l>
+                   </lg>
+                   <lg n="4" met="anuṣṭubh">
+                      <l n="a"><milestone unit="column" n="c"/>satrānāṁ prāk-pravr̥ttānāṁ</l>
+                      <l n="b"><milestone unit="column" n="d"/>bhedanaṁ yaḥ karoti ca</l>
+                      <l n="c"><milestone unit="column" n="e"/>sa pāpa-kr̥t pāpataraḥ</l>
+                      <l n="d"><milestone unit="column" n="f"/>pāka-bheda Iti smr̥taḥ <supplied reason="lost"><g type="circleTarget">.</g></supplied></l>
+                   </lg>
+                   <lg n="5" met="anuṣṭubh">
+                      <l n="a"><lb n="5"/><milestone unit="column" n="a"/>Ācāryya-viṣṇudattasya</l>
+                      <l n="b"><milestone unit="column" n="b"/>satyavattyāś ca yas sutaḥ</l>
+                      <l n="c"><milestone unit="column" n="c"/>dharmadattāhvayo dvābhyā<milestone unit="column" n="d" break="no"/>n</l>
+                      <l n="d">tenāyaṁ sthāpyate hariḥ <unclear><g type="dDandaOrn">.</g></unclear></l>
+                   </lg>
+                   <lg n="6" met="anuṣṭubh">
+                      <l n="a" enjamb="yes"><milestone unit="column" n="e"/>yo dattā veṣṇave samya<milestone unit="column" n="f" break="no"/><unclear>k</unclear></l>
+                      <l n="b">-dāsā-dāsi-dhanāni ca</l>
+                      <l n="c"><lb n="6"/><milestone unit="column" n="a"/>kṣetrārāma-paśun bhaktyā</l>
+                      <l n="d"><milestone unit="column" n="b"/>svarggam yāti savān<unclear>dha</unclear>vai<supplied reason="omitted">ḥ <g type="circleTarget">.</g></supplied></l>
+                   </lg>
+                   <lg n="7" met="anuṣṭubh">
+                      <l n="a"><milestone unit="column" n="c"/>śrīgovindasya ya<supplied reason="omitted">d</supplied>dravya<milestone unit="column" n="d" break="no"/>ṅ</l>
+                      <l n="b">kaś cit puṣpādi yo hare<milestone unit="column" n="e" break="no"/>t</l>
+                      <l n="c">sarvvai<supplied reason="omitted">ḥ</supplied> prakula-santānai<milestone unit="column" n="f" break="no"/>s</l>
+                      <l n="d">tīvraṁ yātu sa rauravam· <supplied reason="lost"><g type="circleTarget">.</g></supplied></l>
+                   </lg>
+                   <p>
+                      <lb n="7"/><unclear><g type="circleTarget">.</g></unclear> vraḥ ka<unclear>ṁ</unclear>mratāṅ· śrī <unclear>go</unclear>vindasvāmī man· Ācāryya dharmmadatta duk· nu dravya Ācāryya <unclear>dai</unclear>ya Oy· puṇya
+                      <lb n="8"/>Ācāryya viṣṇudatta Oy· puṇya vraḥ hañ· satyavati ge yajamāna Ācāryya dharmmadatta Aṁno<lb 
+                         n="9" break="no"/>y· ta vraḥ kñuṁ ghoda vā klapit· <num value="1">I</num> kñuṁ ta kantai ku jadda <num value="1">I</num> ku kanteṅ· <num value="1">I</num> ku smo vñau <num value="1">I</num> ku Anr<unclear>o</unclear>k· <num value="1">I</num>
+                      <lb n="10"/>kon· ge phoṅ· caṁdak ta si vā kaṁvañ· pOn· vā <unclear>U</unclear>kka vā ti bhāgya tmur· <num value="10">10</num> sre sanre <num value="4">IIII</num> da<unclear>ṁ</unclear>riṅ· Anta<unclear>ṁ</unclear> kaṁluṅ<unclear>·</unclear> gui
+                      <lb n="11"/>phoṅ· gan· Aṁnoy· ta vraḥ phoṅ· gui na gui tel· prasiddha saṁ Āy· ta vraḥ kamratāṅ· Añ· śrī cakratīrthasvāmi vraḥ <unclear>Ācā</unclear><lb 
+                         n="12" break="no"/>ryya dharmmadatta <g type="dotMid">.</g> sru satra ge vraḥ ta gui saṁvatsara ta moyya droṅ· <unclear>ca</unclear>ṁren ta gui dvādaśi viṣuvagraha bhai <num value="6">IIIIII</num> tloṅ· <num value="5">IIIII</num> santā<unclear>k·</unclear> tloṅ· <num value="1">I</num>
+                      <lb n="13"/>Aṁpel· hvāṅ· <num value="14">10 IIII</num> slā slik· <num value="9">IIIIIIIII</num> plon· <num value="1">I</num> pareṅ· pañjut· Antoṅ· <num value="2" cert="low">II</num> mās· <num value="4">IIII</num> pareṅ· ma<unclear>dhu</unclear>pak<unclear>ka</unclear> mās· <num value="6">IIIIII</num> ṅraṅor· Anto<lb 
+                         n="14" break="no"/><supplied reason="lost">ṅ·</supplied> <num value="3">III</num> krīyā nu Utsava ge vraḥ ta gui Ai ta ponna sru so tloṅ· <num value="10">10</num> rnāc· <num value="10">10</num> <num value="5">IIIII</num> sla vraḥ plon· <num value="4">IIII</num> tnaḥ <num value="4">IIII</num> bhāgavata p<unclear>ā</unclear>s· plon· <num value="4">IIII</num>
+                      <lb n="15"/><supplied reason="lost">varṣā</supplied>kāri pnon· <num value="4">IIII</num> pareṅ· mās· <num value="5">IIIII</num> ṅroṅor· Antoṅ· <num value="10">10</num> pañjut· mās· <num value="2">II</num> santāk· je <num value="2">II</num> Aṁp<unclear>e</unclear>l· hvāṅ· <num value="4">IIII</num> va<lb 
+                         n="16" break="no"/>rṣā <gap reason="lost" quantity="1" unit="character"></gap> <unclear>sre sanre</unclear> <num value="2" cert="low">II</num> lṅo tloṅ· <num value="2">II</num> varṣā paṁnos· paṁjuḥ canlek<unclear>· yau</unclear> <num value="4">IIII</num> k<unclear>n</unclear>ey<supplied reason="lost">·</supplied> <num value="1" cert="low">I</num> kandel· <num value="2">II</num> pareṅ· mās· <num value="2">II</num> sre
+                      <lb n="17"/>sanre <num value="10" cert="low">10</num> <unclear>bhag</unclear><choice><unclear>a</unclear><unclear>e</unclear></choice>nmātra bhāgavata lṅo tloṅ· <num value="1">I</num> <space/> varṣā ge vraḥ dai <supplied reason="omitted">ca</supplied>nl<unclear>e</unclear>k<unclear>·</unclear> yau <num value="2">II</num> snuṁ tpoṅ· yau <num value="1">I</num> kansā yajña yau <num value="1">I</num>
+                      <lb n="18"/><unclear>c</unclear>naṅ· saṁr<unclear cert="low">u</unclear>k· <num value="6">IIIIII</num> daṅgā<unclear>ra</unclear> <num value="4">IIII</num> noṅ· <num value="4">IIII</num> crās· <num value="2">II</num> qvāk· <num value="2">II</num> taroṅ· <num value="2">II</num> lañcoṅ· <num value="6">IIIIII</num> ckoy· pāy· <num value="2">II</num> carā <num value="2">II</num> ja<unclear>ga</unclear>rtti
+                      <lb n="19"/>bhai <num value="5">IIIII</num> krapās<unclear>·</unclear> kaddi <num value="4">IIII</num> canhus· pur· kvit· kaṁdot· qnap· pañjut taṅkal· bhoga <gap reason="lost" quantity="1" unit="character"/>t· <unclear>s</unclear>ti<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>ita</unclear> gui Utsava
+                   </p>
+</div>
+        <!--    <div type="apparatus">
+                          
+         </div>-->
+          <div type="translation" resp="part:kuch"><!-- kuch: The translation is tentative and needs improvement. -->
+             <p rend="stanza" n="1">On the first [day] of [the month of] Māgha of the year totally marked by [3] fires-[6] flavours-[5] arrows (563) [in the era created] by King Śaka, ... at that time this Tribhuvanavarada was installed there along with Śrī Viṣṇu.</p>
+             <p rend="stanza" n="2">What (yat) is given (dattaṁ) to the ascetics and others (śramanādibhyaḥ), that wealth (tad dhanaṁ), it (tat) is not to be taken away (ahāryyaṁ) even (api) by king (nr̥peṇa), let alone (kiṁ punas) by [his] sons and relatives (suta-vāndhavaiḥ).</p>
+             <p rend="stanza" n="3">The obstructer of [what is] cooked (pākabhedaḥ), the destroyer of [what is] created (kr̥taghnaś) and the robber of land, these three (te trayaḥ) do not return (na nivarttante) from hell (narakāt) as long as (yāvat) the moon and the sun (soma-divākaraḥ) [exist].</p>
+             <p rend="stanza" n="4">He who (yaḥ) destroys (bhedanaṁ karoti) the satras (satrānāṁ) which had been conducted/ had been occurring before (prāk-pravr̥ttānāṁ), is a sinner (pāpa-kr̥t), very sinful (pāpataraḥ), [and] is remembered (smr̥taḥ) as (iti) destructor of cooked food (pāka-bheda).</p>
+             <p rend="stanza" n="5">He who (yaḥ) is son (sutaḥ) of the two (dvābhyām), Ācārya Viṣṇudatta (ācāryya-viṣṇudattasya) and Satyavatī (satyavattyāḥ), called  Dharmadatta (dharmmadattāhvayaḥ), by him (tena) this (ayaṁ) [image of] Hari (hariḥ) was installed (sthāpyate).</p>
+             <p rend="stanza" n="6">He who (yaḥ) offers (dattā) with devotion (bhaktyā) the whole of male and female servants and wealth (samyak-dāsa-dāsī-dhanāni) as well as (ca) paddy field, parks and cattle (kṣetrārāma-paśūn) to Viṣṇu (viṣṇave) goes (yāti) to heaven (svarggam) together with his kinsmen (savāndhavaiḥ).</p>
+             <p rend="stanza" n="7">He whoever (yaḥ kaś cit) takes away (haret) his ? wealth (yad-dravyam), flower etc. (puṣpādi), of Śrī Govinda (śrīgovindasya) goes (saḥ yātu) the severe [hell] Raurava (tīvraṁ rauravam) with all (sarvvaiḥ) [his] race and progeny (prakula-santānaiḥ).</p>
+             <p n="7">Lord Śrī Govindasvāmī. Ācārya Dharmadatta arranged wealth of other Ācārya to donate as foundation.</p>
+             <p n="8-12">Ācārya Viṣṇudatta donated as foundation of the god; Hañ Satyavatī was the person sponsoring the sacrifice. Ācārya Dharmadatta donated to the God the robust male servants [named] Vā Klapit; the female servants [named] Ku Jadda, Ku Kanteṅ, Ku Smo Vñau, Ku Anrok, together with their children [who were] the male domestics [named] Vā Kaṁvañ Paon, Vā Ukka, Vā Ti Bhāgya; 10 cows, 4 Sanre of paddy fields, plantations and the orchards inside the premises; the group of people which were offered to the god, [i.e.] those who were assigned to be used as common wealth with My Lord Śrī Cakratīrthasvāmī, the god of Ācārya Dharmadatta.</p>
+             <p n="12-14">The paddy which was for distribution as food to the servants of the god every year in order to celebrate [the festival] on the twelfth days, on the equinox days and on the eclipse days was 120 [measures and] 5 tloṅ; 1 tloṅ of beans, 14 hvāṅ of salt, 400 arecas, 2 antoṅ and 4 mās of oil for purification; 6 mās of oil of honey and milk?; 3 antoṅ of [oil made of] sesame.</p>
+             <p n="14-19">For ritual food and the festivals of the servants of the four ? gods: 10 tloṅ of husked rice, 15 rnāc, 160 arecas for the god, 4 tnaḥ, 160 of bhāgavat pās, 160 varṣākāri, 5 mās of oil/ ghee, 10 antoṅ of sesame oil, 2 mās of oil of purification, 2 je of beans, 4 hvāṅ of salt, …, 2 sanre of paddy field, 2 tloṅ of sesame, 4 yau of the rainy-season lower garments for expiatory sacrifice priest, 1 pillow, 2 woven mats, 2 mās of oil/ ghee, … 1 tloṅ of sesame, 2 yau of the rainy-season lower garments of the servants of other god, 1 yau of snuṁ tpoṅ, 1 yau of kansā yajña, 6 repoussé cooking-pots, 4 daṅgāra, 4 noṅ, 2 brushes, 2 ladles, 2 containers with hole?, 6 lañcoṅ, 2 ckoy of rice, 2 incense burners, 100 jagartti, 4 kaṭṭi of cotton, … in festivals.</p>
+          </div> 
+        <!--  <div type="commentary">
+            <p></p>
+         </div>   -->
+        <div type="bibliography">
+          <p>Preliminarily edited by Chhom Kunthea, Hun Chhunteng and Arlo Griffiths from an estampage made by Hun Chhunteng in January 2021.</p>
+	 <!-- <listBibl type="primary">
+	    <bibl n="">
+</bibl>
+             </listBibl> -->
+           </div>
+</body>
+    </text>
+</TEI>
