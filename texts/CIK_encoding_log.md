@@ -1627,7 +1627,7 @@ K.	294 |# |# |#|
 |K.	1486 |# |# |#|
 |K.	1487 |# |# |#|
 |K.	1488 |# |# |#|
-|K.	1489 |kuch |pending |unpublished|
+|K.	1489 |kuch |done |unpublished|
 |K.	1490 |chch |done |unpublished|
 |K.	1491 |chch |done |unpublished|
 |K.	1492 |chch |pending |NIC II-III|
