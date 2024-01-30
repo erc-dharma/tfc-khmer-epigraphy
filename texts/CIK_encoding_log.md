@@ -1044,7 +1044,7 @@ K.	294 |# |# |#|
 |K.	914-3 |kuch|done |Cœdès 1951|
 |K.	915 |kuch |done |Soutif 2009|
 |K.	916 |# |# |#|
-|K.	917 |# |# |#|
+|K.	917 |kuch |done |unpublished|
 |K.	918 |kuch |pending |unpublished|
 |K.	919 |kuch |done |inedit|
 |K.	920 |kuch |done |Cœdès 1951|
