@@ -49,7 +49,8 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the seventh century.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -85,6 +86,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2024-02-28" status="draft">Adding paleographical description, modifications to edition and English translation of stanzas 3</change>
          <change who="part:kuch" when="2022-05-17" status="draft">Initial encoding of the inscription</change>
       </revisionDesc>
    </teiHeader>
@@ -92,47 +94,52 @@
         <body>
                 <div type="edition" xml:lang="san-Latn">
 <lg n="1" met="anuṣṭubh">
-<l n="a"><lb n="1"/><supplied reason="lost">na</supplied><unclear>ptā</unclear> śrī-sārvvabhaumasya <space/></l>
-<l n="b">sūnuś śrī-vīravarmmaṇaḥ <space/></l>
-<l n="c">śaktyānūnaẖ kaniṣṭho 'pi <space/></l>
-<l n="d">bhrātā śrī-bhavavarmma<unclear>ṇ</unclear><supplied reason="lost">aḥ</supplied></l>
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/><supplied reason="lost">na</supplied><unclear>ptā</unclear> śrī-sārvvabhaumasya</l>
+<l n="b"><milestone unit="column" n="b"/>sūnuś śrī-vīravarmmaṇaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>śaktyānūnaẖ kaniṣṭho 'pi</l>
+<l n="d"><milestone unit="column" n="d"/>bhrātā śrī-bhavavarmma<unclear>ṇ</unclear><supplied reason="lost">aḥ</supplied></l>
 </lg>
 <lg n="2" met="anuṣṭubh">
-<l n="a"><lb n="2"/>śrī-citrasena Ity eva<space/></l>
-<l n="b">pūrvvam āhata-lakṣaṇaḥ <space/></l>
-<l n="c">sa śrī-mahendravarmmeti <space/></l>
-<l n="d">nāma bheje 'bhiṣekajam·</l>
+<l n="a"><lb n="2"/><milestone unit="column" n="a"/>śrī-citrasena Ity eva</l>
+<l n="b"><milestone unit="column" n="b"/>pūrvvam āhata-lakṣaṇaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>sa śrī-mahendravarmmeti</l>
+<l n="d"><milestone unit="column" n="d"/>nāma bheje 'bhiṣekajam·</l>
 </lg>
 <lg n="3" met="anuṣṭubh">
-<l n="a"><lb n="3"/>sa śrī-kr̥tāntapāśasya <space/></l>
-<l n="b">pitr̥vyasya śilāmayam· <space/></l>
-<l n="c">vr̥ṣabhaṁ sthāpayām āsa <space/></l>
-<l n="d">yaśaẖkīlam iva s<unclear>th</unclear>iram·</l>
+<l n="a"><lb n="3"/><milestone unit="column" n="a"/>sa śrī-kr̥tāntapāśasya</l>
+<l n="b"><milestone unit="column" n="b"/>pitr̥vyasya śilāmayam·</l>
+<l n="c"><milestone unit="column" n="c"/>vr̥ṣabhaṁ sthāpayām āsa</l>
+<l n="d"><milestone unit="column" n="d"/>yaśaẖkīlam iva s<unclear>th</unclear>iram·</l>
 </lg>
 </div>
-<div type="apparatus">
+<!-- <div type="apparatus">
                <listApp>
                   <app loc="2">
-                     <lem>āhata-lakṣaṇaḥ</lem>
-                     <note>The letter <foreign>ṇa</foreign> has the form of an <foreign>x</foreign>, which is older than the form of the <foreign>ṇa</foreign> in the words <foreign>vīravarmmaṇaḥ</foreign> and <foreign>bhavavarmmaṇaḥ</foreign> in line 1.</note>
+                     <lem></lem>
+                     <note></note>
                   </app>
                </listApp>         
-         </div>
+         </div> -->
            <div type="translation" xml:lang="fra" resp="part:gege"><!-- Only the last stanza was translated. -->
               <p rend="stanza" n="3">Il <supplied reason="explanation"><foreign>sa</foreign></supplied> installa un taureau de pierre <supplied reason="explanation"><foreign>śilāmaya</foreign></supplied> tel un durable <supplied reason="explanation"><foreign>sthira</foreign></supplied> pilier à la gloire de son oncle paternel <supplied reason="explanation"><foreign>pitr̥vya</foreign></supplied> Śrīkr̥tāntapāśa <supplied reason="explanation">« lacet de celui qui fait la fin/la mort », frère de Vīravarman</supplied>.</p>
          </div>
+           <div type="translation" source="bib:Goodall2023_02">
+              <p rend="stanza" n="3">He erected a stone bull to be, as it were, an enduring <supplied reason="explanation"><foreign>sthiram</foreign></supplied> Pillar of Fame for his father's brother Śrī-Kr̥tāntapāśa.</p>
+           </div>
                     <div type="translation" resp="part:kuch"><!-- The translation is to be revised after checking the identical inscriptions. -->
               <p rend="stanza" n="1">Grandson of Śrī Sārvabhauma <supplied reason="subaudible">and</supplied> son of Śrī Vīravarman, in spite of being the youngest brother of Śrī Bhavavarman <supplied reason="subaudible">he was</supplied> not inferior in power.</p>
               <p rend="stanza" n="2">He whose mark was well known <supplied reason="explanation"><foreign>āhatalakṣaṇaḥ</foreign></supplied> previously by <supplied reason="subaudible">name</supplied> Śrī Citrasena received Śrī Mahendravarman as a name created <supplied reason="subaudible">at the time of his</supplied> enthronement.</p>
               <p rend="stanza" n="3">He installed a stone bull as a lasting pillar of glory of his paternal uncle, Śrī Kr̥tāntapāśa.</p>
            </div>
         <div type="commentary">
-        <p>The first stanza of this inscription is identical to that of twelve inscriptions, viz. K. 363, K. 496, K. 497, K. 508, K. 509, K. 1102, K. 1106, K. 1174, K. 1190, K. 1339, K. 1340 and K. 1341.</p><!-- There is another identical inscription Ka 218 but it is not fully identified for the time being. -->
-            </div>
+        <p>The first stanza of this inscription is identical to that of twelve inscriptions, viz. <ref target="DHARMA_INSCIK00363.xml">K. 363</ref>, <ref target="DHARMA_INSCIK00496.xml">K. 496</ref>, <ref target="DHARMA_INSCIK00497.xml">K. 497</ref>, <ref target="DHARMA_INSCIK00508.xml">K. 508</ref>, <ref target="DHARMA_INSCIK00509.xml">K. 509</ref>, <ref target="DHARMA_INSCIK01102.xml">K. 1102</ref>, <ref target="DHARMA_INSCIK01106.xml">K. 1106</ref>, <ref target="DHARMA_INSCIK01174.xml">K. 1174</ref>, <ref target="DHARMA_INSCIK01190.xml">K. 1190</ref>, <ref target="DHARMA_INSCIK01339.xml">K. 1339</ref>, <ref target="DHARMA_INSCIK01340.xml">K. 1340</ref> and <ref target="DHARMA_INSCIK01341.xml">K. 1341</ref>.</p><!-- There is another identical inscription Ka 218 but it is not fully identified for the time being. -->
+        <p>The letter <foreign>ṇa</foreign> of <foreign>āhata-lakṣaṇaḥ</foreign> in line 2 has the form of an <foreign>x</foreign>, which is older than the form of the <foreign>ṇa</foreign> in the words <foreign>vīravarmmaṇaḥ</foreign> and <foreign>bhavavarmmaṇaḥ</foreign> in line 1.</p>    
+        </div>
         <div type="bibliography">
-          <p>Edited preliminarily by Gerdi Gerschheimer from the estampages EFEO n. 1699 and the photograph in the publication of Claude Jacques and Philippe Lafond (<bibl rend="omitname"><ptr target="bib:Jacques+Lafond2004_01"/><citedRange unit="page">101</citedRange></bibl>).</p>
+          <p>Edited preliminarily by Gerdi Gerschheimer from the estampages EFEO n. 1699 and the photograph in the publication of Claude Jacques and Philippe Lafond (<bibl rend="omitname"><ptr target="bib:Jacques+Lafond2004_01"/><citedRange unit="page">101</citedRange></bibl>); re-edited partly by Dominic Goodall (<bibl rend="omitname"><ptr target="bib:Goodall2023_02"/><citedRange unit="page">29</citedRange></bibl>) with English translation.</p>
 	 <listBibl type="primary">
-    <bibl n="..">
+    <bibl n="DG">
+      <ptr target="bib:Goodall2023_02"/><citedRange unit="page">29</citedRange>
     </bibl>
   </listBibl>
         </div>
