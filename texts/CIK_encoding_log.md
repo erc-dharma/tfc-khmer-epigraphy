@@ -131,13 +131,14 @@
 |K.	124 |# |# |#|
 |K.	125 |# |# |#|
 |K.	126 |# |# |#|
-|K.	127 |# |# |#|
+|K.	127 |kuch |done |IC II|
 |K.	128 |# |# |#|
-|K.	129 |# |# |#|
+|K.	129 |kuch |done |IC II|
 |K.	130 |# |# |#|
 |K.	131 |# |# |#|
-|K.	132 |# |# |#|
-|K.	133 |# |# |#|
+|K.	132 |kuch |done |IC II|
+|K.	133-1 |kuch |done |IC II, IC V|
+|K.	133-2 |kuch |done |IC V|
 |K.	134 |# |# |#|
 |K.	135 |kuch |done |Coedes 1905|
 |K.	136 |# |# |#|
@@ -743,7 +744,7 @@ K.	294 |# |# |#|
 |K.	646 |# |# |#|
 |K.	647 |# |# |#|
 |K.	648 |kuch|done |IC VI|
-|K.	649 |# |# |#|
+|K.	649 |kuch |done |IC VI|
 |K.	650 |# |# |#|
 |K.	651 |# |# |#|
 |K.	652 |kuch|done |IC V|
@@ -876,7 +877,7 @@ K.	294 |# |# |#|
 |K.	777-1 |chch |done |Clouet et al (forthcoming)|
 |K.	777-2 |chch |done |Clouet et al (forthcoming)|
 |K.	777-3 |chch |done |Clouet et al (forthcoming)|
-|K.	778 |# |# |#|
+|K.	778 |kuch |done |unpublished|
 |K.	779 |kuch |done |Soutif 2008|
 |K.	780 |# |# |#|
 |K.	781 |# |# |#|
