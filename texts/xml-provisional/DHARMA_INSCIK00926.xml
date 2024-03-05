@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Thma Kre (K. 926), 546 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00926</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the seventh century.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-03-05" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+
+                   <lg n="1" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="a"><lb n="1"/><supplied reason="lost">me</supplied>ṣ<supplied reason="lost">e</supplied> ketu-gurū vr̥ṣe budha-ravī śukro nr̥yu<seg met="++"><gap reason="illegible" quantity="2" unit="character"/></seg>sthito</l>
+<l n="b">rāhuḥ karkaṭake sanaiścara-kujau siṅhe tu haste śaśī</l>
+<l n="c"><lb n="2"/><supplied reason="lost">śākā</supplied>bd<supplied reason="lost">e</supplied> rtu-kr̥tendriyair avasite jyeṣṭhe daśamyās site</l>
+<l n="d">lagne mīnamite 'rppitā harihara-prakhyāta-mūrttis tadā<g type="circleTarget">.</g></l>
+</lg>       
+         <p>
+            <lb n="3"/><supplied reason="lost">śaka</supplied>parigraha <num value="546"><supplied reason="lost">54</supplied>6</num> māsa jyeṣṭhaḥ dina daśamī ket idāni śaṅkaranārāyanapratiṣṭhā<g type="circleTarget">.</g>
+            <lb n="4"/><supplied reason="lost">Aṁ</supplied>noy poñ prajñākīrtti ta vraḥ kamratāṅ Añ śrīsuvarṇṇaliṅga saṁ paribhoga ta vraḥ kaṁmra<lb 
+               n="5" break="no"/>tāṅ Añ śrīśaṅkaranārāyaṇa <g type="circleSmall">.</g> kantai ta yajamāna ta vraḥ kloñ mratāṅ vrau <num value="1">I</num> kloñ yāṅ Au <num value="1">I</num> ge <num value="2">2</num>
+            <lb n="6"/>kñuṁ <supplied reason="lost">gho</supplied>da vā bhānucan <num value="1">I</num> vā Īśvaracan <num value="1">I</num> vā kanden <num value="1">I</num> vā hidimva <num value="1">I</num> vā vrau <num value="1">I</num> vā droṅ <num value="1">I</num> vā kañcār <num value="1">I</num> vā kansiṅ <num value="1">I</num> vā ca <num value="1">I</num>
+            <lb n="7"/><gap reason="lost" quantity="1" unit="character"/> <supplied reason="lost"><num value="1">I</num></supplied> <supplied reason="lost">vā</supplied> kandiṅ <num value="1">I</num> ge <num value="10">10</num> caṁdak vā karoṁ <num value="1">I</num> vā <gap reason="lost" quantity="2" unit="character"/> <num value="1">I</num> vā svāy <num value="1">I</num> vā kaṭo <num value="1">I</num> vā vrau ramañ <num value="1">I</num> vā caṁdak ge <num value="7">7</num> Anakantai ku juṅ ka
+            <lb n="8"/><gap reason="lost" quantity="3" unit="character"/> candhān <num value="1">I</num> ku pañ din <num value="1">I</num> kon ku <num value="1">I</num> ku kaṁvai <num value="1">I</num> ku rahval <num value="1">I</num> paqon ku <num value="2">2</num> ku hāṅ seṅ <num value="1">I</num> ku Ās ta vraḥ <num value="1">I</num> ku Anaṅ <num value="1">I</num> ku yaṅ <num value="1">I</num>
+            <lb n="9"/>ku Ara <gap reason="lost" quantity="1" unit="character"/> dai <num value="1">I</num> ku sre <num value="1">I</num> kon ku <num value="1">I</num> ku vnur <num value="1">I</num> kon ku <num value="1">I</num> ku Adaḥ <num value="1">I</num> ku luṅ <num value="1">I</num> ku tpoñ <num value="1">I</num> ku niṣṭhura <num value="1">I</num> kon ku <num value="3">3</num> ku kandhas <num value="1">I</num> ku śa<lb 
+               n="10" break="no"/>tru qnak <num value="1">I</num> ge <num value="27">20 7</num> sarvvapiṇḍa ge phoṅ <num value="42">40 2</num> tmur <num value="30">20 10</num> daṁriṅ teṁ slā <num value="200">200</num> sre mā vaṁrah gui <num value="20">20</num>
+            <lb n="11"/>kaqol <gap reason="lost" quantity="2" unit="character"/> ta gui <num value="200">200</num>
+         </p>        
+                </div>
+<!-- <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1937-1966_01"></rdg>
+                      <note></note>
+                  </app>
+                   
+               </listApp>         
+         </div>  -->
+         <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	<p rend="stanza" n="1">Ketu et Jupiter étant dans le Bélier, Mercure et le Soleil dans le Taureau, Vénus dans les Gémeaux, Rāhu dans le Scorpion, Saturne et Mars dans le Lion, la Lune dans Hasta, dans l'année <foreign>śaka</foreign> révolue <supplied reason="subaudible">marquée</supplied> par le <supplied reason="subaudible">5</supplied> sens, les <supplied reason="subaudible">4</supplied> dés et les <supplied reason="subaudible">6</supplied> saisons, le dixième jour de la lune croissante de Jyeṣṭha, l'Horoscope étant établi dans les Poissons, alors a été érigée une image connue <supplied reason="subaudible">sous le nom</supplied> de Harihara.</p>
+            <p n="3">546 <foreign>śaka</foreign>, mois de Jyeṣṭha, dixième jour des la lune croissante, maintenant a lieu l'érection de Śaṅkaranārāyaṇa.</p>
+            <p n="4-5">Dons de Poñ Prajñākīrti à V.K.A. Śrī Suvarṇaliṅga dont les biens sont mis en commun avec ceux de V.K.A. Śrī Śaṅkaranārāyaṇa. Femmes que les sacrificateurs <supplied reason="subaudible">offrent</supplied> au dieu: Kloñ Mratāñ Vrau <supplied reason="subaudible">en offre</supplied> une : Kloñ Yāṅ Au, une: 2 personnes.</p>
+            <p n="6-7">Esclaves hommes <supplied reason="explanation"><foreign>ghoda</foreign></supplied>. <supplied reason="explanation">Liste de 10 <foreign>vā</foreign></supplied> : 10 personnes. Caṁlak <supplied reason="explanation">liste de 7 <foreign>vā</foreign></supplied> : 7 personnes.</p>
+            <p n="7-10">Femmes <supplied reason="explanation">liste de 27 <foreign>ku</foreign></supplied> : 27 personnes.</p>
+            <p n="10-11">Total général de tous les gens : 42. 30 bœufs, plantation de 200 aréquiers ; rizière Mā dont 20 <foreign>vaṁraḥ</foreign>, 200 <foreign>kaol</foreign> <gap reason="lost"/></p>
+             </div>
+       <!--   <div type="commentary">
+            <p></p>
+         </div> -->
+         <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">20-22</citedRange></bibl>) with a French translation.</p><!-- The estampage EFEO n. 1202 is reported missing; not available for reedition. -->
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">20-22</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
