@@ -57,7 +57,8 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the seventh century.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -93,6 +94,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2024-03-26" status="draft">Adding paleographical remark and modification to edition and commentary</change>
          <change who="part:kuch" when="2022-05-24" status="draft">Initial encoding of the inscription</change>
       </revisionDesc>
    </teiHeader>
@@ -100,16 +102,16 @@
         <body>
                      <div type="edition" xml:lang="san-Latn">
 <lg n="1" met="anuṣṭubh">
-<l n="a"><lb n="1"/><supplied reason="lost">yaś</supplied> c<supplied reason="lost">it</supplied>ra<supplied reason="lost">s</supplied>e<supplied reason="lost">nanāmā</supplied>bhū<space/>t</l>
-<l n="b">kr̥tarājyābh<supplied reason="lost">i</supplied>ṣecanaḥ <space/></l>
-<l n="c">sa <supplied reason="lost">ś</supplied>r<supplied reason="lost">īmahendravarmmeti</supplied> <space/></l>
-<l n="d"><supplied reason="lost">paścān nāmāntaraṅ gataḥ</supplied></l>
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/><supplied reason="lost">yaś</supplied> c<supplied reason="lost">it</supplied>ra<supplied reason="lost">s</supplied>e<supplied reason="lost">nanāmā</supplied>bhū<milestone unit="column" n="b" break="no"/>t</l>
+<l n="b">kr̥tarājyābh<supplied reason="lost">i</supplied>ṣecanaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>sa <supplied reason="lost">ś</supplied>r<supplied reason="lost">īmahendravarmmeti</supplied></l>
+<l n="d"><milestone unit="column" n="d"/><supplied reason="lost">paścān nāmāntaraṅ gataḥ</supplied></l>
 </lg>
 <lg n="2" met="anuṣṭubh">
-<l n="a"><lb n="2"/>vijitya nikhilān deśā<space/>n</l>
-<l n="b">asmin deśe śilāmayaṁ <space/></l>
-<l n="c">vr̥ṣabhaṁ sthāpa<supplied reason="lost">yām āsa</supplied> <space/></l>
-<l n="d"><supplied reason="lost">sthitabhaktir vvr̥ṣadhvaje</supplied></l>
+<l n="a"><lb n="2"/><milestone unit="column" n="a"/>vijitya nikhilān deśā<milestone unit="column" n="b" break="no"/>n</l>
+<l n="b">asmin deśe śilāmayaṁ</l>
+<l n="c"><milestone unit="column" n="c"/>vr̥ṣabhaṁ sthāpa<supplied reason="lost">yām āsa</supplied></l>
+<l n="d"><milestone unit="column" n="d"/><supplied reason="lost">sthitabhaktir vvr̥ṣadhvaje</supplied></l>
 </lg>
 </div>
 <div type="apparatus">
@@ -117,27 +119,26 @@
                   <app loc="1">
                      <lem><supplied reason="lost">nanāmā</supplied></lem>
                      <rdg source="bib:Coedes1937-1966_01"><supplied reason="lost">na</supplied><seg met="++"><gap reason="lost" quantity="2" unit="character"/></seg></rdg>
-                  <note>The restitution is based on K. 1280 and K. 1341.</note>
+               
                   </app>
                   <app loc="1">
                      <lem><supplied reason="lost">paścān nāmāntaraṅ gataḥ</supplied></lem>
                      <rdg source="bib:Coedes1937-1966_01"><seg met="====-+-+"><gap reason="lost" quantity="8" unit="character"/></seg></rdg>
-                     <note>The restitution is based on K. 1280 and K. 1341.</note>
+                 
                   </app>
                   <app loc="2">
                      <lem>śilāmayaṁ</lem>
                      <rdg source="bib:Coedes1937-1966_01">śilāmayam</rdg>
-                     <note>The reading of the <foreign>anusvāra</foreign> is based on K. 1280 and K. 1341 and needs to be checked with the estampage BN 328 (36).</note>
                   </app>
                   <app loc="2">
                      <lem><supplied reason="lost">sthitabhaktir vvr̥ṣadhvaje</supplied></lem>
                      <rdg source="bib:Coedes1937-1966_01"><seg met="====-+-+"><gap reason="lost" quantity="8" unit="character"/></seg></rdg>
-                  <note>The restitution is based on K. 1280 and K. 1341.</note>
+                
                   </app>
                </listApp>         
          </div>
            <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
- 	<p rend="stanza" n="1">Lui qui, <supplied reason="subaudible">connu auparavant sous le nom de</supplied> Citrasena, fut après son sacre connu sous le nom de śrī mahendravarman <gap reason="lost"/>.</p>
+ 	<p rend="stanza" n="1">Lui qui, <supplied reason="subaudible">connu auparavant sous le nom de</supplied> Citrasena, fut après son sacre connu sous le nom de Śrī Mahendravarman <gap reason="lost"/>.</p>
               <p rend="stanza" n="2">Ayant vaincu tous les pays, il a érigé dans ce pays un taureau de pierre <gap reason="lost"/>.</p>
            </div>
                     <div type="translation" resp="part:kuch">
@@ -145,15 +146,16 @@
               <p rend="stanza" n="2">Having defeated all the countries, <supplied reason="subaudible">he</supplied>, whose firm devotion was in the god with a bull banner <supplied reason="subaudible">Śiva</supplied>, installed in this country a stone bull.</p>
                     </div>
                        <div type="commentary">
-        <p>There is probably another stanza before the stanza I as in K. 1280 and K. 1341:
+                          <p>The restitutions in the two stanzas are based on <ref target="DHARMA_INSCIK01280.xml">K. 1280</ref> and <ref target="DHARMA_INSCIK01341.xml">K. 1341</ref>.</p>
+        <p>There is probably another stanza before the stanza I as in <ref target="DHARMA_INSCIK01280.xml">K. 1280</ref> and <ref target="DHARMA_INSCIK01341.xml">K. 1341</ref>:
 <foreign>naptā śrīsārvvabhaumasya <space/> putraś śrīvīravarmmaṇaḥ <space/>
 śaktyānūnaẖ kaniṣṭho 'pi <space/> bhrātā śrībhavavarmmaṇaḥ</foreign></p>
-                          <p>The estampage BN 328 (36) needs to be checked if there is another stanza after the stanza II. If there is one, it should be like the last stanza of K. 1289 which reads:
+                          <p>The estampage BN 328 (36) needs to be checked if there is another stanza after the stanza II. If there is one, it should be like the last stanza of <ref target="DHARMA_INSCIK01289.xml">K. 1289</ref> which reads:
 <foreign><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg> <supplied reason="lost">kā</supplied>ṣ<unclear>ṭha</unclear>mayīm edhā<space/>m apa<unclear>nī</unclear>ya purātanīm· <space/>
 vavandhopalavinyāsai<space/>r ddamakan <unclear>d</unclear>amano d<supplied reason="lost">v</supplied>iṣām·</foreign></p>
             </div>
        <div type="bibliography">
-          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">3-4</citedRange></bibl>) with a French translation; re-edited here by Gerdi Gerschheimer and Kunthea Chhom from the estampage BN 328 (36).</p><!-- KC: Not sure if Gege has checked the estampage. -->
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">3-4</citedRange></bibl>) with a French translation; re-edited here by Gerdi Gerschheimer from the estampage BN 328 (36).</p><!-- KC: Not sure if Gege has checked the estampage. -->
 	 <listBibl type="primary">
     <bibl n="GC">
       <ptr target="bib:Coedes1937-1966_01"/>
