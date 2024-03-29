@@ -130,7 +130,8 @@
 |K.	123 |# |# |#|
 |K.	124 |# |# |#|
 |K.	125 |# |# |#|
-|K.	126 |# |# |#|
+|K.	126-1 |kuch |done |IC VII|
+|K.	126-2 |kuch |done |IC VII|
 |K.	127 |kuch |done |IC II|
 |K.	128 |# |# |#|
 |K.	129 |kuch |done |IC II|
@@ -1054,8 +1055,8 @@ K.	294 |# |# |#|
 |K.	923 |chch |pending |IC IV|
 |K.	924 |kuch |pending |unpublished|
 |K.	925 |kuch |done |Cœdès 1951|
-|K.	926 |kuch |pending |IC V|
-|K.	927 |# |# |#|
+|K.	926 |kuch |done |IC V|
+|K.	927 |kuch |done |IC V|
 |K.	928 |# |# |#|
 |K.	929 |# |# |#|
 |K.	930 |# |# |#|
@@ -1505,9 +1506,9 @@ K.	294 |# |# |#|
 |K.	1366 |# |# |#|
 |K.	1367 |# |# |#|
 |K.	1368 |chch |pending |unpublished|
-|K.	1369 |# |# |#|
+|K.	1369 |kuch |done |NIC IV|
 |K.	1370 |# |# |#|
-|K.	1371 |kuch |pending |unpublished|
+|K.	1371 |kuch |done |NIC IV, Hun 2018|
 |K.	1372 |# |# |#|
 |K.	1373 |chch |done |Chollet et Goodall 2020|
 |K.	1374 |# |# |#|
@@ -1567,7 +1568,7 @@ K.	294 |# |# |#|
 |K.	1428 |chch |done |Chollet 2019|
 |K.	1429 |kuch |done |Unpublished|
 |K.	1430 |# |# |#|
-|K.	1431 |# |# |#|
+|K.	1431 |kuch |done |Unpublished|
 |K.	1432 |chch |pending |unpublished|
 |K.	1433 |# |# |#|
 |K.	1434 |# |# |#|
