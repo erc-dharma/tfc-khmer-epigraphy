@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb from Kok Roka (K. 155), 7th-8th centuries CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00155</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary>
+                     </summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventh-eighth centuries CE. <!-- kuch: further remarks needed. -->
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-04-10">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Face</head>
+   <p>
+     <lb n="A1"/>{20}
+      <lb n="A2"/>{4}nakṣatra śukradivasavāra vraḥ kamratāṅ· Añ· śrīśiti-
+      <lb n="A3"/>kantheśvara puṇya dhānyākarapati tel· sthāpanā tel· psaṁ pari-
+      <lb n="A4"/>bhoga ta vraḥ kamratāṅ· Añ· śrīgaurīpatīśvara kñuṁ
+      <lb n="A5"/>Aṁnoy· dhānyākarapati Ai ta vraḥ kamratāṅ· Añ· śrīśi-
+      <lb n="A6"/>tikaṇṭheśvara vari vā kdep· I pile vā navamī I vā kansoṁ I caṭṭra vā ra-
+      <lb n="A7"/>cvai I vā lve I vā kaṁpoñ· I vā kan·yas· I vā sugat· I gandharvva vā va-
+      <lb n="A8"/>ṅśigīta I vā kan·Et· I vā karān· I vā tpit· I vā kanren· I vā tvāṅ· I
+      <lb n="A9"/>vā Aṁpek· I vā kaṁdot· I vā kañcan· I pedānātaka rpam· ku raṅga-
+      <lb n="A10"/>śrīya I ku mandalīlā I ku caturikā I ku Amandanā I ku suvr̥-
+      <lb n="A11"/>ttā I ku cāralīlā I ku tanumaddhyā I ku harinākṣī I ku smitava-
+      <lb n="A12"/>tī I caṁreṅ· ku racitasvanā I ku gāndhārasvanā I ku raktasvanā I ku su-
+      <lb n="A13"/>vivr̥tā I ku susaṁvr̥tā I ku sārasikā I ku padminī I pedānātta
+      <lb n="A14"/>rpam· ku haṅsavādi I ku sitākṣā I ku vr̥tāvalī I caṁreṅ· ku sugītā I
+      <lb n="A15"/> ku suracitā I ku [[ka]]ṇṭhagītā I ku muditā I ku kOṅ· I ku kītakī I pamas·
+      <lb n="A16"/>ku dot· ku smau I kon· der· tai I pau si I ku har·her· I kon· der· si I pau
+      <lb n="A17"/>si I sandil· Aṁnoy· jmon· kan·sāṅ· pañjut· dan·hum· kloñ· smen· I
+      <lb n="A18"/>kloñ· kantai sil· I kloñ· vreṅ· I $dotMid mahānasa ka vraḥ vā candhān· I vā ca-
+      <lb n="A19"/>ndanā I vā dya vā kañcek· I vā sneha I vā Anrok· sreṅ· I vā kal·vaṁm· I
+      <lb n="A20"/>vā kan·Ap· I vā sreṅ· I vā klaṅ· I vā rabhassa I vā tkaḥ I vā kaṁvāṅ· I
+      <lb n="A21"/>mahāsana paṁnos· vā mukhamātra caṁdak· paṁnos· vā tAm· vā candān(·)
+      
+   </p>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Face</head>
+<p>
+<lb n="B1"/>[s]ru[k·] CrVCvVl kñuṁ taṁve sre Aṁraḥ vā kantī I dnuk(·) vā Anā {2} I vā k{5}
+   <lb n="B2"/>vā kalpit· I vā pnāñ· I qnak· kantai ku vrehv· I ku Asaru I ku tpit· I ku Cr{3}
+      <lb n="B3"/>ku kañcos· I ku kaṁput· I kñuṁ kpoñ· sarasvatī ku kandai I ku tuladat(·) I ku kañj[ā I]
+      <lb n="B4"/>kon· der· tai I pau sī I Aṁraḥ Aṁvuḥ dnuk· vā kañcet· I vā cap pi hau I vā mudamā-
+      <lb n="B5"/>ra I vā ckap· I vā sliṅ· I qnak· kantai ku vaṅ· I ku tuk·tar· I kon· der· tai I ku vṅe I
+      <lb n="B6"/>kon· pau si I ku cer· daiva I ku tvai I kon· der· si ku taṁpar· I ku śavarī I kon vā paro-
+      <lb n="B7"/>y· I pau si I ku vibho I kñuṁ kpoñ· sarasvatī ku sramo I kon· pau si I lāṅ· si I de-
+      <lb n="B8"/>r· si I ku si vī I kon· der· tai I tmāñ· canlek· śāttī pnaṅ· pan·Āṅ· varṣā paṁ-
+   <lb n="B9"/>nos· rmmen· damulāhv· ku tvai I kon· ku kdes· I ku ptau I ku tanlaṅ· I pau sī I ku Aṁvau I
+      <lb n="B10"/>kon· ku kantī I raṅ·hvai ku dik· vrau I ku tpit· I kon· ku svok· I ku Upala I ku
+      <lb n="B11"/>kdai I ku prek· I cmaṁ daṁriṅ· vā kanjā I vā mitramukha I gvāl· vā tpit· I vā noc·
+      <lb n="B12"/>vraḥ I tmur· 100 40 krapi 20 sre ta Ai jrai vas· jeṅ· sruk· sare I 1/2 sre E
+      <lb n="B13"/>jalaṅ· sare III sre tṅai luc· sruk· sare 1/2 sre vnur· ñaṅ· tan·hor· sa-
+      <lb n="B14"/>re II 1/2 sre Ai vāṅ· ku sare IIII vnur· gi sare 1/2 sre tṅai luc· sralet· sa-
+      <lb n="B15"/>re II 1/2 sre tṅai ket· sralet· sare I 1/2 sre teṁ graṅ· kāṅ· sre daṁro sa-
+   <lb n="B16"/>re II sre tnal· tāṅ· makara sare I 1/2 sre jnaṅ· karoṁ tnal· mat· It· caṁkā
+      <lb n="B17"/>bhāga paṅ· lpāṅ· stuk· bhāk· sare IIII sre teṁ sramo sare I sre dāna Ī-
+      <lb n="B18"/>śvaradatta ñaṅ[[·]] ka vraḥ mratāñ· bhava sare 7 sre Ai ñaṅ· travaṅ· poñ·
+      <lb n="B19"/>vilāsa loḥ purohha sare II 1/2 sre Ai rajoṅ· sare I $dotMid $dotMid sruk· drado
+      <lb n="B20"/>kñuṁ taṁve sre Aṁraḥ qnak· vā tIn· dnuk· vā sukr̥ta I vā tñāy· vā dharmmadatta I vā dra-
+      <lb n="B21"/>nap· I vā kuṅ· I qnak· kantai ku malā I kon· ku kan·Et· I vā kantuṁ I ku kante-
+      <lb n="B22"/>k· I pau si I ku sraṅe I ku kdai I kon· der· tai I ku kaṁper· I kon· ku tuk ti I
+   <lb n="B23"/>der· si I pau si I Aṁraḥ vā vrau I dnuk· vā qnek· I vā cke I vā tgan· I vā kdec· I 
+      <lb n="B24"/>qnak· kantai ku taṅku I kon· vā kaṁvit· I vā taĀṅ· I der· tai I pau tai I ku kañce-
+      <lb n="B25"/>s· I kon· ku kañ·yas· I vā Asaru I vā voṁ vairu I der· tai I ku tkaḥ ku cke vrau I
+      <lb n="B26"/>ku raṁpañ· I tmāñ· śānti varṣā paṁnos· ku Aglau I ku cke srāṅ· I raṅ·hvai ku
+      <lb n="B27"/>cralāṁ I ku caṁhet· I ku smau I ku Aras· Āy· I kon· ku cnaṅ· vā kañjaṅ·
+      <lb n="B28"/>der· sī I der· sī I cmaṁ daṁriṅ· vā kansa I ku droṅ· I kon ku kloy· I ku dugā I
+      <lb n="B29"/>sre ta Ai drado stuk· ruṅ· sare I 1/2 sre laṅ·lāṅ· vrado sare IIII
+   <lb n="B30"/>sre teṁ sramo sare 1/2 mās· II sre ñaṅ· tnal· poñ· vāṅ· travaṅ· ci po-
+      <lb n="B31"/>ñ· sare I 1/2 sre jeṅ· sruk· loḥ travaṅ· poñ· śaṅkaravindu sare 7 sre
+      <lb n="B32"/>ñaṅ· travaṅ· pit· kāc· sare II $gomutraFinal
+</p>
+                   </div>
+                </div>
+           <!--      <div type="apparatus">
+               <listApp>
+                  
+                  <app loc="B6">
+                     <lem>kloñña n<unclear>aṁ</unclear></lem>
+                     <note>It might seem easier to read <foreign>kloñ ñan·</foreign>, but this would deprive us of any way to imagine parallelism with the <foreign>tamandarapurādhyakṣa</foreign> mentioned in st. VII.</note>
+                  </app> 
+                  
+               </listApp>
+         </div> -->
+         <div type="translation" xml:lang="fra" source="bib:Coedes1931_01">
+            <p ="A1-A4">..... mansion lunaire, vendredi, V. K. A. Śrī Śitikaṇṭheśvara (est l') œuvre pie de Dhānyākarapati, qui l'érige et réunit ses moyens de subsistance à ceux de V. K. A. Śrī Gaurīpatīśvara.</p>
+            <p ="A5">Esclaves donnés par Dhānyākarapati à V. K. A. Śrī Śitikaṇṭheśvara.</p>
+            <p ="A6">Vari (1 vā).
+    Pile (2 vā).</p>
+            <p ="A6-A7">Caṭṭra (5 vā).</p>
+            <p ="A7-A9">Musiciens (9 vā).</p>
+            <p ="A9-A11">Danseuses (9 ku).</p>
+            <p ="A12-A13">Chanteuses (7 ku).</p>
+            <p ="A13-A14">Danseuses (3 ku).</p>
+            <p ="A14-A15">Chanteuses (6 ku).</p>
+            <p ="A15-A16">Broyeuses (3 ku avec leurs enfants).</p>
+            <p ="A17-A18">Sandil, etc. (3 kloñ).</p>
+            <p ="A18-A20">Cuisinier du dieu (13 vā).</p>
+            <p ="A21">Cuisinier des religieux (1 vā). 
+     Caṁdak des religieux (2 vā).</p>
+            <p ="B1-B12">Pays de... :
+Esclaves faisant la rizière : chef (aṁraḥ, 1 vā), dnuk (5 vā), femmes (6 ku) ; esclaves de Kpoñ Sarasvatī (3 ku avec leurs enfants) ; chef des aṁvuḥ dnuk (5 vā); femmes (8 ku avec leurs enfants); esclaves de Kpoñ Sarasvatī (2 ku avec leurs enfants); tisseuses de vêtements. śīlī, couvertures de la saison de pluies pour les religieux rmmen damulāhv (5 ku avec des enfants) ; fileuses (5 ku avec des enfants) ; gardiens de plantations (2 vā) ; gardiens de bestiaux (2 vā) ; bœufs, 140; buffles, 20.</p>
+            <p ="B13-B19">Rizières (liste de 14 rizières, mesurées en sare).</p>
+            <p ="B20-B28">Pays de Drado .
+Esclaves faisant la rizière: chef de ces gens (1 vā); dnuk (5 vā) ; femmes (5 ku avec des enfants) ; chef (1 vā) ; dnuk (4 vā) ; femmes (5 ku avec des enfants) ; tisseuses de (vêtements) śāntī de la saison des pluies pour les religieux (2 ku) ; fileuses (4 ku avec des enfants) ; gardiens de plantations (1 vā, 2 ku et 1 enfant).</p>
+            <p ="B29-B32">Rizières (liste de 6 rizières mesurées en sare).</p>
+            </div>
+         <div type="commentary">     
+        <p>The faces are numbered I and II in George Cœdès' edition.</p>   
+         </div>
+       <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">65-68</citedRange></bibl>) with a French translation, reedited here by Kunthea Chhom from the estampage EFEO n. 187.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">65-68</citedRange>
+    </bibl>
+	    
+  </listBibl>
+              
+       </div>
+        </body>
+    </text>
+</TEI>
