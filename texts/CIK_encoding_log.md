@@ -151,25 +151,25 @@
 |K.	142 |# |# |#|
 |K.	143 |# |# |#|
 |K.	144 |# |# |#|
-|K.	145 |# |# |#|
-|K.	146 |# |# |#|
+|K.	145 |kuch |done |IC VI|
+|K.	146 |kuch |done |IC VI|
 |K.	147 |# |# |#|
 |K.	148 |# |# |#|
 |K.	149 |kuch | done |IC IV|
 |K.	150 |# |# |#|
-|K.	151 |kuch |pending |Coedes 1943|
+|K.	151 |kuch |done |Cœdès 1943|
 |K.	152 |# |# |#|
 |K.	153 |# |# |#|
 |K.	154 |kuch |done |IC II|
-|K.	155 |# |# |#|
+|K.	155 |kuch |done |IC V|
 |K.	156 |kuch |done |IC V|
 |K.	157 |sapi |pending |IC VI|
 |K.	158 |# |# |#|
-|K.	159 |# |# |#|
+|K.	159 |kuch |done |IC VI|
 |K.	160 |chch |pending |unpublished|
 |K.	161 |# |# |#|
 |K.	162 |# |# |#|
-|K.	163 |# |# |#|
+|K.	163 |kuch |done |IC VI|
 |K.	164 |# |# |#|
 |K.	165 |sapi |pending |IC VI|
 |K.	166 |# |# |#|
