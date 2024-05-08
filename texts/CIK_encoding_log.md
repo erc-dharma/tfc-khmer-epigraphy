@@ -1414,7 +1414,7 @@ K.	294 |# |# |#|
 |K.	1276 |kuch |done |Jacques 2011|
 |K.	1277 |kuch |done |Soutif 2010|
 |K.	1278 |kuch |done |pending Pou NIC II-III 2001|
-|K.	1279 |kuch | done |#|
+|K.	1279 |kuch | done |Hun 2018|
 |K.	1280 |kuch |done |unpublished|
 |K.	1281 |chch |done |Chevance 2014|
 |K.	1282 |chch |done |Chevance 2014|
