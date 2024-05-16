@@ -707,7 +707,7 @@ K.	294 |# |# |#|
 |K.	610-1 |chch |done |Finot 1928, IC IV, Clouet et al.|
 |K.	610-2 |chch |done |Finot 1928, IC IV, Clouet et al.|
 |K.	611-1 |chch |done |Finot 1928, IC IV, Clouet et al.|
-|K.	610-2 |chch |done |Finot 1928, IC IV, Clouet et al.|
+|K.	611-2 |chch |done |Finot 1928, IC IV, Clouet et al.|
 |K.	612 |chch |done |IC IV, Clouet et al.|
 |K.	613 |# |# |#|
 |K.	614 |kuch |done |unpublished|
