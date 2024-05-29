@@ -433,7 +433,7 @@ K.	294 |# |# |#|
 |K.	355 |# |# |#|
 |K.	356 |# |# |#|
 |K.	357 |kuch | done |IC VI|
-|K.	358 |kuch |pending |IC V|
+|K.	358 |kuch | done |IC V|
 |K.	359 |kuch |pending |ISC|
 |K.	360 |kuch | done |IC V|
 |K.	361 |kuch |pending |unpublished|
@@ -513,10 +513,11 @@ K.	294 |# |# |#|
 |K.	434 |# |# |#|
 |K.	435 |kuch |done |Finot 1915|
 |K.	436 |# |# |#|
-|K.	437 |kuch |pending |IC IV|
-|K.	438 |kuch |pending |IC IV|
-|K.	439 |kuch |pending |IC IV|
-|K.	440 |kuch |pending |IC IV|
+|K.	437 |kuch |done |IC IV|
+|K.	438 |kuch |done |IC IV|
+|K.	439-1 |kuch |done |IC IV|
+|K.	439-2 |kuch |done |IC IV|
+|K.	440 |kuch |done |IC IV|
 |K.	441 |kuch |pending |IC IV|
 |K.	442 |kuch |pending |IC IV|
 |K.	443 |# |# |#|
@@ -576,7 +577,7 @@ K.	294 |# |# |#|
 |K.	479 |# |# |#|
 |K.	480 |kuch |pending |IC II|
 |K.	481 |# |# |#|
-|K.	482 |kuch |pending |IC V|
+|K.	482 |kuch |done |IC V|
 |K.	483 |kuch |done |IC I|
 |K.	484 |kuch |done |Cœdès 1918, Lewitz 1971|
 |K.	485 |chch |pending |IC II|
@@ -702,8 +703,8 @@ K.	294 |# |# |#|
 |K.	605 |# |# |#|
 |K.	606 |# |# |#|
 |K.	607 |kuch |done |Soutif 2009|
-|K.	608 |kuch |pending |Soutif 2009|
-|K.	609 |kuch |pending |Finot 1928|
+|K.	608 |kuch |done |Soutif 2009|
+|K.	609 |kuch |done |Finot 1928|
 |K.	610-1 |chch |done |Finot 1928, IC IV, Clouet et al.|
 |K.	610-2 |chch |done |Finot 1928, IC IV, Clouet et al.|
 |K.	611-1 |chch |done |Finot 1928, IC IV, Clouet et al.|
@@ -753,7 +754,7 @@ K.	294 |# |# |#|
 |K.	654 |kuch |done |IC V|
 |K.	655 |kuch |done |IC VI|
 |K.	656 |# |# |#|
-|K.	657 |kuch & chch |pending| IC VI|
+|K.	657 |kuch |done| IC VI|
 |K.	658 |kuch |pending |unpublished
 |K.	659 |sapi |pending |IC V|
 |K.	660 |chch |done |IC I|
