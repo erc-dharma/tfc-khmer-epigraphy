@@ -518,7 +518,7 @@ K.	294 |# |# |#|
 |K.	439-1 |kuch |done |IC IV|
 |K.	439-2 |kuch |done |IC IV|
 |K.	440 |kuch |done |IC IV|
-|K.	441 |kuch |pending |IC IV|
+|K.	441 |chch |done |IC IV|
 |K.	442 |kuch |pending |IC IV|
 |K.	443 |# |# |#|
 |K.	444 |sapi |done ||C II |
