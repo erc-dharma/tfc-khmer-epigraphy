@@ -53,7 +53,8 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>The lettering is characteristic of the seventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -83,6 +84,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2024-06-20" status="draft">Adding paleographical remark</change>
          <change who="part:kuch" when="2022-10-10" status="draft">Revising the edition and the translation</change>
          <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:kuch" when="2020-06-16" status="draft">Modifications of edition and bibliography</change>
@@ -92,24 +94,24 @@
    </teiHeader>
    <text xml:space="preserve">
         <body>
-                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:00000">
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83211">
                    <lg n="1" met="anuṣṭubh">
 <l n="a"><lb n="1"/><seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg>tava <space/></l>
 <l n="b">sutā dvāravatīpateḥ</l>
 <l n="c">mūrttim asthāpayad devī <space/></l>
-<l n="d"><supplied reason="lost">śail</supplied>īn tāthāgatīm imām· <g type="dDanda">.</g></l>
+<l n="d"><supplied reason="lost">śail</supplied>īn tāthāgatīm imām· <g type="ddanda">.</g></l>
 </lg>
 </div>
            <div type="apparatus">
             <listApp>
-                  <app loc="1">
+                <!--   <app loc="1">
                      <lem><seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg>tava <space/></lem>
                      <note>This <foreign>pāda</foreign> is not known to Claude Jacques.</note>
                   </app>
                <app loc="1">
                      <lem>sutā dvāravatīpateḥ</lem>
                      <note>This <foreign>pāda</foreign> is not known to Claude Jacques.</note>
-                  </app>
+                  </app> -->
                <app loc="1">
                      <lem><supplied reason="lost">śail</supplied>īn</lem>
                      <rdg source="bib:Jacques1969_01"><gap reason="lost" quantity="1" unit="character"/> <supplied reason="lost">śr</supplied>īn</rdg>
@@ -119,11 +121,12 @@
          <div type="translation" xml:lang="fra" source="bib:Jacques1969_01">
              <p rend="stanza" n="1">La princesse a fait installer cette statue de Śrī, qui est adepte du Tathāgata.</p>
              </div>
-            <div type="translation" xml:lang="fra" source="bib:Jacques1969_01">
+            <div type="translation" source="bib:Skilling2019_02">
              <p rend="stanza" n="1"><gap reason="lost"/> daughter of the Lord of Dvāravatī <gap reason="lost"/> the queen set up this <supplied reason="subaudible">stone</supplied> image of the Tathāgata.</p>
              </div>
-        <!--  <div type="commentary">
-         </div> -->
+         <div type="commentary">
+            <p>The <foreign>pāda</foreign>s a and b were not known to Claude Jacques.</p>
+         </div>
         <div type="bibliography">
           <p>Edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1969_01"/><citedRange unit="page">69</citedRange></bibl>) with a French translation, reedited by Peter Skilling (<bibl rend="omitname"><ptr target="bib:Skilling2019_02"/><citedRange unit="page">65-81</citedRange></bibl>) with an English translation.</p>
 	 <listBibl type="primary">
