@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Prasat Srah Khcau (K. 1417), 8th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01417</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary>
+                     <p>Face A contains seven Sanskrit stanzas in anuṣṭubh meter. The first is an invocation to the Buddha. Stanzas II and III praise the fieriness and righteousness of the ruling king Jayavarman I. The raison d’être of the inscription is mentioned in stanzas IV and V: these constitute an edict of King Jayavarman I concerning a monastery called Candana “sandalwood” <supplied reason="explanation"><foreign>candana-vihāra</foreign></supplied> and they decree the use of funds <supplied reason="explanation">not given by the king</supplied> for the annual procession of the image of the Buddha on the full moon day of the month of Vaiśākha <supplied reason="explanation">April-May</supplied>. Stanzas VI and VII stipulate that the slaves, cows, buffaloes, gardens, fields, servants, etc., given to the Buddha are not to be stolen and are under the protection of the Governor of Tamandarapura.</p>
+                     <p>Face B is a fourteen-line text in Old Khmer. It echoes the Sanskrit text in what is said about the annual procession of the Buddha’s statue of Candana Monastery on the full moon day of Vaiśākha as an order of King Jayavarman I. It also provides details of the management of the wealth of the monastery including servants, slaves, cows, buffaloes etc. The last two lines warn that those who flout the order of the king shall be punished.</p>
+                  </summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eighth century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-06-21">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<div type="textpart" n="A"><head xml:lang="eng">Face</head>
+   <lg n="1" met="āryā" xml:lang="san-Latn">
+<l n="a"><lb n="A1"/><milestone unit="column" n="a"/><g type="gomutraInitial">.</g>suprabhayā bhrājiṣṇuḥ</l>
+<l n="b"><milestone unit="column" n="b"/>darppoddhata<unclear>vi</unclear><supplied reason="lost">vu</supplied><unclear>dha</unclear>vidviṣ<unclear>o</unclear> jiṣṇuḥ</l>
+<l n="c"><milestone unit="column" n="c"/>Apa<unclear>vargga</unclear><supplied reason="lost">p</supplied><unclear>ra</unclear><supplied reason="lost">bhaviṣṇ</supplied>u<unclear>ḥ</unclear></l>
+<l n="d"><milestone unit="column" n="d"/>bhūyād vo bhūtaye <unclear>vi</unclear><supplied reason="lost">ṣṇ</supplied><unclear>u</unclear>ḥ <supplied reason="lost"><g type="ddandaHooked">.</g></supplied></l>
+</lg>
+   <lg n="2" met="āryā" xml:lang="san-Latn">
+<l n="a"><lb n="A2"/><milestone unit="column" n="a"/>cakreṇācyuta Iti yaḥ</l>
+<l n="b"><milestone unit="column" n="b"/>trivikramākrāntasa<unclear>ka</unclear>lalokāntaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>vali<unclear>m</unclear>a<supplied reason="lost">da</supplied><unclear>dama</unclear>nai<unclear>kamanā</unclear></l>
+<l n="d"><milestone unit="column" n="d"/>manāg api na yāti vā<unclear>ma</unclear><supplied reason="lost">natām·</supplied> <g type="ddandaHooked">.</g></l>
+</lg>
+   <lg n="3" met="āryā" xml:lang="san-Latn">
+<l n="a"><lb n="A3"/><milestone unit="column" n="a"/>ji<unclear>tamada</unclear>no vṛṣa<unclear>gama</unclear>no</l>
+<l n="b"><milestone unit="column" n="b"/>mānyatamo bhūribhūti<unclear>bh</unclear>ās<unclear>va</unclear>ritaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>ś<choice><unclear>u</unclear><unclear>a</unclear></choice>kti<gap reason="lost" quantity="2" unit="character"/><unclear>ma</unclear> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i<gap reason="lost" quantity="1" unit="character"/>yo</l>
+<l n="d"><milestone unit="column" n="d"/>lokasyeśo <unclear>j</unclear>i<gap reason="lost" quantity="2" unit="character"/><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>it<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>i</unclear> <g type="ddandaHooked">.</g></l>
+</lg>
+   <lg n="4" met="āryā" xml:lang="san-Latn">
+<l n="a"><lb n="A4"/><milestone unit="column" n="a"/>nija<unclear>jīvi</unclear>tanirapekṣaḥ</l>
+<l n="b"><milestone unit="column" n="b"/>samu<unclear>dya</unclear>tāsi raṇe ji<unclear>gh</unclear><supplied reason="lost">ā</supplied><unclear>ṁ</unclear>sur arīn·</l>
+<l n="c"><milestone unit="column" n="c"/><unclear>n</unclear>ā<unclear>kṣās</unclear><choice><unclear>ū</unclear><unclear>ru</unclear></choice><unclear>dra Iva</unclear> <gap reason="lost" quantity="3" unit="character"/></l>
+<l n="d"><milestone unit="column" n="d"/>nihantu<unclear>kāmo</unclear> <unclear cert="low">ya</unclear> inaṁ varyyaḥ <g type="ddandaHooked">.</g></l>
+</lg>
+   <lg n="5" met="āryā" xml:lang="san-Latn">
+<l n="a"><lb n="A5"/><milestone unit="column" n="a"/>s<choice><unclear>a</unclear><unclear>u</unclear></choice>r<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ati<unclear>dh</unclear>e<unclear>r gga</unclear>ṇakṛtvaḥ</l>
+<l n="b"><milestone unit="column" n="b"/>kṛtvā tv ātmīyasaṃpadādā<supplied reason="lost">na</supplied>m·</l>
+<l n="c"><milestone unit="column" n="c"/> kali<unclear>k</unclear>ā<unclear>la</unclear><supplied reason="lost">v</supplied>i<unclear>lulitāṁ</unclear><gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="d"><milestone unit="column" n="d"/><gap reason="lost" extent="unknown" unit="character"/><unclear>samu</unclear>paskurute <g type="ddandaHooked">.</g></l>
+</lg>
+   <lg n="6" met="āryā" xml:lang="san-Latn">
+<l n="a"><lb n="A6"/><milestone unit="column" n="a"/>Āryāvarttavi<unclear cert="low">va</unclear><unclear>rddhita</unclear><g type="spiralL">.</g></l>
+<l n="b"><milestone unit="column" n="b"/>viprakṣatrāgra<unclear>vaṅśa</unclear><supplied reason="lost">sa</supplied>ṁ<supplied reason="lost">bhūtaḥ</supplied></l>
+<l n="c"><milestone unit="column" n="c"/>śrījayavarmmety adadhat<unclear>·</unclear></l>
+<l n="d"><milestone unit="column" n="d"/>sa rājavaryyo bhuvo bhāram· <g type="ddandaHooked">.</g></l>
+</lg>
+   <lg n="7" met="āryā" xml:lang="san-Latn">
+<l n="a"><lb n="A7"/><milestone unit="column" n="a"/><unclear>tatpā</unclear><unclear cert="low">da</unclear><unclear>ka</unclear>lpapādapa<milestone unit="column" n="b" break="no"/>m</l>
+<l n="b">abhi<unclear>laṣ</unclear>itapha<unclear>la</unclear><supplied reason="lost">pradātā</supplied><unclear>r</unclear>aṁ</l>
+<l n="c"><milestone unit="column" n="c"/><supplied reason="lost">k</supplied>ārttajñenā<choice><unclear>k</unclear><unclear>bh</unclear></choice>r̥t<choice><unclear>v</unclear><unclear>y</unclear></choice><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg></l>
+<l n="d"><milestone unit="column" n="d"/>jyotiṣi gaṇi<unclear>t</unclear>ī su<unclear>dhī</unclear> mānyaḥ <g type="ddandaHooked">.</g></l>
+</lg>
+   <lg n="8" met="āryā" xml:lang="san-Latn">
+<l n="a"><lb n="A8"/><milestone unit="column" n="a"/>śrījaya<supplied reason="lost">varmmanr̥</supplied><unclear>pe</unclear>ndra<g type="spiralL">.</g></l>
+<l n="b"><milestone unit="column" n="b"/>prasattisaṁ<unclear>va</unclear><gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="c"><milestone unit="column" n="c"/>śrīsatyāśraya<supplied reason="lost">n</supplied><unclear>ā</unclear>mā</l>
+<l n="d"><milestone unit="column" n="d"/><gap reason="lost" quantity="2" unit="character"/><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ātiṣṭhipad devān·<g type="ddandaHooked">.</g></l>
+</lg>
+   <lg n="9" met="āryā" xml:lang="san-Latn">
+<l n="a"><lb n="A9"/><milestone unit="column" n="a"/>rāja<unclear>tasaṁ</unclear><choice><unclear>va</unclear><unclear>hā</unclear></choice><gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="b"><milestone unit="column" n="b"/>śrī<unclear>satya</unclear> <choice><unclear>mā</unclear><unclear>mvā</unclear></choice><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ye<gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="c"><milestone unit="column" n="c"/><gap reason="lost" quantity="1" unit="character"/><unclear>satyā</unclear>khyo dhīmān·</l>
+<l n="d"><milestone unit="column" n="d"/>sthāpitavān· pu<unclear>nda</unclear>rīkākṣam·<g type="ddandaHooked">.</g></l>
+</lg>
+   <lg n="10" met="āryā" xml:lang="san-Latn">
+<l n="a"><lb n="A10"/><milestone unit="column" n="a"/>rajatakanaka<unclear>mānikyaṁ</unclear></l>
+<l n="b"><milestone unit="column" n="b"/>grā<unclear>ma</unclear>kṣetrapaśu<supplied reason="lost">bh</supplied><unclear>r̥</unclear><supplied reason="lost">t</supplied><unclear>y</unclear><gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="c"><milestone unit="column" n="c"/><gap reason="lost" extent="unknown" unit="character"/><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>āla <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>y<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg></l>
+<l n="d"><milestone unit="column" n="d"/>dānam adād ātmapuṇyebhya<unclear>ḥ</unclear> <g type="ddandaHooked">.</g></l>
+</lg>
+   <lg n="11" met="āryā" xml:lang="san-Latn">
+<l n="a"><lb n="A11"/><milestone unit="column" n="a"/>śrī<unclear>jayava</unclear>rm<unclear>m</unclear>avitīrṇṇa<unclear>ṁ</unclear> <g type="spiralL">.</g></l>
+<l n="b"><milestone unit="column" n="b"/>sa<unclear>śai</unclear>lapāla<unclear>ṁ</unclear> sahasrabhr̥tyayu<unclear>taṁ</unclear></l>
+<l n="c"><milestone unit="column" n="c"/><supplied reason="lost">śrī sa</supplied>tyā<supplied reason="lost">ś</supplied>rayapuṇye</l>
+<l n="d"><milestone unit="column" n="d"/>dā<supplied reason="lost">na</supplied><unclear>ṁ</unclear> kenāpi no hāryyaṁ <g type="ddandaHooked">.</g></l>
+</lg>
+   <lg n="12" met="āryā" xml:lang="san-Latn">
+<l n="a"><lb n="A12"/><milestone unit="column" n="a"/>yā<gap reason="lost" extent="unknown" unit="character"/> <g type="spiralL">.</g></l>
+<l n="b"><milestone unit="column" n="b"/>dattāni nr̥pājñayā sura<unclear>ca</unclear>rebhya<supplied reason="lost">ḥ</supplied></l>
+<l n="c"><milestone unit="column" n="c"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">v</supplied><unclear>i</unclear>ha<supplied reason="lost">r</supplied>tt<unclear>ukā</unclear>mā <g type="spiralL">.</g></l>
+<l n="d"><milestone unit="column" n="d"/>ye te<gap reason="lost" extent="unknown" unit="character"/><unclear>ṇā</unclear> <supplied reason="lost"><g type="ddandaHooked">.</g></supplied></l>
+</lg>
+   <lg n="13" met="āryā" xml:lang="san-Latn">
+<l n="a"><lb n="A13"/><milestone unit="column" n="a"/><gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="b"><milestone unit="column" n="b"/><gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="c"><milestone unit="column" n="c"/><gap reason="lost" extent="unknown" unit="character"/>sa<gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="d"><milestone unit="column" n="d"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><g type="ddandaHooked">.</g></supplied></l>
+</lg>
+   
+</div>
+                   <div type="textpart" n="B"><head xml:lang="eng">Face</head>
+   <lg n="1" met="vaṁśastha" xml:lang="san-Latn">
+<l n="a"><lb n="B1"/>jayaty a<supplied reason="lost">c</supplied><unclear>in</unclear><supplied reason="lost">t</supplied>yātmavibhūtisambha<supplied reason="lost">v</supplied>o</l>
+<l n="b"><lb n="B2"/>bhavānya<unclear>g</unclear><choice><unclear>ī</unclear><unclear>i</unclear></choice><seg met="+"><gap reason="illegible" quantity="1" unit="character"/></seg><unclear>sa</unclear><choice><unclear>c</unclear><unclear>bh</unclear></choice>i<choice><unclear>d</unclear><unclear>n</unclear></choice>ām<unclear>sa</unclear>mud<unclear>bha</unclear>vaḥ</l>
+<l n="c"><lb n="B3"/>bhav<unclear>ā</unclear><seg met="-+"><gap reason="illegible" quantity="2" unit="character"/></seg>yena jito ja<unclear>no bhavo</unclear></l>
+<l n="d"><lb n="B4"/><seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg>v<unclear>ā p</unclear><supplied reason="lost">i</supplied> saś śrīpatimūrttibhāg ya<unclear>t</unclear>aḥ <g type="ddanda">.</g></l>
+</lg>
+                      <lg n="2" met="indravajrā" xml:lang="san-Latn">
+<l n="a"><lb n="B5"/><supplied reason="lost">Ā</supplied>sīn nr̥po yo bhuvi <unclear>dh</unclear>auta<unclear>dharmā</unclear></l>
+<l n="b"><lb n="B6"/><unclear cert="low">māheśvarā</unclear>ṇāṁ viṣayādhirā<unclear>jaḥ</unclear></l>
+<l n="c"><lb n="B7"/>rājanya<unclear>vr̥ndā</unclear>rccitapāda<seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg>padma</l>
+<l n="d"><lb n="B8"/>padm<unclear>āsa</unclear>no<unclear>t</unclear>pā<unclear>di</unclear><seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg><unclear>sāra</unclear>bh<unclear>ū</unclear><unclear cert="low">taḥ</unclear></l>
+</lg>
+                      <lg n="3" met="upendravajrā" xml:lang="san-Latn">
+<l n="a"><lb n="B9"/>prasiddhagotrapravaradvija<supplied reason="lost">n</supplied><unclear>m</unclear><supplied reason="lost">ā</supplied></l>
+<l n="b"><lb n="B10"/>kṣatrāgra<supplied reason="lost">va</supplied><unclear>ṅś</unclear>āmva<supplied reason="lost">ra</supplied>ti<unclear>gmate</unclear>j<supplied reason="lost">ā</supplied><unclear>ḥ</unclear></l>
+<l n="c"><lb n="B11"/><unclear>di</unclear>ganta<unclear>r</unclear><supplied reason="lost">ā</supplied>jy<unclear>ān</unclear>i yaś<unclear>o</unclear>ṅśuśubhro</l>
+<l n="d"><lb n="B12"/>vyajeṣṭa sa śrī<unclear>ja</unclear>yavarmmadevaḥ <g type="ddanda">.</g></l>
+</lg>
+                      <!-- KC: Edition and translation of lines 13-21 are in progress:
+                      (13) (ta)syaiva rāja(va)ryyasya ma[[hā]]bhṛtyo rāja-
+ (14) [sa](tkā)ropabho(gai)r udā(t)tābhija(na)-
+ (15) [su?](pa?)dadyotito nayavinayadā-
+ (16) [nadayā]dākṣ[i]ṇyādiguṇagaṇasa-                        
+ (17) [mucca](ya)samalaṅkṛta[[ḥ]] sa śrīsatyāśra     
+ (18) [yan]āmāsmin[[n]]agottam[e] śrīpu-
+ (19) [ṇḍarīkākṣa]p[u]rogamān gīrvvā<<ga>>ṇā(n_)
+ (20) * * (ha) yāvanto devavariṣṭhā(ḥ)
+ (21) * * * (giripā)dā(dh)i(kār)ī(bh)i *
+ 
+ Of that same excellent king, there was a great / incomparable (ma[[hā°]] / [[asa]]ma°) servant called ŚrīSatyāśraya, who is illuminated by noble family-origin and excellent rank, [honoured] with privileges and marks of esteem bestowed by the king (rājasatkāropabhogaiḥ), adorned with a mass of virtues, consisting of political acumen, modesty, generosity, compassion, dexterity, — that man on this most excellent mountain [[installed]] groups of gods (gīrvāṇagaṇān) headed by Śrī Puṇḍarīkākṣa …
+
+He [[caused them to be worshipped]] by [[as many]] officers at the foot of the mountain
+as there are excellent gods here (iha).
+                      -->
+                   </div>
+<div type="textpart" n="C"><head xml:lang="eng">Face</head>
+<p>
+<lb n="C1"/><num value="697">697</num> <unclear>śa</unclear>ka A<unclear>ṣṭam</unclear>i k<unclear>e</unclear>ta
+   <lb n="C2"/>puṣya <unclear>nu</unclear> <choice><unclear>p</unclear><unclear>g</unclear></choice>i vra<unclear>ḥ</unclear>ha <unclear>ka</unclear><lb 
+      n="C3" break="no"/>mrateṅa Aña śrī <gap reason="lost" quantity="3" unit="character"/>
+   <lb n="C4"/>tapa<gap reason="lost" quantity="1" unit="character"/>varma <gap reason="lost" quantity="5" unit="character"/>
+   <lb n="C5"/>Aṁv<unclear>i</unclear> tpala <gap reason="lost" quantity="2" unit="character"/> kamrateṅa
+   <lb n="C6"/>jagata śr<unclear>i</unclear>puṇdarīkākṣa <unclear>jva</unclear><lb 
+      n="C7" break="no"/><unclear>na</unclear> mās tula mvaya prāka
+   <lb n="C8"/>tula piya pratisthā vraḥ ka<lb 
+      n="C9" break="no"/>mrateṅa Aña nārāyana
+   <lb n="C10"/>vraḥ śivaliṅga ti <unclear>karauṅa</unclear> ka<lb 
+      n="C11" break="no"/>mrateṅa Aña <unclear cert="low">s</unclear>mā ta sth<unclear>ā</unclear><lb 
+         n="C12" break="no"/>panā ta <unclear>s</unclear>ruka v<unclear>gu</unclear>la vraḥ ka<lb 
+            n="C13" break="no"/>mrateṅa Aña nārāyana
+   <lb n="C14"/>ti kaṁluṅa kamrateṅa Aña
+   <lb n="C15"/>śrī<unclear>śa</unclear>ktivarma sthāpanā ta <unclear>s</unclear>ru<lb 
+      n="C16" break="no"/>ka caṅkvaya sruka jeṅa vnaṁ <unclear>jā tpa</unclear><lb 
+         n="C17" break="no"/>la ta kamrateṅ jagata śrī puṇda<lb 
+            n="C18" break="no"/>r<unclear>ī</unclear>k<supplied reason="lost">ā</supplied>kṣa Oya kalpanā
+   <lb n="C19"/><gap reason="lost" quantity="10" unit="character"/>
+   <lb n="C20"/><gap reason="lost" quantity="9" unit="character"/>
+   <lb n="C21"/><gap reason="lost" quantity="10" unit="character"/>
+   <lb n="C22"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="C23"/><gap reason="lost" extent="unknown" unit="character"/>
+   
+</p>
+                   </div>
+                </div>
+           <!--      <div type="apparatus">
+               <listApp>
+                  
+                  <app loc="B6">
+                     <lem></lem>
+                     <note></note>
+                  </app> 
+                  
+               </listApp>
+         </div> -->
+         <div type="translation" resp="part:dogo">
+            <div type="textpart" n="A"><head xml:lang="eng">Face</head>
+          
+               <p rend="stanza" n="1">May Viṣṇu, splendid with light (suprabhayā bhrājiṣṇuḥ), who conquers (jiṣṇuḥ) the gods’ enemies whose minds are puffed up with pride (darpoddhata[citta]vidviṣaḥ), who is capable of [granting] salvation (apavargā[ya]), be (bhūyāt) for your (vaḥ) success/wealth (bhūtaye)!</p>
+               <p rend="stanza" n="2">Known as Acyuta (“Unfailing”), because of his [unerring?] discus, being focussed single-mindedly on crushing the pride of Bali, he bestrode the ends of all the worlds with his three broad strides, and does not even slightly (manāg api) become small/dwarfish/petty (na yāti vāmanatām) [[and yet he is Vāmana !]]</p>
+               <p rend="stanza" n="3">He who has vanquished Love, whose vehicle is the bull, most venerable, made to shine with plentiful ashes,  … Lord of the world (lokeśaḥ).</p>
+               <p rend="stanza" n="4">Having no regard for his own life, his sword raised in battle (samudyatāsiḥ), eager to slay enemies in battle.</p>
+             <!--   <p rend="stanza" n="5"></p> KC: Translation is not available. -->
+               <p rend="stanza" n="6">Born of an excellent lineage of Kṣatriyas and of brahmins who had flourished in [the region of North Central Indian known as] Āryāvarta,  the excellent king called Śrī Jayavarman took (adadhat?) the burden of [governing] the earth.</p>
+               <p rend="stanza" n="7">[A certain] mathematician (gaṇitī) of astronomy, wise, honourable, after venerating (ādṛtya) with gratitude (kārttajñena) the wish-fulfilling tree that was that [king’s] foot, which bestows [all manner of] desired rewards…</p>
+               <p rend="stanza" n="8">[[favoured]]… by the grace of King Śrī Jayavarman, called Śrī Satyāśraya … [[with devotion]] installed deities.</p>
+               <p rend="stanza" n="9">… the wise person, of true name (satyākhyaḥ), installed [a Viṣṇu called] Puṇḍarīkākṣa.</p>
+               <p rend="stanza" n="10">He gave silver, gold and jewels, villages, fields, cattle ...... as gifts for his own meritorious foundations (ātmapuṇyebhyaḥ).</p>
+               <p rend="stanza" n="11">The gifts (dānam) offered by Śrī Jayavarman to the meritorious foundation of Śrī Satyāśraya, together with the guard(s) of the mountain [/together with the stone protection (?)] and with the thousand servants, should not be taken by anyone.</p>
+             <!--  <p rend="stanza" n="12"></p>
+               <p rend="stanza" n="13"></p> KC: Translation is not available. -->
+            </div>
+            <div type="textpart" n="B"><head xml:lang="eng">Face</head>
+               <!-- <p rend="stanza" n="1"></p> KC: Translation is not available.-->
+               <p rend="stanza" n="2">There was a king on earth of spotlessly clean Dharma, … the overlord of districts of ??, whose lotus feet were venerated by throngs of princes …</p>
+               <p rend="stanza" n="3">That Śrī Jayavarmmadeva, a  twice-born [brahmin] of famed gotra and pravara, [and at the same time] a sun (°tigmatejaḥ) in the sky that was his excellent Kṣatriya lineage, he conquered (vyajeṣṭa) [other] kingdoms up to the horizons in every direction, bright with the rays of [his own] fame.</p>
+            </div>
+            <div type="textpart" n="C"><head xml:lang="eng">Face</head>
+               <p n="C1-C5">In 697 Śaka, on the 8th day of the waxing moon of the month of Puṣya [Pauṣa], Vraḥ Kamrateṅ Añ Śrī … from the grove … Kamrateṅ Jagat Śrī Puṇdarīkākṣa;</p>
+               <p n="C6-C23">
+                  <list>
+                     <item>
+                        offering one tula of gold [and] three tula of silver;
+                     </item>
+                     <item>
+                        erecting a V.K.A. Nārāyaṇa, a Śivaliṅga inside the [temple where] K.A. Smā had established in the village of Vgul, a V.K.A. Nārāyaṇa inside the [temple where] K.A. Śrī Śaktivarman had established in the village of Caṅkvay [and] the village of Jeṅ Vnaṁ which was a grove of K.J. Śrī Puṇdarīkākṣa;
+                     </item>
+                     <item>
+                        fixing endowment <gap reason="lost"/>.
+                     </item>
+                  </list>
+               </p>
+              </div>
+            </div>
+        <!--  <div type="commentary">
+        
+        <p></p>
+              
+         </div> -->
+       <div type="bibliography">
+          <p>Edited preliminarily by Dominic Goodall (Sanskrit portion on face A and face B) and Kunthea Chhom (Khmer portion on face C) based on the photo AMP 007558.jpg (belonging to the Stone Restoration Workshop of the National Museum in Phonm Penh).</p>      
+        </div>
+        </body>
+    </text>
+</TEI>
