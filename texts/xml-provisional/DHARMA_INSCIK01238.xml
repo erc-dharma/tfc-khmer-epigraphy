@@ -40,8 +40,29 @@
             </availability>
             <date from="2019" to="2025">2019-2025</date>
          </publicationStmt>
-         <sourceDesc>
-            <p>Text is given after Griffiths and Soutif 2008-09.</p>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -63,25 +84,26 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:kuch" when="2024-06-27" status="draft">Adding paleographical remark and modification to edition and apparatus</change>
          <change who="part:kuch" when="2020-12-01">Modifications to edition regarding numerals and punctuation signs</change>
          <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:kuch" when="2020-05-18" status="draft">Modifications of edition, apparatus, translation and bibliography</change>
          <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
-         <change who="part:kuch" when="2019" status="draft">Creation of the file</change>
+         <change who="part:kuch" when="2019-11-24" status="draft">Creation of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
         <body>
-                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:00000">
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
 <div type="textpart" n="A"><head xml:lang="eng">Face</head>
                    <p>
-   <lb n="A1"/><g type="gomutraInitial">.</g><num value="958">958</num> śaka ṣaṣṭhi roc· <unclear>Ā</unclear>ṣādha sauravāra nu vraḥ kamrateṅ· Añ· śri narendravar<unclear>mma</unclear> sruk· <unclear>da</unclear>nlāṅ· khloñ· mukha mahā<del>ra</del>nasa <g type="dotMid">.</g> paṅgaṁ
+   <lb n="A1"/><g type="gomutraInitial">.</g><g type="ddandaOrnate">.</g><num value="958">958</num> śaka ṣaṣṭhi roc· <unclear>Ā</unclear>ṣādha sauravāra nu vraḥ kamrateṅ· Añ· śri narendravar<unclear>mma</unclear> sruk· <unclear>da</unclear>nlāṅ· khloñ· mukha mahā<del>ra</del>nasa <g type="dotMid">.</g> paṅgaṁ
    <lb n="A2"/>thpvaṅ· nivedana ta vraḥ pāda kamrateṅ· kaṁtvan· Añ· śri sūryyavarmmadeva <g type="dotMid">.</g> man· mān· bhūmi pa<unclear>ści</unclear>ma <gap reason="lost" quantity="2" unit="character"/>ra ti duña ta varṇnāśrama cat· sruk· sthā<lb n="A3" break="no"/>panā vraḥ kamrateṅ· Aña śivaliṅga ta gi ti Oy· ta loña śriviṣnu nu teṅ· vija ta kvan· ta varṇna <unclear>mahā</unclear>nasa sruk· saṅvey· svaṁ leṅ· jā vraḥ karu<lb n="A4" break="no"/>ṇāprasāda kamrateṅ· kaṁtvan· Aña ta loñ· śriviṣnu nu teṅ· vija <g type="dotMid">.</g> mān· vraḥ śāsana kamrateṅ· kaṁtvan· Aña pa<unclear>ndva</unclear>l· pre jā prasāda roḥha Iṣṭi narendravarmma pre sabhā<lb n="A5" break="no"/>pati dau saṅ gol· praśasta Oy· jā prasāda Aña ta śriviṣnu nu vija <g type="dotMid">.</g> vraḥ kamrateṅ· Añ· śri pr̥<supplied reason="lost">thi</supplied>vindrapandita sabhāpati nā Eka sruka kuti ruṅ· vraḥ ka<lb n="A6" break="no"/>mrateṅ· Aña śri rājendrapandita sabhāpati nā do sruk· yanap· <g type="dotMid">.</g> dval· vraḥ karuṇā <supplied reason="lost">d</supplied><unclear>au</unclear> nu vraḥ sa<unclear>bhā</unclear>sat· khloña saṁtāp· <g type="dotMid">.</g> lvah· ta gi bhūmi noḥ
    <lb n="A7"/>pre niyama varṇnāśrama <g type="dotMid">.</g> ta lak· bhūmi neḥha taṅtyaṅ· <g type="dotMid">.</g> lo<supplied reason="omitted">ñ·</supplied> rau sruka trav<unclear>āṅ</unclear>· krav<choice><sic>o</sic><corr>e</corr></choice> ta dāra kaṁsteṅ· <unclear>ś</unclear>r<supplied reason="lost">i</supplied> guṇavallabha <g type="dotMid">.</g> loñ· Āditya sruk·
    <lb n="A8"/>vāruṇi ta dāra ka<supplied reason="omitted">ṁ</supplied>steṅ· śri kṣitindravarmma loñ· <unclear>p</unclear>at· khloñ· jnval· mahānasa qryāṁ kaṁsteṅ· travāṅ· k<unclear>r</unclear>av<choice><sic>o</sic><corr>e</corr></choice> <g type="dotMid">.</g> loñ· mahā <g type="dotMid">.</g> loñ· kās· <g type="dotMid">.</g> lo<lb n="A9" break="no"/>ñ· soṁ syaṅ· varṇna mahānasa sruk· vāruṇi <g type="dotMid">.</g> loñ· vin· <g type="dotMid">.</g> loñ· qyak· <g type="dotMid">.</g>  loñ· kṣira varṇna mahānasa <unclear>sr</unclear>uk· vāruṇi syaṅ ta kathā <g type="dotMid">.</g> neḥ bhūmi
    <lb n="A10"/>travāṅ· laAk· <g type="dotMid">.</g> travāṅ· vrāhmaṇa <g type="dotMid">.</g> ti qji yeṅ· toy· mātr̥pakṣa <g type="dotMid">.</g> dāra prasāda kāla <unclear>vra</unclear>ḥ pāda parameśvara <g type="dotMid">.</g> Āyatta ta sa<lb n="A11" break="no"/>ntāna yeṅ· pradvanna mok· lvah· ta yeṅ· dai qyat· Apavāda <g type="dotMid">.</g> neḥ Ī<unclear>lū ma</unclear>n· yeṅ· pul· dra<unclear>vya</unclear> vraḥ kamrateṅ· Aña śri nare<lb n="A12" break="no"/>ndravarmma khloñ· mukha mahānasa sruk· danlāṅ· nu thve vraḥ rājakāryya pi qyat· dravya nu yeṅ· soṅ· <g type="dotMid">.</g> <unclear>ye</unclear><supplied reason="lost">ṅ·</supplied> Oy· bhūmi ta <unclear>ro</unclear><supplied reason="lost">ḥ</supplied><unclear>ha</unclear> neḥha ru caṅvāt·
    <lb n="A13"/>neḥha thlai dravya noḥha yeṅ· nāṁ caṅvāt· Oy· saṁnaṅ· gola <g type="dotMid">.</g> dravya man· yeṅ· pul· qañ· ta kaṁsteṅ· vāruṇi padigaḥ <num value="1">I</num> jyaṅ· <num value="7">7</num> guṇa <num value="2">vyara</num> po<lb n="A14" break="no"/>ṅ· <num value="1">I</num> vraḥ go <num value="2">II</num> dop· <num value="2">II</num> thnap· thpira vlaḥ jrvak· <num value="1">I</num> bhājana <num value="2">II</num> canlyak· <num value="20">20</num> yau <num value="10">10</num> <g type="dotMid">.</g>  srū thlvaṅ· <num value="10">10</num> <g type="dotMid">.</g>  Añ· ta loña kās<unclear>a</unclear> kryauva <num value="1">I</num> padigaḥ <num value="1">I</num> bhājana <num value="1">I</num> Añ· ta loña
-   <lb n="A15"/>vin· bhājana <num value="2">II</num> <g type="dotMid">.</g> Aña ta loña kṣira bhājana <num value="1">I</num> Aña ta loña vañ· bhājana <num value="1">I</num> qañ· ta loñ· soṁ bhājana <num value="1">I</num> Aña ta loñ· mahā bhājana <num value="1">I</num> srū thlvaṅ· <num value="10">10</num> <g type="symbol" subtype="spiral"/>
+   <lb n="A15"/>vin· bhājana <num value="2">II</num> <g type="dotMid">.</g> Aña ta loña kṣira bhājana <num value="1">I</num> Aña ta loña vañ· bhājana <num value="1">I</num> qañ· ta loñ· soṁ bhājana <num value="1">I</num> Aña ta loñ· mahā bhājana <num value="1">I</num> srū thlvaṅ· <num value="10">10</num> <g type="spiralL">.</g>
    <lb n="A16"/>phsama dravya ta jā thlāya bhūmi neḥ padigaḥ <num value="3">III</num> bhājana <num value="9">9</num> canlyak· <num value="40">40</num> yau <num value="5">5</num> <g type="dotMid">.</g> srū <num value="20">20</num> thlvaṅ· <num value="1">I</num> <g type="dotMid">.</g> poṅ· <num value="1">I</num> kryau <num value="1">I</num> vraḥ go <num value="2">II</num> dop· <num value="2">II</num> thnap· thpira vlaḥ jrvak· <num value="1">I</num> <g type="dotMid">.</g> bhūmi ruṅa panto<lb n="A17" break="no"/>y· thṅāy· śata mvāy· <num value="40">40</num> veṅa ta diṅ· thṅāy· <num value="557">slik· I 100 40 10 7</num> <g type="circleTarget">.</g> ta stap· vaṁnola qnak· neḥ phoṅa ta roḥha neḥha vraḥ kamrateṅ· Añ· śri pr̥thivindrapa<lb n="A18" break="no"/>ndita sabhāpati nā Ek· sruk· kuti ruṅ· <g type="dotMid">.</g> vraḥ kamrateṅ· Aña śri rājendrapandita sabhāpati nā do sruk· yanap· <g type="dotMid">.</g> vraḥ kamrateṅ· Añ· śri <unclear>ja</unclear>ye<lb n="A19" break="no"/>ndropakalpa sabhāsat· nā do sruk· stuk· lvāk· <unclear><g type="dotMid">.</g> vra</unclear>ḥ kamrateṅa qaña śri lakṣm<choice><sic>a</sic><corr>i</corr></choice>ndropakalpa sabhāsat· <unclear>n</unclear>ā triṇi sruk· travāṅ· kuṭi <g type="dotMid">.</g> kaṁsteṅ·
    <lb n="A20"/>śri lakṣmindropakalpa khloñ· saṁtāp· nā Eka sruk· caṁvaṅ vuro <g type="dotMid">.</g> kaṁsteṅ· cuṅ· vnura khloñ· saṁtāp· nā Eka <g type="dotMid">.</g> kaṁsteṅ· satyavikrama <g type="dotMid">.</g> kaṁsteṅ· travā<lb n="A21" break="no"/><unclear>ṅ·</unclear> ravau <g type="dotMid">.</g> kaṁsteṅ· kuti ruṅ· kaṁsteṅ· chdiṅ· mratāña khloñ· satyavikrama <g type="dotMid">.</g> mratāña khloñ· cuṅ· vnura khloñ· vala satyavikrama steṅ· slā neḥ
    <lb n="A22"/><unclear>mū</unclear>la vraḥ sabhāpati nā Eka <g type="dotMid">.</g> kaṁsteṅa talatul· kaṁsteṅ· haripura steṅ· dan·drāṅ· <g type="dotMid">.</g> steṅ· yanap· neḥ mūla vraḥ sabhāpati nā do khloña vala gna<lb n="A23" break="no"/><unclear>ṅa</unclear> mūla vraḥ sabhāpati nā triṇi <g type="dotMid">.</g> kaṁsteṅ· cuṅ· vnura khloña bhūtāśa vraḥ ratna <g type="dotMid">.</g> kaṁsteṅ· satyavikrama khloñ· gā<unclear>p·</unclear> patrakāra <g type="dotMid">.</g> <unclear>lo</unclear>ña jeṅ· <unclear>ga</unclear>ṁ mūla
@@ -94,12 +116,12 @@
    <lb n="A35"/>khloña vala jeṅ· travāṅ· <g type="dotMid">.</g> khloñ· stuk· sno , khloñ· kañjeṅ· <g type="dotMid">.</g> kaṁsteṅ· kuti khloña vala puruṣapāla <g type="dotMid">.</g> kaṁsteṅ· thṅai ket· <g type="dotMid">.</g> kaṁsteṅa vnura taṅko <g type="dotMid">.</g> kaṁsteṅ· sa<lb n="A36" break="no"/>hakāra mratāña khloña tavan· grayāṅ· <g type="dotMid">.</g> khloña vala madhurāpura <g type="dotMid">.</g> khloña jeṅ· chdiṅ· kaṁsteṅ· l<choice><orig>o</orig><reg>e</reg></choice> khyal· kaṁsteṅa karoṁ khyal· <g type="dotMid">.</g> kaṁsteṅ· jraloṅ· loñ·
    <lb n="A37"/>Udyāna <g type="dotMid">.</g> mratāña khloñ· c<unclear>āra</unclear> so <g type="dotMid">.</g> kaṁsteṅa devagana <g type="dotMid">.</g> sre Anle <num value="1">I</num> ti pūrvvāgneya noḥ ñyaṅa noḥha ruṅa <num value="50">4010</num> ti kaṁsteṅ· travāṅ· krave nu khloña
    <lb n="A38"/>vala khloña jnvala nu loña veda loña hasa jvan· ta vraḥ kamrateṅ· Añ· śivaliṅga sruk· narendrālaya <g type="dotMid">.</g> leṅ· Āyatta loñ· śriviṣnu nu te<supplied reason="lost">ṅ</supplied>·
-   <lb n="A39"/>vija nu santāna neḥ pradvan· mok· vvaṁ Āc ti Āyatta ta qnak· noḥ ta jvana nu santāna qnaka noḥ ta jvan· ley· <g type="symbol" subtype="circleFinial"/> <num value="925">925</num> śaka pañcami roc· Āśvayu<lb n="A40" break="no"/>jya nu cāre vyavahāra Artha loña lasa kanmyaṅa caṁmryaṅa pratyartha loñ· bhima chmāṁ phdaṁ loña ṅe ta dau nā vraḥ vasana <g type="dotMid">.</g> teṁ śāka bhūmi sruk· sre bhāga kanmyaṅ·
+   <lb n="A39"/>vija nu santāna neḥ pradvan· mok· vvaṁ Āc ti Āyatta ta qnak· noḥ ta jvana nu santāna qnaka noḥ ta jvan· ley· <g type="circleWheel">.</g> <num value="925">925</num> śaka pañcami roc· Āśvayu<lb n="A40" break="no"/>jya nu cāre vyavahāra Artha loña lasa kanmyaṅa caṁmryaṅa pratyartha loñ· bhima chmāṁ phdaṁ loña ṅe ta dau nā vraḥ vasana <g type="dotMid">.</g> teṁ śāka bhūmi sruk· sre bhāga kanmyaṅ·
    <lb n="A41"/>camryaṅ· nu sre ta prāṁ Aṁvoka nai camryaṅa ti cāṁ caṁnā<unclear>ṁ</unclear> ta vraḥ śivaliṅga raṅko liḥ prāṁma mimvāya khe <g type="dotMid">.</g> man mān· vraḥ karuṇā pi pre mratāñ· khloñ· bhavakṣe<lb n="A42" break="no"/>tra dau śodhe thve khpvara nāṁ mok· <g type="dotMid">.</g> pi kaṁsteṅ· śivapāda sabhāpati nā triṇi cāre Āya vraḥ <g type="dotMid">.</g> sabhā <g type="dotMid">.</g> Arthi ta loña las· pratyarthi ta loñ· bhima loña
    <lb n="A43"/>ṅe dval· vraḥ karuṇā dau Oy· grāmavr̥ddha Aṁcās· <unclear>q</unclear>nak· pi śodhe thve khpvara roḥ ta vraḥ karuṇā <g type="dotMid">.</g> vraḥ sabhā śodhe thve khpvara noḥha vraḥ karuṇā
    <lb n="A44"/>srac· samayuga Arthi pratyarthi syaṅ ta nāṁ speka śodhe moka vraḥ sabhā <g type="dotMid">.</g> Arthi ta loñ· lās· gāla khe praṁvyal· pratyarthi ta loña bhima loñ· ṅe rat· vvaṁ gāl·
    <lb n="A45"/>kaṁsteṅ· śivapāda sabhāpati nā triṇi samayuga nu mratāñ· khloñ· śriś<unclear>ā</unclear>napandita gunadoṣa <g type="dotMid">.</g> nu mratāña khloña yanap· svat· vraḥ dharmmaśāstra de<lb n="A46" break="no"/>p· pandval· vra<supplied reason="omitted">ḥ</supplied> śāsana ta loña las· man· gāl· khe <num value="7">praṁvyal·</num> <g type="dotMid">.</g> pi pratyarthi ta loña bhima loña ṅe rat· khe praṁvyal· <g type="dotMid">.</g> pre loña las· jnaḥ roḥha vraḥ niya<lb n="A47" break="no"/>ma ta qnau nā kaṁs<supplied reason="lost">t</supplied>e<unclear>ṅ</unclear>· śivapāda sabhā nā triṇi pandval· <g type="dotMid">.</g> mratāña khloñ· śriśānapandita mratāñ· khloñ· yanap· smvata vraḥ dharmmaśāstra <g type="dotMid">.</g> mratāña
-   <lb n="A48"/>khloñ· bhavakṣe<supplied reason="lost">t</supplied>ra steṅ· bhavanāditya vraḥ sabhā ta dai ti qval· <g type="simpleFinial">.</g> <num value="946">946</num> śaka chatthi ket· karttika candravāra nu Añ· nāṁ loña nārāya<unclear>na</unclear>
+   <lb n="A48"/>khloñ· bhavakṣe<supplied reason="lost">t</supplied>ra steṅ· bhavanāditya vraḥ sabhā ta dai ti qval· <g type="circleWheel">.</g> <num value="946">946</num> śaka chatthi ket· karttika candravāra nu Añ· nāṁ loña nārāya<unclear>na</unclear>
 </p>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Face</head>
@@ -111,7 +133,7 @@
    <lb n="B9"/><unclear>da</unclear>nlāṅ· <unclear>d</unclear>ai <unclear>si</unclear>ddhi bhūmi noḥha vāpa sāna dai nu ku<unclear>le</unclear> ta roḥha noḥha <unclear>ma</unclear>n· noḥ ti mratāñ· khloñ· danlāṅ· duña pi Oy· siddhi roḥha ta praśa<lb n="B10" break="no"/>ṅsā mratāñ<unclear>· khlo</unclear>ñ· danlāṅa <g type="dotMid">.</g> man ti nāma prasira c<unclear>ā</unclear>re neḥ mok ta vraḥ kamrateṅ· Añ· kuti ruṅ· sabhāpati nā Eka <g type="circleSmall">.</g> loñ· narāyana <unclear>pa</unclear>ṁvyat· <g type="dotMid">.</g> <unclear>man·</unclear>
    <lb n="B11"/><supplied reason="lost">ro</supplied>ḥha ta prasira noḥha vraḥ kamrateṅ· Aña <unclear>n</unclear><supplied reason="lost">ā</supplied> <unclear>qe</unclear>ka <supplied reason="lost">p</supplied>r<supplied reason="lost">e</supplied> sid<unclear>dh</unclear>i ta mratāña khloña danlāṅ· <g type="dotMid">.</g> m<choice><orig>i</orig><reg>a</reg></choice>n ti mratāñ· khloñ· danlāṅ· Oy· ta qnak t<choice><orig>·</orig><reg>a</reg></choice> roḥ<lb n="B12" break="no"/><unclear>ha</unclear> n<supplied reason="lost">e</supplied>ḥha siddhi ta qnaka ta roḥha <g type="dotMid">.</g> man ti Añ· nu l<unclear>oñ· na</unclear>rā<unclear>yana</unclear> nāṁ prasira ta roḥha neḥh mok ta vraḥ kamrateṅ· Añ· ven· jeṅ· sabhā<lb n="B13" break="no"/>pati catvāri <g type="dotMid">.</g> vraḥ kamrateṅ· Aña taṅ<supplied reason="omitted">·</supplied>tyaṅ· loña <unclear>na</unclear>rā<unclear>ya</unclear>na paṁvyat· sap<unclear>·</unclear> pada man· roḥ ta prasira neḥha vraḥ kamrateṅ· Aña ven· jeṅ·
    <lb n="B14"/><unclear>a</unclear>bhāpati catvāri samayuga nu kaṁsteṅa kadeṅ· smva<unclear>t·</unclear> vraḥ dharmmaśāstra kaṁ<unclear>s</unclear>teṅ<unclear>·</unclear> Aśvapattana kaṁsteṅ· vraḥ Aśrama <g type="dotMid">.</g> man· loña narāyana paṁvya<supplied reason="lost">t</supplied><unclear>·</unclear> man· mān·
-   <lb n="B15"/>mān· māsa pāda vyara <g type="dotMid">.</g> tanlāpa prāk· II <g type="dotMid">.</g> chnāṅ· <supplied reason="lost">ka</supplied>ṁp<unclear>o</unclear>ra prāka <num value="2">II</num> laṅgau jyaṅ· <num value="2">II</num> ti pula pi Oy· sre noḥ ta pvāna nu catuḥśāla noḥha ta <unclear>mvā</unclear><lb n="B16" break="no"/>ya siddhi ta mratāña khloña danlāṅ· <g type="dotMid">.</g> man· sre no<supplied reason="lost">hḥa ca</supplied>t<supplied reason="lost">u</supplied><unclear>ḥśāla</unclear> noḥha ti mratāña khloña danlāṅa Oy· ta kvan· ta jmaḥ loñ· śriviṣna nu qme k<unclear>u</unclear><lb n="B17" break="no"/>le neḥ phoṅ· siddhi <unclear>ta</unclear> qnak· ta roḥha neḥ<unclear>ha</unclear> <g type="dDanda">.</g><g type="circleTarget">.</g> <num value="948"><unclear>9</unclear>48</num> śaka Aṣṭami ket· vaiśāka nu vraḥ sabhā taṅtyaṅ· loña narāyana <g type="dotMid">.</g> kathā
+   <lb n="B15"/>mān· māsa pāda vyara <g type="dotMid">.</g> tanlāpa prāk· II <g type="dotMid">.</g> chnāṅ· <supplied reason="lost">ka</supplied>ṁp<unclear>o</unclear>ra prāka <num value="2">II</num> laṅgau jyaṅ· <num value="2">II</num> ti pula pi Oy· sre noḥ ta pvāna nu catuḥśāla noḥha ta <unclear>mvā</unclear><lb n="B16" break="no"/>ya siddhi ta mratāña khloña danlāṅ· <g type="dotMid">.</g> man· sre no<supplied reason="lost">hḥa ca</supplied>t<supplied reason="lost">u</supplied><unclear>ḥśāla</unclear> noḥha ti mratāña khloña danlāṅa Oy· ta kvan· ta jmaḥ loñ· śriviṣna nu qme k<unclear>u</unclear><lb n="B17" break="no"/>le neḥ phoṅ· siddhi <unclear>ta</unclear> qnak· ta roḥha neḥ<unclear>ha</unclear> <g type="ddanda">.</g><g type="circleTarget">.</g> <num value="948"><unclear>9</unclear>48</num> śaka Aṣṭami ket· vaiśāka nu vraḥ sabhā taṅtyaṅ· loña narāyana <g type="dotMid">.</g> kathā
    <lb n="B18"/>loña narāyana ta kanmyaṅa camryaṅ· teṁ dau nā varṇna p<unclear>a</unclear><supplied reason="lost">trak</supplied>āra mvāya mūla nu mratāña khloñ· danlāṅa neḥ sre ta pvān· nu <unclear>pa</unclear>daḥ valaya mvāy· <unclear>bhā</unclear><lb n="B19" break="no"/><unclear>ga n</unclear>ai Aña man· vraḥ pre dāra mās· sakarmma sapa pr<unclear>aj</unclear>ā phoṅa yeṅ· pula mās· pāda <num value="1">mvāy·</num> tanlāp· prāk· mvāya chnāṅ· ka<supplied reason="omitted">ṁ</supplied>pora mvāya laṅgau
    <lb n="B20"/>j<unclear>y</unclear>aṅa <num value="1">I</num> ti mratāña khloña danlāṅ· Oya <unclear>rāja</unclear>kāryya nu gi guṇa dravya ta roḥha noḥ qyat pi Oya Aña yok· sre noḥ nu valaya padaḥ no<supplied reason="lost">ḥ</supplied>
    <lb n="B21"/>Aña qoya thlai dravya mratāña khlo<unclear>ñ·</unclear> danlāṅ· mā<unclear>n·</unclear> jā prā<unclear>ṁ</unclear> dantapa chnāṁ <g type="dotMid">.</g> kathā khloña vala kaṁveṅ· bhūmi n<choice><orig>e</orig><reg>o</reg></choice>ḥ ti loña narāyana laka ta <unclear>mra</unclear><lb n="B22" break="no"/><unclear>tā</unclear>ña khloña danlāṅa bhūmi loña narāya<unclear>na</unclear> qaṁvi ta sa<unclear>nt</unclear>āna vvaṁ tela māna vāda <g type="dotMid">.</g> kathā mratāña khloña ta mūla ta kanmvaya kaṁsteṅ· bhavanāditya
@@ -121,114 +143,114 @@
    <lb n="B26"/>narāyana Aṁvi ta santāna vvaṁ tela māna vāda <g type="dotMid">.</g> kathā lo<unclear>ña</unclear> grāmavr̥ddha gandharvva bhūmi n<choice><orig>e</orig><reg>o</reg></choice>ḥ ti loña narāyana lak ta mratāña khloña danlāṅa bhūmi lo<unclear>ña</unclear>
    <lb n="B27"/>narāyana vvaṁ tela māna vāda <g type="dotMid">.</g> kathā mra<unclear>t</unclear>āña khloñ· caṁ<supplied reason="lost">v</supplied>yara bhūmi noḥ bhūmi loñ· narāyana ti loña narāyana thve qveṅ· hoṅa ti Aña tyaṅa Ukka <g type="dotMid">.</g> <supplied reason="lost">kathā</supplied>
    <lb n="B28"/>loña vraḥ vnura Aṁvi bhūmi noḥ ti loña narāyana lak ta mratāña khloñ· danlāṅ· bhūmi loña narāyana Aṁvi ta santāna vvaṁ tela māna vāda <supplied reason="lost"><g type="dotMid">.</g> kathā lo</supplied><lb n="B29" break="no"/>ñ· ta mūla ta jmaḥ loña Āditya <unclear>bhū</unclear><supplied reason="lost">m</supplied>i <supplied reason="lost">no</supplied>ḥha man· loñ<unclear>·</unclear> narāyana lak ta mratāña khloña danlāṅ· bhūmi loña narāya<supplied reason="lost">na</supplied> ti <unclear>qji</unclear> Aña Oy· ta <supplied reason="lost" cert="low"><choice><unclear>tel kule</unclear><unclear>santāna</unclear></choice></supplied>
-   <lb n="B30"/>loña narāyana siddhi ta loña narā<supplied reason="lost">yana</supplied> p<unclear>r</unclear>advanna qveṅ· hoṅ· vvaṁ yeṅa Āc· vāda <g type="dDanda">.</g><g type="complexeFinial">.</g><g type="dDanda">.</g>
+   <lb n="B30"/>loña narāyana siddhi ta loña narā<supplied reason="lost">yana</supplied> p<unclear>r</unclear>advanna qveṅ· hoṅ· vvaṁ yeṅa Āc· vāda <g type="ddandaOrnate">.</g><g type="floretComplex">.</g><g type="ddandaOrnate">.</g>
 </p>
 </div>
 </div>
-<div type="apparatus">
+<!-- <div type="apparatus">
                <listApp>
                   <app loc="A1">
-                   <lem>ṣaṣṭhi</lem>
-                   <note>La distinction <foreign>i</foreign>/<foreign>ī</foreign> postconsonantique ne semble pas être respectée dans cette inscription ; on translittérera partout <foreign>i</foreign>.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                  <app loc="A5">
-                   <lem>kuti</lem>
-                   <note>L’orthographe <foreign>kuṭi</foreign> est utilisée à la ligne 19 de la face A ; dans toutes les autres occurrences, l’inscription donne <foreign>kuti</foreign>.</note>
+                   <lem></lem>
+                   <note></note>
                </app> 
                   <app loc="A6">
-                   <lem><supplied reason="lost">d</supplied><unclear>au</unclear></lem>
-                   <note>Seule la partie gauche de la voyelle est encore visible, mais cette restitution nous paraît vraisemblable au vu du contexte, et du fait qu’on retrouve la même séquence ci-dessous <supplied reason="explanation">face A, l. 43</supplied>, <foreign>dval· vraḥ karuṇā dau Oy· grāmavr̥ddha</foreign>.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                   <app loc="A7">
-                   <lem>krav<choice><sic>o</sic><corr>e</corr></choice></lem>
-                   <note>La lecture kravo est certaine, ici comme à la ligne suivante, mais le kaṁsteṅ· travāṅ· krave <supplied reason="explanation">« le kaṁsteṅ du Trapéang des crocodiles »</supplied> qui est mentionné à la ligne 37 de la face A est sans aucun doute le même dignitaire.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                   <app loc="A8">
-                   <lem>pat·</lem>
-                   <note>Le pa n’est pas absolument certain, mais nous préférons cette lecture à d’autres possibilités telle <foreign>mat</foreign>.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                   <app loc="A14">
-                   <lem>canlyak· 20 yau 10</lem>
-                   <note>On pourrait avoir un léger doute sur le chiffre 20, mais le total donné juste dessous <supplied reason="explanation"><foreign>canlyak</foreign>· 40 <foreign>yau</foreign> 5</supplied> semble confirmer notre lecture.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                   <app loc="A18">
-                   <lem>sabhāpati</lem>
-                   <note>Une éraflure de la pierre dans <foreign>sabhāpati</foreign>, a provoqué un espace vide entre <foreign>sa</foreign> et <foreign>bhā</foreign>.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                   <app loc="A19">
-                   <lem>jayendropakalpa</lem>
-                   <note>Une éraflure de la pierre a provoqué un espace vide avant <foreign>ndro</foreign>. De plus, il semble que le lapicide ait oublié de compléter le <foreign>pa</foreign> dans <foreign>jayendropakalpa</foreign>, à moins qu’elle n’ait simplement disparue dans une éraflure.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                   <app loc="A22">
-                   <lem>dan·drāṅ·</lem>
-                   <note>Il s’agit vraisemblablement d’une variante de <foreign>daṅdrāṅ</foreign>, « herbe des lieux inondés, Polygonum barbatum » <supplied reason="explanation">Pou 2004, s.v., p. 244</supplied>. On connaît d’autres exemples de toponymes utilisant ce nom : <foreign>sruk chok daṅdrāṅ</foreign>, « commune du bosquet de daṅdrāṅ » <supplied reason="explanation">K. 467, l. 13, 16 ; IC III, p. 217</supplied>.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                   <app loc="A23">
-                   <lem><unclear>lo</unclear>ña</lem>
-                   <note>L’usage de la forme simplifiée du <foreign>ña</foreign>, qui apparaît ici pour la première fois, est assez fréquent dans cette inscription à partir de la 23e ligne. Le fait qu’ici, il ne soit jamais combiné au <foreign>virāma</foreign> pourrait laisser penser que le signe correspond à <foreign>ñ</foreign>·. Cependant, cette combinaison existe notamment dans les inscriptions K. 1186 <supplied reason="explanation">A, l. 3, khloñ· ; Estampage EFEO n. 1684</supplied> et K. 1253 <supplied reason="explanation">l. 12, <foreign>Añ</foreign>· ; estampage EFEO n. 1669</supplied>. Nous ne distinguerons pas ici les deux allographes de <foreign>ña</foreign>.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                   <app loc="A24">
-                   <lem>janaputra</lem>
-                   <note>La pierre, légèrement éraflée au-dessus de l’élément <foreign>ja</foreign>, permettrait aussi la lecture <foreign>jaṁna</foreign>, mais ceci ne ferait pas sens.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                   <app loc="A25">
-                   <lem>cās·</lem>
-                   <note>Le début de la ligne n’est pas justifié. Noter que la l. 27 de la face A montre la lecture qaṁcāsa dans un contexte identique ; faute de place, le lapicide aura peut-être choisi ici de mettre seulement <foreign>cā</foreign> dans la marge, et non <foreign>Aṁcā</foreign>, en notant qu’il avait oublié des <foreign>akṣaras</foreign> devant <foreign>s</foreign>·.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                   <app loc="A32">
-                   <lem><gap reason="lost" quantity="4" unit="character"/></lem>
-                   <note>Pour être précis, en première ou deuxième position après le <foreign>k</foreign>· perdu de <foreign>sruk</foreign>·, on distingue une consonne à <foreign>v</foreign> souscrit et, juste avant le <foreign>lo</foreign> de <foreign>loñ</foreign>· <supplied reason="explanation">peut-être séparé de ce mot par un </supplied>, un <foreign>ña</foreign> dans sa forme simplifiée.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                   <app loc="A32">
-                   <lem><unclear>vraḥ U</unclear>ra</lem>
-                   <note>Si le « vraḥ » paraît assuré, le <foreign>U</foreign> est en revanche très incertain ; il s’agit néanmoins de la moins invraisemblable des hypothèses que nous avons envisagées.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                   <app loc="A33">
-                   <lem>lo<unclear>ña de</unclear><supplied reason="lost">ṅ· ma</supplied>hā<supplied reason="lost">pur</supplied>u<supplied reason="lost">ṣa</supplied> <supplied reason="lost">lo</supplied><unclear>ña vit· n</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>ṁ <gap reason="lost" quantity="10" unit="character"/></lem>
-                   <note>La cassure horizontale de la pierre a provoqué ici la perte d’un nombre important de caractères ; la restitution de <foreign>mahāpuruṣa</foreign> peut sembler un peu audacieuse, mais la forme du <foreign>u</foreign> de <foreign>ru</foreign> est caractèristique pour cette consonne dans cette inscription, et ce qui reste des parties supérieures des autres caractères autorise cette hypothèse <supplied reason="explanation">notamment les cheveux du <foreign>pu</foreign> et du <foreign>ṣa</foreign></supplied>. On notera que mahapurusa apparaît dans l’inscription K. 177 au XIII-XIVe <foreign>śaka</foreign> <supplied reason="explanation">l. 21, 24, 27 ; IC VII, 38</supplied>.</note>
+                   <lem></lem>
+                   <note></note>
                </app>
                   <app loc="A34">
-                     <lem>r̥ta naṁ</lem>
-                     <note>Le caractère <foreign>r̥</foreign> indépendant est tellement rare que les lapicides semblent avoir usé de plusieurs formes différentes.</note>
+                     <lem></lem>
+                     <note></note>
                   </app>
                   <app loc="A36">
-                     <lem>l<choice><sic>o</sic><corr>e</corr></choice> khyal·</lem>
-                     <note>On notera que le dignitaire suivant, également un Kaṁsteṅ, est qualifié par l’expression <foreign>karoṁ khyal·</foreign>, « le Nord ».</note>
+                     <lem></lem>
+                     <note></note>
                   </app>
                   <app loc="A44">
-                     <lem>lās·</lem>
-                     <note>Ce nom est écrit <foreign>las</foreign> dans toutes les autres occurrences de cette inscription <supplied reason="explanation">A, l. 40, 42, 44</supplied>.</note>
+                     <lem></lem>
+                     <note></note>
                   </app>
                   <app loc="A48">
-                     <lem>nārāya<unclear>na</unclear></lem>
-                     <note>Ce nom est écrit <foreign>narāyana</foreign> dans toutes les autres occurrences de cette inscription <supplied reason="explanation">face B, l. 2, 6, 8, 10, 12-14, 17-18, 21-30</supplied>.</note>
+                     <lem></lem>
+                     <note></note>
                   </app>
                   <app loc="B6">
-                     <lem>he<supplied reason="lost">ma</supplied><unclear>kā</unclear>ra</lem>
-                     <note>La lecture est très incertaine ; on trouve une occurrence de ce terme dans l’inscription K. 989, A l. 13 <supplied reason="explanation">IC VII, p. 176</supplied>.</note>
+                     <lem></lem>
+                     <note></note>
                   </app>
                   <app loc="B6">
-                     <lem>trva<supplied reason="omitted">c·</supplied> vraḥ</lem>
-                     <note>Correction proposée par Ph. N. Jenner. Il y a un espace entre les <foreign>akṣaras trva</foreign> et <foreign>vra</foreign>, qui plus est dans une portion de la pierre qui à été éraflée plus ou moins superficiellement. On pourra expliquer cet espace en supposant l’éraflure d’un signe de ponctuation originel, ou en supposant que le lapicide a laissé cet espace ouvert à cause des éléments souscrits de l’<foreign>akṣara ppri</foreign> de la ligne précédente. En revanche, l’espace disponible est trop petit pour accueillir l’<foreign>akṣara c·</foreign> manquant.</note>
+                     <lem></lem>
+                     <note></note>
                   </app>
                   <app loc="B11">
-                     <lem>qnak t<choice><sic>·</sic><corr>a</corr></choice></lem>
-                     <note>on retrouve cette usage à plusieurs reprises dans l’inscription K. 1186 <supplied reason="explanation"><foreign>jvan t·</foreign>, face B, l. 6, 12, par exemple</supplied>. Le <foreign>virāma</foreign> semble alors étrangement s’appliquer à la première consonne et non à la souscrite l faut alors peut-être lire <foreign>qnak· ta</foreign> et <foreign>jvan· ta</foreign>.</note>
+                     <lem></lem>
+                     <note></note>
                   </app>
                   <app loc="B15">
-                     <lem>mān·<lb n="B15"/>mān·</lem>
-                     <note>Le deuxième <foreign>mān·</foreign> est vraisemblablement repris ici par dittographie.</note>
+                     <lem></lem>
+                     <note></note>
                   </app>
                   <app loc="B16">
-                     <lem>viṣna</lem>
-                     <note>Le texte porte ici sans nul doute <foreign>viṣna</foreign>. Dans l’impossibilité de vérifier nos lectures sur la pierre, il nous accepter un certain nombre de cas où le doute entre <foreign>viṣnu</foreign> et <foreign>viṣna</foreign> est permis.</note>
+                     <lem></lem>
+                     <note></note>
                   </app>
                   <app loc="B17">
-                     <lem><g type="circleTarget">.</g> <num value="948"><unclear>9</unclear>48</num></lem>
-                     <note>L’espace disponible entre le fleuron et le 9 pourrait suggérer la présence d’un deuxième double <foreign>daṇḍa</foreign>. Par ailleurs, la moitié gauche du 9 a disparu dans l’éclat vertical présent sur l’essentiel de la stèle.</note>
+                     <lem></lem>
+                     <note></note>
                   </app>
                </listApp>         
-         </div>
+         </div> -->
             <div type="translation" xml:lang="fra" source="bib:Griffiths+Soutif2008-2009_01">
                 <p n="A1-4">En 958 <foreign>śaka</foreign>, sixième <supplied reason="subaudible">jour</supplied> de la quinzaine sombre d’<foreign>Āṣāḍha</foreign>, un samedi, le Vraḥ Kamrateṅ Qañ Śrī Narendravarman du <foreign>sruk</foreign> de Danlāṅ, chef principal des cuisiniers, informa humblement Sa Majesté par succession matrilinéaire Śrī Sūryavarmadeva : il y a une terre à l’ouest ...ra, achetée <supplied reason="explanation"><foreign>duñ</foreign></supplied> aux membres du Varṇāśrama, où <supplied reason="explanation"><foreign>ta gi</foreign></supplied> a été fondé un sruk <supplied reason="subaudible">et</supplied> installé le V. K. A. Śivaliṅga. Elle a été donnée <supplied reason="explanation"><foreign>qoy</foreign></supplied> au Loñ Śrīviṣṇu et à la Teṅ Vija, <supplied reason="subaudible">mes</supplied> enfants, de la corporation des cuisiniers du sruk de Saṅvey. <supplied reason="subaudible">Je</supplied> <supplied reason="explanation">Narendravarman</supplied> demande que <supplied reason="subaudible">cette terre</supplied> constitue une faveur royale de S. M. par succession matrilinéaire au bénéfice du Loñ Śrīviṣṇu et de la Teṅ Vija.</p>
                <p n="A4-5">Il y eut un édit royal de S. M. par succession matrilinéaire, transmettant l’ordre qu’elle constitue une faveur conformément à la requête de Narendravarman <supplied reason="subaudible">et</supplied> ordonnant à des présidents de l’assemblée <supplied reason="explanation">royale</supplied> d’aller ériger des bornes <supplied reason="subaudible">et</supplied> une <supplied reason="explanation" cert="low">la présente</supplied> inscription qui fasse de <supplied reason="explanation"><foreign>Oy jā</foreign></supplied> <supplied reason="subaudible">la terre</supplied> Sa <supplied reason="explanation">Añ</supplied> faveur au bénéfice de Śrīviṣṇu et de Vija.</p>
@@ -265,8 +287,33 @@
                <p n="B27-28">Déclaration du Loñ Vraḥ de Vnur Aṃvi : cette terre a été vendue par le Loñ Nārāyaṇa au M. Kh. de Danlāṅ ; terre du Loñ Nārāyaṇa, héritée de sa lignée, il n’y eut jamais de discussion.</p>
                <p n="B29-30">Déclaration du Loñ principal, appelé Loñ Āditya : cette terre que le Loñ Nārāyaṇa a vendue au M. Kh. de Danlāṅ, la terre du Loñ Nārāyaṇa, a été donnée par mes ancêtres au <gap reason="ellipsis"/><note>The passage is illegible.</note> de Loñ Nārāyaṇa. Le droit exclusif est <supplied reason="subaudible">au</supplied> Loñ Nārāyaṇa, depuis longtemps. Défense pour nous de contester.</p>
             </div>       
-         <!-- <div type="commentary">
-         </div> -->
+         <div type="commentary">
+            <p n="A1">A propos du terme <foreign>ṣaṣṭhi</foreign>, la distinction <foreign>i</foreign>/<foreign>ī</foreign> postconsonantique ne semble pas être respectée dans cette inscription ; on translittérera partout <foreign>i</foreign>.</p>
+         <p n="A5">L’orthographe <foreign>kuṭi</foreign> est utilisée à la ligne 19 de la face A ; dans toutes les autres occurrences, l’inscription donne <foreign>kuti</foreign>.</p>
+         <p n="A6">A propos du terme <foreign>dau</foreign>, seule la partie gauche de la voyelle est encore visible, mais cette restitution nous paraît vraisemblable au vu du contexte, et du fait qu’on retrouve la même séquence ci-dessous <supplied reason="explanation">face A, l. 43</supplied>, <foreign>dval· vraḥ karuṇā dau Oy· grāmavr̥ddha</foreign>.</p>
+         <p n="A7">La lecture kravo est certaine, ici comme à la ligne suivante, mais le kaṁsteṅ· travāṅ· krave <supplied reason="explanation">« le kaṁsteṅ du Trapéang des crocodiles »</supplied> qui est mentionné à la ligne 37 de la face A est sans aucun doute le même dignitaire.</p>
+         <p n="A8">A propos du terme <foreign>pat</foreign>, le <foreign>pa</foreign> n’est pas absolument certain, mais nous préférons cette lecture à d’autres possibilités telle <foreign>mat</foreign>.</p>
+         <p n="A14">On pourrait avoir un léger doute sur le chiffre 20, mais le total donné juste dessous <supplied reason="explanation"><foreign>canlyak</foreign>· 40 <foreign>yau</foreign> 5</supplied> semble confirmer notre lecture.</p>
+         <p n="A18">Une éraflure de la pierre dans <foreign>sabhāpati</foreign>, a provoqué un espace vide entre <foreign>sa</foreign> et <foreign>bhā</foreign>.</p>
+         <p n="A19">A propos du terme <foreign>jayendropakalpa</foreign>, une éraflure de la pierre a provoqué un espace vide avant <foreign>ndro</foreign>. De plus, il semble que le lapicide ait oublié de compléter le <foreign>pa</foreign> dans <foreign>jayendropakalpa</foreign>, à moins qu’elle n’ait simplement disparue dans une éraflure.</p>
+         <p n="A22">Il s’agit vraisemblablement d’une variante de <foreign>daṅdrāṅ</foreign>, « herbe des lieux inondés, Polygonum barbatum » <supplied reason="explanation">Pou 2004, s.v., p. 244</supplied>. On connaît d’autres exemples de toponymes utilisant ce nom : <foreign>sruk chok daṅdrāṅ</foreign>, « commune du bosquet de daṅdrāṅ » <supplied reason="explanation">K. 467, l. 13, 16 ; IC III, p. 217</supplied>.</p>
+         <p n="A23">A propos du terme <foreign>loña</foreign>, l’usage de la forme simplifiée du <foreign>ña</foreign>, qui apparaît ici pour la première fois, est assez fréquent dans cette inscription à partir de la 23e ligne. Le fait qu’ici, il ne soit jamais combiné au <foreign>virāma</foreign> pourrait laisser penser que le signe correspond à <foreign>ñ</foreign>·. Cependant, cette combinaison existe notamment dans les inscriptions K. 1186 <supplied reason="explanation">A, l. 3, khloñ· ; Estampage EFEO n. 1684</supplied> et K. 1253 <supplied reason="explanation">l. 12, <foreign>Añ</foreign>· ; estampage EFEO n. 1669</supplied>. Nous ne distinguerons pas ici les deux allographes de <foreign>ña</foreign>.</p>
+        <p n="A24">A propos du terme <foreign>janaputra</foreign>, la pierre, légèrement éraflée au-dessus de l’élément <foreign>ja</foreign>, permettrait aussi la lecture <foreign>jaṁna</foreign>, mais ceci ne ferait pas sens.</p>
+        <p n="A25">A propos du terme <foreign>cās</foreign>, le début de la ligne n’est pas justifié. Noter que la l. 27 de la face A montre la lecture qaṁcāsa dans un contexte identique ; faute de place, le lapicide aura peut-être choisi ici de mettre seulement <foreign>cā</foreign> dans la marge, et non <foreign>Aṁcā</foreign>, en notant qu’il avait oublié des <foreign>akṣaras</foreign> devant <foreign>s</foreign>·.</p>
+        <p n="A32">Pour être précis, en première ou deuxième position après le <foreign>k</foreign>· perdu de <foreign>sruk</foreign>·, on distingue une consonne à <foreign>v</foreign> souscrit et, juste avant le <foreign>lo</foreign> de <foreign>loñ</foreign>· <supplied reason="explanation">peut-être séparé de ce mot par un </supplied>, un <foreign>ña</foreign> dans sa forme simplifiée.</p>
+         <p n="A32">A propos du terme <foreign>vraḥ Ura</foreign>, si le « vraḥ » paraît assuré, le <foreign>U</foreign> est en revanche très incertain ; il s’agit néanmoins de la moins invraisemblable des hypothèses que nous avons envisagées.</p>
+         <p n="A33">La cassure horizontale de la pierre a provoqué ici la perte d’un nombre important de caractères ; la restitution de <foreign>mahāpuruṣa</foreign> peut sembler un peu audacieuse, mais la forme du <foreign>u</foreign> de <foreign>ru</foreign> est caractèristique pour cette consonne dans cette inscription, et ce qui reste des parties supérieures des autres caractères autorise cette hypothèse <supplied reason="explanation">notamment les cheveux du <foreign>pu</foreign> et du <foreign>ṣa</foreign></supplied>. On notera que mahapurusa apparaît dans l’inscription K. 177 au XIII-XIVe <foreign>śaka</foreign> <supplied reason="explanation">l. 21, 24, 27 ; IC VII, 38</supplied>.</p>
+         <p n="A34">A propos du terme <foreign>r̥ta naṁ</foreign>, le caractère <foreign>r̥</foreign> indépendant est tellement rare que les lapicides semblent avoir usé de plusieurs formes différentes.</p>
+         <p n="36">On notera que le dignitaire suivant, également un Kaṁsteṅ, est qualifié par l’expression <foreign>karoṁ khyal·</foreign>, « le Nord ».</p>
+         <p n="A44">A propos du terme <foreign>lās</foreign>, ce nom est écrit <foreign>las</foreign> dans toutes les autres occurrences de cette inscription <supplied reason="explanation">A, l. 40, 42, 44</supplied>.</p>
+         <p n="A48">Ce nom est écrit <foreign>narāyana</foreign> dans toutes les autres occurrences de cette inscription <supplied reason="explanation">face B, l. 2, 6, 8, 10, 12-14, 17-18, 21-30</supplied>.</p>
+         <p n="B6">A propos du terme <foreign>hemakāra</foreign>, la lecture est très incertaine ; on trouve une occurrence de ce terme dans l’inscription K. 989, A l. 13 <supplied reason="explanation">IC VII, p. 176</supplied>.</p>
+         <p n="B6">Correction proposée par Ph. N. Jenner. Il y a un espace entre les <foreign>akṣaras trva</foreign> et <foreign>vra</foreign>, qui plus est dans une portion de la pierre qui à été éraflée plus ou moins superficiellement. On pourra expliquer cet espace en supposant l’éraflure d’un signe de ponctuation originel, ou en supposant que le lapicide a laissé cet espace ouvert à cause des éléments souscrits de l’<foreign>akṣara ppri</foreign> de la ligne précédente. En revanche, l’espace disponible est trop petit pour accueillir l’<foreign>akṣara c·</foreign> manquant.</p>
+         <p n="B11">A propos du terme <foreign>qnak ta</foreign>, on retrouve cette usage à plusieurs reprises dans l’inscription K. 1186 <supplied reason="explanation"><foreign>jvan t·</foreign>, face B, l. 6, 12, par exemple</supplied>. Le <foreign>virāma</foreign> semble alors étrangement s’appliquer à la première consonne et non à la souscrite l faut alors peut-être lire <foreign>qnak· ta</foreign> et <foreign>jvan· ta</foreign>.</p>
+         <p n="B15">Le deuxième <foreign>mān·</foreign> est vraisemblablement repris ici par dittographie.</p>
+         <p n="B16">Le texte porte ici sans nul doute <foreign>viṣna</foreign>. Dans l’impossibilité de vérifier nos lectures sur la pierre, il nous accepter un certain nombre de cas où le doute entre <foreign>viṣnu</foreign> et <foreign>viṣna</foreign> est permis.</p>
+         <p n="B17">L’espace disponible entre le fleuron et le 9 pourrait suggérer la présence d’un deuxième double <foreign>daṇḍa</foreign>. Par ailleurs, la moitié gauche du 9 a disparu dans l’éclat vertical présent sur l’essentiel de la stèle.</p>
+         </div>
         <div type="bibliography">
           <p>Edited by Arlo Griffiths and Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Griffiths+Soutif2008-2009_01"/><citedRange unit="page">37-53</citedRange></bibl>) with a French translation.</p>
 	 <listBibl type="primary">
