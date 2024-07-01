@@ -144,7 +144,7 @@
 |K.	135 |kuch |done |Coedes 1905|
 |K.	136 |# |# |#|
 |K.	137 |kuch | done |IC II|
-|K.	138 |kuch |pending |IC V|
+|K.	138 |kuch |done |IC V|
 |K.	139 |chch |done |IC III|
 |K.	140 |kuch | done |ISC|
 |K.	141 |# |# |#|
@@ -519,7 +519,7 @@ K.	294 |# |# |#|
 |K.	439-2 |kuch |done |IC IV|
 |K.	440 |kuch |done |IC IV|
 |K.	441 |chch |done |IC IV|
-|K.	442 |kuch |pending |IC IV|
+|K.	442-1 |kuch |done |IC IV|
 |K.	443 |# |# |#|
 |K.	444 |sapi |done ||C II |
 |K.	445 |# |# |#|
@@ -712,8 +712,8 @@ K.	294 |# |# |#|
 |K.	612 |chch |done |IC IV, Clouet et al.|
 |K.	613 |# |# |#|
 |K.	614 |kuch |done |unpublished|
-|K.	615 |# |# |#|
-|K.	616 |# |# |#|
+|K.	615 |kuch |done |unpublished|
+|K.	616 |kuch |done |unpublished|
 |K.	617 |# |# |#|
 |K.	618 |# |# |#|
 |K.	619 |# |# |#|
@@ -832,7 +832,7 @@ K.	294 |# |# |#|
 |K.	730 |# |# |#|
 |K.	731 |sapi |pending |JFCA 9B|
 |K.	732 |# |# |#|
-|K.	733 |kuch |pending |IC I|
+|K.	733 |kuch |done |IC I|
 |K.	734 |kuch |pending |unpublished|
 |K.	735 |kuch |done |IC V|
 |K.	736 |chch |pending |IC V|
@@ -856,7 +856,7 @@ K.	294 |# |# |#|
 |K.	754 |# |# |#|
 |K.	755 |kuch |done |IC VI|
 |K.	756 |kuch |done |IC VI|
-|K.	757 |# |# |#|
+|K.	757 |kuch |done |IC VII|
 |K.	758 |# |# |#|
 |K.	759 |kuch |done |IC VI|
 |K.	760 |kuch |done |IC V|
@@ -917,7 +917,7 @@ K.	294 |# |# |#|
 |K.	813 |# |# |#|
 |K.	814 |# |# |#|
 |K.	815 |chch |done |Clouet et al (forthc.)|
-|K.	816 |# |# |#|
+|K.	816 |kuch |done |IC VI|
 |K.	817 |# |# |#|
 |K.	818 |# |# |#|
 |K.	819 |# |# |#|
@@ -1386,7 +1386,7 @@ K.	294 |# |# |#|
 |K.	1247 |kuch |done |Pou NIC II-III 2001|
 |K.	1248 |kuch |done |Soutif 2009|
 |K.	1249 |chch |pending |unpublished|
-|K.	1250 |chch |pending |unpublished|
+|K.	1250 |kuch |done |unpublished|
 |K.	1251 |kuch |done|Soutif 2009|
 |K.	1252 |# |# |#|
 |K.	1253 |kuch |done|Soutif 2009|
@@ -1475,7 +1475,7 @@ K.	294 |# |# |#|
 |K.	1334 |# |# |#|
 |K.	1335 |# |# |#|
 |K.	1336 |# |# |#|
-|K.	1337 |kuch |pending |NIC II-III|
+|K.	1337 |kuch |done |NIC II-III|
 |K.	1338 |kuch |done |unpublished|
 |K.	1339 |kuch |done |unpublished|
 |K.	1340 |kuch |done |unpublished|
@@ -1555,7 +1555,7 @@ K.	294 |# |# |#|
 |K.	1414 |# |# |#|
 |K.	1415 |sapi |pending |unpublished|
 |K.	1416 |kuch |done |Hun 2018|
-|K.	1417 |kuch |pending |Goodall et al forthcoming|
+|K.	1417 |kuch |done |Goodall et al forthcoming|
 |K.	1418 |# |# |#|
 |K.	1419 |kuch |done |Chhom 2019|
 |K.	1420 |# |# |#|
@@ -1605,7 +1605,7 @@ K.	294 |# |# |#|
 |K.	1461 |# |# |#|
 |K.	1462 |kuch |done |Chhom et al in preperation|
 |K.	1463 |# |# |#|
-|K.	1464 |# |# |#|
+|K.	1464 |kuch |done |NIC IV|
 |K.	1465 |kuch | done |Unpublished|
 |K.	1466 |# |# |#|
 |K.	1467 |# |# |#|
@@ -1667,7 +1667,7 @@ K.	1522 |kuch |done |Kongkaeo Wiraprachak 2553 BE = 2010 CE|
 K.	1523 |kuch |pending |unpublished|
 K.	1524 |kuch |done |Cha-em Kaeokhlai 2529, 2531 BE = 1986, 1988 CE|
 K.	1525 |chch |done |unpublished|
-K.	1526 |# |# |#|
+K.	1526 |kuch |done |unpublished|
 K.	1527 |# |# |#|
 K.	1528 |# |# |#|
 K.	1529 |# |# |#|
