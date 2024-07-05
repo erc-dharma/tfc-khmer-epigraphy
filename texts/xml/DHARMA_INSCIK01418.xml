@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb from Tuol Prasat Balang (K. 1418), 7th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01418</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-07-05" status="draft">Initial encoding of the inscription</change>
+         </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83211">
+<lg n="1" met="anuṣṭubh">
+    <l n="a"><lb n="1"/><milestone unit="column" n="a"/>jayaty anupameya-rddhi<milestone unit="column" n="b" break="no"/>r</l>
+    <l n="b">īśānaś candra-śaikharaḥ</l>
+    <l n="c"><lb n="2"/><milestone unit="column" n="a"/>Anādi tanubhir vviśva<milestone unit="column" n="b" break="no"/>m</l>
+    <l n="d">aṣṭābhir yyasya tantritam·</l>
+</lg>
+        <lg n="2" met="anuṣṭubh">
+    <l n="a"><lb n="3"/><milestone unit="column" n="a"/>sunīti-<unclear>pr̥thu</unclear>-śaktibhyāṁ</l>
+    <l n="b"><milestone unit="column" n="b"/>vijityāśeṣa-śātravān·</l>
+    <l n="c"><lb n="4"/><milestone unit="column" n="a"/><unclear>catu</unclear>rṇṇāṁ ga<unclear>ṇa</unclear>-varggāṇāṁ</l>
+    <l n="d"><milestone unit="column" n="b"/>santatiṁ prakaroti yaḥ</l>
+</lg> 
+                   <lg n="3" met="anuṣṭubh">
+    <l n="a"><lb n="5"/><milestone unit="column" n="a"/>ya<unclear>s</unclear>yāṅghri-yugalāmbhojaṁ</l>
+    <l n="b"><milestone unit="column" n="b"/>nakhak<unclear>e</unclear>sara-śobhitam·</l>
+    <l n="c" enjamb="yes"><lb n="6"/><milestone unit="column" n="a"/>sadāvanata-sāmanta</l>
+    <l n="d"><milestone unit="column" n="b"/>-mauli-ṣaṭ-pada-sevitam·</l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+    <l n="a"><lb n="7"/><milestone unit="column" n="a"/>Amo<unclear>gha</unclear>-<supplied reason="lost">k</supplied>ī<unclear>r</unclear>t<unclear>t</unclear>ir a<unclear>ma</unclear>lā</l>
+    <l n="b"><milestone unit="column" n="b"/>diganta-ravi-sarppiṇī</l>
+    <l n="c"><lb n="8"/><milestone unit="column" n="a"/>Indor jy<unclear>o</unclear>tsne<unclear>v</unclear>a <unclear>ka</unclear>rajā</l>
+    <l n="d"><milestone unit="column" n="b"/>kavibhir yyasya kīrtyate</l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+    <l n="a"><lb n="9"/><milestone unit="column" n="a"/>śrīśānavarmma-devasya</l>
+    <l n="b"><milestone unit="column" n="b"/>śrīnivāsasya vikramāt·</l>
+    <l n="c"><lb n="10"/><milestone unit="column" n="a"/>Ājñay<unclear>ādhi</unclear><supplied reason="lost">k</supplied><unclear>r̥ta</unclear>s tasya</l>
+    <l n="d"><milestone unit="column" n="b"/>puṇyānāṁ pālanāya yaḥ</l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+    <l n="a"><lb n="11"/><milestone unit="column" n="a"/>śrīgambhīreśvara<unclear>syaiva</unclear></l>
+    <l n="b"><milestone unit="column" n="b"/>dakṣiṇā<unclear>śā</unclear>-mukhasya yaḥ</l>
+    <l n="c"><lb n="12"/><milestone unit="column" n="a"/>tantrādhyakṣeṣv adhipati<milestone unit="column" n="b" break="no"/>ẖ</l>
+    <l n="d">kuśale<unclear>ṣv eva</unclear> karmmasu</l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+    <l n="a"><lb n="13"/><milestone unit="column" n="a"/><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg><unclear cert="low">nma</unclear>no gurūṇāñ ca</l>
+    <l n="b"><milestone unit="column" n="b"/>bhave bhakti-nivandhanam·</l>
+    <l n="c"><lb n="14"/><milestone unit="column" n="a"/>sadānusmr̥ti-yogaś ca</l>
+    <l n="d"><milestone unit="column" n="b"/>yasyeṣṭañ janma-janmasu</l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+    <l n="a"><lb n="15"/><milestone unit="column" n="a"/><unclear>ten</unclear><supplied reason="lost">ā</supplied><unclear>t</unclear>ra <unclear>yoginā</unclear> nāmnā</l>
+    <l n="b"><milestone unit="column" n="b"/>vidyācan<unclear>dre</unclear>na yajvanā</l>
+    <l n="c"><lb n="16"/><milestone unit="column" n="a"/>sa śrīpra<unclear>bhā</unclear>saso<unclear>meśo</unclear></l>
+    <l n="d"><milestone unit="column" n="b"/>vidhinā supratiṣṭhitaḥ</l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+    <l n="a"><lb n="17"/><milestone unit="column" n="a"/>yasya <unclear>bhū</unclear>m<unclear>i-pradeśe</unclear> 'smin·</l>
+    <l n="b"><milestone unit="column" n="b"/>sthāpito bhagavān iyam·</l>
+    <l n="c"><lb n="18"/><milestone unit="column" n="a"/>tenottara-dig-āsyena</l>
+    <l n="d"><milestone unit="column" n="b"/>śambhunā sthira-<unclear>bhoga</unclear>tām·</l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+    <l n="a"><lb n="19"/><milestone unit="column" n="a"/>tenāyaṃ <unclear>bhu</unclear><supplied reason="lost">vam</supplied> ānīto</l>
+    <l n="b"><milestone unit="column" n="b"/>yajvanā kr̥ta-vedinā</l>
+    <l n="c"><lb n="20"/><milestone unit="column" n="a"/>sa tasmai prativaddho ya<milestone unit="column" n="b" break="no"/>n</l>
+    <l n="d">devas tantrānuvandhakaḥ</l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+    <l n="a"><lb n="21"/><milestone unit="column" n="a"/>tat-saparyyāvidhi-sthityai</l>
+    <l n="b"><milestone unit="column" n="b"/>tenāsmai yan niveditam·</l>
+    <l n="c"><lb n="22"/><milestone unit="column" n="a"/>go-kṣetra-dāsādi-dhanaṁ</l>
+    <l n="d"><milestone unit="column" n="b"/>saṁhartuṁ yas tad icchati</l>
+</lg>
+                   <lg n="12" met="anuṣṭubh">
+    <l n="a"><lb n="23"/><milestone unit="column" n="a"/>Avicī-yātanāṁ ghorāṁ</l>
+    <l n="b"><milestone unit="column" n="b"/>sa <unclear>yāyā</unclear>t puruṣādhamaḥ</l>
+    <l n="c"><lb n="24"/><milestone unit="column" n="a"/>sa-putra-pautra-santāno</l>
+    <l n="d"><milestone unit="column" n="b"/>na <unclear>bh</unclear>ū<unclear>yo ja</unclear>n<unclear>ma</unclear> lapdhavān·</l>
+</lg>
+</div>
+<!-- <div type="apparatus">
+               <listApp>
+                  <app loc="2">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1937-1966_01"></rdg>
+                  </app>
+               </listApp>         
+         </div> -->
+         <div type="translation" resp="part:dogo">
+ 	<p rend="stanza" n="1">Victorious is He with the moon diadem, of incomparable power, the Lord, whose eight forms control <supplied reason="explanation"><foreign>tantritam</foreign></supplied> the beginningless universe !</p>
+            <p rend="stanza" n="2">Having conquered all his enemies by means of his shrewd polity <supplied reason="explanation"><foreign>sunīti</foreign>°</supplied> and broad-reaching power <supplied reason="explanation">°<foreign>pr̥thuśakti</foreign>°</supplied>, he who fosters <supplied reason="explanation"><foreign>prakaroti</foreign></supplied> the progeny of <supplied reason="subaudible">all</supplied> four groups of society <supplied reason="explanation"><foreign>gaṇavargāṇām</foreign></supplied>,</p>
+            <p rend="stanza" n="3">the lotus of whose pair of feet, decorated with the filaments that were the toenails, was waited upon by the bees that were the diadems of constantly prostrating vassal kings,</p>
+            <p rend="stanza" n="4">whose <supplied reason="explanation"><foreign>yasya</foreign></supplied> unfailing fame <supplied reason="explanation"><foreign>amoghakīrtiḥ</foreign></supplied>, pure <supplied reason="explanation"><foreign>amalā</foreign></supplied>, spreading out in all directions <supplied reason="explanation"><foreign>digantaravisarpiṇī</foreign></supplied>, like the moon's moonlight born of its rays <seg rend="pun">but emanating from his hands</seg> <supplied reason="explanation"><foreign>karajā</foreign></supplied>, is praised <supplied reason="explanation"><foreign>kīrtyate</foreign></supplied> by poets <supplied reason="explanation"><foreign>kavibhiḥ</foreign></supplied>,</p>
+            <p rend="stanza" n="5">- by the command <supplied reason="explanation"><foreign>ājñayā</foreign></supplied> of that Śrī-Īśānavarmadeva, a <supplied reason="subaudible">veritable</supplied> Viṣṇu <seg rend="pun">a repository of splendour</seg> <supplied reason="explanation"><foreign>śrīnivāsasya</foreign></supplied> because of his broad stride <seg rend="pun">because of his valour</seg> <supplied reason="explanation"><foreign>vikramāt</foreign></supplied>, there was a person who <supplied reason="explanation"><foreign>yaḥ</foreign></supplied> was appointed <supplied reason="explanation"><foreign>adhikr̥taḥ</foreign></supplied>, for the protection <supplied reason="explanation"><foreign>pālanāya</foreign></supplied> of his merit<supplied reason="subaudible">orious foundation</supplied>s <supplied reason="explanation"><foreign>puṇyānāṁ</foreign></supplied>.</p>
+            <p rend="stanza" n="6">He who <supplied reason="explanation"><foreign>yaḥ</foreign></supplied> was the overlord <supplied reason="explanation"><foreign>adhipatiḥ</foreign></supplied> of administrative officers <supplied reason="explanation"><foreign>tantrādhyakṣeṣu</foreign></supplied> for the South-facing ŚrīGambhīreśvara, specifically <supplied reason="explanation"><foreign>eva</foreign></supplied> in respect of auspicious <supplied reason="explanation"><foreign>kuśaleṣu</foreign></supplied> deeds <supplied reason="explanation"><foreign>karmasu</foreign></supplied>.</p>
+            <p rend="stanza" n="7">For whom, what he most desired <supplied reason="explanation"><foreign>iṣṭaṁ</foreign></supplied>, in birth after birth <supplied reason="explanation"><foreign>janmajanmasu</foreign></supplied>, was X… towards his gurus, firm attachment to devotion <supplied reason="explanation"><foreign>bhaktinibandhanam</foreign></supplied> towards Śiva <supplied reason="explanation"><foreign>bhave</foreign></supplied>, and constant immersion in recollection <supplied reason="subaudible">of Śiva</supplied> <supplied reason="explanation"><foreign>sadānusmr̥tiyogaḥ</foreign></supplied>,</p><!-- kuch: The sentence is not complete.-->
+            <p rend="stanza" n="8">In this place <supplied reason="explanation"><foreign>atra</foreign></supplied> by that <supplied reason="explanation"><foreign>tena</foreign></supplied> yogin, by name Vidyācandra, the founder <supplied reason="explanation"><foreign>yajvanā</foreign></supplied>, this <supplied reason="subaudible">god</supplied> Śrī Prabhāsasomeśa was correctly installed <supplied reason="explanation"><foreign>supratiṣṭhitaḥ</foreign></supplied> in accordance with <supplied reason="subaudible">scriptural</supplied> injunctions <supplied reason="explanation"><foreign>vidhinā</foreign></supplied>.</p>
+            <p rend="stanza" n="9">May the Bhagavān <supplied reason="subaudible">Viṣṇu</supplied> installed <supplied reason="subaudible">here</supplied> in this same piece of ground of Him <supplied reason="subaudible">viz. Prabhāsasomeśa</supplied> <supplied reason="explanation"><foreign>yasya</foreign></supplied> go to a relationship of fixed <supplied reason="subaudible">shared</supplied> revenue with that same Śambhu <supplied reason="subaudible">namely Prabhāsasomeśa</supplied>, who faces North <supplied reason="subaudible" cert="low">with respect to Gambhīreśvara</supplied>.</p>
+            <p rend="stanza" n="10">By that same <supplied reason="explanation"><foreign>tena</foreign></supplied> founder <supplied reason="explanation"><foreign>yajvanā</foreign></supplied>, who was conscious of favours rendered to him <supplied reason="explanation"><foreign>kr̥tavedinā</foreign></supplied>, this <supplied reason="explanation"><foreign>ayam</foreign></supplied> deity <supplied reason="explanation"><foreign>devaḥ</foreign></supplied> Tantrānubandhaka <seg rend="pun">who protects the administration</seg> <supplied reason="explanation"><foreign>tantrānubandhakaḥ</foreign></supplied> was brought <supplied reason="explanation"><foreign>ānītaḥ</foreign></supplied> to the earth <supplied reason="explanation"><foreign>bhuvam</foreign></supplied> here and was attached <supplied reason="subaudible" cert="low">fiscally</supplied> <supplied reason="explanation"><foreign>pratibaddhaḥ</foreign></supplied> to that <supplied reason="explanation"><foreign>tasmai</foreign></supplied> <supplied reason="subaudible" cert="low">other deity</supplied>.</p>
+            <p rend="stanza" n="11-12">Whoever should wish to take the wealth of cattle, fields, slaves and so forth that he given to this <supplied reason="subaudible">god</supplied> for the stable maintenance of the performance of worship of that <supplied reason="subaudible">Śiva</supplied>, may that worst of men go to the terrible punishment of <supplied reason="subaudible">the hell called</supplied> Avīcī, along with his line of sons and grandsons, while never attaining <supplied reason="subaudible">human</supplied> birth again.</p>
+         </div>
+         <!-- <div type="commentary">
+         </div> -->
+        <div type="bibliography">
+          <p>Edited preliminarily by Dominic Goodall with an English from the photographs AMPP 007673.jpg, AMPP 007674.jpg and AMPP 007527.jpg.</p>
+	 
+              
+        </div>
+        </body>
+    </text>
+</TEI>
