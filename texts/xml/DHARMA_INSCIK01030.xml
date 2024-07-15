@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stone slab from Prasat Ballang (K. 1030), 7th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>      
+               <persName ref=" http://viaf.org/viaf/3938278">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01030</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-07-15" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83211">
+<p>
+   <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">k·</supplied> <gap reason="lost" quantity="3" unit="character"/>tt<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> <unclear>Āy</unclear><supplied reason="lost">·</supplied> <unclear>ta</unclear> vraḥ kamratāṅ· Añ· śrī pra<lb 
+      n="2" break="no"/>bhāsasomeśvara <g type="dotMid">.</g> kñuṁ ghoda vā gmo <num value="1"><g type="numeral">I</g></num> vā tpit· <num value="1"><g type="numeral">I</g></num> va dharmmarakṣa <num value="1"><g type="numeral">I</g></num> va dharmmapāla <num value="1"><g type="numeral">I</g></num> <g type="dotMid">.</g>
+   <lb n="3"/>ge <num value="4"><g type="numeral">IIII</g></num> kñuṁ ta kantai ku dey· <num value="1"><g type="numeral">I</g></num> ku tvis· <num value="1"><g type="numeral">I</g></num> ku kan·Ās· <num value="1"><g type="numeral">I</g></num> qme krau Aṁve <num value="1"><g type="numeral">I</g></num> ge <num value="4"><g type="numeral">IIII</g></num> <g type="dotMid">.</g>
+   <lb n="4"/>Aṁnoy· poñ· rudraśāsana Āy· ta vraḥ kantai kloñ· tel· Oy· na <g type="dotMid">.</g><lb 
+      n="5" break="no"/>kka yajamānaṁ ta vraḥ kloñ· qme vrau taṅkar· Añ· <num value="1"><g type="numeral">I</g></num> kloñ· qme vrau jo <g type="dotMid">.</g><lb 
+         n="6" break="no"/>ṅ· <num value="1"><g type="numeral">I</g></num> kloñ· Asaru <num value="1"><g type="numeral">I</g></num> kloñ· yuṅ· <num value="1"><g type="numeral">I</g></num> kñuṁ ta ghoda va kandeṅ· <num value="1"><g type="numeral">I</g></num> va ka<lb 
+      n="7" break="no"/>ntor· <num value="1"><g type="numeral">I</g></num> va niṣkāra <num value="1"><g type="numeral">I</g></num> va kañjāhv· <num value="1"><g type="numeral">I</g></num> va pit· ge <num value="7"><g type="numeral">7</g></num> caṁdak· va knāṅ· <num value="1"><g type="numeral">I</g></num> va <g type="dotMid">.</g>
+   <lb n="8"/>kañcit· <num value="1"><g type="numeral">I</g></num> va kaṁpoñ· <num value="1"><g type="numeral">I</g></num> va kñuṁ vraḥ <num value="1"><g type="numeral">I</g></num> va kalpit· <num value="1"><g type="numeral">I</g></num> va tyāk· <num value="1"><g type="numeral">I</g></num> va stoy· <num value="1"><g type="numeral">I</g></num>
+   <lb n="9"/>ge <num value="7"><g type="numeral">7</g></num> <g type="dotMid">.</g> ta kantaiy· ku kaṁpoñ· <num value="1"><g type="numeral">I</g></num> ku tvau <num value="1"><g type="numeral">I</g></num> ku caṁpeṅ· <num value="1"><g type="numeral">I</g></num> qme liṅau <num value="1"><g type="numeral">I</g></num>
+   <lb n="10"/>ku vrau <num value="1"><g type="numeral">I</g></num> kon· ku Anāda <num value="1"><g type="numeral">I</g></num> ku krau Aṁve <num value="1"><g type="numeral">I</g></num> kon ku ku juṅ· <num value="1"><g type="numeral">I</g></num> vā tvis· <num value="1"><g type="numeral">I</g></num>
+   <lb n="11"/>kon· ku pau si <num value="1"><g type="numeral">I</g></num> ku raṅhvañ· <num value="1"><g type="numeral">I</g></num> kon· ku va can·Er· <num value="1"><g type="numeral">I</g></num> ku kaṁve <g type="dotMid">.</g><lb 
+      n="12" break="no"/>y· <num value="1"><g type="numeral">I</g></num> qme prek· <num value="1"><g type="numeral">I</g></num> qme drahel· <num value="1"><g type="numeral">I</g></num> ku trap· <num value="1"><g type="numeral">I</g></num> ku ckep· <num value="1"><g type="numeral">I</g></num> ku stoy· <num value="1"><g type="numeral">I</g></num>
+   <lb n="13"/>ku smau <g type="dotMid">.</g> piṇ<choice><orig>d</orig><reg>ḍ</reg></choice>a ge <num value="42"><g type="numeral">40</g><g type="numeral">II</g></num> tmur·
+</p>
+                </div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">k·</supplied> <gap reason="lost" quantity="3" unit="character"/>tt<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> <unclear>Āy</unclear><supplied reason="lost">·</supplied> <unclear>ta</unclear></lem>
+                     <rdg source="bib:Pou2001_01"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                     </app>
+                  <app loc="2">
+                     <lem>gmo</lem>
+                     <rdg source="bib:Pou2001_01">kmau</rdg>
+                     </app>
+                  <app loc="5">
+                     <lem>yajamānaṁ</lem>
+                     <rdg source="bib:Pou2001_01">yajamāna</rdg>
+                     </app>
+                  <app loc="5">
+                     <lem>taṅkar·</lem>
+                     <rdg source="bib:Pou2001_01">taṅkur</rdg>
+                     </app>
+                  <app loc="9">
+                     <lem>liṅau</lem>
+                     <rdg source="bib:Pou2001_01">lṅau</rdg> <!-- kuch: It might be a typo. -->
+                     </app>
+                  <app loc="11">
+                     <lem>pau si</lem>
+                     <rdg source="bib:Pou2001_01">pau sai</rdg>
+                     </app>
+                  <app loc="11">
+                     <lem>raṅhvañ·</lem>
+                     <rdg source="bib:Pou2001_01">raṅpvān</rdg>
+                     </app>
+                  <app loc="11">
+                     <lem>va can·Er·</lem>
+                     <rdg source="bib:Pou2001_01">vacan<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                     </app>
+                  <app loc="12">
+                     <lem>drahel·</lem>
+                     <rdg source="bib:Pou2001_01">drahol</rdg>
+                     </app>
+                  <app loc="13">
+                     <lem>piṇ<choice><orig>d</orig><reg>ḍ</reg></choice>a</lem>
+                     <rdg source="bib:Pou2001_01">piṇḍa</rdg>
+                     </app>
+               </listApp>         
+         </div> 
+     <div type="translation" resp="part:kuch">
+          <p n="1-2"><gap reason="lost"/> <supplied reason="subaudible">ériger</supplied> V.K.A. Śrī Prabhāsasomeśvara.</p>
+        <p n="2">Serviteurs ghoda : Vā Kmau, Vā Tpit, Va Dharmarakṣa, Va Dharmapāla ; en tout 4. Servantes: Ku Dey, Ku Tvis, Ku Kan-ās, Me Krau Aṁve ; en tout 4.</p>
+        <p n="3-7">Offrandes de Poñ Rudraśāsana au dieu. Femmes responsables de service présentées au donateur du temple : Kloñ Me Vrau Taṅkur Añ, Kloñ Me Vrau Joṅ, Kloñ Asaru, Kloñ Yuṅ. Serviteurs ghoda : Va Kandeṅ, Va Kantor, Va Niṣkāra, Va Kañjāv, Va Pit : en tout 9.</p>
+        <p n="7-13"><supplied reason="subaudible">Voici</supplied> les caṁdak : Va Knāṅ, Va Kañcit, Va Kaṁpoñ, Va Kñuṁ Vraḥ, Va Kalpit, Va Tyāk, Va Stoy ; en tout 7. Les femmes : Ku Kaṁpoñ, Ku Tvau, Ku Caṁpeṅ, Me Lṅau, Ku Vrau avec 1 fille Ku Anāda, Ku Krau Aṁve avec 1 fille Ku Juṅ, 1 garçon Vā Tvis et 1 fille au sein Ku Sai, Ku Raṅpvān avec 1 fille Ku Vacan-, Ku Kaṁvey, Me Prek, Me Drahol, Ku Trap, Ku Chep, Ku Stoy, Ku Smau.</p>
+        <p n="13">Total de gens : 42. Bœufs.</p>
+ 	  </div> 
+       <div type="commentary">
+          <p>There are traces of <foreign>akṣara</foreign>s before the line 1.</p>
+       </div>
+         <div type="bibliography">
+          <p>Edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">23-24</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom based on the estampage EFEO n. 1297.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Pou2001_01"/><citedRange unit="page">23-24</citedRange>
+    </bibl>
+	    
+  </listBibl>
+              
+        </div>
+        </body>
+    </text>
+</TEI>
