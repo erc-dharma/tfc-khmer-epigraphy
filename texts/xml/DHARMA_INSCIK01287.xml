@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Thalaborivat (K. 1287), 7th-8th centuries CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>      
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/39382787"><!-- kuch: vs viaf? -->
+                  <forename>Sotheara</forename>
+                  <surname>Vong</surname>
+               </persName>
+               <persName ref="part:jues">
+                  <forename>Julia</forename>
+                  <surname>Estève</surname>
+               </persName>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01287</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventh-eighth centuries CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-07-22" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83211">
+<p>
+   <lb n="1"/>Aṁnoy· <unclear>mratā</unclear><supplied reason="lost">ñ·</supplied> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>o<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>smā<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>pa</unclear>ndi<unclear>ta Ai</unclear>
+   <lb n="2"/>ta vraḥ kamratāṅ· Añ· suvarṇṇaliṅga
+   <lb n="3"/><gap reason="lost" quantity="2" unit="character"/><unclear>ya</unclear> raṅga <num value="1"><g type="numeral">I</g></num> vā <unclear>kañcan·</unclear> <num value="1"><g type="numeral">I</g></num> vā dharmma <num value="1"><g type="numeral">I</g></num> vā <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="4"/><gap reason="lost" quantity="1" unit="character"/><unclear>p·</unclear> <num value="1"><g type="numeral">I</g></num> vā ka pliṅ· <num value="1"><g type="numeral">I</g></num> vā An·rok· <num value="1"><g type="numeral">I</g></num> ku ya jā <num value="1"><g type="numeral">I</g></num>
+   <lb n="5"/>ku <unclear>dven·</unclear> <num value="1"><g type="numeral">I</g></num> ku Aṁras· ple <unclear>mar·</unclear> sre Ai caṁkā mā tlo<lb 
+      n="6" break="no"/>ṅ· <num value="10"><g type="numeral">10</g></num> sre Ai <unclear>kaṁdot·</unclear> mā tloṅ· <num value="7"><g type="numeral">7</g></num>7 slā teṁ <num value="200"><g type="numeral">200</g></num> tmur· <num value="20"><g type="numeral">20</g></num>
+   <lb n="7"/>Aṁnoy· pqañ<unclear>·</unclear> rāṁ Ai ta vraḥ kamra<lb 
+      n="8" break="no"/>tāṅ· Añ· śrīcaṇḍīśvara <g type="ddanda">.</g> kośa prak· <num value="1"><g type="numeral">I</g></num>
+   <lb n="9"/>makuṭa <num value="1"><g type="numeral">I</g></num> trīpāda laṅgau <num value="1"><g type="numeral">I</g></num> saṅ·hvār· mās· <num value="1"><g type="numeral">I</g></num> klas·
+   <lb n="10"/>laṅgau <num value="1"><g type="numeral">I</g></num> toṅ· vāy· laṅgau samruk· <num value="2"><g type="numeral">II</g></num> cnā<lb 
+      n="11" break="no"/><unclear>r· dan·huṁ·</unclear> laṅgau <num value="1"><g type="numeral">I</g></num> jagar· laṅgau samruk· <num value="2"><g type="numeral">II</g></num>
+   <lb n="12"/>thās· <num value="1"><g type="numeral">I</g></num> srageḥ samruk· <num value="1"><g type="numeral">I</g></num> bhājana laṅgau <num value="1"><g type="numeral">I</g></num>
+   <lb n="13"/>kñuṁ vraḥ ta si vā kañjai <num value="1"><g type="numeral">I</g></num> vā paroy· <num value="1"><g type="numeral">I</g></num> vā krā<unclear>ṅ</unclear>· <num value="1"><g type="numeral">I</g></num>
+   <lb n="14"/>vā <unclear>t</unclear>eṅ· voṁ sot· <num value="1"><g type="numeral">I</g></num> vā Antis· <num value="1"><g type="numeral">I</g></num> vā kaṁvau <num value="1"><g type="numeral">I</g></num>
+   <lb n="15"/>vā Aras· <num value="1"><g type="numeral">I</g></num> vā tkar· <num value="1"><g type="numeral">I</g></num> vā kaṁdot· <num value="1"><g type="numeral">I</g></num> vā tleṅ· <num value="1"><g type="numeral">I</g></num>
+   <lb n="16"/>ku kañjuṅ· <num value="1"><g type="numeral">I</g></num> ku ye laṅ· <num value="1"><g type="numeral">I</g></num> ku kañcit· <num value="1"><g type="numeral">I</g></num> ku vot· <num value="1"><g type="numeral">I</g></num>
+   <lb n="17"/>ku mān· ra Añ· <num value="1"><g type="numeral">I</g></num> ku ye hvāy· <num value="1"><g type="numeral">I</g></num> ku ye
+   <lb n="18"/>māy· <num value="1"><g type="numeral">I</g></num> ku tpoñ· <num value="1"><g type="numeral">I</g></num> ku skep· <num value="1"><g type="numeral">I</g></num> ku ye Ai
+   <lb n="19"/>sre Ai caṁkā tloṅ· mā gui <num value="21"><g type="numeral">20</g> <g type="numeral">I</g></num> tmur·
+   <lb n="20"/><num value="41"><unclear><g type="numeral">40</g></unclear> <g type="numeral">I</g></num> slā teṁ <num value="201"><g type="numeral">200</g> <g type="numeral">I</g></num> toṅ· <num value="10"><g type="numeral">10</g></num> gui neḥ
+   <lb n="21"/>ti roḥ tel· prativaddha Ai ta vraḥ ka<lb 
+      n="22" break="no"/>mratāṅ· Añ· śrī<unclear>li</unclear>ṅgeśvara <g type="ddanda">.</g> <g type="gomutraFinal">.</g>
+</p>
+                </div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="2">
+                     <lem></lem>
+                     <rdg source="bib:Pou2011_01"></rdg>
+                     <rdg source="bib:Vong2003_01"></rdg>
+                     </app>
+                  
+               </listApp>         
+         </div> 
+  <div type="translation" xml:lang="fra" source="bib:Pou2011_01">
+          <p n="1-6">Offrandes ... à V.K.A. le liṅga d'or, [les serviteurs suivants]: ... raṅga, Vā Kuñjar, Vā Dharma, Vā ...p, Vā Kaṁpleṅ, Vā Anrok; Ku Ya..., Ku ...en, Ku Aṁras ...; la rizière à Caṁkā mesurant 7 tloṅ, la rizière à Dok mesurant 7 tloṅ, 100 aréquiers, 40 bœufs.</p>
+     <p n="7-12">Offrandes de P-Añ Rāṁ à V.K.A. Śrī Caṇḍīśvara : 1 gaine d'argent, 1 diadème, 1 trépied en cuivre, 1 sautoir d'or, 1 klas en cuivre, 2 tloṅ vāy en cuivre repossé, 1 burette de parfum en cuivre, 2 jagar en cuivre repoussé, 1 plateau, 1 srageḥ en repoussé, - grande coupe en cuivre.</p>
+     <p n="13-15">Serviteurs offerts au dieu : Vā Kañjai, Vā Paroy, Vā Krān, Kaṁteṅ Vai Sot, Vā ..., Vā Kaṁvau, Vā Aras, Vā Tkar, Vā Kaṁdot, Vā Tleṅ.</p>
+     <p n="16-18">[Serviteurs] : Ku Kañjuṅ, Ku Ye Lañ, Ku Kahit, Ku Vot, Ku Vānara Añ, Ku Ye Hvāy, Ku Ye Māy, Ku Tpoñ, Ku Skep, Ku Ye Ai.</p>
+     <p n="19-22">Rizière à Caṁkā mesurant 20-1 [tloṅ]; 20 bœufs, 100 aréquiers, 10 cocotiers. Toutes ces personnes attachées à V.K.A. Śrī Rudrāṅgeśvara ...</p>
+ 	  </div>
+       <!-- <div type="commentary">
+          <p></p>
+       </div> -->
+         <div type="bibliography">
+          <p>First edited by Vong Sotheara (<bibl rend="omitname"><ptr target="bib:Vong2003_01"/><citedRange unit="page">167-171</citedRange></bibl>); reedited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2011_01"/><citedRange unit="page">47-51</citedRange></bibl>) with a French translation; reedited here by Julia Estève and Dominique Soutif based on the estampage EFEO n. 1921.</p>
+	 <listBibl type="primary">
+    <bibl n="VS">
+      <ptr target="bib:Vong2003_01"/>
+      <citedRange unit="page">167-171</citedRange>
+    </bibl>
+    <bibl n="SP">
+      <ptr target="bib:Pou2011_01"/>
+      <citedRange unit="page">47-51</citedRange>
+    </bibl>
+  </listBibl>
+              
+        </div>
+        </body>
+    </text>
+</TEI>
