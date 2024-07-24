@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb of Trapeang Thma, Sambor (K. 133-1 = K. 480), 7th century</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/64048594">
+                  <forename>Claude</forename>
+                  <surname>Jacques</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00133-1</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the seventh century.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-02-19" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:00000">
+<p>
+   <lb n="1"/>kñuṁ Aṁnoy· ma<gap reason="lost" quantity="2" unit="character"/>vāhakara <unclear>Ai</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="2"/>saṅ·hvaṅ· <gap reason="lost" quantity="3" unit="character"/> <num value="1"><g type="numeral">I</g></num> saniddha <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>r<choice><unclear>e</unclear><unclear>ai</unclear><unclear>o</unclear></choice> <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="3"/>vā tu<gap reason="lost" quantity="3" unit="character"/> <unclear>vā ni</unclear>jhina <num value="1"><g type="numeral">I</g></num> vā kder· <num value="1"><g type="numeral">I</g></num> vā <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="4"/>vā <unclear>sre</unclear>k· <num value="1"><g type="numeral">I</g></num> vā kaṁvok· <num value="1"><g type="numeral">I</g></num> vā kantāṅ· <num value="1"><g type="numeral">I</g></num> vā kañjāy· <supplied reason="lost"><num value="1"><g type="numeral">I</g></num></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="5"/>vā samudradat· <num value="1"><g type="numeral">I</g></num> vā sgiḥ <num value="1"><g type="numeral">I</g></num> vā tyanta <num value="1"><g type="numeral">I</g></num> vā tgar· <num value="1"><g type="numeral">I</g></num> ku <gap reason="lost" quantity="4" unit="character"/> ku <unclear>p</unclear>ruk<supplied reason="lost">·</supplied> <num value="1"><g type="numeral">I</g></num> ku <gap reason="lost" quantity="6" unit="character"/>
+   <lb n="6"/>ku kanyed· <num value="1"><g type="numeral">I</g></num> kon· <num value="2"><g type="numeral">II</g></num> ku cvai <num value="1"><g type="numeral">I</g></num> kon· <num value="4"><g type="numeral">IIII</g></num> ku vaṁvuc· <num value="1"><g type="numeral">I</g></num> kon· <num value="1"><g type="numeral">I</g></num> ku maleṅ· <gap reason="lost" quantity="6" unit="character"/>
+   <lb n="7"/>ku sru <num value="1"><g type="numeral">I</g></num> kon· <num value="3"><g type="numeral">III</g></num> ku vrai <num value="1"><g type="numeral">I</g></num> kon· <num value="3"><g type="numeral">III</g></num> ku kjuṅ· <supplied reason="lost"><num value="1"><g type="numeral">I</g></num></supplied> kon· <num value="2"><g type="numeral">II</g></num> ku cap· <gap reason="lost" quantity="4" unit="character"/> <num value="1"><g type="numeral">I</g></num> kon<supplied reason="lost">·</supplied> <gap reason="lost" quantity="7" unit="character"/>
+   <lb n="8"/>ku ṅar·ṅor· <num value="1"><g type="numeral">I</g></num> ku kandes· <num value="1"><g type="numeral">I</g></num> ku kmāk· <num value="1"><g type="numeral">I</g></num> kon· <gap reason="lost" quantity="10" unit="character"/> ku vrai <num value="1"><g type="numeral">I</g></num> <supplied reason="lost">kon·</supplied>
+   <lb n="9"/>ku pitā <num value="1"><g type="numeral">I</g></num> ku rhval· <num value="1"><g type="numeral">I</g></num> ku kañjir· <num value="1"><g type="numeral">I</g></num> ku kantā <gap reason="lost" quantity="10" unit="character"/> ku pyor· <num value="1"><g type="numeral">I</g></num> vā
+   <lb n="10"/>ckap· <num value="1"><g type="numeral">I</g></num> vā caṁver· <num value="1"><g type="numeral">I</g></num> vā tat· <num value="1"><g type="numeral">I</g></num> ku tvek· <num value="1"><g type="numeral">I</g></num> ku kme <gap reason="lost" quantity="10" unit="character"/> ku kvaṁ <num value="1"><g type="numeral">I</g></num> ku saṁjak<unclear>·</unclear> <num value="1"><g type="numeral">I</g></num>
+   <lb n="11"/>kon· <num value="1"><g type="numeral">I</g></num> ku taṁru <num value="1"><g type="numeral">I</g></num> kon· <num value="2"><g type="numeral">II</g></num> ku psok· <num value="1"><g type="numeral">I</g></num> kon· <num value="2"><g type="numeral">II</g></num> ku <gap reason="lost" quantity="2" unit="character"/>l· <num value="1"><g type="numeral">I</g></num> ko<supplied reason="lost">n·</supplied> <gap reason="lost" quantity="3" unit="character"/>p· <num value="1"><g type="numeral">I</g></num> ku kandās· <num value="1"><g type="numeral">I</g></num> ku kan<supplied reason="lost">·</supplied><lb n="12" break="no"/>tuk· <num value="1"><g type="numeral">I</g></num> vā caṁkap· <num value="1"><g type="numeral">I</g></num> pOn· <num value="2"><g type="numeral">II</g></num> ku kvop· <num value="1"><g type="numeral">I</g></num> ku laṁṅa<supplied reason="lost">c·</supplied> kon· <num value="2"><g type="numeral">II</g></num> ku kaṁput· <num value="1"><g type="numeral">I</g></num> kon· <num value="2"><g type="numeral">II</g></num> ku taṁna <gap reason="lost" quantity="3" unit="character"/>
+   <lb n="13"/>kon· <num value="3"><g type="numeral">III</g></num> ku thep· <num value="1"><g type="numeral">I</g></num> kon· <num value="2"><g type="numeral">II</g></num> ku kaṁjak· <num value="1"><g type="numeral">I</g></num> ku tmeṅ<supplied reason="lost">· <num value="1"><g type="numeral">I</g></num></supplied> kon· <num value="2"><g type="numeral">II</g></num> ku knai <num value="1"><g type="numeral">I</g></num> kon· <num value="1"><g type="numeral">I</g></num> ku trāk· <num value="1"><g type="numeral">I</g></num> kon· <num value="1"><g type="numeral">I</g></num> ku ka<lb n="14" break="no"/>ñcor· <num value="1"><g type="numeral">I</g></num> ku saṁAp· <num value="1"><g type="numeral">I</g></num> vā tgel· <num value="1"><g type="numeral">I</g></num> vā kañjas· <num value="1"><g type="numeral">I</g></num> vā laṁṅāc· <num value="1"><g type="numeral">I</g></num> vā kaṁvai <num value="1"><g type="numeral">I</g></num> vā taṁrus· <num value="1"><g type="numeral">I</g></num> vā trap· <num value="1"><g type="numeral">I</g></num>
+   <lb n="15"/>vā kaṁpoñ· <num value="1"><g type="numeral">I</g></num> vā kansaṁ <num value="1"><g type="numeral">I</g></num> vā kantāṅ· <num value="1"><g type="numeral">I</g></num> vā knau <num value="1"><g type="numeral">I</g></num> vā <gap reason="lost" quantity="2" unit="character"/> <num value="1"><g type="numeral">I</g></num> vā qnāda <num value="1"><g type="numeral">I</g></num> vā vrau <num value="1"><g type="numeral">I</g></num> vā paroy· <num value="1"><g type="numeral">I</g></num> vā sudat· <num value="1"><g type="numeral">I</g></num> ku cap· <num value="1"><g type="numeral">I</g></num>
+   <lb n="16"/>ple kaṁdhā <num value="1"><g type="numeral">I</g></num> kon· <num value="2"><g type="numeral">II</g></num> ku kapkep· <num value="1"><g type="numeral">I</g></num> ku Ap· <num value="1"><g type="numeral">I</g></num> ku saluñ· dāha <num value="1"><g type="numeral">I</g></num> ku tmat· <num value="1"><g type="numeral">I</g></num> kon· <num value="1"><g type="numeral">I</g></num> ku kantyak· <num value="1"><g type="numeral">I</g></num> ku kra<gap reason="lost" quantity="1" unit="character"/>
+   <lb n="17"/>lāṅ· <num value="1"><g type="numeral">I</g></num> ku kañcak· <num value="1"><g type="numeral">I</g></num> kon· <num value="2"><g type="numeral">II</g></num> ku kmi <supplied reason="lost"><num value="1"><g type="numeral">I</g></num> ku</supplied> <gap reason="lost" quantity="3" unit="character"/> kon· <num value="3"><g type="numeral">III</g></num> ku kaṁraṅ· <num value="1"><g type="numeral">I</g></num> qme stār· <num value="1"><g type="numeral">I</g></num> ku kraṁ <num value="1"><g type="numeral">I</g></num> ku An· <num value="1"><g type="numeral">I</g></num> kon<supplied reason="lost">·</supplied> <num value="2"><g type="numeral">II</g></num>
+   <lb n="18"/>vā dharmmapriya <num value="1"><g type="numeral">I</g></num> vā kaṁ<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>iḥ <num value="1"><g type="numeral">I</g></num> ku Anlik<unclear>·</unclear> <num value="1"><g type="numeral">I</g></num> kon· <num value="1"><g type="numeral">I</g></num>
+</p>
+                 
+                </div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem>ma<gap reason="lost" quantity="2" unit="character"/>vāhakara</lem>
+                     <rdg source="bib:Coedes1937-1966_01">mahānauvāha kara</rdg>
+                  </app>
+                   <app loc="1">
+                     <lem><unclear>Ai</unclear> <gap reason="lost" extent="unknown" unit="character"/></lem>
+                     <rdg source="bib:Coedes1937-1966_01">Ai ta vraḥ kamratāṅ Añ <gap reason="lost" quantity="4" unit="character"/></rdg>
+                  </app>
+                  <app loc="2">
+                     <lem><gap reason="lost" quantity="3" unit="character"/> <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01">Añ dai <num value="1"><g type="numeral">I</g></num></rdg>
+                  </app>
+                  <app loc="2">
+                     <lem>saniddha <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>r<choice><unclear>e</unclear><unclear>ai</unclear><unclear>o</unclear></choice> <gap reason="lost" extent="unknown" unit="character"/></lem>
+                     <rdg source="bib:Coedes1937-1966_01">saniddha <gap reason="lost" quantity="3" unit="character"/> t <num value="1"><g type="numeral">I</g></num> vra <gap reason="lost" quantity="7" unit="character"/></rdg>
+                  </app>
+                  <app loc="3">
+                     <lem>tu<gap reason="lost" quantity="3" unit="character"/></lem>
+                     <rdg source="bib:Coedes1937-1966_01">tukvar <num value="1"><g type="numeral">I</g></num></rdg>
+                  </app>
+                  <app loc="3">
+                     <lem><unclear>vā ni</unclear>jhina</lem>
+                     <rdg source="bib:Coedes1937-1966_01">vā nijhina</rdg>
+                  </app>
+                  <app loc="3">
+                     <lem>vā <gap reason="lost" extent="unknown" unit="character"/></lem>
+                     <rdg source="bib:Coedes1937-1966_01">vā <gap reason="lost" quantity="8" unit="character"/></rdg>
+                  </app>
+                  <app loc="4">
+                     <lem><unclear>sre</unclear>k·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">srek</rdg>
+                  </app>
+                  <app loc="4">
+                     <lem><supplied reason="lost"><num value="1"><g type="numeral">I</g></num></supplied> <gap reason="lost" extent="unknown" unit="character"/></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><num value="1"><g type="numeral">I</g></num> <gap reason="lost" quantity="10" unit="character"/> vā tro <gap reason="lost" quantity="6" unit="character"/></rdg>
+                  </app>
+                  <app loc="5">
+                     <lem><unclear>p</unclear>ruk<supplied reason="lost">·</supplied></lem>
+                     <rdg source="bib:Coedes1937-1966_01">pruk</rdg>
+                  </app>
+                  <app loc="7">
+                     <lem>kjuṅ·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">kjaṅ</rdg>
+                  </app>
+                  <app loc="8">
+                     <lem><gap reason="lost" quantity="10" unit="character"/> ku vrai <num value="1"><g type="numeral">I</g></num> <supplied reason="lost">kon·</supplied></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="lost" quantity="15" unit="character"/></rdg>
+                  </app>
+                  <app loc="9">
+                     <lem>rhval·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">hval</rdg>
+                  </app>
+                  <app loc="9">
+                     <lem>pyor·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">pdor</rdg>
+                  </app>
+                  <app loc="10">
+                     <lem>saṁjak<unclear>·</unclear> <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="lost" quantity="2" unit="character"/></rdg>
+                  </app>
+                  <app loc="11">
+                     <lem>taṁru</lem>
+                     <rdg source="bib:Coedes1937-1966_01">taṁrū</rdg>
+                  </app>
+                  <app loc="11">
+                     <lem>psok·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">lpāk</rdg>
+                  </app>
+                  <app loc="11">
+                     <lem>kandās·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">kandāp</rdg>
+                  </app>
+                  <app loc="12">
+                     <lem>laṁṅa<supplied reason="lost">c·</supplied></lem>
+                     <rdg source="bib:Coedes1937-1966_01">lā<gap reason="lost" quantity="2" unit="character"/></rdg>
+                  </app>
+                  <app loc="12">
+                     <lem>taṁna <gap reason="lost" quantity="3" unit="character"/></lem>
+                     <rdg source="bib:Coedes1937-1966_01">kaṁ<gap reason="lost" quantity="2" unit="character"/></rdg>
+                  </app>
+                  <app loc="13">
+                     <lem>thep·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">thāp</rdg>
+                  </app>
+                  <app loc="13">
+                     <lem>tmeṅ<supplied reason="lost">· <num value="1"><g type="numeral">I</g></num></supplied></lem>
+                     <rdg source="bib:Coedes1937-1966_01">tmeṅ</rdg>
+                  </app>
+                   <app loc="14">
+                     <lem>ñcor·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">ñcar</rdg>
+                  </app>
+                   <app loc="14">
+                     <lem>kañjas·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">kañjap</rdg>
+                  </app>
+                   <app loc="15">
+                     <lem>ku cap· <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01">ku <gap reason="lost" quantity="2" unit="character"/></rdg>
+                  </app>
+                   <app loc="16">
+                     <lem>kapkep·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">kaṅkep</rdg>
+                  </app>
+                   <app loc="16">
+                     <lem>ku Ap· <num value="1"><g type="numeral">I</g></num> ku saluñ·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">ku Apkras<gap reason="lost" quantity="1" unit="character"/>luṅ</rdg>
+                  </app>
+                   <app loc="16">
+                     <lem>ku kra<gap reason="lost" quantity="1" unit="character"/></lem>
+                     <rdg source="bib:Coedes1937-1966_01">ku <gap reason="lost" quantity="2" unit="character"/></rdg>
+                  </app>
+                  <app loc="17">
+                     <lem>lāṅ·</lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="lost" quantity="1" unit="character"/></rdg>
+                  </app>
+                  <app loc="17">
+                     <lem>kon· <num value="2"><g type="numeral">II</g></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01">kon <num value="1"><g type="numeral">I</g></num></rdg>
+                  </app>
+                  <app loc="17">
+                     <lem>ku kmi <supplied reason="lost"><num value="1"><g type="numeral">I</g></num> ku</supplied> <gap reason="lost" quantity="3" unit="character"/></lem>
+                     <rdg source="bib:Coedes1937-1966_01">ku <gap reason="lost" quantity="4" unit="character"/> <num value="1"><g type="numeral">I</g></num></rdg>
+                  </app>
+                  <app loc="17">
+                     <lem>stār·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">qtār</rdg>
+                  </app>
+                  <app loc="17">
+                     <lem>ku kraṁ <num value="1"><g type="numeral">I</g></num> ku An· <num value="1"><g type="numeral">I</g></num> kon<supplied reason="lost">·</supplied> <num value="2"><g type="numeral">II</g></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01"> ku k<gap reason="lost" quantity="3" unit="character"/></rdg>
+                  </app>
+                  <app loc="18">
+                     <lem>kaṁ<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>iḥ <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01">ka<gap reason="lost" quantity="1" unit="character"/></rdg>
+                  </app>
+                  <app loc="18">
+                     <lem>Anlik<unclear>·</unclear></lem>
+                     <rdg source="bib:Coedes1937-1966_01">anik</rdg>
+                  </app>
+               </listApp>         
+         </div> 
+    <!--      <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+ 	  </div>
+         <div type="commentary">
+            <p></p>
+         </div> -->
+         <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">191-192</citedRange></bibl>), re-edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">81-82</citedRange></bibl>) without translation; re-edited here by Claude Jacque and Kunthea Chhom based on the estampage EFEO n. 385.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">81-82</citedRange>
+    </bibl>
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">2</citedRange><citedRange unit="page">191-192</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

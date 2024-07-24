@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Phnom Preah Vihear (K. 733), 7th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00733</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-06-28" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83211">
+<lg n="1" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="1"/><milestone unit="column" n="a"/>jayatīndu-ravi-vyoma</l>
+<l n="b"><milestone unit="column" n="b"/>-vāyvātma-kṣmā-jalānalaiḥ</l>
+     <l n="c"><milestone unit="column" n="c"/>tanoti tanubhiś śambhu<milestone unit="column" n="d" break="no"/>r</l>
+     <l n="d">yyo 'ṣṭābhir akhilañ jagat·</l>
+       </lg>      
+                 <lg n="2" met="anuṣṭubh">
+<l n="a" met="na-vipulā" real="-+-+---+"><lb n="2"/><milestone unit="column" n="a"/>vijitya yaḥ kṣitipatīn·</l>
+<l n="b"><milestone unit="column" n="b"/>nīti-śauryya-valānvitān·</l>
+     <l n="c"><milestone unit="column" n="c"/>diva-spr̥śaṁ samārabhya</l>
+     <l n="d"><milestone unit="column" n="d"/>yaśa-stambham akīlayat·</l>
+       </lg>  
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="3"/><milestone unit="column" n="a"/>rājā śrībhavavarmmeti</l>
+<l n="b"><milestone unit="column" n="b"/>bhavaty adhika-śāsanaḥ</l>
+     <l n="c" enjamb="yes"><milestone unit="column" n="c"/>soma-vaṅśyo 'py ari-dhvānta</l>
+     <l n="d"><milestone unit="column" n="d"/>-pradhvaṅsana-divākaraḥ</l>
+       </lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="4"/><milestone unit="column" n="a"/>tasya pāśupatācāryyaḥ</l>
+<l n="b"><milestone unit="column" n="b"/>vidyāpuṣpāhvayaḥ kaviḥ</l>
+     <l n="c" enjamb="yes"><milestone unit="column" n="c"/>śa<choice><orig>p</orig><reg>b</reg></choice>da-vaiśeṣika-nyāya</l>
+     <l n="d"><milestone unit="column" n="d"/>-tatvārtha-kr̥ta-niścayaḥ</l>
+       </lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="5"/><milestone unit="column" n="a"/>śrāyasīṁ gatim uddiśya</l>
+<l n="b"><milestone unit="column" n="b"/>śrīsiddheśa-praṇālikāṁ</l>
+     <l n="c"><milestone unit="column" n="c"/>rājatīṁ rājato la<choice><sic>dh</sic><corr>bdh</corr></choice>vā</l>
+     <l n="d"><milestone unit="column" n="d"/>kārayitvāpy atiṣṭhipat·</l>
+       </lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="6"/><milestone unit="column" n="a"/>tatas sa niṣkraman nānā</l>
+<l n="b"><milestone unit="column" n="b"/>-tīrthāyatana-parvvatān·</l>
+     <l n="c" met="bha-vipulā" real="-+-++--+"><milestone unit="column" n="c"/>kathañ cid ānīta Iha</l>
+     <l n="d"><milestone unit="column" n="d"/>svapnānte śrītriśūlinā</l>
+       </lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="7"/><milestone unit="column" n="a"/>yathā pradarśitaṁ svapne</l>
+<l n="b"><milestone unit="column" n="b"/>dr̥ṣṭavān iha śāṅkaraṁ</l>
+     <l n="c" met="ra-vipulā" real="++-++-+-"><milestone unit="column" n="c"/>liṅgaṁ padaṁ goṣpadañ ca</l>
+     <l n="d"><milestone unit="column" n="d"/>bhasma tuṅgīśa-parvva<supplied reason="lost">t</supplied>e</l>
+       </lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="8"/><milestone unit="column" n="a"/>pradānāni pradāyāsmai</l>
+<l n="b"><milestone unit="column" n="b"/>dāsādīni śivāya saḥ</l>
+     <l n="c" met="na-vipulā" real="-+++---+"><milestone unit="column" n="c"/>punaś śaivena vidhinā</l>
+     <l n="d"><milestone unit="column" n="d"/>taptvā śaivaṁ pa<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>aṁ <seg met="-+"><gap reason="illegible" quantity="1" unit="character"/></seg></l>
+       </lg>
+                   <lg n="9" met="āryā">
+<l n="ab"><lb n="9"/><milestone unit="column" n="a"/>yāvat· pradānam asmai
+<milestone unit="column" n="b"/>śivāya go-bhū-hiraṇya-dāsādi</l>
+     <l n="cd"><milestone unit="column" n="c"/>bhogyaṁ pāśupatānā<milestone unit="column" n="d" break="no"/>m 
+     ahāryyam a<gap reason="lost" extent="unknown" unit="character"/></l>
+       </lg>
+                </div>
+<!-- <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1937-1966_01"></rdg>
+                     </app>
+               </listApp>         
+         </div>  -->
+       <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+        <p rend="stanza" n="1">La victoire est à Śambhu qui se répand dans tout l'univers au moyen de ses huit corps : la lune, le soleil, le ciel, le vent, l'ātman, la terre, l'eau et le feu.</p>
+          <p rend="stanza" n="2">Après avoir vaincu les maîtres de la terre, doués de conduite, d'héroïsme et de force, il entreprit de toucher le ciel et planta <supplied reason="subaudible">à cet effet</supplied> le pilier de sa gloire.</p>
+          <p rend="stanza" n="3">Il est un roi nommé Śrī Bhavavarman, doué d'une autorité sans égale; bien qu'appartenant à la famille lunaire, c'est un soleil anéantissant l'obscurité des ennemis.</p>
+          <p rend="stanza" n="4">Il eut à son service un poète nommé Vidyāpuṣpa, maître de la secte des Pāśupata, qui avait donné un sens certain à la grammaire, à la doctrine Vaiśeṣika et à la logique.</p>
+          <p rend="stanza" n="5">Ayant en vue une condition supérieure et l'ayant obteaue du roi, il fit faire pour Śrī Siddheśa une rigole en argent et l'installa.</p>
+          <p rend="stanza" n="6">Etant ensuite parti pour <supplied reason="subaudible">visiter</supplied> divers pèlerinages, sanctuaires et montagnes, il fut transporté ici en songe, par le vénérable <supplied reason="subaudible">Śiva</supplied> porteur du trident.</p>
+          <p rend="stanza" n="7">Il vit <supplied reason="subaudible">ensuite</supplied> ici, tels qu'il les avait vus en songe, le liṅga de Śaṅkara, le pied, la flaque d'eau et la cendre sur le <supplied reason="subaudible"> mont</supplied> Tuṅgīśaparvata.</p>
+          <p rend="stanza" n="8">Faisant à ce Śiva des donations d'esclaves et autres présents, de nouveau, il pratique l'ascèse selon la méthode śaiva <gap reason="lost"/>.</p>
+          <p rend="stanza" n="9">Tout ce qui a été donné à ce Śiva: bœufs, terres, or, esclaves, etc., doit servir à l'usage des Pāśupata et ne doit pas être pris <gap reason="lost"/>.</p>
+ 	  </div>
+      <!--  <div type="commentary">
+          <p></p>
+       </div> -->
+         <div type="bibliography">
+        <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">1</citedRange><citedRange unit="page">3-5</citedRange></bibl>) with a French translation.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">1</citedRange><citedRange unit="page">3-5</citedRange>
+    </bibl>
+	    
+  </listBibl> 
+        </div>
+        </body>
+    </text>
+</TEI>

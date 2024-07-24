@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Phnom Bayang stela (K. 1400)</title>
+                <respStmt>
+                    <resp>EpiDoc Encoding</resp>
+                    <persName ref="part:chch">
+                        <forename>Chloé</forename>
+                        <surname>Chollet</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>intellectual authorship of edition</resp>
+                    <persName ref="http://viaf.org/viaf/39382787">
+                        <forename>Saveros</forename>
+                        <surname>Pou</surname>
+                    </persName>
+                    <persName ref="part:chch">
+                        <forename>Chloé</forename>
+                        <surname>Chollet</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSCIK01400</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                        <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+                    </licence>
+                </availability>
+                <date from="2019" to="2025">2019-2025</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+            </projectDesc>
+            <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
+            <listPrefixDef>
+                <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+                    <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+                </prefixDef>
+                <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_idListMembers_v01.xml#$1">
+                    <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_idListMembers_v01.xml</ref> file.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:chch" when="2023-06-22">Initial encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:00000">
+     <p> 
+         <lb n="1-11"/><gap reason="lost" quantity="11" unit="line"/>
+         <lb n="12"/>
+         
+             <lb n="13"/>dau <gap reason="lost" quantity="34" unit="character" precision="low"/> <!--vyar II--> sapp <unclear>th</unclear>ṅā<supplied reason="lost">y· vraḥ phoṅ·</supplied>
+         
+             <lb n="14"/><supplied reason="lost">nā jagāra ta CVyV Āy ta nu jnau ... Āśrama thṅāy luc·</supplied>  ta vyara thṅāy keta rudra<unclear>pa</unclear>ttanna syaṅ ta Oy paryaṅ· mā<supplied reason="lost">s· I sapp</supplied> 
+         
+         <lb n="15"/><supplied reason="lost">Ci sruk·<g type="circleMid">.</g> qvar· I le sapp gi mās ta pramvāy ti sot·<unclear><g type="circleMid">.</g></unclear> gi dravya nai steñ· nādān</supplied>t<supplied reason="lost">a</supplied> syaṅ ta jā rājadravya vraḥ śāsana pre jvan ta vraḥ kaṁmrateṅ· Añ· <!--sivapura ?-->
+         
+             <lb n="16"/><supplied reason="lost">ti duk ta gi vraḥ kuṭī namaśśivāya<g type="circleMid">.</g> bhājana Āyoga noṅ prak· sbok· ga</supplied><unclear>dā</unclear>ha sarāṅgi pādalī khñuṁ thmura krapi taṁmrya sre bhūmyākara phoṅ· vvaṁ <supplied reason="lost">Āc· ti dār·</supplied>
+         
+         <lb n="17"/><supplied reason="lost">dāna vvaṁ Āc<unclear>·</unclear> ti Oy dāna neḥ dravya ta <unclear>Aṁpall</unclear> neḥha<unclear><g type="circleMid">.</g></unclear> ge</supplied> <unclear>ta</unclear> dār· dāna lah· ge ta nu Oy dāna laha syaṅ· ta dau ta dvātri<supplied reason="omitted">ṁ</supplied>śana<supplied reason="lost">raka</supplied>    
+         
+             <lb n="18"/><supplied reason="lost">nu santāna ta mān· phoṅa yāvat· yu<unclear>ga</unclear> mān le</supplied><unclear>ya</unclear> gi bhājana I āyoga I noṅ prak· II sbok· <!--10--> vaudī 4 padīgaḥ III pādal<supplied reason="lost">i</supplied> I <gap reason="lost" unit="character" quantity="2" precision="low"/>      
+         
+             <lb n="19"/><supplied reason="lost">kriyā Ārccana vyar· taṁpvaṅa khal· pañcaga</supplied>vya <num value="6">6</num> carā dhūpa <num value="2"><g type="numeral">II</g></num> jeṅ parasa <num value="2"><g type="numeral">II</g></num> thās· I sarāṅgī I gadāha 9 laṅgau Aṅgās II gāyatriya <gap reason="lost" unit="character" quantity="3"/>
+         
+             <lb n="20"/><supplied reason="lost">nau A<unclear>ṁ</unclear>pall gi Aṁras· mandu</supplied>kta gi vraḥ kuṭī namaśśivāya nu vraḥ Āśrama rudrāvāsa nuva sruk· spaṁ phoṅa<g type="circleMid">.</g> nau qnak ta yokk <!--hyāt <unclear>p</unclear>i ...
+-->
+         <lb n="21"/><supplied reason="lost">kalpanā nai ya</supplied>jamāna ge dau jāṁ ta dvātrī<unclear>ṁ</unclear>śanaraka nuva santāna phoṅa yāvat· qvyah· grap· caturddaśa <!--manuva-->       
+         
+             <lb n="22"/><supplied reason="lost">dau jā chke glaṅ</supplied>ṅ dāridra vega krau bhakṣa jā sarisr̥pa sthāvara jaṅgha sarvva gi bhaya ti mān· ge ta yokk ge ta <!--saṁni pi--> yokk ge ta <!--pa--> yyokk ...n Iss
+         
+             <lb n="23"/><!--ṅ· --> sni tyaṅ nu ket· jā jagatt khvakk khvokk khtyatt khtvāll khtass glaṅṅ <!--tuḥ--> sreṅ· nu <!--Attaph--> kañjuḥmān· Isa <!--tvagvi-->kāra phoṅ mān·<g type="circleMid">.</g> nau ge ta vardheya ge dau svargga nuva santāna
+         
+             <lb n="24"/>phoṅa ge jā vrāmaṇa kop ra nu caturvveda<g type="spiralR">.</g> sruk· rudrapattana duk· sp<choice><orig>u</orig><reg>ū</reg></choice> <!--voir K. 412 duk spū--> vraḥ kuṭī namaśśivāya nā mūla nu <!--caṁvak kroy--> thṅāya keta <!--caṁvak--> vnek nu candra<lb n="25" break="no"/>śāla thṅāy luc ta vyara roṅ ta thlvaṅ dvāra pravaravidyā <!--ta tva-->sūryyālaya kralā yāga vraḥ vleṅ nu caṁvatt vyara vraḥ Āśrama <!--?k--> ta śāla <!--cand..s--> kralā phnāṅ· vaiśra<lb n="26" break="no"/>vapūra phsaṁma A<unclear>pacca</unclear> duk ta kuṭī ta diṅ mahāsana <!--(marque au-dessus accidentelle)--> roc· kett duk sp<choice><orig>u</orig><reg>ū</reg></choice> <gap reason="illegible" quantity="3" unit="character"/>· nu caṁ It kuṭīya </p>
+         </div>
+         <div type="apparatus">
+               <listApp>
+
+                   <app loc="14">
+                     <lem>rudra<unclear>pa</unclear>ttanna</lem>
+                     <rdg source="bib:Pou2001_01">rudrapattana</rdg>
+                  </app>
+                   
+                                      <app loc="15">
+                     <lem>qvar· I le</lem>
+                     <rdg source="bib:Pou2001_01">qvar sre</rdg>
+                  </app>
+                   
+                   <app loc="16">
+                     <lem>sre</lem>
+                     <rdg source="bib:Pou2001_01">seḥ</rdg>
+                  </app>
+
+<app loc="18">
+                     <lem><supplied reason="lost">le</supplied><unclear>ya</unclear> gi</lem>
+                     <rdg source="bib:Pou2001_01">ley<g type="circleMid">.</g> gi</rdg>
+                  </app>
+                   <app loc="18">
+                     <lem>āyoga I</lem>
+                     <rdg source="bib:Pou2001_01">āyoga <gap reason="illegible" unit="character" quantity="1"/></rdg>
+                  </app>
+                   <app loc="18">
+                     <lem>prak· II</lem>
+                     <rdg source="bib:Pou2001_01">prak· <gap reason="illegible" unit="character" quantity="1"/></rdg>
+                  </app>
+                    <app loc="18">
+                     <lem>sbok·</lem>
+                     <rdg source="bib:Pou2001_01">svok·</rdg>
+                  </app>
+                   <app loc="18">
+                     <lem>padīgaḥ III</lem>
+                     <rdg source="bib:Pou2001_01">padīgaḥ II</rdg>
+                  </app>
+
+                   
+<app loc="19">
+                     <lem>dhūpa <num value="2"><g type="numeral">II</g></num></lem>
+                     <rdg source="bib:Pou2001_01">dhūpa <gap reason="illegible" unit="character" quantity="2"/></rdg>
+                  </app>
+                   <app loc="19">
+                     <lem>thās· I</lem>
+                     <rdg source="bib:Pou2001_01">thās <gap reason="illegible" unit="character" quantity="1"/></rdg>
+                  </app>
+                   <app loc="19">
+                     <lem>gadāha 9</lem>
+                     <rdg source="bib:Pou2001_01">gadāha 7</rdg>
+                  </app>
+                   <app loc="19">
+                     <lem>laṅgau Aṅgās</lem>
+                     <rdg source="bib:Pou2001_01">laṅgau <gap reason="illegible" unit="character" quantity="3"/></rdg>
+                  </app>
+                   <app loc="19">
+                     <lem><gap reason="lost" unit="character" quantity="3"/></lem>
+                     <rdg source="bib:Pou2001_01">vnak <gap reason="lost" unit="character" quantity="1"/></rdg>
+                       <note>Le mot <foreign>vnak</foreign> à la suite de <foreign>gāyatriya</foreign> serait tout à fait logique  compte tenu des autres occurences du corpus épigraphique, mais nous ne parvenons pas à lire cela sur l'estampage publié par Saveros Pou. Le troisième caractère perdu doit être un chiffre.</note>
+                  </app>
+
+
+                   
+                   <app loc="21">
+                     <lem>yāvat· qvyah· grap·</lem>
+                     <rdg source="bib:Pou2001_01"><gap reason="illegible" unit="character" quantity="4"/> Āśrama</rdg>
+                  </app>
+                   <app loc="21">
+                     <lem>caturddaśa</lem>
+                     <rdg source="bib:Pou2001_01">catudaśa</rdg>
+                  </app>
+                   
+                    <app loc="23">
+                     <lem>khtyatt</lem>
+                     <rdg source="bib:Pou2001_01">khsat</rdg>
+                  </app>
+                   <app loc="23">
+                     <lem>khtvāll</lem>
+                     <rdg source="bib:Pou2001_01">khnvāll</rdg>
+                  </app>
+                   <app loc="23">
+                     <lem>sreṅ·</lem>
+                     <rdg source="bib:Pou2001_01">sreṅṅ</rdg>
+                  </app>
+                   <app loc="23">
+                     <lem>ge ta</lem>
+                     <rdg source="bib:Pou2001_01">ge</rdg>
+                  </app>
+                    <app loc="23">
+                     <lem>vardheya</lem>
+                     <rdg source="bib:Pou2001_01">vardhaya</rdg>
+                  </app>
+                   <app loc="23">
+                     <lem>nuva santāna</lem>
+                     <rdg source="bib:Pou2001_01"><gap reason="illegible" unit="character" quantity="5"/></rdg>
+                  </app>
+                   
+                                     <app loc="24">
+                     <lem>ge jā</lem>
+                     <rdg source="bib:Pou2001_01">jā</rdg>
+                  </app>
+                   <app loc="24">
+                     <lem>kop ra nu</lem>
+                     <rdg source="bib:Pou2001_01">krau pranū</rdg>
+                  </app>
+                   <app loc="24">
+                     <lem>caturvveda<g type="spiralR">.</g></lem>
+                     <rdg source="bib:Pou2001_01"><gap reason="illegible" unit="character" quantity="5"/></rdg>
+                  </app>
+                   <app loc="24-25">
+                     <lem>candraśāla</lem>
+                     <rdg source="bib:Pou2001_01"><gap reason="illegible" unit="character" quantity="4"/></rdg>
+                  </app>
+                   
+                  <app loc="25">
+                     <lem>ta vyara</lem>
+                     <rdg source="bib:Pou2001_01">ta</rdg>
+                  </app>
+                   <app loc="25">
+                     <lem>thlvaṅ</lem>
+                     <rdg source="bib:Pou2001_01">thlaṅ</rdg>
+                  </app>
+                   <app loc="25">
+                     <lem>dvāra</lem>
+                     <rdg source="bib:Pou2001_01">dnāra</rdg>
+                  </app>
+                   <app loc="25">
+                     <lem>vleṅ nu</lem>
+                     <rdg source="bib:Pou2001_01">liṅgnu</rdg>
+                  </app>
+                   <app loc="25">
+                     <lem>vraḥ Āśrama</lem>
+                     <rdg source="bib:Pou2001_01">Āśrama</rdg>
+                  </app>
+                   <app loc="25">
+                     <lem>APRES Āśrama</lem>
+                     <rdg source="bib:Pou2001_01">?????</rdg>
+                  </app>
+               </listApp>
+         </div>
+         <div type="translation" xml:lang="fra" resp="part:chch">
+ 	<!--translation encoded as per EGD §9.2 -->
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+           <p>First published in French by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">219-223</citedRange></bibl>). Re-edited here by Chloé Chollet from photographs. To be published again in her PhD thesis.</p>
+        	<listBibl type="primary">
+			 <bibl n="SP">
+				    <ptr target="bib:Pou2001_01"/>
+				    <citedRange unit="page">219-223</citedRange>
+				</bibl>
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

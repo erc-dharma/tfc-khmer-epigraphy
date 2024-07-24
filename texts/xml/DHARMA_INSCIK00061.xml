@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Preah Vihear Kuk (K. 61), 834 Śaka</title><!-- kuch: CIK inventory records Face B of 10th century Śaka. But According to GC, IC VII, p. 20, the two faces were probably of the same hand and the Khmer text of face B lists the names of six women mentioned in the Sanskrit text of face A . -->
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00061</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century. <!-- kuch: The photo of face B is not available. -->
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2023-06-19" status="draft">Adding paleographical remark and modification to edition, apparatus and commentary</change>
+         <change who="part:kuch" when="2022-01-17" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:00000">
+                     <p><milestone type="pagelike" unit="face" n="A"/>
+                        <lb n="A1"/><gap reason="lost" extent="unknown" unit="character"/> vraḥ
+                        <lb n="A2"/><gap reason="lost" extent="unknown" unit="character"/> Oya sruka
+                        <lb n="A3"/><gap reason="lost" extent="unknown" unit="character"/> viṅa moka
+                        <lb n="A4"/><gap reason="lost" extent="unknown" unit="character"/> teṅa Aña sū
+                     </p>
+<lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+                      <l n="a" enjamb="yes"><lb n="A5"/>namadhvan dhurjjater aṅghri<space/></l>
+<l n="b">-paṅkajasya rajolava<supplied reason="lost">ṁ</supplied><space/></l>
+<l n="c">namrāsurendra-devendra</l>
+<l n="d"><lb n="A6"/>maul<supplied reason="lost">i</supplied>ratnāṅśudīpiṇa<supplied reason="lost">m·</supplied><g type="ddandaOrnate">.</g></l>
+                   </lg>
+                     <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+                      <l n="a">Āsīd rājādhirājo yas</l>
+<l n="b">tejovandita-kī<supplied reason="lost">rttanaḥ</supplied></l>
+<l n="c"><lb n="A7"/>bhūbhr̥tām uttamāṅgeṣu<space/></l>
+<l n="d">nyā<supplied reason="lost">sa</supplied>-pāda-nava<supplied reason="lost">dru</supplied>m<supplied reason="lost">ān·</supplied><g type="ddandaOrnate">.</g></l>
+                   </lg>
+                     <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+                      <l n="a">nāmnā śrīharṣavarmmā sa<lb n="A8" break="no"/>ś</l>
+<l n="b">śrīyaśovarmma-putrakaḥ<space/></l>
+<l n="c">śriyābhinavayā juṣṭa<space/>ś</l>
+<l n="d">śrīnivāsa Ivāvabhau<g type="ddandaOrnate">.</g></l>
+                   </lg>
+                     <lg n="4" met="anuṣṭubh" xml:lang="san-Latn">
+                      <l n="a"><lb n="A9"/>kamvujendrādhirājo 'sau<space/></l>
+<l n="b">jagad-gīta-guṇām<supplied reason="lost">vu</supplied>dhiḥ<space/></l>
+<l n="c">Adri-vyādhapureśe 'dā<lb n="A10" break="no"/>t</l>
+<l n="d">ṣat-kāntāḥ prati-pakṣakam· <g type="ddanda">.</g> <g type="floret">.</g></l>
+                   </lg>
+                     <p>
+                       <num value="834">834</num> śakka gi nu thve pūjā 
+                     </p>
+<p><milestone type="pagelike" unit="face" n="B"/><!-- kuch: We assume that no virāma is applied in the text of face B, as it is the case in Face A. So the inherent vowel "a" is added to the last consonant. -->
+   <lb n="B1"/>dravya <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B2"/>na vo ta tema svā<gap reason="lost" quantity="6" unit="character"/>
+   <lb n="B3"/>nle moya neḥha cuṅa thnvala mana teṅa <gap reason="lost" quantity="11" unit="character"/>
+   <lb n="B4"/>tapura māna kvāna mvāya jmaḥ teṅa kr̥ṣṇa mān soca <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B5"/>pre sarvāṅga ta kaṁsteṅa śrījayasiṅhavarmma nivedana <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B6"/>jvana rot ta<!-- kuch: It's possible that there is ligature tt. --> vraḥ kala leṅa Āca mok pamre ta kamrateṅa Aña <supplied reason="lost">pa</supplied><lb n="B7" break="no"/>nlas vraḥ śarira teṅa bhava <gap reason="lost" quantity="1" unit="character"/> teṅa kr̥ṣa teṅa rudrāṇī teṅa
+   <lb n="B8"/>ke ni teṅa <gap reason="lost" quantity="1" unit="character"/> te so teṅa sa<supplied reason="lost">ra</supplied>svatī syaṅ ta<!-- kuch: It's possible that there is ligature ṅt. --> dāra vraḥ ka<lb n="B9" break="no"/>ruṇā prasā<supplied reason="lost">da</supplied> <gap reason="lost" quantity="6" unit="character"/> ta pamre ta kamrateṅa Aña <g type="circleTarget">.</g>
+</p>
+                </div>
+<!-- <div type="apparatus">
+               <listApp>
+                  <app loc="4">
+                     <lem>·</lem>
+                    <note></note>
+                  </app>
+               </listApp>         
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Bergaigne1893_01">
+               <div type="textpart" n="1"><head xml:lang="eng">Face</head>
+                  <p rend="stanza" n="1">Honorez le <gap reason="lost"/> du pied pareil à un lotus de Dhūrjaṭi, illuminé par les rayons des pierreries que portent sur la tête les premiers des Asuras et les premiers des dieux prosternés devant lui.</p>
+                  <p rend="stanza" n="2">Il y avait un roi des rois qui, <gap reason="lost"/> loué pour son éclat, <gap reason="lost"/> le pied <gap reason="lost"/> sur les têtes des rois.</p>
+                  <p rend="stanza" n="3">Nommé Śrī Harṣavarman, fils de Śrī Yaśovarman, aimé d'une Śrī <supplied reason="explanation">d'une fortune</supplied> toute jeune, il brillait comme un séjour de Śrī <supplied reason="explanation">de la fortune</supplied>.</p>
+                  <p rend="stanza" n="4">Ce roi des rois des Kamvujas, qui voyait l'océan de ses qualités chanté par le monde entier, a donné à l'Adrivyādhapureśa six femmes charmantes pour chaque quinzaine.</p>
+               </div>
+           </div>
+            <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+               
+                  <p n="A1-A4"><gap reason="lost"/></p>
+                  <p rend="stanza" n="1">Puisse vous protéger l'abondant pollen de ce lotus qu'est le pied de Dhūrjaṭi, qui excite les rayons des pierreries que portent sur la tête les premiers des Asura et les premiers des dieux prosternés devant lui.</p>
+                  <p rend="stanza" n="2">Il y eut un roi, dont l'éclat proclame la gloire, et qui posa ces jeunes arbres qu'étaient ses pieds sur la tête des rois <supplied reason="explanation">ou des : montagnes</supplied>.</p>
+                  <p rend="stanza" n="3">Nommé Śrī Harṣavarman, fils de Śrī Yaśovarman, aimé d'une Śrī <supplied reason="explanation">ou : d'une fortune</supplied> toute jeune, il brillait comme un séjour de la Fortune <supplied reason="explanation">ou : comme Śrīnivāsa  = Kr̥ṣṇa</supplied>.</p>
+                  <p rend="stanza" n="4">Ce roi des rois des Kambuja qui voyait l océan de ses qualités chanté par le monde entier, a donné au Seigneur de Vyādhapura sur la montagne six femmes charmantes pour chaque quinzaine.</p>
+               
+               <p n="B1-B3">Richesses <gap reason="lost"/> un endroit au bout de la berge. Alors Teṅ <gap reason="lost"/></p>
+                  <p n="B4-B9"><gap reason="lost"/>tapura eut une enfant nommée Teṅ Kr̥ṣṇa <gap reason="lost"/> eut <gap reason="lost"/> se mettre entièrement au service de Kamsteṅ Śrī Jayasiṁhavarman, informer <gap reason="lost"/> offrir à perpétuité pour venir servir le Kamrateṅ Añ à la place du saint corps. Teṅ Bhava, Teṅ Kr̥s, Teṅ Rudrānī, Teṅ <gap reason="lost"/>, Teṅ <gap reason="lost"/>, Teṅ Sarasvatī obtinrent toutes de la faveur royale <gap reason="lost"/> de servir le K. A.</p>
+               </div>
+         <div type="commentary">
+            <p>George Cœdès does not translate the Khmer passage at the end of the first Face: <foreign>834 śakka gi nu thve pūjā</foreign>. An English translation of the passage would be: 834 Śaka. At that time, a worship was conducted.</p>
+         </div>
+        <div type="bibliography">
+          <p>The Sanskrit part of the inscription was first edited by Abel Bergaigne (<bibl rend="omitname"><ptr target="bib:Bergaigne1893_01"/><citedRange unit="page">551-555</citedRange></bibl>) with a French translation; re-edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">7</citedRange><citedRange unit="page">20-22</citedRange></bibl>) with the Khmer part (faces A and B) and a translation. The face A is re-edited here by Kunthea Chhom based on planche 34 (inscription LXIII) of Bergaigne's book.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">7</citedRange><citedRange unit="page">20-22</citedRange>
+    </bibl>
+	    <bibl n="AB">
+      <ptr target="bib:Bergaigne1893_01"/><citedRange unit="page">551-555</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+      </body>
+    </text>
+</TEI>

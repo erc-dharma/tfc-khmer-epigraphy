@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Tuol Krasang Chhmar (K. 1439), 1084 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01439</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2021-08-18" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:00000">
+<p>
+   <lb n="1"/><g type="danda">.</g> <num value="1084">1084</num> śaka ma<unclear>ṅīya</unclear> śaka
+   <lb n="2"/>vyara roca mārgga<supplied reason="lost">ś</supplied><unclear>ira</unclear> karttika leya Ādityavāra
+   <lb n="3"/>gi nu yeṅ· jā ka<unclear>ñ</unclear>sn<unclear>aṁ</unclear> sthāpaka vraḥ vuddharūpa nu rūpa
+   <lb n="4"/>vraḥ Aṁteṅa jeṅ mau teṅ tva<unclear>na</unclear> kañsnaṁ hotā vraḥ guru sunda<lb n="5" break="no"/>ramati ta jā ya<unclear>ja</unclear>māna vraḥ guru sāsanapandita khñuṁ nu <unclear>ś</unclear>re
+   <lb n="6"/>ta jā jaṁ<unclear>nva</unclear><supplied reason="lost">n·</supplied> roḥ ta pāñjīya neḥ tai kaṁvvaka kvana
+   <lb n="7"/>tai kansuta tai ka<unclear>n</unclear>rā ta kvava tai <unclear>s</unclear>ulavbha tai kandhi<unclear>ra</unclear>
+   <lb n="8"/>śi kansa<unclear>ṁ</unclear> śi kandhana phsaṁ khñuṁ praṁvyala śre pa<unclear>d</unclear>i<gap reason="lost" quantity="2" unit="character"/>
+   <lb n="9"/>ś<supplied reason="lost">r</supplied>e <gap reason="lost" quantity="2" unit="character"/> <supplied reason="lost">da</supplied><unclear>k</unclear>ṣiṇa <unclear cert="low">n</unclear>oḥ v<unclear>r</unclear>oḥ th<unclear>lv</unclear>aṅ· <num value="2"><g type="numeral">II</g></num> je <num value="2"><g type="numeral">II</g></num> śre <num value="3"><g type="numeral">III</g></num> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>y<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>
+   <lb n="10"/>ma travāṅ· vāya<supplied reason="omitted">vya</supplied> nair̥ti vraḥ vroḥ thlvaṅ· <num value="3"><g type="numeral">III</g></num> śre jeṅ·
+   <lb n="11"/>mveṅ· paścima vraḥ śre <num value="2"><g type="numeral">II</g></num> Aṁvyar vroḥ thlvaṅ· <num value="2"><g type="numeral">II</g></num> je <num value="1"><g type="numeral">I</g></num>I liḥ <num value="3"><g type="numeral">III</g></num>
+   <lb n="12"/><unclear>ph</unclear>saṁ vroḥ thlvaṅ· pra<supplied reason="omitted">ṁ</supplied>vyala je <num value="3">II <unclear>I</unclear></num> liḥ <num value="3"><g type="numeral">III</g></num> <g type="gomutraFinal">.</g>
+</p>
+</div>
+<!-- <div type="apparatus">        
+         </div> -->
+            <!-- <div type="translation">
+         </div> -->
+         <div type="commentary">
+            <p>There are cases of confusion between the <foreign>ś</foreign> and <foreign>s</foreign> and between <foreign>nd</foreign> and <foreign>ṇḍ</foreign>: <foreign>śre</foreign> <supplied reason="explanation">lines 8-12</supplied> for <foreign>sre</foreign>; <foreign>śi</foreign> <supplied reason="explanation">line 8</supplied> for <foreign>si</foreign>; <foreign>sāsanapandita</foreign> for <foreign>śāsanapaṇḍita</foreign>.</p>
+         </div>
+        <!-- <div type="bibliography">
+           <p>Edited by Kunthea Chhom based on the photographs of the estampage sent by Chhunteng Hun. Our reading differs at several places from that by JE and DS.</p> 
+        </div> -->
+      </body>
+    </text>
+</TEI>

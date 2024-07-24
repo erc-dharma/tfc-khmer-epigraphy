@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb of the Southern tower at Prasat Srange or Dei Dom (K. 936), 9th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00936</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The <foreign>akṣara</foreign>s are characteristic of the ninth century.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2023-12-28" status="draft">Adding paleographic description and modifications to apparatus and commentary</change>
+         <change who="part:kuch" when="2020-11-30">Modifications to edition regarding numerals</change>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:kuch" when="2020-06-18" status="draft">Modifications of edition, apparatus and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019-12-22" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:00000">
+                    <div type="textpart" n="A"><head xml:lang="eng">South doorjamb</head>
+                        <p>
+<lb n="S1"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S2"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S3"/><gap reason="lost" extent="unknown" unit="character"/> 
+<lb n="S4"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S5"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S6"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S7"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S8"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S9"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S10"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S11"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S12"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S13"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S14"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S15"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S16"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="S17"/><gap reason="lost" extent="unknown" unit="character"/>                    
+                        </p>
+                    </div>
+<div type="textpart" n="B"><head xml:lang="eng">North doorjamb</head>
+    <p>
+<lb n="N1"/><gap reason="lost" quantity="5" unit="character"/> <unclear>ma</unclear>n· śaṅku ṅana jyaṅ· <num value="1"><g type="numeral">I</g></num> liṅ· <num value="2"><g type="numeral">II</g></num> mukuṭa <num value="1"><g type="numeral">I</g></num> laṅgau Ar<choice><unclear>th</unclear><unclear>b</unclear></choice>iya ṅana
+<lb n="N2"/><space quantity="10" unit="character"/> snap· praṇāla prak· <num value="1"><g type="numeral">I</g></num> ṅana liṅ· <num value="7">7</num> pāda <num value="2"><g type="numeral">II</g></num>
+<lb n="N3"/>sliṅ· <num value="2" cert="low"><g type="numeral">II</g></num> <gap reason="lost" quantity="2" unit="character"/> <unclear>O</unclear>ṅkāra mās· nu tmo ta gi ṅana pāda <num value="1"><g type="numeral">I</g></num> <g type="circle">.</g> bhājana <num value="1"><g type="numeral">I</g></num> ṅana jyaṅ· <num value="1"><g type="numeral">I</g></num> li<lb n="N4" break="no"/><unclear>ṅ·</unclear> <num value="2"><g type="numeral">II</g></num> sliṅ· <gap reason="lost" quantity="1" unit="character"/> kalaśa mās· <num value="1"><g type="numeral">I</g></num> ṅana liṅ· <num value="8">8</num> pāda <num value="2"><g type="numeral">II</g></num> sliṅ· <num value="2"><g type="numeral">II</g></num> kalaśa pra<lb n="N5" break="no"/>k· <num value="1"><g type="numeral">I</g></num> ṅana <unclear>li</unclear>ṅ· <num value="8">8</num> pāda <num value="3"><g type="numeral">III</g></num> sliṅ· <num value="3" cert="low"><g type="numeral">III</g></num> śarāvaṇa prak· <num value="2"><g type="numeral">II</g></num> ṅana liṅ· <num value="1"><g type="numeral">I</g></num> pā<lb n="N6" break="no"/><supplied reason="lost">da</supplied> <gap reason="lost" quantity="1" unit="character"/> <unclear>sliṅ·</unclear> <num value="1" cert="low"><g type="numeral">I</g></num> noṅ· prak· <num value="2"><g type="numeral">II</g></num> ṅana liṅ· <num value="15"><g type="numeral">10</g> 5</num> sliṅ· <num value="1"><g type="numeral">I</g></num> parivāra prak· 
+<lb n="N7"/><num value="1" cert="low"><g type="numeral">I</g></num> ṅana liṅ· <num value="7">7</num> <gap reason="lost" quantity="7" unit="character"/> <supplied reason="lost">ta</supplied>n<unclear>l</unclear>ap· prak· <num value="1"><g type="numeral">I</g></num> ṅana pāda <num value="3"><g type="numeral">III</g></num> sliṅ· <num value="3"><g type="numeral">III</g></num>
+<lb n="N8"/><gap reason="lost" quantity="14" unit="character"/> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>rakti</unclear> <num value="1"><g type="numeral">I</g></num> ṅana liṅ· <num value="3"><g type="numeral">III</g></num> pāda
+<lb n="N9"/><num value="3"><g type="numeral">III</g></num> sliṅ <num value="1"><g type="numeral">I</g></num> <gap reason="lost" quantity="12" unit="character"/> <supplied reason="lost">kana</supplied>kadanda <unclear>m</unclear>an· śaṅku <num value="1"><g type="numeral">I</g></num> ṅa<lb n="N10" break="no"/>na liṅ· <gap reason="lost" quantity="11" unit="character"/>ṅ· <num value="3"><g type="numeral">III</g></num> jaghat· liṅ· <num value="1"><g type="numeral">I</g></num>
+<lb n="N11"/><gap reason="lost" quantity="19" unit="character"/> sbok· laṅgau
+<lb n="N12"/><gap reason="lost" quantity="19" unit="character"/> <supplied reason="lost">la</supplied>ṅgau ta taṁtāṁ caru <num value="1"><g type="numeral">I</g></num> 
+<lb n="N13"/><supplied reason="lost">pa</supplied><unclear>di</unclear>gaḥ car· <num value="2"><g type="numeral">II</g></num> ṅa<lb n="N14" break="no"/><supplied reason="lost">na</supplied><gap reason="lost" extent="unknown" unit="character"/> di <num value="5">5</num>
+<lb n="N15"/><gap reason="lost" extent="unknown" unit="character"/> prak·
+<lb n="N16"/><gap reason="lost" extent="unknown" unit="character"/> <num value="2"><g type="numeral">II</g></num>
+<lb n="N17"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>daṁ</unclear>
+             </p>
+            </div>
+                </div>
+            <div type="apparatus">
+                <listApp>
+                 <app loc="N1">
+                    <lem/>
+                     <note/>
+                 </app>
+                    <app loc="N2">
+                       <lem/>
+                     <note/>
+                 </app>
+                    </listApp>
+            </div>
+         <div type="translation" xml:lang="fra" source="bib:Soutif2009_03">
+ 	<p n="N1-3"><gap reason="lost"/> avec du métal blanc pesant 1 <foreign>jyaṅ</foreign>, 2 <foreign>liṅ</foreign> ; une coiffe en cuivre <foreign>Arth/biya</foreign> pesant <gap reason="lost"/> ; 1 revêtement de rigole d’écoulement en argent pesant 7 <foreign>liṅ</foreign>, 2 <foreign>pāda</foreign>, 2 <supplied reason="explanation">?</supplied> <foreign>sliṅ</foreign> ; une syllabe Oṃ en or, avec des pierres dessus, pesant 1 <foreign>pāda</foreign>.</p>
+             <p n="N3-17">Un vase <supplied reason="explanation"><foreign>bhājana</foreign></supplied> pesant 1 <foreign>jyaṅ</foreign>, 2 <foreign>liṅ</foreign>, x <foreign>sliṅ</foreign> ; une aiguière en or pesant 8 <foreign>liṅ</foreign>, 2 <foreign>pāda</foreign>, 2 <foreign>sliṅ</foreign> ; une aiguière en argent pesant 8 <foreign>liṅ</foreign>, 3 <foreign>pāda</foreign>, 3 <foreign>sliṅ</foreign> ; 2 coupes en argent pesant 1 <foreign>liṅ</foreign>, x <foreign>pāda</foreign>, 1 <foreign>sliṅ</foreign> ; 2 calebasses en argent pesant 15 <foreign>liṅ</foreign> ; 1 <foreign>sliṅ</foreign> ; 1 <supplied reason="explanation">?</supplied> <foreign>parivāra</foreign> en argent pesant 7 <foreign>liṅ</foreign>, <gap reason="lost"/> ; <gap reason="lost"/> ; une boîte en argent pesant 3 <foreign>pāda</foreign>, 3 <foreign>sliṅ</foreign> ; un <gap reason="lost"/> pesant 3 <foreign>liṅ</foreign>, 3 <foreign>pāda</foreign>, 1 <foreign>sliṅ</foreign> ; <gap reason="lost"/> 1 manche en or avec du métal blanc pesant x <foreign>liṅ</foreign>, <gap reason="lost"/> ; <gap reason="lost"/> pesant <gap reason="lost"/>, 3 <foreign>liṅ</foreign> ; <supplied reason="explanation">un</supplied> <foreign>jaghat</foreign> <supplied reason="subaudible">pesant</supplied> 1 <foreign>liṅ</foreign> <gap reason="lost"/> ; un plateau à pieds, en cuivre <gap reason="lost"/> ; <supplied reason="explanation">un</supplied> <gap reason="lost"/> en cuivre pour cuire le gruau ; 2 crachoirs gravés <supplied reason="explanation" cert="low">ou inscrits</supplied> pesant <gap reason="lost"/></p>
+         </div>
+         <div type="commentary">
+            <p>A porpos du piédroit sud, l'estampage est peu lisible. Il s'agit d'une liste d'esclaves très lacunaire, énumérant les <foreign>gho</foreign>, <foreign>tai</foreign> et leurs enfants. Des sous-totaux étaient donnés, comme en témoigne le mot <foreign>psaṁ</foreign>, lisible au début de la ligne 17. On peut seulement lire les derniers caractères des lignes 12, 13 et 14, respectivement : <foreign>p·</foreign>, <foreign>n·</foreign> ; <foreign>ja</foreign>.</p>
+         <p n="N1">Cette ligne a bien l'air d'être la première de l'inscription. L'absence de formule introductive peut laisser supposer qu'on a ici la suite d'une liste qui commençait peut-être dans la partie inférieure du piédroit Sud.</p>
+         <p n="N2">Curieusement, rien ne semble noté sur l'estampage avant <foreign>snap·</foreign>, en dehors, peut-être, d'un <foreign>akṣara</foreign> avant la cassure <supplied reason="explanation" cert="low">Cra, 4</supplied>, mais sa présence est incertaine. On attend ici le poids du diadème.</p>
+         </div>
+        <div type="bibliography">
+          <p>Edited by Dominique Soutif (<bibl rend="omitname"><ptr target="bib:Soutif2009_03"/><citedRange unit="page">446</citedRange></bibl>) with a French translation.</p>
+	 <listBibl type="primary">
+    <bibl n="DS">
+      <ptr target="bib:Soutif2009_03"/>
+      <citedRange unit="page">446</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>

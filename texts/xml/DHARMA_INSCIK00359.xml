@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stone slab from Veal Kantel (K. 359), 7th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00359</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventh century CE. 
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-07-19" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83211">
+
+                   <lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/>śrīvīravarmma-duhitā</l>
+<l n="b"><milestone unit="column" n="b"/>svasā śrībhavavarmmaṇaḥ</l>
+     <l n="c"><milestone unit="column" n="c"/>pativratā dharmma-ratā</l>
+     <l n="d"><milestone unit="column" n="d"/>dvitīyārundhatīva yā <g type="ddandaHooked">.</g></l>
+       </lg>
+                  <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="2"/><milestone unit="column" n="a"/>hiraṇyavarmma-jananīṁ</l>
+<l n="b"><milestone unit="column" n="b"/>yas tām patnīm upābahat·</l>
+     <l n="c"><milestone unit="column" n="c"/>dvijendur ākr̥tisvāmī</l>
+     <l n="d"><milestone unit="column" n="d"/>sāmaveda-vid-agraṇīḥ <g type="ddandaHooked">.</g></l>
+       </lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="3"/><milestone unit="column" n="a"/>śrīsomaśarmmārka-yutaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>sa śrītribhuvaneśvaram·</l>
+     <l n="c"><milestone unit="column" n="c"/>Atiṣṭhipan mahāpūja<milestone unit="column" n="d" break="no"/>m</l>
+     <l n="d">atipuṣkala-dakṣiṇaṁ<g type="ddandaHooked">.</g></l>
+       </lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="4"/><milestone unit="column" n="a"/>rāmāya<choice><sic>n</sic><corr>ṇ</corr></choice>a-purāṇābhyā<milestone unit="column" n="b" break="no"/>m</l>
+<l n="b">aśeṣaṁ bhāratan dadat·</l>
+     <l n="c"><milestone unit="column" n="c"/>Akr̥tānvaham acchedyāṁ</l>
+     <l n="d"><milestone unit="column" n="d"/>sa ca tad-vācanāsthitim·</l>
+       </lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="5"/><milestone unit="column" n="a"/>yāvat tribhuvaneśasya</l>
+<l n="b"><milestone unit="column" n="b"/>vibhūtir avatiṣṭhate</l>
+     <l n="c"><milestone unit="column" n="c"/>yo ya E<seg met="=-++="><gap reason="lost" quantity="5" unit="character"/></seg></l>
+     <l n="d"><milestone unit="column" n="d"/><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+       </lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="6"/><milestone unit="column" n="a"/>dharmmāṅśas tasya tasya syā<milestone unit="column" n="b" break="no"/>n</l>
+<l n="b">mahā-sukr̥ta-kāriṇaḥ</l>
+     <l n="c"><milestone unit="column" n="c"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+     <l n="d"><milestone unit="column" n="d"/><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+       </lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="7"/><milestone unit="column" n="a"/>Itas tu harttā durbuhd<unclear>dh</unclear>i<milestone unit="column" n="b" break="no"/>r</l>
+<l n="b">yyā Ekam api pusta<unclear>kam</unclear>·</l>
+     <l n="c"><milestone unit="column" n="c"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+     <l n="d"><milestone unit="column" n="d"/><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+       </lg>
+                </div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="7">
+                     <lem>yyā</lem>
+                     <rdg source="bib:Barth1885_01">yya</rdg>
+                     </app>
+                 </listApp>         
+         </div> 
+       <div type="translation" xml:lang="fra" source="bib:Barth1885_01">
+        <p rend="stanza" n="1"><supplied reason="subaudible">Il est une princesse</supplied> fille de śrī-Vīravarman, sœur de śrī-Bhavavarman, qui, dévouée à son époux, ne prenant plaisir qu'au devoir, <supplied reason="subaudible">fut</supplied> comme une seconde Arundhatī.</p>
+          <p rend="stanza" n="2">Celui qui prit pour épouse cette mère de Hiraṇyavarman, une lune entre les brāhmanes, dont le seul aspect annonçait la noblesse et qui marchait en tête des connaisseurs du Sāmaveda.</p>
+          <p rend="stanza" n="3">Śrī-Somaśarman érigea, lui, <supplied reason="subaudible">ce</supplied> śrī-Tribhuvaneśvara accompagné <supplied reason="subaudible">d'une image</supplied> du Soleil, avec de grands honneurs et de splendides offrandes.</p>
+          <p rend="stanza" n="4">Avec le Rāmāyaṇa et le Purāṇa, il donna le Bhārata complet, et en institua le récitation journalière, sans interruption.</p>
+          <p rend="stanza" n="5">Tant que subsistera la majesté de Tribhuvaneśa, quiconque <gap reason="lost"/> <supplied reason="subaudible">participera à cette lecture,</supplied></p>
+          <p rend="stanza" n="6">Qu'une part <supplied reason="subaudible">du fruit</supplied> de cette œuvre pieuse revienne chaque fois à l'auteur de cet acte excellent ...</p>
+          <p rend="stanza" n="7">Mais l'insensé qui enlèvera d'ici ne fût-ce qu'un seul volume, <gap reason="lost"/>.</p>
+            </div>
+           <div type="translation" source="bib:Goodall2017_02">
+        <p rend="stanza" n="1-2">There was a daughter of Vīravarman, sister of Bhavavarman, devoted to her husband, devoted to duty, like a second Arundhatī, whom the moon among brahmins, Ākr̥tisvāmin, formost among those knowing the Sāmaveda, married, the mother of Hiraṇyavarman.</p>
+          <p rend="stanza" n="3">That <supplied reason="subaudible">Ākr̥tisvāmin</supplied> installed <supplied reason="subaudible">here the liṅga called</supplied> Śrī-Tribhuvaneśvara, together with a statue <supplied reason="explanation"><foreign>arka</foreign></supplied> of Śrī-Somaśarman, along with elaborate worship and extremely generous benefactions.</p>
+          <p rend="stanza" n="4">He gave the entire Mahābhārata, along with the Rāmāyaṇa and the Purāṇa, and he instigated a daily, uninterrupted practice of their recitation.</p>
+          <p rend="stanza" n="5">For as long as the wealth of Tribhuvaneśvara remains, whoever <gap reason="lost"/>.</p>
+          <p rend="stanza" n="6"><gap reason="lost"/> just a part of the merit of such a person of great good deeds.</p>
+          <p rend="stanza" n="7">Whichever ill-thinking person should take even one book from here <supplied reason="subaudible">will</supplied> <gap reason="lost"/>. </p>
+            </div>
+      <!-- <div type="commentary">
+          
+       </div> -->
+         <div type="bibliography">
+        <p>First edited by August Barth (<bibl rend="omitname"><ptr target="bib:Barth1885_01"/><citedRange unit="page">28-31</citedRange></bibl>) with a French translation; reedited by Dominic Goodall (<bibl rend="omitname"><ptr target="bib:Goodall2017_02"/><citedRange unit="page">132-134</citedRange></bibl>) with an English translation.</p>
+	 <listBibl type="primary">
+    <bibl n="AB">
+      <ptr target="bib:Barth1885_01"/><citedRange unit="page">28-31</citedRange>
+    </bibl>
+	    <bibl n="DG">
+      <ptr target="bib:Goodall2017_02"/><citedRange unit="page">132-134</citedRange>
+    </bibl>
+	    
+  </listBibl> 
+        </div>
+        </body>
+    </text>
+</TEI>

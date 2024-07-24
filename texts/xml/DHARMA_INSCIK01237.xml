@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of unknown provenance (K. 1237), 779 Śaka<note>The date 779 śaka relates an event prior to the date of the inscription. The inscription may be dated to the reign of king Sūryavarman I (r. 1002–1050) or II (r. 1113–1150).</note>
+            </title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01237</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh-twelfth century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-06-25" status="draft">Adding paleographical remark and modification to the apparatus</change>
+         <change who="part:kuch" when="2020-12-03">Modifications to edition regarding numerals and punctuation signs</change>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:kuch" when="2020-05-25" status="draft">Modifications of edition, apparatus and bibliography</change>
+         <change who="part:axja" when="2020-04-08" status="draft">Update template 2</change>
+         <change who="part:axja" when="2020-01-09" status="draft">Update template</change>
+         <change who="part:kuch" when="2019-11-23" status="draft">Creation of the file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<div type="textpart" n="A"><head xml:lang="eng">Face</head>
+<ab>
+<lb n="A1"/><g type="complexeFiniial">.</g><g type="ddanda">.</g> <num value="779">779</num> śaka Ekādaś<unclear>ī</unclear> roc· māgha nu mratāñ· śri bhūpendrasi<lb n="A2" break="no"/>ṅha nu steṅ· Añ· Ācāryya Addhyā<choice><orig>pa</orig><reg>paka</reg></choice> vraḥ laṁvāṅ· paṅgaṁ thpvaṅ· ni<lb n="A3" break="no"/>vedana ta dhūlī vraḥ pāda dhūli jeṅ· vraḥ kamrateṅ· Añ· ta
+<lb n="A4"/>s<unclear>t</unclear>āc· dau parameśvara man· vraḥ kamrateṅ· Añ· śivalīṅga Ā<lb n="A5" break="no"/><supplied reason="lost">y·</supplied> rāṁ pi leṅ· sāka nu vraḥ setā nadiya punya nai vraḥ dharmma
+<lb n="A6"/>pramān· śrindrapura man· dhūlī vraḥ pāda dhūli jeṅ· vraḥ kamrate<lb n="A7" break="no"/>ṅ· Añ· ta stāc· dau parameśvara Unmila jvan· khñuṁ <g type="dotMid">.</g> varṇṇa taṁvon· mūla
+<lb n="A8"/>mvāya śarāsa mūla mvāya vraḥ pāda ta stāc· dau vīṣṇuloka thve
+<lb n="A9"/>pūjā Oy· piṅ· vraḥ kaṁvaṅ· khṇar· kaṁvaṅ· tadiṅ· mukhadvāra <choice><sic>kavaṅ·</sic><corr>kaṁvaṅ·</corr></choice> tadiṅ·
+<lb n="A10"/>trāp· toy· nu vrai dīvasa trāp· toy· Ukka nā tandula
+<lb n="A11"/>pre chkop· je <num value="1"><g type="numeral">I</g></num> pratidina vvaṁ ti pre sutantra ta khloñ· srū khlo<lb n="A12" break="no"/>ñ· viṣaya khloñ· kandvāra vrai khloñ· vriha paryyaṅ· vvaṁ jā pī mān·
+<lb n="A13"/>rājakāryya thve devakāryya gus· kalpanā ta bhagavan· purohita
+<lb n="A14"/>chmāṁ thnyak· <num value="1"><g type="numeral">II</g></num> tap· hat· yo <num value="2"><g type="numeral">II</g></num> neḥ gi roḥ kalpanā vraḥ pāda ta stā<lb n="A15" break="no"/>c· dau parameśvara nu vraḥ pāda ta stāc· dau viṣṇuloka <g type="dotMid">.</g> vraḥ pāda
+<lb n="A16"/>ta stāc· dau paramaśivaloka thve pūjā pre taṁgal· <unclear>k</unclear>alpanā roḥ<lb n="A17" break="no"/>ha noḥha Ukka <g type="dotMid">.</g> man· tamvrac· srū nivedana pi svaṁ kaṁvaṅ· nā phduk·
+<lb n="A18"/>bhāga Oy· thmā vraḥ candoṅa Oy· leṅ· mān· toy· cuñ· dvaka
+<lb n="A19"/>gus· <g type="dotMid">.</g>
+</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Face</head>
+<lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="B1"/>yo sau parama-kaivalya</l>
+<l n="b">-sa<unclear>ṁ</unclear>yato cañcala-sth<unclear>i</unclear>t<unclear>a</unclear>ḥ</l>
+<l n="c"><lb n="B2"/>jagatāṁ sr̥ṣṭaye sthūlo</l>
+<l n="d">namyatāṁ sa śivaś śivaḥ <g type="ddanda">.</g></l>
+</lg>
+<lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="B3"/>sa ca bhū-tala-bhū-pendra</l>
+<l n="b">-maulibhir bhūti-vr̥ddhaye</l>
+<l n="c" enjamb="yes"><lb n="B4"/>bhaktyoddhr̥ta-pavitrāṅghri</l>
+<l n="d">-n<choice><orig>i</orig><reg>ī</reg></choice>rajo-<choice><orig>n</orig><reg>nn</reg></choice>idra-n<choice><orig>i</orig><reg>ī</reg></choice>rajaḥ <g type="ddanda">.</g></l>
+</lg>
+<lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="B5"/>devātmanā sa vidyādhi</l>
+<l n="b">-pativarmma-mahātmanā</l>
+<l n="c"><lb n="B6"/>śr<unclear>ī</unclear>sūryyavarmma-bhū-pendr<choice><orig>a</orig><reg>o</reg></choice></l>
+<l n="d">dharmma-niṣṭh<choice><orig>e</orig><reg>o</reg></choice> niveditaḥ <g type="ddanda">.</g></l>
+</lg>
+<lg n="4" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="B7"/>śāsanais sarvva-dharmma-jña</l>
+<l n="b">-mates tasyāmr̥tādhikaiḥ</l>
+<l n="c"><lb n="B8"/>de<unclear>va-bh</unclear>ūmis sadāsaughā</l>
+<l n="d">varjitā v<choice><orig>a</orig><reg>i</reg></choice>ṣayādhipaiḥ <g type="ddanda">.</g></l>
+</lg>
+<lg n="5" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="B9"/>vima<choice><orig>d</orig><reg>rd</reg></choice>ayanti ye bhūmī</l>
+<l n="b">-bhūm<choice><orig>ī</orig><reg>i</reg></choice>-dāsān devasya pāp<choice><orig>ī</orig><reg>i</reg></choice>naḥ</l>
+<l n="c"><lb n="B10"/>te sarvva-narake yāntu</l>
+<l n="d">yātanām ā bhavakṣayāt· <g type="ddanda">.</g></l>
+</lg>
+<lg n="6" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="B11"/>vivardhayanti ye deva</l>
+<l n="b">-bhūmi-dāsāṁ<choice><orig>g</orig><reg>ś</reg></choice> ca dhārmmikāḥ</l>
+<l n="c"><lb n="B12"/>svargg<unclear>e</unclear> te sarvva-devena</l>
+<l n="d">pūjyantān nitya-saṁpadaḥ <g type="ddanda">.</g></l>
+</lg>
+</div>
+            </div>
+        <!--     <div type="apparatus">
+               <listApp>
+                  <app loc="A9">
+                     <lem>></lem>
+                     <note></note>
+                  </app>
+                   <app loc="B9">
+                     <lem></lem>
+                     <note></note>
+                  </app>
+               </listApp>         
+         </div> -->
+         <div type="translation" source="bib:Griffiths+Chhom2019_01">
+             <p n="A1">779 <foreign>śaka</foreign>, eleventh <supplied reason="explanation"><foreign>tithi</foreign></supplied> of the waning <supplied reason="subaudible">fortnight</supplied> of <foreign>māgha</foreign>.</p>
+             <p n="A1-A4">At that time <supplied reason="explanation"><foreign>nu</foreign></supplied>, Mratāñ Śrī Bhūpendrasiṅha and Steṅ Añ master of professors of the royal precincts <supplied reason="explanation"><foreign>vraḥ laṁvāṅ</foreign></supplied> respectfully petitioned <supplied reason="explanation"><foreign>paṅgaṁ thpvaṅ nivedana</foreign></supplied> His Majesty the King <supplied reason="explanation"><foreign>dhūli vraḥ pāda dhūli jeṅ vraḥ kamrateṅ qañ</foreign></supplied> who was pleased to go to Parameśvara <supplied reason="explanation">Jayavarman II</supplied>:</p>
+             <p n="A4-A6">that <supplied reason="explanation"><foreign>man</foreign></supplied> V.K.A. Śivaliṅga at Rāṁ be the property of the lineage <supplied reason="explanation"><foreign>pi leṅ sāka</foreign></supplied>, together with the god <supplied reason="explanation"><foreign>vraḥ</foreign></supplied> of Setā Nadī, <supplied reason="explanation">both <foreign>liṅga</foreign> and that god being</supplied> pious works at <supplied reason="explanation"><foreign>nai</foreign></supplied> the Holy Foundation <supplied reason="explanation"><foreign>dharmma</foreign></supplied> of the province of Śrīndrapura;</p>
+             <p n="A6-A8">that His Majesty the King who was pleased to go to Parameśvara carry out the ceremonial opening of the <supplied reason="explanation">two deities’</supplied> eyes and offer servants: one foreman <supplied reason="explanation"><foreign>mūla</foreign></supplied> from the corporation <supplied reason="explanation"><foreign>varṇa</foreign></supplied> of the Tampuon <supplied reason="explanation">tribe and</supplied> one foreman from <supplied reason="explanation">the corporation of the</supplied> archers <supplied reason="explanation"><foreign>śarāsa</foreign></supplied>.</p>
+             <p n="A8-A10">The king <supplied reason="explanation"><foreign>vraḥ pāda</foreign></supplied> who was pleased to go to the Viṣṇuloka <supplied reason="explanation">Jayavarman III</supplied> performed worship <supplied reason="explanation"><foreign>pūjā</foreign></supplied>, giving the pool <supplied reason="explanation"><foreign>piṅ</foreign></supplied> by the royal wharf <supplied reason="explanation"><foreign>kaṁvaṅ</foreign></supplied> of the embankment, the wharf perpendicular to <supplied reason="explanation"><foreign>tadiṅ</foreign></supplied> the front gate <supplied reason="explanation"><foreign>mukhadvāra</foreign></supplied>, the opposite wharf <supplied reason="explanation">lying</supplied> along <supplied reason="explanation">the royal wharf or the wharf perpendicular to the front gate or both of them</supplied> and also the Divasa forest <supplied reason="explanation">lying</supplied> along <supplied reason="explanation">the royal wharf or the wharf perpendicular to the front gate or both of them</supplied>.</p>
+             <p n="A11-A12">Regarding rice <supplied reason="explanation"><foreign>nā tandula</foreign></supplied>, he ordered a tax <supplied reason="explanation"><foreign>tithi</foreign>chkop</supplied> of 1 bushel <supplied reason="explanation"><foreign>je</foreign></supplied> daily, not to be used independently from the authority of the paddy officers, the district officers, the officers of the forest chamber <supplied reason="explanation">? <foreign>kandvāra vrai</foreign></supplied>, the officers of paddy and oil.</p>
+             <p n="A12-A13"><supplied reason="subaudible">He also ordered</supplied> that there ought not to be any royal corvée <supplied reason="explanation"><foreign>tithi</foreign></supplied><supplied reason="explanation">claimed on its basis</supplied>; <supplied reason="explanation"><foreign>tithi</foreign></supplied><supplied reason="subaudible">he ordered that</supplied> it produce solely temple corvée.</p>
+             <p n="A13-A14">Endowment <supplied reason="explanation"><foreign>kalpanā</foreign></supplied> for the venerable of ciant <supplied reason="explanation"><foreign>purohita</foreign></supplied>: 1 guardian of his resting-chamber; 2 <foreign>yo</foreign> of <foreign>tap hat</foreign> <supplied reason="subaudible">cloth</supplied>.</p>
+             <p n="A14-A15">Such were the endowments of the king <supplied reason="explanation"><foreign>vraḥ pāda</foreign></supplied> who was pleased to go to Parameśvara and of the king who was pleased to go to the Viṣṇuloka.</p>
+             <p n="A15-A17">The king who was pleased to go to the Paramaśivaloka <supplied reason="explanation">Yaśovarman</supplied> also performed worship and ordered to maintain that endowment.</p>
+             <p n="A17-A19">The paddy inspector<supplied reason="explanation">s</supplied> <supplied reason="explanation"><foreign>tamvrac srū</foreign></supplied> submitted a petition <supplied reason="explanation"><foreign>nivedana pi svaṁ</foreign></supplied> for a wharf on which to unload <supplied reason="explanation"><foreign>phduk</foreign></supplied> their portion, <supplied reason="subaudible">asking permission also to the king</supplied> to give <supplied reason="explanation"><foreign>qoy</foreign></supplied> the stone <supplied reason="explanation">called</supplied> Vraḥ Candoṅ <supplied reason="explanation">or the stone of Vraḥ Candoṅ</supplied> so that <supplied reason="explanation"><foreign>qoy leṅ mān toy</foreign></supplied> the boats can be taken out.</p>
+ 	<p rend="stanza" n="1">Let that benign Śiva be paid homage, who <supplied reason="subaudible">, though he ever</supplied> abides motionless, restrained in supreme <supplied reason="explanation"><foreign>yogic</foreign></supplied> isolation, <supplied reason="subaudible">also becomes</supplied> perceptible <supplied reason="explanation"><foreign>sthūla</foreign></supplied> for the purpose of creating the universe!</p>
+ 	<p rend="stanza" n="2">And he <supplied reason="explanation">the king</supplied>, the dustless <supplied reason="explanation"><foreign>nīraja</foreign></supplied> full-blown <supplied reason="explanation"><foreign>unnidra</foreign></supplied> lotuses <supplied reason="explanation"><foreign>nīra-ja</foreign></supplied> of whose pure feet were taken up, out of devotion, by the crests of the kings on the surface of the earth, for the increase of prosperity, <gap reason="ellipsis"/><note>The passage is illegible.</note></p>
+ 	<p rend="stanza" n="3"><gap reason="ellipsis"/><note>The passage is illegible.</note> he, the king Śrī Sūryavarman, having a firm base in dharma, was petitioned by the reverend Vidyādhipativarman, whose soul was <supplied reason="subaudible">fixed</supplied> on the divine.</p>
+ 	<p rend="stanza" n="4">By his <supplied reason="explanation">the King’s</supplied> instructions, approved by all knowers of <foreign>dharma</foreign>, superior <supplied reason="explanation">in positive effects</supplied> even to ambrosia, the territory of the god, along with floods of slaves, was exempted from <supplied reason="explanation">taxation by</supplied> district-overseers.</p>
+ 	<p rend="stanza" n="5">To those sinners, who disturb the territory and the servants of the god, shall befall torture in all the hells, till the end of existence.</p>
+ 	<p rend="stanza" n="6">Those righteous ones, who cause the land and the servants of the god to prosper, are to be worshipped by all the gods in heaven, forever prosperous.</p>
+         </div>
+         <div type="commentary">
+            <p n="A9">The absence of the expected <foreign>anusvāra</foreign> on the <foreign>akṣara ka</foreign> of the word <foreign>kavaṅ·</foreign> may be due to interference from the <foreign>u</foreign> of <foreign>vīṣṇuloka</foreign> in the preceding line.</p>
+         <p n="B9">Regarding the word <foreign>vimardayanti</foreign>, judging by the photos, it might seem that the absence of a required superscript <foreign>r</foreign> could be due to local detachment of the top layer of the stone’s surface, which would have entailed the loss of the <foreign>r</foreign>, but inspection of the stone shows that no such detachment, and hence no loss of <foreign>r</foreign>, has in fact occurred here. The needed <foreign>r</foreign> was simply never written.</p>
+         </div>
+        <div type="bibliography">
+          <p>Edited by Arlo Griffiths and Kunthea Chhom (<bibl rend="omitname"><ptr target="bib:Griffiths+Chhom2019_01"/><citedRange unit="page">11-14</citedRange></bibl>) with an English translation.</p>
+	 <listBibl type="primary">
+    <bibl n="AG+KC">
+      <ptr target="bib:Griffiths+Chhom2019_01"/>
+      <citedRange unit="page">11-14</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
