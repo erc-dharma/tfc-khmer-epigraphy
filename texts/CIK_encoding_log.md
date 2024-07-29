@@ -434,7 +434,7 @@ K.	294 |# |# |#|
 |K.	356 |# |# |#|
 |K.	357 |kuch | done |IC VI|
 |K.	358 |kuch | done |IC V|
-|K.	359 |kuch |pending |ISC|
+|K.	359 |kuch |done |ISC|
 |K.	360 |kuch | done |IC V|
 |K.	361 |kuch |pending |unpublished|
 |K.	362 |# |# |#|
@@ -524,7 +524,7 @@ K.	294 |# |# |#|
 |K.	444 |sapi |done ||C II |
 |K.	445 |# |# |#|
 |K.	446 |# |# |#|
-|K.	447 |# |# |#|
+|K.	447 |kuch |done |IC II|
 |K.	448 |# |# |#|
 |K.	449 |# |# |#|
 |K.	450 |# |# |#|
@@ -684,8 +684,8 @@ K.	294 |# |# |#|
 |K.	586 |# |# |#|
 |K.	587 |# |# |#|
 |K.	588 |# |# |#|
-|K.	589 |# |# |#|
-|K.	590 |# |# |#|
+|K.	589 |kuch |done |IC III|
+|K.	590 |kuch |done |IC III|
 |K.	591 |# |# |#|
 |K.	592 |kuch |done |Cœdès 1951, IC III|
 |K.	593 |chch |done |IC III|
@@ -833,7 +833,7 @@ K.	294 |# |# |#|
 |K.	731 |sapi |pending |JFCA 9B|
 |K.	732 |# |# |#|
 |K.	733 |kuch |done |IC I|
-|K.	734 |kuch |pending |unpublished|
+|K.	734 |kuch |done |unpublished|
 |K.	735 |kuch |done |IC V|
 |K.	736 |chch |pending |IC V|
 |K.	737 |chch |done |Parmentier 1935, Dalet 1935|
@@ -865,7 +865,7 @@ K.	294 |# |# |#|
 |K.	763 |kuch |done |NIC I|
 |K.	764 |kuch |done |IC VI|
 |K.	765 |kuch |done |IC V|
-|K.	766 |# |# |#|
+|K.	766 |kuch |done |IC VI|
 |K.	767 |# |# |#|
 |K.	768 |# |# |#|
 |K.	769 |# |# |#|
@@ -1166,7 +1166,7 @@ K.	294 |# |# |#|
 |K.	1027 |# |# |#|
 |K.	1028 |kuch |done |NIC II-III(Khmer part); Sanskrit part unpublished |
 |K.	1029 |kuch |done |Soutif 2009|
-|K.	1030 |# |# |#|
+|K.	1030 |kuch |done |NIC II-III|
 |K.	1031 |kuch |pending |Vong 2003|
 |K.	1032 |kuch |pending |unpublished|
 |K.	1033 |# |# |#|
@@ -1395,7 +1395,7 @@ K.	294 |# |# |#|
 |K.	1256 |kuch |done|Soutif 2009|
 |K.	1257 |kuch |done|Soutif 2009|
 |K.	1258 |kuch |pending |unpublished|
-|K.	1259 |kuch |pending |Long s.d., Oun 1998, Hun 2019|
+|K.	1259 |kuch |done |Long s.d., Oun 1998, Hun 2019|
 |K.	1260 |# |# |#|
 |K.	1261 |kuch |done |#|
 |K.	1262 |# |# |#|
@@ -1423,9 +1423,9 @@ K.	294 |# |# |#|
 |K.	1284 |chch |done |Chevance 2014|
 |K.	1285 |# |# |#|
 |K.	1286 |chch |done |Estève et Soutif 2014|
-|K.	1287 |kuch |pending |NIC IV|
-|K.	1288 |kuch |pending |Vong Sotheara 2011|
-|K.	1289 |# |# |#|
+|K.	1287 |kuch |done |NIC IV|
+|K.	1288 |kuch |done |Vong Sotheara 2011|
+|K.	1289 |kuch |done |Vong Sotheara 2011|
 |K.	1290 |chch |done |unpublished|
 |K.	1291 |chch |pending |unpublished|
 |K.	1292 |kuch |pending |unpublished|
@@ -1502,7 +1502,7 @@ K.	294 |# |# |#|
 |K.	1361 |# |# |#|
 |K.	1362 |# |# |#|
 |K.	1363 |chch |pending |unpublished|
-|K.	1364 |kuch |pending |unpublished|
+|K.	1364 |kuch |done |unpublished|
 |K.	1365 |# |# |#|
 |K.	1366 |# |# |#|
 |K.	1367 |# |# |#|
@@ -1556,7 +1556,7 @@ K.	294 |# |# |#|
 |K.	1415 |sapi |pending |unpublished|
 |K.	1416 |kuch |done |Hun 2018|
 |K.	1417 |kuch |done |Goodall et al forthcoming|
-|K.	1418 |# |# |#|
+|K.	1418 |kuch |done |Goodall in preparation|
 |K.	1419 |kuch |done |Chhom 2019|
 |K.	1420 |# |# |#|
 |K.	1421 |chch |pending |unpublished|
