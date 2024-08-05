@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb from Prasat Ak Yum (K. 749), 596 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00749</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-08-05" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83211">
+                   <p>
+                      <lb n="1"/><num value="596">59<unclear>6</unclear></num> śakaparigraha
+                      <lb n="2"/>moy· ket· Āṣādha śanaiścaravāra punarvvasunakṣa<lb 
+                         n="3" break="no"/>tra nu mratāñ· kīrttigaṇa kalpita satra Āy<unclear>·</unclear> vraḥ kaṁ<lb 
+                            n="4" break="no"/>mratāṅ· Añ<unclear>·</unclear> śrīgambhīreśvara <g type="ddanda">.</g> jmaḥ ta kantai <g type="danda">.</g> tai
+                      <lb n="5"/>k<gap reason="lost" quantity="1" unit="character"/>l· <gap reason="lost" quantity="12" unit="character"/>ṅko <gap reason="lost" quantity="1" unit="character"/> liḥ <num value="2"><g type="numeral">II</g></num> tmur· pa
+                      <lb n="6"/>Ai radeḥ <num value="2"><g type="numeral">II</g></num> tmur<unclear>·</unclear> <gap reason="lost" quantity="12" unit="character"/> <num value="1"><g type="numeral">I</g></num> canlek·
+                      <lb n="7"/><gap reason="lost" quantity="18" unit="character"/> mratāñ·
+                      <lb n="8"/>kīrttigaṇa tāñ<unclear>·</unclear> dra <gap reason="lost" quantity="1" unit="character"/>ryya jmaḥ <gap reason="lost" quantity="1" unit="character"/>ṇ<choice><orig>d</orig><reg>ḍ</reg></choice><gap reason="lost" quantity="5" unit="character"/>ryya <gap reason="lost" quantity="1" unit="character"/> Anrokka jmaḥ
+                      <lb n="9"/>k<unclear>·</unclear> <gap reason="lost" quantity="1" unit="character"/> gi ta rakṣā neḥ kalpita mratāñ<unclear>·</unclear> kīrttigaṇa Ā<lb 
+                         n="10" break="no"/>y<unclear>·</unclear> ta vraḥ kaṁmratāṅ· Añ· śrīgambhīreśvara <g type="ddanda">.</g>
+                      <lb n="11"/>kñuṁ mratāñ· kīrttigaṇa man· Oy ta ge kvan· nu ge paṁre Āy ta vraḥ kaṁmratāṅ· A<lb 
+                         n="12" break="no"/>ñ· śrīgambhīreśvara man· Oy ta harigaṇa kñuṁ tai ku qme laṁvaṅ· <num value="1"><g type="numeral">I</g></num> kvan· ku vā
+                      <lb n="13"/>kan·roy· <num value="1"><g type="numeral">I</g></num> man· Oy ta harivāhana gho vā srac· ta bhāgya <num value="1"><g type="numeral">I</g></num> man· Oy ta tāñ·
+                      <lb n="14"/>gāy· kñuṁ tai pratot· <num value="1"><g type="numeral">I</g></num> neḥ Upāya nu ge kvan· mratāñ· kīrttigaṇa paṁ<lb 
+                         n="15" break="no"/>re Ai ta vraḥ kaṁmratāṅ· Añ· śrīgambhīreśvara
+                   </p>
+                </div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem><num value="596">59<unclear>6</unclear></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><num value="539">539</num> or <num value="639">639</num></rdg>
+                     </app>
+                   <app loc="5">
+                     <lem><num value="2"><g type="numeral">II</g></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><g type="ddanda">.</g></rdg>
+                     </app>
+                   <app loc="6">
+                     <lem><num value="2"><g type="numeral">II</g></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><g type="ddanda">.</g></rdg>
+                     </app>
+                   <app loc="8">
+                     <lem>ṇ<choice><orig>d</orig><reg>ḍ</reg></choice></lem>
+                     <rdg source="bib:Coedes1937-1966_01">-ṇḍ-</rdg>
+                     </app>
+                   <app loc="14">
+                     <lem>pratot·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">praton</rdg>
+                     </app>
+               </listApp>         
+         </div> 
+       <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+        <p n="1-10">X39 <foreign>śaka</foreign>, premier jour de la lune croissante d'Āṣāḍha, samedi, <foreign>nakṣatra</foreign> Punarvasu, Mratāñ Kīrtigaṇa fixe la donation <supplied reason="explanation"><foreign>satra</foreign></supplied> à V.K.A. Śrī Gambhīreśvara. Noms des femmes <gap reason="lost"/> 2 <foreign>liḥ</foreign> de riz <gap reason="lost"/>, 2 bœufs de trait, <gap reason="lost"/> bœufs <gap reason="lost"/> vêtements <gap reason="lost"/> Mratāñ Kīrtigaṇa, Tāñ <gap reason="lost"/> nommé <gap reason="lost"/> c'est le nommé K<gap reason="lost"/> qui est gardien de ce qui a été fixé par Mratāñ Kīrtigaṇa en faveur de V.K.A. Śrī Gambhīreśvara.</p>
+          <p n="11-15">Esclaves de Mratāñ Kīrtigaṇa qu'il donne à ses enfants et à ceux qui servent V.K.A. Śrī Gambhīreśvara : il donne à Harigaṇa les esclaves femmes Ku Ame Laṁvaṅ. Ku <gap reason="lost"/>, Vā Kanroy ; il donne à Harivāhana le gho Vā Srac Ta Bhāgya ; il donne à Tāñ Gāy l'esclave Tai Praton. Ces moyens de subsistance et les enfants de Mratāñ Kīrtigaṇa sont au service de V.K.A. Śrī Gambhīreśvara.</p>
+            </div>
+      <!--  <div type="commentary">
+          <p></p>
+       </div> -->
+         <div type="bibliography">
+        <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">57-58</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 946.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">57-58</citedRange>
+    </bibl>
+	    
+  </listBibl> 
+        </div>
+        </body>
+    </text>
+</TEI>
