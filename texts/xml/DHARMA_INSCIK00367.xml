@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Vat Phu (K. 367), 7th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/22181866">
+                  <forename>Auguste</forename>
+                  <surname>Barth</surname>
+               </persName>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00367</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventh century CE with long descenders.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-08-23" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83211">
+<lg n="1" met="śārdūlavikrīḍita">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/>śakrādir vvijito mayā mama śarā moghaṁ gatā na kvaci<milestone unit="column" n="b" break="no"/>t</l>
+<l n="b">sovaddhyaś ca madhus sakhā mama sadā vaśyañ ca nr̥̄ṇāṁ manaḥ</l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/>Ity evaṁ vigaṇayya mānasabhuvo vyaddhuṁ gatas tat kṣaṇaṁ</l>
+<l n="d"><milestone unit="column" n="b"/>yadroṣekṣaṇa-jāta-bhasma-nicayo rudreṇa jejīyatām·</l>
+</lg>
+         <lg n="2" met="sragdharā">
+<l n="a"><lb n="3"/><milestone unit="column" n="a"/>yenākr̥ṣṭaṁ dvi-bhāraṁ saśara-vara-dhanur yyogyayāpāstram astraṁ</l>
+<l n="b"><milestone unit="column" n="b"/>mātaṅgāśvīya-martyaprajavavala-mano-yuddha-śikṣāvid-agryaḥ</l>
+<l n="c" enjamb="yes"><lb n="4"/><milestone unit="column" n="a"/>sad-gītātodya-nr̥ttādyanupama-dhiṣaṇā <unclear>śās</unclear>tra-sūkṣmārtha-cintā</l>
+<l n="d"><milestone unit="column" n="b"/>ratna-prajñā-titikṣā-vinaya-naya-mati-tyāga-ratnāmvudhir yyaḥ</l>
+</lg>
+                   <lg n="3" met="śārdūlavikrīḍita">
+<l n="a" enjamb="yes"><lb n="5"/><milestone unit="column" n="a"/>nānā-śastra-kr̥tābhiyoga-janita-vyāyāma-kāṭhinyava</l>
+<l n="b"><milestone unit="column" n="b"/>t-kamvu-grīva-mahorusaṁhata-vr̥hat-pīnāṅsa-vakṣa-stanuḥ</l>
+<l n="c"><lb n="6"/><milestone unit="column" n="a"/>Ājānupravilamva-hema-parighaprasparddhi-vāhudva<supplied reason="lost">yo</supplied></l>
+<l n="d"><milestone unit="column" n="b"/>yas saṁpūrṇṇa-narendra-siṅha-valavad-rūpābhirūpo bhuvi</l>
+</lg>
+                   <lg n="4" met="śārdūlavikrīḍita">
+<l n="a"><lb n="7"/><milestone unit="column" n="a"/>tasya śrījayavarmma-bhū-pati-pater ājñānubhāvodayā<milestone unit="column" n="b" break="no"/>d</l>
+<l n="b">atra śrīmati liṅgaparvvata-vare ye sthāyinaḫ prāṇinaḥ</l>
+<l n="c"><lb n="8"/><milestone unit="column" n="a"/>vaddhyantān na janena kenacid api prāptāparādhās ta<unclear>th</unclear>ā</l>
+<l n="d"><milestone unit="column" n="b"/>devāya pratipāditaṁ yad iha tad dhemādikaṁ siddhyatu</l>
+</lg>
+                   <lg n="5" met="śārdūlavikrīḍita">
+<l n="a"><lb n="9"/><milestone unit="column" n="a"/>devasyāsya yathābhilāṣa-gamanā gacchantu naivāśra<supplied reason="lost">me</supplied></l>
+<l n="b"><milestone unit="column" n="b"/>yānārohadhr̥tāta-patra-racanābhyutkṣiptasaccāmaraiḥ</l>
+<l n="c" enjamb="yes"><lb n="10"/><milestone unit="column" n="a"/>poṣyāḥ kukkura-kukkuṭā na ca janair ddevasya bhū-maṇ<choice><orig>d</orig><reg>ḍ</reg></choice>ale</l>
+<l n="d"><milestone unit="column" n="b"/>ṣv ity ājñā-vanipasya tasya bhavatu kṣmāyām alaṅghyā nr̥ṇām·</l>
+</lg>
+</div>
+            <div type="apparatus">
+
+               <listApp>
+                  <app loc="1">
+                     <lem>nr̥̄ṇāṁ</lem>
+                     <rdg source="bib:Salomon1998_01">nr̥ṇāṁ</rdg>
+                  </app>
+                  <app loc="2">
+                     <lem>mānasabhuvo</lem>
+                     <rdg source="bib:Salomon1998_01">mānasabhavo</rdg>
+                  </app>
+                  <app loc="2">
+                     <lem>tat kṣaṇaṁ</lem>
+                     <rdg source="bib:Salomon1998_01">tatkṣaṇaṁ</rdg>
+                  </app>
+                  <app loc="3">
+                     <lem>dvibhāraṁ</lem>
+                     <rdg source="bib:Barth1902_01">dvibharaṁ</rdg>
+                  </app>
+                  <app loc="3">
+                     <lem>astraṁ </lem>
+                     <rdg source="bib:Barth1902_01">astaṁ </rdg>
+                     <rdg source="bib:Salomon1998_01">astaṁ </rdg>
+                  </app>
+                  <app loc="4">
+                     <lem>-dhiṣaṇā <unclear>śās</unclear>tra-</lem>
+                     <rdg source="bib:Barth1902_01">-dhiṣaṇā<supplied reason="lost">śās</supplied>ta-</rdg>
+                     <rdg source="bib:Salomon1998_01">-dhiṣaṇā<supplied reason="lost">śās</supplied>ta-</rdg>
+                  </app>
+                  <app loc="5">
+                     <lem>nānā-śastra-</lem>
+                     <rdg source="bib:Barth1902_01">nānāśasta-</rdg>
+                     <rdg source="bib:Salomon1998_01">nānāśasta-</rdg>
+                  </app>
+                  <app loc="7">
+                     <lem>-pater</lem>
+                     <rdg source="bib:Barth1902_01">-<supplied reason="lost">pate</supplied>r</rdg>
+                  </app>
+                  <app loc="8">
+                     <lem>prāptāparādhās ta<unclear>th</unclear>ā</lem>
+                     <rdg source="bib:Barth1902_01">prāptāparādhāẖ ka<supplied reason="lost">d</supplied>ā</rdg>
+                     <rdg source="bib:Salomon1998_01">prāptāparādhāẖ kadā</rdg>
+                  </app>
+                  <app loc="8">
+                     <lem>pratipāditaṁ</lem>
+                     <rdg source="bib:Barth1902_01">pratipāditam</rdg>
+                  </app>
+                  <app loc="10">
+                     <lem>-maṇ<choice><orig>d</orig><reg>ḍ</reg></choice>ale</lem>
+                     <rdg source="bib:Salomon1998_01">-maṇḍale</rdg>
+                  </app>
+                                 </listApp>
+         </div>
+           <div type="translation" source="bib:Salomon1998_01">
+             <p rend="stanza" n="1">May that Rudra be eternally victorious, by whose angry eye the Mind-Born One <supplied reason="explanation"><foreign>kāma</foreign></supplied> was reduced in an instant to a heap of ashes when he <supplied reason="explanation">Kāma</supplied> approached to shoot him, disregarding him with the thoughts "I have conquered Śakra <supplied reason="explanation">Indra</supplied> and other <supplied reason="subaudible">gods</supplied>; my arrows never miss their mark; my companion Madhu <supplied reason="explanation">Spring-time</supplied> is invincible; and the hearts of men are always subject to my power."</p>
+              <p rend="stanza" n="2">He who cast away the bow, along with its excellent arrows, which he had strung <supplied reason="subaudible">despite its</supplied> double weight, as <supplied reason="subaudible">useful only</supplied> for exercise; who is the foremost among those who have studied the techniques of battle by speed, by power, and by the mind <supplied reason="subaudible">against</supplied> elephants, horses, and men <supplied reason="subaudible" cert="low">respectively</supplied>; who was an ocean of the jewels of wisdom, patience, humility, tact, intelligence, and generosity, and who had won [?] the magic gem of understanding of subtle matters through his unequaled knowledge <supplied reason="explanation"><foreign>dhīṣaṇa [?]</foreign></supplied> of fine song, music, dance, etc.;</p>
+              <p rend="stanza" n="3">Whose body has a strong, broad, and thick chest and shoulders, great thighs, and a conch shell-like neck, hardened by exercise carried out with practices performed according to various prescriptions; whose two arms, hanging down to his knees, rivaled bars of gold; who was a full moon upon the earth in the mighty form of a loin among kings;</p>
+              <p rend="stanza" n="4">By force of the authority of the command of this Lord of Kings, the illustrious Jayavarman, the creatures which dwell on this beautiful and excellent Liṅgaparvata must never be slain by any person, even if they have committed an offensive. May gold and whatever is provided to the God here <supplied reason="subaudible">thereby</supplied> achieve its purpose.</p>
+              <p rend="stanza" n="5">In the <foreign>āśrama</foreign> of this god <supplied reason="subaudible">people</supplied> may go at will, <supplied reason="subaudible">but</supplied> they must not go mounted on vehicles, holding opened umbrellas, or with fine chowries held up; and people must not feed dogs and cocks within the boundaries of the land of the God. May this command of the king be inviolable for <supplied reason="subaudible">all</supplied> men on the earth!</p>
+           </div>
+           <div type="translation" xml:lang="fra" source="bib:Barth1902_01">
+             <p rend="stanza" n="1">"Śakra et les autres <supplied reason="subaudible">dieux</supplied> ont été vaincus par moi ; jamais mes flèches ne sont parties en vain ; invincible est madhu, mon compagnon, et l'âme des hommes m'est toujours soumise". Ayant ainsi compté, Celui qui existe dans les coeurs s'avança pour frapper. que celui qui, à l'instant, de son regard <supplied reason="subaudible">enflammé</supplied> de courroux, le réduisit en un tas de cendres, que Rudra triomphe à jamais !</p>
+              <p rend="stanza" n="2">Ses flèches, son arc excellent qu'il bande malgré son double poids, après ses <supplied reason="subaudible">longues</supplied> campagnes, il les a déposés comme inutiles ; lui, le premier de ceux qui savent la science de combattre l'impétuosité des éléphants, la force de la cavalerie, le vouloir intelligent des hommes ; lui, le maître incomparable dans tous les arts, à commencer par ceux du chant, de la musique instrumentale et de la danse ; lui un <supplied reason="subaudible">vrai</supplied> <foreign>cintāratna</foreign> de tout ce qu'il y a de souhaitable et de subtil, un océan dont la science, la patience, la modération, l'habileté, le jugement, la libéralité seraient les joyaux.</p>
+              <p rend="stanza" n="3">Lui, qui s'est endurci par l'effort dans son application à tout ce qui est bien ; dont la nuque ressemble à une conque, qui a des cuisses puissantes, des épaules trapues, une large poitrine, un corps replet ; lui, dont les deux bras descendant jusqu'aux genoux rivalisent avec des poutres d'or, et qui, sous la figure d'un puissant lion des rois, est <supplied reason="subaudible">comme</supplied> la pleine lune <supplied reason="subaudible">descendue</supplied> sur terre.</p>
+              <p rend="stanza" n="4">Ce maître des maîtres de la terre, Sa majesté Jayavarman, a daigné faire luire la grâce de son commandement <supplied reason="subaudible">comme suit</supplied> : "En ce saint et excellent Liṅgaparvata, que les êtres vivants qui y demeurent ne soient mis à mal par personne, eussent-ils même commis des méfaits ; que ce qui a été offert ici au dieu, or et autres <supplied reason="subaudible">objets de valeur</supplied>, lui reste acquis ;</p>
+              <p rend="stanza" n="5">"Qu'on ne circule pas à sa fantaisie dans ce séjour du dieu, ni monté sur un char, ni porteur de parasol déployés, ni en agitant de riches chasse-mouches ; qu'on ne nourrisse ni chiens, ni coqs dans les enceintes du domaine du dieu. Tel est le commandement de ce maître du monde que nul ne doit transgresser sur terre".</p>
+           </div>
+        <!--  <div type="commentary">
+         <p></p>
+         </div>  -->
+        <div type="bibliography">
+          <p>First edited by Auguste Barth (<bibl rend="omitname"><ptr target="bib:Barth1902_01"/><citedRange unit="page">235-240</citedRange></bibl>) with a French translation; re-edited by Richard Salomon (<bibl rend="omitname"><ptr target="bib:Salomon1998_01"/><citedRange unit="page">281-284</citedRange></bibl>) with an English translation; re-edited here by Dominic Goodall and Kunthea Chhom from the estampages EFEO n. 383.</p>
+	 <listBibl type="primary">
+	    <bibl n="RS">
+      <ptr target="bib:Salomon1998_01"/><citedRange unit="page">281-284</citedRange>
+    </bibl>
+             <bibl n="AB">
+      <ptr target="bib:Barth1902_01"/><citedRange unit="page">235-240</citedRange>
+    </bibl>
+           </listBibl>
+      
+        </div>
+</body>
+    </text>
+</TEI>
