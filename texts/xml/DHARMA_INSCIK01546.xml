@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Wat Pa Pathom Chai (K. 1546), 7th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+                           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01546</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-08-28" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83211">
+<lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/>bhū<unclear>p</unclear>ānā<unclear>ṁ</unclear> śaktimantan <unclear>t</unclear><supplied reason="lost">u</supplied></l>
+<l n="b"><milestone unit="column" n="b"/>saṁyati <unclear>prekṣ</unclear>ya <unclear>bhīṣa</unclear>ṇe</l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/>śatravaḥ prapa<unclear>lā</unclear>yant<unclear>e</unclear></l>
+<l n="d"><milestone unit="column" n="b"/>mr̥gādhipam <unclear>ive</unclear>ṇakāḥ <g type="ddanda">.</g></l>
+</lg>
+           <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="3"/><milestone unit="column" n="a"/>dvijamartya<unclear>va</unclear>rādīṇāṁ</l>
+<l n="b"><milestone unit="column" n="b"/>pūrayitvā <unclear>pu</unclear>raṁ punaḥ</l>
+<l n="c"><lb n="4"/><milestone unit="column" n="a"/> ya<unclear>thā</unclear> purā ca <unclear>vi</unclear>ṣayaṁ</l>
+<l n="d"><milestone unit="column" n="b"/>devān· sthāpayati sma saḥ <g type="ddanda">.</g></l>
+</lg>      
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="5"/><milestone unit="column" n="a"/>sthi<unclear>tyai sadva</unclear>ṅśaje rājye</l>
+<l n="b"><milestone unit="column" n="b"/>śivikāṁ hemabhūṣitām·</l>
+<l n="c"><lb n="6"/><milestone unit="column" n="a"/>sa prāpito 'bhūt mahatā</l>
+<l n="d"><milestone unit="column" n="b"/>rājñā śrījayavarmmaṇā <g type="ddanda">.</g></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="7"/><milestone unit="column" n="a"/><choice><unclear>v</unclear><unclear>dh</unclear></choice>īrāś<unclear>a</unclear>yo samā<unclear>pto</unclear> yaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>pūrvvan dānājyaśeṣakai<unclear>ḥ</unclear></l>
+<l n="c"><lb n="8"/><milestone unit="column" n="a"/>tatsvāminr̥panaptrā tai<milestone unit="column" n="b" break="no"/>s</l>
+<l n="d"><milestone unit="column" n="b"/>tena rājñā samā<unclear>p</unclear>itaḥ <supplied reason="lost"><g type="ddanda">.</g></supplied></l>
+</lg>
+                   <lg n="5" met="unidentified">
+<l n="a"><lb n="9"/>prāpya kṣoṇīñ ja<unclear>ṭā</unclear>grāt tripurapuraripo<unclear>ḥ</unclear> prāpi<unclear>taḥ pū</unclear>rṇ<unclear>ṇa</unclear>tāṁ y<choice><unclear>e</unclear><unclear>o</unclear></choice></l>
+<l n="b"><lb n="10"/>gaṅgānīrais taduktā <gap reason="lost" quantity="1" unit="character"/><unclear>ri</unclear>  <gap reason="lost" quantity="1" unit="character"/> miva guṇān svāmino <gap reason="lost" quantity="1" unit="character"/> <unclear>rudra</unclear>gātre</l>
+<l n="c"><lb n="11"/>Āśliṣyormmau<unclear>gha</unclear>do<gap reason="lost" quantity="4" unit="character"/> nahataye sevamānā<unclear>t pu</unclear>nīte</l>
+<l n="d"><lb n="12"/>martyān <unclear>t</unclear>oy<unclear>ā</unclear>śa <gap reason="lost" quantity="6" unit="character"/> tu sadā bhūtavr̥ṇḍā<unclear>ya</unclear> <gap reason="lost" quantity="2" unit="character"/></l>
+</lg>
+</div>
+       <!--      <div type="apparatus">
+
+               <listApp>
+                  <app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Goodall2021_01">nr̥ṇāṁ</rdg>
+                  </app>
+                                 </listApp>
+         </div> -->
+           <div type="translation" resp="part:dogo">
+             <p rend="stanza" n="1">On seeing <supplied reason="explanation"><foreign>prekṣya</foreign></supplied> him powerful <supplied reason="explanation"><foreign>śaktimantaṁ</foreign></supplied> among <supplied reason="subaudible">rival</supplied> kings <supplied reason="explanation"><foreign>bhūpānāṁ</foreign></supplied> in terrible <supplied reason="explanation"><foreign>bhīṣaṇe</foreign></supplied> battle <supplied reason="explanation"><foreign>saṁyati</foreign></supplied>, his enemies <supplied reason="explanation"><foreign>śatravaḥ</foreign></supplied> flee <supplied reason="explanation"><foreign>prapalāyante</foreign></supplied>, like <supplied reason="explanation"><foreign>iva</foreign></supplied> deer <supplied reason="explanation"><foreign>eṇakāḥ</foreign></supplied> <supplied reason="subaudible">seeing</supplied> a lion <supplied reason="explanation"><foreign>mr̥gādhipam</foreign></supplied>.</p>
+              <p rend="stanza" n="2">Having next <supplied reason="explanation"><foreign>punaḥ</foreign></supplied> filled (pūrayitvaa) the city <supplied reason="explanation"><foreign>puram</foreign></supplied> with brahmins, the most excellent men, and so forth <supplied reason="explanation"><foreign>dvijamartyavarādīṇām</foreign></supplied>, just as <supplied reason="explanation"><foreign>yathā</foreign></supplied> <supplied reason="subaudible">he had</supplied> earlier <supplied reason="explanation"><foreign>purā</foreign></supplied> <supplied reason="subaudible">filled</supplied> the district <supplied reason="explanation"><foreign>viṣayaṁ</foreign></supplied>, he <supplied reason="explanation"><foreign>saḥ</foreign></supplied> installed <supplied reason="explanation"><foreign>sthāpayati sma</foreign></supplied> gods <supplied reason="explanation"><foreign>devān</foreign></supplied> <supplied reason="subaudible">there</supplied>.</p>
+              <p rend="stanza" n="3">In order to establish <supplied reason="subaudible">him</supplied> <supplied reason="explanation"><foreign>sthityai</foreign></supplied> in the kingdom <supplied reason="explanation"><foreign>rājye</foreign></supplied> that was born of excellent families <supplied reason="explanation"><foreign>sadvaṅsaje</foreign></supplied>, he <supplied reason="explanation"><foreign>saḥ</foreign></supplied> was given <supplied reason="explanation"><foreign>prāpitaḥ</foreign></supplied> a palanquin <supplied reason="explanation"><foreign>śivikām</foreign></supplied> adorned with gold <supplied reason="explanation"><foreign>hemabhūṣitām</foreign></supplied> by the great <supplied reason="explanation"><foreign>mahatā</foreign></supplied> King Śrī Jayavarman.</p>
+              <p rend="stanza" n="4">This <supplied reason="explanation"><foreign>ayam</foreign></supplied> intended project of that soldier/stalwart <supplied reason="explanation"><foreign>vīrāśayaḥ</foreign> or <foreign>dhīrāśayaḥ</foreign></supplied>, having not been completed <supplied reason="explanation"><foreign>asamāptaḥ</foreign></supplied> earlier <supplied reason="explanation"><foreign>pūrvam</foreign></supplied> using  portions of melted butter for <supplied reason="subaudible">solemnising acts of</supplied> donation <supplied reason="explanation"><foreign>dānājyaśeṣakaiḥ</foreign></supplied>, was brought to completion <supplied reason="explanation"><foreign>samāpitaḥ</foreign></supplied> using such <supplied reason="subaudible">portions of melted butter</supplied> <supplied reason="explanation"><foreign>taiḥ</foreign></supplied> by the same <supplied reason="explanation"><foreign>tena</foreign></supplied> king <supplied reason="explanation"><unclear>rājñā</unclear></supplied> <supplied reason="subaudible">Jayavarman I</supplied>, who was the grandson <supplied reason="explanation"><foreign>-naptrā</foreign></supplied> of the king who was that <supplied reason="explanation">warrior's</supplied> master <supplied reason="explanation"><foreign>tatsvāminr̥pa-</foreign></supplied>.</p>
+              <!-- kuch: Translation of st. V not available. -->
+           </div>
+           
+        <div type="commentary">
+         <p>
+            According to Dominc Goodall and Nicolas Revire (<bibl rend="omitname"><ptr target="bib:Goodall+Revire2021_01"/><citedRange unit="page">272</citedRange><citedRange unit="note">22</citedRange></bibl>), the inscription may belong to the reign of Jayavarman I and that also implicitly mentions Īśānavarman I retrospectively. The inscription was donated to the Thai temple a few years ago with no recorded provenance. However, it probably comes from eastern (or northeast?) Thailand. From our preliminary inspection of what seems to be Face B, it appears that the unnamed hero of the inscription (st. I and II) served as a soldier under a certain Jayavarman’s grandfather [viz. Īśānavarman I?], but was only rewarded later by that Śrī Jayavarman himself, presumably Jayavarman I (st. III). The various pious projects that the hero had begun in his lifetime but which he could not complete himself were also completed by that king. We thank Rungroj Phiromanukul for sharing an estampage of one face. The stele is also inscribed on the other face, which we have not yet been able to examine.
+         </p>
+         </div>  
+        <div type="bibliography">
+          <p>Primilinarily edited by Dominic Goodall from a photograph of an estampage of one side of an inscription from Wat Pa Pathom Chai by Rungroj Phiromanukul.</p>
+  <listBibl type="secondary">
+	    <bibl n="DG+NR">
+      <ptr target="bib:Goodall+Revire2021_01"/>
+      <citedRange unit="page">272</citedRange>
+	       <citedRange unit="note">22</citedRange>
+    </bibl>
+           </listBibl>
+      
+        </div>
+</body>
+    </text>
+</TEI>
