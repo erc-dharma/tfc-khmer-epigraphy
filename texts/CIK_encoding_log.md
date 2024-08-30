@@ -257,7 +257,7 @@
 |K.	241 |# |# |#|
 |K.	242 |# |# |#|
 |K.	243 |# |# |#|
-|K.	244 |# |# |#|
+|K.	244 | kuch |done |IC III|
 |K.	245 |# |# |#|
 |K.	246 |chch |done |IC III|
 |K.	247 |chch |done |IC III|
@@ -442,7 +442,7 @@ K.	294 |# |# |#|
 |K.	364 |# |# |#|
 |K.	365 |kuch |pending |Coedes 1956; Jacques 1962|
 |K.	366 |chch |pending |IC V|
-|K.	367 |kuch |pending |Barth 1902|
+|K.	367 |kuch |done |Barth 1902|
 |K.	368 |kuch |done |Finot 1903|
 |K.	369 |chch |done |IC VI|
 |K.	370 |# |# |#|
@@ -528,7 +528,7 @@ K.	294 |# |# |#|
 |K.	448 |# |# |#|
 |K.	449 |# |# |#|
 |K.	450 |# |# |#|
-|K.	451 |# |# |#|
+|K.	451 |kuch |done |IC V|
 |K.	452 |# |# |#|
 |K.	453 |# |# |#|
 |K.	454 |# |# |#|
@@ -848,11 +848,11 @@ K.	294 |# |# |#|
 |K.	746 |# |# |#|
 |K.	747 |kuch |done |NIC I|
 |K.	748 |kuch |done |IC V|
-|K.	749 |kuch |pending |IC V|
+|K.	749 |kuch |done |IC V|
 |K.	750 |# |# |#|
 |K.	751 |# |# |#|
 |K.	752 |chch |done |IC V|
-|K.	753 |# |# |#|
+|K.	753 |kuch |done |IC V|
 |K.	754 |# |# |#|
 |K.	755 |kuch |done |IC VI|
 |K.	756 |kuch |done |IC VI|
@@ -919,7 +919,7 @@ K.	294 |# |# |#|
 |K.	815 |chch |done |Clouet et al (forthc.)|
 |K.	816 |kuch |done |IC VI|
 |K.	817 |# |# |#|
-|K.	818 |# |# |#|
+|K.	818 |kuch |done |IC VI|
 |K.	819 |# |# |#|
 |K.	820 |argr |done |IC VII|
 |K.	821 |# |# |#|
@@ -1005,7 +1005,7 @@ K.	294 |# |# |#|
 |K.	901 |# |# |#|
 |K.	902 |# |# |#|
 |K.	903 |kuch |done |IC VI|
-|K.	904 |# |# |#|
+|K.	904 |kuch |done |IC IV|
 |K.	905 |# |# |#|
 |K.	906 |kuch |done |Cœdès 1951|
 |K.	907-1 |kuch |done |Cœdès 1951|
@@ -1052,7 +1052,7 @@ K.	294 |# |# |#|
 |K.	919 |kuch |done |inedit|
 |K.	920 |kuch |done |Cœdès 1951|
 |K.	921 |# |# |#|
-|K.	922 |# |# |#|
+|K.	922 |kuch |done |IC VI|
 |K.	923 |chch |pending |IC IV|
 |K.	924 |kuch |pending |unpublished|
 |K.	925 |kuch |done |Cœdès 1951|
@@ -1195,7 +1195,7 @@ K.	294 |# |# |#|
 |K.	1056 |# |# |#|
 |K.	1057 |# |# |#|
 |K.	1058 |# |# |#|
-|K.	1059 |chch |pending |Lintingre 1974|
+|K.	1059 |kuch |done |Goodall 2021|
 |K.	1060 |# |# |#|
 |K.	1061 |kuch|done |Unpublished|
 |K.	1062 |kuch|done |Unpublished|
@@ -1687,7 +1687,7 @@ K.	1542 |chch |pending |unpublished|
 K.	1543 |sapi |pending |unpublished|
 K.	1544 |# |# |#|
 K.	1545 |chch |pending |unpublished|
-K.	1546 |# |# |#|
+K.	1546 |kuch |done |Goodall in preparation|
 K.	1547 |chch |done |unpublished|
 K.	1548 |# |# |#|
 K.	1549 |# |# |#|
