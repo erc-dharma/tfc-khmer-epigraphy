@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Khao Rang (K. 505), 561 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/188499375">
+                  <forename>Sotheara</forename>
+                  <surname>Vong</surname>
+               </persName>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00505</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-08-31" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83211">
+                   <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+     <l n="a"><lb n="1"/><milestone unit="column" n="a"/>Iṣa-trayodaśa-dine</l>
+     <l n="b"><milestone unit="column" n="b"/>kr̥ṣṇe candra-rasendriyai<supplied reason="lost">ḥ</supplied></l>
+     <l n="c"><lb n="2"/><milestone unit="column" n="a"/>bhukte śaka-pater abde</l>
+     <l n="d"><milestone unit="column" n="b"/>hastendur vr̥ṣabhodaya<supplied reason="lost">ḥ</supplied></l>
+</lg>
+                   <p>
+                      <lb n="3"/>kñuṁ Aṁnoy· sināhv· pragat· Āy·
+                      <lb n="4"/>ta vihār· jmah· ge vā sir· kantai
+                      <lb n="5"/>ku yoṅ· <g type="dotMid">.</g> kon· ku lāṅ· si <g type="dotMid">.</g> vā pār·
+                      <lb n="6"/>kantai vā ku sol· <g type="dotMid">.</g> kon· ku lāṅ· tai <g type="dotMid">.</g>
+                      <lb n="7"/>vā raṅeh· <unclear><g type="dotMid">.</g></unclear> ku ceh· <g type="dotMid">.</g> vā joṅ· <g type="dotMid">.</g> kantai
+                      <lb n="8"/>vā ku mās· <g type="dotMid">.</g> ku cuṁ <g type="dotMid">.</g> kon· ku der· tai <g type="dotMid">.</g> lā<lb 
+                         n="9" break="no"/>ṅ· tai <g type="dotMid">.</g> pau tai <g type="dotMid">.</g> ku sralañ· <g type="dotMid">.</g> kon· ku
+                      <lb n="10"/>lāṅ· tai <g type="dotMid">.</g> pau tai <g type="dotMid">.</g> caṁdak· vā thar· <g type="dotMid">.</g> vā
+                      <lb n="11"/>din· <g type="dotMid">.</g> vā dharmmalābha <g type="dotMid">.</g> daṁriṅ· Āy·
+                      <lb n="12"/>tnon· <g type="dotMid">.</g> slā ta gui <num value="207"><g type="numeral">200</g> <g type="numeral">7</g></num> <g type="dotMid">.</g> toṅ· tneṁ <num value="20"><g type="numeral">20</g></num> cma<unclear>ṁ</unclear>
+                      <lb n="13"/>gui vā men· <g type="dotMid">.</g> kantai vā ku laḥ <g type="dotMid">.</g> kon· ku lā<lb 
+                         n="14" break="no"/>ṅ· sī <g type="dotMid">.</g> pau sī <g type="dotMid">.</g> daṁriṅ· Āy· ñiṅ· vihā<lb 
+                            n="15" break="no"/>r· slā ta gui tneṁ <num value="123"><g type="numeral">100</g> <g type="numeral">20</g> <g type="numeral">III</g></num> toṅ· tneṁ <num value="120"><g type="numeral">100</g> <g type="numeral">20</g></num> <g type="dotMid">.</g> cmaṁ
+                      <lb n="16"/>gui vā kdok· <g type="dotMid">.</g> sarvvapiṇda savālavr̥<lb 
+                         n="17" break="no"/>ddha kñuṁ phoṅ· droṅ· cmaṁ daṁriṅṅa <num value="32"><g type="numeral">20</g> <g type="numeral">10</g> <g type="numeral">II</g></num>
+                      <lb n="18"/>glaṅ· vihār· klas· saṁrit· <num value="4"><g type="numeral">IIII</g></num> thās· <num value="2"><g type="numeral">II</g></num>
+                      <lb n="19"/>srageḥ <num value="20"><g type="numeral">20</g></num> <g type="dotMid">.</g> pallaṅka <g type="dotMid">.</g> taṅ· toṅ· taṁpo<lb 
+                         n="20" break="no"/>ṅ· <g type="dotMid">.</g> canlek· Ula<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><choice><unclear>v</unclear><unclear>dh</unclear></choice>a jlī yau <num value="7"><g type="numeral">7</g></num> <g type="dotMid">.</g> ka<unclear>ṁ</unclear>vār·
+                      <lb n="21"/>yau <num value="7"><g type="numeral">7</g></num> <g type="dotMid">.</g> kāpaṭa jlī yau <num value="27"><g type="numeral">20</g> <g type="numeral">7</g></num> <g type="dotMid">.</g> k<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ac·
+                      <lb n="22"/>yau <num value="12"><g type="numeral">10</g> <g type="numeral">II</g></num> kaṁvār· yau <num value="10"><g type="numeral">10</g></num> <g type="dotMid">.</g> pnaṅ· <g type="dotMid">.</g> tripā<lb 
+                         n="23" break="no"/>da <num value="1"><g type="numeral">I</g></num> tmo pi <gap reason="lost" quantity="3" unit="character"/> āy· car· ku sa<lb 
+                            n="24" break="no"/>nre <num value="1"><g type="numeral">I</g></num> kanlaḥ ti <supplied reason="lost"><g type="dotMid">.</g> tmur·</supplied> <gap reason="lost" quantity="1" unit="character"/> <supplied reason="lost">10 <g type="dotMid">.</g></supplied> <unclear>kra</unclear>pī dneṁ
+                      <lb n="25"/><num value="7"><g type="numeral">7</g></num> <g type="dotMid">.</g> poñ· vu <gap reason="lost" quantity="7" unit="character"/> <unclear><g type="dotMid">.</g></unclear>
+                      <lb n="26"/>k<unclear>ñu</unclear>ṁ Aṁnoy· sināhv· añ<unclear>·</unclear> ai ta vihā<lb 
+                         n="27" break="no"/><supplied reason="lost">r·</supplied> <gap reason="lost" quantity="5" unit="character"/> <unclear>t</unclear>· <unclear><g type="dotMid">.</g></unclear> kantai vā ku <choice><unclear>v</unclear><unclear>dh</unclear></choice>au <g type="dotMid">.</g> kon·
+                      <lb n="28"/><supplied reason="lost">ku</supplied> <gap reason="lost" quantity="5" unit="character"/> lāṅ sī <num value="1"><g type="numeral">I</g></num> pau tai <num value="1"><g type="numeral">I</g></num> thā<lb 
+                         n="29" break="no"/><gap reason="lost" quantity="5" unit="character"/><supplied reason="lost">lla</supplied>ṅka <num value="1"><g type="numeral">I</g></num> daṁriṅ· <num value="1"><g type="numeral">I</g></num> slā <supplied reason="lost">tn</supplied><unclear>e</unclear><supplied reason="lost">ṁ</supplied>
+                      <lb n="30"/><gap reason="lost" quantity="7" unit="character"/> <choice><unclear>d</unclear><unclear>t</unclear></choice>n<unclear>eṁ</unclear> gui 10 <g type="dotMid">.</g> gui saṁ
+                      <lb n="31"/><gap reason="lost" quantity="8" unit="character"/> Āy· vihār· ruṅ· <g type="dotMid">.</g>
+                   </p>
+                </div>
+<div type="apparatus">
+               <listApp>
+<app loc="1">
+                     <lem>-rasendriyai<supplied reason="lost">ḥ</supplied></lem>
+                     <rdg source="bib:Coedes1937-1966_01">-rasendriyaiḥ</rdg>
+                     <rdg source="bib:Vong2003_06">-rasendriyaiḥ</rdg>
+                     </app>
+                  <app loc="2">
+                     <lem>vr̥ṣabhodaya<supplied reason="lost">ḥ</supplied></lem>
+                     <rdg source="bib:Coedes1937-1966_01">vr̥ṣabhodayaḥ</rdg>
+                     <rdg source="bib:Vong2003_06">vr̥ṣabhodayaḥ</rdg>
+                     </app>
+                  <app loc="7">
+                     <lem>vā raṅeh·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">va raṅeh</rdg>
+                     <rdg source="bib:Vong2003_06">va raṅeh</rdg>
+                     </app>
+                  <app loc="7">
+                     <lem>raṅeh· <unclear><g type="dotMid">.</g></unclear></lem>
+                     <rdg source="bib:Coedes1937-1966_01">raṅeh</rdg>
+                     <rdg source="bib:Vong2003_06">raṅeh</rdg>
+                     </app>
+                  <app loc="7">
+                     <lem>ku ceh·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">ku cih</rdg>
+                     <rdg source="bib:Vong2003_06">ku ceh</rdg>
+                     </app>
+                  <app loc="7">
+                     <lem>joṅ· <g type="dotMid">.</g></lem>
+                     <rdg source="bib:Coedes1937-1966_01">joṅ</rdg>
+                     <rdg source="bib:Vong2003_06">jon</rdg><!-- kuch: It might be a typo. -->
+                     </app>
+                  <app loc="8">
+                     <lem>ku cuṁ</lem>
+                     <rdg source="bib:Coedes1937-1966_01">ku cū</rdg>
+                     <rdg source="bib:Vong2003_06">ku cuṁ</rdg>
+                     </app>
+                  <app loc="10">
+                     <lem>caṁdak·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">caṁdak</rdg>
+                     <rdg source="bib:Vong2003_06">caṁ-uk</rdg>
+                     </app>
+                  <app loc="12">
+                     <lem><num value="207"><g type="numeral">200</g> <g type="numeral">7</g></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><num value="105"><g type="numeral">100</g> <g type="numeral">5</g></num></rdg>
+                     <rdg source="bib:Vong2003_06"><num value="207"><g type="numeral">100</g> <g type="numeral">100</g> <g type="numeral">7</g></num></rdg>
+                     </app>
+                  <app loc="12">
+                     <lem>cma<unclear>ṁ</unclear></lem>
+                     <rdg source="bib:Coedes1937-1966_01">cmaṁ</rdg>
+                     <rdg source="bib:Vong2003_06">cmaṁ</rdg>
+                     </app>
+                  <app loc="13">
+                     <lem>ku laḥ <g type="dotMid">.</g></lem>
+                     <rdg source="bib:Coedes1937-1966_01">ku laḥ <g type="dotMid">.</g></rdg>
+                     <rdg source="bib:Vong2003_06">ku laḥ</rdg>
+                     </app>
+                  <app loc="16">
+                     <lem>sarvvapiṇda</lem>
+                     <rdg source="bib:Coedes1937-1966_01">sarvvapiṇḍa</rdg>
+                     <rdg source="bib:Vong2003_06">sarvvapiṇḍa</rdg>
+                     </app>
+                  <app loc="20">
+                     <lem>Ula<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><choice><unclear>v</unclear><unclear>dh</unclear></choice>a</lem>
+                     <rdg source="bib:Coedes1937-1966_01">uladdha</rdg>
+                     <rdg source="bib:Vong2003_06">ulahv</rdg>
+                     </app>
+                  <app loc="20">
+                     <lem><num value="7"><g type="numeral">7</g></num> <g type="dotMid">.</g></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><num value="7"><g type="numeral">7</g></num></rdg>
+                     <rdg source="bib:Vong2003_06"><num value="8"><g type="numeral">8</g></num> <g type="dotMid">.</g></rdg>
+                     </app>
+                  <app loc="20">
+                     <lem>ka<unclear>ṁ</unclear>vār·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">kaṁvār</rdg>
+                     <rdg source="bib:Vong2003_06">kaṁvār</rdg>
+                     </app>
+                  <app loc="21">
+                     <lem>yau <num value="7"><g type="numeral">7</g></num> <g type="dotMid">.</g></lem>
+                     <rdg source="bib:Coedes1937-1966_01">yau <num value="7"><g type="numeral">7</g></num></rdg>
+                     <rdg source="bib:Vong2003_06">yau <num value="5"><g type="numeral">5</g></num> <g type="dotMid">.</g></rdg>
+                     </app>
+                  <app loc="21">
+                     <lem>yau <num value="27"><g type="numeral">20</g> <g type="numeral">7</g></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01">yau <num value="27"><g type="numeral">20</g> <g type="numeral">7</g></num></rdg>
+                     <rdg source="bib:Vong2003_06">yau <num value="28"><g type="numeral">20</g> <g type="numeral">8</g></num></rdg>
+                     </app>
+                  <app loc="21">
+                     <lem>k<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ac·</lem>
+                     <rdg source="bib:Coedes1937-1966_01">ksac</rdg>
+                     <rdg source="bib:Vong2003_06">ksac</rdg>
+                     </app>
+                  <app loc="23">
+                     <lem>da <num value="1"><g type="numeral">I</g></num> tmo</lem>
+                     <rdg source="bib:Coedes1937-1966_01">dhā vartma</rdg>
+                     <rdg source="bib:Vong2003_06">da <num value="1"><g type="numeral">I</g></num> tmo</rdg>
+                     </app>
+                  <app loc="24">
+                     <lem><supplied reason="lost"><g type="dotMid">.</g> tmur·</supplied> <gap reason="lost" quantity="1" unit="character"/> <supplied reason="lost">10 <g type="dotMid">.</g></supplied></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="lost" quantity="6" unit="character"/></rdg>
+                     <rdg source="bib:Vong2003_06"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">tmur dneṁ <num value="10"><g type="numeral">10</g></num></supplied></rdg>
+                     </app>
+                  <app loc="24">
+                     <lem><unclear>kra</unclear>pī</lem>
+                     <rdg source="bib:Coedes1937-1966_01"><supplied reason="lost">kra</supplied>pi</rdg>
+                     <rdg source="bib:Vong2003_06">krapi</rdg>
+                     </app>
+                  <app loc="25">
+                     <lem><num value="7"><g type="numeral">7</g></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><num value="5"><g type="numeral">5</g></num></rdg>
+                     <rdg source="bib:Vong2003_06"><num value="7"><g type="numeral">7</g></num></rdg>
+                     </app>
+                  <app loc="25">
+                     <lem><gap reason="lost" quantity="7" unit="character"/> <unclear><g type="dotMid">.</g></unclear></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="lost" quantity="8" unit="character"/></rdg>
+                     <rdg source="bib:Vong2003_06"><gap reason="lost" quantity="8" unit="character"/></rdg>
+                     </app>
+                  <app loc="26">
+                     <lem>k<unclear>ñu</unclear>ṁ</lem>
+                     <rdg source="bib:Coedes1937-1966_01">kñuṁ</rdg>
+                     <rdg source="bib:Vong2003_06">kñuṁ</rdg>
+                     </app>
+                  <app loc="27">
+                     <lem><supplied reason="lost">r·</supplied> <gap reason="lost" quantity="5" unit="character"/> <unclear>t</unclear>· <unclear><g type="dotMid">.</g></unclear></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><supplied reason="lost">r</supplied> <gap reason="lost" quantity="7" unit="character"/></rdg>
+                     <rdg source="bib:Vong2003_06"><supplied reason="lost">r vā</supplied> <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                     </app>
+                  <app loc="27">
+                     <lem><choice><unclear>v</unclear><unclear>dh</unclear></choice>au</lem>
+                     <rdg source="bib:Coedes1937-1966_01">dhan</rdg>
+                     <rdg source="bib:Vong2003_06">dhau</rdg>
+                     </app>
+                  <app loc="28">
+                     <lem><supplied reason="lost">ku</supplied> <gap reason="lost" quantity="5" unit="character"/></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="lost" quantity="8" unit="character"/></rdg>
+                     <rdg source="bib:Vong2003_06"><supplied reason="lost">ku</supplied> <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                     </app>
+                  <app loc="28">
+                     <lem>pau tai <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01">pau tai <g type="dotMid">.</g></rdg>
+                     <rdg source="bib:Vong2003_06">pau tai <num value="1"><g type="numeral">I</g></num></rdg>
+                     </app>
+                  <app loc="29">
+                     <lem><gap reason="lost" quantity="5" unit="character"/><supplied reason="lost">lla</supplied>ṅka <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Coedes1937-1966_01"><gap reason="lost" quantity="10" unit="character"/></rdg>
+                     <rdg source="bib:Vong2003_06"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ńka <num value="8"><g type="numeral">8</g></num></supplied></rdg>
+                     </app>
+                  <app loc="29">
+                     <lem><supplied reason="lost">tn</supplied><unclear>e</unclear><supplied reason="lost">ṁ</supplied></lem>
+                     <rdg source="bib:Coedes1937-1966_01">tneṁ</rdg>
+                     <rdg source="bib:Vong2003_06">gui</rdg>
+                     </app>
+                  <app loc="30">
+                     <lem><choice><unclear>d</unclear><unclear>t</unclear></choice>n<unclear>eṁ</unclear></lem>
+                     <rdg source="bib:Coedes1937-1966_01">tneṁ</rdg>
+                     <rdg source="bib:Vong2003_06">dneṁ</rdg>
+                     </app>
+                  <app loc="30">
+                     <lem>saṁ</lem>
+                     <rdg source="bib:Coedes1937-1966_01">saṁ</rdg>
+                     <rdg source="bib:Vong2003_06">saṁ <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                     </app>
+                  </listApp>         
+         </div> 
+        <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+           <p rend="stanza" n="1">Dans l’année du roi des Śaka écoulée, <supplied reason="subaudible">marquée</supplied> par les <supplied reason="subaudible">5</supplied> organes des sens, les <supplied reason="subaudible">6</supplied> saveurs et la lune <supplied reason="subaudible">= 1</supplied>, le treizième jour de la lune décroissante d’Iṣa <supplied reason="subaudible">= Āśvina</supplied>, la lune dans <supplied reason="subaudible">la mansion</supplied> Hasta se lève dans le Taureau.</p>
+           <p n="3-11">Esclaves donnés par les précédents Sināhv au Vihār. Noms de ces gens <supplied reason="explanation">suit la liste</supplied>.</p>
+           <p n="11-14">Plantations à Tnon : 105 aréquiers, 20 cocotiers. Gardiens <supplied reason="explanation">suivent les noms</supplied>.</p>
+           <p n="14-16">Plantation près du Vihār : 123 aréquiers, 120 cocotiers. Gardien : vā Kdok.</p>
+           <p n="16-17">Total général des esclaves adultes et enfants et des gardiens de plantation : 32.</p>
+           <p n="18-23">Trésor du Vihār : 4 <foreign>klas</foreign> de bronze, 2 plateaux, 20 <foreign>srageḥ</foreign>, 1 lit, <gap reason="lost"/>.</p>
+           <p n="23-25"><gap reason="lost"/> à Car Ku, 1 parcelle de rizière <gap reason="lost"/> 5 paires de buffles. Poñ Vu.</p>
+           <p n="26-31">Exclaves donnés par moi Sināhv au Vihār <supplied reason="explanation">suit la liste</supplied>. 1 plantation : <gap reason="lost"/> aréquiers <gap reason="lost"/> 10 arbres <gap reason="lost"/> à Vihār Ruṅ.</p>
+            </div>
+       <div type="commentary">
+          <p>According to Kunthea Chhom (<bibl rend="omitname"><ptr target="bib:Chhom2021-2022_01"/><citedRange unit="page">237</citedRange><citedRange unit="note">17</citedRange></bibl>), the last line <supplied reason="explanation">line 31</supplied> of the inscription which contains the term <foreign>vihāra ruṅ</foreign> has a lacuna of about eight syllables. In his edition (Inscriptions du Cambodge, vol. 5 (Hanoi, Paris: École française d’Extrême-Orient, 1953), 23–24), George Cœdès writes: ... āy vihāra ruṅ “... at the large monastery.” This line cannot be verified with the EFEO estampage n. 1321 because it has probably been made when the stela had been fixed in a pedestal hiding the last line. Based on the restituted copy of the estampage of the inscription published in George Cœdès, “hlăk dī1 119 śilā cārịk khḁm nai praḥdeś daiy [119th Plate, Khom Inscription in Thailand].” In praḥjum śilā cārịk bhāg dī1 4 [Collection of Inscriptions. Part 4] (Bangkok : The Committee on the Publication of Historical Documents, Office of the Prime Min- ister, OPM, 2513, 1970), 225–228, Vireakput Yeang, Silācārịk kambujā samăy mun aṅgar bhāg dī 1 [Pre-Angkorian Inscriptions of Cambodia (vol. 1)] (2018, manuscript), 140, restitutes the last line as follows:
+
+<foreign>gi saṁ paribhoga pragat āy vihāra ruṅ</foreign>
+“which was combined to support the large monastery.”
+
+This restitution seems implausible, though, for two grammatical reasons which cannot be explained at length in the scope of this article. We would propose instead the three following phrases: <foreign>gui saṁ paribhoga ta vraḥ āy vihāra ruṅ or gui saṁ paribhoga ai ta vraḥ āy vihāra ruṅ</foreign> or <foreign>gui saṁ paribhoga droṅ vraḥ āy vihāra ruṅ</foreign> “to combine wealth with the deity at the large monastery.” The term <foreign>droṅ</foreign> means “including, with, and” which appears with the verb <foreign>saṁ paribhoga</foreign> “to combine wealth” in several pre-Angkorian inscriptions such as <ref target="DHARMA_INSCIK00137.xml">K. 137</ref> <supplied reason="explanation">7th century</supplied>.</p>
+       </div>
+         <div type="bibliography">
+        <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">23-24</citedRange></bibl>) with a French translation, re-edited by Sotheara Vong (<bibl rend="omitname"><ptr target="bib:Vong2003_06"/><citedRange unit="page">91-98</citedRange></bibl>), re-edited here by Dominique Soutif from the estampage EFEO n. 1321.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">23-24</citedRange>
+    </bibl>
+	    <bibl n="SV">
+	       <ptr target="bib:Vong2003_06"/>
+	       <citedRange unit="page">91-98</citedRange>
+	    </bibl>
+	    
+  </listBibl>
+            <listBibl type="secondary">
+    <bibl n="KC">
+      <ptr target="bib:Chhom2021-2022_01"/><citedRange unit="page">237</citedRange><citedRange unit="note">17</citedRange>
+    </bibl>
+	    
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
