@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary stela from Nong Sombat Nyai (K. 1224), 7th-8th centuries CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="part:jues">
+                  <forename>Julia</forename>
+                  <surname>Estève</surname>
+               </persName>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01224</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventh-eighth centuries CE. 
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-09-25" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83211">
+                   <p>
+                      <lb n="1"/>kñuṁ Aṁnoy· poñ· <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>t</unclear>ratiśaya ghoda vā A<unclear>ṁ</unclear>raḥ kdok· <g type="dotMid">.</g> <gap reason="lost" quantity="2" unit="character"/> vā <unclear>tpu</unclear>r· <num value="1"><g type="numeral">I</g></num> vā k<unclear>d</unclear>i <num value="1"><g type="numeral">I</g></num> vā <unclear>t</unclear>v<unclear>ol</unclear>·
+                      <lb n="2"/><unclear>kon·</unclear> <num value="1"><g type="numeral">I</g></num> <unclear>caṁ</unclear><supplied reason="lost">U</supplied>k· vā <unclear>kra</unclear>tac· <num value="1"><g type="numeral">I</g></num> ta ka<unclear>n·</unclear> tai ku kan<unclear>·</unclear>tel· <num value="1"><g type="numeral">I</g></num> ku <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>· <num value="1"><g type="numeral">I</g></num> <gap reason="lost" quantity="7" unit="character"/>l<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><gap reason="lost" quantity="1" unit="character"/>
+                      <lb n="3"/><unclear>ñ·</unclear> <num value="1"><unclear><g type="numeral">I</g></unclear></num> ku kal·<unclear>pit·</unclear> <num value="1"><g type="numeral">I</g></num> ku karāk· <num value="1"><g type="numeral">I</g></num> kon· pau tai <num value="1"><g type="numeral">I</g></num> ku A<supplied reason="lost">ṁ</supplied>vī <num value="1"><g type="numeral">I</g></num> kon· pau si <num value="1"><g type="numeral">I</g></num> ku <unclear>caṁ</unclear> <gap reason="lost" quantity="1" unit="character"/><unclear>car·</unclear> <num value="1"><g type="numeral">I</g></num> ku <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>
+                      <lb n="4"/><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> kon· pau si <num value="1"><g type="numeral">I</g></num> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>y<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>kan·<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>· <num value="1"><g type="numeral">I</g></num> kon· der· si <num value="1"><g type="numeral">I</g></num> der· tai <num value="1"><g type="numeral">I</g></num> <unclear>pau tai</unclear> <num value="1"><unclear><g type="numeral">I</g></unclear></num> <unclear>ku</unclear> Añ· <gap reason="lost" quantity="3" unit="character"/> l<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>
+                      <lb n="5"/><supplied reason="lost">v</supplied>āla<unclear>vr̥ddha ge</unclear> <num value="9"><unclear><g type="numeral">5</g></unclear> <g type="numeral">IIII</g></num> sre Āy· <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="subscript"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>k· klo sanre <num value="2"><unclear><g type="numeral">I</g></unclear></num> tmur· <unclear>dn</unclear>eṁ <num value="7"><g type="numeral">7</g></num> slā teṁ <num value="160"><unclear><g type="numeral">100</g><g type="numeral">60</g></unclear></num> kan·
+                      <lb n="6"/><gap reason="lost" quantity="10" unit="character"/> <unclear>kot· Añ</unclear>· <num value="1"><g type="numeral">I</g></num> kñuṁ kotaṁ A<unclear>nre</unclear> vā k<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>p· <num value="1"><g type="numeral">I</g></num> <g type="dotMid">.</g> kñuṁ <unclear>Aṁnoy·</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="7"/><gap reason="lost" quantity="7" unit="character"/>vrau <num value="1"><g type="numeral">I</g></num> vā <unclear>c</unclear>meṅ· <num value="1"><g type="numeral">I</g></num> vā <unclear>ca</unclear>k·cok· <num value="1"><g type="numeral">I</g></num> vā saṁ<unclear>gāva</unclear> <num value="1"><g type="numeral">I</g></num> vā kal·<unclear>pit·</unclear> <num value="1"><unclear><g type="numeral">I</g></unclear></num> <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="8"/><gap reason="lost" quantity="7" unit="character"/>lāṅ· si <gap reason="lost" quantity="2" unit="character"/>lpit· <num value="1"><g type="numeral">I</g></num> ku nCoñ· <num value="1"><g type="numeral">I</g></num> ku ya vaṅ· <num value="1"><g type="numeral">I</g></num> <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1"><unclear><g type="numeral">I</g></unclear></num> <unclear>ku</unclear> ya <gap reason="lost" extent="unknown" unit="character"/>   
+                   </p>
+                </div>
+<!-- <div type="apparatus">
+               <listApp>
+<app loc="4">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1958_02"></rdg>
+                     </app>
+                  
+                  </listApp>         
+         </div> 
+       <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+              </div>
+      <div type="commentary">
+          <p></p>
+       </div>  -->
+         <div type="bibliography">
+          <p>Preliminarily edited by Julia Estève, Dominique Soutif and Kunthea Chhom from the estampage EFEO n. 1499.</p>
+	 <listBibl type="primary">
+    <bibl n="">
+    </bibl>
+	</listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
