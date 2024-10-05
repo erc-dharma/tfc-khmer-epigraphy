@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Phon Sao E (K. 1197), 7th-8th centuries CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01197</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventh-eighth centuries CE. 
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-10-04" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83211">
+                   <p><milestone type="pagelike" unit="face" n="A"/>
+                      <lb n="A1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ka</supplied>mrateṅ· jagat· yajña tmoy· vraḥ śivayajña <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>oṣṭha</unclear> <num value="1"><g type="numeral">I</g></num> ṅanna jyaṅ· <num value="1"><g type="numeral">I</g></num> nū garoppa jyaṅ· <num value="1"><g type="numeral">I</g></num> klas·
+                      <lb n="A3"/><supplied reason="lost">jya</supplied>ṅ<supplied reason="lost">·</supplied> <num value="2"><g type="numeral">II</g></num> tanlap· ti duk· vraḥ gandha prak· <num value="1"><g type="numeral">I</g></num> man· hir· <num value="1"><g type="numeral">I</g></num> ya mok· yajña <num value="2"><g type="numeral">II</g></num> mahānasa <num value="1"><g type="numeral">I</g></num>
+                      <lb n="A4"/>qnak<supplied reason="lost">·</supplied> man· jvan ta vraḥ <supplied reason="lost">kamrate</supplied>ṅ· Añ· śrī vr̥ddheśvara gi ta tve vraḥ yajña nā bhaga
+                      <lb n="A5"/>kanakadanda <num value="1"><g type="numeral">I</g></num> yajña man· <gap reason="lost" quantity="2" unit="character"/> yajña mratāñ· kloñ· śrī vallabhasanda
+                      <lb n="A6"/><gap reason="lost" extent="unknown" unit="character"/>
+                   </p>
+                   <ab>
+                      <lb n="01"/>rājā śrī jaya
+                      <lb n="02"/>rājā śrī jayavarmma
+                   </ab>
+                   <p><milestone type="pagelike" unit="face" n="B"/>
+                      <lb n="B1"/><gap reason="lost" extent="unknown" unit="character"/> qnak<supplied reason="lost">·</supplied> vraḥ kamrateṅ<supplied reason="lost">·</supplied> <unclear>Añ· śrī</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="B2"/>Āy· kanlaḥ vnaṁ neḥ<unclear>h·</unclear> ti jvan<supplied reason="lost">·</supplied> ta vraḥ <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="B3"/><supplied reason="lost">ni</supplied>ranaiy ge ta nu sakka neḥ sre ta roḥha neḥha man· Añ· kalpa ta vraḥ <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="B4"/><gap reason="lost" quantity="1" unit="character"/> gi traitriṁśanarakka nuhva ku<unclear>le</unclear> <gap reason="lost" quantity="1" unit="character"/> ta d<unclear>au vaṅ·veṅ·</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="B5"/>tai mās· <num value="1"><g type="numeral">I</g></num> tai kaṁdāva <num value="1"><g type="numeral">I</g></num> gvāl<unclear>·</unclear> ca<gap reason="lost" extent="unknown" unit="character"/>
+                   </p>
+                   <p><milestone type="pagelike" unit="face" n="c"/>
+                      <lb n="c1"/>ta vraḥ kamrateṅ· Añ<supplied reason="lost">·</supplied> śrī vr̥ddhe<supplied reason="lost">śvara</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="c2"/>neḥ qnak· vraḥ kamrateṅ· Añ<unclear>·</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                   </p>
+                </div>
+<div type="apparatus">
+               <listApp>
+<app loc="A2">
+                     <lem>nū</lem>
+                     <rdg source="bib:Pou2001_01">n<supplied reason="lost">u</supplied></rdg>
+                     </app>
+                  <app loc="A3">
+                     <lem>man· hir· <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Pou2001_01">van· hirā</rdg>
+                     </app>
+                  <app loc="A3">
+                     <lem>mahānasa <num value="1"><g type="numeral">I</g></num></lem>
+                     <rdg source="bib:Pou2001_01">mahānasa <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                     </app>
+                  <app loc="A4">
+                     <lem>bhaga</lem>
+                     <rdg source="bib:Pou2001_01">bhaga <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                     </app>
+                  <app loc="A5">
+                     <lem><gap reason="lost" quantity="2" unit="character"/></lem>
+                     <rdg source="bib:Pou2001_01"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                     </app>
+                  <app loc="A5">
+                     <lem>vallabhasanda</lem>
+                     <rdg source="bib:Pou2001_01">vallabhasanda <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                     </app>
+                  <app loc="B4">
+                     <lem>ku<unclear>le</unclear> <gap reason="lost" quantity="1" unit="character"/></lem>
+                     <rdg source="bib:Pou2001_01">kule <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                     </app>
+                  </listApp>         
+         </div> 
+       <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
+          <p n="A1-A3"><gap reason="lost"/> au dieu, du tmoy en sacrifice ; sacrifice à Śiva <gap reason="lost"/> ; 1 <gap reason="lost"/> pesant 1 <foreign>jyaṅ</foreign>, 1 <foreign>nū</foreign> à couvercle d'1 <foreign>jyaṅ</foreign>, <gap reason="lost"/> <foreign>klas</foreign> de 2 <foreign>jyaṅ</foreign>, 1 <foreign>tanlap</foreign> d'argent pour les parfums sacrés, 2 coupes en <foreign>hira</foreign> <gap reason="lost"/> ; cuisinier <gap reason="lost"/>.</p>
+          <p n="A4-A5">Gens offerts à V.K.A. Śrī Vr̥ddheśvara, qui accomplissent le sacrifice <gap reason="lost"/> 1 <gap reason="lost"/> à manche d'or <gap reason="lost"/>. Sacrifice que le Mratāñ Khloñ Vallabhasanda <gap reason="lost"/>.</p>
+          <p n="B1-B2"><gap reason="lost"/> gens de V.K.A. Śrī <gap reason="lost"/> à Kanlaḥ Vnaṁ, sont offerts au dieu <gap reason="lost"/>.</p>
+          <p n="B3-B4">sentence. Ceux qui déroberont ces rizières que j'ai offertes au dieu <gap reason="lost"/> aux Trente-trois enfers avec les leurs <gap reason="lost"/>, ils s'égareront <gap reason="lost"/>.</p>
+          <p n="B5">Tai Mās, Tai Kaṁdāv, Gvāl <gap reason="lost"/></p>
+          <p n="c1-c2">à V.K.A. Śrī Vr̥ddheśvara. Voici les gens de V.K.A. <gap reason="lost"/>.</p>
+              </div>
+      <div type="commentary">
+          <p>According to Saveros Pou, the inscription should be dated in the beginning of the ninth century CE, under the reign of King Jayavarman II.</p>
+       </div> 
+         <div type="bibliography">
+          <p>First edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">65-67</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom from the estampage EFEO n. 1494.</p>
+	 <listBibl type="primary">
+    <bibl n="SP">
+      <ptr target="bib:Pou2001_01"/><citedRange unit="page">65-67</citedRange>
+    </bibl>
+    </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
