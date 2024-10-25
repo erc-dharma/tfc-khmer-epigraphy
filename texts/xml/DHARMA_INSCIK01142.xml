@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela at the Royal Palace Museum in Bangkok (K. 1142), 7th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/64048594">
+                  <forename>Claude</forename>
+                  <surname>Jacques</surname>
+               </persName>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               <persName ref="part:chch">
+                  <forename>Chloé</forename>
+                  <surname>Chollet</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01142</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventh century CE. 
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-10-25" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83211">
+                  <lg n="1" met="anuṣṭubh">
+<l n="a" real="++++---+"><lb n="1"/><milestone unit="column" n="a"/>Āsīt somasya duhitā</l>
+<l n="b"><milestone unit="column" n="b"/>somānāma yaśasvinī</l>
+<l n="c" real="++++---+"><milestone unit="column" n="c"/>śrīkauṇdinyasya mahiṣī</l>
+<l n="d"><milestone unit="column" n="d"/>yā dakṣasyeva vīraṇī</l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="2"/><milestone unit="column" n="a"/>tatkulīnasya yo naptā</l>
+<l n="b"><milestone unit="column" n="b"/>rājñaś śrīcandravarmmaṇaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>kṣaṇaṁ pādāvagāhena</l>
+<l n="d"><milestone unit="column" n="d"/>svādūkr̥tapayonidheḥ</l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="3"/><milestone unit="column" n="a"/>svasrīyaẖ khyāta(ś)akte(r) yy(o)</l>
+<l n="b"><milestone unit="column" n="b"/>rājñaś śrījayavarmmaṇaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>Āvirbhūtacaturbbāho<milestone unit="column" n="d" break="no"/>r</l>
+<l n="d">bbahu(ś)o raṇamūrddhasu</l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="4"/><milestone unit="column" n="a"/>sūnur yyas trisahasrasya</l>
+<l n="b"><milestone unit="column" n="b"/>cchandogasya dvijanmanaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>sarvvādbhutapratīkāra</l>
+<l n="d"><milestone unit="column" n="d"/>nadīṣṇātasya dh[ī]nidheḥ</l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="5"/><milestone unit="column" n="a"/>tasya saṁgrāmadr̥ptānā<milestone unit="column" n="b" break="no"/>m</l>
+<l n="b">ekavīrasya bhūbhujām·</l>
+<l n="c"><milestone unit="column" n="c"/>rājñaś śrīyuvarājasya</l>
+<l n="d"><milestone unit="column" n="d"/>pranaptā yo mah(au)jasaḥ</l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a" real="+-++---+"><lb n="6"/><milestone unit="column" n="a"/>vāsavasyeva marutā<milestone unit="column" n="b" break="no"/>m</l>
+<l n="b">adhīśasya mahīkṣitām·</l>
+<l n="c"><milestone unit="column" n="c"/>śrīśanavarmmaṇo rājña<milestone unit="column" n="d" break="no"/>s</l>
+<l n="d">sūnur yyo dīptatejasaḥ</l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="7"/><milestone unit="column" n="a"/>(rūpa)m ekastha[s]aunda(ryyaṁ)</l>
+<l n="b"><milestone unit="column" n="b"/>(kṣa)trakar(mma)kṣamaṁ valam·</l>
+<l n="c" real="++-+---+"><milestone unit="column" n="c"/>yasmin n[i]viṣṭam avinā</l>
+<l n="d"><milestone unit="column" n="d"/>nānāprāyam api dvayam·</l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="8"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="c"><milestone unit="column" n="c"/><seg met="===="><gap reason="illegible" quantity="4" unit="character"/></seg> pi (m)anyante</l>
+<l n="d"><milestone unit="column" n="d"/>yogyaṁ pratnidhiṁ budhāḥ</l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="9"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="c"><milestone unit="column" n="c"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg><milestone unit="column" n="d" break="no"/>r</l>
+<l n="d">yyaṁ prāpya vyavatiṣṭhate</l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="10"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="c"><milestone unit="column" n="c"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="d"/>CVCVCVnr̥CVkā kathā</l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="11"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="c"><milestone unit="column" n="c"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="d"/>yaCyV yopajīvinaḥ</l>
+</lg>
+                   <lg n="12" met="anuṣṭubh">
+<l n="a"><lb n="12"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="c"><milestone unit="column" n="c"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="d"/>tama(sam) iva saṁhatiḥ</l>
+</lg>
+                   <lg n="13" met="anuṣṭubh">
+<l n="a"><lb n="13"/><milestone unit="column" n="a"/>Ākramya parvvaCiCVCV</l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="c"><milestone unit="column" n="c"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="d"/><seg met="====-++"><gap reason="illegible" quantity="7" unit="character"/></seg>m·</l>
+</lg>
+                   <lg n="14" met="anuṣṭubh">
+<l n="a"><lb n="14"/><milestone unit="column" n="a"/>(ya)s tr(ī)ṇi gosahasra<seg met="="><gap reason="illegible" quantity="1" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="c"><milestone unit="column" n="c"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="d"/>CV vapi prayacchati</l>
+</lg>
+                   <lg n="15" met="anuṣṭubh">
+<l n="a"><lb n="15"/><milestone unit="column" n="a"/>CVmaCVṅgirūpyaCVra</l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="c"><milestone unit="column" n="c"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="d"/>CVsadohyān dine dine</l>
+</lg>
+                   <lg n="16" met="anuṣṭubh">
+<l n="a"><lb n="16"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="c"><milestone unit="column" n="c"/><seg met="===="><gap reason="illegible" quantity="4" unit="character"/></seg>dvijātibhyo</l>
+<l n="d"><milestone unit="column" n="d"/>d(ī)yante prativatsaram·</l>
+</lg>
+                   <lg n="17" met="anuṣṭubh">
+<l n="a"><lb n="17"/><milestone unit="column" n="a"/>yasyV<seg met="=="><gap reason="illegible" quantity="2" unit="character"/></seg>pradānāni</l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="c"><milestone unit="column" n="c"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="d"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+</lg>
+                   <lg n="18" met="anuṣṭubh">
+<l n="a"><lb n="18"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="c"><milestone unit="column" n="c"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="d"/><seg met="====-+"><gap reason="illegible" quantity="6" unit="character"/></seg>śrame</l>
+</lg>
+                   <lg n="19" met="anuṣṭubh">
+<l n="a"><lb n="19"/><milestone unit="column" n="a"/>Ādhipatye niyuktayaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>śa<seg met="===-+-="><gap reason="illegible" quantity="7" unit="character"/></seg></l>
+<l n="c"><milestone unit="column" n="c"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="d"/><seg met="====-+-"><gap reason="illegible" quantity="7" unit="character"/></seg> yaḥ</l>
+</lg>
+                </div>
+<!--  <div type="apparatus">
+               <listApp>
+<app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:CNPT1986_02"></rdg>
+                     </app>
+                  
+                  </listApp>         
+         </div> -->
+      <div type="translation" xml:lang="fra" source="bib:Ishizawa+al2007_01">
+         <p rend="stanza" n="1">Il y eut la fille de Soma, nommée Somā, glorieuse, qui fut reine principale de Śrī Kauṇḍinya comme Vīraṇī <supplied reason="subaudible">fut</supplied> celle de Dakṣa.</p>
+         <p rend="stanza" n="2">Celui qui fut le petit-fils du roi Śrī Candravarman, qui appartenait à la famille de celle-ci <supplied reason="subaudible">Somā</supplied>, qui a adouci l'océan de lait en un instant en y plongeant ses pieds,</p>
+         <p rend="stanza" n="3">celui qui était le fils de la sœur du roi Śrī Jayavarman à la puissance célèbre, qui apparut à plusieurs reprises <supplied reason="subaudible">comme</supplied> "Celui aux quatre bras" à la tête des combats,</p>
+         <p rend="stanza" n="4">celui qui était le fils du deux-fois-né chandoga <supplied reason="subaudible">du groupe</supplied> des 3000, qui, trésor d'intelligence, connaissait tous les remèdes merveilleux,</p>
+         <p rend="stanza" n="5">celui qui était l'arrière-petit-fils du roi Śrī Yuvarāja au grand pouvoir, ce héros unique parmi les rois féroces au combat,</p>
+         <p rend="stanza" n="6">lequel était <supplied reason="subaudible">lui-même</supplied> le fils du roi Śrī Īśānavarman, à la splendeur éclatante, seigneur suprême des rois, comme le Vāsava <supplied reason="subaudible">roi</supplied> des Marut,</p>
+         <p rend="stanza" n="7">en ce roi résidaient deux choses, d'un ordre certes différent : sa force capable d'action et sa beauté qui se tiennent en une personne.</p>
+              </div>
+     <!--  <div type="commentary">
+          <p></p>
+       </div>  -->
+         <div type="bibliography">
+          <p>The first seven stanzas were edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Ishizawa+al2007_01"/><citedRange unit="page">47-53</citedRange></bibl>) with a French translation; the stanzas VIII-XIX are edited here by Dominic Goodall and Chloé Chollet from the estampage EFEO n. 1461.</p>
+	 <listBibl type="primary">
+    <bibl n="CJ">
+       <ptr target="bib:Ishizawa+al2007_01"/><citedRange unit="page">47-53</citedRange>
+         </bibl>
+	 </listBibl>
+         </div>
+        </body>
+    </text>
+</TEI>
