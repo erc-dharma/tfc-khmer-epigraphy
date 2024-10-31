@@ -440,7 +440,7 @@ K.	294 |# |# |#|
 |K.	362 |# |# |#|
 |K.	363 |kuch |done |Barth 1903|
 |K.	364 |# |# |#|
-|K.	365 |kuch |pending |Coedes 1956; Jacques 1962|
+|K.	365 |kuch |done |Coedes 1956; Jacques 1962|
 |K.	366 |chch |pending |IC V|
 |K.	367 |kuch |done |Barth 1902|
 |K.	368 |kuch |done |Finot 1903|
@@ -467,7 +467,7 @@ K.	294 |# |# |#|
 |K.	389 |kuch | done |IC VI|
 |K.	390 |# |# |#|
 |K.	391 |# |# |#|
-|K.	392 |# |# |#|
+|K.	392 |kuch |done |IC VI|
 |K.	393 |# |# |#|
 |K.	394 |# |# |#|
 |K.	395 |kuch |done |Barth 1903|
@@ -1215,7 +1215,7 @@ K.	294 |# |# |#|
 |K.	1076 |sapi |pending |unpublished|
 |K.	1077 |# |# |#|
 |K.	1078 |# |# |#|
-|K.	1079 |# |# |#|
+|K.	1079 |kuch |done | CNPT 1|
 |K.	1080 |# |# |#|
 |K.	1081 |# |# |#|
 |K.	1082 |kuch |done |Gerschheimer and Pichard 2007|
@@ -1232,20 +1232,20 @@ K.	294 |# |# |#|
 |K.	1093 |# |# |#|
 |K.	1094 |# |# |#|
 |K.	1095 |# |# |#|
-|K.	1096 |# |# |#|
+|K.	1096 |kuch |done |unpublished|
 |K.	1097 |# |# |#|
 |K.	1098 |# |# |#|
-|K.	1099 |# |# |#|
+|K.	1099 |kuch |done |unpublished|
 |K.	1100 |# |# |#|
 |K.	1101 |# |# |#|
 |K.	1102 |kuch |done |Wimonkasem 1995|
 |K.	1103 |# |# |#|
 |K.	1104 |# |# |#|
-|K.	1105 |# |# |#|
+|K.	1105 |kuch |done |unpublished|
 |K.	1106 |kuch |done |unpublished|
 |K.	1107 |# |# |#|
 |K.	1108 |# |# |#|
-|K.	1109 |# |# |#|
+|K.	1109 |kuch |done |unpublished|
 |K.	1110 |kuch |pending |unpublished|
 |K.	1111 |# |# |#|
 |K.	1112 |# |# |#|
@@ -1276,16 +1276,17 @@ K.	294 |# |# |#|
 |K.	1137 |# |# |#|
 |K.	1138 |# |# |#|
 |K.	1139 |# |# |#|
-|K.	1140 |# |# |#|
+|K.	1140 |kuch |done |unpublished|
 |K.	1141 |chch |pending | NIC II-III|
-|K.	1142 |kuch |pending |Jacques 2007|
+|K.	1142 |kuch |done |Jacques 2007|
 |K.	1143 |# |# |#|
 |K.	1144 |# |# |#|
 |K.	1145 |# |# |#|
 |K.	1146 |# |# |#|
 |K.	1147 |kuch |done |NIC II-III|
 |K.	1148 |kuch and chch |done |Pou NIC II-III 2001|
-|K.	1149 |kuch |pending |unpublished|
+|K.	1149-1 |kuch |done |unpublished|
+|K.	1149-2 |kuch |done |unpublished|
 |K.	1150 |kuch |done |Goodall 2019|
 |K.	1151 |sapi |done |NIC II-III|
 |K.	1152 |sapi |pending |NIC II-III|
@@ -1317,7 +1318,7 @@ K.	294 |# |# |#|
 |K.	1177 |# |# |#|
 |K.	1178 |# |# |#|
 |K.	1179 |# |# |#|
-|K.	1180 |kuch |pending |Cha-em Kaeokhlai 2542|
+|K.	1180 |kuch |done |Cha-em Kaeokhlai 2542|
 |K.	1181 |# |# |#|
 |K.	1182 |# |# |#|
 |K.	1183 |# |# |#|
@@ -1334,7 +1335,7 @@ K.	294 |# |# |#|
 |K.	1194 |# |# |#|
 |K.	1195 |# |# |#|
 |K.	1196 |# |# |#|
-|K.	1197 |# |# |#|
+|K.	1197 |kuch |done |NIC IV|
 |K.	1198 |kuch |pending |NIC II-III|
 |K.	1199 |# |# |#|
 |K.	1200 |# |# |#|
@@ -1358,11 +1359,11 @@ K.	294 |# |# |#|
 |K.	1218 |kuch |done |Soutif 2009|
 |K.	1219 |kuch |done |Soutif 2009|
 |K.	1220 |# |# |#|
-|K.	1221 |kuch |pending |unpublished|
+|K.	1221 |kuch |done |unpublished|
 |K.	1222 |# |# |#|
 |K.	1223 |# |# |#|
 |K.	1224 |kuch |done |unpublished|
-|K.	1225 |kuch |pending |unpublished|
+|K.	1225 |kuch |done |unpublished|
 |K.	1226 |chch |pending |unpublished|
 |K.	1227 |kuch |done |unpublished|
 |K.	1228 |chch |pending |unpublished|
