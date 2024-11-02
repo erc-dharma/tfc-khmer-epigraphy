@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Prasat Preah Nan (K. 89), 924 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00089</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE. <!-- kuch: The estampage EFEO n. 530 is not available and the EFEO n.1131 has a damaged text. -->
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-11-01" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p>
+                      <lb n="1"/><g type="ddanda">.</g> <num value="924">924</num> śaka nu vraḥ kamrateṅ Añ bhagavan ṇāma vraḥ kamrateṅ Añ śrīprathi<lb 
+                         n="2" break="no"/>vindrapandita sruk Āy ramani thvāy śrībhadreśvarāśrama <g type="circleSmall">.</g> ta vraḥ pāda kamrateṅ kaṁtvan
+                      <lb n="3"/>Añ śrīsūryyavarmmadeva <g type="circleSmall">.</g> kalpaṇā ta dau liṅgapūra liṅgaśodhana <g type="circleSmall">.</g> ti vī <num value="12"><g type="numeral">10</g> <g type="numeral">2</g></num> gomaya vī <num value="10"><g type="numeral">10</g></num>
+                      <lb n="4"/><num value="2"><g type="numeral">2</g></num> lṅo je <num value="1"><g type="numeral">I</g></num> santek je <num value="2"><g type="numeral">2</g></num> svai je <num value="1"><g type="numeral">I</g></num> vacā jyaṅ <num value="1"><g type="numeral">I</g></num> vraḥ curu liḥ <num value="2"><g type="numeral">2</g></num> pratidina khñuṁ <num value="5"><g type="numeral">5</g></num> bhūmi man
+                      <lb n="5"/>jauv nu padigaḥ jyaṅ <num value="5"><g type="numeral">5</g></num> bhājana jyaṅ <num value="5"><g type="numeral">5</g></num> mvāy śata vroḥh prāk <num value="6"><g type="numeral">6</g></num> nu duk liṅgaśodhana
+                      <lb n="6"/>bhājana nu dut mvāy <g type="circleSmall">.</g> prāk nu duk kruc mārgga <num value="1"><g type="numeral">I</g></num> svok <num value="1"><g type="numeral">I</g></num> kathor <num value="1"><g type="numeral">I</g></num> neḥ kalpanā Āy kamra<lb 
+                         n="7" break="no"/>teṅ Añ liṅgapura <g type="circleTarget">.</g> <g type="ddanda">.</g> kalpanā Āy kamrateṅ jagat śrījalāṅgeśvara <g type="circleSmall">.</g> vraḥ curu pūrvvā<lb 
+                            n="8" break="no"/>ḥhna liḥ <num value="1"><g type="numeral">I</g></num> maddhyāhna vraḥ curu liḥ <num value="2"><g type="numeral">2</g></num> ti taṁtāṁ nu cat sneha <g type="circleSmall">.</g> vraḥ yajña liḥ <num value="4"><g type="numeral">4</g></num> Aparāhna vraḥ caru
+                      <lb n="9"/>liḥ <num value="1"><g type="numeral">I</g></num> saṅkrānta je <num value="1"><g type="numeral">I</g></num> bhikṣā Ācāryya ta Aṅgvay ta Āśrama liḥ <num value="1"><g type="numeral">I</g></num> vraḥ vleṅ liḥ <num value="1"><g type="numeral">I</g></num> sarassuti li <num value="1"><g type="numeral">I</g></num> vraḥ
+                      <lb n="10"/>bhikṣā caturmmāsa liḥ <num value="1"><g type="numeral">I</g></num> <g type="circleSmall">.</g> bhūmi jaigrāma ti duñ nu vaudi piy padigaḥ vyar ta loñ sat mūla paṁcāṁ
+                      <lb n="11"/>bhūmi thkval It ti khloñ vala kaṁluṅ kaṁveṅ ta jmaḥ loñ bhīma Oy dakṣiṇā sthāpaka <g type="circleSmall">.</g> bhūmi travā<lb 
+                         n="12" break="no"/>ṅ rek ti khloñ vala kaṁluṅ kamveṅ Oy dakṣiṇā phle yajña teṅ tvan kaṁluṅ kaṁveṅ <g type="circleSmall">.</g> bhūmi ca<lb 
+                            n="13" break="no"/>ndranan ti teṅ tvan vraḥ Aṅkoñ Oy dakṣiṇā man nāṁ cval Āy liṅgapūra <g type="circleSmall">.</g> bhūmi vijayeśvara ti vraḥ pā<lb 
+                               n="14" break="no"/>da kaṁmrateṅ kaṁtvan Añ śrīsūryyavarmmadeva Oy vraḥ karuṇā prasāda pre sthāpaka vraḥ viṅ <g type="circleSmall">.</g> saṁ gaṇa nu
+                      <lb n="15"/>kaṁmrateṅ jagat liṅgapūra <g type="circleSmall">.</g> neḥ vijayeśvara punya vraḥ kaṁmrateṅ Añ śrīvijayendravarmma ta gurujana vraḥ
+                      <lb n="16"/>pāda sūryyāga śivapada <g type="circleSmall">.</g> ta pandval pi Oy prasāda vraḥ kaṁteṅ Añ śrīsamarādhipativarmmaḥ ta pratyaya
+                      <lb n="17"/>mratāñ khloñ bhavapūra <g type="circleSmall">.</g> bhūmi bhavasthāna ti Oy dakṣiṇā sthāpakaḥ ti duñ bhūmi noḥ sot nu pa<lb 
+                         n="18" break="no"/>padigaḥ jyaṅ <num value="5"><g type="numeral">5</g></num> ta loñ sān bhavasthāna <g type="circleSmall">.</g> tai kansoḥ ti duñ nu canlyak yau <num value="10"><g type="numeral">10</g></num> prāk liṅ <num value="4"><g type="numeral">4</g></num>
+                      <lb n="19"/>ti duñ ta loñ śaktiśiva paṁcāṁ kraloṅ <g type="circleSmall">.</g> tai sralit ti khloñ vala trvac paṁcāṁ sruk Āy
+                      <lb n="20"/>kaṅke gi ta Oy <g type="circleSmall">.</g> tai gañjū loñ vās vīragrāma paṁcāṁ daśādhikr̥tta Oy <g type="circleSmall">.</g> tai kañjā
+                      <lb n="21"/>nu gho kansrāc ti khloñ vala khloñ srū Oy <g type="circleSmall">.</g> tai kaṁvai ti duñ nu padigaḥ jyaṅ <num value="5"><g type="numeral">5</g></num> ta teṅ
+                      <lb n="22"/>tvan dvāravati ti jmaḥ teṅ dharmma <g type="circleSmall">.</g> tai kaṁprvat ti teṅ tvan dvāravati Oy dakṣiṇā sthāpa<lb 
+                         n="23" break="no"/>ka vraḥ kaṁmrateṅ Añ parameśvara <g type="circleSmall">.</g> tai kaṁvai ti duñ nu padigaḥ jyaṅ <num value="6"><g type="numeral">6</g></num> ta loñ
+                      <lb n="24"/>Ap dvāravati <g type="circleSmall">.</g> tai gaṁprvat sot ti loñ vās salā Oy dakṣiṇā thve yajña teṅ
+                      <lb n="25"/>tvan vnur jās <g type="circleSmall">.</g> tai panhāṅ ti teṅ tvan vnur jās Oy dakṣiṇā phle thve yajña
+                      <lb n="26"/>khloñ vala parohita <g type="circleSmall">.</g> tai qulikk ti loñ Ap O<supplied reason="lost">y</supplied> dakṣiṇā sthāpakā nā vi<lb 
+                         n="27" break="no"/>dyāvīraloka ti Oy viṅ ta vraḥ noḥ <g type="circleSmall">.</g> kvan noḥ mvāy jmaḥ kanqin ti
+                      <lb n="28"/>pre res raṅko Āy vnaṁ <g type="circleSmall">.</g> qme kaṁvis nu kaṁviss ti duñ nu vaudi <num value="1"><g type="numeral">I</g></num> jyaṅ <num value="5"><g type="numeral">5</g></num> kadā<lb 
+                         n="29" break="no"/>ha mvāy jyaṅ <num value="5"><g type="numeral">5</g></num> ta yā loñ jū ramyāgrāma <g type="circleSmall">.</g>
+                      
+                   </p>
+                </div>
+<!--<div type="apparatus">
+               <listApp>
+<app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1937-1966_01"></rdg>
+                     </app>
+                  </listApp>         
+         </div> -->
+        <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+           <p n="1-3">924 śaka, V.K.A. Bhagavan, nommé V.K.A. Śrī Pr̥thivīndrapaṇḍita du pays Āy Ramani offre le Śrī Bhadreśvaraśrama à S.M. Śrī Sūryavarmadeva.</p>
+           <p n="3-6">Fondation en faveur de Liṅgapura et Liṅgaśodhana : 12 <foreign>vī</foreign> de terre, 12 <foreign>vī</foreign> de bouse de vache, 1 <foreign>je</foreign> de sésame, 2 <foreign>je</foreign> de haricots, 1 <foreign>je</foreign> de moutarde, 1 <foreign>jyaṅ</foreign> de vacā, 2 <foreign>liḥ</foreign> pour l'oblation quotidienne, 5 esclaves, une terre achetée à prix d'un crachoir de 5 <foreign>jyaṅ</foreign>, un récipient de 5 <foreign>jyaṅ</foreign>, cent volées <supplied reason="subaudible" cert="low">de paddy</supplied>, 6 <supplied reason="subaudible">unités</supplied> d'argent <foreign>nu duk</foreign> <supplied reason="subaudible">pour</supplied> Liṅgaśodhana.
+Un récipient nu duk, argent <foreign>nu duk</foreign>, 1 <foreign>kruc mārga</foreign>, 1 plateau, 1 crachoir : telle est la fondation en faveur du K.A. Liṅgapura.</p>
+           <p n="7-10">Fondation en faveur de K.J. Śrī Jalaṅgeśvara : 1 <foreign>liḥ</foreign> pour l'oblation du matin, 2 <foreign>liḥ</foreign> cuits et préparés à l'huile pour l'oblation de midi, 4 <foreign>liḥ</foreign> pour le sacrifice <supplied reason="explanation"><foreign>yajña</foreign></supplied>, 1 <foreign>liḥ</foreign> pour l'oblation du soir, 1 <foreign>je</foreign> au nouvel an, 1 <foreign>liḥ</foreign> pour l'aumône des maîtres résidant dans l'<foreign>āśrama</foreign>, 1 <foreign>liḥ</foreign> pour le Feu sacré, 1 <foreign>liḥ</foreign> pour Sarasvatī, 1 <foreign>liḥ</foreign> pour l'aumône des quatre mois ;</p>
+           <p n="10">Terre de Jaigrāma : achetée pour <supplied reason="subaudible">le prix</supplied> de 3 <foreign>vaudi</foreign> et de 2 crachoirs à Loñ Sat, chef des <foreign>paṁcāṁ</foreign> ;</p>
+           <p n="11">Terre de Thkval It : le Khloñ Vala Kaṁluṅ Kaṁveṅ <supplied reason="explanation">"chef de population à l'intérieur de l'enceinte"</supplied> nommé Loñ Bhīma, la donne comme cadeau <supplied reason="subaudible">en qualité</supplied> de fondateur ;</p>
+           <p n="12">Terre de Travāṅ Rek : le Khloñ Vala de Kaṁluṅ Kaṁveṅ la donne en cadeau comme honoraires pour le sacrifice de la Teṅ Tvan Kaṁluṅ Kaṁveṅ.</p>
+           <p n="13">Terre de Candranan : la Teṅ Tvan de Vraḥ Aṅkoñ la donne en cadeau ; elle est incorporée à Liṅgapura.</p>
+           <p n="13-17">Terre de Vijayeśvara : S.M. Śrī Sūryavarmadeva l'accorde gracieusement, y fait ériger le dieu à nouveau et réunit son personnel à celui de K.J. Liṅgapura.
+           Ce Vijayeśvara est une fondation de V.K.A. Śrī Vijayendravarman, maître spirituel du roi qui est allé à Śivapada <supplied reason="explanation">= Jayavarman IV</supplied> et qui avait ordonné de l'accorder gracieusement à V.K.A Śrī Samarādhipativarman, homme de confiance du Mratañ Khloñ de Bhavapura.
+           </p>
+           <p n="17-18">Terre de Bhavasthāna, donnée en cadeau de fondateur. Cette terre a été achetée à nouveau pour un crachoir de 5 <foreign>jyaṅ</foreign> à Loñ Sān de Bhavasthāna.</p>
+           <p n="18-19">Tai Kansoḥ est achetée pour 10 <foreign>yau</foreign> de vêtements et 4 <foreign>liṅ</foreign> d'argent à Loñ Śaktiśiva <foreign>paṁcāṁ kraloṅ</foreign>.</p>
+           <p n="19-20">Tai Sralit est donnée par le Khloñ Vala, inspecteur des <foreign>paṁcāṁ</foreign> du pays de Āy Kaṅke.</p>
+           <p n="20">Tai Gañjū est donnée par Loñ Vās de Vīragrāma, <foreign>paṁcāṁ</foreign> chef de dix.</p>
+           <p n="20-21">Tai Kañjā et Gho Kansrāc sont données par le Khloñ Vala <supplied reason="subaudible">qui remplit les fonctions de</supplied> Khloñ Srū <supplied reason="explanation">"chef du paddy"</supplied>.</p>
+           <p n="21-22">Tai Kaṁvai est achetée pour un crachoir de 5 <foreign>jyaṅ</foreign> à la Teṅ Tvan de Dvāravatī qui a nom Teṅ Dharma.</p>
+           <p n="22-23">Tai Kaṁprvat est donnée par la Teṅ Tvan de Dvāravatī en cadeau de fondateur à V.K. A. Parameśvara.</p>
+           <p n="23-24">Tai Kaṁvai est achetée pour un crachoir de 6 <foreign>jyaṅ</foreign> à Loñ Ap de Dvāravatī.</p>
+           <p n="24-25">Tai Kaṁprvat, à nouveau, est donnée en cadeau par Loñ Vās Salā pour faire le sacrifice de la Teṅ Tvan de Vnur Jās.</p>
+           <p n="25-26">Tai Panhāṅ donnée en cadeau par la Teṅ Tvan de Vnur Jās comme récompense pour avoir fait le sacrifice du Khloñ Vala Purohita.</p>
+           <p n="26-27">Tai Ulik que Loñ Ap avait donnée comme cadeau de fondateur à Vidyāviraloka, est de nouveau donnée à ce dieu.</p>
+           <p n="27-28">Un enfant nommé Kan-in est envoyé trier du riz dans le temple <supplied reason="explanation">vnaṁ</supplied>.</p>
+           <p n="28-29">La mère de Kaṁvis et Kaṁvis sont achetés pour 1 <foreign>vaudi</foreign> de 5 <foreign>jyaṅ</foreign> et 1 chaudron de 5 <foreign>jyaṅ</foreign> à la grand'mère de Loñ Jū de Ramyāgrāma.</p>
+              </div>
+    <!--   <div type="commentary">
+          <p></p>
+       </div>  -->
+         <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">164-169</citedRange></bibl>) with a French translation.</p><!-- kuch: The estampage EFEO n. 530 is not available and the EFEO n.1131 has a damaged text. -->
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">3</citedRange><citedRange unit="page">164-169</citedRange>
+    </bibl>
+	</listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
