@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjambs from Prasat Banteay Prav (K. 220), 924 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00220</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE. <!-- kuch: The estampage EFEO n. 530 is not available and the EFEO n.1131 has a damaged text. -->
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-11-04" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p><milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label>
+                      <lb n="N1"/><g type="circleTarget">.</g> <num value="924">924</num> śaka cāndravāra purṇnamī kotmā<gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="N2"/>la kanmyaṅ caṁ caṁnā<supplied reason="lost">ṁ</supplied> ta vraḥ kaṁmrateṅ A<supplied reason="lost">ñ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="N3"/>liḥ <num value="2"><g type="numeral">2</g></num> khñuṁ gho kaṁpāñ <num value="1"><g type="numeral">I</g></num> gho kanroṁ gi ta thve <gap reason="lost" extent="unknown" unit="character"/>
+                   </p>
+                    <p><milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label>
+                      <lb n="S1"/><gap reason="lost" quantity="8" unit="character"/> <supplied reason="lost">kaṁste</supplied>ṅ man jvan <gap reason="lost" quantity="3" unit="character"/> kañjūn trvac gho panheṁ <gap reason="lost" quantity="6" unit="character"/>
+                      <lb n="S2"/><gap reason="lost" quantity="5" unit="character"/> kvan tai khjū kvan tai <gap reason="lost" quantity="3" unit="character"/> n tai khdes gho thqyak <gap reason="lost" quantity="6" unit="character"/>
+                      <lb n="S3"/><gap reason="lost" quantity="3" unit="character"/> śreṣṭha tai thqyak kvan tai kan <gap reason="lost" quantity="3" unit="character"/>n gho saṁqap tai kaṁbh <gap reason="lost" quantity="4" unit="character"/>
+                       <lb n="S4"/>tai kaṁvrau gho narāyana tai vraḥ <gap reason="lost" quantity="4" unit="character"/> gho Āditya gho kaṁpañ <g type="circleSmall">.</g> tai <gap reason="lost" quantity="2" unit="character"/> <supplied reason="lost">khloñ</supplied>
+                      <lb n="S5"/>vala rudrapada man jā vargga ta kaṁste<supplied reason="lost">ṅ jvan</supplied> tai thqyak nu kvan gho <gap reason="lost" quantity="8" unit="character"/>
+                      <lb n="S6"/>vraḥ <g type="circleSmall">.</g> tai gandha khñuṁ gho kañcū qnak vnaṁ ka <gap reason="lost" quantity="5" unit="character"/> <supplied reason="lost">jā va</supplied>rg<supplied reason="lost">ga</supplied> ta ka<supplied reason="lost">ṁsteṅ</supplied> <gap reason="lost" quantity="10" unit="character"/>
+                       <lb n="S7"/><gap reason="lost" quantity="1" unit="character"/> <g type="circleSmall">.</g> gho thṅe ti kaṁsteṅ jvan ta vraḥ <gap reason="lost" quantity="4" unit="character"/> sū khñuṁ <gap reason="lost" quantity="12" unit="character"/>
+                      <lb n="S8"/>thnvar khñuṁ kaṁsteṅ jvan ta vraḥ <g type="circleSmall">.</g> tai <gap reason="lost" quantity="4" unit="character"/> kvan tai kansān khñuṁ <gap reason="lost" quantity="6" unit="character"/> vraḥ <g type="circleSmall">.</g> tai
+                      <lb n="S9"/>raṁqat khñuṁ kaṁmrateṅ Añ kanmyaṅ <gap reason="lost" quantity="3" unit="character"/> ta vraḥ <g type="circleSmall">.</g> tai kaṁvai kvan tai thun khñuṁ <gap reason="lost" quantity="4" unit="character"/> ma khloñ jnva<lb 
+                         n="S10" break="no"/>l vanik man jā vargga ta kaṁsteṅ <supplied reason="lost">O</supplied>y tai kaṁvai nu kvan ta kaṁsteṅ jvan ta vraḥ <g type="circleSmall">.</g> tai kanqīn tai
+                      <lb n="S11"/>khmau khñuṁ loñ vāma velā kanvom <gap reason="lost" quantity="3" unit="character"/> jā vargga ta kaṁsteṅ Oy ta kanqīn tai khmau ta kaṁsteṅ
+                      <lb n="S12"/>jvan ta vraḥ <g type="circleSmall">.</g> tai thqyak khñuṁ khloñ vala khloñ <supplied reason="lost">vi</supplied>ṣaya vyādhapūra man jā vargga ta kaṁsteṅ Oy tai thqyak ta
+                       <lb n="S13"/>kaṁsteṅ jvan ta vraḥ <g type="circleSmall">.</g> bhagavatī U<supplied reason="lost">mā</supplied> <gap reason="lost" quantity="3" unit="character"/> tai kaṁbha kvan gho kansip gho hr̥daya tai thmās
+                      <lb n="S14"/>khñuṁ vāp vraḥ sruk man velā <gap reason="lost" quantity="4" unit="character"/> kaṁsteṅ Oy tai kaṁbha nu kvan ta kaṁsteṅ jvan ta vraḥ <g type="circleSmall">.</g> tai
+                      <lb n="S15"/>kaṁpit khñuṁ loñ stuk veṅ <gap reason="lost" quantity="2" unit="character"/> man jā vargga ta kaṁsteṅ Oy tai kaṁpit ta kaṁsteṅ jvan ta vraḥ
+                       <lb n="S16"/>tai kanqū tai kanso tai kaṁ <gap reason="lost" quantity="4" unit="character"/> pau kanteṁ gho rat vira gvāl gho khñuṁ tai kanl<gap reason="lost" quantity="3" unit="character"/>
+                      <lb n="S17"/>tai kaṁ<gap reason="lost" quantity="2" unit="character"/> tai panheṁ tai <gap reason="lost" quantity="5" unit="character"/>ṅ si pau kandhes gho rat kanthok gho rat chke tai
+                      <lb n="S18"/>tirtha tai pau śrāddha tai kaṁ <gap reason="lost" quantity="5" unit="character"/> tai dharmma
+                   </p>
+                </div>
+<!--<div type="apparatus">
+               <listApp>
+<app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1937-1966_01"></rdg>
+                     </app>
+                  </listApp>         
+         </div> -->
+        <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+           <p n="N1-N3">924 <foreign>śaka</foreign>, lundi, pleine lune de <gap reason="lost"/> le jeune assure le service des redevances de V.K.A. <gap reason="lost"/> 2 <foreign>liḥ</foreign>. Esclaves : Gho Kaṁpāñ, Gho Kanroṁ qui font <gap reason="lost"/>.</p>
+        <p n="S1-S4"><supplied reason="explanation">Liste de <foreign>gho</foreign> et de <foreign>tai</foreign>.</supplied></p>
+           <p n="S4-S6">Tai <gap reason="lost"/> Khloñ Vala Rudrapada, faisant partie de la troupe <supplied reason="explanation"><foreign>varga</foreign></supplied> du Kaṁsteṅ, donne Tai Thayak et son enfant Gho <gap reason="lost"/> <supplied reason="subaudible">au Kaṁsteṅ pour l'offrir</supplied> à la divinité.</p>
+           <p n="S6">Tai Gandha, esclave de Gho Kañcū, anak vnaṁ de <gap reason="lost"/>, faisant partie de la troupe du Kaṁsteṅ <gap reason="lost"/>.</p>
+           <p n="S7">Gho Thṅe que le Kaṁsteṅ offre à la divinité.</p>
+           <p n="S7-S8"><gap reason="lost"/> sū, esclave <gap reason="lost"/> en échange d'un esclave, au Kaṁsteṅ pour l'offrir à la divinité.</p>
+           <p n="S8">Tai <gap reason="lost"/> et son enfant Tai Kansān, esclave <gap reason="lost"/> à la divinité.</p>
+           <p n="S9">Tai Raṁat, esclave de K.A. le jeune <gap reason="lost"/> à la divinité.</p>
+           <p n="S9-S10">Tai Kaṁvai, son enfant Tai Thun, esclave <gap reason="lost"/> <foreign>khloñ jnval vanik</foreign>, faisant partie de la troupe du Kaṁsteṅ, donne Tai Kaṁvai et son enfant au Kaṁsteṅ pour l'offrir à la divinité.</p>
+           <p n="S10-S12">Tai Kan-In, Tai Khmau, esclaves de Loñ Vāma. Lorsque Kanvom <gap reason="lost"/> faisait partie de la troupe du Kaṁsteṅ, il donna Tai Kan-īn et Tai Khmau au Kaṁsteṅ pour les offrir à la divinité.</p>
+           <p n="S12-S13">Tai Thayak, esclave du Khloñ Vala, <foreign>khloñ viṣaya</foreign> de Vyādhapura. Celui-ci, faisant partie de la troupe du Kaṁsteṅ, donne Tai Thayak au Kaṁsteṅ pour l'offrir à la divinité.</p>
+           <p n="S13-S14">Bhagavatī U<supplied reason="subaudible">mā</supplied>.
+Tai Kaṁbha et ses enfants Gho Kansip, Gho Hr̥daya, Tai Thmās, esclaves de Vāp Vraḥ Sruk. Lorsque <gap reason="lost"/> du Kaṁsteṅ, il a donné Tai Kaṁbha et ses enfants au Kaṁsteṅ pour les offrir à la divinité.</p>
+           <p n="S15">Tai Kaṁpit, esclave de Loñ Stuk Veṅ <gap reason="lost"/>. Celui-ci, faisant partie de la troupe du Kaṁsteṅ, donne Tai Kaṁpit au Kaṁsteṅ pour l'offrir à la divinité.</p>
+           <p n="S16-S18"><supplied reason="explanation">Liste de <foreign>tai</foreign> et de <foreign>gho</foreign>.</supplied>.</p>
+        </div>
+    <div type="commentary">
+          <p>The date 924 Śaka can also be read 934.</p>
+       </div> 
+         <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">225-227</citedRange></bibl>) with a French translation.</p><!-- kuch: The estampage BN 8 is not available. -->
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">6</citedRange><citedRange unit="page">225-227</citedRange>
+    </bibl>
+	</listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
