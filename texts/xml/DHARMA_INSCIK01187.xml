@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Prasat Ta Muean Thom (K. 1187), 942 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+              
+               <persName ref="part:jues">
+                  <forename>Julia</forename>
+                  <surname>Estève</surname>
+               </persName>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01187</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE. 
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-11-13" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p><milestone type="pagelike" unit="item" n="A"/><label xml:lang="eng">Face</label>
+                      <lb n="A1"/><gap reason="lost" quantity="3" unit="character"/> svāst<supplied reason="lost">i</supplied> <unclear>·</unclear> <num value="942">9<unclear>4</unclear>2</num> śaka pañcam<unclear>i roc</unclear><supplied reason="lost">· ś</supplied>rāva<unclear>n</unclear>a vu<unclear>dh</unclear>avā<supplied reason="lost">ra nu mā</supplied><lb 
+                         n="A2" break="no"/><supplied reason="lost">n·</supplied> vraḥ <unclear>ka</unclear>ruṇā paramapavitra ta kaṁsteṅ· śri jayasiṅhava<unclear>rmma</unclear>
+                      <lb n="A3"/><unclear>ta</unclear> pandval· vraḥ Ālākṣaṇa ta vraḥ kaṁmrateṅ· Añ· ka<unclear>deṅ·</unclear>
+                      <lb n="A4"/>sabhāpati nā trīṇi pi pre vraḥ sabhā nu pra<add place="above"><unclear>ti</unclear></add>hārapāla <supplied reason="lost">d</supplied><unclear>au sa</unclear><lb 
+                         n="A5" break="no"/>ṅ gol ta bhūmi siddhīpūra pi Oya prasāda ta teṅ· tvan ta jmaḥ <unclear>t</unclear>e<supplied reason="lost">ṅ·</supplied>
+                      <lb n="A6"/>pit· thve nā thve caṁnāṁ ta <unclear>gi</unclear> vraḥ kaṁmrateṅ· Añ· nā tr<unclear>ī</unclear>ṇi <unclear>y</unclear><supplied reason="lost">u</supplied><lb 
+                         n="A7" break="no"/><unclear>gapat</unclear>· nu vraḥ kaṁmrateṅ· Aña sabhapati Eka do nu vraḥ <supplied reason="lost">kaṁ</supplied><lb 
+                            n="A8" break="no"/><unclear>s</unclear><supplied reason="lost">t</supplied><unclear>e</unclear>ṅa svat· vraḥ dharmmaśāstra pandval· vraḥ Ālākṣaṇa <unclear>ta mratā</unclear><lb 
+                               n="A9" break="no"/><unclear>ñ· khloñ·</unclear> svāy ta vraḥ sabhā nu pratihāra<supplied reason="lost">pāla</supplied> saṅ gol ta <unclear>bhū</unclear><lb 
+                                  n="A10" break="no"/>mi noḥ cuñ ta <unclear>kaṁ</unclear>steṅ· śri rājendrāditya ta <unclear>mān· pramāna</unclear> <supplied reason="lost">nu</supplied>
+                      <lb n="A11"/>mratāñ· khlo<supplied reason="lost">ñ·</supplied> trvac· vraḥ rājakāryya nu <unclear>pradh</unclear>ā<unclear>n</unclear>a Aṁ<supplied reason="lost">pal·</supplied>
+                      <lb n="A12"/><supplied reason="lost">qna</supplied>k· nu kule strījana<unclear>ka</unclear> nu Aṁcās· qnak· <unclear>qval·</unclear> syaṅ ta <supplied reason="lost">nā</supplied>ṁ <supplied reason="lost">caṅ·</supplied><lb 
+                         n="A13" break="no"/><unclear>vāta</unclear> bhūmi neḥ Oy· <unclear>pi</unclear> vraḥ sabhā <unclear>sa</unclear>ṅ <unclear>gol·</unclear> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>o<gap reason="lost" quantity="3" unit="character"/>
+                      <lb n="A14"/><gap reason="lost" quantity="2" unit="character"/> <supplied reason="lost">toy</supplied>· <unclear>pū</unclear>rvva toy· paścima toya dākṣina <unclear>sya</unclear><lb 
+                         n="A15" break="no"/><supplied reason="lost">ṅ ta</supplied> <unclear>n</unclear><supplied reason="lost">ā</supplied>ṁ caṅvāt ta <unclear>O</unclear><supplied reason="lost">y ta</supplied> <unclear>vraḥ</unclear> nā th<unclear>v</unclear>e caṁnāṁ ta gi thmoya bhūmi noḥ
+                      <lb n="A16"/><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>ta</unclear> <gap reason="lost" quantity="2" unit="character"/> <unclear>U</unclear>tara tarāp· <unclear>gol· khñu</unclear>ṁ <supplied reason="lost">t</supplied>i j<supplied reason="lost">v</supplied>an <unclear>ta</unclear> kaṁmrateṅ· jagat· <unclear>ta</unclear>
+                      <lb n="A17"/><unclear>du</unclear>k ta caṁnat· noḥ ta thve caṁnāṁ neḥ <unclear>s</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><gap reason="lost" quantity="2" unit="character"/> <supplied reason="lost">taṁ</supplied>tāṁ caturmmāsa ra<lb 
+                         n="A18" break="no"/>ṅko liḥ <num value="5"><g type="numeral">5</g></num> <unclear>t</unclear>ai kaṁrut· <unclear>vraṅ·</unclear> tai kanteṁ <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>sa<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>r<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>n<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> tai (ca)<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="subscript"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg>
+                      <lb n="A19"/><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>pa</unclear> tai kaṁp<unclear>u</unclear>r· tai <unclear>Āda</unclear> tai sā<unclear>m</unclear>ā tai kaṁvaiy· t<unclear>ai</unclear> <gap reason="lost" quantity="2" unit="character"/> <supplied reason="lost">t</supplied><unclear>ai</unclear>
+                   </p>
+                    <p><milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Face</label>
+                      <lb n="B1"/><unclear>ka</unclear><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>j</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> tai <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><unclear>t·</unclear> tai kan·daṁ tai <unclear>vi</unclear>ja tai <unclear>thq</unclear>yak· <unclear>si sy</unclear><seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> <gap reason="lost" quantity="3" unit="character"/>
+                       <lb n="B2"/>si khnet· si saṁqap· si kanā vraḥ <num value="24"><unclear><g type="numeral">20</g></unclear> <g type="numeral">4</g></num> mās· pāda <num value="3"><g type="numeral">III</g></num> prak·
+                       <lb n="B3"/>liṅ· <num value="4"><g type="numeral">4</g></num> <unclear>khñuṁ</unclear> nu caṁnāṁ drāvya ta Ampāla neḥha man· Añ· jvan ta kaṁ<supplied reason="lost">mra</supplied><lb 
+                          n="B4" break="no"/>teṅ· jagata śivapāda paścima Ā<unclear>ya</unclear>tva ta teṅ· tvana hvara ta sa<unclear>ṁ</unclear> <gap reason="lost" quantity="1" unit="character"/>
+                       <lb n="B5"/><gap reason="lost" quantity="1" unit="character"/> Añ· ta jmaḥ teṅ· pit· thve nu <unclear>kvana</unclear> cau ta <unclear>t</unclear>e<unclear>ṅ</unclear> ta teṅa pit· <supplied reason="lost">th</supplied>ve
+                       <lb n="B6"/><unclear>gi</unclear> nā Añ· samāpe gi ta Āc· paripāla pra<unclear>dāna</unclear> dau <unclear>nā</unclear>
+                       <lb n="B7"/>kule Añ· phoṅa syaṅ· ta Añ· Oy· khñuṁ mās· prak· <unclear>phnek sa</unclear><lb 
+                          n="B8" break="no"/><unclear>p· phoṅ·</unclear> vvaṁ Āc ti s<unclear>v</unclear>eṅ· ka<supplied reason="lost">r</supplied>yya <unclear>nu</unclear> khñuṁ caṁnāṁ nu caṁnat· neḥha nau
+                       <lb n="B9"/><unclear>ge</unclear> ta pan<unclear>·</unclear>hya<unclear>ta</unclear> khñuṁ caṁ<unclear>n</unclear>āṁ ta <unclear>roḥha neḥha</unclear> leṅ· kvan· cau te<lb 
+                          n="B10" break="no"/>ṅ· pit· <unclear>thve</unclear> nā Aña samāpe ge noḥ svey· naraka kā<lb 
+                             n="B11" break="no"/>lpa kotti <g type="danda">.</g> <g type="circleSmall">.</g> <g type="danda">.</g> drāvya <unclear>ti Oy ta Aṁcāsa qnak</unclear> ta Oya bhūmi pi ca<lb 
+                                n="B12" break="no"/><unclear>t·</unclear> vrī<unclear>hi</unclear> <gap reason="lost" quantity="4" unit="character"/> vra<unclear>ḥ go</unclear> <num value="4"><unclear><g type="numeral">4</g></unclear></num> <unclear>thna</unclear>p· yo <num value="1"><g type="numeral">I</g></num> canlyak· yo <num value="4"><g type="numeral">4</g></num>
+                       <lb n="B13"/>v<supplied reason="lost">r</supplied>aḥ raṅko j<unclear>ya</unclear><supplied reason="lost">ṅ·</supplied> <num value="5"><g type="numeral">5</g></num> vave <num value="2"><g type="numeral">II</g></num> <g type="floret">.</g>
+                    </p>
+                   <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A14"/><milestone unit="column" n="a"/>śākenākṣāvdhirandhrena</l>
+<l n="b"><milestone unit="column" n="b"/>sthānave śivahāriṇe</l>
+<l n="c" enjamb="yes"><lb n="A15"/><milestone unit="column" n="a"/>grāmaṁ sadāsa<unclear>d</unclear>āsīg<unclear>o</unclear></l>
+<l n="d"><milestone unit="column" n="b"/>-hemarūpyan <unclear>da</unclear>dāti yaḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+         <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A16"/><milestone unit="column" n="a"/>saś śrikr̥tajñavi<unclear>r</unclear>ākhyaḥ</l>
+<l n="b"><milestone unit="column" n="b"/>khy<unclear>ā</unclear>to <unclear>dh</unclear>armm<supplied reason="lost">i</supplied>na dharmm<unclear>i</unclear>ṇām<supplied reason="lost">·</supplied></l>
+<l n="c" met="na-vipulā" real="++-+---+"><lb n="A17"/><milestone unit="column" n="a"/>śrīsūryyavarmmanr<unclear>i</unclear>patau</l>
+<l n="d"><milestone unit="column" n="b"/>dhautabhaktir viśuddhadhiḥ <g type="ddandaOrnate">.</g></l>
+</lg>    
+                   <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A18"/><milestone unit="column" n="a"/>Ā mahāko<unclear>ṭ</unclear>īsaṁhārā<milestone unit="column" n="b" break="no"/>t</l>
+<l n="b"><unclear>k</unclear>ālpanā yena lupyate</l>
+<l n="c"><lb n="A19"/><milestone unit="column" n="a"/>sa gacchatu mahāghauraṁ</l>
+<l n="d"><milestone unit="column" n="b"/>rauravaṁ saha vāndhavaiḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="4" met="unidentified" xml:lang="san-Latn">
+<l n="a"><milestone type="pagelike" unit="item" n="c"/><label xml:lang="eng">Face</label><lb n="c1"/><gap reason="lost" quantity="3" unit="character"/>śe tasya patni</l>
+<l n="b">yā <gap reason="lost" quantity="4" unit="character"/> pālayāt·</l>
+<l n="c"><lb n="c2"/>kā <gap reason="lost" quantity="3" unit="character"/> tatparaṁ yasyāḥ</l>
+<l n="d"><gap reason="lost" extent="unknown" unit="character"></gap> punaḥ</l>
+</lg>
+                </div>
+<!--<div type="apparatus">
+               <listApp>
+<app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1937-1966_01"></rdg>
+                     </app>
+                  </listApp>         
+         </div> 
+        <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
+           <p n="N1-N3"></p>
+        </div>
+    <div type="commentary">
+          <p></p>
+       </div>  -->
+         <div type="bibliography">
+          <p>Preliminarily edited by Julia Estève and Dominique Soutif without translation.</p>
+	 <listBibl type="primary">
+    <bibl n="">
+      
+    </bibl>
+	</listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
