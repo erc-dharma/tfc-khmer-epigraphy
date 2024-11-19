@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Vat Phu (K. 720), 928 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00720</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE. 
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-11-19" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p><milestone type="pagelike" unit="item" n="A"/><label xml:lang="eng">Face</label>
+                      <gap reason="lost" extent="unknown" unit="line"/>
+                   </p>
+                    <p><milestone type="pagelike" unit="item" n="b"/><label xml:lang="eng">Face</label>
+                      <lb n="b1"/>cār· caṅvātta Is<unclear>·</unclear> bhūmi sruk· t<gap reason="lost" quantity="1" unit="character"/>
+                       <lb n="b2"/><unclear><g type="ddandaOrnate">.</g></unclear> <num value="877">877</num> śaka nu cau tāñ· steñ· <gap reason="lost" quantity="1" unit="character"/>
+                       <lb n="b3"/><gap reason="lost" quantity="1" unit="character"/> ndralakṣmī ta jmah· vāp· śaṅkarātmā
+                       <lb n="b4"/><gap reason="lost" quantity="1" unit="character"/> rāma vāp śrī kanmyaṅ· paṁre neḥ <gap reason="lost" quantity="2" unit="character"/>
+                       <lb n="b5"/><supplied reason="lost">ku</supplied>le Ekodarī sanme ni <supplied reason="lost">duñ·</supplied> bhū-
+                       <lb n="b6"/><supplied reason="lost">mi ta</supplied> vāp· vrau nu kule vāp· <gap reason="lost" quantity="4" unit="character"/>
+                       <lb n="b7"/>hau pi cat· sruk· vrahma <gap reason="lost" quantity="5" unit="character"/>
+                       <lb n="b8"/>kālpanā raṅko thlvaṅ· <gap reason="lost" quantity="5" unit="character"/>
+                       <lb n="b9"/>pūrvva dau vap· ta vnur· bhadrā <gap reason="lost" quantity="4" unit="character"/>
+                       <lb n="b10"/><gap reason="lost" quantity="1" unit="character"/> travāṅ· qleṅ· nu cdval<unclear>·</unclear> <gap reason="lost" quantity="2" unit="character"/> <supplied reason="lost">nairr̥</supplied>-
+                       <lb n="b11"/>tiya dakṣina pāści<supplied reason="lost">ma</supplied> <gap reason="lost" quantity="2" unit="character"/> <supplied reason="lost">tra</supplied>-
+                       <lb n="b12"/>vāṅ· jrai daṁnap· vraḥ vāya<supplied reason="lost">vya</supplied> <gap reason="lost" quantity="2" unit="character"/>
+                       <lb n="b13"/><gap reason="lost" quantity="1" unit="character"/>k· taṁmrya Uttarā prasa<supplied reason="lost">p·</supplied> <gap reason="lost" quantity="3" unit="character"/>
+                       <lb n="b14"/>chau <g type="dotMid">.</g> <num value="877">877</num> śaka nu vāp· śa<supplied reason="lost">ṅkarātmā</supplied>
+                       <lb n="b15"/><gap reason="lost" quantity="3" unit="character"/> duñ· bhūmi ta vāp· qvan· <gap reason="lost" quantity="4" unit="character"/>
+                       <lb n="b16"/>[vnur·] bhatdrā pi cat· sruk· vrai trapek(·)
+                       <lb n="b17"/>[cāṁ] caṁnāṁ kālpanā raṅko kadāha <gap reason="lost" quantity="2" unit="character"/>
+                       <lb n="b18"/><gap reason="lost" quantity="1" unit="character"/> pūrvva dau vap· ta travāṅ· <gap reason="lost" quantity="4" unit="character"/>
+                       <lb n="b19"/><gap reason="lost" quantity="3" unit="character"/>p· travāṅ· kralā <gap reason="lost" quantity="4" unit="character"/>
+                       <lb n="b20"/><gap reason="lost" quantity="3" unit="character"/> ket· dakṣina Issa <gap reason="lost" quantity="3" unit="character"/>
+                       <lb n="b21"/><gap reason="lost" quantity="3" unit="character"/> bhirā śālya Uttarā lvaḥ <gap reason="lost" quantity="2" unit="character"/>
+                       <lb n="b22"/><gap reason="lost" quantity="3" unit="character"/> [śa]ka nu vāp(·) śaṅkarātmā nu <gap reason="lost" quantity="2" unit="character"/>
+                       <lb n="b23"/>duñ· bhūmi ta vāp· <gap reason="lost" quantity="1" unit="character"/> ṅ· <gap reason="lost" quantity="5" unit="character"/>
+                       <lb n="b24"/>cat· sruk· vnaṁ ti chok· veṅ· <gap reason="lost" quantity="5" unit="character"/> [kā]
+                       <lb n="b25"/>lpanā raṅko thlvaṅ· 4 <g type="dotMid">.</g> bhūmi <gap reason="lost" quantity="4" unit="character"/>
+                       <lb n="b26"/>travāṅ· tannot· rlaṁ Aṅgañ· dakṣina vrai <gap reason="lost" quantity="3" unit="character"/>
+                       <lb n="b27"/><gap reason="lost" quantity="1" unit="character"/>h· can·hvar· qleṅ· nu Aṁvil· kra<gap reason="lost" quantity="4" unit="character"/>
+                       <lb n="b28"/><gap reason="lost" quantity="1" unit="character"/> laṅlaṅ· cakka Uttara lvaḥ vrai caṁnat· <gap reason="lost" quantity="3" unit="character"/>
+                       <lb n="b29"/>ñcana pi vāp· śaṅkarātmā nu phqvan· <gap reason="lost" quantity="4" unit="character"/>
+                       <lb n="b30"/>qīss kālpanā sruk· neḥ ta 4 <gap reason="lost" quantity="3" unit="character"/>
+                       <lb n="b31"/><gap reason="lost" quantity="1" unit="character"/>y· pi steṅ· Añ· cyar· khāl· nāya <gap reason="lost" quantity="3" unit="character"/>
+                       <lb n="b32"/>pi nivedana ta vraḥ pāda stāc· <gap reason="lost" quantity="3" unit="character"/>
+                       <lb n="b33"/><gap reason="lost" quantity="1" unit="character"/> loka leṅ jā vraḥ kālpanā <gap reason="lost" quantity="2" unit="character"/> [kamra]-
+                       <lb n="b34"/>teṅ· jagat· liṅgapura vraḥ <gap reason="lost" quantity="5" unit="character"/>
+                       </p>
+                   <p><milestone type="pagelike" unit="item" n="C"/><label xml:lang="eng">Face</label>
+                      <lb n="C1"/><gap reason="lost" quantity="12" unit="character"/>
+                       <lb n="C2"/><gap reason="lost" quantity="8" unit="character"/> Āṇḍi <gap reason="lost" quantity="1" unit="character"/>
+                       <lb n="C3"/><gap reason="lost" quantity="7" unit="character"/>ṅ· dau saṅ gol· pra<gap reason="lost" quantity="1" unit="character"/>
+                       <lb n="C4"/><gap reason="lost" quantity="4" unit="character"/> vna[ṁ] t[i] chok· veṅ· nu sre <gap reason="lost" quantity="2" unit="character"/>
+                       <lb n="C5"/><gap reason="lost" quantity="2" unit="character"/> ta vāp· sadāśiva nu kule <gap reason="lost" quantity="2" unit="character"/>
+                       <lb n="C6"/><gap reason="lost" quantity="1" unit="character"/> va siddhi lvaḥ mahāsaṅhāra <g type="dotMid">.</g> 92X
+                       <lb n="C7"/>nu vāp· sa vāda <g type="dotMid">.</g> sruk· chok· veṅ· <gap reason="lost" quantity="1" unit="character"/>
+                       <lb n="C8"/><gap reason="lost" quantity="2" unit="character"/> vyavahāra cuḥ vraḥ Ālakṣaṇa ta
+                       <lb n="C9"/>kaṁsteṅ[[·]] kavīśvaravarmma samayuga nu mra-
+                       <lb n="C10"/>[tā]ñ· khloñ· gunadoṣa vraḥ sabhā pho[ṅ·]
+                       <lb n="C11"/>pre ṇirnaiya vāp· sa ta phqvan· <gap reason="lost" quantity="1" unit="character"/>
+                       <lb n="C12"/><gap reason="lost" quantity="1" unit="character"/>āja pādahāstaccheda pre kule
+                       <lb n="C13"/>phoṅ(·) thve kālpaṇā ru ta tel(·)
+                       <lb n="C14"/>924 śaka nu mān· vraḥ karuṇā ta pa-
+                       <lb n="C15"/>ramapavitra pi pre khloñ· vala khloñ· saṁta-
+                       <lb n="C16"/>p· śuddhānta nu pratihārapāla nā Eka dau
+                       <lb n="C17"/>saṅ[[·]] praśasta ta sruk· chok· veṅ· O-
+                       <lb n="C18"/>y· ta vāp· śaṅkarātmā nu vāp· sadāśiva
+                       <lb n="C19"/>siddhi tarāp· candrāditya mān· ley(·)
+                       <lb n="C20"/>928 śaka nu vāp· sadāśiva sanme
+                       <lb n="C21"/>ni nu teṅ tvan· ta janaṇīya pi O-
+                       <lb n="C22"/>y· daṁnap· laṅloṅ veṅ· mvay· toy· ka-
+                       <lb n="C23"/>roṁ phoṅ· jā parigraha ta kvan· vāp· sa-
+                       <lb n="C24"/>dāśiva ta jmah· tāñ(·) vrahma nu tāñ· Umā
+                       <lb n="C25"/><gap reason="lost" quantity="1" unit="character"/> ka pi Oy· kālpanā sru thlvaṅ· 2 nu
+                       <lb n="C26"/>vraḥ paryyaṅ· qnau vnaṁ ti jā yajña cat[ura]-
+                       <lb n="C27"/>māsa qyat(·) cañcula tadai ti <g type="circleSmall">.</g> dravya ti du-
+                       <lb n="C28"/>[ñ·] bhūmi vnaṁ ti chok· veṅ· laṅloṅ veṅ· sre
+                       <lb n="C29"/>snaṅ· mās· liṅ· 3 vaudi 2 padigaḥ 4
+                       <lb n="C30"/>[s]vok· 3 krapi 6 poṅ· I rdd[e]ḥ jeṅ· I sray[ū]
+                       <lb n="C31"/>[vnā]t· 3 kryav· 3 thmur· 10 6 vave 2 sr<gap reason="lost" quantity="1" unit="character"/>
+                       <lb n="C32"/><gap reason="lost" quantity="1" unit="character"/> 2 canlyak· yau 10 5 prāk· liṅ· <gap reason="lost" quantity="1" unit="character"/>
+                       <lb n="C33"/><gap reason="lost" quantity="1" unit="character"/> 10
+                    </p>
+                   <p><milestone type="pagelike" unit="item" n="d"/><label xml:lang="eng">Face</label>
+                      <lb n="d1"/>prāk· <gap reason="lost" quantity="10" unit="character"/>
+                       <lb n="d2"/>8 laṅgau s<gap reason="lost" quantity="8" unit="character"/>
+                       <lb n="d3"/>ṅ· 2 srayu vnāt· 2 <gap reason="lost" quantity="5" unit="character"/>
+                       <lb n="d4"/>4 khdyac· 2 jmol· parat· <gap reason="lost" quantity="4" unit="character"/>
+                       <lb n="d5"/>n· 2 canlyak· yau 6 hāli <gap reason="lost" quantity="2" unit="character"/>
+                       <lb n="d6"/><gap reason="lost" quantity="1" unit="character"/> vave 2 canmāt· 2 kañje chnāṅ· <gap reason="lost" quantity="1" unit="character"/>
+                       <lb n="d7"/><gap reason="lost" quantity="1" unit="character"/> 2 sru 10 4 <g type="circleTarget">.</g> dravya ti duñ· bhūmi
+                       <lb n="d8"/><gap reason="lost" quantity="1" unit="character"/> vrai trapek· mās· liṅ· I vaudi <gap reason="lost" quantity="1" unit="character"/>
+                       <lb n="d9"/>padigaḥ 2 kadāha 2 <g type="circleSmall">.</g>
+                       <lb n="d10"/>phsam· kalpanā phley· <gap reason="lost" quantity="3" unit="character"/>
+                       <lb n="d11"/>40 10 6 kadāha I <g type="circleSmall">.</g> velā nu dār· <gap reason="lost" quantity="2" unit="character"/>
+                       <lb n="d12"/>neḥha dār· nu dāl· ta pañca <gap reason="lost" quantity="3" unit="character"/>
+                       <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="d13"/><g type="spiralR">.</g> ye ha[[ra]]nti dhanaṁ tasya</l>
+<l n="b"><lb n="d14"/>sadā te narakaṁ yayuḥ</l>
+<l n="c"><lb n="d15"/>ye ke cid vardhayantīha</l>
+<l n="d"><lb n="d16"/>svārggaṁ nityaṁ vasanti te <g type="ddandaOrnate">.</g></l>
+</lg>
+                    </p>
+                </div>
+<!--<div type="apparatus">
+               <listApp>
+<app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1937-1966_01"></rdg>
+                     </app>
+                  </listApp>         
+         </div> -->
+        <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+           <p n="b1">(Ici est) inscrite la délimitation de toutes les terres du pays de ...</p>
+           <p n="b2-b8">En 877 śaka, le petit-fils de Tāñ Steñ ...ndralakṣmī, nommé Vāp Śaṅkarātmā, ...rāma, Vāp Śrī, page ... parents utérins, ensemble, achetèrent une terre à Vāp Vrau et aux parents de Vāp ... appeler pour fonder le village de Vrahma ... fourniture de x thlvaṅ de riz décortiqué.</p>
+           <p n="b9-b13">(Limites de la terre).</p>
+           <p n="b14-b17">En 877 śaka, Vāp Śaṅkarātmā ... acheta une terre à Vāp Avan ... Vnur Bhatdrā, pour fonder le village de Vrai Trapek : "forêt des goyaviers", instituer une fourniture de riz décortiqué, x bassines ...</p>
+           <p n="b18-b21">(Limites de la terre).</p>
+           <p n="b22-b25">En ... śaka, Vāp Śaṅkarātmā et ... achetèrent une terre à Vāp ... fonder les villages de Vnaṁ Ti ("colline de terre"), Chok Veṅ ... fourniture de 4 thlvaṅ de riz décortiqué.</p>
+           <p n="b25-b28">(Limites de la terre).</p>
+           <p n="b28-c6">... Vāp Śaṅkarātmā et son frère cadet ... toutes les redevances instituées pour ces quatre villages ... Steṅ Añ .. pour demander respectueusement à Sa Majesté qui est allée à ... loka ... que ces redevances aillent à K.J. Liṅgapura ... ; aller planler les bornes ... ; Vnaṁ Ti, Chok Veṅ et la rizière ... à Vāp Sadāśiva et à ses parents ... avec droit exclusif jusqu'à la fin des temps.</p>
+           <p n="c6-c13">En 92x śaka Vāp Sa porta plainte ... le pays de Chok Veṅ ... un procès. Une missive royale (adressée à) Kaṁsteṅ Kavīśvaravarman, ainsi qu'au Mratāñ Khloñ, inspecteur des qualités et des défauts, et à la Cour, ordonna de condamner Vāp Sa, frère cadet de ... à avoir les pieds et les mains coupés, et ordonna à sa famille de fournir les redevances comme par le passé.</p>
+           <p n="c14-c19">En 924 śaka, Sa Majesté daigna charger le chef de population, chef des auditeurs du gynécée et gardien de porte de première catégorie, d'aller placer un acte écrit au pays de Chok Veṅ, et de donner (ce pays) à Vāp Śaṅkarātmā et à Vāp Sadāśiva, avec droit exclusif, aussi longtemps que dureront le soleil et la lune.</p>
+           <p n="c20-c27">En 928 śaka, Vāp Sadāśiva s'associa à la Teṅ Tvan sa mère pour donner la possession (parigraha) d'un barrage à Laṅloṅ Veṅ, avec ses terres basses, aux filles de Vāp Sadāśiva nommées Tāñ Brahma et Tāñ Umā ... pour servir une redevance de 2 thlvaṅ de paddy et de l'huile dans Vnaṁ Ti, pour les sacrifices des quatre mois, à l'exclusion d'autres fournitures de ricin.</p>
+           <p n="c27-c33">Biens au prix desquels ont été acquises les terres de Vnaṁ Ti, Chok Veṅ, Laṅloṅ Veṅ et la rizière Snaṅ :
+3 liṅ d'or, 2 vaudi, 4 crachoirs, 3 plateaux, 6 bumes, 1 poṅ, 1 charrette à pieds, 3 srayu vnāt, 3 châtrés, 16 vaches, 2 chèvres, ... 15 yau de vêtements, x lin d'argent, 10 ....</p>
+           <p n="d1-d7">... argent, .... , 8 ... , cuivre, .... 2 srayu vnāt, ..., 4 ..., 2 khdyac, x mâles coureurs, 2 ..., 6 yau de vêtements, ... 2 chèvres, 2 canmāt , x paniers marmite , 2 ..., 14 mesures de paddy.</p>
+           <p n="d7-d9">Biens au prix desquels ont été acquises les terres de ... et Vrai Trapek :
+1 liṅ d'or, x vaudi, 2 crachoirs, 2 bassines.</p>
+           <p n="d10-d12">Total des redevances ... 56 (mesures de paddy?), 1 bassine. Temps pendant lequel elles sont exigibles : elles sont exigibles jusqu'aux cinq ...</p>
+           <p rend="stanza" n="1">Que ceux qui prennent les biens de ce (temple) aillent en enfer à jamais! Que ceux qui font prospérer cette fondation résident au ciel pour l'éternité!</p>
+        </div>
+    <div type="commentary">
+          <p>At the top of the face A, five syllables, <foreign>namaś śivāya</foreign> can be read.</p>
+       </div> 
+         <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1953_01"/><citedRange unit="page">212-215</citedRange></bibl>) with a French translation.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">212-215</citedRange>
+    </bibl>
+	</listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
