@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjambs from Prasat Neak Buos (K. 342), 930 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00342</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE. 
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-11-22" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p><milestone type="pagelike" unit="item" n="W"/><label xml:lang="eng">Western Doorjamb</label>
+                      <lb n="W1"/>cāra roha Iṣṭi keta
+                      <lb n="W2"/><num value="930"></num> śaka mvāy· ket· karttika candravāra nu kaṁsteṅ· śrīkavīśvaravarmma sabhāpati thvāy· vraḥ śivi-
+                      <lb n="W3"/>kā mvāy· vat· mās· vyara sandāl· mvāy<unclear>·</unclear> suvarṇṇakalaśa mvāy<unclear>·</unclear> khlas· hanira caṁdoṅ· mukha vas· mvā-
+                      <lb n="W4"/>y<unclear>·</unclear> bhūmi travāṅ jmaḥ sajjanatatāka caṁnat<unclear>·</unclear> jmaḥ Udayāspada <g type="dotMid">.</g> khñuṁ <g type="dotMid">.</g> caṁnāṁ <g type="dotMid">.</g> bhūmi rājyaprasāda <g type="dotMid">.</g> ta dhūli
+                      <lb n="W5"/>vraḥ pāda kamrateṅ· Añ<unclear>·</unclear> śrīsūryyavarmmadeva dhūli vraḥ pāda kamrateṅ· Añ<unclear>·</unclear> śrīsūryyavarmmadeva
+                      <lb n="W6"/><gap reason="lost" quantity="4" unit="character"/> nu vraḥ Udakāñjali Abhigamana ta devatākṣetra jvan· taṅvāy· neḥ dau <g type="circleSmall">.</g> ta dau śiva
+                      <lb n="W7"/>pāda pūrvva <unclear><g type="circleSmall">.</g></unclear> vraḥ śivikā mvāy· <g type="circleSmall">.</g> vat mās· mvāy· ṅan· jyaṅ· vyara <g type="circleSmall">.</g> suvarṇṇakalaśa ṅan jyaṅ· mvāy<unclear>·</unclear> <g type="circleSmall">.</g>
+                      <lb n="W8"/><gap reason="lost" quantity="2" unit="character"/> prāk<unclear>·</unclear> mvāy<unclear>·</unclear> ṅan<unclear>·</unclear> tul· mvāy<unclear>·</unclear> <g type="dotMid">.</g> khlas· hanira caṁdoṅ· mukha vas· mvāy· ṅan· jyaṅ· prām<unclear>·</unclear> <g type="circleSmall">.</g> bhūmi rājaprasāda nu
+                      <lb n="W9"/><gap reason="lost" quantity="3" unit="character"/> khloñ· qnak· <g type="circleSmall">.</g> nu khñuṁ gi vā mvāy<unclear>·</unclear> tai vyara <g type="circleSmall">.</g> gi ta vali vraḥ śivikā <g type="circleSmall">.</g> nu raṅko thlvaṅ prām<unclear>·</unclear> prati-
+                      <lb n="W10"/>saṁvatsara <g type="circleSmall">.</g> travāṅ· Āy· śivapāda mvāy· khñuṁ caṁnat· dmuk· thniṁ smev· vraḥ candraśāla paṁmre nu
+                      <lb n="W11"/><gap reason="lost" quantity="4" unit="character"/> prām· <g type="circleSmall">.</g> caṁnāṁ raṅko je mvāy<unclear>·</unclear> pratidina <g type="circleSmall">.</g> liḥ prām· cuḥ ta vraḥ vīrāśrama <g type="dotMid">.</g>
+                      <lb n="W12"/>sñak· daṁnuk· prām· saṁlo vnek· prām· <g type="circleSmall">.</g> paṁprā khāl· mimvāy· sñak· noḥ <g type="dotMid">.</g> qnak· mvāy·
+                      <lb n="W13"/>gi ta pradhāna ta gi kalpanā <g type="circleSmall">.</g> gi neḥ nā Āyattva daṁnepra gi caṁnatta gi ta Aṅgās· vraḥ paṁ-
+                      <lb n="W14"/>nvas<unclear>·</unclear> ryyan· ta vraḥ vīrāśrama <g type="circleSmall">.</g> lo nāgapātra mvāy<unclear>·</unclear> <g type="circleSmall">.</g> lo jaroy· siṅha vyar <g type="dotMid">.</g> nu
+                      <lb n="W15"/><gap reason="lost" quantity="2" unit="character"/> Upāya noḥ daṁnepra mayūrachātra <g type="circleSmall">.</g> neḥ dau śivapāda <g type="circleSmall">.</g> ta dau liṅgapura vat·
+                      <lb n="W16"/>mās· mvāy<unclear>·</unclear> ṅan<unclear>·</unclear> jyaṅ· vyara ta dau <g type="dotMid">.</g> ta dau ta kanloṅ· kamrateṅ· Añ<unclear>·</unclear> Aṅve danle <g type="circleSmall">.</g>
+                      <lb n="W17"/><gap reason="lost" quantity="3" unit="character"/> vātala dramvaṅ<supplied reason="omitted">·</supplied> mvāy<unclear>·</unclear> ṅan<unclear>·</unclear> jyaṅ· mvāy· liṅ· tappa praṁpiya <g type="circleSmall">.</g> gi roḥha vraḥ varaśā-
+                      <lb n="W18"/>pa nau qnak ta paripālana dharmma neḥ pi Oy· kalpanā <g type="dotMid">.</g> svey· vimāna nu santāna Issa kalpa ke-
+                      <lb n="W19"/><supplied reason="lost">t·</supplied> <gap reason="lost" quantity="2" unit="character"/> <g type="dotMid">.</g> nau ta lappa kalpanā neḥ dau ta naraka yāvat· vraḥ candrāditya mān<unclear>·</unclear> ley<unclear>·</unclear> <g type="circleSmall">.</g> nau ruv<unclear>·</unclear>
+                      <lb n="W20"/>Ācāryya ta ti kamrateṅ· phdai <supplied reason="lost">karoṁ</supplied> ta yo <gap reason="lost" quantity="6" unit="character"/> leṅ· phoṅ· <g type="circleSmall">.</g> noḥ gi nā ka-
+                      <lb n="W21"/>mrateṅ· phdai karoṁ pradvan<unclear>·</unclear> <gap reason="lost" quantity="2" unit="character"/> dharmma neḥ <gap reason="lost" quantity="7" unit="character"/> laja <g type="circleSmall">.</g>
+                   </p>
+                    <p><milestone type="pagelike" unit="item" n="E"/><label xml:lang="eng">Eastern Doorjamb</label>
+                      <lb n="E1"/><gap reason="lost" extent="unknown" unit="character"/> pandval· ta sabhā<gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="E2"/><gap reason="lost" extent="unknown" unit="character"/> ta Oy<unclear>·</unclear> viṅ· <g type="circleSmall">.</g> man<unclear>·</unclear> vā noḥ cat· vyavahāra pi rat<unclear>·</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="E3"/>Oy· ta paṁnvas· ta jmaḥh<unclear>·</unclear> <g type="circleSmall">.</g> pre cāp· vā noḥ <gap reason="lost" quantity="4" unit="character"/> vraḥ śāsana <gap reason="lost" quantity="4" unit="character"/>
+                      <lb n="E4"/>pre cār<unclear>·</unclear>
+                      <lb n="E5"/><num value="937">937</num> Ekādaśī roc<unclear>·</unclear> mārgaśira vrahaspativāra nu dhūli vraḥ pāda <supplied reason="lost">dhūli jeṅ· kamrateṅ· kaṁtvan· Añ· śrī</supplied>
+                      <lb n="E6"/>sūryyavarmmadeva pandval· ta vraḥ kaṁmrateṅ· Añ<unclear>·</unclear> śrīkavīśvarapaṇḍita <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="E7"/><gap reason="illegible"/>
+                      <lb n="E8"/><gap reason="lost" extent="unknown" unit="character"/> vraḥ śilāstambha <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="E9"/><gap reason="lost" extent="unknown" unit="character"/> vraḥ kamrateṅ· Añ· <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="E10"/><gap reason="lost" extent="unknown" unit="character"/> śrīkavīśvarapaṇḍita <gap reason="lost" extent="unknown" unit="character"/>
+                       <lb n="E11"/><gap reason="illegible"/>
+                      <lb n="E12"/><gap reason="illegible"/>
+                      <lb n="E13"/><gap reason="illegible"/>
+                      <lb n="E14"/><gap reason="illegible"/>
+                      <lb n="E15"/><gap reason="illegible"/>
+                      <lb n="E16"/><gap reason="illegible"/>
+                      <lb n="E17"/><gap reason="illegible"/>
+                      <lb n="E18"/><gap reason="illegible"/>
+                      <lb n="E19"/><gap reason="illegible"/>
+                      <lb n="E20"/><gap reason="illegible"/>
+                       <lb n="E21"/><gap reason="illegible"/>
+                      <lb n="E22"/><gap reason="illegible"/>
+                      <lb n="E23"/><gap reason="illegible"/>
+                      <lb n="E24"/><gap reason="illegible"/>
+                      <lb n="E25"/><gap reason="illegible"/>
+                      <lb n="E26"/><gap reason="illegible"/>
+                      <lb n="E27"/><gap reason="illegible"/>
+                      <lb n="E28"/><gap reason="illegible"/>
+                      <lb n="E29"/><gap reason="illegible"/>
+                      <lb n="E30"/><gap reason="illegible"/>
+                       <lb n="E31"/><gap reason="illegible"/>
+                      <lb n="E32"/><gap reason="illegible"/>
+                      <lb n="E33"/><gap reason="illegible"/>
+                      <lb n="E34"/><gap reason="illegible"/>
+                      <lb n="E35"/><gap reason="illegible"/>
+                      <lb n="E36"/><gap reason="illegible"/>
+                      <lb n="E37"/><gap reason="illegible"/>
+                      <lb n="E38"/><gap reason="illegible"/>
+                      <lb n="E39"/><gap reason="illegible"/>
+                      <lb n="E40"/><gap reason="illegible"/>
+                       <lb n="E41"/><gap reason="illegible"/>
+                      <lb n="E42"/><gap reason="illegible"/>
+                      <lb n="E43"/><gap reason="illegible"/>
+                      <lb n="E44"/><gap reason="illegible"/>
+                      <lb n="E45"/><gap reason="illegible"/>
+                      <lb n="E46"/><gap reason="illegible"/>
+                      <lb n="E47"/><gap reason="lost" extent="unknown" unit="character"/> kamrateṅ jagat <g type="dotMid">.</g> ta vraḥ Anrāy liḥ prām
+                      <lb n="E48"/><gap reason="lost" extent="unknown" unit="character"/> vraḥ sabhā nagara nu vraḥ sabhā śivapāda nu pratihāra pā<gap reason="lost" quantity="1" unit="character"/>
+                      <lb n="E49"/><gap reason="lost" quantity="4" unit="character"/> Oy vraḥ karuṇā prasāda ta Añ <g type="dotMid">.</g> Añ Oy ta kvan qnak khloñ Añ
+                      <lb n="E50"/><gap reason="lost" quantity="2" unit="character"/> paripālana nu caṁnāṁ neḥ
+                    </p>
+                </div>
+<!--<div type="apparatus">
+               <listApp>
+<app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1937-1966_01"></rdg>
+                     </app>
+                  </listApp>         
+         </div> -->
+        <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+           <p n="W1">Gravé conformément au désir de réussir.</p>
+           <p n="W2-W6">En 930 śaka, premier jour de la lune croissante de Karttika, lundi, Kaṁsteṅ Śrī Kavīśvaravarman, président de Cour, a offert un pavois (śivika) d'or, deux vat d'or, 1 sandāl, 1 flacon d'or, 1 khlas en hanira à camdoṅ à face de serpent, une terre avec une pièce d'eau nommée Sajjanataṭāka, un établissement nommé Udayāspada, des esclaves, des fournitures, la terre obtenue de la faveur royale, à S.M. Śrī Sūryavarmadeva. S.M. Śrī Sūryavarmadeva ... les mains réunies en coupe et pleines d'eau, visitant les temples, a offert (ces) présents comme suit :</p>
+           <p n="W6-W15">A Śivapada oriental : 1 pavois, 1 vat d'or pesant 2 jyaṅ, 1 flacon d'or pesant 1 jyaṅ, 1 ... d'argent pesant 1 tul, 1 khlas en hanira caṁdoṅ à face de serpent pesant cinq jyaṅ, la terre obtenue de la faveur royale .... chef des gens, des esclaves, à savoir un
+homme et deux femmes, porteurs du pavois, 5 thlvaṅ de riz décortiqué par an, 1 pièce d'eau à Śivapāda, des esclaves de l'établissement, gardiens des ornements, intendants (smev) de Vraḥ Candraśāla, serviteurs et ... au nombre de cinq, une fourniture de 1 je
+de riz décortiqué par jour, (dont) 5 liḥ descendent au Vraḥ Vīrāśrama, 5 liasses de sñak, 5 cuillerées de ragout, ... 1 bol pour chacun de ces sñak, 1 personne présidant au service des fournitures, celle-ci ayant autorité sur l'établissement et autres et qui nourrissent les saints religieux étudiant dans le Vraḥ Vīrāśrama, 1 lo à récipient (en forme) de nāga, 2 lo à pointe (en forme) de Lion, et ... les accessoires à commencer par un parasol en plume de paon. Cela pour Śivapāda.</p>
+           <p n="W15-W16">A Liṅgapura : 1 vat d'or pesant 2 jyaṅ.</p>
+           <p n="W16-W17">A Kanloṅ K.A. Aṅve Danle : 1 ... dramvaṅ pesant 1 jyaṅ, 18 liḥ.</p>
+           <p n="W17-W21">Voici la sainte imprécation :
+Ceux qui conserveront cette fondation pour assurer le service des fournitures, jouiront d'un palais céleste avec leur familles (jusqu'à la fin du) kalpa et renaîtront. Ceux qui détruiront cette fondation iront en enfer aussi longtemps que dureront le soleil et la lune. Les ācārya que les rois ... , ceux-là les rois à venir ... cette fondation pieuse ...</p>
+           <p n="E1-E4">... ordonner à la Cour ...... rendre. Celui-là a intenté un procès et s'est enfui ... donner aux religieux nommés ; ordonner d'attraper celui-là ... une ordonnance royale ... donner l'ordre d'inscrire.</p>
+           <p n="E5-E10">En 937 (śaka), onzième jour de la lune décroissante de Mārgaśira, jeudi, S.M. Sūryavarmadeva ordonna à V.K.A. Śrī Kavīśvarapaṇḍita ... stèle de pierre ... V.K.A. Śrī Kavīśvarapaṇḍita ...</p>
+           <p n="E11-E46"><gap reason="lost"/></p>
+           <p n="E47-E50">... la Sainte Cour de la capitale, la Sainte Cour de Śivapāda, et les portes ... (ce que Sa Majesté) a daigné m'offrir, je le donne aux enfants de mes anak khloñ ... conserver cette fondation.</p>
+        </div>
+    <div type="commentary">
+          <p>The lines E47-E50 are illegible on the estampage; the punctuation "dotMid" are hypothetic.</p>
+       </div> 
+         <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">236-239</citedRange></bibl>) with a French translation.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">236-239</citedRange>
+    </bibl>
+	</listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
