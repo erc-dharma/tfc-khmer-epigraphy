@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjambs from Prasat Toap Siem (K. 234), 929 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00234</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE. 
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-11-26" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p><milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label>
+                      <lb n="S1"/>siddhi svasti
+                      </p>
+                   <lg n="1" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="S2"/>śivo jayaty unmanayaika-dhāmā<space/></l>
+<l n="b">tad-ekavad yaś śikhayeva vahniḥ</l>
+<l n="c"><lb n="S3"/>manāsthito 'neka ivormmi-māli<space/></l>
+<l n="d">kallolacancadvidhuvimvatulyaḥ <unclear><g type="ddandaOrnate">.</g></unclear></l>
+</lg>
+                   <lg n="2" met="indravajrā" xml:lang="san-Latn">
+<l n="a"><lb n="S4"/>yaj jājvalīti jvalana-kṣamāmbho<space/></l>
+<l n="b">bhāsvanna-bhasvan-mr̥gavan-nabhassu</l>
+<l n="c"><lb n="S5"/>jyotis tad uccaiś-śaśi-śekharasya <space/></l>
+<l n="d">liṅgībhavad bhāti vibhūtikr̥d vaḥ <unclear><g type="ddandaOrnate">.</g></unclear></l>
+</lg>
+                   <lg n="3" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="S6"/>jitaṁ hareṇeva nijāmaratvā<space/>t</l>
+<l n="b">pradarśayan mr̥tyu-jiti sva-dehe</l>
+<l n="c"><lb n="S7"/>yaḥ kālakūtān tad-anūna-śaktiṁ <space/></l>
+<l n="d">pītvā surān pāyayatīddha-somam· <unclear><g type="ddandaOrnate">.</g></unclear></l>
+</lg>
+                   <lg n="4" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="S8"/>smarāri-devyā vijitaṁ smarasya <space/></l>
+<l n="b">vikr̥ṣṭa-cāpasya śarais sahāṅge</l>
+<l n="c"><lb n="S9"/>bhasmīkr̥te yā svakr̥te ruṣeva <space/></l>
+<l n="d">smarābhidheyaṁ kurute smarāri<unclear>m· <g type="ddandaOrnate">.</g></unclear></l>
+</lg>
+                   <lg n="5" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="S10"/>Āsīd avakrakrama-maṇḍala-rddhi<space/></l>
+<l n="b">jyotiṣmad ā dyāṁs tamasāṁ vipakṣaḥ</l>
+<l n="c"><lb n="S11"/>śrīsūryyavarmmā bhuvanāmvuja-śrī<space/></l>
+<l n="d">sūryyaś catur-ddo-nava-mānavendraḥ <unclear><g type="ddandaOrnate">.</g></unclear></l>
+</lg>
+                   <lg n="6" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="S12"/>tri-netra-netra-traya-sadma-bhājo <space/></l>
+<l n="b">bhītyeva bhāsvad-vidhu-havyavāhāḥ</l>
+<l n="c"><lb n="S13"/>tejasvi-tejojayi vīkṣya teja<space/>s</l>
+<l n="d">tri-netra-cintāhr̥dayasya yasya <unclear><g type="ddandaOrnate">.</g></unclear></l>
+</lg>
+                   <lg n="7" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="S14"/>vidyāvadātā vadanendu-vimve <space/></l>
+<l n="b">rasāmr̥tair yyasya satāṁ kr̥teṣṭīḥ</l>
+<l n="c"><lb n="S15"/>kīrtyāṁ sapatnyām api dig-drutāyāṁ <space/></l>
+<l n="d">śuceva lakṣmyā vihitādarābhūt· <unclear><g type="ddandaOrnate">.</g></unclear></l>
+</lg>
+                   <lg n="8" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="S16"/>kāle harir vvarṣati vāryy asaṅkhyaṁ <space/></l>
+<l n="b">gatāgataṁ vānagaṇañ ca jiṣṇuḥ</l>
+<l n="c"><lb n="S17"/>Itīva śaśvad vahu-vr̥ṣty atīta<space/>m</l>
+<l n="d">anāgataṁ varṣati yo 'grya-dānam· <unclear><g type="ddandaOrnate">.</g></unclear></l>
+</lg>
+                   <lg n="9" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="S18"/>vidyānvavāya-pramukhair vviśeṣai<space/>r</l>
+<l n="b">udyātsmayair apy akr̥ta-smayoktiḥ</l>
+<l n="c"><lb n="S19"/>tat-sac-caraś śrīsamarādināma <space/></l>
+<l n="d">savīravarmmāntam uvāha vīraḥ <unclear><g type="ddandaOrnate">.</g></unclear></l>
+</lg>
+                   <lg n="10" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="S20"/>suvarṇna-tārācita-kāṇda-khaṇdā <space/></l>
+<l n="b">doloragāsyā vahu-bhoga-yogyā</l>
+<l n="c"><lb n="S21"/>nr̥pa-prasādāt kila yena lavdhā <space/></l>
+<l n="d">vinīta-bhūṣākr̥ta-maṇdanena <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="11" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="S22"/>tasyāgrajaś śrīdharaṇīndra-pūrvvaṁ <space/></l>
+<l n="b">parākramāntañ ca vibhartti nāma</l>
+<l n="c"><lb n="S23"/>śrīvīravarmmāpy anujas tayor yyo <space/></l>
+<l n="d">yodhāgraṇīr vvairi-mr̥ge mr̥gendraḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="12" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="S24"/>teṣān trayāṇāṁ bhaginī-suto yo <space/></l>
+<l n="b">nr̥pendra-mukhyo vinayānavadyaḥ</l>
+<l n="c"><lb n="S25"/>śrīmannr̥pendrādi sa vallabhāntaṁ <space/></l>
+<l n="d">nāmārtha-yuktaṁ samavāpa vāggmī <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="13" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="S26"/>te sthāpayām āsur ajeśa-liṅgaṁ <space/></l>
+<l n="b">śambhoś ca devyāḥ pratime vidhānāt<unclear>·</unclear></l>
+<l n="c"><lb n="S27"/>dvāra-dvi-raṇdhrair dharaṇī-dhare 'smin· <space/></l>
+<l n="d">mr̥t-saṁjñake bhūdha-rarājadatte <g type="ddandaOrnate">.</g></l>
+</lg>
+                    <p><milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label>
+                      <lb n="N1"/><gap reason="lost" quantity="9" unit="character"/> <supplied reason="lost">tai</supplied> kaṁvrau nu kvan· cau phoṅ<unclear>·</unclear> tai bhadra
+                       <lb n="N2"/><gap reason="lost" quantity="9" unit="character"/> tai kandes· nu kvan· cau tai paṁ<gap reason="lost" quantity="3" unit="character"/>
+                       <lb n="N3"/><gap reason="lost" quantity="9" unit="character"/> tai kaṁpit<unclear>·</unclear> nu kvan<unclear>·</unclear> cau tai thqyak· <gap reason="lost" quantity="2" unit="character"/>
+                       <lb n="N4"/><gap reason="lost" quantity="6" unit="character"/> <supplied reason="lost">nu kvan·</supplied> cau tai kaṁvrau sot· nu kvan<unclear>·</unclear> cau <gap reason="lost" quantity="2" unit="character"/>
+                       <lb n="N5"/><gap reason="lost" quantity="10" unit="character"/> nu kvan· cau tai śreṣṭhi nu kvan<unclear>·</unclear> cau <gap reason="lost" quantity="1" unit="character"/>
+                       <lb n="N6"/>tai jīva nu kvan<unclear>·</unclear> cau tai vrāma nu kvan· cau tai <gap reason="lost" quantity="1" unit="character"/> nu kvan<unclear>·</unclear> cau <gap reason="lost" quantity="2" unit="character"/>
+                       <lb n="N7"/><supplied reason="lost">nu kvan·</supplied> cau tai kansān· nu kvan· cau tai kans<gap reason="lost" quantity="1" unit="character"/> nu <supplied reason="lost">kvan· cau</supplied> <gap reason="lost" quantity="2" unit="character"/>
+                       <lb n="N8"/><gap reason="lost" quantity="4" unit="character"/> nu kvan<unclear>·</unclear> cau tai kañjān· nu kvan<unclear>·</unclear> cau tai kaṁ<gap reason="lost" quantity="3" unit="character"/>
+                       <lb n="N9"/><gap reason="lost" quantity="3" unit="character"/> tai kanso nu kvan· cau tai kanso sot· nu kvan· cau tai <gap reason="lost" quantity="1" unit="character"/>
+                       <lb n="N10"/><gap reason="lost" quantity="1" unit="character"/> kvan<unclear>·</unclear> cau tai mān<unclear>·</unclear> bhāgya nu kvan· cau tai kañju sot· nu kvan<unclear>·</unclear>
+                       <lb n="N11"/>cau <supplied reason="lost">tai</supplied> <gap reason="lost" quantity="2" unit="character"/> nu kvan<unclear>·</unclear> cau tai kañjes· nu kvan· cau gho kaṁpi<lb 
+                          n="N12" break="no"/><supplied reason="lost">t·</supplied> gho k<gap reason="lost" quantity="2" unit="character"/> gho varuṇa gho kaṁvai gho sthān· gho kaṁcon·
+                       <lb n="N13"/><supplied reason="lost">gho</supplied> <gap reason="lost" quantity="1" unit="character"/> pen<unclear>·</unclear> gho caṅkās· gho sarāgapuṇya gho kañyuk· gho sthī<lb 
+                          n="N14" break="no"/><supplied reason="lost">ra gho</supplied> paroṅ· gho bhaktiya gho vīra gho kaṁpit· sot<unclear>·</unclear> gho hr̥da<lb 
+                             n="N15" break="no"/>ya gho kaṁ<gap reason="lost" quantity="1" unit="character"/> rai gho Ārgha <g type="circleSmall">.</g> devadra<supplied reason="omitted">vya</supplied> cancyān<unclear>·</unclear> <num value="1"><g type="numeral">I</g></num> vudi padigaḥ bhāja<lb 
+                          n="N16" break="no"/>na <num value="4"><g type="numeral">4</g></num> prak<unclear>·</unclear> <num value="4"><g type="numeral">4</g></num> kri<add place="above">yā</add> Ārccaṇa phsaṁ janjyaṅ· <num value="3"><g type="numeral">III</g></num> vraḥ chāy· <num value="1"><g type="numeral">I</g></num> <g type="dotMid">.</g> vraḥ
+                       <lb n="N17"/>go <num value="158"><g type="numeral">100</g> <g type="numeral">40</g> <g type="numeral">10</g> <g type="numeral">8</g></num> krapi <num value="25"><g type="numeral">20</g> <g type="numeral">5</g></num> phsaṁ tai <num value="30"><g type="numeral">20</g> <g type="numeral">10</g></num> gho <num value="18"><g type="numeral">10</g> <g type="numeral">8</g></num> <g type="dotMid">.</g> bhūmi sruk·
+                       <lb n="N18"/>cvār mmo nay· vraḥ kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> śivaliṅga toy· purvva dau vap ta go<lb 
+                          n="N19" break="no"/>l· Āgneya dau vap ta gol· dakṣiṇa dau vap ta gol· nir̥tiya dau
+                       <lb n="N20"/>vap ta gol· paścima dau vap ta gol· vāyavya dau vap ta gol· Utta<lb 
+                          n="N21" break="no"/>ra dau vap ta gol· Īśāna dau vap ta gol· <g type="dotMid">.</g> bhūmi piṅ· khlā nai cvā<lb 
+                             n="N22" break="no"/>r mmo juṁma diśa ta <num value="8"><g type="numeral">8</g></num> vap ta gol· <g type="dotMid">.</g> <gap reason="illegible" extent="unknown" unit="character"/>
+                    </p>
+                </div>
+<div type="apparatus">
+               <listApp>
+<app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1954_02"></rdg>
+                     </app>
+                  </listApp>         
+         </div>
+        <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+           <p n="S1">Succès! Bonheur!</p>
+           <p rend="stanza" n="1">La victoire est à Śiva qui, cohabitant avec <gap reason="lost"/> ne fait qu'un avec elle, tel le feu avec la flamme, et qui se tenant dans les cœurs, est en quelque sorte multiple comme l'image de la lune scintillant sur la houle couronnée de vagues.</p>
+           <p rend="stanza" n="2">Brillant intensément dans le feu, la terre, l'eau, le soleil, le vent, la lune et l'éther, le feu de <supplied reason="subaudible">Śiva</supplied> qui porte la lune au sommet de son diadème, devenu le <foreign>liṅga</foreign>, resplendit en vous donnant la prospérité.</p>
+           <p rend="stanza" n="3">La victoire est à Hara qui, montrant le kalaküta dans son propre corps vainqueur de la mort grâce à sa propre condition d'immortel, et ayant bu lapleine force de ce <supplied reason="subaudible">poison</supplied>, fait boire aux Sura le soma brillant.</p>
+           <p rend="stanza" n="4">La victoire est à Devi <supplied reason="subaudible">épouse</supplied> de l'ennemi de Smara : lorsque, créé de lui-même, le corps de Smara, qui avait tendu son arc, eut été réduit en cendre avec ses flèches, elle a comme par colère fait que l'ennemi de Smara soit désigné par ce nom qui évoquait son souvenir.</p>
+           <p rend="stanza" n="5">Il y eut un soleil faisant prospérer son disque par sa marche droite jusqu'au ciel, ennemi de l'obscurité, Śrī Sūryavarman, soleil pour la fortune du lotus de la Terre, roi des hommes en neuf-deux-quatre <supplied reason="explanation">924</supplied>.</p>
+           <p rend="stanza" n="6">Ayant considéré l'éclat, vainqueur de l'éclat du soleil, de ce roi dont le cœur n'avait de soin que pour <supplied reason="subaudible">Śiva</supplied> aux trois yeux, le soleil, la lune et le feu, comme pris de peur, ont choisi pour résidence les trois yeux du dieu aux trois yeux.</p>
+           <p rend="stanza" n="7">Le respect de la science pure dans la lune de son visage, qui avait satisfait par l'ambroisie de son suc le désir des gens de bien, a été imposé par la Fortune même à sa rivale la Gloire qui, en quelque sorte à cause de son chagrin, s'était enfuie dans les orients.</p>
+           <p rend="stanza" n="8">"Selon l'époque, Hari fait tomber de la pluie en quantité innombrable, et Jiṣṇu fait tomber le faisceau de ses flèches de façon réitérée", c'est comme dans cette pensée qu'il fait pleuvoir sans cesse, dans le passé et dans le futur, la pluie abondante de ses dons précieux.</p>
+           <p rend="stanza" n="9">Il eut un bon agent <supplied reason="explanation"><foreign>cara</foreign></supplied> dont la parole ne provoquait pas d'arrogance, même chez les <supplied reason="subaudible">maîtres</supplied> distingués, les premiers dans la lignée des savants et enclins à l'arrogance, ce héros qui portait un nom commençant par Śrī Samara- et se terminant par -vīravarman.</p>
+           <p rend="stanza" n="10">Cet homme qui avait renoncé aux ornements et aux parures, reçut de la faveur royale un palanquin décoré de têtes de serpent et orné d'étoiles d'or sur les segments du fléau, accompagné de nombreuses richesses.</p>
+           <p rend="stanza" n="11">Son frère aîné porte un nom commençant par Śrī Dharaṇīndra- et se terminant par -parakrama ; leur cadet est Śrī Vīravarman, chef de guerriers, lion pour la gazelle ennemie.</p>
+           <p rend="stanza" n="12">Le fils de la sœur de ces trois hommes, dignitaire <supplied reason="explanation"><foreign>mukhya</foreign></supplied> du roi, d'une conduite irréprochable, éloquent, obtint un nom approprié commençant par Śrīman Nr̥pendra- et terminé par -vallabha.</p>
+           <p rend="stanza" n="13">Ils ont érigé suivant les rites un liṅga d'Īśa l'incréé et les images de Śambhu et de Devī, sur cette montagne nommée Mr̥t, donnée par le roi des rois <supplied reason="subaudible">dans l'année marquée</supplied> par les <supplied reason="subaudible">9</supplied> ouvertures, deux et les <supplied reason="subaudible">9</supplied> ouvertures.</p>
+           <p n="N1-N15"><supplied reason="explanation">Liste de <foreign>gho</foreign> et de <foreign>tai</foreign> avec leurs enfants.</supplied></p>
+           <p n="N15-N17">Biens des dieux : 1 bague; <foreign>vudi</foreign>, crachoir, 4 vases en argent ; nourriture cultuelle, total 3 <foreign>janjyaṅ</foreign>; 1 miroir ; 158 bœufs sacrés; 25 buffles ; total des <foreign>tai</foreign> 30, des <foreign>gho</foreign> 18.</p>
+           <p n="N17-N22">La terre du pays de Cvār Mo, appartenant à V.K.A. Śivaliṅga va à l'est jusqu'à une borne, au sud-est jusqu'à une borne, au sud jusqu'à une borne, au sud-ouest jusqu'à une borne, à l'ouest jusqu'à une borne, au nord-ouest jusqu'à une borne, au nord jusqu'à une borne, au nord-est jusqu'à une borne. La terre de Piṅ Khlā de Cvār Mo, tout autour dans les huit directions, touche à des bornes.</p>
+           </div>
+   <!--  <div type="commentary">
+          <p></p>
+       </div>  -->
+         <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">229-230, 232-235</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom from the estampage EFEO n. 1325.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">229-230, 232-235</citedRange>
+    </bibl>
+	</listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
