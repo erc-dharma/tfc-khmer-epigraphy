@@ -92,8 +92,8 @@
 |K.	85 |chch |pending |IC VII|
 |K.	86 |# |# |#|
 |K.	87 |kuch |pending |unpublished|
-|K.	88 |# |# |#|
-|K.	89 |# |# |#|
+|K.	88 |kuch |done |IC VII|
+|K.	89 |kuch |done |IC III|
 |K.	90 |kuch |done |IC V|
 |K.	91 |# |# |#|
 |K.	92 |# |# |#|
@@ -202,7 +202,7 @@
 |K.	193 |chch |pending |IC VI|
 |K.	194 |chch |pending |Cœdès et Dupont 1943|
 |K.	195 |chch |done |IC VI|
-|K.	196 |# |# |#|
+|K.	196 |kuch |done |IC VI|
 |K.	197 |# |# |#|
 |K.	198 |sapi |pending |IC VI|
 |K.	199 |# |# |#|
@@ -228,7 +228,7 @@
 |K.	217 |# |# |#|
 |K.	218 |# |# |#|
 |K.	219 |# |# |#|
-|K.	220 |# |# |#|
+|K.	220 |kuch |done |IC VI|
 |K.	221 |# |# |#|
 |K.	222 |# |# |#|
 |K.	223 |# |# |#|
@@ -247,7 +247,7 @@
 |K.	231 |chch |done |IC III|
 |K.	232 |# |# |#|
 |K.	233 |# |# |#|
-|K.	234 |# |# |#|
+|K.	234 |kuch |done |IC VI|
 |K.	235 |# |# |#|
 |K.	236 |# |# |#|
 |K.	237 |# |# |#|
@@ -417,7 +417,7 @@ K.	294 |# |# |#|
 |K.	340 |# |# |#|
 |K.	341-N |chch |done |IC VI|
 |K.	341-S |chch |done |IC VI|
-|K.	342 |# |# |#|
+|K.	342 |kuch |done |IC VI|
 |K.	343 |# |# |#|
 |K.	344 |# |# |#|
 |K.	345 |# |# |#|
@@ -816,10 +816,10 @@ K.	294 |# |# |#|
 |K.	714 |chch |pending |unpublished|
 |K.	715 |chch |done |NIC I|
 |K.	716 |chch |done |NIC I|
-|K.	717 |# |# |#|
+|K.	717 |kuch |done |IC I|
 |K.	718 |# |# |#|
 |K.	719 |kuch |done |IC VI|
-|K.	720 |# |# |#|
+|K.	720 |kuch |done |IC V|
 |K.	721 |# |# |#|
 |K.	722 |# |# |#|
 |K.	723 |chch |done |IC V|
@@ -918,7 +918,7 @@ K.	294 |# |# |#|
 |K.	814 |# |# |#|
 |K.	815 |chch |done |Clouet et al (forthc.)|
 |K.	816 |kuch |done |IC VI|
-|K.	817 |# |# |#|
+|K.	817 |kuch |done |IC V|
 |K.	818 |kuch |done |IC VI|
 |K.	819 |# |# |#|
 |K.	820 |argr |done |IC VII|
@@ -1074,7 +1074,7 @@ K.	294 |# |# |#|
 |K.	941 |# |# |#|
 |K.	942 |# |# |#|
 |K.	943 |kuch |done |unpublished|
-|K.	944 |# |# |#|
+|K.	944 |kuch |done |IC V|
 |K.	945 |# |# |#|
 |K.	946 |kuch |done |unpublished|
 |K.	947 |kuch |done |Soutif 2009|
@@ -1325,7 +1325,7 @@ K.	294 |# |# |#|
 |K.	1184 |# |# |#|
 |K.	1185 |# |# |#|
 |K.	1186 |# |# |#|
-|K.	1187 |# |# |#|
+|K.	1187 |kuch |done |unpublished|
 |K.	1188 |# |# |#|
 |K.	1189 |# |# |#|
 |K.	1190 |kuch |done |unpublished|
