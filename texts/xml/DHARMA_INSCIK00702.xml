@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Vat Prah Theat Tuk Cha (K. 702), 947 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00702</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE. 
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-12-08" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p><milestone type="pagelike" unit="item" n="A"/><label xml:lang="eng">Face</label>
+                      <lb n="A1"/>$gomutraInitial Oṁ namaś śivādibhyo gurubhyaḥ śrīsūryyavarmmadevasya sasaptaprakr̥timandalasyātyudayasiddhir astu $ddandaOrnate
+                   </p>
+                   <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A2"/><milestone unit="column" n="a"/>$circleTarget jitaṁ manojavijitā</l>
+<l n="b"><milestone unit="column" n="b"/>jyotir jyāyo nijañ jvalat·</l>
+<l n="c"><milestone unit="column" n="c"/>yasya durbhāvasadbhāva<milestone unit="column" n="d" break="no"/>m</l>
+<l n="d">adurbhāvam abhāvayat·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A3"/><milestone unit="column" n="a"/>vibhāty ambhojanābho yo</l>
+<l n="b"><milestone unit="column" n="b"/>nābhāv ambhojam adbhutam·</l>
+<l n="c"><milestone unit="column" n="c"/>sasarjjāmbhojajodbhūtiṁ</l>
+<l n="d"><milestone unit="column" n="d"/>svasr̥ṣṭijam ajaṁ vadan·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A4"/><milestone unit="column" n="a"/>Ajo jayati yo jāti<milestone unit="column" n="b" break="no"/>m</l>
+<l n="b">anyajātyurjjitan nijam·</l>
+<l n="c"><milestone unit="column" n="c"/>sādhayan sūnusaṁbhūtaṁ</l>
+<l n="d"><milestone unit="column" n="d"/>bhūteśaṁ samayācata<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A5"/><milestone unit="column" n="a"/>vande devīm umāṁ yasyā</l>
+<l n="b"><milestone unit="column" n="b"/>janayad vaktrapaṅkajam·</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>Āścaryyabhāvaṁ bhūteśa</l>
+<l n="d"><milestone unit="column" n="d"/>-śekharārddhendunā vabhau<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A6"/>vibhāti bhāratī yasyā<space/>ś</l>
+<l n="b">caraṇas sañcaran sadā<space/></l>
+<l n="c">vidvatsarāgalapane<space/></l>
+<l n="d">lalāsālaktakaṁ vinā<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="6" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A6"/>vijitaṁ ramayā yasyāḥ<space/></l>
+<l n="b">kari<lb n="A7"/>hemalaṭā vabhau<space/></l>
+<l n="c" enjamb="yes">vaikuṇṭhasya lasatkantha</l>
+<l n="d">-pāśaḥ kanthāvalamvinī<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="7" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">Āsīt śrīsūryyavarmmeti<space/></l>
+<l n="b">rājājāv ajito jayī<space/></l>
+<l n="c"><lb n="A8"/>sapakṣīndro dviṣaṭkṣemī</l>
+<l n="d">lakṣmībhr̥d iva lakṣmīśaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="8" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes">kṣatrasantānasaṁbhūta<space/></l>
+<l n="b">-śrīndravarmmamah[ī]bhr̥taḥ<space/></l>
+<l n="c">yo mātr̥vaṅśasaṁbhūta<space/>s</l>
+<l n="d">tila<lb n="A9"/>kaḥ kṣatrasantatau<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="9" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">jvalatas tejaso yasya<space/></l>
+<l n="b">vinā ced dhātur ājñayā<space/></l>
+<l n="c">cakāra nodayaṁ bhītyā<space/></l>
+<l n="d">vivasvān iti me matiḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="10" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A10"/>yaśaḥprāsādam uttuṅgaṁ<space/></l>
+<l n="b">sthāpayan raṇa - ⏑ -<space/></l>
+<l n="c">vairīndramakuṭañ chittvā<space/></l>
+<l n="d">khadgenādriṁ cakāra yaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="11" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">vavandha setum ekāvdhau</l>
+<l n="b"><lb n="A11"/>purā rāmaḥ prayatnavān·<space/></l>
+<l n="c">bhinnadviṣadvarāṅgas tv a<space/></l>
+<l n="d">yatno yaś caturamvudhau<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="12" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">sarvvato dagdhasarvvāri<space/></l>
+<l n="b">vanarāśis taronalaiḥ<space/></l>
+<l n="c">yo<lb n="A12"/>siñcad iva dāhena</l>
+<l n="d">sakalāśā yaśombhasā<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="13" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">vidāraṇakr̥te nūna<space/>m</l>
+<l n="b">anānatamahībhr̥tām·<space/></l>
+<l n="c">yasmai mainākarakṣārthaṁ<space/></l>
+<l n="d">gāmbhiryyam u<lb n="A13"/>dadhir dadau<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="14" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">dadāmānatapobhir yo<space/></l>
+<l n="b">ripūṇām = ⏑ - ⏑ -<space/></l>
+<l n="c">= = = = ⏑ ṇākīrṇna<space/></l>
+<l n="d">taraś śaṁbhojanān janān·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="15" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">dūre ripupure dūta<space/>s</l>
+<l n="b">tasya <lb n="A14"/> bhr̥tyo bhavad yutaḥ</l>
+<l n="c">yo vājivad dravan rājñā<space/></l>
+<l n="d">jaṅghāla = ⏑ - ⏑ -<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="16" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">vaṅśe pratītas[aṁ]śuddhe<space/></l>
+<l n="b">sañjāto jātavikramaḥ<space/></l>
+<l n="c">jātadharmmo<lb n="A15"/>jitādharmma<space/>s</l>
+<l n="d">tilakas santatau ca yaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="17" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">lavdhvā rājaprasādād yo<space/></l>
+<l n="b">hemaratnādikaṁ dhanam·<space/></l>
+<l n="c">bhūmiñ ca vidadhe tatra<space/></l>
+<l n="d">lakṣmīndrapa<lb n="A16"/>dasatpuram·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="18" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">prācyāṁ svacchāmvu cāgneyāṁ<space/></l>
+<l n="b">= = = = ⏑ - ⏑ -<space/></l>
+<l n="c">yāmyāṁ kackvannabhikhya<space/>ñ</l>
+<l n="d">ca nairr̥tyāñ cāmpakāhvayam·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="19" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">vā<lb n="A17"/>ruṇyāṁ stukkaṁvvalnāma<space/></l>
+<l n="b">vāyavyāñ ca sthalāvatī<space/></l>
+<l n="c">= = yāṁ = ⏑ aiśānyā<space/>m</l>
+<l n="d">asvacchāmvutatātakam·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="20" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">tasmai matimate prādā<lb n="A18"/>d</l>
+<l n="b">etāṁ bhūmiṁ mahīpatiḥ<space/></l>
+<l n="c">dharmmeṇa vahuna = tya<space/></l>
+<l n="d">mā = = = ⏑ - ⏑ ye<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="21" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">lakṣmīndrapadapuryyāṁ so<space/></l>
+<l n="b">'tiṣṭhipal liṅgam aiśvaram·</l>
+<l n="c"><lb n="A19"/>Adrivedavilaiś śākai<space/>ś</l>
+<l n="d">śivabhaktyekamānasaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="22" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">harārccā sthāpitā tena<space/></l>
+<l n="b">bhāratyarccā ca dhīmatā<space/></l>
+<l n="c" enjamb="yes">ka<lb n="A20"/>ruṇādhyas sa lakṣmīndra</l>
+<l n="d">-tatākaṁ sañcakhāna yat·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="23" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">sarvvaśāstravicārārthaṁ<space/></l>
+<l n="b">vrahmayajña<lb n="A21"/>ñ cakāra saḥ<space/></l>
+<l n="c">suvarṇṇaliṅgañ jaladhau<space/></l>
+<l n="d">dhautavuddhir atiṣṭhipat·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="24" met="mālinī" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="A22"/>surapuraracitaṁ sanmattavārādilakṣmī<space/></l>
+<l n="b">ndrapadapadam arañ cakre sasadvaryyadharmmaḥ</l>
+<l n="c"><lb n="A23"/>ramaṇaharipure nr̥r̥ṇāṁ vavandhāpi setuṁ</l>
+<l n="d">surabhavadhanadharmaṁ prārthisasye dadau saḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                    <p><milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Face</label>
+                       <lg n="25" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="B1"/>dhanaṁ dhanaṁ dhānyasuvarṇṇarūpya<space/></l>
+<l n="b">pūrvvaṁ satāmraṁ saha dāsadāsī<space/></l>
+<l n="c">tasmin sa lakṣmīndrapade śive dā<space/>d</l>
+<l n="d">gobhūmipūrvvaṁ mahiṣañ ca ratnam<unclear>· <g type="ddanda">.</g></unclear></l>
+</lg>
+                       <lg n="26" met="upajāti" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="B2"/>ye varddhayeyus sugatiṁ prayāntv <space/>i</l>
+<l n="b">māṁ kalpanan te saha vandhubhis tām·<space/></l>
+<l n="c">ye nāśayeyus tu tirogatau te<space/></l>
+<l n="d">sthitās sadā candradivākarābhyām<unclear>· <g type="ddanda">.</g></unclear></l>
+</lg>
+                      <lb n="B3"/>$floretComplex 946 śaka nu steṅ· Añ· jaṅghāla thvāy· saṁnvat ta vraḥ pāda kamrateṅ· kaṁtvan· Añ· śrī sūryyavarmmadeva {4}
+                       <lb n="B4"/>santāna nu śāka bhūmi sruk· siddhipura man ta dār· vraḥ karuṇāprasāda ti cat sruk· sthāpanā vraḥ piy(·) jyak travaṅ(·) {8}
+                       <lb n="B5"/>vraḥ śāsana pre jmaḥ steṅ· Añ· śrī lakṣmīndrapandita sruk· jmaḥ lakṣmīndrapada travaṅ jmaḥ lakṣmīndratatāka pre khloñ(·) {3}
+                       <lb n="B6"/>phoṅ· jā sākṣī nā caṅvat(·) bhūmi man ti Oy· prasāda nu man ti jvan ta vraḥ kamrateṅ· Añ· śrī bhadreśvara nu vraḥ parameśvara nu vraḥ sarasvatī
+                       <lb n="B7"/>$floretComplex nā bhūmi ti jvan ta vraḥ Aṁvi ta jeṅ· kaṁveṅ vraḥ ti dakṣiṇa lvaḥ travaṅ taladharmma dep· viṅ lvaḥ travaṅ(·) vadarā prasap(·) {2} Āgneya {2} tra-
+                       <lb n="B8"/>vaṅ surananda Aṁvi ta jeṅ kaṁveṅ vraḥ ti Uttara lvaḥ vraḥ siddhipura viṅ· lvaḥ ta travaṅ vraḥ noḥh ti dakṣiṇa viṅ{4} sre {3} le-
+                       <lb n="B9"/>ṅ· noḥ ta roḥ ta caṅvatta gi pi santāna thve rājakāryya nu gi $ddandaOrnate sre 2 nair̥ti travaṅ· Ulloka ta{1}n{1}paś[ci]ma travaṅ· noḥha
+                       <lb n="B10"/>ta mahānasa vyara Uttara travaṅ· noḥha ta patrakāra vyara pūrvva travaṅ(·) noḥha ta tūryya {1} dakṣiṇa {4} nāta travaṅ· noḥ
+                       <lb n="B11"/>nu teṁ jranyaṅ· ta rmmāṁ caṁmryaṅ· vyara kaṁluṅ· caṅvat· ñyāṅ· jranyaṅ· ta pamek· qnak ta paripāla {3} stuk· {2} phju da-
+                       <lb n="B12"/>kṣiṇa noḥha trimukha dakṣiṇa noḥha kralā saṅvey(·) dakṣiṇa noḥha kralā homa {4} jā ta {1} bha {2}
+                       <lb n="B13"/>$floretComplex nā khñuṁ man· jvan ta vraḥha tai kansān· tai kansān· sot tai thgaṅ· tai thgaṅ· sot tai {4} tai kansān(·)
+                       <lb n="B14"/>sot· tai tīrtha tai tīrtha sot· tai nimitta tai kañyas· tai rudra tai kandes· tai kanso tai kaṁvin(·) tai ka-
+                       <lb n="B15"/>ndrā tai śraddhā tai kambhār· tai kandes· ta vrahma tai kaṁvañ· tai sṅvan· tai k{4}n sot(·) tai kaṁ-
+                       <lb n="B16"/>prvat· sī paroṅ· sī kandhan· si khas· si kaṁvit· si kanthok·
+                    </p>
+                </div>
+<!--<div type="apparatus">
+               <listApp>
+<app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1937-1966_01"></rdg>
+                     </app>
+                  </listApp>         
+         </div> -->
+           <div type="translation" resp="part:argr">
+           <p n="A1">Om. Homage to the Guru's starting with Śiva [himself]. Let there be prosperity and success for Śrī Sūryavarmadeva together with the seven groups of constituents.</p>
+           <p rend="stanza" n="1">Victory [has been achieved] by the one who conquers the one Born of Thought (Kāma), he (Śiva) whose own excellent burning light has caused the existence of evil to become free of evil.</p>
+           <p rend="stanza" n="2">Resplendent is the one (Viṣṇu) with the lotus from his navel, who has emitted at his navel a wonderful lotus from which the Lotus Born arose, calling the one born from his own creation Unborn.</p>
+           <p rend="stanza" n="3">Victorious is the unborn (Brahmā) who, in accomplishing his birth, asked Bhūteśa, arisen as his (Brahmā's) son, for his own power with regard to other births.</p>
+           <p rend="stanza" n="4">I praise the goddess Umā, whose (diurnal) lotus-face, generating the emotion (bhāva) of astonishment, shone (even at night) by the [light of the] half-moon in Bhūteśa's Crest.</p>
+           <p rend="stanza" n="5">Resplendent is Bhāratī, whose foot, always roaming around in the enamoured/reddened mouth of scholars, shone [even] without lac.</p>
+           <p rend="stanza" n="6">Victory [has been achieved] by Ramā (Lakṣmī), whose golden creeper of a hand, dangling down from the neck of Vaiku.n.tha (Viṣṇu), shone (like) a shining neck-lace.</p>
+           <p rend="stanza" n="7">There was a king (rājan) called Śrī Sūryavarman, undefeated victor in battle, ruler (indra) enjoying loyal support (sapakṣin), pacifier of / merciful to enemies, like Lakṣmībhr̥t (Viṣṇu) endowed with Lakṣmī (Fortune).</p>
+           <p rend="stanza" n="8">Who, being a frontal ornament in the ruling lineage, originated in the maternal line of King Śrī Indravarman who [himself] originated in a ruling lineage.</p>
+           <p rend="stanza" n="9">If [he were] without (= not under) Dhātr̥'s command, Vivasvān did (= would) not make / would not have made his rise, fearing the burning brilliance of this [Sūryavarman], such is my thinking.</p>
+           <p rend="stanza" n="10">Setting up a lofty tower (praasaada) of Glory, ..., with his sword he hewed (off? in two?) the diademe of the enemy ruler and contructed a (temple) mountain.</p>
+           <p rend="stanza" n="11">With much effort, Raama once constructed a bridge on one ocean, but he, who had smashed the heads of his enemies, without effort, [constructed one] (out of these heads) on four oceans.</p>
+           <p rend="stanza" n="12">He who, having burnt down on all sides with the fires of his energy the heaps of forests of all enemies, sprinkled all directions with his his fame, as if with flame.</p>
+           <p rend="stanza" n="13">The shatterer of unsaluting kings (and: mountains), to whom the ocean surely gave its depth, in order for Maināka to be protected.</p>
+           <p rend="stanza" n="14">Who did not burn with his scorchings ... of the enemies ..., his power spread out ...</p>
+           <p rend="stanza" n="15">He had a servant appointed (? yuta) as ambassador in a far off city of the enemies, who, running like a horse, ...</p>
+           <p rend="stanza" n="16">Born in a lineage famous and pure, full of valor, full of Dharma, with Adharma defeated, he was a frontal ornament to his lineage.</p>
+           <p rend="stanza" n="17">And having obtained, by the grace of the king, wealth in gold and jewels etc., he settled there the land Lakṣmīndrapada, a good city.</p>
+           <p rend="stanza" n="18">In the East, [he dug out] a very clear [pond] with very clear water, and in the Southeast ...; in the South a [pond] called Kac Kvan, and in the Southwest a [pond] called Cāmpaka.</p>
+           <p rend="stanza" n="19">In the West a [pond] called Stuk Kaṁval, and in the Northwest [a pond] ... ; in the North ...; in the Northeast a small pond with murky water.</p>
+           <p rend="stanza" n="20">To that intelligent man the king gave this land, with abundant dharma ...</p>
+           <p rend="stanza" n="21">In Lakṣmīndrapadapurī, he installed a liṅga of Īśvara, his mind solely intent on devotion to Śiva, in the [year indicated by] (7) mountains, (3/4) Vedas, (9) orifices [937/947] Śaka era.</p>
+           <p rend="stanza" n="22">An image of Hara was established by this wise man, as well as an image of Bhāratī, when he, full of mercy, dug out the Lakṣmīndra pond.</p>
+           <p rend="stanza" n="23">He performed a Brahmayajña, aiming to to investigate all Śāstras. Of pure mind, he established a golden Liṅga in the lake.</p>
+           <p rend="stanza" n="24">He, having a dharma that the good would choose, prepared the place --- made in [the image of] (?) the city of the gods --- for Lakṣmīndrapada, [a site] with good pavilions etc. He, who gave to the one asking for grain (???), also constructed for humans a bridge in beautiful Hari, a pious work (dharma) whose wealth consists in being divine (???).</p>
+           <p rend="stanza" n="25">He gave much wealth, starting with grain, gold, silver, together with copper, together with (?) slaves male and female, to that "Siva at Lakṣmīndrapada / to Śiva there in Lakṣmīndrapada, besides a buffalo with cattle and land, as well as jewelry.</p>
+           <p rend="stanza" n="26">Those who would cause this pious work to thrive, let them go to that good destination, together with their relatives. But those who would destroy it, they [shall] always remain in disappearance, up to (ā) [the disappearance of] the moon and the sun.</p>
+           <p n="B3-B4">In "saka 946, milord Ja"nghaala presented a petition to his majesty My Holy High Lord of the matriline Śrī Sūryavarmadeva ... family and the history of the tract of land in the district Siddhipura, which had been received as a royal benefice; [on which] land was settled, three gods were established, ponds were dug out. ...</p>
+           <p n="B5">A royal charter assigned [to him] the name Steṅ Añ Lakṣmīndrapaṇḍita. The land was called Lakṣmīndrapada, the pond was called Lakṣmīndrataṭāka.</p>
+              <p n="B5-B6">[The charter] designated the Khloñs ... to be witnesses at the marking of the boundaries of the land which had been given by [royal] benefice and which was offered to V.K.A. Śrī Bhadreśvara with the God Parameśvara and the God Sarasvatī.</p>
+           <p n="B7-B8">As regards the land offered to the gods: from the foot of the wall of the god ['s sanctuary] it extends to the south up to the pond Taladharmma; then it turns and extends to the pond Badarā and joins ... . To the Southeast [it extends] to the pond Surananda.</p>
+           <p n="B8-B9">From the foot of the wall of the god ['s sanctuary] northward it extends to the sacred Siddhipura / the god/sanctuary of Siddhipura; it turns and extends to the pond of that god; southwards [it extends] ... rice field ... leṅ.</p>
+              <p n="B9">That is the way of the boundaring marking of that [land], so that the family [of Lakṣmīndrapaṇḍita] would perform its royal tasks with that [land].</p>
+              <p n="B9-B12">Two rice fields soutwest of the Ulloka (= Skt. Cāmpaka?) pond ... west of that pond ... two for the cooks (?) ... north of that pond two for the leaf-makers; east of that pond  ... the orchestra ... south ... naata that pond ... with Jranya"n Trees ... a dancer, two singers ... inside the boundaries ... near the Jranya"n [tree] ... a store/door opener, gaurdian(s) ... read ... south of it a three-headed [?], south of that an dining hall, south of that an offering hall ...</p>
+           <p n="B13">As regards the slaves whom he gaves to the god: ...</p><!-- kuch: The translation of lines B13-B16 is not available. -->
+        </div>
+        <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+           <p n="A1">Om! Hommage aux Guru dont Śiva est le premier ! Puisse Śrī Sūryavarmadeva avec le cercle des sept éléments de sa puissance obtenir prospérité et succès!</p>
+           <p rend="stanza" n="1">La victoire est à (Śiva) vainqueur de l'Amour, dont la puissante lumière, brillant sans cesse, a rendu inoffensive l'existence du mal.</p>
+           <p rend="stanza" n="2">(Viṣṇu) qui a un lotus dans le nombril resplendit: il a fait pousser dans son nombril un lotus merveilleux, en disant que l'Incréé (Brahmā), ayant pour origine ce lotus, est issu de sa propre création...</p>
+           <p rend="stanza" n="3">La victoire est à l'Incréé (Brahmā) qui, réalisant la naissance, a demandé à (l'Amour) maître des créatures, devenu son fils, sa propre puissance en vue d'autres naissanees.</p>
+           <p rend="stanza" n="4">Je salue la déesse Umā, dont le visage, lotus de jour, réalise un miracle, en se manifestant à la clarté de la demi-lune qui orne la tête de (Śiva) maître des créatures.</p>
+           <p rend="stanza" n="5">Resplendissante est Bhāratī (l'Eloquence), dont le pied, se promenant sans cesse dans la bouche rougie des sages, brille sans avoir besoin de laque.</p>
+           <p rend="stanza" n="6">La victoire est à Ramā (Lakṣmī) dont les bras, telles des lianes d'or suspendues au cou de Vaikuṇṭha (Viṣṇu), ressemblent à la corde qui entoure en se jouant le cou d'un éléphant.</p>
+           <p rend="stanza" n="7">Il y eut un roi victorieux, nommé Śrī Sūryavarman, invaincu dans les combats, pacifiant ses ennemis avec l'aide des rois alliés [ou: du roi des oiseaux : Garuḍa], maître de la Fortune [ou: de Lakṣmī], comme l'époux de Lakṣmī.</p>
+           <p rend="stanza" n="8">Issu de la famille maternelle du roi Śrī Indravarman, qui était lui-même issu d'une lignée princière, il fut un ornement dans la succession des rois.</p>
+           <p rend="stanza" n="9">"Si le Créateur ne lui en avait donné l'ordre, le soleil ne se lèverait pas, par crainte de l'éclat brillant (de ce roi)", telle est mon opinion.</p>
+           <p rend="stanza" n="10">Edifiant ... dans le combat la haute tour de sa gloire, après avoir tranché avec son épée la couronne du roi ennemi, il en a fait une montagne.</p>
+           <p rend="stanza" n="11">Autrefois, Rāma a construit à grand peine une digue dans un unique océan, mais c'est sans effort que (ce roi) en a construit dans quatre océans avec les têtes coupées de ses ennemis.</p>
+           <p rend="stanza" n="12">Brûlant de toute part avec le feu de son énergie l'épaisse forêt de tous ses ennemis, il arrosait en quelque sorte avec l'eau de sa gloire toutes les régions de l'espace en feu.</p>
+           <p rend="stanza" n="13">A lui qui a maintenant brisé les rois [ou: les montagnes] qui refusaient de s'incliner devant lui, l'océan a donné la profondeur pour défendre le mont Maināka.</p>
+           <p rend="stanza" n="14">Par son éclat brûlant .... des ennemis .... son énergie répandue dans .... les gens se nourrissant bien.</p>
+           <p rend="stanza" n="15">Il eut un serviteur fidèle, envoyé au loin dans une ville ennemie qui, rapide comme un coursier ...</p>
+           <p rend="stanza" n="16">Né dans une famille célèbre et parfaitement pure, valeureux, adonné au bien, vainqueur du mal, il Hait l'ornement de sa lignée.</p>
+           <p rend="stanza" n="17">Ayant obtenu de la faveur royale des biens consistant en or, gemmes, etc., ainsi qu'une terre, il a installé ici la bonne ville de Lakṣmīndrapada.</p>
+           <p rend="stanza" n="18">A l'est, une pièce d'eau claire, au sud-est .... au sud (le pays) nommé Kac Kvan, au sud-ouest (le pays) nommé Cāmpaka.</p>
+           <p rend="stanza" n="19">A l'ouest (le pays) nommé Stuk Karṁvval, au nord-ouest Sthalāvatī, au nord .... , au nord-est une petite pièce d'eau trouble.</p>
+           <p rend="stanza" n="20">A cet homme avisé, le roi a donné cette terre ...</p>
+           <p rend="stanza" n="21">L'esprit plein de dévotion pour Çiva. il a érigé dans la ville de Lakṣmīndrapada un liṅga d'Īśvara dans (l'année) śaka (marquée par) les (9) ouvertures, les (4) Veda et les (7) montagnes.</p>
+           <p rend="stanza" n="22">Des images de Hara et des images de Bhāratī ont été érigées par ce sage, et c'est par esprit de charité qu'il a creusé le Lakṣmīndrataṭaka.</p>
+           <p rend="stanza" n="23">En vue d'examiner tous les traités, cet homme doué d'une intelligence purifiée a fait un Brahmayajña, et il a érigé un liṅga d'or dans la pièce d'eau.</p>
+           <p rend="stanza" n="24">Possédant un bon et éminent dharma, il a décoré, à l'instar de la cité des dieux, le site de Lakṣmīndrapada pourvu d'un beau pavillon, et autres ornements ; dans la charmante ville de Haripura, il a construit aussi une digue, qui est pour les hommes ce qu'est le dharma, richesse de la condition divine, et il a donné les deux sortes de grains aux solliciteurs.</p>
+           <p rend="stanza" n="25">Dans ce Lakṣmīndrapada, il a donné à Śiva quantité de biens : grains, or, argent, cuivre, esclaves des deux sexes, bœufs, terres, buffles, joyaux.</p>
+           <p rend="stanza" n="26">Puissent ceux qui feront prospérer cette fondation, obtenir avec leurs parents une condition heureuse, mais puissent ceux qui la ruineraient demeurer sans cesse dans la condition animale, aussi longtemps que le soleil et la lune.</p>
+           <p n="B3-B4">En 946 śaka, Steṅ An Jaṅghāla présenta une requête à S.M. Śrī Sūryavarmadeva (au sujet de) sa lignée et de l'historique des terres du pays de Siddhipura, obtenues de la faveur royale, où il avait fondé un village, érigé trois dieux, creusé une pièce d'eau ...</p>
+           <p n="B5-B6">Une ordonnance royale conféra au Steṅ Añ le nom de Śrī Lakṣmīndrapaṇḍita, au village le nom de Lakṣmīndrapada et à la pièce d'eau le nom de Lakṣmīndrataṭāka, et chargea les Khloñ ..... d'être témoins lors de la délimitation de la terre reçue de la faveur royale et offerte à V.K.A. Śrī Bhadreśvara, à V. Parameśvara et à V. Sarasvatī.</p>
+           <p n="B7-B9">Voici l'emplacement de la terre offerte au dieu: à partir du pied de la muraille d'enceinte du temple au sud jusqu'à Travaṅ Taladharma, puis en contournant (celui-ci) jusqu'à Travaṅ Vadarā et limitrophe ... au sud-est ... Travaṅ Surananda ; à partir du pied de la muraille d'enceinte du temple au nord jusqu'au temple de Siddhipura et revenant jusqu'à l'étang de ce temple au sud ....... : ce terrain ainsi délimité est destiné à la famille pour y assurer le service royal.</p>
+           <p n="B9-B12">Deux rizières au sud-est de Travaṅ Ulloka sont réservées à ... ; à l'ouest de cette pièce d'eau, aux deux cuisiniers ; au nord de cette pièce d'eau, aux deux fabricants de feuilles ; à l'est de cette pièce d'eau, aux ... musiciens ; au sud ... de cette pièce d'eau et de l'arbre jranyaṅ, aux deux danseurs et chanteurs ; à l'intérieur du terrain délimité, près du jranyaṅ, aux ouvreurs qui gardent ... ; au sud de ce (terrain), le trimukha ; au sud de celui-ci l'aire pour les repas ; au sud de celle ci, l'aire des oblations ....</p>
+           <p n="B13-B16">Esclaves offerts au temple (suit une liste de 24 lai et 5 si).</p>
+        </div>
+    <div type="commentary">
+          <p></p>
+       </div> 
+         <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1953_01"/><citedRange unit="page">222-228</citedRange></bibl>) with a French translation; re-edited here by Arlo Griffiths with an English translation.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">222-228</citedRange>
+    </bibl>
+	</listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
