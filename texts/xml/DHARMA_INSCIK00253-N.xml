@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Northern doorjamb from Vat Thipdei (K. 253-N), 927 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00253-N</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE. 
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-12-16" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+                   <p>
+                   <lb n="1"/>s<supplied reason="lost">i</supplied>ddhir astu</p>
+                   <lg n="1" met="anuṣṭubh">
+<l n="a" met="na-vipulā" real="-+++---+"><lb n="1"/><milestone unit="column" n="a"/>jayaty ambhoja-bhavano</l>
+<l n="b"><milestone unit="column" n="b"/>jayaty ambhoja-locanaḥ</l>
+<l n="c" enjamb="yes"><lb n="2"/><milestone unit="column" n="a"/>jayaty ambhoja-bhūpendra</l>
+<l n="d"><milestone unit="column" n="b"/>durvvodha-prabhavo bhavaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="3"/><milestone unit="column" n="a"/>śrīddhaḥ śrīsūryyavarmāsī<milestone unit="column" n="b" break="no"/>d</l>
+<l n="b">asidhvastāri-maṇ<choice><orig>d</orig><reg>ḍ</reg></choice>alaḥ</l>
+<l n="c" enjamb="yes"><lb n="4"/><milestone unit="column" n="a"/>Avdhi-dvi-vivarai ramya</l>
+<l n="d"><milestone unit="column" n="b"/>rājya-bhug bhuvanarddhaye<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="5"/><milestone unit="column" n="a"/>kamvujendrānvaya-vyoma</l>
+<l n="b"><milestone unit="column" n="b"/>dyumaṇeḥ śrīndravarmmaṇaḥ</l>
+<l n="c" enjamb="yes"><lb n="6"/><milestone unit="column" n="a"/>mātranvavāyadugdhāvdhi</l>
+<l n="d"><milestone unit="column" n="b"/>vidhur yo dhūrjaṭi-priyaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="7"/><milestone unit="column" n="a"/>nija-vīryāniloddhūto</l>
+<l n="b"><milestone unit="column" n="b"/>dhāma-dhūma-dhvajo yudhi</l>
+<l n="c"><lb n="8"/><milestone unit="column" n="a"/>vipakṣatakṣam adhyakṣa<milestone unit="column" n="b" break="no"/>m</l>
+<l n="d">avākṣīd yasya dussahaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="9"/><milestone unit="column" n="a"/>santaptān yo niśan namrā<milestone unit="column" n="b" break="no"/>n</l>
+<l n="b">narendrāṅs tīvra-tejasā</l>
+<l n="c" enjamb="yes"><lb n="10"/><milestone unit="column" n="a"/>dayayevāṅghrijasyānśu</l>
+<l n="d"><milestone unit="column" n="b"/>vāriṇā snāpayat sadā<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="11"/><milestone unit="column" n="a"/>gāḍha-gāmbhiryyam ambhodhi<milestone unit="column" n="b" break="no"/>n</l>
+<l n="b">dhī-mayaṁ yaḥ svayandhiyā</l>
+<l n="c" met="bha-vipulā" real="++-++--+"><lb n="12"/><milestone unit="column" n="a"/>tīrtthātitīrṣūn viduṣa<milestone unit="column" n="b" break="no"/>s</l>
+<l n="d">tārayām āsa pāragān·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="13"/><milestone unit="column" n="a"/>hr̥n-meru-mūrddha-saṁrūḍhaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>yasya ditsāsuradrumam·</l>
+<l n="c" met="na-vipulā" real="++-+---+"><lb n="14"/><milestone unit="column" n="a"/>prāpya prakāma-phalada<milestone unit="column" n="b" break="no"/>n</l>
+<l n="d">nananda vivudha-dvijaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="15"/><milestone unit="column" n="a"/>yat-k<choice><orig>i</orig><reg>ī</reg></choice>rtimaṇibhiḥ pūrṇa<milestone unit="column" n="b" break="no"/>n</l>
+<l n="b">nūnan trailokyakoṣṭhakam·</l>
+<l n="c"><lb n="16"/><milestone unit="column" n="a"/>rarakṣa toṣitaś cakrī</l>
+<l n="d"><milestone unit="column" n="b"/>cakrāṅkatripadāṅkitam·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="17"/><milestone unit="column" n="a"/>vabhūva bhūbhr̥tas tasya</l>
+<l n="b"><milestone unit="column" n="b"/>kr̥tī yaḥ kr̥tisatkr̥taḥ</l>
+<l n="c" enjamb="yes"><lb n="18"/><milestone unit="column" n="a"/>kr̥tīndrapaṇ<choice><orig>d</orig><reg>ḍ</reg></choice>itaḥ kr̥tya</l>
+<l n="d"><milestone unit="column" n="b"/>kr̥d akr̥tyanikr̥ntakaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a" met="na-vipulā" real="--++---+"><lb n="19"/><milestone unit="column" n="a"/>praṇavātmākhya-viduṣo</l>
+<l n="b"><milestone unit="column" n="b"/>hotuḥ śrījayavarmaṇaḥ</l>
+<l n="c"><lb n="20"/><milestone unit="column" n="a"/>bhaginī-duhituḥ sūnuḥ</l>
+<l n="d"><milestone unit="column" n="b"/>sūrir āsīt śikhāśivaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="21"/><milestone unit="column" n="a"/>tasyāsīt· śrīndravarmmeśa</l>
+<l n="b"><milestone unit="column" n="b"/>-vāllabhyāl lavdha-saṁpadaḥ</l>
+<l n="c"><lb n="22"/><milestone unit="column" n="a"/>śrīyaśovarmmahotuś ca</l>
+<l n="d"><milestone unit="column" n="b"/>bhāgineyī-suto 'gradhiḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="12" met="anuṣṭubh">
+<l n="a"><lb n="23"/><milestone unit="column" n="a"/>śaṅkarākhyo bhuvi khyāta<milestone unit="column" n="b" break="no"/>s</l>
+<l n="b">tīrṇaśāstramahārṇavaḥ</l>
+<l n="c" enjamb="yes"><lb n="24"/><milestone unit="column" n="a"/>rājendravarmma-bhūpendra</l>
+<l n="d"><milestone unit="column" n="b"/>-purodhā dhimatām varaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="13" met="anuṣṭubh">
+<l n="a" met="na-vipulā" real="++-+---+"><lb n="25"/><milestone unit="column" n="a"/>tasyānujo jita-guṇo</l>
+<l n="b"><milestone unit="column" n="b"/>nārāyaṇa Itīritaḥ</l>
+<l n="c"><lb n="26"/><milestone unit="column" n="a"/>rājanya-vr̥ṇ<choice><orig>d</orig><reg>ḍ</reg></choice>a-vandyāṅghre<milestone unit="column" n="b" break="no"/>r</l>
+<l n="d">hotā śrījayavarmmaṇaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="14" met="anuṣṭubh">
+<l n="a"><lb n="27"/><milestone unit="column" n="a"/>tad-bhaginyātmajaś cāsī<milestone unit="column" n="b" break="no"/>t</l>
+<l n="b">sūrir agresaraḥ satām·</l>
+<l n="c"><lb n="28"/><milestone unit="column" n="a"/>śivācārya Iti khyāto</l>
+<l n="d"><milestone unit="column" n="b"/>hotā tasyaiva bhūbhujaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="15" met="anuṣṭubh">
+<l n="a"><lb n="29"/><milestone unit="column" n="a"/>bhaginī-nandanas tasya</l>
+<l n="b"><milestone unit="column" n="b"/>vidyāmbho-nidhi-pāragaḥ</l>
+<l n="c" enjamb="yes"><lb n="30"/><milestone unit="column" n="a"/>dhairya-saundaryavādanya</l>
+<l n="d"><milestone unit="column" n="b"/>vāgmitvādyālayaś ca yaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="16" met="anuṣṭubh">
+<l n="a"><lb n="31"/><milestone unit="column" n="a"/>vidvān vidyāṁ kṣamī kṣānti<milestone unit="column" n="b" break="no"/>n</l>
+<l n="b">tyāgam arthy adhikaṁ yathā</l>
+<l n="c"><lb n="32"/><milestone unit="column" n="a"/>tathānye 'nyaguṇān yasya</l>
+<l n="d"><milestone unit="column" n="b"/>sparddhayeva sma śaṅsati<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="17" met="anuṣṭubh">
+<l n="a"><lb n="33"/><milestone unit="column" n="a"/>paramārtha-parasyāpi</l>
+<l n="b"><milestone unit="column" n="b"/>yasyārtho gr̥ha-saṁsthitaḥ</l>
+<l n="c" met="na-vipulā" real="--++---+"><lb n="34"/><milestone unit="column" n="a"/>na tathā prītim akaro<milestone unit="column" n="b" break="no"/>d</l>
+<l n="d">yathā dattas sa yācake<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="18" met="anuṣṭubh">
+<l n="a" met="na-vipulā" real="-+++---+"><lb n="35"/><milestone unit="column" n="a"/>tapas-saṁsakta-manasāṁ</l>
+<l n="b"><milestone unit="column" n="b"/>svāmi-bhaktyā tapasvinām·</l>
+<l n="c"><lb n="36"/><milestone unit="column" n="a"/>yas tantra-vidhi-mantrajña</l>
+<l n="d"><milestone unit="column" n="b"/>Upadeṣṭā nr̥pājñayā<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="19" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="37"/><milestone unit="column" n="a"/>saujanya-śruta-śīlādi</l>
+<l n="b"><milestone unit="column" n="b"/>guṇabhūmo 'pi yo niśam·</l>
+<l n="c"><lb n="38"/><milestone unit="column" n="a"/>bhogair bhogyāsya-dolādyai<milestone unit="column" n="b" break="no"/>r</l>
+<l n="d">bhūyo bhūbhug-vibhūmataḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="20" met="anuṣṭubh">
+<l n="a"><lb n="39"/><milestone unit="column" n="a"/>purā śikhāśivenedaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>sthāpitaṁ liṅgam uddhr̥tam·</l>
+<l n="c"><lb n="40"/><milestone unit="column" n="a"/>tena dvīpa-dvaya-dvārai<milestone unit="column" n="b" break="no"/>r</l>
+<l n="d">bhūyo bhaktyā pratiṣṭhitam·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="21" met="anuṣṭubh">
+<l n="a"><lb n="41"/><milestone unit="column" n="a"/>tasya ca <seg met="=-++="><gap reason="lost" quantity="5" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/>n<supplied reason="lost">u</supplied>jo jyāyān g<supplied reason="lost">u</supplied>ṇodayaiḥ</l>
+<l n="c"><lb n="42"/><milestone unit="column" n="a"/>kṣi<seg met="===-++="><gap reason="lost" quantity="7" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="b"/><seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg>s saraḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="22" met="anuṣṭubh">
+<l n="a"><lb n="43"/><milestone unit="column" n="a"/>śrī<seg met="===-++="><gap reason="lost" quantity="7" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-"><gap reason="lost" quantity="7" unit="character"/></seg>taḥ</l>
+<l n="c"><lb n="44"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="b"/><seg met="====-+"><gap reason="lost" quantity="6" unit="character"/></seg>gamat·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="23" met="anuṣṭubh">
+<l n="a"><lb n="45"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="===="><gap reason="lost" quantity="4" unit="character"/></seg>sya yat sa –</l>
+<l n="c"><lb n="46"/><milestone unit="column" n="a"/><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>dh<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> rāje <seg met="+="><gap reason="lost" quantity="2" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="b"/><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg>tī parigraha<seg met="="><gap reason="lost" quantity="1" unit="character"/></seg><supplied reason="lost"><g type="ddandaOrnate">.</g></supplied></l>
+</lg>
+                   
+                </div>
+<!-- <div type="apparatus">
+               <listApp>
+<app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1911_03"></rdg>
+                     </app>
+                  </listApp>         
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1911_03">
+           <p rend="stanza" n="1">Vive Celui qui a pour demeure le lotus <supplied reason="subaudible">Brahmā</supplied>, vive Celui qui a un œil de lotus <supplied reason="subaudible">Viṣṇu</supplied>, vive Bhava qui a pour origine mystérieuse le roi des lotus.</p>
+              <p rend="stanza" n="2">Enflammé par Śrī Śrī Sūryavarman, dont l'épée avait rompu le cercle des ennemis, obtint pour la prospérité de la terre la royauté charmante en Océan-deux-ouvertures <supplied reason="subaudible">= 924</supplied>.</p>
+              <p rend="stanza" n="3">Lune de cet océan de lait qu'est la famille maternelle de Śrī Indravarman, lequel était le soleil de ce ciel qu'est la famille des rois des Kambujas, il était cher à Dhūrjaṭi <supplied reason="subaudible">Śiva</supplied>.</p>
+              <p rend="stanza" n="4">Le feu irrésistible - sa majesté -, attisé par le vent - son héroime -, emporta <supplied reason="subaudible">le serpent</supplied> Takṣa - l'ennemi - qui le regardait.</p>
+              <p rend="stanza" n="5">Comme par compassion, il baignait continuellement, dans l'eau des rayons émanant de ses pieds, les rois toujours inclinés que brûlait son ardent éclat.</p>
+              <p rend="stanza" n="6">Par sa propre intelligence, il menait jusque sur l'autre bord de l'Océan insondable de l'intelligence, les sages instruits désireux de le traverser.</p>
+              <p rend="stanza" n="7">Ayant obtenu l'arbre céleste qui était né sur le sommet du Meru - son cœur -, et qui donnait tous les fruits désirés, le brahman des dieux se réjouit.</p>
+              <p rend="stanza" n="8">Joyeux, Cakrin <supplied reason="explanation">Viṣṇu</supplied> garda le trésor des trois mondes rempli maintenant des joyaux de sa gloire et marqué par les trois pas de ce Cakrāṅka <supplied reason="explanation">Viṣṇu</supplied>.</p>
+              <p rend="stanza" n="9">Ce roi eut un serviteur, Kr̥tīndrapaṇḍita, honoré pour ses actes, faisant son devoir et détruisant le mal.</p>
+              <p rend="stanza" n="10">Le sage Śikhāśiva fut le fils de la fille de la sœur du sage Praṇavātman, hotar de Śrī Jayavarman.</p>
+              <p rend="stanza" n="11">De ce <supplied reason="subaudible">Śikhāśiva</supplied> qui avait été comblé de richesses par la faveur du roi Śrī Indravarman et qui avait été le hotar de Śrī Yaśovarman, le fils de la fille de la sœur, doué d'une grande intelligence,</p>
+              <p rend="stanza" n="12">nommé sur terre Śaṅkara, le meilleur d'entre les sages, ayant traversé le grand Océan des <foreign>śāstra</foreign>s, fut purohita du roi Rājendravarman.</p>
+              <p rend="stanza" n="13">Son frère puîné, doué d'une invincible vertu, nommé Nārāyaṇa, fut le hotar de Śrī Jayavarman dont les pieds étaient dignes des honneurs <supplied reason="subaudible">qui lui témoignait</supplied> la foule des rois.</p>
+              <p rend="stanza" n="14">Le fils de sa sœur, le sage Śivācārya, le premier des gens de bien, fut le hotar du même roi.</p>
+              <p rend="stanza" n="15">Le fils de la sœur de ce <supplied reason="subaudible">Śivācārya</supplied>, qui avait traversé l'Océan des sciences, fut le réceptacle de la fermeté, de la beauté, de la musicalité, de l'éloquence.</p>
+              <p rend="stanza" n="16">Le savant louait sa science, le patient sa patience, le mendiant sa libéralité, et les autres louaient comme à l'envi ses autres vertus.</p>
+              <p rend="stanza" n="17">Comme il avait uniquement en vue le bien suprême, il ne trouvait pas autant de plaisir à voir ses biens accumulés dans sa demeure, qu'à les donner au mendiant.</p>
+              <p rend="stanza" n="18">A cause de sa dévotion envers son maître, cet homme qui, entre tous les ascètes dont l'esprit est uniquement attaché au tapas, connaissait les formules, les rites et les charmes magiques, fut nommé upadeṣṭar par ordre du roi.</p>
+              <p rend="stanza" n="19">Bien qu'il fût continuellement le support de toutes les vertus à commencer par la bonté, la science de la Śruti, la moralité, il était de par <supplied reason="subaudible">la libéralité de</supplied> son puissant souverain, riche en biens, <gap reason="lost"/> litières, etc.</p>
+              <p rend="stanza" n="20">En Iles-deux-ouvertures <supplied reason="subaudible">= 927</supplied>, il a érigé à nouveau ce haut liṅga fondé autrefois par Śikhāśiva.</p>
+              <p rend="stanza" n="21">Son frère cadet, supérieur par ses vertus <gap reason="lost"/>.</p>
+              <p rend="stanza" n="22"><gap reason="lost"/></p>
+              <p rend="stanza" n="23"><gap reason="lost"/></p>
+        </div>
+   <!--  <div type="commentary">
+          <p></p>
+       </div>  -->
+         <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1911_03"/><citedRange unit="page">223-224, 227-229</citedRange></bibl>) with a French translation; some corrections were made in George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1951_01"/><citedRange unit="page">103</citedRange><citedRange unit="note">4</citedRange></bibl>).</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1911_03"/><citedRange unit="page">223-224, 227-229</citedRange>
+    </bibl>
+	</listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
