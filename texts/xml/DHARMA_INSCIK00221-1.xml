@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Southern doorjamb from Prasat Banteay Prav (K. 221-1), 929 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00221-1</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE. 
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-12-20" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p>
+                   <lb n="1"/><num value="929">929</num> śaka pi ket<unclear>·</unclear> jeṣṭha Aṅgāravāra nu vāp<unclear>·</unclear> Amr̥ta smeva pañcagrāma Oy· bhūmi ta vraḥ kamrateṅ· Añ· śivaliṅga thpvaṅ· rmmāṅ· ta
+                      <lb n="2"/>saṅ gol· khloñ· vala khloñ· viṣaya qmoghapura sruk· bharaṇī khloñ· vala khloñ· saṁtāp· jrai valī <g type="ddandaOrnate">.</g> <num value="929">929</num> śaka pañcamī ke<lb 
+                         n="3" break="no"/>t· jeṣṭha vrahaspativāra nu vāp· qyak· sruk· pralāy· phdaṁ Ek· Oy· bhūmi ta vraḥ kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> śivaliṅga ta saṅ gol· khloñ· vala khlo<lb 
+                            n="4" break="no"/>ñ· viṣaya khloñ<unclear>·</unclear> vala khloñ· saṁtāp· jrai valī <g type="ddandaOrnate">.</g> <num value="930">930</num> śaka Aṣṭamī roc· jeṣṭha Ādityavāra nu mratāñ<unclear>·</unclear> śrī nr̥pendravalbha sruk· jrai ga<lb 
+                               n="5" break="no"/>ryyak· Oy<unclear>·</unclear> sre Ācāryya droṇa ta qji mratāñ<unclear>·</unclear> pi kalpanā jā sre curuv· ta vraḥ kamrateṅ· Añ· śivaliṅga ta jā sākṣīya
+                      <lb n="6"/>khloñ<unclear>·</unclear> vala bharaṇī khloñ· viṣaya khloñ· vala stuk· daṅdoṅ· Adhyāpaka Āy· kanloṅ· kaṁmrateṅ· Añ· rājaguhā vāp· sān· saṁroṅ·
+                      <lb n="7"/>yvāt· <g type="ddandaOrnate">.</g> <num value="933">933</num> śaka pañcamī ket· māgha sanaiścaravāra nu vāp· Ā khloñ· vrīha vāp· dharmma pradhāna vāp· varmmaśiva karmmāntara sruk· thkvāl·
+                      <lb n="8"/>joṅ· yugapāda nu mratāñ· khloñ· śrī rājendrapandita sruk· yanap· steṅ<unclear>·</unclear> bhavakṣetra khloñ· saṁtāp· nu mratāñ· śrī śrutabhaktivikhyāta
+                      <lb n="9"/>sruk· jrai valī steṅ<unclear>·</unclear> bhagavan· kanloṅ· kamrateṅ· Añ· rājaguhā loñ· nos· pralāy· loñ· mādhava cuṅ· sruk· khloñ· vala yāṁpaḥ
+                      <lb n="10"/>mratāñ· śrī samaravikrama sruk· jlyak· loñ· <gap reason="lost" quantity="1" unit="character"/> khloñ· jnvāl· vanik· steṅ· varmmaśiva kanm<supplied reason="lost">yaṅ·</supplied> loñ· rāma <g type="dotMid">.</g> pi lak· sre thkvāl· joṅ· ta kaṁsteṅ·
+                      <lb n="11"/>śrī narapatīdravarmma ta saṅ gol· khloñ· vala khloñ· viṣaya sruk· bharāṇī thlāy<unclear>·</unclear> sre noḥ prāk· liṅ· <num value="10"><g type="numeral">10</g></num> qso <g type="dotMid">.</g>
+                   </p>      
+                </div>
+<!-- <div type="apparatus">
+               <listApp>
+<app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1911_03"></rdg>
+                     </app>
+                  </listApp>         
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1951_01">
+           <p n="1-2">929 <foreign>śaka</foreign>, troisième jour de la lune croissante de Jyeṣṭha, mardi, Vāp Amr̥ta <foreign>smeva</foreign> de Pañcagrāma donne une terre à V.K.A. Śivaliṅga de Thpvaṅ Rmmāṅ. Ceux qui plantèrent les bornes <supplied reason="subaudible">furent</supplied> : le <foreign>khloñ vala</foreign> <supplied reason="subaudible">qui est</supplied> <foreign>khloñ viṣaya</foreign> d'Amoghapura <supplied reason="subaudible">pour le</supplied> village de Bharaṇī et le <foreign>khloñ vala</foreign> <supplied reason="subaudible">qui est</supplied> <foreign>khloñ saṁtāp</foreign> de Jrai Valī.</p>
+              <p n="2-4">929 <foreign>śaka</foreign>, cinquième jour de la lune croissante de Jyeṣṭha, jeudi, Vāp Ayak du pays de Pralāy <supplied reason="subaudible">fonctionnaire de la chambre à</supplied> coucher de premier <supplied reason="subaudible">rang</supplied>, donne une terre à V.K.A. Śivaliṅga. Ceux qui plantèrent les bornes <supplied reason="subaudible">furent</supplied> : le <foreign>khloñ vala</foreign> <supplied reason="subaudible">qui est</supplied> <foreign>khloñ viṣaya</foreign>, le <foreign>khloñ vala</foreign> <supplied reason="subaudible">qui est</supplied> <foreign>khloñ saṁtāp</foreign> de Jrai Valī.</p>
+              <p n="4-6">930 <foreign>śaka</foreign>, huitième jour de la lune décroissante de Jyeṣṭha, dimanche, Mratāñ Śrī Nr̥pendravallabha du pays de Jrai Garyyak donne la rizière de l'Ācārya Droṇa son aïeul pour la consacrer comme rizière curuv à V.K.A. Śivaliṅga. Témoins : le <foreign>khloñ vala</foreign> de Bharaṇī <supplied reason="subaudible">qui est</supplied> khloñ viṣaya, le khloñ vala de Stuk Daṅdoṅ <supplied reason="explanation">"mare des anguilles"</supplied>, le professeur dans le <supplied reason="subaudible">temple</supplied> de Kanloṅ K.A. Rajaguhā <supplied reason="subaudible">"grotte royale"</supplied> et Vāp Saṁroṅ Yvāt.</p>
+              <p n="7-11">933 <foreign>śaka</foreign>, cinquième jour de la lune croissante de Māgha, samedi, Vāp Ā, <foreign>khloñ vrīha</foreign>, Vāp Dharmma, notable, Vāp Varmaśiva, <foreign>karmāntara</foreign> du pays de Thkvāl Joṅ, se réunissent avec Mratāñ Khloñ Śrī Rajendrapaṇḍita du pays de Yanap, Steṅ Bhavakṣetra, khloñ saṁtāp, Mratāñ Śrī Śrutabhaktivikhyata du pays de Jrai Valī, le <foreign>steṅ bhagavan</foreign> dans le <supplied reason="subaudible">temple de</supplied> Kanloṅ K.A. Rājaguhā, Loñ Nos de Pralāy, Loñ Mādhava de Cuṅ Sruk <supplied reason="subaudible">"extrémité du pays"</supplied>, le <foreign>khloñ vala</foreign> Yāṁpaḥ, Mratāñ Śrī Samaravikrama du pays de Jlyak, Loñ <gap reason="lost"/> <foreign>khloñ jnvāl vanik</foreign>, Steṅ Varmmaśiva le jeune, Loñ Rāma, pour vendre la rizière de Thkval Joṅ à Kaṁsteṅ Śrī Narapatīndravarman. Celui qui planta les bornes fut : le <foreign>khloñ vala</foreign> qui est <foreign>khloñ viṣaya</foreign> du village de Bharaṇī. Prix de cette rizière : 10 <foreign>liṅ</foreign> d'argent blanc.</p>
+        </div>
+   <!--  <div type="commentary">
+          <p></p>
+       </div>  -->
+         <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1951_01"/><citedRange unit="page">54-56</citedRange></bibl>) with a French translation; .</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1911_03"/><citedRange unit="page">223-224, 227-229</citedRange>
+    </bibl>
+	</listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
