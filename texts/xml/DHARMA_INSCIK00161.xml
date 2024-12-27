@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb from Prasat Preah Khan of Kompong Svay (K. 161), 924 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/7401978">
+                  <forename>Louis</forename>
+                  <surname>Finot</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00161</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE. 
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-12-27" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+                   
+                   <lg n="1" met="sragdharā">
+<l n="a"><lb n="1"/><g type="floretComplex">.</g>śrīmat-pādāgra-līlāvanamita-dharaṇīkṣobha-saṁkṣobhitā<choice><orig>p</orig><reg>b</reg></choice>dhi</l>
+<l n="b"><lb n="2"/>bhrāmyatkrandatsurendraṁ bhujava<choice><sic>l</sic><corr>n</corr></choice>apavanais saṁskhalatsadvimānaiḥ</l>
+<l n="c"><lb n="3"/>svāṅgais svalpīkr̥tāśaṁ nava-rasa-rucibhir visphuradraśmimālyai<lb n="4" break="no"/>r</l>
+<l n="d">nāṭyaṁ vrahmādi-sevyaṁ sukhayatu dayitānandanaṁ candra-mauleḥ<g type="ddanda">.</g></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="5"/><milestone unit="column" n="a"/><g type="floretComplex">.</g>namo vuddhāya sarvvajña</l>
+<l n="b"><milestone unit="column" n="b"/>-śavdo yatraiva sārthakaḥ</l>
+<l n="c"><lb n="6"/><milestone unit="column" n="a"/>tasyaiva hi vacas satyaṁ</l>
+<l n="d"><milestone unit="column" n="b"/>pramāṇena nirūpitam·</l>
+</lg>
+        <lg n="3" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="7"/><milestone unit="column" n="a"/>tad-uktau pāram<choice><orig>i</orig><reg>ī</reg></choice>tantra</l>
+<l n="b"><milestone unit="column" n="b"/>-tayau tad-gata-yoginaḥ</l>
+<l n="c"><lb n="8"/><milestone unit="column" n="a"/>try-akṣarañ ca nija-jñānaṁ</l>
+<l n="d"><milestone unit="column" n="b"/>guru-pāda-yugan name</l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="9"/><milestone unit="column" n="a"/>śrīddhaś śrīsūryyavarmmāsī<milestone unit="column" n="b" break="no"/>c</l>
+<l n="b">catur-bhuja-vilāsakaḥ</l>
+<l n="c"><lb n="10"/><milestone unit="column" n="a"/>yas sūryya-vaṅśajo rājye</l>
+<l n="d"><milestone unit="column" n="b"/>catur-bhuja-vilāsaka<supplied reason="omitted">ḥ</supplied></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="11"/><milestone unit="column" n="a"/>smaro 'naṅgaś śaśāṅko 'pi</l>
+<l n="b"><milestone unit="column" n="b"/>śaśīti niravadyakam·</l>
+<l n="c"><lb n="12"/><milestone unit="column" n="a"/>Asr̥jad yan nv idaṅ karmma</l>
+<l n="d"><milestone unit="column" n="b"/>kānti-sarggāvadhīcchayā</l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="13"/><milestone unit="column" n="a"/>bhāṣyādi-caraṇā kāvya</l>
+<l n="b"><milestone unit="column" n="b"/>-pāṇiṣ ṣa<choice><orig>d</orig><reg>ḍ</reg></choice>darśanendriyā</l>
+<l n="c" enjamb="yes"><lb n="14"/><milestone unit="column" n="a"/>yanmatir dharmmaśāstrādi</l>
+<l n="d"><milestone unit="column" n="b"/>mastakājaṅgamāyata</l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="15"/><milestone unit="column" n="a"/>Etāvatānumeyaṁ ya</l>
+<l n="b"><milestone unit="column" n="b"/>-d-vīryaṁ yad rūḍhadhīr muniḥ</l>
+<l n="c"><lb n="16"/><milestone unit="column" n="a"/>raṇa-stho rāja-saṅkīrṇā<milestone unit="column" n="b" break="no"/>d</l>
+<l n="d">rājño rājyaṁ jahāra yaḥ</l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="17"/><milestone unit="column" n="a"/>kāla-doṣānalāviṣṭā</l>
+<l n="b"><milestone unit="column" n="b"/>yasya sekāmvu-nirggame</l>
+<l n="c"><lb n="18"/><milestone unit="column" n="a"/>tad-vināśāt kṣaṇaṁ lokāḥ</l>
+<l n="d"><milestone unit="column" n="b"/>sukhāyante sma sarvvathā</l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="19"/><milestone unit="column" n="a"/>yugahāner ayan dharmmaḥ</l>
+<l n="b"><milestone unit="column" n="b"/>pada-hīno jarākr̥śaḥ</l>
+<l n="c"><lb n="20"/><milestone unit="column" n="a"/>yannītirasam āsādya</l>
+<l n="d"><milestone unit="column" n="b"/>sat-padas sma yuvāyate</l>
+</lg>
+                   
+                </div>
+<div type="apparatus">
+               <listApp>
+<app loc="1">
+                     <lem>-līlāvanamita-</lem>
+                     <rdg source="bib:Finot1904_08">-līlāvanāmita-</rdg>
+                     </app>
+                  <app loc="5">
+                     <lem>vuddhāya</lem>
+                     <rdg source="bib:Finot1904_08">buddhāya</rdg>
+                     </app>
+                  <app loc="7">
+                     <lem>pāram<choice><orig>i</orig><reg>ī</reg></choice>tantra</lem>
+                     <rdg source="bib:Finot1904_08">pāramītantra</rdg>
+                     </app>
+                  <app loc="7">
+                     <lem>-tayau</lem>
+                     <rdg source="bib:Finot1904_08">-taryau</rdg>
+                     </app>
+                  <app loc="9">
+                     <lem>śrīsūryyavarmmāsī<milestone unit="column" n="b" break="no"/>c</lem>
+                     <rdg source="bib:Finot1904_08">śrīsūryavarmmāsī<milestone unit="column" n="b" break="no"/>c</rdg>
+                     </app>
+                  <app loc="15">
+                     <lem>-d-vīryaṁ</lem>
+                     <rdg source="bib:Finot1904_08">-d vīryaṁ</rdg>
+                     </app>
+                  </listApp>         
+         </div>
+           <div type="translation" resp="part:argr">
+           <p rend="stanza" n="1">Let the dance of the Moon-Crested <supplied reason="subaudible">Śiva</supplied>, by which the ocean is shaken due to the shakings of the earth bent down under the tip-toe play of his fortunate feet, <supplied reason="subaudible">the dance</supplied> in to which the king of the gods whirls and shouts <supplied reason="subaudible">in alarm</supplied> at the winds of <supplied reason="subaudible">Śiva's</supplied> arm-forest which causes <supplied reason="subaudible">even</supplied> the sturdy celestial cars to falter, <supplied reason="subaudible">the dance</supplied> in which the regions are made small by <supplied reason="subaudible">Śiva's</supplied> own limbs, which have the beauty of <supplied reason="subaudible">all</supplied> nine <supplied reason="subaudible">aesthetic</supplied> flavors <supplied reason="explanation"><foreign>nava-rasa-ruci</foreign></supplied>, from which garlands of rays shine forth, <supplied reason="subaudible">the dance</supplied> to be attended by Brahmā etc., <supplied reason="subaudible">the dance</supplied> that delights his wife <supplied reason="explanation"><foreign>dayitā-nandana</foreign></supplied> – let <supplied reason="subaudible">this dance</supplied> bring pleasure.</p>
+              <p rend="stanza" n="2">Homage to the Buddha, in whose sole case the word 'omniscient' has meaning, because only his words are established as true by a means of valid knowledge.</p>
+              <p rend="stanza" n="3">I bow to both Ways taught by him, the one of Perfections and the one of Mantras; to the Yogins who have gone those <supplied reason="subaudible">ways</supplied>; to my innate three-syllabled knowledge, and to the feet of the <foreign>guru</foreign>.</p>
+              <p rend="stanza" n="4">Śrī Sūryavarman, ignited by Śrī <supplied reason="explanation">glory</supplied>, whose affection was for the Four-Armed <supplied reason="subaudible">Viṣṇu</supplied>, who was born in the Solar Dynasty, was in royal power having <supplied reason="subaudible">as date of accession the śaka year 9</supplied> manifestations <supplied reason="explanation"><foreign>vilāsa</foreign>, i.e. orifices</supplied>, <supplied reason="subaudible">2</supplied> arms, 4.</p>
+              <p rend="stanza" n="5">He <supplied reason="explanation">Brahmā</supplied> surely made this impeccable creation, viz. him <supplied reason="explanation">Sūryavarman</supplied>, out of the desire for an absolute highpoint in the creation of beauty, <supplied reason="subaudible">thinking</supplied>: "Even <supplied reason="subaudible">the paragon of beauty</supplied> Smara is bereft of a body, and <supplied reason="subaudible">likewise</supplied> Śaśin is marked by a hare."</p>
+              <p rend="stanza" n="6">His thought, which had commentaries etc. as feet, poetry as hands, the six Darśanas as organs, the Dharmaśāstras etc. as head, was like a living being <supplied reason="explanation"><foreign>ajaṅgamāyata</foreign></supplied>.</p>
+              <p rend="stanza" n="7">By this his heroism can be gauged, <supplied reason="subaudible">namely</supplied> that that sage of renowned intelligence, when engaged in battle, stole the kingdom from a king allied <supplied reason="explanation"><foreign>saṁkīrṇa</foreign></supplied> with kings.</p>
+              <p rend="stanza" n="8">When the water of his consecration <supplied reason="explanation"><foreign>seka</foreign> = <foreign>abhiṣeka</foreign></supplied> issued out <supplied reason="subaudible">of the vessel</supplied>, the people, burdened with the fire of the faults of time, everywhere were happy for a moment because of that <supplied reason="subaudible">fire's temporary</supplied> extinction.</p>
+              <p rend="stanza" n="9">After the dissolution of <supplied reason="subaudible">the last</supplied> Yuga, this Dharma, emaciated due to age, deprived of its feet, obtained the <supplied reason="subaudible">fresh</supplied> juice of his governance, was rejuvenated and <supplied reason="subaudible">became</supplied> provided with feet.</p>
+        </div>
+           <div type="translation" xml:lang="fra" source="bib:Finot1904_08">
+           <p rend="stanza" n="1">Ébranlant les régions de l'espace par l'ébranlement de la terre qui fléchit sous le frôlement du bout de son pied divin ; faisant tournoyer et mugir l'Indra des dieux au vent de ses bras puissants qui ballotent les palais célestes ; rapetissant l'espace par ses membres luisants d'une sueur récente et enguirlandés de rayons étincelants ; puisse-t-elle nous porter bonheur, la danse - digne de l'attention respectueuse des dieux et délice de sa bien-aimée, - la danse de Celui qui a pour diadème la lune !</p>
+              <p rend="stanza" n="2">Hommage au Buddha, à qui seul s'applique avec son plein sens le nom d'Omniscient ; de lui seul en effet la parole est vraie et logiquement établie.</p>
+              <p rend="stanza" n="3">Désignés par lui comme les deux barques de la doctrine des Pāramīs pour le yogin qui s'y applique, je salue les pieds de mon guru, dont la science a sa source dans le faveur du dieu aux trois yeux.</p>
+              <p rend="stanza" n="4">Il était <supplied reason="subaudible">un roi nommé</supplied> Śrī Sūryavarman, enflammé par Śrī, ayant la grâce de Viṣṇu, né de la race du Soleil ; son règne avait pour base quatre, les bras et les ouvertures.</p>
+              <p rend="stanza" n="5">On le surnommait Smara, Anaṅga, Śaśāṅka, Śaśin : c'est pourquoi il créa cette œuvre irréprochable dans le désir de porter à son extrême limite la création du beau <supplied reason="explanation">ou: la diffusion de son éclat</supplied>.</p>
+              <p rend="stanza" n="6">Ayant pour pieds le Bhāṣya, etc., pour mains les <foreign>kāvya</foreign>s, pour organes des sens les six <foreign>darśana</foreign>s, pour tête les dharmaśāstras, son intelligence était une personne vivante.</p>
+              <p rend="stanza" n="7">Quelle fut sa vaillance, on peut l'inférer de ce que, Muni à l'intelligence mûrie, il enleva dans la bataille la royauté à un roi mêlé à d'autres rois.</p>
+              <p rend="stanza" n="8">Les gens qui était tourmentés par le feu des vices du temps, lorsque ce feu fut éteint par l'eau de ses libations, se sentirent à l'instant dans une félicité parfaite.</p>
+              <p rend="stanza" n="9">Par l'écoulement des <foreign>yuga</foreign>s, Dharma était privé de ses pieds et desséché de vieillesse : grâce à l'ambroisie du gouvernement de ce prince, il retrouva ses pieds et sa jeunesse.</p>
+        </div>
+   <!--  <div type="commentary">
+          <p></p>
+       </div>  -->
+         <div type="bibliography">
+          <p>Edited by Louis Finot (<bibl rend="omitname"><ptr target="bib:Finot1904_08"/><citedRange unit="page">672-675</citedRange></bibl>) with a French translation; re-edited here by Arlo Griffiths with an English translation.</p><!-- kuch: The inscription was first edited by H. Kern, Inscriptions cambodgiennes. Article 1er. Inscription de Prea-Khan (Compong Soai). Annales de l'Extrême Orient II-III (1879/1880), 333-341. [Édition princeps, reprise dans H. Kern, Verspreide geschriften, t. III (La Haye, 1915), p. 227-235.]. -->
+	 <listBibl type="primary">
+    <bibl n="LF">
+      <ptr target="bib:Finot1904_08"/><citedRange unit="page">672-675</citedRange>
+    </bibl>
+	</listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
