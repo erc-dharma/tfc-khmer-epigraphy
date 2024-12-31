@@ -96,7 +96,7 @@
 |K.	89 |kuch |done |IC III|
 |K.	90 |kuch |done |IC V|
 |K.	91 |# |# |#|
-|K.	92 |# |# |#|
+|K.	92 |kuch |done |IC V|
 |K.	93 |# |# |#|
 |K.	94 |kuch |done|IC V|
 |K.	95 |sapi |pending |ISCC|
@@ -167,7 +167,7 @@
 |K.	158 |# |# |#|
 |K.	159 |kuch |done |IC VI|
 |K.	160 |chch |pending |unpublished|
-|K.	161 |# |# |#|
+|K.	161 |kuch |done |Finot 1904|
 |K.	162 |# |# |#|
 |K.	163 |kuch |done |IC VI|
 |K.	164 |# |# |#|
@@ -226,10 +226,11 @@
 |K.	216-N2 |chch |done |IC III|
 |K.	216-S |chch |done |IC III|
 |K.	217 |# |# |#|
-|K.	218 |# |# |#|
+|K.	218 |kuch |done |IC III|
 |K.	219 |# |# |#|
 |K.	220 |kuch |done |IC VI|
-|K.	221 |# |# |#|
+|K.	221-1 |kuch |done |IC III|
+|K.	221-2 |kuch |done |IC III|
 |K.	222 |# |# |#|
 |K.	223 |# |# |#|
 |K.	224 |# |# |#|
@@ -299,7 +300,7 @@
 |K.	275 |# |# |#|
 |K.	276 |chch |done |IC IV|
 |K.	277 |chch |pending |IC IV|
-|K.	278 |# |# |#|
+|K.	278 |kuch |done |ISC|
 |K.	279 |chch |pending |ISCC|
 |K.	280 |# |# |#|
 |K.	281 |# |# |#|
@@ -664,10 +665,10 @@ K.	294 |# |# |#|
 |K.	566 |# |# |#|
 |K.	567 |# |# |#|
 |K.	568 |# |# |#|
-|K.	569 |# |# |#|
+|K.	569-1 |kuch |done |Finot 1926|
 |K.	570 |# |# |#|
 |K.	571 |# |# |#|
-|K.	572 |# |# |#|
+|K.	572 |kuch |done |Finot 1926|
 |K.	573 |dogo |done |Finot 1926|
 |K.	574 |dogo |done |Finot 1926|
 |K.	575 |dogo |done |Finot 1926|
@@ -801,7 +802,7 @@ K.	294 |# |# |#|
 |K.	699 |# |# |#|
 |K.	700 |# |# |#|
 |K.	701 |# |# |#|
-|K.	702 |# |# |#|
+|K.	702 |kuch |done |IC V|
 |K.	703 |# |# |#|
 |K.	704 |chch |done |unpublished|
 |K.	705 |# |# |#|
