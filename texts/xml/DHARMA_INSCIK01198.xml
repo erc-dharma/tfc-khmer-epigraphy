@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Vat Samrong (K. 1198), 931-936 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Geschheimer</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01198</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE. 
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2024-12-31" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p><milestone type="pagelike" unit="item" n="A"/><label xml:lang="eng">Face</label>
+                   <lb n="A1"/><g type="gomutraInitial">.</g><g type="ddandaOrnate">.</g><num value="931">931</num> śaka siddhi svasti jaya Aiśvaryya mān· lābha tarāp· vraḥ candrāditya mān· leya <unclear>p</unclear>i vraḥ kamrateṅ· Añ· śrī lakṣmipativarmmeśvara nu vraḥ kamrateṅ· Añ· śrī lakṣmipativarmmasvāmi vraḥ kamrateṅ· Añ· śrī lakṣmipativarmmaika<lb 
+                      n="A2" break="no"/>nātha vraḥ kamrateṅ· Añ· śrī lakṣmipativarmmeśvari vraḥ kamrateṅ· Añ· śrī lakṣmipativarmmajanani vraḥ kamrateṅ· Añ· gauripatiśvara vraḥ kamrateṅ· Añ· nartakeśvara dār· pūjā lvoḥ mahāsaṁhāra <g type="circleTarget">.</g>
+                   </p>
+                   <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A3"/><g type="ddandaOrnate">.</g>namaś śivāya yo ’rdhāṅga<space/>m</l>
+<l n="b">umāṅgāliṅga-saṅgatam·<space/></l>
+<l n="c">lamvi-bhramāhi-pāśena<space/></l>
+<l n="d">vedhe bhedabhayād iva<g type="ddandaOrnate">.</g><space/></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">sarvva-jyotir-nidhānāya<space/></l>
+<l n="b">sarvvato-vyāpine namaḥ<space/></l>
+<l n="c">kāryya-grāhyāya sūkṣmāya<space/></l>
+<l n="d">śivāya vyoma-rūpiṇe</l>
+</lg>
+                   <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A4"/><g type="ddandaOrnate">.</g>sarvvais saṁlakṣitā yasya<space/></l>
+<l n="b">mūrttayo vasudhādayaḥ<space/></l>
+<l n="c">tathāpi durlabho jñātā<space/></l>
+<l n="d">namas tasmai smara-dviṣe<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">cetaś śuddhaṅ kathan nr̥̄nāṁ<space/></l>
+<l n="b">yatsthitas syām itīva yaḥ<space/></l>
+<l n="c" enjamb="yes">Adhākṣīc citta-jañ ceto<space/></l>
+<l n="d">-dūṣaṇaṁ tan name haram·</l>
+</lg>
+                   <lg n="5" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="A5"/><g type="ddandaOrnate">.</g>harāṅga-śleṣaṇa-prīti<space/></l>
+<l n="b">-niryyat-svedām umān name<space/></l>
+<l n="c">gaṅgām iva nirasyantīṁ<space/></l>
+<l n="d">sveda-mūrtyāntara-sthitām·<g type="ddandaOrnate">.</g><space/></l>
+</lg>
+                   <lg n="6" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes">vande viṣṇun dadhau śaṅkha<space/></l>
+<l n="b">-cakre yaś śubhra-pātale<space/></l>
+<l n="c">nandana-ploṣaṇāyeva<space/></l>
+<l n="d">vimve candrārkkayor hr̥te</l>
+</lg>
+                   <lg n="7" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A6"/><g type="ddandaOrnate">.</g>surāṇām ādir āvāsa<space/>s</l>
+<l n="b">sumerur nābhi-jāmvu-jam·<space/></l>
+<l n="c">yasya bhūyaḥ kim ucyeta<space/></l>
+<l n="d">māhātmyan tan name harim·<g type="ddandaOrnate">.</g><space/></l>
+</lg>
+                   <lg n="8" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">lakṣmīn namāmi sarvveṣu<space/></l>
+<l n="b">sthitā mūrtyā kayāpi yā<space/></l>
+<l n="c">prītim evākaron nr̥̄ṇāṁ<space/></l>
+<l n="d">sutaptam iva kāñcanam·<g type="circleTarget">.</g></l>
+</lg>
+                   <lg n="9" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="A7"/><supplied reason="lost"><g type="ddandaOrnate">.</g></supplied>Āsīd aśeṣa-nr̥patīndra-kirīṭa-koṭi<space/></l>
+<l n="b">-santānakopari-parisphuritāṅghrikāntiḥ<space/></l>
+<l n="c" enjamb="yes">śrīsūryyavarmma-nr̥patir jaladhi-dvi-randhra</l>
+<l n="d">-lavdhāṁ payodhi-vasanāṁ vasudhān dadhānaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="10" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A8"/><g type="ddandaOrnate">.</g>kāntyā manobhava-vapur vvibhavād abhinnaṁ<space/></l>
+<l n="b">manye yam amvuja-bhavo yadi nāma paśyet·<space/></l>
+<l n="c">roṣāgninā paśupater na hato manobhū<space/>r</l>
+<l n="d">ity ākulo nu kalayed vikalaṁ svaśāpam·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="11" met="mālinī" xml:lang="san-Latn">
+<l n="a"><lb n="A9"/><g type="ddandaOrnate">.</g>kṣaṇam api harinākṣyo vīkṣya yaṁ vīkṣatāṅgā<space/>s</l>
+<l n="b">smara-śara-śikhi-dhāmnāhar-nniśaṁ śarmma-śūnyāḥ<space/></l>
+<l n="c">prati nija-paritāpāt kartukāmā Ivārttiṁ<space/></l>
+<l n="d">svahr̥di nidadhur uṣṇe vahninā cittayoneḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="12" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A10"/><g type="ddandaOrnate">.</g>dharmmonmukhaṁ valinam uttama-śauryya-yuktaṁ<space/></l>
+<l n="b">kāntaṁ priyamvadam avāpya patiṁ yam ekam·<space/></l>
+<l n="c">lakṣmir jahāsa kila pāndava-dharmmapatnī<space/>m</l>
+<l n="d">evaṁ-vidhaikapatim īpsum apārayantīm·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="13" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A11"/><g type="ddandaOrnate">.</g>Āhlādanātapana-karmma-samartham ekaṁ<space/></l>
+<l n="b">yaṁ vīkṣya tīkṣna-kiraṇas tapanaika-kāryyaḥ<space/></l>
+<l n="c">kartuṁ svaśaktim iva tatsadr̥śīṁ himāṅśo<space/>r</l>
+<l n="d">gr̥hnan kalāṁ pratisasarja punar na śaktaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="14" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A12"/><g type="ddandaOrnate">.</g>spaṣṭaṁ prakāśya makara-dhvajam aṅgakāntyā<space/></l>
+<l n="b">vīryyena  vīryyam api vidviṣato surāṇām·<space/></l>
+<l n="c">nyāyyābhirakṣaṇa-guṇena kalau vihīnaṁ<space/></l>
+<l n="d">dharmmasya pādam api yas sakalīcakāra<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="15" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A13"/><g type="ddandaOrnate">.</g>yāsyoditasya  yaśasi jvalite yaśāṅsi<space/></l>
+<l n="b">kṣoṇī-bhr̥tāṁ yugapad eva tirovabhūvuḥ<space/></l>
+<l n="c">hīna-prabhāva-vibhavād athavātmanāśā<space/>t</l>
+<l n="d">tārākarā Iva divā dina-kr̥tprakāśe<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="16" met="indravajrā" xml:lang="san-Latn">
+<l n="a"><lb n="A14"/><g type="ddandaOrnate">.</g>śauryyāt svadaurdandasamitsamutko<space/></l>
+<l n="b">dūraṁ samutsāritaśatrusaṅghe<space/></l>
+<l n="c">Ātmaprabhāve py upajātaroṣaḥ<space/></l>
+<l n="d">prāyas svayaṁ yuddham alavdhavān yaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="17" met="indravajrā" xml:lang="san-Latn">
+<l n="a"><lb n="A15"/><g type="ddandaOrnate">.</g>yeṣāṁ spr̥hā nāmayitun dhanūṅṣi<space/></l>
+<l n="b">yuddhāya pūrvvan dharaṇīdharāṇām·<space/></l>
+<l n="c">yadviryyam  udvīkṣya tu vandanāya<space/></l>
+<l n="d">vītābhimānāt svaśirāṅsi teṣām·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="18" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="A16"/><g type="ddandaOrnate">.</g>Ā vārirāśeḥ praṇate samaste<space/></l>
+<l n="b">rājanyake vidviṣatāṁ purastāt·<space/></l>
+<l n="c">samānativyaktaruṣeva cāpe<space/></l>
+<l n="d">nāropayām āsa punar guṇaṁ yaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="19" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A17"/><supplied reason="lost"><g type="ddandaOrnate">.</g>ba</supplied>ddh<supplied reason="lost">a</supplied>ṁ guṇaiś śaśikalāviśadaṁ samantā<space/>d</l>
+<l n="b">ākīrṇnam antaritaviśvam arandhram iddham·<space/></l>
+<l n="c">kṣoṇīvadhūdhr̥tasumerusuvarṇnayaṣṭe<space/>r</l>
+<l n="d">dhautātapatram iva yasya yaśaḥpratānaṁ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="20" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="A18"/><g type="ddandaOrnate">.</g>yādr̥kprathimnā prathitāpi pr̥thvī<space/></l>
+<l n="b">tanūkr̥tā vīryyaguṇena yena<space/></l>
+<l n="c">tr̥ṣnāpy anantārthijanasya tādr̥<space/>k</l>
+<l n="d">tyāgena nītā gatamūlam antam·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="21" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A16"/><g type="ddandaOrnate">.</g>satsūpapāditasamastasamr̥ddhijātaṁ<space/></l>
+<l n="b">yaṁ vīkṣya ditsum api jīvitam arthivargge<space/></l>
+<l n="c">dadyāt kadā cid api mām iti śaṅkayeva<space/></l>
+<l n="d">dikṣu drutā daśasu kīrttir atiprayāpi<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="22" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A20"/><g type="ddandaOrnate">.</g>śrīsūryyavarmmadevasya<space/></l>
+<l n="b">tasya vyādhapurānvayaḥ<space/></l>
+<l n="c">śrīlakṣmīpativarmmā ya<space/>s</l>
+<l n="d">senāṇīr agraṇīr yudhāṁ<g type="ddandaOrnate">.</g><space/></l>
+</lg>
+                   <lg n="23" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">Ādau yas tena bhūbhartrā<space/></l>
+<l n="b">paścimāśāvakāśināṁ<space/></l>
+<l n="c">rāmanyānām adhīśatve<space/></l>
+<l n="d">niyukto yuddhadohadaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="24" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A21"/><g type="ddandaOrnate">.</g>yathābhilaṣitaṁ bhartu<space/>r</l>
+<l n="b">vvikramāntair nayair nayī<space/></l>
+<l n="c">yas tān nītvā vaśe nekā<space/>n</l>
+<l n="d">karaughān kr̥ty akārayat·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="25" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">pauruṣopārjitair yyena<space/></l>
+<l n="b">jīvitāntair upāyanaiḥ<space/></l>
+<l n="c">svāmino mahatī prīti<space/>r</l>
+<l n="d">ātmakīrtyā samaṁ kr̥tā<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="26" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A22"/><g type="ddandaOrnate">.</g>yasya śuddhāṁ matiṁ vīkṣya<space/></l>
+<l n="b">dākṣyañ ca draviṇārj<supplied reason="lost">j</supplied>aṇ<unclear>e</unclear><space/></l>
+<l n="c" met="bha-vipulā" real="++-++--+">kośādhipatvaṁ vidadhe<space/></l>
+<l n="d">sa rājā rājyarañjanaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="27" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">mahoragasyojvalāṁ haimīṁ<space/></l>
+<l n="b">dolāṁ rupyapratigrahaṁ<space/></l>
+<l n="c">yasmai prādān nr̥paḥ prītyā<space/></l>
+<l n="d">sa karaṅkañ ca kāñcanaṁ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="28" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A23"/><g type="ddandaOrnate">.</g>vibhūtiṁ mahatīṁ prāpya<space/></l>
+<l n="b">bhartur ārādhitāt tataḥ<space/></l>
+<l n="c">ya<supplied reason="lost">j</supplied>ñair <unclear>y</unclear>yo vividhair devā<space/>n</l>
+<l n="d">viprān vittair atarppayat·<g type="ddandaOrnate">.</g><space/></l>
+</lg>
+                   <lg n="29" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">hemarupyādibhir dravyaiḥ<space/></l>
+<l n="b">krītvā kṣmāṁ kṣetrasaṁyutāṁ<space/></l>
+<l n="c">dr̥ḍhī kartuṁ sa rājānaṁ<space/></l>
+<l n="d">punas tāṁ samayācata<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="30" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A24"/><g type="ddandaOrnate">.</g>sa madhyadeśanāmānaṁ<space/></l>
+<l n="b">grāmaṁ cakre svapauruṣaiḥ<space/></l>
+<l n="c" enjamb="yes" met="na-vipulā" real="-+-+---+">mahāt<supplied reason="lost">aṭāka</supplied> parikhā</l>
+<l n="d">prākārārāmarañjitam·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="31" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">śaivaṁ liṅgaṁ sa <unclear>g</unclear>arvvasya<space/></l>
+<l n="b">śarvvānyāś ca nime Ime<space/></l>
+<l n="c">saśriyaś śārggapāṇeś ca<space/></l>
+<l n="d">vidhinā samatiṣthipat·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="32" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A25"/><g type="ddandaOrnate">.</g>gauryyā gaurīśvarasyāpi<space/></l>
+<l n="b">govr̥ṣe vasator nimāḥ<space/></l>
+<l n="c">sa haimīḥ <unclear>s</unclear>th<supplied reason="lost">āpa</supplied>yām āsa<space/></l>
+<l n="d">nr̥tyataś ca kapardinaḥ<g type="ddandaOrnate">.</g><space/></l>
+</lg>
+                   <lg n="33" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">vidhinā tena tat sarvvaṁ<space/></l>
+<l n="b">nandikālādimūrttibhiḥ<space/></l>
+<l n="c">sthāpayitvā kr̥taṁ sthānaṁ<space/></l>
+<l n="d">harmmyaprāsādabhāsvaram·<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="34" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="A26"/><g type="ddandaOrnate">.</g><unclear>na</unclear>ranārīgajāśvādi<space/></l>
+<l n="b">-pūrṇnaṁ <surplus>pu</surplus> pu<surplus>rṇnaṁ</surplus><unclear cert="low">ra</unclear>bhide puram·<space/></l>
+<l n="c">dadau hemādibhogāṁś ca<space/></l>
+<l n="d">ratnāṅkābharaṇāni ca<g type="ddandaOrnate">.</g><space/></l>
+</lg>
+                   <lg n="35" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">grāme sa svāminā datte</l>
+<l n="b">sukhāvāse samr̥dgirau</l>
+<l n="c">liṅge saṁsthāpayām āsa</l>
+<l n="d">sthānos sthāsnuyaśodhanaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="36" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A27"/><g type="ddandaOrnate">.</g>pr̥thuparvvataśarvvasya<space/></l>
+<l n="b">sa kr̥tvāśramam uttamam·<space/></l>
+<l n="c" enjamb="yes">pūjāvalividhiṁ bhaktyā<space/></l>
+<l n="d">kalpayat prativatsaram·<g type="ddandaOrnate">.</g><space/></l>
+</lg>
+                   <lg n="37" met="upajāti" xml:lang="san-Latn">
+<l n="a">kāleyadoṣair lavapur  aranyaṁ<space/></l>
+<l n="b">pranaṣṭarūpā hatasarvvaśobhā<space/></l>
+<l n="c">vyāghrādibhir vyālamr̥gaiḥ prakīrṇnā<space/></l>
+<l n="d">śmaśānabhūmer api bhimarupā<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="38" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A28"/><g type="ddandaOrnate">.</g>sarvve śūnyatamāś ciraṁ kaliyuge naṣṭā dhruvaṁ vāruṇāḥ<space/></l>
+<l n="b">saṁruḍhadrumarāśayo pi viṣayā rājñā niyuktena ye<space/></l>
+<l n="c">śrīlakṣmīpativarmmaṇā kila punaḥ kartuṁ yathāpūrvvakaṁ<space/></l>
+<l n="d">te kr̥tvādiyuge yathātibharitan nitās  samr̥ddhiṁ punaḥ<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="39" met="sragdharā" xml:lang="san-Latn">
+<l n="a"><lb n="A29"/><g type="ddandaOrnate">.</g>kr̥tyāny etāni kr̥tvā dvijavudhahutabhuksannidhau dhautabhaktyā<space/></l>
+<l n="b">bhartre teṣāṁ phalāni pramuditahr̥dayas sa pradāya pradāyī<space/></l>
+<l n="c">Ātmārthan tv ācakāṁkṣa kṣaṇam api na vinā svāminañ jīvītārthī<space/></l>
+<l n="d">saṁśuddhasvāmibhaktiprajanitam adhikaṁ satphalan tv ekam eva<g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="40" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="A30"/>śrimān sa lakṣmi pativarmmanāmadhr̥k·<space/></l>
+<l n="b">śivāddhure dhurjati mantranirajaḥ<space/></l>
+<l n="c">s<unclear>u</unclear>varṇaliṅgaṁ parajanmapāvane<space/></l>
+<l n="d">sutiṣthapac caivam apārivāridhau<g type="circleHorned">.</g></l>
+</lg>
+                   <p>
+                     <lb n="A31"/>hanira vraḥ suvarṇa Oṅkāra mvāya thmo ta gi vraḥ na<add place="above">va</add>vapatra suvarṇa liṅ· 10 rūpya liṅa 10 cancyān· hāra ta gi thmo sarvvaratna 100 80 10 5 karaṅ· navapatra panEṅ· snap· pranāl· <g type="circleSmall">.</g> vāt· mās· <num value="1"><g type="numeral">I</g></num> ṅana jyaṅ· <num value="2"><g type="numeral">II</g></num> liṅa 10 vat<unclear>·</unclear>
+                      <lb n="A32"/>veṅa caṁlāka hanira <num value="1"><g type="numeral">I</g></num> ṅana jyaṅ· 4 vaudi prak· <num value="1"><g type="numeral">I</g></num> ṅana jyaṅ· 10 khlās· <num value="1"><g type="numeral">I</g></num> ṅana jyaṅa 7 rūpyapatigraha <num value="1"><g type="numeral">I</g></num> ṅana jyaṅ· 10 rūpyabhājana vār· hanira <num value="2"><g type="numeral">II</g></num> ṅana jya<supplied reason="omitted">ṅ·</supplied> 4 sme <g type="circleSmall">.</g> rūpyabhājana sraḥ <num value="1"><g type="numeral">I</g></num> ṅana jyaṅa 4 nu leka vraḥ curu caruko-
+                      <lb n="A33"/>ṣa <num value="1"><g type="numeral">I</g></num> graloṅa tai hanira <num value="1"><g type="numeral">I</g></num> ṅana jyaṅa <num value="3"><g type="numeral">III</g></num> khāl· prak· hanira 4 ṅana liṅ· 10 sme <g type="circleSmall">.</g> khāl· praka sraḥ <num value="1"><g type="numeral">I</g></num> val·vyal· jeṅ· praka hanira vār· <num value="1"><g type="numeral">I</g></num> śarāva prak· 5 liṅa 5 sme pādya prak· <num value="1"><g type="numeral">I</g></num> tanlāpa prak· hanira <num value="1"><g type="numeral">I</g></num> kalaśa <num value="1"><g type="numeral">I</g></num> suvarṇapatala-
+                      <lb n="A34"/>kamandalu 8 trayūṅ· <num value="2"><g type="numeral">II</g></num> jagara <num value="1"><g type="numeral">I</g></num> khān· <num value="2"><g type="numeral">II</g></num> <unclear><g type="floretComplexe">.</g></unclear> nā vra<supplied reason="omitted">ḥ</supplied> kamrateṅa Añ· ta parameśvara rūpyabhājana <num value="1"><g type="numeral">I</g></num> ṅana jyaṅa 4 śarāva prak· <num value="2"><g type="numeral">II</g></num> kalaśa <num value="1"><g type="numeral">I</g></num> Arghya prak· <num value="1"><g type="numeral">I</g></num> pādya prak· <num value="2"><g type="numeral">II</g></num> jagara <num value="1"><g type="numeral">I</g></num> kamandalu laṅgau <num value="1"><g type="numeral">I</g></num> svok· laṅgau <num value="1"><g type="numeral">I</g></num> trayūṅ· <num value="1"><g type="numeral">I</g></num> curi <num value="1"><g type="numeral">I</g></num> khan· <num value="1"><g type="numeral">I</g></num>
+                      <lb n="A35"/>koṅgi <num value="1"><g type="numeral">I</g></num> <g type="floretComplexe">.</g> nā vraḥ kamrateṅa Aña nārāyana rūpyabhājana <num value="1"><g type="numeral">I</g></num> ṅana jyaṅ· 4 rūpyārgha <num value="1"><g type="numeral">I</g></num> rūpyapādya <num value="1"><g type="numeral">I</g></num> tanlāp· prak· <num value="1"><g type="numeral">I</g></num> śarāva prak· <num value="2"><g type="numeral">II</g></num> kalaśa <num value="1"><g type="numeral">I</g></num> trayūṅ· <num value="1"><g type="numeral">I</g></num> jagāra <num value="1"><g type="numeral">I</g></num> svoka laṅgau <num value="2"><g type="numeral">II</g></num> kamandalu laṅgau <num value="2"><g type="numeral">II</g></num> khān· <num value="2"><g type="numeral">II</g></num> vraḥ cakra <num value="2"><g type="numeral">II</g></num>
+                      <lb n="A36"/>vat· vvatteṅkuy· <num value="1"><g type="numeral">I</g></num> <g type="floretComplexe">.</g> nā vraḥ kaṁmrateṅ· Aña gauripatīśvara nu vraḥ kaṁmrateṅ· Aña nartakeśvara rūpyabhājana <num value="2"><g type="numeral">II</g></num> ṅana jyaṅ· 4 sme rūpyakamandalu <num value="2"><g type="numeral">II</g></num> rūpyārghya <num value="1"><g type="numeral">I</g></num> śarāva prak· <num value="3"><g type="numeral">III</g></num> pādya prak· <num value="1"><g type="numeral">I</g></num> tanlāp· hanira <num value="2"><g type="numeral">II</g></num> kalaśa <num value="1"><unclear><g type="numeral">I</g></unclear></num>
+                      <lb n="A37"/>jagara <num value="1"><g type="numeral">I</g></num> trayūṅa <num value="1"><g type="numeral">I</g></num> svok· laṅgau <num value="1"><g type="numeral">I</g></num> karaṅ· navapatra paneEṅ· <g type="floretComplexe">.</g> 936 śaka sauravāra nu trā pañjiya qnaka paṁre vraḥ kaṁsteṅa Aña śri lakṣmipativarmma ta ti pre pa<supplied reason="omitted">ṁ</supplied>re ta vraḥ kaṁmrateṅa Aña śivaliṅga maddhyadeśa panlāsa śarira vraḥ ka<supplied reason="omitted">ṁ</supplied>steṅa
+                   </p>
+                   <p><milestone type="pagelike" unit="item" n="C"/><label xml:lang="eng">Face</label>
+                   <lb n="C1"/>
+                      <lb n="C2"/>
+                   </p>
+                     <p><milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Face</label>
+                   <lb n="B1"/>
+                      <lb n="B2"/>
+                   </p>
+                </div>
+<div type="apparatus">
+               <listApp>
+                  <app loc="7">
+                     <lem></lem>
+                     <rdg source="bib:Pou2001_01"></rdg>
+                     </app>
+                  </listApp>         
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
+           <p n="1-12"></p>
+        </div>
+  <!--  <div type="commentary">
+          <p></p>
+       </div>  -->
+         <div type="bibliography">
+          <p>The Khmer portion is first edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">240-260</citedRange></bibl>) with a French translation; re-edited here by Gerdi Gersccheimer, Arlo Griffiths, Domonique Soutif and Kunthea Chhom from the estampage EFEO n. 1654 and by checking on the stela.</p>
+	 <listBibl type="primary">
+    <bibl n="LF">
+      <ptr target="bib:Pou2001_01"/><citedRange unit="page">240-260</citedRange>
+    </bibl>
+	</listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
