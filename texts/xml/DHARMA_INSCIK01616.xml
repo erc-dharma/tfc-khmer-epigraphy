@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sīmā stone from Ban Naxone (K. 1616), 758 Śaka</title>
+                <respStmt>
+                    <resp>EpiDoc encoding</resp>
+                    <persName ref="part:argr">
+                        <forename>Arlo</forename>
+                        <surname>Griffiths</surname>
+                    </persName>
+                </respStmt>
+            	<respStmt>
+            		<resp>intellectual authorship of edition</resp>
+                    <persName ref="part:dogo">
+            			<forename>Dominic</forename>
+            			<surname>Goodall</surname>
+            		</persName>
+            		<persName ref="part:argr">
+            			<forename>Arlo</forename>
+            			<surname>Griffiths</surname>
+            		</persName>
+            	</respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Jakarta</pubPlace>
+                <idno type="filename">DHARMA_INSCIK01616</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                        <p>Copyright (c) 2019-2025 by Dominic Goodall &amp; Arlo Griffiths.</p>
+                        </licence>
+                </availability>
+                <date from="2019" to="2025">2019-2025</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                            <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+            </projectDesc>
+            <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
+            <listPrefixDef>
+                <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+                    <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+                </prefixDef>
+                <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_idListMembers_v01.xml#$1">
+                    <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_idListMembers_v01.xml</ref> file.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:argr" when="2025-01-13" status="draft">encoded the inscription</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+            <lg met="sragdharā" n="1">
+                <l n="a"><lb n="1"/><g type="floretQuatrefoil"/> śrīmā<unclear>ñ ch</unclear>rī-dharmmasi<unclear>ṁh</unclear>aḥ prathi<unclear>ta</unclear>ta<unclear>ra</unclear>-yaśo dig-vidiś-cāpa-<unclear>ś</unclear>o<unclear>bhaḥ</unclear></l>
+                <l n="b"><lb n="2"/>dharmmajñaḥ <unclear>Ā</unclear>dya-dāntaḥ <unclear>ri</unclear>pu-gaṇa-vijayaḥ śaktimān tyāga-śūraḥ <g type="danda"/></l>
+                <l n="c"><lb n="3"/>trailokya<unclear>ṁl lo</unclear>kanārthaḥ <unclear>A</unclear>para-hi<unclear>ta-rata</unclear> sthāpitan tena śailaṁ</l>
+	                    <!-- lokanārthaḥ = avalokanārthaḥ?
+	                        comprendre rata = ratas, ou lire rataṁ? -->
+                <l n="d"><lb n="4"/>mūrttiḥ-bāṇā<unclear>śva</unclear>-śā<unclear>ke</unclear> <seg met="------++-+"><gap reason="illegible" unit="character" quantity="10"/></seg> śukla-pakṣe</l>
+            </lg>
+         </div>
+         <div type="apparatus"/>
+         <div type="translation" xml:lang="fr">
+         <p>L'illustre Śrī Dharmasiṁha est d'une renommée fort répandue, doté de la beauté de l'arc en ciel dans toutes les directions cardinales et intermédiaires; conscient du <foreign>dharma</foreign>; d'une retenue hors paire; conquérant des ennemis en masse; puissant; champion de générosité. Soucieux du bien des autres, pour surveiller (<foreign>lokana</foreign> = <foreign>avalokana</foreign>?) les Trois Mondes, il a érigé la pierre, dans la quinzaine claire ... <supplied reason="undefined">de l’année</supplied> śaka <supplied reason="undefined">exprimée comme</supplied> (8) formes, (5) flèches, (7) chevaux <supplied reason="explanation">donc en 758 śaka</supplied>.</p>
+         </div>
+         <div type="commentary">
+            <p>Irregularities of sandhi: <foreign>-jñaḥ Ādya-</foreign>, <foreign>mūrttiḥ-bā-</foreign>; stradding the cesura, sandhi is alternatively applied (a <foreign>-yaśo / dig-</foreign>), or not applied (b <foreign>-dāntaḥ / ripu-</foreign>, c <foreign>-nārthaḥ / Apara-</foreign>).</p>
+         </div>
+        <div type="bibliography">
+           <p>First documented by Michel Lorrillard in 2024. This digital edition by Dominic Goodall and Arlo Griffiths from photographs of the stela and of an estanmpage.</p>
+        	<listBibl type="primary">
+				<bibl n="siglum"/><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+			</listBibl>
+           <listBibl type="secondary">
+              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
