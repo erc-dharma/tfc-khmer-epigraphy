@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Stung Crap (K. 693), 925 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>     
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00693</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE. <!-- kuch: The estampage EFEO n. 530 is not available and the EFEO n.1131 has a damaged text. -->
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-02-17" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <ab><milestone type="pagelike" unit="face" n="A"/><lb n="01"/>siddhi svasti</ab>
+                   <p><lb n="A1"/><num value="925">925</num> śaka pañcamī ket· bhadrapada Ādityavāra nu vāp· vrahmaputra chmāṁ vraḥ
+                     <lb n="A2"/>kralā phdaṁ nā Eka Oy· saṁnvat· pi steṅ<unclear>·</unclear> Añ· Ācāryyapradhāna nā trīṇi paṅgaṁ thpvaṅ· ni<lb n="A3" break="no"/><supplied reason="lost">veda</supplied>na ta dhūli vraḥ pāda dhūli jeṅ· vraḥ kaṁmrateṅ· Añ· śrījayavīravarmmadeva teṁ
+                      <lb n="A4"/><gap reason="lost" quantity="7" unit="character"/> kule vāp· vrahmaputra svaṁ vraḥ karuṇā prasāda nu <gap reason="lost" quantity="5" unit="character"/>
+                      <lb n="A5"/><gap reason="lost" quantity="7" unit="character"/> praśasta neḥ leṅ· kaṁpi mān· pīdā <g type="dotMid">.</g> neḥha vraḥ Ālakṣaṇa ti
+                      <lb n="A6"/>steṅ· Añ<unclear>·</unclear> Ācāryyapradhāna nā trīṇi pre pandval ta vāp· vrahmaputra pre thve
+                      <lb n="A7"/><gap reason="lost" quantity="1" unit="character"/> kaṁpi mān· pīdā <g type="dotMid">.</g> kalpanā vāp· vrahmaputra thvāy· vraḥ bhoga kamrateṅ· jagat· li<lb n="A8" break="no"/><supplied reason="lost">ṅga</supplied>pura chnāṁ raṅko thlvaṅ· <num value="2"><g type="numeral">II</g></num> paryyaṅ· mās· <num value="2"><g type="numeral">II</g></num> canlyāk· yo <num value="2"><g type="numeral">II</g></num> thvāy· vraḥ bhoga lyoṅ· <num value="1"><g type="numeral">I</g></num> je <gap reason="lost" quantity="1" unit="character"/>
+                      <lb n="A9"/>paryyaṅ· mās· <num value="1"><g type="numeral">I</g></num> canlyāk· yo <num value="2"><g type="numeral">II</g></num>
+                      </p>
+                   <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><seg met="====-+"><gap reason="illegible" quantity="6" unit="character"/></seg> ye tu<space/></l>
+<l n="b">śāsanaṁ kalpanām imām·</l>
+<l n="c"><lb n="A10"/><supplied reason="lost">varddhaye</supplied>yuś ca punyasya<space/></l>
+<l n="d">phalārddhan te <seg met="-+-+"><gap reason="illegible" quantity="4" unit="character"/></seg><g type="ddanda">.</g></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><seg met="==="><gap reason="illegible" quantity="3" unit="character"/></seg>prati<seg met="+"><gap reason="illegible" quantity="1" unit="character"/></seg>ttās tu<space/></l>
+<l n="b"><seg met="=="><gap reason="illegible" quantity="2" unit="character"/></seg>pūrvvān sa<seg met="+-+"><gap reason="illegible" quantity="3" unit="character"/></seg></l>
+<l n="c"><lb n="A11"/><seg met="===="><gap reason="illegible" quantity="4" unit="character"/></seg>avīcyādau<space/></l>
+<l n="d">yo lumpet· taṁ <seg met="-+-+"><gap reason="illegible" quantity="4" unit="character"/></seg><g type="ddanda">.</g></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">kalpanāṁ ye vilumpeyu<space/>r</l>
+<l n="b">laṅghayeyu<lb n="A12"/><supplied reason="lost">ś ca śāsanam·</supplied><space/></l>
+<l n="c">dvātriṁśanarakaṁ yāntu<space/></l>
+<l n="d">yāvac candradivākarau <g type="ddanda">.</g></l>
+</lg>
+                   <p>ta gi vraḥ rājya ta stāc· dau<lb n="A13"/>
+                   </p>
+                </div>
+<!--<div type="apparatus">
+               <listApp>
+<app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1953_01"></rdg>
+                     </app>
+                  </listApp>         
+         </div> -->
+        <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+          <p n="1-5"></p>
+        </div>
+   <!--  <div type="commentary">
+          <p></p>
+       </div>  -->
+         <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1953_01"/><citedRange unit="page">202-209</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom from the estampage EFEO n. 854.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">202-209</citedRange>
+    </bibl>
+	</listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
