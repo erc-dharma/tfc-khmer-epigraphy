@@ -246,7 +246,7 @@
 |K.	229 |# |# |#|
 |K.	230 |# |# |#|
 |K.	231 |chch |done |IC III|
-|K.	232 |# |# |#|
+|K.	232 |kuch |done |IC VI|
 |K.	233 |# |# |#|
 |K.	234 |kuch |done |IC VI|
 |K.	235 |# |# |#|
@@ -791,7 +791,7 @@ K.	294 |# |# |#|
 |K.	690 |# |# |#|
 |K.	691 |chch |done |IC IV|
 |K.	692 |chch |pending |IC I|
-|K.	693 |# |# |#|
+|K.	693 |kuch |done |IC V|
 |K.	694 |# |# |#|
 |K.	695 |# |# |#|
 |K.	696-1 |kuch |done |Cœdès 1951|
@@ -805,7 +805,7 @@ K.	294 |# |# |#|
 |K.	702 |kuch |done |IC V|
 |K.	703 |# |# |#|
 |K.	704 |chch |done |unpublished|
-|K.	705 |# |# |#|
+|K.	705 |kuch |done |IC V|
 |K.	706 |chch |pending |IC V|
 |K.	707 |chch |pending |IC V|
 |K.	708 |# |# |#|
@@ -1337,7 +1337,7 @@ K.	294 |# |# |#|
 |K.	1195 |# |# |#|
 |K.	1196 |# |# |#|
 |K.	1197 |kuch |done |NIC IV|
-|K.	1198 |kuch |pending |NIC II-III|
+|K.	1198 |kuch |done |NIC II-III|
 |K.	1199 |# |# |#|
 |K.	1200 |# |# |#|
 |K.	1201 |kuch |done |unpublished|
