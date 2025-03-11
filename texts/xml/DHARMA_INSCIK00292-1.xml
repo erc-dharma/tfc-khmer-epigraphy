@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oath of loyalty sworn to King Sūryavarman I at the Royal Palace (K. 292-1), 933 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00292-1</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-03-11" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                    <p><lb 
+                       n="1"/><supplied reason="lost"><num value="933">933</num> śaka navamī ket·</supplied> <unclear>bha</unclear>drapada Ādityavāra <g type="circleSmall">.</g> neḥha gi roḥha vaddhapratijñā yeṅ· ta Aṁpāla neḥha nā bhāga tamrvāc· catvāri syaṅ ta śapathavelā kāt tai thvāy·
+                       <lb n="2"/><supplied reason="lost">Āyuḥ nu kr̥tajñabhakti ye</supplied><unclear>ṅ ta śuddha ta dhūli</unclear> vraḥ pāda kamrateṅ· kaṁtvan· Añ· śrī sūryyavarmmadeva ta sakala svey· vraḥ dharmmarājya nu <num value="924">924</num> śaka vnek ni ta vraḥ
+                       <lb n="3"/><supplied reason="lost">vleṅ· vraḥ ratna nu vrāhmaṇācāryya</supplied> <unclear><g type="circleSmall">.</g></unclear> yeṅ· vvaṁ paṅgam ta kaṁrateṅ· phdai karoṁ ta dai ti ley· vvaṁ khmāṅ ni vvaṁ saṁ nu khmāṅṅa  vvaṁ thve drohaprakāra phoṅ· <g type="circleSmall">.</g> nau Aṁpāla
+                       <lb n="4"/><supplied reason="lost">Aṁve phala kr̥tajñabhakti ta dhūli</supplied> vraḥ pāda kamrateṅ· kaṁtvan· Añ· śrī sūryyavarmmadeva noḥ gi pi yeṅ· Udyoga thve <g type="circleSmall">.</g> daha mān· caṁpāṅṅa yeṅ· Udyoga chpā<lb
+                          n="5" break="no"/><supplied reason="lost">ṅṅa nu sarvvātmaṇā vvaṁ sṅvan ta Āyuḥ hetu</supplied> <unclear>bhaktiy·</unclear> vvaṁ rat leṅ caṁpāṅ· <g type="circleSmall">.</g> daha qyat· caṁpāṅṅa pi yeṅ· slāp· nu svayaṁvyādhi muh ni leṅ· phala qnak ta svāmibhakti mān ta
+                       <lb n="6"/><supplied reason="lost">yeṅ· <g type="circleSmall">.</g> daha Āyuḥ yeṅ· Āc dan ta</supplied> vraḥ rājakārrya velā lvoḥ ta kāla nau prakāra leha yeṅ· slāp· hetu bhaktiy<unclear>·</unclear> gi pi yeṅ· thve <g type="circleSmall">.</g> daha mān vraḥ rāja-
+                       <lb n="7"/><supplied reason="lost">kāryya nā kamrateṅ· kaṁtvan· Añ· pandval·</supplied> <unclear>pi</unclear> pre yeṅ dau nā ta chṅāy<unclear>·</unclear> pi mān<unclear>·</unclear> varttamāna ta l̥ sveṅ· pi tyaṅ· vastu ta vyakta thve roḥha vaddhapratijñā didai ra <g type="circleSmall">.</g> daha yeṅ· ta
+                       <lb n="8"/><supplied reason="lost">Aṁpāl· neḥ mān ta nu vvaṁ thve roḥ va</supplied><unclear>ddha</unclear>pratijñā neḥha riya kamrateṅ· phdai karoṁ ta svey· vraḥ dharmmarājya caṁnyara svaṁ leṅ· Oy· rājabhaya ta yeṅ· leṅ· vvaṁ mvāy· prakāra <g type="circleSmall">.</g>
+                       <lb n="9"/><supplied reason="lost">daha yeṅ· mān ta kapata pi vvaṁ phgat· roḥ</supplied> <unclear>vaddha</unclear>pratijñā ta roḥha neḥha leṅ· yeṅ· jā ta dvātriṁśanaraka tarāp· vraḥ candrāditya mān· leya <g type="circleSmall">.</g> daha yeṅ· thve roḥha vaddhapra<lb 
+                          n="10" break="no"/><supplied reason="lost">tijñā neḥha ta śuddha leṅ· kamrateṅ·</supplied> phdai karoṁ pre paripālana vraḥ punya sruk· deśa yeṅ· leṅ· saṁpūraṇa qnau ta kule yeṅ· hetu yeṅ· svāmibhakti ta dhūli vraḥ pāda 
+                       <lb n="11"/><supplied reason="lost">kamrateṅ· kaṁtvan· Añ· śrī sūryyavarmma</supplied><unclear>deva</unclear> ta sakala svey· vraḥ dharmmarājya nu <num value="924">924</num> śaka <g type="circleSmall">.</g> riya phala qnak ta svāmibhakti leṅ· mān ta yeṅṅa Aṁvi Ihaloka dau lvoḥ paraloka <g type="circleSmall">.</g>
+                       <lb n="12"/><gap reason="lost" quantity="15" unit="character"/> sruk· pradāha <g type="circleSmall">.</g> mratāñ· khloñ· śrī vīravarmma sruk· rudrā <g type="circleSmall">.</g> mratāñ· khloñ· śrī vijayendrādhipativarmma sruk· galgul· <g type="circleSmall">.</g> mratāñ·
+                       <lb n="13"/><gap reason="lost" quantity="15" unit="character"/> mratāñ· khloñ· śrī samarendravarmma sruk· saraṁ <g type="circleSmall">.</g> mratāñ· khloñ· śrī vīravarmma sruk· chok· daṅdrāṅ· <g type="circleSmall">.</g> mratāñ· khloñ· śrī Uddhatta<lb 
+                          n="14" break="no"/><gap reason="lost" quantity="15" unit="character"/> śrī samarendravarmma sruk· rājapūra <g type="circleSmall">.</g> mratāñ· khloñ· śr<supplied reason="lost">ī</supplied> Uddhatav<choice><sic>i</sic><corr>ī</corr></choice>ravarmma sruk· stuk· kok· <g type="circleSmall">.</g>
+                    </p>
+            </div>
+             <div type="apparatus">
+               <listApp>
+                  <app loc="8">
+                     <lem>dharmmarājya</lem>
+                     <rdg source="bib:Coedes1951_01">rājya</rdg>
+                  </app>
+                  <app loc="8">
+                     <lem>yeṅ· leṅ· vvaṁ</lem>
+                     <rdg source="bib:Coedes1951_01">yeṅ vvaṁ</rdg>
+                  </app>
+                  <app loc="9">
+                     <lem><unclear>vaddha</unclear>pratijñā</lem>
+                     <rdg source="bib:Coedes1951_01">pratijñā</rdg>
+                  </app>
+                  <app loc="10">
+                     <lem>yeṅ· leṅ· saṁpūraṇa</lem>
+                     <rdg source="bib:Coedes1951_01">yeṅ saṁpūraṇa</rdg>
+                  </app>
+                  </listApp>         
+         </div>
+        <div type="translation" xml:lang="fra" source="bib:Coedes1951_01">
+           <p n="1-11">933 <foreign>śaka</foreign>, neuvième jour de la lune croissante de Bhadrapada, dimanche. Voici <supplied reason="subaudible">notre</supplied> serment : Nous tous appartenant à la division des <foreign>tamrvāc</foreign> de quatrième classe, au moment de jurer, nous coupons nos mains et offrons notre vie et notre dévotion reconnaissante, sans faute, à S.M. Śrī Sūryavarmadeva qui jouit complètement de la royauté légitime depuis 924 <foreign>śaka</foreign>, en présence du Feu sacré, du Joyau sacré, des brâhmanes et des <foreign>ācārya</foreign>. Nous ne révèrerons pas d'autre souverain que lui ; nous ne lui serons pas hostiles, et nous ne serons pas complices de ses ennemis ; nous ne commettrons aucun acte susceptible de lui nuire. Tous les actes qui sont le fruit de notre dévotion reconnaissante envers S.M. Śrī Sūryavarmadeva, nous nous efforçerons de les accomplir. En cas de guerre, nous nous efforcerons de combattre de tout notre cœur, de ne pas nous attacher à la vie ; par dévotion <supplied reason="subaudible">envers le roi</supplied> nous ne nous enfuirons pas hors du combat. Si, à défaut de guerre, nous mourons de maladie, ainsi puissions-nous obtenir la récompense des gens dévoués à leur maître. Si notre existence reste au service du roi, lorsque viendra l'occasion de mourir <supplied reason="subaudible">en service</supplied>, par dévotion nous le ferons. S'il y a une affaire de service pour laquelle Sa Majesté le roi nous ordonne d'aller au loin, parce qu'il y a un événement dont il a entendu parler, nous chercherons à connaître la chose en détail, et à tenir chacun notre serment. Si parmi nous tous, il y en a qui ne tiennent pas ce serment, nous demandons que les souverains qui règneront à l'avenir leur infligent les supplices royaux de plus d'une façon. Si parmi nous il y a des traîtres qui ne tiennent pas exactement ce serment, puissent-ils renaltre dans les trente-deux enfers, aussi longtemps que dureront le soleil et la lune. Si nous tenons sans faute ce serment, que le souverain donne des ordres pour l'entretien des fondations pieuses dans nos pays et la subsistance de nos familles, parce que nous sommes dévoués à notre maître S.M. Śrī Sūryavarmadeva qui jouit complètement de la royauté légitime depuis 924 <foreign>śaka</foreign>. La récompense des gens dévoués à leur maître, puissions-nous l'obtenir depuis ce monde-ci jusqu'en l'autre monde.</p>
+         </div>  
+       <!--   <div type="commentary">
+            <p></p>
+         </div>  -->
+        <div type="bibliography">
+          <p>Edited (<bibl rend="omitname"><ptr target="bib:Coedes1951_01"/><citedRange unit="page">208-210, 216</citedRange></bibl>) with a French translation of from lines 1 to 11, re-edited here by Kunthea Chhom from the estampage EFEO n. 28.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1951_01"/><citedRange unit="page">208-210, 216</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
