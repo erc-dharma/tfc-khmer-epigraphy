@@ -324,7 +324,7 @@
 |K.	289 |# |# |#|
 |K.	290 |chch |pending |IC III|
 |K.	291 |sapi |done |IC III |
-|K.	292 |# |# |#|
+|K.	292-1 |kuch |done |IC III|
 |K.	293-1 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
 |K.	293-2 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
 |K.	293-3 |kuch |done|Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
@@ -562,8 +562,8 @@ K.	294 |# |# |#|
 |K.	463 |# |# |#|
 |K.	464 |# |# |#|
 |K.	465 |# |# |#|
-|K.	466 |# |# |#|
-|K.	467 |# |# |#|
+|K.	466 |kuch |done |IC III|
+|K.	467 |kuch |done |IC III|
 |K.	468 |chch |done |IC III|
 |K.	469 |# |# |#|
 |K.	470 |# |# |#|
@@ -637,8 +637,9 @@ K.	294 |# |# |#|
 |K.	538 |# |# |#|
 |K.	539 = 293.24b |kuch |pending |BEFEO XVIII (10), Cœdès 1928|
 |K.	540 |kuch |done |IC III|
-|K.	541 |# |# |#|
-|K.	542 |# |# |#|
+|K.	541-1 |kuch |done |IC III|
+|K.	541-2 |kuch |done |IC III|
+|K.	542 |kuch |done |IC III|
 |K.	543 |# |# |#|
 |K.	544 |# |# |#|
 |K.	545 |# |# |#|
