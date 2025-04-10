@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Prasat Tonle Sgnuot (K. 1474), 11th century</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+               </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01450</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary>The inscription praises a courtier whose name is not likely to be mentioned in the readable portion of the inscription. He seems to be previously a priest at the temple Śrī Śikharīśvara (Preah Vihear) and head of his own corporation or clerical order (ātmavarṇṇa) called Amara before serving the king (who is probably to be identified as Sūryavarman I). By his expertise in Vedic and Āgamic rituals, he was appointed by the king as chief of sacrificial hall of fire and chief of royal priests. He was a devout worshiper of God Śiva. Out of devotion, he installed statues in four sacred sites beginning with Śrī Śikharīśvara (Preah Vihear). At the temple Śrī Śikharīśvara, he installed golden images of Nandin and Mahākāla along with villages, servants and lands. At other temples made of stone and brick beginning with Parameśvara (Preah Ko), he installed various śivaliṅgas and gods’ images. Furthermore, he installed many metal and gold images of gods and liṅgas at temples such as Phalapriya and resided at religious places like Bhadreśvara (Vat Phu). There, he conducted many rites (pūjā) for Śiva and offered paraphernalia such as palanquins, parasols and other ornaments, together with grains, servants, cows, buffaloes, horses, elephants, cattle and lands. He made many considerable water bodies flowing into channels running through places where there were roads and made gardens along the roads with plenty of fruits and shade.
+                     He belonged perhaps to a family of five brothers; he, being the youngest, yet the most skillful and glorious. He was comparable to Arjuna, supposedly the best among the five Pāṇḍava brothers in the Mahābhārata. It is probable that he was appointed as a teacher at the temple Śrī Śikharīśvara, possibly a chief of court of justice and later, a chief of a district (viṣaya). The king married his daughter to him, the highest of royal favours.
+                  </summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-04-10" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <lg n="1" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="2" met="upajāti">
+<l n="a"><lb n="3"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="4"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="3" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="4" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="5" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="6" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="7" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="8" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="9" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="10" met="vasantatilakā">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="11" met="indravajrāt">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="12" met="upendravajrā">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="13" met="indravajrā">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="14" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="15" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="16" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="17" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="18" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="19" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="20" met="upendravajrā">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="21" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="22" met="upendravajrā">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="23" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="24" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="25" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="26" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="27" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="28" met="upajāti">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+</div>
+        <!--    <div type="apparatus">
+                          
+         </div> -->
+          <div type="translation" resp="part:dogo part:kuch">
+             <p rend="stanza" n="1">Between the ocean of water and [the ocean] of his learning, oh ! (aho) what a huge difference, since (yat) the one dried up when drunk by a single sage [Agastya]; the other increased [when drunk] by many stalwarts !</p>
+             <p rend="stanza" n="2">Although (api) he upheld (dadhatā) ethical (dharmyām) conduct (pravṛttim) and although he knew the scriptures and manners of reasoning of Manu and so forth,
+somehow (kenāpi) he constantly (nityam) stole (muṣitam) the hearts (hṛdayam) and the learning (śrutam) of the very learned (bahuśrutānām) [[by force (prasahya)]].
+</p>
+             <p rend="stanza" n="3">I know, from seeing it, that Śaiva destiny/understanding/salvation is in my heart. But how can that [heart] of others [also] desire [that Śaiva salvation]? As though with this in mind, that greater person (yo mahīyān), controlled (yataḥ) broke open, with his hearty actions, the hearts of brahmins and others.</p>
+             <p rend="stanza" n="4">Because they are extremely difficult to find in others, [even individually], giving (deyam) and having a heart fond of giving, both came into being in him, however, because of his heaps of merit, as though constantly trying to conquer each other.</p>
+             <p rend="stanza" n="5">In ceaselessly pleasing the gods, ancestors, and persons worthy of honour such as brahmins by means of the rites that must be performed, by giving soma in sacrifices on altars and by [gifts of] food and the like [respectively], [this] sacrificer/founder (yajvā) was bountiful and devoid of pride.</p>
+             <p rend="stanza" n="6">Although he turned his mind to the common good for the sake of others, he particularly favoured things that he accomplished with effort,
+since (yat), after vanquishing the group of the six [enemies that are the passions] (ṣaḍvargam) he, after casting off weariness (udastatandrī), constantly (sadā) caused to increase (varddhayām āsa) the group of three [aims of man: viz. dharma, kāma, artha] (trivargam).
+</p>
+             <p rend="stanza" n="7">He received enjoyment (bhoktā), by the grace (prasādena) of that (asya) king (mahībhṛtaḥ), of an ivory-caned (dantadaṇḍam) white parasol (dhavalātapatram), and a gilded palanquin that was fearsome with the coils of snakes (abhibhogabhīmām)...</p>
+             <p rend="stanza" n="8">Formerly priest of the king at the mountain of Śikharīśvara, then afterwards revered by the king for his eloquence, being head of his own “caste”/guild called Amara, he became desirous of giving service to the king.</p><!-- OR
+Formerly priest at the mountain of Śikharīśvara, he afterwards was favoured by the king and by the decree of the king (rājño girā) became the head of his own “caste”/“guild”, being desirous of serving the king.
+ -->
+             <p rend="stanza" n="9">Being especially honoured (mānyataraḥ) as strong/swift (tarasvī) in one type of work (karmāntare), he was put in charge (adhipaḥ) of another type of work (karmāntare) by the decision of the king (adhīśadhiyā): he became (abhūt) master of the [sacrificial] hall of fire (hiraṇyaretaśśaraṇādhipaḥ), and further (bhūyaḥ) head (adhipaḥ) in [the work] referred to as [being] chaplain to the king (rājapurohitākhye).</p>
+             <p rend="stanza" n="10">Being of pure devotion [that manifested both] inside and out, of unassailable conduct, the one treasury of various stratagems, the most excellent of the king’s ministers, very  knowledgeable (kovidataraḥ) in matters of law (nyāyeṣu) he spread the radiance of his own fame upon the earth like the orb of the full moon.</p>
+             <p rend="stanza" n="11">Out of devotion he set down a golden image of himself (?svarūpam) holding up (uddharat) with his head (mūrdhnā) the lotus-feet of Śrī Sūryavarmeśvara near the liṅga in four sacred sites beginning with Śrī Śikharīśvara.</p>
+             <p rend="stanza" n="12">At the mountain of Śrī Śikharīśvara, he (yaḥ) gave (nyadhatta), along with slaves, villages and lands, golden [images of] Nandin and [Mahā]kāla, as though they were incarnate forms of himself split into two (dvidhā), [since he was] constantly desirous of giving service in the proximity of Śiva (śivāntike). </p>
+             <p rend="stanza" n="13">In excellent temple-towers made of stone and rich with brick, [richly] decorated [with stucco and painting ?], he gave (yena… nyadhāyi) to Parameśvara and others numerous śivaliṅgas and statues for worship (arccāḥ) with devotion.</p>
+             <p rend="stanza" n="14">He gave/set down (nyadhatta) numerous sculptures of stone and of gold of gods such as Hara [and] numerous golden liṅgas, in temples (? bhavane) such as [that of the deity (?)] Phalapriya, and he made sojourns in such places as Bhadreśvara.</p>
+             <p rend="stanza" n="15">With joy (mudā) he gave to Śiva (īśe) at the appropriate times superlative pūjās, in which offerings were made along with the eighteen constituents, a golden/gilded palanquin, a white parasol, wealth consisting of gold, silver, gems and such, [and] fine ornaments.</p>
+             <p rend="stanza" n="16">The other things (anye), grain and such (dhānyādayaḥ) that he gave to Śiva, for he was fearful of the ocean of suffering in the cycle of rebirth, were accompanied by (sa°) male and female slaves, buffaloes, horses, elephants and cattle, and by lands (sabhuvaḥ).</p><!-- OR:
+Along with male and female slaves, buffaloes, horses, elephants and cattle, and with lands there were other things, like grain and the like, that were given to Śiva by him, who was fearful of the ocean of suffering in the cycle of rebirth.
+ -->
+             <p rend="stanza" n="17">A man of discrimination (vivekī), as though spreading out his clear, cool, deep, rich heart, which was heartening to brahmins and others (dvijādihṛdyam), he created (vidadhe) water-bodies [that were clear, cool, deep, rich and charming for birds and other animals], [thus spreading (prathayan)] water through its channels in different places along the roads (vividhādhvadeśe).</p>
+             <p rend="stanza" n="18">He built a bridge (setum) in order to allow to cross (tārayitum) those sinking (nimagnān), straying on different paths (anekādhvagān), in a deep (agāḍhe) ocean (ambunidhau) of suffering caused by bad roads, as though it were a beneficial path [allowing] his own dear disciples, who were worthy (arhān) initiates, [to cross].</p>
+             <p rend="stanza" n="19">Surely (nu) in climbing (ārohayan), following (anu) his ancestors (pitr̥̄n), up to heaven (divam) by means of his numerous good deeds [[and]] by means of meditation, yoga, extreme virtue, religious observances, and self-restraint, 
+he therefore (tat) made (cakre) a walkway (caṅkramam) with stairways (sopānavat).
+</p>
+             <p rend="stanza" n="20">Thinking (iti), “How (katham) [could there be a state in which] there are no creatures (asubhājaḥ) experiencing torment?”, he planted (uptam) many gardens (udyānam) along the roads (mārge) that were rich with fruits (phalāḍhyam), delightful (saṁhlādi), that furnished shade (sacchāyam) and gave deep pleasure (agādharamyam).</p>
+             <p rend="stanza" n="21">There were (āsuḥ) four manly (vr̥ṣyāḥ) brothers.  The first (ādiḥ) among them (eṣām), particularly venerable for his weighty intellect (gurudhīgarīyān), was a teacher on the mountain of ŚrīŚikharīśvara, as venerable as Great Indra [/revered by the king] (mahendramānyaḥ), of fame that was broad and widely known.</p>
+             <p rend="stanza" n="22">Presiding (adhyasya) constantly over the court (sabhām), the king, thinking (iti) “I must remove the suffering (vipat) of my subjects”, in place of (prati) himself (ātmataḥ) on his own throne (svapīṭhe), made of gold, he brought about (cakre pi) the middle [brother]’s (madhyasya) presidency of the court (sabhādhipatyam).</p>
+             <p rend="stanza" n="23">Of the youngest, what other grace from the king (kṣītipaprasādaḥ) need be told, since (yat) by that same supreme lord (parameśvareṇa) the king his marriage with the king’s daughter was made, as we know (kila), according to rules?</p>
+             <p rend="stanza" n="24">Being very sharp-witted (paṭīyān), with a mind well-versed in the arts (niṣṇātamatiḥ), unique, senior in political acumen (nītivṛddhaḥ) even though younger [in age], [this] warrior obtained the governorship of a district, and honours (bhogam) and unparalleled (apūrvān) possessions (bhogyān) that were unjustifiable [/obtained without recourse to legal proceedings] (anayān).</p>
+             <p rend="stanza" n="25">Among the four families of the four brothers (sodaryyakuleṣu teṣu), he was the cause (hetuḥ) of the profusion of their virtues (guṇarddheḥ), being [himself] the best (varaḥ) among the virtuous (guṇinām),
+just as (iva) ether (kham) among the [four other] elements beginning with earth (kṣoṇyādibhūteṣu) [is the cause of the increase in the number of their properties]
+because of having pure nature (śuddhasvabhāvāt) and being one whose ascendancy was praised [/whose arising was characterised by great size (mahitā)] (mahitodayāt).</p>
+             <p rend="stanza" n="26">Among those [brothers] (teṣu), who were possessed of nobility and beauty, [and] characterised by great feats worthy of honour (mānyāpadāneṣu), like the Pāṇḍavas beginning with Yudhiṣṭhira, he was like Arjuna in fame, in steadfastness, in splendour, in reputation.</p>
+             <p rend="stanza" n="27">Here (atra), he who was the best among learned persons who are discriminating with respect to the essence of treatises and scriptures ...</p>
+             <p rend="stanza" n="28"><gap reason="lost"/></p>
+</div> 
+         <div type="commentary">
+            <p>The sandstone block looks as though it may have been an inscribed doorjamb that was reused in the building of the hospital flooring. It now measures 100cm high, 40cm wide and 20cm thick. It seems that the block/doorjamb had been trimmed to fit the new location. Consequently, the lines in the beginning and the end of the text have been lost. A few syllables of many lines on the edge have also disappeared.</p>
+         </div> 
+        <div type="bibliography">
+          <p>Preliminarily edited by Dominic Goodall and Kunthea Chhom; reedited by Diwakar Acharya, Kunthea Chhom, Chloé Chollet, Dominic Goodall et Nina Mirnig.</p>
+	 <!-- <listBibl type="primary">
+	    <bibl n="">
+</bibl>
+             </listBibl> -->
+           </div>
+</body>
+    </text>
+</TEI>
