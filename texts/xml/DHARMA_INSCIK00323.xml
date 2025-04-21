@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digraphic stela of Prasat Lolei (K. 323), 811 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+             <respStmt>
+                 <resp>intellectual authorship of edition</resp>
+                 <persName ref="http://viaf.org/viaf/51700452">
+                     <forename>Abel</forename>
+                     <surname>Bergaigne</surname>
+                 </persName>
+                 </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00323</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                      <p>The face A was written in Siddhamatrkā script whereas the lettering of the face B is characteristic of the ninth century CE. 
+                         <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-04-21" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+                <div type="textpart" n="A" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+ <p><lb n="A0"/>namaś śrīndravarmmeśvarāya</p>
+                  <lg n="1" met="vasantatilakā">
+<l n="a"><lb n="A1"/>prāk kevalo pi bhagavān rataye tridhā yo<space/></l>
+<l n="b">bhinnaś caturmmukhacaturbhujaśambhumūrttiḥ<space/></l>
+<l n="c">prārambha eva bhuvanasya punar yyugānte<space/></l>
+<l n="d">kaivalyam eti ca śivāya namo stu tasmai</l>
+</lg> 
+<lg n="2" met="vasantatilakā">
+<l n="a"><lb n="A2"/>vande ravindaripumaṇditakeśavr̥ṇdaṁ<space/></l>
+<l n="b">bhaktyāravindadr̥śam apy aravindayoni<space/>m</l>
+<l n="c" enjamb="yes">namrāmarendraditijendraśikhandabandha</l>
+<l n="d">-maṇdāraṣaṇdamakaraṇdasugandhitāṅghrim</l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="4" met="anuṣṭubh">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="5" met="anuṣṭubh">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="6" met="anuṣṭubh">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="12" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="13" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="14" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="15" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="16" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="17" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="18" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="19" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="20" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="21" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="22" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="23" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="24" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="25" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="26" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="27" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="28" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="29" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="30" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="31" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="32" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="33" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="34" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="35" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="36" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="37" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="38" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="39" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="40" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="41" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="42" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="43" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="44" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="45" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="46" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="47" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="48" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="49" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="50" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="51" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="52" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="53" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="54" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="55" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="56" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="56" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="58" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="59" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="60" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="61" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="62" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="63" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="64" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="65" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="66" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="67" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="68" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="69" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="70" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="71" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="72" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="73" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="74" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="75" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="76" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="77" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="78" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="79" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="80" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="81" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="82" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="83" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="84" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="85" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="86" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="87" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="88" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="89" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="90" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="91" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="92" met="anuṣṭubh">
+<l n="a"><lb n="1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+                    <lg n="93" met="anuṣṭubh">
+<l n="a"><lb n="1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+</div>
+                    <div type="textpart" n="B" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+  <lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="12" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="13" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="14" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="15" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="16" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="17" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="18" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="19" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="20" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="21" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="22" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="23" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="24" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="25" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="26" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="27" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="28" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="29" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="30" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="31" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="32" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="33" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="34" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="35" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="36" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="37" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="38" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="39" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="40" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="41" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="42" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="43" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="44" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="45" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="46" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="47" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="48" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="49" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="50" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="51" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="52" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="53" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="54" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="55" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="56" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="56" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="58" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="59" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="60" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="61" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="62" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="63" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="64" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="65" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="66" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="67" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="68" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="69" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="70" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="71" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="72" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="73" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="74" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="75" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="76" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="77" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="78" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="79" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="80" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="81" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="82" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="83" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="84" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="85" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="86" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="87" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="88" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+  <lg n="89" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg> 
+<lg n="90" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="91" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+<lg n="92" met="anuṣṭubh">
+<l n="a"><lb n="B1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                    </div>
+
+</div>
+            <div type="apparatus">
+               <listApp>
+                  <app loc="S1">
+                     <lem></lem>
+                     <rdg source="bib:Bergaigne1893_01"></rdg>
+                  </app>
+                   
+               </listApp>         
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Bergaigne1893_01">
+             <p n="1">Fortune! Succès! Bonheur! Victoire!</p>
+             <p rend="stanza" n="1"></p>
+             </div>
+            <div type="translation" source="bib:Bhattacharya2009_01">
+                <p n="1">Fortune! Succès! Bonheur! Victoire!</p>
+             <p rend="stanza" n="1"></p>
+             </div>
+                      
+        <!--  <div type="commentary">
+            <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Abel Bergaigne (<bibl rend="omitname"><ptr target="bib:Bergaigne1893_01"/><citedRange unit="page">391-402</citedRange></bibl>) with a French translation. Kamaleswar Bhattacharya (<bibl rend="omitname"><ptr target="bib:Bhattacharya2009_01"/><citedRange unit="page">94-122</citedRange></bibl>) provides an English translation.</p>
+	 <listBibl type="primary">
+    <bibl n="AB">
+      <ptr target="bib:Bergaigne1893_01"/>
+      <citedRange unit="page">391-402</citedRange>
+    </bibl>
+	     <bibl n="KB">
+      <ptr target="bib:Bhattacharya2009_01"/>
+      <citedRange unit="page">94-122</citedRange>
+    </bibl>
+<listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">81-89</citedRange>
+    </bibl>
+           </listBibl>	    
+	     
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
