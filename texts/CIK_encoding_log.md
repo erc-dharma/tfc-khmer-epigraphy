@@ -164,7 +164,7 @@
 |K.	155 |kuch |done |IC V|
 |K.	156 |kuch |done |IC V|
 |K.	157 |sapi |pending |IC VI|
-|K.	158 |# |# |#|
+|K.	158 |kuch |done |IC II|
 |K.	159 |kuch |done |IC VI|
 |K.	160 |chch |pending |unpublished|
 |K.	161 |kuch |done |Finot 1904|
@@ -323,6 +323,8 @@
 |K.	288 |kuch |done |IC IV|
 |K.	289 |# |# |#|
 |K.	290 |chch |pending |IC III|
+|K.	290-2 |kuch |done |IC III|
+|K.	290-3 |kuch |done |IC III|
 |K.	291 |sapi |done |IC III |
 |K.	292-1 |kuch |done |IC III|
 |K.	293-1 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
@@ -398,7 +400,7 @@ K.	294 |# |# |#|
 |K.	320 |sapi |pending |Pou NIC II-III |
 |K.	321 |# |# |#|
 |K.	322 |# |# |#|
-|K.	323 |# |# |#|
+|K.	323 |kuch |done |ISCC|
 |K.	324 |kuch |done|Soutif 2009|
 |K.	325 |kuch |done |Soutif 2009|
 |K.	326 |kuch |done |Soutif 2009|
@@ -929,7 +931,7 @@ K.	294 |# |# |#|
 |K.	823 |sapi |pending |IC VI ; Jacques 2014|
 |K.	824 |sapi |pending |NIC II-III|
 |K.	825 |# |# |#|
-|K.	826 |# |# |#|
+|K.	826 |kuch |done |IC I|
 |K.	827 |kuch |done |Cœdès 1951|
 |K.	828 |# |# |#|
 |K.	829 |# |# |#|
@@ -1595,7 +1597,7 @@ K.	294 |# |# |#|
 |K.	1447 |# |# |#|
 |K.	1448 |chch |done |unpublished|
 |K.	1449 |chch |pending |Vong Sotheara 1999|
-|K.	1450 |# |# |#|
+|K.	1450 |kuch |done |unpublished|
 |K.	1451 |kuch |pending |Nguyễn 1999|
 |K.	1452 |chch |done |unpublished|
 |K.	1453 |chch |done |NIC IV|
