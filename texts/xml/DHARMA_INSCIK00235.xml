@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Prasat Sdok Kak Thom (K. 235), 974 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/66465311"><!-- kuch: Dupont's viaf is not yet available. -->
+                  <forename>Pierre</forename>
+                  <surname>Dupont</surname>
+               </persName>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               
+               </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00235</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary>
+                  </summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-05-07" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+                   <lg n="1" met="upajāti"><milestone unit="face" n="A"/>
+<l n="a"><lb n="A1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="A3"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A4"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="A5"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A5"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="A7"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A8"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="A9"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A10"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="A11"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A12"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="A13"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A14"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="A15"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A16"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="9" met="upajāti">
+<l n="a"><lb n="A17"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A18"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="10" met="vasantatilakā">
+<l n="a"><lb n="A19"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A20"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="11" met="vasantatilakā">
+<l n="a"><lb n="A21"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A22"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="12" met="upajāti">
+<l n="a"><lb n="A23"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A24"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="13" met="upajāti">
+<l n="a"><lb n="A25"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A26"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="14" met="vasantatilakā">
+<l n="a"><lb n="A27"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A28"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="15" met="vasantatilakā">
+<l n="a"><lb n="A29"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A30"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="16" met="vasantatilakā">
+<l n="a"><lb n="A31"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A32"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="17" met="upajāti">
+<l n="a"><lb n="A33"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A34"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="18" met="upajāti">
+<l n="a"><lb n="A35"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A36"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="19" met="upajāti">
+<l n="a"><lb n="A37"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A38"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="20" met="upajāti">
+<l n="a"><lb n="A39"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A40"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="21" met="upajāti">
+<l n="a"><lb n="A41"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A42"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="22" met="mālinī">
+<l n="a"><lb n="A43"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A44"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="23" met="upajāti">
+<l n="a"><lb n="A45"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A46"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="24" met="upajāti">
+<l n="a"><lb n="A47"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A48"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="25" met="aupacchandasika">
+<l n="a"><lb n="A49"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A50"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="26" met="vaṁśastha">
+<l n="a"><lb n="A51"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A52"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="27" met="upajāti">
+<l n="a"><lb n="A53"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A54"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="28" met="upajāti">
+<l n="a"><lb n="A55"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A56"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="29" met="upajāti">
+<l n="a"><lb n="A57"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A58"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="30" met="upajāti">
+<l n="a"><lb n="A59"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="A60"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>               
+                   
+<lg n="31" met="upajāti"><milestone unit="face" n="B"/>
+<l n="a"><lb n="B1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c">><lb n="B2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="32" met="puṣpitāgrā">
+<l n="a"><lb n="B3"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B4"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="33" met="anuṣṭubh">
+<l n="a"><lb n="B5"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="34" met="anuṣṭubh">
+<l n="a"><lb n="B6"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="35" met="anuṣṭubh">
+<l n="a"><lb n="B7"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="36" met="anuṣṭubh">
+<l n="a"><lb n="B8"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="37" met="anuṣṭubh">
+<l n="a"><lb n="B9"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="38" met="anuṣṭubh">
+<l n="a"><lb n="B10"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="39" met="anuṣṭubh">
+<l n="a"><lb n="B11"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="40" met="anuṣṭubh">
+<l n="a"><lb n="B12"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="41" met="anuṣṭubh">
+<l n="a"><lb n="B13"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="42" met="anuṣṭubh">
+<l n="a"><lb n="B14"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="43" met="anuṣṭubh">
+<l n="a"><lb n="B15"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="44" met="anuṣṭubh">
+<l n="a"><lb n="B16"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="45" met="anuṣṭubh">
+<l n="a"><lb n="B17"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="46" met="anuṣṭubh">
+<l n="a"><lb n="B18"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="47" met="anuṣṭubh">
+<l n="a"><lb n="B17"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="48" met="anuṣṭubh">
+<l n="a"><lb n="B20"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="49" met="anuṣṭubh">
+<l n="a"><lb n="B21"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="50" met="anuṣṭubh">
+<l n="a"><lb n="B22"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="51" met="anuṣṭubh">
+<l n="a"><lb n="B23"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="52" met="anuṣṭubh">
+<l n="a"><lb n="B24"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="53" met="anuṣṭubh">
+<l n="a"><lb n="B25"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="54" met="anuṣṭubh">
+<l n="a"><lb n="B26"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="55" met="anuṣṭubh">
+<l n="a"><lb n="B27"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="56" met="anuṣṭubh">
+<l n="a"><lb n="B28"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="57" met="anuṣṭubh">
+<l n="a"><lb n="B29"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="58" met="anuṣṭubh">
+<l n="a"><lb n="B30"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="59" met="anuṣṭubh">
+<l n="a"><lb n="B31"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <lg n="60" met="anuṣṭubh">
+<l n="a"><lb n="B32"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+
+<lg n="61" met="mālinī">
+<l n="a"><lb n="B33"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B34"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="62" met="upajāti">
+<l n="a"><lb n="B35"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B36"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="63" met="upajāti">
+<l n="a"><lb n="B37"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B38"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+
+<lg n="64" met="upajāti">
+<l n="a"><lb n="B39"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B40"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="65" met="upajāti">
+<l n="a"><lb n="B41"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B42"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="66" met="upajāti">
+<l n="a"><lb n="B43"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B44"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="67" met="upajāti">
+<l n="a"><lb n="B45"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B46"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="68" met="upajāti">
+<l n="a"><lb n="B47"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B48"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="69" met="upajāti">
+<l n="a"><lb n="B49"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B50"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="70" met="upajāti">
+<l n="a"><lb n="B51"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B52"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="71" met="upajāti">
+<l n="a"><lb n="B53"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B54"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="72" met="upajāti">
+<l n="a"><lb n="B55"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B56"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="73" met="upajāti">
+<l n="a"><lb n="B57"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B58"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="74" met="upajāti">
+<l n="a"><lb n="B59"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B60"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="75" met="upajāti">
+<l n="a"><lb n="B61"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B62"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+<lg n="76" met="upajāti">
+<l n="a"><lb n="B63"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B64"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+                   <lg n="77" met="mālinī">
+<l n="a"><lb n="B65"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="B66"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/></l>
+</lg>
+
+
+                   <lg n="1" met="anuṣṭubh"><milestone unit="face" n="C"/>
+<l n="a"><lb n="A2"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/></l>
+</lg>
+                   <p><milestone unit="face" n="D"/></p>
+</div>
+           <div type="apparatus">
+          <listApp>
+                  <app loc="A1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes+Dupont1943_01"></rdg>
+                    </app>
+               </listApp>                
+         </div>
+          <div type="translation" xml:lang="fra" source="bib:Coedes+Dupont1943_01">
+             <p rend="stanza" n="1"></p>
+</div>
+           <div type="translation" source="bib:Bhattacharya2009_01">
+             <p rend="stanza" n="1"></p>
+</div>
+         <div type="commentary">
+            <p></p>
+         </div> 
+        <div type="bibliography">
+          <p>First edited by George Cœdès and Pierre Dupont (<bibl rend="omitname"><ptr target="bib:Coedes+Dupont1943_01"/><citedRange unit="page">76-134</citedRange></bibl>) with a French translation; reedited here by Dominic Goodall from the estampage EFEO n. 1191 and EFEO n. 1361. Kamaleswar Bhattacharya (<bibl rend="omitname"><ptr target="bib:Bhattacharya2009_01"/><citedRange unit="page">139-187</citedRange></bibl>) provides an English translation of the Sanskrit portion of the inscription.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes+Dupont1943_01"/><citedRange unit="page">76-134</citedRange>
+    </bibl>
+	<bibl n="KB">
+      <ptr target="bib:Bhattacharya2009_01"/><citedRange unit="page">139-187</citedRange>
+    </bibl>   
+  </listBibl>
+           <listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">362-382</citedRange>
+    </bibl>
+           </listBibl>
+
+           </div>
+</body>
+    </text>
+</TEI>
