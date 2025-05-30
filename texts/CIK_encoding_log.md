@@ -249,7 +249,7 @@
 |K.	232 |kuch |done |IC VI|
 |K.	233 |# |# |#|
 |K.	234 |kuch |done |IC VI|
-|K.	235 |# |# |#|
+|K.	235 |kuch |done |Cœdès&Dupont 1943|
 |K.	236 |# |# |#|
 |K.	237 |# |# |#|
 |K.	238 |sapi |pending |IC VI|
@@ -327,6 +327,13 @@
 |K.	290-3 |kuch |done |IC III|
 |K.	291 |sapi |done |IC III |
 |K.	292-1 |kuch |done |IC III|
+|K.	292-2 |kuch |done |IC III|
+|K.	292-3 |kuch |done |IC III|
+|K.	292-4 |kuch |done |IC III|
+|K.	292-5 |kuch |done |IC III|
+|K.	292-6 |kuch |done |IC III|
+|K.	292-7 |kuch |done |IC III|
+|K.	292-8 |kuch |done |IC III|
 |K.	293-1 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
 |K.	293-2 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
 |K.	293-3 |kuch |done|Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
