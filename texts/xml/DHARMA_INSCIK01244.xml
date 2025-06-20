@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Phnom Rung (K. 1244), 899 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>               
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01244</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-06-20" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <lb><milestone type="pagelike" unit="face" n="A"/><lb 
+                      n="A0"/>Oṁ
+                      </lb>
+                   <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="A1"/><milestone unit="column" n="a"/>$gomutraInitial $ddandaOrnate namo dhurjjataye yasya</l>
+<l n="b"><milestone unit="column" n="b"/>jatārāgo virājate</l>
+<l n="c"><lb n="A2"/><milestone unit="column" n="a"/>prajvalañ jvālanaś caiva</l>
+<l n="d"><milestone unit="column" n="b"/>vahū bhavye mahādhvare</l>
+</lg>         
+                   <p><lb 
+                      n="A3"/>($ddandaOrnate) 899 śakka pañcami ket· śrāvana Ādityavā-
+                      <lb n="A4"/>ra pūrvvaphālgūṇīnakṣatra nu kamrateṅ· Añ·
+                      <lb n="A5"/>vraḥ guru pre thve praśasta pa saṅ· Āy· ranaśūra $circleTarget
+                      <lb n="A6"/>raṁ nū yuddhapattana pa Oy· ta mrateñ· śarvvaśī-
+                      <lb n="A7"/>va thve pūjā kamrateṅ· jagat· vnaṁ ruṅ· tī samākṣa
+                      <lb n="A8"/>nu vāp· dhanañjaya mūla paṁcāṁ Āy· bhadro-
+                      <lb n="A9"/>dayadvīpa nu chloñ· mādhava bhāgavatta thve
+                      <lb n="A10"/>vraḥ rājakāryya nā paṁcāma saṁ nū mahardhipūra
+                      <lb n="A11"/>bhūma man· vāp· dhanañjaya mūla paṁcāṁ nu chlo-
+                      <lb n="A12"/>ñ· mādhava bhāgavatta Oy· ta mrateñ·
+                      <lb n="A13"/>śarvvaśiva nu mrateñ· vina nu mrateñ·
+                      <lb n="A14"/>hi nu mrateñ· vro nu vāp· nārāyana
+                      <lb n="A15"/>nu vāp· sa nu me vāsa nu me pitt· nu me
+                      <lb n="A16"/>soma nu me qyakka $circleTarget gī tarā(p)a bhūmi man·
+                      <lb n="A17"/>Oy· toy· pūrvva tarāp· gola toy·
+                   </p>
+                   <p><milestone type="pagelike" unit="face" n="B"/><lb 
+                      n="B1"/>dakṣi[ṇa] {5} CrV{1}la $circleSmall to[y· paścima]
+                      <lb n="B2"/>tarāp· caṁnat· stuk· kryāl (to)y· (vV){1}CyV
+                      <lb n="B3"/>stuka gvāya (t)oya Uttara CVkV {5}
+                      <lb n="B4"/>mūla paṁcāṁ (thv)e (jā) pi {2}} gi bhūmi {2}
+                      <lb n="B5"/>duka mrateñ· sarvvaśiva nu kule phoṅ· {2}
+                      <lb n="B6"/>(n·) dau $circle par(i)hāra (g)e rājakāryya CV Cme {2}
+                      <lb n="B7"/>kalpanā mrateñ· sarvvaśiva (ta) kam(r)a[t]eṅ[·]
+                      <lb n="B8"/>jagat· vnaṁ ruṅ· yajña {6} ya {2}
+                      <lb n="B9"/>ha mvāya khñuṁ ta nu thve kalpan(ā) neḥ
+                      <lb n="B10"/><milestone unit="column" n="a"/>si {3}s·<milestone unit="column" n="b"/>tai saṁAp·
+                      <lb n="B11"/><milestone unit="column" n="a"/>si taṅker· <add place="below">si (caṁhek·)</add><milestone unit="column" n="b"/>tai kan·CVn·
+                      <lb n="B12"/><milestone unit="column" n="a"/>si kañjes·<milestone unit="column" n="b"/>(tai) CrVCVC·
+                      <lb n="B13"/><milestone unit="column" n="a"/>si kaṁpit·<milestone unit="column" n="b"/>tai kan·(can)·
+                      <lb n="B14"/>phsaṁma khñuṁ 10
+                   </p>
+                   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="B16"/><milestone unit="column" n="a"/>ye haranti (ca) saṁmūdhaḥ</l>
+<l n="b"><milestone unit="column" n="b"/>bhūbhāgaṁ dharmmakalp[anām·]</l>
+<l n="c"><lb n="B17"/><milestone unit="column" n="a"/>te yānti narakaṁ yāvat[[·]]</l>
+<l n="d"><milestone unit="column" n="b"/>sthito candradivāka(rau)</l>
+</lg>
+<lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="B18"/><milestone unit="column" n="a"/>ye vardhayanti dharmmiṣthaḥ</l>
+<l n="b"><milestone unit="column" n="b"/>bhūbhāgaṁ dharmmakalpitaṁ</l>
+<l n="c"><lb n="B19"/><milestone unit="column" n="a"/>yānti te svarggakaṁ yāvat·</l>
+<l n="d"><milestone unit="column" n="b"/>sthito candradivā(ka)rau</l>
+</lg>
+           </div>
+           <!--   <div type="apparatus">
+               <listApp>
+                  <app loc="2">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1954_02"></rdg>
+                  </app>
+                  
+                  </listApp>         
+         </div>
+        <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+           <p rend="stanza" n="1"></p>
+         </div>  
+       <div type="commentary">
+          <p></p>
+              </div>  -->
+        <div type="bibliography">
+          <p>Preliminarily edited by Gerdi Gerschheimer and Kunthea Chhom from the estampage EFEO n. 1768 and EFEO n. 1769.</p>
+	 <listBibl type="primary">
+    <bibl n="">
+    </bibl>
+	</listBibl>
+        </div></body>
+    </text>
+</TEI>
