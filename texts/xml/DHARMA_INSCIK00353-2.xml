@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Northern doorjamb of the southern sanctuary of Prasat Kantop (K. 353-2), 968 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+                              <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00353-2</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-06-27" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">namaś śivāya varddha<seg met="="><gap reason="lost" quantity="1" unit="character"/></seg><space/></l>
+<l n="b"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg><space/></l>
+<l n="c"><seg met="====-"><gap reason="lost" quantity="5" unit="character"/></seg>drabhārā<space/>d</l>
+<l n="d">iva <seg met="==-+-="><gap reason="lost" quantity="6" unit="character"/></seg></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">caturāsyaṁ namasyā<supplied reason="lost">mi</supplied><space/></l>
+<l n="b"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg><space/></l>
+<l n="c" enjamb="yes"><seg met="==="><gap reason="lost" quantity="3" unit="character"/></seg>tracaturvveda<space/></l>
+<l n="d">-nādanāditadiṅmukhaḥ</l>
+</lg>
+                   <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">padmā padmapriyā<seg met="-="><gap reason="lost" quantity="2" unit="character"/></seg><space/></l>
+<l n="b"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg><space/></l>
+<l n="c"> <seg met="====-+-"><gap reason="lost" quantity="7" unit="character"/></seg>tte<space/></l>
+<l n="d">namas tasmai murāra<supplied reason="lost">ye</supplied></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">māṁ vinomāṁ spr̥<seg met="+-="><gap reason="lost" quantity="5" unit="character"/></seg><space/></l>
+<l n="b"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg><space/></l>
+<l n="c"><seg met="====-+"><gap reason="lost" quantity="6" unit="character"/></seg>m<seg met="="><gap reason="lost" quantity="1" unit="character"/></seg><space/></l>
+<l n="d">namas tasmai smarāraye</l>
+</lg>
+                   <p><lb 
+                       n="5"/>pandval ta vi<gap reason="lost" quantity="11" unit="character"/> vraḥ vīrāśrama nu pradhāna thpal· jeṅ· <supplied reason="lost">canhvar·</supplied> <gap reason="lost" quantity="2" unit="character"/>
+                       <lb n="6"/>pul<unclear>·</unclear> kriyā <supplied reason="lost">vraḥ ru</supplied>dra<supplied reason="lost">śānti</supplied> <gap reason="lost" quantity="7" unit="character"/> ti Oy<unclear>·</unclear> snoṅ· dravya ta bhadrā<supplied reason="lost">spada</supplied> <gap reason="lost" quantity="3" unit="character"/>
+                       <lb n="7"/>vraḥ sabhā ti <gap reason="lost" quantity="12" unit="character"/> jā prasāda Añ· <g type="circleSmall">.</g> pandval ta doṅloṅ· trvac<unclear>·</unclear> <supplied reason="lost">vraḥ vī</supplied><lb 
+                          n="8" break="no"/>rāśrama ri bhū<supplied reason="lost">mi</supplied> <gap reason="lost" quantity="10" unit="character"/> <supplied reason="lost">pra</supplied>dhāna thpal· Uddharaṇa jeṅ canhvar· vāt· Aṁruṅ<unclear>·</unclear> <gap reason="lost" quantity="4" unit="character"/>
+                       <lb n="9"/>vraḥ sabhā saṅ gol· <g type="circleSmall">.</g> ta <gap reason="lost" quantity="4" unit="character"/> vraḥ karuṇā vraḥ kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> śrī vīrendravarmma vraḥ kamra<supplied reason="lost">teṅ· Añ·</supplied>
+                       <lb n="10"/>śrī pr̥thivīnarendra vraḥ kamrateṅ· Añ· śrī narapatīndravarmma vraḥ kamrateṅ<supplied reason="omitted">·</supplied> Añ<unclear>·</unclear> śrī rājendravarmma vraḥ <supplied reason="lost">kamra</supplied><lb 
+                          n="11" break="no"/>teṅ<unclear>·</unclear> Añ· śrī jayasi<supplied reason="lost">ṁ</supplied>havarmma ta paṅgaṁ thpvaṅ nivedana vraḥ kamrateṅ· Añ· śrī mahīdharavarmma vraḥ <supplied reason="lost">ka</supplied><lb 
+                             n="12" break="no"/>mrateṅ<unclear>·</unclear> Añ· śrī rājapativarmma <num value="967">967</num> śaka pañcamī roc<unclear>·</unclear> mārggaśira nu vraḥ ka<supplied reason="lost">mrateṅ·</supplied>
+                       <lb n="13"/>Añ<unclear>·</unclear> śrī mahīdharavarmma nu vraḥ kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> śrī rājapativarmma paṅgaṁ thpvaṅ nivedana ta vraḥ pāda ka<lb 
+                          n="14" break="no"/>mrateṅ· kaṁtvan· Añ· śrī sūryyavarmmadeva teṁ bhūmi thpal· man· kaṁsteṅ· doṅloṅ<unclear>·</unclear> sruk<unclear>·</unclear>
+                       <lb n="15"/>doṅloṅ· trvac<supplied reason="omitted">·</supplied> vraḥ vīrāśrama kaṁsteṅ· Uddharaṇa sruk· jeṅ· can<unclear>·</unclear>hvar· khloñ<unclear>·</unclear> vala caṁnat<unclear>·</unclear> pra<lb 
+                          n="16" break="no"/>dhāna thpal<unclear>·</unclear> khloñ· travāṅ· kuṅar· grāmavr̥ddhi thpal· khloñ<unclear>·</unclear> travāṅ· vudi Oy· snoṅ<unclear>·</unclear> kriyā
+                       <lb n="17"/>vraḥ rudraśānti ta vraḥ kamrateṅ· Añ<unclear>·</unclear> bhadrāspada ta dār· nāma vraḥ kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> vidye<lb 
+                          n="18" break="no"/>śvarapandita Adhyāpaka śivapāda jā pitr̥pakṣa ta qnak sañjak<unclear>·</unclear> chok<unclear>·</unclear> phlāṅ· <unclear><g type="circleSmall">.</g></unclear> <num value="967">967</num> śaka
+                       <lb n="19"/>nu vraḥ pāda kamrateṅ<unclear>·</unclear> kaṁtvan<unclear>·</unclear> Añ<unclear>·</unclear> śrī sūryyavarmmadeva pandval<unclear>·</unclear> vraḥ kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> <supplied reason="lost">śrī ma</supplied><lb 
+                          n="20" break="no"/>hīdharavarmma pi pre pandval ta vraḥ kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> śrī vīravarmma khloñ<unclear>·</unclear> śivapāda pūrvva nu vraḥ <gap reason="lost" quantity="4" unit="character"/>
+                       <lb n="21"/>śivapāda pi pre vāt<supplied reason="omitted">·</supplied> bhūmi thpal<unclear>·</unclear> man<unclear>·</unclear> taṁmrvac<unclear>·</unclear> vraḥ vīrāśrama Uddharaṇa pradhāna thpal· Oy·
+                       <lb n="22"/>snoṅ<unclear>·</unclear> kriyā vraḥ rudraśānti ta vraḥ kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> vidyeśvarapandita pi saṅ gol<unclear>·</unclear> pi Oy<unclear>·</unclear> jā
+                       <lb n="23"/>prasāda vraḥ pāda kamrateṅ<unclear>·</unclear> kaṁtvan<unclear>·</unclear> Añ<unclear>·</unclear> śrī sūryyavarmmadeva ta vraḥ kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> vidyeśvarapandita
+                       <lb n="24"/><num value="968">968</num> śaka chatthi roc caitra candravāra nu kaṁsteṅ<unclear>·</unclear> doṅloṅ<unclear>·</unclear> sruk<unclear>·</unclear> doṅloṅ<unclear>·</unclear> trvac<unclear>·</unclear> vīrāśrama kaṁste<lb 
+                          n="25" break="no"/><supplied reason="lost">ṅ·</supplied> Uddharaṇa sruk<supplied reason="omitted">·</supplied> jeṅ can<unclear>·</unclear>hvar<unclear>·</unclear> khloñ<unclear>·</unclear> vala caṁnat<unclear>·</unclear> pradhāna thpal<unclear>·</unclear> khloñ<unclear>·</unclear> vala travāṅ<unclear>·</unclear> kuṅar· grāmavr̥ddhi khloñ<unclear>·</unclear>
+                       <lb n="26"/>vala travāṅ<unclear>·</unclear> vudi samayuga nu Aṁcās<unclear>·</unclear> qnak<unclear>·</unclear> thpal<unclear>·</unclear> jeṅ canhvar<unclear>·</unclear> phoṅ· jā kula qnak si strījana phoṅ·
+                       <lb n="27"/><gap reason="lost" quantity="3" unit="character"/> ma pi Oy<unclear>·</unclear> vraḥ sabhāpati guṇadoṣa śivapāda saṅ gol<unclear>·</unclear> pi Oy<unclear>·</unclear> snoṅ<unclear>·</unclear> dravya man<unclear>·</unclear> pu<supplied reason="lost">l·</supplied>
+                       <lb n="28"/><supplied reason="lost">ta vra</supplied>ḥ kamrateṅ· Añ<unclear>·</unclear> vidyeśvarapandita pi Oy ta vraḥ kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> śrī vīravarmma thvāy jā kri<lb 
+                          n="29" break="no"/><supplied reason="lost">yā</supplied> vraḥ rudraśānti <g type="circleSmall">.</g> saṁkhyā dravya ti yok<unclear>·</unclear> krapi <num value="3"><g type="numeral">III</g></num> padigaḥ <num value="3"><g type="numeral">III</g></num> jya <num value="12"><g type="numeral">10</g><g type="numeral">II</g></num> sme śarāva <num value="6"><g type="numeral">6</g></num> vudi <num value="1"><g type="numeral">I</g></num> jya <num value="7"><g type="numeral">7</g></num> <supplied reason="lost">A</supplied><lb 
+                             n="30" break="no"/>ṅguliyaka <num value="2"><g type="numeral">II</g></num> pāda <num value="3"><g type="numeral">III</g></num> bhāja <num value="15"><g type="numeral">10</g><g type="numeral">IIIII</g></num> prām<unclear>·</unclear> jyaṅ<unclear>·</unclear> <num value="7"><g type="numeral">7</g></num> sme vyar<unclear>·</unclear> jya <num value="8"><g type="numeral">8</g></num> sme <num value="8"><g type="numeral">8</g></num> jyaṅ<unclear>·</unclear> <num value="10"><g type="numeral">10</g></num> sme thnap<unclear>·</unclear> śira <num value="7"><g type="numeral">IIIIIII</g></num> A<lb 
+                                n="31" break="no"/>rddhalo <num value="1"><g type="numeral">I</g></num> srāp kaṁpeḥ Arddhacandra sru <num value="174"><g type="numeral">100</g> <g type="numeral">60</g> <g type="numeral">10</g> <g type="numeral">4</g></num> go <num value="40"><g type="numeral">40</g></num> canlyak<unclear>·</unclear> Ulāra thmi tap<unclear>·</unclear> hāt<unclear>·</unclear> <num value="60"><g type="numeral">60</g></num> thlās<unclear>·</unclear> jrvak<unclear>·</unclear> <num value="2"><g type="numeral">II</g></num>
+                       <lb n="32"/>ti saṁlāp<unclear>·</unclear> pi Oy<unclear>·</unclear> pāy<unclear>·</unclear> raṅko thlvaṅ<unclear>·</unclear> <num value="5"><g type="numeral">IIIII</g></num> ti taṁtāṁ tr̥ Aruṅ· slik<unclear>·</unclear> <num value="2"><g type="numeral">II</g></num> khāl<unclear>·</unclear> slik<unclear>·</unclear> <num value="5"><g type="numeral">IIIII</g></num> ceḥ <num value="5"><g type="numeral">IIIII</g></num> dlaḥ <num value="6"><g type="numeral">IIIIII</g></num>
+                       <lb n="33"/>vāñ<unclear>·</unclear> dik<unclear>·</unclear> surā saṁlo sthāli sñi nu nu Aṅgāsa nu kañje chnāṅ· kañje kalpita khjeṅ· phoṅ· nu duk<unclear>·</unclear> pāy<unclear>·</unclear>
+                       <lb n="34"/>syaṅ ti yok<unclear>·</unclear> dau Uk<unclear>·</unclear> nu sthāli ceḥ dlaḥ <g type="circleSmall">.</g> ri Avadhi bhūmi ti pūrvva tarāp<unclear>·</unclear> phlu ma<gap reason="lost" quantity="2" unit="character"/> ti Ā<lb 
+                          n="35" break="no"/>gne tarāp· travāṅ· bhāga ti dakṣiṇa saṁlvat<supplied reason="omitted">·</supplied> travāṅ<supplied reason="omitted">·</supplied> bhāga dau paścima tarāp· bhū<lb 
+                             n="36" break="no"/>mi vraḥ karuṇā prasāda ti nair̥tiy<unclear>·</unclear> tarāp<unclear>·</unclear> rllaṁ ti paścima saṁlvat· sruk·
+                       <lb n="37"/>jlyak· cok<unclear>·</unclear> <gap reason="lost" quantity="4" unit="character"/> teṁ sannāya ti vāyavya tarāp<unclear>·</unclear> vraḥ phlu saṁlvat<unclear>·</unclear> travāṅ· nā
+                       <lb n="38"/>Aṁvil· <gap reason="lost" quantity="6" unit="character"/> tarāp· vraḥ phlu <g type="dotMid">.</g> ti Iśāna saṁlvat<unclear>·</unclear> travāṅ· vana Āsa syaṅ· go<lb 
+                          n="39" break="no"/>l· thmo <gap reason="lost" quantity="12" unit="character"/> yok<unclear>·</unclear> dravya vāt<unclear>·</unclear> bhūmi pi Oy· vraḥ sabhā sa<lb 
+                             n="40" break="no"/>ṅ gol· <gap reason="lost" quantity="9" unit="character"/> <supplied reason="lost">kaṁ</supplied>steṅ· doṅloṅ· kaṁsteṅ· Uddharaṇa loñ· ryoṅ·
+                       <lb n="41"/>loñ<unclear>·</unclear> <gap reason="lost" quantity="12" unit="character"/>ñ· jeṅ· can<unclear>·</unclear>hvar· loñ<unclear>·</unclear> thṅai ket· loñ<unclear>·</unclear> thṅai lu<lb 
+                          n="42" break="no"/>c· <gap reason="lost" quantity="13" unit="character"/> steṅ· Uddharaṇa phoṅ· Āy<unclear>·</unclear> jeṅ· can<unclear>·</unclear>hvar· <g type="dotMid">.</g> phle
+                       <lb n="43"/><gap reason="lost" quantity="12" unit="character"/> ti teṅ<supplied reason="omitted">·</supplied> qli teṅ· ju teṅ· Adhvā <g type="dotMid">.</g> teṅ<unclear>·</unclear> tvan<unclear>·</unclear> le
+                       <lb n="44"/><gap reason="lost" quantity="12" unit="character"/>ṅ· yā loñ<unclear>·</unclear> dhānayā teṅ<supplied reason="omitted">·</supplied> ke teṅ<unclear>·</unclear> ke teṅ<unclear>·</unclear>
+                       <lb n="45"/><gap reason="lost" quantity="10" unit="character"/> vvaṅ<unclear>·</unclear> loñ<unclear>·</unclear> pūrvadiśa loñ<unclear>·</unclear> can·hvar· krvac<unclear>·</unclear> teṅ<unclear>·</unclear> ka
+                       <lb n="46"/><gap reason="lost" quantity="12" unit="character"/>k<unclear>·</unclear> teṅ<unclear>·</unclear> dic<unclear>·</unclear> <g type="circleSmall">.</g> teṅ<unclear>·</unclear> tvan<unclear>·</unclear> siṅ·halī khloñ<unclear>·</unclear> siṁhali
+                       <lb n="47"/><gap reason="lost" quantity="10" unit="character"/> loñ<unclear>·</unclear> teṁ svāy· loñ<unclear>·</unclear> jeṅ<unclear>·</unclear> tyak<unclear>·</unclear> loñ<unclear>·</unclear> cok<unclear>·</unclear> loñ<unclear>·</unclear> sthira<add place="below"><gap reason="lost" extent="unknown" unit="character"/> <unclear>ja</unclear>r· loñ<unclear>·</unclear> travāṅ· kuc· teṅ· Ap<unclear>·</unclear> teṅ· ke teṅ· As· kvan·</add>
+                       <lb n="48"/><gap reason="lost" quantity="7" unit="character"/> <supplied reason="lost">te</supplied>ṅ<unclear>·</unclear> tvan· craṅur· teṅ· cit<unclear>·</unclear> teṅ· srās· khloñ<unclear>·</unclear> kaṁdvat· teṅ· ke
+                       <lb n="49"/><gap reason="lost" quantity="7" unit="character"/> n<supplied reason="lost">u</supplied> qme kule phoṅ· loñ<unclear>·</unclear> can<unclear>·</unclear>·hvar· Anlaṁ nu qme kule phoṅ·
+                       <lb n="50"/><gap reason="lost" quantity="7" unit="character"/> gmāl· loñ· gmāl· loñ<unclear>·</unclear> jeṅ<unclear>·</unclear> sthalā loñ<unclear>·</unclear> thṅai luc· teṅ·
+                       <lb n="51"/><gap reason="lost" quantity="6" unit="character"/> vā ke <g type="dotMid">.</g> y<supplied reason="lost">ā</supplied> loñ<unclear>·</unclear> bhīmapura vāp<unclear>·</unclear> sip· qji me vraḥ
+                       <lb n="52"/><gap reason="lost" quantity="4" unit="character"/> m<supplied reason="lost">e</supplied> vraḥ vāp· <gap reason="lost" quantity="1" unit="character"/> vāp· vrahma <g type="dotMid">.</g> yā vāp· vās· vāp· vās· vā<lb 
+                          n="53" break="no"/>p<unclear>·</unclear> <gap reason="lost" quantity="6" unit="character"/> vāp<unclear>·</unclear> <gap reason="lost" quantity="4" unit="character"/> vāp<unclear>·</unclear> ratu vāp<unclear>·</unclear> roṅ· <g type="circleSmall">.</g> yā vāp· lābha vāp<unclear>·</unclear> lābha
+                       <lb n="54"/><gap reason="lost" quantity="4" unit="character"/>m <gap reason="lost" quantity="3" unit="character"/> thṅai luc<unclear>·</unclear> yā me rut<unclear>·</unclear> teṅ· cau <g type="circleSmall">.</g> bhūmi neḥ ti jvan<unclear>·</unclear> ta kaṁ<lb 
+                          n="55" break="no"/><supplied reason="lost">mrate</supplied>ṅ· ja<supplied reason="lost">gat·</supplied> Āy<unclear>·</unclear> <gap reason="lost" quantity="2" unit="character"/>da cāṁ caṁnāṁ raṅko je mvāy· chiIn· saṅkrānta nā kaṁmrateṅ·
+                       <lb n="56"/><supplied reason="lost">jaga</supplied>t· śivapāda ra<supplied reason="lost">ṅko</supplied> j<supplied reason="lost">e</supplied> <num value="1"><g type="numeral">I</g></num> saṅkrānta qnau chok<unclear>·</unclear> phleṅ· raṅko je <num value="1"><g type="numeral">I</g></num> saṅkrānta taṁtāṁ
+                       <lb n="57"/><gap reason="lost" quantity="3" unit="character"/>k Oy<unclear>·</unclear> <gap reason="lost" quantity="3" unit="character"/> qnak<unclear>·</unclear> pvās<unclear>·</unclear> ta kuti ti dakṣiṇa vraḥ nu khñuṁ tap<unclear>·</unclear>
+                    </p>
+                   
+            </div>
+             <div type="apparatus">
+               <listApp>
+                  <app loc="2">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1953_01"></rdg>
+                  </app>
+                  </listApp>         
+         </div>
+        <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+           <p rend="stanza" n="1">Hommage à Śiva ...</p>
+           <p rend="stanza" n="2">Je rends hommage au dieu à quatre visages dont .... fait résonner les points cardinaux du son des quatre Vedas.</p>
+           <p rend="stanza" n="3">Hommage à ce (Viṣṇu) ennemi de Mura ..... Padmā amie des lotus ....</p>
+           <p rend="stanza" n="4">Hommage à ce (Śiva) ennemi de Smara ...</p>
+           <p n="5-7">Il est ordonne à ..... du Saint Vīrāśrama et aux premiers notables de Thpal et de Jeṅ Canhvar, qui ont emprunté à intérêt les accessoires de cérémonie (kriyā) de Vraḥ Rudrāśānti ..... effectuer le remboursement des biens à Bhadrāspada la Sainte Cour ... par ma faveur.</p>
+           <p n="7-9">Il est ordonné à Doṅloṅ inspecteur du Saint Vīrāśrama : la terre ..... premier notable de Thpal, uddharaṇa de Jeṅ Canhvar, de mesurer les dimensions (de cette terre) et à la Sainte Cour de planter les bornes.</p>
+           <p n="9-12">Ceux qui (sollicitèrent ?) la faveur royale furent V.K.A. Śrī Vīrendravarman, V.K.A. Śrī Pr̥thivīnarendra, V.K.A. Śrī Narapatīndravarman, V.K.A. Śrī Rājendravarman, V.K.A. Śrī Jayasiṁhavarman ; ceux qui informèrent respectueusement (le roi) furent : V.K.A. Śrī Mahīdharavarman, V.K.A. Śrī Rājapativarman.</p>
+           <p n="12-18">En 967 śaka, cinquième jour de la lune décroissante de Mārgaśira, V.K.A. Śrī Mahīdharavarman et V.K.A. Śrī Rājapativarman informèrent respectueusement S.M. Śrī Sūryavarmadeva, de l'origine de la terre de Thpal, qui avait été donnée par Kaṁsteṅ Doṅloṅ, du pays de Doṅloṅ, inspecteur du saint Vīrāśrama, Kaṁsteṅ Uddharaṇa du pays de Jeṅ Canhvar, le chef de population de Caṁnat, premier notable de Thpal, Khloñ Travāṅ Kuṅar, ancien de Thpal, le chef de population de Travāṅ Vudi, en remboursement des accessoires de cérémonie de Vraḥ Rudraśānti à V.K.A. Bhadrāspada, qui a obtenu le titre de Vidyeśvarapaṇḍita, professeur à Śivapāda, et parent du côté paternel de Anak Sañjak Chok Phlāṅ.</p>
+           <p n="18-23">En 967 śaka, S.M. Śrī Sūryavarmadeva, chargea V.K.A. Śrī Mahādharavarman d'ordonner à V.K.A. Śrī Vīravarman, chef de Śivapāda oriental et Vraḥ ... de Śivapāda d'aller délimiter la terre de Thpal que l'inspecteur du saint Vārāśrama, l'uddharaṇa et le premier notable de Thpal ont donnée en remboursement des accessoires de cérémonie de Vraḥ Rudraśānti à V.K.A. Vidyeśvarapaṇḍita, pour y planter les bornes et les donner comme don gracieux de S.M. Śrī Sūryavarman à V.K.A. Vidyeśvarapaṇḍita.</p>
+           <p n="24-29">En 968 śaka, sixième jour de la lune décroissante de Caitra, lundi, Kaṁsteṅ Doṅloṅ, du pays de Doṅloṅ, inspecteur du saint Vīrāśrama, Kaṁsteṅ Uddharaṇa du pays de Jeṅ Canhvar, le chef de la population de Caṁnat, premier notable de Thpal, le chef de population de Travāṅ Kuṅar, ancien, le chef de population de Travāṅ Vudi, se réunirent avec les anciens de Thpal et de Jeṅ Canhvar, tous parents hommes et femmes, pour que le président de la Sainte Cour, (inspecteur) des qualités et des défauts à Śivapāda, plantât les bornes (de la terre), pour la donner en remboursement des biens qu'ils ont empruntés à V.K.A. Vidyeśvarapaṇḍita, en vue de les donner à V.K.A. Śrī Vīravarman pour les offrir comme accessoires de cérémonie de Vraḥ Rudraśānti.</p>
+           <p n="29-34">Quantités des biens pris :
+           <list>
+              <item>3 buffles ;</item>
+              <item>3 crachoirs de 12 jyaṅ chacun ;</item>
+              <item>6 plats ;</item>
+              <item>1 vudi de 7 jyaṅ ;</item>
+              <item>2 bagues de 3 pāda ;</item>
+              <item>15 récipients dont 5 de 7 jyaṅ, 2 de 8 jyaṅ, 8 de 10 jyaṅ ; 7 couvertures (thnap) pour la tête ;</item>
+              <item>1 arddhalo ;</item>
+              <item>1 coupe évasée (en forme de) demi-lune ;</item>
+              <item>174 (mesures) de paddy ;</item>
+              <item>40 bœufs ;</item>
+              <item>60 vêtements riches et neufs de 10 coudées.</item>
+           </list>
+           Indemnités (thlās) :
+              <list>
+              <item>2 porcs à tuer pour donner en nourriture ;</item>
+              <item>3 thlvaṅ de riz décortiqué pour cuire ;</item>
+              <item>800 gros poissons ;</item>
+              <item>2.000 bols ;</item>
+              <item>5 jarres, 6 dlaḥ, des coupes à pied pour l'eau, l'alcool, les sauces, des pots (sthāli) sñi, nu à distribuer la nourriture, paniers en forme de marmite, paniers, kalpita, khjeṅ, pour mettre la nourriture, tout cela est aussi emporté avec les sthāli, jarres et dlaḥ.</item>
+              </list>
+           </p>
+           <p n="34-39">Limites de la terre : à l'est, elle longe le chemin ... ; au sud-est, elle longe Travāṅ Bhāga ; au sud saṁlvat Travāṅ Bhāga vers l'ouest jusqu'à la terre donnée par le roi ; au sud-ouest, elle longe l'éboulis ; à l'ouest, saṁlvat le pays de Jlyak Cok ... Teṁ Sannāya ; au nord-ouest, elle longe le chemin sacré, saṁlvat Travāṅ Nā Aṁvil ; (au nord) elle longe le chemin sacré ; au nord-est, saṁlvat Travāṅ Van(a) Ās(a). Des bornes de pierre ..... prendre des biens, mesurer la terre, pour que la sainte Cour plante les bornes.</p>
+           <p n="40-54">(Liste, en partie ruinée, des gens ayant probablement assisté à l'opération d'abornement).</p>
+           <p n="54-57">Cette terre, offerte au K.J. de Śivapāda, fournit 1 je de riz décortiqué, pour faire cuire au nouvel an, à K.J. Śivapāda ; 1 je de riz décortiqué au nouvel an à Chok Phleṅ ; 1 je de riz décortiqué au nouvel an pour faire cuire ... donner ... les gens qui entrent en religion dans la cellule au sud du dieu, et 10 esclaves.</p>
+         </div>  
+       <!--  <div type="commentary">
+              </div>   -->
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1953_01"/><citedRange unit="page">133-142</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 776-N.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">133-142</citedRange>
+    </bibl>
+  </listBibl>
+           
+        </div>
+        </body>
+    </text>
+</TEI>
