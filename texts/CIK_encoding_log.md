@@ -1394,7 +1394,7 @@ K.	294 |# |# |#|
 |K.	1241 |kuch |done | Pou NIC II-III 2001|
 |K.	1242 |kuch |done |NIC II-III|
 |K.	1243 |chch |pending |unpublished|
-|K.	1244 |chch |pending |unpublished|
+|K.	1244 |kuch |done |unpublished|
 |K.	1245 |kuch |done |Soutif 2009|
 |K.	1246 |chch |pending |unpublished|
 |K.	1247 |kuch |done |Pou NIC II-III 2001|
