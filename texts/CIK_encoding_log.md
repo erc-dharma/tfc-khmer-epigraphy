@@ -211,14 +211,14 @@
 |K.	202 |# |# |#|
 |K.	203 |# |# |#|
 |K.	204 |# |# |#|
-|K.	205 |# |# |#|
-|K.	206 |# |# |#|
-|K.	207 |# |# |#|
+|K.	205 |kuch |done |IC III|
+|K.	206 |kuch |done |IC III|
+|K.	207 |kuch |done |IC III|
 |K.	208 |# |# |#|
 |K.	209 |kuch |done |Barth 1903 and IC III|
 |K.	210 |# |# |#|
 |K.	211 |chch |done |IC III|
-|K.	212 |# |# |#|
+|K.	212 |kuch |done |IC III|
 |K.	213 |kuch |done |ISC|
 |K.	214 |chch |done |IC II |
 |K.	215 |chch |done |IC III|
@@ -244,7 +244,7 @@
 |K.	227 |kuch |done |Cœdès 1929, 1951; RS III|
 |K.	228 |# |# |#|
 |K.	229 |# |# |#|
-|K.	230 |# |# |#|
+|K.	230 |kuch |done |IC VI|
 |K.	231 |chch |done |IC III|
 |K.	232 |kuch |done |IC VI|
 |K.	233 |# |# |#|
@@ -438,7 +438,8 @@ K.	294 |# |# |#|
 |K.	350 |# |# |#|
 |K.	351 |# |# |#|
 |K.	352 |sapi |pending |IC V|
-|K.	353 |# |# |#|
+|K.	353-1 |# |# |#|
+|K.	353-2 |kuch |done |IC V|
 |K.	354 |# |# |#|
 |K.	355 |# |# |#|
 |K.	356 |# |# |#|
