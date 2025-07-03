@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eastern doorjamb of Prasat Preah Vihear (K. 380-3), 960 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00380-4</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-07-03" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                                      
+                   <p><lb 
+                       n="1"/>Oṁ namaś śivādibhyo gurubhyaś śrīsūryyavarmmadevābhyudayaṁ siddhir astu $circleTarget 960 śaka saptamī roc· srāvaṇa nu vraḥ pā - <!-- kuch: The begining part is in Sanskrit. -->
+                                         <lb n="2"/>da kamrateṅ· kaṁtvan· Añ(·) śrī sūryyavarmmadeva stac(·) vraḥ kralā seva Āy· nagara śrī yaśodharapura pi pandval ta vraḥ
+                      <lb n="3"/>kamrateṅ(·) Añ(·) śrī rājapativarmma ta cau vraḥ kamrateṅ(·) Añ(·) śrī rājapativarmma ta qcas(·) sruk(·) Avadhyapura $circleTarget man(·) [kamra-]
+                      <lb n="4"/>teṅ(·) jagat(·) śrī bhadreśvara liṅgapura mok(·) punarbhāva Āy· śrī śikharīśvara piy(·) gi vraḥ tejaḥ ta yal(·) pratyakṣa
+                      <lb n="5"/>prādurbhāva pir(·) qnak(·) Āśrama Āy(·) prasān· vrai rmmyat(·) thyeṅ(·) kāñcanapura kuruṅ· tanmer(·) ta nai vraḥ santāna vraḥ [pāda]
+                      <lb n="6"/>kamrateṅ(·) kaṁtvan(·) Añ(·) śrī sūryyavarmmadeva {2} saṁ mūla nu kamrateṅ(·) jagat(·) śrī śikharīśvara pre hau {3}
+                      <lb n="7"/>Aṁcās(·) qnak(·) nu pradhāna sappa sruk(·) noḥ pre nāṁ kulavr̥ṇḍopāya nu qnak(·) śapata Āy· nā kamrateṅ(·) jagat(·) śrī śi-
+                      <lb n="8"/>kharīśvara leṅ(·) syaṅ ta bhakti ta kamrateṅ(·) jagat(·) sanme ni nu pādamūla phoṅ(·) Udyoga paripālana kamra[teṅ· jagat· sa-]
+                      <lb n="9"/>rvvaprakāra leṅ saṁpūraṇa velā mān qnak ta khmāṅṅi sāhasika phoṅ(·) khmi Akrānta {4} n kamrateṅ(·) jagat(·) nu dra-
+                      <lb n="10"/>vyopāya phoṅ(·) daha ti tyaṅ· dai loḥ daha ti qnak(·) dau {4} leṅ(·) syaṅ(·) {4} dai - ndr {6}
+                      <lb n="11"/>leṅ(·) chpāṅ(·) kar· kamrateṅ· jagat· nu dravyopāya k {6} phoṅ(·) {4} ṇa {3} nu rājakāryya {2}
+                      <lb n="12"/>- ṅ(·) phoṅ(·) daṁnepra gi cār· cām ta ti kamrateṅ(·) phdai karom(·) {3} pre qnak(·) vraḥ jaṁnvan(·) śrī śikharīśvara thve sre qnak(·)
+                      <lb n="13"/>Āśrama nā dau thve mvāy· Anle nu qnak(·) vraḥ jaṁnvan(·) Āy(·) śrī śikharīśvara {5} nā karuṇā vraḥ śāsana
+                      <lb n="14"/>vraḥ pāda kamrateṅ· kaṁtvan(·) Añ(·) śrī sūryyavarmmadeva ta gi Upakalpa kamrateṅ(·) jagat(·) liṅgapura pre qnak(·) [Ā-]
+                      <lb n="15"/>śrama noḥ Oy· leṅ(·) grap· vvaṁ Āc ti vvaṁ mān(·) pamre thve kalpaṇā {6} nā qnak(·) viṣaya nīlaka-
+                      <lb n="16"/>ntha phoṅ(·) hau kulagaṇa noḥ phoṅ(·) pre syaṅ ta mok(·) śapata bhaktiy(·) ta kamrateṅ(·) jagat(·) śrī śikharīśvara leṅ·
+                      <lb n="17"/>sarvvaprakāra $circleTarget nā bhāga vīra nu rājakṣatra nu phduk· v {3} vrai saṁlāñ(·) {5} khvassa nu nāgacāra khlā hau Issa
+                      <lb n="18"/>qnak(·) noḥ nu gaṇa noḥ phoṅ(·) Oy· śapata leṅ(·) nu bhaktiy(·) ta kamrateṅ(·) jagat(·) śrī śikharīśvara pre syaṅ ta sanme ni
+                      <lb n="19"/>nu qnak· vraḥ jaṁnvan· phoṅ(·) nu qnak· Avadhyapura ti thve kalpaṇā {2} caṁnāṁ ta kamrateṅ(·) jagat(·) śrī śikharīśvara $circleTarget nā bhāga
+                      <lb n="20"/>vīravarmma ta yal(·) man(·) ñyāṅ· Udyoga cāp· {3} kamrateṅ(·) jagat(·) pi nāṁ kulavr̥ṇḍopāya phoṅ(·) mokka śapata bhaktiy(·) ta
+                      <lb n="21"/>kamrateṅ· jagatta $circleTarget toy(·) bhāga jeṅ(·) vnaṁ man(·) sukarmmā velā nu kamrateṅ(·) jagat(·) pi nāṁ Issa kulasantāna phoṅ(·) mok(·) śapata
+                      <lb n="22"/>bhaktiy(·) ta kamrateṅ· jagat· roḥha vaddha neḥha Ukka nau ruv kule smiṅ(·) nu qnak(·) phoṅ(·) Āy· pramān(·) jeṅ(·) vnaṁ ta sa-
+                      <lb n="23"/>mīpa phoṅ(·) pre syaṅ(·) ta śapatta teṁ bhaktiy(·) ta kamrateṅ(·) jagat(·) leṅ(·) mvāy(·) roḥ vaddha nu sukarmmā Ukka $circleTarget ruv(·) bhāga thpal(·)
+                      <lb n="24"/>saṁlāñ(·) man(·) thpal(·) saṁlāñ(·) vvaṁ Udyoga bhatiy(·) ta kamrateṅ(·) jagat(·) hau Issa kulopāya noḥ phoṅ(·)
+                      <lb n="25"/>mok(·) śapatta bhaktiy(·) ta kamrateṅ(·) jagat(·) Ukka $circleTarget riy(·) phalapriya santāna ti śrī śikharīśvara gi pi pre Oy(·) śa -
+                      <lb n="26"/>pata qnak· roḥha neḥ phoṅ(·) nā vaddha nu ta prāṁ ta roḥha neḥ cār(·) ta vraḥ śilāstambha nā kamrateṅ(·) jagatta duk ta vraḥ rikta Ā -
+                      <lb n="27"/>y· kanloṅ(·) $circle pre qnak ta roḥha neḥha phoṅ(·) phtām(·) ta kulasantāna ta nu mān(·) dau vnek ni pre syaṅ ta Udyoga bhaktiy(·) ta
+                      <lb n="28"/>kamrateṅ(·) jagat(·) śrī śikharīśvara roḥha vaddha neḥha leṅ(·) sarvvaprakāra ($ddandaOrnate)
+                      <lb n="29"/>960 śaka ṣaṣṭhī ket· mārggaśira nu mān· vraḥ karuṇā ta paramapavitra pandval ta vraḥ kamrateṅ(·) Añ(·) śrī vāgindrapandita sruk(·)
+                      <lb n="30"/>vāgindra man(·) mān(·) qnak· hau vraḥ kamrateṅ· Añ· rudrā pre cuñ· pandval ta Aṁcas· qnak· nu pradhāna phoṅ(·) phle vraḥ Āśrama Āy·
+                      <lb n="31"/>prasān(·) vrai rmmyat· thyeṅ· kāñcanapura kuruṅ· tanmer Āy· vraḥ mattavāraṇa man· kamrateṅ· jagat· śrī bhadreśvara liṅgapura ti vraḥ
+                      <lb n="32"/>pāda kamrateṅ[[·]] kaṁtvan· Añ· śrī sūryyavarmmadeva sādhya nu vraḥ tapovīryya gi pi mok· rājya Āy· śrī śikharīśvara piy(·) gi vraḥ
+                      <lb n="33"/>tejaḥ prādurbhāva pratyakṣa pi loka mel· pre qnak· vraḥ Āśrama phoṅ didai ra syaṅ ta Udyoga bhakti ta ka-
+                      <lb n="34"/>mrateṅ· jagat· śrī śikharīśvara pre thve roḥha caṁnār· ta vraḥ śilāstambha pre kaṁpi mān ta sandeha man· kaṁmrateṅ· kaṁ -
+                      <lb n="35"/>tvan· Añ· nu pragalbha ta santāna qnak pās· khmau ley· gi pi vvaṁ pragalbha man· santāna qnak· pās· khmau syaṅ ta sāha -
+                      <lb n="36"/>sika sappa vraḥ rājya lvoḥ ta vraḥ kaṁsteṅi pās· khmau daiya neḥ gi ruv(·) ti kamrateṅ· kaṁtvan· Añ· pre nirṇaya
+                      <lb n="37"/>dau hoṅ· tyaṅ· caṁnyar· dau pi kamrateṅ· phdai karoṁ nu pre tr[v]ac· Upāya qnak· pās· khmau pi nu rāl· nu qnak· vraḥ Āśrama gi pi
+                      <lb n="38"/>kamrateṅ· kaṁtvan· Añ(·) vvaṁ Iṣṭi pi śatagrahaṇa ta qnak· pās· khmau ley· caṁnyar· dau tyaṅ· nu mān santāna qnak· pās· khmau
+                      <lb n="39"/>ta nu sañjak· pi nu paṅgaṁ thpvaṅ nivedana man(·) neḥ qnak· vraḥ Āśrama tel(·) ti santāna dai gi ta paripālana pre phtām(·) ta santāna didai ra pre cu-
+                      <lb n="40"/>ñ· thvāy saṁnvat(·) Ukka man(·) vraḥ pāda kamrateṅ· kaṁtvan(·) Añ· śrī sūryyavarmmadev· ta mān· vraḥ santāna prakr̥ta vraḥ Āśrama nu caṁnāṁ kalpa-
+                      <lb n="41"/>[nā] {3} gi ta vvaṁ Iṣṭi pi Āyatta ta qnak· pās· khmau ley· $floret $ddandaOrnate
+                                      </p>
+                          <!--      <div type="apparatus">
+               <listApp>
+                  <app loc="62">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1954_02"></rdg>
+                  </app>
+                  
+                  </listApp>         
+         </div> -->
+        <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+           <p n="1">Oṁ ! Hommage aux guru dont Śiva est le premier! Prospérité pour Śrī Sūryavarmadeva ! Succès !</p>
+           <p n="1-3">En 960 Śaka, septième jour de la lune décroissante de Śrāvaṇa, S.M. Śrī Sūryavarmadeva se rendit à la salle d'audience dans la ville de Śrī Yaśodharapura pour notifier (ce qui suit) à V.K.A. Śrī Rājapativarman, petit-fils de V.K.A. Śrī Rājapativarman le vieux, du pays d'Avadhyapura.</p>
+           <p n="4-5">K.J. Śrī Bhadreśvara de Liṅgapura est venu renaître à Śrī Śikharāśvara en manifestant sa sainte puissance d'une façon visible.</p>
+           <p n="5-9">Les gens des ermitages de Prasān Vrai Rmyat Thyeṅ Kañcanapura Kuruṅ Tanmer, qui appartiennent à la sainte famille de S.M. Śrī Sūryavarmadeva, sont réunis à K.J. Śrī Śikharīśvara. (Le roi) ordonne d'appeler ...... les anciens et les notables de tous ces pays et de conduire la famille et la suitel de ces gens à K.J. Śrī Śikharīśvara pour prêter serment d'être fidèlement dévoués au dieu au même titre que le vénérable (gardien du temple), de s'efforcer de garder le dieu avec zèle de toutes les façons et d'entretenir son temple.</p>
+           <p n="9-17">Au moment où des ennemis et des rebelles s'approchent, (qu'ils défendent) le dieu et tous ses biens. S'ils savent quelque autre chose, et finalement si des gens vont ... (qu'ils aillent) combattre pour défendre le dieu et ses biens ........... service royal ..., à commencer par inscrire et garder ce que les rois ..... ordonner aux gens offerts par le roi à Śrī Śikharīśvara de faire les rizières. Là où les gens des ermitages vont faire (les rizières) au même endroit que les gens offerts par le roi à Śrī Śikharīśvara ..... faveur royale, une ordonnance de S.M. Śrī Sūryavarmadeva au procureur (upakalpa) de K.J. Liṅgapura ordonne à tous les gens des ermitages sans exception : qu'il n'yen ait pas qui n'assurent pas le service de la fondation ........... les gens du district de Nilakaṇṭha appeler toutes ces familles, leur enjoignant de venir prêter serment de fidélité à K.J. Śrī Śikharīśvara sur tous les points.</p>
+           <p n="17-19">Dans la section des guerrier, des princes ... Vrai Saṁlāñ ... appeler tous ces gens et leur suite pour prêter serment de fidélité à K.J. Śrī Śikharīśvara, leur ordonnant au même titre que les gens offerts par le roi et les gens d'Avadhyapura qui assurent le service de la fondation ..... prestations à K.J. Śrī Śikharīśvara.</p>
+           <p n="19-23">Dans la section de Vīravarman, ceux que l'on voit inciter les autres à s'efforcer de saisir ... du dieu, qu'on amène leurs familles et leurs suites prêter serment de fidélité au dieu.</p>
+           <p n="21-23">Dans la section de Jeṅ Vnaṁ que Sukarmā ... au dieu, qu'on amène les familles prêter serment de fidélité au dieu suivant cette formule aussi. Les autres membres de ces familles qui sont résidants, et les gens du territoire de Jeṅ Vnaṁ qui sont à proximité, ont l'ordre de prêter le serment originel de fidélité au dieu, suivant la formule (des gens) de Sukarmā, aussi.</p>
+           <p n="23-25">Dans la section de Thpal Saṁlāñ, Thpal Saṁlāñ ne faisant aucun effort pour témoigner sa fidélité envers le dieu, qu'on appelle les familles et leurs gens pour venir prêter le serment de fidélité au dieu aussi.</p>
+           <p n="25-28">C'est la lignée de Phalapriya qui est chargée par Śrī Śikharīśvara de faire prêter serment à tous ces gens; ces cinq serments sont gravés sur un pilier de pierre dans le (temple du) dieu et conservés sur des feuilles au Kanloṅ. Ordre est donné à ces gens de recommander à leur descendance future de s'efforcer de faire preuve de fidélité envers K.J. Śrī Śikharīśvara conformément à ce serment sur tous les points.</p>
+           <p n="56-58">En 960 Śaka, sixième jour de la lune croissante de Margaśira, Sa Majesté daigna notifier ceci à V.K.A. Śrī Vāgindrapaṇḍita du pays de Vāgindra, que les gens appellent V. K.A. Rudra, pour le charger de notifier l'ordre royal (suivant) aux anciens et aux notables (du personnel) dont jouissent les saints ermitages à Prasān Vrai Rmyat Thyeṅ Kāñcanapura Kuruṅ Tanmer et au saint pavillon.</p>
+           <p n="58-62">S.M. Śrī Sūryavarmadeva a obtenu par la force de son ascèse que K. J. Bhadreçvara de Lingapura vienne régner à Śrī Śikharīśvara pour manifester sa puissance de façon visible, pour que le monde le voie. Il enjoint aux gens de ces différents ermitages de s'efforcer' de faire acte de fidélité envers K.J. Śrī Śikharīśvara, d'agir suivant ce qui est gravé sur le pilier de pierre, et de ne pas avoir de doute (sur la question de savoir) si Sa Majesté a confié (pareille charge) à la lignée des gens de Pās Khmau, parce qu'il ne
+la leur a pas confiée.</p>
+           <p n="63-67">Les gens de la lignée de Pās Khmau ont été des gens violents sous tous les règnes, jusqu'à ce Vraḥ Kaṁsteṅ Pās Khmau que Sa Majesté a fait condamner. A l'avenir, les rois devront faire contrôler les ressources des gens de Pās Khmau, et les confondre avec celles des gens des saints ermitages, Sa Majesté ne désirant pas opérer la saisie globale des biens des gens de Pās Khmau ; à l'avenir, si l'on a connaissance qu'il y ait des gens de la lignée de Pās Khmau du rang de sañjak, qu'on en informe respectueusement le roi ; dans cette éventualité, les gens des saints ermitages qui se trouveraient sous la protection de cette autre lignée (comptant des sañjak) devraient conseiller à leurs familles respectives de présenter aussi des requêtes (au roi).</p>
+           <p n="67-68">Si S.M. Śrī Sūryavarmadeva a des parents chargés des saints ermitages et du service des redevances ... il ne désire pas qu'ils relèvent de l'autorité des gens de Pās Khmau.</p>
+          </div>  
+       <div type="commentary">
+       <p>The line numbering of the inscription in George Cœdès is different; lines 1-28 correspond to lines E1-E28 and lines 29-41 to lines E56-E68.</p>       
+       </div>
+                   <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">262-263, 265, 267-270</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 782.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">262-263, 265, 267-270</citedRange>
+    </bibl>
+  </listBibl>
+           
+        </div>
+        </body>
+    </text>
+</TEI>
