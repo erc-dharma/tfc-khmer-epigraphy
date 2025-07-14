@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Southern doorjamb of the western door of the gallery H of Prasat Preah Vihear (K. 381), 948 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00381</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-07-14" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                    <p><lb 
+                       n="1"/><num value="946">946</num> <gap reason="lost" extent="unknown" unit="character"/>
+                       <lb n="2"/>teṅ<unclear>·</unclear> Añ<unclear>·</unclear> vraḥ <gap reason="lost" extent="unknown" unit="character"/> vraḥ
+                       <lb n="3"/>kaṁrateṅ· Añ<unclear>·</unclear> nu bhū[mi] <gap reason="lost" quantity="12" unit="character"/> qnak ta cicāy<unclear>·</unclear> noḥ dau
+                       <lb n="4"/>naraka ri ta varddhe dau svargga <g type="ddandaOrnate">.</g> raṁlik dau ta vraḥ kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> nau Ampalla khñuṁ man<unclear>·</unclear> qnak<unclear>·</unclear> O<lb 
+                          n="5" break="no"/>y· pandap· nu gi mān· nu vastu ta yukti phoṅ<unclear>·</unclear> siddhi ta vraḥ kamrateṅ· Añ<unclear>·</unclear> pre duk ta rikta
+                       <lb n="6"/>praśasta nau roḥh<unclear>·</unclear> kalpanā vraḥ kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> ti vraḥ pre thve roḥ Iṣṭi vraḥ kamra<lb 
+                          n="7" break="no"/>teṅ<unclear>·</unclear> Añ<unclear>·</unclear> <g type="ddandaOrnate">.</g> <num value="948">948</num> śaka nu vraḥ kamrateṅ· Añ<unclear>·</unclear> tapasvīndrapandita jvan<unclear>·</unclear> dravya caṁnāṁ kalpanā
+                       <lb n="8"/>saṅkrānta ta kamrateṅ· jagat<unclear>·</unclear> śrī śikhareśavra gobhikṣa <num value="6"><g type="numeral">6</g></num> vat<unclear>·</unclear> ṅan<unclear>·</unclear> jyaṅ<unclear>·</unclear> vyar<unclear>·</unclear> liṅ<unclear>·</unclear> <num value="10"><g type="numeral">10</g></num> kaṅkana <num value="4"><g type="numeral">4</g></num> <gap reason="lost" quantity="3" unit="character"/>
+                       <lb n="9"/>samāhāra ta gi svok<unclear>·</unclear> kadāha vraḥ go krapi tamrya sruk<unclear>·</unclear> bhūmi khñuṁ neḥ nai tapasvīndrā<supplied reason="lost">śrama</supplied>
+                    </p>
+                   <lg n="1" met="sragdharā" xml:lang="san-Latn">
+<l n="a"><lb n="10"/><g type="circleTarget">.</g> bhūlokedyājavedyāś śubhatalanihitaṁ saptalokāntarūḍha<lb n="11" break="no"/>n</l>
+<l n="b">dānāmbhonityasiktaśrutavahalaphalānanditasvarggivarggam<unclear>·</unclear></l>
+<l n="c"><lb n="12"/>kīrttisvarvāsivr̥kṣan dadhad adhikaguṇacchāyayācchāditāśaṁ</l>
+<l n="d"><lb n="13"/>rājā śrīsūryyavarmmāvudhibhujavivarair āpa sadrājyalakṣmīm<unclear>·</unclear></l>
+</lg>
+                   <lg n="2" met="sragdharā" xml:lang="san-Latn">
+<l n="a"><lb n="14"/>devādiṁ panditāntān dadhati munivare dāt tapasvīndramadhyām<unclear>·</unclear></l>
+<l n="b"><lb n="15"/>Ākhyāṁ yo hemadolām uragadharamukhīm atra saṁpatsamagraṁ</l>
+<l n="c"><lb n="16"/>śrīmadvīrāśraman taṁ vahalaphaladr̥śā dānavr̥tteś ca pītā-</l>
+<l n="d"><lb n="17"/>vāntāvdheḥ kumbhayoner agaṇitamahimāsyasthavidyāmvurāśiḥ</l>
+</lg>
+                   <lg n="3" met="sragdharā" xml:lang="san-Latn">
+<l n="a"><lb n="18"/>bhaktīdhas sādhitaṁ yac chubhaphalam akhilaṁ vāṅmanodehayatnā<lb n="19" break="no"/>d</l>
+<l n="b">dātā śrīsūryyavarmmatribhuvanagurave śrītapasvīndranāmā</l>
+<l n="c"><lb n="20"/>karttā tasyāśramasya kṣitidharatilakasyāparā<seg met="+-"><gap reason="lost" quantity="2" unit="character"/></seg>saṁjñā<supplied reason="lost">ṁ</supplied></l>
+<l n="d"><lb n="21"/>vikhyātām āśramāntān dharaṇidharaśirā yas tapasvīndrapūrvvām·</l>
+</lg>
+                          </div>
+          <!--    <div type="apparatus">
+               <listApp>
+                  <app loc="2">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1954_02"></rdg>
+                  </app>
+                  </listApp>         
+         </div> -->
+        <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+           <p n="1-4">En 946 <gap reason="lost"/> de V.K.A. et la terre <gap reason="lost"/> les gens qui détruiront cette <supplied reason="subaudible">fondation</supplied> iront en enfer, ceux qui la feront prospérer iront au ciel.</p>
+           <p n="4-7">Il est rappelé à V.K.A. : sur tous les esclaves que les gens ont donné pour être consignés ici, ainsi que sur tous les objets appropriés, V.K.A. a un droit d'usage exclusif ; ils sont mentionnés dans un acte écrit, conforme à la fondation de V.K.A., que le roi prescrit d'exécuter suivant le désir de V.K.A.</p>
+           <p n="7-9">En 948 Śaka, V.K.A. Tapasvīndrapaṇḍita donna des biens comme redevances pour le nouvel an à K.J. Śrī Śikhareśvara : 6 <foreign>gobhikṣa</foreign>, vat pesant 2 <foreign>jyaṅ</foreign>, 10 <foreign>liṅ</foreign>, 4 bracelets <gap reason="lost"/> cette collection de plateaux, bassines, vaches, buffles, éléphants, villages, terres, esclaves du Tapasvīndrāśrama.</p>
+           <p rend="stanza" n="1">Celui dont la gloire, tel l'arbre céleste planté aujourd'hui sur la terre, est placée sur la surface pure de l'autel d'Agni, pousse aux confins des sept mondes, réjouit la foule des habitants du Ciel par ses fruits nombreux et renommés, sans cesse arrosés par l'eau de ses donations, et couvre les points cardinaux de l'ombre de ses éminentes vertus, le roi Śrī Sūryavarman a obtenu l'excellente royauté <supplied reason="subaudible">en l'année marquée</supplied> par les <supplied reason="subaudible">9</supplied> ouvertures, les <supplied reason="subaudible">2</supplied> bras et les <supplied reason="subaudible">4</supplied> océans.</p>
+<p rend="stanza" n="2">Ayant vu la manière de donner d'<supplied reason="subaudible">Agastya</supplied> né dans une cruche, qui avait bu puis vomi l'Océan, ce <supplied reason="subaudible">roi</supplied> qui avait dans la bouche un océan de science d'une grandeur incalculable, a donné au meilleur des sages qui porte un nom commençant par Deva-, terminé par -<foreign>paṇḍita</foreign> avec au milieu -<foreign>tapasvīndra</foreign>-, un palanquin d'or à supports en forme de têtes de <foreign>nāga</foreign>, et ici ce fortuné Vīrāśrama pourvu de biens.</p>
+<p rend="stanza" n="3">Brûlant de dévotion, le nommé Śrī Tapasvīndrapaṇḍita a donné à Śrī Sūryavarman, maître spirituel des trois mondes, tout le mérite acquis par l'effort de sa voix, de son esprit et de son corps ; chef de la montagne, il a donné à cet ermitage, ornement de la montagne <gap reason="lost"/> un nom fameux terminé par <foreign>āśrama</foreign> et commençant par Tapasvīndra-.</p>           
+         </div>  
+       <!--  <div type="commentary">
+              </div>   -->
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">255-257</citedRange></bibl>) with a French translation.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">255-257</citedRange>
+    </bibl>
+  </listBibl>
+          <listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">348-350</citedRange>
+    </bibl>
+              </listBibl> 
+        </div>
+        </body>
+    </text>
+</TEI>
