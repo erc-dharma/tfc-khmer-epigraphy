@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Southern doorjamb of the inner door of Prasat Sek Ta Tuy (K. 617), 10th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/7401978">
+                  <forename>Louis</forename>
+                  <surname>Finot</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00617</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-07-23" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                                      <p><lb 
+                       n="1"/><unclear><g type="gomutraInitial">.</g></unclear> śrī <supplied reason="lost">svasti</supplied> <gap reason="lost" extent="unknown" unit="character"/> vallabha khloñ· 
+                                         <lb n="2"/>mukha <gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="3"/>ṇā ti <gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="4"/>pāda kamrateṅ<unclear>·</unclear> Añ<unclear>·</unclear> śrī sūryyavarmmadeva <gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="5"/>kat· cāṁ vraḥ pāñjīy<unclear>·</unclear> pre tak· vraḥ pāñjīy<unclear>·</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="6"/>pragalbha thve vraḥ rājakāryya nu vraḥ kaṁsteṅi śrī saṁphala<gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="7"/>vraḥ kaṁsteṅi jau bhūmi nu cancyān· vraḥ karu<supplied reason="lost">ṇā</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="8"/>kulapati nu tamrvac· khloñ<unclear>·</unclear> qnak· phoṅ<unclear>·</unclear> ti thve Ā<supplied reason="lost">śrama</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">daṁri</supplied><lb 
+                                            n="9" break="no"/>ṅ· slā khnar· Antāṁ phoṅ· jyak· travāṅ· ti jau bhūm<supplied reason="lost">i</supplied> nā thve <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Ā</supplied><lb 
+                                               n="10" break="no"/>śrama neḥ nu padigaḥ mvāy· ṅan<unclear>·</unclear> jyaṅ· praṁvyala ti vra<supplied reason="lost">ḥ kaṁ</supplied>steṅ<unclear>·</unclear>
+                                         <lb n="11"/>ven· jeṅ· sabhāpati nā do yugapat· saṅ gol ta gi <g type="circleTarget">.</g> ri khñuṁ vraḥ vnaṁ
+                                         <lb n="12"/>vrāhmaṇa ti qnak· lak· cāy· kroy· ti vraḥ kaṁsteṅi loḥ viṅ·
+                                         <lb n="13"/>gho kan·Ā gho <gap reason="lost" extent="unknown" unit="character"/> k· <gap reason="lost" extent="unknown" unit="character"/> yau ta<gap reason="lost" extent="unknown" unit="character"/> lār<unclear>·</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="14"/>vlaḥ yau pha<gap reason="lost" extent="unknown" unit="character"/> tai kanleṅ· <supplied reason="lost">tra</supplied>vaṅ· ti paṅvā-
+                                         <lb n="15"/>n<unclear>· t</unclear>ai paro <gap reason="lost" extent="unknown" unit="character"/> kalpa<supplied reason="lost">nā</supplied> <gap reason="lost" extent="unknown" unit="character"/> vyar<unclear>·</unclear> pra<lb 
+                                            n="16" break="no"/>tidina raṅko <gap reason="lost" extent="unknown" unit="character"/> ta saṅkrānta vrai śira mvāy<unclear>·</unclear>
+                                         <lb n="17"/>phoṅ<unclear>·</unclear> bhūmi <unclear>kh</unclear>ñu<supplied reason="lost">ṁ</supplied> <gap reason="lost" extent="unknown" unit="character"/> ti duk ta Āśrama neḥ
+                                         <lb n="18"/>ti Oy ta kamrateṅ<unclear>·</unclear> <supplied reason="lost">jagat· vnaṁ vrāhma</supplied>ṇa ti pre śiṣya pari<lb 
+                                            n="19" break="no"/>pālana <gap reason="lost" extent="unknown" unit="character"/> panita sruk· vidyāvāsa śi<lb 
+                                               n="20" break="no"/>ṣya vraḥ <gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="21"/>bhūmi no<supplied reason="lost">ḥ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="22"/>jau bhūmi nā <gap reason="lost" extent="unknown" unit="character"/> nā nu sve<gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="23"/>vraḥ kaṁsteṅi sabhāpati saṅ gol ta<gap reason="lost" extent="unknown" unit="character"/>k ta loḥ <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">pa</supplied><lb 
+                                            n="24" break="no"/>digaḥ mvāy· ṅan<unclear>·</unclear> jyaṅ· prām<unclear>·</unclear> dop· mvāy<unclear>·</unclear> ve<unclear>ṅ· hat</unclear><supplied reason="lost">·</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="25"/>prām<unclear>·</unclear> <g type="circleTarget">.</g> kalpanā caru li<unclear>ḥ</unclear> <gap reason="lost" extent="unknown" unit="character"/> pratidi<supplied reason="lost">na</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="26"/>ḥ mimvāy saṅkrānta <gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="27"/>ha noḥha ti duk ta Āśrama neḥ Oy<supplied reason="lost">·</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="28"/>śivaliṅga vnaṁ vrāhmaṇa ti pre śiṣya gi ta <gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="29"/>tai bhavya kvan<unclear>·</unclear> gho kansān gho khdep· gho sā<unclear>ṁAp</unclear><supplied reason="lost">·</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="30"/>pi thā tai kantai gho tīrtha krapiyya <num value="4"><g type="numeral">4</g></num> <g type="circleHorned">.</g>
+                                      </p>
+                               <div type="apparatus">
+               <listApp>
+                  <app loc="8">
+                     <lem></lem>
+                     <rdg source="bib:Finot1928_08"></rdg>
+                     <rdg source="bib:Pou2001_01"></rdg>
+                  </app>
+                                    </listApp>         
+         </div>
+        <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
+           <p n="1-6">Fortune et bonheur! <gap reason="lost"/> <supplied reason="subaudible">Sous le règne de</supplied> Sa Majesté Śrī Sūryvarmadeva, le Khloñ Mukha <gap reason="lost"/>vallabha <gap reason="lost"/> <supplied reason="subaudible">employé</supplied> à l'écriture et la garde des registres royaux, reçut l'ordre d'y noter <gap reason="lost"/> et de remettre au service royal <gap reason="lost"/> Vraḥ Kaṁsteṅ Śrī Saṁ<gap reason="lost"/>.</p>
+           <p n="7-11">Le V.Kaṁsteṅ avait acheté une <supplied reason="subaudible">des</supplied> terres au moyen de bagues. Le roi <gap reason="lost"/> au chef de l'<foreign>āśrama</foreign> et aux  inspecteurs de tous les travailleurs de cet <foreign>āśrama</foreign> <gap reason="lost"/> plantations d'aréquier, clôture, et autres cultures, creuser des étangs. Les terres furent achetées au moment des travaux de l'<foreign>āśrama</foreign>, au moyen d'un crachoir pesant sept <foreign>jyaṅ</foreign> <gap reason="lost"/>. Le président du Tribunal alla avec <supplied reason="subaudible">eux</supplied> pour planter des bornes.</p>
+           <p n="11-15">Certains serviteurs du Temple des Brahmanes <supplied reason="explanation"><foreign>vnaṁ vrāhmaṇa</foreign></supplied>, vendus pour <supplied reason="subaudible">d'autres dépenses</supplied>, furent par la suite rachetés par le V.Kaṁsteṅ : Gho Kan-ā, Gho <gap reason="lost"/>, Tai <gap reason="lost"/>.</p>
+           <p n="15-22">prescrit 2 <gap reason="lost"/> de riz décortiqué chaque jour <gap reason="lost"/> au moment des <foreign>saṅkrānta</foreign> <gap reason="lost"/> déposer dans cet <foreign>āśrama</foreign> <gap reason="lost"/> ordre donné aux élèves de surveiller <gap reason="lost"/> au village Vidyāvāsa, les élèves <gap reason="lost"/>.</p>
+           <p n="23-26">Le V.Kaṁsteṅ et le Président du Tribunal plantèrent des bornes <gap reason="lost"/> d'un crachoir pesant 5 <foreign>jyaṅ</foreign>, une étoffe <foreign>dop</foreign> ... <foreign>liḥ</foreign> de bouillie de riz au lit chaque jour <gap reason="lost"/> et à chaque <foreign>saṅkrānta</foreign> <gap reason="lost"/>.</p>
+           <p n="27-30">cela déposé en cet <foreign>āśrama</foreign> <gap reason="lost"/>, le <foreign>śivaliṅga</foreign> du Temple des Brahmanes. Les élèves furent employés à <gap reason="lost"/> Tai Bhavya et ses fils, Gho Kansān, Gho Khdep, Gho <gap reason="lost"/>, Tai Kantai, Gho Tīrtha, 4 buffles.</p>
+         </div>  
+       <!--  <div type="commentary">
+              </div>   -->
+        <div type="bibliography">
+          <p>First edited by Louis Finot (<bibl rend="omitname"><ptr target="bib:Finot1928_08"/><citedRange unit="page">56</citedRange></bibl>) without translation, reedited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">225-227</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom from the estampage EFEO n. 522.</p>
+	 <listBibl type="primary">
+    <bibl n="LF">
+      <ptr target="bib:Finot1928_08"/><citedRange unit="page">56</citedRange>
+    </bibl>
+
+	  <bibl n="SP">
+      <ptr target="bib:Pou2001_01"/><citedRange unit="page">225-227</citedRange>
+    </bibl></listBibl>
+          <listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">345-346</citedRange>
+    </bibl>
+              </listBibl> 
+        </div>
+                </div>
+        </body>
+    </text>
+</TEI>
