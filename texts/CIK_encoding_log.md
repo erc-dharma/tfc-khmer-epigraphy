@@ -466,9 +466,13 @@ K.	294 |# |# |#|
 |K.	377 |kuch |done |IC V|
 |K.	378 |# |# |#|
 |K.	379 |chch |done |IC VI|
-|K.	380 |# |# |#|
-|K.	381 |chch |pending |IC VI|
-|K.	382 |# |# |#|
+|K.	380-1 |kuch |done |IC VI|
+|K.	380-2 |kuch |done |IC VI|
+|K.	380-3 |kuch |done |IC VI|
+|K.	380-4 |kuch |done |IC VI|
+|K.	381 |kuch |done |IC VI|
+|K.	382-1 |kuch |done |ISCC|
+|K.	382-2 |kuch |done |IC VI|
 |K.	383 |# |# |#|
 |K.	384 |chch |pending |IC V|
 |K.	385 |# |# |#|
@@ -705,7 +709,7 @@ K.	294 |# |# |#|
 |K.	595 |# |# |#|
 |K.	596 |# |# |#|
 |K.	597 |kuch |done |IC IV|
-|K.	598 |# |# |#|
+|K.	598 |kuch |done |Finot 1928 and NIC II-III|
 |K.	599 |kuch |done |unpublished|
 |K.	600 |kuch |done |IC II|
 |K.	601 |kuch |done |unpublished|
@@ -726,9 +730,8 @@ K.	294 |# |# |#|
 |K.	614 |kuch |done |unpublished|
 |K.	615 |kuch |done |unpublished|
 |K.	616 |kuch |done |unpublished|
-|K.	617 |# |# |#|
-|K.	618 |# |# |#|
-|K.	619 |# |# |#|
+|K.	617 |kuch |done |Finot 1928 and NIC II-III|
+|K.	618 |kuch |done |Finot 1928 and NIC II-III||K.	619 |# |# |#|
 |K.	620 |# |# |#|
 |K.	621 |kuch |done |Cœdès 1951|
 |K.	622 |kuch |done |Cœdès 1951|
@@ -817,7 +820,7 @@ K.	294 |# |# |#|
 |K.	703 |# |# |#|
 |K.	704 |chch |done |unpublished|
 |K.	705 |kuch |done |IC V|
-|K.	706 |chch |pending |IC V|
+|K.	706 |kuch |done |IC V|
 |K.	707 |chch |pending |IC V|
 |K.	708 |# |# |#|
 |K.	709 |kuch | done |IC V|
