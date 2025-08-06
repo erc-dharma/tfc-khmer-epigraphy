@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>First inscription on doorjamb of the sanctuary B of Prasat Kok Po (K. 814-1), 926 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="http://viaf.org/viaf/66465311"><!-- kuch: Dupont's viaf is not yet available. -->
+                  <forename>Pierre</forename>
+                  <surname>Dupont</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00814-1</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-08-05" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                                      <lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W1"/><milestone type="pagelike" unit="item" n="W"/><label xml:lang="eng">Western Doorjamb</label><milestone unit="column" n="a"/>namaś caturbhujāyāstu</l>
+<l n="b"><milestone unit="column" n="b"/>caturdhā viṣkr̥tātmaṇe</l>
+<l n="c"><lb n="W2"/><milestone unit="column" n="a"/>nistraiguṇyaguṇāyāpi</l>
+<l n="d"><milestone unit="column" n="b"/>catustraiguṇyadhāriṇe $ddandaOrnate</l>
+</lg>
+                   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W3"/><milestone unit="column" n="a"/>vande trivikramaṁ yasya</l>
+<l n="b"><milestone unit="column" n="b"/>kostubho bhāti vakṣasi</l>
+<l n="c"><lb n="W4"/><milestone unit="column" n="a"/>trailokyollaṅghavegeṇa</l>
+<l n="d"><milestone unit="column" n="b"/>lagnavān iva bhāskaraḥ $ddandaOrnate</l>
+</lg>
+                   <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W5"/><milestone unit="column" n="a"/>viṣṇun namata yasyordhvaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>śaṅkhacakradharau karau</l>
+<l n="c" enjamb="yes"><lb n="W6"/><milestone unit="column" n="a"/>rāhor bhbhettur iva grāsa</l>
+<l n="d"><milestone unit="column" n="b"/>-bhayād arkkendusaṁśritau $ddandaOrnate</l>
+</lg>
+                   <lg n="4" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="W7"/><milestone unit="column" n="a"/>śrīkamvujendradharaṇīdharavaṅśaketu<milestone unit="column" n="b" break="no"/>r</l>
+<l n="b">yyo dhūmaketur arirājagaṇe guṇāḍhyaḥ</l>
+<l n="c"><lb n="W8"/><milestone unit="column" n="a"/>rājendravarmmanr̥pates tanayo nayāgryaḥ</l>
+<l n="d"><milestone unit="column" n="b"/>śrīddho vabhūva nr̥patir jjayavarmmadevaḥ ($ddandaOrnate)</l>
+</lg>
+                   <lg n="5" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="W9"/><milestone unit="column" n="a"/>pādāravindaśaraṇāgatakāmakāntā</l>
+<l n="b"><milestone unit="column" n="b"/>-soronipīdanavilāpam anugrahītrā</l>
+<l n="c"><lb n="W10"/><milestone unit="column" n="a"/>manye smaro para Iva smaravairiṇā ya<milestone unit="column" n="b" break="no"/>ś</l>
+<l n="d">cakre rater atimude <supplied reason="subaudible">’</supplied>dhikasundarāṅgaḥ $ddandaOrnate</l>
+</lg>
+                   <lg n="6" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="W11"/><milestone unit="column" n="a"/>viyadvilāṣṭasāmrājya</l>
+<l n="b"><milestone unit="column" n="b"/>-bhujo bhujajitadviṣaḥ</l>
+<l n="c" enjamb="yes"><lb n="W12"/><milestone unit="column" n="a"/>bhr̥tyas tasya sadā cāru</l>
+<l n="d"><milestone unit="column" n="b"/>-cārur ṇṇārāyanāhvayaḥ $ddandaOrnate</l>
+</lg>
+                   <lg n="7" met="upajāti" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="W13"/><milestone unit="column" n="a"/>narāyanāsyāṅghriyugārajandha</l>
+<l n="b"><milestone unit="column" n="b"/>-saṁsaktacittabhramarapracāraḥ</l>
+<l n="c"><lb n="W14"/><milestone unit="column" n="a"/>yo dharmmakāmārthavicakṣaṇo <supplied reason="subaudible">’</supplied>pi</l>
+<l n="d"><milestone unit="column" n="b"/>vicakṣaṇair dhārmmika Eva dr̥ṣṭaḥ $ddandaOrnate</l>
+</lg>
+                   <lg n="8" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W15"/><milestone unit="column" n="a"/>svakīyavandhumūlastho</l>
+<l n="b"><milestone unit="column" n="b"/>yo vālaparicārakaḥ</l>
+<l n="c"><lb n="W16"/><milestone unit="column" n="a"/>Uditoditavaṅśodya<milestone unit="column" n="b" break="no"/>n</l>
+<l n="d">mātāpitr̥mahodayaḥ $ddandaOrnate</l>
+</lg>
+                   <lg n="9" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W17"/><milestone unit="column" n="a"/>cakāra cakrisaubhāktyā</l>
+<l n="b"><milestone unit="column" n="b"/>saṁkrāntapadam āśramam·</l>
+<l n="c" enjamb="yes"><lb n="W18"/><milestone unit="column" n="a"/>dāsīdāsahiraṇyādi</l>
+<l n="d"><milestone unit="column" n="b"/>-dhanair āpūrayac ca saḥ $ddandaOrnate</l>
+</lg>
+                   <lg n="10" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W19"/><milestone unit="column" n="a"/>catuḥprastha - śucyannaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>dātavyaṁ prativāsaram·</l>
+<l n="c"><lb n="W20"/><milestone unit="column" n="a"/>triprasthadevayajñañ ca</l>
+<l n="d"><milestone unit="column" n="b"/>cakriṇe so 'py akalpayat· $ddandaOrnate</l>
+</lg>
+                   <lg n="11" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W21"/><milestone unit="column" n="a"/>nandinaṁ śrīmahākālaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>dvāssthaṁ viṣṇor vvidhāya sa</l>
+<l n="c"><lb n="W22"/><milestone unit="column" n="a"/>dviprastham anvahan tābhyāṁ</l>
+<l n="d"><milestone unit="column" n="b"/>yajñan deyam akalpayat· $ddandaOrnate</l>
+</lg>
+                   <lg n="12" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W23"/><milestone unit="column" n="a"/>māsi māsi sa saṅkrānte</l>
+<l n="b"><milestone unit="column" n="b"/>dadhidroṇakatandulam·</l>
+<l n="c" enjamb="yes"><lb n="W24"/><milestone unit="column" n="a"/>dhānyādiprastham ekaika</l>
+<l n="d"><milestone unit="column" n="b"/>-pañcayajñam akalpayat· $ddandaOrnate</l>
+</lg>
+                   <lg n="13" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W25"/><milestone unit="column" n="a"/>catuśśātakam ekaikaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>dātavyaṁ prativatsaram·</l>
+<l n="c"><lb n="W26"/><milestone unit="column" n="a"/>yājakābhyāṁ sakāribhyāṁ</l>
+<l n="d"><milestone unit="column" n="b"/>dakṣiṇāṁ so 'py akalpayat· $ddandaOrnate</l>
+</lg>
+                   <lg n="14" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W27"/><milestone unit="column" n="a"/>yat setvantasthitakṣetraṁ</l>
+<l n="b"><milestone unit="column" n="b"/>yajñārthaṁ prativāsaram·</l>
+<l n="c"><lb n="W28"/><milestone unit="column" n="a"/>kṣetrasaṅkrāntasaṁjñān tu</l>
+<l n="d"><milestone unit="column" n="b"/>saṅkrānte kalpayac ca saḥ $ddandaOrnate</l>
+</lg>
+                   <lg n="15" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W29"/><milestone unit="column" n="a"/>pratigrahaṁ sabhr̥ṅgāraṁ</l>
+<l n="b"><milestone unit="column" n="b"/>tāmraṁ sarvvañ catuṣṭayam(·)</l>
+<l n="c"><lb n="W30"/><milestone unit="column" n="a"/>pradāya pādamūlāya</l>
+<l n="d"><milestone unit="column" n="b"/>kṣetraṁ setvantam ādade ($ddandaOrnate)</l>
+</lg>
+                   <lg n="16" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="a"><lb n="W31"/>rājārāmanarādhikārapuruṣau mausaṁjñakas saṁjna[to]</l>
+<l n="b">vis[sa]ṅgena krtāñatā - - - - bhū<lb n="W32"/>pālakāryyakr̥tte</l>
+<l n="c">bhr̥ṅgāra[dvitayaṁ] pratigr̥yatāṁ tāmraṁ mahātbhajanaṁ</l>
+<l n="d"><lb n="W33"/>gr̥hnan tāsv acatāni saṁpratidadau taṁ kṣetrasaṅkrāntakaṁ $ddandaOrnate</l>
+</lg>
+                   <lg n="17" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W34"/><milestone unit="column" n="a"/>jnenāmasaṁjñatenaiva</l>
+<l n="b"><milestone unit="column" n="b"/>hr̥ttvā tāmraṁ sadhānyakaṁ</l>
+<l n="c"><lb n="W35"/><milestone unit="column" n="a"/>dāttā bhūmir iyaṁ saṅsthā</l>
+<l n="d"><milestone unit="column" n="b"/>sthalāpravace saṁjñate ($ddandaOrnate)</l>
+</lg>
+                   <lg n="18" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W36"/><milestone unit="column" n="a"/>Anye 'pi dāsāḥ krītā[s te]</l>
+<l n="b"><milestone unit="column" n="b"/>tenānyātīva dhānyataḥ</l>
+<l n="c"><lb n="W37"/><milestone unit="column" n="a"/>bhaktyā dattās sumatinā</l>
+<l n="d"><milestone unit="column" n="b"/>viṣṇave prabhaviṣṇave $ddandaOrnate</l>
+</lg>
+                   <lg n="19" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W38"/><milestone unit="column" n="a"/>ye putrapautrāḥ parvva.y.</l>
+<l n="b"><milestone unit="column" n="b"/>bhaginyas tasya bhāvinaḥ</l>
+<l n="c"><lb n="W39"/><milestone unit="column" n="a"/>tadadhīnam idaṁ sarvvaṁ</l>
+<l n="d"><milestone unit="column" n="b"/>pālitaṁ dharmmato harau $ddandaOrnate</l>
+</lg>
+                   <lg n="20" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="W40"/><milestone unit="column" n="a"/>$circleHorned sarvvāpadas smarati yasya na kevalāyāḥ</l>
+<l n="b"><milestone unit="column" n="b"/>hantuś śrīya ⏑ - ivudhantapadañ ca dātuḥ</l>
+<l n="c" enjamb="yes"><lb n="W41"/><milestone unit="column" n="a"/>narāyanan namata taṁ vivudhārirāśi</l>
+<l n="d"><milestone unit="column" n="b"/>-jetāram indravibhavāya surāsurājau ($ddandaOrnate)</l>
+</lg>
+                   <lg n="21" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="W42"/><milestone unit="column" n="a"/>narāyane 'py anyapapuṣyahr̥ṣṭo</l>
+<l n="b"><milestone unit="column" n="b"/>narayanotkantha Ivāmvariṣaḥ</l>
+<l n="c"><lb n="W43"/><milestone unit="column" n="a"/>nārāyanātmāpi vivicya viśva<milestone unit="column" n="b" break="no"/>n</l>
+<l n="d">nārāyanākhyo 'bhavad iddhavīryyaḥ $ddandaOrnate</l>
+</lg>
+                   <lg n="22" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W44"/><milestone unit="column" n="a"/>rairūpyavastrabhr̥ṅgāraṁ</l>
+<l n="b"><milestone unit="column" n="b"/>kṣetraṁ krītaṁ śivādhvake</l>
+<l n="c"><lb n="W45"/><milestone unit="column" n="a"/>nāgaśarmmayutāt tena</l>
+<l n="d"><milestone unit="column" n="b"/>śrīnivāsākṣidanvitāt· $ddandaOrnate</l>
+</lg>
+                   <lg n="23" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W46"/><milestone unit="column" n="a"/>devāriñjakaṁ kṣetraṁ</l>
+<l n="b"><milestone unit="column" n="b"/>hr̥dyākhyaṁ draṅgasaṁjñakam·</l>
+<l n="c"><lb n="W47"/><milestone unit="column" n="a"/>nagarīmārgga Evāsyā</l>
+<l n="d"><milestone unit="column" n="b"/>bhuvaḥ pracyādito 'vadhiḥ $ddandaOrnate</l>
+</lg>
+                   <lg n="24" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W48"/><milestone unit="column" n="a"/>sarvvakālakr̥mikṣetraṁ</l>
+<l n="b"><milestone unit="column" n="b"/>ṣaṣṭivyāmorasāpi saḥ</l>
+<l n="c" enjamb="yes"><lb n="W49"/><milestone unit="column" n="a"/>jnoṅkṣetraṁ śatakhāryyarha</l>
+<l n="d"><milestone unit="column" n="b"/>-vījasthāpanam anvadāt· $ddandaOrnate</l>
+</lg>
+                   <lg n="25" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W50"/><milestone unit="column" n="a"/>śrīnivāsādito lavdhvā</l>
+<l n="b"><milestone unit="column" n="b"/>śrīnivāse mahīm imām·</l>
+<l n="c"><lb n="W51"/><milestone unit="column" n="a"/>so 'dād da - niśuddhātmā</l>
+<l n="d"><milestone unit="column" n="b"/>śvetādvipamahāssāde $ddandaOrnate</l>
+</lg>
+                   <lg n="26" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W52"/><milestone unit="column" n="a"/>saṁkrāntakalpanāsiddhyai</l>
+<l n="b"><milestone unit="column" n="b"/>kṣetrasaṁkrāntasaṁjñitā</l>
+<l n="c"><lb n="W53"/><milestone unit="column" n="a"/>sarvvā bhūmir dhanaiḥ krītā</l>
+<l n="d"><milestone unit="column" n="b"/>dāyi tenāsurāraye $ddandaOrnate</l>
+</lg>
+                   <lg n="27" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W54"/><milestone unit="column" n="a"/>purohitas savandhuś ca</l>
+<l n="b"><milestone unit="column" n="b"/>dhārmmiko yājakottamaḥ</l>
+<l n="c"><lb n="W55"/><milestone unit="column" n="a"/>te pālayanti tat punyaṁ</l>
+<l n="d"><milestone unit="column" n="b"/>svapunyam iva samyatāḥ $ddandaOrnate</l>
+</lg>
+                   <p><lb 
+                       n="W56"/>$circleHorned qnak ta paripāla Āśrama purohita vāp(·) juḥ janakule
+                                         <lb n="W57"/>ta mān· dharmma Āc· Ukka $circleSmall caṁnat kantāl· chok· nu khñuṁ nai teṅ(·) tvan·
+                                         <lb n="W58"/>vraḥ mandira ta qme khloñ(·) vala travāṅ· vrāhmaṇa ti Oy ta khloñ(·) vala
+                                         <lb n="W59"/>travāṅ· vrāhmaṇa pre cāṁ camnāṁ punyāśraya ta vraḥ kaṁmrateṅ· Añ(·)
+                                         <lb n="W60"/>śvetadvīpa gi roḥ kalpanā velā saṅkrānta raṅko thlvaṅ· I steṅ· Añ·
+                                         <lb n="W61"/>Ācāryya homa ta khmuk vraḥ kriyā Arccana ta phqvan(·) khloñ· vala travā-
+                      <lb n="W62"/>ṅ· vrāhmaṇa gi nā Āyatta gi khñum nu caṁnat· neḥ Oy· caṁnāṁ mvā-
+                      <lb n="W63"/>y· Anle nu Āśrama ta jmaḥ saṁkrāntapada $floret
+                                      </p>
+                   <lg n="28" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="W64"/><milestone unit="column" n="a"/>sthalāpravaca Ārāme</l>
+<l n="b"><milestone unit="column" n="b"/>setupāde śivādhvake</l>
+<l n="c"><lb n="W65"/><milestone unit="column" n="a"/>jneṅkṣetra sarvvadākṣetre</l>
+<l n="d"><milestone unit="column" n="b"/>Āyattāś cāśrame bhuvaḥ $ddandaOrnate</l>
+</lg>
+                   <lg n="29" met="pr̥thivī" xml:lang="san-Latn">
+<l n="a"><lb n="W66"/>caturmukhacaturbhujyeśvarapada ⏑ - ādyanta -</l>
+<l n="b"><lb n="W67"/>svadharmmam api dharmmam ātra paripālayanty eva ye</l>
+<l n="c"><lb n="W68"/>na tārayati pāñcajanyam api tāñ cireṇoddhaman(·)</l>
+<l n="d"><lb n="W69"/>harir nikhila rauravā[dina]rakād vī - - ⏑ -</l>
+</lg>
+                   <p><lb 
+                       n="W70"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="W71"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="W72"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="W73"/><gap reason="lost" extent="unknown" unit="character"/>
+                                      </p>
+                   <p><milestone type="pagelike" unit="item" n="E"/><label xml:lang="eng">Eastern Doorjamb</label><lb 
+                       n="E0"/>($circleHorned) siddhi {4}
+                      <lb n="E1"/>$circleHorned Oṁ 901 śaka gi nu khloñ(·) vala travāṅ· vrāhmaṇa mūla                   
+                      <lb n="E2"/>kanmyaṅ· pamre duñ(·) bhūmi Ārāma ta vāp· vis· taṁmrvac·
+                                         <lb n="E3"/>vraḥ chpār(·) vāp· mau qnak· vraḥ chpār· $dotMid kāla ta gi vraḥ rājya
+                                         <lb n="E4"/>[dh]ūlī vraḥ pāda dhūlī jeṅ· vraḥ kamrateṅ· Añ(·) śrī jaya-
+                                         <lb n="E5"/>varmmadeva ($dotMid) kāla thve ṅār· vraḥ hemaśr̥ṅgakiri nu ṅār· vraḥ
+                                         <lb n="E6"/>mandira vraḥ yaśovati $circleSmall neḥ vāp· vis· vāp· mau parihāra $dotMid                                         
+                      <lb n="E7"/>lak ta neḥ bhūmi Ārāma ta khloñ(·) vala travāṅ· vrāhmaṇa ri thlā-
+                                         <lb n="E8"/>y(·) bhūmi neḥ vaudi vyar(·) mvāy· ṅan· jyaṅ· 9 mvāy· ṅan(·) jya-
+                                         <lb n="E9"/>ṅ· 5 padigaḥ vyar· mvāy[[·]] ṅan(·) jyaṅ· 10 mvāy[[·]] ṅan· jyaṅ· 6 svok(·)
+                                         <lb n="E10"/>mvāy(·) ṅan(·) jyaṅ[[·]] 4 $dotMid phsam(·) laṅgau neḥ tul· mvāy(·) jyaṅ(·) 10 4
+                      <lb n="E11"/>canlyāk· thyāy· yau II canlyākk· vāra panlāy· yau I canlyāk· kamva-
+                                         <lb n="E12"/>l· 4 man· vāp· mau vāp· vis(·) lak· bhūmi neḥ phoṅ· pi yok(·)
+                                         <lb n="E13"/>dravya ta roḥha neḥ ti thve rājakāryya nu gi $dotMid khloñ(·) vala travā-
+                                         <lb n="E14"/>ṅ· vrāhmaṇa Oy· saṁnvat[[·]] roḥ purvvāpara bhūmi neḥ $dotMid cuñ[[·]] vraḥ
+                                         <lb n="E15"/>Ālakṣaṇa ta mratāñ[[·]] śrī pr̥thivīndrapandita guṇadoṣadarśi $dotMid nu vraḥ
+                      <lb n="E16"/>sabhā phoṅ· pre samakṣa nu vāp· mau vāp· vis· qnak· vraḥ chpār·
+                                         <lb n="E17"/>man(·) neḥ bhūmi Ārāma ti lak[[·]] pi yok(·) dravya nu thve rājakāryya
+                                         <lb n="E18"/>pre siddhi mratāñ[[·]] śrī pr̥thivīndrapandita pandval· vraḥ śāsana ta khlo-
+                                         <lb n="E19"/>ñ[[·]] vala ta trvac(·) paṁcāṁ Āy· kroy· sruk· vrai dramvaṅ· jmaḥ loñ· va-
+                                         <lb n="E20"/>ladeva vāp· paramārmānandana vyavahārādhikāri sruk· calmvaṁ vāp·
+                      <lb n="E21"/>mau dharmmādhikaraṇapāla vāp· pit taṁmrvac· Amr̥takadhana vāp· dha-
+                      <lb n="E22"/>rmmācāryya taṁmrvac· raṅvāṅ· nā triṇi pre chvatta bhūmi neḥha jmaḥ                   
+                      <lb n="E23"/>Ārāma hauva puruṣapradhāna grāmavr̥ddha Aṁcās· qnak· ta sa-
+                                         <lb n="E24"/>mipa pvān· toy[[·]] samakṣa saṅ gol· pre Oy· ta khloñ(·) vala tra-
+                                         <lb n="E25"/>vāṅ· vrāhmaṇa vāp· mau vāp· vis(·) nāṁ chvatta bhumi neḥ samakṣa
+                                         <lb n="E26"/>nu puruṣapradhāna Āy· śv[e]tadvipa smiṅ· mukhya loñ(·) yudhiṣṭhira gu-
+                      <lb n="E27"/>he loñ(·) śrī travāṅ· kanloṅ· rājadvāra loñ(·) nārāya cuṅ· {2}
+                                         <lb n="E28"/>loñ(·) kerthi devaparicāra vāp· Amr̥ta vāp· Āja {3} [vā]-
+                                         <lb n="E29"/>p· śinanda vāp· rau sruk· bhagavadvipa vāp· I {6}
+                                         <lb n="E30"/>loñ(·) vrahmaguṇa purohita sruk(·) {6}
+                                         <lb n="E31"/>sruk· travāṅ· tannot· vāp· {9}
+                      <lb n="E32"/>cāṁ kravos· samakṣa nu puruṣapradhāna ta roḥha neḥha saṅ gol(·)
+                                         <lb n="E33"/>pūrvva paścima dakṣiṇa Uttara pandval(·) vraḥ śāsana Oy(·) ta khloñ(·)
+                                         <lb n="E34"/>vala travāṅ· vrāhmaṇa khloñ(·) vala travāṅ· vrāhmaṇa taṁ sgar(·) juṁma
+                                         <lb n="E35"/>bhumi neḥ vnek· ni ta puruṣapradhāna ta roḥ neḥha jvan· bhumi neḥ
+                                         <lb n="E36"/>ta vraḥ yokka ti {1} duk· jā ti Ācamna nu vraḥ kamrateṅ(·) Añ· duk·
+                      <lb n="E37"/>jmaḥ kṣetra saṁkrānta {2} bhumi neḥ nā thve sre phle Āśrama na khlo-
+                                         <lb n="E38"/>ñ(·) vala travāṅ· vrāhmaṇa ta jmaḥ saṁkrāntapada Āy· śvetadvi-
+                                         <lb n="E39"/>pa ($circle) sre sthalāpravaca ti khloñ(·) vala travāṅ· vrāhmaṇa du-
+                                         <lb n="E40"/>ñ(·) ta vāp {1}t chmāṁ vraḥ kralā phdaṁ chok· gargyar(·) nu vaudi vyar(·)
+                                         <lb n="E41"/>ṅan(·) jyaṅ(·) 5 canlyāk· {1} yau 7 srū 60 10 III sre jeṅ(·) daṁ-
+                      <lb n="E42"/>nap(·) śvetadvipa [ti] jāv nu vaudi vyar· padigaḥ vyar· ta qnak· vraḥ
+                                         <lb n="E43"/>kāl· thve ṅār(·) vraḥ mandira vraḥ Abhiramyavati $circleHorned 926 śakka
+                                         <lb n="E44"/>nu khloñ· vala travāṅ· vrāhmaṇa duñ· sre praloḥ cik·cok ta vā-
+                                         <lb n="E45"/>p· nāgaśarmma kanmyaṅ· paṁmre vraḥ khān· vāp· śrīnivāsa vāp· pit·
+                                         <lb n="E46"/>kanmyaṅ· paṁmre nā lamak· thlāy· bhumi neḥ mās· chaguṇa li-
+                      <lb n="E47"/>ṅ· vyar· I pāda I vaudi I ṅan(·) jyaṅ· 6 kadāha I ṅan(·) jyaṅ(·) 4 canlya-
+                                         <lb n="E48"/>k· 20 ruṅ bhumi neḥ sre dhārmmapura vrah· 20 10 sre jnaṅ· vrah· 100
+                                         <lb n="E49"/>sre drāṅ· ruṅ· thlās(·) 20 khloñ· vala travāṅ· vrāhmaṇa samākṣa
+                                         <lb n="E50"/>Āy· vraḥ sabhā ta qnau nā samākṣa steṅ[[·]] Añ· vidyāśra-
+                                         <lb n="E51"/>ma Ācāryyapradhāna sabhāpati mratāñ(·) śrī kavīndrapandita
+                      <lb n="E52"/>sabhāpati mratāñ· śrī jayendrapandita guṇadoṣadārśi mratā-
+                                         <lb n="E53"/>ñ(·) śrī pr̥thivīndropakalpa svat· vraḥ dharmmaśāstra mratāñ· śrī rā-
+                                         <lb n="E54"/>jopakalpa svat· vraḥ dharmmaśāstra mratāñ(·) śrī nr̥pati-
+                                         <lb n="E55"/>ndrāditya trvac· kanmyaṅ paṁmre sruk[[·]] thpvaṅ· rmmāṅ· vāp· dhā-
+                                         <lb n="E56"/>rmmācāryya taṁmrvac· raṅvāṅ· nā triṇi steṅ(·) Añ(·) vidyāśra-
+                      <lb n="E57"/>ma pandval[[·]] vraḥ śāsana ta vāp· varuṇa mūla kanmyaṅ(·) pamre
+                                         <lb n="E58"/>sruk kañjrep· prasir(·) pre dau hau puruṣapradhāna grā-
+                                         <lb n="E59"/>mavr̥ddhi ta samipa pvān[[·]] toy(·) sruk[[·]] phdeṅ[[·]] panhem·
+                                         <lb n="E60"/>loñ[[·]] yudhiṣṭhira purohita loñ(·) nan· paṁjuḥ loñ(·) va-
+                                         <lb n="E61"/>ladeva paṁjuḥ pradhāna vāp· mādhava taṁmrvac· vāp· A-
+                      <lb n="E62"/>p· vāp· Cā loñ(·) veda travāṅ· thmo samakṣa nu pradhāṇa
+                                         <lb n="E63"/>ta roḥ neḥ pandval· vraḥ śāsna vāp· nāgaśarmma vāp· śrī n[i]-
+                                         <lb n="E64"/>vāsa vāp· pit nāṁ chvātta bhumi saṅ gol· purvva paścima dakṣi-
+                                         <lb n="E65"/>ṇa Uttara Oy ta khloñ[[·]] vala travāṅ· vrāhmaṇa khloñ(·) va-
+                                         <lb n="E66"/>la travāṅ· vrāhmaṇa duk· jmaḥ kṣetrasaṁkrānta jvan ta vraḥ
+                      <lb n="E67"/>kaṁmrateṅ· Añ· śvetadvipa yok ti ta bhumi neḥ duk·
+                                         <lb n="E68"/>jā ti Ācamana $dotMid niy(·) neḥ bhumi ta roḥha neḥha
+                                         <lb n="E69"/>phoṅ· man· khloñ(·) vala travāṅ[[·]] vrāhmaṇa duñ(·) ti jva-
+                                         <lb n="E70"/>n ta vraḥ kaṁmrateṅ· Añ(·) śvetadvipa Āyatta khñuṁ phle Ā-
+                                         <lb n="E71"/>śrama ta jmaḥ saṁkrāntapada ($dotMid) gi roḥ kalpanā pra-
+                      <lb n="E72"/>tidina kra {1} cyan(·) I {1} liḥ {5} thloṅ(·) {3}
+                                         <lb n="E73"/>thloṅ· liḥ(()) devayajña {5} yajña
+                                         <lb n="E74"/>liḥ piy(·) {9} na Oy·
+                                         <lb n="E75"/>mahākāla {6}
+                                         <lb n="E76"/>{11}
+                      <lb n="E77"/>thlvaṅ(·) {5}
+                     
+                                      </p>
+                   
+                        <!--        <div type="apparatus">
+               <listApp>
+                  <app loc="62">
+                     <lem></lem>
+                     <rdg source="bib:Coedes+Dupont1937_01"></rdg>
+                  </app>
+                                   </listApp>         
+         </div> -->
+        <div type="translation" xml:lang="fra" source="bib:Coedes+Dupont1937_01">
+           <p rend="stanza" n="1">Hommage soit rendu au dieu à quatre bras (Viṣṇu) qui, bien qu'ayant pour qualité (guṇa) d'être dépourvu des trois qualités, est manifesté quatre fois, parce qu'il possède la quadruple triade de qualités.</p>
+           <p rend="stanza" n="2">Je rends hommage à Trivikrama (Viṣṇu) sur la poitrine de qui, par suite de la violence avec laquelle il franchit les trois mondes, le joyau kaustubha resplendit, tel le soleil levant.</p>
+           <p rend="stanza" n="3">Honorez Viṣṇu, dont les mains portent en haut la conque et la roue, comme si elles étaient le refuge du soleil et de la lune, craignant d'être dévorés par Rāhu le destructeur.</p>
+           <p rend="stanza" n="4">Le fils du roi Rājendravarman, étendard de la famille des maîtres de la terre souverains du Cambodge, (brûlant tel un) feu la troupe des rois ennemis, riche en qualités, éminent par sa conduite, fut le roi fortuné Jayavarmadeva.</p>
+           <p rend="stanza" n="5">L'ennemi de Smara (Śiva), ayant prêté une oreille favorable à la lamentation de l'épouse de Kāma qui, se déchirant la poitrine, était venue chercher refuge auprès du lotus de ses pieds, fit, semble-t-il, ce (roi) dont le corps était d'une beauté suprême, tel un autre Smara pour la plus grande joie de Rati.</p>
+           <p rend="stanza" n="6">Ce (roi) qui jouit de la royauté en 8, espace (= o), et (9) ouvertures (890 ç.), et qui avait vaincu l'ennemi par son bras, eut un serviteur, toujours aimable et de bonne conduite, nommé Nārāyaṇa.</p>
+           <p rend="stanza" n="7">Se conduisant comme une abeille, ayant l'esprit attaché au lotus des deux pieds de Nārāyaṇa (= Viṣṇu), bien qu'étant expert en matière de dharma, de kāma et d'artha (le devoir, le plaisir et la richesse), il paraissait exclusivement juste (dhārmika) aux experts.</p>
+           <p rend="stanza" n="8">Support de sa propre famille, serviteur parmi les pages, né dans une famille imbue des traditions, il fit la prospérité de son père et de sa mère.</p>
+           <p rend="stanza" n="9">Il fonda, par dévotion envers le Porteur de la Roue (= Viṣṇu), l'āśrama (nommé) Saṅkrāntapada et le combla de biens, à commencer par de l'or, des esclaves, hommes et femmes.</p>
+           <p rend="stanza" n="10">Il établit pour le Porteur de la Roue une fourniture quotidienne de quatre prastha de nourriture pure et une oblation au dieu de trois prastha.</p>
+           <p rend="stanza" n="11">Ayant fondé un Nandin et un Mahākāla (Śiva) placé à la porte du Viṣṇu, il institua un sacrifice quotidien de deux prastha pour leur être offert.</p>
+           <p rend="stanza" n="12">Il établit mensuellement pour Saṅkrānta une fourniture d'un droṇa de riz blanc et cinq oblations comportant chacune un prastha de grain, etc.</p>
+           <p rend="stanza" n="13">Il fonda, pour les deux sacrificateurs en fonction, une rétribution à fournir annuellement et consistant en 400 (unité sous-entendue) pour chacun d'eux.</p>
+           <p rend="stanza" n="14">Il offrit à Saṅkrānta, en vue de l'oblation quotidienne, le champ situé au pied du bord de la digue et (le champ nommé) Kṣetrasaṅkrāntaka.</p>
+           <p rend="stanza" n="15">Ayant donné quatre crachoirs (pratigraha) et un vase (bhr̥ngāra), le tout en cuivre, il reçut (en échange), pour la poussière des pieds (du dieu), le champ du bord de la digue (Setvanta.)</p>
+           <p rend="stanza" n="16">Le personnage ayant charge des employés aux jardins royaux, nommé Mau, d'accord avec le nommé Vis manifestant sa reconnaissance en accomplissant le service royal, prit une paire de vases accompagnés d'un crachoir et d'un grand récipient en cuivre appartenant à ce (Nārāyaṇa), et donna en échange ce champ de Saṁkrānta.</p>
+           <p rend="stanza" n="17">Par le nommé Jne qui avait pris (en échange) un récipient de cuivre et des grains, cette terre, située dans la (région) nommée Sthalāpravaca, fut donnée.</p>
+           <p rend="stanza" n="18">D'autres esclaves aussi, que cet homme bien intentionné avait acquis, furent donnés par dévotion au puissant Viṣṇu.</p>
+           <p rend="stanza" n="19">Que les enfants, petits-enfants et neveux futurs protègent tout ce qui appartient légalement à Viṣṇu.</p>
+           <p rend="stanza" n="20">Rendez hommages à ce Nārāyaṇa, vainqueur de la multitude des ennemis des dieux dans la bataille entre les Sura et les Asura livrée pour la suprématie d'Indra.</p>
+           <p rend="stanza" n="21">Nommé Nārāyaṇa, bien qu'il fût joyeux ... d'autrui en Nārāyaṇa, il était attaché à Nārāyaṇa tel Ambariṣa, et bien qu'ayant l'âme de Nārāyaṇa ayant discerné (ou éliminé ?) toutes choses, il fut brûlant d'héroïsme.</p>
+           <p rend="stanza" n="22">Avec des objets précieux, des vêtements et des vases, il a acheté un champ dans Śivādhvaka à celui qui possédait Śrī Nivāsa à perpétuité, associé (au nommé) Nāgaśarma.</p>
+           <p rend="stanza" n="23">Le champ dédié au vainqueur des ennemis des dieux (Viṣṇu), au nom charmant, nommé Draṅga, est la limite de cette terre, à l'est, sur le chemin de la capitale.</p>
+           <p rend="stanza" n="24">Il acheta tout le champ de Kālakr̥mi (d'une largeur de ?) soixante coudées et le champ Jnoṅ produisant cent khāri de grain.</p>
+           <p rend="stanza" n="25">Ayant obtenu de Śrī Nivāsa et consorts cette terre située à Śrī Nivāsa, cet [homme] au cœur pur la donna au grand temple de Śvetadvīpa.</p>
+           <p rend="stanza" n="26">Pour la fourniture des redevances de Saṁkrānta, il donna à l'ennemi des Asura (Viṣṇu) toute cette terre qu'il s'était procurée en échange de biens, (désormais ?) nommée Kṣetrasaṁkrānta.</p>
+           <p rend="stanza" n="27">Que le pieux purohita, le plus grand des officiants et sa famille gardent cette fondation pieuse dont ils ont charge comme si elle leur était propre.</p>
+           <p n="W62-W69">Le gardien de l'āśrama est le purohita Vāp Juḥ. Ses parents qui pratiquent le dharmma peuvent l'être aussi. Le village de Kantāl Chok et les esclaves de la Teṅ Tvan du saint palais, mère du Khloñ Vala Travāṅ Vrāhmaṇa, qu'elle donne au K.V. Travāṅ Brāhmaṇa, sont astreints à assurer les fondations pieuses du dieu de Śvetadvīpa. La redevance pour la durée du saṁkrānta est un thlvaṅ de riz blanc. Le Steṅ Añ ācāryahoma préposé aux restes de la nourriture divine, frère cadet du K.V. Travāṅ Vrāhmaṇa, possède autorité sur ces esclaves et ce village, fournit les redevances en même temps à l'āśrama qui a nom Saṁkrāntapada.</p>
+           <p rend="stanza" n="28">Les terres (situées) dans l'ārāma de Sthalāpravaca, au pied de la digue (Setupāda), à Śivādhvaka, le champ de Jneṅ et le champ de Sarvadā sont sous la dépendance de cet āśrama.</p>
+           <p rend="stanza" n="29">Que ceux qui protégeront l'œuvre pie (dharma) que voici ... au séjour des seigneurs à quatre têtes (Brahmā) et à quatre bras (Viṣṇu) (comme) leur propre œuvre pie, Hari soufflant dans (la conque) Pāñcajanya ne tardera pas à les sauver de tous les enfers à commencer par le Raurava.</p>
+           <p n="E1-E77">Succès ! Oṁ, 901 Śaka. Alors le khloñ vala Travāṅ Vrāhmaṇa, en service au corps des pages, acheta la terre Ārāma au Vāp Vis, surveillant des jardins royaux et au Vāp Mau, fonctionnaire des jardins royaux : c'était sous le règne de S. M. Jayavarmmadeva, alors qu'on travaillait au saint Hemaśr̥ṅgagiri et au saint palais Yaśovatī. Or, le Vāp Vis et le Vāp Mau cédèrent par vente cette terre d'Ārāma au K.V. Travāṅ Vrāhmaṇa. Voici le prix de cette terre : 2 vases (vaudi), l'un pesant 9 jyaṅ, l'autre pesant 5 jyaṅ ; 2 crachoirs (padigaḥ), l'un pesant 10 jyaṅ, l'autre pesant 5 jyaṅ ; 1 plateau (svok) pesant 4 jyaṅ ; total de ce cuivre : 1 tul, 14 jyaṅ ; 2 yau de vêtements thyāy, 1 yau de vêtements vāra panlāy, 4 vêtements de lainage. Le Vāp Mau et le Vāp Vis vendirent toute cette terre afin d'acquérir les objets précieux en question, pour accomplir le service royal avec.
+
+Le K.V. Travāṅ Vrāhmaṇa présenta une requête au sujet des preuves de (la propriété de) cette terre. Notification fut faite au Mratāñ Pr̥thivīndrapaṇḍita, inspecteur des qualités et des défauts, et à l'assemblée, de faire comparaître le Vāp Mau et le Vāp Vis, fonctionnaires des jardins royaux, au sujet de cette terre Ārāma qu'ils avaient vendue afin d'acquérir les objets précieux nécessaires au service royal. Pleins pouvoirs furent donnés au Mratāñ Pr̥thivīndrapaṇḍita, qui chargea de l'exécution de l'ordonnance royale le K.V. surveillant des gages (?) derrière le pays de Vrai Dramvaṅ, qui a nom Loñ Valadeva, le Vāp Paramārmānandana, chef des affaires judiciaires au pays de Calmvaṁ, le Vāp Mau, gardien de la cour de justice, le Vāp Pit, surveillant des biens des dieux, le Vāp Dharmācārya, surveillant des huissiers de la troisième classe, — et les chargea de délimiter cette terre nommée Ārāma, d'appeler les notables, les anciens, les seigneurs des quatre régions voisines pour assister au bornage et de remettre (cette terre) au K.V. Travāṅ Vrāhmaṇa. Le Vāp Mau et le Vāp Vis les menèrent délimiter cette terre en présence des notables de Śvetadvīpa, des officiants principaux : le Loñ Yudhiṣṭhira Guhe (?), le Loñ Śrai Travāṅ Kanloṅ (en service à) la porte royale, le Loñ Nārāya, (en service) ..., le Loñ Kertthi, au service des dieux (ou du dieu ?), le Vāp Amr̥ta, le Vāp Āja ... , le Vāp Śinanda, le Vāp Rau du pays de Bhagavadvīpa, le Vāp ... , le Loñ Brahmaguṇa, purohita du pays de ... du pays de Travāṅ Tannot, Vāp ... En présence de ces notables, ils plantèrent les bornes à l'Est, à l'Ouest, au Sud, au Nord. Fut notifiée l'ordonnance royale (prescrivant) de donner (cette terre) au K.V. Travāṅ Vrāhmaṇa. Le K.V. Travāṅ Vrāhmaṇa frappa le tambour autour de cette terre sous les yeux de ces notables, donna cette terre au dieu, prit de la terre pour en faire une terre consacrée au dieu et lui donna le nom de Kṣetrasaṅkrānta, ... cette terre, faire des champs devant servir de revenu à l'āśrama du K.V. Travāṅ Vrāhmaṇa, qui a nom Saṅkrāntapada à Śvetadvīpa.
+
+Le champ Sthalāpravaca que le K.V. Travāṅ Vrāhmaṇa acheta au Vāp — , gardien de la chambre à coucher de Chok Gargyar (pour le prix de) deux vases (vaudi) pesant 5 jyaṅ, 7 yau de vêtements ... , 73 (unités) de paddy. Le champ (situé) au pied de la digue de Śvetadvīpa a été troqué pour 2 vases (vaudi) et 2 crachoirs (padigaḥ) avec les gens du temple (? anak vraḥ) lorsqu'on travaillait au palais Abhiramyavatī.
+
+926 Śaka. Le K.V. Travāṅ Vrāhmaṇa acheta le champ Praloḥ Cikcok au Vāp Nāgaśarma, page de l'épée sacrée, au Vāp Śrī Nivāsa, au Vāp Pit, page préposé à la garde-robe. Le prix de cette terre fut 2 liṅ et 1 pāda d'or chaguṇa, 1 vase (vaudi) pesant 6 jyaṅ, 1 chaudron pesant 4 jyaṅ, 20 vêtements. Le contenu de cette terre (est le suivant) : le champ Dhārmapura, 30 volées, le champ Jnaṅ, 100 volées ; Ja contenance du champ Drāṅ est de 20 thlās.
+
+Le K.V. Travāṅ Vrāhmaṇa comparut devant l'assemblée et ceux qui comparurent (avec lui) furent : le Steṅ Añ Vidyāśrama, chef des Ācārya, président de Cour, le Mratāñ Kavīndrapaṇḍita, président de Cour, le Mratāñ Jayendrapaṇḍita, inspecteur des qualités et des défauts, le Mratāñ Pr̥thivīndrapaṇḍita, récitateur du Dharmaśāstra, le Mratāñ Rājopakalpa, récitateur du Dharmaśāstra, le Mratāñ khloñ Nr̥patīndrāditya, surveillant des pages du pays de Thpvaṅ Rmāṅ, le Vāp Dharmācārya, inspecteur des huissiers de troisième classe. Le Steṅ Añ Vidyāśrama transmit l'ordonnance royale au Vāp Varuṇa, en service au corps des pages du pays de Kañjrep Prasir, le chargeant d'aller appeler les notables et les anciens des quatre régions voisines du pays de Phdeṅ Panheṁ, ainsi que le Loñ Yudhiṣṭhira, purohita, le Loñ Nan, paṁjuḥ, le Loñ Valadeva, paṁjuḥ principal, le Vāp Mādhava, surveillant, le Vāp Ap, le Vāp ... , le Loñ Veda de Travāṅ Thmo, pour comparaître
+avec ces notables. L'ordonnance royale fut notifiée au Vāp Naagaśarma, au Vāp Śrī Nivāsa et au Vāp Pit, (les chargeant) de mener délimiter la terre, de planter des bornes à l'Est, à l'Ouest, au Sud et au Nord, et de donner cette terre au K.V. Travāṅ Vrāhmaṇa. Le K.V. Travāṅ Vrāhmaṇa lui donna le nom de Kṣetrasaṅkrānta, l'affecta au dieu de Śvetadvīpa et prit de la terre de ce sol pour en faire de la terre consacrée.
+
+Telles sont toutes les terres que le K.V. Travāṅ Vrāhmaṇa a achetées pour offrir au dieu de Śvetadvīpa, mettant esclaves et revenus dans la dépendance de l'āśrama nommé Saṅkrāntapada. Voici la fixation des redevances journalières : i kra ... cyan ... liḥ ... thloṅ ... thloṅ 3 liḥ sacrifice au dieu ... sacrifice trois liḥ ... pour le Mahākāla ... thlvaṅ.</p>
+         </div>  
+       <div type="commentary">
+          <p>The line numbering of the western doorjamb is different from that in George Cœdès and Pierre Dupont in which the stanza I started at line 7 because they counted the six lines of <ref target="DHARMA_INSCIK00814-1.xml">K. 814-1</ref>in.</p>
+              </div>
+        <div type="bibliography">
+          <p>First edited by George Cœdès and Pierre Dupont (<bibl rend="omitname"><ptr target="bib:Coedes+Dupont1937_01"/><citedRange unit="page">402-413</citedRange></bibl>) with a French translation.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes+Dupont1937_01"/><citedRange unit="page">402-413</citedRange>
+    </bibl>
+  </listBibl>
+           <listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">313-319</citedRange>
+    </bibl>
+              </listBibl>
+          </div>
+                </div>
+        </body>
+    </text>
+</TEI>
