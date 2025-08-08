@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb of Prasat Sneṅ (K. 879), 963 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00879</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-08-08" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <lg n="1" met="mālinī" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="1"/><milestone unit="column" n="a"/>dharaṇidharavarāṅgaprollasadratnarocī</l>
+<l n="b"><milestone unit="column" n="a"/>-racitanakharuceś śrī<supplied reason="lost">sūryyavarmma</supplied><seg met="-++"><gap reason="lost" quantity="3" unit="character"/></seg></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="c"/>saciva Iva dhaneśaś śrīghane śrīguṇādhyo</l>
+<l n="b"><milestone unit="column" n="a"/>ditaguṇapativarmma<seg met="+-++-++"><gap reason="lost" quantity="7" unit="character"/></seg></l>
+</lg>
+                                      <p><lb 
+                       n="3"/><g type="circleHorned">.</g> <num value="962">962</num> śaka pañcamī roc<unclear>·</unclear> Āṣādha vr̥haspativāra gi nu vraḥ ka<supplied reason="lost">mrateṅ· Añ·</supplied>
+                                         <lb n="4"/>śrī samarasiṅhavarmma sruk· stuk· slut<unclear>·</unclear> samayuga nu vraḥ kamra<supplied reason="lost">teṅ· Añ· śrī</supplied>
+                                         <lb n="5"/>kavīndravijaya sruk<unclear>·</unclear> jrai vāk· sneṅ<unclear>·</unclear> bhagavan· madhyāhna vraḥ śrī <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="6"/>vraḥ kamrateṅ· Añ· tapasvi qval· nu puruṣapradhāna phoṅ<unclear>·</unclear> pi thve <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="7"/>ta vraḥ rūpa kamrateṅ· jagat<unclear>·</unclear> chpā ransi ti sthāpanā Āy· laṅl<gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="8"/>tai paroṅ· kvan· gho rvvi tai khdic· tai kansoṁ tai thkar<unclear>·</unclear> gho kaṁvit· tai <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="9"/>mūla gho kañjai gho kumāra gho r̥ṣi gho kaṁvai tai thqyak<unclear>·</unclear> tai chke gho t<gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="10"/>tai paroṅ· tai kaṁvic· tai sreṣṭha tai thkon· gho laṅkaḥ tai kaṁvra<supplied reason="lost">ḥ</supplied> <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="11"/>tai kañjā tai kañju tai gandha gho kañcān· gho kaṁpit· tai kan·rut<unclear>·</unclear> tai <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="12"/>tai thṅe tai pa<gap reason="lost" quantity="1" unit="character"/> <supplied reason="lost">t</supplied>ai ruddhira tai kansoṁ gho kaṁvraḥ gho kaṁvai tai krañ· <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="13"/>tai thṅe tai kaṁvrau tai kandhān· tai kansān· tai krañ· tai pandān· tai <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="14"/>tai bhadra tai kanso gho kaṁphal<unclear>·</unclear> <g type="circleSmall">.</g> tai kansoṁ tai phgaṅ· gho laghu <gap reason="lost" quantity="4" unit="character"/> <supplied reason="lost">ka</supplied><lb 
+                                            n="15" break="no"/>n·U tai kandvat· <gap reason="lost" quantity="1" unit="character"/> tai <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i gho kandhān· gho kan·ran· gho khdit· gho ka<gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="16"/>tirtha tai kansān· tai kan·U tai kaṁvīc· <g type="dotMid">.</g> gho kaṁvai tai vrahma <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="17"/>tai chke <g type="dotMid">.</g> tai sraṣṭa tai taṁnyal· tai kandvat· <g type="dotMid">.</g> tai kansān· tai slācra <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="18"/>kansān· kvan<unclear>·</unclear> gho ravi gho kañjeṅ· <g type="dotMid">.</g> tai kaṁvai tai śrāvana t<choice><orig>e</orig><reg>ai</reg></choice> thqyak· gho <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="19"/>tai kaṁvit· tai thkār· tai kansu kvan· gho svasti tai kandhi kvan· tai kandhan· tai <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="20"/>tai phEm<unclear>·</unclear> gho lābha gho thac· nu yuga tai kañcān<unclear>·</unclear> gho saṁAp· gho hari gho <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="21"/>tai gandha gho kandhān· gho kansān· gho kaṁvai tai kansu tai kaṁpit· tai caṁ <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="22"/>ṣṭa tai ghula gho kanses· tai paroṅ· gho pamek· gho kaṁvraḥ gho phai <gap reason="lost" quantity="4" unit="character"/> <supplied reason="lost">ka</supplied><lb 
+                                            n="23" break="no"/>nsu gho kansuk<unclear>·</unclear> gho kansuk· gho panlās· gho kandhā gho kanśrī gho ka<gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="24"/>gho lvan<unclear>·</unclear> tai kansān· tai chke gho kañjai tai svasti tai kansu gho kaṁ<gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="25"/>cāmpa t<choice><orig>e</orig><reg>ai</reg></choice> vaṁṅā gho kansuk· tai kansu tai kanteṁ tai vrahma tai <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="26"/>puna gho Āditya tai kaṁvrau tai thṅe gho kañjoṅ· gho kaṁvut<unclear>·</unclear> <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="27"/>kaṁbhī gho kaṁvrau gho khna gho kan·thyal· tai paroṅ<unclear>·</unclear> tai kan<unclear>·</unclear>hyaṅ· gho <gap reason="lost" quantity="4" unit="character"/> <supplied reason="lost">ka</supplied><lb 
+                                            n="28" break="no"/>nsān<unclear>·</unclear> tai kandhī tai kaṁvit· tai kansān<unclear>·</unclear> tai kanśrī qme kalaOḥ tai <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="29"/>gho kanhas<unclear>·</unclear> gho kansān· gho kandu gho jeṅ<supplied reason="omitted">·</supplied> vnaṁ gho kandep· tai <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="30"/>tai kansān<unclear>·</unclear> kvan<unclear>·</unclear> gho kansān<unclear>·</unclear> gho krvac· qme kandeṅ<unclear>·</unclear> tai ka<gap reason="lost" quantity="4" unit="character"/> <supplied reason="lost">pa</supplied><lb 
+                                            n="31" break="no"/>roṅ<unclear>·</unclear> tai thṅe tai Īs· leha tai paroṅ<unclear>·</unclear> tai pandān· tai kansre <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="32"/>tai kandvat· gho kañjoṅ· tai gnac<unclear>·</unclear> kvan<unclear>·</unclear> noḥ t<choice><orig>e</orig><reg>ai</reg></choice> <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="33"/>kanso tai kansān· gho kan·hāt· <g type="dotMid">.</g> tai thmās· tai <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="34"/><num value="963">963</num> śaka <g type="circleSmall">.</g> pi roc<unclear>·</unclear> je<supplied reason="omitted">ṣṭha</supplied> cāndravāra nu vraḥ kamrateṅ <unclear>Añ</unclear><supplied reason="lost">·</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                                         <lb n="35"/><gap reason="lost" quantity="3" unit="character"/> khñ<supplied reason="lost">uṁ</supplied> pi jvan<unclear>·</unclear> ta kaṁmrateṅ<unclear>·</unclear> jag<choice><orig>ā</orig><reg>a</reg></choice>t<unclear>·</unclear> chpā ransi ta ka <gap reason="lost" quantity="5" unit="character"/>
+                                         <lb n="36"/><gap reason="lost" quantity="3" unit="character"/> gho kh<gap reason="lost" quantity="1" unit="character"/> gho jiva gho k<supplied reason="omitted">an</supplied>śrī
+                                      </p>
+                               <div type="apparatus">
+               <listApp>
+                  <app loc="32">
+                     <lem>kañjoṅ·</lem>
+                     <rdg source="bib:Coedes1953_01">kañjau</rdg>
+                  </app>
+                  <app loc="34">
+                     <lem><unclear>Añ</unclear><supplied reason="lost">·</supplied> <gap reason="lost" extent="unknown" unit="character"/></lem>
+                     <rdg source="bib:Coedes1953_01"><gap reason="lost" quantity="5" unit="character"/></rdg>
+                  </app>
+                  </listApp>         
+         </div>
+        <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+           <p rend="stanza" n="1">Semblable à Dhaneśa <supplied reason="explanation">maître des richesses = Kubera</supplied>, compagnon de celui dont les ongles brillants sont éclairés par l'éclat des joyaux brillant sur la tête des rois, du roi Śrī Sūryavarman, Guṇapativarman, riche en vertus fortunées <supplied reason="subaudible">a donné</supplied> à Śrīghana <gap reason="lost"/>.</p>
+           <p n="3-7">962 Śaka, cinquième jour de la lune décroissante d'Āṣāḍha, jeudi, V.K.A. Śrī Samarasiṁhavarman du pays de Stuk Slut, de concert avec V.K.A. Śrī Kavīndravijava du pays de Jrai Vāk Sneṅ, bhagavan du milieu du jour de Vraḥ Śrī <gap reason="lost"/>, tous les V.K.A. Tapasvi et tous les notables ont fait <gap reason="lost"/> à la sainte image de K.J. Chpā Ransi qui a été érigée à Laṅl<gap reason="lost"/>.</p>
+           <p n="8-33"><supplied reason="explanation">Liste de <foreign>gho</foreign> et de <foreign>tai</foreign></supplied>.</p>
+           <p n="34-36">963 Śaka, troisième jour de la lune décroissante de Jeṣṭha lundi, V.K.A. <gap reason="lost"/> des esclaves pour les offrir à K.J. Chpā Ransi <gap reason="lost"/>. <supplied reason="explanation">Suivent quelques noms de <foreign>gho</foreign></supplied>.</p>
+         </div>  
+        <div type="commentary">
+        <p>The consonant <foreign>ṅ</foreign> of <foreign>kamrateṅ</foreign> in line 34 was inscribed as subscript.</p>      
+        </div>  
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1953_01"/><citedRange unit="page">235-237</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 1140.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">235-237</citedRange>
+    </bibl>
+  </listBibl>
+          
+        </div>
+                </div>
+        </body>
+    </text>
+</TEI>
