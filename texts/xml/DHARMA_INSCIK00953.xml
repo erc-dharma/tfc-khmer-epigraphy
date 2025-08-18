@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary stela from Prasat Phimai (K. 953), 963 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00953</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary>
+                     </summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>         
+         <change who="part:kuch" when="2025-08-18">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" rendition="class:83231 maturity:83213">
+<div type="textpart" n="A" xml:lang="okz-Latn"><head xml:lang="eng">Face</head>
+   <ab><lb n="A0"/><num value="963">963</num></ab>
+   <lg n="1" met="upajāti" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="A1"/><g type="circleTarget">.</g> tasmai śivāyā<supplied reason="lost">stu</supplied> namo namasya<space/></l>
+<l n="b">-pādāmvujo 'jasram ajādibhir yyaḥ</l>
+<l n="c"><lb n="A2"/>Ekasvabhāvo khilabhāva[mūrti]<space/>r</l>
+<l n="d">anekabhāvo <supplied reason="subaudible">’</supplied>py apiśūnyabhāvaḥ <g type="ddanda">.</g></l>
+</lg>
+   <lg n="2" met="sragdharā" xml:lang="san-Latn">
+<l n="a"><lb n="A3"/><supplied reason="lost">Ā</supplied>sīt śrīsūryyavarmmāhvayadharaṇidharo bhūdharair arcitāṅghrī</l>
+<l n="b"><lb n="A4"/><seg met="++"><gap reason="illegible" quantity="2" unit="character"/></seg>āṇir akhāndās suvipulavibhavā bhūridharmmā Iheva</l>
+<l n="c"><lb n="A5"/><seg met="++++-++"><gap reason="illegible" quantity="7" unit="character"/></seg> api nutisahitavrahmaviṣṇvādivandyo</l>
+<l n="d"><lb n="A6"/><seg met="++++-++-----"><gap reason="illegible" quantity="12" unit="character"/></seg>dayo yas sma yātīśvaratvam <g type="ddanda">.</g></l>
+</lg>
+   <lg n="3" met="sragdharā" xml:lang="san-Latn">
+<l n="a"><lb n="A7"/><seg met="++++-++------+"><gap reason="illegible" quantity="14" unit="character"/></seg>rm<supplied reason="lost">m</supplied>ā tato vaṅ<seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg>jāyā</l>
+<l n="b"><lb n="A8"/><seg met="++++-++------++-++-+="><gap reason="illegible" quantity="21" unit="character"/></seg></l>
+<l n="c"><lb n="A9"/><seg met="++++-++------++-++-+="><gap reason="illegible" quantity="21" unit="character"/></seg></l>
+<l n="d"><lb n="A10"/><seg met="++++-++------++-++-+="><gap reason="illegible" quantity="21" unit="character"/></seg></l>
+</lg>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Face</head>
+ <lg n="4" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="B1"/>namo vuddhāya saṅsāra</l>
+<l n="b">-samamadhyasthitāya yaḥ</l>
+<l n="c"><lb n="B2"/>Ādvayo <supplied reason="subaudible">’</supplied>pi catuṣkāya<space/>ś</l>
+<l n="d">caturmmārabhayād iva <g type="ddanda">.</g></l>
+</lg>  
+<p>
+<lb n="B3"/><g type="ddanda">.</g> <num value="953">953</num> śaka masāñ nakṣatra śukravāra nu duñ tai kaṁvit
+<lb n="B4"/>mās pāda vyar canlyāk qruṅ bhay mvāy dop mā<supplied reason="lost">s</supplied> <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="B5"/>p vyar neḥ ti jvan ta kaṁmrateṅ jagat <gap reason="lost" quantity="6" unit="character"/>
+   <lb n="B6"/>caṁnāṁ pratidina pūrvvadivasa raṅko <gap reason="lost" quantity="6" unit="character"/> <supplied reason="lost">saṅ</supplied>-
+   <lb n="B7"/>krānta je mvāy paryyaṅ <gap reason="lost" quantity="9" unit="character"/>
+   <lb n="B8"/><gap reason="lost" quantity="1" unit="character"/> vyar ti <gap reason="lost" quantity="1" unit="character"/> Ai <gap reason="lost" quantity="15" unit="character"/>
+   
+</p>
+                   </div>
+                </div>
+           <!--      <div type="apparatus">
+               <listApp>
+<app loc="1">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1964_03"></rdg>
+                     </app>
+                  </listApp>         
+         </div> -->
+         <div type="translation" xml:lang="fra" source="bib:Coedes1964_03">
+           <p n="A0">963</p>
+            <p rend="stanza" n="1">Hommage soit rendu à ce Śiva dont le pied-lotus doit être sans cesse vénéré par Aja et les autres dieux, qui bien qu'étant, par nature, unique est <supplied reason="subaudible">néanmoins</supplied> multiple, et qui, bien qu'ayant pour nature le vide, se manifeste par ses multiples formes <supplied reason="explanation"><foreign>mūrtī</foreign></supplied>.</p>
+            <p rend="stanza" n="2">Il fut un porteur de la terre, nommé Śrī Sūryavarman, dont les pieds étaient adorés par les <supplied reason="subaudible">autres</supplied> porteurs de la terre <gap reason="lost"/> comme ici-bas les <gap reason="lost"/> sans fissure, doués d'une puissance très étendue, pleins d'abondantes vertus <gap reason="lost"/> <supplied reason="subaudible">ce roi</supplied> digne d'être honoré par les louanges de Viṣṇu, Brahmā et autres dieux <gap reason="lost"/> atteignit la puissance souveraine <gap reason="lost"/>.</p>
+            <p rend="stanza" n="3"><gap reason="lost"/></p>
+            <p rend="stanza" n="4">Hommage au Buddha qui se tient exactement au milieu du cercle de la transmigration, et qui, bien que dépourvu de dualité, assume quatre corps, comme par crainte des quatre Māra.</p>
+            <p n="B3-B5">953 Śaka, année du Serpent, vendredi, on a acheté Tai Kaṁvit, deux <foreign>pāda</foreign> d'or, vingt vêtements larges, x <foreign>dop</foreign> d'or, quatre <gap reason="lost"/> pour offrir à K.J. <gap reason="lost"/>.</p>
+            <p n="B6-B8">Fourniture quotidienne : le matin, riz décortiqué <gap reason="lost"/> au nouvel an, un je, huile <gap reason="lost"/> deux <gap reason="lost"/>.</p>
+           </div>
+       <!--      <div type="commentary">
+        
+         </div>
+ -->       
+           <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1964_03"/><citedRange unit="page">124-126</citedRange></bibl>) with a French translation.</p><!-- kuch: The estampage BN 1175 is not available for reedition. -->
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1964_03"/><citedRange unit="page">124-126</citedRange>
+    </bibl>
+	</listBibl>
+                    </div>
+        </body>
+    </text>
+</TEI>
