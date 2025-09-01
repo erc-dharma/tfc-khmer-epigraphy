@@ -299,7 +299,7 @@
 |K.	274-9 |kuch |done |Cœdès 1951|
 |K.	275 |# |# |#|
 |K.	276 |chch |done |IC IV|
-|K.	277 |chch |pending |IC IV|
+|K.	277 |kuch |done |IC IV|
 |K.	278 |kuch |done |ISC|
 |K.	279 |chch |pending |ISCC|
 |K.	280 |# |# |#|
@@ -822,7 +822,7 @@ K.	294 |# |# |#|
 |K.	705 |kuch |done |IC V|
 |K.	706 |kuch |done |IC V|
 |K.	707 |chch |pending |IC V|
-|K.	708 |# |# |#|
+|K.	708 |kuch |done |IC V|
 |K.	709 |kuch | done |IC V|
 |K.	710 |kuch | done |IC VI|
 |K.	711 |kuch |done |IC VI|
@@ -930,7 +930,8 @@ K.	294 |# |# |#|
 |K.	811 |kuch |done |IC VI|
 |K.	812 |# |# |#|
 |K.	813 |# |# |#|
-|K.	814 |# |# |#|
+|K.	814-1 |kuch |done |Cœdès & Dupont 1937|
+|K.	814-2 |kuch |done |Cœdès & Dupont 1937|
 |K.	815 |chch |done |Clouet et al (forthc.)|
 |K.	816 |kuch |done |IC VI|
 |K.	817 |kuch |done |IC V|
@@ -995,7 +996,7 @@ K.	294 |# |# |#|
 |K.	876 |kuch |done |IC V|
 |K.	877 |kuch |done |IC VI|
 |K.	878 |sapi |done |IC V|
-|K.	879 |chch |pending |IC V|
+|K.	879 |kuch |done |IC V|
 |K.	880 |# |# |#|
 |K.	881 |# |# |#|
 |K.	882 |# |# |#|
@@ -1078,7 +1079,7 @@ K.	294 |# |# |#|
 |K.	930 |# |# |#|
 |K.	931 |kuch |done |Cœdès 1951|
 |K.	932 |# |# |#|
-|K.	933 |# |# |#|
+|K.	933 |kuch |done |IC IV|
 |K.	934 |kuch |done |IC IV|
 |K.	935 |sapi |pending |IC IV|
 |K.	936 |kuch |done |IC IV|
@@ -1098,7 +1099,7 @@ K.	294 |# |# |#|
 |K.	950 |kuch |pending |IC VI|
 |K.	951 |# |# |#|
 |K.	952 |kuch |done |unpublished|
-|K.	953 |# |# |#|
+|K.	953 |kuch |done |IC VII|
 |K.	954 |sapi |done |IC VII|
 |K.	955 |kuch |done |unpublished|
 |K.	956 |kuch |done |IC VII|
@@ -1113,7 +1114,7 @@ K.	294 |# |# |#|
 |K.	965 |kuch |done |Coedes 1958|
 |K.	966 |# |# |#|
 |K.	967 |kuch |done |IC VI|
-|K.	968 |# |# |#|
+|K.	968 |kuch |done |IC VII|
 |K.	969 |kuch |done |Chhabra 1961; IC VII|
 |K.	970 |# |# |#|
 |K.	971 |# |# |#|
@@ -1134,7 +1135,7 @@ K.	294 |# |# |#|
 |K.	986 |# |# |#|
 |K.	987 |# |# |#|
 |K.	988 |# |# |#|
-|K.	989 |chch |pending |IC VII|
+|K.	989 |kuch |done |IC VII|
 |K.	990 |# |# |#|
 |K.	991 |# |# |#|
 |K.	992 |# |# |#|
@@ -1147,7 +1148,7 @@ K.	294 |# |# |#|
 |K.	999 |# |# |#|
 |K.	1000 |kuch |done |BEFEO 56|
 |K.	1001 |# |# |#|
-|K.	1002 |# |# |#|
+|K.	1002 |kuch |done |Jacques 1968|
 |K.	1003 |kuch |done |unpublished|
 |K.	1004 |kuch | done |Winai Pongsripian ed. 1991|
 |K.	1005 |# |# |#|
