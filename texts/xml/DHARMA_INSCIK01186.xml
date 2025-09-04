@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Prasat Ta Muean Thom (K. 1186), 935 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:jule">
+                  <forename>Julia</forename>
+                  <surname>Estève</surname>
+               </persName>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName><persName ref="part:gege">
+                 
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01186</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary>
+                     </summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>         
+         <change who="part:kuch" when="2025-09-04">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p><milestone type="pagelike" unit="face" n="A"/><lb n="A1"/><num value="935">951</num> śakka <g type="circleSmall">.</g> caturthī roc· caitra <g type="circleSmall">.</g> vrahaspativāra nu
+   <lb n="A2"/>nu mān· vraḥ karunā ta paramapavitra <g type="circleSmall">.</g> ta kaṁsteṅ· Añ· śrī rā<unclear>j</unclear>e-
+   <lb n="A3"/>ndravarmma pan·dval· vraḥ śāsana ta khloñ· vala stuk· vlah· ta jmaḥh· lo-
+   <lb n="A4"/>ñ· śikhāśiva pi pre dau sthāpanā praśasta Āy· kaṁmrateṅ· jaga-
+   <lb n="A5"/>t· śivapāda paścima ta gi dharmma guruja<add place="below">na</add> dai nu jananiya dai nu mratā-
+   <lb n="A6"/>ña śri nr̥pendravāl<unclear>·</unclear>labha ta thvāya jā vraḥ rājadharmma ta kaṁmrateṅa kaṁtvana A-
+   <lb n="A7"/>ñ· śri sūryyavarmmadeva yūgapāta <unclear>n</unclear>ū mratāñ· khloñ· śri Iśāna-
+   <lb n="A8"/>varmma nū mratāñ· khloñ· śri rājendrapandit· nū mratāñ· khloñ· śri kṣittindropa-
+   <lb n="A9"/>kalpa khloñ· vala can·hvara kr<unclear>v</unclear>ās· <g type="circleSmall">.</g> pi pre mratāña khloñ· śri kṣittindropa-
+   <lb n="A10"/>kalpa dau sthāpanā praśasta Āya kaṁmrateṅa jagā<supplied reason="omitted">t·</supplied> śivapāda <g type="dotMid">.</g> mān· vraḥ
+   <lb n="A11"/>karunā ta paramapavitra ta khloñ· vala stuka vloḥ ta jmaḥ loñ· śikhāśiva pandval· pre
+   <lb n="A12"/>j<unclear>i</unclear><supplied reason="omitted">ḥ</supplied> sneṅ· bhoga vudi padigaḥ vāt· chāt<unclear>·</unclear> pre Āyātva khñuṁ nu caṁnām· ka pi mān· nā
+   <lb n="A13"/>Āyātva ta daiy ti <g type="circleSmall">.</g> ta gi rāj<supplied reason="omitted">y</supplied>a vraḥ pāda stāc· dau paramāviraloka gi kāla khloñ·
+   <lb n="A14"/>vala ta svat· jmaḥ loñ· rudravyāpi nu teṅa māddhivi nu mratāñ· śri nr̥pendravāll·bha Ān<choice><sic>n·</sic><corr>u</corr></choice>-
+   <lb n="A15"/>mod<choice><sic>·</sic><corr>a</corr></choice> pi <unclear>j</unclear>ov· bhūmi vrai<unclear>ya</unclear> stuka vloḥ ta pādamūla kaṁmrāteṅa jagātt· khloñ· vala ta
+   <lb n="A16"/>j<unclear>m</unclear>aḥ loñ· śri dhanañjāya khloñ· vala ta jmaḥ loñ· <unclear>h</unclear>iya loñ· vrāhma loñ· śre-
+   <lb n="A17"/>ṣtha loñ· vāpa loñ· pit· nu kule qnak ta A<supplied reason="omitted">ṁ</supplied>pāla neḥha nu vārgga <unclear>kh</unclear>to phoṅa samayūga
+   <lb n="A18"/>phjov· bhūmi vrai ta roḥha neḥha ta gi kāla nnoḥ Ai tarāpa bhūmi t<unclear>i</unclear> jov· toy· purvva
+   <lb n="A19"/>tarāp· travāṅ· sravān· toy· dakṣina ta<unclear>rāp· Ac· teka</unclear> nā vraḥ paṁnvas· thve tapāḥ
+   <p><milestone type="pagelike" unit="face" n="B"/><lb n="B1"/>t<unclear>o</unclear>ya paścima tarāp<unclear>·</unclear> stu<unclear>ka</unclear> toy· Uttara <add place="below">ta</add>rāp· phlu grā<unclear>v</unclear>· parihār· drāvya man· Oy· ta qnak ta roḥha
+      <lb n="B2"/>neḥha pi jov· bhūmi prāk· liṅ· <num value="10"><g type="numeral">10</g></num> māsa liṅ· <num value="1"><g type="numeral">I</g></num> vu<unclear>d</unclear>i <num value="2"><g type="numeral">2</g></num> padigaḥ <num value="2"><g type="numeral">2</g></num> poṅ· <num value="5"><g type="numeral">5</g></num> <unclear>j</unclear>e<unclear>ṅa pa</unclear>rā <gap reason="lost" quantity="2" unit="character"/> <unclear>do</unclear>k· <num value="5"><g type="numeral">5</g></num> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>rv<choice><unclear>o</unclear><unclear>au</unclear></choice><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>
+      <lb n="B3"/><num value="6"><g type="numeral">6</g></num> jmol· parat· <num value="4"><g type="numeral">4</g></num> canlyāk· <num value="100"><g type="numeral">100</g></num> yau <num value="10"><g type="numeral">10</g></num> thmura <num value="146"><g type="numeral">100</g> <g type="numeral">40</g> <g type="numeral">6</g></num> raṅko <num value="20"><g type="numeral">20</g></num> krapi <num value="1"><g type="numeral">I</g></num> jrvak· <num value="1"><g type="numeral">I</g></num> vave <num value="2"><g type="numeral">2</g></num> surā ceḥ <num value="12"><g type="numeral">10</g> <g type="numeral">II</g></num> neḥ ti
+      <lb n="B4"/>Oy· pāy· Oy· drāvya ta Āṁpāla neḥha jov· bhūmi vraiy· stuk· vlo <g type="circleSmall">.</g> cat· sruk· duk· caṁnām· liḥ <num value="4"><g type="numeral">4</g></num>
+      <lb n="B5"/><unclear>p</unclear>r<unclear>a</unclear>tidina toy· khn<choice><orig>o</orig><reg>e</reg></choice>tta saṅ· kralā rām· duk· rmmām· caṁryyāṅ· thmiṅ· thmoṅ· taṁlūm· m<unclear>v</unclear>āy ve<unclear>ra</unclear> to<unclear>y</unclear>·
+      <lb n="B6"/>khnotta khñuṁ man· jva<choice><sic>nt·</sic><corr>n· ta</corr></choice> kaṁmrateṅa jagāt· tai phgauv· tai kaṁpāñ· tai kanles· tai kaṁpit· tai kaṁpura tai
+      <lb n="B7"/><unclear>kaṁ</unclear>khdvāt· tai kan·ren· <g type="circleSmall">.</g> tai thṅe tai pan·hom· tai nnom· tai <unclear>kh</unclear>des· tai kaṁvit· tai <unclear>th</unclear><supplied reason="lost">q</supplied>yak· tai śrā-
+      <lb n="B8"/>ṣta tai paroṅ· tai kabha tai kaṁphyāc tai kan·In· tai ka<unclear>ṁ</unclear>pura tai kan·<choice><unclear>d</unclear><unclear>j</unclear></choice>oḥ tai <unclear>tirtha</unclear> tai <unclear>saṁ</unclear>-
+      <lb n="B9"/><unclear>Ap</unclear>· tai kan<unclear>d</unclear>a<unclear>ṅ</unclear>· tai qgat· tai <unclear>śrā</unclear><supplied reason="lost">d</supplied><unclear>dhā</unclear> tai kan·<unclear>ja</unclear>n· tai <unclear>kaṁsura</unclear> tai kaṁvi <g type="circleSmall">.</g> gho <unclear>dh</unclear>armmadāsa gho
+      <lb n="B10"/>kañ·<unclear>jā</unclear> gho śri gho kandās· gho qnanta gho <unclear>thv</unclear>e gho <unclear>kaṁva</unclear><choice><unclear>s</unclear><unclear>l</unclear></choice><unclear>·</unclear> gho khmauv· gho pittara gho ga-
+      <lb n="B11"/>ndha gho kan·sān· gho vā<unclear>ṁ</unclear> gho vrāhma gho kandvep· gho <unclear>kan·</unclear>sān· gho kancān· gho <unclear>va</unclear>nendra
+      <lb n="B12"/>gho <unclear>kandrā</unclear>m· gho Aṁpen· gho kandhap· <g type="circleSmall">.</g> drāvya man· jva<choice><sic>nt·</sic><corr>n· ta</corr></choice> kaṁmrateṅ· jagāt· taṁmrya <num value="2"><g type="numeral">II</g></num> ga<unclear>na</unclear> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i
+      <lb n="B13"/><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>· <num value="1"><unclear><g type="numeral">I</g></unclear></num> tra<unclear>yva</unclear>ṅ· <unclear>v</unclear>n<unclear>ā</unclear>k· <num value="2"><g type="numeral">II</g></num> prāk· jyaṅ· <num value="1"><g type="numeral">I</g></num> māsa liṅ· <num value="1"><g type="numeral">I</g></num> krapi <num value="6"><g type="numeral">6</g></num> thāsa <num value="2"><g type="numeral">II</g></num> vudi <num value="4"><g type="numeral">4</g></num> <unclear>pa</unclear><supplied reason="omitted">di</supplied>gaḥ <num value="6"><g type="numeral">6</g></num> ga<unclear>dā</unclear>-
+      <lb n="B14"/>ha <num value="2"><g type="numeral">II</g></num> svok· <num value="2"><unclear><g type="numeral">II</g></unclear></num> bhāja<supplied reason="omitted">na</supplied> <num value="2"><g type="numeral">II</g></num> khñuṁ <num value="48"><g type="numeral">40</g> <g type="numeral">8</g></num> neḥ khñuṁ ta A<unclear>ṁ</unclear>pāla neḥha ti dā<supplied reason="omitted">r·</supplied> vraḥ karunāpra-
+      <lb n="B15"/>sāda nu man· māna nu mān niya daiya kālpanā phleya kralā rām· noḥ man· khloñ<unclear>·</unclear>
+      <lb n="B16"/>vala ta svat· thve Āyāttva ta kvana khloña vala ta svat ta jmo<supplied reason="omitted">ḥ</supplied> loñ· śikhāśiva nu kvan cau<unclear>va</unclear>
+      <lb n="B17"/>noḥha gi nā khloña vala ta svata samāpe khñuṁ neḥ n<supplied reason="lost">u dha</supplied>r<unclear>mma ta</unclear> roḥha neḥ pre paripāla
+      <lb n="B18"/>nau qnak ta lapa dharmma ta roḥ<unclear>ha</unclear> neḥ<unclear>ha</unclear> jā<choice><sic>mt·</sic><corr>ta</corr></choice> dvātri<supplied reason="lost">ṁ</supplied>śa naraka tarāp cāndrāditya mān leya
+   </p>
+                </div>
+           <!--      <div type="apparatus">
+                        
+         </div>         <div type="translation" xml:lang="fra" source="bib:Coedes1964_03">
+           <p></p>
+           </div>
+          <div type="commentary">
+        
+         </div> -->
+
+       <div type="bibliography">
+          <p>Preliminarily edited by Julia Estève, Dominique Soutif and Kunthea Chhom from the estampage EFEO n. 1684 and n. 1685.</p>
+	                     </div>
+        </body>
+    </text>
+</TEI>
