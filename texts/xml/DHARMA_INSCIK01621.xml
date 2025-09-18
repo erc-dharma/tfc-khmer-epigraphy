@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Prasat Tramoung (K. 1621), 11th century</title>
+                <respStmt>
+                    <resp>EpiDoc encoding</resp>
+                    <persName ref="part:kuch">
+                        <forename>Kunthea</forename>
+                        <surname>Chhom</surname>
+                    </persName>
+                </respStmt>
+            	<respStmt>
+            		<resp>intellectual authorship of edition</resp>
+                    <persName ref="part:dogo">
+            			<forename>Dominic</forename>
+            			<surname>Goodall</surname>
+            		</persName>
+            		<persName ref="part:kuch">
+            			<forename>Kunthea</forename>
+            			<surname>Chhom</surname>
+            		</persName>
+            	</respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Jakarta</pubPlace>
+                <idno type="filename">DHARMA_INSCIK01621</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+                            Licence. To view a copy of the licence, visit
+                            https://creativecommons.org/licenses/by/4.0/ or send a letter to
+                            Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+                            California, 94041, USA.</p>
+                        <p>Copyright (c) 2019-2025 by Dominic Goodall &amp; Arlo Griffiths.</p>
+                        </licence>
+                </availability>
+                <date from="2019" to="2025">2019-2025</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p>The lettering is characteristic of the eleventh century CE.
+                                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                            <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+            </projectDesc>
+            <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
+            <listPrefixDef>
+                <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+                    <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+                </prefixDef>
+                <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_idListMembers_v01.xml#$1">
+                    <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_idListMembers_v01.xml</ref> file.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:kuch" when="2025-09-18" status="draft">Initial encoding of the inscription</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+            <lg n="1" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="1"/><milestone unit="column" n="a"/><seg met="====-+-"><gap reason="illegible" quantity="7" unit="character"/></seg>ṅghri</l>
+<l n="b"><milestone unit="column" n="b"/>-<unclear>pā</unclear>ṅs<unclear>avo <supplied reason="subaudible">’</supplied>pahatā</unclear>ha<unclear>sāḥ</unclear></l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/><seg met="====-"><gap reason="illegible" quantity="5" unit="character"/></seg><unclear>d</unclear><unclear cert="low">i</unclear><choice><unclear>k</unclear><unclear>ṣ</unclear></choice>āla</l>
+<l n="d"><milestone unit="column" n="b"/>śikhaṇdākhaṇdakelayaḥ <unclear><g type="ddandaOrnate">.</g></unclear></l>
+</lg>
+             <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="3"/><milestone unit="column" n="a"/>Āsīd īśo <supplied reason="subaudible">’</supplied>vanīśānāṁ</l>
+<l n="b"><milestone unit="column" n="b"/>śrīndravarmmāśrayaś śriyaḥ</l>
+<l n="c" enjamb="yes"><lb n="4"/><milestone unit="column" n="a"/><supplied reason="lost">sa</supplied>r<unclear>v</unclear>vakamvujarājendra</l>
+<l n="d"><milestone unit="column" n="b"/>-vaṅśenduśaradāgamaḥ <unclear><g type="ddandaOrnate">.</g></unclear></l>
+</lg>
+             <lg n="3" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="5"/><milestone unit="column" n="a"/>yatsaundaryyapayorā<unclear>ś</unclear>i</l>
+<l n="b"><milestone unit="column" n="b"/>-nimajjanabhayād i<unclear>va</unclear></l>
+<l n="c"><lb n="6"/><milestone unit="column" n="a"/>vāhanaṁ makaraṁ ramya<milestone unit="column" n="b" break="no"/>m</l>
+<l n="d">akaron makara<unclear>dhva</unclear>jaḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+             <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="7"/><milestone unit="column" n="a"/>Ekā<unclear>r</unclear>ṇnavānurāgiṇyāḥ</l>
+<l n="b"><milestone unit="column" n="b"/>gaṅgāyāḥ veni<unclear>k</unclear>eva bhūḥ</l>
+<l n="c"><lb n="8"/><milestone unit="column" n="a"/>veveṣṭyate vitatayā</l>
+<l n="d"><milestone unit="column" n="b"/>yasya kīrtyuttamasrajā <g type="ddandaOrnate">.</g></l>
+</lg>
+             <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="9"/><milestone unit="column" n="a"/>yāne rajo bhuje satva<milestone unit="column" n="b" break="no"/>n</l>
+<l n="b">tamo yo ripudarś<unclear>śa</unclear>yan·</l>
+<l n="c"><lb n="10"/><milestone unit="column" n="a"/>sr̥ṣṭisthitidhvaṅsakaro</l>
+<l n="d"><milestone unit="column" n="b"/>reje dhāteva dehinām· <g type="ddandaOrnate">.</g></l>
+</lg>
+             <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="11"/><milestone unit="column" n="a"/><unclear>pa</unclear>rāśareṇa janitā</l>
+<l n="b"><milestone unit="column" n="b"/>satyavatyuditā babhau</l>
+<l n="c"><lb n="12"/><milestone unit="column" n="a"/><supplied reason="lost">kī</supplied>r<supplied reason="lost">tt</supplied>ir d<unclear>vai</unclear>pāyanasyeva</l>
+<l n="d"><milestone unit="column" n="b"/>jayaśrīr yyasya jājvalā <g type="ddandaOrnate">.</g></l>
+</lg>
+             <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="13"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/>ta<unclear>sy</unclear>o<unclear>lalīta</unclear>sat kila</l>
+<l n="c"><lb n="14"/><milestone unit="column" n="a"/><seg met="====-++="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg> <supplied reason="lost"><g type="ddandaOrnate">.</g></supplied></l>
+</lg>
+         </div>
+         <div type="apparatus"/>
+         <div type="translation" resp="part:dogo part:kuch">
+           <p rend="stanza" n="1">The dusts of the feet <gap reason="lost"/> the entire sports/lands by the cleaning lock of hair/peacock’s tail <gap reason="lost"/> removed laughter <gap reason="lost"/>.</p>
+             <p rend="stanza" n="2">There was a lord of the lords of the earth, Śrī Indravarman, a recipient of glory, whose arrival/birth was the autumn for the moon that was the lineage of king of kings of the whole Kambuja.</p><!-- Dominic's translation: There was a Lord of the lords of the earth, Śrī Indravarman, a locus of splendour, the advent of autumn for the moon that was the lineage of princes born of Śrī Kambu. -->
+             <p rend="stanza" n="3">As though <supplied reason="explanation"><foreign>iva</foreign></supplied> because of fear of sinking into the ocean of Indravarman's beauty, the god of Love <supplied reason="explanation"><foreign>makaradhvajaḥ</foreign></supplied> must have made the sea-monster <supplied reason="explanation"><foreign>makaraṁ</foreign></supplied> his beautiful vehicle.</p>
+             <p rend="stanza" n="4">The Earth was thoroughly wrapped <supplied reason="explanation"><foreign>veveṣṭyate</foreign></supplied> with the extensive excellent garland that was his fame, like one stream of Gaṅgā feeling love for the ocean.<!-- Daniel's translation: The Earth is wrapped all around with the extensive superior garland that is his fame, as [it is wrapped] by the braided stream of the Gaṅgā, which (however,) is attached to (/loyal to/in love with) a single ocean (while his fame extends to several oceans).--></p>
+             <p rend="stanza" n="5">Displaying dust/<foreign>rajas</foreign> in his military campaigns <supplied reason="explanation"><foreign>yāne</foreign></supplied>, strength/<foreign>sattva</foreign> in his arms <supplied reason="explanation"><foreign>bhuje</foreign></supplied>, darkness/<foreign>tamas</foreign> in his enemies, he appeared <supplied reason="explanation"><foreign>reje</foreign></supplied> like the Creator, who creates, maintains and destroys embodied beings <supplied reason="subaudible">using respectively <foreign>rajas</foreign>, <foreign>tamas</foreign> and <foreign>sattva</foreign></supplied>.</p>
+             <p rend="stanza" n="6">His Royal Fortune <supplied reason="explanation"><foreign>jayaśrī</foreign></supplied> shone blazing brightly like the glory of Dvaipāyana, born from Parāśara and appeared/ engendered <supplied reason="subaudible">in the womb</supplied> of Satyavatī.</p><!-- Dominic's translation: His victorious glory (jayaśrīḥ) shone (babhau), blazing brightly (jājvalā), supreme (parā), produced (janitā) by his arrows (śareṇa), genuine (satyavatī), proud (uditā), like that of Kr̥ṣṇadvaipaayana, … -->
+             <p rend="stanza" n="7"><gap reason="lost"/></p>
+           </div>
+          <!--   <div type="commentary">
+        <p></p>
+         </div>  -->
+        <div type="bibliography">
+           <p>Preliminarily edited by Dominic Goodall and Kunthea Chhom with English translation, from photographs of the stone.</p>
+        	<listBibl type="primary">
+				<bibl n="siglum"/><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+			</listBibl>
+           <listBibl type="secondary">
+              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
