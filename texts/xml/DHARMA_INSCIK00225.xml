@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pedestal from Thma Puok (K. 225), 911 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00225</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-09-29" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+<lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="A1"/><milestone unit="face" n="A"/><g type="SpiralR">.</g> yo <supplied reason="subaudible">’</supplied>py eko vahudhā bhinno <space/></l>
+<l n="b">v[i]neyāśānurodhataḥ <g type="SpiralR">.</g></l>
+<l n="c" enjamb="yes"><lb n="B1"/><milestone unit="face" n="B"/>śaśīva naikanirastha</l>
+<l n="d">-vimvo vuddhas sa pātu vaḥ <g type="SpiralR">.</g></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="C1"/><milestone unit="face" n="C"/><unclear><g type="SpiralR">.</g></unclear> prañjñāpāramitā pāyā<space/>d</l>
+<l n="b">apāyād vo varīyasaḥ <unclear><g type="SpiralR">.</g></unclear></l>
+<l n="c"><lb n="D1"/><milestone unit="face" n="D"/>jinānām apy ajātānāṁ</l>
+<l n="d">yā jātā jananī satī <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="A2"/><milestone unit="column" n="a"/><g type="ddandaOrnate">.</g> vande lokeśvaraṁ bhaktyā</l>
+<l n="b"><milestone unit="column" n="b"/>-mitābha Iva bha<seg met="-="><gap reason="illegible" quantity="2" unit="character"/></seg></l>
+<l n="c"><lb n="A3"/><milestone unit="column" n="a"/>yasyottuṅga<seg met="-++="><gap reason="illegible" quantity="4" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="A2"/><milestone unit="column" n="a"/><g type="ddandaOrnate">.</g> bajrī jayati <seg met="++="><gap reason="illegible" quantity="3" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="c"><lb n="A5"/><milestone unit="column" n="a"/>mārttaṇdamaṇdala<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>r<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg><seg met="="><gap reason="illegible" quantity="1" unit="character"/></seg></l>
+<l n="d"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="A6"/><milestone unit="column" n="a"/><unclear><g type="ddandaOrnate">.</g></unclear> namadhvam āryyamaitreya<milestone unit="column" n="b" break="no"/>m</l>
+<l n="b">ā[r]yya<seg met="==-++="><gap reason="illegible" quantity="6" unit="character"/></seg></l>
+<l n="c" enjamb="yes"><lb n="A7"/><milestone unit="column" n="a"/>karuṇāmuditopekṣā</l>
+<l n="d"><milestone unit="column" n="b"/>-kṣamādyātmeva ye <seg met="+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="B2"/><milestone unit="column" n="a"/><seg met="=="><gap reason="illegible" quantity="2" unit="character"/></seg>valabhidā tena</l>
+<l n="b"><milestone unit="column" n="b"/>jayann apy urjjitaṁ kalim<unclear>·</unclear> <g type="ddandaOrnate">.</g></l>
+<l n="c"><lb n="B3"/><milestone unit="column" n="a"/><seg met="=="><gap reason="illegible" quantity="2" unit="character"/></seg> senāmarendratvaṁ</l>
+<l n="d"><milestone unit="column" n="b"/>valavyūhaiś ca yo yayau</l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="B4"/><milestone unit="column" n="a"/><supplied reason="lost">vi</supplied>yadvilavasuprāpta</l>
+<l n="b"><milestone unit="column" n="b"/>prājyarājyo vabhūva yaḥ</l>
+<l n="c"><lb n="B5"/><milestone unit="column" n="a"/><supplied reason="lost">rājā śr</supplied>ījayavarmmeti</l>
+<l n="d"><milestone unit="column" n="b"/>jayaśrīliṅgito niśam· <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="B6"/><milestone unit="column" n="a"/><seg met="===="><gap reason="illegible" quantity="4" unit="character"/></seg>ryyabhitkānti<milestone unit="column" n="b" break="no"/>r</l>
+<l n="b">ddānan digdantidainyakr̥t·</l>
+<l n="c"><lb n="B7"/><milestone unit="column" n="a"/><seg met="==="><gap reason="illegible" quantity="3" unit="character"/></seg>ṅgārasaṅharttrī</l>
+<l n="d"><milestone unit="column" n="b"/>tāvatī yasya śūratā <g type="dfloret">.</g></l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="C2"/><milestone unit="column" n="a"/><g type="ddandaOrnate">.</g> tadrājye bhūj jagadgīta</l>
+<l n="b"><milestone unit="column" n="b"/>-guṇo yo munipuṅgavaḥ</l>
+<l n="c"><lb n="C3"/><milestone unit="column" n="a"/>padmavairocanābhikhyo</l>
+<l n="d"><milestone unit="column" n="b"/>jagadpadmavirocanaḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="C4"/><milestone unit="column" n="a"/><g type="ddandaOrnate">.</g> dānaśīlakṣamāvīryya</l>
+<l n="b"><milestone unit="column" n="b"/>-dhyānaprajñādayo gunā<supplied reason="lost">ḥ</supplied></l>
+<l n="c"><lb n="C5"/><milestone unit="column" n="a"/>sātmīkr̥tāḥ pravr̥ttyaiva</l>
+<l n="d"><milestone unit="column" n="b"/>yasya <seg met="=="><gap reason="illegible" quantity="2" unit="character"/></seg>vahiṣkr̥ṭāḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="C6"/><milestone unit="column" n="a"/><supplied reason="lost"><g type="ddandaOrnate">.</g></supplied> vuddhamātrindramaitreya</l>
+<l n="b"><milestone unit="column" n="b"/>-vuddhalokeśabajriṇāṁ</l>
+<l n="c"><lb n="C7"/><milestone unit="column" n="a"/>pratimā sthāpitās tena</l>
+<l n="d"><milestone unit="column" n="b"/>candracandragrahāṅkite <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="12" met="anuṣṭubh">
+<l n="a"><lb n="D2"/><milestone unit="column" n="a"/><g type="ddandaOrnate">.</g> satvān mokṣe śaśo dikṣu</l>
+<l n="b"><milestone unit="column" n="b"/>śokāgnimāramānase</l>
+<l n="c"><lb n="D3"/><milestone unit="column" n="a"/>hr̥ṣṭahr̥tsu satām asmi<milestone unit="column" n="b" break="no"/>n</l>
+<l n="d">devān so <supplied reason="subaudible">’</supplied>tiṣṭhipat samaṁ <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="13" met="anuṣṭubh">
+<l n="a"><lb n="D4"/><milestone unit="column" n="a"/><g type="ddandaOrnate">.</g> dharmmapriyā dharmmam imaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>rakṣatādharmmarākṣasāt·</l>
+<l n="c"><lb n="D5"/><milestone unit="column" n="a"/>tamāṅsi ghnanti lokān hi</l>
+<l n="d"><milestone unit="column" n="b"/>bhās karoty eva bhāskaraḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="14" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="D6"/><milestone unit="column" n="a"/><g type="ddandaOrnate">.</g> dāsīn dāsañ ca bhūmyādi</l>
+<l n="b"><milestone unit="column" n="b"/>-dhanan tasyai pradāya saḥ</l>
+<l n="c"><lb n="D7"/><milestone unit="column" n="a"/>karīva vandhanirmmukta<milestone unit="column" n="b" break="no"/>ś</l>
+<l n="d">śāntaye vanam āyayau <g type="ddandaOrnate">.</g></l>
+</lg>
+</div>
+ <div type="apparatus">
+                <listApp>
+                  <app loc="2">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1951_01"></rdg>
+                  </app>
+                   </listApp>  
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1951_01">
+ 	<p rend="stanza" n="1">Que Celui qui pour satisfaire les désirs de ses adeptes, bien qu'étant unique, se divise en plusieurs comme la lune se reflétant dans plusieurs eaux, que le Buddha vous protège.</p>
+            <p rend="stanza" n="2">Que la Prajñāpāramitā, née en qualité de mère vertueuse des Jina, même de ceux qui ne sont pas encore nés, vous protège du mal, vous qui êtes les meilleurs des hommes.</p>
+            <p rend="stanza" n="3">J'honore avec dévotion Lokeśvara dont - - - - élevé, comme Amitābha.</p>
+            <p rend="stanza" n="4">La victoire est à Yajrin… cercle du soleil…</p>
+            <p rend="stanza" n="5">Honorez Ārya Maitreya dont la compassion, la joie, l'indifférence, la patience et autres qualités…</p>
+            <p rend="stanza" n="6">Même vainqueur du puissant Kali grâce à ce… qui brise la force…, il a obtenu par ses armées la qualité de roi des immortels aux armées…</p>
+            <p rend="stanza" n="7">Il y eut un roi qui avait obtenu la royauté (dans l'année Śaka marquée) par les (8) Vasu, les (9) ouvertures et l'éther (= 0), Śrī Jayavarman, embrassé par la Victoire.</p>
+            <p rend="stanza" n="8">Sa beauté brisait…, sa libéralité causait la détresse des éléphants des points cardinaux, sa valeur était telle qu'elle détruisait…</p>
+            <p rend="stanza" n="9">Sous son règne il y eut un taureau parmi les sages, dont le monde chantait les vertus ; nommé Padmavairocana, c'était un soleil (virocana) pour le lotus (padma) du monde.</p>
+            <p rend="stanza" n="10">La libéralité, l'observance des défenses, la patience, la force, la méditation, la sagesse et autres vertus qu'il s'était assimilées ont été manifestées par sa conduite même.</p>
+            <p rend="stanza" n="11">Les images de la Mère des Buddha, d'Indra, de Maitreya, du Buddha, de Lokeśvara et de Vajrin ont été érigées par lui dans (l'année) marquée par les (9) planètes, la lune (= 1) et la lune (= 1).</p>
+            <p rend="stanza" n="12">Ce (sage) arrivé à la délivrance de l'existence, a érigé ici ces dieux à la fois dans les points cardinaux, dans l'esprit de ceux qui sont tourmentés par le feu du chagrin, et dans les cœurs joyeux des gens de bien.</p>
+            <p rend="stanza" n="13">O vous qui aimez le bien (dharma), protégez celle fondation (dharma) contre les démons du mal (adharma), car l'obscurité détruit le monde, mais le soleil fait la clarté.</p>
+            <p rend="stanza" n="14">Ayant donné à cette (déesse) une esclave femme et un esclave homme, de la terre et d'autres biens, comme un éléphant libéré de ses entraves, il est allé chercher la paix dans la forêt.</p>
+         </div> 
+       <!--  <div type="commentary">
+           <p>
+         </p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1951_01"/><citedRange unit="page">66-69</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom from the estampage EFEO n. 321.<!-- kuch: The estampage of stanzas XII-XIV is not available. --></p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">66-69</citedRange>
+    </bibl>
+	</listBibl>
+          <listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">593-595</citedRange>
+    </bibl>
+              </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
