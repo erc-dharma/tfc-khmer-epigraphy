@@ -89,7 +89,7 @@
 |K.	82 |# |# |#|
 |K.	83 |# |# |#|
 |K.	84 |# |# |#|
-|K.	85 |chch |pending |IC VII|
+|K.	85 |kuch |done |IC VII|
 |K.	86 |# |# |#|
 |K.	87 |kuch |pending |unpublished|
 |K.	88 |kuch |done |IC VII|
@@ -129,7 +129,7 @@
 |K.	122 |kuch |done |Finot 1903|
 |K.	123 |# |# |#|
 |K.	124 |# |# |#|
-|K.	125 |# |# |#|
+|K.	125 |kuch |done |Cœdès 1928|
 |K.	126-1 |kuch |done |IC VII|
 |K.	126-2 |kuch |done |IC VII|
 |K.	127 |kuch |done |IC II|
@@ -159,7 +159,7 @@
 |K.	150 |# |# |#|
 |K.	151 |kuch |done |Cœdès 1943|
 |K.	152 |# |# |#|
-|K.	153 |# |# |#|
+|K.	153 |kuch |done |IC V|
 |K.	154 |kuch |done |IC II|
 |K.	155 |kuch |done |IC V|
 |K.	156 |kuch |done |IC V|
@@ -174,10 +174,10 @@
 |K.	165 |sapi |pending |IC VI|
 |K.	166 |# |# |#|
 |K.	167 |# |# |#|
-|K.	168 |# |# |#|
+|K.	168 |kuch |done |IC VI|
 |K.	169 |chch |pending |Finot 1915|
 |K.	170 |# |# |#|
-|K.	171 |# |# |#|
+|K.	171 |kuch |done |IC VI|
 |K.	172 |chch |done |BEFEO 1911|
 |K.	173 |chch |done |Roeské 1914|
 |K.	174 |chch |done |Roeské 1914|
@@ -234,7 +234,7 @@
 |K.	222 |# |# |#|
 |K.	223 |# |# |#|
 |K.	224 |# |# |#|
-|K.	225 |chch |pending |IC III|
+|K.	225 |kuch |done |IC III|
 |K.	226-1 |kuch |done |Cœdès 1951, IC III|
 |K.	226-2 |kuch |done |Cœdès 1951, IC III|
 |K.	226-3 |kuch |done |Cœdès 1951, IC III|
@@ -254,7 +254,8 @@
 |K.	237 |# |# |#|
 |K.	238 |sapi |pending |IC VI|
 |K.	239 |# |# |#|
-|K.	240 |# |# |#|
+|K.	240-1 |kuch |done |IC III|
+|K.	240-2 |kuch |done |IC III|
 |K.	241 |# |# |#|
 |K.	242 |# |# |#|
 |K.	243 |# |# |#|
@@ -1204,7 +1205,7 @@ K.	294 |# |# |#|
 |K.	1049 |kuch |done |Goodall 2015|
 |K.	1050 |sapi |pending |NIC II-III|
 |K.	1051 |sapi  |done  |NIC II-III|
-|K.	1052 |# |# |#|
+|K.	1052 |kuch |done |Vong 2021|
 |K.	1053 |# |# |#|
 |K.	1054 |# |# |#|
 |K.	1055 |# |# |#|
@@ -1227,7 +1228,7 @@ K.	294 |# |# |#|
 |K.	1072 |# |# |#|
 |K.	1073 |sapi |pending |NIC II-III|
 |K.	1074 |# |# |#|
-|K.	1075 |# |# |#|
+|K.	1075 |kuch |done |unpublished|
 |K.	1076 |sapi |pending |unpublished|
 |K.	1077 |# |# |#|
 |K.	1078 |# |# |#|
@@ -1340,7 +1341,7 @@ K.	294 |# |# |#|
 |K.	1183 |# |# |#|
 |K.	1184 |# |# |#|
 |K.	1185 |# |# |#|
-|K.	1186 |# |# |#|
+|K.	1186 |kuch |done |unpublished|
 |K.	1187 |kuch |done |unpublished|
 |K.	1188 |# |# |#|
 |K.	1189 |# |# |#|
@@ -1414,8 +1415,8 @@ K.	294 |# |# |#|
 |K.	1257 |kuch |done|Soutif 2009|
 |K.	1258 |kuch |pending |unpublished|
 |K.	1259 |kuch |done |Long s.d., Oun 1998, Hun 2019|
-|K.	1260 |# |# |#|
-|K.	1261 |kuch |done |#|
+|K.	1260 |kuch |done |unpublished|
+|K.	1261 |kuch |done |NIC II-III|
 |K.	1262 |# |# |#|
 |K.	1263 |# |# |#|
 |K.	1264 |kuch |pending |#|
@@ -1608,7 +1609,7 @@ K.	294 |# |# |#|
 |K.	1446 |# |# |#|
 |K.	1447 |# |# |#|
 |K.	1448 |chch |done |unpublished|
-|K.	1449 |chch |pending |Vong Sotheara 1999|
+|K.	1449 |kuch |done |Vong 2021|
 |K.	1450 |kuch |done |unpublished|
 |K.	1451 |kuch |pending |Nguyễn 1999|
 |K.	1452 |chch |done |unpublished|
@@ -1759,4 +1760,6 @@ K.	1596 |kuch |done |Chhom 2020|
 K.	1597 |kuch |done |Chhom 2020|
 K.	1598 |kuch |done |Chhom 2020|
 K.	1599 |kuch |done |Chhom 2020|
+|K.    1603 |kuch |done |unpublished|
 K.	1616 |argr |done |DHARMA|
+|K.	1621 |kuch |done |unpublished|
