@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjambs of Prasat Car (K. 708), 916 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00257</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-10-02" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+ <lb n="S1"/><milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label><g type="ddandaOrnate">.</g> <g type="floret">.</g> <g type="ddandaOrnate">.</g> 901 śaka pañcamī ket· jyestha toy(·) candra(māsa) Ai {4}
+   <lb n="S2"/>Ādityavāra puṣyanakṣatra nu mān· vraḥ śāsana dhūli vraḥ [pāda dhūli jeṅ· vraḥ kamrateṅ·]
+   <lb n="S3"/>Añ· śrī jayavarmmadeva ta steṅ· Añ· vraḥ guru kaṁsteṅ· śrī vīrendravarmma kaṁsteṅ· śrī {2}-
+   <lb n="S4"/>ndrādhipativarmma kaṁsteṅ· śrī mahīdharavarmma pre dau Oy· vraḥ karuṇā prasāda bhūmi Ā[y·]
+   <lb n="S5"/>chdiṅ· ta tāñ· kamrateṅ· Añ· Āy· qvāy· ta kaṁsteṅ· śrī rājapativarmma ta kaṁsteṅ· śrī [nara]-
+   <lb n="S6"/>pativīravarmma ta mratāñ· khloñ· śrī jayāyudhavarmma pi cat· sruk· duk· vraḥ pi Oy· ta kule [ta]
+   <lb n="S7"/>strījana phoṅ· Aṅgvay ta gi <g type="dotMid">.</g> vraḥ kaṁrateṅ· Añ· śivaliṅga <g type="dotMid">.</g> vraḥ kamrateṅ· Añ· parame[śvara]
+   <lb n="S8"/>rūpa kaṁsteṅ· śrī rājapativarmma <g type="dotMid">.</g> vraḥ kamrateṅ· Añ· bhagavatī rūpa tāñ· kamrateṅ· A[ñ· <g type="dotMid">.</g>]
+   <lb n="S9"/>vraḥ kamrateṅ· Añ· bhagavatī rūpa teṅ· tvan· ta yā kaṁsteṅ· śrī narapativīravarmma mratā[ñ·]
+   <lb n="S10"/>khloñ· śrī jayāyudhavarmma <g type="dotMid">.</g> saṁ gaṇa nu kamrateṅ· jagat· śrī bhadreśvara Anrāy· liṅga[pura ?]
+   <lb n="S11"/>vraḥ kamrateṅ· Añ· nārāyana saṁ gaṇa nu vraḥ kamrateṅ· Añ· śrī campeśvara <g type="ddandaOrnate">.</g> <g type="floret">.</g> <supplied reason="lost"><g type="ddandaOrnate">.</g></supplied>
+   <lb n="S12"/>caṅvātta bhūmi neḥ toy· pūrvva Aṅve chdiṅ(·) bhūmi travāṅ· vloṅ· ta ti mratāñ· tri khsāc· vlv[ak·]
+   <lb n="S13"/>Oy ta kaṁsteṅ· śrī rājapativarmma <g type="dotMid">.</g> toy· Agneya prasap ta gi bhūmi guhe ta ti vāp· hā{2}
+   <lb n="S14"/>Āptabhr̥tya nā Eka khcya qnak· paṅgaṁ thpvaṅ· nivedana pi Oy ta kaṁsteṅ· śrī [rāja]pativarmma <g type="dotMid">.</g> toy· dakṣi[ṇa]
+   <lb n="S15"/>prasap ta gi caṁnat· steñ· chok· thmo <g type="dotMid">.</g> toy· nairr̥tiya prasap(·) travāṅ(·) khbas(·) <g type="dotMid">.</g> toy(·) paścima [pra-]
+   <lb n="S16"/>sap· śivajñāna <g type="dotMid">.</g> toy· vāyavya travāṅ· veṅ· prasap· nu rāmakṣetra <g type="dotMid">.</g> toy(·) Uttara nu Iśāna prasap(·)
+   <lb n="S17"/>[bhūm]i kaṁsteṅ· śrī vīrendravarmma <g type="dotMid">.</g> bhūmi nā vāp· vis· bhāgavata {2}ya kaṁnuṅa caṅvāt· neḥ {1}
+   <lb n="S18"/>{3}pativarmma paṅgaṁ thpvaṅ· nivedana svaṁ bhūmi mr̥takadhana Āy· {2} ti pi Oy· thnvara ta vāp· vi[s·] {1}
+   <lb n="S19"/>bhūmi sthalā pravaca ti kaṁsteṅ· śrī narapativīravarmma duñ· nu vodi padigaḥ mās· prāk· krapī ta vāp(·) [Āt·]
+   <lb n="S20"/>daśādhikr̥ta chmāṁ vraḥ kralā phdaṁ chok· gragyar· <g type="dotMid">.</g> bhūmi bhāga Anle mvāy(·) toy(·) paścima ti kaṁsteṅ· [śrī rā]-
+   <lb n="S21"/>japativarmma duñ· nu vodi padigaḥ thnap· canlyāk· ta vāp· svasti qnak· vraḥ chpār(· <g type="ddandaOrnate">.</g>) bhūmi travāṅ· khba[s·]
+   <lb n="S22"/>kaṁsteṅ· śrī rājapativarmma jov· nu vodi padigaḥ thnap· canlyāk· krapī ta gho sarāc· qnak· vraḥ travā[ṅ·]
+   <lb n="S23"/>sruk· teṁ tannot· Āy· kantāl· danle nu khñuṁ phle gi ti mratāñ· śrī guṇapaṇdita Oy ta kaṁsteṅ[· śrī]
+   <lb n="S24"/>rājapativarmma man mān· vraḥ śāsana pre sthāpanā rūpa kaṁsteṅ· śrī rājapativarmma ti Oy· paṁre ta rūpa kaṁsteṅ·
+   <lb n="S25"/>bhūmi taṁpuṅ· ti vraḥ karuṇā prasāda <g type="dotMid">.</g> bhūmi taṁpuṅ· bhāga mvāy(·) ti duk· thpal· nu khñuṁ phle gi nāṁ vraḥ paryya-
+   <lb n="S26"/>ṅ· dau liṅgapura <g type="dotMid">.</g> bhūmi taṁpuṅ· bhāga mvāy(·) kaṁsteṅ(·) Añ· vraḥ guru Oy ta kaṁsteṅ· śrī narapativīravarmma sthāpa-
+   <lb n="S27"/>nā vraḥ śivaliṅga ta gi saṁ gaṇa nu liṅgapura sot· <g type="dotMid">.</g> bhāga mvāy· Āy· lOk· Oy· caṁnāṁ raṅko liḥ vyara ta vraḥ
+   <lb n="S28"/>vrāhmaṇaśāla <g type="dotMid">.</g> bhāga mvāya Āy· vnura rvyāṅ· Oy· dau paṁre ta vraḥ hemaśr̥ṅgagiri <g type="dotMid">.</g> bhāga mvāya ra soṅ·
+   <lb n="S29"/>dau ta vraḥ kamrateṅ· Añ· bhagavatī rūpa teṅ· tvan· ta yā kaṁsteṅ· śrī narapativīravarmma <g type="ddandaOrnate">.</g> bhūmi gaṁ-
+   <lb n="S30"/>mryāṅ· ti duñ· ta muṣṭiyudha sthāpanā bhagavatī mahiṣāsura Āsana kanloṅ· kamrateṅ· Añ· Ā-
+   <lb n="S31"/>y[[·]] Aṅve danle ta gi <g type="ddandaOrnate">.</g> bhūmi teṁ slā mr̥takadhana ti steṅ· Añ· vraḥ guru paṅgaṁ thpvaṅ· nivedana Oy·
+   <lb n="S32"/>vraḥ karuṇā prasāda sthāpanā śivaliṅga ta gi saṁ gaṇa nu kamrateṅ· jagat· liṅgapura sot· <unclear><g type="ddandaOrnate">.</g></unclear>
+   <lb n="S33"/>bhūmi canlattai ti mrateñ· hr̥dayabhāva chmāṁ vraḥ kralā phdaṁ nā trīṇi saṁlāp· tamrya sār nai
+   <lb n="S34"/>kaṁsteṅ· vyara hetu cya srūva man· qyat taṁmrya nu soṅ· taṁmrya kaṁsteṅṅa Oya bhūmi canlattai sthāpanā
+   <lb n="S35"/>śivaliṅga ta gi saṁ gaṇa nu liṅgapura sot[[·]] <unclear><g type="ddandaOrnate">.</g></unclear> bhūmi rlaṁ slut ti vāp· jvāda chmāṁ vraḥ kralā phdaṁ nā do O-
+   <lb n="S36"/>y ta kaṁsteṅ· <g type="ddandaOrnate">.</g> bhūmi snāṁ thguḥ ti kaṁsteṅ· śrī rājapativarmma duñ· ta vāp· dā vargga dhruvapura nu vaudi padi-
+   <lb n="S37"/>gaḥ canlyāk· krapī sthāpanā vraḥ vighneśa ta gi Oy· kriyā Āy· chdiṅ· <g type="ddandaOrnate">.</g> bhūmi rllo ti kaṁsteṅ· duñ· ta
+   <lb n="S38"/>vāp· go kanmyaṅ· paṁre nu prākka nu canlyākka pi cat· sruk· duk· khñuṁ Oy ta vraḥ kamrateṅ· Añ· bhagavatī rūpa tā-
+   <lb n="S39"/>ñ· kamrateṅ· Añ· <g type="ddandaOrnate">.</g> bhūmi cyat krāṅ· pramān(·) malyāṅ· ti kaṁsteṅ· śrī narapativīravarmma svaṁ vraḥ karuṇā
+   <lb n="S40"/>prasāda pi cat· sruk· duk· khñuṁ ta gi Oy ta vraḥ kamrateṅ· Añ· bhagavatī rūpa teṅ· tvan· ta yā kaṁsteṅ· śrī na-
+   <lb n="S41"/>rapativīravarmma <g type="ddandaOrnate">.</g> sruk· ratnaparvvata pramān· bhīmapura ti teṅ(·) mā ta qnak(·) khloñ· kaṁsteṅ· śrī rājapativarmma jvan ta
+   <lb n="S42"/>[vraḥ] kamrateṅ· Añ· parameśvara rūpa kaṁsteṅ· śrī rājapativarmma jvan· khñum savālavr̥ddha śata mvāya praṁvyal(·)
+   <lb n="S43"/>[bhū]mi sthalā pravaca sot· ti mratāñ· khloñ· śrī jayāyudhavarmma duñ· nu graloṅ tai mvāya khāl·
+   <lb n="S44"/>[prā]k· mvāya ṅan· jyaṅ· mvāya jña yau mvāya thnap· yau mvāya ta vāp· Āt(·) daśādhikr̥ta chmāṁ vraḥ kralā phdaṁ
+   <lb n="S45"/>chok· gragyar pi Oy ta vraḥ kamrateṅ· Añ· bhagavatī rūpa teṅ· tvan ta yā mratāñ· khloñ· <g type="ddandaOrnate">.</g>
+   </p>                  
+<p>
+ <lb n="N1"/><milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label>{8} mārggaśira vr̥haspativāra nu mratāñ· khloñ· śrī narapativīravarmma pre
+<lb n="N2"/>{10}y ta kanmvāy· mratāñ· khloñ· nāṁ vāp· dan· muṣṭiyudha ta mān(·)
+   <lb n="N3"/>{5} vāp(·) In(·) khloñ(·) jnvāl(·) muṣṭiyudha <g type="dotMid">.</g> vāp· go mūla <g type="dotMid">.</g> vāp· gāp· mūla <g type="dotMid">.</g> vāp· dan· mūla vā-
+   <lb n="N4"/>[p·] {3} mūla muṣṭiyudha sruk(·) gamryāṅ· mok· vraḥ sabhā <g type="dotMid">.</g> kathā man· vāp· vit· khloñ· jnvāl· muṣṭi-
+   <lb n="N5"/>[yudha <g type="dotMid">.</g>] pul(·) prāk(·) jyaṅ· mvāy(·) vodi mvāy(·) ṅan(·) jyaṅ· pramvāya canlyāk· yo tappa ta mratāñ· khloñ·
+   <lb n="N6"/>śrī narapativīravarmma nu duñ· {4} maṇdira kāla ta gi chnāṁ srac· nirṇṇaya kaṁvai rlaṁ dyana lvoḥ guṇa-
+   <lb n="N7"/>dravya ta roḥha <g type="dotMid">.</g> qyat· dravya dep(·) vāp· vit· vāp· dan· pradhāna sruk· gamryāṅ[[·]] <g type="dotMid">.</g> vāp· In· khloñ·
+   <lb n="N8"/>[jnvāl· muṣṭi]yudha vāp· go mūla vāp(·) gāp(·) mūla vāp(·) dan· mūla vāp· qyak· mūla muṣṭiyudha sruk· gamryā-
+   <lb n="N9"/>[ṅ·] {3} bhūmi gamryāṅ· {7} Oy ta mratāñ· khloñ· śrī narapativīravarmma thlāy(·) prāk· nu
+   <lb n="N10"/>dravya nu canlyāk ta guṇa {7} śaka navamī ket· marggaśira vr̥haspativāra nu mratāñ· khloñ· śrī
+   <lb n="N11"/>[nara]pativīravarmma Oy· j[ña ś]i[ra yo mvā]ya thnap(·) vlaḥ mvāya ta vāp· dan· pradhāna sruk· gamryāṅ· <g type="dotMid">.</g> jña śira yo mvāya
+   <lb n="N12"/>[da]rāppa yo mvāya thnap(·) {5} khāl(·) prāk(·) mvāya liṅ· prāma Aṁpyal· je vyar ta vāp· gāp· mūla <g type="dotMid">.</g> jña śira
+   <lb n="N13"/>yo mvāya thnap· vlaḥ vyara [Aṁ]pyal· je mvāya ta vāp· qyak· mūla <g type="dotMid">.</g> jña śira yo mvāya darāppa yo mvāya thna-
+   <lb n="N14"/>p· yo mvāya Aṁpya[l· je mvā]ya ta vāp· dan· mūla <g type="dotMid">.</g> khāl· prāk· vyara liṅ· tappa jña śira yo mvāya jña rāp·
+   <lb n="N15"/>yo tappa thnap· yo vyara [ta] vāp· go mūla vāp(·) Amr̥ta vāp· jes· kule vāp· go mūla muṣṭiyudha pi jā-
+   <lb n="N16"/>v· bhūmi caṁhop· pi Oy ta vraḥ kamrateṅ· Añ· bhagavatī man· mra[tā]ñ(·) khloñ· śrī narapativīravarmma sthāpa-
+   <lb n="N17"/>nā ta gi bhūmi gamryāṅ(·) man(·) vraḥ sabhā taṅ·tyaṅ· vāp· In· khloñ· jnvāl· vāp· dan· pradhāna sruk· vāp· go
+   <lb n="N18"/>mūla vāp· qyak· mūla [vāp·] gāp· mūla vāp· dan· mūla sot· ta gi kathā mratāñ· khloñ· śrī narapativīravarmma
+   <lb n="N19"/>ta roḥha neḥha <g type="dotMid">.</g> vāp· In· vāp· go vāp· dan· vāp· qya[k·] {6} paṁvyat· phoṅ(·) kathā mratāñ· khlo-
+   <lb n="N20"/>ñ· śrī narapativīravarmma <g type="dotMid">.</g> vāp· dan· pradhāna vāp· In· khlo[ñ· jnvāl· vāp· go] mūla vāp· gāp· mūla vāp· qyak·
+   <lb n="N21"/>mūla vāp· dan· sot· mūla <g type="dotMid">.</g> chley· neḥ dravya ta ro[ḥha neḥha ye]ṅ· yok ta mratāñ· khloñ· ti
+   <lb n="N22"/>yeṅ· thve vraḥ rājakāryya nu gī <g type="dotMid">.</g> saṁnall(·) yeṅ· qras(·) {8} [bh]ūmi ti yeṅ· Oy· thlāy(·) dra-
+   <lb n="N23"/>vya mratāñ· khloñ· nu man· mratāñ· khloñ· Oy· {7} Oy ta vraḥ kamrateṅ· Añ·
+   <lb n="N24"/>bhagavatī man· sthāpanā Āy· gamryāṅ· <g type="dotMid">.</g> toy· pū[rvva] {7} Añ· vraḥ guru <g type="dotMid">.</g> toy· dakṣi-
+   <lb n="N25"/>ṇa prasap· vnaṁ khyoṅ· <g type="dotMid">.</g> toy· paścima vap ta gi sru[k·] {7} [<g type="dotMid">.</g> to]y· Uttara mok· lvaḥ ta gi vraḥ
+   <lb n="N26"/>phlū <g type="dotMid">.</g> bhūmi Añ· ta jmah· vāp· In· kanlaḥ mūla qnau {11} mratāñ· khloñ· Oy· bhūmi
+   <lb n="N27"/>canhvar· ransī thnvar(·) ta Añ· ta vāp· In(·) <g type="dotMid">.</g> neḥ pi Oy(·) {12} [mra]tāñ· khloñ· nu loñ· qyak ta
+   <lb n="N28"/>kanmvāy· mratāñ· khloñ· <g type="dotMid">.</g> ti yeṅ· parihāra nu {7} <g type="dotMid">.</g> ta qnau nā samakṣa guṇa-
+   <lb n="N29"/>doṣadarśśi mratāñ· śrī dharaṇīndropakalpa <g type="dotMid">.</g> {8} [lo]ñ· rṣ{2}rthānandana
+   <lb n="N30"/>loñ· Ānandana <g type="dotMid">.</g> loñ· paṇditācāryya <unclear><g type="dotMid">.</g></unclear> vya {9} na <g type="dotMid">.</g> vāp· {1}rmma yogī
+   <lb n="N31"/>vāp· dhirānandana <g type="dotMid">.</g> vāp· Acyuta <g type="dotMid">.</g> vāp· pavitra <g type="dotMid">.</g> vāp· {10} mratāñ· śrī nr̥pendrā-
+   <lb n="N32"/>rimathana <g type="dotMid">.</g> tamrvac· vraḥ rājakāryya loñ· prāṇa {9} [9]16 śaka nu kaṁsteṅ·
+   <lb n="N33"/>śrī narapativīravarmma paṅgaṁ thpvaṅ· nivedana pi {11} ti cat· sruk· duk· khñuṁ pi
+   <lb n="N34"/>Oy(·) ta vraḥ kamrateṅ· Añ· śivaliṅga Āy· {10} [kaṁ]steṅ· śrī narapa[t]ivīrava-
+   <lb n="N35"/>[rmma] {5}mi chmāṁ prasir(·) nai vraḥ kamrate[ṅ· Añ·] {10} nu tā{1}ra pra {5}
+   <lb n="N36"/>{6} ti cat· sruk· pi duk· vraḥ {11} [ka]mrateṅ(·) Añ· {3}
+   <lb n="N37"/>{4} śata mvāya <g type="ddandaOrnate">.</g> Oy· gmuṁ kalmvān(·) {11} Añ· Āy(·) chdiṅ(·)
+   <lb n="N38"/>{4} st[e]ṅ(·) <g type="ddandaOrnate">.</g> <g type="floret">.</g> <g type="ddandaOrnate">.</g>
+   </p>
+
+                   <div type="apparatus">
+               <listApp>
+                  <app loc="S3">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1952_01"></rdg>
+                  </app>
+                  </listApp>         
+         </div>
+       <div type="translation" xml:lang="fra" source="bib:Coedes1952_01">
+           </div> 
+        <!--  <div type="commentary">
+            <p></p>
+              </div>   --> 
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1952_01"/><citedRange unit="page">140-150</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 708.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1952_01"/><citedRange unit="page">140-150</citedRange>
+    </bibl>
+  </listBibl>
+        <listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">299-300</citedRange>
+    </bibl>
+              </listBibl>  
+        </div>
+                </div>
+        </body>
+    </text>
+</TEI>
