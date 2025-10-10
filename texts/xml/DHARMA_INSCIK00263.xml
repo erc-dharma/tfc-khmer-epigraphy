@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Prasat Preah Einkosei (K. 263), 906 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00263</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-09-26" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<div type="textpart" n="A" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+   <lg n="1" met="vasantatilakā">
+<l n="a"><lb n="A1"/>$gomutraInitial $ddandaOrnate Eko 'pi vahnipavanārkkavisarppitābhi<space/>r</l>
+<l n="b">udgīthavarṇṇaranitasvarasaṅgatābhiḥ</l>
+<l n="c"><lb n="A2"/>mātrā ~ - ~ ~ ~ - ~ ~ [ā ibhir vvo]<space/></l>
+<l n="d">[bhV - ~ āt sa ~ ~ āmvu ~ - ~ - nya] ($circleTarget)</l>
+</lg>
+   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="A3"/>pātu vo vahudhaikāpi<space/></l>
+<l n="b"></l>
+<l n="c">yā = = = ~ - - =<space/>r</l>
+<l n="d">asakr̥<lb n="A4"/>d viśvanīradhau $circleTarget</l>
+</lg>
+   <lg n="3" met="anuṣṭubh">
+<l n="a">vande Co 'haṁ ~ - - . <space/>n</l>
+<l n="b">ta = = ena au ⏑ -</l>
+<l n="c">kuśāriśū<lb n="A5"/>linaḥ keśā<space/>d</l>
+<l n="d">vīthīśa = ~ - ~ nV $circleTarget</l>
+</lg>
+   <lg n="4" met="anuṣṭubh">
+<l n="a">pāyād bhinnarasaś śambhu<space/>s</l>
+<l n="b">sthirayogo (A6) 'pi vo bhr̥śam·<space/></l>
+<l n="c" enjamb="yes">gaurīkaṭākṣavikṣepa</l>
+<l n="d">-vañcito yo dahat smaram· $ddandaOrnate</l>
+</lg>
+   <lg n="5" met="sragdharā">
+<l n="a"><lb n="A7"/>Āsīd bhūpālamaulisphuritamaṇiśikhārāgadigdhāṅghrijaśrī<space/>r</l>
+<l n="b">vvālādityo 'pi sa<lb n="A8"/>n yo hitakulakamalākuñcanāyaikacandraḥ</l>
+<l n="c">somākauṇḍinyavaṅśe nikhi<lb n="A9"/>laguṇanidhir ddīptakīrttyātapatro</l>
+<l n="d">daurddaṇḍadyotitāninditapuravilasadrā<lb n="A10"/>jyalakṣmīn dadhānaḥ $circleTarget</l>
+</lg>
+   <lg n="6" met="śārdūlavikrīḍita">
+<l n="a">siddhair apsarasāṅ gaṇair dv[[i]]ajavarair ādityavat kinnarai<space/>r</l>
+<l n="b">nnityaṁ pā<lb n="A11"/>darajoruṇāntarucirais sadbhūbhr̥dindrair nnataḥ<space/></l>
+<l n="c">svarggadvārapurodito pi jagatā<lb n="A12"/>[m aiśaṁ padan dīpayañ]<space/></l>
+<l n="d">(paya)liṅgaśataṁ vibhajya (vi) ~ - - - ~ - bhūtale $circleTarget</l>
+</lg>
+   <lg n="7" met="upajāti">
+<l n="a"><lb n="A13"/>tasyānva[yo yo rirasāṣṭaśāke<space/></l>
+<l n="b">mahīdharo viṣṇur ivojjva]laśrīḥ</l>
+<l n="c"><lb n="A14"/>rājendravarmmāvanipendra - -<space/></l>
+<l n="d">= - ~ - - ~ ~ - ~ - - $circleTarget</l>
+</lg>
+   <lg n="8" met="vasantatilakā">
+<l n="a"><lb n="A15"/></l>
+<l n="b"></l>
+<l n="c"><lb n="A16"/></l>
+<l n="d"></l>
+</lg>
+   <lg n="9" met="śārdūlavikrīḍita">
+<l n="a"><lb n="A17"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+   <lg n="10" met="vasantatilakā">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+   <lg n="11" met="anuṣṭubh">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+   <lg n="12" met="unidentified">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+</div>
+                   <div type="textpart" n="B"><head xml:lang="eng">Face</head>
+   <p>
+   <lb n="B1"/>
+      <lb n="B2"/>
+      <lb n="B3"/>
+      <lb n="B4"/>
+      <lb n="B5"/>
+      <lb n="B6"/>
+      <lb n="B7"/>
+      <lb n="B8"/>
+      <lb n="B9"/>
+      <lb n="B10"/>
+      <lb n="B11"/>
+      <lb n="B12"/>
+      <lb n="B13"/>
+      <lb n="B14"/>
+      <lb n="B15"/>
+      <lb n="B16"/>
+      <lb n="B17"/>
+      <lb n="B18"/>
+      <lb n="B19"/>
+      <lb n="B20"/>
+      <lb n="B21"/>
+      <lb n="B22"/>
+      <lb n="B23"/>
+      <lb n="B24"/>
+      <lb n="B25"/>
+      <lb n="B26"/>
+      <lb n="B27"/>
+      <lb n="B28"/>
+      <lb n="B29"/>
+      <lb n="B30"/>
+      <lb n="B31"/>
+      <lb n="B32"/>
+      <lb n="B33"/>
+      <lb n="B34"/>
+      <lb n="B35"/>
+      <lb n="B36"/>
+      <lb n="B37"/>
+      <lb n="B38"/>
+      <lb n="B39"/>
+      <lb n="B40"/>
+      <lb n="B41"/>
+      <lb n="B42"/>
+      <lb n="B43"/>
+      <lb n="B44"/>
+      <lb n="B45"/>
+      <lb n="B46"/>
+      <lb n="B47"/>
+      <lb n="B48"/>
+      <lb n="B49"/>
+      <lb n="B50"/>
+      <lb n="B51"/>
+      <lb n="B52"/>
+      <lb n="B53"/>
+      <lb n="B54"/>
+      <lb n="B55"/>
+      <lb n="B56"/>
+      <lb n="B57"/>
+      <lb n="B58"/>
+      <lb n="B59"/>
+      <lb n="B60"/>
+   </p>
+</div>
+                   <div type="textpart" n="C" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+   <lg n="1" met="vasantatilakā">
+<l n="a"><lb n="C1"/></l>
+<l n="b"></l>
+<l n="c"><lb n="C2"/></l>
+<l n="d"></l>
+</lg>
+                      <lg n="2" met="upajāti">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="3" met="vasantatilakā">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="4" met="anuṣṭubh">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="5" met="anuṣṭubh">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="6" met="anuṣṭubh">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="7" met="anuṣṭubh">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="8" met="mālinī">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="9" met="vasantatilakā">
+<l n="a"><lb n="C13"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="10" met="anuṣṭubh">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="11" met="vasantatilakā">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="12" met="āryā">
+<l n="ab"></l>
+<l n="cd"></l>
+</lg>
+                      <lg n="13" met="anuṣṭubh">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="14" met="vasantatilakā">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="15" met="vaṁśasthā">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="16" met="mālinī">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="17" met="vasantatilakā">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="18" met="sragdharā">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="19" met="mālinī">
+<l n="a"><lb n="C30"/></l>
+<l n="b"></l>
+<l n="c"><lb n="C31"/></l>
+<l n="d"></l>
+</lg>
+                      <lg n="20" met="anuṣṭubh">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="21" met="vasantatilakā">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="22" met="sragdharā">
+<l n="a"><lb n="C35"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="23" met="sragdharā">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="24" met="vasantatilakā">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="25" met="śārdūlavikrīḍita">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="26" met="upajāti">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="27" met="upajāti">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="28" met="upajāti">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="29" met="śārdūlavikrīḍita">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="30" met="upendravajrā">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="31" met="sragdharā">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="32" met="upajāti">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="33" met="anuṣṭubh">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="34" met="anuṣṭubh">
+<l n="a"><lb n="C59"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+</div>
+                   <div type="textpart" n="D"><head xml:lang="eng">Face</head>
+   <p>
+      <lb n="D1"/>
+      <lb n="D2"/>
+      <lb n="D3"/>
+      <lb n="D4"/>
+      <lb n="D5"/>
+      <lb n="D6"/>
+      <lb n="D7"/>
+      <lb n="D8"/>
+      <lb n="D9"/>
+      <lb n="D10"/>
+      <lb n="D11"/>
+      <lb n="D12"/>
+      <lb n="D13"/>
+      <lb n="D14"/>
+      <lb n="D15"/>
+      <lb n="D16"/>
+      <lb n="D17"/>
+      <lb n="D18"/>
+      <lb n="D19"/>
+      <lb n="D20"/>
+      <lb n="D21"/>
+      <lb n="D22"/>
+      <lb n="D23"/>
+      <lb n="D24"/>
+      <lb n="D25"/>
+      <lb n="D26"/>
+      <lb n="D27"/>
+      <lb n="D28"/>
+      <lb n="D29"/>
+      <lb n="D30"/>
+      <lb n="D31"/>
+      <lb n="D32"/>
+      <lb n="D33"/>
+      <lb n="D34"/>
+      <lb n="D35"/>
+      <lb n="D36"/>
+      <lb n="D37"/>
+      <lb n="D38"/>
+      <lb n="D39"/>
+      <lb n="D40"/>
+      <lb n="D41"/>
+      <lb n="D42"/>
+      <lb n="D43"/>
+      <lb n="D44"/>
+      <lb n="D45"/>
+      <lb n="D46"/>
+      <lb n="D47"/>
+      <lb n="D48"/>
+      <lb n="D49"/>
+      <lb n="D50"/>
+      <lb n="D51"/>
+      <lb n="D52"/>
+      <lb n="D53"/>
+      <lb n="D54"/>
+      <lb n="D55"/>
+      <lb n="D56"/>
+      <lb n="D57"/>
+      <lb n="D58"/>
+      <lb n="D59"/>
+      <lb n="D60"/>
+   <lb n="D61"/>
+      <lb n="D62"/>
+      <lb n="D63"/>
+      <lb n="D64"/>
+      <lb n="D65"/>
+      <lb n="D66"/>
+   </p>
+</div>
+                   <div type="textpart" n="e" xml:lang="san-Latn"><head xml:lang="eng">Top of the stela</head>
+   <lg n="1" met="śārdūlavikrīḍita">
+<l n="a"><lb n="e1"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="2" met="vasantatilakā">
+<l n="a"><lb n="e2"/></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+                      <lg n="3" met="anuṣṭubh">
+<l n="a"></l>
+<l n="b"></l>
+<l n="c"></l>
+<l n="d"></l>
+</lg>
+</div>
+</div>
+ <div type="apparatus">
+                <listApp>
+                   <app loc="4">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1952_01">si</rdg>
+                   </app>
+                  </listApp>  
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Coedes1952_01">
+ 	<div type="textpart" n="A"><head xml:lang="eng">Face</head>
+   <p rend="stanza" n="1"></p>
+      <p rend="stanza" n="2"></p>
+         <p rend="stanza" n="3"></p>
+            <p rend="stanza" n="4"></p>
+               <p rend="stanza" n="5"></p>
+                  <p rend="stanza" n="6"></p>
+                     <p rend="stanza" n="7"></p>
+                        <p rend="stanza" n="8"></p>
+                           <p rend="stanza" n="9"></p>
+                              <p rend="stanza" n="10"></p>
+                                 <p rend="stanza" n="11"></p>
+                                    <p rend="stanza" n="12"></p>
+</div>
+            <div type="textpart" n="B"><head xml:lang="eng">Face</head>
+   <p n="B1-B16"></p>
+               <p n="B16-B22"></p>
+               <p n="B23-B28"></p>
+               <p n="B28-B36"></p>
+               <p n="B36-B43"></p>
+               <p n="B43-B47"></p>
+               <p n="B47-B50"></p>
+               <p n="B50-B53"></p>
+</div>
+<div type="textpart" n="C"><head xml:lang="eng">Face</head>
+   <p rend="stanza" n="1"></p>
+   <p rend="stanza" n="2"></p>
+   <p rend="stanza" n="3"></p>
+   <p rend="stanza" n="4"></p>
+   <p rend="stanza" n="5"></p>
+   <p rend="stanza" n="6"></p>
+   <p rend="stanza" n="7"></p>
+   <p rend="stanza" n="8"></p>
+   <p rend="stanza" n="9"></p>
+   <p rend="stanza" n="10"></p>
+   <p rend="stanza" n="11"></p>
+   <p rend="stanza" n="12"></p>
+   <p rend="stanza" n="13"></p>
+   <p rend="stanza" n="14"></p>
+   <p rend="stanza" n="15"></p>
+   <p rend="stanza" n="16"></p>
+   <p rend="stanza" n="17"></p>
+   <p rend="stanza" n="18"></p>
+   <p rend="stanza" n="19"></p>
+   <p rend="stanza" n="20"></p>
+   <p rend="stanza" n="21"></p>
+   <p rend="stanza" n="22"></p>
+   <p rend="stanza" n="23"></p>
+   <p rend="stanza" n="24"></p>
+   <p rend="stanza" n="25"></p>
+   <p rend="stanza" n="26"></p>
+   <p rend="stanza" n="27"></p>
+   <p rend="stanza" n="28"></p>
+   <p rend="stanza" n="29"></p>
+   <p rend="stanza" n="30"></p>
+   <p rend="stanza" n="31"></p>
+   <p rend="stanza" n="32"></p>
+   <p rend="stanza" n="33"></p>
+   <p rend="stanza" n="34"></p>
+</div>
+        <div type="textpart" n="D"><head xml:lang="eng">Face</head>
+   <p n="D1-D6"></p>
+           <p n="D6-D17"></p>
+           <p n="D18-D31"></p>
+           <p n="D31-D37"></p>
+           <p n="D38-D44"></p>
+           <p n="D44-D47"></p>
+           <p n="D48-D54"></p>
+           <p n="D55-D66"></p>
+</div>
+       <div type="textpart" n="e"><head xml:lang="eng">Face</head>
+   <p rend="stanza" n="1"></p>
+   <p rend="stanza" n="2"></p>
+   <p rend="stanza" n="3"></p>
+       </div>
+         </div> 
+       <div type="commentary">
+           <p></p>
+         </div>
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1952_01"/><citedRange unit="page">118-139</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom from the estampage EFEO n. 1239.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1952_01"/><citedRange unit="page">118-139</citedRange>
+    </bibl>
+	</listBibl>
+                  </div>
+        </body>
+    </text>
+</TEI>
