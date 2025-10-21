@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Prasat Kapilapura (K. 579), 890 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/7401978">
+                  <forename>Louis</forename>
+                  <surname>Finot</surname>
+               </persName>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00579</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-10-21" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <div type="textpart" subtype="fragment" n="1" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+                      <ab><lb n="A0"/>Oṁ</ab>
+<lg n="1" part="I" met="anuṣṭubh">
+<l n="a"><lb n="A1"/><milestone unit="column" n="a"/><g type="ddandaOrnate">.</g> harir ekārṇṇavād <choice><orig>ū</orig><reg>u</reg></choice>rvvī<milestone unit="column" n="b" break="no"/>m</l>
+<l n="b">uddhr̥tya jaya<unclear>t</unclear><supplied reason="lost">i s</supplied>th<supplied reason="lost">itaḥ</supplied></l>
+<l n="c"><lb n="A2"/><milestone unit="column" n="a"/>sevitas smr̥timātreṇa</l>
+<l n="d"><milestone unit="column" n="b"/>yo dātā padam avyayam· <g type="ddandaOrnate">.</g></l>
+</lg>
+                      <lg n="2" met="vasantatilakā">
+<l n="a" enjamb="yes"><lb n="A3"/>prāpte kalau kila kalaṅkakalākalāpa</l>
+<l n="b">-līḍhañ jagad duritakārivipad vivr̥ddhā</l>
+<l n="c"><lb n="A4"/>tadbhañjanāt kajabhavo bhuvi rājabhūyaṃ</l>
+<l n="d">svas smāvatārayati dhūrjaṭipaṅkajākṣau <g type="ddandaOrnate">.</g></l>
+</lg>
+       <lg n="3" met="śādūlavikrīḍita">
+<l n="a"><lb n="A5"/>devyāṃ rājaparamparodayabhuvi śrīkaṇ<choice><orig>t</orig><reg>ṭ</reg></choice>havaikuṇ<choice><orig>t</orig><reg>ṭ</reg></choice>hayo<lb n="A6" break="no"/>r</l>
+<l n="b">ekāṅśo vasudhādhurām adhikadhīr ā vāridher ddhāraṇe</l>
+<l n="c"><lb n="A7"/>jāto dhautayaśās samastaguṇabhr̥d dharmmāvadātākr̥ti<lb n="A8" break="no"/>r</l>
+<l n="d">vvāggmī vāsavasakhyalakṣaṇayuto garbheśvaro yo vaśī <g type="ddandaOrnate">.</g></l>
+</lg>
+                      <lg n="4" met="upajāti">
+<l n="a"><lb n="A9"/><supplied reason="lost">v</supplied>iyadgrahaiśvaryyaśubhodaya<space/>ś</l>
+<l n="b">śrīrājendravarmmeśvarasūnur āsīt·</l>
+<l n="c"><lb n="A10"/><supplied reason="lost">rāja</supplied>nyavaṅ<supplied reason="lost">ś</supplied>ām<supplied reason="lost">v</supplied>ara<supplied reason="lost">n</supplied>īrajā<supplied reason="lost">t</supplied>ī<space/></l>
+<l n="d"><supplied reason="lost">rājā jayī śrījayavarmmadevaḥ <g type="ddandaOrnate">.</g></supplied></l>
+</lg>
+</div>
+                   <div type="textpart" subtype="fragment" n="2" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+<lg n="1" part="F" met="anuṣṭubh">
+<l n="a"><lb n="A1"/><milestone unit="column" n="a"/><seg met="=="><gap reason="illegible" quantity="2" unit="character"/></seg>ndu<unclear>vaṅśe</unclear><seg met="==="><gap reason="illegible" quantity="3" unit="character"/></seg></l>
+<l n="b"><milestone unit="column" n="b"/><seg met="====-+-="><gap reason="illegible" quantity="8" unit="character"/></seg></l>
+<l n="c"><lb n="A2"/><milestone unit="column" n="a"/>viyadgrahaiśvaryyaśake</l>
+<l n="d"><milestone unit="column" n="b"/>tasmin tadvadadāy<supplied reason="lost">i</supplied> sa<unclear>ḥ</unclear> <g type="ddandaOrnate">.</g></l>
+</lg>
+                      <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="A3"/><milestone unit="column" n="a"/>tadvāhudaṇ<choice><orig>d</orig><reg>ḍ</reg></choice>am āśritya</l>
+<l n="b"><milestone unit="column" n="b"/>yūnāpi kalinādhunā</l>
+<l n="c"><lb n="A4"/><milestone unit="column" n="a"/>vr̥ddhas sañcālito dharmmo</l>
+<l n="d"><milestone unit="column" n="b"/>na skhalaty ekāpād api <g type="ddandaOrnate">.</g></l>
+</lg>
+                      <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="A5"/><milestone unit="column" n="a"/>senānyā janyajayinā</l>
+<l n="b"><milestone unit="column" n="b"/>sa śrīvīrendravarmmaṇā</l>
+<l n="c"><lb n="A6"/><milestone unit="column" n="a"/>vandyavīryyeṇa vīrais tan</l>
+<l n="d"><milestone unit="column" n="b"/>tasmin tadvad adāpayat· <g type="ddandaOrnate">.</g></l>
+</lg>
+                   </div>
+                   <div type="textpart" subtype="fragment" n="1" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+<lg n="1" part="I" met="Indravajrā">
+<l n="a"><lb n="B1"/><milestone unit="column" n="a"/>jvālābhir ālīḍhaviyadbhir ūrdhvaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>dhūmadhvajai rauravam āvr̥tāṅgam·</l>
+<l n="c"><lb n="B2"/><milestone unit="column" n="a"/>ye laṅghayanto bhuvanendravānī<milestone unit="column" n="b" break="no"/>n</l>
+<l n="d">te yāntu yāvad ravirātrirājau <g type="ddandaOrnate">.</g></l>
+</lg>
+                      <lg n="2" met="upajāti">
+<l n="a"><lb n="B3"/><milestone unit="column" n="a"/>ā saṁhr̥ter indrapade ramantā<milestone unit="column" n="b" break="no"/>n</l>
+<l n="b">te ye nukurvvanti nṛpendravānīm·</l>
+<l n="c"><lb n="B4"/><milestone unit="column" n="a"/>saputrapautrāḥ punar antakāle</l>
+<l n="d"><milestone unit="column" n="b"/>hareḥ padaṁ yāntu nirāmayan te<g type="floret">.</g></l>
+</lg>
+       <p xml:lang="okz-Latn"><lb n="B5"/>Ekādaśī ket· mārggaśira nu mān· vraḥ śāsana dhūlī vraḥ pāda dhūlī jeṅ·
+         <lb n="B6"/>vraḥ kamrateṅ· Añ· śrī jayavarmmadeva ta mratāñ· khloñ· śrī vīrendra<lb
+            n="B7" break="no"/><supplied reason="lost">va</supplied>r<supplied reason="lost">mma</supplied> <unclear>se</unclear>nāpātī vekita kamrateṅ· Añ· vraḥ guru nu vrāhmaṇācā<lb 
+               n="B8" break="no"/><supplied reason="lost">ryya</supplied> <gap reason="lost" extent="unknown" unit="character"/> <unclear>jaṁ</unclear>n<supplied reason="lost">va</supplied>n·
+       </p>
+</div>
+                   <div type="textpart" subtype="fragment" n="2" xml:lang="okz-Latn"><head xml:lang="eng">Face</head>
+<p part="F"><lb n="B1"/><gap reason="lost" extent="unknown" unit="character"/> mūla bhāgavata pa<lb 
+   n="B2" break="no"/><gap reason="lost" extent="unknown" unit="character"/> yya Oy· śāp vvaṁ jā pi mān· qnak ta
+   <lb n="B3"/><gap reason="lost" extent="unknown" unit="character"/> na pi thve Antarāya dau vnek ni <g type="circleSmall">.</g> vraḥ śā<lb 
+      n="B4" break="no"/>sana pre thve praśasta pre sthāpana Āy· kapilapura <g type="ddandaOrnate">.</g> <g type="floret">.</g> <g type="ddandaOrnate">.</g>
+</p>   
+</div>
+                </div>
+ <div type="apparatus">
+    <div type="textpart" subtype="fragment" n="1" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+<listApp>
+                   <app loc="A1">
+                  <lem>jaya<unclear>t</unclear><supplied reason="lost">i s</supplied>th<supplied reason="lost">itaḥ</supplied></lem>
+                   <rdg source="bib:Finot1925_11">jaya<seg met="+-+"><gap reason="illegible" quantity="3" unit="character"/></seg></rdg>
+                   </app>
+</listApp>
+ 	</div>
+                   
+            <div type="textpart" subtype="fragment" n="1" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+<listApp>
+   <app loc="B1">
+                  <lem>dhūmadhvajai rauravam</lem>
+                   <rdg source="bib:Finot1925_11">dhūmadhvajair auravam</rdg>
+                   </app>
+                   <app loc="B8">
+                  <lem><gap reason="lost" extent="unknown" unit="character"/> <unclear>jaṁ</unclear>n<supplied reason="lost">va</supplied>n·</lem>
+                   <rdg source="bib:Finot1925_11"><gap reason="lost" extent="unknown" unit="character"/>n</rdg>
+                   </app>
+</listApp>
+ 	</div>
+                   
+         </div>
+         <div type="translation" xml:lang="fra" source="bib:Finot1925_11">
+ 	<div type="textpart" subtype="fragment" n="1" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+<p part="I" rend="stanza" n="1">Hari, pour avoir retiré la Terre de l'océan universel <gap reason="lost"/> est adoré par la mémoire seule, lui qui donne le séjour impérissable.</p> 	   
+ 	   <p rend="stanza" n="2">Kali, ayant conquis le monde rongé par le faisceau des ruses du péché, la détresse, mère du mal, s'accrut. Pour la briser, Brahmā a fait descendre du ciel sur la terre Śiva et Viṣṇu en qualité de roi.</p>
+ 	   <p rend="stanza" n="3">Sur ce sol divin qu'est l'ascension de la lignée des rois est né, pour porter le sceptre de la terre jusqu'à l'océan, <supplied reason="subaudible">un homme</supplied>, portion de Śiva et de Viṣṇu, à la gloire pure, possédant toutes les qualités, ayant dans son aspect la blancheur de la Vertu, éloquent, portant les signes de l'amitié d'Indra, souverain né, maître de lui-même.</p>
+ 	   <p rend="stanza" n="4">Ce fut le fils du roi Rājendravarman, dont l'heureux avènement eut lieu en pouvoirs-planètes-espace <supplied reason="explanation">890</supplied>. <supplied reason="subaudible">Lotus</supplied> né dans l'onde céleste de la race royale <gap reason="lost"/>.</p>
+ 	</div>
+                   <div type="textpart" subtype="fragment" n="2" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+<p part="F" rend="stanza" n="1"><gap reason="lost"/> en cette année Śaka pouvoirs-planètes-espace <supplied reason="explanation">890</supplied>, il <gap reason="lost"/> ainsi.</p>
+ 	   <p rend="stanza" n="2">Et maintenant, appuyé à son bras, le vieux Dharma, avec son unique pied, ne chancelle pas quand il est secoué par le jeune Kali.</p>
+ 	   <p rend="stanza" n="3">Par le général vainqueur des ennemis, Śrī-Vīrendravarman, dont l'héroïsme est honoré des héros, il lui fit donner ceci de cette manière (?).</p>
+         </div>
+            
+            
+            <div type="textpart" subtype="fragment" n="1" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+<p part="I" rend="stanza" n="1">Là-haut, dans l'espace où les corps sont enveloppés par les feux qui lèchent le ciel de leurs flammes, qu'ils aillent ceux qui transgresseront la parole du roi, tant que dureront le soleil et la lune !</p>
+               <p rend="stanza" n="2">Quant à ceux qui exécuteront la parole du roi, qu'ils se réjouissent jusqu'à la fin du monde dans le séjour d'Indra et qu'au dernier jour ils aillent, avec leurs fils et leurs descendants, au séjour éternel de Hari !</p>
+ 	   <p n="B5-B8">Le onzième jour de la quinzaine claire de Mārgaśira, il y eut un édit de S. M. Śrī Jayavarmadeva au <foreign>mratañ khloñ</foreign> Śrī Vīrendravarman, <foreign>senāpati</foreign>, et (?) au Vraḥ Guru et brāhmaṇācarya <gap reason="lost"/>.</p>
+ 	</div>
+                   <div type="textpart" subtype="fragment" n="2" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+<p part="F" n="B1-B4"><gap reason="lost"/> Mūla-Bhāgavata <gap reason="lost"/> prononcer un vœu pour qu'il n'y ait pas de gens qui <gap reason="lost"/> pour y mettre obstacle à l'avenir (?). Le saint édit ordonna de faire un praśasta et une fondation à Kapilapura.</p>
+         </div>
+         </div>
+           
+           <div type="translation" resp="part:dogo">
+ 	<div type="textpart" subtype="fragment" n="1" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+<p part="I" rend="stanza" n="1">Victorious is <supplied reason="explanation"><foreign>jayati</foreign></supplied> Hari, standing <supplied reason="explanation"><foreign>sthitaḥ</foreign></supplied> after lifting up <supplied reason="explanation"><foreign>uddhṛtya</foreign></supplied> the earth <supplied reason="explanation"><foreign>ūrvīm</foreign></supplied> from the one ocean <supplied reason="subaudible">that covered all</supplied> <supplied reason="explanation"><foreign>ekārṇavāt</foreign></supplied>, <supplied reason="subaudible">Hari</supplied> who <supplied reason="explanation"><foreign>yaḥ</foreign></supplied>, on being venerated <supplied reason="explanation"><foreign>sevitaḥ</foreign></supplied> merely by being recollected <supplied reason="explanation"><foreign>smṛtimātreṇa</foreign></supplied>, bestows <supplied reason="explanation"><foreign>dātā</foreign></supplied> the undying <supplied reason="explanation"><foreign>avyayam</foreign></supplied> state <supplied reason="explanation"><foreign>padam</foreign></supplied>.</p> 	   
+ 	   <p rend="stanza" n="2">Surely <supplied reason="explanation"><foreign>kila</foreign></supplied> when Kali <supplied reason="explanation"><foreign>kalau</foreign></supplied> reached <supplied reason="explanation"><foreign>prāpte</foreign></supplied> the world <supplied reason="explanation"><foreign>jagat</foreign></supplied>, which was licked by a mass of tricks/aspects/parts of evil <supplied reason="explanation"><foreign>kalaṅkakalākalāpalīḍham</foreign></supplied>, a disastrous condition because of evil- doers <supplied reason="explanation"><foreign>duritakārivipad</foreign></supplied> grew and grew <supplied reason="explanation"><foreign>vivṛddhā</foreign></supplied>; in order to break that <supplied reason="subaudible">Kali</supplied> <supplied reason="explanation"><foreign>tadbhañjanāt</foreign></supplied>, Brahmā <supplied reason="explanation"><foreign>kajabhavaḥ</foreign></supplied> caused Śiva and Viṣṇu <supplied reason="explanation"><foreign>dhūrjaṭipaṅkajākṣau</foreign></supplied> to descend <supplied reason="explanation"><foreign>avatārayati sma</foreign></supplied> from heaven <supplied reason="explanation"><foreign>svaḥ</foreign></supplied> down to earth <supplied reason="explanation"><foreign>bhuvi</foreign></supplied> to a condition of kingship <supplied reason="explanation"><foreign>rājabhūyam</foreign></supplied>.</p>
+ 	   <p rend="stanza" n="3">Born in the queen <supplied reason="explanation"><foreign>devyām</foreign></supplied> who was the place of the arising of a lineage of kings <seg rend="pun">/who arose from the greatness of a lineage of kings</seg> for bearing <supplied reason="explanation"><foreign>dhāraṇe</foreign></supplied> the burdens of <supplied reason="subaudible">ruling</supplied> the earth <supplied reason="explanation"><foreign>vasudhādhurām</foreign></supplied> up to <supplied reason="explanation"><foreign>ā</foreign></supplied> the ocean <supplied reason="explanation"><foreign>vāridheḥ</foreign></supplied>, being the single part <supplied reason="explanation"><foreign>ekāṃśaḥ</foreign></supplied> of both Śrīkaṇṭha and Vaikuṇṭha, having bright fame <supplied reason="explanation"><foreign>dhautayaśāḥ</foreign></supplied>, possessing all virtues <supplied reason="explanation"><foreign>samastaguṇabhṛt</foreign></supplied>, whose appearance is pure because of his merit <supplied reason="explanation"><foreign>dharmāvadātākṛtiḥ</foreign></supplied>, eloquent <supplied reason="explanation"><foreign>vāgmī</foreign></supplied>, possessed of friendship with Indra <supplied reason="explanation"><foreign>vāsavasakhyalakṣaṇayutaḥ</foreign></supplied> a sovereign from the womb itself <seg rend="pun">/a sovereign as a child</seg> <supplied reason="explanation"><foreign>garbheśvaraḥ</foreign></supplied>, self-controlled <supplied reason="explanation"><foreign>vaśī</foreign></supplied>,</p>
+ 	   <p rend="stanza" n="4">A son <supplied reason="explanation"><foreign>°sūnuḥ</foreign></supplied> was born <supplied reason="explanation"><foreign>āsīt</foreign></supplied> to the sovereign Śrī Rājendravarman, whose auspicious rise <supplied reason="subaudible">to the throne was in the śaka year</supplied> 890 <supplied reason="explanation"><foreign>viyadgrahaiśvaryyaśubhodayaḥ</foreign></supplied>, a <supplied reason="subaudible">veritable</supplied> moon in the sky that was the lineage of princes <supplied reason="explanation"><foreign>rājanyavaṅśāmbaranīrajātiḥ</foreign></supplied>, the victorious <supplied reason="explanation"><foreign>jayī</foreign></supplied> king <supplied reason="explanation"><foreign>rājā</foreign></supplied> Śrī Jayavarmadeva.
+</p>
+ 	</div>
+                   <div type="textpart" subtype="fragment" n="2" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+<p part="F" rend="stanza" n="1">In the śaka year 890 <supplied reason="explanation"><foreign>viyadgrahaiśvaryaśake</foreign></supplied> he <supplied reason="explanation"><foreign>saḥ</foreign></supplied> gave <supplied reason="explanation"><foreign>adāyi</foreign></supplied> similarly <supplied reason="explanation"><foreign>tadvat</foreign></supplied> to this <supplied reason="explanation"><foreign>tasmin</foreign></supplied>.</p>
+ 	   <p rend="stanza" n="2">Now <supplied reason="explanation"><foreign>adhunā</foreign></supplied> resting <supplied reason="explanation"><foreign>āśritya</foreign></supplied> on the bolt that was Jayavarman’s arm <supplied reason="explanation"><foreign>tadbāhudaṇḍam</foreign></supplied>, Dharma, even though <supplied reason="explanation"><foreign>api</foreign></supplied> having only one leg <supplied reason="explanation"><foreign>ekapād</foreign></supplied> <supplied reason="subaudible">and even though</supplied> shaken <supplied reason="explanation"><foreign>sañcālitaḥ</foreign></supplied> by Kali <supplied reason="explanation"><foreign>kalinā</foreign></supplied>, does not <supplied reason="explanation"><foreign>na</foreign></supplied> stumble <supplied reason="explanation"><foreign>skhalati</foreign></supplied>, even though <supplied reason="explanation"><foreign>api</foreign></supplied> <supplied reason="subaudible">Kali is still</supplied> youthful <supplied reason="explanation"><foreign>yūnā</foreign></supplied>.</p>
+ 	   <p rend="stanza" n="3">He caused his general <supplied reason="explanation"><foreign>senānyā</foreign></supplied> Śrī Vīrendravarman, victorious in battles <supplied reason="explanation"><foreign>janyajayinā</foreign></supplied>, of venerable valour <supplied reason="explanation"><foreign>vandyavīryeṇa</foreign></supplied> similarly <supplied reason="explanation"><foreign>tadvat</foreign></supplied>, along with his soldiers <supplied reason="explanation"><foreign>vīraiḥ</foreign></supplied>, to give <supplied reason="explanation"><foreign>adāpayat</foreign></supplied> that same <supplied reason="explanation"><foreign>ta</foreign></supplied> to the same <supplied reason="subaudible" cert="low">deity</supplied> <supplied reason="explanation"><foreign>tasmin</foreign></supplied>.</p>
+         </div>
+            
+            
+            <div type="textpart" subtype="fragment" n="1" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+<p part="I" rend="stanza" n="1"></p>
+               <p rend="stanza" n="2"></p>
+ 	   <p n="B5-B8"></p>
+ 	</div>
+                   <div type="textpart" subtype="fragment" n="2" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+<p part="F" n="B1-B4"></p>
+         </div>
+         </div>
+       <div type="commentary">
+           <p></p>
+         </div>
+        <div type="bibliography">
+          <p>First edited by Louis Finot (<bibl rend="omitname"><ptr target="bib:Finot1925_11"/><citedRange unit="page">366-368</citedRange></bibl>) with a French translation; re-edited here by Dominic Goodall and Kunthea Chhom from the estampage EFEO n. 430.</p>
+	 <listBibl type="primary">
+    <bibl n="LF">
+      <ptr target="bib:Finot1925_11"/><citedRange unit="page">71-74</citedRange>
+    </bibl>
+	  
+	</listBibl>
+          <listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">277-279</citedRange>
+    </bibl>
+              </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
