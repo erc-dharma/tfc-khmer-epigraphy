@@ -272,13 +272,13 @@
 |K.	254 |# |# |#|
 |K.	255 |# |# |#|
 |K.	256 |sapi |pending |Cœdès et Dupont 1937|
-|K.	257 |# |# |#|
+|K.	257 |kuch |done |IC IV|
 |K.	258 |chch |pending |IC IV|
 |K.	259 |sapi |pending |IC VII|
 |K.	260 |# |# |#|
 |K.	261 |# |# |#|
-|K.	262 |# |# |#|
-|K.	263 |# |# |#|
+|K.	262 |kuch |done |IC IV|
+|K.	263 |kuch |done |IC IV|
 |K.	264 |# |# |#|
 |K.	265 |# |# |#|
 |K.	266 |chch |done |Cœdès 1908; Mertens 2000|
@@ -682,8 +682,8 @@ K.	294 |# |# |#|
 |K.	567 |# |# |#|
 |K.	568 |# |# |#|
 |K.	569-1 |kuch |done |Finot 1926|
-|K.	570 |# |# |#|
-|K.	571 |# |# |#|
+|K.	570 |kuch |done |Finot 1926|
+|K.	571 |kuch |done |NIC II|
 |K.	572 |kuch |done |Finot 1926|
 |K.	573 |dogo |done |Finot 1926|
 |K.	574 |dogo |done |Finot 1926|
@@ -691,7 +691,7 @@ K.	294 |# |# |#|
 |K.	576 |# |# |#|
 |K.	577 |kuch |done |RS II|
 |K.	578 |# |# |#|
-|K.	579 |# |# |#|
+|K.	579 |kuch |done |Finot 1925|
 |K.	580 |# |# |#|
 |K.	581 |# |# |#|
 |K.	582 |kuch |done |IC II|
@@ -733,7 +733,8 @@ K.	294 |# |# |#|
 |K.	616 |kuch |done |unpublished|
 |K.	617 |kuch |done |Finot 1928 and NIC II-III|
 |K.	618 |kuch |done |Finot 1928 and NIC II-III||K.	619 |# |# |#|
-|K.	620 |# |# |#|
+|K.	619 |kuch |done |Finot 1928|
+|K.	620 |kuch |done |Finot 1928|
 |K.	621 |kuch |done |Cœdès 1951|
 |K.	622 |kuch |done |Cœdès 1951|
 |K.	623 |kuch |done |Cœdès 1951|
@@ -960,7 +961,7 @@ K.	294 |# |# |#|
 |K.	839 |# |# |#|
 |K.	840 |# |# |#|
 |K.	841 |# |# |#|
-|K.	842 |# |# |#|
+|K.	842 |kuch |done |IC I|
 |K.	843 |chch|pending |IC VII|
 |K.	844 |# |# |#|
 |K.	845 |# |# |#|
