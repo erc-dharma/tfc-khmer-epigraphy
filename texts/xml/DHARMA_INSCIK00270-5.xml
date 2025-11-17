@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Second inscription on the northern doorjamb of the central sanctuary of Prasat Kravan (K. 270-5), 843 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00270-5</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-11-16" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="1"/><g type="gomutraInitial">.</g> <g type="ddandaOrnate">.</g> <num value="843">843</num> śaka nu kaṁsteṅ· Añ· śrī jayavīravarmma jvan· qnak ta vraḥ kamrateṅ· Añ· śrī trailokyanātha qnak<unclear>·</unclear> Āgama
+   <lb n="2"/>gho thgap· <num value="1"><g type="numeral">I</g></num> gho Añjan· <num value="1"><g type="numeral">I</g></num> gho kañjva <num value="1"><g type="numeral">I</g></num> gho mahādāsa <num value="1"><g type="numeral">I</g></num> gho kañcan· <num value="1"><g type="numeral">I</g></num> gho Aṅgāra <num value="1"><g type="numeral">I</g></num> gvāl· laṁvī <num value="1"><g type="numeral">I</g></num> gvāl· krau <num value="1"><g type="numeral">I</g></num> gvāl·
+   <lb n="3"/>kantoṅ· <num value="1"><g type="numeral">I</g></num> tai kañjai <num value="1"><g type="numeral">I</g></num> si pau kaṁpār· <num value="1"><g type="numeral">I</g></num> tai subhāśrīya <num value="1"><g type="numeral">I</g></num> tai pau thqyak· <num value="1"><g type="numeral">I</g></num> tai kanrat· <num value="1"><g type="numeral">I</g></num> tai laṅgāy· <num value="1"><g type="numeral">I</g></num> tai paṁnaṅ· <num value="1"><g type="numeral">I</g></num> tai thmat· <num value="1"><g type="numeral">I</g></num>
+   <lb n="4"/>tai kanteṁ <num value="1"><g type="numeral">I</g></num> tai priyaṅgu <num value="1"><g type="numeral">I</g></num> tai <gap reason="lost" quantity="3" unit="character"/>n<unclear>·</unclear> <num value="1"><g type="numeral">I</g></num> tai thkep· <num value="1"><g type="numeral">I</g></num> tai kañcan· <num value="1"><g type="numeral">I</g></num> si rat· kh<supplied reason="lost">ñu</supplied>ṁ I tai <gap reason="lost" quantity="3" unit="character"/> <num value="1"><g type="numeral">I</g></num> tai kañcan· <num value="1"><g type="numeral">I</g></num> tai pau piṇ<choice><orig>d</orig><reg>ḍ</reg></choice>a gho <num value="6"><g type="numeral">6</g></num>
+   <lb n="5"/>gvāl <num value="3"><g type="numeral">III</g></num> tai <num value="10"><g type="numeral">10</g></num> si <gap reason="lost" quantity="8" unit="character"/> phsaṁ <num value="26"><g type="numeral">20</g> <g type="numeral">6</g></num> <g type="circleTarget">.</g> vnvak <gap reason="lost" quantity="9" unit="character"/>l· Aṁraḥ kañjā I gho kañcū <num value="1"><g type="numeral">I</g></num>
+   <lb n="6"/>gho thgap· <num value="1"><g type="numeral">I</g></num> gho sra<gap reason="lost" quantity="6" unit="character"/> kanso <num value="1"><g type="numeral">I</g></num> tai pau <gap reason="lost" quantity="10" unit="character"/> tai kan·Aṁ <num value="1"><g type="numeral">I</g></num> tai kaṁvī <num value="1"><g type="numeral">I</g></num> tai
+   <lb n="7"/>phtal· <num value="1"><g type="numeral">I</g></num> tai <gap reason="lost" quantity="2" unit="character"/> <num value="1"><g type="numeral">I</g></num> tai <gap reason="lost" quantity="6" unit="character"/> saṁAp<unclear>·</unclear> <num value="1"><g type="numeral">I</g></num> si rat<unclear>·</unclear> <gap reason="lost" quantity="12" unit="character"/> tai kalaśa <num value="1"><g type="numeral">I</g></num> lap·
+   <lb n="8"/>lvan· <gap reason="lost" quantity="24" unit="character"/> sre kañ·jrap· thmik·
+   <lb n="9"/>raṅko <gap reason="lost" quantity="22" unit="character"/> mrateṅ· <g type="ddandaOrnate">.</g>
+   <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> thleṁ <num value="1"><g type="numeral">I</g></num>
+   <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/>k<unclear>·</unclear> <num value="1"><g type="numeral">I</g></num> si śrī <num value="1"><g type="numeral">I</g></num>
+   <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>
+</p>
+                   
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="8">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1952_01"></rdg>
+                   </app>
+                                      </listApp>  
+         </div>
+ -->         <div type="translation" xml:lang="fra" source="bib:Coedes1952_01">
+ 	<p n="1">En 843 Śaka, Kaṁsteṅ Añ Śrī Jayavīravarman offre des serviteurs à V. K. A. Śrī Trailokyanātha.</p>
+              <p n="1-5">Serviteurs réguliers <supplied reason="explanation">liste</supplied>. Total: 26.</p>
+              <p n="5-14">Groupe de <gap reason="lost"/> <supplied reason="explanation">liste</supplied>.</p>
+         </div> 
+           <div type="commentary">
+           <p>The numbering is different from that of Cœdès, which continues from the first inscription.</p>
+         </div>
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1952_01"/><citedRange unit="page">71-73</citedRange></bibl>) with a French translation.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1952_01"/><citedRange unit="page">71-73</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
