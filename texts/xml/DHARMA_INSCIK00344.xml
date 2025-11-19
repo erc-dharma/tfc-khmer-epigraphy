@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb of the tower K of Prasat Neak Buos (K. 344), 907 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00344</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-11-19" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<lg n="1" met="sragdharā" xml:lang="san-Latn">
+<l n="a"><lb n="1"/>śrīmadrājendrasiṅho dviradamadayutadrāvane siṅhavr̥tti<lb n="2" break="no"/>r</l>
+<l n="b">yyuddhe yodhāpatir yyo <supplied reason="subaudible">’</supplied>bhijanajananinām agraṇīs tasya sūnuḥ</l>
+<l n="c"><lb n="3"/>dharmmī <seg met="++-"><gap reason="illegible" quantity="3" unit="character"/></seg>rād doṣaguṇaguṇadr̥g ācāracaryyāviśālī</l>
+<l n="d"><lb n="4"/>śīlajñānī phalāśī phalāśī munir akr̥ta kr̥tīdaṁ yamīsarvvadharmmam· <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <p>
+ <lb n="5"/><g type="gomutraInitial">.</g><g type="ddandaOrnate">.</g> siddhi <g type="circle">.</g> <num value="907">907</num> śaka caturthī roc<unclear>·</unclear> karttika nu vraḥ sabhā paṅgaṁ thpvaṅ·
+                      <lb n="6"/>nivedana vyavahāra steñ<unclear>·</unclear> vraḥ tannot· tem· sruk· chok· saṅke
+                      <lb n="7"/>yodhāpura sruk<unclear>k·</unclear> vrai ran·lvas· cat· nu śi dharmmapāla devā<lb 
+                         n="8" break="no"/>paricāra śivapāda pūrvva nu teṅ· devaśra <g type="circleSmall">.</g> khloñ· kāryya <g type="circleSmall">.</g> gi roḥ<lb 
+                            n="9" break="no"/>ha man<unclear>·</unclear> ti sabhā cāre toy· gati vyavahāra man· si dharmmapāla nu mra
+                      <lb n="10"/>devaśrama paṁvyatt<unclear>·</unclear> gi Artha man· mratañ<supplied reason="omitted">·</supplied> śrī rājendrasiṅha ta vāppā
+                      <lb n="11"/>steñ· vraḥ tan·not· jau bhūmya chok<unclear>·</unclear> saṅke ta bhūmya
+                      <lb n="12"/>vraḥ kamrateṅ· Añ· śivapāda pūrvva ta steñ<unclear>·</unclear> vraḥ
+                      <lb n="13"/>vnaṁ khloñ· vraḥ vnaṁ śivapāda nu si kaṁpañ<supplied reason="lost">·</supplied> devaparicāra pre si candrabhāva si A<lb 
+                         n="14" break="no"/><gap reason="lost" quantity="1" unit="character"/> si tga devaparicāra nu si taṅkuv<unclear>·</unclear> dau Oy· bhūmya vrai neḥ ta mratāñ·
+                      <lb n="15"/>śrī rājendrasiṅha ta vappā steñ<unclear>·</unclear> vraḥ tannot· <g type="circleSmall">.</g> chkā vrai cat sruk· yodhā<lb 
+                         n="16" break="no"/>pura vrai saṁlāñ· sruk· vrai raṁnlvas· sruk· slut· sruk· caṁpak· ti mratāñ<unclear>·</unclear> rājendrasi<lb 
+                            n="17" break="no"/>ṅha ta phqvan· mratāñ· jov<unclear>·</unclear> ta si kaṁpañ· devaparicāra nu krapi nu vodiy<unclear>·</unclear>
+                      <lb n="18"/>neḥ bhūmya ta roḥh<unclear>·</unclear> neḥ ta ti vappā steṅ· Añ· vraḥ tannot· chkā vrai
+                      <lb n="19"/>vrai saṁlañ· sruk· vrai raṁnlvas· sruk· slut· sruk· caṁpok· t<suuplied reason="lost">i</suuplied> mratāñ·
+                      <lb n="20"/>rājendrasiṁha ta phqvan· mratāñ· jauv· ta si kaṁpañ· devaparicāra
+                      <lb n="21"/>neḥ bhūmya ta roḥ neḥ tāñ· kaṁmrateṅ Añ· cāndrapura paṅgaṁ thpvaṅ· nivedana
+                      <lb n="22"/>vraḥ śāsana pre mratāñ· śrī rājendrāditya nu steñ· vraḥ vnaṁm ta khloñ· vnaṁ śi<lb 
+                         n="23" break="no"/>vapāda dau saṅ gol· ta gi bhūmya noḥ man· mratāñ· śrī rājendrasiṅha jau
+                      <lb n="24"/>Oy ta vraḥ kaṁmrateṅ· Añ· candrapura paṅgaṁ thpvaṅ· nivedana ta dhūli
+                      <lb n="25"/>vraḥ pāda ta stac· dau śivaloka mā<supplied reason="lost">n·</supplied> vraḥ śā<supplied reason="lost">sa</supplied>na ta kaṁmrateṅ<unclear>·</unclear> Añ· cā<lb 
+                         n="26" break="no"/>ndrapura <g type="dotMid">.</g> siddhi qyat· Upavāda man<supplied reason="omitted">·</supplied> tāñ· kaṁmrateṅ· Añ<unclear>·</unclear> sthāpanā kaṁluṅ·
+                      <lb n="27"/>vraḥ prāṅga kaṁmrateṅ· jgat<unclear>·</unclear> śivapāda tāñ· kaṁmrateṅ· Añ· O<supplied reason="omitted">y·</supplied> bhūmya
+                      <lb n="28"/>neḥ ta vraḥ noḥ O<supplied reason="omitted">y·</supplied> caṁnāṁ ta kaṁmrateṅ· jgat· śivapāda roḥ kalpa<lb 
+                         n="29" break="no"/>nā mratāñ· śrī rājendrasiṅha ta qmā raṅko liḥ <num value="6"><g type="numeral">6</g></num> thvāy· vraḥh<unclear>·</unclear>
+                      <lb n="30"/>pratidiṇa nu man· steñ· vraḥ tannot· raṁlik ta kaṁmrateṅ Añ· vraḥ guru man<unclear>·</unclear>
+                      <lb n="31"/>bhūmya neḥ ti mratāñ· rājendrasiṅha nu tā<supplied reason="omitted">ñ·</supplied> kaṁmrateṅ Añ· cāndrapu<lb 
+                         n="32" break="no"/>ra jauv· pi saṅ gol· pi jvan· ta vraḥ kaṁmrateṅ· Añ· śivapāda
+                      <lb n="33"/>nu vraḥ man· sthāpanā kaṁmrateṅ· Añ· vraḥ guru taṁtyaṅ· steñ· śa <gap reason="lost" quantity="1" unit="character"/>
+                      <lb n="34"/><gap reason="lost" quantity="2" unit="character"/> nu steñ<unclear>·</unclear> khloñ· vnaṁ vraḥ srukk· daha mān<unclear>·</unclear> gol· vyat· steñ·
+                      <lb n="35"/>khloñ· vnaṁ kathā man· pre steñ· candanagiri dau saṅ· gol· qvyaḥ nu
+                      <lb n="36"/>gol· ta mān· pragalbha ta steñ· vraḥ tan·not· bhājana mvay· gi nu
+                      <lb n="37"/><supplied reason="lost">jau</supplied>v<unclear>·</unclear> bhūmya neḥ nu man· gi chvat· bhūmya neḥ Aṁvi chdi<choice><orig>n</orig><reg>ṅ</reg></choice>· vraccni lvoḥ
+                      <lb n="38"/>vraḥ kaṁmrateṅ· Añ· yarāñ· rapaṅ· cass· <g type="circleSmall">.</g> nu man· steñ<unclear>·</unclear>
+                      <lb n="39"/>khloñ<unclear>·</unclear> vraḥ vnaṁ kathā man<unclear>·</unclear> Uk<unclear>·</unclear> dravya nu jauv· bhūmya neḥ
+                      <lb n="40"/><gap reason="lost" quantity="2" unit="character"/> man· si kañcū nu tāñ· kamrateṅ· Añ· candrapura yok·
+                      <lb n="41"/>vudi prak<supplied reason="lost">·</supplied> mvay<unclear>·</unclear> mās· liṅ· <num value="24"><g type="numeral">24</g></num> padigraha mvay· tul· mvay<unclear>·</unclear> <gap reason="lost" quantity="1" unit="character"/>
+                      <lb n="42"/><gap reason="lost" quantity="2" unit="character"/> mvay· dravya ta dai ta qval· jauv<unclear>·</unclear> bhūmya neḥ
+</p>
+
+                   <div type="apparatus">
+               <listApp>
+                  <app loc="7">
+                     <lem>sruk<unclear>k·</unclear></lem>
+                     <rdg source="bib:Coedes1954_02">sruk</rdg>
+                  </app>
+                  </listApp>         
+         </div>
+       <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+          <p rend="stanza" n="1">Le fortuné Rājendrasiṁha, chef de guerriers, qui, dans la bataille, se conduisait comme un lion mettant en fuite les éléphants en rut, et qui était le premier des procréateurs de nobles lignées, eut un fils juste, sachant discerner les caractères des défauts et des qualités, inébranlable dans l'observance des usages, possédant la science et la vertu, se nourrissant de fruits, sage, habile, maître de ses sens, auteur de toute cette fondation.</p>
+          <p n="5-8">Succès! En 907 Śaka, quatorzième jour de la lune décroissante de Karttika, la Sainte Cour rendit respectueusement compte <supplied reason="subaudible">au roi</supplied> du procès de Sten Vraḥ Tannot <supplied reason="explanation">"Saint palmier"</supplied> au sujet de l'origine des pays de Chok Saṅke, Yodhāpura, Vrai Ranlvas, intenté à Si Dharmapāla, serviteur sacré de Śivapāda oriental et Mratāñ Devāśrama, chef des travaux.</p>
+          <p n="9-10">Voici ce que l'enquête de la Cour a révélé sur la procédure <supplied reason="explanation"><foreign>gati vyavahara</foreign></supplied>, et que Si Dharmapāla et Mratāñ Devāśrama ont confirmé être son objet <supplied reason="explanation"><foreign>artha</foreign></supplied>.</p>
+          <p n="10-17">Mratāñ Śrī Rājendrasiṁha, père de Steñ Vraḥ Tannot, a acheté la terre de Chok Saṅke, qui e3t une terre de V. K. A. Śivapāda oriental, à Steñ Vraḥ Vnaṁ, chef de sanctuaire <supplied reason="explanation"><foreign>khloñ vraḥ vnaṁ</foreign></supplied> de Śivapāda. Si Kaṁpañ, serviteur du dieu <supplied reason="explanation"><foreign>devaparicāra</foreign></supplied> a chargé Si Candrabhāva, Si <gap reason="lost"/>, Si Tga, serviteurs du dieu, et Si Taṅkuv, d'aller donner cette terre boisée à Mratāñ Śrī Rājendrasiṁha, père de Steñ Vraḥ Tannot. <supplied reason="subaudible">Ce dernier</supplied> coupa la forêt et installa le village de Yodhāpura. Les villages de Vrai Saṁlāñ, Vrai Raṁnlvas, Slut et Caṁpak, Mratāñ Rājendrasiṁha, frère cadet du Mratāñ <supplied reason="subaudible">Śrī Rājendra-</supplied>, les a achetés à Si Kaṁpañ, serviteur sacré, au prix de buffles et de <foreign>vodi</foreign>.</p>
+          <p n="18-21">Ces terres-là, où le père de Steṅ Añ Vraḥ Tannot a coupé la forêt, <supplied reason="subaudible">les villages de</supplied> Vrai Saṁlañ, Vrai Raṁnlvas, Slut et Caṁpok que Mratāñ Rājendrasiṁha, frère cadet du Mratāñ <supplied reason="subaudible">Śrī Rājendra-</supplied> a achetés à Si Kaṁpañ, serviteur sacré, ce sont ces terres-là au sujet desquelles Tāñ K. A. Candrapura s'est adressée respectueusement au roi <supplied reason="subaudible" cert="low">pour les lui demander</supplied>.</p>
+          <p n="22-26">Une ordonnance royale chargea Mratāñ Śrī Rājendrāditya et Steñ Vraḥ Vnaṁ, chef du sanctuaire de Śivapāda, d'aller planter les bornes de cette terre, acquise par Mratāñ Śrī Rājendrasiṁha pour la donner au dieu. K. A. Candrapura, en informa respectueusement le roi qui est allé au Śivaloka, qui promulgua une ordonnance en faveur de K. A. Candrapura <supplied reason="subaudible">lui accordant</supplied> droit exclusif, sans conteste.</p>
+          <p n="26-29">Lorsque Tāñ K. A. <supplied reason="subaudible">Candrapura</supplied> érigea dans la cour l le K. J. Śivapada, Tāñ K. A. donna cette terre à ce dieu, et servit les fournitures à K. J. Śivapada conformément à la fondation de Mratāñ Śrī Rājendrasiṁha, son oncle maternel, soit x <foreign>liḥ</foreign> de riz décortiqué à offrir au dieu chaque jour.</p>
+          <p n="30-33">Steñ Añ Vraḥ Tannot rappela à K. A. Vraḥ Guru que c'est cette terre que Mratāñ Rājendrasiṁha et Tāñ K. A. Candrapura ont achetée pour y planter les bornes et l'offrir à V. K. A. Śivapāda et au dieu qui y a été érigé.</p>
+          <p n="33-37">K. A. Vraḥ Guru demanda à Steñ <gap reason="lost"/> , et au Steñ chef de sanctuaire de Vraḥ Sruk s'il y avait réellement des bornes. Le Steñ chef de sanctuaire déclara qu'il avait chargé le Steñ de Candanagiri d'aller planter les bornes <gap reason="lost"/> et de remêttre les bornes existantes à Steñ Vraḥ Tannot ; un vase fut le prix auquel a été achetée cette terre.</p>
+          <p n="37-42">On délimita cette terre depuis la rivière Vrac jusqu'à V. K. A. Yarāñ Rapaṅ Cas. Le Steñ, chef de sanctuaire, déclara aussi que les biens prix d'achat de cette terre <gap reason="lost"/> Si Kañcū et Tāñ K. A. de Candrapura avaient pris 1 <foreign>vudi</foreign> d'argent, 24 <foreign>liṅ</foreign> d'or, 1 crachoir pesant 1 <foreign>tul</foreign>, un <gap reason="lost"/> tous les autres biens pour acheter cette terre.</p>
+           </div> 
+        <!--  <div type="commentary">
+            <p></p>
+              </div>   --> 
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">160-164</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 769.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">160-164</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+                </div>
+        </body>
+    </text>
+</TEI>
