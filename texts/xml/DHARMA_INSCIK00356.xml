@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjambs of Prasat Khna (K. 356), 902 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00356</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-11-25" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+   <lg n="1" met="śārdūlavidrīḍita" xml:lang="san-Latn"><milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label>
+<l n="a"><lb n="S1"/>yenaikena vitanvatā tanubhr̥tām ātmāntarāṇy ātmanā<space/></l>
+<l n="b">bhinnājanta<seg met="-+-+---+++-++-+"><gap reason="illegible" quantity="15" unit="character"/></seg></l>
+<l n="c"><lb n="S2"/>nānākāravikārarūpam akhilan na svīkr̥tan tattvata<space/>s</l>
+<l n="d">taṁ vande harim<seg met="+-+---+++-++-+"><gap reason="illegible" quantity="14" unit="character"/></seg><supplied reason="lost"><g type="ddandaOrnate">.</g></supplied></l>
+</lg>
+                   <lg n="2" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="S3"/>yenāravindanilayan nijanābhipadmaṁ<space/></l>
+<l n="b">yo <seg met="+-+---+--+-++"><gap reason="illegible" quantity="13" unit="character"/></seg></l>
+<l n="c"><lb n="S4"/>vyākhyāyate nija<seg met="-+-"><gap reason="illegible" quantity="3" unit="character"/></seg>ram ādhipatya<space/>n</l>
+<l n="d">nārāyaṇan <seg met="---+--+-++"><gap reason="illegible" quantity="10" unit="character"/></seg><g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="3" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="a"><lb n="S5"/>yasyātmendunabho <seg met="-+--"><gap reason="illegible" quantity="4" unit="character"/></seg> nalakṣītyamvutīkṣṇāṅśubhi<space/>r</l>
+<l n="b">grāhyābhis tanubhir <seg met="-+---+++-++-+"><gap reason="illegible" quantity="13" unit="character"/></seg></l>
+<l n="c"><lb n="S6"/>nirmūrttitvam udīrayanti mu<seg met="-+++"><gap reason="illegible" quantity="4" unit="character"/></seg> vaco nāspada<space/>n</l>
+<l n="d">nirvvāṇābhyudayādikāraṇa<seg met="-+++-++-+"><gap reason="illegible" quantity="9" unit="character"/></seg><supplied reason="lost"><g type="ddandaOrnate">.</g></supplied></l>
+</lg>
+   <lg n="4" met="sragdharā" xml:lang="san-Latn">
+<l n="a"><lb n="S7"/>Āsīd āsīndhusandhes sphuritaśarakaro nirjjitārātivarggo<space/></l>
+<l n="b">rājendraḥ kamvujendrānvayagagaṇa<seg met="-++-++-++"><gap reason="illegible" quantity="9" unit="character"/></seg></l>
+<l n="c"><lb n="S8"/>śrīmān yas tridvirandhrair dharaṇibhr̥d udayādityavarmmāgryakarmmā<space/></l>
+<l n="d">dorbhyām ūrvvīm asahyām ahipati<seg met="--++-++-++"><gap reason="illegible" quantity="10" unit="character"/></seg><g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="5" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="a"><lb n="S9"/>varmmāntaṁ yudhi nāma vibhrad ajitaś śrīrājapatyādi ya<space/>s</l>
+<l n="b">senānīr jjayavarmmaṇo vanibhr̥tāṁ patyus supatnī ca yā</l>
+<l n="c"><lb n="S10"/>mātuś śreṣṭhapureśvarānvayabhuvo yasyāgrajas so <supplied reason="subaudible">’</supplied>nujā<space/></l>
+<l n="d">sā sodaryyatayābhavad varayaśas tyāgādibhis sadguṇaiḥ <supplied reason="omitted"><g type="ddandaOrnate">.</g></supplied></l>
+</lg>
+                   <lg n="6" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="a"><lb n="S11"/>yoddhre yuddhasamuddhatāya ripave divyaṁ sadivyāṅgaṇa<space/>n</l>
+<l n="b">dātā lokam ihodayan natikr̥te yo <supplied reason="subaudible">’</supplied>raṇyam ājer drute</l>
+<l n="c"><lb n="S12"/>Uddhartur dharaṇīdharasya dharaṇīm ambhodhimagnāṁ purā<space/></l>
+<l n="d">līlāṁ lipsur ivoddadhāra patitān tāṁ viplavāvdhau punaḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="7" met="sragdharā" xml:lang="san-Latn">
+<l n="a"><lb n="S13"/>kāman dagdhvā tadaṅgadyutinikhiladhanāny ātmasātkr̥tya gātre<space/></l>
+<l n="b">kīrttirbhūtārddhacandro ripujanabhayakr̥t kālakūṭāgryavīryyaḥ</l>
+<l n="c"><lb n="S14"/>gaṅgāmbhassuprasādo yuganayanabhavadvahnitejā nu jāta<space/>ś</l>
+<l n="d">śarvvo sāv īśvaro yas sakalaguṇanidhis sāmvudhiṁ kṣmām arakṣat· <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="8" met="āryā" xml:lang="san-Latn">
+<l n="ab"><lb n="S15"/>tasyāgrajo dhr̥tāsī<space/>r yyudhi vairigaṇair udīrito <supplied reason="subaudible">’</supplied>ntāgniḥ<space/></l>
+<l n="cd">guṇagaṇamaṇinīranidhi<space/>ś śrīnarapativīravarmmā yaḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="9" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="a"><lb n="S16"/>preṅkhadkhadgabhr̥tānujena jayinā yas tena yuddhe yuto<space/></l>
+<l n="b">durdharṣo <supplied reason="subaudible">’</supplied>rigaṇair ivāmarapatiś śrījāninā sāriṇā</l>
+<l n="c"><lb n="S17"/>yatkāruṇyasuvr̥ṣṭihr̥ṣṭahr̥dayāny etāni śuṣkāny api<space/></l>
+<l n="d">prārūḍhāni punaḥ phalanti ca jagatsasyāni bhāntyāyu<unclear>dh</unclear>āt· <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="10" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="S18"/>vidyāś catasraś caturasya yasya<space/></l>
+<l n="b">ruciprakāśena kr̥taprakarṣāḥ</l>
+<l n="c"><lb n="S19"/>vivr̥ddham īyur jjagatāṁ samr̥ddhyai<space/></l>
+<l n="d">pūrṇnodupasyeva payodhimālāḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="11" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+<l n="a"><lb n="S20"/>tasmin· dharmmanidhau payodhiraśaṇāṁ kṣoṇīṁ pradāyānuje<space/></l>
+<l n="b">kāntān nispr̥hadhīr yyuvāpi sa vaśī vaddhāsidhārāvrataḥ</l>
+<l n="c"><lb n="S21"/>sadbhaktir haraye hariṅ kalijite haimaṁ svamūrttiṁ parāṁ<space/></l>
+<l n="d">prādād utsavayāyinaṁ suracitan tan tāratārkṣyasthitam· <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <p><milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label><lb 
+                      n="N1"/>siddhi svasti <num value="902">902</num> śaka daśamī ket· Āṣāḍha vra<supplied reason="lost">haspa</supplied>-
+                   <lb n="N2"/>tivāra nu kaṁmrateṅ· Añ· vraḥ guru pandval <supplied reason="lost">vraḥ śā</supplied>-
+                      <lb n="N3"/>sana dhūli vraḥ pāda dhūli jeṅ· vraḥ kaṁmra<supplied reason="lost">t</supplied>e<supplied reason="lost">ṅ· A</supplied>-
+                      <lb n="N4"/>ñ· ta pratyaya ta jmaḥ steñ· Ākāśali<supplied reason="lost">ṅga pre</supplied>
+                      <lb n="N5"/>mok· srasir· praśasta phle kuṭi janapa<supplied reason="lost">da tri</supplied>-
+                      <lb n="N6"/>vikramapada Āy· le nā vraḥ śilastambha <supplied reason="lost">ri Aṁ</supplied>-
+                      <lb n="N7"/>pall<unclear>·</unclear> khñuṁ thmur· krapi taṁmrya sruk· sre bhūmyā<supplied reason="lost">kara</supplied>
+                      <lb n="N8"/>man· steṅ· Añ· ta prājña jvan ta kaṁmrateṅ· Añ<unclear>·</unclear>
+                      <lb n="N9"/>ta sak·vrāhmaṇa ta kaṁmrateṅ· Añ· ta rājya ta
+                      <lb n="N10"/>kaṁmrateṅ· Añ· ta qcas· vvaṁ Āc ti Āyatta ta pañcā-
+                      <lb n="N11"/>dhikara <g type="dotMid">.</g> Āyatta ta śiṣyānvaya ta purohita
+                      <lb n="N12"/>Āy· janapada ta vaiyākaraṇa ta vidhijña ta mān·
+                      <lb n="N13"/>śīlācāra ta tyaṅ· dharmma neḥ gi nā Āyatta gi janapada nu
+                      <lb n="N14"/>trivikramapada Oy· vraḥ madhuparkka vraḥ bhojya raṅko liḥ <num value="3"><g type="numeral">3</g></num> pra-
+                      <lb n="N15"/>tidina thmoy· liḥ vyar<unclear>·</unclear> pratidina vraḥ madhuparkka saṁlo pi
+                      <lb n="N16"/>vnek· dik· phik· slā par· vyar<unclear>·</unclear> Aṁlū khlaḥ vyar· bhay maṅgala <g type="dotMid">.</g>
+                      <lb n="N17"/>vāca thmiṅ· thmaṅ· rmmāṁ caṁmryaṅ· mahānasa patrakāra qmuh· di-
+                      <lb n="N18"/>k· sroṅ· neḥ thleṅ· mvāy· vatt<unclear>·</unclear> mvāy· thṅāy· <g type="dotMid">.</g> tūryya gandharvva
+                      <lb n="N19"/>śikharā thmaṅ· huduga neḥ thleṅ· pi vatt<unclear>·</unclear> mvāy· thṅāy· <g type="dotMid">.</g> vvaṁ Ā-
+                      <lb n="N20"/>c ti qnak· pre ta kāryya cañcūla phoṅ· dai ti leṅ· ka-
+                      <lb n="N21"/>lpanā phle janapada gus· pi thve nu kr̥taprayatna <g type="dotMid">.</g>
+                      <lb n="N22"/>pratipakṣa <g type="dotMid">.</g> nau śisya loḥ santāna loḥ ta va-
+                      <lb n="N23"/>rddheya neḥ dharmma neḥ mān· phala Arddhabhāga
+                      <lb n="N24"/>nau qnak· ta Ahaṅkāra pī pīdā qnak· janapada
+                      <lb n="N25"/>pi cicāy<unclear>·</unclear> neḥ dharmma neḥ jā ta dvātriṁśanara-
+                      <lb n="N26"/>ka lvaḥ saṅ·hāra nu santāna phoṅ<unclear>·</unclear> <g type="floret">.</g>
+                   </p>
+
+
+              <!--     <div type="apparatus">
+               <listApp>
+                  <app loc="3">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1954_02"></rdg>
+                  </app>
+                  </listApp>         
+         </div> --> 
+        <div type="translation" xml:lang="fra" source="bib:Coedes1911_01">
+           <p rend="stanza" n="1"><gap reason="lost"/></p>
+           <p rend="stanza" n="2"><gap reason="lost"/></p>
+           <p rend="stanza" n="3"><gap reason="lost"/></p>
+           <p rend="stanza" n="4">II fut un roi qui avait fait briller jusqu'à la frontière du Sindhu la grêle de ses flèches, qui avait vaincu la foule de ses ennemis, <gap reason="lost"/> <supplied reason="explanation">soleil ou lune</supplied> de ce ciel qu'est la famille des rois des Kambujas, le vénérable Udayādityavarman, maître de la terre par 3, 2 et les <supplied reason="subaudible">9</supplied> ouvertures <supplied reason="explanation">= roi en 923</supplied>, accomplissant des actes excellents, . . . (ayant rendu) par ses deux bras la terre inexpugnable ...</p>
+           <p rend="stanza" n="5">La mère de ce roi, qui descendait de la famille de Śreṣṭhapura, eut un frère et une sœur, nés tous deux de la même mère qu'elle, renommés pour leur libéralité et leurs autres vertus: lui, l'aîné, fut dans la bataille le général victorieux de Jayavarman et porta un nom commençant par Râjapati et finissant par Varman ; elle, la cadette, fut l'épouse de ce maître des rois <supplied reason="subaudible">Jayavarman</supplied>.</p>
+           <p rend="stanza" n="6">Donnant le Ciel avec les Āpsaras au guerrier ennemi arrogant dans le combat, se manifestant ici-bas <gap reason="lost"/>, désirant en quelque sorte renouveler le jeu de Viṣṇu qui avait autrefois délivré la terre enfoncée dans l'Océan, il retira encore une fois <supplied reason="subaudible">la terre</supplied> de l'océan de calamités dans lequel elle était tombée.</p>
+           <p rend="stanza" n="7">Ayant brûlé Kāma et réuni dans son propre corps tous les trésors de splendeur émanant des membres de ce <supplied reason="subaudible">Kāma</supplied>, portant sa gloire en guise de croissant de lune, causant la terreur de ses ennemis, possédant le pouvoir irrésistible du Kālakūṭa, paré de la clarté des; eaux de la Gaṅgā, doué de l'éclat du feu jaillissant de ses deux yeux, ce maître (Īśvara), ce vrai Śarva, réceptacle de toutes les vertus, né le second, protégea la terre avec l'Océan.</p>
+           <p rend="stanza" n="8">Son frère aîné, qui portait l'épée dans le combat et que les troupes ennemies comparaient au feu final, fut Śrī Narapativīravarman, océan de joyaux <supplied reason="subaudible">qui étaient</supplied> la foule de ses vertus.</p>
+           <p rend="stanza" n="9">Lorsque, dans la bataille, il était accompagné de son frère cadet victorieux et agitant son glaive, on eût dit Indra redoutable pour les légions ennemies, suivi de l'époux de Śrī ; même desséchés, les grains qui sont les hommes, ayant le cœur <seg rend="pun">ou : le noyau</seg> réjoui par la bonne pluie qui est sa compassion, germent de nouveau, donnent des fruits et brillent jusqu'à <supplied reason="subaudible">la fin</supplied> du yuga (?).</p>
+           <p rend="stanza" n="10">Les quatre vidyās que la clarté lumineuse de cet homme habile avait élevées au-dessus de tout, augmentèrent pour la prospérité du monde, comme les guirlandes <supplied reason="subaudible">formées par les vagues</supplied> de la mer <supplied reason="subaudible">à la clarté</supplied> de la pleine lune.</p>
+           <p rend="stanza" n="11">Ce maître, exempt de désirs, bien qu'il fût jeune, assumant une entreprise très difficile, donna comme épouse à son cadet <supplied reason="subaudible">Udayādityavarman</supplied>, refuge du dharma, la terre entourée des mers ; rempli de dévotion, il donna à Hari, vainqueur de Kali, cette superbe statue d'or de Hari monté sur Garuḍa, qui est destinée à sortir <supplied reason="subaudible">du sanctuaire</supplied> à l'occasion des fêtes, et qui est son image future.</p>
+           <p n="N1-N6">Succès ! Bonheur ! En 902 Śaka, dixième jour de la lune croissante d'Aṣāḍha, jeudi, K. A. Vraḥ Guru notifia une ordonnance royale de S. M. à un <foreign>pratyaya</foreign> nommé Steñ Ākāśaliṅga, le chargeant de venir inscrire les redevances des cellules de Janapada et Trivikramapada sur une dalle de pierre.</p>
+           <p n="N7-N13">Tous les esclaves, bœufs, buffles, éléphants, villages, rizières, produits de la terre que le<supplied reason="explanation">s</supplied> Steṅ Añ savant<supplied reason="explanation">s</supplied> a <supplied reason="explanation">ont</supplied> offert à K. A. Sak Vrāhmaṇa, à K. A. qui est la royauté, à K. A. le vieux, ne relèvent pas de l'autorité des Pañcādhikara ; ils relèvent de la lignée des élèves du purohita de Janapada, qui étudient la grammaire, qui connaissent les rites, qui ont une conduite vertueuse et qui connaissent le dharma.</p>
+           <p n="N13-N16">Voici ce qu'il appartient à Janapada et Trivikramapada de donner : le crème au miel, la nourriture sacrée, 3 <foreign>liḥ</foreign> de riz décortiqué par jour, 2 <foreign>liḥ</foreign> de <foreign>thmoy</foreign> par jour ; la crème du miel, deux cuillérées de ragoût, l'eau à boire, 2 par d'arec, 40 ligatures de bétel, aux fêtes.</p>
+           <p n="N17-N22">Récitants, joueurs d'instruments à corde et à percussion, danseurs, chanteurs, cuisiniers, fabricants de feuilles, chauffeurs d'eau pour le bain, prennent le service une fois par jour ; musiciens chanteurs, <foreign>śikharā</foreign>, joueurs de tambourin, prennent le service trois fois par jour. Ils ne doivent pas être employés à des travaux <supplied reason="subaudible">tels que</supplied> prestation de ricin, en dehors de ceux institués pour le service des redevances à Janapada, afin qu'ils s'acquittent de leur tâche avec zèle, pour chaque quinzaine.</p>
+           <p n="N22-N26">Les élèves aussi bien que leurs lignées qui feront prospérer cette fondation jouiront de la moitié des mérites qui en découlent. Les gens qui auront l'audace de tourmenter les gens de Janapada pour détruire cette fondation renaîtront dans les enfers jusqu'à la fin du monde avec leur lignées.</p>
+          </div> 
+        <!--  <div type="commentary">
+            <p></p>
+              </div>   -->  
+        <div type="bibliography">
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1911_01"/><citedRange unit="page">400-404</citedRange></bibl>) and (<bibl rend="omitname"><ptr target="bib:Coedes1943_03"/><citedRange unit="page">10-11</citedRange></bibl>) with a French translation, re-edited here by Dominic Goodall and Kunthea Chhom from the estampage EFEO n. 779.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+      <ptr target="bib:Coedes1911_01"/><citedRange unit="page">400-404</citedRange>
+    </bibl>
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1943_03"/><citedRange unit="page">10-11</citedRange>
+    </bibl>
+  </listBibl>
+        </div>
+                </div>
+        </body>
+    </text>
+</TEI>
