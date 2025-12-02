@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary inscription of Prasat Phnom Bakheng (K. 558), 890 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/7401978">
+                  <forename>Louis</forename>
+                  <surname>Finot</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00558</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-12-02" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <lg n="1" met="upajāti" xml:lang="san-Latn">
+<l n="a"><lb n="1"/><g type="SpiralR">.</g> <g type="ddandaOrnate">.</g> siddhi <supplied reason="lost">svasti jaya</supplied> <unclear><g type="circleTarget">.</g></unclear> viyadgrahaiśva<supplied reason="lost">ryyaśubhodayaś śrī</supplied><space/></l>
+<l n="b"><supplied reason="lost">rājendravarmmeśvarasūnur āsīt·</supplied><space/></l>
+<l n="c">rājanyavaṅśāmvara<lb n="2"/>nīrajātī</l>
+<l n="d"><supplied reason="lost">rājā jayī śrījayavarmmade</supplied>vaḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">yadvāhu<supplied reason="lost">daṇḍam āśrītya</supplied><space/></l>
+<l n="b"><supplied reason="lost">yūnāpi kalinādhunā</supplied><space/></l>
+<l n="c"><supplied reason="lost">vr̥ddha</supplied>s sañcālito dharmmo</l>
+<l n="d"><lb n="3"/><supplied reason="lost">na</supplied> skhalaty ekāpā<supplied reason="lost">d api</supplied> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <p><supplied reason="lost"><num value="890">890</num> śaka</supplied> nu mān· vraḥ śā<supplied reason="lost">sana dhūli vraḥ pāda dhūli jeṅ· vraḥ kamra</supplied>teṅ· Añ· śrī jaya-
+                      <lb n="4"/><supplied reason="lost">varmmadeva ta kamsteṅ· Añ· rājakula</supplied>mahāmantri nu caturā<supplied reason="lost">cāryya nu mratāñ· śrī lakṣmīndropakalpa</supplied> pre caṁloṅṅa vraḥ pāñjīya
+                      <lb n="5"/><supplied reason="lost">ta gi vraḥ saṁphutikā vraḥ kalpanā</supplied> <unclear>to</unclear>y<unclear>·</unclear> vraḥ śāsana dhūli vraḥ <supplied reason="lost">pāda dhūli jeṅ· vraḥ kamrateṅ· Añ· śrī ya</supplied>śovarmmadeva nu vaśaka ta gi
+                      <lb n="6"/>vraḥ saṁphutikā <num value="829">829</num> … <supplied reason="lost">nu ni</supplied>vedana qnak· ta pamre ta vraḥ <supplied reason="lost">kamrateṅ· Añ· śrī yaśodhareśvara</supplied> ta gi sruk· thpal· pramān· je-
+                      <lb n="7"/>ṅ· ... th<unclear>m</unclear>yaṅ· <num value="1"><g type="numeral">I</g></num> tai A mādhavī <num value="1"><g type="numeral">I</g></num> ... lap· laṅgāy· <num value="1"><g type="numeral">I</g></num> tai kan·Oy· <num value="1"><g type="numeral">I</g></num>
+                      <lb n="8"/>{4}<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>· <num value="1"><g type="numeral">I</g></num> <unclear>tai</unclear> {8} <num value="1"><g type="numeral">I</g></num> tai A saṁtoḥ <num value="1"><g type="numeral">I</g></num> tai A ... <supplied reason="lost">ka</supplied><unclear>ñci</unclear> <num value="1"><g type="numeral">I</g></num> tai kanrau <num value="1"><g type="numeral">I</g></num> si pau <num value="1"><g type="numeral">I</g></num> tai A
+                      <lb n="9"/>... tai vi<unclear cert="low">pak·</unclear> <g type="dotMid">.</g> lap· paṁ... gho lvan· taṅker· gvāl· lvan·
+                      <lb n="10"/>... <unclear>gho lvan· kañjā gho</unclear> lvan· kañ·yān· <g type="dotMid">.</g> gho ... tai pau <num value="1"><g type="numeral">I</g></num> lap· <unclear>jaṁAr·</unclear> mālākārī
+                      <lb n="11"/>... <unclear>tai</unclear> {4} <g type="dotMid">.</g> tai pau kaṁpas· <g type="dotMid">.</g> <unclear>tai</unclear> ... paricāraka <g type="dotMid">.</g> gho phnos· qmuḥ dik·
+                      <lb n="12"/>... <unclear cert="low">gho liṅ·</unclear> qmuḥ dik· <unclear>s</unclear>r<unclear>oṅ·</unclear> ... <unclear>cha</unclear>tradhāra gvāl· kaṁvās· stutivāca
+                      <lb n="13"/>... doṅ· gho prāṇa gandha ... tai gandhari <unclear cert="low">tatatādinī</unclear> lap· saṁAp· tr̥
+                      <lb n="14"/>... sruk· <unclear cert="low">jmukka</unclear> tai panlās· ... <unclear>tai</unclear> chpoṅ· <g type="dotMid">.</g> si pau <g type="dotMid">.</g> si kanleṅ· <g type="dotMid">.</g> tai
+                      <lb n="15"/>... <unclear>vau tai rat· khñuṁ tai kaṁp</unclear><supplied reason="lost">i</supplied><unclear>t·</unclear> <g type="dotMid">.</g> (tai) ... <supplied reason="lost">pa</supplied><unclear>nlās·</unclear> <g type="dotMid">.</g> gvāl· chke paṁre paṁnlās· <g type="dotMid">.</g> lap· ka-
+                      </p>
+
+                 <!--   <div type="apparatus">
+               <listApp>
+                  <app loc="7">
+                     <lem></lem>
+                     <rdg source="bib:Coedes1911_01"></rdg>
+                  </app>
+                  </listApp>         
+         </div> -->
+       <div type="translation" xml:lang="fra" source="bib:Finot1925_01">
+          <p rend="stanza" n="1">Ayant pour heureux commencement les pouvoirs, les planètes et l'espace (890 Śaka), il y eut un fils de Śrī Rājendravarmeśvara, lotus de cette onde céleste qu'est la race royale : ce fut le roi victorieux Śrī Jayavarmadeva.</p>
+          <p rend="stanza" n="2">Appuyé maintenant sur son bras, le vieux Dharma, secoué par le jeune Kali, ne chancelle pas, bien qu'il n'ait qu'un pied.</p>
+          <p n="1-7">En 890 Śaka, il y eut un ordre de S. M. Śrī Jayavarmadeva au kaṁsteṅ añ Rājakula Mahāmantri ainsi qu'au Caturācārya et au mratāñ Śrī Lakṣmīndropakalpa, de faire copier le registre des saṁphuṭikā (fondations, ordonnances) de S. M. Śrī Yaśovarmadeva. Aux termes d'une saṁphuṭikā [de] 829, il a fait connaître les hommes qui doivent servir le dieu Śrī Yaśodhareśvara, gens du sruk Thpal, district de Jeṅ . . .</p>
+           </div> 
+        <div type="commentary">
+            <p>Louis Finot's edition stops at line 7.</p>
+              </div>
+        <div type="bibliography">
+          <p>Edited by Louis Finot (<bibl rend="omitname"><ptr target="bib:Finot1925_01"/><citedRange unit="page">369-372</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 416.</p>
+	 <listBibl type="primary">
+    <bibl n="LF">
+      <ptr target="bib:Finot_01"/><citedRange unit="page">363-365</citedRange>
+    </bibl>
+  </listBibl>
+           </div>
+                </div>
+        </body>
+    </text>
+</TEI>
