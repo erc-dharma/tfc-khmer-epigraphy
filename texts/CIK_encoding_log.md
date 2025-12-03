@@ -285,7 +285,11 @@
 |K.	267 |chch |done |Cœdès 1908; Mertens 2000|
 |K.	268 |chch |done |Cœdès 1908; Mertens 2000|
 |K.	269 |# |# |#|
-|K.	270 |# |# |#|
+|K.	270-1 |kuch |done |IC IV|
+|K.	270-2 |kuch |done |IC IV|
+|K.	270-3 |kuch |done |IC IV|
+|K.	270-4 |kuch |done |IC IV|
+|K.	270-5 |kuch |done |IC IV|
 |K.	271 |sapi |pending |IC IV|
 |K.	272 |kuch |done |Cœdès 1951|
 |K.	273 |kuch |done |Cœdès 1906|
@@ -429,21 +433,21 @@ K.	294 |# |# |#|
 |K.	341-N |chch |done |IC VI|
 |K.	341-S |chch |done |IC VI|
 |K.	342 |kuch |done |IC VI|
-|K.	343 |# |# |#|
-|K.	344 |# |# |#|
+|K.	343 |kuch |done |IC VI|
+|K.	344 |kuch |done |IC VI|
 |K.	345 |# |# |#|
 |K.	346 |# |# |#|
-|K.	347 |# |# |#|
+|K.	347 |kuch |done |IC VI|
 |K.	348 |sapi |done |IC V|
 |K.	349 |sapi |done |IC V|
 |K.	350 |# |# |#|
-|K.	351 |# |# |#|
+|K.	351 |kuch |done |IC VI|
 |K.	352 |sapi |pending |IC V|
 |K.	353-1 |# |# |#|
 |K.	353-2 |kuch |done |IC V|
 |K.	354 |# |# |#|
 |K.	355 |# |# |#|
-|K.	356 |# |# |#|
+|K.	356 |kuch |done |Cœdès 1911 and Cœdès&Dupont 1943|
 |K.	357 |kuch | done |IC VI|
 |K.	358 |kuch | done |IC V|
 |K.	359 |kuch |done |ISC|
@@ -545,7 +549,7 @@ K.	294 |# |# |#|
 |K.	449 |# |# |#|
 |K.	450 |# |# |#|
 |K.	451 |kuch |done |IC V|
-|K.	452 |# |# |#|
+|K.	452 |kuch |done |IC V|
 |K.	453 |# |# |#|
 |K.	454 |# |# |#|
 |K.	455 |# |# |#|
@@ -575,7 +579,7 @@ K.	294 |# |# |#|
 |K.	462-13 |kuch |done |Cœdès 1951|
 |K.	462-14 |kuch |done |Cœdès 1951|
 |K.	463 |# |# |#|
-|K.	464 |# |# |#|
+|K.	464 |kuch |done |Cœdès 1911|
 |K.	465 |# |# |#|
 |K.	466 |kuch |done |IC III|
 |K.	467 |kuch |done |IC III|
@@ -649,7 +653,7 @@ K.	294 |# |# |#|
 |K.	535 |# |# |#|
 |K.	536 |# |# |#|
 |K.	537 |kuch |done |unpublished|
-|K.	538 |# |# |#|
+|K.	538 |kuch |done |Finot 1925|
 |K.	539 = 293.24b |kuch |pending |BEFEO XVIII (10), Cœdès 1928|
 |K.	540 |kuch |done |IC III|
 |K.	541-1 |kuch |done |IC III|
@@ -776,7 +780,7 @@ K.	294 |# |# |#|
 |K.	659 |sapi |pending |IC V|
 |K.	660 |chch |done |IC I|
 |K.	661 |chch |pending |IC I|
-|K.	662 |# |# |#|
+|K.	662 |kuch |done |Cœdès 1929|
 |K.	663 |# |# |#|
 |K.	664 |kuch |done |IC V|
 |K.	665 |# |# |#|
@@ -988,7 +992,7 @@ K.	294 |# |# |#|
 |K.	866 |chch |done |Clouet et al (forthcoming)|
 |K.	867 |# |# |#|
 |K.	868 |sapi |done ||C VI
-|K.	869 |# |# |#|
+|K.	869 |kuch |done |IC I|
 |K.	870 |# |# |#|
 |K.	871 |# |# |#|
 |K.	872 |sapi |pending |IC V|
@@ -1511,7 +1515,7 @@ K.	294 |# |# |#|
 |K.	1350 |# |# |#|
 |K.	1351 |# |# |#|
 |K.	1352 |kuch |done |Goodall 2020|
-|K.	1353 |chch |pending |unpublished|
+|K.	1353 |kuch |done |unpublished|
 |K.	1354 |chch |done |Chollet 2019|
 |K.	1355 |argr and kuch |done |Skilling 2002, 2019|
 |K.	1356 |# |# |#|
