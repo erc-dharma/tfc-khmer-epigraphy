@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Southern doorjamb of the central sanctuary of Prasat Kuk (K. 741), 916 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00741</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-12-11" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="1"/><num value="916">916</num>śakka dvādaśī roc· Āśva<supplied reason="omitted">yu</supplied>ja śanaścaravāra nu trā pra<supplied reason="lost">śasta neḥ</supplied>
+</p>
+                   <lg n="1" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="2"/><g type="ddanda">.</g> pūrṇnendumandalavimanditabhūkaraṇa<space/>m</l>
+<l n="b">ākāśakoṣaviṣadañ catu<lb n="3"/>ravdhipādaṁ<space/></l>
+<l n="c">- - ⏑ pādamaṇibhir bharitaṁ valendraṁ<space/></l>
+<l n="d">vadhnāti pāśa<lb n="4"/>patināṁśapareṇa dhātā <g type="ddanda">.</g></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">yaśo yasyātivistirṇna<space/>m</l>
+<l n="b">āttarandh<supplied reason="omitted">r</supplied>aṁ <lb n="5"/> bhaved yadi<space/></l>
+<l n="c">trilokabhuvanatve na<space/></l>
+<l n="d">nūnaṁ bhavitum arhati <g type="spiralR">.</g></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="6"/>ye nayanti tamaḥ puṇya<space/>n</l>
+<l n="b">narakaṁ yānti sadya te<space/></l>
+<l n="c">Avīcinarakaṁ ghoraṁ</l>
+<l n="d"><lb n="7"/>sagotraku<supplied reason="omitted">la</supplied>vāndhavaḥ <g type="ddanda">.</g></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a">svapunyaṁ parapuṇyam vā<space/></l>
+<l n="b">yo vivardhayate <lb n="8"/> naraḥ</l>
+<l n="c">yāvat sūryyasya candrasya<space/></l>
+<l n="d">tāvat svargge vasanti te <g type="ddandaOrnate">.</g></l>
+</lg>
+<p>
+   <lb n="9"/>koṣa <num value="1"><g type="numeral">1</g></num> <add place="above">vilvyala</add> vudi <num value="1"><g type="numeral">1</g></num> padigaḥ <num value="2"><g type="numeral">2</g></num> vat· <num value="1"><g type="numeral">1</g></num> graloṅ tai <num value="2"><g type="numeral">2</g></num> svok· <num value="2"><g type="numeral">2</g></num> khāl· <num value="1"><g type="numeral">1</g></num>
+   <lb n="10"/>suti <num value="2"><g type="numeral">2</g></num> nu slā vluk· <num value="1"><g type="numeral">1</g></num> k<supplied reason="omitted">l</supplied>uy· <num value="1"><g type="numeral">1</g></num> kinara <num value="1"><g type="numeral">1</g></num> chko <num value="1"><g type="numeral">1</g></num> tula <num value="1"><g type="numeral">1</g></num> laṅgau saṁrāp· tai<lb 
+      n="11" break="no"/>ya <num value="1"><g type="numeral">1</g></num> krapi <num value="3"><g type="numeral">3</g></num> khñuṁ si kantur· si sarac· si kaṁphal· si kañ·crok·
+   <lb n="12"/>si tiṅker· <g type="dotMid">.</g> tai bhāva tai kaṁpañ· tai bhadra tai kaṁpur·
+   <lb n="13"/>tai kansān· tai pandan· <g type="circle">.</g> <g type="ddanda">.</g> neḥ gi Aṁpala devadravya nu khñuṁ
+   <lb n="14"/>nau ge lopeya neḥ dau jā ta dvātri<supplied reason="omitted">ṁ</supplied>śanarakka nau
+   <lb n="15"/>ge ta vardheya gi dau sthit ta svārga <g type="ddanda">.</g> sre vāra paryyaṅ· pvan·
+   <lb n="16"/>jaṁhvatt· ti khloñ· vala duñ· ta <gap reason="lost" quantity="1" unit="character"/> khen· ti jvan· ta vraḥ kaṁ<lb 
+      n="17" break="no"/>ste<supplied reason="omitted">ṅ·</supplied> Añ· śivaliṅga sre ti pūrvva thnal<unclear>·</unclear> ti khloñ· vala
+   <lb n="18"/>duñ· ta loñ· vidyāśiva ti jvan· ta vraḥ kaṁsteṅ·
+   <lb n="19"/>Añ· śivaliṅga sre ti Utara vraḥ prasap· dharmmā<lb 
+      n="20" break="no"/>laya jaṁhvat· piy· ti jvan· ta vraḥ kaṁsteṅ· Añ·
+   <lb n="21"/>śivaliṅga
+</p>                   
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="8">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1953_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div>
+ -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+ 	<p n="1">916 Śaka, douzième jour de la lune décroissante d'Aśvayuja, samedi, fut promulguée <supplied reason="subaudible">cette ordonnance</supplied>.</p>
+              <p rend="stanza" n="1">Avec le maître des liens qui est le meilleur de ses attributs, le Créateur lie le puissant Indra <seg rend="pun">ou: le chef d'armée</seg> qui a pour panier la terre ornée du disque de la pleine lune, qui donne l'eau ayant pour réceptable l'atmosphère, qui a pour base les quatre océans et qui est rempli de joyaux <gap reason="lost"/>.</p>
+              <p rend="stanza" n="2">Sa gloire d'une immense étendue, si elle avait une fissure, ne mériterait assurément pas d'occuper les trois mondes.</p>
+              <p rend="stanza" n="3">Ceux qui mènent à la destruction cette œuvre vont immédiatement en enfer, dans le terrible Avīci, avec leurs parents de même clan et de même famille.</p>
+              <p rend="stanza" n="4">Les hommes qui font prospérer leur œuvre ou celle d'autrui résident au ciel aussi longtemps que le soleil et la lune.</p>
+              	<p n="9-13">1 étui, porte-cierge, 1 <foreign>vudi</foreign>, 2 crachoirs, 1 <foreign>vat</foreign>, 2 <foreign>graloṅ tai</foreign>, 2 plateaux, 1 bol, 2 pressoirs, 1 <foreign>nu</foreign> à arec en ivoire, 1 flûte, 1 <foreign>kinnara</foreign>, 1 tambour, 1 balance ; service en cuivre ; 1 <foreign>tai</foreign> ; 3 buffles, esclaves <supplied reason="explanation">Suit une liste de 5<foreign>si</foreign> et 6 <foreign>tai</foreign></supplied>.</p>
+              	<p n="13-15">Tous ces biens du dieu et ces esclaves, ceux qui les voleront iront renaître dans les trente-deux enfers ; ceux qui les augmenteront iront résider au ciel.</p>
+              	<p n="15-21">La rizière Vār Paryyaṅ <supplied reason="subaudible">se composant de</supplied> quatre parcelles achetée par le <foreign>khloñ vala</foreign> à - khen, est offerte au V. K. A. Śivalinga. 
+La rizière à l'est de la route, achetée par le <foreign>khloñ vala</foreign> à Loñ Vidyāśiva, est offerte au V. K. A. Śivaliṅga.
+La rizière au nord du dieu et contiguë au <foreign>dharmālaya</foreign> <supplied reason="subaudible">se composant de</supplied> 3 parcelles est offerte au V. K. A. Śivaliṅga.</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1953_01"/><citedRange unit="page">161-162</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 939.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">161-162</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
