@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Southern doorjamb of the northern sanctuary of Prasat Kuk (K. 742), 916 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00742</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-12-12" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="1"/><num value="916">916</num>śakka dvādaśī roc· Āśva<supplied reason="omitted">yu</supplied>ja śanaścaravā<lb 
+      n="2" break="no"/>ra nu trā praśasta neḥ <g type="ddanda">.</g> vudi <num value="2"><g type="numeral">2</g></num> padigaḥ <num value="1"><g type="numeral">1</g></num> svo<lb 
+         n="3" break="no"/>k<unclear>·</unclear> <num value="4"><g type="numeral">4</g></num> graloṅ· tai <num value="1"><g type="numeral">1</g></num> khāl· <num value="2"><g type="numeral">2</g></num> suti <num value="1"><g type="numeral">1</g></num> cān·hvā<lb 
+      n="4" break="no"/>y· <num value="2"><g type="numeral">2</g></num> val·vyal· <num value="1"><g type="numeral">1</g></num> vat· <num value="1"><g type="numeral">1</g></num> tām<supplied reason="omitted">r</supplied>adrava <num value="1"><g type="numeral">1</g></num> kinara
+   <lb n="5"/>chko <num value="1"><g type="numeral">1</g></num> tula <num value="1"><g type="numeral">1</g></num> tai <num value="1"><g type="numeral">1</g></num> lauv· <num value="1"><g type="numeral">1</g></num> krapi <num value="3"><g type="numeral">3</g></num> khñuṁ vraḥ
+   <lb n="6"/>si taṅker· si slācra si prakat· si saṁAp·
+   <lb n="7"/>si thqyak· si kaṁvrau tai qgat· tai kaṁpit· tai
+   <lb n="8"/>kan·Ā tai kaṁpin· <g type="ddanda">.</g> neḥ gi Aṁpal<unclear>·</unclear> deva<lb 
+      n="9" break="no"/>dra<add place="below">vya</add> phoṅ· nu khñuṁ nau ge ta lopeya neḥ
+   <lb n="10"/>dau jā ta dvātri<supplied reason="omitted">ṁ</supplied>śanaraka nau ge ta vardhe<lb 
+      n="11" break="no"/>ya gi dau sthita ta sv<supplied reason="omitted">arga</supplied> <g type="ddanda">.</g>
+</p>     
+</div>
+ <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem>cān·hvā</lem>
+                   <rdg source="bib:Coedes1953_01">canhvā</rdg>
+                   </app>
+                   <app loc="4">
+                  <lem>y·</lem>
+                   <rdg source="bib:Coedes1953_01">r</rdg>
+                   </app>
+                   <app loc="5">
+                  <lem>lauv·</lem>
+                   <rdg source="bib:Coedes1953_01">sau<gap reason="lost" quantity="1" unit="character"/></rdg>
+                   </app>
+                   </listApp>  
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+ 	<p n="1-11">916 Śaka, douzième jour de la lune décroissante d'Aśvayuja, samedi, est promulguée cette ordonnance :
+
+2 <foreign>vudi</foreign>, 1 crachoir, 4 plateaux, 1 <foreign>graloṅ tai</foreign>, 2 bols, 1 pressoir, 2 <foreign>canhvār</foreign>, 1 porte-cierge, 1 <foreign>vat</foreign>, 1 rigole d'écoulement de cuivre, 1 <foreign>kinnara</foreign>, 1 tambour, 1 balance, 1 <foreign>tai</foreign>, 1 <foreign>sau</foreign>-, 3 buffles, esclaves du dieu <supplied reason="explanation">suit une liste de 6 <foreign>si</foreign> et de 4 <foreign>tai</foreign></supplied>.
+
+Tous ces biens du dieu et ces esclaves, ceux qui les voleront iront dans les trente-deux enfers, ceux qui les augmenteront iront résider au ciel.</p>
+              
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1953_01"/><citedRange unit="page">161-162</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 939.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">161-162</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
