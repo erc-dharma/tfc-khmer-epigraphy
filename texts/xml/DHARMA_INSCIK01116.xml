@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Aranh (K. 1116), 914 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01116</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-12-22" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="A1"/><milestone type="pagelike" unit="item" n="A"/><label xml:lang="eng">Face</label>$ddandaOrnate $floret $ddandaOrnate 914 śaka caturth[ī] roc· bhadrapada candravāra $circleTarget A(ś)v[i](n)[inakṣatra]
+   <lb n="A2"/>mān· vraḥ śāsana dhūlī vraḥ pāda dhūlī jeṅ· vraḥ kaṁmrate(ṅ Añ·) śr[ī]
+   <lb n="A3"/>jayavarmmadeva pre thve praśasta caṅvāta bhūmi laṁvut· thpal· cār· pi saṅ vi {3}
+   <lb n="A4"/>gi roḥh man neḥ bhūmi laṁvut thpal cār ti vāp nit jauv ta vāp [sa]dāśi-
+   <lb n="A5"/>va khloñ gāp vijayapattana kāla ta gi catvārī nava Aṣṭa śaka nu prāk jya-
+   <lb n="A6"/>ṅ I dop yo I @ vāp sadāśiva yok dravya ta roḥh neḥh duñ
+   <lb n="A7"/>thmo Aleṅ thve vraḥ rāja[kā]ryya kāla thve dvāra vraḥ vrāhmaṇaśāla ta gi
+   <lb n="A8"/>dvāra vijayapattana @ vāp nit raṁlik ta steṅ Añ vraḥ guru nu mratāñ
+   <lb n="A9"/>śrī dharaṇīndropakalpa steñ hariśarmma guṇadoṣadarśī paṅgaṁ thpvaṅ nive-
+   <lb n="A10"/>dana @ man bhūmi laṁvut thpal cār ti vāp nit duñ pi jvan ta vraḥ @ vraḥ śāsana
+   <lb n="A11"/>ta steṅ Añ vraḥ guru pre pratyaya dau saṅ gol praśasta ta gi bhūmi laṁvut
+   <lb n="A12"/>thpal cār Oy ta v[ā]p nit @ pre dukta rikta Āy vraḥ sabhā gi bhūmi ti vā-
+   <lb n="A13"/>p nit cat sruk th[ve] sre siddhi @ man lvoḥ ta gi triṇi Ekanava śaka @
+   <lb n="A14"/>dep si kaṁpañ Anak vraḥ tamrya thve Apavāda bhūmi neḥ @ dau tok praśa-
+   <lb n="A15"/>sta kat ñuṁñi @ vāp nit yok praśasta nāṁ dau yal paṅgaṁ thpvaṅ nivedana
+   <lb n="A16"/>vraḥ śāsana pre vraḥ sabhā stap vyavahāra cañ si kaṁpañ @ ti paṅgaṁ thpvaṅ ni-
+   <lb n="A17"/>vedana @ vraḥ śāsana pre nirṇnaya si kaṁpañ hastaccheda @ caṅvātta bhū-
+   <lb n="A18"/>mi laṁvut thpal cār neḥ ta ti vāp nit jauv pi dukta rikta Āy vraḥ sabhā
+   <lb n="A19"/>gi dukta praśasta ta mān hoṅ @ toy pūrvva prasap bhūmi teṁ vo @ dau dakṣiṇa
+   <lb n="A20"/>lvoḥ gi phlū @ ti paścima prasap sre vraḥ taṁko @ ti Uttara prasap ta gi vrai
+   <lb n="A21"/>pānduraṅga @ steñ Añ śivahaṅsa guṇadoṣadarśi yugapata nu mratāñ śrī ja-
+   <lb n="A22"/>jendrapaṇdita @ mratāñ śrī śrutabhaktivallabha sabhāsat @ pandval vraḥ
+                   <p>
+   <lb n="B1"/><milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Face</label>śāsana ta vāp· nārāyana paṁcāṁ pre mok· saṅṅ(·) praśasta neḥ $circleTarget ta sevaka
+                      <lb n="B2"/>kāla mān· vraḥ śāsana ta roḥh· neḥh(·) $circleTarget kaṁsteṅ· śrī vīrendravarmma $circle kaṁste-
+                      <lb n="B3"/>ṅ· śrī mahidharavarmma $circle kaṁsteṅ· śrī jayāyudhavarmma $circleTarget mratāñ· khloñ· śrī vīrava-
+                      <lb n="B4"/>rmma $circle mratāñ· khloñ· śrī nr̥pendrārimathana $circle mratāñ· khloñ· śrī guṇapativa-
+                      <lb n="B5"/>rmma $circleTarget mratāñ· śrī narendravikhyāta $circleTarget mratāñ· śrī nr̥pendravikhyāta $circleTarget vāp· vra-
+                      <lb n="B6"/>hmayogi $circleTarget vāp· paṇditācāryya sabhāsat· $circleTarget kalpanā vāp· nit· taṁmrvāc(·)
+                      <lb n="B7"/>vraḥ rājakāryya ta kamrateṅ· jagat· liṅgapura pratisaṁvatsara velā ryyāp(·) vraḥ
+                      <lb n="B8"/>bhoga $circle raṅko thlvaṅ· I $circleTarget khñuṁ neḥ ta thve kalpanā $circle si kaṁpañ· si kansiyā si kanjrai si
+                      <lb n="B9"/>thmyaṅ· si kañjau si kaṁvin· si khñuṁ si dharmma si kan·sre si kaṁvit· si panheṁ @ tai chke
+                      <lb n="B10"/>tai thṅe phqvan· II tai kandac· tai kaṁvai tai gandha tai chmyāt· kvan· III tai khñuṁ kvan· III tai kaṁ-
+                      <lb n="B11"/>pur· $circleTarget phsaṁ 20 7 $circleTarget gi roḥh(·) kalpanā vāp· nit· tamrvāc· vraḥ rājakāryya $circleTarget riy(·)
+                      <lb n="B12"/>kule ta siṅ· karmmāntara Āy· kanloṅ· gi ta Āc· stāp· vartamāna Āśrama neḥ
+                      <lb n="B1"/>nu khñuṁ neḥ phoṅṅ(·) $ddandaOrnate $floret $ddandaOrnate
+</p>
+</div>
+ <div type="apparatus">
+                <listApp>
+                   <app loc="A1">
+                  <lem></lem>
+                   <rdg source="bib:Pou2001_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
+ 	<p n="A1-A3">En 914 Śaka, le lundi 4e jour de la lune décroissante de Bhadrapada, sous la constellation d'Aśvini, il y eut un ordre de D.V.P.D.J.V.K.A. (= Sa Majesté) Śrī Jayavarmadeva en vue de l'édification d'une inscription portant les limites de la terre Laṁvut Thpal Cār et de l'érection ...</p>
+              <p n="A4-A6">À l'origine, cette terre fut achetée en l'an 894 Śaka par Vāp Nit de Vāp Sadāśiva qui était khloñ gāp à Vijayapattana, au moyen d'1 jyaṅ d'argent et 1 yo de pagne.</p>
+              <p n="A6-A8">Avec ces biens, Vāp Sadāśiva acheta de la latérite pour la corvée roayale, lorsqu furent édifiées les portes de la Salle des Brahmanes aux portes de Vijayapattana.</p>
+              <p n="A8-A10">Vāp Nit rappela à Steṅ Añ le guru royal, à Mratāñ Śrī Dharaṇīndropakalpa et Steṅ Hariśarma inspecteur des qualités et défauts, d'informer [le roi] qu'il avait acheté cette terre Laṁvut Thpal Cār afin de l'offrir au dieu.</p>
+              <p n="A10-A13">Sa Majesté ordonna alors à Steṅ Añ le guru royal d'envoyer des hommes de confiance pour planter des bornes d'inscription en faveur de Vāp Nit au sujet de sa terre Laṁvut Thpal Cār ; d'inscrire [ce fait] dans les documents du Tribunal royal ; de confirmer les droits exclusifs de Vāp Nit d'y établir des localités et de faire rizières.</p>
+              <p n="A13-A15">Voilà qu'en 913 Śaka Si Kaṁpañ qui s'occupait des éléphants royaux contesta les droits afférents à cette terre. Il alla arracher les bornes inscrites et ...</p>
+              <p n="A15-A17">Vāp Nit emporta les bornes [arrachées] pour les montrer au roi et l'informer de l'affaire. Sa Majesté ordonna l'audition de l'affaire au Tribunal royal, lequel l'informa à la fin que Si Kaṁpañ perdait la cause. Celui-ci fut condamné à avoir une (ou les) main(s) coupée(s).</p>
+              <p n="A17-A21">Voici les limites de la terre Laṁvut Thpal Cār achetée par Vāp Nit, lesquelles limites devant être conservées dans les archives du Tribunal royal et sur les bornes. À l'est, cette terre touche à la terre Teṁ Vo ; vers le sud, jusqu'à la route ; à l'ouest, elle touche à la rizière Vraḥ Taṅko ; au nord, à la forêt Pānduraṅga.</p>
+              <p n="A21-B1">Steṅ Añ Śivahaṅsa inspecteur des qualités et défauts, conjointement avec Mratāñ Śrī Jayendrapaṇḍita, Mratāñ Śrī Śrutabhaktivallabha assesseur à la cour, transmit cet ordre royal à Vāp Nārāyaṇa, paṁcāṁ, en lui enjoignant d'ériger cette inscription.</p>
+              <p n="B1-B5">Ont assisté à l'audience royale au moment où ces ordres furent prescrits : Kaṁsteṅ Śrī Vīrendravarma, Kaṁsteṅ Śrī Mahīdharavarma, Kaṁsteṅ Śrī Jayāyuddhavarma, Mratāñ Khloñ Śrī Vīravarma, Mratāñ Khloñ Śrī Nr̥pendrārimathana, Mratāñ Khloñ Śrī Guṇapativarma, Mratāñ Śrī Narendravikhyāta, Vāp Vrahmayogi, Vāp Paṇḍitācārya, assesseur à la cour.</p>
+              <p n="B5-B11">Vāp Nit, inspectuer de la corvée royale, organisa des fournitures pour le dieu de Liṅgapura, tous les ans, lors de la préparation des biens de culte : 1 thlvaṅ de riz, et des serviteurs qui devaient s'occuper de ces offrandes et qui étaient Si Kaṁpañ, Si Kansiyā, Si Kanjrai, Si Thmyaṅ, Si Kanjau, Si Kaṁvin, Si Khñuṁ, Si Dharma, Si Kansre, Si Kaṁvit, Si Pansoṁ ; Tai Chke, Tai Thṅe et deux cadets, Tai Kandac, Tai Kaṁvai, Tai Gandha, Tai Chmyāt et des enfants, Tai Khñuṁ et trois enfants, Tai Kaṁpur. Total: 19.</p>
+              <p n="B11-B13">Voilà donc les prestations rituelles de Vāp Nit, inspecteur des services royaux. Les membres de sa famille qui officient comme karmāntara au temple sont seuls autorisées à recueillir les informations, avec ses serviteurs.</p>
+         </div> 
+            <div type="commentary">
+           <p></p>
+         </div>
+        <div type="bibliography">
+          <p>Edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">145-147</citedRange></bibl>) with a French translation and, re-edited here by Kunthea Chhom from the photo of estampage in Saveros Pou's publication.</p><!-- kuch: The photo of the face A is not clear. The estampage EFEO n. 1475 is missing. -->
+	 <listBibl type="primary">
+    
+	    <bibl n="SP">
+      <ptr target="bib:Pou2001_01"/><citedRange unit="page">145-147</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
