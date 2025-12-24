@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Sema (K. 1141), 894 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:gege">
+                  <forename>Gerdi</forename>
+                  <surname>Gerschheimer</surname>
+               </persName>               
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>               
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01141</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-12-24" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<lg n="1" met="anuṣṭubh"><milestone type="pagelike" unit="item" n="A"/><label xml:lang="eng">Face</label>
+<l n="a"><lb n="A1"/><milestone unit="column" n="a"/>namo stu śavdadehāya</l>
+<l n="b"><milestone unit="column" n="b"/>śavdātītāya śambhave</l>
+<l n="c" real="++-++--+"><milestone unit="column" n="c"/>svarggāpavarggan dadato</l>
+<l n="d"><milestone unit="column" n="d"/>vrahmaṇo parahetave <supplied reason="lost"><g type="ddandaOrnate">.</g></supplied></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="A2"/><milestone unit="column" n="a"/>rudro rarā(ja) [ya]tkāya<milestone unit="column" n="b" break="no"/>s</l>
+<l n="b">saṃpūrṇn(e)[n]dva[r]vvudadyutiḥ</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>kenāpīcchāvaśād gaurī</l>
+<l n="d"><milestone unit="column" n="d"/>-vaktrāmbhojavibhāṃ vyadhāt· <supplied reason="lost"><g type="ddandaOrnate">.</g></supplied></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="A3"/><milestone unit="column" n="a"/>vaṇde viṣṇuñ caturvvāhu(ṃ)</l>
+<l n="b"><milestone unit="column" n="b"/>vyaktāṃ mūrttiṃ vibhartt(i) yaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>vyañjayan n(u) jagaddhetu<milestone unit="column" n="d" break="no"/>m</l>
+<l n="d">ātmaṇaś caturaṅśatām· <supplied reason="lost"><g type="ddandaOrnate">.</g></supplied></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="A4"/><milestone unit="column" n="a"/>namaddhvaṃ vedhasaṃ vrahma</l>
+<l n="b"><milestone unit="column" n="b"/>paraṃ yo vodhayann iva</l>
+<l n="c"><milestone unit="column" n="c"/>sa(mā)dhisādhanaṃ viśvaṃ</l>
+<l n="d"><milestone unit="column" n="d"/>śāntaḥ padmāsana(ṃ) vyadhāt· <supplied reason="lost"><g type="ddandaOrnate">.</g></supplied></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="A5"/><milestone unit="column" n="a"/>gaurī rājati rudrāṅge</l>
+<l n="b"><milestone unit="column" n="b"/>saṅgatā rājatetarām·</l>
+<l n="c"><milestone unit="column" n="c"/>yadaṅgarucīr iddhābhāṃ</l>
+<l n="d"><milestone unit="column" n="d"/>haimīva sphaṭikatvaṣi<supplied reason="lost"><g type="ddandaOrnate">.</g></supplied></l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="A6"/><milestone unit="column" n="a"/>vande vāgīśvarīṃ viśva</l>
+<l n="b"><milestone unit="column" n="b"/>-vaktre yādhita sannidhim·</l>
+<l n="c"><milestone unit="column" n="c"/>śavdadehaṃ haraṃ hṛtsthaṃ</l>
+<l n="d"><milestone unit="column" n="d"/>vivakṣur iva vāṅmayī <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="A7"/><milestone unit="column" n="a"/>Āsīc chrījayavarmmeti</l>
+<l n="b"><milestone unit="column" n="b"/>yaś śrīrājendravarmmaṇaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>rājadharmme manus sūnu<milestone unit="column" n="d" break="no"/>r</l>
+<l n="d">indus somānvayāmvare <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="A8"/><milestone unit="column" n="a"/>śrutismr̥tipramāṇena</l>
+<l n="b"><milestone unit="column" n="b"/>kr̥taṃ kr̥ta(va)ti sthiram·</l>
+<l n="c"><milestone unit="column" n="c"/>yugaṃ yatra kalir dūra<milestone unit="column" n="d" break="no"/>[n]</l>
+<l n="d">nāvakāśam a(la)psata <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="A9"/><milestone unit="column" n="a"/>sadājau jātakhedeva</l>
+<l n="b"><milestone unit="column" n="b"/>jayaśrīr yyam adhiśriyam·</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>śiśrāya śāntaye śārṅg(i)</l>
+<l n="d"><milestone unit="column" n="d"/>-śauryyaṃ vīra(ṃ) bhujārjjitā <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="A10"/><milestone unit="column" n="a"/>kāmaṃ kāntipratidvand(v)aṃ</l>
+<l n="b"><milestone unit="column" n="b"/>kāntyaivāpi sakārmmukam·</l>
+<l n="c"><milestone unit="column" n="c"/>manye manmathagr̥hyān yo</l>
+<l n="d"><milestone unit="column" n="d"/>roṣādīn ajayad dhiyā <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="A11"/><milestone unit="column" n="a"/>yattejo bhūtapūrvvaṃ ya<milestone unit="column" n="b" break="no"/>n</l>
+<l n="b">muktāvarṣaṃ stane srubhiḥ</l>
+<l n="c"><milestone unit="column" n="c"/>dhruvaṃ vivarṣiṣat tasthau</l>
+<l n="d"><milestone unit="column" n="d"/>vairistrīṇāṃ hr̥damvare <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="12" met="anuṣṭubh">
+<l n="a"><lb n="A12"/><milestone unit="column" n="a"/>śaśāsa śāstradarśśaṃ ya<milestone unit="column" n="b" break="no"/>s</l>
+<l n="b">trivarggāvāptaye prajāḥ</l>
+<l n="c"><milestone unit="column" n="c"/>saṃskārahetavas tv āsāṃ</l>
+<l n="d"><milestone unit="column" n="d"/>kevala[ṃ] guravo matāḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="13" met="anuṣṭubh">
+<l n="a"><lb n="A13"/><milestone unit="column" n="a"/>puṃvadbhāva[s st](r)[i]yāś śāstre</l>
+<l n="b"><milestone unit="column" n="b"/>mukhyavr̥ttir bhaved iha</l>
+<l n="c"><milestone unit="column" n="c"/>yatkīrttir vviṣṇuvad vyāptā</l>
+<l n="d"><milestone unit="column" n="d"/>trilokīṃ viśramaṅ gatā <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="14" met="anuṣṭubh">
+<l n="a"><lb n="A14"/><milestone unit="column" n="a"/>yaṃ prāpya [rā]jaśavdo bhū<milestone unit="column" n="b" break="no"/>c</l>
+<l n="b">caritārtho guṇādibhiḥ</l>
+<l n="c"><milestone unit="column" n="c"/>ditthādivat pareṣān tu</l>
+<l n="d"><milestone unit="column" n="d"/>nirguṇānāṃ yadr̥cchayā <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="15" met="anuṣṭubh">
+<l n="a"><lb n="A15"/><milestone unit="column" n="a"/>tasya bhūbhr̥nmahendrasya</l>
+<l n="b"><milestone unit="column" n="b"/>gurur āsid damūnasaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>yo nūnadhiṣaṇaś śaivī</l>
+<l n="d"><milestone unit="column" n="d"/>varṇnāśramaguror api <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="16" met="anuṣṭubh">
+<l n="a"><lb n="A16"/><milestone unit="column" n="a"/>vaṅśavidyāviśuddhaṃ yaṃ</l>
+<l n="b"><milestone unit="column" n="b"/>vrahmakṣatraṃ kuśeśayā</l>
+<l n="c"><milestone unit="column" n="c"/>sarasvatī ca śiśrāya</l>
+<l n="d"><milestone unit="column" n="d"/>sthiram ekasamāśrayam· <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="17" met="anuṣṭubh">
+<l n="a"><lb n="A17"/><milestone unit="column" n="a"/>cakrame sarvvavidyāsu</l>
+<l n="b"><milestone unit="column" n="b"/>sadguṇeṣu kalāsv api</l>
+<l n="c"><milestone unit="column" n="c"/>yadvuddhir yyuktibhedeva</l>
+<l n="d"><milestone unit="column" n="d"/>vidyāguṇakaloditā <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="18" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="A18"/><milestone unit="column" n="a"/>sarvvasaṃpattisāraṃ yad</l>
+<l n="b"><milestone unit="column" n="b"/>-vadanyatvam akṛtrimam·</l>
+<l n="c"><milestone unit="column" n="c"/>lavdhacintāmaṇer artha<milestone unit="column" n="d" break="no"/>m</l>
+<l n="d">arth[[i]]naṃ yad alambhayat· <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="19" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="A19"/><milestone unit="column" n="a"/>traividyair āryyaviprair yyat</l>
+<l n="b"><milestone unit="column" n="b"/>-sadma saṃprāpya bhūtaye</l>
+<l n="c" real="++-++++-"><milestone unit="column" n="c"/>vedārthavidyāgoṣṭhībhi<milestone unit="column" n="d" break="no"/>r</l>
+<l n="d">āryyāvartta iva sthitam· <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="20" met="anuṣṭubh">
+<l n="a"><lb n="A20"/><milestone unit="column" n="a"/>cakre tṛptin navārthodyai<milestone unit="column" n="b" break="no"/>r</l>
+<l n="b">yyas svayaṅkṛtanāṭake</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>svadeśaparadeśīya</l>
+<l n="d"><milestone unit="column" n="d"/>manasvimanasāṃ rasaiḥ <supplied reason="lost"><g type="ddandaOrnate">.</g></supplied></l>
+</lg>
+                   <lg n="21" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="A21"/><milestone unit="column" n="a"/>yo dīnad(u)ḥkhadāridrya</l>
+<l n="b"><milestone unit="column" n="b"/>-tryanaloddīpitārthinaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>kāruṇyapuṣkarāvartto</l>
+<l n="d"><milestone unit="column" n="d"/>nandayed dānavr̥ṣṭibhiḥ <unclear><g type="ddandaOrnate">.</g></unclear></l>
+</lg>
+                   <lg n="22" met="anuṣṭubh">
+<l n="a" real="++-+---+"><lb n="A22"/><milestone unit="column" n="a"/>grāsādiparv(v)adivasaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>vidyayā vodhayed vudhān·</l>
+<l n="c"><milestone unit="column" n="c"/>dīnāndhavālavṛddhān yo</l>
+<l n="d"><milestone unit="column" n="d"/>dikṣu dānavi(śeṣa)taḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="23" met="anuṣṭubh">
+<l n="a"><lb n="A23"/><milestone unit="column" n="a"/>yo liṅgam īśvarapure</l>
+<l n="b"><milestone unit="column" n="b"/>ś[i]vatejovivr̥ṅhitam·</l>
+<l n="c"><milestone unit="column" n="c"/>yat sambhakoṭimantrasya</l>
+<l n="d"><milestone unit="column" n="d"/>tejaḥpuñjam ivoditam· <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="24" met="anuṣṭubh">
+<l n="a"><lb n="A24"/><milestone unit="column" n="a"/>sthāpayitvā vidhānena</l>
+<l n="b"><milestone unit="column" n="b"/>śraddhābhaktivibhūtibhiḥ</l>
+<l n="c"><milestone unit="column" n="c"/>bhuktimuktikr̥tārtho pi</l>
+<l n="d"><milestone unit="column" n="d"/>kriyājñānaprakarṣitaḥ <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="25" met="anuṣṭubh">
+<l n="a"><lb n="A25"/><milestone unit="column" n="a"/>śikṣayañ chilpakarmmāṇi</l>
+<l n="b"><milestone unit="column" n="b"/>kārayan sukṛtan narān·</l>
+<l n="c"><milestone unit="column" n="c"/>yo daiśadikṣu sārccāni</l>
+<l n="d"><milestone unit="column" n="d"/>śivaliṅgāny atiṣṭhipat· <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="26" met="anuṣṭubh"><milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Face</label>
+<l n="a"><lb n="B1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/><g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="27" met="anuṣṭubh">
+<l n="a"><lb n="B2"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/><g type="ddandaOrnate">.</g></l>
+</lg>
+     <lg n="28" met="anuṣṭubh">
+<l n="a"><lb n="B3"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/><g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="29" met="anuṣṭubh">
+<l n="a"><lb n="B4"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/><g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="30" met="anuṣṭubh">
+<l n="a"><lb n="B5"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/><g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="31" met="anuṣṭubh">
+<l n="a"><lb n="B6"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/><g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="32" met="anuṣṭubh">
+<l n="a"><lb n="B7"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/><g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="33" met="anuṣṭubh">
+<l n="a"><lb n="B8"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/><g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="34" met="anuṣṭubh">
+<l n="a"><lb n="B9"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/><g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="35" met="anuṣṭubh">
+<l n="a"><lb n="B10"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/><g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="36" met="anuṣṭubh">
+<l n="a"><lb n="B11"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><milestone unit="column" n="c"/></l>
+<l n="d"><milestone unit="column" n="d"/><g type="ddandaOrnate">.</g></l>
+</lg>
+   <lb n="B12"/>
+                   <lb n="B13"/>
+                   <lb n="B14"/>
+                   <lb n="B15"/>
+                   <lb n="B16"/>
+                   <lb n="B17"/>
+                   <lb n="B18"/>
+                   <lb n="B19"/>
+                   <lb n="B20"/>
+                   <lb n="B21"/>
+                   <lb n="B22"/>
+                   <lb n="B23"/>
+                   <lb n="B24"/>
+                   <lb n="B25"/>
+                   <lb n="B26"/>
+                   <lb n="B27"/>
+   </p>
+                   <p><lb n="C1"/><milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Face</label>
+                      <lb n="C2"/>
+                      <lb n="C3"/>
+                      <lb n="C4"/>
+                      <lb n="C5"/>
+                      <lb n="C6"/>
+                      <lb n="C7"/>
+                      <lb n="C8"/>
+                      <lb n="C9"/>
+                      <lb n="C10"/>
+                      <lb n="C11"/>
+                      <lb n="C12"/>
+                      <lb n="C13"/>
+                      <lb n="C14"/>
+                      <lb n="C15"/>
+                      <lb n="C16"/>
+                      <lb n="C17"/>
+                      <lb n="C18"/>
+                      <lb n="C19"/>
+                      <lb n="C20"/>
+                      <lb n="C21"/>
+                      <lb n="C22"/>
+                      <lb n="C23"/>
+                      <lb n="C24"/>
+                      <lb n="C25"/>
+                      <lb n="C26"/>
+                      <lb n="C27"/>
+                      <lb n="C28"/>
+                      <lb n="C29"/>
+                      <lb n="C30"/>
+                      <lb n="C31"/>
+                   </p>
+</div>
+ <div type="apparatus">
+                <listApp>
+                   <app loc="A3">
+                  <lem></lem>
+                   <rdg source="bib:Pou2001_01"></rdg>
+                   </app>
+                   
+                   </listApp>  
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
+ 	<p n="A1-A10"></p>
+         </div> 
+            <div type="commentary">
+           <p></p>
+         </div>
+        <div type="bibliography">
+          <p>Edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">115-117</citedRange></bibl>) with a French translation, re-edited here by Gerdi Gerschheimer, Dominic Goodall and Kunthea Chhom from the photo of estampage EFEO n. 1462. This edition and translation of the Sanskrit part is prepared in the context of the ERC DHARMA project during reading sessions in 2022 led by Dominic Goodall and S.L.P. Anjaneya Sarma (EFEO), and attended by Kunthea Chhom, Harunaga Isaacson, Judit Törzsök et al. It is based on the unpublished edition of Gerdi Gerschheimer and on the partial edition (also based on that of Gerdi Gerschheimer) by Julia Estève (<bibl rend="omitname"><ptr target="bib:Esteve2009_01"/><citedRange unit="page">520-523</citedRange></bibl>), which covers stanzas 26–36. Gerdi Gerschheimer’s edition is based on the EFEO estampage n. 1462, on an estampage belonging to Claude Jacques, and on an edition in a Thai journal (CNPT).</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="SP">
+      <ptr target="bib:Pou2001_01"/><citedRange unit="page">115-117</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
