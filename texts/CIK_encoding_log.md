@@ -707,7 +707,7 @@ K.	294 |# |# |#|
 |K.	588 |# |# |#|
 |K.	589 |kuch |done |IC III|
 |K.	590 |kuch |done |IC III|
-|K.	591 |# |# |#|
+|K.	591 |kuch |done |IC III|
 |K.	592 |kuch |done |Cœdès 1951, IC III|
 |K.	593 |chch |done |IC III|
 |K.	594 |# |# |#|
@@ -787,7 +787,7 @@ K.	294 |# |# |#|
 |K.	666 |kuch | done |IC V|
 |K.	667 |kuch |done |unpublished|
 |K.	668 |# |# |#|
-|K.	669 |chch |pending |IC I|
+|K.	669 |kuch |done |IC I|
 |K.	670 |kuch |done |IC VII|
 |K.	671 |# |# |#|
 |K.	672 |# |# |#|
@@ -827,7 +827,7 @@ K.	294 |# |# |#|
 |K.	704 |chch |done |unpublished|
 |K.	705 |kuch |done |IC V|
 |K.	706 |kuch |done |IC V|
-|K.	707 |chch |pending |IC V|
+|K.	707 |kuch |done |IC V|
 |K.	708 |kuch |done |IC V|
 |K.	709 |kuch | done |IC V|
 |K.	710 |kuch | done |IC VI|
@@ -861,8 +861,8 @@ K.	294 |# |# |#|
 |K.	738 |# |# |#|
 |K.	739 |# |# |#|
 |K.	740 |# |# |#|
-|K.	741 |# |# |#|
-|K.	742 |# |# |#|
+|K.	741 |kuch |done |IC V|
+|K.	742 |kuch |done |IC V|
 |K.	743 |# |# |#|
 |K.	744 |# |# |#|
 |K.	745 |kuch |done |IC VII|
@@ -894,7 +894,7 @@ K.	294 |# |# |#|
 |K.	771 |kuch |done |NIC I|
 |K.	772 |# |# |#|
 |K.	773 |# |# |#|
-|K.	774 |# |# |#|
+|K.	774 |kuch |done |IC IV|
 |K.	775 |# |# |#|
 |K.	776 |# |# |#|
 |K.	777-1 |chch |done |Clouet et al (forthcoming)|
@@ -1008,9 +1008,9 @@ K.	294 |# |# |#|
 |K.	882 |# |# |#|
 |K.	883 |# |# |#|
 |K.	884 |kuch |done |IC VI|
-|K.	885 |# |# |#|
+|K.	885 |kuch |done |IC V|
 |K.	886 |sapi |pending |IC V |
-|K.	887 |# |# |#|
+|K.	887 |kuch |done |IC V|
 |K.	888 |# |# |#|
 |K.	889 |# |# |#|
 |K.	890 |# |# |#|
@@ -1225,7 +1225,7 @@ K.	294 |# |# |#|
 |K.	1064 |# |# |#|
 |K.	1065 |# |# |#|
 |K.	1066 |# |# |#|
-|K.	1067 |# |# |#|
+|K.	1067 |kuch |done |IC V|
 |K.	1068 |chch |done |NIC II-III|
 |K.	1069 |kuch |done |Cha-em Kaeokhlai|
 |K.	1070 |# |# |#|
@@ -1248,7 +1248,7 @@ K.	294 |# |# |#|
 |K.	1087 |# |# |#|
 |K.	1088 |# |# |#|
 |K.	1089 |# |# |#|
-|K.	1090 |# |# |#|
+|K.	1090 |kuch |done |NIC II-III|
 |K.	1091 |# |# |#|
 |K.	1092 |# |# |#|
 |K.	1093 |# |# |#|
@@ -1274,7 +1274,7 @@ K.	294 |# |# |#|
 |K.	1113 |# |# |#|
 |K.	1114 |kuch|done |Chhom 2020|
 |K.	1115 |kuch |done |Kaeokhlai 1986|
-|K.	1116 |# |# |#|
+|K.	1116 |kuch |done |NIC II-III|
 |K.	1117 |chch |pending |Cha-em Kaeokhlai|
 |K.	1118 |# |# |#|
 |K.	1119 |# |# |#|
@@ -1299,7 +1299,7 @@ K.	294 |# |# |#|
 |K.	1138 |# |# |#|
 |K.	1139 |# |# |#|
 |K.	1140 |kuch |done |unpublished|
-|K.	1141 |chch |pending | NIC II-III|
+|K.	1141 |kuch |done |NIC II-III|
 |K.	1142 |kuch |done |Jacques 2007|
 |K.	1143 |# |# |#|
 |K.	1144 |# |# |#|
@@ -1337,7 +1337,7 @@ K.	294 |# |# |#|
 |K.	1174 |kuch |done |unpublished|
 |K.	1175 |# |# |#|
 |K.	1176 |kuch|done |unpublished|
-|K.	1177 |# |# |#|
+|K.	1177 |kuch |done |unpublished|
 |K.	1178 |# |# |#|
 |K.	1179 |# |# |#|
 |K.	1180 |kuch |done |Cha-em Kaeokhlai 2542|
