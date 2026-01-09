@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela from Tuk Cum (K. 238), 871 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00238</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-01-09" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p><milestone type="pagelike" unit="item" n="A"/><label xml:lang="eng">Face</label>
+   <lb n="A1"/><num value="871">871</num> śaka pañcamī ket puṣya vrahaspativāra nu Ācāryya bajrendrā<lb 
+      n="A2" break="no"/>cāryya nu vāp dhū sthāpanā vraḥ kaṁmrateṅ Añ śrī trailokyanātha
+   <lb n="A3"/>Āy sruk cuṅ vis pūrvva chdiṅ <g type="circle">.</g> pi jvan khñuṁ sruk sre Āśrama daṁmriṅ
+   <lb n="A4"/>ta vraḥ noḥ ta punya dai <g type="circle">.</g> riy sre stuk veṅ ti Ācāryya duñ ta
+   <lb n="A5"/>steṅ Añ vidyādhipa pi jvan ta vraḥ nu poṅ mvāy kryau vyar vluk
+   <lb n="A6"/>thpvaṅ <num value="1"><g type="numeral">I</g></num> <g type="circle">.</g> thnap vlaḥ piy <g type="circle">.</g> thyāy yau mvāy jña vlaḥ <g type="circle">.</g> srū thlvaṅ <num value="10"><g type="numeral">10</g></num>
+   <lb n="A7"/>tiṅ caṅcāṅ <num value="1"><g type="numeral">I</g></num> <g type="circle">.</g> ti saṅ gol pi jvan ta vraḥ <g type="circleTarget">.</g> sre man loñ
+   <lb n="A8"/>qnanta khloñ viṣaya jeṅ tarāñ sruk nāgapattana Añjeñ Ā<lb 
+      n="A9" break="no"/>cāryya bajrendrācāryya dau coṅ It ta ti vraḥ Āy sru<lb 
+         n="A10" break="no"/>k nāgapattana <g type="circle">.</g> Aṁvi duk jagati lvoḥ duk pañcaśūla <g type="circle">.</g> nu man Ā<lb 
+            n="A11" break="no"/>cāryya cāp thmo phoṅ phle It noḥ pi Oy <g type="circle">.</g> nu man loñ
+   <lb n="A12"/>Ananta pre Ācāryya draṅ vighna vraḥ nu sruk Aṁvi kāla vraḥ rā<lb 
+      n="A13" break="no"/>jya dhūli vraḥ pāda ta stāc dau paramaśivaloka <g type="circle">.</g> gi pi loñ Ananta
+   <lb n="A14"/>Oy dakṣiṇā Ācāryya nu sre neḥh <g type="circle">.</g> kāla loñ Ananta mo<lb 
+      n="A15" break="no"/>k saṅ gol ta gi sre neḥh pi Oy ta Ācāryya jvan ta vraḥh <g type="circle">.</g> Ācā<lb 
+         n="A16" break="no"/>ryya Oy phlās loñ Ananta <g type="circle">.</g> nu kdaṅ vār panlāy vlaḥ <g type="circle">.</g> thnap cira vlaḥ <g type="circle">.</g>
+   <lb n="A17"/>thyāy kapāla vlaḥ ghaṇa yau <num value="4"><g type="numeral">4</g></num> <g type="circle">.</g> jeṅ poṅ caṁnvat srapāc <num value="1"><g type="numeral">I</g></num> <g type="circle">.</g>
+   <lb n="A18"/>ti Oy ta vāp vis thnap vlaḥ <g type="circle">.</g> srayū vnāt I ghaṇa vlaḥ <g type="circle">.</g> ti Oy ta vāp
+   <lb n="A19"/>tirtha thyāy yau <num value="1"><g type="numeral">I</g></num> ghaṇa vlaḥ <g type="circle">.</g> ti Oy ta vāp hi pratyaya thnap vlaḥ gha<lb 
+      n="A20" break="no"/>ṇa yau <num value="1"><g type="numeral">I</g></num> <g type="circle">.</g> siddhi sre neḥ ta Ācāryya qyat Apavāda <g type="circleTarget">.</g> riy sre t<gap reason="lost" quantity="1" unit="character"/>
+   <lb n="A21"/>ṇā jaṁhvat <num value="1"><g type="numeral">I</g></num> <g type="circleTarget">.</g>
+</p>
+                   <p><milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Face</label>
+   <lb n="B1"/><milestone unit="column" n="a"/>nā bhāga toy khnett <g type="circle">.</g> riy khñuṁ nu Upā<milestone unit="column" n="b"/>nā bhāga toy rṇnoc <g type="circle">.</g> Aṁmraḥ si pre
+                      <lb n="B2"/><milestone unit="column" n="a" break="no"/>ya Ācāryya phoṅ man jvan ta vraḥ<milestone unit="column" n="b"/>thama <g type="circle">.</g> si kan-Ū cāṁ pūjā <g type="circle">.</g> tai cāṁpa
+                      <lb n="B3"/><milestone unit="column" n="a"/>noḥ ta punya dai <g type="circle">.</g> Aṁraḥ si chnāṅ <g type="circle">.</g><milestone unit="column" n="b"/>mahānasa <g type="circle">.</g> tai kandeṅ mahānasa
+                      <lb n="B4"/><milestone unit="column" n="a"/>si paṁnaṅ pek <g type="circle">.</g> tai kaṁvi mahānasa <g type="circle">.</g><milestone unit="column" n="b"/>sot <g type="circle">.</g> tai panheṁ patrakāra <g type="circle">.</g> k<supplied reason="lost">va</supplied>
+                      <lb n="B5"/><milestone unit="column" n="a"/>tai pandān mahānasa sot tai ka-<milestone unit="column" n="b" break="no"/>n tai panheṁ tai kañ <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>e tiṅ
+                      <lb n="B6"/><milestone unit="column" n="a"/>nteṁ patrakāra <g type="circle">.</g> tai kandai pas gandha <g type="circle">.</g><milestone unit="column" n="b"/>tai kañjā pas gandha <supplied reason="lost">tai</supplied> chk<gap reason="lost" quantity="1" unit="character"/> tiṅ <g type="circle">.</g>
+                      <lb n="B7"/><milestone unit="column" n="a"/>raṅko yajña vraḥ liḥ <num value="1"><g type="numeral">I</g></num> <gap reason="lost" quantity="1" unit="character"/> qso dnāl pi-<milestone unit="column" n="b"/>tai kaṁphal tiṅ sot <g type="circle">.</g> raṅko ya
+                      <lb n="B8"/><milestone unit="column" n="a"/>y thmoy <g type="circle">.</g> Āśramavalaya paści-<milestone unit="column" n="b" break="no"/>jña vraḥ liḥ <num value="1"><g type="numeral">I</g></num> <gap reason="lost" quantity="1" unit="character"/> qso dnāl piy thmoy
+                      <lb n="B9"/><milestone unit="column" n="a"/><supplied reason="lost">ma</supplied>bhāga toy dakṣiṇa <g type="circle">.</g> nu Antāṁ phle<milestone unit="column" n="b"/>Āśramavalaya paścima bhāga toy
+                      <lb n="B10"/><milestone unit="column" n="a"/>gi <g type="circle">.</g> kadāha <num value="1"><g type="numeral">I</g></num> <g type="circle">.</g> paṅkāp mvāy <g type="circleTarget">.</g><milestone unit="column" n="b"/>Uttara <g type="circle">.</g> nu Antām phle gi <g type="circle">.</g> svok chnār <num value="1"><g type="numeral">I</g></num>
+                      <lb n="B11"/>vraḥ neḥ man Añ sthāpanā <g type="circle">.</g> nu khñuṁ sruk sre nuv Upāya Añ coṅṅ
+                      <lb n="B12"/>syaṅ ta Āyatta jā nai vāp dhū nu chloñ Āryyabhadra ta kanmvāy Añ
+</p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1954_02"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+ 	<p n="A1-A4">871 Śaka, cinquième jour de la lune croissante de Puṣya, jeudi, Ācārya Bajrendrācārya et Vāp Dhū érigent V. K. A. Śrī Trailokyanātha au pays de Cun Vis à l'est de la rivière, et offrent esclaves, villages, rizières, ermitage, plantations à ce dieu qui est une œuvre méritoire distincte.</p>
+              <p n="A4-A7">La rizière de Stuk Veṅ. L'<foreign>ācārya</foreign> l'a achetée à Steṅ Añ Vidyādhipa pour l'offrir au dieu, au prix de 1 <foreign>poṅ</foreign>, 2 châtrés, 1 tête d'ivoire, 3 paires de <foreign>thnap</foreign>, 1 <foreign>yau</foreign> de <foreign>thyāy</foreign>, 1 paire de <foreign>jña</foreign>, 10 <foreign>thlvaṅ</foreign> de paddy, 1 <foreign>tiṅ caṅcāṅ</foreign>. On y a planté les bornes pour les offrir au dieu.</p>
+              <p n="A7-A14">Une rizière <supplied reason="subaudible">obtenue comme il va être dit</supplied>. Loñ Ananta, chef de district <supplied reason="explanation"><foreign>khloñ viṣaya</foreign></supplied> de Jeṅ Tarāñ, du pays de Nāgapattana, avait invité Ācārya Bajrendrācārya à aller assembler des briques au sanctuaire du pays de Nāgapattana, depuis la pose de la base, jusqu'à la pose de la flèche à cinq pointes. L'<foreign>ācārya</foreign> a pris toutes les pierres <gap reason="lost"/> ces briques pour les donner. Alors Loñ Ananta avait chargé l'<foreign>ācārya</foreign> de <gap reason="lost"/> au sanctuaire et au village depuis l'époque du règne de S. M. qui est allé au Paramaśivaloka : c'est pourquoi Loñ Ananta a donné cette rizière en honoraire à l'<foreign>ācārya</foreign>.</p>
+              <p n="A14-A17">Lorsque Loñ Ananta vint planter les bornes de cette terre et les donner à l'<foreign>ācārya</foreign> pour les offrir au dieu, l'<foreign>ācārya</foreign> a remis comme indemnité à Loñ Ananta une paire de <foreign>khdaṅ vār panlāy</foreign>, une paire de thnap śira, une paire de <foreign>thyāy kapāla</foreign>, 4 <foreign>yau</foreign> de <supplied reason="subaudible">tissu</supplied> épais, 1 <foreign>jeṅ poṅ caṁnvat srapāc</foreign> ;</p>
+              <p n="A18-A20">il a donné à Vāp Vis une paire de <foreign>thnap</foreign>, 1 <foreign>srayā vnāt</foreign>, une  paire de <supplied reason="subaudible">tissu</supplied> épais ; à Vāp Tīrtha un <foreign>yau</foreign> de <foreign>thyāy</foreign>, une paire de <supplied reason="subaudible">tissu</supplied> épais ; à Vāp Hi, homme de confiance, une paire de <foreign>thnap</foreign>, 1 <foreign>yau</foreign> de <supplied reason="subaudible">tissu</supplied> épais.</p>
+              <p n="A20-A21">Le droit exclusif sur cette rizière appartient à l'<foreign>ācārya</foreign> sans contestations ; la rizière <gap reason="lost"/>ṇa, 1 parcelle.</p>
+              <p n="B1-B10">Part de la lune croissante <supplied reason="subaudible">en ce qui concerne</supplied> les esclaves et tous les moyens de subsistance que l'<foreign>ācārya</foreign> offre à ce dieu qui est une œuvre méritoire distincte : Amraḥ Si Chnāṅ ; Si Paṁnaṅ, ouvreur ; Tai Kaṁvi, cuisinière ; Tai Pandān, autre cuisinière ; Tai Kanteṁ, fabricante de feuilles ; Tai Kandai, broyeuse de parfums ; riz décortiqué pour le sacrifice au dieu, 1 <foreign>liḥ</foreign> ; riz blanc 3 <foreign>dnāl</foreign>, <foreign>thmoy</foreign> ; l'enceinte occidentale de l'ermitage partie sud, avec les plantations de fruit : 1 bassine ; 1 <foreign>paṅkāp</foreign>.
+              Part de la lune décroissante : Amraḥ Si Prathama ; Si Kan-ū, officiant ; Tai Cāṁpa, cuisinière ; Tai Kandeṅ, autre cuisinière ; Tai Panheṁ, fabricante de feuilles ; la fille de Tai Panheṁ, Tai Kañ<gap reason="lost"/>, <foreign>tiṅ</foreign> ; Tai Kañjā, broyeuse de parfums ; Tai Chk<gap reason="lost"/>, <foreign>tiṅ</foreign> ; Tai Kaṁphal, autre <foreign>tiṅ</foreign> ; riz décortiqué pour le sacrifice au dieu, 1 <foreign>liḥ</foreign> ; riz blanc, 3 <foreign>dnāl</foreign>, thmoy ; enceinte occidentale de l'ermitage, partie nord, avec les plantations de fruit, 1 plateau gravé.</p>
+              <p n="B11-B12">Ce dieu que j'ai érigé, les esclaves, villages, rizières et moyens de subsistance que je lui ai attribués, relèvent de la compétence de Vāp Dhū et Chloñ Āryabhadra, mes neveux.</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">119-122</citedRange></bibl>) with a French translation.</p><!-- kuch: The estampage EFEO BN 145 is not available. -->
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">119-122</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
