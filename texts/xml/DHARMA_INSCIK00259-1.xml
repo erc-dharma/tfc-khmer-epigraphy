@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>First inscription on the southern doorjamb of Vat Khnat (K. 259-1), 874 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00259-1</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-01-14" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+<p><lb n="1"/><g type="ddanda">.</g> Oṁ <g type="ddanda">.</g></p>
+                   <lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/>jananīñ jagatāṁ vande<space/></l>
+<l n="b">padmā<seg met="==-+-="><gap reason="lost" quantity="6" unit="character"/></seg><space/></l>
+<l n="c"><seg met="====-+"><gap reason="lost" quantity="6" unit="character"/></seg><supplied reason="lost">vi</supplied>ṣṇo<space/>r</l>
+<l n="d">urasīndīvarasthale <g type="ddanda">.</g></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="2"/>vaktrendunirggatā bhāti<space/></l>
+<l n="b">lakṣmīs<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> = ⏑ - ⏑ =<space/></l>
+<l n="c"><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg><space/></l>
+<l n="d">Akṣarāmbhojavodhirī <g type="ddanda">.</g></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="3"/>Āsīd vaiṣṇavasudhāda<space/></l>
+<l n="b">-dughāmvudhi<seg met="-+-="><gap reason="lost" quantity="4" unit="character"/></seg><space/></l>
+<l n="c"><seg met="====-++="><gap reason="lost" quantity="8" unit="character"/></seg><space/></l>
+<l n="d"><seg met="=="><gap reason="lost" quantity="2" unit="character"/></seg>tajñānabhāskaraḥ <g type="ddanda">.</g></l>
+</lg>
+                   <lg n="4" met="sragdharā">
+<l n="a"><lb n="4"/>śrīmān ākīrṇṇakīrttiḥ kakubhibhatr̥ṣitā yasya ya<seg met="+-++"><gap reason="lost" quantity="4" unit="character"/></seg><space/></l>
+<l n="b"><seg met="++++-++------++-"><gap reason="lost" quantity="16" unit="character"/></seg>nnā<seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg>phaṇaṁ yaḥ</l>
+<l n="c"><lb n="5"/>tadvaṅśaṁ viṣṇulokan nilayam upanayan mātaraṁ loka<supplied reason="lost">nātha</supplied><space/><supplied reason="lost">m</supplied></l>
+<l n="d"><seg met="++++-++------+"><gap reason="lost" quantity="14" unit="character"/></seg>s sthāpayām āsa lakṣmīm <g type="ddanda">.</g></l>
+</lg>
+                   <lg n="5" met="upajāti">
+<l n="a"><lb n="6"/>śrīmān ahaṁ vaḥ kulapuṣpaho <seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg><space/></l>
+<l n="b"><seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg> yan<seg type="component" subtype="vowel"><gap reason="illegible" quantity="1" unit="component"/></seg> dharmmañ jagr̥<seg met="+-++"><gap reason="lost" quantity="4" unit="character"/></seg><space/></l>
+<l n="c"><seg met="=+-++--+-+"><gap reason="lost" quantity="10" unit="character"/></seg>tnai<space/>s</l>
+<l n="d">saṁvarddhinas tatphalabhāgino hi</l>
+</lg>
+                   <lg n="6" met="upajāti">
+<l n="a"><lb n="7"/>puṇyā <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>i <seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg>pālayata<seg met="-"><gap reason="lost" quantity="1" unit="character"/></seg>pālo<space/></l>
+<l n="b">yadyajvabhis sā<seg met="--+-++"><gap reason="lost" quantity="6" unit="character"/></seg><space/></l>
+<l n="c"><seg met="=+-++--+-+="><gap reason="lost" quantity="11" unit="character"/></seg><space/></l>
+<l n="d">dharmmaṁ kaniṣṭhaṁ hi satāṁ pravr̥ttiḥ <g type="ddanda">.</g></l>
+</lg>
+                   <p><lb n="8"/><num value="874">874</num> śaka nu mratāñ śrī narendrapati mratāñ śrī mahendravallabha <gap reason="lost" quantity="7" unit="character"/> duñ bhūmi ta vāp ke
+                      <lb n="9"/>khloñ gāp cāpp jeṅ kandvāra thlāy bhūmi prāk jyaṅ <gap reason="lost" quantity="10" unit="character"/> thmo staṁbha sru
+                      <lb n="10"/><num value="40"><g type="numeral">40</g></num>40 Aṁpyal thlvaṅ <num value="4"><g type="numeral">4</g></num> neḥ bhūmi neḥ ta jvan ta vraḥ kamrateṅ <supplied reason="lost">Añ</supplied> <gap reason="lost"/>
+                   </p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="A4">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1964_03"></rdg>
+                   </app>
+                   </listApp>  
+         </div>-->
+         <div type="translation" xml:lang="fra" source="bib:Coedes1964_03">
+ 	<p rend="stanza" n="1"><supplied reason="explanation">Hommage à Lakṣmī, mère des créatures</supplied>.</p>
+            <p rend="stanza" n="2"><supplied reason="explanation">La <supplied reason="subaudible" cert="low">lumière</supplied> issue de cette lune qu'est le visage de Lakṣmī éveille les lotus que sont les caractères d'écriture</supplied>.</p>
+            <p rend="stanza" n="3">Il fut <supplied reason="subaudible">un roi qui avait bu</supplied> l'océan de lait procurant l'ambroisie <supplied reason="subaudible">de la doctrine</supplied> <foreign>vaiṣṇava</foreign> <gap reason="lost"/> un soleil pour la connaissance <gap reason="lost"/>.</p>
+            <p rend="stanza" n="4"><supplied reason="subaudible">Ce roi</supplied> dont la gloire repandue desirait ardemment <supplied reason="subaudible">la possession</supplied> des éléphants des points cardinaux <gap reason="lost"/> ayant amené sa famille et sa mère dans la résidence de Viṣṇu Lokanātha <gap reason="lost"/> fit ériger une Lakṣmī.</p>
+            <p rend="stanza" n="5"><supplied reason="explanation">Que ceux qui feront prospérer <supplied reason="subaudible">la fondation</supplied> aient une part du fruit de ses mérites</supplied>.</p>
+            <p rend="stanza" n="6"><supplied reason="explanation">La protection des œuvres méritoires est le moindre devoir des gens de bien</supplied>.</p>
+            <p n="8-10">En 874 Śaka Mratāñ Śrī Narendrapati et Mratāñ Śrī Mahendravallabha <gap reason="lost"/> achètent une terre de Vāp Ke, <foreign>khloñ gāp</foreign> <gap reason="lost"/> Prix de la terre: x <foreign>jyaṅ</foreign> d'argent <gap reason="lost"/> un pilier de pierre, 40 <supplied reason="subaudible">mesures</supplied> de paddy, 4 <foreign>thlvaṅ</foreign> de sel. C'est cette terre qui est donnée à V.K.A.</p>
+         </div> 
+           <div type="commentary">
+           <p></p>
+         </div>
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1964_03"/><citedRange unit="page">52, 55</citedRange></bibl>) with a French translation.</p><!-- kuch: The estampage BN 119 is not available for checking the reading. -->
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1964_03"/><citedRange unit="page">52, 55</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
