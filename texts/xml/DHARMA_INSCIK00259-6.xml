@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Second inscription on the northern doorjamb of Vat Khnat (K. 259-6), 8th-10th centuries CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00259-6</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-01-19" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p><lb n="1"/>sre <gap reason="lost" extent="unknown" unit="character"/> ta jmaḥ <gap reason="lost" extent="unknown" unit="character"/> khñuṁ <num value="2"><g type="numeral">II</g></num> ti A<lb 
+                      n="2" break="no"/>ñ <gap reason="lost" quantity="2" unit="character"/> tai kaṁvrau tai kaṁ<gap reason="lost" quantity="5" unit="character"/>y ta vraḥ kamrateṅ Añ
+                      <lb n="3"/><g type="circleTarget">.</g> <g type="ddanda">.</g> ta <gap reason="lost" quantity="1" unit="character"/> gi roḥ <gap reason="lost" extent="unknown" unit="character"/> rājya vraḥ pāda dhūli jeṅ vraḥ
+                      <lb n="4"/>kamrateṅ Añ ta <supplied reason="lost">stac</supplied> dau <gap reason="lost" quantity="5" unit="character"/> gi Añ ta jmaḥ loñ kṣe<lb 
+                         n="5" break="no"/>tra duñ sre neḥ <gap reason="lost" quantity="11" unit="character"/> dravya Añ duñ sre
+                      <lb n="6"/>srū <num value="20"><g type="numeral">20</g></num> vodi <num value="1"><g type="numeral">I</g></num> mās <gap reason="lost" extent="unknown" unit="character"/> vyar neḥ
+                      <lb n="7"/>sre ta roh <gap reason="lost" extent="unknown" unit="character"/> kamrateṅ Añ śrī loka<lb 
+                         n="8" break="no"/>nātha <gap reason="lost" extent="unknown" unit="character"/> tai laṅgāy tai <gap reason="lost" quantity="1" unit="character"/>
+                      <lb n="9"/><gap reason="lost"/>
+                      <lb n="10"/>sre <gap reason="lost" extent="unknown" unit="character"/> vraḥ <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> neḥ
+                      <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/> loñ
+                   </p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="A4">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1964_03"></rdg>
+                   </app>
+                   </listApp>  
+         </div>-->
+         <div type="translation" xml:lang="fra" source="bib:Coedes1964_03">
+            <p n="1-2"><supplied reason="explanation">Mention d'une rizière et de deux esclaves offerts au dieu</supplied>.</p>
+            <p n="3-8">Voici <gap reason="lost"/> sous le règne de S. M. qui est allé au <gap reason="lost"/> moi, nommé Loñ Kṣetra, ai acheté cette rizière <gap reason="lost"/> au prix de 20 <supplied reason="subaudible">mesures de</supplied> paddy, 1 <foreign>vodi</foreign>, <gap reason="lost"/> d'or <gap reason="lost"/> deux, cette rizière <gap reason="lost"/> V. K. A. Śrī Lokanātha.</p>
+            <p n="8-14"><gap reason="lost"/></p>
+         </div> 
+           <div type="commentary">
+           <p>The line numbering is different from that of Cœdès, which continues from the first inscription on the northern doorjamb <ref target="DHARMA_INSCIK00259-5.xml">K. 259-5</ref></p>
+         </div>
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1964_03"/><citedRange unit="page">55, 57</citedRange></bibl>) with a French translation.</p><!-- kuch: The estampage BN 119 is not available for checking the reading. -->
+	 <listBibl type="primary">
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1964_03"/><citedRange unit="page">55, 57</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
