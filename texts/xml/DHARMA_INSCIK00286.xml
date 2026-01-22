@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjambs of Prasat Baksei Chamkrong (K. 286), 869 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00286</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-01-22" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<lg n="1" met="anuṣṭubh"><milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label>
+<l n="a"><lb n="S1"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S2"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="S3"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S4"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="S5"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S6"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="S7"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S8"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="S9"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S10"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="S11"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S12"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="S13"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S14"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="S15"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S16"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="S17"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S18"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="S19"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S20"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="S21"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S22"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="12" met="anuṣṭubh">
+<l n="a"><lb n="S23"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S24"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="13" met="anuṣṭubh">
+<l n="a"><lb n="S25"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S26"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="14" met="anuṣṭubh">
+<l n="a"><lb n="S27"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S28"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="15" met="anuṣṭubh">
+<l n="a"><lb n="S29"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S30"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="16" met="anuṣṭubh">
+<l n="a"><lb n="S31"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S32"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="17" met="anuṣṭubh">
+<l n="a"><lb n="S33"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S34"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="18" met="anuṣṭubh">
+<l n="a"><lb n="S35"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S36"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="19" met="anuṣṭubh">
+<l n="a"><lb n="S37"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S38"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="20" met="anuṣṭubh">
+<l n="a"><lb n="S39"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S40"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="21" met="anuṣṭubh">
+<l n="a"><lb n="S41"/></l>
+<l n="b"></l>
+<l n="c"><lb n="S42"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+     <lg n="22" met="anuṣṭubh"><milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label>
+<l n="a"><lb n="N1"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N2"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="23" met="anuṣṭubh">
+<l n="a"><lb n="N3"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N4"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="24" met="anuṣṭubh">
+<l n="a"><lb n="N5"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N6"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="25" met="anuṣṭubh">
+<l n="a"><lb n="N7"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N8"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="26" met="anuṣṭubh">
+<l n="a"><lb n="N9"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N10"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="27" met="anuṣṭubh">
+<l n="a"><lb n="N11"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N12"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="28" met="anuṣṭubh">
+<l n="a"><lb n="N13"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N14"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="29" met="anuṣṭubh">
+<l n="a"><lb n="N15"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N16"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="30" met="anuṣṭubh">
+<l n="a"><lb n="N17"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N18"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="31" met="anuṣṭubh">
+<l n="a"><lb n="N19"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N20"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="32" met="anuṣṭubh">
+<l n="a"><lb n="N21"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N22"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="33" met="anuṣṭubh">
+<l n="a"><lb n="N23"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N24"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="34" met="anuṣṭubh">
+<l n="a"><lb n="N25"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N26"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="35" met="anuṣṭubh">
+<l n="a"><lb n="N27"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N28"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="36" met="anuṣṭubh">
+<l n="a"><lb n="N29"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N30"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="37" met="anuṣṭubh">
+<l n="a"><lb n="N31"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N32"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="38" met="anuṣṭubh">
+<l n="a"><lb n="N33"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N34"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="39" met="anuṣṭubh">
+<l n="a"><lb n="N35"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N36"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="40" met="anuṣṭubh">
+<l n="a"><lb n="N37"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N38"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="41" met="anuṣṭubh">
+<l n="a"><lb n="N39"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N40"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="42" met="anuṣṭubh">
+<l n="a"><lb n="N41"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N42"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="43" met="anuṣṭubh">
+<l n="a"><lb n="N43"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N44"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="44" met="anuṣṭubh">
+<l n="a"><lb n="N45"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N46"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="45" met="anuṣṭubh">
+<l n="a"><lb n="N47"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N48"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="46" met="anuṣṭubh">
+<l n="a"><lb n="N49"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N50"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="47" met="anuṣṭubh">
+<l n="a"><lb n="N51"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N52"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <lg n="48" met="anuṣṭubh">
+<l n="a"><lb n="N53"/></l>
+<l n="b"></l>
+<l n="c"><lb n="N54"/></l>
+<l n="d"> <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <p>Oṁ namaś śivāya <g type="ddandaOrnate">.</g><g type="floret">.</g></p>
+</div>
+ <div type="apparatus">
+                <listApp>
+                   <app loc="B15">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1952_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Coedes1952_01">
+ 	<p rend="stanza" n="1"></p>
+              <p rend="stanza" n="2"></p>
+              <p rend="stanza" n="3"></p>
+              <p rend="stanza" n="4"></p>
+              <p rend="stanza" n="5"></p>
+              <p rend="stanza" n="6"></p>
+              <p rend="stanza" n="7"></p>
+              <p rend="stanza" n="8"></p>
+              <p rend="stanza" n="9"></p>
+              <p rend="stanza" n="10"></p>
+              <p rend="stanza" n="11"></p>
+              <p rend="stanza" n="12"></p>
+              <p rend="stanza" n="13"></p>
+              <p rend="stanza" n="14"></p>
+              <p rend="stanza" n="15"></p>
+              <p rend="stanza" n="16"></p>
+              <p rend="stanza" n="17"></p>
+              <p rend="stanza" n="18"></p>
+              <p rend="stanza" n="19"></p>
+              <p rend="stanza" n="20"></p>
+              <p rend="stanza" n="21"></p>
+              <p rend="stanza" n="22"></p>
+              <p rend="stanza" n="23"></p>
+              <p rend="stanza" n="24"></p>
+              <p rend="stanza" n="25"></p>
+              <p rend="stanza" n="26"></p>
+              <p rend="stanza" n="27"></p>
+              <p rend="stanza" n="28"></p>
+              <p rend="stanza" n="29"></p>
+              <p rend="stanza" n="30"></p>
+              <p rend="stanza" n="31"></p>
+              <p rend="stanza" n="32"></p>
+              <p rend="stanza" n="33"></p>
+              <p rend="stanza" n="34"></p>
+              <p rend="stanza" n="35"></p>
+              <p rend="stanza" n="36"></p>
+              <p rend="stanza" n="37"></p>
+              <p rend="stanza" n="38"></p>
+              <p rend="stanza" n="39"></p>
+              <p rend="stanza" n="40"></p>
+              <p rend="stanza" n="41"></p>
+              <p rend="stanza" n="42"></p>
+              <p rend="stanza" n="43"></p>
+              <p rend="stanza" n="44"></p>
+              <p rend="stanza" n="45"></p>
+              <p rend="stanza" n="46"></p>
+              <p rend="stanza" n="47"></p>
+              <p rend="stanza" n="48"></p>
+         </div>
+           <div type="translation" resp="part:dogo">
+             <p rend="stanza" n="1"></p>
+              <p rend="stanza" n="2"></p>
+              <p rend="stanza" n="3"></p>
+              <p rend="stanza" n="4"></p>
+              <p rend="stanza" n="5"></p>
+              <p rend="stanza" n="6"></p>
+              <p rend="stanza" n="7"></p>
+              <p rend="stanza" n="8"></p>
+              <p rend="stanza" n="9"></p>
+              <p rend="stanza" n="10"></p>
+              <p rend="stanza" n="11"></p>
+              <p rend="stanza" n="12"></p>
+              <p rend="stanza" n="13"></p>
+              <p rend="stanza" n="14"></p>
+              <p rend="stanza" n="15"></p>
+              <p rend="stanza" n="16"></p>
+              <p rend="stanza" n="17"></p>
+              <p rend="stanza" n="18"></p>
+              <p rend="stanza" n="19"></p>
+              <p rend="stanza" n="20"></p>
+              <p rend="stanza" n="21"></p>
+              <p rend="stanza" n="22"></p>
+              <p rend="stanza" n="23"></p>
+              <p rend="stanza" n="24"></p>
+              <p rend="stanza" n="25"></p>
+              <p rend="stanza" n="26"></p>
+              <p rend="stanza" n="27"></p>
+              <p rend="stanza" n="28"></p>
+              <p rend="stanza" n="29"></p>
+              <p rend="stanza" n="30"></p>
+              <p rend="stanza" n="31"></p>
+              <p rend="stanza" n="32"></p>
+              <p rend="stanza" n="33"></p>
+              <p rend="stanza" n="34"></p>
+              <p rend="stanza" n="35"></p>
+              <p rend="stanza" n="36"></p>
+              <p rend="stanza" n="37"></p>
+              <p rend="stanza" n="38"></p>
+              <p rend="stanza" n="39"></p>
+              <p rend="stanza" n="40"></p>
+              <p rend="stanza" n="41"></p>
+              <p rend="stanza" n="42"></p>
+              <p rend="stanza" n="43"></p>
+              <p rend="stanza" n="44"></p>
+              <p rend="stanza" n="45"></p>
+              <p rend="stanza" n="46"></p>
+              <p rend="stanza" n="47"></p>
+              <p rend="stanza" n="48"></p>
+           </div>
+            <!-- <div type="commentary">
+           <p></p>
+         </div>
+ -->
+           <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1952_01"/><citedRange unit="page">88-101</citedRange></bibl>) with a French translation, re-edited here by Dominic Goodall and Kunthea Chhom from the photo of estampage EFEO n. 554 and n. 555. This edition and translation of the Sanskrit part is prepared in the context of the ERC DHARMA project during reading sessions in 2025 led by Dominic Goodall and S.L.P. Anjaneya Sarma (EFEO), and attended by Kunthea Chhom, Harunaga Isaacson, Judit Törzsök et al.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1952_01"/><citedRange unit="page">88-101</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
