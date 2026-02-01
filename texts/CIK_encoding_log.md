@@ -163,7 +163,7 @@
 |K.	154 |kuch |done |IC II|
 |K.	155 |kuch |done |IC V|
 |K.	156 |kuch |done |IC V|
-|K.	157 |sapi |pending |IC VI|
+|K.	157 |kuch |done |IC VI|
 |K.	158 |kuch |done |IC II|
 |K.	159 |kuch |done |IC VI|
 |K.	160 |chch |pending |unpublished|
@@ -171,7 +171,7 @@
 |K.	162 |# |# |#|
 |K.	163 |kuch |done |IC VI|
 |K.	164 |# |# |#|
-|K.	165 |sapi |pending |IC VI|
+|K.	165 |kuch |done |IC VI|
 |K.	166 |# |# |#|
 |K.	167 |# |# |#|
 |K.	168 |kuch |done |IC VI|
@@ -186,8 +186,8 @@
 |K.	177 |chch |pending |IC VII|
 |K.	178 |chch |done |IC VI|
 |K.	179 |# |# |#|
-|K.	180 |sapi |pending |BEFEO 1913|
-|K.	181 |# |# |#|
+|K.	180 |kuch |done |BEFEO 1913|
+|K.	181 |kuch |done |IC VI|
 |K.	182 |# |# |#|
 |K.	183 |sapi |pending |Chhom 2011; Jacques 2014|
 |K.	184 |# |# |#|
@@ -252,8 +252,8 @@
 |K.	235 |kuch |done |Cœdès&Dupont 1943|
 |K.	236 |# |# |#|
 |K.	237 |# |# |#|
-|K.	238 |sapi |pending |IC VI|
-|K.	239 |# |# |#|
+|K.	238 |kuch |done |IC VI|
+|K.	239 |kuch |done |IC III|
 |K.	240-1 |kuch |done |IC III|
 |K.	240-2 |kuch |done |IC III|
 |K.	241 |# |# |#|
@@ -274,13 +274,18 @@
 |K.	256 |sapi |pending |Cœdès et Dupont 1937|
 |K.	257 |kuch |done |IC IV|
 |K.	258 |chch |pending |IC IV|
-|K.	259 |sapi |pending |IC VII|
+|K.	259-1 |kuch |done |IC VII|
+|K.	259-2 |kuch |done |IC VII|
+|K.	259-3 |kuch |done |IC VII|
+|K.	259-4 |kuch |done |IC VII|
+|K.	259-5 |kuch |done |IC VII|
+|K.	259-6s |kuch |done |IC VII|
 |K.	260 |# |# |#|
 |K.	261 |# |# |#|
 |K.	262 |kuch |done |IC IV|
 |K.	263 |kuch |done |IC IV|
 |K.	264 |# |# |#|
-|K.	265 |# |# |#|
+|K.	265 |kuch |done |IC IV|
 |K.	266 |chch |done |Cœdès 1908; Mertens 2000|
 |K.	267 |chch |done |Cœdès 1908; Mertens 2000|
 |K.	268 |chch |done |Cœdès 1908; Mertens 2000|
@@ -323,7 +328,7 @@
 |K.	284-10 |kuch |done |Cœdès 1951|
 |K.	284-11 |kuch |done |Cœdès 1951|
 |K.	285 |# |# |#|
-|K.	286 |# |# |#|
+|K.	286 |kuch |done |Cœdès 1909 and IC IV|
 |K.	287 |kuch |done |IC IV|
 |K.	288 |kuch |done |IC IV|
 |K.	289 |# |# |#|
