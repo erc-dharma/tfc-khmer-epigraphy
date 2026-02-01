@@ -10,17 +10,10 @@
          <titleStmt>
             <title>Rock inscription from Tham Lekh  cave (K. 723)</title>
             <respStmt>
-               <resp>EpiDoc Encoding</resp>
+               <resp>author of digital edition</resp>
                <persName ref="part:chch">
                   <forename>Chloé</forename>
                   <surname>Chollet</surname>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>intellectual authorship of edition</resp>
-               <persName ref="http://viaf.org/viaf/66465311">
-                  <forename>George</forename>
-                  <surname>Cœdès</surname>
                </persName>
                <persName ref="part:dogo">
                   <forename>Dominic</forename>
@@ -39,7 +32,7 @@
 							https://creativecommons.org/licenses/by/4.0/ or send a letter to
 							Creative Commons, 444 Castro Street, Suite 900, Mountain View,
 							California, 94041, USA.</p>
-                  <p>Copyright (c) 2019-2025 by Chloé Chollet.</p>
+                  <p>Copyright (c) 2019-2025 by Chloé Chollet &amp; Dominic Goodall.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
@@ -82,28 +75,39 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:chch" when="2021-02-12">Added corrections</change>
-         <change who="part:chch" when="2020-07-15">Initial encoding of the file</change>
+      	 <change who="part:argr" when="2026-02-01" status="draft">Changed respStmt and copyright to new model, hyphenated the text, corrected placement of final m of first pāda after end of first physical line and before end of first pāda, change punctuation type to comply with Symbol Taxonomy, changed bibliography, inserted some comments</change>
+      	<change who="part:chch" when="2021-02-12" status="draft">Added corrections</change>
+      	<change who="part:chch" when="2020-07-15" status="draft">Initial encoding of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:00000">
          	<lg n="1" met="upajāti" xml:lang="san-Latn">
-<l n="a" enjamb="yes"><lb n="1"/>samādhaye sarvvatamodhanāṇā</l>
-<l n="b"><lb n="2"/>m iyaṁ guhā vaktraguheti nāmnā</l>
-<l n="c"><lb n="3"/>sā niṣṭhitā vaktraśivena śaktyā</l>
-<l n="d"><lb n="4"/>vibhāti bhaddreśvaraśailapārśve <g type="ddandaOrn">.</g></l>
+<l n="a"><lb n="1"/>samādhaye sarvva-ta<choice><sic>m</sic><corr>p</corr></choice>odhanāṇā<lb n="2" break="no"/>m</l> 
+<l n="b">iyaṁ guhā vaktraguheti nāmnā</l>
+<l n="c"><lb n="3"/>sā nirmmitā vaktraśiveṇa śaktyā</l><!-- argr: the reading on Chloé's photo is clearly vaktraśiveṇa -->
+<l n="d"><lb n="4"/>vibhāti bhaddreśvara-śaila-pārśve <g type="ddandaOrnate">.</g></l><!-- argr: 
+1/ doesn't it look like -śaile- or śaise? that would of course be unmetrical, and would not make sense. 
+2/ How sure are we about the presence of any punctuation sign at the end of the stanza, and if there is one, about its identification as ddandaOrnate? -->
          	</lg>
 <p><lb n="5"/>kaṁ ti chdyās· guhā kaṁ ti ruḥ pnāṅ· doṣa</p>
          </div>
          <div type="apparatus">
                <listApp>
                   <app loc="1">
-                     <lem>sarvvatamo</lem>
-                     <rdg source="bib:Coedes1937-1966_01">sarvvatapo</rdg>
-                  	<note>Dominic Goodall noticed that the word <foreign>sarvvatamo</foreign> is readable on the estampage, but it had to be corrected as <foreign>sarvvatapo</foreign> (<bibl><ptr target="bib:Goodall2015_01"/><citedRange unit="page">21</citedRange><citedRange unit="note">25</citedRange></bibl>).</note>
+                     <lem source="bib:Goodall2015_01">-ta<choice><sic>m</sic><corr>p</corr></choice>odhanāṇā<lb n="2" break="no"/>m</lem>
+                     <rdg source="bib:Coedes1937-1966_01">-tapodhanāṇā<lb n="2" break="no"/>m</rdg>
+                  	<note>Dominic Goodall (<bibl rend="omitname"><ptr target="bib:Goodall2015_01"/><citedRange unit="page">21</citedRange><citedRange unit="note">25</citedRange></bibl>) noticed that <foreign>tamo</foreign> is readable on the estampage, although it had to be corrected to <foreign>tapo</foreign>.</note>
                   </app>
+				<app loc="3">
+			<lem source="bib:Goodall2015_01">nirmmitā</lem>
+			<rdg source="bib:Coedes1937-1966_01">niṣṭhitā</rdg>
+				</app>
+			<app loc="3">
+				<lem>vaktraśiveṇa</lem>
+				<rdg source="bib:Coedes1937-1966_01 bib:Goodall2015_01">vaktraśivena</rdg>
+			</app>
                </listApp>
          </div>
          <div type="translation" xml:lang="fra" source="bib:Coedes1937-1966_01">
@@ -111,12 +115,13 @@
 <p n="5">Défense d'encombrer la grotte, défense de démolir la cloison : <supplied reason="subaudible">ce serait</supplied> une faute.</p>
          </div>
       	<div type="translation" source="bib:Goodall2015_01">
-<p rend="stanza" n="1">For the meditation of all ascetics, this cave, <placeName>Vaktraguhā</placeName> by name, created, to the best of his ability <supplied reason="explanation">śaktyā</supplied>, by <persName>Vaktraśiva</persName>, is resplendent on the side of the Bhareśvara mountain.</p>
+<p rend="stanza" n="1">For the meditation of all ascetics, this cave, <placeName>Vaktraguhā</placeName> by name, created, to the best of his ability <supplied reason="explanation"><foreign>śaktyā</foreign></supplied>, by <persName>Vaktraśiva</persName>, is resplendent on the side of the Bhadreśvara mountain.</p>
+<!-- argr: it would be nice to add an English translation of the line of Old Khmer -->
       	</div>
          <div type="commentary">
          </div>
         <div type="bibliography">
-	<p>First edited by George Cœdès with a French translation (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">12-13</citedRange></bibl>); re-edited by Dominic Goodall with an English translation of the Sanskrit stanza (<bibl rend="omitname"><ptr target="bib:Goodall2015_01"/><citedRange unit="page">21</citedRange></bibl>).</p>
+	<p>First edited by George Cœdès with a French translation (<bibl rend="omitname"><ptr target="bib:Coedes1937-1966_01"/><citedRange unit="volume">5</citedRange><citedRange unit="page">12-13</citedRange></bibl>); re-edited by Dominic Goodall with an English translation of the Sanskrit stanza (<bibl rend="omitname"><ptr target="bib:Goodall2015_01"/><citedRange unit="page">21</citedRange></bibl>). This digital edition (2026) by Chloé Chollet and Dominic Goodall.</p>
         	<listBibl type="primary">
 			<bibl n="GC">
 				     <ptr target="bib:Coedes1937-1966_01"/>
@@ -125,7 +130,7 @@
 				</bibl>
         		<bibl n="DG">
 				     <ptr target="bib:Goodall2015_01"/>
-        		   <citedRange unit="page">21</citedRange>
+        		   <citedRange unit="page">21</citedRange><citedRange unit="figure">2</citedRange>
 				</bibl>
 			</listBibl>
         </div>
