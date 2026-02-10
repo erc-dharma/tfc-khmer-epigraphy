@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Vat Prasat Preah Neang (K. 1243), 881 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01243</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2025-12-12" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p><milestone type="pagelike" unit="item" n="A"/><label xml:lang="eng">Face</label>
+   <lb n="A1"/>siddhi svasti <g type="circleSmall">.</g> <num value="881">881</num> <g type="circleSmall">.</g> śaka daśamī ket· phālguṇa vudhavāra nu tā<lb 
+      n="A2" break="no"/>ñ<supplied reason="lost">·</supplied> kamrateṅ· Añ· pārvvatidevi vraḥ laṁvāṅ· paṅgaṁ thpvaṅ· nivedana
+   <lb n="A3"/><supplied reason="lost">ta</supplied> dhūli vraḥ pāda dhūli jeṅ· vraḥ kamrateṅ· Añ· śrī rājendravarmma<lb 
+      n="A4" break="no"/>deva ta sakala svey· vraḥ dharmmarājya man· neḥ bhūmyākara sruk·
+   <lb n="A5"/>sre cnās· khtār· śunyamūla ti mratāñ· śrī vīrendrārimathana ta va<lb 
+      n="A6" break="no"/>pā tāñ· kamrateṅ· Añ· pārvvati paṅgaṁ thpvaṅ· nivedana pi svaṁ vraḥ
+   <lb n="A7"/>karunā prasāda ta dhūli vraḥ pāda dhūli jeṅ· vraḥ kamrateṅ· Añ·
+   <lb n="A8"/>ta stac· dau paramaśivapada pi oy ta vraḥ kamra<supplied reason="lost">teṅ· A</supplied>ñ· śiva<lb 
+      n="A9" break="no"/>liṅga Āy· sruk kandvac· nā vraḥ punya daiya <g type="circleSmall">.</g> man· lvaḥ ta gi rāj<lb 
+         n="A10" break="no"/>jya dhūli vraḥ pāda dhūli jeṅ· vraḥ kamrateṅ· Añ· ta stac·
+   <lb n="A11"/>dau vrahmaloka pi mratāñ· śrī vīrendrārimathana dār· vraḥ
+   <lb n="A12"/>kaṁsteṅ· Añ· pi dau chyāṅ· Āy· vraḥ kaṁvaṅ· pi tval· piṅ·
+   <lb n="A13"/>ti vāp· bhāva daśā<supplied reason="lost">dh</supplied>ikr̥tya dalmāk· dau sit<unclear>·</unclear> bhūmyākara sruk·
+   <lb n="A14"/>cnās· khtār· man· ti kamrateṅ· Añ· paṅgaṁ thpvaṅ· nivedana
+</p>
+                   <p><milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Face</label>
+   <lb n="B1"/><gap reason="lost" extent="unknown" unit="character"/> sre cnās· khtār· ti vāp· <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="B2"/><gap reason="lost" extent="unknown" unit="character"/> sin<unclear>·</unclear> dhūli vraḥ pāda <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="B3"/><gap reason="lost" extent="unknown" unit="character"/> tāñ· Añ· <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="B4"/><gap reason="lost" extent="unknown" unit="character"/>krama vyāpāri nā catvāri <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="B5"/><gap reason="lost" extent="unknown" unit="character"/> nā dau ta vraḥ sabhā <g type="circleSmall">.</g> vya<supplied reason="lost">vahāra</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="B6"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">daśā</supplied>dhikr̥tya dalmāk· <unclear>A</unclear>ñ· <gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="B7"/><gap reason="lost" extent="unknown" unit="character"/> bhāva daśā<gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="B8"/><gap reason="lost" extent="unknown" unit="character"/> pi yok<unclear>·</unclear> sre <gap reason="lost" extent="unknown" unit="character"/>
+</p>
+</div>
+ <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1953_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
+ 	<p n="A1-A5">Succès surnaturel, bonheur! En 881 śaka, le mercredi 10e jour de la lune croissante de Phālguṇa, Tañ K. A Pārvatīdevī du laṁvaṅ royal se prosterne pour informer Sa Majesté Srī Rājendravarmadeva qui jouit pleinement de la royauté selon le Dharma,</p>
+              <p n="A5-A9">des produits de la terre du village de Sre Cnās Khtār. <supplied reason="subaudible">Cette terre</supplied> dépourvue de propriétaire <supplied reason="subaudible">jadis</supplied>, le père de la Tāñ K. A. Pārvatī, Mratāñ Śrī Vīrendrārimathana, l'avait humblement sollicitée de la gracieuse compassion de Sa Majesté qui est allée au Paramaśivapada <supplied reason="explanation">= Jayavarma IV</supplied>, pour l'offrir a V. K. A le śivaliṅga au village Kandvac, comme autre œuvre méritoire du roi.</p>
+              <p n="A9-A12">Sous le règne de Sa Majesté, V. K. A qui est allé au Vrahmaloka <supplied reason="explanation">= Harṣavaman II</supplied>, Mratāñ Vīrendrārimathana reçut du roi l'ordre d'aller à Chyāṅ, jusqu'au saint débarcadère qui touche aux marais.</p>
+              <p n="A3-A14">Puis Vāp Bhāva, chef d'un groupe de dix capteurs, alla vérifier les ressources de la terre du village Sre Cnās Khtār dont la <supplied reason="subaudible">Tāñ</supplied> K. A a informé Sa Majesté…</p>
+              <p n="B1-B8"><supplied reason="explanation">Texte dépourvu d'information</supplied>.</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">216-218</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the planches XIV and XV of the edition.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Pou2001_01"/><citedRange unit="page">216-218</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
