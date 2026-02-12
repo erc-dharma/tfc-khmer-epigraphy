@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Vat Vat Ta Praya (K. 1152), 899 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/39382787">
+                  <forename>Saveros</forename>
+                  <surname>Pou</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01152</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-02-12" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p><milestone type="pagelike" unit="face" n="A"/><label xml:lang="eng">Face A</label>
+   <lb n="A1"/><g type="gomutraInitial">.</g> <num value="884">884</num> śaka pañcamī ket· kartika Ādityavāra nu
+   <lb n="A2"/>mratāñ· khloñ· śrī narapatīvīravarmma jvan· ti tvas· paṅgaṁ thpvaṅ·
+   <lb n="A3"/>nivedana pi pre vāp· sarvvaśiva mūla kanmyaṅ· vraḥ kra<lb 
+      n="A4" break="no"/>lā lqvaṅ· ruva kule vāp· sarvvaśiva vraḥ śāsana Oy· jā craṁ<lb 
+         n="A5" break="no"/>lo vāp· sarvvaśiva nuva sruk· sre bhūmi sramo Eṁma man· vāp·
+   <lb n="A6"/>Ās· duñ· nu krapī vyara ta vāp<unclear>·</unclear> jīva khloñ· gāp· vijayyapattanna
+   <lb n="A7"/>vāp· prabhāviśvara khloñ· jnval· vāp· ravicandra khloñ· jnval<unclear>·</unclear> vāp· vrai
+   <lb n="A8"/>khloñ· jnval· vāp· śrīpratidāsa diśādhīkr̥ta vāp· noṅ· mūla vija<lb 
+      n="A9" break="no"/>yyapattanna Uk· <g type="circleTarget">.</g> sanme nī yok· krapī vyara Oy· nā vraḥ rājakāryya
+   <lb n="A10"/>dep· Oy· bhūmi vrai sramo Eṁ ta gī vraḥ rāja dhūlī vraḥ pāda dhūlī
+   <lb n="A11"/>jeṅ· vraḥ kaṁmrateṅ· Añ· ta stāc· dau rudraloka vāp· Ās· vāp· gāp·
+   <lb n="A12"/>Oy· parigraha ta me sā man· Oy· ta chloñ<unclear>·</unclear> manovindu <g type="circleTarget">.</g> man· Oy· me
+   <lb n="A13"/>{1}n· ta vāp· sat· mūla kanmyaṅ· vraḥ kralā lqvaṅ· <g type="circleTarget">.</g> chloñ· manovindu
+   <lb n="A14"/>chkā vrai cat· sruk· sramo Eṁ tāñ· mau vījayapattana yok· thmur· vyara
+   <lb n="A15"/>vāp· sadāśiva khloñ· gāp· vījayapattanna vāp· dā khloñ· jnval· vāp· deva
+   <lb n="A16"/>khloñ· jnval· vāp· rau diśādhikr̥ta <g type="circleTarget">.</g> sanme ni yok· kryav· khlāṅ· vyara thmur·
+   <lb n="A17"/>dnyaṁ vyara ta chloñ· manovindu pi Oy· nā vraḥ rājakāryya Oy· bhūmi
+   <lb n="A18"/>Āy· sramo Eṁ sot· ta chloñ· manovindu <g type="circleTarget">.</g> man· vāp<supplied reason="omitted">·</supplied> sarvvaśiva mūla
+   <lb n="A19"/>kanmyaṅ· vraḥ kralā lqvaṅ· vraḥ śāsana pre vāp· Āñ· tamrvac· Aṁ<lb 
+      n="A20" break="no"/>mr̥ttakadhanna nu vāp· Ap· pratyaiya nu vāp· dan· raṅvāṅ· nā
+   <lb n="A21"/>trini dau lvah· ta gi sruk· sramo Eṁma saṅ gol· Oy· vraḥ karunā
+   <lb n="A22"/>prasāda ta vāp· sarvvaśiva ta mūla nuva kule vāp· sarvvaśiva <choice><unclear>h</unclear><unclear>ph</unclear></choice>oṅ·
+   <lb n="A23"/><g type="floret">.</g>
+</p>
+                   <p><milestone type="pagelike" unit="face" n="B"/><label xml:lang="eng">Face B</label>
+   <lb n="B1"/><g type="ddandaOrnate">.</g> <num value="899">899</num> śaka Aṣṭami ket· jeṣṭha candravāra
+                      <lb n="B2"/>nu mratāñ· śrī nr̥pabhaktigajita nu ste<lb 
+                         n="B3" break="no"/>ṅṅi Ācāryya gunadoṣadarśi vraḥ sabhā paṅgaṁ thpvan<lb 
+                            n="B4" break="no"/>ṅ· nivedana yugapat· nu kaṁmarateṅ· Añ· vraḥ guruva nu
+                      <lb n="B5"/>kaṁmrateṅ· Añ· rājakula kaṁmrateṅ· Añ· mahāma<lb 
+                         n="B6" break="no"/>ntriya pandval· vraḥ śāsana steṅṅi khmuk· vraḥ kralā Arccana
+                      <lb n="B7"/>nu vāp· paña nu khloñ· vala ta khloñ· sru jeṅ· vnaṁma
+                      <lb n="B8"/>pi pre dau saṅ· praśasta Āy· sramo Eṁ pi Oy· vraḥ karunā
+                      <lb n="B9"/>prasāda ta mrateñ· somaśiva ta kan·mvāy· vāp· sarvvaśi<lb 
+                         n="B10" break="no"/>va mūla kanmyaṅ· vraḥ kralā lqvaṅ· nu kule phoṅṅa <g type="circleSmall">.</g> vraḥ śāsa<lb 
+                            n="B11" break="no"/>na vvaṁ jā pi svatantra ta vriha paryyaṅ· viṣaya cañcūla pho<lb 
+                               n="B12" break="no"/>ṅ· nau ruva khloñ· vala phoṅ· ta cuñ· thve vraḥ rājakā<lb 
+                                  n="B13" break="no"/>ryya Āy· sruk· krau vvaṁ Āc· ti cāp· qnak· ta gi sramo Eṁ
+                      <lb n="B14"/>nā kanmyaṅ· vraḥ kralā lqvaṅ· pi thve kṣata pi dār· drāvya gi tarāp<unclear>·</unclear>
+                      <lb n="B15"/>bhūmi Aṁvi ta gi praśasta dau pūrvva guluṅga lvaḥ ta gi vnur· nā gola
+                      <lb n="B16"/>ti dakṣiṇa tarāp· phlu rmmaña nā gola ti paścima tarāp·
+                      <lb n="B17"/>jan·lit· qjuḥha nā gola ti Uttara tarāp· Uttaraṣvara nā
+                      <lb n="B18"/>gola <g type="dotMid">.</g> neḥ gi tarāp<unclear>·</unclear> bhūmi sramo Eṁ man· mrateñ· so<lb 
+                         n="B19" break="no"/>maśiva dār· vraḥ karuṇā prasāda <g type="floret">.</g>
+</p>
+</div>
+ <div type="apparatus">
+                <listApp>
+                   <app loc="A5">
+                  <lem>Eṁma</lem>
+                   <rdg source="bib:Pou2001_01">Eṁ</rdg>
+                   </app>
+                   <app loc="A14">
+                  <lem>cat·</lem>
+                   <rdg source="bib:Pou2001_01">catt</rdg>
+                   </app>
+                   <app loc="A21">
+                  <lem>Eṁma</lem>
+                   <rdg source="bib:Pou2001_01">Eṁ</rdg>
+                   </app>
+                   <app loc="A22">
+                  <lem><choice><unclear>h</unclear><unclear>ph</unclear></choice>oṅ·</lem>
+                   <rdg source="bib:Pou2001_01">hoṅ</rdg>
+                   </app>
+                   </listApp>  
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
+ 	<p n="A1-A9">L'an 884 Śaka, le dimanche 5e jour de la lune croissante de Kartika, Mratāñ Khloñ Śrī Narapativīravarma offre la terre de Tvas, et en informe <supplied reason="subaudible">le roi</supplied> pour qu'il donne des ordres à Vāp Sarvaśiva, chef des serviteurs de la salle de toilette. Quant à la famille de ce Vāp, le roi décréta qu'ils assisteraient le Vāp dans la perception <supplied reason="subaudible">des droits</supplied> sur le territoire de Sramo Em, avec ses rizières et ses terres que Vāp Ās avait achetées au moyen de 2 buffles à Vāp Jīva, <foreign>khloñ gāp</foreign> de Vijayapattana, ainsi qu'à Vāp Prabhāviśvara, <foreign>khloñ jnval</foreign>, Vāp Ravicandra <foreign>khloñ jnval</foreign>, Vāp Vrai <foreign>khloñ jnval</foreign>, Vāp Śrī Pratidāsa diśādhikr̥ta, Vāp Noṅ notable de Vijayapattana.</p>
+              <p n="A9-A18">Ces derniers s'associèrent pour offrir ces 2 buffles aux services royaux. Puis, ils offrirent la terre de Vrai Sramo Em au roi D.V.P.D.J.V.K.A. qui était allé à Rudraloka <supplied reason="explanation">= Harṣavarma I</supplied>. Vāp Ās et Vāp Gāp donnèrent <supplied reason="subaudible">le terrain</supplied> à Me Sā qui était accordée à Chloñ Manovindu. Puis, ils donnèrent Me <gap reason="lost"/>n à Vāp Sat, chef des serviteurs de la salle de toilette. Chloñ Manovindu <supplied reason="subaudible">fit</supplied> essarter la terre, y fonda le village de Sramo Em. Tāñ Mau de Vijayapattana prit 2 bœufs domestiqués ; <supplied reason="subaudible">de même</supplied> Vāp Sadāśiva, <foreign>khloñ gāp</foreign> de Vijayapattana, Vāp Dā, <foreign>khloñ jnval</foreign>, Vāp De<gap reason="lost"/>, <foreign>khloñ jnval</foreign>, Vāp Rau, diśādhikr̥ta, d'un commun accord prirent 2 robustes bœufs châtrés, 2 paires de bœufs domestiqués, et les amenèrent à Chloñ Manovindu pour le service du roi, et donnèrent une autre terre de Sramo Em à Chloñ Manovindu.</p>
+              <p n="A18-A22">Vāp Sarvaśiva étant chef des serviteurs de la salle de toilette, le roi ordonna à Vāp Āñ, surveillant des biens divins, de se rendre au Village de Sramo Em, d'y planter des bornes, marquant ce don gracieux royal à Vāp Sarvaśiva, chef, et à toute sa famille.</p>
+              <p n="B1-B10">L'an 899 Śaka, le lundi 8e jour de la lune croissante de Jyeṣṭha, Mratāñ Śrī Nr̥pabhaktigarjita, les Steṅ maîtres rituels et inspecteurs des qualités et défauts du tribunal royal, saluèrent respectueusement <supplied reason="subaudible">le souverain</supplied> ainsi que le K.A. Vraḥ Guru, K.A. les princes royaux et K.A. le grand ministre du palais. Ils transmirent l'ordre du roi au Steṅ chargéde l'enduit de la salle du culte, Vāp Pañ, les <foreign>khloñ vala</foreign>, les <foreign>khloñ sru</foreign> de Jeṅ Vnaṁ, les envoyant édifier une stèle à Sramo Em, dans le but d'accorder cette terre comme don gracieux royal à Mratāñ Somaśiva, neveu de Vāp Sarvaśiva, chef des serviteurs de la salle de toilette, ainsi qu'à toute sa famille.</p>
+              <p n="B10-B14">Le roi décréta qu'elle ne serait point sujette aux redevances de riz, d'huile territoriale ou de sésame. Quant aux <foreign>khloñ vala</foreign> qui partent en province pour le service du roi, il leur est interdit de se saisir des habitants de Sramo Em qui sont les serviteurs de la salle de toilette, de les molester ou de leur extorquer des biens.</p>
+              <p n="B15-B19">Voici l'étendue de cette terre. Depuis la stèle vers l'est à Guluṅga jusqu'au tertre portant la borne ; au sud, jusqu'au chemin des Rmañ avec la borne ; à  l'ouest jusqu'à Janlit <gap reason="lost"/> avec la borne ; au nord jusqu'à Uttaraṣvara avec la borne. Voilà l'étendue de la terre de Sramo Em que Mratāñ Somaśiva a reçue de la grâce royale.</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p>Saveros Pou records the $floret in line A23 as belonging to line A22.</p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">126-128</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 1473.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Pou2001_01"/><citedRange unit="page">126-128</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
