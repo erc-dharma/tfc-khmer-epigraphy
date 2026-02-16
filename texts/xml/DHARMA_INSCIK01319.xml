@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stela of Prasat Ta Krabei (K. 1319), 10th century CE</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="http://viaf.org/viaf/188499375">
+                  <forename>Sotheara</forename>
+                  <surname>Vong</surname>
+               </persName>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01319</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-01-16" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p><milestone type="pagelike" unit="face" n="A"/><label xml:lang="eng">Face A</label>
+   <lb n="A1"/>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - varddha
+   <lb n="A2"/>gi ta _ svāmī ta jmaḥ steñ app ta [kvan cloñ] - - - - ti
+   <lb n="A3"/>- - - yā - - - - - - sanme ni qme nu kvan paṅket bhakti ta vraḥ kaṁ[steṅ]
+   <lb n="A4"/>vraḥ _ _ _ ta (da _ hadarana) na phoṅṅ dau $circleSmall gi [ka]nloṅ kaṃsteṅ [Añ] - - -
+   <lb n="A5"/>sre ta vraḥ [kaṃsteṅ Añ] ta [jmaḥ steṅṅ] Appa $circleSmall ta gi nuva Ābharanaṁ phoṅṅ de[ñ] vr—
+   <lb n="A6"/>vraḥ kaṃsteṅ Añ śrī varddhamāneśvara $circleSmall daha vraḥ kaṃsteṅ Añ laḥ [gi hita]
+   <lb n="A7"/>[lāṅ] kaṃsteṅ Añ laḥ [syaṅ] ta grap Ābharaṇa man svāmi paṅket bhakti 
+   <lb n="A8"/>nā vraḥ [vleṅ] dai sot ti svāmi ta jmaḥ steñ Appa paṅket bhakti
+   <lb n="A9"/>[gi] ne[ḥ] vrai [gi vrai]----Ukk ($circleSmall) gi bhaktī man svāmī prakop ta vraḥ kaṁsteṅ [Añ]
+   <lb n="A10"/>$circleSmall hadya $circleSmall śaṅkha $circleSmall dāsa $circleSmall dāsi $circleSmall tai kr̥s $circleSmall tai thmāy $circleSmall tai s[u]bhadrā $circleSmall tai kaṁpas
+   <lb n="A11"/>$circleSmall gho nāgaṣara $circleSmall gho Āditya $circleSmall gho piṅ[pā]ṅ $circleSmall gho panlas $circleSmall gho Īśvaradā[sa]
+   <lb n="A12"/>gi sruk pr̥ nā svāmī Aṅgvay ti nivedana ta vraḥ kaṁsteṅ Añ $circleSmall jā Ā
+   <lb n="A13"/>śrama nu sre $ddanda phle gi sre dai Aṁ[vi ta] gi daṁnap [j]ranyaṅṅ dai dau pūrvva prasa[p]
+   <lb n="A14"/>[d]rākṣa $circleSmall dau paścima prasap vrai jneṅ $circleSmall dau uttara prasap phlu thmur $circleSmall gi 
+   <lb n="A15"/>nuva srukka nuva sre [ti] svāmī ta jmaḥ steñ Appa paṁre ta vraḥ kaṁsteṅ A-
+   <lb n="A16"/>ñ śrī varddhamāneśvara nitya $circleSmall ($circleSmall)
+</p>
+                    <lg n="1" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A17"/>Anyasya dānamanum[o]dati yo 'pi saṃmya k</l>
+   <l n="b">satrā[p]ta[ja]phalam avāpyati[kimu]</l>
+<l n="c"><lb n="A18"/>saṁkalpatādhala[dha]tī[m a]nubhāvayeddhi</l>
+    <l n="d">kai[thartti]ma_ramanontarahemaliṅgaṁ [$circleSmall]</l>
+</lg>
+                   <lg n="2" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A19"/>yaddatt[aṁ] śramanādibhyo dadato hi _tadetvantadehāryyanṛpenāpi kimutam[sutarddhāndhavai]</l>
+   <l n="b"></l>
+<l n="c"><lb n="A20"/>yaścāpyasūyayeddevaṃ bhūtātmāna[mi] _ _[rna] sakr̥ _ _ _kaṁ yānti saha[m]ūsahānugai $ddanda</l>
+    <l n="d"></l>
+</lg>
+                   <p><lb n="A21"/>$circleSmall $circleSmall $circleSmall cloñ hr̥dayabhāva mūla vraḥ kra nu ta bhāryya paṅket bhakti ta
+                      <lb n="A22"/>vraḥ kaṁsteṅ Añ śrī varddhamā[neśvara nitya] nu - - - - - - daṁnepra - -[ma]ntriya dau $circleSmall -au
+                      <lb n="A23"/>kinnara $circleSmall nu khñuṁ ta tiṅṅ gi[ki]nnara $circleSmall tai pandan $circleSmall -------n gho kanĀt [gho] panlas $circleSmall gho
+                      <lb n="A24"/>n ren $circleSmall gho madhuragīta $circleSmall gi sru[ka] - - - - - -jana ti nivedana ta vraḥ kaṁsteṅ [Añ]
+                      <lb n="A25"/>jā Āśrama $circleSmall nuva sre phle gi $circleSmall gi sre ----[Aṁ]vi ta gi srukka [lvoḥ] ta gi gola $circleSmall gi [phle] 
+                      <lb n="A26"/>nuva srukka nuva sre ti paṁre ta vraḥ kaṁsteṅ Añ śrī varddha[mā]neśvaranitya ($circleSmall)
+                      <lb n="A27"/>$circleSmall $circleSmall $circleSmall cloñ śikhāśiva paṅket bhakti ta [v]raḥ [kaṁste]ṅ Añ [śrī va]rddhamāneśvara $circleSmall niveda-
+                      <lb n="A28"/>na khñuṁ ta vraḥ kaṁsteṅ Añ tai ka----------- $circleSmall ka gi ------- $circleSmall ----ki [voca ju[ṁ] ti
+                   </p>
+                   <lg n="3" met="vasantatilakā" xml:lang="san-Latn">
+<l n="a"><lb n="A29"/>$circleSmall $circleSmall $circleSmall ke ma kāñcanatatā[ka]ti - - - - -pra----- [pūrvva] kukr̥tāḥ napunaḥkr̥tā- - - </l>
+   <l n="b"></l>
+<l n="c"><lb n="A30"/>--- ravi[mana]gatassu--------- [bhantiteharaha_]īndracaturmmukhāṅgāḥ $ddanda</l>
+    <l n="d"></l>
+</lg>
+                   <p>
+                      <lb n="A31"/>$circleSmall $circleSmall $circleSmall -----------------nta[dāntāvācāryya khñuṁ ta vraḥ kaṁsteṅ Añ śrī varddha-
+                      <lb n="A32"/>mā[neśvara o tai] saṁmr̥[dhī $circleSmall]
+                   </p>
+                   <p><milestone type="pagelike" unit="face" n="B"/><label xml:lang="eng">Face B</label>
+   <lb n="B1"/>$gomutraInitial steñ(·) --------yasāla $circleSmall ---ra --- paṅket· -----[vraḥ] (kaṁ)steṅ· Añ· (śrī varddha)-
+   <lb n="B2"/>māneśvara $circleSmall nive[dana] khñuṁ ta vraḥ kaṁsteṅ· Añ· ------dasi dāsa $circleTarget steñ(·)
+   <lb n="B3"/>{1}(sa)śi[va] nu cloñ· somaśikhā (ta jā) qryāṁ nu (phqvann·) [s]yaṅ ta sanme ni paṅket· [bha]-
+   <lb n="B4"/>ktī ta vraḥ kaṁsteṅ· Añ· śrī varddhamāneśvara $circleSmall ni[veda]na ta vraḥ kaṁsteṅ· Añ·
+   <lb n="B5"/>gho kanteṅ· $circleSmall tai kaṁvrau $circleSmall kvan· kaṁvrau $circleSmall tai thqyak· $circleSmall {4} (vra){4} 
+   <lb n="B6"/>tai thleṁ $circleSmall {3} mvāy(·) {3}nya[n]ya(space of 3 akṣara)ra $circleSmall ... [cloñ so]-
+   <lb n="B7"/>maśikhā(daiva) cloñ· prabhāditya paṅket· bhakti ta vraḥ (kaṁsteṅ· A)ñ· śrī [varddha]-
+   <lb n="B8"/>[mā]neśvara $circleSmall nivedana khñuṁ ta vraḥ kaṁsteṅ· Añ· $dotMid tai dharaṇī $dotMid kvan· dharaṇī $dotMid (gho) 
+   <lb n="B9"/>chpoṅ· $circleTarget (tai) panlas(·) $circleSmall [kvan·] (panla)s· tai kañjes· $circleSmall tai devikā $circleSmall kvan· de-
+   <lb n="B10"/>vikā $circleSmall (gho) khñuṁ vraḥ $circleSmall gho ... [cloñ· somaśikhā]
+   <lb n="B11"/>duñ· $circleSmall ... nivedana khñuṁ ta vraḥ kaṁste-
+   <lb n="B12"/>ṅ· Añ· śrī (varddhamā)neśvara $circleSmall tai (kaṁvai) $circleSmall kvan· kaṁvai vyara $circleSmall {3} syaṅ ta A-
+   <lb n="B13"/>ṅgvay· ta [Āśrama] ta [vraḥ kaṁste]ṅ· Añ(·) $circleSmall ...
+                      <lb n="B14"/>cloñ· (jana)... (vraḥ kaṁsteṅ· Añ)· śrī varddhamāneśvara $circleSmall [tai] si[ddhirā]ja $circleSmall
+                      <lb n="B15"/>kvan(·) siddhirāja $circleSmall tai ... tai Aṅ· Oṅ· {2} bhaktī cloñ· ($circleTarget)
+   </p>
+</div>
+ <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Vong2021_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div>
+         <!--   <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+ 	<p n="1-11"></p>
+              
+         </div> 
+           <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Sotheara Vong (<bibl rend="omitname"><ptr target="bib:Vong2021_01"/><citedRange unit="page">122-129</citedRange></bibl>) in Roman and Khmer scripts with a Khmer translation; the variants of reading are taken from both the Roman and Khmer scripts.</p>
+	 <listBibl type="primary">
+	    <bibl n="SV">
+      <ptr target="bib:Vong2021_01"/><citedRange unit="page">122-129</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
