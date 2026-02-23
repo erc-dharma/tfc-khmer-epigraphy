@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary stela from Ku Aram (K. 373), 10th century Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00373</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth-eleventh century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-02-23" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p><milestone type="pagelike" unit="face" n="A"/><label xml:lang="eng">Face A</label>
+   <lb n="A1"/>neḥ bhūmi ta roḥh neḥ vvaṁ Āc ti mān {5} ya nu qnak ta gi viṣaya phoṅ ta vāda $circleSmall pratyaya
+   <lb n="A2"/>{6} nā mok pan[dva]l loñ bhadraśiva loñ vrahmaśiva loñ ravi loñ candra
+</p>
+                   <p><milestone type="pagelike" unit="face" n="B"/><label xml:lang="eng">Face B</label>
+   <lb n="B1"/>{10} nirṇṇaya toy Uttamasāha $circleSmall man vāp pān[dava] {3}
+   <lb n="B2"/>{15} svaṁ prasāda gi pi ros ta gi pi vvaṁ vraḥ pre {3}
+                      <lb n="B3"/>{14} vraḥ mattavāraṇa $circleSmall pre cār Iss śākha saṁnva[t] {1}
+                      <lb n="B4"/>{6} pre pratyaya dau saṅ gol praśasta viṅ ta gi bhūmi ta roḥh neḥh $circleSmall pre ni
+</p>
+                   <p><milestone type="pagelike" unit="face" n="C"/><label xml:lang="eng">Face C</label>
+   <lb n="C1"/>yama daha mān(·) {2}
+   <lb n="C2"/>vāp· pāndava ta thve vāda bhū-
+   <lb n="C3"/>mi neḥ ley· pre saṁlā-
+   <lb n="C4"/>p· qyat si stāp· vyavahāra
+   <lb n="C5"/>ley(·) ta qnau nā mā-
+   <lb n="C6"/>n· vraḥ karuṇā {4}
+   <lb n="C7"/>neḥha ($circleSmall) mratāñ· khlo-
+   <lb n="C8"/>ñ· śrī vīrendravarmma $circleSmall mratā-
+   <lb n="C9"/>ñ· khloñ· śrī vīrendrādhi-
+   <lb n="C10"/>pativarmma $circleSmall mratāñ(·) khlo[ñ·]
+   <lb n="C11"/>śrī mahīdharavarmma $circleSmall [mratā]-
+   <lb n="C12"/>ñ· khloñ· śrī jayā[yu]-
+   <lb n="C13"/>ddhavarmma $circleSmall mratāñ(·) khlo[ñ·]
+   <lb n="C14"/>śrī narapatīndrava[rmma $circleSmall mratā]-
+   <lb n="C15"/>ñ· khloñ· śrī dhara{3}-
+   <lb n="C16"/>varmma $circleSmall mratāñ· śrī {3}-
+   <lb n="C17"/>rimathana $circleSmall mratāñ(·) {3}-
+   <lb n="C18"/>ndrārimathana $circleSmall mratā[ñ·] {3}-
+   <lb n="C19"/>nakesari $circleSmall mratā[ñ· śrī]
+   <lb n="C20"/>dharaṇīndraparākrama $circleSmall [mra]-
+   <lb n="C21"/>tāñ· śrī dharaṇīndropa-
+   <lb n="C22"/>kalpa $circleSmall kaṁsteṅ· Añ(·) guṇa-
+   <lb n="C23"/>doṣa $circleSmall mratāñ· śrī mahe-
+   <lb n="C24"/>ndrasiṅha $circleSmall mratāñ· śrī vi-
+   <lb n="C25"/>kramasiṅha $circleSmall mratā-
+   <lb n="C26"/>ñ· śrī rajendrasiṅha $circleSmall mratā-
+   <lb n="C27"/>ñ· śrī parākramasiṅha $circleSmall ri
+   <lb n="C28"/>vraḥ sabhā ta paṅgaṁ th(p)[vaṅ· nive]-
+   <lb n="C29"/>dana $circleSmall mratāñ· {4}
+   <lb n="C30"/>tabhaktivallabha $circleSmall {4}
+   <lb n="C31"/>vrahmayogisV {4}
+   <lb n="C32"/>vāp· rudrabhāva {3} [vya]-
+   <lb n="C33"/>vahāra ta vāp ta {3}
+   <lb n="C34"/>taṁ sruk kaṁveṅ ta {3}
+   <lb n="C35"/>noḥha chvāt· ma{3}-
+   <lb n="C36"/>la $circleSmall pandval[[·]] vraḥ śāsa[na]
+   <lb n="C37"/>Oy· bhūmi ta roḥha
+   <lb n="C38"/>neḥha viṅ ta vāp tapoma-
+   <lb n="C39"/>ya $circleSmall
+</p>
+</div>
+ <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1954_02"></rdg>
+                   </app>
+                   </listApp>  
+         </div>
+        <!--    <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+ 	<p n="1-11"></p>
+              
+         </div> 
+           <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">279-280</citedRange></bibl>) without translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 442.</p><!-- kuch: Only the estampage of the face C is available for reediting. -->
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">279-280</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
