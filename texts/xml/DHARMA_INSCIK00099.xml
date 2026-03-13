@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjambs from Cong Ang (K. 99), 844 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00099</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-03-13" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p><milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label>
+   <lb n="S1"/>$gomutraInitial siddhi svasti $ddandaOrnate 844 śaka nu mān· braḥ śāsana ḍhū vraḥ
+   <lb n="S2"/>pāda ḍhū jeṅ· vraḥ kamrateṅ· Añ(·) śrī jayavarmmadeva ta dhūli jeṅ· braḥ
+   <lb n="S3"/>kamrateṅ· Añ· śrī prathibīṇdrabarmma pan·dval· vraḥ śāsana
+   <lb n="S4"/>ta mratāñ· śrī nr̥peṇdravikramma kh[[l]]oñ[[·]] glāṅ· nā Eka pi pre vraḥ
+   <lb n="S5"/>kamrateṅ· Añ· śrī tribhuvanaikanātha Āy· jeṅ· O[ṅ·] ta punya chloñ· prāna
+   <lb n="S6"/>saṁ gaṇa nu vraḥ kaṁmrateṅ· Añ· śrī cāmpeśvara vvaṁ jā pi mān· vakra nu paṁ-
+   <lb n="S7"/>cāma vvaṁ jā pi mān· vakra ṇu khloñ· viṣaiya nu khloñ· sru[[k·]] ṇu khloñ· bhū-
+   <lb n="S8"/>tāśa ṇu tamrvac· Amr̥takadhana datta dau ta vraḥ kamrateṅ(·) Añ· śrī campe-
+   <lb n="S9"/>śvara braḥ śāsana pre ka kalpanā śvetataṇdula ṣadkhārikā $dotMid ghr̥ta Ādhaka 8 $dotMid ja-
+   <lb n="S10"/>la śvetavastra yugala 2 go śata saṁ ṇu jvaṇ dik· braḥ rājaśrī hemakamaṇdalu I
+   <lb n="S11"/>ṅaṇ(·) jyaṅ[[·]] I neḥ syaṅ· ta gi kalpanā dau ta vraḥ kamrateṅ(·) Añ(·) śrī cāmpeśvara
+   <lb n="S12"/>sapa chnāṁ $dotMid khñuṁ maṇ· chloñ· prāṇa O[[y·]] ta vraḥ kamrateṅ· Añ· ta viṣṇu to[[y·]] rṇṇoc·
+   <lb n="S13"/>si ka[[ṁ]]pit· tr[[v]]ac(·) $dotMid si thleṁ cāṁ glāṅ· $dotMid si siddhivara grāmapāla $dotMid si kaṁvrau pek· thve sre ka[ṁ]luṅ·
+   <lb n="S14"/>ka vraḥ si kañjos· $dotMid si thgāp· $dotMid si paṇdan· $dotMid si kaṁpat· $dotMid si kaṁpit· $dotMid si kaṁpit· sot· $dotMid si mr̥ta $dotMid
+   <lb n="S15"/>mahāṇasa $dotMid si kaṁvut· mahāṇasa $dotMid si kaṁvis· tiṅ· $dotMid Aṁraḥ si krau $dotMid si kaṁpas· $dotMid tai bhāja $dotMid tai dha-
+   <lb n="S16"/>rmma $dotMid thve sre vnek· dlāy· $dotMid Aṁraḥ si māṇudharmma $dotMid si paṇdas· $dotMid tai preta tai maya $dotMid vnek· dlāy· $dotMid Aṁraḥ
+   <lb n="S17"/>si jaṅvera $dotMid si kaṁvrāṁ $dotMid tai kaṇtrap· $dotMid tai paṇlas· $dotMid thve sre vnek· dlāy(·) sot· $dotMid Aṁraḥ si thgot· $dotMid si kaṇ·-
+   <lb n="S18"/>sip· $dotMid tai vrata $dotMid tai kañcu $dotMid thve sre va ruy· $dotMid Aṁraḥ si kaṇ·su $dotMid si ratnadāsa $dotMid si thgāp· $dotMid si caṇdrabhā $dotMid si chpo-
+   <lb n="S19"/>ṅ· $dotMid si kaṇ·Ā $dotMid qma laṁñañ· $dotMid tai kaṇdrvaṅ· $dotMid thve sre hauṅ· $dotMid nu sre thpoṅ· tyak· $dotMid Aṁraḥ si vaṅā $dotMid si A-
+   <lb n="S20"/>mr̥ta $dotMid tai kaṇ·sruk(·) $dotMid tai mālikā $dotMid tai sraṅe thve sre vnek· dlāy· $dotMid A[ṁ]raḥ si caṁhek· $dotMid
+   <lb n="S21"/>tai kaṁprvat· $dotMid tai laṅgāy· $dotMid thve sre jeṅ· daṁṇap· $dotMid A[ṁ]raḥ si kaṇ·Aṇ· $dotMid si saṁAp· $dotMid tai pratika $dotMid
+   <lb n="S22"/>tai qnāy· $dotMid tai ka[ṁ]vrau $dotMid tai kaṁbhāt· $dotMid thve sre pālayā $dotMid tai kan·rat· $dotMid tai thleṁ $dotMid tai chke $dotMid thve saṁṅvey· $dotMid ta
+   <lb n="S23"/>mra dvaṅñ· cāñ· $dotMid si thgāp· $dotMid si kaṇ·As· $dotMid si śrī si Amr̥ta $dotMid si dharmma $dotMid si kañ(·)cyas· $dotMid si taṅker· $dotMid mramaḥ $dotMid
+   <lb n="S24"/>tai kaṇdhi $dotMid tai kanlot· $dotMid tai kaṁvrau $dotMid tai kaṇ·so $dotMid tai saṁAp· $dotMid tai subhādeva $dotMid tai saṁAp· sot· $dotMid
+   <lb n="S25"/>tai khmau $dotMid tai khsāy[[·]] $dotMid tai raṁnoc(·) $dotMid tai ka[[ṁ]]prvat· $dotMid tai kaṁpit· $dotMid tai daṁdip· $dotMid tai kaṇ(·)As· $dotMid tai kaṇ·hyaṅ· $dotMid
+   <lb n="S26"/>thniṅ· tai kañcāṇ· $dotMid tai khnap· $dotMid pattrakāra tai kaṇ·syaṅ· $dotMid dmuk varṣā tai surabhi $dotMid tai vraḥ prasāda $dotMid tai kaṇ·so $dotMid
+   <lb n="S27"/>tai prāṇa $dotMid tai saṁr̥ddhi $dotMid tai phkā $dotMid tai kaṁpit· $dotMid gaṅvāl· $dotMid si taṅker(·) $dotMid chmāṁ chpār· $dotMid si saṁAp· $dotMid si kaṇ·Ak· $dotMid si phtal· $dotMid
+   <lb n="S28"/>Aṁraḥ $dotMid jaṅver(·) $dotMid tai kaṇdhi $dotMid si thgap· $dotMid tai kaṇ·Ā $dotMid tai kaṇ·srac· $dotMid tai kaṁbhāk· $dotMid tai kansa $dotMid tai khmau $dotMid si kaṇ·Ā $dotMid
+   <lb n="S29"/>si taṅku $dotMid tai sujāti $dotMid tai ratnaśrīya $dotMid tai kaṁvaḥ Oy· kaṁyār· $dotMid phsaṁma qnak· rṇṇoc· 100 10 7 jaṁṇvaṇ·
+   <lb n="S30"/>vrāhmaṇa $dotMid si muṇidāsa $dotMid vraḥ śāsana pre yājamāṇa kalpanā mi mvāy(·) Aṁraḥ $dotMid saṇtek· je I liḥ 8 $dotMid lṅo liḥ
+   <lb n="S31"/>5 $dotMid raṅvar· mās· 2 $dotMid taṇdula ta jā yajña sappa thṅā[[y·]] thloṅ· II $dotMid thuṇ· santek· hvap· jaṁmvuli $dotMid vadi $dotMid vadā $dotMid
+   <lb n="S32"/>phuri phurā $dotMid graleṅ· $dotMid tila moda $dotMid kaṁpov(·) $dotMid paramāṇa $dotMid kṣira dhamāya $dotMid rāya vaka $dotMid saṁṅor· neḥ to[[y·]] rṇṇoc(·)
+</p>
+                   <lg n="1" met="anustubh" xml:lang="san-Latn">
+<l n="a"><lb n="S33"/>kalpitaṁ ye vilumpeyu<space/>r</l>
+   <l n="b">laṅghayeyuś ca śāsaṇaṁ<space/></l>
+<l n="c">te yāṇṭi narakaṁ yāva<space/>t</l>
+    <l n="d">sthito ca<lb n="S34"/>ṇdradivākarau <g type="ddandaOrnate">.</g></l>
+</lg>
+                   <ab><lb n="S35"/>jayajāmvupatirṇnātha
+                   <lb n="S36"/>jā</ab><!-- kuch: George Cœdès thinks that the lines 35 and 36 were sribes' trials.-->
+                   <p><milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label>
+   <lb n="N1"/>$ddandaOrnate [si]ddhi $dotMid svāsti $ddandaOrnate jaṁnvan· chloñ· vis· nu tāñ(·) steñ(·) pañ(·) nu tāñ· steñ· pit· nu
+                      <lb n="N2"/>tāñ· steñ· rauv(·) ta vraḥ kaṁmrateṅ· Añ(·) śrī tribhuvanaikanātha Āy·
+                      <lb n="N3"/>jeṅ· Oṅ· $dotMid si Aṁmr̥dubhāva trvac· $dotMid si kaṁpiṅ· grāmapāla $dotMid si thvas· cāṁ glaṅ· $dotMid si ṇa-
+                      <lb n="N4"/>rāya pek· $dotMid si caṁhek· cāp· vṅe $dotMid si kan·sip· mahāṇasa $dotMid si pavitra mahāna-
+                      <lb n="N5"/>sa $dotMid si kaṅjan· mahānasa $dotMid taṁvey· tai kaṁpañ· $dotMid cañ· si thgap· $dotMid si kaṁvās· $dotMid si thleṁ
+                      <lb n="N6"/>si thEk· $dotMid pram· tai kan·rau $dotMid tai thmās· rāṁ $dotMid tai thEk· $dotMid tai kaṁvai $dotMid tai chṅap· $dotMid tai kan· saṁAp· $dotMid cāṁ
+                      <lb n="N7"/>glaṅ· tai gandha $dotMid tai raṁnoc· $dotMid tai sa(ṁ)Ap· $dotMid tai pan[[·]]svaṁ $dotMid tai kan·srac· $dotMid tai kan(·)ses· $dotMid tai
+                      <lb n="N8"/>tai kan·teṅ· $dotMid tai kaṁtre $dotMid rmāṁ bhan· ni $dotMid si cāppa $dotMid si Aṅkāṁ $dotMid si kandeṅ· $dotMid toṅ· si kan·Āt· $dotMid prāṅga-
+                      <lb n="N9"/>dāsa $dotMid candravāra $dotMid dmuk· varṣā $dotMid tai kaṁvet· $dotMid tai kan(·)Añ· $dotMid tai dhara $dotMid tai chne $dotMid tai kan·so $dotMid tai ka-
+                      <lb n="N10"/>n(·)so so[[t·]] $dotMid Aṁraḥ si jīva $dotMid si kañces· $dotMid tai kan·so $dotMid tai saṁkau $dotMid tai kañcu $dotMid Aṁraḥ si thgot·
+                      <lb n="N11"/>si kañcu $dotMid si Agat· $dotMid tai kaṁprvat· $dotMid tai chpoṅ· $dotMid Aṁraḥ si raṁnoc(·) $dotMid tai kaṁprvat(·) $dotMid tai Utpala $dotMid
+                      <lb n="N12"/>tai paṇdan· $dotMid Aṁraḥ si kaṁpañ· si saṁAp· $dotMid tai laṅgāya $dotMid tai kaṁpit· $dotMid tai prāṇa $DotMid neḥ sya-
+                      <lb n="N13"/>ṅ· ta thve sre pās· diṅ·deṅ(·) $dotMid Aṁraḥ si kan·rau $dotMid si khñuṁ $dotMid si kañja $dotMid tai kañjaiya $dotMid tai ka-
+                      <lb n="N14"/>n·jan· $dotMid thve sre thpvoṅ· tyak· $dotMid Aṁraḥ si khlāṅ· $dotMid tai kaṁvai $dotMid tai kaṁvai sot· $dotMid thve sre pās· diṅ·deṅ[·] $dotMid
+                      <lb n="N15"/>Aṁraḥ si pan·las· $dotMid si paṇdan· $dotMid si kaṁvai $dotMid tai khmau $dotMid thve sre pālayā $dotMid Aṁraḥ si khnet· $dotMid si kan·Ak(·) $dotMid
+                      <lb n="N16"/>thve sre samādijana $dotMid chmā[[ṁ]] chpār· $dotMid si kaṁvrā $dotMid si kan·rau $dotMid si taṅker· $dotMid tai kañcān· $dotMid tai kan[·]hyaṅ· $dotMid
+                      <lb n="N17"/>tai duk· vra[[ḥ]] vasana $dotMid tai thṅe $dotMid tai dharmma $dotMid tai kan·so $dotMid tai thnos· $dotMid tai kañjir· $dotMid qme tai jvik· $dotMid si saṁ-
+                      <lb n="N18"/>vāra si dharmma $dotMid si kan·seṁ $dotMid Aṁraḥ si mahendradāsa $dotMid si kaṁvut· $dotMid si kaṁvai $dotMid si kaṁpañ· $dotMid si Amr̥ta $dotMid tai pandan· $dotMid
+                      <lb n="N19"/>thve sre thpoṅ· tyak· $dotMid si kaṁtrev(·) $dotMid si caṁhek· $dotMid si thge $dotMid si kañjos· $dotMid si daṁluḥ $dotMid si qnāy(·) $dotMid si thke $dotMid si ka-
+                      <lb n="N20"/>n(·)I $dotMid si paṁnoḥ $dotMid tai kan·Añ· $dotMid tai chnāṅ· $dotMid tai kanteṁ $dotMid tai pan·svaṁ $dotMid tai kan·su $dotMid tai saṁAp· $dotMid tai kalaṅ· $dotMid
+                      <lb n="N21"/>tai kanleṅ· $dotMid tai kansaṁ $dotMid tai kañcu $dotMid tai kan·tr̥p· $dotMid tai thEk· $dotMid tai vrata $dotMid tai kan·srac(·) tai ka-
+                      <lb n="N22"/>p·kep· $dotMid tai khnop· $dotMid tai kaṁvrau $dotMid tai kaṁprvat· $dotMid tai kan·In· $dotMid tai kaṁpat· $dotMid tai karmmadaya $dotMid tai qnā-
+                      <lb n="N23"/>ya $dotMid tai kandeṅ· $dotMid tai khtip· $dotMid tai tavuy· $dotMid tai khmau $dotMid tai saṁAp· $dotMid tai kanteṁ $dotMid tai paṁnoḥ $dotMid tai kaṁ-
+                      <lb n="N24"/>prvat· $dotMid tai chpoṅ· $dotMid tai dharmma $dotMid tai kaṁpit· $dotMid tai mandira $dotMid tai gaṅgā $dotMid tai kan·U $dotMid tai kaṁpit· $dotMid phsam[·] qna-
+                      <lb n="N25"/>k· toy· khnet· 100 20 10 $dotMid kalpanā mi mvāy· Aṁraḥ $dotMid santek· je I liḥ 8 $dotMid lṅo liḥ 8 $dotMid
+                      <lb n="N26"/>raṅvar· mās· 4 $dotMid vraḥ saṁvey· sap(·) thṅāy· raṅko ta jā yajña $dotMid thloṅ· 4 $dotMid naṁ thun· $dotMid santek· hva-
+                      <lb n="N27"/>p· vadi $dotMid vadā $dotMid graleṅ· $dotMid phuri $dotMid phurā $dotMid dhamāya $dotMid kaṁpau $dotMid paramāna $dotMid kṣira tila moda $dotMid
+</p>
+</div>
+ <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1954_02">canhvā</rdg>
+                   </app>
+                   </listApp>  
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+ 	<p n="S1-S8">Succès! Bonheur ! 844 Śaka, il y eut un ordre de S. M. Śrī Jayavarmadeva à Dhūli Jeṅ V. K. A. Śrī Pr̥thivīndravarman, de notifier à Mratāñ Śrī Nr̥pendravikrama, chef des magasins (khloñ glāṅ) de première catégorie, l'ordre de réunir le V. K. A. Śrī Tribhuvanaikanātha à Jeṅ Oṅ, fondation de Chloñ Prāṇa, dans le même gaṇa que le V. K. A. Śrī Cāmpeśvara. Qu'il n'y ait pas d'équivoque à l'égard des gens affectés (au temple), qu'il n'y ait pas d'équivoque à l'égard des chefs de district (viṣaya), des chefs de village (sruk), des chefs des bhātāśa, et des inspecteurs (tamrvac) des biens sacrés (amr̥takadhana) qui reviennent à V. K. A. Śrī Cāmpeśvara.</p>
+              <p n="S9-S11">L'ordre royal prescrit de fournir 6 khārikā de riz blanc, 8 āḍhaka de beurre fondu, 8 paires de vêtements blancs jala, 100 vaches, et (pour) offrir l'eau de la sainte fortune royale, une aiguière d'or pesant 1 jyaṅ : voilà ce qui doit être fourni à V. K. A. Śrī Cāmpeśvara tous les ans.</p>
+              <p n="S12-S30">Esclaves que Chloñ Prāṇa offre au V. K. A. qui est Viṣṇu pour la lune décroissante (liste d'esclaves hommes, si, et femmes, tai, avec leurs chefs, aṁraḥ). Total des gens de la lune décroissante: 117. Don du (ou des) brâhmane : Si Munidāsa.</p>
+              <p n="S30-S32">L'ordre royal prescrit au donateur de fournir à chaque aṁraḥ: 1 je, 8 liḥ, de haricots ; 5 liḥ, de sésame ; 2 mās de sirop (raṅvar) ; 2 thloṅ de riz décortiqué pour le sacrifice quotidien ; ... : cela pour la lune décroissante.</p>
+              <p n="S33-S34">Ceux qui voleraient les fournitures fixées, et transgresseraient l'ordre royal, iront en enfer aussi longtemps que dureront le soleil et la lune.</p>
+              <p n="N1-N3">Succès ! Bonheur! Dons de Chloñ Vis, Tāñ Steñ Pañ, Tāñ Steñ Pit et Tāñ Steñ Rau à V. K. A. Śrī Tribhuvanaikanātha à Jeṅ Oṅ :</p>
+              <p n="N3-N25">(liste d'esclaves hommes, si, et femmes, tai, avec leurs chefs aṁraḥ). Total des gens pour la lune croissante, 130.</p>
+              <p n="N25-N27">Fournitures à chaque aṁraḥ : 1 je, 8 liḥ, de haricots ; 8 liḥ de sésame ; 4 mās de raṅvar ; aliments sacrés de chaque jour 4 thloṅ de riz décortiqué pour le sacrifices ...</p>
+           </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">107-112</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 737.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">107-112</citedRange>
+    </bibl>
+	</listBibl>
+           <listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">166</citedRange>
+    </bibl>
+              </listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
