@@ -103,7 +103,7 @@
 |K.	96 |kuch |done |unpublished|
 |K.	97 |kuch |pending |unpublished|
 |K.	98 |kuch |done |IC VII|
-|K.	99 |# |# |#|
+|K.	99 |kuch |done |IC VI|
 |K.	100 |# |# |#|
 |K.	101 |# |# |#|
 |K.	102 |kuch |done |IC V|
@@ -170,7 +170,7 @@
 |K.	161 |kuch |done |Finot 1904|
 |K.	162 |# |# |#|
 |K.	163 |kuch |done |IC VI|
-|K.	164 |# |# |#|
+|K.	164 |kuch |done |IC IV|
 |K.	165 |kuch |done |IC VI|
 |K.	166 |# |# |#|
 |K.	167 |# |# |#|
@@ -189,7 +189,17 @@
 |K.	180 |kuch |done |BEFEO 1913|
 |K.	181 |kuch |done |IC VI|
 |K.	182 |# |# |#|
-|K.	183 |sapi |pending |Chhom 2011; Jacques 2014|
+|K.	183-1 |sapi |done |Chhom 2011; Jacques 2014|
+|K.	183-2 |sapi |done |Chhom 2011; Jacques 2014|
+|K.	183-3 |sapi |done |Chhom 2011; Jacques 2014|
+|K.	183-4 |kuch |pdone |Chhom 2011; Jacques 2014|
+|K.	183-5 |kuch |pdone |Chhom 2011; Jacques 2014|
+|K.	183-6 |kuch |pdone |Chhom 2011; Jacques 2014|
+|K.	183-7 |kuch |pdone |Chhom 2011; Jacques 2014|
+|K.	183-8 |kuch |pdone |Chhom 2011; Jacques 2014|
+|K.	183-9 |kuch |pdone |Chhom 2011; Jacques 2014|
+|K.	183-10 |kuch |pdone |Chhom 2011; Jacques 2014|
+|K.	183-11 |kuch |pdone |Chhom 2011; Jacques 2014|
 |K.	184 |# |# |#|
 |K.	185 |# |# |#|
 |K.	186 |# |# |#|
