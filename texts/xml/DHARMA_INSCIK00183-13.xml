@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Southern doorpost of western gate of west gopura of Prasat Kracap (K. 183-13), 850 Śaka</title>
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               
+               <persName ref="http://viaf.org/viaf/64048594">
+                  
+                     <forename>Claude</forename>
+                     <surname>Jacques</surname>
+                  </persName>
+                  <persName><!--kuch: Bourdonneau et al. (nd), in notes.-->
+                  <forename>Eric</forename>
+                  <surname>Bourdonneau</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00183-13</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-04-01" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="1"/>qna<supplied reason="lost">k·</supplied> <gap reason="lost" extent="unknown" unit="character"/> sra-
+   <lb n="2"/><supplied reason="lost">ṅ</supplied>e <gap reason="lost" extent="unknown" unit="character"/> vatī tai
+   <lb n="3"/>ka<gap reason="lost" extent="unknown" unit="character"/>vatī tai
+   <lb n="4"/>ru<supplied reason="lost">ci</supplied> <gap reason="lost" extent="unknown" unit="character"/>k· tai kaṁ-
+   <lb n="5"/><supplied reason="lost">v</supplied>r<supplied reason="lost">au</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">k</supplied>van· kva-
+   <lb n="6"/>n· <gap reason="lost" extent="unknown" unit="character"/> tai kaṇ·-
+   <lb n="7"/><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>e <gap reason="lost" extent="unknown" unit="character"/> sot· tai
+   <lb n="8"/>thka<supplied reason="lost">p·</supplied> <gap reason="lost" extent="unknown" unit="character"/> tai kantvan·
+   <lb n="9"/><supplied reason="lost">t</supplied>ai <gap reason="lost" extent="unknown" unit="character"/> kan·he-
+   <lb n="10"/><unclear>y·</unclear> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">gho</supplied> kaṁvai gho
+   <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> gho kaṇde-
+   <lb n="12"/><supplied reason="lost">ya</supplied> <gap reason="lost" extent="unknown" unit="character"/> gho śaṅka-
+   <lb n="13"/>ra <gap reason="lost" extent="unknown" unit="character"/> gho <unclear>can</unclear>yān· tai
+   <lb n="14"/>ta <gap reason="lost" extent="unknown" unit="character"/> kaṁpr<supplied reason="lost">va</supplied>t<unclear>·</unclear> tai kanta-
+   <lb n="15"/>m· <gap reason="lost" extent="unknown" unit="character"/> kan·<unclear>Ak·</unclear> gho prā-
+   <lb n="16"/>ṇa <gap reason="lost" extent="unknown" unit="character"/> gho sadāśānti gho
+   <lb n="17"/><supplied reason="lost">ya</supplied> <gap reason="lost" extent="unknown" unit="character"/> kaṁpit<unclear>·</unclear> gho kan·A-
+   <lb n="18"/>k· <gap reason="lost" extent="unknown" unit="character"/> sot· gho kan·In·
+   <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">gho</supplied> kanren· gho ha-
+   <lb n="20"/>ri <gap reason="lost" extent="unknown" unit="character"/> bhāva gho thlem<unclear>·</unclear>
+   <lb n="21"/>gho <gap reason="lost" extent="unknown" unit="character"/> gho kanrau gho khna-
+   <lb n="22"/>k· <unclear>gho</unclear> <gap reason="lost" extent="unknown" unit="character"/> sot· gho mahendra
+   <lb n="23"/>bhā<unclear>va</unclear> <gap reason="lost" extent="unknown" unit="character"/> <unclear>tai</unclear> <gap reason="lost" extent="unknown" unit="character"/> tai kaṁprvat·
+   <lb n="24"/>sot<unclear>·</unclear> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">tai</supplied> phnos· tai kan·taṅ·
+   <lb n="25"/>tai panla<supplied reason="lost">s·</supplied> <gap reason="lost" extent="unknown" unit="character"/> <unclear>tai</unclear> kaṁpit· tai Amr̥ta
+   <lb n="26"/>tai taṁ<gap reason="lost" extent="unknown" unit="character"/>ddhi tai sra-
+   <lb n="27"/>c· ta <supplied reason="lost">vraḥ</supplied> <gap reason="lost" extent="unknown" unit="character"/> qnak ta gi sru-
+   <lb n="28"/>k· krva<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg> <gap reason="lost" extent="unknown" unit="character"/> si <num value="7"><g type="numeral">7</g></num> gho
+   <lb n="29"/><num value="110"><g type="numeral">100</g> <g type="numeral">10</g></num> gvā<supplied reason="lost">l·</supplied> <gap reason="lost" extent="unknown" unit="character"/> si rat·
+   <lb n="30"/><num value="10"><g type="numeral">10</g></num> si pau <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="31"/>qyat· jma<supplied reason="lost">ha</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="32"/>ta lvan· <gap reason="lost" extent="unknown" unit="character"/>
+</p>     
+</div>
+ <div type="apparatus">
+                <listApp>
+                   <app loc="1">
+                  <lem><gap reason="lost" extent="unknown" unit="character"/></lem>
+                   <rdg source="bib:Jacques2014_01"><supplied reason="lost">kāmaru pramāṇa qugrapura</supplied> <gap reason="lost" extent="unknown" unit="character"/> <unclear>tai</unclear></rdg>
+                   </app>
+                   <app loc="2">
+                  <lem><gap reason="lost" extent="unknown" unit="character"/> vatī</lem>
+                   <rdg source="bib:Jacques2014_01"><gap reason="lost" extent="unknown" unit="character"/> nāvatī</rdg>
+                      <!-- Bourdonneau et al.: (dh)[n]ā(va gi)-->
+                   </app>
+                   <app loc="4">
+                  <lem>ru<supplied reason="lost">ci</supplied></lem>
+                   <rdg source="bib:Jacques2014_01">ru<unclear>ṅ</unclear></rdg>
+                   </app>
+                   <app loc="5">
+                  <lem><supplied reason="lost">v</supplied>r<supplied reason="lost">au</supplied></lem>
+                   <rdg source="bib:Jacques2014_01"><unclear>sre</unclear></rdg>
+                   </app>
+                   <app loc="12">
+                  <lem><gap reason="lost" extent="unknown" unit="character"/> gho</lem>
+                   <rdg source="bib:Jacques2014_01"><unclear>stha</unclear> gho</rdg>
+                   </app>
+                   <app loc="13">
+                  <lem><unclear>can</unclear>yān·</lem>
+                   <rdg source="bib:Jacques2014_01"><unclear>va</unclear> nyān</rdg>
+                   </app>
+                   <app loc="26">
+                  <lem>taṁ<gap reason="lost" extent="unknown" unit="character"/>ddhi</lem>
+                   <rdg source="bib:Jacques2014_01"><unclear>kansan</unclear> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">tai</supplied> <unclear>r̥</unclear>ddhi</rdg>
+                   </app>
+                   <app loc="28">
+                  <lem>krva<seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg></lem>
+                   <rdg source="bib:Jacques2014_01">krva<unclear>s</unclear></rdg>
+                   </app>
+                   <app loc="31">
+                  <lem>jma<supplied reason="lost">ha</supplied></lem>
+                   <rdg source="bib:Jacques2014_01">jma<unclear>ḥ</unclear></rdg>
+                      <!-- Bourdonneau et al.: jma[h]-->
+                   </app>
+                   </listApp>  
+         </div>
+           <div type="translation" source="bib:Chhom2011_01"><!-- kuch: The term 'slave' should be understood as 'servant'. -->
+ 	<p n="1-27">People from <gap reason="lost"/> Sraṅe, <gap reason="lost"/>, Tai <gap reason="lost"/>, Tai Ruci <gap reason="lost"/>, Tai Kaṁvrau, <gap reason="lost"/> children, <gap reason="lost"/>, Tai <gap reason="lost"/>, another <gap reason="lost"/>, Tai Thkap, <gap reason="lost"/>, Tai Kantvan, Tai <gap reason="lost"/>, Gho Kaṁvai, Gho <gap reason="lost"/>, Gho Kaṇdeya, <gap reason="lost"/>, Gho Śaṅkara, <gap reason="lost"/>, Gho Canyān, Tai <gap reason="lost"/> Kaṁprvata, Tai Kantam <gap reason="lost"/> Kan-ak, Gho Prāṇa, <gap reason="lost"/>, Gho Sadāśānti, Gho <gap reason="lost"/> Kaṁpit, Gho Kan-ak, <gap reason="lost"/>, another <gap reason="lost"/>, Gho Kan-in, <gap reason="lost"/>, Gho Kanren, Gho Hari, <gap reason="lost"/> Bhava, Gho Thlem, Gho <gap reason="lost"/>, Gho Kanrau, Gho Khnak, Gho <gap reason="lost"/>, another <gap reason="lost"/>, Gho Mahendrabhāva, <gap reason="lost"/>, another Tai Kaṁprvat, <gap reason="lost"/>, Tai Phnos, Tai Kantaṅ, Tai Panlas, <gap reason="lost"/>, Tai Kaṁpit, Tai Amr̥ta, Tai
+<gap reason="lost"/>, Tai Sraca Ta Vraḥ <gap reason="lost"/>;</p>
+              <p n="27-32">People from the village of Krva<gap reason="lost"/>, <gap reason="lost"/> 7 male slaves <supplied reason="explanation"><foreign>si</foreign></supplied>, 110 male slaves <supplied reason="explanation"><foreign>gho</foreign></supplied>, <gap reason="lost"/> animal keepers <supplied reason="explanation"><foreign>gvāl</foreign></supplied>, <gap reason="lost"/>, 10 boys at the age of running <supplied reason="lost"><foreign>si rat</foreign></supplied>, <gap reason="lost"/> baby boys <supplied reason="explanation"><foreign>si pau</foreign></supplied>, <gap reason="lost"/> without name <gap reason="lost"/>. The <foreign>lvan</foreign> people are <gap reason="lost"/>.</p>
+                   </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>First edited by Kunthea Chhom (<bibl rend="omitname"><ptr target="bib:Chhom2011_01"/><citedRange unit="page">128-129</citedRange></bibl>) with English translation. Re-edited in French by Claude Jacques without translation (<bibl rend="omitname"><ptr target="bib:Jacques2014_01"/><citedRange unit="page">142</citedRange></bibl>). Re-edited again in French by Eric Bourdonneau et al. (nd, unpublished). Re-edited here by Kunthea Chhom based on EFEO estampage n. 823-S.</p>
+	 <listBibl type="primary">
+             <bibl n="KC">
+             <ptr target="bib:Chhom2011_01"/>
+             <citedRange unit="page">128-129</citedRange>
+                 </bibl>
+             <bibl n="CJ">
+             <ptr target="bib:Jacques2014_01"/>
+             <citedRange unit="page">142</citedRange>
+                     </bibl>
+             </listBibl>
+           <listBibl type="secondary">
+             <bibl n="GC">
+      <ptr target="bib:Coedes1937_02"/><citedRange unit="page">52-54</citedRange>
+    </bibl>
+              </listBibl>
+                </div>
+        </body>
+    </text>
+</TEI>
