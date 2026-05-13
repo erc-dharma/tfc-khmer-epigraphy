@@ -217,6 +217,17 @@
 |K.	183-25 |kuch |done |Chhom 2011; Jacques 2014|
 |K.	183-26 |kuch |done |Chhom 2011; Jacques 2014|
 |K.	183-27 |kuch |done |Chhom 2011; Jacques 2014|
+|K.	183-28 |kuch |done |Chhom 2011; Jacques 2014|
+|K.	183-29 |kuch |done |Chhom 2011; Jacques 2014|
+|K.	183-30 |kuch |done |Chhom 2011; Jacques 2014|
+|K.	183-31 |kuch |done |Chhom 2011; Jacques 2014|
+|K.	183-32 |kuch |done |Chhom 2011; Jacques 2014|
+|K.	183-33 |kuch |done |Chhom 2011; Jacques 2014|
+|K.	183-34 |kuch |done |Chhom 2011; Jacques 2014|
+|K.	183-35 |kuch |done |Chhom 2011; Jacques 2014|
+|K.	183-36 |kuch |done |Chhom 2011; Jacques 2014|
+|K.	183-37 |kuch |done |Chhom 2011; Jacques 2014|
+|K.	183-38 |kuch |done |Chhom 2011; Jacques 2014|
 |K.	184 |# |# |#|
 |K.	185 |# |# |#|
 |K.	186 |# |# |#|
