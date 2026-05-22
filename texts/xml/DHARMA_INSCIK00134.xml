@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 134. Doorjamb of Prasat Loboeuk Srot, 703 Śaka</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               
+              <!--  <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName> -->
+
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00134</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eighth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-05-21" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p xml:lang="san-Latn"><lb n="1"/>Oṁ namo bhagavate vāsudevāya <g ref="sym:circle-bullseye" type="punctuation">.</g></p>
+                   <lg n="1" met="āryā" xml:lang="san-Latn">
+<l n="ab"><lb n="2"/>śrījayavarmmaṇi nr̥patau<space/>śāsati pr̥thvīṁ samudraparyyantā[ṁ]</l>
+<l n="cd"><lb n="3"/>brahmakṣatrāṅśabhave<space/>natanr̥padhr̥taśāsane nityaṁ</l>
+</lg>
+                   <lg n="2" met="āryā" xml:lang="san-Latn">
+<l n="ab"><lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ra<space/>parameśvaravallabhaḥ kulodbhavaḥ</l>
+<l n="cd"><lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><space/>bhūrivibhūtiś śrutāḍhyataraḥ</l>
+</lg>
+                   <lg n="3" met="āryā" xml:lang="san-Latn">
+<l n="ab"><lb n="6"/><gap reason="lost" quantity="2" unit="character"/>pi<gap reason="lost" quantity="2" unit="character"/>sṭhadeva<space/>s tenaiva sthāpitas satigmāṅśuḥ</l>
+<l n="cd"><lb n="7"/>śrīsiddheśvaradeva<space/>pratīta<gap reason="lost" extent="unknown" unit="character"/></l>
+</lg>
+                   <lg n="4" met="āryā" xml:lang="san-Latn">
+<l n="ab"><lb n="8"/>dahanāmvaramunilakṣye<space/>śāke<gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="cd"><lb n="9"/>Aśvinyām uḍunāthe<space/>tula<gap reason="lost" extent="unknown" unit="character"/></l>
+</lg>
+                   <p>
+   <lb n="10"/>qnakk paṁre kaṁluṅ vraḥ gho <gap reason="lost" quantity="12" unit="character"/>
+                      <lb n="11"/><gap reason="lost" quantity="2" unit="character"/> hau <gap reason="lost" quantity="3" unit="character"/> deva <gap reason="lost" quantity="12" unit="character"/>
+                      <lb n="12"/>vñau I karoṁ I jeṅ vraiy I <gap reason="lost" quantity="8" unit="character"/>
+                      <lb n="13"/>y I kuruṅ I kandvac I jaṁqel I piṇḍa 10 2 paṁre kaṁluṅ vraḥ <gap reason="lost" quantity="6" unit="character"/>
+                      <lb n="14"/>mahāsa qme nāgaśrīya I jayadeva I qme kyep I kyep I suta <gap reason="lost" quantity="3" unit="character"/>
+                      <lb n="15"/>n śrīya I vnaṁ I yūdhikā I kañjuṅ I caṁrip I kr̥ṣnadeva I jaṁqel I [qme]
+                      <lb n="16"/>tkep I tkep I saṁqap I cyer deva I qme kañjā I kañjā I kansup I saṅhār I kanruk I
+                      <lb n="17"/>smau cke I kanqas I smau I meṅ 2 kñuṁ I pinda gi 20 8 savāla paṁre kaṁluṅ ta vraḥ <gap reason="lost" quantity="2" unit="character"/>
+                      <lb n="18"/>vnok tmo yol gho bhap pi rmmel I vinayābhara I <gap reason="lost" quantity="3" unit="character"/>ñ I sahitaṅkara I krau I <gap reason="lost" quantity="2" unit="character"/>
+                      <lb n="19"/><gap reason="lost" quantity="1" unit="character"/>dip I Āśramapāla I kañjeṅ I vaiśrava I mārakr̥tajña I tkir I pinda gho 10 2 tai kan
+                      <lb n="20"/>At I sV Oy I kāvali I mihā I Aśvaṇī I qme knas I saṁreṅ I taṅker I vṅe vraiy I
+                      <lb n="21"/>kanrak I vaideśa I pinda tai 10 1 meṅ 9 nu sre nu pdai karoṁ nu daṁriṅ <g ref="sym:bullet-middle" type="punctuation">.</g> vnok jvor gho kyak I
+                      <lb n="22"/>Ādityaśarmma I <g ref="sym:bullet-middle" type="punctuation">.</g> tai qji cke I qme mus I karoṁ I qme Ādityaśarmma I candān I meṅ 2 pinda tai 7
+                      <lb n="23"/>vnok vraḥ hiñ dāṁ gho bhavadat I kanso I nandavidya I <g ref="sym:bullet-middle" type="punctuation">.</g> tai kaṁpaṅ I qme kaṁpaṅ I qme
+                      <lb n="24"/>candan I nu sre nu pdaiy karoṁ @ vnok cdiṅ kryel gho candrāditya I kanqas I
+                      <lb n="25"/>bhaktimātra I <g ref="sym:bullet-middle" type="punctuation">.</g> tai sir I meṅ 2 nu sre nu pdai karom <g ref="sym:bullet-middle" type="punctuation">.</g> vnok Añjaṁ gho vidita <gap reason="lost" quantity="3" unit="character"/>
+                      <lb n="26"/>kañje I <gap reason="lost" quantity="1" unit="character"/> hita I kiri śarmma I kdip I karoṁ I vidita I ktac I kantvoh I pinda gho <gap reason="lost" quantity="2" unit="character"/>
+                      <lb n="27"/><gap reason="lost" quantity="1" unit="character"/> I qme jahvol I srac ta bhāgya I tanmat I qme kaṁvah I qme kṣata I qme <gap reason="lost" quantity="4" unit="character"/>
+                      <lb n="28"/>qme taṅku I dah sras I sara cāṁ smau kralā meṅ 2 pinda tai 10 2 savāla <gap reason="lost" quantity="2" unit="character"/>
+                      <lb n="29"/>tmur dneṁ 9 <g ref="sym:bullet-middle" type="punctuation">.</g> daṁriṅ <gap reason="lost" quantity="2" unit="character"/> pdai karoṁ sre teṁ lvā I cok ransi I cok svāy I tnal <gap reason="lost" quantity="2" unit="character"/>
+</p>     
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1953_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1942_02">
+ 	<p n="1">Oṁ! Hommage au bienheureux Vāsudeva!</p>
+              <p rend="stanza" n="1">Lorsque la terre entourrée de l'Océan était gouvernée par le roi Śrī Jayavarman, portion incarnée du Brahman et du Kṣatra, dont l'ordre était sans cesse porté par les rois inclinés,</p>
+              <p rend="stanza" n="2">... Parameśvaravallabha, de haut lignage, ... doué de nombreuses richesses, possédant la science révélée,</p>
+              <p rend="stanza" n="3">... celui-ci fonda le dieu connu (sous le nom de) Śrī Siddheśvara, accompagné de l'astre brûlant (le Soleil) ...</p>
+              <p rend="stanza" n="4">Dans l'année śaka marquée par les (7) muni, l'espace (0) et les (3) feux ... la lune étant dans Aśvinī, et ... dans la balance.</p>
+              	<p n="10-17">Serviteurs dans le temple (liste de gho). Total 12. Serviteurs dans le temple (liste de femmes) 2 enfants, 1 esclave. Total 28 avec les enfants. Serviteurs dans le temple ...</p>
+              	<p n="18-21">Groupe de Tmo Yol (liste de gho). Total: 12 gho. (liste de tai). Total 10 tai, 9 enfants, avec des rizières, des terrains, des potagers.</p>
+              	<p n="21-22">Groupe de Jvor (liste 2 gho, et 5 tai, 2 enfants). Total 7 tai.</p>
+              	<p n="23-24">Groupe de Vraḥ Hiñ Dāṁ (liste de 3 gho et de 3 tai), avec des rizières et de terrains.</p>
+              	<p n="24-25">Groupe de Cdiṅ Kryel (liste de 3 gho, 1 tai, 2 enfants) avec des rizières et des terrains.</p>
+              	<p n="25-28">Groupe de Añjaṁ (liste de gho). Total: ... gho (liste de tai avec 2 enfants). Total 12 tai avec les enfants.</p>
+              	<p n="29">9 paires de bœufs, Potager ... Terrains, rizières de Teṁ Lvā, Cok Ransi, Cok Svāy, Tnal ...</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1942_02"/><citedRange unit="page">92-94</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 381.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1942_02"/><citedRange unit="page">92-94</citedRange>
+    </bibl>
+	</listBibl>
+           <listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">56-57</citedRange>
+    </bibl>
+              </listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
