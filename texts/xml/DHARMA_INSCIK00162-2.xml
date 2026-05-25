@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 162-2. Southern doorjamb of the central tower of Prasat Ampil Rolom, 10th century</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               
+              <!--  <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName> -->
+
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00162-2</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eighth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-05-25" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+                   <p><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/></p>
+                   <lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="2"/><milestone unit="column" n="a"/>= = = = ⏑ - d dhātā</l>
+                      <l n="b"><milestone unit="column" n="b"/>sthitV = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="3"/><milestone unit="column" n="a"/>= = = yukta - - =</l>
+                      <l n="d"><milestone unit="column" n="b"/>= dye yodhyaṁ - ⏑ = laḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="4"/><milestone unit="column" n="a"/>= = = = ⏑ - - =</l>
+                      <l n="b"><milestone unit="column" n="b"/>vidhātā bhavavid vibhau</l>
+<l n="c"><lb n="5"/><milestone unit="column" n="a"/>= = = = ⏑ - - =</l>
+                      <l n="d"><milestone unit="column" n="b"/>jagad dhūtarajodbhavaC <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="6"/><milestone unit="column" n="a"/>= = = = ⏑ - - =</l>
+                      <l n="b"><milestone unit="column" n="b"/>- tmāntajavidhāyave</l>
+<l n="c"><lb n="7"/><milestone unit="column" n="a"/>= = = = ⏑ - - =</l>
+                      <l n="d"><milestone unit="column" n="b"/>śaṅkaraḥ puṣkare 'stu baḥh <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="8"/><milestone unit="column" n="a"/>= = = = ⏑ - - =</l>
+                      <l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="9"/><milestone unit="column" n="a"/>= = = = ⏑ - - =</l>
+                      <l n="d"><milestone unit="column" n="b"/>śaṅkaraḥ śaṅkaro 'stu baḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="10"/><milestone unit="column" n="a"/>= = = = = = = =</l>
+                      <l n="b"><milestone unit="column" n="b"/>saś śribhadreśvarāhvayaṁ</l>
+<l n="c"><lb n="11"/><milestone unit="column" n="a"/>Iti prātiṣṭhipad bhaktyā</l>
+                      <l n="d"><milestone unit="column" n="b"/>= = = = gnimaṅgale <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="12"/><milestone unit="column" n="a"/>Aninditapure vāso</l>
+                      <l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - dvaye</l>
+<l n="c"><lb n="13"/><milestone unit="column" n="a"/>Abhud vibhut[i] bhuyiṣṭho</l>
+                      <l n="d"><milestone unit="column" n="b"/>vasudevābhidhānadhr̥k <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="14"/><milestone unit="column" n="a"/>karaṅkadhārī baṅśābda</l>
+                      <l n="b"><milestone unit="column" n="b"/>- gunabhaktimahattayā</l>
+<l n="c"><lb n="15"/><milestone unit="column" n="a"/>vahudhā vahu mene yaḥ</l>
+                      <l n="d"><milestone unit="column" n="b"/>kanīyān iva bhūbhr̥tā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="16"/><milestone unit="column" n="a"/>Agranīḥ karmmasacivaḥ</l>
+                      <l n="b"><milestone unit="column" n="b"/>karmmavyāpārapāṭavāt</l>
+<l n="c"><lb n="17"/><milestone unit="column" n="a"/>śrīyaśovarmmadevena</l>
+                      <l n="d"><milestone unit="column" n="b"/>naradevena yaḥ kr̥taḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="18"/><milestone unit="column" n="a"/>śrīharṣavarmmano bhr̥tyaḥ</l>
+                      <l n="b"><milestone unit="column" n="b"/>śrīyaśovarmmavallabhaḥ</l>
+<l n="c"><lb n="19"/><milestone unit="column" n="a"/>saś śrīnr̥pendravīro 'dā<milestone unit="column" n="b" break="no"/>c</l>
+                      <l n="d">chive saubarṇṇakośakaṁ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <p><lb n="20"/>bhagavataś śrīyaśovarmmadevendrādhirājas surāsuramaharṣiganasaṁstūyamānacara-
+                      <lb n="21"/>[pā]dāravindaṁ yasya vasudhottaraṁ bhagavataś śrītripurāntakeśvare diśat <g ref="sym:doubleBar-ornate" type="punctuation">.</g>
+                      <lb n="22"/>bagavataś śrījayavarmmadeveṇdrādhirājena tribhubanasthāṇanirmmike-
+                      <lb n="23"/>na mahadbhutayaśavividheṇa parākramena saha babhūva <g ref="sym:circle" type="punctuation">.</g> yasya basu-
+                      <lb n="24"/>ndha[ra] - - - - - - - - - - bhagavataś śrītripurāntakeśvare bhaktyādiśat <g ref="sym:circle" type="punctuation">.</g></p>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="25"/><milestone unit="column" n="a"/>pūjārtham asya yat dattaṁ</l>
+                      <l n="b"><milestone unit="column" n="b"/>hemarūpyādikan dhaṇaṁ</l>
+<l n="c"><lb n="26"/><milestone unit="column" n="a"/>haranti ye na kiñ cit te</l>
+                      <l n="d"><milestone unit="column" n="b"/>basanti narake ciram <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="27"/><milestone unit="column" n="a"/>pūjārtham asyayatvaddhaṁ</l>
+                      <l n="b"><milestone unit="column" n="b"/>pālayatneṇa te naraḥ</l>
+<l n="c"><lb n="28"/><milestone unit="column" n="a"/>sugatiṁ yānti svakulaiḥ</l>
+                      <l n="d"><milestone unit="column" n="b"/>svarggaṁ yānti ciram vaset <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+     <p xml:lang="okz-Latn">
+        <lb n="29"/>{2} śāsana dhūli vraḥ pāda dhūli jeṅ vraḥ kaṁmrateṅ Añ
+        <lb n="30"/>{2} saṁ nu rājapunya vvaṁ jā pi dār vrihi vvaṁ jā pi dār paryyaṅ
+     </p>              
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1953_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:1954_02">
+              <p rend="stanza" n="1">(Invocation à une divinité indéterminée).</p>
+              <p rend="stanza" n="2">(Invocation au Créateur).</p>
+              <p rend="stanza" n="3">(Invocation à Śaṅkara).</p>
+              <p rend="stanza" n="4">(Invocation à Śaṅkara).</p>
+              <p rend="stanza" n="5">... (le dieu) nommé Śrī Bhadreśvara, il l'a fait ériger avec dévotion ...... au cours d'une cérémonie en l'honneur du Feu [ou: (en l'année marquée par) les (8) bonheurs, les (3) feux et ... ].</p>
+              <p rend="stanza" n="6">Habitant à Aninditapura ... , portant le nom de Vasudeva, il était abondamment pourvu de biens.</p>
+              <p rend="stanza" n="7">A ce porteur d'une coupe en forme de crâne, à cause de la grandeur de sa famille, de ses années, de ses vertus et de sa dévotion, le roi manifestait constamment l'estime qu'il aurait eue pour un frère cadet.</p>
+              <p rend="stanza" n="8">A cause de son habileté dans l'accomplissement de ses fonctions, il fut nommé conseiller principal par le roi Śrī Yaśovarmadeva.</p>
+              <p rend="stanza" n="9">Serviteur de Śrī Harṣavarman, favori de Śrī Yaśovarman, ce Śrī Nr̥pendravlra donna à Śiva un kośa en or.</p>
+              <p n="20-21">Le bienheureux roi des rois Śrī Yaśovarmadeva dont le pied-lotus mérite d'être loué par la foule des Sura, Asura et Maharṣi, a donné au bienheureux Śrī Tripurāntakeśvara la meilleure des terres ...</p>
+              <p n="22-24">Avec le bienheureux roi des rois Śrī Jayavarmadeva, fondateur du siège de Tribhuvana, doué d'une gloire inouïe et d'une puissance multiple, il y eut ........ il donne avec dévotion au bienheureux Śrī Tripurāntakeśvara.</p>
+              <p rend="stanza" n="10">Que ceux qui volent quoi que ce soit des biens, or, argent ou autre, donnés à ce (dieu) en vue du culte, demeurent longtemps en enfer.</p>
+              <p rend="stanza" n="11">Que les gens qui s'efforcent de garder ce qui a été affecté à ce (dieu) en vue du culte, obtiennent une heureuse condition, aillent au ciel avec leur famille et y demeurent longtemps.</p>
+<p n="29-30">. . . Ordre de Sa Majesté . . . fondation royale, qu'on n'exige pas de riz, qu'on n'exige pas d'huile.</p>
+              </div> 
+           <div type="commentary">
+           <p>The numbering of stanza is different from Cœdès' edition which continues from the numbering of the northern doorjamb.</p>
+         </div>
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">103-106</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 980.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">103-106</citedRange>
+    </bibl>
+	</listBibl>
+           
+          </div>
+        </body>
+    </text>
+</TEI>
