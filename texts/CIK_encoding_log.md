@@ -19,9 +19,9 @@
 |K.	12 |kuch |done |Barth 1903|
 |K.	13 |kuch |done |ISC|
 |K.	14 |kuch |done |ISCC|
-|K.	15 |kuch |pending |unpublished|
+|K.	15 |kuch |done |unpublished|
 |K.	16 |# |# |#|
-|K.	17 |kuch |pending |unpublished|
+|K.	17 |kuch |done |unpublished|
 |K.	18 |kuch|done|IC II|
 |K.	19 |kuch |pending |IC VI|
 |K.	20 |kuch|pending|unpublished|
@@ -99,12 +99,12 @@
 |K.	92 |kuch |done |IC V|
 |K.	93 |# |# |#|
 |K.	94 |kuch |done|IC V|
-|K.	95 |sapi |pending |ISCC|
+|K.	95 |kuch |done |ISCC|
 |K.	96 |kuch |done |unpublished|
 |K.	97 |kuch |pending |unpublished|
 |K.	98 |kuch |done |IC VII|
 |K.	99 |kuch |done |IC VI|
-|K.	100 |# |# |#|
+|K.	100 |kuch |done |IC VI|
 |K.	101 |# |# |#|
 |K.	102 |kuch |done |IC V|
 |K.	103 |kuch |done |IC V|
@@ -128,7 +128,7 @@
 |K.	121 |kuch |done |Finot 1904|
 |K.	122 |kuch |done |Finot 1903|
 |K.	123 |# |# |#|
-|K.	124 |# |# |#|
+|K.	124 |kuch |done |IC III|
 |K.	125 |kuch |done |Cœdès 1928|
 |K.	126-1 |kuch |done |IC VII|
 |K.	126-2 |kuch |done |IC VII|
@@ -140,7 +140,7 @@
 |K.	132 |kuch |done |IC II|
 |K.	133-1 |kuch |done |IC II, IC V|
 |K.	133-2 |kuch |done |IC V|
-|K.	134 |# |# |#|
+|K.	134 |kuch |done |IC II|
 |K.	135 |kuch |done |Coedes 1905|
 |K.	136 |# |# |#|
 |K.	137 |kuch | done |IC II|
@@ -168,7 +168,8 @@
 |K.	159 |kuch |done |IC VI|
 |K.	160 |chch |pending |unpublished|
 |K.	161 |kuch |done |Finot 1904|
-|K.	162 |# |# |#|
+|K.	162-1 |kuch |done |IC VI|
+|K.	162-2 |kuch |done |IC VI|
 |K.	163 |kuch |done |IC VI|
 |K.	164 |kuch |done |IC IV|
 |K.	165 |kuch |done |IC VI|
@@ -246,13 +247,13 @@
 |K.	199 |# |# |#|
 |K.	200 |# |# |#|
 |K.	201 |# |# |#|
-|K.	202 |# |# |#|
+|K.	202 |kuch |done |IC VII|
 |K.	203 |# |# |#|
 |K.	204 |# |# |#|
 |K.	205 |kuch |done |IC III|
 |K.	206 |kuch |done |IC III|
 |K.	207 |kuch |done |IC III|
-|K.	208 |# |# |#|
+|K.	208 |kuch |done |IC VI|
 |K.	209 |kuch |done |Barth 1903 and IC III|
 |K.	210 |# |# |#|
 |K.	211 |chch |done |IC III|
@@ -270,7 +271,7 @@
 |K.	221-1 |kuch |done |IC III|
 |K.	221-2 |kuch |done |IC III|
 |K.	222 |# |# |#|
-|K.	223 |# |# |#|
+|K.	223 |kuch |done |ISCC|
 |K.	224 |# |# |#|
 |K.	225 |kuch |done |IC III|
 |K.	226-1 |kuch |done |Cœdès 1951, IC III|
@@ -430,13 +431,40 @@ K.	294 |# |# |#|
 |K.	295 |# |# |#|
 |K.	296 |# |# |#|
 |K.	297 |# |# |#|
-|K.	298 |# |# |#|
+|K.	298-1 |kuch |done |Cœdès 1911|
+|K.	298-2 |kuch |done |Cœdès 1911|
+|K.	298-3 |kuch |done |Cœdès 1911|
+|K.	298-4 |kuch |done |Cœdès 1911|
+|K.	298-5 |kuch |done |Cœdès 1911|
+|K.	298-6 |kuch |done |Cœdès 1911|
+|K.	298-7 |kuch |done |Cœdès 1911|
+|K.	298-8 |kuch |done |Cœdès 1911|
+|K.	298-9 |kuch |done |Cœdès 1911|
+|K.	298-10 |kuch |done |Cœdès 1911|
+|K.	298-11 |kuch |done |Cœdès 1911|
+|K.	298-12 |kuch |done |Cœdès 1911|
+|K.	298-13 |kuch |done |Cœdès 1911|
+|K.	298-14 |kuch |done |Cœdès 1911|
+|K.	298-15 |kuch |done |Cœdès 1911|
+|K.	298-16 |kuch |done |Cœdès 1911|
+|K.	298-17 |kuch |done |Cœdès 1911|
+|K.	298-18 |kuch |done |Cœdès 1911|
+|K.	298-19 |kuch |done |Cœdès 1911|
+|K.	298-20 |kuch |done |Cœdès 1911|
+|K.	298-21 |kuch |done |Cœdès 1911|
+|K.	298-22 |kuch |done |Cœdès 1911|
+|K.	298-23 |kuch |done |Cœdès 1911|
+|K.	298-24 |kuch |done |Cœdès 1911|
+|K.	298-25 |kuch |done |Cœdès 1911|
+|K.	298-26 |kuch |done |Cœdès 1911|
+|K.	298-27 |kuch |done |Cœdès 1911|
+|K.	298-28 |kuch |done |Cœdès 1911|
 |K.	299 |# |# |#|
 |K.	300 |chch |pending |ISCC; BEFEO XXV; IC IV|
 |K.	301 |# |# |#|
 |K.	302 |# |# |#|
 |K.	303 |# |# |#|
-|K.	304 |# |# |#|
+|K.	304 |kuch |done |ISCC|
 |K.	305 |# |# |#|
 |K.	306 |# |# |#|
 |K.	307 |# |# |#|
