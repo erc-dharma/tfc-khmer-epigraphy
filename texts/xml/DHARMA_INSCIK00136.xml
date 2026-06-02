@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 136. Stela from Longvek, 11th century</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00136</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-06-01" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+<lg n="1" met="anuṣṭubh"><milestone type="pagelike" unit="face" n="A"/><label xml:lang="eng">Face A</label>
+<l n="a"><lb n="A1"/><milestone unit="column" n="a"/>====-++=</l>
+<l n="b"><milestone unit="column" n="b"/>[u]jv[ala]t tamasaḥ param</l>
+<l n="c"><milestone unit="column" n="c"/>tadvyāpi ca na tatspr̥ṣṭam</l>
+<l n="d"><milestone unit="column" n="d"/>ābhāti bhuvane ⏑ = <supplied reason="lost"><g ref="sym:doubleBar-ornate" type="punctuation">.</g></supplied></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="A2"/><milestone unit="column" n="a"/>…n… kṣetre</l>
+<l n="b"><milestone unit="column" n="b"/>veśanissr̥tibhāg vibhuḥ</l>
+<l n="c"><milestone unit="column" n="c"/>akṣīṇabhogamokṣārthaṁ</l>
+<l n="d"><milestone unit="column" n="d"/>megherkka Iva rājate <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="A3"/><milestone unit="column" n="a"/>[namām]y umāpatiṁ kāntāṁ</l>
+<l n="b"><milestone unit="column" n="b"/>kāyesāmi vibhartti yaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>viśveṣāṁ pitarau bhāvaṁ</l>
+<l n="d"><milestone unit="column" n="d"/>pratyakṣaṁ prathayan vibhuḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="A4"/><milestone unit="column" n="a"/>[ca]turāsyan namasyāmi</l>
+<l n="b"><milestone unit="column" n="b"/>śaṅke jāgartti yoniśam</l>
+<l n="c"><milestone unit="column" n="c"/>vīkṣya viṣṇuṁ śrīyā suptaṁ</l>
+<l n="d"><milestone unit="column" n="d"/>kṣīrāvdhau sr̥ṣṭirakṣayā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="A5"/><milestone unit="column" n="a"/>namo murāraye jyāyas</l>
+<l n="b"><milestone unit="column" n="b"/>svavīryyan darśayann iva</l>
+<l n="c"><milestone unit="column" n="c"/>svarvvāsivairiṇo daityāṁ</l>
+<l n="d"><milestone unit="column" n="d"/>strīrūpeṇa jaghāna yaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="A6"/><milestone unit="column" n="a"/>sarasvatīn name haṅsī</l>
+<l n="b"><milestone unit="column" n="b"/>durgrahā līlayāmalā</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>lolā śavdaguṇe svaccha</l>
+<l n="d"><milestone unit="column" n="d"/>-mānase yā ratā bhr̥śam <g ref="sym:bullet-hollow" type="punctuation">.</g> <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="A7"/><milestone unit="column" n="a"/>Āsīt punnāgavarmmākhyaś</l>
+<l n="b"><milestone unit="column" n="b"/>śaktimān rudravarmmaṇaḥ</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>narendralakṣmyāñ jāto 'dri</l>
+<l n="d"><milestone unit="column" n="d"/>-putryāṁ guha Iveśvarāt <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="A8"/><milestone unit="column" n="a"/>puṁsāṁ vīryyādyudāro yo</l>
+<l n="b"><milestone unit="column" n="b"/>dehatrāṇasaho yudhi</l>
+<l n="c"><milestone unit="column" n="c"/>yat tat punnāgavarmmeti</l>
+<l n="d"><milestone unit="column" n="d"/>sūribhis sma nirucyate <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="A9"/><milestone unit="column" n="a"/>saptadevakulagrāmaḥ</l>
+<l n="b"><milestone unit="column" n="b"/>kṣoṇyāṁ sakṣetrasaṁsadi</l>
+<l n="c"><milestone unit="column" n="c"/>pitr̥sīmikadattāyāṁ</l>
+<l n="d"><milestone unit="column" n="d"/>yenākāri samantataḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="A10"/><milestone unit="column" n="a"/>grāme rudrālayākhye yaḥ</l>
+<l n="b"><milestone unit="column" n="b"/>kr̥te kiṅkarapūrite</l>
+<l n="c"><milestone unit="column" n="c"/>śrībhadreśāsanaliṅga(ṁ)</l>
+<l n="d"><milestone unit="column" n="d"/>sthāpayām āsa kalpitam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="A11"/><milestone unit="column" n="a"/>yaḥ prāsādādibhir bhūyas</l>
+<l n="b"><milestone unit="column" n="b"/>samr̥ddhais taṁ samaskarot</l>
+<l n="c"><milestone unit="column" n="c"/>tuṅgan tatākam akhanat</l>
+<l n="d"><milestone unit="column" n="d"/>tatrollasitalāñchanam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="12" met="anuṣṭubh">
+<l n="a"><lb n="A12"/><milestone unit="column" n="a"/>viṣṇvaṅśasya pitus sapta</l>
+<l n="b"><milestone unit="column" n="b"/>viṣṇupratikr̥tīr vyadhāt</l>
+<l n="c"><milestone unit="column" n="c"/>bhaktyā yonekadeśasthā</l>
+<l n="d"><milestone unit="column" n="d"/>bhuvanodīrṇṇaśaktikāḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="13" met="mālinī">
+<l n="a"><lb n="A13"/>dviradapuranivāsaṁ pūjayonmīlya śambhuṁ<space/></l>
+<l n="b">kr̥tavivudhavibhūtiṁ śaktimān prāṅgane yaḥ</l>
+<l n="c"><lb n="A14"/>savihr̥tinijarūpaṁ mātr̥rūpañ ca devyā<space/></l>
+<l n="d">Atulamahimahānes sthāpayām āsa mūrttim <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   
+                   <lg n="14" met="anuṣṭubh">
+<l n="a"><lb n="A15"/><milestone unit="column" n="a"/>tasya mātranvaye jātas</l>
+<l n="b"><milestone unit="column" n="b"/>saṁvidācārarañjitaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>dharmmārthakāmadhaureyas</l>
+<l n="d"><milestone unit="column" n="d"/>sarvvīyo guṇasaṁpadā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="15" met="anuṣṭubh">
+<l n="a"><lb n="A16"/><milestone unit="column" n="a"/>mahendrādristhiteḥ preyān</l>
+<l n="b"><milestone unit="column" n="b"/>bhr̥tyaś śrījajayavarmmaṇaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>Uditoditavaṅśo yo</l>
+<l n="d"><milestone unit="column" n="d"/>dhipo vyajanadhāriṇām <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="16" met="anuṣṭubh">
+<l n="a"><lb n="A17"/><milestone unit="column" n="a"/>sasevānītaye yasmai</l>
+<l n="b"><milestone unit="column" n="b"/>vāllabhyāsmayacetase</l>
+<l n="c"><milestone unit="column" n="c"/>sarvvatra nijadeśenyāṁ</l>
+<l n="d"><milestone unit="column" n="d"/>bhūyo bhūmin dadau nr̥paḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="17" met="anuṣṭubh">
+<l n="a"><lb n="A18"/><milestone unit="column" n="a"/>tanmātranvayajaś śrīmān</l>
+<l n="b"><milestone unit="column" n="b"/>vāsudeva Iva dviṣaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>vabhūva vāsudevākhyaḥ</l>
+<l n="d"><milestone unit="column" n="d"/>kulatrāṇaparākramaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="18" met="anuṣṭubh">
+<l n="a"><lb n="A19"/><milestone unit="column" n="a"/>śrīndravarmmākhyanr̥pateś</l>
+<l n="b"><milestone unit="column" n="b"/>śrīyaśovarmmaṇaś ca yaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>(a)nuṣtheyaṁ vidhatte sma</l>
+<l n="d"><milestone unit="column" n="d"/>rājanītiviśāradaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="19" met="anuṣṭubh">
+<l n="a"><lb n="A20"/><milestone unit="column" n="a"/>tanmātranvayajāś śreṣthā</l>
+<l n="b"><milestone unit="column" n="b"/>dharmmiṣthāḥ puruṣās trayaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>Apālayan kulan nyāyyam</l>
+<l n="d"><milestone unit="column" n="d"/>akṣīṇakṣemarakṣaṇāt <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="20" met="anuṣṭubh">
+<l n="a"><lb n="A21"/><milestone unit="column" n="a"/>śrīharṣavarmmaṇo rājye</l>
+<l n="b"><milestone unit="column" n="b"/>ye ca śrīśānavarmmaṇaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>anutasthur anuṣtheyaṁ</l>
+<l n="d"><milestone unit="column" n="d"/>kramāc chrījayavarmmaṇah <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="21" met="anuṣṭubh">
+<l n="a"><lb n="A22"/><milestone unit="column" n="a"/>trayāṇāṁ yogradhiṣaṇo</l>
+<l n="b"><milestone unit="column" n="b"/>manorūḍhanijāśayaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>śivaś śaraṇyaṁ mestīti</l>
+<l n="d"><milestone unit="column" n="d"/>manaśśīva Itīritaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="22" met="anuṣṭubh">
+<l n="a"><lb n="A23"/><milestone unit="column" n="a"/>yo vallabho bhāgineyīṁ</l>
+<l n="b"><milestone unit="column" n="b"/>rājño rājendravarmmanaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>rupācārābhīrāmāṅgīṁ</l>
+<l n="d"><milestone unit="column" n="d"/>prāṇākhyāṁ svāminīṁ vyadhāt <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="23" met="anuṣṭubh">
+<l n="a"><lb n="A24"/><milestone unit="column" n="a"/>bhāgineyau mahātmānau</l>
+<l n="b"><milestone unit="column" n="b"/>sarvvaśāstreṣv adhītinau</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>Akarod yājakau yaś śrī</l>
+<l n="d"><milestone unit="column" n="d"/>-rājendreśvaraliṅgayoḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="24" met="anuṣṭubh">
+<l n="a"><lb n="A25"/><milestone unit="column" n="a"/>śiṣṭānvayācāraguṇā</l>
+<l n="b"><milestone unit="column" n="b"/>mr̥te rājendreśvarmmaṇi</l>
+<l n="c"><milestone unit="column" n="c"/>sāpy abhyantaralekhinām</l>
+<l n="d"><milestone unit="column" n="d"/>adhipā jayavarmmaṇaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="25" met="anuṣṭubh">
+<l n="a"><lb n="A26"/>uditoditavaṅśau dvau<space/></l>
+<l n="b">kavī śrījayavarmmaṇā</l>
+<l n="c"><lb n="A27"/>nyayujyatāṁ śemuṣīddhau<space/></l>
+<l n="d">hemaśr̥ṅgeśayājakau <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="26" met="anuṣṭubh">
+<l n="a"><lb n="A28"/>Udīrṇṇakīrttayas teṣām<space/></l>
+<l n="b">āsur mmātranvayoditāḥ</l>
+<l n="c"><lb n="A29"/>vallabhāḥ pañca puruṣāḥ<space/></l>
+<l n="d">bhr̥tyāś śrījayavarmmaṇaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="27" met="anuṣṭubh">
+<l n="a"><lb n="A30"/>teṣāṁ kavīśvarākhyo yo<space/></l>
+<l n="b">vrahmacārī mahāmatiḥ</l>
+<l n="c"><lb n="A31"/>nyayujyatāgnīkāryyeṣu<space/></l>
+<l n="d">śreṣthaś śrījayavarmmaṇā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="28" met="anuṣṭubh"><milestone type="pagelike" unit="face" n="B"/><label xml:lang="eng">Face B</label>
+<l n="a"><lb n="B1"/><milestone unit="column" n="a"/>Atha śrīsūryyavarmmāsīt</l>
+<l n="b"><milestone unit="column" n="b"/>sāmrād rājanvatīdharaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>mātranvayod(i)t(as) t(as)ya</l>
+<l n="d"><milestone unit="column" n="d"/>= = = = ⏑ - ⏑ = <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="29" met="anuṣṭubh">
+<l n="a"><lb n="B2"/><milestone unit="column" n="a"/>roṣānalād dhruvaṁ śambhor</l>
+<l n="b"><milestone unit="column" n="b"/>anaṅgaṁ vīkṣya manmatham</l>
+<l n="c"><milestone unit="column" n="c"/>kāntopamāṁ nayan dhātā</l>
+<l n="d"><milestone unit="column" n="d"/>n(ir)mmame (n)u ⏑ - ⏑ = <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="30" met="anuṣṭubh">
+<l n="a"><lb n="B3"/><milestone unit="column" n="a"/>tejasvibhūbhr̥jjitaye</l>
+<l n="b"><milestone unit="column" n="b"/>yasya yāne bhiyā dhruvam</l>
+<l n="c"><milestone unit="column" n="c"/>ravir antardadhe śailāḥ</l>
+<l n="d"><milestone unit="column" n="d"/>gajavyājena vā ⏑ = <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="31" met="anuṣṭubh">
+<l n="a"><lb n="B4"/><milestone unit="column" n="a"/>dhūmo yasyādhvare dharmmyān</l>
+<l n="b"><milestone unit="column" n="b"/>dhuran dhr̥tavato bhuvaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>naivāmalinayad vyoma</l>
+<l n="d"><milestone unit="column" n="d"/>yaśopi khyātabhūbhr̥tā[m] <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="32" met="anuṣṭubh">
+<l n="a"><lb n="B5"/><milestone unit="column" n="a"/>kr̥ṣṇāgrāhī kulahite</l>
+<l n="b"><milestone unit="column" n="b"/>pātayan bhīṣmam āhave</l>
+<l n="c"><milestone unit="column" n="c"/>yuktaṁ yo 'pi arjunayaśāḥ</l>
+<l n="d"><milestone unit="column" n="d"/>bhīmasenohitāstrakr̥t <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="33" met="anuṣṭubh">
+<l n="a"><lb n="B6"/><milestone unit="column" n="a"/>Aho yo tharvvaniṣṇāto</l>
+<l n="b"><milestone unit="column" n="b"/>yogāsaktamanā bhr̥tam</l>
+<l n="c"><milestone unit="column" n="c"/>vavan(dh)a niścalaṁ lokān</l>
+<l n="d"><milestone unit="column" n="d"/>niśśeṣān saptatantubhiḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="34" met="anuṣṭubh">
+<l n="a"><lb n="B7"/><milestone unit="column" n="a"/>pāṇinīyamate vidvān</l>
+<l n="b"><milestone unit="column" n="b"/>nitarām api sattamaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>parārthotpādane dravye</l>
+<l n="d"><milestone unit="column" n="d"/>jātim utsr̥jati sma yaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="35" met="anuṣṭubh">
+<l n="a"><lb n="B8"/><milestone unit="column" n="a"/>yatkīrttir ekavikrāntā</l>
+<l n="b"><milestone unit="column" n="b"/>ced ākraṁsyat purā dhruvam</l>
+<l n="c"><milestone unit="column" n="c"/>trailokyaṁ vrīdayā viṣṇur</l>
+<l n="d"><milestone unit="column" n="d"/>nākraṁsyat tat trivikramaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="36" met="mālinī">
+<l n="a"><lb n="B9"/>vihitavivudhavodho vanditāṅgahrir mmaheśais<space/></l>
+<l n="b">samadhikadhiṣaṇāśīr vvāhuvīryyoddhurāśaḥ</l>
+<l n="c"><lb n="B10"/>niratiśayarayadvidvegarodhī svadharmmaṁ<space/></l>
+<l n="d">surapatir iva samrād yo nvaśāc chāntavādham <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="37" met="anuṣṭubh">
+<l n="a"><lb n="B11"/><milestone unit="column" n="a"/>śrīsūryyaparvvatasthasya</l>
+<l n="b"><milestone unit="column" n="b"/>śambhuliṅgasya yājakaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>kavīśvaraś śrutadhanas</l>
+<l n="d"><milestone unit="column" n="d"/>tenāyujyata śuddhadhīḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="38" met="anuṣṭubh">
+<l n="a"><lb n="B12"/><milestone unit="column" n="a"/>kavīśvaras samāvr̥tto</l>
+<l n="b"><milestone unit="column" n="b"/>vittavidyāyaśasvinaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>bhāgineyīm udavahac</l>
+<l n="d"><milestone unit="column" n="d"/>chrīvāgīśvaramantriṇaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="39" met="anuṣṭubh">
+<l n="a"><lb n="B13"/><milestone unit="column" n="a"/>tadbhāgineyas saṁśuddhaḥ</l>
+<l n="b"><milestone unit="column" n="b"/>kaviś śaṅkarapaṇḍitaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>tasya hotā kṣitipater</l>
+<l n="d"><milestone unit="column" n="d"/>abhyarhitataro dhiyā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="40" met="anuṣṭubh">
+<l n="a"><lb n="B14"/><milestone unit="column" n="a"/>yathāvat saṁskr̥tas tīrthāc</l>
+<l n="b"><milestone unit="column" n="b"/>chavdaśāstrādivāṅmayam</l>
+<l n="c"><milestone unit="column" n="c"/>yodhyagīṣṭāciraṁ samyag</l>
+<l n="d"><milestone unit="column" n="d"/>vihitotsavadakṣiṇam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="41" met="anuṣṭubh">
+<l n="a"><lb n="B15"/><milestone unit="column" n="a"/>vālyataś śiṣṭasamayo</l>
+<l n="b"><milestone unit="column" n="b"/>varṇī vrataparāyaṇaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>yo 'karod guruśuśrūṣās</l>
+<l n="d"><milestone unit="column" n="d"/>trividhāguruvāsataḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="42" met="anuṣṭubh">
+<l n="a"><lb n="B16"/><milestone unit="column" n="a"/>Arthyaṁ vaktrasahasreṇa</l>
+<l n="b"><milestone unit="column" n="b"/>pātañjalir asaṅśayam</l>
+<l n="c"><milestone unit="column" n="c"/>bhāṣyārthaṁ vyavr̥ṇod yas tu</l>
+<l n="d"><milestone unit="column" n="d"/>tathaikāsyena vismitaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="43" met="anuṣṭubh">
+<l n="a"><lb n="B17"/><milestone unit="column" n="a"/>dravyaṁ vidhāya sāmānye</l>
+<l n="b"><milestone unit="column" n="b"/>viśeṣe guṇakarmmaṇī</l>
+<l n="c"><milestone unit="column" n="c"/>dharmmasādhanavit prokto</l>
+<l n="d"><milestone unit="column" n="d"/>yo 'pi tarkke kanādavat <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="44" met="anuṣṭubh">
+<l n="a"><lb n="B18"/><milestone unit="column" n="a"/>sarvvaśāstreṣu yogajñaś</l>
+<l n="b"><milestone unit="column" n="b"/>catuṣkāleṣu yogakr̥t</l>
+<l n="c"><milestone unit="column" n="c"/>(ni)tyaṁ ratopi śīle yo</l>
+<l n="d"><milestone unit="column" n="d"/>yamenāvarttayad gatim <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="45" met="anuṣṭubh">
+<l n="a"><lb n="B19"/><milestone unit="column" n="a"/>Iddhārtharatnaśāstrāvdhīn</l>
+<l n="b"><milestone unit="column" n="b"/>pivato yasya kr̥tsnaśaḥ</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>krodhādijvalano jādya</l>
+<l n="d"><milestone unit="column" n="d"/>-tamaś ca nu na mānase <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="46" met="anuṣṭubh">
+<l n="a"><lb n="B20"/><milestone unit="column" n="a"/>santānas satrasārvvīyaś</l>
+<l n="b"><milestone unit="column" n="b"/>śiṣṭaś śvaśśreyasastutaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>yatrodarkke samudite</l>
+<l n="d"><milestone unit="column" n="d"/>jyāyastākoṭim adhyagāt <g ref="sym:doubleBar-ornate" type="punctuation">.</g><g ref="sym:bullet-hollow" type="punctuation">.</g></l>
+</lg>
+                   <lg n="47" met="anuṣṭubh">
+<l n="a"><lb n="B21"/><milestone unit="column" n="a"/>Udayādityavarmmātha</l>
+<l n="b"><milestone unit="column" n="b"/>kṣoṇīndraḥ kṣaṇadākaraḥ</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>kīrttijyotsnābhir urvvīndra</l>
+<l n="d"><milestone unit="column" n="d"/>-vaṅśakṣīrārṇave bhavat <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="48" met="anuṣṭubh">
+<l n="a"><lb n="B22"/><milestone unit="column" n="a"/>yoṣito vapuṣā yodhān</l>
+<l n="b"><milestone unit="column" n="b"/>vīryyeṇa vivudhān guṇaiḥ</l>
+<l n="c"><milestone unit="column" n="c"/>lokāñ chaktyā dvijān dānaiḥ</l>
+<l n="d"><milestone unit="column" n="d"/>vaśaṁ yo yojayattarām <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="49" met="anuṣṭubh">
+<l n="a"><lb n="B23"/><milestone unit="column" n="a"/>guṇaikarāśidhaureyas</l>
+<l n="b"><milestone unit="column" n="b"/>svarggate sūryyavarmmaṇi</l>
+<l n="c"><milestone unit="column" n="c"/>(ma)ntribhiś cakravarttitve</l>
+<l n="d"><milestone unit="column" n="d"/>yo bhiṣicyata sattarāḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="50" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="B24"/><milestone unit="column" n="a"/>vīkṣya madhyasthahemādri</l>
+<l n="b"><milestone unit="column" n="b"/>-jamvudvīpaṁ surālayam</l>
+<l n="c"><milestone unit="column" n="c"/>antassvarṇādrim akarot</l>
+<l n="d"><milestone unit="column" n="d"/>svapurīṁ sparddhayeva yaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="51" met="anuṣṭubh">
+<l n="a"><lb n="B25"/><milestone unit="column" n="a"/>tasmin svarṇādriśikhare</l>
+<l n="b"><milestone unit="column" n="b"/>divye jāmvūnade rucā</l>
+<l n="c"><milestone unit="column" n="c"/>prāsāde kāladhautaṁ yaś</l>
+<l n="d"><milestone unit="column" n="d"/>śaivaliṅgam atiṣthipat <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="52" met="anuṣṭubh">
+<l n="a"><lb n="B26"/><milestone unit="column" n="a"/>rājñoditoditas tena</l>
+<l n="b"><milestone unit="column" n="b"/>dhīraśaṅkarapaṇḍitaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>nyayujyata gurur vvīkṣya</l>
+<l n="d"><milestone unit="column" n="d"/>satrasatkr̥tatām inām <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="53" met="anuṣṭubh">
+<l n="a"><lb n="B27"/><milestone unit="column" n="a"/>trailokyatilake śaile</l>
+<l n="b"><milestone unit="column" n="b"/>svarṇṇaliṅgasya yājakaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>sa śuklaś śuklapakṣeṇa</l>
+<l n="d"><milestone unit="column" n="d"/>tenāyujyata bhūbhr̥tā <g ref="sym:doubleBar-ornate" type="punctuation">.</g><g ref="sym:bullet-hollow" type="punctuation">.</g></l>
+</lg>
+                   <lg n="54" met="anuṣṭubh">
+<l n="a"><lb n="B28"/><milestone unit="column" n="a"/>Atha śrīharṣavarmmāsīd</l>
+<l n="b"><milestone unit="column" n="b"/>anujo harṣayan prajāḥ</l>
+<l n="c"><milestone unit="column" n="c"/>sodaryyas svarggatau bhūpa</l>
+<l n="d"><milestone unit="column" n="d"/>Udayādityavarmmaṇaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="55" met="anuṣṭubh">
+<l n="a"><lb n="B29"/><milestone unit="column" n="a"/>tasmin rājye bhiṣektā yaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>guruś śaṅkarapaṇḍitaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>mantribhis sthāpayām āsa</l>
+<l n="d"><milestone unit="column" n="d"/>vaśiṣtho rāghavaṁ yathā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="56" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="B30"/><milestone unit="column" n="a"/>grahītum aśakad rāja</l>
+<l n="b"><milestone unit="column" n="b"/>-śaktidvārair na gādhijaḥ</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>nandinīṁ gān tu yo dvandva</l>
+<l n="d"><milestone unit="column" n="d"/>-vr̥ttyā tair vvaśam ānayat <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="57" met="anuṣṭubh">
+<l n="a"><lb n="B31"/><milestone unit="column" n="a"/>kalitāpajvarārttāḥ prāk</l>
+<l n="b"><milestone unit="column" n="b"/>siddhisārādhikaḥ prājāḥ</l>
+<l n="c"><milestone unit="column" n="c"/>caturjātikriyāyuktyā</l>
+<l n="d"><milestone unit="column" n="d"/>yaś śāntiṁ prāpayattarām <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="58" met="vasantatilakā">
+<l n="a"><lb n="B32"/>kṣoṇīśvaro mahimabhir bhuvane 'py atulyo<space/></l>
+<l n="b">mānyaṁ purodhasam avāpya sa śaṅkarākhyam</l>
+<l n="c"><lb n="B33"/>Āmuṣmikaihikasamīhitasiddhikoṭin<space/></l>
+<l n="d">dhaumyaṁ yudhīṣthira ivātisukhena lebhe <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="59" met="rathoddhatā">
+<l n="a"><lb n="B34"/>saptadevakulamātr̥vaṅśajo<space/></l>
+<l n="b">bhūdharatrayapurohito yatiḥ</l>
+<l n="c"><lb n="B35"/>śaṅkaraś śivikayānvitān nimāṁ<space/></l>
+<l n="d">so diśad dviradadeśaśaṅkare <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <p xml:lang="okz-Latn"><milestone type="pagelike" unit="face" n="c"/><label xml:lang="eng">Face c</label>
+   <lb n="c1"/>{3} [kamrate]ṅ[·] Aña śaṅkarapa[ṇ]ḍ[ita] {4}
+   <lb n="c2"/>{5}
+   <lb n="c3"/>[kamrate]ṅ· jagat· liṅgapura vudi prāk· I
+   <lb n="c4"/>[kunda]la mās· nuk· I
+   <lb n="c5"/>[ka]nloṅ· kamrateṅ· Aña Aṅve danle
+   <lb n="c6"/>[ku]ndala mās· nuk· I
+   <lb n="c7"/>graloṅ tai I <g ref="sym:bullet" type="punctuation">.</g> vat· I
+   <lb n="c8"/>svok· <g ref="sym:bullet" type="punctuation">.</g> kadāha
+   <lb n="c9"/>kamrateṅ· jagat· sak· vrāhmaṇa
+   <lb n="c10"/>vudi prāk· I
+                      <lb n="c11"/>vat· I
+   <lb n="c12"/>kundala mās· nuk· I
+   <lb n="c13"/>vāhurakṣa ti tāṁ ratna ta gi daṁnepra padmarāga
+   <lb n="c14"/>cancyan·
+   <lb n="c15"/>mās· snāp· vraḥ jaṅgha liṅ· 5
+   <lb n="c16"/>kaṅkana tāṁ padmarāga ta gi liṅ· II
+   <lb n="c17"/>kamrateṅ· jagat· suvarṇaliṅga
+   <lb n="c18"/>khlās· II
+   <lb n="c19"/>kamrateṅ· Aña nārāyaṇa
+   <lb n="c20"/>khlās· I
+                      <lb n="c21"/>kamrateṅ· jagat· chnal· I
+   <lb n="c22"/>vudi prāk· I
+   <lb n="c23"/>puṣpabhājana I sphaṭikaliṅga ta gi
+   <lb n="c24"/>kamrateṅ· jagat· śrīvrahmarakṣa Āy· rudrā
+   <lb n="c25"/>khlās· garop· I
+   <lb n="c26"/>kośa prāk· I
+   <lb n="c27"/>kamrateṅ· jagat· śrīcāmpeśvara
+   <lb n="c28"/>Āyoga prāk· I <g ref="sym:bullet" type="punctuation">.</g> khlās· I
+   <lb n="c29"/>kamrateṅ· jagat· liṅgaparvvata
+   <lb n="c30"/>khāl· prāk[·] I
+                      <lb n="c31"/>kamrateṅ· jagat· dviradapura
+   <lb n="c32"/>khlās· I
+   <lb n="c33"/>vat· I
+   <lb n="c34"/>khāl· I
+   <lb n="c35"/>śivikā I vraḥ stac· ta gi
+   <lb n="c36"/>kanloṅ· kamrateṅ· Aña
+   <lb n="c37"/>cancyan· III
+   <lb n="c38"/>kamrateṅ· jagat· saptadevakula
+   <lb n="c39"/>cancyan· 7
+   <lb n="c40"/>kamrateṅ· jagat· vnaṁ ruṅ· hemakundala nuk· I <g ref="sym:bullet" type="punctuation">.</g> dhanuśa-
+                      <lb n="c41"/>ra prāk· I <g ref="sym:bullet" type="punctuation">.</g> kravil· prāk· I <g ref="sym:bullet" type="punctuation">.</g> cancyan· II @ khāl· prāk· I
+   <lb n="c42"/>padigaḥ I
+   <lb n="c43"/>kamrateṅ· jagat· malayaparvvata khāl· prāk· I
+   <lb n="c44"/>cancyan(·) I
+   <lb n="c45"/>kamrateṅ· jagat· śivapāda paścima cancyan· I padiga(ḥ I)
+</p>
+                   
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Chhom2011_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Barth+Bergaigne1885-1893_01">
+ 	<p rend="stanza" n="1">[Je médite sur] ... (l'essence) ... resplendissante, par delà les ténèbres, qui, pénétrant ce (tout) et non touchée par ce (tout), se manifeste dans le ... monde.</p> 
+             <p rend="stanza" n="2">... l'être omniprésent qui, (tout à tour) habitant et quittant la demeure et passant aisin sans cesse de la jouissance à la délivrance, brille comme le soleil à travers un nuage.</p>
+             <p rend="stanza" n="3">[J'adore] l'époux d'Umā, qui porte en (son prpre) corps sa bien-aimée tout entière, qui, à la fois père et mère de tous les êtres, propage, omniprésent, sous nos yeux même la vie universelle.</p>
+             <p rend="stanza" n="4">Je révère le (dieu) aux quatre visages, qui, lui, ne cesse de veiller pour la sauvegarde d'une (nouvelle) création, quand il aperçoit que Viṣṇu s'est endormi avec Śrī sur la mer de lait.</p>
+             <p rend="stanza" n="5">Adoration à l'ennemi de Mura, qui, manifestant sa force supérieure, anéantit, sous la forme d'une femme, les Daityas adversaires des habitants du ciel.</p>
+             <p rend="stanza" n="6">Je salue Sarasvatī, l'oie sans tache, difficile à saisir dans sa grâce mobile, qui aime à se jouer dans le pur Mānasa de la parole.</p>
+             <p rend="stanza" n="7">Il fut (un homme) du nom de Punnāgavarman, de grande puissance, engendré par Rudravarman en Narendralakṣmī, comme Guha (le fut) par Īśvara en la fille de la montagne.</p>
+             <p rend="stanza" n="8">Eminent par la valeur et les autres (qualités), parce qu'il était capable de protéger la vie des hommes dans le combat, il fut, pour cela, appelé par les sages Punnāgavarman.</p>
+             <p rend="stanza" n="9">Par lui fut établi avec ses pleines limites le village du Saptadevakula, en une terre donnée avec ses champs et ses habitants à la troupe de (ses) ancêtres.</p>
+             <p rend="stanza" n="10">Dans le village appelé Rudrālaya, par lui fondé et rempli de serviteurs, il fit faire et ériger un liṅga dans lequel réside Śrī Bhadreśa.</p>
+             <p rend="stanza" n="11">De plus, il le dota richement de temples et d'aures (édifices) et y fit creuser un vaste étang décoré d'une façon ravissante.</p>
+             <p rend="stanza" n="12">(En mémoire et à la ressemblance) de son père, qui était une portion (incarnée) de Viṣṇu, il établit pieusement sept images de Viṣṇu, dressées en divers lieux, (comme autant de gardiennes) puissantes de la terre.</p>
+             <p rend="stanza" n="13">Rendant manifeste par ses hommages le Śambhu résidant à Dviradapura, ce puissant l'érigea dans le parvis (du sanctuaire), dans toute la majesté divine, avec l'exacte reproduction de la forme propre (du dieu), en même temps que, sous les traits de sa mère, (il dressa) une image de Devī, qui dut abandonner quelque chose de son imcomparable grandeur.</p>
+             <p rend="stanza" n="14">Né dans la lignée de la mère de celui-ci, fidèle observateur de la coutume approuvé, sanchant mener de front le devoir, les affaires et le plaisir, une bénédiction pour tous par la plénitude de ses nobles qualités.</p>
+             <p rend="stanza" n="15">(Vint ensuite) un serviteur chéri de Śrī Jayavarman dans sa résidence du mont Mahendra, lequel (issu) de cette race de maîtrs savants, fut le chef des porte-éventails (du roi).</p>
+             <p rend="stanza" n="16">Serviteur fidèle, habile politique, l'âme sans orgueil au sein de la faveur, il reçut du roi dans diverses parties de sa propre contrée de nouvelles terres en sus (de celles qu'il possédait déjà).</p>
+             <p rend="stanza" n="17">Né dans la lignée de la mère de celui-ci, un (vrai) Vāsudeva pour ses ennemis, vint (ensuite) le glorieux Vāsudeva, le protecteur puissant de sa race.</p>
+             <p rend="stanza" n="18">De Śrī Indravarman, le maître des hommes et de Śrī Yaśovarman aussi, il fit exécuter les commandements, expert dans la politique des rois.</p>
+             <p rend="stanza" n="19">Né dans la lignéede la mère de celui-ci, trois hommes excellents, femmes dans le devoir, protégèrent (ensuite) leur race et en défendirent comme il fallait l'intarissable prospérité.</p>
+             <p rend="stanza" n="20">Sous le règne de Śrī Harṣavarman, puis de Śrī Īśānavarman (et), selon l'ordre de succession, de Śrī Jayavarman, ils remplirent leur office.</p>
+             <p rend="stanza" n="21">Des trois, celui qui tenait le premier rang, (n'avait qu'une pensée :) "Ayant fait sa demeure de son âme, Śiva est mon refuge ;" et (pour cela,) il fut applé Manaśśiva.</p>
+             <p rend="stanza" n="22">Favori du roi Rājendravarman, il lui donna pour reine la fille de sa sœur, la belle, vertueuse et ravissante Prāṇā.</p>
+             <p rend="stanza" n="23">Deux fils de sa sœur, magnanimes, instruits dans tous les śāstras, il établit prêtres de deux liṅgas de Śrī Rājendreśvara.</p>
+             <p rend="stanza" n="24">(Egalement) distinguée par sa lignée, par sa conduite, par ses talents, celle-ci (fut) ensuite, Rājendravarman étant mort, chef des secrétaires intimes de Jayavarman.</p>
+             <p rend="stanza" n="25">(Quant aux) deux (autres membres) de cette race de maîtres savants, poètes tous deux, de la plus brillante intelligence, ils furent employés par Śrī Jayavarman comme prêtre de Hemaśr̥ṅgeśa.</p>
+             <p rend="stanza" n="26">De haute renommée et issus de la lignée de la mère de ceux-ci, furent (ensuite) cinq hommes, serviteurs favoris de Śrī Jayavarman.</p>
+             <p rend="stanza" n="27">De ceux-ci, Kavīśvara, l'aîné, adonné à une vie sainte et à de nobles pensées, fut préposé aux rites du feu (sacré) par Śrī Jayavarman.</p>
+             <p rend="stanza" n="28">Ensuite vint Śrī Sūryavarman, le monarque suprême et le soutien de la (terre qui, en lui, fut de nouveau) pourvue d'un roi, né dans la lignée de la mère de celui-ci ...</p>
+             <p rend="stanza" n="29">Voyant que, par le feu de la colère de Śambhu, Manmatha était à jamais devenu sans-corps, le Créateur retraçant sa chère image, daigna former lui-même [ce prince avec amor].</p>
+             <p rend="stanza" n="30">Qnand il se mettait en marche pour vaincre de vaillants rois, le soleil, sûrement par crainte, se cachait et les montagnes, par suite de l'illusion (produite) par ses éléphants, semblaient [se mouvoir].</p>
+             <p rend="stanza" n="31">La fumée des sacrifices où il portait sans faiblir le fardeau religieux du monde, n'obscurcissait pas seulement le ciel, mais aussi la gloire des plus illustres rois.</p>
+             <p rend="stanza" n="32">Un (autre) époux de Kr̥ṣṇa pour (procurer) le bien de sa race, abattant un (autre) Bhīṣma dans la bataille, il mérita la gloire d'Arjuna, (nouveau) Bhīmasena au trait fatal.</p>
+             <p rend="stanza" n="33">Ah! comme profondément versé dans l'Atharvan, il sut, (bien que) l'âme uniquement occupée du Yoga, s'attacher, (comme) un serviteur fidèle, tout le monde sans exception par de septuples liens</p>
+             <p rend="stanza" n="34">Instruit à fond dans la doctrine de Pāṇini, en même temps que parfaitement bon, il savait suspendre la valeur spécifique dans un terme employé métaphoriquement (et, dans un individu procurant le bien d'autrui, il ne regardait pas à la naissance).</p>
+             <p rend="stanza" n="35">Certes, si sa gloire aux courses incomparables, s'était mise plus tôt à  parcourir ces trois mondes Viṣṇnu pris de confusion ne les aurait pas parcourus de ses trois enjambées.</p>
+             <p rend="stanza" n="36">En possession de la sagesse des sages, les pieds adorés par les plus grands rois, aspirant à la position la plus haute et plein de confiance en la force de son bras, il sut réprimer l'impétuosité de ses ennemis dont la violence était sans égale et, monarque universel semblable au souverain des dieux, il enjoignit (à tous) leur devoir propre sans rencontrer d'obstacle.</p>
+             <p rend="stanza" n="37">Par lui fuit institué prêtre du liṅga de Śambhu érigé sur le Śrī Sūryaparvata, Kavīśvara à la pensée pure, dont la science sacrée était la richesse.</p>
+             <p rend="stanza" n="38">Kavīśvara, à la fin de son noviciat, épousa la fille de la sœur du riche, savant et glorieux ministre Śrī Vāgīśvara.</p>
+             <p rend="stanza" n="39">Le fils de la sœur de celui-ci, le poète accompli Śaṅkarapaṇḍita, fut hotr̥ de ce (même) roi, hautement honoré (par lui) avec piété.</p>
+             <p rend="stanza" n="40">Dûment instruit par un maître légitime, celui-ci acquit en peu de temps tout l'art de la parole, à commencer par la grammaire, avec toutes les brillantes récompenses qui y sont attachées.</p>
+             <p rend="stanza" n="41">Dès l'enfance il se conforma à la règle des gens de bien ; comme novice, (il se montra) scrupuleux observateur de ses devoirs, pratiquant la triple obéissance envers le guru, tant qu'il demeura auprès de son guru.</p>
+             <p rend="stanza" n="42">Il est bien naturel que, avec ses mille bouches, Patañjali ait pu exposer parfaitement tout le contenu du Bhāṣya : mais lui, qui n'avait qu'une bouche, c'est merveille (qu'il en ait fait) autant.</p>
+             <p rend="stanza" n="43">Distinguant la substance dans le génial et dans le particulier, ainsi que la qualité et l'action, il fut proclamé maître dans l'art d'assurer les moyens du salut, l'égal dans la logique de Kaṇāda lui-même.</p>
+             <p rend="stanza" n="44">Dans tous les śāstras, il connaissait l'exacte application des préceptes : dans les quatre âges, il pratiqua la parfaite dévotion ; sans cesse il trouva son plaisir dans la vertu, modérant sa marche avec le frein.</p>
+             <p rend="stanza" n="45">Buvant à les épuiser les océans des śāstras, qui ont pour joyaux leurs splendides précepte, jamais dans son âme, ne (purent s'élever) ni le feu de la colère et des autres (passions), ni les ténèbres de la sottise.</p>
+             <p rend="stanza" n="46">Sa race sans cesse bienfaisante à  tous pqr les sacrifices (qu'elle faisait célébrer), toujours ferme dans le bien, dont on vantait la prospérité croissante, alors (seulement) que, en lui, se fût levé (en quelque sorte pour elle) la récompense (de tant d'efforts), atteignit la faîte de l'excellence.</p>
+             <p rend="stanza" n="47">Udayādityavarman ensuite, le roi de la terre, avec les doux rayons de sa gloire, naquit dans la race des maîtres du monde, (comme) la lune dans une (nouvelle) mer de lait.</p>
+             <p rend="stanza" n="48">Il excellait à soumettre à sa volonté les femmes par sa beauté ; les guerriers, par son héroisme ; les sages, par ses belles qualités ; les peuples, par sa puissance ; les brâhmanes, par ses largesses.</p>
+             <p rend="stanza" n="49">Porteur de la masse (en quelque sorte) concentrée des nobles qualités, (ce princE) d'excellence énergie, quand Sūryavarman fut allé au ciel, fut sacré monarque universel par ses ministres.</p>
+             <p rend="stanza" n="50">Voyant qu'au milieu de Jambudvīpa, la demeure des dieux, s'élevait la montagne d'or, il fit faire, comme par émulation, une montagne d'or au centre de sa ville.</p>
+             <p rend="stanza" n="51">Sur le faîte de cette montagen d'or, dans un temple d'or, brillant d'un éclat céleste, il érigea un liṅga de Śiva honoré d'ablutions aux temps (prescrits).</p>
+             <p rend="stanza" n="52">Par ce roi, le sage Śaṅkarapaṇḑita, versé dans toute science, fut employé comme guru, à la vue de la parfaite efficacité de ses sacrifices.</p>
+             <p rend="stanza" n="53">Sur (cette) montagne, l'ornement des trois mondes, cet illustre, dans la quinzaine fortunée du mois, fut institué prêtre de (ce) liṅga d'or par ce protecteur de la terre.</p>
+             <p rend="stanza" n="54">Ensuite Śrī Harṣavarman, un frère cadet né de la même mère, fut roi pour le bonheur des peuples, après qu'Udayādityavarman fut allé au ciel.</p>
+             <p rend="stanza" n="55">Et ce fut Śaṅkarapaṇḍita, en qualité de guru, qui le sacra et l'établit sur ce trône, de concert avec les ministres, comme Vaśiṣṭha (sacra) le descendant de Raghu.</p>
+             <p rend="stanza" n="56">Le fils de Gādhin ne réussit pas, par les moyens de la puissance royale, à s'emparer de la vache Nandinī ; mais lui, par ces (mêmes moyens pratiqués) selon la méthode des contraires, sut la réduire en son pouvoir.</p>
+             <p rend="stanza" n="57">Aux peuples que consumait auparavant la fièvre produite par l'ardeur (dévorante) de Kali, ce (prince), qui réunissait en lui à un degré incomparable l'essence de tous les moyens de succès, procura le repos en faisant strictement observer les devoirs des quatre castes.</p>
+             <p rend="stanza" n="58">Ce maître de la terre, à la majesté sans égale en ce monde entier, ayant acquis pour purohita le vénérable Śaṅkara, obtint, à son extrême satisfaction, (en ce personnage de ce sage), comme Yuddhiṣṭhira (en celle de) Dhaumy, la réalisation la plus haute de tout ce qu'on désire en vue de ce monde-ci et de l'autre.</p>
+             <p rend="stanza" n="59">Né de sa mère du Saptadevakula et purohita de trois rois, l'ascète Śaṅkara a consacré cette image, ainsi qu'un palanquin, au Śaṅkara du Dviradadeśa.</p>
+           </div>
+              <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+              <p n="c1-c2">(Dons de V.) K. A. Śaṅkarapaṇḍita ...</p>
+              <p n="c3-c4">A. K. J. Liṅgapura : 1 vase vudi en argent, 1 paire de pendants d'oreille en or.</p>
+              <p n="c5-c8">A Kanloṅ K. A. Aṅve Danle : 1 paire de pendants d'oreille en or, 1 gralon tai, 1 vat ; plateaux et chaudrons.</p>
+              <p n="c9-c16">A. K. J. Sakavrāhmaṇa : 1 vase vuvdi en argent, 1 vat, 1 paire de pendants d'oreille en or, brassard incrusté de pierres précieuses, rubis et autres, bagues, jambières d'or (pesant) 5 liṅ, bracelet incrusté de rubis (pesant) 2 liṅ.</p>
+              <p n="c17-c18">A K. J. Suvarṇaliṅga : 2 aiguières.</p>
+              <p n="c19-c20">A K. A. Nārāyaṇa : 1 aiguière.</p>
+              <p n="c21-c23">A K. J. Chnal : 1 vase vudi en argent, 1 vase (en forme de) fleur avec un liṅga de cristal.</p>
+              <p n="c24-c26">A K. J. Śrī Vrahmarakṣa à Rudrā : 1 aiguière à couvercle, 1 étui d'argent.</p>
+              <p n="c27-c28">A K. J. Śrī Cāmpeśvara, 1 ornement d'argent, 1 aiguière.</p>
+              <p n="c29-c30">A K. J. Liṅgaparvata : 1 bol d'argent.</p>
+              <p n="c31-c35">A K. J. Dviradapura : 1 aiguière, 1 vat, 1 bol, 1 palanquin portant (l'image) du dieu.</p>
+              <p n="c36-c37">A Kanloṅ K A. : 3 bagues.</p>
+              <p n="c38-c39">A K. J. Saptadevakula : 7 bagues.</p>
+              <p n="c40-c42">A K. J. Vnaṁ Ruṅ : 1 paire de pendants d'oreille en or, 1 arc et ses flèches en argent, 1 anneau d'argent, 2 bagues, 1 bol d'argent, 1 crachoir.</p>
+              <p n="c43-c44">A K. J. Malayaparvata : 1 bol d'argent, 1 bague.</p>
+              <p n="c45">A K. J. Śivapada de l'ouest : 1 bague, 1 crachoir.</p>
+                   </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>The Sanskrit part was edited by Auguste Barth (<bibl rend="omitname"><ptr target="bib:Barth+Bergaigne1885-1893_01"/><citedRange unit="page">122-140</citedRange></bibl>) with a French translation and the Khmer part was edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">284-286</citedRange></bibl>) with a French translation. The Khmer part is re-edited here by Dominique Soutif based on EFEO estampage n. 795.</p>
+	 <listBibl type="primary">
+             <bibl n="AB">
+             <ptr target="bib:Barth+Bergaigne1885-1893_01"/>
+             <citedRange unit="page">122-140</citedRange>
+                 </bibl>
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">284-286</citedRange>
+    </bibl>
+             </listBibl>
+           <listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">419-425</citedRange>
+    </bibl>
+              <bibl n="RM">
+      <ptr target="bib:Filliozat2020_01"/><citedRange unit="page">563-609</citedRange>
+    </bibl>
+              </listBibl>
+                </div>
+        </body>
+    </text>
+</TEI>
