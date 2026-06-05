@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 143. Stela of Prasat Thnot Cum, 899 Śaka</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+              <!--  
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00143</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-06-05" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p><milestone type="pagelike" unit="face" n="A"/><label xml:lang="eng">Face A</label>
+   <lb n="A1"/>śrī svasti jaya
+   <lb n="A2"/>874 śaka vr̥haspativāra nu vraḥ pāda ta stāc dau śivaloka stāc Ā-
+   <lb n="A3"/>y vraḥ {2} pi mratāñ śrī saṅgrāmadāruṇa paṅgaṁ thpvaṅ nivedana @
+   <lb n="A4"/>svaṁ vraḥ karuṇā prasāda bhūmi ta śūnyamūla pi Oy ta kamrate-
+   <lb n="A5"/>ṅ jagat liṅgapura @ nu kanloṅ kamrateṅ Añ Aṅve danle @
+   <lb n="A6"/>man bhūmi vrai raṁtyaṅ śūnyamūla @ vraḥ śāsana pre loñ res
+   <lb n="A7"/>loñ rājadāsa mūla kanmyaṅ paṁre @ nu raṅvāṅ ta jmaḥ vāp got nu vāp
+   <lb n="A8"/>{1} dau saṅ gol ta bhūmi vrai raṁtyaṅ ta śūnyamūla Oy ta kamrateṅ
+   <lb n="A9"/>jagat liṅgapura nu kanloṅ kamrateṅ Añ Aṅve danley @ pra-
+   <lb n="A10"/>galbha ta vāp vū nu steñ paramaśivācāryya duk saṅvey kamra-
+   <lb n="A11"/>teṅ jagat liṅgapura nu kanloṅ kamrateṅ Añ Aṅve danley
+   <lb n="A12"/>@ 899 śaka nu kamrateṅ Añ vraḥ guru paṅgaṁ thpvaṅ niveda-
+   <lb n="A13"/>na ta vraḥ pāda ta stāc dau paramavīraloka man steñ paramaśivā-
+   <lb n="A14"/>cāryya teṅ nau vāp vijaya sanme ni riy bhūmi vrai raṁtyaṅ ta vvaṁ I-
+   <lb n="A15"/>s man vraḥ pāda ta stāc dau śivaloka pre saṅ gol @
+   <lb n="A16"/>vraḥ pāda ta stāc dau paramavīraloka pre loñ hitagata vi-
+   <lb n="A17"/>ṣaya śreṣṭhapura khloñ sru dau chvat bhūmi noḥ sot
+   <lb n="A18"/>saṅ gol Oy ta kamrateṅ jagat liṅgapura nu kanlo-
+   <lb n="A19"/>ṅ kamrateṅ Añ Aṅve danley pre sthāpanā Ā-
+   <lb n="A20"/>sana kamrateṅ jagat liṅgapura nu Āsana kamra-
+   <lb n="A21"/>teṅ Añ Aṅve danley pragalbha ta steñ paramaśi-
+   <lb n="A22"/>vācāryya @ steñ paramaśivācāryya dai khloñ vnaṁ thkval śrī ka-
+   <lb n="A23"/>pāla @ khloñ vnaṁ candanagiri @ khloñ bhūtāśa na sthāpanā vraḥ he-
+   <lb n="A24"/>ma[śri]ṅgagiri khloñ kāryya vraḥ he[ma]śriṅgaṇagiri khñuṁ vraḥ gho vara
+   <lb n="A25"/>gho kanlyek gho Āditya gho kandeṅ gho kaṁvit tai saṁqāp qji tai
+   <lb n="A26"/>chke tai gandha tai {2} kvaṇn tai kansān tai kaṁvai tai kaṁprvat
+   <lb n="A27"/>tai kandeṅ tai jvik tai panlāc @ phsaṁ khñuṁ vraḥ 20 5 thmur krapi @
+</p>
+                   <p><milestone type="pagelike" unit="face" n="B"/><label xml:lang="eng">Face B</label>
+   <lb n="B1"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B2"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B3"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B4"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B5"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B6"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B7"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B8"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B9"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B10"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B11"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B12"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B13"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B14"/>{8} nu kamrateṅ Añ {8} vraḥ guru
+   <lb n="B15"/>paṅgaṁ thpvaṅ nivedana ta dhūli vraḥ pāda dhūli jeṅ vraḥ kamrate-
+   <lb n="B16"/>ṅ Añ śrījayavīravarmmadeva pi sthāpanā praśasta neḥ
+   <lb n="B17"/>pre vrāhmaṇācāryya Oy vara qnak ta vardheya Oy śāpa qna-
+   <lb n="B18"/>k yok bhūmi vrai raṁtyaṅ pi thve vakra pi vvaṁ thve roḥh
+   <lb n="B19"/>kalpanā kamrateṅ phdai karom @ vrāhmaṇa ta O-
+   <lb n="B20"/>y vara śāpa @ rājapurohita @ mratāñ khloñ viṣṇu ta vyar
+   <lb n="B21"/>mratāñ khloñ {4} @ mratāñ khloñ {1} make-
+   <lb n="B22"/>śa @ kamrateṅ Añ vraḥ guru @ kaṁsteṅ Añ rājani-
+   <lb n="B23"/>vāsa khloñ saṁtāp @ steṅ Añ dharmmāvāsa Ācāryyahoma
+   <lb n="B24"/>vraḥ paṁnvās bhāgavata qval syaṅ ta Oy vara qnak ta vardheya Oy
+   <lb n="B25"/>śāpa qnak ta thve vakra pi thve kṣaya bhūmi vrai raṁtya[ṅ] leṅ dau narakk @
+</p>
+                   <p><milestone type="pagelike" unit="face" n="c"/><label xml:lang="eng">Face c</label>
+   <lb n="c1"/>tai kaṁprvā[t] kva[n] 3
+   <lb n="c2"/>ti duñ nu srū
+   <lb n="c3"/>nu khñuṁ nu dvak
+   <lb n="c4"/>tai khñuṁ
+   <lb n="c5"/>tai kaṁvai
+   <lb n="c6"/>tai kandeṅ
+   <lb n="c7"/>tai kanteṁ
+   <lb n="c8"/>gho bhakti
+   <lb n="c9"/>gho caṁvuḥ
+   <lb n="c10"/>gho hr̥daiśiva
+   <lb n="c11"/>gho thgāp
+   <lb n="c12"/>gho kansān
+   <lb n="c13"/>gho svasti
+   <lb n="c14"/>gho kaṁvrauv
+   <lb n="c15"/>man khloñ vala khloñ
+   <lb n="c16"/>gap sopakāra Oy
+   <lb n="c17"/>pi nu saṁ tai kanrun
+   <lb n="c18"/>gho thgāp
+   <lb n="c19"/>khñuṁ rṇnoc
+   <lb n="c20"/>tai thṅe kvan 2
+   <lb n="c21"/>tai thmās
+   <lb n="c22"/>ti duñ nu krapi ta
+   <lb n="c23"/>loñ jrai sirasā
+   <lb n="c24"/>tai dharmma gho duṁ {1}
+   <lb n="c25"/>gho {1} ñ {1} ya @
+</p>
+                   <p><milestone type="pagelike" unit="face" n="d"/><label xml:lang="eng">Face d</label>
+   <lb n="d1"/>nā gol ta pāt ta gi Oy
+   <lb n="d2"/>saṁnvat vraḥ pre hau
+   <lb n="d3"/>qnak niḥsandeha saṅ gol Oy viṅ ta {1}
+   <lb n="d4"/>{5}
+   <lb n="d5"/>sre gmuṁ ti jauv nu [kra]-
+   <lb n="d6"/>pi {1}
+   <lb n="d7"/>qnak sañjak ta Aṅgva-
+   <lb n="d8"/>y nā cār praśasta
+   <lb n="d9"/>vrāhmaṇācāryya qval
+   <lb n="d10"/>chvat bhūmi vrai raṁ-
+   <lb n="d11"/>tyaṅ {5} sruk
+   <lb n="d12"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="d13"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="d14"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="d15"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="d16"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="d17"/>steṅ {3} puruṣapradhā-
+   <lb n="d18"/>na {3} śreṣṭha-
+   <lb n="d19"/>pura qval ta A-
+   <lb n="d20"/>ṅgvay nā vrāhmaṇā-
+   <lb n="d21"/>cāryya Oy vara[śā]-
+   <lb n="d22"/>pa
+</p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1954_02"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+ 	<p n="A1">Fortune! Bonheur! Victoire!</p>
+              <p n="A2-A5">En 874 Śaka, un jeudi, S. M. le roi qui est allé au Śivaloka (Rājendravarman), résidait au saint ... Mratāñ Śrī Saṅgrāmadāru1ṇa se présenta respectueusement devant lui et sollicita de sa gracieuse bienveillance une terre vacante pour l'offrir au dieu (kamrateṅ jagat) de Liṅgapura et à la princesse défunte (kanloṅ kamrateṅ añ) d'Aṅve Danle.</p>
+              <p n="A6-A11">La terre de Vrai Raṁtyaṅ ("forêt des galanga") étant vacante, un ordre royal (śāsana) chargea Loñ Res, Loñ Rājadāsa, chef des pages, et les Raṅvāṅ nommés Vāp Got et Vāp ... d'aller planter les bornes de la terre de Vrai Raṁtyaṅ, qui était vacante, pour l'offrir au dieu de Liṅgapura et à la princesse défunte d'Aṅve Danley ; et de la remettre à Vāp Vū et Steñ. Paramaśivācārya pour fournir les aliments du dieu de Liṅgapura et de la princesse défunte d'Aṅve Danley.</p>
+              <p n="A12-A14">En 899 Śaka, K. A. Vraḥ Guru informa respectueusement S. M. le roi qui est allé au Paramavīraloka (Jayavarman V) que Steñ Paramaśivācārya, Teṅ Nau et Vāp Vijaya s'étaient associés.</p>
+              <p n="A14-A24">Quand à la terre de Vrai Raṁtyaṅ qui n'avait pas été utilisée lors de l'abornement prescrit par S. M. le roi qui est allé au Śivaloka, S. M. le roi qui est allé au Paramavīraloka chargea Loñ Hitagata du district (viṣaya) de Śreṣṭhapura, khloñ sru, d'aller délimiter cette terre à son tour, d'y planter les bornes, de l'offrir au dieu de Lingapura et à la princesse défunte d'Aṅve Danley, et le chargea (de plus) d'ériger le siège du dieu de Liṅgapura et le siège de la princesse défunte d'Aṅve Danley et de les confier à Steñ Paramaśivācārya, à l'autre Steñ Paramaśivācārya qui est khloñ vnaṁ de Thkval Śrī Kapāla, au khloñ vnaṁ de Candanagiri, au khloñ bhātāśa, lors de la fondation du Mont de la Corne d'or (Hemaśr̥ṅgagiri), au khloñ krārya du Mont de la Corne d'Or.</p>
+              <p n="A24-A27">Esclaves du dieu (liste de 5 gho, 1 aji tai, 9 tai) : total des esclaves du dieu: 25 ; bœufs, buffles.</p>
+              <p n="B1-B14"><gap reason="lost"/></p>
+              <p n="B15-B19">Le Vraḥ Guru demanda respectueusement à S. M. le roi Śrī Jayavīravarmadeva d'ériger cet édit (praśasta), et de charger les brâhmanes et les ācārya de prononcer une bénédiction en faveur des gens qui feraient prospérer (la fondation), et une malédiction contre les gens qui prendraient la terre de Vrai Raṁtyaṅ pour agir frauduleusement et enfreindre les clauses de la fondation royale.</p>
+              <p n="B20-B25">Les brâhmanes qui prononcèrent la bénédiction et la malédiction furent : le chapelain royal (rājapurohita), les deux Mratāñ Khloñ Viṣṇu, Mratāñ Khloñ ... , Mratāñ Khloñ - makeśa, K. A. Vraḥ Guru, Kaṁsteṅ Añ Rājanivāsa (qui est) khloñ saṁtap, Sten An Dharmavasa, ācāryahoma des religieux bhāgavata: tous ont prononcé la bénédiction en faveur de ceux qui feraient prospérer, et la malédiction contre ceux qui agiraient frauduleusement, et causeraient la ruine de la terre de Vrai Raṁtyaṅ, afin qu'ils aillent en enfer.</p>
+              <p n="c1-c3">Tai Kaṁprvāt et 3 enfants, achetés au prix de : paddy, esclave, et bateau.</p>
+              <p n="c4-c14">(Liste de 3 tai et 7 gho).</p>
+              <p n="c15-c18">(Esclaves) donnés par Khloñ Vala (qui est) khloñ gap Sopakāra pour être réunis (aux précédents : 1 tai, 1 gho).</p>
+              <p n="c19-c21">Esclaves pour la lune décroissante : (2 tai et 2 enfants).</p>
+              <p n="c21-c25">(Esclaves) achetés au prix de buffles à Loñ Jrai Sirasā : (1 tai, 2 gho).</p>
+              <p n="d1-d4">Quant aux bornes qui avaient disparu là, on remit une requête. Sa Majesté fit appeler des gens de confiance pour planter de nouveau les bornes à ...</p>
+              <p n="d5-d6">Rizière Gmuṁ échangée pour x bumes.</p>
+              <p n="d7-d22">Les Sañjak qui étaient présents lorsque fut gravé cet édit (praśasta), tous les brâhmanes et les ācārya qui délimitèrent la terre de Vrai Raṁtyaṅ .......... les notables ... Śreṣṭhapura, tous furent présents lorsque les brâhmanes et les ācārya prononcèrent la bénédiction et la malédiction.</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">218-223</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 971.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">218-223</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
