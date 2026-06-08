@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 233. Stela from Tuol Rlom Tim, 10th century</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+              <!--  
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00233</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-06-08" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p><milestone type="pagelike" unit="face" n="A"/><label xml:lang="eng">Face A</label>
+   <lb n="A1"/><gap reason="lost" extent="unknown" unit="character"/> sabhācāre vyavah<supplied reason="lost">āra</supplied>
+   <lb n="A2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">vāp</supplied> y<supplied reason="lost">ok</supplied> cāñ vraḥ laṁvāṅ khlo<supplied reason="lost">ñ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="A3"/><gap reason="lost" extent="unknown" unit="character"/>n tāñ rok gati vāp rau <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="A4"/><gap reason="lost" extent="unknown" unit="character"/>kāryya vnaṁ creṅ <g ref="sym:bullet" type="punctuation">.</g> gi roḥh man ti sabhācā<supplied reason="lost">re</supplied>
+   <lb n="A5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">tā</supplied>ñ rok vargga vijayapatana nu vāp yok cāñ vraḥ
+   <lb n="A6"/><supplied reason="lost">laṁ</supplied>vāṅ duk ta gi Arthī <g ref="sym:bullet" type="punctuation">.</g> man kāla ta gi vraḥ rājya dhūlī vraḥ pāda dhūlī jeṅ vraḥ kamra<supplied reason="lost">te</supplied><lb 
+      n="A7" break="no"/>ṅ Añ ta stāc dau vrahmaloka <g ref="sym:bullet" type="punctuation">.</g> vāp rau vijayapatta yok tai kanhya<lb 
+         n="A8" break="no"/>ṅ qpai tai kaṁpit dau phtā ta steñ vnaṁ creṅ pi yok krapi mvāy pi Oy ta vāp
+   <lb n="A9"/>nos <g ref="sym:bullet" type="punctuation">.</g> sruk pāndugāra ta khloñ srū jeṅ vnaṁ <g ref="sym:bullet" type="punctuation">.</g> man tai kanhyaṅ rat <g ref="sym:bullet" type="punctuation">.</g> vāp rau
+   <lb n="A10"/>yok qnak mvāy pre dau paṁre panlās tai kanhyaṅ <g ref="sym:bullet" type="punctuation">.</g> man noḥ rat vāp rau yo<lb 
+      n="A11" break="no"/>k tai kaṁpit Oy paṁre ta panlās tai kanhyaṅ <gap reason="lost" extent="unknown" unit="character"/> pratiṣedha gi Arthī ta
+   <lb n="A12"/>roḥh neḥh <g ref="sym:bullet" type="punctuation">.</g> pi paṁvyat man dhūlī vraḥ pāda ta stāc dau vrahmaloka <g ref="sym:bullet" type="punctuation">.</g> vāp rau yo<lb 
+      n="A13" break="no"/>k krapi steñ vnaṁ creṅ <g ref="sym:bullet" type="punctuation">.</g> pi Oy ta vāp nos khloñ srū jeṅ vnaṁ <g ref="sym:bullet" type="punctuation">.</g> Oy tai ka-
+   <lb n="A14"/>nhyaṅ rat <g ref="sym:bullet" type="punctuation">.</g> pi steñ Ci<gap reason="lost" extent="unknown" unit="character"/> ta vāk śeṣa <g ref="sym:bullet" type="punctuation">.</g> man vāp rau daśādhikr̥ta vija<lb 
+      n="A15" break="no"/>yapattana dau pul krapi mvāy ta steñ vnaṁ creṅ <g ref="sym:bullet" type="punctuation">.</g> Oy vraḥ rājakāryya ta khlo<lb 
+         n="A16" break="no"/>ñ srū <g ref="sym:bullet" type="punctuation">.</g> vāp rau yok tai kanhyaṅ Oy thlāy ta steñ vnaṁ creṅ <g ref="sym:bullet" type="punctuation">.</g> yo<lb 
+            n="A17" break="no"/>k tai kanhyaṅ jvan ta vraḥ kamrateṅ Añ śivapattana <g ref="sym:bullet" type="punctuation">.</g> ti duk ta praśasta <g ref="sym:bullet" type="punctuation">.</g> man di<lb 
+               n="A18" break="no"/>k ni Aṅveṅ gus pi tai kanhyaṅ rat <g ref="sym:bullet" type="punctuation">.</g> steñ vnaṁ creṅ pre dau cāp vāp rau dār <g ref="sym:bullet" type="punctuation">.</g>
+   <lb n="A19"/>vāp rau yok tai kaṁpit Oy panlās tai kanhyaṅ <g ref="sym:bullet" type="punctuation">.</g> steñ vnaṁ creṅ yo<lb 
+      n="A20" break="no"/>k tai kaṁpit jvan ta vraḥ kamrateṅ Añ śivapattana <g ref="sym:bullet" type="punctuation">.</g> tai kaṁpit paṁre ta vraḥ
+</p>
+                   <p><milestone type="pagelike" unit="face" n="B"/><label xml:lang="eng">Face B</label>
+   <lb n="B1"/><gap reason="lost" extent="unknown" unit="character"/> prāṁ gvāl mvāy rat <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B2"/><gap reason="lost" extent="unknown" unit="character"/> paṁre ta vraḥ kamrateṅ Añ śiva<supplied reason="lost">pattana</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B3"/><gap reason="lost" extent="unknown" unit="character"/> qyat Apavāda <g ref="sym:bullet" type="punctuation">.</g> Ilū dep vāp yok tāñ <supplied reason="lost">rok</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">vāp</supplied>
+   <lb n="B4"/>yok tāñ rok paṁvyat Ajñāna neḥ vāk śeṣa <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B5"/>gi vyavahāra man noḥ tai kanhyaṅ ti tāñ rok kathā <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ste</supplied>-
+   <lb n="B6"/><supplied reason="lost">ñ v</supplied>n<supplied reason="lost">aṁ</supplied> creṅ pi yok krapi <g ref="sym:bullet" type="punctuation">.</g> pi steñ vnaṁ creṅ duk ta praśasta <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">jva</supplied><lb 
+      n="B7" break="no"/>n ta vraḥ <g ref="sym:bullet" type="punctuation">.</g> yal man neḥ tai kanhyaṅ ti vāp rau Oy thlāy krap<supplied reason="lost">i</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="B8"/>roḥh kathā tāñ rok <g ref="sym:bullet" type="punctuation">.</g> man neḥ tai kanhyaṅ rat <g ref="sym:bullet" type="punctuation">.</g> vāp rau yok tai k<supplied reason="lost">aṁ</supplied>p<supplied reason="lost">it O</supplied><lb 
+      n="B9" break="no"/>y panlāss <g ref="sym:bullet" type="punctuation">.</g> steñ vnaṁ creṅ yok tai kaṁpit jvan ta vraḥ kamrateṅ Añ śiva<lb 
+         n="B10" break="no"/>pattana <g ref="sym:bullet" type="punctuation">.</g> paṁre ta vraḥ lvoḥ pi ket kvan cau ta Ampāll neḥh <g ref="sym:bullet" type="punctuation">.</g> pi Ilū dep vāp
+   <lb n="B11"/>yok tāñ rok kathā man hetu ti phtā gus thve Apavāda kathā man vvaṁ ti Oy
+   <lb n="B12"/>panlās tai kanhyaṅ <g ref="sym:bullet" type="punctuation">.</g> soca tāñ rok vāp yok ta gi <g ref="sym:bullet" type="punctuation">.</g> nirṇnaya mukhasphā<lb 
+      n="B13" break="no"/>lana 40 10 tai kaṁpit pragalbha ta steñ ..pre paṁre ta vraḥ ruv ta tel <g ref="sym:bullet" type="punctuation">.</g> ta cā<lb 
+      n="B14" break="no"/>re kaṁsteṅ Añ śrībhūpativarmma <g ref="sym:bullet" type="punctuation">.</g> sabhāsat loñ pitrānandana loñ qī
+   <lb n="B15"/>loñ Ānandana loñ paṇditācāryya <g ref="sym:bullet" type="punctuation">.</g> ta qnau nā cāre <g ref="sym:bullet" type="punctuation">.</g> mratāñ śrīdhara<lb 
+      n="B16" break="no"/>ṇīndropakalpa <g ref="sym:bullet" type="punctuation">.</g> steṅ Añ tejorāśī guṇadoṣadarśśi vraḥ sabhā <g ref="sym:doubleBar" type="punctuation">.</g><g ref="sym:bullet" type="punctuation">.</g><g ref="sym:doubleBar" type="punctuation">.</g>
+   </p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1954_03"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1954_03">
+ 	<p n="A1-A4">..un émissaire de la Cour, (au sujet) du procès ... Vāp Yok, cāñ vraḥ laṁvāṅ, khloñ ... et Tāñ Rok ont intenté une action à l'égard de Vāp Rau (et du Steñ ...) kārya à Vnaṁ Creṅ.</p>
+             <p n="A4-A6">Voici ce que l'émissaire de la Cour ... (ce que) Tāñ Rok, de la corporation de Vijayapattana, et Vāp Yok, cāñ vraḥ laṁvāṅ, ont déposé en qualité de plaignants.</p>
+              <p n="A6-A11">Sous le règne de S. M. le roi qui est allé au Brahmaloka, Vāp Rau de Vijayapata(na) apris Tai Kanhyaṅ, tante de Tai Kaṁpit, pour aller la confier en dépôt à Steñ Vnaṁ Creṅ, et il a pris un buffle qu'il a donné à Vāp Nos, du pays de Pāndugāra, chef du paddy de Jeṅ Vnaṁ. Tai Kanhyaṅ s'étant enfuie, Vāp Rau a pris une personne et l'a envoyée servir à la place de Tai Kanhyaṅ. Cette personne s'étant enfuie, Vāp Rau a pris Tai Kaṁpit pour servir à la place de Tai Kanhyaṅ.</p>
+              <p n="A11-A14">(Le défendeur) rejette (cette accusation) des plaignants et affirme que (sous le règne de) S. M. le roi qui est allé au Brahmaloka, Vāp Rau a pris un buffle de Steñ Vnaṁ Creṅ et l'a donné à Vāp Nos, chef du paddy de Jeṅ Vnaṁ. Il a donné (en échange) Tai Kanhyaṅ qui s'est enfuie.</p>
+              <p n="A14-A20">Steñ ... (ajoute) cette déclaration complémentaire : Vāp Rau, dizenier à Vijayapattana, est alé emprunter à intérêt un buffle à Steñ Vnaṁ Creṅ pour s'acquitter du service royal à l'égard du chef du paddy, et il a pris Tai Kanhyaṅ pour payer le prix du buffle à Steñ Vnaṁ Creṅ. (Celui-ci) a pris Tai Kanhyaṅ pour l'offrir àV. K. A. Śivapattana, en consignant ce fait dans un acte. C'est seulementaprès cela que Tai Kanhyaṅ a pris la fuite. Steñ Vnaṁ Creṅ a envoyé saisir Vāp Rau pour la lui réclamer. Vāp Rau a pris Tai pour remplacer Tai Kanhyaṅ. Steñ Vnaṁ Creṅ a pris Tai Kaṁpit pour l'offrir à V. K. A. Śivapattana. Tai Kaṁpit a servi le dieu.</p>
+              <p n="B1-B3">... cinq ..., 1 gvāl, x rat ... servir V. K. A. Śivapattana ... sans opposition.</p>
+              <p n="B3-B4">Maintenant Vāp Yok et Tāñ Rok ..., Vāp Yok et Tāñ Rok soutiennent leur ignorance de la déclaration complémentaire.</p>
+              <p n="B5-B6">L'objet du procès est que c'est Tai Kanhyaṅ qui est déclarée par Tāñ Rok ... Steñ Vnaṁ Creṅ en échange d'un buffle ; et que Steñ Vnaṁ Creṅ a consigné dans un acte ... pour la donner au dieu.</p>
+              <p n="B7-B10">(L'enquêteur) constate que c'est Tai Kanhyaṅ que Vāp Rau a donnée comme prix du buffle ... la déclaration de Tāñ Rok ; que c'est Tai Kanhyaṅ qui s'est enfuie ; que Vāp Rau a pris Tai Kaṁpit pour la donner à sa place ; que Steñ Vnaṁ Creṅ a pris Tai Kaṁpit pour l'offrir à V. K.A Śivapattana, et qu'elle a servi le dieu jusqu'à ce que naissent tous ces enfants et petits-enfants.</p>
+              <p n="B10-B12">Maintenant, Vāp Yok et Tāñ Rok viennent déclarer que c'est parce que (Vāp Rau) avait seulement confié (Tai Kanhyaṅ) en dépôt qu'ils ont formulé une objection, en déclarant qu'ils ne donnaient pas la remplaçante de Tai Kanhyaṅ.</p>
+              <p n="B12-B13">La preuve étant faite à l'égard de Tāñ Rok et Vāp Yok sur ce point, ils sont condamnés à recevoir 50 soufflets sur le visage. Tai Kaṁpit sera remise à Steñ ... avec ordre de servir le dieu comme auparavant.</p>
+              <p n="B14-B16">Enquêteur : Kaṁsteṅ Añ Śrī Bhūpativarma ; Assesseurs : Loñ Pitrānandana, Loñ Ī, Loñ Ānandana, Loñ Panditācarya ; Assistaient à l'enquête : Mratāñ Śrī Dharaṇīndropakalpa, Steṅ Añ Tejorāśi, inspecteur des qualités et des défauts de la Sainte Cour.</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_03"/><citedRange unit="page">49-67</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 1376.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1954_03"/><citedRange unit="page">49-67</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
