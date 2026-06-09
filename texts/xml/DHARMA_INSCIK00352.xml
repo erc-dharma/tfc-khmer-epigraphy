@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 352. Doorjambs of Prasat Kantop, 10th century</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00352</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-06-09" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+
+   <lg n="1" met="anuṣṭubh" xml:lang="san-Latn"><milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern doorjamb</label>
+<l n="a" enjamb="yes"><lb n="S1"/>namaś śivāya yasyāṅghri<space/></l>
+<l n="b">-makhadīdhitir āvabhau<space/></l>
+<l n="c" enjamb="yes">namrendramūrdhamaulī<space/></l>
+<l n="d">-ddharakta = = ⏑ odgatā</l>
+</lg>
+   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S2"/>namāmy umām r̥tau yasyā<space/>ś</l>
+<l n="b">cārusnigdhatanuśriyam<space/></l>
+<l n="c">spr̥śann api sadā rudro<space/></l>
+<l n="d">di[vyasu]kha[ṁ] ciraṁ labhet</l>
+</lg>
+   <p><lb n="S3"/>8xx śaka vyar roc bhādrapada Ādityavāra nu steñ mahendrāṇī Oy saṁnvat [ta gi] steṅ Añ Ācā-
+   <lb n="S4"/>ryya rudrā nu mratāñ śrīraṇavikhyāta paṅgaṁ thpvaṅ nivedana ta dhūli vraḥ pāda dhūli jeṅ vraḥ kaṁmrateṅ A-
+   <lb n="S5"/>ñ śrīrājendravarmmadeva khmi leṅ vraḥ kaṁmrateṅ Añ śivaliṅga ta ti sthapanā
+   <lb n="S6"/>ta gi sruk rudrapada ta punya nai steñ mahendrāṇī leṅ jā Āsana vraḥ ai śi-
+   <lb n="S7"/>vapāda pūrvva kalpanā raṅko yajña liḥ 5 pratidina nu mahānasa mvāy ta taṁ-
+   <lb n="S8"/>tām yajña Āy vnaṁ <g ref="sym:bullet-hollow" type="punctuation">.</g> vraḥ śāsana dhūli vraḥ pāda dhūli jeṅ vraḥ kaṁmrate-
+   <lb n="S9"/>ṅ Añ ta kaṁsteṅ Añ rājakulamahāmantri steṅ Añ Ācāryya rudrā
+   <lb n="S10"/>nu mratāñ śrīraṇavikhyāta pre pandval vraḥ śāsana ta steñ paramācāryya
+   <lb n="S11"/>khloñ vnaṁ vraḥ kaṁmrateṅ Añ śivapāda pūrvva pre chvatt bhūmi nu dravya phoṅ
+   <lb n="S12"/>man steñ mahendrāṇī Oy ta vraḥ kaṁmrateṅ Añ śivaliṅga nu
+   <lb n="S13"/>vraḥ kaṁmrateṅ Añ ta viṣnu <g ref="sym:bullet-hollow" type="punctuation">.</g> nu vraḥ kaṁmrateṅ Añ bhagava-
+   <lb n="S14"/>tiy ta ti paṅgaṁ thpvaṅ nivedana pi cāṁ caṁnāṁ ta vraḥ kaṁmrateṅ Añ śi-
+   <lb n="S15"/>vapāda <g ref="sym:bullet-hollow" type="punctuation">.</g> pre saṅ gol ta gi bhūmi pre thve toy kalpanā naya yajamāna
+   <lb n="S16"/>vvaṁ jā pi svatantra ta mūla ta khloñ kanmyaṅ paṁmre <g ref="sym:bullet-hollow" type="punctuation">.</g> ta khloñ sru <g ref="sym:bullet-hollow" type="punctuation">.</g> ta khlo-
+   <lb n="S17"/>ñ cralo <g ref="sym:bullet-hollow" type="punctuation">.</g> ta khloñ mukha <g ref="sym:bullet-hollow" type="punctuation">.</g> ta khloñ gāp jnvāl phoṅ <g ref="sym:bullet-hollow" type="punctuation">.</g> vvaṁ jā pi mān qna-
+   <lb n="S18"/>k ta vahiṣkr̥ta ta gi sruk vvaṁ jā pi mān qnak ta cāp qnak <g ref="sym:bullet-hollow" type="punctuation">.</g> vvaṁ jā pi mān
+   <lb n="S19"/>qnak ta yok dravya <g ref="sym:bullet-hollow" type="punctuation">.</g> vvaṁ jā pi mān qnak ta rok sruk nā vraḥh <g ref="sym:bullet-hollow" type="punctuation">.</g> Āya-
+   <lb n="S20"/>tva ta steñ prabhāba gus pre thve pūjā vraḥ kaṁmrateṅ Añ śivaliṅga Ā-
+   <lb n="S21"/>y rudrapada pravaini nu vraḥ phoṅ Āy rudrapada <g ref="sym:bullet-hollow" type="punctuation">.</g> nau roḥh kalpanā
+   <lb n="S22"/>nai yajamāna ta vraḥ kaṁmrateṅ Añ śivapāda gi pi thve toy gus
+   <lb n="S23"/>bhūmyākara dravya man steñ mahendrāṇī Oy ta vraḥ kaṁmrateṅ A-
+   <lb n="S24"/>ñ śivaliṅga <g ref="sym:bullet-hollow" type="punctuation">.</g> bhūmi nā sthāpanā tarāp gol sre laṅlaṅ krvac <g ref="sym:bullet-hollow" type="punctuation">.</g> sre
+   <lb n="S25"/>vrahmagarbha <g ref="sym:bullet-hollow" type="punctuation">.</g> sre vrai kapāla <g ref="sym:bullet-hollow" type="punctuation">.</g> khñuṁ gho qgat gho bhaktiya gho khloñ ge
+   <lb n="S26"/>gho kaṁpas <g ref="sym:bullet-hollow" type="punctuation">.</g> gho Aṁmr̥tta <g ref="sym:bullet-hollow" type="punctuation">.</g> gho vaṁṅā <g ref="sym:bullet-hollow" type="punctuation">.</g> gho raśmibhāva <g ref="sym:bullet-hollow" type="punctuation">.</g> gho vīra <g ref="sym:bullet-hollow" type="punctuation">.</g> gho pandan <g ref="sym:bullet-hollow" type="punctuation">.</g>
+   <lb n="S27"/>gho dīrgha <g ref="sym:bullet-hollow" type="punctuation">.</g> si kaṁvai <g ref="sym:bullet-hollow" type="punctuation">.</g> si laṁvi <g ref="sym:bullet-hollow" type="punctuation">.</g> si taṁvek <g ref="sym:bullet-hollow" type="punctuation">.</g> si bhīma <g ref="sym:bullet-hollow" type="punctuation">.</g> si kañjes <g ref="sym:bullet-hollow" type="punctuation">.</g> si pandan si
+   <lb n="S28"/>thgo <g ref="sym:bullet-hollow" type="punctuation">.</g> si kanqāt <g ref="sym:bullet-hollow" type="punctuation">.</g> si pavitra <g ref="sym:bullet-hollow" type="punctuation">.</g> si r̥ṣikeśa <g ref="sym:bullet-hollow" type="punctuation">.</g> si chke <g ref="sym:bullet-hollow" type="punctuation">.</g> si kaṁvis <g ref="sym:bullet-hollow" type="punctuation">.</g> si vala-
+   <lb n="S29"/>deva <g ref="sym:bullet-hollow" type="punctuation">.</g> si thke <g ref="sym:bullet-hollow" type="punctuation">.</g> si kanqān <g ref="sym:bullet-hollow" type="punctuation">.</g> si tuvau <g ref="sym:bullet-hollow" type="punctuation">.</g> si gandha <g ref="sym:bullet-hollow" type="punctuation">.</g> si thqyak <g ref="sym:bullet-hollow" type="punctuation">.</g> si saṁAp <g ref="sym:bullet-hollow" type="punctuation">.</g> si khmau <g ref="sym:bullet-hollow" type="punctuation">.</g>
+   <lb n="S30"/>si jīva <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kañjā <g ref="sym:bullet-hollow" type="punctuation">.</g> tai padmarāga <g ref="sym:bullet-hollow" type="punctuation">.</g> tai qvyak <g ref="sym:bullet-hollow" type="punctuation">.</g> tai vraḥ kalpa <g ref="sym:bullet-hollow" type="punctuation">.</g> kvan pau mvāy
+   <lb n="S31"/>tai panlas <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kaṁvi <g ref="sym:bullet-hollow" type="punctuation">.</g> tai ratnaśriy kvan pau mvāy <g ref="sym:bullet-hollow" type="punctuation">.</g> tai Aruṇa <g ref="sym:bullet-hollow" type="punctuation">.</g> tai saṁqap
+   <lb n="S32"/>kvan pau mvāy tai kaṁprvat kvan pau mvāy tai chpoṅ kvan rat mvāy pau
+   <lb n="S33"/>mvāy <g ref="sym:bullet-hollow" type="punctuation">.</g> tai saṁvyar <g ref="sym:bullet-hollow" type="punctuation">.</g> tai khju <g ref="sym:bullet-hollow" type="punctuation">.</g> tai yova <g ref="sym:bullet-hollow" type="punctuation">.</g> tai panheṁ <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kandeṅ <g ref="sym:bullet-hollow" type="punctuation">.</g> tai bhā-
+   <lb n="S34"/>va kvan pau mvāy <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kanqin <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kanqā kvan pau mvāy <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kansaṁ kvan pau
+   <lb n="S35"/>mvāy tai paroṅ tai kansun si kaṁvit si qupendra tai thmās tai kansān tai kaṁ-
+   <lb n="S36"/>vrāṁ <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kandic <g ref="sym:bullet-hollow" type="punctuation">.</g> tai parasa <g ref="sym:bullet-hollow" type="punctuation">.</g> si {10} tai kanqū tai kansān sot
+   <lb n="S37"/>tai khdvat kvan mvāy si Amr̥ta {14} tai thkep tai kañja-
+   <lb n="S38"/>n tai saṁqap {6}
+   <lb n="S39"/>{6}
+   </p>
+                   <p><milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern doorjamb</label>
+   <lb n="N1"/>mvāy <g ref="sym:bullet-hollow" type="punctuation">.</g> tai paroṅ <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kaṁvai <g ref="sym:bullet-hollow" type="punctuation">.</g> tai thgot <g ref="sym:bullet-hollow" type="punctuation">.</g> tai panlas <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kande-
+   <lb n="N2"/>ṅ <g ref="sym:bullet-hollow" type="punctuation">.</g> tai khñuṁ qji <g ref="sym:bullet-hollow" type="punctuation">.</g> tai vara <g ref="sym:bullet-hollow" type="punctuation">.</g> tai thmo ratna <g ref="sym:bullet-hollow" type="punctuation">.</g> tai khnap <g ref="sym:bullet-hollow" type="punctuation">.</g> tai thkep <g ref="sym:bullet-hollow" type="punctuation">.</g> tai manyā <g ref="sym:bullet-hollow" type="punctuation">.</g> {3}
+   <lb n="N3"/>k <g ref="sym:bullet-hollow" type="punctuation">.</g> gho krau <g ref="sym:bullet-hollow" type="punctuation">.</g> gho vidhivala <g ref="sym:bullet-hollow" type="punctuation">.</g> gho tuvau sot <g ref="sym:bullet-hollow" type="punctuation">.</g> gho rāma <g ref="sym:bullet-hollow" type="punctuation">.</g> gho thqyak <g ref="sym:bullet-hollow" type="punctuation">.</g> si dha-
+   <lb n="N4"/>rmma <g ref="sym:bullet-hollow" type="punctuation">.</g> si kanqā <g ref="sym:bullet-hollow" type="punctuation">.</g> si kañjun <g ref="sym:bullet-hollow" type="punctuation">.</g> si vrahma <g ref="sym:bullet-hollow" type="punctuation">.</g> tai chpoṅ sot <g ref="sym:bullet-hollow" type="punctuation">.</g> tai saṁqap <g ref="sym:bullet-hollow" type="punctuation">.</g> tai {1}
+   <lb n="N5"/>tai khju sot <g ref="sym:bullet-hollow" type="punctuation">.</g> tai krau <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kaṁprvat <g ref="sym:bullet-hollow" type="punctuation">.</g> kvan mvāy <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kanso <g ref="sym:bullet-hollow" type="punctuation">.</g> kvan pau mvā-
+   <lb n="N6"/>y <g ref="sym:bullet-hollow" type="punctuation">.</g> tai phaqok <g ref="sym:bullet-hollow" type="punctuation">.</g> tai jnau kvan pau vyar <g ref="sym:bullet-hollow" type="punctuation">.</g> tai snuṁ <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kapkep <g ref="sym:bullet-hollow" type="punctuation">.</g> tai laṅgāy kva-
+   <lb n="N7"/>n rat mvāy pau mvāy <g ref="sym:bullet-hollow" type="punctuation">.</g> tai phnos <g ref="sym:bullet-hollow" type="punctuation">.</g> kvan pau mvāy tai kandvac kvan pau mvā-
+   <lb n="N8"/>y <g ref="sym:bullet-hollow" type="punctuation">.</g> tai pandan <g ref="sym:bullet-hollow" type="punctuation">.</g> krapi 20 10 4 <g ref="sym:bullet-hollow" type="punctuation">.</g> thmur śata mvāy 20 10 <g ref="sym:bullet-hollow" type="punctuation">.</g> ratna <g ref="sym:bullet-hollow" type="punctuation">.</g> mās prāk svok
+   <lb n="N9"/>vaudī padigaḥ dravya phoṅ <g ref="sym:bullet-hollow" type="punctuation">.</g> nīy neḥ bhūmyākara nuv srey nuv khñuṁm <g ref="sym:bullet-hollow" type="punctuation">.</g> nuv
+   <lb n="N10"/>dravya phoṅṅ <g ref="sym:bullet-hollow" type="punctuation">.</g> man steñ mahendrāṇī Oy ta vraḥ kamrateṅ Añ śivali-
+   <lb n="N11"/>ṅga nuv vraḥ phoṅ Āy rudrapada <g ref="sym:bullet-hollow" type="punctuation">.</g> man paṅgaṁ thpvaṅ nivedana pi cāṁ caṁnāṁ ta
+   <lb n="N12"/>sadma vraḥ kaṁmrateṅ Añ śi[va]pāda <g ref="sym:bullet-hollow" type="punctuation">.</g> neḥ daiti leṅ bhūmyākara <g ref="sym:bullet-hollow" type="punctuation">.</g> daiti leṅ sre <g ref="sym:bullet-hollow" type="punctuation">.</g>
+   <lb n="N13"/>daiti leṅ khñuṁ <g ref="sym:bullet-hollow" type="punctuation">.</g> daiti dravya phoṅ man Oy ta kule <g ref="sym:bullet-hollow" type="punctuation">.</g> ta kvan <g ref="sym:bullet-hollow" type="punctuation">.</g> ta cau <g ref="sym:bullet-hollow" type="punctuation">.</g> nu qras
+   <lb n="N14"/><g ref="sym:bullet-hollow" type="punctuation">.</g> nu thve vraḥ rājakāryya phoṅ <g ref="sym:bullet-hollow" type="punctuation">.</g> neḥ khñuṁ nuv neḥ krapi neḥh syaṅ man steñ ma-
+   <lb n="N15"/>hendrāṇī duñ pi Oy ta vraḥ kaṁmrateṅ Añ śivaliṅga nu caṁnāṁ kaṁmrateṅ A-
+   <lb n="N16"/>ñ śi[va]pāda bhūmi ti jau ta loñ dan trāy paścima ti jau ta cak
+   <lb n="N17"/>svāy nu jeṅ sthalā phāṅ vrahmagarbha ti jau ta dhruvapura <g ref="sym:bullet-hollow" type="punctuation">.</g> sre laṅlaṅ
+   <lb n="N18"/>krvac ti jau ta loñ śivaviṇdu <g ref="sym:bullet-hollow" type="punctuation">.</g> sre vrai kapāla ti jau ta loñ
+   <lb n="N19"/>Astraśiva <g ref="sym:bullet-hollow" type="punctuation">.</g> sre caṁpak ti jau ta cak svāy <g ref="sym:bullet-hollow" type="punctuation">.</g> nu krapi dnyaṁ mvāy <g ref="sym:bullet-hollow" type="punctuation">.</g> sre thpe-
+   <lb n="N20"/>ṅ khvas ti jau ta loñ ke doṅ loṅ nu taṁmrya mvāy sre jlyak sot ti jau
+   <lb n="N21"/>ta cak svāy nu krapi mvāy <g ref="sym:bullet-hollow" type="punctuation">.</g> sre piṅ ti steṅ Añ Ācāryya qīśānavyāpi
+   <lb n="N22"/>Oy nā thve vrahmayajña <g ref="sym:bullet-hollow" type="punctuation">.</g> sre teṁ laclvac jeṅ jañ ti jau ta steñ {1}
+   <lb n="N23"/>nV neḥ dravya ta Aṁpal neḥh nu dravya ta daiti qval sot syaṅ jaṁnvan ste-
+   <lb n="N24"/>ñ mahendrāṇī nu khloñ vala ta Adhyāpaka ta kvan steñ mahendrāṇī
+   <lb n="N25"/>ta vraḥ kaṁmrateṅ Añ śivaliṅga ta vraḥ kaṁmrateṅ Añ ta viṣnu ta vraḥ kaṁ-
+   <lb n="N26"/>mrateṅ Añ bhagavatīy <g ref="sym:bullet-hollow" type="punctuation">.</g> pi paṅgaṁ thpvaṅ nivedana pi cāṁ caṁnāṁ ta vraḥ kaṁ-
+   <lb n="N27"/>mrateṅ Añ śivapāda <g ref="sym:bullet-hollow" type="punctuation">.</g> bhūmi nu khñuṁm man gotra Oy phnek steñ
+   <lb n="N28"/>mahendrāṇīy <g ref="sym:bullet-hollow" type="punctuation">.</g> Is ti steñ mahendrāṇī Oy ta kvan cau cau <g ref="sym:bullet-hollow" type="punctuation">.</g> thve
+   <lb n="N29"/>vraḥ rājakāryya nu qras <g ref="sym:bullet-hollow" type="punctuation">.</g> dai ti leṅ man Oy ta vraḥ kaṁmrateṅ Añ śi-
+   <lb n="N30"/>valiṅga nu caṁnāṁ kaṁmrateṅ Añ śivapāda syaṅ ta vvaṁ ti srasir ta praśasta
+   <lb n="N31"/>ruv ta gi sarsir ta praśasta phoṅ syaṅ ta dau ta kaṁmrateṅ Añ śiva-
+   <lb n="N32"/>liṅga nu vraḥ phoṅ Āy rudrapada nu caṁnāṁ kaṁmrateṅ Añ śivapāda gus <g ref="sym:bullet-hollow" type="punctuation">.</g> sre
+   <lb n="N33"/>var rmyat ti jau nu krāy rāga ta vāp śivavyāpi dhanvipura <g ref="sym:bullet-hollow" type="punctuation">.</g> sre toy paści-
+   <lb n="N34"/>ma ralam vakula ti jau ta vāp nos vnur Aṁpeṅ dhruvapura <g ref="sym:bullet-hollow" type="punctuation">.</g> jaṁnvan steñ
+   <lb n="N35"/>narāya qnak khloñ loñ haṅsa taṁmrvac kanmyaṅ paṁmre ta vraḥ kaṁmrateṅ A-
+   <lb n="N36"/>ñ śivaliṅga <g ref="sym:bullet-hollow" type="punctuation">.</g> tai tarka nau qnak ta vardheya neḥ pūjā vraḥ kaṁmrateṅ Añ śivaliṅga nu vraḥ
+   <lb n="N37"/>kaṁmrateṅ Añ ta viṣnu nu vraḥ kaṁmrateṅ Añ bhagavatī sārasvatīy nuv neḥ vraḥ ta mān kaṁluṅ prāṅgana neḥ
+   <lb n="N38"/>{3} qnak neḥ mān phala dharmma Ardhabhāga mān sandhi mān sukha toy kanmi Aṁvi Ihaloka dau lvaḥ paraloka
+   <lb n="N39"/>{6} yāvat candrāditya mān ley sv[e]y sukha nitya <g ref="sym:bullet-hollow" type="punctuation">.</g> nau qnak ta paṁpatt neḥ pūjā nai vraḥ kaṁmrateṅ Añ śi-
+                      <lb n="N40"/>[valiṅga nu] vraḥ kaṁmrateṅ Añ ta viṣnu nu vraḥ kaṁmrateṅ Añ bhagavatī sārasvatī <g ref="sym:bullet-hollow" type="punctuation">.</g> nau qnak ta lvac <g ref="sym:bullet-hollow" type="punctuation">.</g> ta sa[k] {3}
+                      <lb n="N41"/>{10} khñuṁ qnak {11} mās prāk laṅgau tek taṁmrek srū raṅko lṅo santek vraḥ vāsa[na]
+                      <lb n="N42"/>{10} [nai vraḥ kaṁmrateṅ Añ śivaliṅga nu vraḥ] kaṁmrateṅ Añ ta viṣnu nai vraḥ kaṁmrateṅ Añ
+                      <lb n="N43"/>[bhagavatī sārasvatī] {20} Aṁvi Ihaloka dau lvaḥh paraloka svey
+                      <lb n="N44"/>{35} [yāvat] candrāditya mān ley vvaṁ jā pi mān sukha {5}
+                      <lb n="N45"/>{28}n neḥ jaṁnvan loñ
+                      <lb n="N46"/>{45} steñ prabhāba kvan steñ
+</p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem>c</lem>
+                   <rdg source="bib:Coedes1953_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+ 	<p rend="stanza" n="1">Hommage à Śiva dont les ongles des pieds brillent d'un éclat issu de ... rougi par le feu des diadèmes placés sur les têtes des rois inclinés.</p> 
+             <p rend="stanza" n="2">Je rends à la saison propice hommage à Umā en qui Rudra trouve continuellement un plaisir céleste durable, au seul contact de la beauté de son corps agréable et charmant.</p>
+              <p n="S3-S8">En 8xx Śaka, deuxième jour de la lune décroissante de Bhādrapada, dimanche, Steñ Mahendrāṇī remit une requête à Steṅ Añ Ācārya Rudrā et à Mratāñ Śrī Raṇavikhyāta pour qu'ils présentent respectueusement à S. M. Rājendravarmadeva (cette requête), par laquelle il demande que le V. K. A. Śivaliṅga érigé au pays de Rudrapada, fondation pieuse de Steñ Mahendrāṇī, devienne une dépendance du dieu à Śivapāda oriental, et lui affecte une fourniture de 5 liḥ de riz décortiqué pour le sacrifice quotidien, avec un cuisinier pour cuire le sacrifice au temple (vnaṁ).</p>
+              <p n="S8-S22">Une ordonnance de Sa Majesté adressée à Kaṁsteṅ Añ Rājakula Mahāmantri, Steṅ Añ Ācārya Rudra et Mratāñ Śrī Raṇavikhyāta, les chargea de notifier cette ordonnance à Steñ Paramācārya, chef de sanctuaire de V. K. A. Śivapāda oriental. Sa Majesté ordonna de répartir la terre et tous les biens offerts par Steñ Mahendrāṇī à V. K. A. Śivaliṅga, à V.K.A. Viṣṇu et à V.K.A. Bhagavatī, et respectueusement présentés à Sa Majesté pour assurer des fournitures à V.K.A. Śivapada, de planter les bornes de cette terre, d'exécuter les clauses de la fondation conformément aux intentions du donateur : qu'elle ne soit pas livrée à l'autorité des membres et du chef du corps des pages, du chef du paddy, du khloñ cralo, du khloñ mukha, du chef des gāp jnvāl, qu'il n'y ait pas d'habitants qui soient expulsés du village, qu'il n'y ait pas de gens qui s'emparent des habitants, qu'il n'y ait pas de gens qui saisissent les biens, qu'il n'y ait pas de gens qui cherchent les pays dépendant du dieu ; c'est Steñ Prabhāva, exclusivement, qui a qualité pour faire célébrer le culte de V.K.A. Śivaliṅga à Rudrapada suivant les usages des dieux à Rudrapada. Quant à la fondation du donateur en faveur de V.K.A. Śivapada, ses clauses doivent être exécutées strictement.</p>
+              <p n="S23-S25">Biens fonciers avec leurs revenus et biens (mobiliers) offerts par Steñ Mahendrāṇī à V.K.A. śivaliṅga : la terre dépendant de la fondation, suivant les bornes ; la rizière Laṅlaṅ Krvac ; la rizière Brahmagarbha ; la rizière Vrai Kapāla ;</p>
+              <p n="S25-N8">les esclaves (suit une liste de 15 gho et environ 30 si et 60 lai avec leurs enfants) ;</p>
+              <p n="N8-N9">34 buffles, 130 bœufs, des joyaux, de l'or, de l'argent. des plateaux, vaudi, crachoirs, et (d'autres) biens.</p>
+              <p n="N9-N15">Ces biens fonciers, rizières, esclaves et biens (mobiliers), que Steñ Mahendrāṇī offre a V.K.A. Śivaliṅga et aux dieux a Rudrapada, et qu'il présente respectueusement à Sa Majesté pour assurer des fournitures à la demeure de V.K.A. Śivapāda, sont distincts des biens fonciers, distincts des rizières, distincts des esclaves, distincts des biens mobiliers qu'il donne à ses parents (kule), à ses enfants, à ses petits-enfants et qui servent à sa subsistance et à l'accomplissement du service royal. Ces esclaves et ces buffles ont été achetés par Steñ Mahendrāṇī pour être offerts à V.K.A. Śivaliṅga et assurer des fournitures à K.A. Śivapāda.</p>
+              <p n="N16-N22">Terres de (nom laissé en blanc) achetée à Loñ Dan, de Trāy occidental achetée à Cak Svāy, et de Jeṅ Sthalā Phāṅ Brahmagarbha achetée à Dhruvapura ; 
+                 Rizière Laṅlaṅ Krvac achetée à Lon Śivapindu ;
+Rizière Vrai Kapāla achetée à Loñ Astraśiva ;
+Rizière Caṁpak achetée à Cak Svāy au prix d'une paire de buffles ; 
+Rizière Thpeṅ Khvas achetée à Loñ Ke de Doṅloṅ au prix d'un éléphant ;
+Rizière Jlyak aussi achetée à Cak Svāy au prix d'un buffle ; 
+Rizière Piṅ donnée par Steṅ Aā Īśānavyāpi à l'occasion d'un Brahmayajña ;
+Rizière Teṁ Laclvac Jeṅ Jañ achetée à Steñ -n.</p>
+              <p n="N23-N27">Tous ces biens et aussi tous les autres biens sont donnés par Steñ Mahendrāṇī et le chef de population professeur, fils du Steñ Mahendrāṇī, à V.K.A. Śivaliṅga, V.K.A. Viṣṇu et V.K.A. Bhagavatī, pour être présentés au roi pour assurer des fournitures à V. K. A. Śivapāda.</p>
+              <p n="N27-N32">Les terres et les esclaves que son clan (gotra) donne en partage à Steñ Mahendrāṇī, tout cela que Steñ Mahendrāṇī donne à ses enfants et petits-enfants, et avec quoi ses petits-enfants accomplissent le service royal et assurent leur subsistance, est distinct de ce qu'il donne à V.K.A. Śivaliṅga et par quoi il assure les fournitures à K. A. Śivapāda, et n'est pas inscrit dans l'acte, comme sont inscrits dans l'acte ce qui est destiné à K.A. Śivaliṅga, aux dieux à Rudrapada, et au service des fournitures de K.A. Śivapāda exclusivement.</p>
+              <p n="N33-N36">Rizière de Var Rmyat achetée auprix de krāy rāga à Vāp Śivavyāpi de Dhanvipura ;
+Rizière à l'ouest de Ralam Vakula, achetée à Vāp Nos de Vnur Aṁpen (dans Dhruvapura) ;
+Don du Steñ Narāya, Anak Khloñ, et de Loṅ Haṅsa inspecteur des pages à V.K.A. Ṡivaliṅga : Tai Tarka.</p>
+              <p n="N36-N39">Les gens qui feront prospérer ce culte de V.K.A. śivaliṅga, de V.K.A. Viṣṇu, de V.K.A. Bhagavatī Sarasvatī, et des dieux qui se trouvent dans cette cour ..., ces gens-là bénéficieront de la moitié du fruit de cette œuvre, ils auront paix et bonheur selon leur désir, depuis ce monde jusque dans l'autre, ... aussi longtemps que dureront le soleil et la lune, et jouiront d'un bonheur éternel.</p>
+              <p n="N39-N44">Les gens qui ruineront ce culte de V.K.A. Śivaliṅga de V.K.A. Viṣṇu et de V.K.A. Sarasvatī, les gens qui voleront, qui déroberont ..... les esclaves, les gens ....... l'or, l'argent, le cuivre, le fer, le taṁmrek, le paddy, le riz, le sésame, les haricots, les vêtements sacrés ........ de V.K.A. Śivaliṅga, V.K.A. Viṣṇu et V.K.A. Bhagavatī Sarasvatī ....... depuis ce monde jusque dans l'autre ........ aussi longtemps que durera le soleil et la lune, n'auront pas de bonheur ....</p>
+              <p n="N45-N46">.... cette offrande de Loñ ..... Steñ Prabhāva, fils de Steñ ....</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1953_01"/><citedRange unit="page">126-132</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 775.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">126-132</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>

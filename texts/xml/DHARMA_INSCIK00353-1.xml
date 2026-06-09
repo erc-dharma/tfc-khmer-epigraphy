@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 353-1. Southern doorjamb of the southern sanctuary of Prasat Kantop, 10th century</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+              <!--  
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00353-1</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-06-09" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="1"/>= = = = namo yasya<space/></l>
+<l n="b">caturvvaktrāmvujaṁ vabhau<space/></l>
+<l n="c">catur = = ⏑ - - =<space/></l>
+<l n="d">= Cya viśva ⏑ so rhana</l>
+</lg>
+   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="2"/>= = = = ⏑ - - =<space/></l>
+<l n="b">pādaraktaṁ virājate<space/></l>
+<l n="c" enjamb="yes"> namrāmaraśiromauli<space/></l>
+<l n="d">raktaratnād iva cyutam</l>
+</lg>
+                   <p>
+                      <lb n="3"/>[jaṁnvan vraḥ pāda] kaṁmrateṅ Añ <g ref="sym:bullet-hollow" type="punctuation">.</g> ta bhagavatī kamrateṅ Añ <g ref="sym:bullet-hollow" type="punctuation">.</g> gho dirghāya <g ref="sym:bullet-hollow" type="punctuation">.</g> gho kansām <g ref="sym:bullet-hollow" type="punctuation">.</g> gho khde
+                      <lb n="4"/>6} [gho] kaṁvrau <g ref="sym:bullet-hollow" type="punctuation">.</g> gho kanso <g ref="sym:bullet-hollow" type="punctuation">.</g> gho kantvap <g ref="sym:bullet-hollow" type="punctuation">.</g> si kansat <g ref="sym:bullet-hollow" type="punctuation">.</g> si kandoṅ <g ref="sym:bullet-hollow" type="punctuation">.</g> si kansoṁ <g ref="sym:bullet-hollow" type="punctuation">.</g> si narāya
+                      <lb n="5"/>{8} tai vrahma <g ref="sym:bullet-hollow" type="punctuation">.</g> tai saquy <g ref="sym:bullet-hollow" type="punctuation">.</g> tai svasti kvan pau mvāy <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kañjan <g ref="sym:bullet-hollow" type="punctuation">.</g> tai khdvat <g ref="sym:bullet-hollow" type="punctuation">.</g> tai
+                      <lb n="6"/>{6} tai kanqin kvan pau mvāy <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kansa tai panlaḥ <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kandic <g ref="sym:bullet-hollow" type="punctuation">.</g> sre jeṅ stal
+                      <lb n="7"/>{7} caṁnāṁ <g ref="sym:bullet-hollow" type="punctuation">.</g> neḥ syaṅ ta dau ta bhagavatī kaṁmrateṅ Añ <g ref="sym:bullet-hollow" type="punctuation">.</g> neḥ sre piṅ sre
+                      <lb n="8"/>{4} cak svāy <g ref="sym:bullet-hollow" type="punctuation">.</g> man vāp gas dau lvāc krapi nā tāñ kaṁmrateṅ Añ kīrttilakṣmī
+                      <lb n="9"/>{8} [ca]k svāy pidana nā saṁlap qnak yok krapi teṁ viṅ <g ref="sym:bullet-hollow" type="punctuation">.</g> qnak dār krapi cheda
+                      <lb n="10"/>{8} krapi pi Oy mukha stvay sandigdha <g ref="sym:bullet-hollow" type="punctuation">.</g> qnak dār krapi sru vyar bhay lapp krapi ta vyar vāp
+                      <lb n="11"/>[ga]s {3} steñ nan Oy sru guṇa praṁpi bhay hoṅ dep soṅ sru bhay mvāy thlvaṅ tap
+                      <lb n="12"/>{5} sru ta bhay praṁmvāy thlvaṅ prām ley vāp [ga]s Oy sre piṅ lap ta gi sru ta 
+                      <lb n="13"/>[bha]y praṁmvāy thlvaṅ prām ley ta steñ nan gi {6} khloñ vala ta Adhyā-
+                      <lb n="14"/>paka jauv ta steñ nan nu svok ti steñ nan sanme ni {3} [s]r[e] noḥ nu khloñ vala
+                      <lb n="15"/>Addhyāpaka {1} vraḥ kaṁmrateṅ Añ śivaliṅga man khloñ va[la] Addhyāpaka thv[e] sre noḥ chnāṁ tap piy
+                      <lb n="16"/>gus man steñ nan slāp dep steṅ Añ Ācāryya qīśānavy[āpi] kathā man sre noḥ ti jau muḥhni
+                      <lb n="17"/>hoṅ nu krapiyy vyar ta cak svāy man ti stap vyava[hāra] {3} ti jau muhni vyat steṅ A-
+                      <lb n="18"/>ñ Ācāryya qīśānavyāpi yok sre siddhi dau ta steṅ A[ñ Ācāryya] qīśānavyāpi <g ref="sym:bullet-hollow" type="punctuation">.</g> man ste-
+                      <lb n="19"/>ñ nan slāp hoṅ gi sru ta bhay pramvāy thlvaṅ prām diḥ si[ddhi dau ta cak sv]āy gi svok diḥ si-
+                      <lb n="20"/>ddhi dau ta steñ nan gi sre diḥ siddhi dau ta steṅ Añ Ācā[ryya qīśānavyāpi] <g ref="sym:bullet-hollow" type="punctuation">.</g> man steṅ Añ Ācā-
+                      <lb n="21"/>ryya qīśānavyāpi <g ref="sym:bullet-hollow" type="punctuation">.</g> thve vrahmayajña dep khloñ vala Addh[yāpaka] {3} noḥ jā dakṣiṇā nā
+                      <lb n="22"/>thve vrahmayajña steṅ Añ Ācāryya qīśānavyāpi Oy {7} Āy piṅ jā dakṣi-
+                      <lb n="23"/>ṇā nā thve vrahmayajña ta khloñ vala ta Addhyāpaka {9} kh[l]oñ vala Addhyāpaka
+                      <lb n="24"/>Oy ta vraḥ kaṁmrateṅ Añ śivaliṅga <g ref="sym:bullet-hollow" type="punctuation">.</g> reḥ sre {10} kh[l]oñ vala Addhyāpaka jau
+                      <lb n="25"/>tac svāp nu krapiyy mvāy khmau <g ref="sym:bullet-hollow" type="punctuation">.</g> ta cak svāy {8} [vā]p vrām nu kule 
+                      <lb n="26"/>vāp gam phoṅ gi noḥ sre noḥ syaṅ man Oy ta vraḥ [kaṁmrateṅ A]ñ śivaliṅga nu vraḥ
+                      <lb n="27"/>kaṁmrateṅ Añ śivapāda <g ref="sym:bullet-hollow" type="punctuation">.</g> riy sre caṁkā {12} [j]au ta vāp vidyāśi-
+                      <lb n="28"/>va mūla cak svāy nuv kule vāp vidyāśiva nu krapi vyar {8} [O]y ta vraḥ kaṁmra-
+                      <lb n="29"/>teṅ Añ śivaliṅga nu vraḥ kaṁmrateṅ Añ śivapāda {8} steñ prabhāva
+                      <lb n="30"/>ta kvan steñ mahendrāṇī ta bhagavatī kaṁmrateṅ Añ {6} teṅ kvan mvāy
+                      <lb n="31"/>ti paścima vāyavya Aṁvi leṅ sthāpanā sre lvaḥ travāṅ {2} dau lvaḥ jeṅ {1}
+                      <lb n="32"/>viṅ Uttara prasap vraḥ phlu noḥ phoṅ syaṅ ti jau ta cak svāy nir̥tiy
+                      <lb n="33"/>vāyavya dakṣiṇāgne pūrvveśāna dau lvaḥ saṅvey śavada vrahmapada
+                      <lb n="34"/>prasa[p] vnur rāṅ viṅ lvaḥ chdiṅ {1}ñ neḥ bhūmi canvat ta roḥ neḥ ti tāñ steñ somābhavā ri {2}
+                      <lb n="35"/>devī ta vraḥ pāda stac dau parameśvara dār prasāda cat sruk duk kula saṁ-
+                      <lb n="36"/>vandhi ta gi
+                   </p>     
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1953_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+ 	<p rend="stanza" n="1">Hommage à (Brahmā) dont le lotus des quatre visages brille ...</p>
+              <p rend="stanza" n="2">(Hommage à) ..... dont l'éclat rouge des pieds brille, comme issu des rubis des diadèmes des immortels inclinés.</p>
+              <p n="3-6">Dons de Sa Majesté à Bhagavatī K.A. (suit une liste de 7 gho, 5 ou 6 si, et d'une douzaine de tai avec leurs enfants). Rizière Jeṅ Stal ... fournitures. CecI est attribué à Bhagavatī K.A.</p>
+              <p n="7-13">Cette rizière Piṅ, rizière ... Cak Svāy. Vāp Gas étant allé voler des buffles appartenant à Tāñ K.A. Kīrtilakṣmī ......... Cak Svāy molester ... tuer les gens, reprendre les buffles. Les gens réclamèrent les buffles, coupèrent ....... buffles pour donner ........... doute.
+Les gens réclamèrent 40 (mesures) de paddy en compensation des deux buffles. Vāp Gas ....... Steñ Nan, donna 160 (mesures) de paddy comme intérêt, puis remboursa 20 (mesures) et 10 thlvaṅ de paddy (à Steñ Nan). Quant aux 120 mesures et 5 thlvaṅ de paddy restant, Vāp Gas donna la rizière Piṅ en compensation des 120 (mesures) et 5 thlvaṅ de paddy restant, à Steñ Nan.</p>
+              <p n="13-20">C'est (cette rizière) que le chef de population, professeur, a achetée à Steñ Nan au prix d'un plateau équivalant (pour) Steñ Nan à ... cette rizière, et le chef de population professeur ... V.K.A. Śivaliṅga. Le chef de population professeur cultivait cette rizière depuis 13 ans lorsque Steñ Nan mourut. Alors Steṅ Añ Ācārya Īśānavyāpi dit que eette rizière avait été achetée ainsi au prix de deux buffles à Cak Svāy. L'audition du procès (prouva) qu'elle avait été bel et bien achetée ainsi. Steṅ Añ Ācārya Īśānavyāpi prit la rizière, le droit exclusif sur (celle-ci) fut attribué à Steṅ Añ Ācārya Īśānavyāpi. A la mort de Steñ Nan, les 120 mesures et 5 thlvaṅ de paddy étaient la propriété exclusive de Cak Svāy, le plateau était la propriété exclusive de Steñ Nan et la rizière était la propriété exclusive de Steṅ Añ Ācārya Īśānavyāpi.</p>
+              <p n="20-24">Steṅ Añ Ācārya Īśānavyāpi ayant fait un Brahmayajña, le chef de population, professeur, (demanda ?) cette (rizière) en honoraire lorsqu'il fit le Brahmayajña. Steṅ Añ Ācārya Īśānavyāpi donna (cette rizière) située à Piṅ comme honoraire au chef de population, professeur, lorsqu'il fit le Brahmayajña. Le chef de population, professeur, la donna à V.K.A. Śivaliṅga.</p>
+              <p n="24-28">La rizière ..... le chef de population, professeur, l'a achetée à Cak Svāy au prix d'un buffle noir ; à Cak Svāy ... Vāp Vrām et la famille de Vāp Gam. Ces rizières ont été données à V.K.A. Śivaliṅga et à V.K.A. Śivapāda.</p>
+              <p n="28-29">La rizière Caṁkā ... achetée à Vāp Vidyāśiva, chef (de la communauté) de Cak Svāy et à la famille de Vāp Vidyāśiva, au prix de 2 buffles (a été) donnée à V.K.A. Śivaliṅga et à V.K.A. Śivapāda.</p>
+              <p n="29-30">(Dons de) Steñ Prabhāva, fils de Steñ Mahendrāṇī à Bhagavatai K.A. .... Teṅ, avec un enfant.</p>
+              <p n="31-36">A l'ouest et au nord-ouest, depuis Leṅ Sthāpanā Sre jusqu'au bassin .... revenant jusqu'au bassin au pied de ... ; au nord, touchant ces chemins sacrés ; tout cela a été acheté à Cak Svāy ; au sud-ouest, au nord-ouest, au sud, au sud-est, à l'est, au nord-est, jusqu'à Saṅvey Śavada Vrahmapada, touchant Vnur Rāṅ, et revenant jusqu'à la rivière ... Ce domaine a été obtenu de la faveur royale par Tāñ Steñ Somābhāva ... reine du roi qui est allé à Parameśvara, pour fonder un village et y installer sa famille et ses alliés.</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1953_01"/><citedRange unit="page">133-136, 138-140</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 776.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">133-136, 138-140</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
