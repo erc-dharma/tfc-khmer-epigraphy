@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 250. Doorjambs of Damnak Sdac, 10th century</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00250</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-06-10" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+
+   <lg n="1" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="1"/><milestone unit="column" n="a"/>// mahāvarāhāhīna[r]ddha</l>
+<l n="b"><milestone unit="column" n="b"/>-danṣṭrāharatu vo hitam</l>
+<l n="c" enjamb="yes"><lb n="2"/><milestone unit="column" n="a"/>Antarhimāṅśuśubhrābhra</l>
+<l n="d"><milestone unit="column" n="b"/>-karadyutir ivodgatā //</l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="3"/><milestone unit="column" n="a"/>jayaty udadhiparyyaṅka</l>
+<l n="b"><milestone unit="column" n="b"/>-ratanidraś caturbhujaḥ</l>
+<l n="c"><lb n="4"/><milestone unit="column" n="a"/>Ātmodaravinidrasya</l>
+<l n="d"><milestone unit="column" n="b"/>padmasyeva vibhūtaye //</l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="5"/><milestone unit="column" n="a"/>bhūtyā vibhūṣitatanur</l>
+<l n="b"><milestone unit="column" n="b"/>bhbhavo stu vibhavāya vaḥ</l>
+<l n="c" enjamb="yes"><lb n="6"/><milestone unit="column" n="a"/>gaṅgāpatanasakṣaṇa</l>
+<l n="d"><milestone unit="column" n="b"/>-vidhor ivasamācitaḥ //</l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="7"/><milestone unit="column" n="a"/>rudranetrāgni - - =</l>
+<l n="b"><milestone unit="column" n="b"/>ruco rodrāś cakāsati</l>
+<l n="c"><lb n="8"/><milestone unit="column" n="a"/>kāntakantha ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>viddhvaṅsanaparā iva //</l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="9"/><milestone unit="column" n="a"/>tāmrapā ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= ra = = ⏑ - smitaḥ</l>
+<l n="c"><lb n="10"/><milestone unit="column" n="a"/>nirastāśeṣa - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= rmmā = = ⏑ - rasāt //</l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="11"/><milestone unit="column" n="a"/>namāmi lakṣmīṁ yā[ṁ] = . dhas</l>
+<l n="b"><milestone unit="column" n="b"/>sarantīm anyasaṁpadaḥ</l>
+<l n="c"><lb n="12"/><milestone unit="column" n="a"/>jitacandrām ⏑ itveva</l>
+<l n="d"><milestone unit="column" n="b"/>svīcakre madhusūdanaḥ //</l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="13"/><milestone unit="column" n="a"/>daśanā = ⏑ - veda</l>
+<l n="b"><milestone unit="column" n="b"/>-vādiviśvakr̥dānanāt</l>
+<l n="c"><lb n="14"/><milestone unit="column" n="a"/>ni = = = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>kṣuvdhāvdheś śrir ivaindavī //</l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="15"/><milestone unit="column" n="a"/>Ā[s]ī[t] = = ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>śironihitaśāsanaḥ</l>
+<l n="c"><lb n="16"/><milestone unit="column" n="a"/>śrī = = = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= rṣitāśesavāndhavaḥ</l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="17"/><milestone unit="column" n="a"/>la = = = ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ varddhaṇam</l>
+<l n="c"><lb n="18"/><milestone unit="column" n="a"/>kro = = = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ - m //</l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="19"/><milestone unit="column" n="a"/>Asu = = ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ =</l>
+<l n="c"><lb n="20"/><milestone unit="column" n="a"/>kenāpi = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ =</l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="21"/><milestone unit="column" n="a"/>nityapūrṇṇaṁ yaśo yasya</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ kr̥t</l>
+<l n="c"><lb n="22"/><milestone unit="column" n="a"/>Asaṁkhya = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ =</l>
+</lg>
+                   <lg n="12" met="anuṣṭubh">
+<l n="a"><lb n="23"/><milestone unit="column" n="a"/>nandita = ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = ddha ⏑ - svaraiḥ</l>
+<l n="c"><lb n="24"/><milestone unit="column" n="a"/>rāja - = = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = nāpi yadripuḥ</l>
+</lg>
+                   <lg n="13" met="anuṣṭubh">
+<l n="a"><lb n="25"/><milestone unit="column" n="a"/>lagna = = ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = vekṣya niraṇtaram</l>
+<l n="c"><lb n="26"/><milestone unit="column" n="a"/>kīrttiṁ kim = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = maṇya - ⏑ =</l>
+</lg>
+                   <lg n="14" met="anuṣṭubh">
+<l n="a"><lb n="27"/><milestone unit="column" n="a"/>matvā = . ātt ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ =</l>
+<l n="c"><lb n="28"/><milestone unit="column" n="a"/>yaneyasya ⏑ - ū =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ =</l>
+</lg>                 
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem>c</lem>
+                   <rdg source="bib:Coedes1951_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1951_01">
+ 	<p rend="stanza" n="1">Que le croc prospère et sans défaut du Grand Sanglier vous apporte le bien, comme la lumière issue de la vapeur blanche à l'intérieur de la lune.</p>
+              <p rend="stanza" n="2">La victoire est au dieu à quatre bras qui dort d'un sommeil (nidrā) paisible, couché sur l'océan, comme pour faire prospérer le lotus qui s'épanouit (vinidra) sur son ventre.</p>
+              <p rend="stanza" n="3">Que Bhava, au corps orné de cendre, vous soit propice, lui qui est chargé simultanément du poids de la lune et de la chute de la Gaṅgā.</p>
+              <p rend="stanza" n="4">L'éclat impétueux ... du feu de la colère de Rudra brille ... comme pour la destruction ... cou de son bien-aimé.</p>
+              <p rend="stanza" n="5"><gap reason="lost"/></p>
+              <p rend="stanza" n="6">Je salue Lakṣmī, abandonnant la destinée de l'ennemi .. victoirieuse de la lune ... et que (Viṣṇu) meurtrier de Madhu a faite sienne, comme si ...</p>
+              <p rend="stanza" n="7">De la bouche de Créateur de toutes choses, qui récite le Veda ... comme la beauté de la lune hors de l'océan agité (par le barattement).</p>
+              <p rend="stanza" n="8">Il y eut un roi Śrī ... dont l'ordre était posé sur la tête (des rois) ... qui avait ... tous ses parents.</p>
+              <p rend="stanza" n="9"><gap reason="lost"/></p>
+              <p rend="stanza" n="10"><gap reason="lost"/></p>
+              <p rend="stanza" n="11"><gap reason="lost"/></p>
+              <p rend="stanza" n="12"><gap reason="lost"/></p>
+              <p rend="stanza" n="13"><gap reason="lost"/></p>
+              <p rend="stanza" n="14"><gap reason="lost"/></p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1951_01"/><citedRange unit="page">100-101</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 463.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">100-101</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
