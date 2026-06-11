@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 400-2. Second inscription on stela from Bo Ika, 790 Śaka</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+              <!--  
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00400-2</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the pre-Angkorian period but the inscription has a date, 790 Śaka. It is a curious and rare example of graphic conservatism.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-06-11" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+<lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/>vahnicandrārkanetro yas</l>
+<l n="b">sarvvakāranasārakaḥ</l>
+<l n="c"><lb n="2"/>vr̥ṣadhvajo –is sūkṣmaś ca</l>
+<l n="d">name han tasya padrajaḥ <g ref="sym:circle-bullseye" type="punctuation">.</g></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="3"/>kamvudeśāntare tyakta</l>
+<l n="b">-sīmasaṁprāptavān asau</l>
+<l n="c"><lb n="4"/>Aṅśadeva Iti nāmnā</l>
+<l n="d">dhītiprājñaḥ kulopamaḥ <g ref="sym:circle-bullseye" type="punctuation">.</g></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="5"/>sarvvalakṣaṇasaṁpannaḥ</l>
+<l n="b">svātmānam aticintayan</l>
+<l n="c"><lb n="6"/>niṣkr̥tya vayaso rdheṇa</l>
+<l n="d">sarvvadravyena saṁstutaḥ <g ref="sym:circle-bullseye" type="punctuation">.</g></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="7"/>liṅgaṁ suvarnasaṁghātaṁ</l>
+<l n="b">surāsuraganais tu =</l>
+<l n="c"><lb n="8"/>[sva]rggajanitaṁ pu+=</l>
+<l n="d">= āmrātasya kalpitam <g ref="sym:circle-bullseye" type="punctuation">.</g></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="9"/>[vi]yadratnasvarāṅke smin</l>
+<l n="b">kāle tat sthāpayat tadā</l>
+<l n="c"><lb n="10"/>= = sadravināny eva</l>
+<l n="d">so smai prādāc ca bhaktitaḥ <g ref="sym:circle-bullseye" type="punctuation">.</g></l>
+</lg>
+                   <lg n="6" met="upajāti">
+<l n="a"><lb n="11"/>[utphu]llanetrasphuritānano yat</l>
+<l n="b">kaliḥ pracaṇḍa ⏑ ⏑ ṣaiti vr̥ttiḥ</l>
+<l n="c"><lb n="12"/>= - pi punyair vividhair vicitrais</l>
+<l n="d">tair aṅśadevasya vimānakalpaḥ <g ref="sym:circle-bullseye" type="punctuation">.</g></l>
+</lg>
+                   <p xml:lang="okz-Latn">
+   <lb n="13"/>[neḥ] gi ge qnak kamrateṅ añ ta 2 qnaṅga I
+                      <lb n="14"/>kañjip I cke śvetarakta kr̥s mr̥du mādhava I
+                      <lb n="15"/>kaṁpit laṅgāy śivatuṅga {1} pok dhanañjaya
+                      <lb n="16"/>cedā yuvatī manohara manoharī manova-
+                      <lb n="17"/>ddha madhūra samara Avalā surabhi <g ref="sym:doubleBar" type="punctuation">.</g>
+</p>     
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1954_02"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+ 	<p rend="stanza" n="1">Je salue la poussière des pieds de Celui dont les yeux sont le soleil, la lune et le feu, qui est rempli de tous les principes élémentaires, qui a pour étendard un taureau, ... subtil.</p>
+              <p rend="stanza" n="2">Ayant obtenu en dehors du Kambudeśa un domaine abandonné, celui qui a nom Aṅśadeva, à l'intelligence réfléchie, le meilleur des hommes de sa famille,</p>
+              <p rend="stanza" n="3">doué de toutes marques, songeant surtout à son propre ātman, ayant atteint la moitié de son âge, fut loué pour toutes ses richesses.</p>
+              <p rend="stanza" n="4">... un liṅga d'or massif, ... par les cohortes des Sura et des Asura, né dans le ciel ...</p>
+              <p rend="stanza" n="5">A l'époque marquée par les (7) notes de la gamme, les (9) joyaux et l'atmosphère (0), ... il érigea alors ce (liṅga) et donna pieusement des biens ... à ce (dieu).</p>
+              <p rend="stanza" n="6">Puis Kali, dont le comportement habituel ... terrible, a le visage illuminé par des yeux épanouis ... à cquse des diverses bonnes œuvres d'Aṅśadeva, il ressemble à un palais céleste.</p>
+              <p n="13-17">Voici les gens des deux Seigneurs (suit une liste de noms).</p>            
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">83-85</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 1366.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">83-85</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>

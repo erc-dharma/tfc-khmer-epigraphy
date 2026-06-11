@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 355. Doorjamb of Prasat Khnar, 10th century</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00355</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-06-10" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+<lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/>===-++=</l>
+<l n="b">==jala ivāṅśumān</l>
+<l n="c">bhedābhedhātmane tasmai</l>
+<l n="d">parameśāya no na<lb n="2"/>[maḥ //]</l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a">====-++yan</l>
+<l n="b">āntarvvāsitañ jagati</l>
+<l n="c">kalpānte kālavahnyarccir</l>
+<l n="d">vvījadāhabhayād iva //</l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="3"/>====-++=</l>
+<l n="b">====-vā karau</l>
+<l n="c" enjamb="yes">vyañjitau nijayogarddhi</l>
+<l n="d">-jyotiḥ puñjodgamāv iva //</l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a">vande vāgī<lb n="4"/>śvarī+=</l>
+<l n="b">====-+-jam</l>
+<l n="c" enjamb="yes">namrāmarendramūrddhaṇya</l>
+<l n="d">-māṇikyāsañjanād iva //</l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a">śrīmantaḥ kamvujendrā<lb n="5"/>=</l>
+<l n="b">====-+-=</l>
+<l n="c" enjamb="yes">tejaḥkāntikalākīrtti</l>
+<l n="d">-gāmbhīryyādivibhūṣaṇāḥ //</l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a">rājendraś śrīya<lb n="6"/>[śovarmmā]</l>
+<l n="b">[harṣavarmmā maho]jjvalaḥ</l>
+<l n="c" enjamb="yes">śrīśāna[varmmā tata]ś śrī</l>
+<l n="d">-jayavarmmā mahāyaśāḥ //</l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a">śrīharṣavarmmānr̥pa<lb n="7"/>[ti]</l>
+<l n="b">====-+-thā</l>
+<l n="c">rājendra[varmmā]+[su]=</l>
+<l n="d">yaśasvī jayināṁ varaḥ //</l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a">kriyāvad guṇavad yeṣāṁ</l>
+<l n="b">ma<lb n="8"/>===-+-=</l>
+<l n="c">====-++=</l>
+<l n="d">==kṣyā=-lakṣaṇam //</l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a">ruṣā kāmārinirdagdhāt</l>
+<l n="b">kāmāt kānti<lb n="9"/>-+-=</l>
+<l n="c">====-++=</l>
+<l n="d">yeṣām iva -+mr̥te //</l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a">==pādas sukhaṁ suptaḥ</l>
+<l n="b">pādapīthe hiraṇmaye</l>
+<l n="c">ta<lb n="10"/>===-++=</l>
+<l n="d">=ṣṭham alibhujāma = //</l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a">= santaṁ vīkṣya yallakṣmīṁ</l>
+<l n="b">saptasv aṅgeṣu vallabhām</l>
+<l n="c">tatsparddhinī <lb n="11"/>-++=</l>
+<l n="d">====-+-=</l>
+</lg>
+                   <lg n="12" met="anuṣṭubh">
+<l n="a">na vaktuṁ vākpatir yyamā</l>
+<l n="b">ma ===-+ guṇān</l>
+<l n="c">śavdarāśīn pratipadaṁ</l>
+<l n="d">kesa<lb n="12"/>==-+-=[//]</l>
+</lg>
+                   <lg n="13" met="anuṣṭubh">
+<l n="a">not</l>
+<l n="b">te jayām āsa dhīnidhiḥ</l>
+<l n="c">yo dhaumya=va pāṇdūnāṁ</l>
+<l n="d">rāghūṇām iva vāruṇiḥ //</l>
+</lg>
+                   <lg n="14" met="anuṣṭubh">
+<l n="a"><lb n="13"/>====-++=</l>
+<l n="b">===[ava]taṁsakaḥ</l>
+<l n="c">vāggaṅgāpāvitajagan</l>
+<l n="d">maheśvara Ivāparaḥ //</l>
+</lg>
+                   <lg n="15" met="anuṣṭubh">
+<l n="a">mūrddhābhiṣekam āpannaṁ</l>
+<l n="b"><lb n="14"/>====-+-=</l>
+<l n="c">====-+ uktau</l>
+<l n="d">yam anvagrāha yadguruḥ //</l>
+</lg>
+                   <lg n="16" met="anuṣṭubh">
+<l n="a">aṣṭaviṅśatidhā śaivī</l>
+<l n="b">pañcadhādhyātmanai<lb n="15"/>-=</l>
+<l n="c">====-++=</l>
+<l n="d">==sya kamale sthitā //</l>
+</lg>
+                   <lg n="17" met="anuṣṭubh">
+<l n="a">bhramitvā matimanthādrim</l>
+<l n="b">uddhr̥tyārtharasāmr̥tam</l>
+<l n="c">ya<lb n="16"/>===-++=</l>
+<l n="d">====- vivudhān //</l>
+</lg>
+                   <lg n="18" met="anuṣṭubh">
+<l n="a">guṇāntarajñas sumahān</l>
+<l n="b">satkāryyārambhabhāsvaraḥ</l>
+<l n="c">vivekī yo pi dhī<lb n="17"/>+=</l>
+<l n="d">====-++=[//]</l>
+</lg>
+                   <lg n="19" met="anuṣṭubh">
+<l n="a" enjamb="yes">====-+neka</l>
+<l n="b">-pravandham amalaṁ yaśaḥ</l>
+<l n="c">kṣetrajñatattvavad yasya</l>
+<l n="d">bhuvaneṣu prasāri<lb n="18"/>[tam //]</l>
+</lg>
+                   <lg n="20" met="anuṣṭubh">
+<l n="a">====-++=</l>
+<l n="b">====-yeṣu ca</l>
+<l n="c">rājājñā munivr̥ṇdeṣu</l>
+<l n="d">samaṁ yogeṣu dhāraṇā //</l>
+</lg>
+                   <lg n="21" met="anuṣṭubh">
+<l n="a">svabhāvo yasya<lb n="19"/>+=</l>
+<l n="b">====-+-=</l>
+<l n="c">====kṣamālādyaiḥ</l>
+<l n="d">paścād rājā tu pūjakaḥ //</l>
+</lg>
+                   <lg n="22" met="anuṣṭubh">
+<l n="a">hiraṇyarucinā te<lb n="20"/>[na]</l>
+<l n="b">====-+-=</l>
+<l n="c">====-+jñāna(?)</l>
+<l n="d">kr̥to yaṁ pustakāśramaḥ //</l>
+</lg>
+                   <lg n="23" met="anuṣṭubh">
+<l n="a">Adhyāpakādhyetr̥hitaiḥ</l>
+<l n="b"><lb n="21"/>====-+-=</l>
+<l n="c">====-[sar]vānāṁ</l>
+<l n="d">śastrānāṁ śastavuddhinā //</l>
+</lg>
+                   <lg n="24" met="anuṣṭubh">
+<l n="a">sarasvatīpadaja<lb n="22"/>=</l>
+<l n="b">====-++=</l>
+<l n="c">=rur ddeyaś ca tair(?) eva</l>
+<l n="d">haraye hārikarmmaṇe //</l>
+</lg>
+   <lg n="25" met="anuṣṭubh">
+<l n="a">Idaṁ<lb n="23"/>==-++=</l>
+<l n="b">=viphalaṁ yadānaghāḥ</l>
+<l n="c" enjamb="yes">==varmmitāvagraha</l>
+<l n="d">-śoṣi <lb n="24"/> ==-ānvitam //</l>
+</lg>   
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem>c</lem>
+                   <rdg source="bib:Coedes1911_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> 
+           <div type="translation" xml:lang="fra" source="bib:Coedes1911_01">
+ 	<p></p>
+           </div> -->
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1911_01"/><citedRange unit="page">405-406</citedRange></bibl>) without translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 778.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1911_01"/><citedRange unit="page">405-406</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
