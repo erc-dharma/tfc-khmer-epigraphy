@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 182-4. Southern doorpost of the western entrance of the eastern gopura of Prasat Chen, 10th century</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+              <!--  
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00182-4</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-06-13" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><!-- kuch: The line numbering is different from Chhom 2011's edition which counts from line 10 onwards. -->
+   <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="10"/>s[ru]k smā <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> gho <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> śrīya I t[ai] chp[oṅ] <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> lap thga[n] <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="17"/>[vraḥ śiva]liṅga I <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="18"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/> gho <gap reason="lost" extent="unknown" unit="character"/> kante(ṅ) [I] g[v]āl
+   <lb n="20"/><gap reason="lost" extent="unknown" unit="character"/> lvan saṁA[p] <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="21"/>tai prāṇa I tai <gap reason="lost" extent="unknown" unit="character"/> tai [ka]ñjan I (tai) kaṁpat
+   <lb n="22"/>tai kaṇde[ṅ] <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="23"/>tai ka<gap reason="lost" extent="unknown" unit="character"/> tai <gap reason="lost" extent="unknown" unit="character"/> [tai] kans[o] I tai pau taṅk[u] I tai [ga]n[dha] I tai
+   <lb n="24"/>rat <gap reason="lost" extent="unknown" unit="character"/> [tai] (ka)ñcan I tai kanhyaṅ I tai ga-
+   <lb n="25"/>ndha sot I si rat <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="26"/>phsaṁ 20 <gap reason="lost" extent="unknown" unit="character"/> <g ref="sym:circle-bullseye" type="punctuation">.</g> <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="27"/><gap reason="lost" extent="unknown" unit="character"/> rat I <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="28"/>y[o]gidā[ya] <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="29"/>lvan <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="30"/>gho <gap reason="lost" extent="unknown" unit="character"/> [la]-
+   <lb n="31"/>p panla[s] <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="32"/>te[ṅ] Añ <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="33"/>[kaṁ]v[r]aḥ <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="34"/><gap reason="lost" extent="unknown" unit="character"/> lvan <gap reason="lost" extent="unknown" unit="character"/> sruk yale [śi]-
+   <lb n="35"/>[va]liṅga I gh[o] <gap reason="lost" extent="unknown" unit="character"/> I gho śrī [dhara] I gho [pa]ns[o]
+   <lb n="36"/>lvan vaṁṅā I gvāl lvan <gap reason="lost" extent="unknown" unit="character"/> I tai rat I <gap reason="lost" extent="unknown" unit="character"/> I tai [sa]khānī
+   <lb n="37"/>tai [th]kyā p I tai phno[s] I tai <gap reason="lost" extent="unknown" unit="character"/> tai kandhi I tai kaṁvr[au I] tai <gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="38"/><gap reason="lost" extent="unknown" unit="character"/> I gho <gap reason="lost" extent="unknown" unit="character"/> yaj I gvāl lvan prā[ṇa] (I) gvāl lvan kandā I tai [A gha] <!-- kuch: [A gha-] in Chhom 2011. -->
+   <lb n="39"/>tai Utpala I tai kaṁvai tai <gap reason="lost" extent="unknown" unit="character"/> I tai <gap reason="lost" extent="unknown" unit="character"/> I tai kaṁpit sot I tai kañ[c]ū I
+   <lb n="40"/>phsaṁ 20 4 <supplied reason="lost"><g ref="sym:bullet-hollow" type="punctuation">.</g></supplied> vraḥ śi[va]li[ṅga] <gap reason="lost" extent="unknown" unit="character"/> (so)t I tai kaṁ{1} [I] tai ph(n)os I
+   <lb n="41"/><gap reason="lost" extent="unknown" unit="character"/>
+</p>     
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Jacques2014_01"></rdg>
+                   </app></listApp>  
+         </div> -->
+           <div type="translation" source="bib:Chhom2011_01">
+ 	<p n="1-26"><supplied reason="explanation">List oflaborers from a village the name ofwhich starts with Sma_.There are gho, lap, and tai accompanied by their children. Line 8 mentions a śivaliṅga.</supplied></p>
+              <p n="26-34"><supplied reason="explanation">List of laborers from another village.</supplied></p>
+              <p n="34-41"><supplied reason="explanation">List of laborers from the village of Yale Sivalinga. Line 31 gives a total number of the servants as 24.</supplied></p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>First edited by Kunthea Chhom (<bibl rend="omitname"><ptr target="bib:Chhom2011_01"/><citedRange unit="page">51-52</citedRange></bibl>) with English translation. Re-edited in French by Claude Jacques without translation (<bibl rend="omitname"><ptr target="bib:Jacques2014_01"/><citedRange unit="page">269-270</citedRange></bibl>). Re-edited again in French by Eric Bourdonneau et al. (nd, unpublished).</p>
+	 <listBibl type="primary">
+             <bibl n="KC">
+             <ptr target="bib:Chhom2011_01"/>
+             <citedRange unit="page">51-52</citedRange>
+                 </bibl>
+             <bibl n="CJ">
+             <ptr target="bib:Jacques2014_01"/>
+             <citedRange unit="page">269-270</citedRange>
+                     </bibl>
+             </listBibl>
+           <listBibl type="secondary">
+             <bibl n="GC">
+      <ptr target="bib:Coedes1937_02"/><citedRange unit="page">55-56</citedRange>
+    </bibl>
+              </listBibl>
+                </div>
+        </body>
+    </text>
+</TEI>
