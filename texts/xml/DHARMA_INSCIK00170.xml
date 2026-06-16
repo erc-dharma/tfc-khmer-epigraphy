@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 170. Doorjamb of Prasat Prap Tus, 11th century</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00170</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-06-16" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+                   <lg n="1" met="anuṣṭubh">
+                        <l n="a"><lb n="1"/>[nama]s tryakṣāya ne(t)rā(g)ner</l> 
+                        <l n="b">dda(śa)di(g)dāha +- =</l>
+                     <l n="c">= = = = -++ =</l> 
+                     <l n="d">= = = = -+-  =</l> 
+                     </lg>
+                   <lg n="2" met="anuṣṭubh">
+                        <l n="a"><lb n="2"/>= = = = -+tiCś cete</l> 
+                        <l n="b">(n)iveśya jaga +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="3" met="anuṣṭubh">
+                        <l n="a"><lb n="3"/>= = ty ajo jagatsr̥(ṣ)ṭau</l> 
+                        <l n="b">= = iśeśva +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="4" met="anuṣṭubh">
+                        <l n="a"><lb n="4"/>= = vagīśvarī śaktis</l> 
+                        <l n="b">triṣaṣṭyakṣa -+-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="5" met="anuṣṭubh">
+                        <l n="a" enjamb="yes"><lb n="5"/>[na]maś śrīkanthavaikuntha</l> 
+                        <l n="b">-caturvvaktrāṅghri +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="6" met="anuṣṭubh">
+                        <l n="a" enjamb="yes"><lb n="6"/>=sid asa(ṁ)khyarājanya</l> 
+                        <l n="b">vanditāṅghrisa +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="7" met="anuṣṭubh">
+                        <l n="a"><lb n="7"/>[ka]lāvaty udite yasmi</l> 
+                        <l n="b">suditaṁ dvija +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="8" met="anuṣṭubh">
+                        <l n="a"><lb n="8"/>= śapikr̥tarājanyaḥ</l> 
+                        <l n="b">karadīkr̥tadi -=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="9" met="anuṣṭubh">
+                        <l n="a"><lb n="9"/>[U]dāttā guṇinas sarvve</l> 
+                        <l n="b">te nudāttāś ca +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="10" met="anuṣṭubh">
+                        <l n="a"><lb n="10"/>= makaṁ yas tapomūlyāṁ</l> 
+                        <l n="b">= = ś cyavañ c -+-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="11" met="anuṣṭubh">
+                        <l n="a"><lb n="11"/>[vra]hmāndaṁ vrahmabhinnaṁ [prāk]</l> 
+                        <l n="b">yasya draṣṭuṁ hi +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="12" met="anuṣṭubh">
+                        <l n="a"><lb n="12"/>= istrīṇāṁ pure śatror</l> 
+                        <l n="b">vvilāpaṁ pary -+-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="13" met="anuṣṭubh">
+                        <l n="a"><lb n="13"/>= kavalaṁ yaśobhir yaḥ</l> 
+                        <l n="b">p(ū)rayitvā ma +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="14" met="anuṣṭubh">
+                        <l n="a"><lb n="14"/>= syācāryyaś śratiślāghyo</l> 
+                        <l n="b">jagadbhītaguṇe -=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="15" met="anuṣṭubh">
+                        <l n="a"><lb n="15"/>= tyā śuddho 'pi yaddehaś</l> 
+                        <l n="b">śratijñānena +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="16" met="anuṣṭubh">
+                        <l n="a"><lb n="16"/>= tividyākalāyogyaś</l> 
+                        <l n="b">śrīyogīśvara[paṇḍitaḥ]</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="17" met="anuṣṭubh">
+                        <l n="a"><lb n="17"/>= = satyavatītulyā</l> 
+                        <l n="b">parāśarasa +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="18" met="anuṣṭubh">
+                        <l n="a"><lb n="18"/>= sya mātāmahaś śrīmān</l> 
+                        <l n="b">rājñīśrīpara +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="19" met="anuṣṭubh">
+                        <l n="a"><lb n="19"/>= sya mātāmahaś śrīmān</l> 
+                        <l n="b">rājñīśrīpara +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="20" met="anuṣṭubh">
+                        <l n="a"><lb n="20"/>= = lā yasya saṅkīrttaḥ</l> 
+                        <l n="b">sa śrīvallabha +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="21" met="anuṣṭubh">
+                        <l n="a"><lb n="21"/>= satyavallabho yasya</l> 
+                        <l n="b">saundaryyo nr̥ -+-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="22" met="anuṣṭubh">
+                        <l n="a"><lb n="22"/>= srīyo yasya dharmmātmā</l> 
+                        <l n="b">śrīkṣitīndr = -+-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="23" met="anuṣṭubh">
+                        <l n="a"><lb n="23"/>[śā]st(r)āmbhodhiṣu kaṣṭeṣu</l> 
+                        <l n="b">śaivavyāka[raṇādiṣu]</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="24" met="anuṣṭubh">
+                        <l n="a"><lb n="24"/>[na]r[e]ndravallabhaś śrīmān</l> 
+                        <l n="b">svasrīyo = -+-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="25" met="anuṣṭubh">
+                        <l n="a"><lb n="25"/>[na]r[e]ndrapanditaś śrīmān</l> 
+                        <l n="b">śrīyogīśva[ra] +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>
+                   <lg n="26" met="anuṣṭubh">
+                        <l n="a"><lb n="26"/>= = kr̥tasakeśaikyaṁ</l> 
+                        <l n="b">śivaliṅgaṁ tri +-=</l>
+                     <l n="c">= = = = -++=</l> 
+                     <l n="d">= = = = -+-=</l> 
+                     </lg>       
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1953_01">canhvā</rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Barth1885_01">
+              <p rend="stanza" n="1">[Adoration] à celui qui a trois yeux, qui du feu de son regard est capable de consumer les dix régions de l'espace ...</p>
+<p rend="stanza" n="2">...</p>
+<p rend="stanza" n="3">Aja, qui ... à la création du monde ...</p>
+<p rend="stanza" n="4">... Vāgīśvarī, sa Śakti ... aux trente-six syllabes ...</p>
+<p rend="stanza" n="5">[Adoration] à ... des pieds de Śrīkaṇṭha, de Vaikuṇṭha et du (dieu) à quatre visages ...</p>
+<p rend="stanza" n="6">[Il fut un roi] dont le ... des pieds était célébré par l'innombrables rājanyas ...</p>
+<p rend="stanza" n="7">Cette pleine lune s'étant levée, bien levé (aussi fut) le ... des brāhmanes ...</p>
+<p rend="stanza" n="8">Ayant préposé des rājanyas à la garde de son [trésor], ayant rendu tributaires les ... des régions, ...</p>
+<p rend="stanza" n="9">Les nobles étaient tous distingués par leurs bonnes qualités, et les non nobles ...</p>
+<p rend="stanza" n="10">...</p>
+<p rend="stanza" n="11">... pour voir l'œuf de Brahmā percé jadis par Brahmā ...</p>
+<p rend="stanza" n="12">Dans la ville de son adversaire, les lamentations des femmes de l'ennemi ...</p>
+<p rend="stanza" n="13">ayant rempli de sa gloire [non] seulement ...</p>
+<p rend="stanza" n="14">Son précepteur, vénérable par sa science des Védas, ayant la crainte de ce monde (périssable) ...</p>
+<p rend="stanza" n="15">Bien que son corps soit purifié par ... par la science des vedas ...</p>
+<p rend="stanza" n="16">(Egalement) distingué par sa [conduite], son savoir et ses talents, Śrī Yogīśvara[paṇḍita] ...</p>
+<p rend="stanza" n="17">Semblable à ... Satyavatī, [l'épouse] de Parāśara ...</p>
+<p rend="stanza" n="18">Le grand-père maternel de celui-ci, le glorieux Śrī Para[meśvara] ... la reine.</p>
+<p rend="stanza" n="19">(Répétition de l. 18.)</p>
+<p rend="stanza" n="20">Ce favori de Śrī, à la gloire [sans tache] ...</p>
+<p rend="stanza" n="21">Ce fidèle favori, en la beauté duquel le roi ...</p>
+<p rend="stanza" n="22">Le fils de la sœur, le pieux ... du maître de la terre.</p>
+<p rend="stanza" n="23">Dans les océans si difficiles des śāstras, ... la grammaire de Śiva ...</p>
+<p rend="stanza" n="24">Le favori du roi, le glorieux fils de sa sœur ...</p>
+<p rend="stanza" n="25">Le paṇḍita du roi, le gloieux Śrī Yogīśvara ... </p>
+<p rend="stanza" n="26">... un liṅga de Śiva ne formant qu'un avec Keśa ...</p>              
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Auguste Barth (<bibl rend="omitname"><ptr target="bib:Barth1885_01"/><citedRange unit="page">117-122</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 983.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="AB">
+      <ptr target="bib:Barth1885_01"/><citedRange unit="page">117-122</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
