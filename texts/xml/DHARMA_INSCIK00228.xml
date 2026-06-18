@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 228. Stela from Neak Ta Cih Ko, 11th century</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+            <!--    
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00228</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-06-18" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+<lg n="1" met="upajāti"><milestone type="pagelike" unit="face" n="A"/><label xml:lang="eng">Face A</label>
+<l n="a" enjamb="yes"><lb n="A1"/>[na]māmy umājānim ajāmvujākṣa</l>
+<l n="b">-pārśvastham āsvasthyaharan narāṇām</l>
+<l n="c"><lb n="A2"/>++- vau yaḥ prathayan svakāryyaṁ</l>
+<l n="d">tatsādhane nv induviṣe vibhartti <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="2" met="upajāti">
+<l n="a" enjamb="yes"><lb n="A3"/>[na]mantu mandadyutimaulim indu</l>
+<l n="b">-khandan dadhe śr̥ṅgavaraṁ varāṅge</l>
+<l n="c"><lb n="A4"/>Aṅge nu bhasmāpi sito vr̥ṣo me</l>
+<l n="d">śr̥ṅgīti yo ṅgīkr̥tavān vr̥ṣābhām <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="3" met="upajāti">
+<l n="a"><lb n="A5"/>śrījāninājīyata yan trilokī</l>
+<l n="b">lokaikadhāmātmasamānakāntim</l>
+<l n="c"><lb n="A6"/>nūnaṁ vinamrā svayam īkṣamānā</l>
+<l n="d">vilaṅghanenāpi vinā sakāmā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="4" met="upajāti">
+<l n="a"><lb n="A7"/>jitaṁ vidhātrā yad ayuktarūpaṁ</l>
+<l n="b">vinirmmitaṁ sarvvam atīva yo nu</l>
+<l n="c"><lb n="A8"/>tat sādhutārthī vidadhad vivekan</l>
+<l n="d">na kampate dyāpi kileva yogāt <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="5" met="upajāti">
+<l n="a"><lb n="A9"/>niruddhayogāmaratāṁ karoti</l>
+<l n="b">yāṁ yā harārddhāṅgadharā tayeva</l>
+<l n="c"><lb n="A10"/>śaptābhimukhyekṣaṇasaukhyahīnā</l>
+<l n="d">svayaṁ śivaṁ vo vahatād umā sā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="6" met="upajāti">
+<l n="a" enjamb="yes"><lb n="A11"/>namaddhvam adrīndrasutāṁ bhujaṅga</l>
+<l n="b">-bhugaṅkam āvibhratam agraśaktim</l>
+<l n="c"><lb n="A12"/>yāsūta sākṣād iva darśayantī</l>
+<l n="d">śaktiprasūtin nijasaṅgam aṅgam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="7" met="indravajrā">
+<l n="a"><lb n="A13"/>Uccaiśśiroropitapādalakṣmīr</l>
+<l n="b">lakṣmīndradordvandvavilāvanīndraḥ</l>
+<l n="c"><lb n="A14"/>śrīsūryyavarmmāritamisrasūryyaḥ</l>
+<l n="d">sūryyamvujojjr̥mbhanarocir āsīt <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="8" met="upajāti"><milestone type="pagelike" unit="face" n="B"/><label xml:lang="eng">Face B</label>
+<l n="a"><lb n="B1"/>Avītadhīr yyo 'pi patiḥ prajānāṁ</l>
+<l n="b">surūpadr̥gvān parameśvaro 'pi</l>
+<l n="c"><lb n="B2"/>bhāsvāñ jagatsūditavān sadāpi</l>
+<l n="d">tārādhirājo 'pi suniṣkalaṅkaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="9" met="upajāti">
+<l n="a"><lb n="B3"/>vaśīkr̥tair yyo vivudhair anekair</l>
+<l n="b">guṇair yyathendro vidhr̥tāṅghripadmaḥ</l>
+<l n="c"><lb n="B4"/>rājā sujātiśrutiśauryyaśālī</l>
+<l n="d">śīlānvitas taptasuvarṇṇavarṇṇaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="10" met="upajāti">
+<l n="a" enjamb="yes"><lb n="B5"/>Āḍhyīkriyāyāviralīkr̥tāti</l>
+<l n="b">-priyārthivarggo pi vadanyabhāvaḥ</l>
+<l n="c"><lb n="B6"/>tathaiva yasya priyatām upeto</l>
+<l n="d">niratyayaṁ prāha guṇapriyatvam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="11" met="upajāti">
+<l n="a"><lb n="B7"/>ya eka eva prathitaḥ pr̥thivyām</l>
+<l n="b">etāvatā kāntiguṇena kāmaḥ</l>
+<l n="c"><lb n="B8"/>loke tadā yat suciraṁ sakārśyā</l>
+<l n="d">ratis supuṣpā sa patir mmameti <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="12" met="indravajrā">
+<l n="a"><lb n="B9"/>senāpatiś śaktidharo dharāyā</l>
+<l n="b">nāthasya senānya Iva dyubhartuḥ</l>
+<l n="c"><lb n="B10"/>tasyājiṣaṇḍārigajādhidāne</l>
+<l n="d">siṅhehitaś śrīnr̥pasiṅhavarmā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="13" met="indravajrā">
+<l n="a"><lb n="B11"/>vīryyasya vuddher mahaso guṇasya</l>
+<l n="b">dharmmasya kīrtyā vinayasya kāntyāḥ</l>
+<l n="c" enjamb="yes"><lb n="B12"/>teṣāṁ samāsaktavatāṁ mahattva</l>
+<l n="d">bhāraṁ yavīyān api yo nyavāhīt <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="14" met="indravajrā">
+<l n="a"><lb n="B13"/>sarvvatra dattāni nayena yasya</l>
+<l n="b">manye vadanyasya dhanāni nityam</l>
+<l n="c"><lb n="B14"/>Āditsamāneva punas samānā</l>
+<l n="d">cārupriyā dikṣu cacāra kīrttiḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="15" met="indravajrā">
+<l n="a"><lb n="B15"/>Āpoṣitād ātmakalābhir āpa</l>
+<l n="b">dolāṁ suvarṇṇāṅkitavarṇṇaśobhām</l>
+<l n="c"><lb n="B16"/>yo raikaraṅkādiyutāṁ irendrād</l>
+<l n="d">āpūrṇṇatāṁ bhānumataś śaśīva <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="16" met="indravajrā">
+<l n="a" enjamb="yes"><lb n="B17"/>graiveyanāmādipuraṁ purāṇa</l>
+<l n="b">-santānavr̥ndasya sunaddhabhakteḥ</l>
+<l n="c" enjamb="yes"><lb n="B18"/>nityaṁ yadīyasya pinākapāni</l>
+<l n="d">-pādāravinde sti śivādhvarāḍhyam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="17" met="upajāti">
+<l n="a"><lb n="B19"/>yasyādito vyādhapurāgravanV</l>
+<l n="b">++-+to nijamātr̥vaṅśaḥ</l>
+<l n="c"><lb n="B20"/>rājyena vac +--+-+sya</l>
+<l n="d">sa cā- varṇṇottamatāṁ prapede <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="18" met="upajāti">
+<l n="a"><lb n="B21"/>devarccanāgārav[i]dutvam eva</l>
+<l n="b">svakāryyasaṁpādanasādhunāma</l>
+<l n="c"><lb n="B22"/>śrīsūryyavarmmāvanipālarājye</l>
+<l n="d">kulaṁ kulīnaṁ labhate yadīyam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="19" met="upajāti">
+<l n="a"><lb n="B23"/>trāṁdāhajherlāṁpurarāṅkrasākhyaṁ</l>
+<l n="b">pvārkhluṅpuran nāma mahīdharordhvam</l>
+<l n="c"><lb n="B24"/>phsothpalaṁvilnāma ca yatpurāṇi</l>
+<l n="d">puraṁ gaqāṅjroṅ iti santi sapta <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="20" met="upajāti">
+<l n="a" enjamb="yes"><lb n="B25"/>kanrācpuran dvipapurañ ca nīpa</l>
+<l n="b">puran trisam̃khyāni purāṇi santi</l>
+<l n="c"><lb n="B26"/>yasyādripāde pitr̥kārunāma</l>
+<l n="d">pāde maror ekapurañ ca yasya <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="21" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="B27"/>śrīvīrendrādhipatyādi</l>
+<l n="b">-varmmāntan nāma yo dadhat</l>
+<l n="c">śrīsūryyavarmmasenānī</l>
+<l n="d">raṇe śūra Ivarjuṇaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="22" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="B28"/>yaś śauryyatyāgadhīkīrtti</l>
+<l n="b">-vinayādiguṇojjvalaḥ</l>
+<l n="c" enjamb="yes">syālaś śrīnr̥pasiṅhādi</l>
+<l n="d">-varmmāntābhikhyamantriṇaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="23" met="anuṣṭubh">
+<l n="a"><lb n="B29"/>tasya yadbhāgiṇeyau yau</l>
+<l n="b">vr̥haspatisadāśivau</l>
+<l n="c">nāmnānukalpitau puttrau</l>
+<l n="d">vandhūnām iva cakṣuṣī <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1953_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+ 	<p rend="stanza" n="1">Je salue l'époux d'Umā qui se tient à côté de l'Incréé (Brahmā) et du dieu aux yeux de lotus (Viṣṇu), qui écarte le malheur des hommes, ... et qui, révélant son propre dessein, porte la lune et le poison (kālakūṭa) pour le réaliser.</p>
+              <p rend="stanza" n="2">Salut à (Śiva) qui a pour diadème (la lune) au doux éclat ; bien qu'il ait posé sur sa tête cette corne parfaite qu'est le croissant de la lune, et qu'il ait enduit son corps de cendre tout en pensant: "c'est mon taureau qui est blanc et cornu", il a incarné l'aspect du taureau.</p>
+              <p rend="stanza" n="3">Victorieux est l'époux de Śrī : la triade des mondes, voyant que sa beauté était identique à l'ātman ayant l'univers pour unique demeure, consentit aussitôt à s'incliner d'elle-même devant lui, sans qu'il ait eu à faire sa conquête.</p>
+              <p rend="stanza" n="4">Victorieux est le Créateur. Comme s'il avait pensé que tout ce qu'il avait façonné était impropre, désirant le bien (de sa création) et ayant créé le discernement, il ne tremble certes plus depuis lors, grâce à l'union (avec ce qui est bien).</p>
+              <p rend="stanza" n="5">Puisse Umā vous mener elle-même à la béatitude [ou : à Śiva], elle qui, portant la moitié du corps de Hara, a été privée du bonheur de le contempler en face, par suite de la malédiction de celle à qui elle avait donné l'immortalité destructrice des liens.</p>
+              <p rend="stanza" n="6">Honorez (Umā) la fille du roi des monts qui a enfanté (Skanda) ayant pour signe le (paon) mangeur de serpents, et tenant l'épée (śakti) acérée, comme si elle manifestait aux yeux un corps qui fût son désir inné ét le produit de sa puissance (śakti).</p>
+              <p rend="stanza" n="7">Il y eut (un roi), Śrī Sūryavarman, maître de la terre dans l'année marquée par les (9) ouvertures, la paire (= 2), et les (4) bras de l'époux de Lakṣmī, dont les pieds fortunés étaient placés sur la tète des grands, qui était un soleil pour l'obscurité des ennemis, et dont l'éclat faisait ouvrir ces lotus que sont les sages.</p>
+              <p rend="stanza" n="8">Bien qu'il fût le maître de ses sujets [ou : Prajāpati = Brahmā], il n'était pas dépourvu de sagesse (avītadhī); bien qu'il fût un maître suprême [ou : Parameśvara = Śiva], il avait un bel aspect (surūpadr̥k); bien qu'il fût un héros [ou : le soleil], il était constamment levé sur le monde ; bien qu'il fût un roi brillant [ou : le roi des étoiles = la lune], il était sans tache.</p>
+              <p rend="stanza" n="9">Comme Indra, ce roi avait les lotus de ses pieds portés par les sages que fascinaient ses multiples qualités, il était plein de noblesse, de science, d'héroïsme, il était doué de vertu et avait la couleur de l'or fondu.</p>
+              <p rend="stanza" n="10">Douée d'affection à tel point qu'elle avait dispersé en les rendant riches, la foule des solliciteurs qui lui était très chère, la libéralité a proclamé sans faute son amour de la vertu.</p>
+              <p rend="stanza" n="11">Seul sur la terre, il était reconnu comme Kāma à cause de sa beauté douée d'une telle vertu que pour longtemps, dans le monde, RaU aux belles fleurs, amaigrie (dit) : "Voici mon époux".</p>
+              <p rend="stanza" n="12">Ce sauveur de la terre eut un chef d'armée, telle général du maître du ciel (Skanda), porteur de lance ayant le désir du lion pour la sécrétion frontale des éléphants ennemis dans la forêt de la bataille, (nommé) Śrī Nr̥pasiṁhavarman.</p>
+              <p rend="stanza" n="13">Héroïsme, sagesse, puissance, vertu, dharma, gloire, conduite, beauté ; de ces (qualités) attachées à lui, il porta, bien qu'il fût plus jeune, le fardeau de la grandeur.</p>
+              <p rend="stanza" n="14">C'est comme par désir de reprendre les biens donnés perpétuellement partout par ce roi généreux, que sa Renommée, semblable à une femme charmante, se répandit dans les points cardinaux.</p>
+              <p rend="stanza" n="15">Du roi [ou : du maître de la nourriture = la lune] nourri de ses sciences [ou : de ses kalā], il a obtenu un palanquin ayant l'éclat coloré de l'or, accompagné de richesses, coupes en forme de crâne, etc., comme la lune (obtient) du soleil la plénitude (de son éclat).</p>
+              <p rend="stanza" n="16">Par suite de la ferme dévotion que la foule de gens de son ancienne lignée professait pour les lotus des pieds de (Śiva) tenant un arc dans sa main, ils (possédèrent) à perpétuité la ville originelle portant le nom de Graiveya, riche en sacrifice à Śiva.</p>
+              <p rend="stanza" n="17">Au commencement, son ... de Vyādhapura, .... de sa propre famille maternelle .... par le règne .... obtint la suprématie dans la caste des ...</p>
+              <p rend="stanza" n="18">Sous le règne du roi Śrī Sūryavarman, sa noble famille gagna un bon renom dans l'accomplissement de sa tâche, et même ... de la salle du culte des dieux.</p>
+              <p rend="stanza" n="19">Ses villes (pura) sont au nombre de sept sur la montagne : Traṁ Dāha, Jhe Rlaṁ, Rāṅ Kras, Pvār Khluṅ, Phso, Thpal Aṁvil, Gaāṅ Jroṅ.</p>
+              <p rend="stanza" n="20">Ses villes au nombre de trois : Kanrāc, Dvipapura, Nīpapura sont au pied de la montagne, et une nommée Pitr̥kāru, au pied du désert.</p>
+              <p rend="stanza" n="21">Celui qui portait un nom commençant par Śrī Vīrendrādhipati- et terminé par -varman, chef d'armée de ŚrI Sūryavarman, héros dans la bataille tel Arjuna,</p>
+              <p rend="stanza" n="22">brillant par ses vertus : héroïsme, libéralité, intelligence, renommée, conduite, etc., beau-frère du conseiller portant un nom commençant par Śrī Nr̥pasiṁha- et terminé par -varman,</p>
+              <p rend="stanza" n="23">eut deux fils, neveux de ce (dernier) nommé Vr̥haspati et Sadāśiva, tels les deux yeux de leur famille.</p>
+         </div> 
+           <div type="commentary">
+           <p>This inscription is related to <ref target="DHARMA_INSCIK00229.xml">K. 229</ref>.</p>
+         </div>
+           <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1953_01"/><citedRange unit="page">238-243</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage BNF 33.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">238-243</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
