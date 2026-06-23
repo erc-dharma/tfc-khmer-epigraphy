@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 701. Stela from Prasat Kamnap (Yaśodharāśrama stela), 9th-10th century</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName>
+                  <forename></forename>
+                  <surname></surname>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00701</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the ninth-tenth century CE. The text was written in Siddhamatr̥kā script.  
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-06-23" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+                   <lg n="1" met="vasantatilakā"><milestone type="pagelike" unit="face" n="A"/><label xml:lang="eng">Face A</label>
+<l n="a"><lb n="A1"/>prāk kevalo pi bhagavān rataye tridhā yo</l>
+<l n="b">bhinnaś caturmmukhacaturbhujaśambhumūrttiḥ</l>
+<l n="c"><lb n="A2"/>prārambha eva bhuvanasya punar yyugānte</l>
+<l n="d">kaivalyam eti ca śivāya namo 'stu tasmai <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="2" met="vasantatilakā">
+<l n="a"><lb n="A3"/>vande ravindaripumaṇditakeśavr̥ṇdaṁ</l>
+<l n="b">bhaktyāravindadr̥śam apy aravindayonim</l>
+<l n="c"><lb n="A4"/>namrāmarendraditijendraśikhandabandha</l>
+<l n="d">-maṇdāraṣaṇdamakaraṇdasugandhitāṅghrim <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+<lg n="3" met="vasantatilakā">
+<l n="a"><lb n="A5"/>Āsīd aninditapureśvaravaṅśajātaś</l>
+<l n="b">śrīpuṣkarākṣa Iti śambhupurāptarājyaḥ</l>
+<l n="c"><lb n="A6"/>rājño mahendragirimūrddhakr̥tāspadasya</l>
+<l n="d">mātuḥ sthiras samiti mātulamātulo yaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+<lg n="4" met="upajāti">
+<l n="a" enjamb="yes"><lb n="A7"/>tadvaṅśajo vyādhapurādhirāja</l>
+<l n="b">-santānasaṁpāditamātr̥vaṅśaḥ</l>
+<l n="c"><lb n="A8"/>rājendravarmmeti guṇaikarāśir</l>
+<l n="d">avāpa yaś śambhupure 'pi rājyam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+  <lg n="5" met="vasantatilakā">
+<l n="a"><lb n="A9"/>tasyākalaṅkatuhināṅśuviśuddhakīrtteḥ</l>
+<l n="b">putro babhūva nr̥patir nr̥patīndradevyām</l>
+<l n="c"><lb n="A10"/>yo dr̥ptaśatrubhujagendrabhujaṅgaśatrur</l>
+<l n="d">yyodhāgranīr yyudhi mahīpativarmmanāmā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg> 
+<lg n="6" met="upajāti">
+<l n="a"><lb n="A11"/>Atha dvijo gastya Iti pratīto</l>
+<l n="b">yo vedavedāṅgavid āryyadeśe</l>
+<l n="c"><lb n="A12"/>labdhodayo yā mahiṣīddhavaṅśā</l>
+<l n="d">yaśomatīti prathitā yaśobhiḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+<lg n="7" met="upendravajrā">
+<l n="a" enjamb="yes"><lb n="A13"/>sutas tayor yyo yudhi durmmadaś śrī</l>
+<l n="b">-narendravarmmeti narendravaryyaḥ</l>
+<l n="c"><lb n="A14"/>mahīpates tasya suteva lakshmīr</l>
+<l n="d">nnarendralakshmīr iti yā babhūva <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+<lg n="8" met="vasantatilakā">
+<l n="a"><lb n="A15"/>tasyām aridviradarājamr̥gādhipena</l>
+<l n="b">janyeṣu rājapativarmmanarādhipena</l>
+<l n="c"><lb n="A16"/>rājendradevy amaragarbhanibhodapādi</l>
+<l n="d">yā diṅmukhāvalivikīrṇṇaviśuddhakīrttiḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+  <lg n="9" met="vasantatilakā">
+<l n="a" enjamb="yes"><lb n="A17"/>tasyām ajījanad anekanarendrasiṅha</l>
+<l n="b">-vaṅśodayāya sa mahīpativarmmadevaḥ</l>
+<l n="c"><lb n="A18"/>devīm anuttamavapuśśriyam indradevīṁ</l>
+<l n="d">dugdhābdhidhautayaśasan tapatīm ivārkkaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg> 
+<lg n="10" met="upajāti">
+<l n="a" enjamb="yes"><lb n="A19"/>Athābhavat tasya mahendraśaila</l>
+<l n="b">-kr̥tasthiteś śrījayavarmmanāmnaḥ</l>
+<l n="c"><lb n="A20"/>narendravr̥ṇdārakavanditāṅghres</l>
+<l n="d">sūryyadyotis sūnur anūnavīryyaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+<lg n="11" met="upajāti">
+<l n="a"><lb n="A21"/>mahīpatiś śrījayavarddhano yo</l>
+<l n="b">garbheśvaraś śrījayavarddhanākhyaḥ</l>
+<l n="c"><lb n="A22"/>rājyasthitaś śrījayavarmmanāmā</l>
+<l n="d">mahāmahīpālaśirodhr̥tāṅghriḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+<lg n="12" met="upajāti">
+<l n="a"><lb n="A23"/>tasyādhirājo jananījananyā</l>
+<l n="b">jaghanyajo jayyaparākramo yaḥ</l>
+<l n="c"><lb n="A24"/>rudraikacitto raṇaraudrakarmmā</l>
+<l n="d">śrīrudravarmmeti viśuddhadharmmā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+  <lg n="13" met="upajāti">
+<l n="a"><lb n="A25"/>tadbhāgineyo guṇaratnasindhur</l>
+<l n="b">vvasundharādohavidagdhabuddhiḥ</l>
+<l n="c"><lb n="A26"/>pr̥thūpamo yaḥ pr̥thivīndravandyaḥ</l>
+<l n="d">pr̥thvīpatiś śrīpr̥thivīndravarmmā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg> 
+<lg n="14" met="indravajrā">
+<l n="a"><lb n="A27"/>rājanyavaṅśāmbaracandralekhā</l>
+<l n="b">śrīrudravarmmāvanipālakanyā</l>
+<l n="c" enjamb="yes"><lb n="A28"/>rājñī satī śrīnr̥patīndravarmma</l>
+<l n="d">-putryās sutā yā surasundarīva <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+<lg n="15" met="upajāti">
+<l n="a"><lb n="A29"/>tayoḥ kumāro rikarīndrasiṅho</l>
+<l n="b">nr̥siṅhavandyo narasiṅhadr̥ptaḥ</l>
+<l n="c"><lb n="A30"/>gāṁ diṅmukhapreṅkhadakhaṇdakīrttir</l>
+<l n="d">yyaś śrīndravarmmā sakalāṁ babhāra <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+<lg n="16" met="upajāti">
+<l n="a"><lb n="A31"/>śilāmaye veśmani liṅgam aiśaṁ</l>
+<l n="b">śrīndreśvarābhikhyam atiṣṭhipad yaḥ</l>
+<l n="c"><lb n="A32"/>Īśasya devyāś ca samaṁ ṣad arccaś</l>
+<l n="d">cakhāna ca śrīndrataṭākam agryam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+  <lg n="17" met="mandākrāntā">
+<l n="a"><lb n="A33"/>tenaitasyām avanipatinā śrīndradevyāṁ mahiṣyāṁ</l>
+<l n="b">niśśeṣaśāvitatayaśasā tejasām ekarāśiḥ</l>
+<l n="c"><lb n="A34"/>bhūbhr̥tputryām iva purabhidotpāditaḥ kārttikeyaś</l>
+<l n="d">śaktiṁ bibhrad ripukulabhidaṁ śrīyaśovarmmadevaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   
+                   <lg n="18" met="anuṣṭubh">
+<l n="a"><lb n="A35"/>padmonnatis tamassraṣṭam</l>
+<l n="b">anyatejo layaṅ gatam</l>
+<l n="c"><lb n="A36"/>lagnaḥ kakubhi rāgaś ca</l>
+<l n="d">ya[sya] ==r ivodaye <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="19" met="anuṣṭubh">
+<l n="a"><lb n="A37"/>bhagnarājadrumakrīdV</l>
+<l n="b">====-+-=</l>
+<l n="c"><lb n="A38"/>dvijihvadamanaṁ yasya</l>
+<l n="d">====-+-= <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="20" met="anuṣṭubh">
+<l n="a"><lb n="A39"/>kiñ cid unmuktavālye yo</l>
+<l n="b">====-+-=</l>
+<l n="c"><lb n="A40"/>babhau gabhastimālīva</l>
+<l n="d">bhūrināticirodV -= <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="21" met="anuṣṭubh">
+<l n="a"><lb n="A41"/>saṅkrāntaṁ yanmukhe jñanam</l>
+<l n="b">ekavācā guror mmukhāt</l>
+<l n="c"><lb n="A42"/>suṣumnayāṅśumadvimbād</l>
+<l n="d">indravimba Ivāmr̥tam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="22" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="A43"/>yas snigdhasādhutākr̥ṣṭa</l>
+<l n="b">-śikṣitabhir ivādarāt</l>
+<l n="c"><lb n="A44"/>sakalābhiḥ kalālībhir</l>
+<l n="d">anukūlābhirāśritaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="23" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="A45"/>samastasaṁhitāsindhu</l>
+<l n="b">-samuttāraśramād iva</l>
+<l n="c"><lb n="A46"/>viśaśrāma matir yyasya</l>
+<l n="d">pare rudrāṅghrirocasi <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="24" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="A47"/>khaṇḍayām āsa kandarppa</l>
+<l n="b">-darppaṁ sphurati yauvane</l>
+<l n="c" enjamb="yes"><lb n="A48"/>yas snigdhasvāṅgasaubhāgya</l>
+<l n="d">-sasyutā ruṣitād iva <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="25" met="anuṣṭubh">
+<l n="a"><lb n="A49"/>mukhadhāmni sudhādigdham</l>
+<l n="b">iti snigdhamanā Iva</l>
+<l n="c"><lb n="A50"/>hr̥tvā sūnr̥tasarvvasvaṁ</l>
+<l n="d">tasthau yasya sarasvati <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="26" met="anuṣṭubh">
+<l n="a"><lb n="A51"/>yena saujanyabaddhena</l>
+<l n="b">kr̥śo 'pi na vilaṅghitaḥ</l>
+<l n="c"><lb n="A52"/>baddhā guṇās tu kenāpi</l>
+<l n="d">vr̥ddhabhūpātilaṅghinaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="27" met="anuṣṭubh">
+<l n="a"><lb n="A53"/>pūjyaṁ puṇyabhujāṁ rājyaṁ</l>
+<l n="b">dr̥ptavatV -+ rV naḥ</l>
+<l n="c"><lb n="A54"/>prītena guruṇā sattaṁ</l>
+<l n="d">====-+-de <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="28" met="anuṣṭubh"><milestone type="pagelike" unit="face" n="B"/><label xml:lang="eng">Face B</label>
+<l n="a"><lb n="B1"/>yasya vakṣaḥ kṣamaṁ lakṣmīḥ</l>
+<l n="b">kṣaṇaṁ kṣeptuṁ na cakṣame</l>
+<l n="c" enjamb="yes"><lb n="B2"/>vāmanapramukhākāra</l>
+<l n="d">-virāgād iva śārṅgiṇaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="29" met="anuṣṭubh">
+<l n="a"><lb n="B3"/>kāmo maṅgaḥ punas sāṅga</l>
+<l n="b">Ity adbhutamudeva yaḥ</l>
+<l n="c" enjamb="yes"><lb n="B4"/>vāhinīpatyalaṅkāra</l>
+<l n="d">-makaraiś cumvitaḥ pade <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="30" met="anuṣṭubh">
+<l n="a"><lb n="B5"/>mūrddhnā dadhāra yasyājñāṁ</l>
+<l n="b">durmmado 'pi narādhipaḥ</l>
+<l n="c"><lb n="B6"/>velāṁ lolormmimālo 'pi</l>
+<l n="d">normmimālī hi laṅghayet <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="31" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="B7"/>yaś śauryyasaṁpadādhāra</l>
+<l n="b">-bhāsuras surarād iva</l>
+<l n="c"><lb n="B8"/>dhātrā kenāpi kāmena</l>
+<l n="d">sākṣādgām avatāritaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="32" met="anuṣṭubh">
+<l n="a"><lb n="B9"/>śaktividyāguṇopāyair</l>
+<l n="b">yyaś caturbhir alaṅkr̥taḥ</l>
+<l n="c"><lb n="B10"/>vaktrair iva caturvvaktro</l>
+<l n="d">bhujair iva caturbhujaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="33" met="anuṣṭubh">
+<l n="a"><lb n="B11"/>dviṣi krūro 'py amarṣo</l>
+<l n="b">'pi śuro 'pi valavān api</l>
+<l n="c"><lb n="B12"/>yaḥ prajñāvr̥ṁhitāṁ śaktiṁ</l>
+<l n="d">na jahau mr̥garād iva <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="34" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="B13"/>dānārdritā punar dhūli</l>
+<l n="b">-dhūsarā yasya yāyinaḥ</l>
+<l n="c"><lb n="B14"/>vasudhāsahyavīryyeva</l>
+<l n="d">svinnaśuṣkā muhur mmuhuḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="35" met="anuṣṭubh">
+<l n="a"><lb n="B15"/>vipradguruṁ drutakr̥pāṁ</l>
+<l n="b">patadduryyodhanāṁ yudham</l>
+<l n="c"><lb n="B16"/>yo darśayad ivātanvan</l>
+<l n="d">punar bhāratavigraham <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="36" met="anuṣṭubh">
+<l n="a"><lb n="B17"/>pratāpo yasya durdharṣan</l>
+<l n="b">dviṭpratāpam aśīśamat</l>
+<l n="c"><lb n="B18"/>Aho navam idaṁ loke</l>
+<l n="d">dagdho vahnir yyad agninā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="37" met="anuṣṭubh">
+<l n="a"><lb n="B19"/>na dadhyur addhvare yasya</l>
+<l n="b">vāsaṁ svaṁ svarggavāsinaḥ</l>
+<l n="c"><lb n="B20"/>sarvve satatam āhūtāḥ</l>
+<l n="d">suptāḥ somamadād iva <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="38" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="B21"/>Ākīrṇṇārṇṇavagambhīra</l>
+<l n="b">-dānaṁ yatra va yacchati</l>
+<l n="c"><lb n="B22"/>nimagnaśaṅkayevāsa</l>
+<l n="d">yātam uccaiḥpadañ jagat <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="39" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="B23"/>yasyāpi hārahāsāṅśu</l>
+<l n="b">-hāriṇā yaśasā babhau</l>
+<l n="c" enjamb="yes"><lb n="B24"/>magnasaktasphuratpheṇa</l>
+<l n="d">-maṇdalīva vasundharā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="40" met="anuṣṭubh">
+<l n="a"><lb n="B25"/>yo dadhānai rasotkarṣaṁ</l>
+<l n="b">visarppadbhir itas tataḥ</l>
+<l n="c"><lb n="B26"/>cārair iva sahasrāṅśur</l>
+<l n="d">aṅśubhiś śuddhamaṇdalaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="41" met="anuṣṭubh">
+<l n="a"><lb n="B27"/>sūtadhātrī yathārthāsa</l>
+<l n="b">patyau yatra yadādadhe</l>
+<l n="c"><lb n="B28"/>sravatā payasā kāle</l>
+<l n="d">prajāḥ pīnapayodharāt <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="42" met="anuṣṭubh">
+<l n="a"><lb n="B29"/>suvyaktaṁ vadanaṁ yasya</l>
+<l n="b">nopamārhaṁ saroruhā</l>
+<l n="c"><lb n="B30"/>jitam abjaṁ hi candreṇa</l>
+<l n="d">candras tena tu nirjjitaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="43" met="anuṣṭubh">
+<l n="a"><lb n="B31"/>prasāritakaraḥ kartuṁ</l>
+<l n="b">prajānāṁ vāṣpamārjjanam</l>
+<l n="c"><lb n="B32"/>yaḥ prasādayitājasraṁ</l>
+<l n="d">saviteva piteva ca <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="44" met="anuṣṭubh">
+<l n="a"><lb n="B33"/>cicchedātimahāntaṁ yas</l>
+<l n="b">triguṇan daṇḍam āyasam</l>
+<l n="c"><lb n="B34"/>dr̥ḍhabandhaṁ pradhānābhaṁ</l>
+<l n="d">bandhadhvaṅsavicakṣaṇaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="45" met="anuṣṭubh">
+<l n="a"><lb n="B35"/>arjjunasyārjjunāṅ kīrttiṁ</l>
+<l n="b">savyasācitayā citām</l>
+<l n="c"><lb n="B36"/>ramaṇīyaḥ parastrīṣu</l>
+<l n="d">nikṣāmaḥ katham apy agāt <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="46" met="anuṣṭubh">
+<l n="a"><lb n="B37"/>yaśodharataṭākākhyaṁ</l>
+<l n="b">yas taṭākam amānuṣam</l>
+<l n="c" enjamb="yes"><lb n="B38"/>cakāra sarvvabhūpāla</l>
+<l n="d">-mānān iva nimajjayan <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="47" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="B39"/>viśuddhadr̥ṣṭikalyāna</l>
+<l n="b">-mukhyadharmmānusāriṇā</l>
+<l n="c"><lb n="B40"/>sadāpi viṣamā yena</l>
+<l n="d">sugamā rājapaddhatiḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="48" met="anuṣṭubh">
+<l n="a"><lb n="B41"/>yena ramyajuṣā sāpi</l>
+<l n="b">sāditā sārasasvanaiḥ</l>
+<l n="c" enjamb="yes"><lb n="B42"/>kāñcijhanajhanatkāra</l>
+<l n="d">-dhāriṇī nagarī dviṣāṁ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="49" met="anuṣṭubh">
+<l n="a"><lb n="B43"/>candraprabhā vayasyā me</l>
+<l n="b">kiyad dūre cared iti</l>
+<l n="c"><lb n="B44"/>yasya tīrṇṇārṇṇavā kīrttis</l>
+<l n="d">tattvalokamanā Iva <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="50" met="anuṣṭubh">
+<l n="a"><lb n="B45"/>yam ekaṁ sūrir astauṣīt</l>
+<l n="b">sahasreṣu mahībhujām</l>
+<l n="c"><lb n="B46"/>R̥kṣe kṣipati kaś cakṣur</l>
+<l n="d">vvīkṣya candran navoditam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="51" met="anuṣṭubh">
+<l n="a"><lb n="B47"/>śrīyaśovarmmaṇā tena</l>
+<l n="b">dadhatā dhāma vaiṣṇavam</l>
+<l n="c"><lb n="B48"/>vaiṣṇavānnātisarggāya</l>
+<l n="d">kr̥to yaṁ vaiṣṇavāśramaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="52" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="B49"/>śāsanaṁ śrīyaśovarmma</l>
+<l n="b">-rājasyedam ihāśrame</l>
+<l n="c"><lb n="B50"/>kulādhyakṣena karttavyaṅ</l>
+<l n="d">kr̥tsnaiḥ karmmakarair iti <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="53" met="anuṣṭubh">
+<l n="a"><lb n="B51"/>vidaddhyād āśramasyāsya</l>
+<l n="b">parivarddhanasaṁpadam</l>
+<l n="c"><lb n="B52"/>Uttarottarasaṁvr̥ddhām̃s</l>
+<l n="d">tajjanān api pālayet <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="54" met="anuṣṭubh">
+<l n="a"><lb n="B53"/>Atithīn mānayed yatnād</l>
+<l n="b">ātithyāni ca varddhayet</l>
+<l n="c"><lb n="B54"/>Atither mmananāt kr̥tyam</l>
+<l n="d">adhikaṁ sthāninān na hi <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+    <lg n="55" met="anuṣṭubh"><milestone type="pagelike" unit="face" n="C"/><label xml:lang="eng">Face C</label>
+<l n="a"><lb n="C1"/>Athāvanīndra evātra</l>
+<l n="b">sāvarodho 'pi vā gataḥ</l>
+<l n="c"><lb n="C2"/>taṁ yathāśramasaṁpattyā</l>
+<l n="d">yatnais suravad arccayet <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="56" met="anuṣṭubh">
+<l n="a"><lb n="C3"/>sa hi viśvambharādhīśas</l>
+<l n="b">sarvvalokagurus smr̥taḥ</l>
+<l n="c"><lb n="C4"/>yad iṣṭan tasya tat kuryyād</l>
+<l n="d">vyāsagītam idaṁ yathā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="57" met="anuṣṭubh">
+<l n="a"><lb n="C5"/>sarvvalokaguruñ caiva</l>
+<l n="b">rājānaṁ yo 'timanyate</l>
+<l n="c"><lb n="C6"/>na tasya dattan na kr̥tan</l>
+<l n="d">na śraddhaṁ phalati kva cit <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="58" met="anuṣṭubh">
+<l n="a"><lb n="C7"/>Atha dvijo dhikaṁ pūjyaḥ</l>
+<l n="b">parebhyo vahavo yadi</l>
+<l n="c" enjamb="yes"><lb n="C8"/>prāptās te kramaśaś śīla</l>
+<l n="d">-guṇavidyāviśeṣataḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="59" met="anuṣṭubh">
+<l n="a"><lb n="C9"/>rājaputraś ca mantrī ca</l>
+<l n="b">valādhyakṣaś ca sajjanaḥ</l>
+<l n="c"><lb n="C10"/>te sarvve pūjanīyās syur</l>
+<l n="d">ānupūrvvyā prayatnataḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="60" met="anuṣṭubh">
+<l n="a"><lb n="C11"/>mānyo viśeṣataś śūro</l>
+<l n="b">raṇe dr̥ṣṭaparākramaḥ</l>
+<l n="c"><lb n="C12"/>raṇārthī tv araṇārthibhyo</l>
+<l n="d">dharmmarakṣā hi tatsthitā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="61" met="anuṣṭubh">
+<l n="a"><lb n="C13"/>traividyānantaraṁ pūjya</l>
+<l n="b">ācāryyas sa ca śābdikaḥ</l>
+<l n="c"><lb n="C14"/>Ekavidbhyo viśeṣeṇa</l>
+<l n="d">tābhyām ācāryyam arccayet <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="62" met="anuṣṭubh">
+<l n="a"><lb n="C15"/>pañcarātravidhānajñāt</l>
+<l n="b">śabdaśāstravidas tathā</l>
+<l n="c"><lb n="C16"/>Adhyāpakaṁ viśeṣeṇa</l>
+<l n="d">tābhyām ācāryyam arccayet <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="63" met="anuṣṭubh">
+<l n="a"><lb n="C17"/>Ācāryyavad gr̥hastho 'pi</l>
+<l n="b">mānanīyo vahuśrutaḥ</l>
+<l n="c"><lb n="C18"/>Abhyāgataguṇānāñ ca</l>
+<l n="d">parā vidyeti mānavam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="64" met="anuṣṭubh">
+<l n="a"><lb n="C19"/>vittaṁ bandhur vvayaḥ karmmma</l>
+<l n="b">vidyā bhavati pañcamī</l>
+<l n="c"><lb n="C20"/>Etāni mānyasthānāni</l>
+<l n="d">garīyo yad yad uttaram <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="65" met="anuṣṭubh">
+<l n="a"><lb n="C21"/>sāmānya mānavān sarvvān</l>
+<l n="b">vālavr̥ddharujānvitān</l>
+<l n="c"><lb n="C22"/>dīnānāthāṁś ca yatnena</l>
+<l n="d">bhared bhaktauṣadhādibhiḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="66" met="anuṣṭubh">
+<l n="a"><lb n="C23"/>nityaṁ hemārccanavidhiṁ</l>
+<l n="b">vidadhīta yathāvidhi</l>
+<l n="c"><lb n="C24"/>tr̥ṇadānopacārābhyāṁ</l>
+<l n="d">kapilām api pūjayet <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="67" met="anuṣṭubh">
+<l n="a"><lb n="C25"/>śrāddhoparāgakāleṣu</l>
+<l n="b">piṇdaviṣuvayor api</l>
+<l n="c"><lb n="C26"/>tandulasyaikayā khāryyā</l>
+<l n="d">kuryyād āśramayajvanaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="68" met="anuṣṭubh">
+<l n="a"><lb n="C27"/>ye bhaktyā patitā yuddhe</l>
+<l n="b">ye ca bhaktāḥ parāsavaḥ</l>
+<l n="c" enjamb="yes"><lb n="C28"/>Apiṇḍāḥ kr̥paṇānātha</l>
+<l n="d">-vālavr̥ddhāś ca ye mr̥tāḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="69" met="anuṣṭubh">
+<l n="a"><lb n="C29"/>Eteṣām eva sarvveṣāñ</l>
+<l n="b">caturāḍhakatandulaiḥ</l>
+<l n="c"><lb n="C30"/>māsāvasāne sarvvatra</l>
+<l n="d">piṇḍaiḥ kurvvīta tarppaṇam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="70" met="anuṣṭubh">
+<l n="a"><lb n="C31"/>Etasminn āśrame piṇḍaṅ</l>
+<l n="b">kr̥tvānīya ca sarvvaśaḥ</l>
+<l n="c"><lb n="C32"/>yaśodharataṭākānte</l>
+<l n="d">tasminn eva tu nirvvapet <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="71" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="C33"/>yaśodharataṭākākhya</l>
+<l n="b">-tīrthasnānavidhāyakān</l>
+<l n="c"><lb n="C34"/>tasyān tapasyamāsasya</l>
+<l n="d">paurṇṇamāsyāñ ca bhojayet <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="72" met="anuṣṭubh">
+<l n="a"><lb n="C35"/>trisandhyavidhisaṁsaktāś</l>
+<l n="b">śīlādhyayanatatparāḥ</l>
+<l n="c"><lb n="C36"/>gr̥hasthakarmmanirmmuktāḥ</l>
+<l n="d">śaśvadindriyanigrahāḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="73" met="anuṣṭubh">
+<l n="a"><lb n="C37"/>varṣāsv ananyaśayitā</l>
+<l n="b">ekabhaktena jīvinaḥ</l>
+<l n="c"><lb n="C38"/>Evaṁvidhā bhāgavatā</l>
+<l n="d">vāstavyā vaiṣṇavāśrame <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="74" met="anuṣṭubh">
+<l n="a"><lb n="C39"/>na vaiṣṇavāśramasyāsya</l>
+<l n="b">vaiṣṇavo vāsayet striyaṁ</l>
+<l n="c"><lb n="C40"/>kadā cid upaśalye 'pi</l>
+<l n="d">sahadharmmacarīm api <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="75" met="anuṣṭubh">
+<l n="a"><lb n="C41"/>vaiṣṇavā vālavr̥ddhādyā</l>
+<l n="b">ye sadādhyayane ratāḥ</l>
+<l n="c"><lb n="C42"/>Eteṣām iyatī vr̥ttir</l>
+<l n="d">ddātavyā prativāsaram <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="76" met="anuṣṭubh">
+<l n="a"><lb n="C43"/>catvāri dantakāṣṭhāni</l>
+<l n="b">tathāṣṭa kramukāṇi ca</l>
+<l n="c"><lb n="C44"/>tandulārddhāḍhakānnañ ca</l>
+<l n="d">ṣaṣṭis tambūlakāni ca <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="77" met="anuṣṭubh">
+<l n="a"><lb n="C45"/>dīpikamuṣṭir ekā ca</l>
+<l n="b">tathaidhasyaikapūlakaḥ</l>
+<l n="c"><lb n="C46"/>tany ācāryyāya deyāni</l>
+<l n="d">tathaiva brahmacāriṇe <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="78" met="anuṣṭubh">
+<l n="a"><lb n="C47"/>dantakāṣṭhatrayaṁ sārddhaṁ</l>
+<l n="b">tandulaṁ prasthabhaktakam</l>
+<l n="c"><lb n="C48"/>tambūlaviṅśatī dve ca</l>
+<l n="d">kramukāṇi ṣad eva tu <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="79" met="anuṣṭubh">
+<l n="a"><lb n="C49"/>Ekā ca dīpikāmuṣṭir</l>
+<l n="b">idhanasyaikapūlakaḥ</l>
+<l n="c"><lb n="C50"/>vaiṣṇavebhyaḥ pradeyāni</l>
+<l n="d">vr̥ddhebhyas tāni sarvvaśaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="80" met="anuṣṭubh">
+<l n="a"><lb n="C51"/>dantakāṣṭhadvayañ caiva</l>
+<l n="b">tandulaprasthabhaktakam</l>
+<l n="c"><lb n="C52"/>triṅśattamvūlapattrāṇi</l>
+<l n="d">catvāri kramukāṇi ca <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="81" met="anuṣṭubh">
+<l n="a"><lb n="C53"/>tathaiva dīpikāmuṣṭir</l>
+<l n="b">ekaidhasyaikapūlakaḥ</l>
+<l n="c"><lb n="C54"/>y<supplied reason="lost">auvanasthāya yataye</supplied></l>
+<l n="d">pradeyaṁ sarvvam eva tat <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="82" met="anuṣṭubh"><milestone type="pagelike" unit="face" n="D"/><label xml:lang="eng">Face D</label>
+<l n="a"><lb n="D1"/>tadannan dvitrikuduvās</l>
+<l n="b">tandulāḥ kramukadvayam</l>
+<l n="c"><lb n="D2"/>tambūlaviṅśatiś caikā</l>
+<l n="d">dīpikāmuṣṭir arbhake <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="83" met="anuṣṭubh">
+<l n="a"><lb n="D3"/>Adhyetari gr̥hasthe ca</l>
+<l n="b">vr̥ttir ddeyā yathāvayaḥ</l>
+<l n="c"><lb n="D4"/>Annaṅ kākeṣu dātavyam</l>
+<l n="d">arddhaprasthakatandulam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="84" met="anuṣṭubh">
+<l n="a"><lb n="D5"/>pratyahaṅ kalpitaṁ bhaktaṁ</l>
+<l n="b">tandulādhyarddhakhārikā</l>
+<l n="c"><lb n="D6"/>na dadyāt tandulān eva</l>
+<l n="d">dadyād evaudanīkr̥tān <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="85" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="D7"/>trīṇi pātrāṇi yāvat tad</l>
+<l n="b">-vyañjanan daśapātrataḥ</l>
+<l n="c"><lb n="D8"/>satkāram ādadānānām</l>
+<l n="d">ānupūrvvīvyapekṣayā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="86" met="anuṣṭubh">
+<l n="a"><lb n="D9"/>caturmmāsopabhogārhaṁ</l>
+<l n="b">ghaṭadhūpāgnibhājanam</l>
+<l n="c"><lb n="D10"/>Ācāryyāyaikaśo dadyāj</l>
+<l n="d">jyāyase sāttvatāya ca <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="87" met="anuṣṭubh">
+<l n="a"><lb n="D11"/>riktapattraṁ maṣīṁ mr̥tsnāṁ</l>
+<l n="b">dadyād adhyetr̥sādhave</l>
+<l n="c"><lb n="D12"/>bhojyaṁ viśeṣayed deśe</l>
+<l n="d">kāle pañcotsave tathā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="88" met="anuṣṭubh">
+<l n="a"><lb n="D13"/>kuṭyāṁ kuryyād anusamāḥ</l>
+<l n="b">śayana[ṁ] kṣurakarttarī</l>
+<l n="c"><lb n="D14"/>Ihasthā vaiṣṇavās sarvve</l>
+<l n="d">nādhyakṣe vaśyatāṅ gatāḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="89" met="anuṣṭubh">
+<l n="a"><lb n="D15"/>yady apātakino bhītā</l>
+<l n="b">Ihāgatya samāśritāḥ</l>
+<l n="c"><lb n="D16"/>pīḍayitre na tān dadyād</l>
+<l n="d">gr̥hṇīyān na sa tān api <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="90" met="anuṣṭubh">
+<l n="a"><lb n="D17"/>karmmaṇā manasā vācā</l>
+<l n="b">na hanyān nāmiṣan diśet</l>
+<l n="c"><lb n="D18"/>parasmāy āśramasyāntar</l>
+<l n="d">vvahir vvāpi kathañ ca na <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="91" met="anuṣṭubh">
+<l n="a"><lb n="D19"/>sarvvān avādhakān sattvān</l>
+<l n="b">āśramasyāsya sannidhau</l>
+<l n="c"><lb n="D20"/>yaśodharataṭākasya</l>
+<l n="d">tasyānte ca na hiṅsayet <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="92" met="anuṣṭubh">
+<l n="a"><lb n="D21"/>rājātmajā rājapautrī</l>
+<l n="b">rājavr̥ddhastriyas satī</l>
+<l n="c"><lb n="D22"/>Atrānyātithivat pūjyā</l>
+<l n="d">nāroheyuḥ kuṭīś ca tāḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="93" met="anuṣṭubh">
+<l n="a"><lb n="D23"/>yās tadanyāḥ striyo hīnā</l>
+<l n="b">yā vā caturavibhramāḥ</l>
+<l n="c"><lb n="D24"/>nātra praveśam arhanti</l>
+<l n="d">tā Evābhyāgatā Api <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="94" met="anuṣṭubh">
+<l n="a"><lb n="D25"/>cāturāśramyapatibhis</l>
+<l n="b">sarvvais saṁbhūya yatnataḥ</l>
+<l n="c"><lb n="D26"/>yaśodharataṭākākhyaṁ</l>
+<l n="d">pālanīyam idaṁ sadā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="95" met="anuṣṭubh">
+<l n="a"><lb n="D27"/>kiṅkarair āśramasyāsya</l>
+<l n="b">yad dhanan dhaninārjjitam</l>
+<l n="c"><lb n="D28"/>tad eva nānyato hāryyaṁ</l>
+<l n="d">bhuktvāsaṁvarddhya cāśramam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="96" met="anuṣṭubh">
+<l n="a"><lb n="D29"/>Asyāśramaniketasya</l>
+<l n="b">kr̥tsnopakaraṇāny ataḥ</l>
+<l n="c"><lb n="D30"/>Anyatra nāpaneyāni</l>
+<l n="d">haimāni rajatāni vā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="97" met="anuṣṭubh">
+<l n="a"><lb n="D31"/>paryyāya paricaryyārham</l>
+<l n="b">etāvat parikalpitam</l>
+<l n="c"><lb n="D32"/>dāsīdāsan tad ubhayoḥ</l>
+<l n="d">pakṣayoḥ śuklakr̥ṣṇayoḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="98" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="D33"/>dvau lekhakau rājakuṭī</l>
+<l n="b">-pālau pustakarakṣiṇau</l>
+<l n="c" enjamb="yes"><lb n="D34"/>tāmvūlikau ca pānīya</l>
+<l n="d">-hārau ṣaṭ pattrakārakāḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="99" met="anuṣṭubh">
+<l n="a"><lb n="D35"/>Ulkaidhahārāś catvāraś</l>
+<l n="b">tathā śākādihārakāḥ</l>
+<l n="c"><lb n="D36"/>dāsāś ca dvau tadadhyakṣāv</l>
+<l n="d">aṣṭau bhaktakarā janāḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="100" met="anuṣṭubh">
+<l n="a"><lb n="D37"/>dāsyas tandulakāriṇyo</l>
+<l n="b">dvādaśaiva prakalpitāḥ</l>
+<l n="c"><lb n="D38"/>pañcāśad eṣāṁ pūrṇṇā syād</l>
+<l n="d">vr̥ddhā vā māvamā bhavet <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="101" met="anuṣṭubh">
+<l n="a"><lb n="D39"/>Adhyāpakavidagdhasya</l>
+<l n="b">śīlasaṁvaraṇasya ca</l>
+<l n="c"><lb n="D40"/>janān adhyāpakasya trīn</l>
+<l n="d">kalpayet paricārakān <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="102" met="anuṣṭubh">
+<l n="a"><lb n="D41"/>dasy ekā nava dāsāś ca</l>
+<l n="b">karttari kṣurakas tathā</l>
+<l n="c"><lb n="D42"/>pañca śāṭyaḥ kulapates</l>
+<l n="d">tathā daśa kr̥ṣivalāḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="103" met="anuṣṭubh">
+<l n="a"><lb n="D43"/>yady evaṁ śāsanam idan</l>
+<l n="b">na kurvvita kulādhipaḥ</l>
+<l n="c"><lb n="D44"/>nirddayan daṇdyatāṁ rājñā</l>
+<l n="d">sa cāyattas tapasviṣu <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="104" met="upajāti">
+<l n="a"><lb n="D45"/>parārthasaṁpatkr̥tikāṅkṣiṇā me</l>
+<l n="b">niṣpāditaṁ puṇyam idan narendrāḥ</l>
+<l n="c" enjamb="yes"><lb n="D46"/>svasyāntare rakṣata rakṣanārtha</l>
+<l n="d">-rakṣaiva loke bhavatāṁ hi bhāraḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="105" met="upajāti">
+<l n="a"><lb n="D47"/>Itīrayaty avyapadeśayacñaṁ</l>
+<l n="b">bhaviṣyataḥ kambujarājarājān</l>
+<l n="c"><lb n="D48"/>paśyan pradānapratipattidr̥ṣṭyā</l>
+<l n="d">sa śrīyaśovarmmanarādhirājaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="106" met="upajāti">
+<l n="a"><lb n="D49"/>kumāramantripramukhāś ca mukhyā</l>
+<l n="b">yaśaśśarīrās sakalair upāyaiḥ</l>
+<l n="c"><lb n="D50"/>Idaṁ mahīpālanivedanādyaiḥ</l>
+<l n="d">pāyāsur āyāsaparāḥ parārtham <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="107" met="śikhariṇī">
+<l n="a"><lb n="D51"/>bhuvovārāṁ vahniśvasananabhasāṁ sūryyaśaśinor</l>
+<l n="b">jjagantyV - ṁ svārthaḥ pratanur api kas sparddhidadhatām</l>
+<l n="c"><lb n="D52"/>sthitiś śastā hy eṣā bhavati mahatāṁ svārthavimukhā</l>
+<l n="d">bhavanty udyadyatnāḥ parahitavibhūtyai yad aniśam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="108" met="mālinī">
+<l n="a"><lb n="D53"/>vasu harati vitīrṇṇaṁ yo nr̥penaitad asmin</l>
+<l n="b">sarabhasapatanas sCād rauravādiṣv avāṅ sa</l>
+<l n="c"><lb n="D54"/>tadapi ca parivr̥ddhaṁ yas tu datte sa yāyād</l>
+<l n="d">ajaram amaram iddhaṁ dhāma śuddhaṁ parārddhyam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+</div>
+                        
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Chhom2011_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Barth+Bergaigne1885-1893_01">
+              <p rend="stanza" n="1">Lui, le Bénie; qui d'abord un, s'est, au commencement du monde, partage en trois pour goûter le plaisir sous les formes du <supplied reason="subaudible">dieu</supplied> aux quatre visages, du <supplied reason="subaudible">dieu</supplied> aux quatre bras et de Śambhu, et qui, à la fin du yuga, rentre dans son unité, adoration à Lui Śiva !</p>
+             <p rend="stanza" n="2">Je salue avec dévotion celui dont l'épaisse chevelure a pour parure l'ennemi des lotus, le <supplied reason="subaudible">dieu</supplied> aux yeux de lotus et aussi celui qui est né du lotus ; Lui dont les pieds sont parfumés par le suc des grappes de fleurs du mandāra enlancées aux chignons des princes des dieux et des princes des Daityas prosternés devant Lui.</p>
+             <p rend="stanza" n="3">Il y eut un descendant des seigneurs d'Aninditapura appelé Śrī Puṣkarākṣa, qui avait obtenu la royauté à Śambhupura et qui, ferme dans le combat, fut l'oncle maternel de l'oncle maternel de la mère du roi qui établit sa résidence au faîte du mont Mahendra.</p>
+             <p rend="stanza" n="4">De la race de ce <supplied reason="subaudible">prince</supplied> et ayant pour ancêtre, du côté de sa mère, la lignée des grands rois de Vyādhapura, naquit Rājendravarman, trésor unique des mérites, lequel fut aussi roi dans Śambhupura.</p>
+             <p rend="stanza" n="5">Celui-ci, d'une gloire <supplied reason="subaudible">d'un éclat</supplied> pure comme une lune qui serait sans tache, eut de N.rpatīndradevī un fils, le roi Mahīpativarman, le premier des guerriers dans le combat, <supplied reason="subaudible">pareil à Garuḍa</supplied> l'ennemi des serpents pour ces rois des serpents, ses orgueilleux ennemis.</p>
+             <p rend="stanza" n="6">D'autre part, un brâhmane du nom d'Agastya, un connaisseur des Vedas et des Vedāṅgas, qui était originaire de l'Āryadeśa, et sa royale épouse d'illustre famille, la gloirieuse Yaśomatī,</p>
+             <p rend="stanza" n="7">avaient eu un fils impétueux dans le combat, Śrī Narendravarman, le meilleur d'entre les rois. De ce maître de la terre, comme si Lakṣmī <supplied reason="explanation">la Fortune</supplied> était devenue sa fille, naquit Narendralakṣmī.</p>
+             <p rend="stanza" n="8">De celle-ci et du roi Rājapativarman, lion dans les combats pour ces rois des éléphants qui étaient ses ennemis, naquit Rājendradevī, semblable à une fille des immortels, dont la gloire sans tache se répandit à toutes les extrémités des points cardinaux.</p>
+             <p rend="stanza" n="9">C'est dans le sein de cette dernière et pour donner naissance à plusieurs races de lions d'entre les rois, que le roi Mahīpativarman engendra la reine Indradevī d'une beauté sans pareille, dont la gloire était pure comme la mer de lait, de même que le Soleil <supplied reason="subaudible">engendra</supplied> Tapatī.</p>
+             <p rend="stanza" n="10">Or, du roi qui établit sa demeure sur le mont Mahendra, Śrī Jayavarman, dont les pieds étaient honorés par les plus puissants des rois, était né un fils brillant comme le soleil et doué de toutes les vertus héroiques,</p>
+             <p rend="stanza" n="11">le maître de la terre souverain de naissance, l'accroisseur de la fortune et de la victoire <supplied reason="subaudible">de son père</supplied>, qui <supplied reason="subaudible">pour cette raison</supplied> reçut le nom de Śrī Jayavardhana, puis, monté sur le trône, prit celui de Śrī Jayavarman, et dont les pieds reposaient sur la tête des grands rois.</p>
+             <p rend="stanza" n="12">Le frère puîné de la mère de la mère de ce roi suprême, <supplied reason="subaudible">prince</supplied> d'un héroisme invincible, ne pensant qu'à Rudra et, dans le combat, aux œuvres de Rudra <supplied reason="subaudible">accomplissant dans le combat des exploits terribles</supplied>, fut Śrī Rudravarman, aux pratiques très pures.</p>
+             <p rend="stanza" n="13">Son neveu <supplied reason="explanation">fils d'une sœur</supplied>, mer unique ayant pour perles les vertus, habile à traire la terre <supplied reason="subaudible">comme une vache</supplied>, semblable <supplied reason="subaudible">en ceci</supplied> à Pr̥thu et digne des respects des rois de la terre, fut le maître de la terre Śrī Pr̥thivīndravarman.</p>
+             <p rend="stanza" n="14">Semblable à la lune naissante, dans le ciel de cette race de kṣatriyas, <supplied reason="subaudible">vint se placer</supplied> la fille du protecteur de la terre Śrī Rudravarman, la vertueuse reine née, semblable à une fille des dieux, de la fille de Śrī Nr̥patīndravarman.</p>
+             <p rend="stanza" n="15">D'eux naquit un prince, lion pour ces rois des éléphants ses ennemis, digne des hommages de ceux qui ont des lions parmi les hommes, fier comme l'Homme-lion <supplied reason="explanation">Viṣṇu</supplied>, dont la gloire intacte vibre dans le bouches des points cardinaux, Śrī Indravarman, qui porta <supplied reason="subaudible">le poids de</supplied> la terre entière.</p>
+             <p rend="stanza" n="16">Ce fut lui qui érigea dans une maison de pierre un liṅga d'Īśa sous le vocable de Śrī Indreśvara, de plus six images à la fois d'Īśa et de Devī, et qui creusa le magnifique <supplied reason="subaudible">étang</supplied> Śrī Indrataṭāka.</p>
+             <p rend="stanza" n="17">C'est de ce maître de la terre, dont la gloire est répandue en tous lieux, et de la reine principale Śrī Indradevī, que naquit, comme Kārttikeya de la fille du Mont et du Destructeur des forteresses <supplied reason="explanation">Durgā et Śiva</supplied>, ce fisceau unique de splendeurs, dont la lance <supplied reason="subaudible">ou la puissance</supplied> était mortelle à ses ennemis, le roi Śrī Yaśovarman.</p>
+              <p rend="stanza" n="18">A son avènement comme (au lever du soleil), les lotus se redressèrent [ou : Padma fut accru], l'obscurité [ou : l'ignorance] fut dissipée, l'éclat des autres (astres) [ou : des (rois) étrangers] fut détruit, le ciel rougit à l'horizon [ou : Kakubh fut prise de passion (pour lui)].</p>
+              <p rend="stanza" n="19">S'amusant à secouer ces arbres que sont les rois ... la victoire sur les serpents [ou : la punition des méchants].</p>
+              <p rend="stanza" n="20">Dans son enfance sans contrainte ... tel (le Soleil) entoure d'une couronne de rayons, il brilla par son abondant et long ...</p>
+              <p rend="stanza" n="21">La science sortie de la bouche de son guru, et entrée dans sa bouche uniquement par l'organe de la voix, était comme l'ambroisie sortie du disque (bimba) de la Lune et entrée dans l'image (bimba) d'Indra par l'organe de la carotide.</p>
+              <p rend="stanza" n="22">Il s'attachait avec zèle à la pratique de toute la série des arts, dociles comme s'il les eût conquis et appris par l'affection et la bonté.</p>
+              <p rend="stanza" n="23">Comme par fatigue d'avoir traversé le fleuve des saṁhitā, son intelligence se reposa ensuite dans la lumière des pieds de Rudra.</p>
+              <p rend="stanza" n="24">Dans l'éclat de sa jeunesse, il brisa l'insolence de l'Amour, furieux en quelque sorte que (ce roi) lui eût vole la beauté attachée à son propre corps.</p>
+              <p rend="stanza" n="25">Comme si, le cœur épris, elle eût pensé : "(Cette demeure) est enduite de nectar", Sarasvatī ayant pris toute son amabilité choisit sa bouche pour demeure.</p>
+              <p rend="stanza" n="26">Retenu par sa bonté, il ne passait pas devant un malheureux sans s'arrêter, mais les vertus retenues (par lui) dépassaient de beaucoup les anciens rois.</p>
+              <p rend="stanza" n="27">La royauté que doivent honorer ceux qui jouissent de bonnes œuvres ... comme ivre d'orgueil ... donné par son cher guru.</p>
+              <p rend="stanza" n="28">Comme si elle eût conçu du dégoût pour les diverses formes prises par l'Archer (= Visnu), à commencer par l'incarnation sous l'aspect d'un nain, Lakṣmī ne permettait pas que la poitrine (de ce roi) connût l'oisiveté.</p>
+              <p rend="stanza" n="29">"Kama privé de corps a repris un corps", c'est comme par joie d'un tel miracle que les Makaras, ornement de l'Océan, baisaient ses pieds.</p>
+              <p rend="stanza" n="30">Le roi le plus arrogant mettait sur sa tête l'ordre de ce (roi). L'Océan, bien qu'il ait une guirlande de vagues mouvantes, ne saurait transgresser ses limites.</p>
+              <p rend="stanza" n="31">Ce trésor d'héroïsme et de perfection qui brillait comme le roi des dieux (Indra) fut créé par une sorte de désir de rendre visible la Vache.</p>
+              <p rend="stanza" n="32">Orné de ces quatre qualités : l'énergie, la connaissance, la vertu, la méthode, il était comme le dieu aux quatre visages (Brahmā) avec ses visages, et le dieu aux quatre bras (Viṣṇu) avec ses bras.</p>
+              <p rend="stanza" n="33">Bien qu'envers ses ennemis il fût cruel, impatient, courageux, violent, il n'abandonnait pas, comme fait le lion, sa puissance, qui était accrue par la sagesse.</p>
+              <p rend="stanza" n="34">Arrosée par (les libations accompagnant) ses libéralités, puis obscurcie par la poussière que soulevaient (ses armées) quand il partait en guerre, la Terre comme incapable de supporter son énergie, était tour à tour mouillée et sèche.</p>
+              <p rend="stanza" n="35">Quand il livrait une bataille lourde de calamités [ou : mettant le guru = Droṇa dans l'infortune], exempte de pitié [ou : mettant Kr̥pa en fuite], causant la chute des (ennemis) invincibles [ou: faisant tomber Duryodhana], il faisait revoir en quelque sorte le combat du Bhārata.</p>
+              <p rend="stanza" n="36">Son ardeur anéantit l'ardeur dangereuse des ennemis. Oh ! voilà du nouveau en ce monde, si le feu est brûlé par le feu.</p>
+              <p rend="stanza" n="37">Quand il offrait un sacrifice, les (dieux) habitants du ciel en oubliaient leur (divin) séjour, car tous, invoqués sans relâche, dormaient comme ivres de soma.</p>
+              <p rend="stanza" n="38">Quand sa main répandait sa libéralité profonde comme l'Océan, les créatures s'élevaient à une haute situation, comme par crainte d'être noyées.</p>
+              <p rend="stanza" n="39">Sa gloire, portant un collier de rayons blancs comme un collier de perles, faisait briller la Terre, comme si celle-ci eût plongé son orbe dans une écume scintillante qui lui fût restée attachée.</p>
+              <p rend="stanza" n="40">Par ses rayons mobiles, portant çà et là comme des messagers l'excellence de son suc [ou : de son caractère], il était (tel le soleil) aux mille rayons qui a un disque pur.</p>
+              <p rend="stanza" n="41">L'ayant pris pour époux [ou : pour roi], la Mère [ou : la Terre] nouvellement accouchée, se conforma à l'ordre établi [ou : à l'utilité], en donnant à sa progéniture [ou : à ses sujets] du lait [ou : de la pluie] coulant au moment propice de son sein [ou : du nuage] gonflé.</p>
+              <p rend="stanza" n="42">Son visage brillant est impropre à la comparaison avec le lotus, car le lotus est vaincu par la lune, tandis que c'est (son visage) qui a vaincu la lune.</p>
+              <p rend="stanza" n="43">Dardant ses rayons [ou : tendant la main] pour dissiper les vapeurs [ou : effacer les pleurs] de l'humanité, il répandait continuellement ses faveurs, tel le Soleil ou tel un père.</p>
+              <p rend="stanza" n="44">Il coupait en trois morceaux [ou : en ses trois constituants] une énorme barre de fer solidement attachée et ressemblant à la matière primordiale, lui qui était habile à détruire les liens [ou : les liens mondains].</p>
+              <p rend="stanza" n="45">N'éprouvant en quelque sorte aucun désir pour les autres femmes, ce roi charmant, par son habileté à tirer à l'arc de la main gauche [ou : par sa qualité de Savyasāci — Arjuna], s'unit à la gloire brillante d'Arjuna.</p>
+              <p rend="stanza" n="46">Il a fait l'étang divin nommé Yaśodharataṭāka, comme pour noyer l'orgueil de tous les rois.</p>
+              <p rend="stanza" n="47">Se conformant à la principale règle des gens vertueux, qui est d'avoir une vue claire, il parcourait sans difficulté le chemin royal, bien que celui-ci fût partout hérissé d'aspérités.</p>
+              <p rend="stanza" n="48">Aimant ce qui est plaisant, il fit en sorte que la capitale des ennemis, même ruinée, retentît des cris des hérons comme du bruit des grelots d'une ceinture.</p>
+              <p rend="stanza" n="49">La gloire, sa compagne, ayant l'éclat de la lune et se disant: "II ne saurait s'éloigner de moi", traversa l'Océan comme si son esprit eût prévu la réalité.</p>
+              <p rend="stanza" n="50">C'est lui seul que loua le Sage parmi des miliers de rois. Quel est l'œil qui, ayant aperçu la lune nouvellement levée, perd son temps à regarder la constellation (dans laquelle elle se lève ?)</p>
+              <p rend="stanza" n="51">"Ce roi Śrī Yaśovarman, qui possède la majesté de Viṣṇu [ou : qui a fondé un temple viṣṇuite], a fait ce Vaiṣṇavāśrama pour l'entretien des viṣṇuites (vaiṣṇava).</p>
+              <p rend="stanza" n="52">"Que ce décret du roi Śrī Yaśovarman soit observé dans cet ermitage (āśrama) par le supérieur (kulâdhyakṣa) ainsi que par tous les serviteurs. "Tel est (l'ordre du roi)".</p>
+              <p rend="stanza" n="53">Le supérieur veillera à ce que cet ermitage s'enrichisse abondamment, et il en protégera le personnel à mesure que celui-ci augmentera.</p>
+              <p rend="stanza" n="54">II honorera avec soin les hôtes et développera les actes d'hospitalité ; car pour les gens haut placés, il n'est pas d'acte supérieur au respect envers l'hôte.</p>
+              <p rend="stanza" n="55">Et si le roi vient ici avec ses femmes, il prendra soin de l'honorer comme un dieu, suivant les ressources de l'ermitage.</p>
+              <p rend="stanza" n="56">Car, maître suprême de la terre, il a été déclaré le guru du monde entier. Ce qu'il désire que chacun le fasse, selon ce verset de Vyāsa :</p>
+              <p rend="stanza" n="57">"Qui manque de respect au roi, le guru du monde entier, ne voit fructifier ni ses dons, ni ses sacrifices, ni ses offrandes aux mânes. "</p>
+              <p rend="stanza" n="57">Ensuite le dvija sera honoré par-dessus les autres ; s'ils sont plusieurs, on tiendra compte d'abord de leur conduite, ensuite de leurs belles qualités, enfin de leur science.</p>
+              <p rend="stanza" n="59">Le prince (rājaputra), le mandarin, le chef d'armée, l'homme de condition seront tous honorés dans l'ordre où ils viennent d'être nommés, sans aucune négligence.</p>
+              <p rend="stanza" n="60">Particulièrement, le brave sera honoré, qui a prouvé sa vaillance dans le combat ; l'homme qui aime le combat doit l'être au-dessus de ceux qui le refusent ; car c'est sur lui que repose la défense du droit.</p>
+              <p rend="stanza" n="61">Immédiatement après le brahmane (vipra), on honorera le maître Śaiva et le maître Pāśupata, et si l'un d'eux est instruit dans la grammaire, il sera honoré plus que l'autre.</p>
+              <p rend="stanza" n="62">De préférence à ceux qui connaissent à fond la doctrine des Śaiva et des Pāśupata, et la science de la grammaire, le maître qui les enseigne sera honoré au plus haut degré dans cet excellent ermitage.</p>
+              <p rend="stanza" n="63">Comme le maître, on honorera le maître de maison (gr̥hastha) ayant reçu une bonne instruction ; car "des qualités acquises, la meilleure est la science", a déclaré Manu.</p>
+              <p rend="stanza" n="64">La richesse, la parenté, l'âge, les œuvres pies, et, en cinquième lieu, la science, tels sont les titres au respect, et le suivant l'emporte chaque fois (sur le précédent).</p>
+              <p rend="stanza" n="65">Les gens du commun sans exception, les jeunes garçons, les vieillards, les souffreteux, les malheureux, les délaissés seront entretenus avec soin de nourriture, de médicaments et des autres choses nécessaires.</p>
+              <p rend="stanza" n="66">On fera toujours l'offrande de l'or selon les prescriptions, et on honorera aussi une vache brune en lui présentant de l'herbe, et en lui rendant le service d'hommage.</p>
+              <p rend="stanza" n="67">Au moment de l'offrande aux mânes, en temps d'éclipsé, et quand, aux deux equinoxes, il y a présentation de gâteaux funèbres, on fera une offrande d'une khārī de riz décortiqué pour celui qui sacrifie (yajvan) dans l'ermitage.</p>
+              <p rend="stanza" n="68">Ceux qui, par dévouement, sont tombés sur le champ de bataille, les dévoués qui ont rendu l'âme, ceux qui sont morts sans nourriture, malheureux, délaissés, dans l'enfance ou la vieillesse,</p>
+              <p rend="stanza" n="69">pour tous ceux-là, on fera à chaque fin de mois une offrande funèbre de gâteaux pour lesquels on emploiera quatre āḍhaka de riz.</p>
+              <p rend="stanza" n="70">Les gâteaux seront faits dans cet ermitage, puis on les apportera tous ensemble et on en fera l'offrande sur le bord même de l'étang de Yaśodhara.</p>
+              <p rend="stanza" n="71">A la pleine lune du mois de Tapasya (février-mars), on offrira un repas à ceux qui ont fait leurs ablutions dans le tîrtha nommé Yaśodharataṭāka.</p>
+              <p rend="stanza" n="72">Ceux qui observent les rites du trisan- les rites du trisandhya, ... quisesont libérés des devoirs d'un maître de maison ..,</p>              <p rend="stanza" n="72">ceux qui, pendant la saison des pluies, n'ont pas de gîte chez autrui, ... les ermites (yati) de cette sorte (seront hébergés dans le Brâhmanâçrama).</p>
+              <p rend="stanza" n="73">ceux qui, pendant la saison des pluies, n'ont pas de gîte chez autrui, qui se contentent d'un repas par jour, les Bhāgavata de cette sorte seront hébergés dans le Vaiṣṇavāśrama.</p>
+              <p rend="stanza" n="74">Aucun vishnouite dece Vaiṣṇavāśrama ne devra avoir de rapports avec une femme, même aux environs (de l'ermitage), même si c'est sa femme légitime.</p>
+              <p rend="stanza" n="75">Les vishnouites, qui se sont voués à l'étude, recevront chaque jour, en commençant par les jeunes, etpar les vieux, les moyens de subsistance nécessaires.</p>
+              <p rend="stanza" n="76">Quatre cure-dents, huit noix d'arec, une portion de un demi-āḍhaka de riz décortiqué, soixante feuilles de bétel.</p>
+              <p rend="stanza" n="77">une poignée de dāpikā, un fagot de bois seront donnés aux maître ainsi qu'à l'étudiant célibataire.</p>
+              <p rend="stanza" n="78">Trois cure-dents, une portion de un prastha de riz décortiqué, quarante feuilles de bétel et six noíx d'arec,</p>
+              <p rend="stanza" n="79">une poignée de dîpikâ, un fagot de bois, tout cela sera donné sans faute aux vishnouites.</p>
+              <p rend="stanza" n="80">Deux cure-dents, une portion de un prastha de riz décortiqué, trente feuilles de bétel, quatre noix d'arec,</p>
+              <p rend="stanza" n="81">une poignée de dīpikā, un fagot de bois, tout cela sera donné à ...</p>
+              <p rend="stanza" n="82">Sa nourriture, deux ou trois kuḍuva de riz décortiqué, deux noix d'arec, vingt feuilles de bétel et une poignée de dīpikā (seront donnés) à un jeune garçon.</p>
+              <p rend="stanza" n="83">A l'étudiant et au maître de maison, la subsistance sera donnée suivant l'âge. Aux corbeaux, on donnera en pâture un demi-prastha de riz décortiqué.</p>
+              <p rend="stanza" n="84">La ration quotidienne est fixée à une khārikā et demie de riz décortiqué : on ne donnera pas ce riz en grains, on le donnera déjà cuit.</p>
+              <p rend="stanza" n="85">Trois bols (de grains) feront dix bols de bouillie. Les participants (à la distribution) seront servis dans l'ordre.</p>
+              <p rend="stanza" n="86">Une cruche, un brûle-parfums, un réchaud devant servir pendant quatre mois, seront donnés individuellement au maître et à l'aîné des Sāttvata</p>
+              <p rend="stanza" n="87">L'étudiant vertueux (sādhu) recevra des feuillets vierges, du noir animal, de la craie. Lors de la fête annuelle, et des Cinq Fêtes, on ajoutera un extra à la nourriture.</p>
+              <p rend="stanza" n="88">La couchette, le rasoir et les ciseaux seront renouvelées chaque année dans chaque cellule (kuṭī). Une fois dans leurs cellules, les vishnouites ne seront plus sous l'autorité du supérieur.</p>
+              <p rend="stanza" n="89">Si des innocents viennent en tremblait chercher refuge ici, on ne les livrera pas à leur persécuteur et celui-ci ne pourra pas se saisir d'eux.</p>
+              <p rend="stanza" n="90">Ni par acte, ni par pensée, ni par parole, on ne fera périr ici personne ; on n'indiquera pas non plus à un autre celui qu'il poursuit, soit en dedans, soit en dehors de l'ermitage.</p>
+              <p rend="stanza" n="91">De toutes les créatures inoffensives, on ne tuera aucune dans le voisinage de cet ermitage, ni sur le bord de cet étang de Yaśodhara.</p>
+              <p rend="stanza" n="92">La fille du roi, la petite fille du roi, les vieilles épouses du roi, la femme de bien seront honorées ici comme les autres hôtes, mais elles ne monteront pas dans les cellules.</p>
+              <p rend="stanza" n="93">Quant aux autres, les femmes du commun, et celles dont la coquetterie est notoire, elles n'obtiendront pas d'entrer ici, même si elles se présentent (pour demander l'hospitalité).</p>
+              <p rend="stanza" n="94">Les chefs des quatre ordres s'uniront tous pour protéger avec zèle cet étang de Yaśodhara.</p>
+              <p rend="stanza" n="95">Le bien que, grâce à des (bienfaiteurs) opulents, auront amassé les serviteurs de cet ermitage, ne devra pas être détourné ailleurs.</p>
+              <p rend="stanza" n="96">Tout le matériel de l'ermitage, objets d'or ou d'argent ne doivent être emportés ailleurs.</p>
+              <p rend="stanza" n="97">Les esclaves mâles et femelles chargés d'assurer le service à tour de rôle durant la quinzaine claire et la quinzaine obscure sont répartis ainsi :</p>
+              <p rend="stanza" n="98">Deux scribes, deux gardiens de la cellule royale, deux bibliothécaires, deux fournisseurs de bétel, deux porteurs d'eau, six fabricants de feuillets (à écrire),</p>
+              <p rend="stanza" n="99">quatre porteurs de torches, des esclaves chargés de la cueillette des légumes et autres plantes comestibles, deux surveillants de ces esclaves, huit cuisiniers,</p>
+              <p rend="stanza" n="100">douze esclaves femmes préposées à la préparation du riz décortiqué. (Ces esclaves) seront au nombre de cinquante ou plus, mais pas moins.</p>
+              <p rend="stanza" n="101">Le professeur (adhyāpaka), savant entre les professeurs, et comme vêtu de sa bonne conduite, aura en partage dix serviteurs.</p>
+              <p rend="stanza" n="102">Une esclave femelle, neuf esclaves mâles, deux paires de ciseaux, un rasoir, cinq pièces d'étoffe et dix cultivateurs seront à la disposition du supérieur (kulapati).</p>
+              <p rend="stanza" n="103">Si le supérieur ne se conforme pas à ce décret, il sera puai sans merci par le roi et remis au pouvoir des ascètes (tapasvin).</p>
+              <p rend="stanza" n="104">"Cette œuvre méritoire que j'ai accomplie, dans mon désir de réaliser le bien d'autrui, ô rois, gardez-la dans votre propre intérêt, car votre devoir eu ce monde est de protéger ce qui mérite protection. »</p>
+              <p rend="stanza" n="105">C'est en ces termes que le roi des rois Śrī Yaśovarman, considérant avec l'œil de l'intelligence le sort des donations adresse aux futurs rois des Kambujas une prière sans gloire.</p>
+              <p rend="stanza" n="106">Puissent les dignitaires chargés d'honneur, les princes et les mandarins et les autres, appliquer leurs efforts à protéger cette œuvre désintéressée, par tous les moyens à commencer par la requête au roi.</p>
+              <p rend="stanza" n="107">La terre, ies eaux, le feu, le vent, les nuages, le soleil et la lune, quel intérêt, si minime soit-il, ont-ils à rivaliser pour (faire le bonheur) des créatures ? C'est que la noble règle que suivent les grands est celle-ci : mépriser son propre intérêt et augmenter sans cesse ses elîorts pour l'intérêt d'autrui.</p>
+              <p rend="stanza" n="108">Quiconque s'emparera des biens accordés par le roi à cet (ermitage) tombera d'une chute rapide dans le Raurava et les autres (enfers). Mais que celui qui augmentera (ce bien) par ses dons aille au séjour qui ne connaît ni vieillesse ni mort, qui est brillant, pur, élevé entre tous.</p>
+              </div> 
+           <div type="commentary">
+           <p>The inscription is partly identical with four inscriptions, viz. <ref target="DHARMA_INSCIK00279.xml">K. 279</ref>, <ref target="DHARMA_INSCIK00290.xml">K. 290</ref>, <ref target="DHARMA_INSCIK00323.xml">K. 323</ref> and <ref target="DHARMA_INSCIK01228.xml">K. 1228</ref>.</p>
+           </div>
+        <div type="bibliography">
+          <p>Edited George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1932_01"/><citedRange unit="page">88-106</citedRange></bibl>) with a French translation.</p>
+	 <listBibl type="primary">
+             
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1932_01"/><citedRange unit="page">88-106</citedRange>
+    </bibl>
+             </listBibl>
+           <listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">119-127</citedRange>
+    </bibl>
+              </listBibl>
+
+                </div>
+        </body>
+    </text>
+</TEI>
