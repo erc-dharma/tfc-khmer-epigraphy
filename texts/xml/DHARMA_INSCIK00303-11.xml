@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 303-11. Pillar at Bakan level of Prasat Angkor Wat (IMA 36), modern period</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName>
+                  <forename/>
+                  <surname/>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00303-11</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the modern period.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-07-08" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83215">
+                   <p>
+   <lb n="1"/>naeḥ saṁmteca jottideba mahāsa^gharājapubitra māna <!-- kuch: mahāsa^gharājapubitra -->
+                      <lb n="2"/>citra thlā sārddhā nāṁ qnaka braḥ buddha 2 Aṅga Aṅga 1 syaṅa dumṅuna
+                      <lb n="3"/>mahāppa dāṁ.ṅ 2 Aṅga smeiha gnā ,,maka taṁkala braḥ <!-- kuch: dāṁ.ṅ ;,,maka -->
+                      <lb n="4"/>mahānagara dāṁ.ṅ ragāṁ.ṅ 4 rāya joeta saṁma e- <!-- kuch: dāṁ.ṅ ; ragāṁ.ṅ ; the vowel e- belongs to the first word of the next line. -->
+                      <lb n="5"/>bhlaṅa E ,,gaṅa ddhaṁma me kūna ,,goṅa tūca 3 bāta- <!-- kuch: bhlaṅa ; ,,gaṅa ;,,goṅa -->
+                      <lb n="6"/>,,goṅa 16 cheṅa 2 saṁmrāpa sralaiỵ 2 saṁbora 2 sutrāhīppa <!-- kuch: ,,goṅa ; sralai.ỵ ;  saṁbora was written above the line. -->
+                      <lb n="7"/>1 bāna prāka ˘da.ṅmṅana 14 bāna ,,daṅtaeṅa 1 kqama samri- <!-- kuch: ˘da.ṅmṅana ; ,,daṅtaeṅa -->
+                      <lb n="8"/>ddha 1 ptila prāka 2 thāsa 1 babīla 1 taṁkala duka mahāna-
+                      <lb n="9"/>gara braḥ Aṅga Enā māna sārddhā raksā braḥ buddha naeḥ
+                      <lb n="10"/>Isa kreṅa saṁmrāppa naeḥ Oỵ raksā Oỵ mūla niṅa qna- <!-- kuch: O.y ; O.y -->
+                      <lb n="11"/>ka braḥ buddha naeḥ Oỵ paṁmreha tal’ 5000 pasā thā ,,poe <!-- kuch: ,,poe -->
+                      <lb n="12"/>qnaka Enā 1 moka sratīỵ ,,yaka viña Aṁbīỵ <!-- kuch: sratī.ỵ ; ,,yaka ; Aṁbī.ỵ -->
+                      <lb n="13"/>qnaka braḥ buddha dāṁ.ṅ 2 Aṅga naeḥ paṁmpaeka viña Oỵ jā <!-- kuch: dāṁ.ṅ ; O.y -->
+                      <lb n="14"/>sṭhāna 2 kanloṅa niṅa braḥ but tīỵkā naeḥ leỵ kuṁ Oỵ <!-- kuch: tī.ỵkā ; le.ỵ ; O.y -->
+                      <lb n="15"/>qnaka braḥ buddha Aṁmpāla trāsa dau heỵ kti qnaka braḥ buddha <!-- kuch: he.y -->
+                      <lb n="16"/>niṅa trāsa moka E bhnaeka naeḥ ktī kuṁ trā[[sa]] Oỵ pāna e- <!-- kuch: O.y ; the vowel e- belongs to the first word of the next line. -->
+                      <lb n="17"/>prāsa qnaka noḥ leya Oỵ randāḥ ˘da.ṅ ma saena paña trūva qna- <!-- kuch: prāsa ; O.y ; ˘da.ṅ -->
+                      <lb n="18"/>ka pampaeka noḥ hoṅa thā peī Isa ñāta bhova E-
+                      <lb n="19"/>nā juoya Anamodanā juoya rāksā niṅa crarāṅa jā saṅa
+                      <lb n="20"/>taṁ,,ṇaha E ,,kroỵ do hoṅa Oỵ Isa ñāta noḥ pāna <!-- kuch: taṁ,,ṇaha ; ,,kroỵ ; O.ỵ -->
+                      <lb n="21"/>yala nā kāla pāna trasa dharmma daṁ.ṅ prāṁpīỵ hmoena puona bānna <!-- kuch: daṁ.ṅ ;prāṁpī.ỵ -->
+                      <lb n="22"/>Oỵ prakoppa tūca Aṁppūra qnaka braḥ buddha Aṁbviya mūna noḥ <!-- kuch: O.y -->
+                      <lb n="23"/>hoṅa E kūna cau naeḥ siṅa Āddhisṭhāna duka smoeha kūna pa-e <!-- kuch: The consonant pa- and the vowel e- belong to the first word of the next line. -->
+                      <lb n="24"/>ṅkīta cau paṅkoeta peī ñāta Enā paṁmpaeka thā jā khñuṁma dhvei Oỵ mā- <!-- kuch: ṅkīta ; O.y -->
+                      <lb n="25"/>na duka E kroỵ Oỵ ñātta noḥ trūva puphtāsā braḥ buddha tīkā <!-- kuch: kro.y ; O.y -->
+                      <lb n="26"/>duka E kroỵ naeḥ Eṅa hoṅa thā peī ñāta Enā <!-- kuch: kro.y -->
+                      <lb n="27"/>juoya Āsūra tuṁreha tuṁrruṅa juoya rāksā braḥ sasnā qnaka braḥ
+                      <lb n="28"/>buddha Oỵ qnaka noḥ pāna dana nā kāla trasa dharmma prapīỵ hmoena puo- <!-- kuch: O.y ; da៍na ; prapī.ỵ -->
+                      <lb n="29"/>na bāna noḥ kuṁ Oỵ ñāta noḥ khlāta khlāha leya hoṅa <!-- kuch: O.y -->
+                   </p>
+                   </div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Pou1974_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" source="bib:Pou1974_01">
+ 	<p n="1-9">Lors, le mahāsaṅgharāj samtec Jotidevā, au cœur purifié par la foi, avait amené deux statues du Buddha de poids égal, chacune pesant 1 hāp, et les avait installées dans un but d'adoration au Mahānagar, en même temps que quatre ragāṁn et, pour accompagner le joet dans les orchestres, une série de trois gongs de dimensions différentes, un bādy gaṅ, deux paires de petites cymbales, deux hautbois, deux sambhor, une caisse de manuscrits, . . . coupe d'argent pesant 14 (?), une autre en laiton2, un vase en bronze, deux bols d'argent, un plateau, un babil, (le tout) installé à la cité d'Angkor.</p>
+              <p n="9-11">Le religieux, qui en toute ferveur veille sur ces statues du Buddha et tous ces biens d'usage, qu'il garde ces derniers toujours attachés aux premiers, afin de servir (le Buddha) pendant cinq mille ans!</p>
+              <p n="11-18">Au cas où quelqu'un viendra enlever ces objets et les séparer des statues transgressant (ainsi) les paroles du Buddha, que tous les Buddha passés et à venir n'aient point de compassion vis-à-vis de cette personne. Que cent mille foudres frappent l'individu qui aura séparé les biens des statues.</p>
+              <p n="18-23">Au cas où des parents se joignent avec joie (à cette œuvre) pour garder à l'avenir, qu'ils puissent atteindre le moment où seront proclamées les 84.000 sections du Dhamma, qu'ils réalisent leurs vœux comme toute la lignée des Buddha du passé.</p>
+              <p n="23-29">Quant à ces enfants, je les proclame égaux à mes propres enfants ou petits-enfants. Si des parents les enlèvent de là pour en faire des esclaves et les faire souffrir plus tard, qu'ils soient châtiés selon les paroles du Buddha. (Mais) si des parents se soucient de les éduquer, d'entretenir l'enseignement du Seigneur Buddha, qu'ils puissent renaître sans faute au moment où seront proclamées les 84.000 sections du Dhamma !</p>
+              </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou1974_01"/><citedRange unit="page">304-308</citedRange></bibl>) with a French translation. Re-edited here by Kunthea Chhom based on EFEO estampage n. 75.</p>
+	 <listBibl type="primary">
+             <bibl n="SP">
+             <ptr target="bib:Pou1974_01"/>
+             <citedRange unit="page">304-308</citedRange>
+                 </bibl>
+             </listBibl>
+           <listBibl type="secondary">
+             <bibl n="EA">
+      <ptr target="bib:Aymonier1900_02"/><citedRange unit="page">143-175</citedRange>
+    </bibl>
+              <bibl n="MK">
+      <ptr target="bib:Krassem1984_01"/><citedRange unit="page">87-88</citedRange>
+    </bibl>
+              </listBibl>
+                </div>
+        </body>
+    </text>
+</TEI>
