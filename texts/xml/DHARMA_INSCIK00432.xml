@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 432. Stela from Vat Traleng Keng, 9th century Śaka</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00432</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Kunthea Chhom.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the ninth-tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-07-14" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+<lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone unit="column" n="a"/>vande tathāgataṁ yasya</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ [te]jasā</l>
+<l n="c" enjamb="yes"><lb n="2"/><milestone unit="column" n="a"/>[ji]tvā nu māratimira</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = varāyitam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="3"/><milestone unit="column" n="a"/>[na]mo ratnatrayā - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = t prāk trimūrttidhr̥k</l>
+<l n="c"><lb n="4"/><milestone unit="column" n="a"/>= = dārtham ihaloke</l>
+<l n="d"><milestone unit="column" n="b"/>= = g jñānena saṁyama[ḥ] <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="5"/><milestone unit="column" n="a"/>[ca]ndrarūpāṅgadīptaśrī<milestone unit="column" n="b" break="no"/>ś</l>
+<l n="b">śrīyaśovarmmabhūpa[tiḥ]</l>
+<l n="c" enjamb="yes"><lb n="6"/><milestone unit="column" n="a"/>[va]bhūva bhūbhr̥dunmauli</l>
+<l n="d"><milestone unit="column" n="b"/>-maṇitārāvirañjitaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="7"/><milestone unit="column" n="a"/>Umāptau kāmadahaṇā</l>
+<l n="b"><milestone unit="column" n="b"/>-nayo nu parameśvaraḥ</l>
+<l n="c"><lb n="8"/><milestone unit="column" n="a"/>tatkāntiṁ niravadyāṅgaṁ</l>
+<l n="d"><milestone unit="column" n="b"/>yaṁ svamūrttiṁ nyaveśayat <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="9"/><milestone unit="column" n="a"/>[A]saṁkhyādhvaradhūmālī</l>
+<l n="b"><milestone unit="column" n="b"/>-vitānaṁ vitatāna yaḥ</l>
+<l n="c"><lb n="10"/><milestone unit="column" n="a"/>śaṅke śatamakhasparddhī</l>
+<l n="d"><milestone unit="column" n="b"/>bhānumārgāgniveśmani <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="11"/><milestone unit="column" n="a"/>yaś śaṅkarādirūpāṇi</l>
+<l n="b"><milestone unit="column" n="b"/>śivaliṅgāny atiṣṭhipat</l>
+<l n="c"><lb n="12"/><milestone unit="column" n="a"/>====-++=</l>
+<l n="d"><milestone unit="column" n="b"/>====-+-= <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1942_02"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1942_02">
+ 	<p rend="stanza" n="1">Je salue le Tathāgata dont l'éclat, ayant vaincu l'obscurité de Māra, a dissipé ...</p>
+              <p rend="stanza" n="2">Hommage au Triratna ... autrefois, assumant trois formes, restreint en ce monde par la connaissance ...</p>
+              <p rend="stanza" n="3">Il y eut un roi Śrī Yaśovarman, dont la Fortune était éclairée par son corps ayant l'aspect de la lune [ou : par (8) aṅga, (1) forme, (1) lune], et qui était illuminé par ces étoiles que sont les joyaux sur les diadèmes des rois.</p>
+              <p rend="stanza" n="4">ayant, au moment où il s'unissait à Umā, commis la faute de brûler Kāma, Parameśvara créa ce roi à son image, avec la beauté irréprochable de Kāma.</p>
+              <p rend="stanza" n="5">C'est, semble-t-il, pour rivaliser avec (Indra) le dieu aux cent sacrifices que, dans cette maison du feu qu'est le ciel, il a répandu les flots de fumée d'innombrables sacrifices.</p>
+              <p rend="stanza" n="6">Il érigea des images de Śaṅkara, et autres dieux, des liṅga de Śiva ...</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1942_02"/><citedRange unit="page">119-120</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 189.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1942_02"/><citedRange unit="page">119-120</citedRange>
+    </bibl>
+	</listBibl>
+           <listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">576-577</citedRange>
+    </bibl>
+           </listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
