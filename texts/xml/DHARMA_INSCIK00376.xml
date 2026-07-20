@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 376. Stela of Prasat Ta Meun Thom, 10th century</title>
+            <respStmt>
+               <resp>author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName/>
+               <!-- <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName> -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00376.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-07-20" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p><milestone type="pagelike" unit="face" n="A"/><label xml:lang="eng">Face A</label><!-- kuch: According to GC, there were 15 or 20 lines on Face A, and the language was not identified. Here the okz is assumed. -->
+                   <lb n="A1"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A2"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A3"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A4"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A5"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A6"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A7"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A8"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A9"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A10"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A11"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A12"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A13"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A14"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="A15"/><gap reason="lost" extent="unknown" unit="character"/>
+                   </p>
+                   <p><milestone type="pagelike" unit="face" n="B"/><label xml:lang="eng">Face B</label>
+                   <lb n="B1"/><gap reason="illegible" extent="unknown" unit="character"/>
+                      <lb n="B2"/>… kansrVk kaṁvrau qutpala kr̥s ka{6}
+                      <lb n="B3"/>… kanden sot kanqas kampit smyāñ malayā kan{4}
+                      <lb n="B4"/>…k sot de{1} vraḥ kalpa kr̥ṣṇāṅgī kansā samāp tā
+                      <lb n="B5"/>…yV srukk sos not nau qnak ta mān ta gi neḥ sruk syaṅ ti kalpa Oy vnvāk
+                      <lb n="B6"/>… man jvan purohite gi nā svatantra gi kalpanā puro
+                      <lb n="B7"/>… caraṇāmvuja nai pradhāna neḥ kalpanā kr̥takr̥tya vvoṁ jā pi hoc cren
+                      <lb n="B8"/>… Artha man Añ ni {1} vvoṁ jā pi yok nu caṁmren le Artha dai
+                      <lb n="B9"/>… khloñ vala ta khloñ {2} cāṅ nu khloñ vala ta khloñ gmāll yūgapat nu pādamūla
+                      <lb n="B10"/>… Āy ti lic lāc pi duk cval ta praśasta dhana {2} kalpaṇā {2} liḥ syaṅ toy
+                      <lb n="B11"/>… khñuṁ si thgāp tai kaṁvai si thleṁ si Āntis si saṅkauv jāhnavī tai śā{1} tai {3} tai {1}
+                      <lb n="B12"/>… tai phtyak si kaṁpit tai parap si kaṁvai tai bhadra tai chpoṅ tai bhāva si kaṁvraḥ si
+                      <lb n="B13"/>… ktāCiCi Āy ti lic lāc vvaṁ Āc ti mān ta kva[n] cauv mvāy {1}ryya nuv {4}
+                   </p>
+<lg n="1" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="B14"/>yāvaś caturmmukho vrahmā</l>
+<l n="b">viṣṇur yyāvaś caturbhujaḥ</l>
+<l n="c">tāvat trilocanaś śambhoḥ</l>
+<l n="d">yāvat svārgge vasanti te <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+  <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="B15"/>[yāvaś] caturmukkho vrahmā</l>
+<l n="b">viṣṇur yyāvaś caturbhujaḥ</l>
+<l n="c">tāvat trilocanaś śambhoḥ</l>
+<l n="d">yāvat narakadukhitaḥ <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>                 
+</div>
+            <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1964_03"></rdg>
+                   </app>
+                   </listApp>  
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Coedes1964_03">
+ 	<p rend="stanza" n="1"><gap reason="lost"/></p>
+              </div> 
+           <div type="commentary">
+           <p></p>
+         </div> --> 
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1964_03"/><citedRange unit="page">60-61</citedRange></bibl>) without translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 1492.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1964_03"/><citedRange unit="page">60-61</citedRange>
+    </bibl>
+	</listBibl>
+           
+          </div>
+        </body>
+    </text>
+</TEI>
