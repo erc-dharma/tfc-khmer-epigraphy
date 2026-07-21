@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 543. Fragmentary stela of Prasat Preah Pithu, 9th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+               <persName>
+                  <forename></forename>
+                  <surname></surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00543.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the ninth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-07-21" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+                   <lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone n="a" unit="column"/>mantrī mantrādikr̥tyeṣu</l>
+<l n="b"><milestone n="b" unit="column"/>[śās]tā śāstra[vi]darśane</l>
+<l n="c"><lb n="2"/><milestone n="a" unit="column"/>yo babhūva vibhur bhartu<milestone n="b" unit="column" break="no"/>r</l>
+<l n="d">bhr̥tyas sarvvasukhārppaṇe <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+     <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="3"/><milestone n="a" unit="column"/>sarāgaśrīr atiśrāntaḥ</l>
+<l n="b"><milestone n="b" unit="column"/>kānto me 'yam itīva yam</l>
+<l n="c"><lb n="4"/><milestone n="a" unit="column"/>Anīrṣyā śāstrapīyūṣa<milestone n="b" unit="column" break="no"/>m</l>
+<l n="d">apāyayata bhāratī <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="5"/><milestone n="a" unit="column"/>hemadolākaraṅkāsi</l>
+<l n="b"><milestone n="b" unit="column"/>-bhr̥ṅgārāmatramekhalāḥ</l>
+<l n="c"><lb n="6"/><milestone n="a" unit="column"/>māyūracchatram anyāṁś ca</l>
+<l n="d"><milestone n="b" unit="column"/>bhogān bhartur avāpa yaḥ <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="7"/><milestone n="a" unit="column"/>viṣṇuṁ śrīpuṇḍarīkākṣa</l>
+<l n="b"><milestone n="b" unit="column"/>-nāmānaṁ namatāṁ mude</l>
+<l n="c" enjamb="yes"><lb n="8"/><milestone n="a" unit="column"/>-C ādasthāpitātmīya</l>
+<l n="d"><milestone n="b" unit="column"/>-bhaktis sa pratyatiṣṭhipat <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="9"/><milestone n="a" unit="column"/>sa [co]vāceti tāṁ vācaṁ</l>
+<l n="b"><milestone n="b" unit="column"/>vācaspativicakṣaṇaḥ</l>
+<l n="c" enjamb="yes"><lb n="10"/><milestone n="a" unit="column"/>Ācāracaturaś cāru</l>
+<l n="d"><milestone n="b" unit="column"/>-caritācaraṇācyutaḥ <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="11"/><milestone n="a" unit="column"/>Atra śrī[pu]ṇ[ḍ]arīkākṣo</l>
+<l n="b"><milestone n="b" unit="column"/>rakṣyatān dharmmakāṅkṣibhiḥ</l>
+<l n="c"><lb n="12"/><milestone n="a" unit="column"/>dharmmeṇa rakṣyate rakṣa<milestone n="b" unit="column" break="no"/>nn</l>
+<l n="d">iti satyaṁ vicintyatām <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="13"/><milestone n="a" unit="column"/>ye haranti harer atra</l>
+<l n="b"><milestone n="b" unit="column"/>kiñcid dāsādikalpitam</l>
+<l n="c"><lb n="14"/><milestone n="a" unit="column"/>Avīcyādiṣu [pa]cyante</l>
+<l n="d"><milestone n="b" unit="column"/>te yāvac candrabhāskarau <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="15"/><milestone n="a" unit="column"/>[rakṣanti ye sadā] tasya</l>
+<l n="b"><milestone n="b" unit="column"/>tad eva sukr̥tārthinaḥ</l>
+<l n="c"><lb n="16"/><milestone n="a" unit="column"/>====-+-Cai<milestone n="b" unit="column" break="no"/>s</l>
+<l n="d">santas te vaiṣṇave pade <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Finot1932_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Finot1932_01">
+              <p rend="stanza" n="1">Conseiller, il excellait dans les conseils et autres [fonctions], [docteur,] dans la connaissance des doctrines ; sujet, il savait procurer à son souverain tous les bonheurs.</p>
+              <p rend="stanza" n="2">"Śrī amoureuse a fatigué mon bien-aimé !" C'est dans cette pensée, semble-t-il, que Bhāratī, sans jalousie, lui fit boire le nectar des śāstras.</p>
+              <p rend="stanza" n="3"> II reçut de son souverain un palanquin, une coupe, une épée, une aiguière, un grand vase à boire, une ceinture, [le tout] en or, un éventail en plumes de paon et d'autres insignes.</p>
+              <p rend="stanza" n="4">Ayant sa propre dévotion affermie ..., il a érigé, pour la joie des fidèles, Viṣṇu sous le nom de Śrī Pundarīkākṣa.</p>
+              <p rend="stanza" n="5">Et il a prononcé cette parole, lui, sage comme Vācaspati, habile dans les règles morales, inébranlable dans la pratique des belles actions :</p>
+              <p rend="stanza" n="6">"Ici Śrī Puṇḍarākākṣa doit être protégé par ceux qui aspirent au mérite spirituel. Qu'ils réfléchissent à cette vérité : celui qui protège le Dharma est protégé par lui.</p>
+              <p rend="stanza" n="7">"Ceux qui enlèveront ici à Hari ce qui lui a été donné par fondation, esclaves, etc., cuiront dans l'Avīci et les autres enfers aussi longtemps que dureront le soleil et la lune.</p>
+              <p rend="stanza" n="8">"Les gens de bien, désireux de bonnes œuvres, qui protégeront toujours ce qui appartient à ce dieu [iront] au séjour de Visnu."</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Louis Finot (<bibl rend="omitname"><ptr target="bib:Finot1932_01"/><citedRange unit="page">2-4</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom from the estampage EFEO n. 288. </p>
+	 <listBibl type="primary">
+    
+	    <bibl n="LF">
+      <ptr target="bib:Finot1932_01"/><citedRange unit="page">2-4</citedRange>
+    </bibl>
+	</listBibl>
+          
+          </div>
+        </body>
+    </text>
+</TEI>

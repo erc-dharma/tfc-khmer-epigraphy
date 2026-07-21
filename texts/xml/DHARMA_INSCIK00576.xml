@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 576. Inscription from Angkor Thom, 9th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+               <persName ref="part:dogo">
+                  <forename>Dominic</forename>
+                  <surname>Goodall</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00576.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the ninth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-07-21" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+<p><!-- kuch: The language of lines 1-3 is unknown. -->
+  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>
+</p>
+                   <lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="4"/><milestone n="a" unit="column"/>vikramāntaṁ dadhan nāma</l>
+<l n="b"><milestone n="b" unit="column"/>samarādiśriyojjvalam</l>
+<l n="c" enjamb="yes"><lb n="5"/><milestone n="a" unit="column"/>mātulo yasya bhavyaś śrī</l>
+<l n="d"><milestone n="b" unit="column"/>-yaśovarmmamahīpateḥ <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="6"/><milestone n="a" unit="column"/>teneyaṁ pratimā viṣṇoḥ</l>
+<l n="b"><milestone n="b" unit="column"/>prabhaviṣṇor maharddhinā</l>
+<l n="c" enjamb="yes"><lb n="7"/><milestone n="a" unit="column"/>= = tā sthāpitā śānta</l>
+<l n="d"><milestone n="b" unit="column"/>-yaśaśśuddhendumūrttinā <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="3" met="unidentified">
+<l n="a"><lb n="8"/><milestone n="a" unit="column"/><gap reason="lost" extent="unknown" unit="character"/>jagatāṁ nāthaṁ</l>
+<l n="b"><milestone n="b" unit="column"/>taṁ grāvamahāhradasthite viṣṇau</l>
+<l n="c"><lb n="9"/><milestone n="a" unit="column"/><gap reason="lost" unit="character" extent="unknown"/></l>
+<l n="d"><milestone n="b" unit="column"/>tandulam arddhāḍhakam tasmai <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="10"/><milestone n="a" unit="column"/>= = = = -+ viṣṇo<milestone n="b" unit="column" break="no"/>r</l>
+<l n="b">vvitīrṇṇan tena ya-=</l>
+<l n="c"><lb n="11"/><milestone n="a" unit="column"/>====-++=</l>
+<l n="d"><milestone n="b" unit="column"/>yathā tan no vināśitam <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="5" met="mālinī">
+<l n="a"><lb n="12"/><milestone n="a" unit="column"/>------+++-++-+nta<milestone n="b" unit="column" break="no"/>ś</l>
+<l n="b">ciravibhavavibhutvaṁ bhūtale lipsamānā</l>
+<l n="c"><lb n="13"/><milestone n="a" unit="column"/>------+++-++-teṣu</l>
+<l n="d"><milestone n="b" unit="column"/>ripudhanavā[j]am mā kuruddhvaṁ cireṇa <g ref="sym:floret" type="punctuation">.</g></l>
+</lg>
+                   <p xml:lang="okz-Latn">
+   <lb n="14"/>... sī ryyūḥ tai paroṅ kvan pān neḥ ... neḥ syaṅ
+                      <lb n="15"/>... toy khe katha pradhāna sī ... yattataṁ
+                      <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="18"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="20"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="21"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="22"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="23"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="24"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="25"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="26"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="27"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="28"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="29"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="30"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="31"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="32"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="33"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="34"/>... qnak vraḥ vvaṁ Āc ti pre nā jaṁras cval
+                      <lb n="35"/>... thve devakāryya gus neḥ khñuṁ ta Aṁpal neḥh ... jvan ta vraḥ
+                      <lb n="36"/>Añ jva nā Āgama nai ... gu se <space unit="character" quantity="9"/> <g ref="sym:doubleBar" type="punctuation">.</g><g ref="sym:floret" type="punctuation">.</g>
+                   </p>     
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Finot1925_06"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Finot1925_06">
+ 	<p n="1-3"><gap reason="lost"/></p>
+              <p rend="stanza" n="1">Portant un nom qui se terminait par vikrama, commençait par samara et était tout brillant de Śrī, celui qui allait être l'oncle maternel de ce roi Śrī Yaśovarman.</p>
+              <p rend="stanza" n="2">par cet homme puissant, dont la forme était celle d'une lune pure et d'une gloire paisible, fut érigée cette statue du resplendissant Viṣṇu.</p>
+              <p rend="stanza" n="3">... le protecteur des mondes, Viṣṇu se dressant dans un grand bassin de pierre ... à lui [est assigné] un demi-āḍhaka de riz.</p>
+              <p rend="stanza" n="4">... ce qui a été transféré par lui à Viṣṇu, que cela ne soit pas détruit . . .</p>
+              <p rend="stanza" n="5">[Vous qui] ambitionnez une puissance et une richesse de longue durée sur la terre, ne faites pas pour longtemps un butin (?) de la richesse des ennemis.</p>
+              <p n="14-33"><gap reason="lost"/></p>
+              <p n="34-36">... les gens du temple, qu'on ne souffre pas qu'ils servent à nettoyer (?), entrer serviteurs qui offrir au dieu. Ces serviteurs qui ... offrir au dieu ...</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Louis Finot (<bibl rend="omitname"><ptr target="bib:Finot1925_06"/><citedRange unit="page">307-309</citedRange></bibl>) with a French translation. The Sanskrit part is re-edited here by Dominic Goodall from the estampage EFEO n. 427. </p>
+	 <listBibl type="primary">
+    
+	    <bibl n="LF">
+      <ptr target="bib:Finot1925_06"/><citedRange unit="page">307-309</citedRange>
+    </bibl>
+	</listBibl>
+           <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">160-161</citedRange>
+    </bibl>
+          </div>
+        </body>
+    </text>
+</TEI>
