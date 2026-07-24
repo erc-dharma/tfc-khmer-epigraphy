@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 583. Stela from Prasat Baphuon, 10th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00583.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-07-24" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+<lg n="1" met="anuṣṭubh"><milestone type="pagelike" unit="item" n="A"/><label xml:lang="eng">Face A</label>
+<l n="a"><lb n="A1"/><milestone unit="column" n="a"/><g ref="sym:gomutraInitial" type="punctuation">.</g><g ref="sym:doubleBar" type="punctuation">.</g>namo stu ta[s](mai) [ru](drā)ya</l>
+<l n="b"><milestone unit="column" n="b"/>yadarddhāṅgaṁ ha(ri)r ddadhau</l>
+<l n="c"><lb n="A2"/><milestone unit="column" n="a"/>kālakūṭaviṣo[ddāma]</l>
+<l n="d"><milestone unit="column" n="b"/>dāhasaṁha(ra)ṇā(d) iva <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="A3"/><milestone unit="column" n="a"/>Āsīt kṣitipati[pālo]</l>
+<l n="b"><milestone unit="column" n="b"/>vikramair yyas trivikramaḥ</l>
+<l n="c"><lb n="A4"/><milestone unit="column" n="a"/>nāmnā śrījaya[varmme]ti</l>
+<l n="d"><milestone unit="column" n="b"/>niśśeṣadvīparātpatiḥ <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+     <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="A5"/><milestone unit="column" n="a"/>kāntyā madanasā[manya]<milestone unit="column" n="b" break="no"/>s</l>
+<l n="b">sārvvas sarvvaguṇākaraḥ</l>
+<l n="c"><lb n="A6"/><milestone unit="column" n="a"/>Ekagrāmam i[vāra]kṣa<milestone unit="column" n="b" break="no"/>d</l>
+<l n="d">urvvīñ cānanyaśāsanām <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="A7"/><milestone unit="column" n="a"/>tasya sūnur anūna[śrī]<milestone unit="column" n="b" break="no"/>ś</l>
+<l n="b">śrīndrāyudha Itīritaḥ</l>
+<l n="c" enjamb="yes"><lb n="A8"/><milestone unit="column" n="a"/>prāg eva campā[dhipa]ti</l>
+<l n="d"><milestone unit="column" n="b"/>-grahaṇe labdhavikramaḥ <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="A9"/><milestone unit="column" n="a"/>tīrttvā kālam va(yo)[vr̥]ddhau</l>
+<l n="b"><milestone unit="column" n="b"/>śivabhaktiparāyanaḥ</l>
+<l n="c"><lb n="A10"/><milestone unit="column" n="a"/>gantā liṅgapu(ra)ñ citra<milestone unit="column" n="b" break="no"/>n</l>
+<l n="d">tapaḥ kaṣṭañ cakāra saḥ <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="A11"/><milestone unit="column" n="a"/>tataś śivājñayā liṅga<milestone unit="column" n="b" break="no"/>m</l>
+<l n="b">aiśan niṣkalaliṅgataḥ</l>
+<l n="c"><lb n="A12"/><milestone unit="column" n="a"/>lavan tat sthāpi[ta]n t[e]na</l>
+<l n="d"><milestone unit="column" n="b"/>santūnāmni [p]ure mudā <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="A13"/><milestone unit="column" n="a"/>saṁsthāpya prādi(śad) [bha](kt)yā</l>
+<l n="b"><milestone unit="column" n="b"/>śrīmalliṅgapureśvare</l>
+<l n="c"><lb n="A14"/><milestone unit="column" n="a"/>sarvvadravyāni bhr̥ty[ā]ṁś ca</l>
+<l n="d"><milestone unit="column" n="b"/>devaṁ śrīśikhareśvaram <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="A15"/><milestone unit="column" n="a"/>tatpotro hariv[ā]hākhyo</l>
+<l n="b"><milestone unit="column" n="b"/>yaś śrīrājendravarmmaṇaḥ</l>
+<l n="c"><lb n="A16"/><milestone unit="column" n="a"/>bhr̥tyo rasarttuvasi[bhi]<milestone unit="column" n="b" break="no"/>r</l>
+<l n="d">llabdha(rā)jya(sya) dhīdhanaḥ <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="A17"/><milestone unit="column" n="a"/>nītismr̥timatau bhūpe</l>
+<l n="b"><milestone unit="column" n="b"/>prajā[pā](la)natatpare</l>
+<l n="c"><lb n="A18"/><milestone unit="column" n="a"/>dharmmamārggaiḥ kr̥tgay[u]gā</l>
+<l n="d"><milestone unit="column" n="b"/>kr̥tau kaliyuge tadā <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="A19"/><milestone unit="column" n="a"/>punar nnivedayā(m) āsa</l>
+<l n="b"><milestone unit="column" n="b"/>harivāho mahāyaśāḥ</l>
+<l n="c"><lb n="A20"/><milestone unit="column" n="a"/>svapitāmahapunyar[ddhy]ai</l>
+<l n="d"><milestone unit="column" n="b"/>praśastaṁ sthāpitan tadā <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="A21"/><milestone unit="column" n="a"/>ye kalpanāṁ vil[umpanti]</l>
+<l n="b"><milestone unit="column" n="b"/>nr̥paśāsanakālpitām</l>
+<l n="c"><lb n="A22"/><milestone unit="column" n="a"/>te mahānarakaṁ y[āntu]</l>
+<l n="d"><milestone unit="column" n="b"/>yāvac candrārkkabhāḥ sthitaḥ <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <p xml:lang="okz-Latn"><!-- kuch: This line follows the line C16. -->
+                     <lb n="A23"/>nau ge ta vvaṁ thve roha [paripāla]na toy kalpanā g[e] dau ta naraka lvah (sū)[ryya] 
+                   </p>
+                   <lg n="12" met="anuṣṭubh"><milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Face B</label>
+<l n="a"><lb n="b1"/>(y)[e] varddhayanti tat pu(ṇyaṁ)</l>
+<l n="b"><lb n="b2"/>[ka]lpa(nā)ṁ pālayanti (ca)</l>
+<l n="c"><lb n="b3"/>t[e] sarvve svarggam āyantu</l>
+<l n="d"><lb n="b4"/>phalabhāgam avāpnuyuḥ <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <p xml:lang="okz-Latn">
+   <lb n="b5"/>{1}12 śaka nu dhūli vraḥ
+                      <lb n="b6"/>[pāda dhū](l)ī jeṅ vraḥ kamra-
+                      <lb n="b7"/>[eṅ Añ pa]rameśvara sve-
+                      <lb n="b8"/>[y vraḥ rā]jya mān rajapu-
+                      <lb n="b9"/>[tra ta jmaḥ] (ka)[ṁ]steṅ Añ śrī
+                      <lb n="b10"/>(I)ndrāyudha senāpati
+                      <lb n="b11"/>ni dau cap U{1}ka teṁ
+                      <lb n="b12"/>man viṅ dau p[v]a(s) (A)nrā-
+                      <lb n="b13"/>y liṅga(pura) [man] vraḥ
+                      <lb n="b14"/>śivājñā pre yok
+</p>
+                   <p xml:lang="okz-Latn"><milestone type="pagelike" unit="item" n="C"/><label xml:lang="eng">Face C</label>
+                    <lb n="C1"/>neḥ liṅga neḥ nā (Ā)-
+                      <lb n="C2"/>{2} paṁnvasa ta kaCi-
+                      <lb n="C3"/>k {2} (vra)ḥ kamra[t]e-
+                      <lb n="C4"/>ṅ (A)[ñ śrī ni]ṣkala (p)re
+                      <lb n="C5"/>(sthā)[panā ta gi] mok {1}
+                      <lb n="C6"/> (sthā)[panā ta] gi neḥ sr[u]-
+                      <lb n="C7"/>k [santū Aṁno]y dau ta [kaṁ]-
+                      <lb n="C8"/>steṅ liṅgapura ma[n ta]
+                      <lb n="C9"/>gi vraḥ (rā)jya dhū[li jeṅ vraḥ]
+                      <lb n="C10"/>kamrateṅ A[ñ śrī rājendrava]- 
+                      <lb n="C11"/>rmmadeva (mā)[n] {2} [ta jmaḥ]
+                      <lb n="C12"/>kaṁsteṅ Añ [n](r̥)[pen]dr[āyudha]
+                      <lb n="C13"/>nivedana leṅ vvaṁ (Ā)[c ti] {1}
+                      <lb n="C14"/>p trap vvaṁ Āc ti (Ā){1}
+                      <lb n="C15"/>prasāda O(y) {3}
+                      <lb n="C16"/>{3} (na) {4}
+                   </p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1964_03"></rdg>
+                      <rdg source="bib:Jacques1976_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1964_03">
+ 	<p rend="stanza" n="1">Hommage à ce Rudra à qui Hari a donné la moitié de son corps, comme pour apaiser la violente brûlure causée par le poison Kālakūṭa.</p>
+              <p rend="stanza" n="2">Il fut un roi, (véritable) Trivikrama par ses prouesses (vikrama) nommé Śrī Jayavarman, maître des rois de tous les continents.</p>
+              <p rend="stanza" n="3">(Inspirant) la passion par sa beauté, mine de toutes les vertus, il gouvernait la terre comme un village unique, n'obéissant à l'ordre de nul autre.</p>
+              <p rend="stanza" n="4">Son fils (ayant) ... au complet, nommé Śrī Indrāyudha, parvint à la puissance en s'emparant du roi de Campā.</p>
+              <p rend="stanza" n="5">Étant, au cours du temps, parvenu à la vieillesse, et s'étant consacré à la dévotion à Śiva, il se rendit à Liṅgapura ... et pratiqua un ascétisme rigoureux.</p>
+              <p rend="stanza" n="6">Ensuite, par ordre de Śiva, il érigea avec joie dans la ville nommée Santūpura ce liṅga d'Īśa, fragment d'un liṅga mutilé (ou du Niṣkalaliṅga).</p>
+              <p rend="stanza" n="7">Ayant fait ériger . . . . . . . . . . dans le vénérable Liṅgapureśvara .............. le dieu Śrī Śikhareśvara.</p>
+              <p rend="stanza" n="8">Riche d'intelligence, (un descendant du précédent) fut ..... . de Śrī Rājendravarman qui avait obtenu la royauté.</p>
+              <p rend="stanza" n="9">.... dévoué (au bien) des créatures ........ dans le Kaliyuga.</p>
+              <p rend="stanza" n="10">... Harivāha possédant une grande renommée ..... la stèle inscrite (praśasta) érigée alors.</p>
+              <p rend="stanza" n="11">..... fixée par ordre du roi ............ tant que brilleront le soleil et la lune.</p>
+              <p n="A23">[Ceux qui n'agiront pas] conformément à la fondation, ceux-là iront en enfer.</p>
+              <p rend="stanza" n="12">Ceux qui font prospérer cette œuvre méritoire et assurent la garde de la fondation, que tous ceux-là aillent au ciel et obtiennent une part du fruit (de l'œuvre).</p>
+              <p n="b5-b10">En x12 Śaka, S. M. Parameśvara, jouissant de la royauté sainte, eut un fils (nommé) Steṅ Añ Śrī Indrāyudha ....</p>
+              <p n="C1-C11">Ce liṅga-ci .......... les religieux ......... V. K. . . . . . , Niṣkala ...... venir ........ ce pays, qu'il aille au Kamsteṅ Liṅgapura ......... sous le règne de S. M. ..... , varmadeva ...</p>
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Jacques1976_01">
+ 	<p rend="stanza" n="1">Salutation à ce Rudra, en qui Hari a placé la moitié de Son corps, comme pour apaiser la violente brûlure causée par le poison Kālakūṭa.</p>
+              <p rend="stanza" n="2">Il fut un Protecteur des rois, Trivikrama par Ses prouesses nommé Śrī Jayavarman, maître des rois de tous les continents.</p>
+              <p rend="stanza" n="3">Semblable à Madana par la beauté, bon pour tous, réceptacle de toutes les qualités, Il protégeait aussi, comme si c'eût été un seul village, la Terre, qui ne suivait les lois d'aucun autre.</p>
+              <p rend="stanza" n="4">Son fils, dont la Fortune n'était pas inférieur, se nommait Śrī Indrāyudha ; il acquit la puissance de bonne heure en s'emparant du roi de Campā.</p>
+              <p rend="stanza" n="5">Ayant traversé du temps, entièrement possédé par l'Amour de Śiva lorsqu'il fut devenu vieux, il se rendit dans le merveilleux Liṅgapura et y pratiqua un tapas rigoureux.</p>
+              <p rend="stanza" n="6">Alors, sur l'ordre de Śiva, ce liṅga d'Īśa, fragment d'un niṣkalaliṅga, il l'a fait ériger avec joie dans le temple nommé Santū.</p>
+              <p rend="stanza" n="7">L'ayant fait ériger, il donna avec Amour à l'auguste Seigneur de Liṅgapura le dieu Śrī Śikhareśvara, ainsi que tous ses biens et ses serviteurs.</p>
+              <p rend="stanza" n="8">Son petit-fils, nommé Harivāha, fut le serviteur plein d'intelligence de de Śrī Rājendravarman, qui obtint la royauté en vasu-saisons-saveurs.</p>
+              <p rend="stanza" n="9">Le roi, qui avait compris la science du gouvernement, était tout entier occupé à la protection de Ses sujets en suivant les voies du Dharma, et le Kaliyuga avait alors pris l'apparence du Kr̥tayuga.</p>
+              <p rend="stanza" n="10">A nouveau il a fait connaître, Harivāha le très glorieux, pour accroître les mérites de son aïeul, la stèle inscrite qui avait alors été érigée.</p>
+              <p rend="stanza" n="11">Ceux qui détruiront cette fondation organisée sur ordre du Roi, qu'ils aillent dans le grand Naraka et qu'ils y demeurent tant que brilleront la lune et le soleil.</p>
+               <p rend="stanza" n="12">Ceux qui font augmenter cette œuvre méritoire et qui protègent cette fondation, qu'ils aillent tous au ciel et obtiennent une part de (son) fruit.</p>
+              <p n="b5-b13">En x12 Śaka, S. M. Monseigneur Parameśvara jouissant de la royauté sainte, il y eut un fils de (ce) roi nommé Kaṁteṅ Añ Śrī Indrāyudha, qui fut d'abord général pour aler s'emparer de ...; puis il s'en revint pour entrer en religion dans les environs de Liṅgapura.</p>
+              <p n="b14-C8">Alors, un ordre auguste de Śiva (lui) enjoignit de prendre ce liṅga en ce lieu, près de (l'ermitage) des religieux qui sont (affectés au service) de Monseigneur Śrī Niṣkala, (lui) enjoignit de (Le) faire installer (ici), de venir L'installer ici, dans le sruk Santū ; les (dons) vont au Kaṁsteṅ de Liṅgapura.</p>
+         <p n="C8-A23">Alors, sous la royauté sainte de S.M. Monseigneur Śrī Rājendravarman-deva, (il y eut) un serviteur nommé Kaṁsteṅ Añ (Nr̥pendrāyudha) qui fit connaître qu'il était interdit de ..., qu'il était interdit de ... ; ceux qui ne (protégeront pas cette fondation) selon le règlement, ceux-là iront dans le Naraka, tant que le soleil [brillera].</p>
+           </div>
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1964_03"/><citedRange unit="page">84-87</citedRange></bibl>) with a French translation, re-edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1976_01"/><citedRange unit="page">353-357</citedRange></bibl>) with a French translation ; re-edited here by Kunthea Chhom from the estampage EFEO n. 434 and n. 1274.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1964_03"/><citedRange unit="page">84-187</citedRange>
+    </bibl>
+	    <bibl n="CJ">
+      <ptr target="bib:Jacques1976_01"/><citedRange unit="page">353-357</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
