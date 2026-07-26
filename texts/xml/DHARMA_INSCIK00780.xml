@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 780. Doorjamb from Prei Cum, 10th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00780.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-07-26" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<div type="textpart" n="A"><head xml:lang="eng">Upper right part</head>
+                   <p>
+   <lb n="A1"/>...
+   <lb n="A2"/>...
+   <lb n="A3"/>{8} yaśodha {14}
+   <lb n="A4"/>ratnā[ti]śaya ma {5} nā loḥh @ pratyaya {2}
+   <lb n="A5"/>{5} ta vāp ratnā[ti]śaya {2}k sre Ai vraḥ karu-
+   <lb n="A6"/>[ṇā] {4} dār Āryasiddhi lvo {1} lva vāp ratnātiśaya lva {1}
+   <lb n="A7"/>{7} sru 40 10 4 @ thmur dnyaṁ 2 canlyāk thmi vlaḥ tap hā-
+   <lb n="A8"/>[t] {4} gi rājya dhūli [vraḥ pā]da dhūli jeṅ vraḥ kaṁmra[teṅ Añ]
+   <lb n="A9"/>[stāc] dau {10} kaṁsteṅ Añ {4} paṅgaṁ
+   <lb n="A10"/>thpvaṅ nivedana {9} bhagavatī vraḥ paryyaṅ {2} ta gi
+   <lb n="A11"/>{5} dhūli jeṅ [vraḥ kamrateṅ] Añ śrīīśānavarmma {3}
+   <lb n="A12"/>{10} śi {7} vraḥ kralā Arccaṇā nā
+   <lb n="A13"/>{10} nu kaṁsteṅ jagat liṅgapura nu
+   <lb n="A14"/>{8}ṅ Añ śrīsamarādhipativarmma pre thve roḥh
+   <lb n="A15"/>{8} raṅko sru praluṅ je 2 slā slik 2 kaṁsteṅ {1}
+   <lb n="A16"/>{7} yau I {5} kaṁsteṅ jagat liṅgapura {1}
+   <lb n="A17"/>{10}ryya{1} sre caṁkā traya ti vāp {2}
+   <lb n="A18"/>{15} deha vāp vrata vāp {2}
+   <lb n="A19"/>{11}y jvan ta vraḥ kamrateṅ Añ śi-
+   <lb n="A20"/>valiṅga nu bhagavatī @ sre pada
+   <lb n="A21"/>{4} mratāñ śr[ī]dr̥ḍha
+   <lb n="A22"/>{4}ñ I {1} ta vraḥ kamra-
+   <lb n="A23"/>teṅ Añ śivaliṅga nu bhagavatī {2}
+   <lb n="A24"/>sre jaṁnvan vāp pi vāp sa vāp
+   <lb n="A25"/>nau {2} khloñ {4}nnek
+   <lb n="A26"/>ta vraḥ kamrateṅ Añ śivali[ṅga]
+   <lb n="A27"/>nau qnak ta {6}
+   <lb n="A28"/>khñuṁ saptāvi {8}
+   <lb n="A29"/>{4} gol ti…
+   <lb n="A30"/>{18} vraḥ neḥ srac ta {9}
+   <lb n="A31"/>{10} śivaliṅga {1} Oy {15}
+   <lb n="A32"/>{16} qnak …
+   <lb n="A33"/>{10} ti duñ {3} n jli {9}
+   <lb n="A34"/>{8} thmur dnyaṁ toy sre ta vraḥ {12}
+</p>
+</div>
+                   <div type="textpart" n="B"><head xml:lang="eng">Middle left part</head><!-- kuch: GC : De la ligne 20 à la ligne 31, la ligne gauche de la pierre est occupée par une liste de tai disposée sur deux colonnes.  -->
+                   <p>
+   <lb n="B1"/><milestone unit="column" n="a"/><milestone unit="column" n="b"/>
+                      <lb n="B2"/><milestone unit="column" n="a"/>{2} deva<milestone unit="column" n="b"/>{8}
+                      <lb n="B3"/><milestone unit="column" n="a"/>gho kannr̥<milestone unit="column" n="b"/>gho {2} yā
+                      <lb n="B4"/><milestone unit="column" n="a"/>gvāl taṁker<milestone unit="column" n="b"/>gvāl kaṁIl
+                      <lb n="B5"/><milestone unit="column" n="a"/>gvāl kanrauv<milestone unit="column" n="b"/>tai prasiddhi
+                      <lb n="B6"/><milestone unit="column" n="a"/>tai ka {1}<milestone unit="column" n="b"/>tai kañjā
+                      <lb n="B7"/><milestone unit="column" n="a"/>tai pandhan<milestone unit="column" n="b"/>tai pandān
+                      <lb n="B8"/><milestone unit="column" n="a"/>tai kandep<milestone unit="column" n="b"/>tai vṅya vrai
+                      <lb n="B9"/><milestone unit="column" n="a"/>tai panāsa<milestone unit="column" n="b"/>tai Utpal
+                      <lb n="B10"/><milestone unit="column" n="a"/>tai mālikā<milestone unit="column" n="b"/>tai Ādi
+                      <lb n="B11"/><milestone unit="column" n="a"/>tai ka...<milestone unit="column" n="b"/>...
+                      <lb n="B12"/><milestone unit="column" n="a"/>tai qgat<milestone unit="column" n="b"/>tai {4}
+                      <lb n="B13"/>tai kansot
+                   </p>
+                   </div>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1954_02"></rdg>
+                   </app>
+                   </listApp>  
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+ 	<p n="1-11"></p>
+              
+         </div> 
+           <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">150-151</citedRange></bibl>) without translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 1005.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">150-151</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>

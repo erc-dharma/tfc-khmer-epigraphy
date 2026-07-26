@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 650. Stela of Prasat Preah Theat Preah Srei, 10th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00650.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-07-26" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p><milestone type="pagelike" unit="face" n="A"/><label xml:lang="eng">Face A</label>
+   <lb n="A1"/>{5} navamī ket jyeṣṭha Ādityavā-
+   <lb n="A2"/>[ra] nu mān vraḥ śāsana dhūli vraḥ pāda dhūli jeṅ vraḥ
+   <lb n="A3"/>kamrateṅ Añ śrījayavarmmadeva ta kamrateṅ A-
+   <lb n="A4"/>ñ vraḥ guru pandval ta teṅ pit thṅe nu vāp pitt nu vāp
+   <lb n="A5"/>dann nu vāp harivala nu vāp so nu vāp svasti nu vāp
+   <lb n="A6"/>haridharmma pi psaṁ gaṇa vraḥ kaṁmrateṅ Añ śivaliṅga nu
+   <lb n="A7"/>kaṁmrateṅ jagat rṅāll <g ref="sym:bullet-hollow" type="punctuation">.</g> caṁnāṁ teṅ pit thṅe raṅko
+   <lb n="A8"/>śvetatandula liḥ vyar pratidina <g ref="sym:bullet-hollow" type="punctuation">.</g> saṅkrānta raṅko thlva-
+   <lb n="A9"/>ṅ vyar je vyar mimvāy chnāṁ <g ref="sym:bullet-hollow" type="punctuation">.</g> canlyāk vlaḥ I niva-
+   <lb n="A10"/>ndha khloñ Āgaṁ <g ref="sym:bullet-hollow" type="punctuation">.</g> raṅko ta roḥh neḥh O-
+   <lb n="A11"/>y nu srū kaṁtiṅ <g ref="sym:bullet-hollow" type="punctuation">.</g> srū taṁve sre Oy pūjā
+   <lb n="A12"/>vraḥ kaṁmrateṅ Añ śivaliṅga <g ref="sym:bullet-hollow" type="punctuation">.</g> Oy
+   <lb n="A13"/>raṅko thlvaṅ I mimvāy chnāṁ pi praḥ ta vraḥ It kamra-
+   <lb n="A14"/>teṅ jagat rṅāl <g ref="sym:bullet-hollow" type="punctuation">.</g> khñuṁ Aṁmraḥ ti teṅ pit
+   <lb n="A15"/>thṅe nu cau phoṅ cāṁ caṁnāṁ <g ref="sym:bullet-hollow" type="punctuation">.</g> si bhima si pandān
+   <lb n="A16"/>si kanteṅ <g ref="sym:bullet-hollow" type="punctuation">.</g> si kantvoh si kanrau si saṁ-
+   <lb n="A17"/>vār si dharmmapāla si ryyū si kandeṅ si
+   <lb n="A18"/>jīva si kanso si phsok si kaṁpur si taṅker
+   <lb n="A19"/>si kaṁvit si kaṁvrāṁ si saquy si kaṁvis si Īśva-
+   <lb n="A20"/>rabhāva si jraney si raṁnoc si kaṁvit sot si
+   <lb n="A21"/>kaṁprāt si dharmma si slācra si suparṇṇa si pandān so-
+   <lb n="A22"/>t si panlās si dharmmapāla sot si Aṁmr̥ta si saU-
+   <lb n="A23"/>y {4}p si khnet si kaṁvai si kanteṅ so-
+   <lb n="A24"/>[t] {7} Aṁlaḥ si teṅ si kaṁpañ si
+   <lb n="A25"/>{10}t si pravāt si kaṁprāt so-
+   <lb n="A26"/>t si chpoṅ s[i] A[ṁ]mrṭa sot si Aṁmr̥ta sot si
+   <lb n="A27"/>panheṁ si kand{1} <g ref="sym:bullet-hollow" type="punctuation">.</g> tai thleṁ tai Utpala tai dharmma
+</p>
+                   <p><milestone type="pagelike" unit="face" n="B"/><label xml:lang="eng">Face B</label>
+   <lb n="B1"/>... (tai) ...
+   <lb n="B2"/>... (tai kanso) tai ...
+   <lb n="B3"/>(tai) ... (tai kaṁvrau) ...
+   <lb n="B4"/>{1} tai {2} (tai) {1}ndā(n· so)t· (tai ka)ndeń· ... 
+   <lb n="B5"/>(tai) kanso tai kañcū (tai kansrāc·) (tai) ... 
+   <lb n="B6"/>kansrāc· sot· ... sot· tai phEṁ tai kaṁ-
+   <lb n="B7"/>prvāt· tai kaṁpit· tai {1}(ndan· tai) kan·Ā tai ka(nso)    
+                      <lb n="B8"/>{1} tai thqyak phsaṁm si 40 5 phsaṁm tai 20 10 9 phsaṁ-
+   <lb n="B9"/>m phoṅ si nu taiy savālavr̥ddha 80 4 krapi
+   <lb n="B10"/>{1} 4 thmur 10 sre daṁnaṅ sre tem svāy sre
+   <lb n="B11"/>yok valvval neṅ sre vrai sre vraḥ rkā
+   <lb n="B12"/>hoṅva sre jeṅ kaṁveṅ vraḥ sre ti vāp so {1}
+   <lb n="B13"/>jvan sre ti vāp hari jvan <g ref="sym:doubleBar-ornate" type="punctuation">.</g><g ref="sym:doubleBar-ornate" type="punctuation">.</g>
+   <lb n="B14"/>tai kaṁp[i]t tai khnet si kaṁvaiy <g ref="sym:floret" type="punctuation">.</g>
+   <lb n="B15"/>samaiy kaṁmrateṅ Añ vraḥ guru khñuṁ vāp harivala
+   <lb n="B16"/>Ājya kaṁvrau chṅap vasata si kañjet si kaṁbhlu
+   <lb n="B17"/>si kanqāt qnāk ta lak khñuṁ te[ṅ] pit thṅe nū khñuṁ vāp
+   <lb n="B18"/>Ājya nauv noḥ qnāk ta p[ī]de nu paṁpā-
+   <lb n="B19"/>t nauv noḥ pāp qnāk ta saṁlāp vrāhmana
+   <lb n="B20"/>nu pāpa saṁlā[p] qnāk kantai ta tāta {3}
+   <lb n="B21"/>noḥ vvaṁ svatantra ta mū[la] <g ref="sym:doubleBar-ornate" type="punctuation">.</g><g ref="sym:floret" type="punctuation">.</g>
+</p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1953_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+ 	<p n="A1-A7">En ... neuvième jour de la lune croissante de Jyeṣṭha, dimanche, il y eut une ordonnance de S. M. Śrī Jayavarmadeva, adressé au K. A. Vraḥ Guru, enjoignant à Teṅ Pit Thṅe, Vāp Pit, Vāp Dan, Vāp Harivala, Vāp So, Vāp Svasti et Vāp Haridharma de réunir les biens de V.K.A. Śivaliṅga à ceux de K.J. Rṅāl.</p>
+             <p n="A7-A14">Redevances de Teṅ Pit Thṅe : 2 liḥ de riz blanc par jour ; 2 thlvaṅ et 2 je de riz au nouvel an, chaque année ; 1 paire de vêtements assignée par Khloñ Āgaṁ. Le riz blanc mentionné ci-dessus, elle le fournit au moyen du paddy dû ; le paddy des cultivateurs de rizière, elle le donne pour le culte de V.K.A. Śivaliṅga. Elle donne 1 thlvaṅ de riz blanc par an pour répandre sur les saintes briques de K.J. Rṅāl.</p>
+              <p n="A14-B8">Esclaves et surveillants (aṁraḥ) que Teṅ Pit Thṅe et ses petits-enfants affectent au service des redevances (suit la liste).</p>
+              <p n="B8-B14">Total des si, 45 ; total des tai, 39 ; total général des si et des tai, enfants et adultes, 84. Buffles ... ; bœuf, 10. Rizières (suit l'énumération à laquelle sont ajoutés 2 tai et 1 si).</p>
+              <p n="B15-B21">Ordre de K.A. Vraḥ Guru. Esclaves des Vāp Harivala, Ājya, Kaṁvrau, Chṅap, Vasata (liste de 3 si). Les gens qui voleront les esclaves de Teṅ Pit Thṅe et les esclaves de Vāp Ājya qui sont ici, les gens qui molesteront ou causeront du dommage ici, seront aussi coupables que les meurtriers de brâhmanes, aussi coupables que les assassins. Les femmes qui ... ne relèvent pas de l'autorité des mūla.</p>
+             </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1953_01"/><citedRange unit="page">170-172</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 717. The lines B1-B7 were not edited by George Cœdès.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">170-172</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
