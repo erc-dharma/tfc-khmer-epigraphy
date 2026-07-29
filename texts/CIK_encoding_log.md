@@ -114,7 +114,7 @@
 |K.	107 |kuch |pending |IC VI|
 |K.	108 |kuch |pending |IC VI|
 |K.	109 |kuch |done |Coedes 1911|
-|K.	110 |# |# |#|
+|K.	110 |kuch |done |ISCC|
 |K.	111 |kuch & chch |done |IC VI, Green 2014|
 |K.	112 |# |# |#|
 |K.	113 = K. 114 |# |# |#|
@@ -233,12 +233,14 @@
 |K.	183-36 |kuch |done |Chhom 2011; Jacques 2014|
 |K.	183-37 |kuch |done |Chhom 2011; Jacques 2014|
 |K.	183-38 |kuch |done |Chhom 2011; Jacques 2014|
-|K.	184 |# |# |#|
+|K.	184 |kuch |done |ISCC; Jacques 2014|
 |K.	185 |kuch |done |Chhom 2011; Jacques 2014|
-|K.	186 |# |# |#|
-|K.	187 |sapi |pendinc |IC I|
+|K.	186-1 |kuch |done |Chhom 2011; Jacques 2014|
+|K.	186-2 |kuch |done |Chhom 2011; Jacques 2014|
+|K.	187-1 |kuch |done |IC I; Jacques 2014|
+|K.	187-2 |kuch |done |IC I; Jacques 2014|
 |K.	188 |sapi |done  |NIC II-III|
-|K.	189 |# |# |#|
+|K.	189 |kuch |done |IC I; Chhom 2011; Jacques 2014|
 |K.	190 |sapi |done |ISCC IC VI|
 |K.	191 |chch |pending |IC VI|
 |K.	192 |sapi |done ||C VI|
@@ -246,7 +248,7 @@
 |K.	194 |chch |pending |Cœdès et Dupont 1943|
 |K.	195 |chch |done |IC VI|
 |K.	196 |kuch |done |IC VI|
-|K.	197 |# |# |#|
+|K.	197 |kuch |done |Unpublished|
 |K.	198 |sapi |pending |IC VI|
 |K.	199 |# |# |#|
 |K.	200 |# |# |#|
@@ -332,7 +334,7 @@
 |K.	266 |chch |done |Cœdès 1908; Mertens 2000|
 |K.	267 |chch |done |Cœdès 1908; Mertens 2000|
 |K.	268 |chch |done |Cœdès 1908; Mertens 2000|
-|K.	269 |# |# |#|
+|K.	269 |kuch |done |IC IV|
 |K.	270-1 |kuch |done |IC IV|
 |K.	270-2 |kuch |done |IC IV|
 |K.	270-3 |kuch |done |IC IV|
@@ -355,10 +357,10 @@
 |K.	277 |kuch |done |IC IV|
 |K.	278 |kuch |done |ISC|
 |K.	279 |kuch |done |ISCC|
-|K.	280 |# |# |#|
-|K.	281 |# |# |#|
-|K.	282 |# |# |#|
-|K.	283 |# |# |#|
+|K.	280 |kuch |done |ISCC|
+|K.	281 |kuch |done |ISCC|
+|K.	282 |kuch |done |ISCC|
+|K.	283 |kuch |done |ISCC|
 |K.	284-1|kuch |done |Cœdès 1951|
 |K.	284-2 |kuch |done |Cœdès 1951|
 |K.	284-3 |kuch |done |Cœdès 1951|
@@ -433,8 +435,8 @@
 |K.	293-41 |kuch |done |Groslier 1973|
 K.	294 |# |# |#|
 |K.	295 |# |# |#|
-|K.	296 |# |# |#|
-|K.	297 |# |# |#|
+|K.	296 |kuch |done |Cœdès  1962|
+|K.	297 |kuch |done |Cœdès  1962|
 |K.	298-1 |kuch |done |Cœdès 1911|
 |K.	298-2 |kuch |done |Cœdès 1911|
 |K.	298-3 |kuch |done |Cœdès 1911|
@@ -463,7 +465,13 @@ K.	294 |# |# |#|
 |K.	298-26 |kuch |done |Cœdès 1911|
 |K.	298-27 |kuch |done |Cœdès 1911|
 |K.	298-28 |kuch |done |Cœdès 1911|
-|K.	299 |# |# |#|
+|K.	299-1 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-2 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-3 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-4 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-5 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-7 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-1 |kuch |done |Cœdès  1911; NIC II-III|
 |K.	300 |chch |pending |ISCC; BEFEO XXV; IC IV|
 |K.	301 |# |# |#|
 |K.	302 |# |# |#|
@@ -473,13 +481,17 @@ K.	294 |# |# |#|
 |K.	303-4 |kuch |done |Lewitz 1971|
 |K.	303-5 |kuch |done |Lewitz 1972|
 |K.	303-6 |kuch |done |Lewitz 1973|
-|K.	303-3 |kuch |done |Lewitz 1972|
+|K.	303-7 |kuch |done |Lewitz 1972|
+|K.	303-8 |kuch |done |Lewitz 1973|
+|K.	303-9 |kuch |done |Lewitz 1975|
+|K.	303-10 |kuch |done |Lewitz 1974|
+|K.	303-11 |kuch |done |Lewitz 1974|
 |K.	304 |kuch |done |ISCC|
 |K.	305 |kuch |done |unpublished|
 |K.	306 |kuch |done |ISCC|
 |K.	307 |kuch |done |unpublished|
 |K.	308 |kuch |done |unpublished|
-|K.	309 |# |# |#|
+|K.	309 |kuch |done |#ISCC|
 |K.	310 |# |# |#|
 |K.	311 |sapi |pending |Jacques 2014|
 |K.	312 |sapi |done |Pou NIC II-III |
@@ -509,7 +521,7 @@ K.	294 |# |# |#|
 |K.	336 |kuch |done |Soutif 2009, no trans.|
 |K.	337 |kuch |done |Soutif 2009, no trans.|
 |K.	338 |kuch |done |Soutif 2009, no trans.|
-|K.	339 |# |# |#|
+|K.	339 |kuch |done |IC V|
 |K.	340 |kuch |done |IC VI|
 |K.	341-N |chch |done |IC VI|
 |K.	341-S |chch |done |IC VI|
@@ -517,7 +529,7 @@ K.	294 |# |# |#|
 |K.	343 |kuch |done |IC VI|
 |K.	344 |kuch |done |IC VI|
 |K.	345 |kuch |done |IC VI|
-|K.	346 |# |# |#|
+|K.	346 |kuch |done |ISCC|
 |K.	347 |kuch |done |IC VI|
 |K.	348 |sapi |done |IC V|
 |K.	349 |sapi |done |IC V|
@@ -535,7 +547,7 @@ K.	294 |# |# |#|
 |K.	359 |kuch |done |ISC|
 |K.	360 |kuch | done |IC V|
 |K.	361 |kuch |pending |unpublished|
-|K.	362 |# |# |#|
+|K.	362 |kuch |done |ISCC|
 |K.	363 |kuch |done |Barth 1903|
 |K.	364 |# |# |#|
 |K.	365 |kuch |done |Coedes 1956; Jacques 1962|
@@ -543,15 +555,15 @@ K.	294 |# |# |#|
 |K.	367 |kuch |done |Barth 1902|
 |K.	368 |kuch |done |Finot 1903|
 |K.	369 |chch |done |IC VI|
-|K.	370 |# |# |#|
+|K.	370 |kuch |done |IC VII|
 |K.	371 = K. 431 |chch |done |IC V|
-|K.	372 |# |# |#|
+|K.	372 |kuch |done |Unpublished|
 |K.	373 |kuch |done |IC VI|
 |K.	374 |chch |pending |IC VI|
 |K.	375 |kuch |done |Barth 1903|
-|K.	376 |# |# |#|
+|K.	376 |kuch |done |IC VII|
 |K.	377 |kuch |done |IC V|
-|K.	378 |# |# |#|
+|K.	378 |kuch |done |IC VII|
 |K.	379 |chch |done |IC VI|
 |K.	380-1 |kuch |done |IC VI|
 |K.	380-2 |kuch |done |IC VI|
@@ -611,11 +623,11 @@ K.	294 |# |# |#|
 |K.	429 |kuch |done |Finot 1912|
 |K.	430 |kuch | done |IC VI|
 |K.	431 = K. 371 |chch |done |IC V|
-|K.	432 |# |# |#|
+|K.	432 |kuch |done |IC II|
 |K.	433 |# |# |#|
 |K.	434 |# |# |#|
 |K.	435 |kuch |done |Finot 1915|
-|K.	436 |# |# |#|
+|K.	436 |kuch |done |IC IV|
 |K.	437 |kuch |done |IC IV|
 |K.	438 |kuch |done |IC IV|
 |K.	439-1 |kuch |done |IC IV|
@@ -677,7 +689,7 @@ K.	294 |# |# |#|
 |K.	476 |# |# |#|
 |K.	477 |# |# |#|
 |K.	478 |# |# |#|
-|K.	479 |# |# |#|
+|K.	479 |kuch |done |Unpublished|
 |K.	480 |kuch |pending |IC II|
 |K.	481 |# |# |#|
 |K.	482 |kuch |done |IC V|
@@ -720,7 +732,7 @@ K.	294 |# |# |#|
 |K.	519 |# |# |#|
 |K.	520 |kuch |done |Finot 1920|
 |K.	521 |# |# |#|
-|K.	522 |# |# |#|
+|K.	522 |kuch |done |IC V|
 |K.	523 |chch |done |IC III|
 |K.	524 |chch |done |IC III|
 |K.	525 |# |# |#|
@@ -728,9 +740,9 @@ K.	294 |# |# |#|
 |K.	527 |# |# |#|
 |K.	528 |kuch |done |Finot 1925, Goodall 2022|
 |K.	529 |# |# |#|
-|K.	530 |# |# |#|
+|K.	530 |kuch |done |IC II|
 |K.	531 |kuch |done |IC II, Cœdès 1951|
-|K.	532 |# |# |#|
+|K.	532 |kuch |done |Finot 1925|
 |K.	533 |# |# |#|
 |K.	534 |# |# |#|
 |K.	535 |# |# |#|
@@ -742,7 +754,7 @@ K.	294 |# |# |#|
 |K.	541-1 |kuch |done |IC III|
 |K.	541-2 |kuch |done |IC III|
 |K.	542 |kuch |done |IC III|
-|K.	543 |# |# |#|
+|K.	543 |kuch |done |Finot 1932|
 |K.	544 |# |# |#|
 |K.	545 |# |# |#|
 |K.	546 |# |# |#|
@@ -775,14 +787,14 @@ K.	294 |# |# |#|
 |K.	573 |dogo |done |Finot 1926|
 |K.	574 |dogo |done |Finot 1926|
 |K.	575 |dogo |done |Finot 1926|
-|K.	576 |# |# |#|
+|K.	576 |kuch |done |Finot 1925|
 |K.	577 |kuch |done |RS II|
 |K.	578 |# |# |#|
 |K.	579 |kuch |done |Finot 1925|
-|K.	580 |# |# |#|
+|K.	580 |kuch |done |IC VI|
 |K.	581 |# |# |#|
 |K.	582 |kuch |done |IC II|
-|K.	583 |chch |pending |IC VII|
+|K.	583 |kuch |done |IC VII|
 |K.	584 |# |# |#|
 |K.	585 |# |# |#|
 |K.	586 |# |# |#|
@@ -802,10 +814,10 @@ K.	294 |# |# |#|
 |K.	600 |kuch |done |IC II|
 |K.	601 |kuch |done |unpublished|
 |K.	602 |kuch |done |unpublished|
-|K.	603 |# |# |#|
+|K.	603 |kuch |done |IC IV|
 |K.	604 |kuch |done |Goodall 2019|
-|K.	605 |# |# |#|
-|K.	606 |# |# |#|
+|K.	605 |kuch |done |IC IV|
+|K.	606 |kuch |done |IC IV|
 |K.	607 |kuch |done |Soutif 2009|
 |K.	608 |kuch |done |Soutif 2009|
 |K.	609 |kuch |done |Finot 1928|
@@ -851,7 +863,7 @@ K.	294 |# |# |#|
 |K.	647 |# |# |#|
 |K.	648 |kuch|done |IC VI|
 |K.	649 |kuch |done |IC VI|
-|K.	650 |# |# |#|
+|K.	650 |kuch |done |IC V|
 |K.	651 |# |# |#|
 |K.	652 |kuch|done |IC V|
 |K.	653 |kuch |done |IC V|
@@ -985,8 +997,8 @@ K.	294 |# |# |#|
 |K.	777-3 |chch |done |Clouet et al (forthcoming)|
 |K.	778 |kuch |done |unpublished|
 |K.	779 |kuch |done |Soutif 2008|
-|K.	780 |# |# |#|
-|K.	781 |# |# |#|
+|K.	780 |kuch |done |IC VI|
+|K.	781 |kuch |done |IC IV|
 |K.	782 |# |# |#|
 |K.	783 |dogo |done |Coedes IC I|
 |K.	784 |kuch | done |IC VI|
@@ -1012,7 +1024,7 @@ K.	294 |# |# |#|
 |K.	804 |kuch |done |NIC I|
 |K.	805 |# |# |#|
 |K.	806 |# |# |#|
-|K.	807 |# |# |#|
+|K.	807 |kuch |done |IC IV|
 |K.	808 |chch |done |IC IV|
 |K.	809 |chch |pending |IC I|
 |K.	810 |kuch |done |IC VI|
@@ -1240,7 +1252,7 @@ K.	294 |# |# |#|
 |K.	1002 |kuch |done |Jacques 1968|
 |K.	1003 |kuch |done |unpublished|
 |K.	1004 |kuch | done |Winai Pongsripian ed. 1991|
-|K.	1005 |# |# |#|
+|K.	1005 |kuch |done |Estève & Soutif 2010-11|
 |K.	1006 |chch |pending |BEFEO 1971; Jacques et al. 2007|
 |K.	1007 |# |# |#|
 |K.	1008 |# |# |#|
@@ -1333,8 +1345,8 @@ K.	294 |# |# |#|
 |K.	1089 |# |# |#|
 |K.	1090 |kuch |done |NIC II-III|
 |K.	1091 |# |# |#|
-|K.	1092 |# |# |#|
-|K.	1093 |# |# |#|
+|K.	1092 |kuch |done |Unpublished|
+|K.	1093 |kuch |done |Unpublished|
 |K.	1094 |# |# |#|
 |K.	1095 |# |# |#|
 |K.	1096 |kuch |done |unpublished|
@@ -1466,7 +1478,7 @@ K.	294 |# |# |#|
 |K.	1220 |# |# |#|
 |K.	1221 |kuch |done |unpublished|
 |K.	1222 |# |# |#|
-|K.	1223 |# |# |#|
+|K.	1223 |kuch |done |Estève & Soutif 2010-11|
 |K.	1224 |kuch |done |unpublished|
 |K.	1225 |kuch |done |unpublished|
 |K.	1226 |chch |pending |unpublished|
