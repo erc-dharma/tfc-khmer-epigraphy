@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>K. 909-8. Doorjamb of the structure TP 81 of Ta Prohm temple, 12th century Śaka</title><!-- The structure is numbered by Olivier Cunin. -->
+            <title>K. 299-18. Eastern section of southern gallery of Angkor Wat (the hell and heaven gallery), 12th century</title>
             <respStmt>
                <resp key="creator">author of digital edition</resp>
                <persName ref="part:kuch">
@@ -18,17 +18,16 @@
             </respStmt>
             <respStmt>
                <resp key="creator">intellectual authorship of edition</resp>
-               <!-- <persName ref="http://viaf.org/viaf/66465311">
-                  <forename>George</forename>
-                  <surname>Cœdès</surname>
-               </persName> -->
-               <persName></persName>
-               </respStmt>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
             <pubPlace>Siem Reap</pubPlace>
-            <idno type="filename">DHARMA_INSCIK00909-8.xml</idno>
+            <idno type="filename">DHARMA_INSCIK00299-18.xml</idno>
             <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
             <date from="2019" to="2025">2019-2025</date>
          </publicationStmt>
@@ -45,8 +44,7 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p>The <foreign>akṣara</foreign>s are of square form which is characteristic of the script belonging to the reign of Jayavarman VII.
-                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>The lettering is characteristic of the twelfth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -61,44 +59,54 @@
          <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:kuch" when="2023-06-07" status="draft">Adding paleographical remark</change>
-         <change who="part:kuch" when="2023-02-09" status="draft">Initial encoding of the inscription</change>
+         <change who="part:kuch" when="2026-08-06" status="draft">Initial encoding of the inscription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
         <body>
-                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:00000">
-                   <p>
-                      <lb n="1"/><g ref="sym:bullet-hollow" type="punctuation">.</g> kamrateṅ· jagat· lboṅ· vesi <g ref="sym:bullet-hollow" type="punctuation">.</g>
-                   </p>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="1"/><g ref="sym:circle-bullseye" type="punctuation">.</g>medohrada <g ref="sym:spiral" type="punctuation">.</g> qnak· ta lobha <g ref="sym:spiral" type="punctuation">.</g> taṁnāṁ ta lobha <g ref="sym:spiral" type="punctuation">.</g> qnak· ta (mān·) svabhāvavikāra <g ref="sym:gomutra" type="punctuation">.</g>
+</p>     
 </div>
-        <!--    <div type="apparatus">
-                 <listApp>
-               <app loc="1">
-                     <lem></lem>
-                     <rdg source="bib:Coedes1951_02"></rdg>
-                  </app>
-                  </listApp>         
-         </div>
-          <div type="translation">
-             <p rend="stanza" n="1"></p></div> -->
-         <div type="commentary">
-            <p>In Cœdès' edition, the inscription is mistakenly designated as K. 913.</p>
-         </div>  
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Chhom2011_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1911_02">
+ 	<p n="1">Medohrada. Les cupides…, ceux qui ont…</p>
+                   </div>
+           <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
+ 	<p n="1">"Etang rempli de graisse". Les gens qui convoitent les plantations, qui abusent des personnes infirmes de naissance.</p>
+                   </div>
+           <div type="translation" source="bib:Pou2001_01">
+ 	<p n="1">"Pond of fat". Those who covet plantations, who take advantage of people who are bodily sick from birth.</p>
+                   </div>
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
         <div type="bibliography">
-          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1951_02"/><citedRange unit="page">105</citedRange></bibl>).</p>
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1911_02"/><citedRange unit="page">206</citedRange></bibl>) with a French translation; re-edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">157, 159</citedRange></bibl>) with French and English translation. Re-edited here by Kunthea Chhom based on EFEO estampage n. 689.</p>
 	 <listBibl type="primary">
-	    <bibl n="GC">
-      <ptr target="bib:Coedes1951_02"/><citedRange unit="page">105</citedRange>
-    </bibl>
-	 </listBibl>
-           <listBibl type="secondary">
-	    <bibl n="KC">
-<ptr target="bib:Chhom2020_01"/>
-<citedRange unit="page">19</citedRange>
-</bibl>
+             <bibl n="GC">
+             <ptr target="bib:Coedes1911_02"/>
+             <citedRange unit="page">206</citedRange>
+                 </bibl>
+	    <bibl n="SP">
+             <ptr target="bib:Pou2001_01"/>
+             <citedRange unit="page">157, 159</citedRange>
+                 </bibl>
              </listBibl>
-           </div>
-</body>
+           <listBibl type="secondary">
+             <bibl n="EA">
+      <ptr target="bib:Aymonier1883_01"/><citedRange unit="page">441-505</citedRange>
+    </bibl>
+              </listBibl>
+                </div>
+        </body>
     </text>
 </TEI>
