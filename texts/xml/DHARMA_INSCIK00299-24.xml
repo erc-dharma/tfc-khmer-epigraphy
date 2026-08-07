@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>K. 919. Fragmentary inscription from Thap Muoi, 6th-7th century Śaka</title>
+            <title>K. 299-24. Eastern section of southern gallery of Angkor Wat (the hell and heaven gallery), 12th century</title>
             <respStmt>
                <resp key="creator">author of digital edition</resp>
                <persName ref="part:kuch">
@@ -27,7 +27,7 @@
          <publicationStmt>
             <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
             <pubPlace>Siem Reap</pubPlace>
-            <idno type="filename">DHARMA_INSCIK00919.xml</idno>
+            <idno type="filename">DHARMA_INSCIK00299-24.xml</idno>
             <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
             <date from="2019" to="2025">2019-2025</date>
          </publicationStmt>
@@ -44,8 +44,7 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p><!-- kuch: Unidentified lettering. -->
-                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>The lettering is characteristic of the twelfth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -60,38 +59,54 @@
          <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:kuch" when="2022-01-26" status="draft">Initial encoding of the inscription</change>
+         <change who="part:kuch" when="2026-08-07" status="draft">Initial encoding of the inscription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
         <body>
-                <div type="edition" xml:lang="und" rendition="class:83231 maturity:00000">
-                    <p>
-                       <lb n="1"/><gap reason="illegible" extent="unknown" unit="character"/> 
-                       <lb n="2"/><gap reason="illegible" extent="unknown" unit="character"/>
-                    </p>
-            </div>
-            <!-- <div type="apparatus">
-               <listApp>
-                  <app loc="line">
-                     <lem></lem>
-                     <rdg source="bib:Coedes1937-1966_01"></rdg>
-                  </app>
-               </listApp>         
-         </div>
-        <div type="translation" resp="part:kuch">
-           <p n="1"></p>
-         </div> 
-         <div type="commentary">
-            <p></p>
-         </div>--> 
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="1"/><g ref="sym:circle-bullseye" type="punctuation">.</g>kṣuradhāraparvvata <g ref="sym:spiral" type="punctuation">.</g> qnak· ta lvac· tamrya qseḥ yāna <g ref="sym:spiral" type="punctuation">.</g> pāduka <g ref="sym:spiral" type="punctuation">.</g> cap· ta vrāhmaṇa nu jeṅ(·) <g ref="sym:spiral" type="punctuation">.</g> Avajñā ta paṇḍita cap· ta yajñopakaraṇa phoṅ nu jeṅ· <g ref="sym:gomutra" type="punctuation">.</g>
+</p>     
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Chhom2011_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1911_02">
+ 	<p n="1">Kṣuradhāraparvata. Les gens qui volent les éléphants, les chevaux, les véhicules, les souliers…, méprisent les pandits…, les objets du sacrifice.</p>
+                   </div>
+           <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
+ 	<p n="1">"Montagne hérissée de pointes". Les gens qui volent les éléphants, les chevaux, chars et fantassins, qui touchent les brahmanes du pied, qui méprisent les paṇḍits et qui touchent du pied les objets du sacrifice.</p>
+                   </div>
+           <div type="translation" source="bib:Pou2001_01">
+ 	<p n="1">"Spiky mountain". Those who steal elephants, horses, carts and foot-soldiers (i.e. the army), who touch Brahmans with their feet, who treat paṇḍits with contempt, who touch any instrument of sacrifice with their feet.</p>
+                   </div>
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
         <div type="bibliography">
-          <p>Preliminarily edited by Kunthea Chhom based on the estampage EFEO n. 1195.</p>
+          <p>First edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1911_02"/><citedRange unit="page">206</citedRange></bibl>) with a French translation; re-edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">157, 160</citedRange></bibl>) with French and English translation. Re-edited here by Kunthea Chhom based on EFEO estampage n. 695.</p>
 	 <listBibl type="primary">
-    <bibl n="..">
-      </bibl>
-  </listBibl>
-        </div>
+             <bibl n="GC">
+             <ptr target="bib:Coedes1911_02"/>
+             <citedRange unit="page">206</citedRange>
+                 </bibl>
+	    <bibl n="SP">
+             <ptr target="bib:Pou2001_01"/>
+             <citedRange unit="page">157, 160</citedRange>
+                 </bibl>
+             </listBibl>
+           <listBibl type="secondary">
+             <bibl n="EA">
+      <ptr target="bib:Aymonier1883_01"/><citedRange unit="page">441-505</citedRange>
+    </bibl>
+              </listBibl>
+                </div>
         </body>
     </text>
 </TEI>
