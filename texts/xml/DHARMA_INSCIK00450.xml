@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 450. Doorjambs of Prasat Khtom, 11th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00450.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-08-12" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="1"/>@ devadravya khñuṁ {3} [vraḥ kamrateṅ A]ñ saṁtāc vrāy ta vraḥ kaṁmra[teṅ Añ śi-]
+   <lb n="2"/>valiṅga {10} prāk hanira jyaṅ 2 kośa laṅgau I vr{3}
+   <lb n="3"/>{11} [va]lvyal 2 svok I juṁsāy le I tanlāp prāk I {2}
+   <lb n="4"/>{1} [bhā]jana I {5}nlaḥ I padigaḥ 2 krayā Arccaṇa kamandalū I kalaśa I {2}
+   <lb n="5"/>ṇi I Arghya {4} pādya I camasa I cirā dhūpa I pañcagavyapātra 6 phnāṅ yau I {1}
+   <lb n="6"/>gra I vraḥ {6} vraḥ Aṅga yau I śvetavastra yau I taṅtāp I @ jeṅ Ā {2}
+   <lb n="7"/>@ devadravya vraḥ kaṁmrateṅ Añ parameśvarī bhājana {5} svok I cancyan I raṇama-
+   <lb n="8"/>rdda I vraḥ vasana phnāṅ {10} [deva]dravya vraḥ kaṁmrateṅ Añ bhagavatī svo-
+   <lb n="9"/>k I kaṭāha I bhājana I cancyan {15} phnāṅ {4}
+   <lb n="10"/>khñuṁ vraḥ teṁ pratipakṣa 20 10 8 khñuṁ vraḥ {19}
+   <lb n="11"/>@ varṇṇa vraḥ kamrateṅ Añ śrīrājendrapandita saṁtāc vrāy {4} mātr̥pakṣa pi
+   <lb n="12"/>cāṁ teṁ man lvaḥ ta gi vraḥ rāja paramaśivapada vraḥ pre dau nā kanmyaṅ pamre dau {2}
+   <lb n="13"/>Eka @ lvaḥ ta gi vraḥ rāja kamrateṅ kaṁtvan Añ śrī sūryyavarmmadeva vraḥ pre
+   <lb n="14"/>dau nā maṅgalārtha @ vraḥ pre Añjeñ sthāpanā kamrateṅ jagat śrī qīśā[na]tīrtha pre guru
+   <lb n="15"/>yāga gi pi vraḥ Oy vraḥ dakṣiṇā sruk ta piy nu rājadravya ta Aṁpāll neḥh gi pi vraḥ pra {3} U-
+   <lb n="16"/>k teṁ viṅ ta vraḥ kaṁmrateṅ Añ saṁtāc vrāy vvaṁ Āc ti mān pañcūla vrīhi paryyaṅ vvaṁ Āc ti 
+   <lb n="17"/>Āc ti Āyatta ta viṣaya ta dai ti leṅ paripāla guḥ teṁ kāra vādhā phoṅ h[e]tu man vraḥ kaṁmra-
+   <lb n="18"/>teṅ Añ śrī rājendrapandita nu vraḥ kamrateṅ Añ kṣitīndrapandita ta phaqvan thvāy tapaḥsthāpanā
+   <lb n="19"/>thvāy sukr̥taphala phoṅ nu mratāñ khloñ śrī narendrārimathana ta qryāṁ vraḥ kaṁmrateṅ A-
+   <lb n="20"/>ñ gi pi mān vraḥ karuṇā ta Aṁpāll neḥh @ vraḥ kamrateṅ Añ śrī rājendrapandita dai maṅga-
+   <lb n="21"/>lārtha teṁ gi nu mān sruk sre bhūmyākara phoṅ Āy bhadrāśrama gi nā ka sthāpanā vraḥ ne[ḥ]
+   <lb n="22"/>ta piy ti thvāy jā vraḥ rājadharmma nu sukr̥taphala phoṅṅ @ maṅgalārthavargga ta mvāy mūla nu vraḥ kaṁ-
+   <lb n="23"/>mrateṅ Añ śrī rājendrapandita loñ svuk diṅdoṅ jā Ātmaśiṣya ti pre paripāla paripāla punyatra-
+   <lb n="24"/>ya panlās śarira vraḥ kamrateṅ Añ śrī rājendrapandita @ loñ qnak ciḥ @ātmaśiṣya gi ti pre
+   <lb n="25"/>loñ deṅ loñ cāñ ta kvan mratāñ khloñ śrī narendrārimathana loñ vraha-
+   <lb n="26"/>haspati ta phqvan loñ cāñ loñ vraḥ loñ srāc loñ soṁ @ neḥ ta Aṁ
+   <lb n="27"/>pāll neḥh caṁnyar dau man ka dai ti leṅ Añ tyaṅ man Āyatta ta kamrateṅ
+   <lb n="28"/>Añ vraḥ guru nā do ta stap varttamāna pradvān dau vvaṁ Āc ti pidā leṅ taṅgal nā
+   <lb n="29"/>maṅgalārtha nu sruk vraḥ dakṣiṇā leṅ taṅgal dharmma man yeṅ thvāy vraḥ pāda kamra-
+   <lb n="30"/>teṅ kaṁtvan Añ śrī sūryyavarmmadeva lvaḥ mahāsaṅhāra teṁ paripāla leṅ vā-
+   <lb n="31"/>dhā guḥ Oy gmāl mi mvāy mi mvāy sruk @ loñ pen phqvan mratāñ khloñ śrīnare-
+   <lb n="32"/>ndrārimathana loñ ke kvan loñ pen <!-- kuch: GC numbered this line as 31 bis. -->
+</p>
+                   <lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="33"/><milestone unit="column" n="a"/>@ kr̥tajñapurajān paurān</l>
+<l n="b"><milestone unit="column" n="b"/>sajjarṇnāmākhyajāṁs tathā</l>
+<l n="c"><milestone unit="column" n="c"/>sarvvāṅgān devakāryyārthān</l>
+<l n="d"><milestone unit="column" n="d"/>pratipakṣam akalpayat</l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="34"/><milestone unit="column" n="a"/>gītavāditraśaṅkhānāṁ</l>
+<l n="b"><milestone unit="column" n="b"/>dhvanināṅ kariṇo sadā</l>
+<l n="c"><milestone unit="column" n="c"/>dine dine mahāsnādan</l>
+<l n="d"><milestone unit="column" n="d"/>narttakābhinayānvitāḥ</l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="35"/><milestone unit="column" n="a"/>vrīhināṁ śatam ekaikaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>purayor apy akalpayat</l>
+<l n="c"><milestone unit="column" n="c"/>sakarmmaṇā śatañ caikaṁ</l>
+<l n="d"><milestone unit="column" n="d"/>tr[i]deve parikalpitam</l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="36"/><milestone unit="column" n="a"/>mahānasaṁ patrakāraṁ</l>
+<l n="b"><milestone unit="column" n="b"/>pūjāpālañ janādhipaṁ</l>
+<l n="c"><milestone unit="column" n="c"/>Ācamaṁ yajñakarañ ca</l>
+<l n="d"><milestone unit="column" n="d"/>sarvvāṅgaṁ pari[ka]lpitam</l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="37"/><milestone unit="column" n="a"/>bhadrāśrame tu dhanyānāṁ      </l>
+<l n="b"><milestone unit="column" n="b"/>śatadvayam akalpayat</l>
+<l n="c"><milestone unit="column" n="c"/>mālākāraṁ bhaktakāram</l>
+<l n="d"><milestone unit="column" n="d"/>ekaikaṁ sneha - ⏑ kam</l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="38"/><milestone unit="column" n="a"/>Abhineyādisam̃yuktaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>pūjāpālañ janādhipaṁ</l>
+<l n="c"><milestone unit="column" n="c"/>soddharaṁ sarvva - - -ṁ</l>
+<l n="d"><milestone unit="column" n="d"/>sāśramaṁ pradadau śive</l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="39"/><milestone unit="column" n="a"/>Ārāmāni tu sarvvāni</l>
+<l n="b"><milestone unit="column" n="b"/>sakṣetrāṇi ⏑ vanti me </l>
+<l n="c"><milestone unit="column" n="c"/>= = = = pi - - =</l>
+<l n="d"><milestone unit="column" n="d"/>= = = = ⏑ - ⏑ =</l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="40"/><milestone unit="column" n="a"/>pañcaprasthaṁ ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>pratipakṣa ⏑ - traye</l>
+<l n="c"><milestone unit="column" n="c"/>= = = = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="d"/>= = = = ⏑ - ⏑ =</l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="41"/><milestone unit="column" n="a"/>ye = = sarvva - - . ā</l>
+<l n="b"><milestone unit="column" n="b"/>rakṣanti mama punyañ ca</l>
+<l n="c"><milestone unit="column" n="c"/>guhyavat sarvvarakṣa =</l>
+<l n="d"><milestone unit="column" n="d"/>= = = = ⏑ - ⏑ =</l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="42"/><milestone unit="column" n="a"/>= = = = ⏑ - krūraḥ</l>
+<l n="b"><milestone unit="column" n="b"/>parapunya ⏑ - ⏑ =</l>
+<l n="c"><milestone unit="column" n="c"/>= = = = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="d"/>= = = = ⏑ - ⏑ =</l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="43"/><milestone unit="column" n="a"/>= = = = ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><milestone unit="column" n="c"/>= = = = ⏑ - - -</l>
+<l n="d"><milestone unit="column" n="d"/>= = = = ⏑ - ⏑ -</l>
+</lg>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1951_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1951_01">
+ 	<p n="1-6">Trésor, esclaves (donnés par) le V. K. A. de Sarp.tac Vrayl à V. K. A. Çivaliilga - - - - - - en argent. hanira (pesant) 2 jyan, 1 koça de cuivre - - - - - - 2 valvyal2, 1 plateau, 1 jU1'[1sày' de dessus, 1 boite - - - - vases - - - 2 crachoirs. Ustensiles rituels: 1 aiguière, 1 flacon - - - 1 vase arghya' - - - - 1 vase Pàdya', 1 coupe camasa, 1 cirà5 à encens, 6 bols à pancagavya, 1 yau de phnàn c - - - - 1 yau (d'étoffe) pour le corps (du dieu), 1 yau d'étoffe blanche, 1 lanlàp ...</p>
+             <p n="7-8">Trésor de V. K. A. ParameçvarI : vases --- 1 plateau, 1 bague, 1 massue', vêtement de phnàn ...</p>
+              <p n="8-9">Trésor de V. K. A. BhagavatI : 1 plat.eau, 1 bassine, 1 vase ---- bague ~--- phniin ...</p>
+              <p n="10">Esclaves du dieu, à l'origine, pou; le début de chaque quinzaine: 38 ; esclaves du dieu ...</p>
+              <p n="11">La caste (var1J.a) de V. K. A. ÇrI RajendrapaI}Qita de Sarp.lac Vray - - - - - en ligne maternelle (fut désignée) pour garder à l'origine (cette fondation).</p>
+              <p n="12">Sous le règne de S. M. Paramaçivapada', le roi ordonna (à V. K. A. ÇrI RajendrapaI}çlita) d'aller (servir) dans (le corps) des pages, d'aller - - - premier (rang).</p>
+              <p n="13-17">Sous le règne de S. JI. Çri Sürya":1rmade\"a1• le roi lui ordonna d'aller (servir) dans (le corps) de JlnI'lgalürtha2• Le roi ordonna de l'inviter à procéder à l'érection de K. J. ÇrI IçanatIrtha. fit faire un sacrifice en l'honneur du guru. lui fit donner en ofTrande (dal·:fÏT:ui) les trois pays et tous ces biens royaux et fit rendre (?) les pays à V. K. A. de Sarptàc Vray3, (en ordonnant) qu'ils ne soient pas soumis aux (prestations) de ricin U), de grains. d'huile', qu'ils ne relè\'ent pas de l'autorité du district (vifaya) pour autre chose que
+pour la protection de la (fondation) primitive, à commencer par (la protection contre) toute tracasserie.</p>
+              <p n="17-20">Parce que V. K. A. ÇrI Rajendrapal)çlita et V. K. A. K~itIn­ drapal)çlita son frère cadet, ont ofTert au roi le mérite de leurs fon- dations et tous les fruits de leurs bonnes œuvres, :\Iratan Khlon ÇrI Narendrarimathana frère (aîné ?)5 des V.K.A. a obtenu par faveur de Sa Majesté ces (exemptions ) envers tous les gens ci-après :</p>
+              <p n="20-22">Les différents V. K. A. ÇrI Rajendrapat;u;lita (en service dans le corps de) Mangalartha à commencer par celui qui possédait tous les pays', rizières, revenus des terrains au Bhadraçrama, sur lesquels ont été érigés ces trois dieux' en vue d'offrir cette fondation au roi avec le fruit de cette bonne œuvre,</p>
+              <p n="22-26">le groupe des Mangalartha ayant ensemble pour chef (müla) le V. K. A. ÇrI Rajendrapat;lQita, (savoir) Lon Svuk de Dindon, son élève, chargé de conserver cette triple fondation à la placd de la personne de V. K. A. ÇrI RajendrapaQQita, Lon Anak CiQ, son élève, chargé...·, Lon Den, Lon Can,fils de ~fratan Khlon ÇrI ~aren­ drarimathana, Lon Vrahaspati, frère cadet de Lon Can, Lon VraQ, Lon Srac, Loñ Soṁ,</p>
+              <p n="27-31">tous ceux-ci, et par la suite, aussi ceux que je ne connais pas l , il appartiendra aux K. A. Vral.l Guru de deuxième rang qui écoutent les nouvelles2 à l'avenir de ne pas les mole5ter. de les confirmer3 dans le service de )Iangalàrtha et dans les pays donnés en offrande, de confirmer les fondations (dharma) que nous avons offertes à S. ~I. ÇrI Süryavarmadeva à perpétuité, en commençant par assurer leur protection, et de les tracasser seulement pour la fourniture d'un gardien par pays.</p>
+              <p n="31-32">Lon Pen, frère cadet de )Iratàn Khlon Çri Naren- drarimathana, Lon Ke fils de Lon Pen.</p>
+              <p rend="stanza" n="1">Il a assigné pour (le service de) chaque quinzaine les habitants nés à Krtajnapura et ceux nés à Sajjar.</p>
+              <p rend="stanza" n="2">A perpétuité, les musiciens, chanteurs, joueurs d'instruments, joueurs de conques, les acteurs feront chaque jour un grand bruit.</p>
+              <p rend="stanza" n="3">De chacun de ces deux pays, il a assigné cent (mesures) de paddy; un cent a été fixé par l'officiant5 pour les trois dieux.</p>
+              <p rend="stanza" n="4">Cuisinier (mahiinasa) , fabricant de feuilles, chef des gens, gardien du culte, purificateur, sacrifiant, (tout le personnel) fixé au complet,</p>
+              <p rend="stanza" n="5">il l'a assigné au Bhadràçrama, ainsi que deux cents (mesures) de grains, un faiseur de guirlandes, un cuisinier (bhaklakiira), à chacun (une certaine quantité) d'huile.</p>
+              <p rend="stanza" n="6">Il a donné à Çiva un chef des gardiens du culte accompagné d'acteurs et autres et tout - - - avec une plfrt et un açrama.</p>
+              <p rend="stanza" n="7">Tous les jardins, avec les gens m'appartiennent ...</p>
+              <p rend="stanza" n="8">Cinq prastha - - - - chaque quinzaine ...</p>
+              <p rend="stanza" n="9">Tous ceux qui - - - - gardent ma bonne œune comme un secret - - - préservant de tout ...</p>
+              <p rend="stanza" n="10">--------- les méchants --- la bonne œuvre d'autrui.</p>
+              <p rend="stanza" n="11"><gap reason="lost"/></p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1951_01"/><citedRange unit="page">109-115</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 466.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1951_01"/><citedRange unit="page">109-115</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
