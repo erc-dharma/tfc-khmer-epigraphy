@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 566. Stela from Stung Sreng, 10th-11th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00566.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth-eleventh century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-08-13" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p><milestone type="pagelike" unit="item" n="A"/><label xml:lang="eng">Face A</label>
+   <lb n="A1"/>{3} śaka pañcamī ket {4} y {1} vuddhavāra nu mratāñ rājendrasiṅ-
+   <lb n="A2"/>ha khloñ jnval A{5} paṅgaṁ thpvaṅ nivedana {2} bhūmi vrai caṁ-
+   <lb n="A3"/>kā paṁnvass nuv sre [tarāñ] vāp vrahma cāñ pranidhāna Oy vāp
+   <lb n="A4"/>jū daśādhikr̥ta {6} Ācāryya kīrttiyogi {6}
+   <lb n="A5"/>y {2} nu kule {18}
+   <lb n="A6"/>ha pre nāṁ vāp vrahma {18}
+   <lb n="A7"/>y vraḥ sabhā {20}
+   <lb n="A8"/>sabhā nu praśasta {17} [ta]-
+   <lb n="A9"/>ṅtyaṅ Aṁ[ruṅ] {19}
+   <lb n="A10"/>bhūmi cāmpa lkai {17} dhūli
+   <lb n="A11"/>jeṅ vraḥ kamrateṅ Añ {11} vraḥ {6}
+   <lb n="A12"/>ñ Īśānaśiva khloñ mukha khol {6} nivedana pi Oy vāp
+   <lb n="A13"/>vrahma @ vraḥ śāsana ta mratāñ khloñ {4}ndrādhipativarmma pre dār raṅvā-
+   <lb n="A14"/>ṅ pratyaya pre dau saṅ gol Oy ta vāp vrahma <g ref="sym:bullet-hollow" type="punctuation">.</g> riy sre {1} sre nirmūla
+   <lb n="A15"/>vvaṁ tel mān kaṁmrateṅ nu thve ley <g ref="sym:bullet-hollow" type="punctuation">.</g> qv{5} śūnya hoṅ <g ref="sym:bullet-hollow" type="punctuation">.</g> vāp vra-
+   <lb n="A16"/>hma raṁlik {15} nuv 2 kaṁsteṅ pandval
+   <lb n="A17"/>vraḥ śāsana {10} pre dau hau grāmavr̥-
+   <lb n="A18"/>ddha pandval {12} neḥ <g ref="sym:bullet-hollow" type="punctuation">.</g> daha qyat
+   <lb n="A19"/>kamrateṅ thve {11} vāp jinendrā-
+   <lb n="A20"/>nanda dau śodhe {10} leṅ taṅtyaṅ
+</p>
+                   <p><milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Face B</label>
+   <lb n="B1"/>pi grāmavr̥ddha kathā man sre nirmūla vyat <g ref="sym:bullet-hollow" type="punctuation">.</g> vāp jinendrānanda pandval vraḥ śāsana
+                      <lb n="B2"/>ta vāp vrahma roḥh man ti kaṁsteṅ pandval Oy sre neḥ ta vāp vrahma siddhi vvaṁ
+                      <lb n="B3"/>tel mān Apavāda @ neḥ bhūmiśākha ta roḥh neḥh gi pi vāp vrahma Oy ta vāp
+                      <lb n="B4"/>jū nu Ācāryya kīrttiyogi nu kule vāp jū phoṅṅ @ man tāñ ṅā ta kanmvay vāp jū
+                      <lb n="B5"/>jā qnak khloñ ta vāp vrahma pi vāp jū nu Ācāryya kīrttiyogi Oy vaudī mvā-
+                      <lb n="B6"/>y ṅann jyaṅ prām khāl prāk mvāy ṅann liṅ prām ta vāp vrahma <g ref="sym:bullet-hollow" type="punctuation">.</g> pi khmi cāt
+                      <lb n="B7"/>sruk thve sre ta gi bhūmi neḥ <g ref="sym:bullet-hollow" type="punctuation">.</g> vāp vrahma Oy roḥh man mratāñ śrīrājendra-
+                      <lb n="B8"/>siṅha paṅgaṁ thpvaṅ nivedana <g ref="sym:bullet-hollow" type="punctuation">.</g> gi caṅvātt bhūmi vrai caṁkā paṁnvas <g ref="sym:bullet-hollow" type="punctuation">.</g> pūrvva prasap nu
+                      <lb n="B9"/>sre rpes dakṣiṇa prasap nu vraḥ rāṅṅ paścima prasap ta chdiṅ jairāga Uttara prasap nu
+                      <lb n="B10"/>bhūmi cāmpa lkai ta dau ta mratāñ śrībhadraparākrama <g ref="sym:bullet-hollow" type="punctuation">.</g> bhūmi sre tarāñ <g ref="sym:bullet-hollow" type="punctuation">.</g> pūrvva pra-
+                      <lb n="B11"/>sap nu sre ta ti vāp vrahma {1}āñ vraḥ laṁvāṅ Oy ta vāp gaṇādhirāja raṅvāṅ dakṣi-
+                      <lb n="B12"/>ṇa prasap nu sre mratāñ śrībhadraparākrama sot paścima prasap nu sre cāmpa
+                      <lb n="B13"/>ta dau ta mratāñ śrībhadraparākrama sot Uttara prasap nu sre khol <g ref="sym:bullet-hollow" type="punctuation">.</g> vraḥ sa-
+                      <lb n="B14"/>bhā phdāy toy kathā vāp vrahma pi yugapat roḥh neḥh <g ref="sym:bullet-hollow" type="punctuation">.</g> siddhi gi bhūmi vrai
+                      <lb n="B15"/>caṁkā paṁnvas nu sre tarāñ [ta] vāp jū nu Ācāryya kīrttiyogi nu kule vāp
+                      <lb n="B16"/>jū phoṅ <g ref="sym:bullet-hollow" type="punctuation">.</g> praluṅ caṅvātt bhūmi ta ti vāp vrahma Oy <g ref="sym:circle-bullseye" type="punctuation">.</g> {3} samakṣa
+                      <lb n="B17"/>kaṁsteṅ Añ śrībhūpativarmma <g ref="sym:bullet-hollow" type="punctuation">.</g> mratāñ {15}
+                      <lb n="B18"/>ñ guṇadoṣadarśi vraḥ sabhā <g ref="sym:bullet-hollow" type="punctuation">.</g> sa{15}
+                      <lb n="B19"/>ñ I <g ref="sym:bullet-hollow" type="punctuation">.</g> loñ paramārthānandana <g ref="sym:bullet-hollow" type="punctuation">.</g> lo[ñ] {15}
+                      <lb n="B20"/>tīndrārimaṭha pandval vraḥ śāsana ta vāp {12}
+                      <lb n="B21"/>k caṁpok pi pre dau saṅ gol praśas[ta ta gi bhūmi vrai caṁkā] paṁnvas
+                      <lb n="B22"/>nu sre tarāñ pi Oy ta vāp jū nu Ācāryya kīrttiyogi nu ku[le vāp]
+                      <lb n="B23"/>jū phoṅṅ <g ref="sym:circle-bullseye" type="punctuation">.</g>
+                   </p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1953_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+ 	<p n="A1-A5">En ... Śaka, cinquième jour de la lune croissante de ..., mercredi, Mratāñ Rājendrasiṅha, chef des salariés (khloñ jnval) ... informa respectueusement le roi ... la terre de Vrai Caṁkā Paṁnvas et la rizière Tarāñ, Vāp Vrahma ayant perdu son serment les donna à Vāp Jū, dizenier ... à l'ācārya Kīrtiyogi ... et la famille ...</p>
+              <p n="A6-A12">... ordre d'amener Vāp Vrahma ... la sainte Cour ... la Cour et l'acte écrit ... demander les dimensions ... la terre du Cham Lkai ... Sa Majesté ... Īśānaśiva, khloñ mukha khol ... demander de donner à Vāp Vrahma.</p>
+              <p n="A13-A14">Une ordonnance (du roi) à Mratāñ Khloñ ... ndrādhipativarman le chargea de demander un raṅvāṅ de servir pour l'envoyer planter les bornes et les donner à Vāp Vrahma.</p>
+              <p n="A14-A19">Quant à la rizière ... c'est une rizière sans occupant que jamais aucun seigneur n'a cultivée ... vacante. Vāp Vrahma rappela ... le Kaṁsteṅ notifia l'ordonnance royale ... chargeant d'aller appeler des anciens du village pour notifier ... ceci : S'il n'y a pas de seigneur qui cultive (cette rizière) ...</p>
+              <p n="A19-B3">Vāp Jinendrānanda alla faire une enquête ... pour interroger les anciens du village qui dirent que cette rizière était vraiment sans occupant. Vāp Jinendrānanda notifia à Vāp Vrahma l'ordonnance royale, telle que le Kaṁsteṅ la lui avait notifiée, et remit cette rizière à Vāp Vrahma pour qu'il en jouisse avec droit exclusif, sans qu'il y ait jamais de contestation. Tel est l'historique de cette terre.</p>
+              <p n="B3-B8">Vāp Vrahma l'a (ensuite) donnée à Vāp Jū, à l'ācārya Kīrtiyogi et aux membres de la famille de Vāp Jū, Tāñ Ṅā, nièce de Vāp Jū, étant anak khloñ de Vāp Vrahma. Vāp Jū et l'Aacārya Kīrtiyogi donnèrent 1 vaudi pesant 5 jyaṅ et 1 bol d'argent pesant 5 liṅ à Vāp Vrahma, en lui demandant de fonder un village et de faire des rizières sur cette terre. Vāp Vrahma y consentit, ainsi que Mratāñ Śrī Rājendrasiṅha l'a respectueusement exposé au roi.</p>
+              <p n="B8-B13">Délimitation de la terre de Vrai Caṁkā Paṁnvas : A l'est, elle est limitrophe de la rizière Rpes ; au sud, de Vraḥ Rāṅ ; à l'ouest, de la rizière Jairāga ; au nord, de la terre du Cham Lkai qui revient à Mratāñ Śrī Bhadraparākrama. Terre de la rizière Tarāñ : A l'est, elle est limitrophe de la rizière que Vāp Vrahma ... Vraḥ Laṁvāṅ a donnée à Vāp Gaṇādhirāja, raṅvāṅ : au sud, de la rizière de Mratāñ Śrī Bhadraparākrama à nouveau ; à l'ouest, de la rizière du Cham qui revient à Mratāñ Śrī Bhadraparākrama à nouveau ; au nord, de la rizière Khol.</p>
+              <p n="B13-B16">La Sainte Cour rend son jugement d'accord avec la déposition de Vāp Vrahma, pour décider conjointement : le droit exclusif sur la terre de Vrai Caṁkā Paṁnvas et la rizière Tarāñ appartient à Vāp Jū, à l'ācārya Kīrtiyogi et aux membres de la famille de Vāp Jū, les dimensions du domaine sont celles données par Vāp Vrahma.</p>
+              <p n="B16-B19">Témoins (suit une liste de noms, en partie ruinée).</p>
+              <p n="B19-B23">... tīndrārimathana notifia l'ordonnance royale à Vāp ... Caṁpok pour les charger d'aller planter les bornes de la terrede Vrai Caṁkā Paṁnvas et de la rizière Tarāñ pour les donner à Vāp Jū, à l'ācārya Kīrtiyogi et aux membres de la famille de Vāp Jū.</p>
+              </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1953_01"/><citedRange unit="page">182-185</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 417.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">182-185</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>

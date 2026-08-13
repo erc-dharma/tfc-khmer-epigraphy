@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 521. Doorjambs of Prasat Cak, 11th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00521.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eleventh century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-08-13" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p><milestone type="pagelike" unit="item" n="A"/><label xml:lang="eng">Southern doorjamb of the southern tower</label>
+   <lb n="A1"/><g ref="sym:circle-bullseye" type="punctuation">.</g> 772 śaka gi nu vraḥ pāda śrījaivarmmadeva stāc dau viṣṇuloka ta rājaputra
+   <lb n="A2"/>vraḥ pāda parameśvara vraḥ {2} i {1} vrai slā qnin sve[y] rāja chnāṁ tap pra-
+   <lb n="A3"/>mvāy cāp taṁmrya duk {5} lāṅ mann taṁmrya rat cval ta vrai
+   <lb n="A4"/>neḥ ta jmaḥ viṣṇugrāṁma yap phdaṁ ta gi svaṁ pratyādeśa yol kaṁ-
+   <lb n="A5"/>mrateṅ Añ vaiṣṇava mvāy pandval ta vraḥ pāda viṣṇuloka thā da-
+   <lb n="A6"/>ha ñyāṅ vi {4} pi sthāpa rūpa Añ bhaktiy Añ Oy taṁmrya
+   <lb n="A7"/>noḥ viṅ Udaiya guḥ Aṁpān taṁmrya noḥ ta vrai neḥ pandval
+   <lb n="A8"/>pre chgā ta neḥ sthāpanā rūppa kaṁmrateṅ Añ śakavrāhmaṇa di-
+   <lb n="A9"/>kṣā jmaḥ viṣṇugrāṁma jvan bhūmi trey jnaṅ prāṅ qji Añ khñuṁ paṁcyāṁ
+   <lb n="A10"/>mvāy jmaḥ teṅ hyaṅ jā svāmiy loñ las jā vraḥ khlaiy to-
+   <lb n="A11"/>y vraḥ dnāy mok jvan ta vraḥ neḥ pre paṁmre panlas vraḥ sarira <g ref="sym:circle-bullseye" type="punctuation">.</g>
+   <lb n="A12"/>teṅ hyaṅ nu loñ las paṅgaṁ thpvaṅ nivedana svaṁ bhūmi nu yeṅ khñuṁ
+   <lb n="A13"/>paṁcyam paṁmre ta jā caṁmryeṅ {2} vraḥ pāda kamrateṅ Añ karuṇā pra-
+   <lb n="A14"/>sāda bhūmi sot āy {3} qmoghapūra caṁna[t] vyar ṇnivāsa caṁna-
+   <lb n="A15"/>t dūk chloṅ <g ref="sym:circle-bullseye" type="punctuation">.</g>
+</p>
+                   <p><milestone type="pagelike" unit="item" n="B"/><label xml:lang="eng">Southern doorjamb of the northern tower</label>
+   <lb n="B1"/><g ref="sym:circle-bullseye" type="punctuation">.</g> lvaḥ ta rāja vraḥ pāda paramanirvvānapāda man neḥ bhūmya rājadrāvya yok prasā-
+   <lb n="B2"/>da dau ta kaṁmrateṅ Añ śrīvīralakṣmī qji Añ mvāy toy mātr̥pakṣa jmaḥ
+   <lb n="B3"/>loñ jun jā taṁmrvac kaṁmrateṅ Añ śrīvīralakṣmī raṁlik ta kaṁmrate-
+   <lb n="B4"/>ṅ Añ śrīvīralakṣmī leṅ mān gol Aṁvi Āy lvaḥ bhūmya jnaṅ prāṅ
+   <lb n="B5"/>leṅ kaṁpi mān quppavāda caṁnyar kaṁmrateṅ Añ śrīvīralakṣmī paṅgaṁ
+   <lb n="B6"/>thpvaṅ nivedana svaṁ sabhā pandval pre sabhāpati ta pvan ta jmaḥ vraḥ yanapa[ti]
+   <lb n="B7"/>cās vraḥ kuti ruṅ cās vraḥ mok cās vraḥ vnur cās raṅvāṅ ta pvan vraḥ mada-
+   <lb n="B8"/>śiṅha vraḥ srau vraḥ pañcom rāṅgapura se[nā]pati ta pvan vraḥ Īśvaranivāsa vraḥ
+   <lb n="B9"/>thpal khvas cās vraḥ nā do vraḥ svāy nu sarvvādhikāri ta jmaḥ vraḥ pukaṇaka cās sya-
+   <lb n="B10"/>ṅ ta cuḥ mok saṅ gol ta bhūmya āy viṣṇugrāṁma nu sruk ta cval ta kaṁmrateṅ Añ
+   <lb n="B11"/>śrīvīralakṣmī phoṅ <g ref="sym:bullet-hollow" type="punctuation">.</g> ta pūrvva prasap ta qv {2} dakṣiṇa {3} paścima prasa-
+   <lb n="B12"/>p sāra Uttara prasap vnaṁ kantāl bhūmya jnaṅ {8} grama paści-
+   <lb n="B13"/>ma prasap phdeṅ panheṁ Uttara vīragrāma {8} pūrvva prasap
+   <lb n="B14"/>bhūmya vraḥ rūpa paścima prasap {11} ta vyar
+   <lb n="B15"/>bhay piy tap prām ti pūrvva 10 {10} gol thmo I
+                      <lb n="B16"/>gol jhe I
+</p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1952_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1952_01">
+ 	<p n="A1-A9">En 772 Śaka, S.M. Śrī Jayavarmadeva, le roi qui est allé au Viṣṇuloka et qui est le fils de S.M. Parameśvara, (résidant à) Vrai Slā dans Anin(ditapura), jouissant de la royauté à l'âge de seize ans, attrapa un éléphant qu'il plaça ... Alors l'éléphant s'enfuit dans cette forêt nommée Viṣṇugrāma. La nuit, comme il couchait là, (le roi) demanda un signe. Il vit en songe un V.K.A. Vaiṣṇava qui s'adressa à (lui) S.M. Viṣṇuloka en ces termes : "Si près de Vi... pour élever ma statue et me rendre un culte, je te rendrai cet éléphant". Dès l'aurore, (le roi) rentra en possession de cet éléphant dans cette forêt-ci. Il fit débroussailler cet endroit, érigea la statue du V.K.A. Śakabrāhmaṇa, lui consacra (le lieu) nommé Viṣṇugrāma, et donna une terre de berge (nommé) Jnaṅ Prāṅ.</p>
+              <p n="A9-A11">Une de mes aïeules nommée Teṅ Hyaṅ, épouse de Loñ Las, et belle-sœur (du roi) par ..., vint faire des offrandes à ce dieu et commander aux serviteurs à la place du Saint corps.</p>
+              <p n="A12-A15">Teṅ Hyaṅ et Loñ Las demandèrent une terre (en ces termes) : "Nous, servant comme chanteurs ... Sa Majesté daigne octroyer encore des terres à ... dans Amoghapura : l'établissement Vyar Nivāsa, et l'établissement Dūk Chloṅ ("barque pour traverser")".</p>
+              <p n="B1-B2">Sous le règne de S.M. Paramanirvāṇapada, cette terre du domaine royal fut offert gracieusement à K.A. Śrī Vīralakṣmī.</p>
+              <p n="B2-B5">Un de mes ancêtres en ligne maternelle, nommé Loñ Jun, inspecteur au service de K.A. Śrī Vīralakṣmī, rappela à K.A. Śrī Vīralakṣmī qu'il y avait à planter des bornes, tant ici qu'à la terre de Jnaṅ Prāṅ, pour éviter tout blâme à l'avenir.</p>
+              <p n="B5-B11">K.A. Śrī Vīralakṣmī s'adressa respectueusement (au roi) en demandant que la Cour charge quatre présidents de Cour : Vraḥ Yanapati cās, Vraḥ Kuti Ruṅ cās, Vraḥ Mok cās et Vraḥ Vnur cās ; quatre raṅvāṅ : Vraḥ Madaśiṅha, Vraḥ Srau, Vraḥ Pañcom, Rāṅgapura ; quatre senāpati : Vraḥ Īśvaranivāsa, Vraḥ Thpal Khvas cās, Vraḥ Nā Do, Vraḥ Svāy, et un surintendant nommé Vraḥ Pukaṇaka cās, de venir planter les bornes de la terre de Viṣṇugrāma, et des pays relevant de K.A. Śrī Vīralakṣmī.</p>
+              <p n="B11-B16">(Suit l'indication des limites de trois terrains, se terminant par les mots "une borne en pierre, une borne en bois").</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1952_01"/><citedRange unit="page">167-170</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 297, n. 298 and n.1240.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1952_01"/><citedRange unit="page">167-170</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
