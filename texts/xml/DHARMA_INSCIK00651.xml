@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>K. 1062. Doorjamb of the Northern tower of the central section (structure BC 38) of Banteay Chhmar temple, 12th century Śaka</title><!-- The northern tower of central section is numbered by Olivier Cunin. -->
+            <title>K. 651. Stela from Phnom Pan Cang, 10th-11th century</title>
             <respStmt>
                <resp key="creator">author of digital edition</resp>
                <persName ref="part:kuch">
@@ -18,6 +18,12 @@
             </respStmt>
             <respStmt>
                <resp key="creator">intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
                <persName ref="part:kuch">
                   <forename>Kunthea</forename>
                   <surname>Chhom</surname>
@@ -27,7 +33,7 @@
          <publicationStmt>
             <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
             <pubPlace>Siem Reap</pubPlace>
-            <idno type="filename">DHARMA_INSCIK01062.xml</idno>
+            <idno type="filename">DHARMA_INSCIK00651.xml</idno>
             <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
             <date from="2019" to="2025">2019-2025</date>
          </publicationStmt>
@@ -44,8 +50,7 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p>The <foreign>akṣara</foreign>s are of square form which is characteristic of the script belonging to the reign of Jayavarman VII.
-                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <p>The lettering is characteristic of the tenth-eleventh century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
@@ -60,40 +65,44 @@
          <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:kuch" when="2023-06-07" status="draft">Adding paleographical remark</change>
-         <change who="part:kuch" when="2022-09-30" status="draft">Initial encoding of the inscription</change>
+         <change who="part:kuch" when="2026-08-14" status="draft">Initial encoding of the inscription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
         <body>
-                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:00000">
-                   <p>
-                      <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
-                      <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
-                   </p>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+<p><lb n="0"/>siddhi svasti Oṁ
+</p>
+                   <lg n="1" met="vasantatilakā">
+<l n="a" enjamb="yes"><lb n="1"/><milestone unit="column" n="a"/><g ref="sym:doubleBar-ornate" type="punctuation">.</g> nityan namaś śivakarāya [śi]vāya kartu</l>
+<l n="b"><milestone unit="column" n="b"/>-kāmaḥ purātivahudhā ratim eka Eva</l>
+<l n="c"><lb n="2"/><milestone unit="column" n="a"/>cakre kajāsanakajākṣakaparddimūrtti<milestone unit="column" n="b" break="no"/>m</l>
+<l n="d">utpattipālanavināśanimittakaṁ yaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
 </div>
-           <div type="apparatus">
-               <listApp>
-                  <app loc="2">
-                     <lem><gap reason="lost" extent="unknown" unit="character"/></lem>
-                     <note>Claude Jacques <supplied reason="explanation">unpublished manuscript</supplied> can read a word: <foreign>añ</foreign>.</note>
-                  </app>     
-               </listApp>         
-         </div>
-           <!--  <div type="translation">
-             <p rend="stanza" n="1"></p></div> 
-         <div type="commentary">
-            <p></p>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1953_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+ 	<p rend="stanza" n="1">Succès ! Bonheur ! Oṁ. Hommage éternel à Śiva propice qui, désirant depuis longtemps causer à lui seul la joie de multiples façons, a pris la forme de (Brahmā) au trône de lotus, de (Viṣṇu) aux yeux de lotus et de (Śiva) coiffé d'un chignon d'ascète, produisant ainsi la création, la conservation et la destruction.</p>
+                     </div> 
+           <!-- <div type="commentary">
+           <p></p>
          </div> -->
         <div type="bibliography">
-          <p>Edited by Kunthea Chhom (<bibl rend="omitname"><ptr target="bib:Chhom2020_01"/><citedRange unit="page">34</citedRange></bibl>) in Khmer language.</p>
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">278</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 718.</p>
 	 <listBibl type="primary">
-    <bibl n="KC">
-<ptr target="bib:Chhom2020_01"/>
-<citedRange unit="page">34</citedRange>
-</bibl>
-	 </listBibl>
-        </div>
-</body>
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">278</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
     </text>
 </TEI>
