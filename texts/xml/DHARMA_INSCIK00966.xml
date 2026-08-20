@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 966. Stela from Dong Me Nang Muong, 1089 Śaka</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00966.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the twelfth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-08-20" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" rendition="class:83231 maturity:83213">
+<div type="textpart" n="A" xml:lang="pli-Latn"><head xml:lang="eng">Face</head>
+   <p>
+     <lb n="A1"/>Asoko mahārājā dhammatejabasī
+      <lb n="A2"/>kira Asamo sunattaṁ sāsanaṁ avo-
+      <lb n="A3"/>ca dhātupūjakhettaṁ dadāhi tvaṁ
+      <lb n="A4"/>sunatto nāma rājasāsanaṁ ñā-
+      <lb n="A5"/>petvānamudito māghassa tu
+      <lb n="A6"/>puṇṇamāyañ ca khettaṁ pañca
+      <lb n="A7"/> - - dadāmi haṁ @ ekaṁ raṁsipure
+      <lb n="A8"/>- - - - - khetta - - - - - -
+      <lb n="A9"/>- - - - - - - - parvvata - - - -
+      <lb n="A10"/>- ṣṭha - - mmaṁ patitthati @
+      <lb n="A11"/><gap reason="illegible" unit="character" extent="unknown"/>
+      <lb n="A12"/><gap reason="illegible" unit="character" extent="unknown"/>
+      <lb n="A13"/><gap reason="illegible" unit="character" extent="unknown"/>
+      <lb n="A14"/><gap reason="illegible" unit="character" extent="unknown"/>
+      <lb n="A15"/><gap reason="illegible" unit="character" extent="unknown"/>
+      <lb n="A16"/><gap reason="illegible" unit="character" extent="unknown"/>
+      <lb n="A17"/><gap reason="illegible" unit="character" extent="unknown"/>
+      <lb n="A18"/><gap reason="illegible" unit="character" extent="unknown"/>
+      <lb n="A19"/><gap reason="illegible" unit="character" extent="unknown"/>
+      <lb n="A20"/><gap reason="illegible" unit="character" extent="unknown"/>
+   </p>
+</div>
+                   <div type="textpart" n="B" xml:lang="okz-Latn"><head xml:lang="eng">Face</head>
+                   <p>
+   <lb n="B1"/>@ vraḥ jaṁnvan mahārājādhirāja ta braḥ
+      <lb n="B2"/>nāma kuruṅ śrīdharmmāśoka @ ta
+      <lb n="B3"/>braḥ śariradhātu @ ta braḥ nāma kamrate-
+      <lb n="B4"/>ṅ jagat śrīdharmmāśoka @ nā viṣaya
+      <lb n="B5"/>dhānyapura @ roḥ ta pāñjiya neḥ @ pāda-
+      <lb n="B6"/>mūla qnak barṇṇa sap bhāga slik prāṁ
+      <lb n="B7"/>tap byar @ thās bhay @ ceṅ prā-
+      <lb n="B8"/>k bhay vyar @ tamrya sata mvay
+      <lb n="B9"/>@ seḥ sata mvay @ canmāt sata mva-
+      <lb n="B10"/>y {1} śivikā byar @ braḥ pūjā mi-
+      <lb n="B11"/>mvay dina Aṅśa bhay pvan tap @
+      <lb n="B12"/>mahāsenāpati mvay jmoḥ
+      <lb n="B13"/>śrībhūbanāditya qīśvaradvipa @ nāṁ śāsana rā-
+      <lb n="B14"/>jādhirāja mok ta kuruṅ sunat ta prabhu-
+      <lb n="B15"/>tva nā dhānyapura @ pandval pre jvan bhūmi
+      <lb n="B16"/>sre nibandha braḥ pūjā kamrateṅ ja-
+      <lb n="B17"/>gat @ ta navāṣṭaśunyaeka śaka pū-
+      <lb n="B18"/>rṇṇamī ket māgha Ādityabāra pū-
+      <lb n="B19"/>rbbāsādhar̥kṣa Antvaṅ dik mvay
+      <lb n="B20"/>pi srac madhyāhna @ kuruṅ sunat
+                      <lb n="B21"/>thve pūjā kamrateṅ jagat jvan bhūmi
+                      <lb n="B22"/>sre nibandha roḥ pāñjiya neḥ sre
+                      <lb n="B23"/>{2} kryaṅ gragup canlo da-
+                      <lb n="B24"/>{1} @ pūrbba tarap chdiṅ @ paścima tarap bnaṁ
+                      <lb n="B25"/>{1} kryaṅ @ dakṣiṇa tarap pāṅ chvā
+                      <lb n="B26"/>{1} @ Uttara tarap chdiṅ jrvak khveḥ
+                      <lb n="B27"/>sre sroṅ khyāṁ sre gralom sre
+                      <lb n="B28"/>drareṅ pūrbba tarap chdiṅ prai paścima
+                      <lb n="B29"/>tarap śruk @ dakṣiṇa tarap piṅ stuk
+                      <lb n="B30"/>@ Uttara tarap chdiṅ sre braḥ {1}t @ pūrbba
+                      <lb n="B31"/>tarap raṁtiṅ @ Āgneya tarap panlvar {1}
+                      <lb n="B32"/>tarap raṁtiṅ @ Āgneya tarap panlvar {1}
+                      <lb n="B33"/>na {1} phsaṁ sre nibandha Anle prām
+                   </p>     
+</div>
+                </div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1958_02"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1958_02">
+ 	<p n="A1-A10">Le mahārāja Asoka, maître de la puissance du dhamma, sans égal, a donné cet ordre à Sunatta : "Donne un terrain pour le culte de la relique". Moi, nommé Sunatta, ayant eu connaissance de l'ordre du roi, joyeux, je donne un terrain de cinq ... le jour de la pleine lune de Māgha. A Raṁsipura, une ...</p>
+           <p n="B1-B33">dons du mahārājādhirāja qui a nom Kuruṅ Śrī Dharmāśoka à la sainte relique corporelle qui a nom Kamrateṅ Jagat Śrī Dharmāśoka, dans le district de Dhānyapura, suivant cette liste :
+           Vénérables, personnes appartenant à toutes les divisions des corporations, cinq slik et douze (= 2012) ;
+           Plateaux, deux bhay (= 40) ;
+           Ceṅ d'argent, deux bhay (= 40) ; 
+           Eléphant, un cent ;
+           Chevaux, un cent ;
+           Taureaux , un cent ;
+           litières, deux ;
+           Pūjā journalière, portions au nombre de quatre bhay et dix (= 90).
+           Un mahāsenāpati nommé Śrī Bhuvanāditya Īśvaradvipa a apporté un ordre du rājādhirāja à Kuruṅ Sunat qui excerce l'autorité à Dhānyapura, lui enjoignant de donner des terres de rizière pour les affecter à la pūjā du kamrateṅ jagat (= la relique).
+           1089 Śaka, pleine lune de Māgha, dimanche, mansion lunaire Purvāṣāḍha, une mesure d'eau après midi, Kuruṅ Sunat a célébré la pūjā du kamrateṅ jagat et a offert des terres de rizière affectées (au culte), suivant cette liste (suit l'énumération des rizières avec leurs limites aux quatre points cordinaux). Total : rizières affectées (au culte), cinq endroits.</p>   
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1958_02"/><citedRange unit="page">132-139</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 1368.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1958_02"/><citedRange unit="page">132-139</citedRange>
+    </bibl>
+	</listBibl>
+           <listBibl type="secondary">
+             <bibl n="SP">
+      <ptr target="bib:Srivisanvacha1965_01"/><citedRange unit="page">12</citedRange><!-- kuch: It is RS III, n. 35. -->
+    </bibl></listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
