@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 697. Stela from Ban Tat Tong, early 10th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00697.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-08-20" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" rendition="class:83231 maturity:83213">
+<div type="textpart" n="A" xml:lang="san-Latn"><head xml:lang="eng">Face</head>
+   <p><lb n="A0"/>Oṁ</p>
+   <lg n="1" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="A1"/><milestone unit="column" n="a"/>namo vimalavālendu</l>
+<l n="b"><milestone unit="column" n="b"/>-lekhādiptajatājite</l>
+<l n="c" enjamb="yes"><lb n="A2"/><milestone unit="column" n="a"/>janitāmvujayonyavja</l>
+<l n="d"><milestone unit="column" n="b"/>-netracchatrāya śambhave</l>
+</lg>
+   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="A3"/><milestone unit="column" n="a"/>śrīddhaḥ dharmmapradeśo 'sau</l>
+<l n="b"><milestone unit="column" n="b"/>yasya deśo syaninditaḥ</l>
+<l n="c"><lb n="A4"/><milestone unit="column" n="a"/>rudraśaktisamākīrṇṇo</l>
+<l n="d"><milestone unit="column" n="b"/>rudraloka Ivāparaḥ</l>
+</lg>
+   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="A5"/><milestone unit="column" n="a"/>śrīṣṭaśrīśānavarmmā yo</l>
+<l n="b"><milestone unit="column" n="b"/>vālasvasya sa vīryyadhr̥k</l>
+<l n="c"><lb n="A6"/><milestone unit="column" n="a"/>sārassvatiñ ca saṁyogāt</l>
+<l n="d"><milestone unit="column" n="b"/>putr[ī]ṁ sārassvatīm ivaḥ</l>
+</lg>
+   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="A7"/><milestone unit="column" n="a"/>putrapautrakulān sarvvān</l>
+<l n="b"><milestone unit="column" n="b"/>dhanyaṁ saṁrakṣitaṁ dadat</l>
+<l n="c"><lb n="A8"/><milestone unit="column" n="a"/>dāsadāsiñ ca dravyāni</l>
+<l n="d"><milestone unit="column" n="b"/>vahudhānyañ ca rakṣitaṁ</l>
+</lg>
+   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="A9"/><milestone unit="column" n="a"/>Ājñāmātr̥surūpakām</l>
+<l n="b"><milestone unit="column" n="b"/>eva naniñ cā satipati</l>
+<l n="c"><lb n="A10"/><milestone unit="column" n="a"/>pancavelā tathā yatraṁ</l>
+<l n="d"><milestone unit="column" n="b"/>sabhūṣañ ca vicitrakaṁ</l>
+</lg>
+   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="A11"/><milestone unit="column" n="a"/>tandulaṁ daśadronan tad</l>
+<l n="b"><milestone unit="column" n="b"/>bhakṣapākaṁ dine dine</l>
+<l n="c"><lb n="A12"/><milestone unit="column" n="a"/>madhuparkaṁ tathā vya – n</l>
+<l n="d"><milestone unit="column" n="b"/>nārikelasamodakaṁ</l>
+</lg>
+   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="A13"/><milestone unit="column" n="a"/>bhairivādyā – gandharvāḥ</l>
+<l n="b"><milestone unit="column" n="b"/>gandhakaṁ puṣpacitravā</l>
+<l n="c"><lb n="A14"/><milestone unit="column" n="a"/>pūjātriṣkāla Ityuktaṁ</l>
+<l n="d"><milestone unit="column" n="b"/>tasmāt sārassvatin dadat</l>
+</lg>
+   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="A15"/><milestone unit="column" n="a"/>rudraloka tathā rājyaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>bhūmiṁ saṁrakṣitāṁ kulaiḥ</l>
+<l n="c" enjamb="yes"><lb n="A16"/><milestone unit="column" n="a"/>prasādaṁ bhūpater vāla</l>
+<l n="d"><milestone unit="column" n="b"/>-putr[ī]ṁ sārassvatin dadat</l>
+</lg>
+   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="A17"/><milestone unit="column" n="a"/>bhavapurābhidhāvarṇo</l>
+<l n="b"><milestone unit="column" n="b"/>vikrāntagrāmasambhavaḥ</l>
+<l n="c"><lb n="A18"/><milestone unit="column" n="a"/>santanvayasyasakulān</l>
+<l n="d"><milestone unit="column" n="b"/>tatākavV - tiṣ[ṭha]ti</l>
+</lg>
+   <lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="A19"/><milestone unit="column" n="a"/>nr̥tagītapadakālaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>liṅgaṁ bhaktyā dine dine</l>
+<l n="c"><lb n="A20"/><milestone unit="column" n="a"/>śrīnilakantha Iti khyātaḥ</l>
+<l n="d"><milestone unit="column" n="b"/>seve vaiprahuti ⏑ vit</l>
+</lg>
+</div>
+                   <div type="textpart" n="B" xml:lang="okz-Latn"><head xml:lang="eng">Face</head>
+                   <p xml:lang="san-Latn"><lb n="B0"/>Oṁ</p>
+                      <p xml:lang="san-Latn">
+   <lb n="B1"/>namo vimalavālendulekhādiptaja[tājite]</p>
+                      <p>
+                         <lb n="B2"/>neḥ gi roḥ śākha pi Añ ta jmaḥ loñ myaṅ sruk chok valval {3}
+                         <lb n="B3"/>bhūmi vikranta dharmmapura prahāra man vraḥ pāda kaṁmrateṅ Añ svey vraḥ rā-
+                         <lb n="B4"/>jya chnāṁ vyar pre Añ loñ viṣaya dharmapura prahāra pre Oy {2}
+                         <lb n="B5"/>{2}r mās prāk sarvadravya pi thvāy ta rājakula phoṅ vāp si {3}
+                         <lb n="B6"/>vāp {2} vāp {2} nu vāp nā {1} neḥ qnak viṣaya syaṅ ta paripāla {3}
+                         <lb n="B7"/>{5}ri {2} danhuṁ I trayvaṅgaṁ 5 kundaka mās liṅ I {2} jyaṅ I
+                         <lb n="B8"/>{2} 10 kra{1}y I vnuk 10 {2} I canlyak {2} 3 neḥ taṅvāy ti qnak viṣa-
+                         <lb n="B9"/>ya dharmmapura Oy nu Añ dār dravya ta roḥ neḥ steṅ guṇādhyakṣa O[y]
+                         <lb n="B10"/>Añ paṅgaṁ thpvaṅ nivedana vraḥ karuṇā prasāda dār man vvaṁ Āc ti Oy dravya ta Aṁ-
+                         <lb n="B11"/>pāl neḥ khmi Oy bhūmi {1} dravya roḥ phoṅ Añ paṅgaṁ thpvaṅ nivedana vraḥ karuṇā
+                         <lb n="B12"/>pre Añ yok {1} thvāy saṁnvat khmi Oy dharmapura nu prahāra vraḥ karuṇā dār bhū-
+                         <lb n="B13"/> mi man Añ {2} nuk yok taṅvāy mān pandval ta {3}nā catvā-
+                         <lb n="B14"/>ri pre Oy raṅvāṅ nu vraḥ sabhā hau thve caṅvat bhūmi dharmmapura prahāra pre
+                         <lb n="B15"/>Oy gnā pi dravya Añ ta Aṁpāl neḥ siddhi vvaṁ Āc ti mān vāda bhūmi neḥ ma-
+                         <lb n="B16"/>n kamrateṅ Añ śrīnilakantha daṁnuk vrāhma śūnya dau Añ paṅgaṁ thpvaṅ ni-
+                         <lb n="B17"/>vedana vraḥ karuṇā Oy prasāda bhūmi dharmmapura prahāra ta Añ {2}
+                         <lb n="B18"/>{2} cat sruk dharmapura viṅ Añ qu{2} kamrateṅ jagat nilakantha kamrateṅ
+                         <lb n="B19"/>jagat śivaliṅga ti {3} nu rūpa qme Añ {2} duk jā Āsna cat sruk prahāra chvat caṁnat
+                         <lb n="B20"/>chok valval {1}āṅ purvvapaścimadakṣiṇottara Oy ta teṅ sārassvati ta kva-
+                         <lb n="B21"/>n Añ kaṁsteṅ {2} vraiy sruk vikrāntapura ta jā saṁvandhi ta Añ nu kvan
+                         <lb n="B22"/>{2} neḥ loñ Ambañ loñ rudraśānti teṅ candra teṅ pavitra loñ paramā
+                         <lb n="B23"/>{2} gi nā Añ Oy sruk deśa neḥ phoṅ nu vraḥ pūjā {5}
+                         <lb n="B24"/>{3} ta rūpa qme Añ {2} Añ teṅ sārasvati paripā-
+                         <lb n="B25"/>la caṁ pradvān vvaṁ Āc ti mān nāk ta Amāryyāda ta pari{2}
+                         <lb n="B26"/>{2} qnak ta lap kalpanā Añ ta jana svey {1} pa {1}
+                         <lb n="B27"/>{3} svey na {4}
+                         <lb n="B28"/>candrāditya {2}
+                      </p>
+</div>
+                </div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1964_03"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <!--<div type="translation" xml:lang="fra" source="bib:Coedes1964_03">
+ 	<p rend="stanza" n="1">Oṁ. Hommage à Çambhu dont le chignon est éclairé par lc croissant de la jeune lune sans tache, et qui a. engendré (Brahma) né dll lotus et (Vi?l)u) à la paupière (semblable au) lotus.</p>
+              <p rend="stanza" n="2">Ce Dharmapradeça, enflammé par Çrï, dont le territoire avait un ~1:Jive irréprochable, et que remplissait la puissance de Rudra, /'[:1 if ,')ilS É!O'al tgj jB RudraloJ,-a.</p>
+              <p rend="stanza" n="3">Çrï blçiinavarman, chéri de Çrï, qui possédait l'héroÙ;me clt; la jr;unesse ... Il eut par son mariage une fille (nommée) Sarasvatï, telle (la déesse) Sarasvatī.</p>
+              <p rend="stanza" n="4">Il donna à tous ses enfants, petits-enfants et parents, des biens dont la garde était assurée, des esclaves hommes et femmes, des richesses, et des céréales abondantes et sous bonne garde.</p>
+              <p rend="stanza" n="5">Il érigea une belle image de sa mère, et institua aux cinq époques une procession ornée et magnifique.</p>
+              <p rend="stanza" n="6">Chaque jour, dix droQa de riz décortiqué pour la cuisson de la nourriture, un mélange de lait et de miel, du coco et des sucreries.</p>
+              <p rend="stanza" n="7">Tambours, instruments à vent - - - musiciens, parfums - - - fleurs, il donna tout cela à Sarasvatï pour la célébration du culte aux
+trois moments (de la journée).</p>
+              <p rend="stanza" n="8">Ensuite, il donna à sa fille cadette SarasvatI une terre
+gardée par ses parents, et obtenue de la faveur royale sous le règne de Rudraloka.</p>
+              <p rend="stanza" n="9">De la corporation nommée Bhavapura, natif de Vikranta- grama, il installa les gens de la même famille que la descendance de sa lignée - - - de la pièce d'eau.</p>
+              <p rend="stanza" n="10">Versé dans la connaissance des sacrifices brahmaniques, il honorait chaque jour par des danses, des chants et des récitations le
+linga nommé ÇrI NilakaD-tha.</p>
+              <p n="B0-B1">Oṁ. (Répétition incomplète de la ligne 1 de la face A).</p>
+              <p n="B2-B3">Voici les voies et moyens' par lesquels moi, nommé Lon l\Iyan, du pays de Chok Valval, (j'ai obtenu) les terres de Vikranta Dharmapura Prahara.</p>
+              <p n="B3-B5">Sa Majesté5, dans la deuxième année de son règneS, me chargea, moi Lon vi~aya de Dharmapura Prahara, (de collecter?) de l'or, de l'argent, et des objets précieux de toute sorte pour les offrir à tous les membres de la famille royale.</p>
+              <p n="B5-B9">Vap Si (suivaient les noms illisibles de trois ou quatre vap) tous gens du vi~aya, chargés de la garde - - - - - - - - (suivait une énumération d'objets, dont les seuls lisibles sont: parfum (danhU1!l), lrayvangar!ll, récipient (kundaka) d'un. lin d'or, dix vnuk, trois vêtements). Telles sont les présents pour le roi que les gens du vi~aya de Dharmapura m'ont remis.</p>
+              <p n="B9-B11">Quand j'eus obtenu tous ces objets précieux, Sten GUl)a- dhyak~a me fit solliciter respectueusement de la faveur royale que le roi ne donnât pas tous ces objets (aux princes), afin d'obtenir qu'il donnât une terre (en échange de) tous ces objets.</p>
+              <p n="B11-B13">Je m'adressai respectueusement (au roi) qui m'ordonna de présenter une requête sollicitant de la faveur royale le don de Dharmapura et de Prahara, en vue d'obtenir une terre (en échange) des présents offerts.</p>
+              <p n="B13-B15">Le roi ordonna à - - - - de quatrième catégorie de charger les ranvari et la sainte Cour d'appeler (des gens) pour délimiter les terres de Dharmapura Prahara afin qu'elles me fussent données (en échange)3 de tous les objets, en propriété exclusive, et qu'il n'y eût pas de et)ntI()veISe au sujet de ces telles, Cal IL A. ÇII NïlakaI.I~ha, darrznuk Brahma" les avait laissées vacantes.</p>
+              <p n="B16-B20">Je sollicitai respectueusement de la faveur royale que me fussent données les terres de Dharmapura Prahara - - - - restaurer le pays de Dharmapura. Je (fondai) K. J. NilakaI).tha, K. J. Çiva- liilga - - - - une image de ma mère - - - - (je fis) faire un lieu de résidence, organiser le pays de Prahara, délimiter l'installation de Chok Valval - - - dans les quatre directions, est, ouest, sud, nord, donner à Teil SarasvatI, ma fille.</p>
+              <p n="B21-B25">Karp.steil - - Vrai, du pays de Vikrantapura, mon parent et (ses?) enfants Lon A_ mnan, Lon Rudraçanti, Teù Candra, Teil Pavitra, Lon Parama - - - - J'al donne tous ces Villages et pays, et le culte - - - de l'image de ma mère - - - (chargeant) Teil SarasvaU de les garder à l'avenir, afin que tout cela échappe à la garde de gens sans moralité.</p>
+              <p n="B26-B28">Les gens qui détruiront ma fondation - - - - jouiront - - - - (aussi longtemps que dureront) le soleil et la lune.</p>
+           </div> 
+            <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1964_02"/><citedRange unit="page">94-98</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 1349.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1958_02"/><citedRange unit="page">94-98</citedRange>
+    </bibl>
+	</listBibl>
+           
+          </div>
+        </body>
+    </text>
+</TEI>
