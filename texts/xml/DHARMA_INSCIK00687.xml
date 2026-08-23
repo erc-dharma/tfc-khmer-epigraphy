@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 687. Doorjambs of the soutern sactuary of Prasat He Phka, late 9th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00687.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the ninth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-08-20" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+                   <lg n="1" met="anuṣṭubh"><milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label>
+<l n="a"><lb n="N1"/><milestone unit="column" n="a"/><g ref="sym:circle-bullseye" type="punctuation">.</g> namo = = ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="N2"/><milestone unit="column" n="a"/>Aśe = = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="N3"/><milestone unit="column" n="a"/>jita = = kra - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="N4"/><milestone unit="column" n="a"/>ja = = = m - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="N5"/><milestone unit="column" n="a"/>yasya jvala ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="N6"/><milestone unit="column" n="a"/>dr̥pta = = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="N7"/><milestone unit="column" n="a"/>vāṁ ma = = ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="N8"/><milestone unit="column" n="a"/>Anādare ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ - <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="N9"/><milestone unit="column" n="a"/>yasyāpākr̥ ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="N10"/><milestone unit="column" n="a"/>sarvvāvanatasarvvā =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -ḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="N11"/><milestone unit="column" n="a"/>nr̥siṅhavapuṣo - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ ka[ṁ] saram</l>
+<l n="c"><lb n="N12"/><milestone unit="column" n="a"/>di = kṣa = ⏑ rara =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ vodgataḥ</l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="N13"/><milestone unit="column" n="a"/>Āsī[d] [ī]śo vanīśān[āṁ]</l>
+<l n="b"><milestone unit="column" n="b"/>śrīyaśoguṇaśobhitaḥ</l>
+<l n="c"><lb n="N14"/><milestone unit="column" n="a"/>śrīyaśovarmma - - =</l>
+<l n="d"><milestone unit="column" n="b"/>vairīndraśrīyaśoharaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="N15"/><milestone unit="column" n="a"/>candrendu = ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>rājyalakṣmīparigrahe</l>
+<l n="c"><lb n="N16"/><milestone unit="column" n="a"/>yaś ca = = ⏑ - - rṇṇā</l>
+<l n="d"><milestone unit="column" n="b"/>= gabhūmim ivāvanim <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="N17"/><milestone unit="column" n="a"/>= = = tejasā te =</l>
+<l n="b"><milestone unit="column" n="b"/>= vatā tulam īritam</l>
+<l n="c"><lb n="N18"/><milestone unit="column" n="a"/>tapat sarvvam anānamram</l>
+<l n="d"><milestone unit="column" n="b"/>ānamraṁ hlādayat sadā <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="N19"/><milestone unit="column" n="a"/>yaṅ kānta = ⏑ - mīnyā</l>
+<l n="b"><milestone unit="column" n="b"/>vīkṣya va = ⏑ - bhavat</l>
+<l n="c"><lb n="N20"/><milestone unit="column" n="a"/>hi cirād adhunā nā -</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - n iti <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="N21"/><milestone unit="column" n="a"/>= = no guṇa - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="N22"/><milestone unit="column" n="a"/>diśā = = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ - <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="12" met="anuṣṭubh">
+<l n="a"><lb n="N23"/><milestone unit="column" n="a"/>= = = = ⏑ - - -</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="N24"/><milestone unit="column" n="a"/>= = = = ⏑ - - -</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+</lg>
+                   <lg n="13" met="anuṣṭubh"><milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label>
+<l n="a"><lb n="S1"/><milestone unit="column" n="a"/>nityaṁ ra = ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = tadīyan dadhat</l>
+<l n="c"><lb n="S2"/><milestone unit="column" n="a"/>vr̥ṣasthiti ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = śambhur ivābhavat <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="14" met="anuṣṭubh">
+<l n="a"><lb n="S3"/><milestone unit="column" n="a"/>guṇair apy a - - -=</l>
+<l n="b"><milestone unit="column" n="b"/>mānato vinayena yaḥ</l>
+<l n="c"><lb n="S4"/><milestone unit="column" n="a"/>bhavan iva ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>pūjitasmaraśāsanaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="15" met="anuṣṭubh">
+<l n="a"><lb n="S5"/><milestone unit="column" n="a"/>vairivānakr̥te ka =</l>
+<l n="b"><milestone unit="column" n="b"/>paraprītiharo raṇe</l>
+<l n="c"><lb n="S6"/><milestone unit="column" n="a"/>Anīruddha ⏑ - - stiś</l>
+<l n="d"><milestone unit="column" n="b"/>śaurer lakṣmīṁ babhāra yaḥ [<g ref="sym:doubleBar-ornate" type="punctuation">.</g>]</l>
+</lg>
+                   <lg n="16" met="anuṣṭubh">
+<l n="a"><lb n="S7"/><milestone unit="column" n="a"/>yāne yasya ⏑ - yāta</l>
+<l n="b"><milestone unit="column" n="b"/>[te]jastāpapratāpitāḥ</l>
+<l n="c"><lb n="S8"/><milestone unit="column" n="a"/>pā = = = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>āśritya hiraṇyair vvibhūṣitā [<g ref="sym:doubleBar-ornate" type="punctuation">.</g>]</l>
+</lg>
+                   <lg n="17" met="anuṣṭubh">
+<l n="a"><lb n="S9"/><milestone unit="column" n="a"/>= = = = ⏑ - - - r</l>
+<l n="b"><milestone unit="column" n="b"/>vvāk hiraṇyair vvibhūṣitā</l>
+<l n="c"><lb n="S10"/><milestone unit="column" n="a"/>= = = gīśvaravaktre</l>
+<l n="d"><milestone unit="column" n="b"/>yasyāṁ prīti ⏑ ror iva <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="18" met="anuṣṭubh">
+<l n="a"><lb n="S11"/><milestone unit="column" n="a"/>tasya rājādhirājasya</l>
+<l n="b"><milestone unit="column" n="b"/>rājadharmmā ⏑ - ⏑ -</l>
+<l n="c"><lb n="S12"/><milestone unit="column" n="a"/>somapālo bhavad bhr̥[tyo]</l>
+<l n="d"><milestone unit="column" n="b"/>dharmmasoma ⏑ - lanāt <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="19" met="anuṣṭubh">
+<l n="a" enjamb="yes"><lb n="S13"/><milestone unit="column" n="a"/>yo ninditapurodbhūta</l>
+<l n="b"><milestone unit="column" n="b"/>-vaiṣṇa = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S14"/><milestone unit="column" n="a"/>Ājanmācyutapādābjā</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ - <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="20" met="anuṣṭubh">
+<l n="a"><lb n="S15"/><milestone unit="column" n="a"/>duṣkr̥taṁ hr̥daye yasya</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ tam</l>
+<l n="c"><lb n="S16"/><milestone unit="column" n="a"/>tatsthāyiduṣkr̥tadhvaṅsi</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ - <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="21" met="anuṣṭubh">
+<l n="a"><lb n="S17"/><milestone unit="column" n="a"/>tena dharmmaikacittena</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S18"/><milestone unit="column" n="a"/>pratimāpratimā viṣṇoḥ</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ - <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="22" met="anuṣṭubh">
+<l n="a"><lb n="S19"/><milestone unit="column" n="a"/>tenātra yāni dattāni</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S20"/><milestone unit="column" n="a"/>= = = = ⏑ - - -</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ - <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                </div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1958_02"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <!-- <div type="translation" xml:lang="fra" source="bib:Coedes1952_01">
+ 	<p n="A1-A10"></p>   
+         </div> 
+           <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1952_01"/><citedRange unit="page">81-82</citedRange></bibl>) without translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 846.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1952_01"/><citedRange unit="page">81-82</citedRange>
+    </bibl>
+	</listBibl>
+           </div>
+        </body>
+    </text>
+</TEI>
