@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 677. Doorjambs of Prasat Damrei (Koh Ker), 10th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+               <persName/>
+               <!--<persName ref="http://viaf.org/viaf/64048594">
+                  
+                     <forename>Claude</forename>
+                     <surname>Jacques</surname>
+                  </persName>
+                  <persName>kuch: Bourdonneau et al. (nd), in notes.
+                  <forename>Eric</forename>
+                  <surname>Bourdonneau</surname>
+               </persName>-->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00677.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-08-25" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<lg n="1" met="upajāti"><milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label>
+<l n="a"><lb n="S1"/><milestone unit="column" n="a"/>priyan dha - - ⏑ ⏑ - ⏑ - =</l>
+<l n="b"><milestone unit="column" n="b"/>= - ⏑ - - ⏑ ⏑ - ⏑ - =</l>
+<l n="c"><lb n="S2"/><milestone unit="column" n="a"/>v - CāCrV - - ⏑ ⏑ - ⏑ - =</l>
+<l n="d"><milestone unit="column" n="b"/>= - ⏑ - - ⏑ ⏑ - ⏑ - =</l>
+</lg>
+                   <lg n="2" met="upajāti">
+<l n="a"><lb n="S3"/><milestone unit="column" n="a"/>hr̥tpadmamadhye ⏑ ⏑ - ⏑ - =</l>
+<l n="b"><milestone unit="column" n="b"/>= - ⏑ - - ⏑ ⏑ - ⏑ - =</l>
+<l n="c"><lb n="S4"/><milestone unit="column" n="a"/>Itīva - s se ⏑ ⏑ - ⏑ - =</l>
+<l n="d"><milestone unit="column" n="b"/>= - ⏑ - - ⏑ ⏑ - ⏑ - =</l>
+</lg>
+                   <lg n="3" met="upajāti">
+<l n="a"><lb n="S5"/><milestone unit="column" n="a"/>devavrato CrV ⏑ ⏑ - ⏑ - =</l>
+<l n="b"><milestone unit="column" n="b"/>= - ⏑ - - ⏑ ⏑ - ⏑ - =</l>
+<l n="c"><lb n="S6"/><milestone unit="column" n="a"/>Anekadr̥ṣṭir dhr̥ ⏑ - ⏑ - =</l>
+<l n="d"><milestone unit="column" n="b"/>= - ⏑ - - ⏑ ⏑ - ⏑ =</l>
+</lg>
+                   <lg n="4" met="upajāti">
+<l n="a"><lb n="S7"/><milestone unit="column" n="a"/>pratyūhayantaṁ ⏑ ⏑ - ⏑ - =</l>
+<l n="b"><milestone unit="column" n="b"/>= te ⏑ - - ⏑ ⏑ - ⏑ - =</l>
+<l n="c"><lb n="S8"/><milestone unit="column" n="a"/>taddoṣamo - ⏑ ⏑ - ryya - =</l>
+<l n="d"><milestone unit="column" n="b"/>= ṣṭādhikahr̥tsthatV - ⏑ - =</l>
+</lg>
+                   <lg n="5" met="upajāti">
+<l n="a"><lb n="S9"/><milestone unit="column" n="a"/>yasyojjva - - ⏑ ⏑ - m apāya</l>
+<l n="b"><milestone unit="column" n="b"/>mabībhujāṁ vajra ⏑ -yV ⏑ - yV</l>
+<l n="c"><lb n="S10"/><milestone unit="column" n="a"/>dhanāya ta - ⏑ payaṁ ⏑ - tat</l>
+<l n="d"><milestone unit="column" n="b"/>sumanditakrV rV ⏑ śopayañ ca <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="6" met="indravajrā">
+<l n="a"><lb n="S11"/><milestone unit="column" n="a"/>bibhrad dhan[us sva]n dhr̥tasarvvavarṇṇam</l>
+<l n="b"><milestone unit="column" n="b"/>uddr̥ṣṭavadvr̥travalārddano yaḥ</l>
+<l n="c"><lb n="S12"/><milestone unit="column" n="a"/>UccaiḥpadV - ṇyakr̥tāṁ variṣṭhas</l>
+<l n="d"><milestone unit="column" n="b"/>sākṣāt sahasrākṣa Ivābabhāse <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="7" met="upajāti">
+<l n="a"><lb n="S13"/><milestone unit="column" n="a"/>sr̥ṣtyām aCt satvahite pradhāne</l>
+<l n="b"><milestone unit="column" n="b"/>⏑ - Cayānām apakārake 'pi</l>
+<l n="c"><lb n="S14"/><milestone unit="column" n="a"/>yasmin ⏑ sā[ṁ]khyā virajastamaskāḥ</l>
+<l n="d"><milestone unit="column" n="b"/>kenāpi ṣādguṇyayutā guṇaughā[ḥ] <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="8" met="indravajrā">
+<l n="a"><lb n="S15"/><milestone unit="column" n="a"/>saṁ[va]rddhamānai ⏑ ⏑ karmma - - s</l>
+<l n="b"><milestone unit="column" n="b"/>saṁyogavadbhis samavāyakāle</l>
+<l n="c"><lb n="S16"/><milestone unit="column" n="a"/>dravyasya sarCai ⏑ ⏑ - ⏑ vaiḥ prāk</l>
+<l n="d"><milestone unit="column" n="b"/>prāyena yasyānaśaṇī babhūve <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="9" met="indravajrā">
+<l n="a"><lb n="S17"/><milestone unit="column" n="a"/>hīnopa - - ⏑ ⏑ - ⏑ - =</l>
+<l n="b"><milestone unit="column" n="b"/>sapratyayā yasya sasādhuśavdā</l>
+<l n="c"><lb n="S18"/><milestone unit="column" n="a"/>Aṅgopa - - ⏑ ⏑ - ⏑ - =</l>
+<l n="d"><milestone unit="column" n="b"/>prakāśayām āsa mukhe padārthān <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="10" met="iupajāti">
+<l n="a"><lb n="S19"/><milestone unit="column" n="a"/>tejo CrC - - ⏑ ⏑ - ⏑ - =</l>
+<l n="b"><milestone unit="column" n="b"/>raṇeṣu rājñāṁ paṭukoṭipātaiḥ</l>
+<l n="c"><lb n="S20"/><milestone unit="column" n="a"/>cūdāmaṇyV - ⏑ ⏑ - ⏑ - =</l>
+<l n="d"><milestone unit="column" n="b"/>= Cādipīthaṁ sahasāruṣeva <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="11" met="upajāti">
+<l n="a"><lb n="S21"/><milestone unit="column" n="a"/>triśaktiśa - ⏑ ⏑ - ⏑ - =</l>
+<l n="b"><milestone unit="column" n="b"/>= - yakas saṁhr̥takālakūṭaḥ</l>
+<l n="c"><lb n="S22"/><milestone unit="column" n="a"/>Upakramā - ⏑ ⏑ - ⏑ - =</l>
+<l n="d"><milestone unit="column" n="b"/>= - ⏑ Crād yasya nayābdhimanthaḥ <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="12" met="upajāti">
+<l n="a"><lb n="S23"/><milestone unit="column" n="a"/>yatra praya - ⏑ ⏑ - ⏑ - =</l>
+<l n="b"><milestone unit="column" n="b"/>= - ⏑ mād yaddvipadānavarṣaiḥ</l>
+<l n="c"><lb n="S24"/><milestone unit="column" n="a"/>dhāmāgnidagdhāny a ⏑ - ⏑ - =</l>
+<l n="d"><milestone unit="column" n="b"/>= - ⏑ - namradalāny abhūvan [<g ref="sym:ddanda" type="punctuation">.</g>]</l>
+</lg>
+                   <lg n="13" met="upajāti">
+<l n="a"><lb n="S25"/><milestone unit="column" n="a"/>khadgastruvo dvidrudhira ⏑ - =</l>
+<l n="b"><milestone unit="column" n="b"/>= - ⏑ - - ⏑ ⏑ ve kr̥śānau</l>
+<l n="c"><lb n="S26"/><milestone unit="column" n="a"/>mantrī galamaukīkalā ⏑ - =</l>
+<l n="d"><milestone unit="column" n="b"/>= - ⏑ - Cyā bhr̥śam ājilakṣmi[m <g ref="sym:ddanda" type="punctuation">.</g>]</l>
+</lg>
+                   <lg n="14" met="upajāti">
+<l n="a"><lb n="S27"/><milestone unit="column" n="a"/>bhāsvatkalāvaddyutayo maC eC thV</l>
+<l n="b"><milestone unit="column" n="b"/>= Cyas sadetyasya tadātmakatvāt</l>
+<l n="c"><lb n="S28"/><milestone unit="column" n="a"/>tāsāṁ sthitiṁ paryyavasān didr̥kṣu[r]</l>
+<l n="d"><milestone unit="column" n="b"/>bbaṁbhramyate dikṣv iva yasya kīrttiḥ <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="15" met="upajāti">
+<l n="a"><lb n="S29"/><milestone unit="column" n="a"/>vicitrayañ cittavatān nu cetas</l>
+<l n="b"><milestone unit="column" n="b"/>sañcūrṇṇayan mānahr̥tāñ ca mānaṁ</l>
+<l n="c"><lb n="S30"/><milestone unit="column" n="a"/>Ugrasya liṇgan navadhā gariṣṭham</l>
+<l n="d"><milestone unit="column" n="b"/>atiṣṭhipad yo navahastaniṣṭham <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="16" met="upajāti">
+<l n="a"><lb n="S31"/><milestone unit="column" n="a"/>mahāndhakāro dhvaradhūmadhūtyāḥ</l>
+<l n="b"><milestone unit="column" n="b"/>pracandatejobhir avagraho bhūt</l>
+<l n="c"><lb n="S32"/><milestone unit="column" n="a"/>vr̥ṣṭiḥ prakr̥ṣṭā vasudantidānair</l>
+<l n="d"><milestone unit="column" n="b"/>yyasmin kṣitiṁ rakṣati viṣṭapānām <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="17" met="upajāti">
+<l n="a"><lb n="S33"/><milestone unit="column" n="a"/>kāleṣu kāleyakalaṅkapaṅkair</l>
+<l n="b"><milestone unit="column" n="b"/>ddigdhāṅkītān lokagaṇāṅś cirāya</l>
+<l n="c"><lb n="S34"/><milestone unit="column" n="a"/>trilocanas trāṇatayā vilocya</l>
+<l n="d"><milestone unit="column" n="b"/>bhūmau dhruvaṁ svāṅśam atārayad yam <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="18" met="upajāti">
+<l n="a"><lb n="S35"/><milestone unit="column" n="a"/>yasyādbhutān vākpatayo py abhūvan</l>
+<l n="b"><milestone unit="column" n="b"/>padaṁ padaṁ praty akhilaṁ guṇaughān</l>
+<l n="c" enjamb="yes"><lb n="S36"/><milestone unit="column" n="a"/>nālan nu saṁkhyātum atīvadivya</l>
+<l n="d"><milestone unit="column" n="b"/>kālena dhīrā iva śavdarāśīn <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="19" met="śārdūlavikrīḍita">
+<l n="a" enjamb="yes"><lb n="S37"/>tena śrījayavarmmaṇā vijayinā jyeṣṭhasya dharmmasthiti</l>
+<l n="b"><lb n="S38"/>prāptyai liṅgam idaṁ śivasya paratas saṁkalpitaṁ sthāpitam</l>
+<l n="c"><lb n="S39"/>saudaryyasya dhr̥taśriyārthayutayā rājendravarmmākhyayā</l>
+<l n="d"><lb n="S40"/>khyātasyāgrasarasya kīrttiguṇadhīvīryyāḍhyatāśālinām <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="20" met="mālinī">
+<l n="a"><lb n="S41"/>Adita vasusamastaṁ bhaktito 'smin śive 'sāv</l>
+<l n="b"><lb n="S42"/>Akr̥ta ca śikharābhaṁ saudhaveśmādrirājaḥ</l>
+<l n="c"><lb n="S43"/>Aniyatagatim īśañ caikavr̥ddhokṣam īkṣyaṁ</l>
+<l n="d"><lb n="S44"/>dhanisakham iva kurvvann ekavāsaṁ dhanāḍhyam <g ref="sym:danda" type="punctuation">.</g><g ref="sym:circle-bullseye" type="punctuation">.</g><g ref="sym:danda" type="punctuation">.</g></l>
+</lg>
+                   <p><milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label>
+   <lb n="N1"/>si maṅgala I gho kaqih I gho pansaṅ I
+                      <lb n="N2"/>gvāl ----- gho saṁqap --- I gho ----
+                      <lb n="N3"/>panlās I gho kaṁdit rat I gho ----
+                      <lb n="N4"/>gho karmmari I gho pūrvvamalā I tai ---
+                      <lb n="N5"/>tai tas kā I kvan I tai laṅgāy I ---
+                      <lb n="N6"/>---- tai jvik I tai varmma I tai kanso I tai --
+                      <lb n="N7"/>11 tai vinātha I tai kaṁvai I tai lv---
+                      <lb n="N8"/>n I tai saṁqap I tai kantrāk I tai ----
+                      <lb n="N9"/>tai patna I tai thle[ṁ] I tai -------
+                      <lb n="N10"/>tai surabhī I kvan I tai pandan I tai kale --
+                      <lb n="N11"/>I tai kañjai I tai kandeṅ I kvan I rat gvāl --
+                      <lb n="N12"/>kaṁvit rat I gvāl pandan I gvāl thkot I gvā-
+                      <lb n="N13"/>l thgan rat I gvāl thkot sot I gvāl
+                      <lb n="N14"/>Amr̥ta I gvāl kaṁpañ I gvāl Amr̥ta
+                      <lb n="N15"/>sot I gvāl guṇasahāya I gho
+                      <lb n="N16"/>sudāsa I gho śrī rat I gho taṅker I
+                      <lb n="N17"/>gho thgap I gho kanqañ I gho panla-
+                      <lb n="N18"/>s rat I gho kanchot I A tai siddhi I tai ma-
+                      <lb n="N19"/>dhuragīta rat I tai kanhyaṅ rat I tai la-
+                      <lb n="N20"/>ṅgāy I tai kanqā I tai thmās rat I tai ka-
+                      <lb n="N21"/>ñcyaṅ I tai pandan I tai kañcyat I tai ya-
+                      <lb n="N22"/>śamātra I tai caṁlak I tai varmma I tai priyā-
+                      <lb n="N23"/>ni I tai kaṁpit I tai Anyāt I tai dharaṇī I tai kaṁ-
+                      <lb n="N24"/>vrā I tai kañjan I tai chneṁ I tai kṣata I tai thgau I
+                      <lb n="N25"/>tai ka[ṁ]pur I tai kaṁvr̥k I tai kanso I tai chvāy I tai sa-
+                      <lb n="N26"/>rṇna I tai kaṁprvāt I tai kaṁprvāt sot I tai dhanv---
+                      <lb n="N27"/>gvāl kaṁpit I gvāl pansāṅ I gvāl kañcū I gvā-
+                      <lb n="N28"/>l ---- I gvāl kaṁvrau I gvāl Agat I gho saṁrac I
+                   </p>     
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="5">
+                  <lem></lem>
+                   <rdg source="bib:Jacques2014_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1937-02">
+ 	<p rend="stanza" n="1">Charmant ...</p>
+              <p rend="stanza" n="2">Au milieu du lotus de son cœur ... se disant en quelque sorte ...</p>
+              <p rend="stanza" n="3">Servant les dieux ... ayant des vues diverses ...</p>
+              <p rend="stanza" n="4">... faisant obstacle ... sa faute ... se tenant dans son cœur qui surpassait ...</p>
+              <p rend="stanza" n="5">Son brillant ... des rois, la foudre ... pour la richesse ... bien orné ... moyen ...</p>
+              <p rend="stanza" n="6">Portant son arc qui soutient toutes les castes [ou : qui arbore toutes les couleurs], détruisant l'armée des ennemis à son apparition [ou : la force de Vr̥tra devenu visible], le meilleur de ceux qui font de ... une haute situation [ou : un séjour élevé], il apparaissait tel (Indra) aux mille yeux, en personne.</p>
+              <p rend="stanza" n="7">Lors de la création ... dans la matière ... même faisant du tort ... en lui, la masse de ses qualités, dépourvue de passion (rajas) et d'ignorance (tamas), était douée en quelque sorte des six qualités.</p>
+              <p rend="stanza" n="8">Au moment de la rencontre avec les ... prospérant ... possédant des relations ... de la richesse ... autrefois, devint un jeûne, en se laissant mourrir d'inanition.</p>
+              <p rend="stanza" n="9">Sa ... sûre, accompagnée de l'exclamation : c'est bien ! ... manifestait dans sa bouche le sens des mots.</p>
+              <p rend="stanza" n="10">Sa Majesté ... dans les batailles, par les coups des pointes acérées des joyaux de la tête ... des rois ... le siège, comme avec une rage furieuse.</p>
+              <p rend="stanza" n="11">... de Triśakti ... détruisant le (poison) kālakūṭa ... barattement de l'océan de sa conduite.</p>
+              <p rend="stanza" n="12">Brûlées par le feu de sa Majesté, les pétales flétries des ... (se redressaient, lorsqu'elles étaient rafraîchies) par la pluie de la liqueur temporale de ses éléphants.</p>
+              <p rend="stanza" n="13">Ayant pour cuiller son épée, (versant en guise de beurre) le sang des ennemis dans le feu ... le conseiller ... perles se détachant ... fortement la Lakṣmī des combats.</p>
+              <p rend="stanza" n="14">... l'éclat de la lune brillante ... par le fait d'avoir pour nature ... désirant voir leur situation, sa gloire erre en quelque sorte dans les points cardinaux.</p>
+              <p rend="stanza" n="15">Réjouissant le cœur des gens de cœur, et réduisant à néant l'orgueil des orgueilleux, il a érigé, en le plaçant sur neuf fois neuf coudées, un liṅga d'Ugra, extrêmement lourd.</p>
+              <p rend="stanza" n="16">Pendant qu'il gardait le séjour des mondes, l'obscurité produite par les volutes de fumées de ses sacrifices était fendue par sa brûlante majesté, et la pluie était répandue par les exsudations temporales de ces éléphants qu'étaient les richesses (distribuées par lui).</p>
+              <p rend="stanza" n="17">(Śiva), le dieu aux trois yeux, ayant au cours des âges vu les mondes souillés depuis longtemps par la souillure de l'âge Kali, amena sur la terre, pour la protéger, ce (roi) ferme qui était une portion de lui-même.</p>
+              <p rend="stanza" n="18">Les maîtres de la parole eux-mêmes n'étaient pas capables de dénombrer complètement, mot par mot, la masse de ses miraculeuses qualités, comme des savants (énumérant) pendant un temps surnaturel les séries des sons.</p>
+              <p rend="stanza" n="19">Ce Śrī Jayavarman, victorieux, a érigé ce liṅga de Śiva, destiné à obtenir dans l'autre monde une juste situation en faveur de son frère aîné, né de la même mère, appelé du nom fortuné et significatif de Rājendravarman, le premier de ceux qui possèdent en abondance renommée, vertu, intelligence et richesse.</p>
+              <p rend="stanza" n="20">Par dévotion, ce roi a donné à ce Śiva toutes sortes de richesses, et il a fait une demeure couverte de stuc, ayant l'aspect du sommet du roi des monts, rendant (par cette œuvre) le vieux Taureau unique à la démarche irrégulière, en quelque sorte souverain, digne des regards, ami des gens fortunés, cohabitant (avec lui), pourvu de richesses.</p>
+                   </div>
+           
+          <div type="commentary">
+           <p>George Cœdès reports some lost lines before line S1.</p>
+         </div> 
+        <div type="bibliography">
+          <p>The Sanskrit part was edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937_02"/><citedRange unit="page">56-61</citedRange></bibl>) with a French translation and the Khmer one was edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/><citedRange unit="page">98</citedRange></bibl>) without translation; re-edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques2014_01"/><citedRange unit="page">315-322</citedRange></bibl>); re-edited here by Kunthea Chhom based on EFEO estampage n. 812.</p>
+	 <listBibl type="primary">
+             <bibl n="GC">
+      <ptr target="bib:Coedes1937_02"/><citedRange unit="page">56-61</citedRange>
+    </bibl>
+	    <bibl n="SP">
+      <ptr target="bib:Pou2001_01"/><citedRange unit="page">98</citedRange>
+    </bibl>
+             <bibl n="CJ">
+             <ptr target="bib:Jacques2014_01"/>
+             <citedRange unit="page">315-322</citedRange>
+                     </bibl>
+             </listBibl>
+           <listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">168-171</citedRange>
+    </bibl>
+              </listBibl>
+                </div>
+        </body>
+    </text>
+</TEI>
