@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 686. Doorjambs of the central sanctuary of Prasat He Phka, 10th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00686.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-08-27" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+                   <lg n="1" met="unidentified"><milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label>
+<l n="a"><lb n="S1"/><milestone unit="column" n="a"/><gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="b"><milestone unit="column" n="b"/><gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="c"><lb n="S2"/><milestone unit="column" n="a"/><gap reason="lost" extent="unknown" unit="character"/></l>
+<l n="d"><milestone unit="column" n="b"/><gap reason="lost" extent="unknown" unit="character"/></l>
+</lg>
+                   <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="S3"/><milestone unit="column" n="a"/>= = = = ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S4"/><milestone unit="column" n="a"/>śrīpu = = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="S5"/><milestone unit="column" n="a"/>sama = = ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S6"/><milestone unit="column" n="a"/>yaṁ vī = = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="S7"/><milestone unit="column" n="a"/>raudre = = ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S8"/><milestone unit="column" n="a"/>mr̥gopama ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="S9"/><milestone unit="column" n="a"/>yaś campānaga[ra] - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S10"/><milestone unit="column" n="a"/>kurvvan vasuma - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="S11"/><milestone unit="column" n="a"/>tatsūnus sū[r]yya - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S12"/><milestone unit="column" n="a"/>jana = = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="S13"/><milestone unit="column" n="a"/>sarvvādridvi ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S14"/><milestone unit="column" n="a"/>parameśvarapu - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="S15"/><milestone unit="column" n="a"/>tanmātulasya ta[naya]</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S16"/><milestone unit="column" n="a"/>śrīndravarmmā ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="S17"/><milestone unit="column" n="a"/>yuddhābdhiṁ ya ⏑ - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S18"/><milestone unit="column" n="a"/>svakīyau = ⏑ - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="S19"/><milestone unit="column" n="a"/>śriyaśova[rm]ma - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S20"/><milestone unit="column" n="a"/>[mūr]rddhābhiṣiktas s--=</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+</lg>
+                   <lg n="11" met="anuṣṭubh">
+<l n="a"><lb n="S21"/><milestone unit="column" n="a"/>kṣārārṇṇavapari - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S22"/><milestone unit="column" n="a"/> pūritā bhūr nu - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ nā <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="12" met="anuṣṭubh">
+<l n="a"><lb n="S23"/><milestone unit="column" n="a"/>netratra[ya] - - - =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S24"/><milestone unit="column" n="a"/>śrīharṣavarmma - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ - <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="13" met="anuṣṭubh">
+<l n="a"><lb n="S25"/><milestone unit="column" n="a"/>śrīddhaśśrījayavarmma =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S26"/><milestone unit="column" n="a"/>rājñorvya atīta - - =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ - <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="14" met="anuṣṭubh">
+<l n="a"><lb n="S27"/><milestone unit="column" n="a"/>yadagrajasya mahiṣī</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -</l>
+<l n="c"><lb n="S28"/><milestone unit="column" n="a"/>yaś ca mānyas tadā di =</l>
+<l n="d"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ -m <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="15" met="anuṣṭubh">
+<l n="a"><lb n="S29"/><milestone unit="column" n="a"/>khavarnavasubhir vva =</l>
+<l n="b"><milestone unit="column" n="b"/>= = = = ⏑ - ⏑ - ḥ</l>
+<l n="c"><lb n="S30"/><milestone unit="column" n="a"/>cakre tribhuvanasthānaṁ</l>
+<l n="d"><milestone unit="column" n="b"/>yas surasthitinirbharam <g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="16" met="anuṣṭubh">
+<l n="a"><lb n="S31"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="S32"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="17" met="upajāti">
+<l n="a"><lb n="S33"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="S34"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="18" met="upajāti">
+<l n="a"><lb n="S35"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="S36"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="19" met="upajāti">
+<l n="a"><lb n="S37"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="S38"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="20" met="upajāti">
+<l n="a"><lb n="S39"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="S40"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="21" met="upajāti">
+<l n="a"><lb n="S41"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="S42"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="22" met="anuṣṭubh">
+<l n="a"><lb n="S43"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="S44"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="23" met="anuṣṭubh">
+<l n="a"><lb n="S45"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="S46"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="24" met="anuṣṭubh">
+<l n="a"><lb n="S47"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="S48"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="25" met="anuṣṭubh"><milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label>
+<l n="a"><lb n="N1"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N2"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="26" met="anuṣṭubh">
+<l n="a"><lb n="N3"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N4"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="27" met="anuṣṭubh">
+<l n="a"><lb n="N5"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N6"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="28" met="anuṣṭubh">
+<l n="a"><lb n="N7"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N8"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="29" met="anuṣṭubh">
+<l n="a"><lb n="N9"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N10"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="30" met="anuṣṭubh">
+<l n="a"><lb n="N11"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N12"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="31" met="anuṣṭubh">
+<l n="a"><lb n="N13"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N14"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="32" met="anuṣṭubh">
+<l n="a"><lb n="N15"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N16"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="33" met="anuṣṭubh">
+<l n="a"><lb n="N17"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N18"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="34" met="anuṣṭubh">
+<l n="a"><lb n="N19"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N20"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="35" met="anuṣṭubh">
+<l n="a"><lb n="N21"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N22"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="36" met="anuṣṭubh">
+<l n="a"><lb n="N23"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N24"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="37" met="anuṣṭubh">
+<l n="a"><lb n="N25"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N26"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="38" met="anuṣṭubh">
+<l n="a"><lb n="N27"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N28"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="39" met="anuṣṭubh">
+<l n="a"><lb n="N29"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N30"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="40" met="anuṣṭubh">
+<l n="a"><lb n="N31"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N32"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="41" met="anuṣṭubh">
+<l n="a"><lb n="N33"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N34"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="42" met="anuṣṭubh">
+<l n="a"><lb n="N35"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N36"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="43" met="anuṣṭubh">
+<l n="a"><lb n="N37"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N38"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="44" met="āryā">
+<l n="ab"><lb n="N39"/><milestone unit="column" n="a"/><milestone unit="column" n="b"/></l>
+<l n="cd"><lb n="N40"/><milestone unit="column" n="a"/><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="45" met="anuṣṭubh">
+<l n="a"><lb n="N41"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N42"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="46" met="anuṣṭubh">
+<l n="a"><lb n="N43"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N44"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="47" met="anuṣṭubh">
+<l n="a"><lb n="N45"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N46"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="48" met="anuṣṭubh">
+<l n="a"><lb n="N47"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N48"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="49" met="anuṣṭubh">
+<l n="a"><lb n="N49"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N50"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="50" met="anuṣṭubh">
+<l n="a"><lb n="N51"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N52"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                   <lg n="51" met="anuṣṭubh">
+<l n="a"><lb n="N53"/><milestone unit="column" n="a"/></l>
+<l n="b"><milestone unit="column" n="b"/></l>
+<l n="c"><lb n="N54"/><milestone unit="column" n="a"/></l>
+<l n="d"><milestone unit="column" n="b"/><g ref="sym:ddanda" type="punctuation">.</g></l>
+</lg>
+                </div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1958_02"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+            <div type="translation" xml:lang="fra" source="bib:Coedes1952_01">
+ 	<p rend="stanza" n="1-5">(Invocations et mention d'un roi qui doit être Jayavarman II.)</p>    
+               <p rend="stanza" n="6-7">Le fils de ce roi (fils de Parameçvara), c'est-à-dire Jayavarman III.</p>
+               <p rend="stanza" n="8-9">Le fils de l'oncle maternel de ce dernier, c'est-à-dire Indravarman.</p>
+               <p rend="stanza" n="10-11">(Yaçovarman.)</p>
+               <p rend="stanza" n="12">(Harṣavarman 1er et sans douté Içanavarman II).</p>
+               <p rend="stanza" n="13-15">Jayavarman IV, roi en 850 Śaka (khaviinavasubhir) = 928 A. D., fondateur du temple de Tribhuvana (à Koḥ Ker).</p>
+               <p rend="stanza" n="16">(Son fils Harṣavarman II.)</p>
+               <p rend="stanza" n="17">« Son aîné, victorieux... le roi ÇrI Rajendravarman, éclairé , par la lune de sa gloire... ».</p>
+               <p rend="stanza" n="18">« Bien qu'il fût l'aîné, il avait aimablement laissé la Fortune (royale) à son propre cadet ÇrI Har!?avarman (II) ; ayant préalable- ment détruit la noirceur chez les méchants, comme Pü!?an (le soleil) la détruit chez la lune, il obtint ensuite (lui-même) la Fortune ».</p>
+               <p rend="stanza" n="19">«Bien qu'ayant obtenu la royauté dans (le mois de) Pu!?ya, bien qu'ayant la tête humide des ablutions du Pu~yabhi!?eka, ayant en quelque sorte pris refuge dans la puissance de l'ascèse, il a dompté l'orgueil de Pu!?ya».</p>
+               <p rend="stanza" n="20-21">(Fin de l'éloge de Rajendravarman.)</p>
+               <p rend="stanza" n="22">(Le nom d'un roi Jayavarman.)</p>
+               <p rend="stanza" n="23-24">(Passage très ruiné.)</p>
+               <p rend="stanza" n="25">(La mention d'un neveu en ligne féminine.)</p>
+               <p rend="stanza" n="26">(Passage très ruiné.)</p>
+               <p rend="stanza" n="27">(L'érection d'une image.)</p>
+               <p rend="stanza" n="28-29">(Passage très ruiné.)</p>
+               <p rend="stanza" n="30">(Le nom de Somapāla, auteur de l'inscription du sanctuaire sud.)</p>
+               <p rend="stanza" n="31-34">(Le favori éminent vaiṣṇava qui reçut peut-être un titre commençant par Śrī Rāje-.)</p>
+               <p rend="stanza" n="35-37">(Passage très ruiné.)</p>
+               <p rend="stanza" n="38-39">(Des insignes de dignité et des objets précieux)</p>
+               <p rend="stanza" n="40">(Passage très ruiné.)</p>
+               <p rend="stanza" n="41">(Une femme vertueuse, aînée , peut-être la femme de Somapāla.)</p>
+               <p rend="stanza" n="42">« ... elle se consacra aux soins domestiques à l'égard de son époux ».</p>
+               <p rend="stanza" n="43">« Ayant fait danser de nombreuses esclaves danseuses, charmantes, ell~ fut ... dans ce temple fait suivant la règle du Veda ».</p>
+               <p rend="stanza" n="44">« Le sage Prthivlndravijaya, fils de Somapala, précédem- ment conseiller de ÇrI Har!?avarman, participait en quelque sorte à la nature de Soma ».</p>
+               <p rend="stanza" n="45">« Il a reçu autrefois un double nom .... commençant par - - ndr - kavlndra 0 et terminé par 0paI,lQita ».</p>
+               <p rend="stanza" n="46">«Il a reçu de deux rois2, deux palanquins d'or ..., avec coupe et aiguière ».</p>
+               <p rend="stanza" n="47">Avec le parasol en plumes de paon offert par Śrī Harṣavarman ... poète, réjouissant· Keçava ».</p>
+               <p rend="stanza" n="48-49">(Éloge de la science du personnage.)</p>
+               <p rend="stanza" n="50-51">(Imprécations.)</p>
+         </div> 
+           <!--<div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1952_01"/><citedRange unit="page">83-87</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 845.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1952_01"/><citedRange unit="page">83-87</citedRange>
+    </bibl>
+	</listBibl>
+           </div>
+        </body>
+    </text>
+</TEI>
