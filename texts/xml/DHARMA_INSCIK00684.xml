@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 684. Doorjamb of Prasat Phnom Bakheng, 10th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00684.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the tenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-08-28" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="3"/>{4}ṅ ti [vraḥ] kamra-
+   <lb n="4"/>[t]e[ṅ] {2} ti saṣṭhī vraḥ thkvāl nu
+   <lb n="5"/>bhagavān rudrāśrama jauv
+   <lb n="6"/>[n]u prāk liṅ tapp vyar bhājana vyar
+   <lb n="7"/>ṅan jyaṅ tapp ta loñ rau nu
+   <lb n="8"/>loñ prāṇa pādamūla kamrateṅ
+   <lb n="9"/>jagat vnaṁ kantāl ti vraḥ kamrateṅ
+   <lb n="10"/>vraḥ thkvāl cāṁ caṁnāṁ ta kamrateṅ jagat
+   <lb n="11"/>vnaṁ kantāl raṅko je I saṅkranta phle bhū-
+   <lb n="12"/>mi vnur khliṅ Āyatta ta kule ta mū-
+   <lb n="13"/>la nā barṇṇa vraḥ cāmara phle sruk stu-
+   <lb n="14"/>k kok padmapura paripālana pradvān
+   <lb n="15"/>yajñaśeṣa noḥ liḥ 5 ta qnak ta trvac
+   <lb n="16"/>vraḥ rājakāryya liḥ 2 vraḥ bhagavan
+   <lb n="17"/>liḥ I ta chmāṁ glāṅ liḥ I ta chmāṁ vraḥ pañji-
+   <lb n="18"/>ya liḥ 6 ta qnak ta thve yajña noḥ
+</p>     
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1952_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1952_01">
+ 	<p n="1-9">..... (la terre de Vnur Khliṅ) que V. K. sixième, de Vraḥ Thkvāl et le vénérable (bhagavan) du Rudrāśrama ont achetée au prix de 12 liṅ d'argent, 2 récipients pesant 10 jyaṅ, à Loñ Rau et Loñ Prāṇa vénérables (pādamūla) du K. J. Vnaṁ Kantāl.</p>
+             <p n="9-10">Redevances dues par V. K. de Vraḥ Thkvāl à K. J. Vnaṁ Kantāl : 1 je de riz décortiqué au nouvel an.</p>
+              <p n="11-14">Les produits de la terre de Vnur Khliṅ relèvent de l'autorité des membres des familles des chefs de la caste des (porteurs de) chasse-mouches. Les produits du pays de Stuk Kok dans Padmapura, (il leur appartient) de les garder à l'avenir.</p>
+              <p n="15-18">Les reliefs des sacrifices (sont ainsi distribués) : 5 liḥ à l'inspecteur du service royal, 2 liḥ, au vénérable (bhagavan), 1 liḥ au gardien des magasins, 1 liḥ au gardien des saints registres, 6 liḥ à celui qui fait ce sacrifice.</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1952_01"/><citedRange unit="page">106-107</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 843.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1952_01"/><citedRange unit="page">106-107</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>

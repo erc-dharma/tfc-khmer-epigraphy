@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 643. Fragmentary stela of the Buddhist terrace of Angkor Thom, 9th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+               <persName>
+                  <forename/>
+                  <surname/>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00643.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the ninth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-08-28" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+                   <lg n="1" met="anuṣṭubh">
+<l n="a"><lb n="1"/><milestone n="a" unit="column"/><g ref="sym:bullet-hollow" type="punctuation">.</g><g ref="sym:doubleBar" type="punctuation">.</g>pāntu vo vāsudevasya</l>
+<l n="b"><milestone n="b" unit="column"/>pādapaṅkajapāṅsavaḥ</l>
+<l n="c" enjamb="yes"><lb n="2"/><milestone n="a" unit="column"/>bhuvanatritayotpatti</l>
+<l n="d"><milestone n="b" unit="column"/>-sthitisaṁhārahetavaḥ <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+     <lg n="2" met="anuṣṭubh">
+<l n="a"><lb n="3"/><milestone n="a" unit="column"/>vande trivikramaṁ yena</l>
+<l n="b"><milestone n="b" unit="column"/>trailokyan tat sthitānvitam</l>
+<l n="c"><lb n="4"/><milestone n="a" unit="column"/>mamedan na parasyeti</l>
+<l n="d"><milestone n="b" unit="column"/>svapadais tribhir aṅkitam <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="5"/><milestone n="a" unit="column"/>namo 'stu padmanābhāya</l>
+<l n="b"><milestone n="b" unit="column"/>sarvvasarggasisr̥kṣayā</l>
+<l n="c" enjamb="yes"><lb n="6"/><milestone n="a" unit="column"/>nijanābhyudbhavāmbhoja</l>
+<l n="d"><milestone n="b" unit="column"/>-prādurbhūtasvayambhuve <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="7"/><milestone n="a" unit="column"/>namo 'stu yogi[h]r̥tpad[ma]</l>
+<l n="b"><milestone n="b" unit="column"/>= = ve 'pi madhudviṣe</l>
+<l n="c" enjamb="yes"><lb n="8"/><milestone n="a" unit="column"/>surāsuraśiraścumvi</l>
+<l n="d"><milestone n="b" unit="column"/>-[padapaṅka]ja[r]eṇave <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="5" met="anuṣṭubh">
+<l n="a"><lb n="9"/><milestone n="a" unit="column"/>vande śrīpuṇḍarīkākṣa</l>
+<l n="b"><milestone n="b" unit="column"/>= = = = ⏑ - ⏑ dam</l>
+<l n="c"><lb n="10"/><milestone n="a" unit="column"/>kṣitaṁ bhuvam ivoddhartuṁ</l>
+<l n="d"><milestone n="b" unit="column"/>[ś]r[ī]yaśodharaparvvate <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="6" met="anuṣṭubh">
+<l n="a"><lb n="11"/><milestone n="a" unit="column"/>namaś śivāya yatskandho</l>
+<l n="b"><milestone n="b" unit="column"/>bhasmaśubhro jvalajjaṭaḥ</l>
+<l n="c"><lb n="12"/><milestone n="a" unit="column"/>śāradāmbhodabhaktāṅgas</l>
+<l n="d"><milestone n="b" unit="column"/>svarṇṇamurddhādrirād iva <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="7" met="anuṣṭubh">
+<l n="a"><lb n="13"/><milestone n="a" unit="column"/>vande pitāmahaṁ sāmyāt</l>
+<l n="b"><milestone n="b" unit="column"/>smitāsyāpjacatuṣṭayam</l>
+<l n="c"><lb n="14"/><milestone n="a" unit="column"/>cat[urdik] = = = gatāṁ</l>
+<l n="d"><milestone n="b" unit="column"/>samaṁ vaktum ivāśiṣam <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="8" met="anuṣṭubh">
+<l n="a"><lb n="15"/><milestone n="a" unit="column"/>= = = = -+ viṣṇor</l>
+<l n="b"><milestone n="b" unit="column"/>amr̥tārdrā punātu vaḥ</l>
+<l n="c"><lb n="16"/><milestone n="a" unit="column"/>= = = = -++ nti</l>
+<l n="d"><milestone n="b" unit="column"/>śrāntasyāhlādanād iva <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="9" met="anuṣṭubh">
+<l n="a"><lb n="17"/><milestone n="a" unit="column"/>= = = = = tā rudra</l>
+<l n="b"><milestone n="b" unit="column"/>divyadehārddhahāriṇī</l>
+<l n="c"><lb n="18"/><milestone n="a" unit="column"/>= = = [darśan]āvāptim</l>
+<l n="d"><milestone n="b" unit="column"/>icchantīva nirantaram <g ref="sym:doubleBar" type="punctuation">.</g></l>
+</lg>
+                   <lg n="10" met="anuṣṭubh">
+<l n="a"><lb n="19"/><milestone n="a" unit="column"/>= = = = -++=s</l>
+<l n="b"><milestone n="b" unit="column"/>sānviṣṭadivyadarśanāḥ</l>
+<l n="c"><lb n="20"/><milestone n="a" unit="column"/>= = = = -++=</l>
+<l n="d"><milestone n="b" unit="column"/>= = = = -+-= [<g ref="sym:doubleBar" type="punctuation">.</g>]</l>
+</lg>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Finot1932_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Finot1929_01">
+              <p rend="stanza" n="1">Vous protège le pollen de ces lotus : les pieds de Vāsudeva, causes de la naissance, du maintien et de la destruction des trois mondes !</p>
+              <p rend="stanza" n="2">Je salue Trivikrama, qui donne la stabilité à l'univers, et qui l'a marqué de ses trois pas pour signifier qu'il en est le seul maître.</p>
+              <p rend="stanza" n="3">Hommage à Padmanāabha qui, par désir de créer l'univers, a [fait surgir] Brahmā du lotus de son nombril!</p>
+              <p rend="stanza" n="4">Hommage à l'Ennemi de Madhu, qui [séjourne] dans le lotus du cœur des yogins, [dont les pieds] lotus, effleurent de leur pollen les têtes des Suras et des Asuras !</p>
+              <p rend="stanza" n="5">Je salue le Dieu aux yeux de lotus, qui, comme pour ramener la terre disparue ... sur le mont Śrī Yaśodhara.</p>
+              <p rend="stanza" n="6">Hommage à śiva dont les épaules blanches de cendre sont couvertes de tresses étincelantes, tel le Roi des Monts à la cime d'or, dont les flancs sont aimes des nuages d'automne.</p>
+              <p rend="stanza" n="7">Je salue le Grand Père (Brahmā) qui sourit également de ses quatre visages, comme pour prononcer en même temps une bénédiction adressée [aux quatre points cardinaux].</p>
+              <p rend="stanza" n="8">Vous protège la ... de Viṣṇu, humide d'ambroisie, comme pour delasser ... fatigué ...</p>
+              <p rend="stanza" n="9">...[Umā] prenant la moitié du corps divin de Rudra comme dans le désir d'en obtenir la vue immédiate.</p>
+              <p rend="stanza" n="10"><gap reason="lost"/></p>
+         </div> 
+            <div type="commentary">
+           <p>This inscription may be the beginning of the stela of Prasat Preah Pithu <ref target="DHARMA_INSCIK00543.xml">K. 543</ref>.</p>
+         </div> 
+           <div type="bibliography">
+          <p>Edited by Louis Finot (<bibl rend="omitname"><ptr target="bib:Finot1929_01"/><citedRange unit="page">341-344</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom from the estampage EFEO n. 710. </p>
+	 <listBibl type="primary">
+    
+	    <bibl n="LF">
+      <ptr target="bib:Finot1929_01"/><citedRange unit="page">341-344</citedRange>
+    </bibl>
+	</listBibl>
+          
+          </div>
+        </body>
+    </text>
+</TEI>
