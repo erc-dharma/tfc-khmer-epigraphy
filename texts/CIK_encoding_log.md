@@ -470,8 +470,36 @@ K.	294 |# |# |#|
 |K.	299-3 |kuch |done |Cœdès  1911; NIC II-III|
 |K.	299-4 |kuch |done |Cœdès  1911; NIC II-III|
 |K.	299-5 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-6 |kuch |done |Cœdès  1911; NIC II-III|
 |K.	299-7 |kuch |done |Cœdès  1911; NIC II-III|
-|K.	299-1 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-8 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-9 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-10 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-11 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-12 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-13 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-14 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-15 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-16 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-17 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-18 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-19 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-20 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-21 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-22 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-23 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-24 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-25 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-27 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-28 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-29 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-30 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-31 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-32 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-33 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-34 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-35 |kuch |done |Cœdès  1911; NIC II-III|
+|K.	299-36 |kuch |done |Cœdès  1911; NIC II-III|
 |K.	300 |chch |pending |ISCC; BEFEO XXV; IC IV|
 |K.	301 |# |# |#|
 |K.	302 |# |# |#|
@@ -491,8 +519,8 @@ K.	294 |# |# |#|
 |K.	306 |kuch |done |ISCC|
 |K.	307 |kuch |done |unpublished|
 |K.	308 |kuch |done |unpublished|
-|K.	309 |kuch |done |#ISCC|
-|K.	310 |# |# |#|
+|K.	309 |kuch |done |ISCC|
+|K.	310 |kuch |done |ISCC|
 |K.	311 |sapi |pending |Jacques 2014|
 |K.	312 |sapi |done |Pou NIC II-III |
 |K.	313 |sapi |done |Pou NIC II-III |
@@ -602,9 +630,9 @@ K.	294 |# |# |#|
 |K.	409 |# |# |#|
 |K.	410 |chch |done |RS II|
 |K.	411 |# |# |#|
-|K.	412 |# |# |#|
+|K.	412 |kuch |done |RS II|
 |K.	413 |# |# |#|
-|K.	414 |# |# |#|
+|K.	414 |kuch |done |Fournereau 1908|
 |K.	415 |# |# |#|
 |K.	416 |kuch | done |IC II|
 |K.	417 |kuch | done |Finot 1915; IC II|
@@ -642,7 +670,7 @@ K.	294 |# |# |#|
 |K.	447 |kuch |done |IC II|
 |K.	448 |# |# |#|
 |K.	449 |# |# |#|
-|K.	450 |# |# |#|
+|K.	450 |kuch |done |IC III|
 |K.	451 |kuch |done |IC V|
 |K.	452 |kuch |done |IC V|
 |K.	453 |# |# |#|
@@ -695,7 +723,7 @@ K.	294 |# |# |#|
 |K.	482 |kuch |done |IC V|
 |K.	483 |kuch |done |IC I|
 |K.	484 |kuch |done |Cœdès 1918, Lewitz 1971|
-|K.	485 |chch |pending |IC II|
+|K.	485 |kuch |done |IC II|
 |K.	486 |# |# |#|
 |K.	487 |# |# |#|
 |K.	488 |# |# |#|
@@ -708,7 +736,7 @@ K.	294 |# |# |#|
 |K.	495 |chch |done |Seidenfaden 1922|
 |K.	496 |kuch |done |Seidenfaden 1922|
 |K.	497 |kuch |done |Seidenfaden 1922|
-|K.	498 |# |# |#|
+|K.	498 |kuch |done |Unpublished|
 |K.	499 |kuch |done |Chhabra 1935, no trans.|
 |K.	500 |# |# |#|
 |K.	501 |chch |pending |IC III|
