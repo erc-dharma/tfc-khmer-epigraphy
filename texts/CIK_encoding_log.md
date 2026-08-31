@@ -521,15 +521,15 @@ K.	294 |# |# |#|
 |K.	308 |kuch |done |unpublished|
 |K.	309 |kuch |done |ISCC|
 |K.	310 |kuch |done |ISCC|
-|K.	311 |sapi |pending |Jacques 2014|
+|K.	311 |sapi |done |Jacques 2014|
 |K.	312 |sapi |done |Pou NIC II-III |
 |K.	313 |sapi |done |Pou NIC II-III |
 |K.	314 |sapi |done |Pou NIC II-III |
-|K.	315 |sapi |pending |Pou NIC II-III |
-|K.	316 |# |# |#|
+|K.	315 |sapi |done |Pou NIC II-III |
+|K.	316 |sapi |done |Pou NIC II-III |
 |K.	317 |kuch |done |ISCC|
 |K.	318 |sapi |pending |Pou NIC II-III |
-|K.	319 |# |# |#|
+|K.	319 |sapi |done |Pou NIC II-III |
 |K.	320 |sapi |pending |Pou NIC II-III |
 |K.	321 |# |# |#|
 |K.	322 |# |# |#|
