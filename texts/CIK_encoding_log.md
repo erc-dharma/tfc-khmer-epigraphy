@@ -759,7 +759,7 @@ K.	294 |# |# |#|
 |K.	518 |kuch |done |IC II|
 |K.	519 |# |# |#|
 |K.	520 |kuch |done |Finot 1920|
-|K.	521 |# |# |#|
+|K.	521 |kuch |done |IC IV|
 |K.	522 |kuch |done |IC V|
 |K.	523 |chch |done |IC III|
 |K.	524 |chch |done |IC III|
@@ -805,7 +805,7 @@ K.	294 |# |# |#|
 |K.	563 |kuch |done |IC II|
 |K.	564 |# |# |#|
 |K.	565 |# |# |#|
-|K.	566 |# |# |#|
+|K.	566 |kuch |done |IC V|
 |K.	567 |# |# |#|
 |K.	568 |# |# |#|
 |K.	569-1 |kuch |done |Finot 1926|
@@ -833,7 +833,7 @@ K.	294 |# |# |#|
 |K.	591 |kuch |done |IC III|
 |K.	592 |kuch |done |Cœdès 1951, IC III|
 |K.	593 |chch |done |IC III|
-|K.	594 |# |# |#|
+|K.	594 |kuch |done |IC III|
 |K.	595 |# |# |#|
 |K.	596 |# |# |#|
 |K.	597 |kuch |done |IC IV|
@@ -884,7 +884,7 @@ K.	294 |# |# |#|
 |K.	640 |kuch |done |Cœdès 1951|
 |K.	641 |kuch |done |Cœdès 1951|
 |K.	642 |kuch |done |Cœdès 1951|
-|K.	643 |# |# |#|
+|K.	643 |kuch |done|Finot 1929|
 |K.	644 |# |# |#|
 |K.	645 |# |# |#|
 |K.	646 |# |# |#|
@@ -892,7 +892,7 @@ K.	294 |# |# |#|
 |K.	648 |kuch|done |IC VI|
 |K.	649 |kuch |done |IC VI|
 |K.	650 |kuch |done |IC V|
-|K.	651 |# |# |#|
+|K.	651 |kuch |done |IC VI|
 |K.	652 |kuch|done |IC V|
 |K.	653 |kuch |done |IC V|
 |K.	654 |kuch |done |IC V|
@@ -902,36 +902,36 @@ K.	294 |# |# |#|
 |K.	658 |kuch |pending |unpublished
 |K.	659 |sapi |pending |IC V|
 |K.	660 |chch |done |IC I|
-|K.	661 |chch |pending |IC I|
+|K.	661 |kuch |done |IC I|
 |K.	662 |kuch |done |Cœdès 1929|
 |K.	663 |# |# |#|
 |K.	664 |kuch |done |IC V|
 |K.	665 |# |# |#|
 |K.	666 |kuch | done |IC V|
-|K.	667 |kuch |done |unpublished|
-|K.	668 |# |# |#|
+|K.	667 |kuch |done |Unpublished|
+|K.	668 |kuch |done |Unpublished|
 |K.	669 |kuch |done |IC I|
 |K.	670 |kuch |done |IC VII|
 |K.	671 |# |# |#|
 |K.	672 |# |# |#|
 |K.	673 |# |# |#|
 |K.	674 |kuch |done |IC VII, Jacques 2014|
-|K.	675 |# |# |#|
-|K.	676 |# |# |#|
-|K.	677 |# |# |#|
-|K.	678 |# |# |#|
-|K.	679 |# |# |#|
+|K.	675 |kuch |done |IC I|
+|K.	676 |kuch |done |Jacques 2014|
+|K.	677 |kuch |done |IC I, NIC II-III, Jacques 2014|
+|K.	678 |kuch |done |Chhom 2011, Jacques 2014|
+|K.	679 |kuch |done |Chhom 2011, Jacques 2014|
 |K.	680 |# |# |#|
-|K.	681 |# |# |#|
+|K.	681 |kuch |done |IC I, chhom 2011, Jacques 2014|
 |K.	682 |sapi |pending |ICI I|
 |K.	683 |# |# |#|
-|K.	684 |# |# |#|
+|K.	684 |kuch |done |IC IV|
 |K.	685 |chch |done |IC IV|
-|K.	686 |# |# |#|
-|K.	687 |# |# |#|
+|K.	686 |kuch |done |IC IV|
+|K.	687 |kuch |done |IC IV|
 |K.	688 |chch |done |IC IV|
 |K.	689 |kuch |done |IC VI|
-|K.	690 |# |# |#|
+|K.	690 |kuch |done |IC VII|
 |K.	691 |chch |done |IC IV|
 |K.	692 |chch |pending |IC I|
 |K.	693 |kuch |done |IC V|
@@ -940,7 +940,7 @@ K.	294 |# |# |#|
 |K.	696-1 |kuch |done |Cœdès 1951|
 |K.	696-2 |kuch |done |Cœdès 1951|
 |K.	696-3 |kuch |done |Cœdès 1951|
-|K.	697 |# |# |#|
+|K.	697 |kuch |done |IC VIII|
 |K.	698 |kuch |done |unpublished|
 |K.	699 |# |# |#|
 |K.	700 |# |# |#|
@@ -1013,7 +1013,7 @@ K.	294 |# |# |#|
 |K.	767 |# |# |#|
 |K.	768 |# |# |#|
 |K.	769 |# |# |#|
-|K.	770 |# |# |#|
+|K.	770 |kuch |done |IC I, Jacques 2014|
 |K.	771 |kuch |done |NIC I|
 |K.	772 |# |# |#|
 |K.	773 |# |# |#|
@@ -1239,9 +1239,9 @@ K.	294 |# |# |#|
 |K.	961 |# |# |#|
 |K.	962 |kuch|pending |Unpublished|
 |K.	963 |sapi |done |IC VII |
-|K.	964 |kuch |pending |Coedes 1958; śilpākara II; RS III|
-|K.	965 |kuch |done |Coedes 1958|
-|K.	966 |# |# |#|
+|K.	964 |kuch |pending |Cœdès 1958; śilpākara II; RS III|
+|K.	965 |kuch |done |Cœdès 1958|
+|K.	966 |kuch |done |Cœdès 1958|
 |K.	967 |kuch |done |IC VI|
 |K.	968 |kuch |done |IC VII|
 |K.	969 |kuch |done |Chhabra 1961; IC VII|
@@ -1386,12 +1386,12 @@ K.	294 |# |# |#|
 |K.	1102 |kuch |done |Wimonkasem 1995|
 |K.	1103 |# |# |#|
 |K.	1104 |# |# |#|
-|K.	1105 |kuch |done |unpublished|
-|K.	1106 |kuch |done |unpublished|
+|K.	1105 |kuch |done |Unpublished|
+|K.	1106 |kuch |done |Unpublished|
 |K.	1107 |# |# |#|
 |K.	1108 |# |# |#|
-|K.	1109 |kuch |done |unpublished|
-|K.	1110 |kuch |pending |unpublished|
+|K.	1109 |kuch |done |Unpublished|
+|K.	1110 |kuch |done |Unpublished|
 |K.	1111 |# |# |#|
 |K.	1112 |# |# |#|
 |K.	1113 |# |# |#|
