@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 302-2. Pillar at cruciform gallery of Prasat Angkor Wat (IMA 6), 1521 Śaka</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+               <persName>
+                  <forename/>
+                  <surname/>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00302-2.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the sixteenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-09-02" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p><milestone type="pagelike" unit="face" n="A"/><label xml:lang="eng">Face A</label>
+   <lb n="A1"/>qnaka cova bhikkha Ina jūya saṅa heya caḥ cār̥ka <!-- kuch: caḥ: The ha was written as a subscript. -->
+                      <lb n="A2"/>phoṅa sūṁ pāna svo[[ya]] dibvasaṁmpāta heya sūṁ pāna
+                      <lb n="A3"/>cūla nirbvāna jā panaIsa hoṅa
+                      <lb n="A4"/><g ref="sym:circle-bullseye" type="punctuation">.</g>sábvamastu 1521 sukka kura qnakakhsatra purami keta khae-<!-- kuch: sábvamastu -->
+                      <lb n="A5"/>ha māgghasira brahaspattibara mangi Oka hlūṅa Abbhairāja
+                      <lb n="A6"/>nu qnaka cova bhikkha sara Oka pāka khāva moka nā sṭhāna brah bisnū-
+                      <lb n="A7"/>lok ta jā sṭhāna juṁnuṁma naiya debvatā mahākhsetra ma-
+                      <lb n="A8"/>hābraṁhmarasi siddhisakti nu debvara˘ksa pitaragaṇa phoṅa<!-- kuch: debvara˘ksa -->
+                      <lb n="A9"/>syiṅa juṁnuṁ sumukkatā yeṅa khñuṁma māna citta sārddhā sā-
+                      <lb n="A10"/>ṅa prāsādda pūna muka nu braḥ thmáha braḥ sámanaha Adisṭhāna jā
+                      <lb n="A11"/>braḥ bisnūloka sureca heya debva yeṅa khñuṁma rantāpa krayā
+                      <lb n="A12"/>pūjā saṁrapa gi pi nimana braḥ sa˘gha phoṅa gi Asṭārasa˘gha<!-- kuch: sa˘gha -->
+                      <lb n="A13"/>ta draṅa catupārisuddhasila moka thve maṅgala Aṁbala nu sa-
+                      <lb n="A14"/>rbva phlae jheha nu bhñi gandha krāyā phoṅa toya na yathāsā-
+                      <lb n="A15"/>stra tempi panluḥ do tra braḥ ñāta pitara phoṅa kamluṅa sá-<!-- kuch: sá -->
+                      <lb n="A16"/>pasantana nu sarbva satva phoṅ ta lanliṅ no Ai ta caturāpā-
+                      <lb n="A17"/>yabhuma toya leha rvvūca tala Akkhaniṭṭhabraṁhma toya kro-
+                      <lb n="A18"/>ma rvvūca tala Avaci toya khāṅa rvūca tala dasasaharssacakrāvā-
+                      <lb n="A19"/>ḷa neḥ saphalānisaṅsa nai Oka hlaṅa Abbhairāja
+                      <lb n="A20"/>mana kattuñu kattavedi khñuṁma jūna kusala phala punya neḥ
+                      <lb n="A21"/>caṁrena qnaka phoṅ ta Aṁpāla neḥ doḥ pi qnaka phoṅ ta
+                      <lb n="A22"/>Aṁpā˘la neḥ vaṅveṅa do lanlyiṅa Ai ta citurāpāya<!-- kuch: Aṁpā˘la -->
+                      <lb n="A23"/>bhuma guḥ no tejaḥ phalānisaṅsa neḥ sūṁ laṁtoḥ
+                      <lb n="A24"/>Oya rvvūca laeṅa bhaiya caturāpāya do bannarā-
+                      <lb n="A25"/>ya Ai tribidhasaṁmpata saṁmapūrṇna viṅa doḥ pi qna-
+                      <lb n="A26"/>ka phoṅ ta Ampāla neḥ pāna smoḥ chboḥ do svoya di-
+                      <lb n="A27"/>byasampāta saṁmpūrṇna heya no tejaḥ phalānis-
+                      <lb n="A28"/>ṅsa neḥ sūṁ do caṁrena dibyasaṁmpata viṅa saṁmapūrṇna
+                      <lb n="A29"/>bibarddha mūya sāra luḥ pāna cūla ta pada moksa mahā-
+                      <lb n="A30"/>nagara nibvāna jā pana-Iss hoṅa <g ref="sym:circle-hollow" type="punctuation">.</g> pabitra no te-
+                      <lb n="A31"/>jaḥ nai saṁteca braḥ mahāśrīratnatrai paramapabitra nu
+                      <lb n="A32"/>tejaḥ siddhisakti nai debvatā mahākhsetra phoṅa
+                      <lb n="A33"/>nā groṅa pranipa˘ta braḥ sāsnā neḥ sūṁ jroma ra˘ksa O-<!-- kuch: pranipa˘ta ; ra˘ksa -->
+                      <lb n="A34"/>ka hlūṅa Abhairāja neḥ sūṁ caṁrena braḥ baramaṅgala ska-
+                      <lb n="A35"/>la tema saR̥ddhi sṭhira dighāyuḥ luḥ tala sukkha s’ū-<!-- kuch: s’ū -->
+                      <lb n="A36"/>sṭādhikāra bibarddha mūya sāra laeṅa pāna pūsa saṁnaka ta
+                      <lb n="A37"/>braḥ sāsthā Otpā pranipātta krita toya braḥ pandūla
+                      <lb n="A38"/>hoṅa nu phalānisaṅsa neḥ sūṁ toya nu caṁna-
+                      <lb n="A39"/>ṅa Oka hlūṅa Abbhairāja hoṅa  Udisa kusala phala pho-
+                      <lb n="A40"/>ṅa do gi debvatā mahākhsetra nu pittaragaṇa phoṅa sūṁ
+                      <lb n="A41"/>ltoḥ laeṅ sarbva dukkha sarbva soka sarbva roka sarbva
+                      </p>
+                   <p><milestone type="pagelike" unit="face" n="B"/><label xml:lang="eng">Face B</label>
+   <lb n="B1"/>bhai sarbva caṅre sarbva Oppadrabya Antāraya phoṅ ta nānā-
+                      <lb n="B2"/>prākāryya sūṁ caṁrena sarbva sukkha s’ūstādhikāra bi-<!-- kuch: s’ūstādhikāra -->
+                      <lb n="B3"/>barddha mūya sāra Iss kāla ta luṅgha hoṅa sūṁ jhnaḥ sarbva satrū
+                      <lb n="B4"/>phoṅa ta saṁmūdāya doḥ pi māna rājasatrū phoṅa sá disa pi
+                      <lb n="B5"/>māna cita gita nu moka pyeta pyena kambujadesa neḥ nu
+                      <lb n="B6"/>moka raṁlāṅ sāsnā braḥ mahāsārikadhātu guḥ no tejaḥ
+                      <lb n="B7"/>phalānisaṅsa neḥ sūṁ debvatā phoṅa pantana citra rājasa-
+                      <lb n="B8"/>rū noḥ kaṁpi Oya moka pyeta pyena kaṁmbujadesa nu
+                      <lb n="B9"/>braḥ sāsnā brah mahāsārakadhātu leya sūṁ rāstra pho-
+                      <lb n="B10"/>ṅa Ampāla kaṁluṅa kambujadesa neḥ nu sukkha khsema khsā-
+                      <lb n="B11"/>na kaṁpi māna calācal ni leya pabida sūṁma chuta2
+                      <lb n="B12"/>roḥ sādhupranidhāṇa neḥ roḥ braḥ mahāsarbvajña-
+                      <lb n="B13"/>buddha krateeṅ yeṅ saṁteca pandūla hoṅa <g ref="sym:circle-bullseye" type="punctuation">.</g>
+                      <lb n="B14"/>nu saṁmabvota posa braḥ Aṅa daṅa chāta Iqasa kusala dāṅa Aṁpāla<!-- kuch: Iqasa -->
+                      <lb n="B15"/>neḥ jūna dova qnaka Oka dhāra
+                      <lb n="B16"/>neḥ qnaka Aka hlūṅa Apbhaiyarājja māna bvāka spipāṭa
+                      <lb n="B17"/>ṭṭhā doḥha kūna Aña Eṅa gtiya kmūya Añ gtiya
+                      <lb n="B18"/>doḥha cova Aña jā braḥ sa˘gha gtiya jā grahāṣ<!-- kuch: grahāṣ: the s was wirtten as a subscript. -->
+                      <lb n="B19"/>gtiya Iṣ kmūya kūna cova dāṅa neḥ Aña bvuṁ Oya<!-- kuch: Iṣ: the s was wirtten as a subscript. -->
+                      <lb n="B20"/>tyiṅa leya (O)ỵ bamabveña dāna neḥ tūca krisnā jā-<!-- kuch:Oy: the y was written as a subscript. -->
+                      <lb n="B21"/>līya tala cūla nirbvāna hoṅa
+                      <lb n="B22"/>gti nai debvatā
+                      <lb n="B23"/>braḥ sāsnā neḥ sūma jroma raksā Aka hlūṅa Abhaiyarāja
+                      <lb n="B24"/>sūma caṁmrena braḥ baramaṅgala skala samr̥ddhi sṭhira dighā-
+                      <lb n="B25"/>yuḥ luḥ tala sukkha bibarddha mūya sāra sūma pāna pūsa    
+                   </p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Lewitz1971_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" source="bib:Lewitz1971_02">
+ 	<p n="A1-A3">Après avoir aidé dans ces œuvres, le bhikkhu Ind a également gravé ces textes. Qu'il puisse jouir de la Fortune des dieux et à la fin entrer au nirvāṇa !</p>
+              <p n="A4-A9">En l'an 1521 Śaka, année du Porc, le jeudi jour de la pleine lune du mois de migasīr, le uk-hluoṅ Abhayarāj ainsi que les bhikkhu Sa, Ok, Pāk, Khāv, vinrent au sanctuaire de Braḥ Bisṇulok qui est le lieu de réunion des dieux mahāksetr, des grands brahmarṣi tout-puissants, des divinités tutélaires et des groupes de Mânes (et firent cette déclaration).</p>
+              <p n="A9-A19">"Avec foi, nous avons construit une tour à quatre faces, des statues de Bouddha en pierre et en plomb et nous les avons offertes au Braḥ Bisṇulok. Puis nous avons préparé les accessoires d'oblations. Huit nobles religieux pourvus des quatre pures vertus furent invités à célébrer la cérémonie auspicieuse et reçurent diverses sortes de fruits, de guirlandes et de parfums ainsi que de la nourriture selon la règle. Notre souhait fut de faire parvenir (les mérites de ces actes) à la famille royale, aux Mânes des sept générations et à toutes les créatures tombées dans les quatre domaines de la souffrance. Que soient délivrés (tous les êtres) en haut jusqu'à l'étage supérieur de Brahma, en bas jusqu'à l'enfer Avīci et sur les côtés jusqu'aux dix-mille cakkavāḷa.</p>
+              <p n="A19-A30">Que l'avantage des mérites du uk-hluoṅ Abhayarāj, soucieux de reconnaissance, assure le salut de toutes ces personnes. Si certaines d'entre elles se sont égarées dans les quatre domaines de la souffrance, que la puissance ardente de ces mérites les libère des épouvantes de ces endroits et les fasse de nouveau prospérer totalement dans la Triple Fortune. (Mais) si ces personnes connaissent déjà la prospérité des dieux, que, par la puissance ardente de ces mérites, elles puissent jouir une fois pleinement et de diverses façons de cette fortune et qu'elles soient conduites à la fin dans le chemin final de la délivrance (c'est-à-dire) du Grand royaume du nirvāṇa."</p>
+              <p n="A30-A38">Seigneur ! Que la puissance ardente de l'auguste Triple Joyau, que le pouvoir surnaturel des dieux mahāksetr qui honorent la religion du Bouddha, assurent la protection du uk-hluoṅ Abhayarāj ! Que ce dernier jouisse pleinement de toutes les félicités en particulier d'un constant succès, d'une longue vie jusqu'au bonheur suprême sous toutes ses formes ! Qu'il puisse entrer en religion et prendre refuge dans l'enseignement du Maître, qu'il soit plein de zèle dans l'observance des prescriptions du Bouddha ! Que ces vœux du uk-hluoṅ Abhayarāj soient exaucés !</p>
+              <p n="A39-B3">Le (uk-hluoṅ) transfère les mérites de ses actes aux dieux mahāksetr et aux troupes de Mânes. Qu'ils soient délivrés de toutes douleurs, souffrances, maladies, peurs, adversités et de toutes sortes d'accidents et de dangers i Qu'ils puissent connaître une fois la prospérité et le bonheur suprême jusqu'à la fin des temps !</p>
+              <p n="B3-B11">Que tous les ennemis soient vaincus ! S'il en surgit de quelque part qui veuillent causer nuisance à ce pays des Kambuja et détruire la religion et les saintes reliques, en vertu du bénéfice de ces mérites, puissent les dieux adoucir le cœur de ces ennemis du royaume et les empêcher absolument de causer du mal ! Que le peuple entier à travers le Cambodge jouisse de la paix sans jamais connaître aucun trouble !</p>
+              <p n="B11-B13">Seigneur ! Que tout se réalise vite et bien selon ces pieux souhaits (exprimés) conformément aux paroles de notre seigneur, le Bouddha, Grand omniscient !</p>
+              <p n="B14-B15">Que les mérites acquis par ces pieuses actions — statues, oriflammes, parasols — profitent à la anak-uk Dhamm !</p>
+              <p n="B16-B21">Le uk-hluoṅ fait le serment suivant : "Que mes enfants, mes neveux, mes petits-enfants, religieux ou laïcs, n'entravent pas ces œuvres, mais qu'ils aident plutôt à l'accomplissement de ces dons à l'instar de Krisṇā et Jālī jusqu'à l'entrée au nirvāṇa ! »</p>
+              <p n="B22-B25">Que les dieux (soutiens de) la religion du Bouddha protègent le uk-hluoṅ Abhayarâj, qu'il jouisse pleinement de toutes les félicités, d'un succès constant, d'une longue vie, qu'il atteigne le bonheur complet, qu'il puisse entrer en religion !</p>
+                                 </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Saveros Lewitz (<bibl rend="omitname"><ptr target="bib:Lewitz1971_02"/><citedRange unit="page">110-111, 116-118</citedRange></bibl>) with a French translation. Re-edited here by Kunthea Chhom based on EFEO estampage n. 45.</p>
+	 <listBibl type="primary">
+             <bibl n="SL">
+             <ptr target="bib:Lewitz1971_02"/>
+             <citedRange unit="page">110-111, 116-118</citedRange>
+                 </bibl>
+             </listBibl>
+           <listBibl type="secondary">
+             <bibl n="EA">
+      <ptr target="bib:Aymonier1899_02"/><citedRange unit="page">493-529</citedRange>
+    </bibl>
+              <bibl n="MK">
+      <ptr target="bib:Krassem1984_01"/><citedRange unit="page">19-21</citedRange>
+    </bibl>
+              </listBibl>
+                </div>
+        </body>
+    </text>
+</TEI>
