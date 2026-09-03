@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 302-5. Pillar at cruciform gallery of Prasat Angkor Wat (IMA 9), 1539 and 1549 Śaka</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+               <persName>
+                  <forename/>
+                  <surname/>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00302-5.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventeenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-09-03" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p>
+   <lb n="1"/>naeḥ Ūkañā smaṇasaṅgrāmma nāṅa Eppa nū Okañā bejña
+   <lb n="2"/>saṅkramma nū co bañā  jaiyādhippatiỵ nāṅa braḥ nū co bañā tejojai
+   <lb n="3"/>nāṅa rasa nū co bañā smāsaṅgrāmma nāṅa Aṁ nū cau ṭasa nū qnaka saṁmte-
+   <lb n="4"/>ca moka nū nāṅa sara nū nāṅa nuṅ nū nāṅ māha nū kī co keva nū co somma nū co
+   <lb n="5"/>rāja Isa qnaka dāṁṅa neḥ siṅa sārddhā somanusa broma niṅ Ū-
+   <lb n="6"/>kañā smana moka sāṅa kusala sraeha puna prosa khñuṁmma
+   <lb n="7"/><g ref="sym:floret" type="punctuation">.</g>sabbhamastu 1539 maseña naksatra duttiyyāsādha
+   <lb n="8"/>2 keta Aṅgārabārasāranā maṇ jaṁnuma qnaka braḥ dharmmakhitti<!-- kuch: maṇ the ṇa was written as subscript. -->
+   <lb n="9"/>mahāsağhārāja pūbitra nū qnaka braḥ soguṇa mahāpūbi-
+   <lb n="10"/>tra nū qnaka braḥ mahāmaṅgala nū qnaka braḥ rājarocīsamu-
+   <lb n="11"/>ha nū qnaka braḥ Ottalajetta nū qnaka braḥ braṁmaratta nū qnaka braḥ dha-<!-- kuch: Ottalajetta -->
+   <lb n="12"/>rmakāya nū qnaka buddhadharāmma nū qnaka samteca moka nū qna-
+   <lb n="13"/>ka braḥ dhammaAriyya therānuthera bhikkhasu˘sa[gh]a phoṅa gī jā sakhiviñā<!-- kuch: bhikkhasu˘sa[gh]a -->
+   <lb n="14"/>Akañā smana māṇ citta sāraddhā sāṅa Aṁmbeha kusala phala puna pro-<!-- kuch: māṇ the ṇa was written as subscript. -->
+   <lb n="15"/>ssa kūna me toya Ā sukkha jhmoḥ me Appa 1 me tiya 1 Oya rruca
+   <lb n="16"/>jā breya Oya raksā caṅhāṇa qnaka samteca moka hoṅa peha
+   <lb n="17"/>nanā bibātta māttrā leya Oya braḥ buddha Ampāla khsaeca moka
+   <lb n="18"/>trāssa kti kammppī prossa qnaka noḥ leya Oya qnaka noḥ dova
+   <lb n="19"/>keta Ai ta pancanantarikanarraka daṁṅa 500 jāta kaṁṃneta kaṁmpiya la-
+   <lb n="20"/>taḥha moka leya hoṅa E ñāta Akañā sota māna bañā jeỵ
+   <lb n="21"/>1 braḥ manismatta 1 A phula 1 me sara 1 me naṅa 1 Issa ñāta Ampāla   
+   <lb n="22"/>naeḥ jūya tīṅa phoṅa sota hoṅa <g ref="sym:gomutra" type="punctuation">.</g> sambhastu 1549 saksa thoḥ
+   <lb n="23"/>qnakasatra Emmi ketra duttiyyasādhya no jā prathaṁmma sādhya leya Angāra-
+   <lb n="24"/>bāra mangi Akañā smana nu nāṅa Eppa rantāppa jā kusala Ārādanā
+   <lb n="25"/>nimantra Issa sağha phoṅa moka chloṅa braḥ buddhaprattimā noḥ debva Aka-
+   <lb n="26"/>ñā smana nu nāṅa Eppa māna citra noḥ trika Ara sārddhā raṁbiṅa Aniccaṁṅa dhamma
+   <lb n="27"/>neḥ bvuṁ dyeṅa leya yala jā pacchimavaiya hoṅa debva pantāla citra
+   <lb n="28"/>gitra katañu’tavediỵ paṁmpūssa qnaka smaṇa Āriyya Oyỵ pāna Appasa-<!-- kuch: katañu’tavediỵ -->
+   <lb n="29"/>mpātra jā bhikkhu parapūra sralaḥ Itra kaṁtiṅa leya mūyni prosa meỵ kena kū-
+   <lb n="30"/>ṇa qnaka smaṇa Āriyỵ kūṇa me kaena prasa 1 jhmoḥ Ā dhuna Oyỵ<!-- kuch: Oyy -->
+   <lb n="31"/>sralaḥ jā breyỵ Ita kaṁṃtīṅa leya rī qnaka gi jā sakhiviñāṇa māṇa
+   <lb n="32"/>samteca braḥ śriya sarbveja braḥ buddha ˘kraỵ yeṅa jā pradhāṇa Ūtaṁma E sa-<!-- kuch: ˘kraỵ -->
+   <lb n="33"/>ğha sotra māna qnaka samteca braḥ mahāmaṅgalapubitra qnaka saṁ-<!-- kuch: ğha -->
+   <lb n="34"/>teca mokapubitra qnaka saṁtaeca braḥ dhammaAriyapubitr qnaka sa-
+   <lb n="35"/>mteca braḥ pūrammaṇipubitr qnaka samteca Ūdeyapañā pubitra qnaka braḥ Ari-
+   <lb n="36"/>pubitra qnaka braḥ mahāthera brahmapubitra qnaka braḥ smaṇadhāmmapubi[[tra]] nū Isa
+   <lb n="37"/>therānuthera bhikkhasusağha phoṅa creṇa ri E grahāvāsa sotra māṇa cco hlū-
+   <lb n="38"/>ṅa mantriya birabhā cco rāja braḥ vijāsmata nu Isa kmūya kūṇa cco phova bārṇa
+   <lb n="39"/>mahāsatvaparrasa phoṅa creṇa ˘si jā sikkhiviñāṇa kaṁmpi māṇa ˘kraỵ nā2<!-- kuch: ˘si ; ˘kraỵ -->
+   <lb n="40"/>reha yoka jā khñaṁma prayoja ātmā leya mūyni kaṁmpi māṇa poṅa phUṇa
+   <lb n="41"/>kūṇa cco phova bārṇa phoṅa nā2 pī nu moka reha leya doḥ qnaka nā pī
+   <lb n="42"/>re sotra Oya qnaka noḥ dova chAṇa no nā pañcānantarika nāya tarā-
+   <lb n="43"/>pa braḥ buddha trāsa Aṁmpāla khsaeca kanloṅa dova heya ktiya Ampāla khsaeca
+   <lb n="44"/>nu moka E bhneka kti kaṁmpi Oya prosa qnaka noḥ pāna leya mūyni Oya
+   <lb n="45"/>randaḥ dāṁṅa Ānandacakkrāvāḷa naeḥ kaṁmpi Oya paeña jhe braiya dye-
+   <lb n="46"/>ta leya Oya paeña taeha qnaka ta reha paṁmrosa neḥ sappa2 jāta
+   <lb n="47"/>kaṁnetra kaṁmpi taeca leya mūyni doḥ ˘kraỵ kraṁkāryỵ nā pi.paṅgāpa O-<!-- kuch: ˘kraỵ ; pi.paṅgāpa  -->
+   <lb n="48"/>ya yoḳ jā khñuma Oya ˘kraỵ kraṁkāryỵ noḥ dova svoya dukkhavedanā Ai ta<!-- kuch: ˘kraỵ -->
+   <lb n="49"/>pancānantarika nāya Is kāla noḥ ta laṅa hoṅa doḥ ˘kraỵ kraṁkāryỵ<!-- kuch: ˘kraỵ ; kraṁkāryỵ -->
+   <lb n="50"/>nā sotra jroma Anumodanā bvuṁ Oya reha sotra Oya ˘kraỵ kraṁkā-<!-- kuch: ˘kraỵ -->
+   <lb n="51"/>ryỵ noḥ pāṇa dova svoya tribitrasampāta tarābva tala nirbvāna ˘ho
+   <lb n="52"/>neḥ Akañā smaṇa gata Eṅa moka Oya poḥha cārika neḥ Isa
+   <lb n="53"/>jaṁnuma ta jā sareca hoṅa<g ref="sym:floret" type="punctuation">.</g>
+                   </p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Lewitz1971_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" source="bib:Lewitz1972_01">
+ 	<p n="1-8">Voici le uk-ñā Samarasaṅgrām et la dame Ep, le uk-ñā Bejrasaṅgrām, le cau bañā Jayādhipatī et la dame Braḥ, le cau bañā Tejojay et la dame Ras', le cau bañā Samāsaṅgrām et la dame Aṁ, le cau Tas, le anak samtec Moks, les dames Sa, Nuṅ, Mās, Kī, le cau Kaev, le eau Som, le eau Rāj. Toutes ces personnes remplies de foi et d'allégresse se sont mises d'accord avec le uk-ñā Samarasaṅgrām pour cultiver des champs de mérite en affranchissant des esclaves en l'an 1539 (Śaka), année du Serpent, le mardi 2e jour de la lune croissante de dutiyāsādh.</p>
+              <p n="8-16"> Furent réunis le mahāsaṅgharāj anak braḥ Dhammakkhett, le (mahāsaṅgharāj) anak braḥ Sugandh, le anak braḥ Mahāmaṅgal, le anak braḥ Rājarocisamūh, le anak braḥ Atulajeṭṭh, le anak braḥ Brahmaratn, le anak braḥ Dhammakāy, le anak Buddhārām, le anak samtec Moks, le anak braḥ Dhamma-ariy, des thera grands et petits et bhikkhu, comme témoins du uk-ñā Samarasaṅgrām. (En effet, ce dernier), rempli de foi, a accompli l'acte méritoire d'affranchissement des enfants de me Toy et ā Sukh, nommées me Ap et me Tī. Elles furent libérées en brai et chargées du soin de la nourriture de anak samtec Moks.</p>
+              <p n="17-20">A l'avenir, si une personne conteste cette mesure, que même les futurs Buddha, aussi nombreux que les grains de sable, ne puissent la sauver! Que cette personne aille renaître dans les pañcānantarik cinq cent fois sans pouvoir s'en libérer et revenir en notre monde!</p>
+              <p n="20-22">En outre des parents du uk-ñā que sont le bañā Jay, le braḥ Munisamat, ā Phul, me Sa, me Naṅ, ont accepté d'être témoins également.</p>
+              <p n="22-25">En 1549 Śaka, année du Lièvre, le mardi, alors que le 1er jour de la lune croissante de dutiyāsādh était encore dans prathamāsādh, le uk-ñā Samarasaṅgrām et la dame Ep préparèrent de pieuses offrandes, invitant des religieux pour consacrer8 des statues de Buddha.</p>
+              <p n="25-31">Puis, heureux dans leur foi, ils méditèrent sur la loi de l'impermanence et s'aperçurent qu'ils avaient atteint la dernière étape de leur vie. Alors, le cœur rempli de reconnaissance, ils firent entrer en religion anak Samaṇa-ariy pour qu'il devînt, par l'upasampadā, un vrai bhikkhu complètement libéré. En outre, ils affranchirent me Kaen, fille de anak Samaṇa-ariy, un fils de me Kaen nommé ā Dhan et en firent des brai complètement libérés.</p>
+              <p n="31-39">Parmi les témoins, le plus illustre était le Buddha Omniscient, notre maître. Les religieux anak samtec braḥ Mahāmaṅgal, anak samtec Moks, anak samtec braḥ Dhamma-ariy, anak samtec braḥ Paramamuni, anak samtec Udayapaññā, anak braḥ Ariy, anak braḥ mahāther Brahm, anak braḥ Samaṇadhamm — donc une foule de thera, grands et petits, et de bhikkhu — les laïcs en la personne du dignitaire cau-hluoṅ Virabhā, cau Rāj, braḥ Vijjāsamatth et toute une foule de parents, enfants et petits-enfants et autres personnes généreuses, en furent les témoins (aussi).</p>
+              <p n="39-41">Qu'aucun personnage important ne vienne reprendre ces affranchis comme ses propres esclaves, et qu'aucun membre de la famille ne vienne agir de même non plus!</p>
+              <p n="41-51">S'il le fait, qu'il aille souffrir pour toujours dans les lointains pañcānantarik! Que les Buddha passés et à venir, aussi nombreux que les grains de sable, ne puissent le sauver! Et que la foudre dans ces infinis cakkavāḷ ne frappe plus les arbres de la forêt, mais seulement celui qui reprendra ces affranchis, pendant toutes ses existences sans manquer une occasion. Et si un chef de service ordonne aux gens de reprendre ces affranchis comme esclaves, qu'il aille connaître les souffrances dans les lointains pañcānantarik jusqu'à la fin des temps! Mais si en revanche un chef de service, avec sollicitude et joie pieuse, empêche les gens de reprendre ces affranchis, qu'il aille jouir de la Triple Fortune pour toujours jusqu'à l'entrée au nirvāṇa!</p>
+              <p n="52-53">Le uk-ñā Samarasaṅgrām lui-même a fait graver cette inscription (en présence) d'un groupe de personnes, jusqu'à finition complète.</p>
+                                 </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Saveros Lewitz (<bibl rend="omitname"><ptr target="bib:Lewitz1972_01"/><citedRange unit="page">111-117</citedRange></bibl>) with a French translation. Re-edited here by Kunthea Chhom based on EFEO estampage n. 47.</p>
+	 <listBibl type="primary">
+             <bibl n="SL">
+             <ptr target="bib:Lewitz1972_01"/>
+             <citedRange unit="page">111-117</citedRange>
+                 </bibl>
+             </listBibl>
+           <listBibl type="secondary">
+             <bibl n="EA">
+      <ptr target="bib:Aymonier1899_02"/><citedRange unit="page">493-529</citedRange>
+    </bibl>
+              <bibl n="MK">
+      <ptr target="bib:Krassem1984_01"/><citedRange unit="page">24-28</citedRange>
+    </bibl>
+              </listBibl>
+                </div>
+        </body>
+    </text>
+</TEI>
