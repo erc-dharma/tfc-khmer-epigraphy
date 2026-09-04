@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 302-7. Pillar at cruciform gallery of Prasat Angkor Wat (IMA 12), 1550 Śaka</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+               <persName>
+                  <forename/>
+                  <surname/>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00302-7.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventeenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-09-04" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p>
+   <lb n="1"/>sabbhammastu saṁmmattītīreka 1550 sakkha roṅa qnaksatra
+   <lb n="2"/>khaeha pusa 6 roja thṅeya sova bāra sāranā juṁnuṁma cco-
+   <lb n="3"/>va bova ˘nā māna nū ccova braṁhma ˘nā pusa nū ccova sukkha ˘nā de- <!-- kuch: ˘nā -->
+   <lb n="4"/>bbha Issa daṁṅa Aṁppāla neḥ moka Aṁmviya paṇdāya brejja
+   <lb n="5"/>chlaṅa danaleha sāppa khyūha khyala kakeppa kakāppa Ābha-
+   <lb n="6"/>blāba debva rrucca moka yola kūṇa ccova phova bār ñāttīkā <!-- kuch: bār -->
+   <lb n="7"/>nova nā mahānagara neḥ groba heya debva ccova bova ˘nā māna <!-- kuch: ˘nā -->
+   <lb n="8"/>nū ccova braṁhma ˘nā pusa nū ccova sukkha ˘nā debbha nū ccova nanda ccova Ū<!-- kuch: ˘nā -->
+   <lb n="9"/>ccova gāma me kaeva me srīya me cina jīha soma Issa qnaka daṁṅa Aṁppā-
+   <lb n="10"/>la neḥ māna citta sārddhā thveha braḥ buddha rrappa māssa Aṅga 2 prāka A-
+   <lb n="11"/>ṅga 3 daṅa dhāmmadhvajja 2 paṁpūssa kūṇa 2 qnaka heya debva ccova bova<!-- kuch: paṁ.pūssa the pa was written as subscript. -->
+   <lb n="12"/>Oya Ārādaṇā nimana braḥ Āriyya sağha draṅa cittu parasuddha sila kī-
+   <lb n="13"/>riyyā putta sūta dibbhamuna braḥ pūritta no nā braḥ baṇa kaṁbūjja pūrāṇa mān<!-- kuch: mā.n the ṇa was written as subscript. -->
+   <lb n="14"/>qnaka braḥ dharmmakhīttī mahāsaṁğhrārāja pūbita braḥ Aṅga Eṅa saṁtaeṅa dhar-<!-- kuch: dhar -->
+   <lb n="15"/>dessānnā braḥ Amvidhamma kāna 3 mahājāta 2 qnāni˘sa daṅa ni˘sa braḥ<!-- kuch: qnāni˘sa ; ni˘sa -->
+   <lb n="16"/>camlaṅa pūna ni˘sa phnūssa heya mān groeṅa pāya groeṅa slāha kaṁṃrāla Ā-<!-- kuch: ni˘sa ; mā.n the ṇa was written as subscript.  -->
+   <lb n="17"/>ssanā niṅa prāka smādāna jā liṅa 8 mān daṁṅa kāmacrūca mān phñīha ˘kahāṛra mān<!-- kuch: mān the ṇa was written as subscript. ˘kahāṛra -->
+   <lb n="18"/>phñīha kuntūra phñīha svāya phlīha daṁṅa paṇdāya braḥ bissasnūloka kuṁbūjja
+   <lb n="19"/>pūrāṇa rruṅarreṅa rāksmī sabva dīssa samūddāya heya debva sūreca
+   <lb n="20"/>cappa dhar dessanā nā thṅeya Āditya parapūra hoṅa<!-- kuch: dhar -->
+                   </p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Lewitz1971_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" source="bib:Lewitz1972_02">
+ 	<p n="1-4">Que la prospérité soit! Grande Paix! En 1550 Śaka, année du Dragon, le samedi 6e jour de la lune décroissante de puss, furent réunis cau Bau et nāṅ Mān, cau Brahm et nāṅ Pus, cau Sukh et nāṅ Deb.</p>
+              <p n="4-11">Ces personnes sont venues de Pandāy Bejr après une rude traversée du Tonlé Sap, pour rendre visite à toute leur famille résidant en ce Mahānagar. Après les retrouvailles, ces six personnes ainsi que cau Nand, cau Ū, cau Gāṁ, me Kaev, me Srī, me Cin, jī Som, le cœur rempli de foi, édifièrent deux statues de Buddha en or, trois en argent, deux oriflammes du Dhamma et firent entrer en religion deux enfants.</p>
+              <p n="11-16">Ceci fait, cau Bau fit inviter de nobles religieux pourvus des quatre pures vertus et d'une conduite exemplaire à réciter les divins mantra et le paritta en ce Braḥ Bān' de l'antique Kambujā. Le mahāsaṅgharāj anak braḥ Dhammakkhett en personne a prêché en chaire trois sections de l'Abhidhamma, deux sections du Mahājātaka ; il exposa les mérites de la fabrication des oriflammes et des statues du Buddha, les mérites de l'ordination des personnes.</p>
+              <p n="16-20">On prépara en guise d'offrande de la nourriture, des ingrédients de chique, des nattes et tapis, huit liṅ d'argent. On organisa également des feux d'artifice, des soleils et d'autres pièces illuminées en forme de souris et de (fleurs) de manguier qui firent rayonner d'un éclat grandiose, à tous les points cardinaux, la forteresse de Braḥ Bisṇulok de l'antique Kambujā toute entière. Les cérémonies se terminèrent par un sermon sur la Loi, le dimanche.</p>
+                                 </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Saveros Lewitz (<bibl rend="omitname"><ptr target="bib:Lewitz1972_02"/><citedRange unit="page">226-228</citedRange></bibl>) with a French translation. Re-edited here by Kunthea Chhom based on EFEO estampage n. 65.</p>
+	 <listBibl type="primary">
+             <bibl n="SL">
+             <ptr target="bib:Lewitz1972_02"/>
+             <citedRange unit="page">226-228</citedRange>
+                 </bibl>
+             </listBibl>
+           <listBibl type="secondary">
+             <bibl n="EA">
+      <ptr target="bib:Aymonier1899_02"/><citedRange unit="page">493-529</citedRange>
+    </bibl>
+              <bibl n="MK">
+      <ptr target="bib:Krassem1984_01"/><citedRange unit="page">31-32</citedRange>
+    </bibl>
+              </listBibl>
+                </div>
+        </body>
+    </text>
+</TEI>
