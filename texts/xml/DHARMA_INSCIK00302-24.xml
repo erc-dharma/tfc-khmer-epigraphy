@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 302-24 (= IMA 29). Pillar at cruciform gallery of Prasat Angkor Wat, 1628 Śaka</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+               <persName>
+                  <forename/>
+                  <surname/>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00302-24.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the eighteenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-09-13" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p>
+   <lb n="1"/>sabbhamassatu suostī srī sabbhamaṅgala bahulacestā jaiyātīrekkha 1068 sakkha ca-<!-- kuch: jaiỵātīrekkha ; ˘sakkha ; ,,ca- -->
+   <lb n="2"/>ha khae caeta thṅaiya sukkha mūy roja braḥ mantrīsaṅgrāma nū nāṅa ñā māna citra kattamlā ta sā-<!-- kuch: mū.y ; ka˘ttamlā -->
+   <lb n="3"/>rddhā makkha sāṅa braḥ sādha 9 nū braḥ jinarūpa 17 braḥ Aṅga tāma toema braḥ srī ratnamahābodhi jā sṭhā-<!-- kuch: ,,makkha -->
+   <lb n="4"/>ṇa bvaṁnākkha braḥ sāsnā co bañā mnoneta 1 mutanaiy 1 nū Isa ñāttikā poṅa phUṇa kūṇa<!-- kuch: mutanai.y -->
+   <lb n="5"/>kmuoya siṅa maka juoya jā kusala Anumodīnā brahma lmama jāmūy nịṅa braḥ mantrī saṅgrā-<!-- kuch: jāmū.y -->
+   <lb n="6"/>ma no vatta braḥ Aṅga mahāsağharājja braḥ rājasilācāyyi pānna Oppasaṁmpatta<!-- kuch: mahāsağharājja -->
+   <lb n="7"/>jā kh¯ịkkha caṁmroeṇa dau mātāpītā nū phdaiya kromma sūma Oy pāna dāna braḥ pād E-<!-- kuch: kh¯ịkkha ; O.y ; ˘dāna ; pā.d -->
+   <lb n="8"/>kkarājja braḥ siĀrmaiytrīy bodhisatva sūma chutta caṁhuta … ruocca tala nira-<!-- kuch: siĀrmai.ytrī.y -->
+   <lb n="9"/>bāna ho[ṅa] E taṁmneca prāka jā smāha dāna tamliṅa 3 E braḥ mantrīsaṅgrāma noḥ<!-- kuch: prā˘ka -->
+   <lb n="10"/>nū sruka sra’hma khmera bāna braiya krapāssa pāddī<!-- kuch: sra’hma ; bā˘na  -->
+                   </p>
+                   <p xml:lang="pli-Latn">
+   <lb n="10"/>nibānu sampacayo
+   <lb n="11"/>hontu  
+                   </p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Lewitz1971_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" source="bib:Lewitz1973_02">
+ 	<p n="1-4">Que la prospérité soit! Bonheur, beauté, félicité, exploits multiples, immense victoire! En 1628 Śaka, le vendredi, premier jour de la lune décroissante de caetr, année du Chien, braḥ Mantrīsaṅgrām et nāṅ Ñā(ṇ), le cœur rasséréné par la foi, vinrent édifier neuf tours, dix-sept statues du Buddha, planter un saint auguste Ficus religiosa qui représente le refuge de l'enseignement du Seigneur.</p>
+              <p n="4-6">Cau bañā Manonet, anak Nay et d'autres membres de la famille étaient venus participer avec joie à ces œuvres pieuses de braḥ Mantrīsaṅgrām, (accomplies) au monastère (dirigé par) le vénérable mahāsaṅgharāj Rājasīlācāry.</p>
+              <p n="6-9">(Braḥ Mantrīsaṅgrām) ayant reçu l'upasampadā en bhikkhu, adressa l'avantage de ses mérites à ses parents ici-bas ; il demanda à renaître en même temps que le Grand Souverain, le bodhisatva Sīāryametrī, à voir (tous ses vœux) se réaliser ... libéré jusqu'à l'entrée au nirvāṇa. Il a dépensé en aumône 3 tamliṅ d'argent.</p>
+              <p n="9-10">Ce braḥ Mantrīsaṅgrām est originaire du sruk Srama Khmaer Bān' de Brai Krapās dans Pādī.</p>
+              <p n="10-11">Que ceci soit la condition du nirvāṇa!</p>
+                                 </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Saveros Lewitz (<bibl rend="omitname"><ptr target="bib:Lewitz1973_02"/><citedRange unit="page">214-216</citedRange></bibl>) with a French translation. Re-edited here by Kunthea Chhom based on EFEO estampage n. 66.</p>
+	 <listBibl type="primary">
+             <bibl n="SL">
+             <ptr target="bib:Lewitz1973_02"/>
+             <citedRange unit="page">214-216</citedRange>
+                 </bibl>
+             </listBibl>
+           <listBibl type="secondary">
+             <bibl n="EA">
+      <ptr target="bib:Aymonier1899_02"/><citedRange unit="page">493-529</citedRange>
+    </bibl>
+              <bibl n="MK">
+      <ptr target="bib:Krassem1984_01"/><citedRange unit="page">71</citedRange>
+    </bibl>
+              </listBibl>
+                </div>
+        </body>
+    </text>
+</TEI>

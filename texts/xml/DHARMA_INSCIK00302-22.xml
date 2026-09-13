@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 302-22 (= IMA 27). Pillar at cruciform gallery of Prasat Angkor Wat, 1593 Śaka</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+               <persName>
+                  <forename/>
+                  <surname/>
+               </persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00302-22.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the seventeenth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-09-13" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p>
+   <lb n="1"/>sabbhamassatu muṅgalā jaiỵātireka 1593 naksatra
+   <lb n="2"/>chnāṁma kūra khaeha Āsādha thṅaiya sova prāṁpīya koeta
+   <lb n="3"/>bāra sarbva sabvamahorattīṅa mahoḷā becca bhūla Aṁbī braḥ
+   <lb n="4"/>braḥ buddha hr̥dai thlāthlaiya naiya qnaka saṁtaeca braḥ munīyaku-<!-- kuch: +thlāthlaiya -->
+   <lb n="5"/>salapubītra braḥ Aṅga moka saṁbaḥ braḥ Aṅgara vatra
+   <lb n="6"/>neḥ braḥ Indrādhirājja loka Oỵ braḥ bīsasnoūvakarmma cuḥ<!-- kuch: O.y -->
+   <lb n="7"/>moka sāṅa dukkha jā kaṁpuona loka phoṅa E kroya
+   <lb n="8"/>noḥ heỵ braḥ Aṅga moka gitta Annīccāha thā khlūṇa naeḥ<!-- kuch: he.y ; Annī+ccāha ; +thā  -->
+   <lb n="9"/>moka Aṁbīya vatra Anlūṅa tatoka nāya noḥ yola sa-
+   <lb n="10"/>ṅakhāra naeḥ bvuṁ dīeṅa leya moka Ārāddanā nīmanda ma-
+   <lb n="11"/>hāsağharāja braḥ rājjasumuṅgulasīlācāryyapubītra<!-- kuch: hāsağharāja  -->
+   <lb n="12"/>nū Isa saṅa phoṅa daṁṅhlāỵ 55 moka draṅa pāṁ-<!-- kuch: daṁ.ṅhlāỵ -->
+   <lb n="13"/>ṅaskūla braḥ Aṅga nū loeha braḥ bandha noḥ cacāya pra-<!-- kuch: ,,loeha -->
+   <lb n="14"/>caiyavatthu loeka Oỵ jā smādāna noḥ prāka jañjīṅa<!-- kuch: ,,loeka ; +smādāna -->
+   <lb n="15"/>1 taṁlīṅa 7 slīṅa 5 spaṅa 13 jībara 20 jā sureca
+   <lb n="16"/>nū prākāryya Aṁmpāla naeḥ hoṅa
+                   </p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Lewitz1971_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" source="bib:Lewitz1973_02">
+ 	<p n="1-7">Que la prospérité soit! Félicité, immense victoire! En 1593 (Śaka), le samedi, 8e jour de la lune croissante de āsādh, année du Porc, jour propice et solennel, témoin de la sainte manifestation du cœur serein et précieux de anak samtec braḥ Munikusal, venu rendre hommage à Braḥ Aṅgar Vatt (que) le grand souverain Indra avait fait édifier sur terre par Braḥ Bisṇukarm, comme modèle (de monuments) pour l'humanité.</p>
+              <p n="7-13">Puis l'illustre Vénérable, ayant pensé à l'Impermanence (des choses) se dit : « Moi donc, venu du monastère de Anlaṅ' Traṭak', je me suis rendu compte de l'instabilité des agrégats ». Alors il invita le mahāsaṅgharāj Rājasumaṅgalasīlācāry et cinquante-cinq autres religieux à célébrer un paṅskul pour lui, dans la galerie de Braḥ Bān'.</p>
+              <p n="13-16">II fit don de 1 jaňjiň 7 tamlịṅ 5 slịṅ d'argent, de 13 spaṅ' et 20 cīvar pour clôturer cette œuvre.</p>
+                                 </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Saveros Lewitz (<bibl rend="omitname"><ptr target="bib:Lewitz1973_02"/><citedRange unit="page">209-211</citedRange></bibl>) with a French translation. Re-edited here by Kunthea Chhom based on EFEO estampage n. 43.</p>
+	 <listBibl type="primary">
+             <bibl n="SL">
+             <ptr target="bib:Lewitz1973_02"/>
+             <citedRange unit="page">209-211</citedRange>
+                 </bibl>
+             </listBibl>
+           <listBibl type="secondary">
+             <bibl n="EA">
+      <ptr target="bib:Aymonier1899_02"/><citedRange unit="page">493-529</citedRange>
+    </bibl>
+              <bibl n="MK">
+      <ptr target="bib:Krassem1984_01"/><citedRange unit="page">69</citedRange>
+    </bibl>
+              </listBibl>
+                </div>
+        </body>
+    </text>
+</TEI>
