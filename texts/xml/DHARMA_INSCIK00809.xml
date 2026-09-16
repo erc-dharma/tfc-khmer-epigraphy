@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 809. Doorjambs of Prasat Kandol Dom, 9th century</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+             <!--   
+               <persName ref="http://viaf.org/viaf/66465311">
+                  <forename>George</forename>
+                  <surname>Cœdès</surname>
+               </persName>
+ -->
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+         <funder>European Research Council (ERC), grant agreement no 809994</funder></titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00809.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>The lettering is characteristic of the ninth century CE.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-09-16" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<lg n="1" met="anuṣṭubh" xml:lang="san-Latn"><milestone type="pagelike" unit="item" n="S"/><label xml:lang="eng">Southern Doorjamb</label>
+<l n="a"><lb n="S1"/><milestone unit="column" n="a"/>====-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>====-+-= [<g ref="sym:doubleBar-ornate" type="punctuation">.</g>]</l>
+</lg>
+                   <lg n="2" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S2"/><milestone unit="column" n="a"/>====-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>====-+-= [<g ref="sym:doubleBar-ornate" type="punctuation">.</g>]</l>
+</lg>
+                   <lg n="3" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S3"/><milestone unit="column" n="a"/>====-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>====-+-= [<g ref="sym:doubleBar-ornate" type="punctuation">.</g>]</l>
+</lg>
+                   <lg n="4" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S4"/><milestone unit="column" n="a"/>====-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>====-+-= [<g ref="sym:doubleBar-ornate" type="punctuation">.</g>]</l>
+</lg>
+                   <lg n="5" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S5"/><milestone unit="column" n="a"/>====-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>====-+-= [<g ref="sym:doubleBar-ornate" type="punctuation">.</g>]</l>
+</lg>
+                   <lg n="6" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S6"/><milestone unit="column" n="a"/>====-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>====-+= [<g ref="sym:doubleBar-ornate" type="punctuation">.</g>]</l>
+</lg>
+                   <lg n="7" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S7"/><milestone unit="column" n="a"/>====-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>====-+-= [<g ref="sym:doubleBar-ornate" type="punctuation">.</g>]</l>
+</lg>
+                   <lg n="8" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S8"/><milestone unit="column" n="a"/>śaile==-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>====-+-= [<g ref="sym:doubleBar-ornate" type="punctuation">.</g>]</l>
+</lg>
+                   <lg n="9" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S9"/><milestone unit="column" n="a"/>pāraṁ v==-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>====-+-= [<g ref="sym:doubleBar-ornate" type="punctuation">.</g>]</l>
+</lg>
+                   <lg n="10" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S10"/><milestone unit="column" n="a"/>āsīd rāja-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>śrīndravarmma-++=</l>
+<l n="d"><milestone unit="column" n="d"/>śrīndravarmma [<g ref="sym:doubleBar-ornate" type="punctuation">.</g>]</l>
+</lg>
+                   <lg n="11" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S11"/><milestone unit="column" n="a"/>viśuddhakṣatrasantāna</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>====-+-= <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="12" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S12"/><milestone unit="column" n="a"/>yo hr̥tsthanīlakanthasya</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>====-+-= <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="13" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S13"/><milestone unit="column" n="a"/>kāmaṁ harahataḥ kāmo</l>
+<l n="b"><milestone unit="column" n="b"/>yasmi==-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>mūḍhābhū=-++=</l>
+<l n="d"><milestone unit="column" n="d"/>  kim ayaṅ kim asāv iti <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="14" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="S14"/><milestone unit="column" n="a"/>Atr̥ptipītam avalā</l>
+<l n="b"><milestone unit="column" n="b"/>-netrais subhagatāmr̥tam</l>
+<l n="c"><milestone unit="column" n="c"/>yena śoṣabhayeneva</l>
+<l n="d"><milestone unit="column" n="d"/>jagatāṁ hr̥daye rppitam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="15" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="S15"/><milestone unit="column" n="a"/>yattejo jitajejasvi</l>
+<l n="b"><milestone unit="column" n="b"/>-tejo jātabhayo dhruvam</l>
+<l n="c"><milestone unit="column" n="c"/>vīkṣya kālāgnirudro 'pi</l>
+<l n="d"><milestone unit="column" n="d"/>bhavaty adyāpy adhomukhaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="16" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S16"/><milestone unit="column" n="a"/>sārāpahr̥taye bhūyo</l>
+<l n="b"><milestone unit="column" n="b"/>vāhumandaramanthanāt</l>
+<l n="c"><milestone unit="column" n="c"/>nūnaṁ bhīto mvudhir yyasmai</l>
+<l n="d"><milestone unit="column" n="d"/>gāmbhīryyam adiśat karam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="17" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="S17"/><milestone unit="column" n="a"/>yasya yāne valuddhūta</l>
+<l n="b"><milestone unit="column" n="b"/>-rajasā digvisarppiṇā</l>
+<l n="c"><milestone unit="column" n="c"/>alpāham iti medinyā</l>
+<l n="d"><milestone unit="column" n="d"/>svāṅgīkr̥ta Ivārṇnavaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="18" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="S18"/><milestone unit="column" n="a"/>raṇebhakumbhanirbheda</l>
+<l n="b"><milestone unit="column" n="b"/>-lagnamuktālasatkaram</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>śulkābhiśaṅkayevāri</l>
+<l n="d"><milestone unit="column" n="d"/>-lakṣmī veśyā yam anvagāt <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="19" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="S19"/><milestone unit="column" n="a"/>Atulyavikramākrānta</l>
+<l n="b"><milestone unit="column" n="b"/>-niśśeṣapr̥thivīdharaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>prayāntaṁ pārśvato meror</l>
+<l n="d"><milestone unit="column" n="d"/>yyo jahāseva bhāskaram <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="20" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="S20"/><milestone unit="column" n="a"/>cīnācampāyavadvīpa</l>
+<l n="b"><milestone unit="column" n="b"/>-bhūbhr̥duttuṅgamastake</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>yasyājñā mālatīmālā</l>
+<l n="d"><milestone unit="column" n="d"/>-nirmmalā cumvalāyate <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="21" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S21"/><milestone unit="column" n="a"/>yasya yajñāgnihotrāṇāṁ</l>
+<l n="b"><milestone unit="column" n="b"/>khe vabhur dhūmapaṅktayaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>kīrttes tridivayātrārthan</l>
+<l n="d"><milestone unit="column" n="d"/>dhvajā Iva purogatāḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="22" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="S22"/><milestone unit="column" n="a"/>yasya hemādidānāmbho</l>
+<l n="b"><milestone unit="column" n="b"/>-bhūridhārāplutā mahī</l>
+<l n="c"><milestone unit="column" n="c"/>śaṅke kalyagnidagdhāpi</l>
+<l n="d"><milestone unit="column" n="d"/>nābhradhārādaraṁ vyadhāt <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="23" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S23"/><milestone unit="column" n="a"/>nityaṁ vidadhatī yasya</l>
+<l n="b"><milestone unit="column" n="b"/>kīrttir bhuvanabhāsanam</l>
+<l n="c"><milestone unit="column" n="c"/>paryyāyato vidadhatau</l>
+<l n="d"><milestone unit="column" n="d"/>hasatīvendubhāskarau <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="24" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S24"/><milestone unit="column" n="a"/>prakāmalabdhakāmasya</l>
+<l n="b"><milestone unit="column" n="b"/>babhūvaiva daridratā</l>
+<l n="c"><milestone unit="column" n="c"/>yasyāpi vāhudaṇḍasya</l>
+<l n="d"><milestone unit="column" n="d"/>sadr̥śe pratiyoddhari <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="25" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S25"/><milestone unit="column" n="a"/>dhvāntavadvanalīno 'pi</l>
+<l n="b"><milestone unit="column" n="b"/>yadyaśodīpadīpitaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>punargrahaṇabhītyeva</l>
+<l n="d"><milestone unit="column" n="d"/>caraṇau ripur āgamat <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="26" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S26"/><milestone unit="column" n="a"/>pāragāmī guṇāmbhodher</l>
+<l n="b"><milestone unit="column" n="b"/>dharaṇīdhāraṇoddhuraḥ</l>
+<l n="c"><milestone unit="column" n="c"/>lakṣmīm uvāha yo nityañ</l>
+<l n="d"><milestone unit="column" n="d"/>caturvvāhur ivāparaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="27" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S27"/><milestone unit="column" n="a"/>śrutvā yasya guṇotkarṣāñ</l>
+<l n="b"><milestone unit="column" n="b"/>jagadgītān samantataḥ</l>
+<l n="c"><milestone unit="column" n="c"/>nūnaṁ svaṁ sr̥ṣṭivaidagdhyaṁ</l>
+<l n="d"><milestone unit="column" n="d"/>svayambhūr vvahu manyate <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="28" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S28"/><milestone unit="column" n="a"/>dattaśeṣopabhoge yas</l>
+<l n="b"><milestone unit="column" n="b"/>satyasandho 'pi sadrasam</l>
+<l n="c"><milestone unit="column" n="c"/>sarvvorvīvijayāvāpter</l>
+<l n="d"><milestone unit="column" n="d"/>bhuktavān na tu dattavān <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="29" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="S29"/><milestone unit="column" n="a"/>tasyācāryyo khilācāryya</l>
+<l n="b"><milestone unit="column" n="b"/>-vandanīyāṅghripaṅkajaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>āsīd vidyāsu niṣṇātaś</l>
+<l n="d"><milestone unit="column" n="d"/>śivasoma Itīritaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="30" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S30"/><milestone unit="column" n="a"/>mahendrādristhabhūpāla</l>
+<l n="b"><milestone unit="column" n="b"/>-mātulasya mahībhujaḥ</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>yaś śrījayendrādhipati</l>
+<l n="d"><milestone unit="column" n="d"/>-varmmaṇas tanayātmajaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="31" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="S31"/><milestone unit="column" n="a"/>yasyāṅghrir ānatāneka</l>
+<l n="b"><milestone unit="column" n="b"/>-jarajjaṭijaṭāruṇaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>Abhyastadhyānadahana</l>
+<l n="d"><milestone unit="column" n="d"/>-jvālālīḍha Ivābabhau <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                    <lg n="32" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S32"/><milestone unit="column" n="a"/>śāstrārṇnavaṁ pivan kr̥tsnaṁ</l>
+<l n="b"><milestone unit="column" n="b"/>stambhayan rāgabhūbhr̥tam</l>
+<l n="c"><milestone unit="column" n="c"/>yas sadā dakṣiṇācāraḥ</l>
+<l n="d"><milestone unit="column" n="d"/>kumbhayonir ivāparaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="33" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S33"/><milestone unit="column" n="a"/>phalanisspr̥hacitto 'pi</l>
+<l n="b"><milestone unit="column" n="b"/>phalasañcitavr̥ttimān</l>
+<l n="c"><milestone unit="column" n="c"/>vidyayā yas supīno 'pi</l>
+<l n="d"><milestone unit="column" n="d"/>tapasā kr̥śatāṅ gataḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="34" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S34"/><milestone unit="column" n="a"/>yogaṁ vidadhato yasya</l>
+<l n="b"><milestone unit="column" n="b"/>mūrddhato jyotir ūrdhvagam</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>dagdhāntardhvāntanirdhauta</l>
+<l n="d"><milestone unit="column" n="d"/>jñānāgnyarccir ivābabhau <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="35" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="S35"/><milestone unit="column" n="a"/>pavitratīrthasandoha</l>
+<l n="b"><milestone unit="column" n="b"/>-nirggamadvāri yanmukhe</l>
+<l n="c"><milestone unit="column" n="c"/>sarasvatī sadovāsa</l>
+<l n="d"><milestone unit="column" n="d"/>vāñchantīvātipuṇyatām <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="36" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="S36"/><milestone unit="column" n="a"/>yasyāṅghriyugalāmbhoja</l>
+<l n="b"><milestone unit="column" n="b"/>-rajas spr̥ṣṭvaiva mānuṣāḥ</l>
+<l n="c"><milestone unit="column" n="c"/>sarvvatīrthābhiṣekāṇām</l>
+<l n="d"><milestone unit="column" n="d"/>avāptaṁ menire phalam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="37" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S37"/><milestone unit="column" n="a"/>viṣame 'pi samā yasya</l>
+<l n="b"><milestone unit="column" n="b"/>loke lokopakāriṇaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>śuddhadhī gagaṇārūḍhā</l>
+<l n="d"><milestone unit="column" n="d"/>ruciś śubhrarucer iva <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   
+                   <lg n="38" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="S38"/><milestone unit="column" n="a"/>dayātyāgadhr̥tikṣānti</l>
+<l n="b"><milestone unit="column" n="b"/>-śaucasatyādayo guṇāḥ</l>
+<l n="c"><milestone unit="column" n="c"/>yas teṣām eka ādhāro</l>
+<l n="d"><milestone unit="column" n="d"/>vidhātreva vinirmmitaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="39" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S39"/><milestone unit="column" n="a"/>yenādhītāni śāstrāṇi</l>
+<l n="b"><milestone unit="column" n="b"/>bhagavacchaṅkarāhvayāt</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>niśśeṣasūrimūrddhāli</l>
+<l n="d"><milestone unit="column" n="d"/>mālālīḍhāṅghripaṅkajāt <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="40" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S40"/><milestone unit="column" n="a"/>sarvvavidyaikanilayo</l>
+<l n="b"><milestone unit="column" n="b"/>vedavid viprasambhavaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>śāsako yasya bhagavān</l>
+<l n="d"><milestone unit="column" n="d"/>rudro rudra Ivāparaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="41" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S41"/><milestone unit="column" n="a"/>vidyayā vayasā vr̥ddhān</l>
+<l n="b"><milestone unit="column" n="b"/>upāsyānyān vipaścitaḥ</l>
+<l n="c"><milestone unit="column" n="c"/>tarkkakāvyādisaṁbhūtām</l>
+<l n="d"><milestone unit="column" n="d"/>iddhavuddhim avāpa yaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="42" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a" enjamb="yes"><lb n="S42"/><milestone unit="column" n="a"/>purāṇabhāratāśeṣa</l>
+<l n="b"><milestone unit="column" n="b"/>-śaivavyākaraṇādiṣu</l>
+<l n="c"><milestone unit="column" n="c"/>śāstreṣu kuśalo yo 'bhūt</l>
+<l n="d"><milestone unit="column" n="d"/>tatkāraka Iva svayam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="43" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S43"/><milestone unit="column" n="a"/>= i = = ⏑ - yasya</l>
+<l n="b"><milestone unit="column" n="b"/>rājena śrīndravarmmaṇā</l>
+<l n="c" enjamb="yes"><milestone unit="column" n="c"/>= = chatrapradānādi</l>
+<l n="d"><milestone unit="column" n="d"/>-sanmānanam akārayat <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="44" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S44"/><milestone unit="column" n="a"/>====-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>[śr]ībhadreśvarasaṁjñitam <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="45" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S45"/><milestone unit="column" n="a"/>====-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>= = ṁ devīpure punaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="46" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S46"/><milestone unit="column" n="a"/>====-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>==prātiṣṭhipan punaḥ <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="47" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S47"/><milestone unit="column" n="a"/>====-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-++=</l>
+<l n="d"><milestone unit="column" n="d"/>= = = = ⏑ yor api <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   <lg n="48" met="anuṣṭubh" xml:lang="san-Latn">
+<l n="a"><lb n="S48"/><milestone unit="column" n="a"/>====-++=</l>
+<l n="b"><milestone unit="column" n="b"/>====-+-=</l>
+<l n="c"><milestone unit="column" n="c"/>====-+padaṁ</l>
+<l n="d"><milestone unit="column" n="d"/>śV= Cū = ⏑ vidhau vyadhāt <g ref="sym:doubleBar-ornate" type="punctuation">.</g></l>
+</lg>
+                   
+                   <p><milestone type="pagelike" unit="item" n="N"/><label xml:lang="eng">Northern Doorjamb</label>
+   <lb n="N1"/>śrī siddhi namaś śrībhadreśvarāya 80x {5}vāra śatabhiṣanakṣatra nu mrateñ
+   <lb n="N2"/>śivasoma sthāpanā vraḥ kamrateṅ Añ xxxxẖ karuṇā prasāda dhūli jeṅ vraḥ
+   <lb n="N3"/>kamrateṅ Añ śrīqindravarmmadeva pi jvan kñuṁ qnak paṁre toy knet kloñ sruk śivagarbha I pamek
+   <lb n="N4"/>sī {2} sī panlas I {4}ṅ I tai panlas I tai vasanta I
+   <lb n="N5"/>pamas tai pa{3} I tai {4} tai krau I tai kandhī I tai cneṁ I caṁryyaṅ
+   <lb n="N6"/>tai kdāy I tai cneṁ I tai kañjir I tai kan{3} I {3} I tai kanleṅ I tai ptal I tmiṅ
+   <lb n="N7"/>tai krau I cañ sī kaṁpit I sī krau I sī gralxxx I tai taṅkū I tai pau I tai taṅker
+   <lb n="N8"/>I sī pau I cmāṁ cpar sī kanleṅ I tai kaṁvoṅ {3}qnak sre ta gi sruk pāṇī I Aṁraḥ kanrāk I
+   <lb n="N9"/>gho klaṅ drvaṅ I gho kanloñ I gho kañcū I gho xxx qnak kanloṅ I gho cke I tai kandhī I
+   <lb n="N10"/>tai pau I tai kaṁpat I pau I tai Anaṅga I tai pau I tai taṅkū I tai xxxxp I tai vraḥ śrīya I tai lvak I tai Avāc I
+   <lb n="N11"/>gvāl saṁqap I tai qgat I tai cancān I gvāl cren vidhuva I ta gi sruk sindūra I Aṁraḥ kañcañ I
+   <lb n="N12"/>gho karol I gho kandhū I gho tgap I gvāl kñuṁ vraḥ I tai kañcū I tai kanruk I gvāl pandan I sī pau I
+   <lb n="N13"/>tai khaljū I tai nāṅ I pau I ta gi sruk xxxxx I kanhyaṅ I tai cke I tai kanhat
+   <lb n="N14"/>I pau I gvāl kaṁvai I qnak paṁre toy rnoc kloñ sruk kañjā I pamek sī taṅkū I sī daṁluḥ
+   <lb n="N15"/>ramrvac sī kanloñ I mahānasa sī kañjai I tai kandai I tai Anrok I pamas tai kaṁprvat I tai qras I taṁpeḥ
+   <lb n="N16"/>sī kanlap I tmoṅ sī ghoda I rmmāṁ tai kapkep I tai kansū I tai kanqak I caṁryyaṅ I tai pandan
+   <lb n="N17"/>I tai qgat I pau I tai kñuṁ vraḥ I tai kanhey I tai cancān I tai jvik I tai kantyaṅ I tai saṁqap I
+   <lb n="N18"/>tmiṅ tai kanleṅ I cañ sī krau I sī saṁqap I sī saṁqap sot I taṁpeḥ tai kaṁvir I sī rat I tai
+   <lb n="N19"/>sraṅe I sī rat I tai srac ta vraḥ I cmāṁ cpar sī kanrat I tai jnuk I sī rat I qnak sre ta gi sruk pāṇī I Aṁraḥ nāgadhara
+   <lb n="N20"/>I gho qnit I gho smau I gho kansāt I gho śrī I gho Aṁdah I gho kaṁvik I gvāl cke I gvāl kaṁpas I tai kaṁvrau I
+   <lb n="N21"/>sī rat I tai rat I sī pau I tai pau I tai kañjā I tai pau I tai kansat I tai kanqas I tai rat I sī pau I tai śaśi I tai kanthun
+   <lb n="N22"/>I tai kañje I tai ulik I tai cancān I tai pit so I lap kñuṁ I sī rat I gvāl saṁqap I ta gi sruk vakoṅ
+   <lb n="N23"/>Aṁraḥ pandan I gho cancān I gho munidāsa I gho kñuṁ vraḥ I tai Anāda I sī pau kaṁpār I tai rat pandan I
+   <lb n="N24"/>tai saṁqap I tai pau I tai taktyak I gvāl purākr̥ta I ta gi sruk tapovana I gho śivadāsa I gho panlas I
+   <lb n="N25"/>tai saṁqap I tai kansin I gvāl ratnadāsa I ta gi stuk pal qval gho ratnamatī I tai kanqin I
+   <lb n="N26"/>gvāl panlas I tai kandep I sī rat kanthaṅ I sī pau kantuṁ I qnak Āgama toy knet sī dharmmadāsa
+   <lb n="N27"/>I sī kañjai I sī hr̥dayaloha I sī dhanadāsa I tai caṁquh I lap kanrat I sī cap pi hau
+   <lb n="N28"/>toy rnoc sī śrīkalpit I sī kanqin I sī kaṁpvañ I tai kantyan I sī rat ghoda I tai vāy
+   <lb n="N29"/>qnak jaṁnvan toy knet tai mallikā I tai manoharikā I tai cpoṅ I sī Aridahana I sī tloṅ
+   <lb n="N30"/>var I sī srac ta bhāgya I tai dhāriṇī I tai Ayakkā I sī dhanī I sī Agnidāsa I sī ratnadāsa I
+   <lb n="N31"/>sī munidāsa I tai phalakarmma I tai kaṁpas I pau I sī srac ta bhāgya I sī bhavitavya I tai saṁqap I sī klaṅ
+   <lb n="N32"/>I tai saṁsāra I sī rat I pau I sī daiva I tai kanso I toy rnoc sī tkī I sī daiva I sī kaṁbhat I sī vasanta
+   <lb n="N33"/>I sī kañcū I sī sthira I tai smau I tai qvan I tai pnos I tai dharmmikā I tai qras dai I tai śubhādeva
+   <lb n="N34"/>I qnak sre toy knet sot gho megha I gho kandhar I gho karoṁ I gho kaṁpit I gho
+   <lb n="N35"/>prīv I gho lyaṅ I tai panlas I tai kaṁvaḥ I lap tarkka I gvāl paṁnaṅ I tai paṁnaṅ I tai kaṁpat I
+   <lb n="N36"/>tai srac ta vraḥ I tai kandvac I tai śubhāśriya I sī vaṁṅā I sī vuddhivala I tai kanayadeva I sī daiva I
+   <lb n="N37"/>sī saṁqap I tai vñau I tai kaṁvraḥ I sī rat pansvaṁ I sī kaṁvan I sī Agārapāla I sī srac ta vraḥ I sī
+   <lb n="N38"/>kanloñ I sī vudha I sī Aridahana I sī pandan I tai kañcan I tai śubhāśriya I tai kanlaṅ I tai kaṁpit
+   <lb n="N39"/>I tai kañcū I tai kansū I tai mallikā I tai lvān I tai tarkka I tai saṁrac I tai smau I tai sundarā I tai
+   <lb n="N40"/>Akān I tai yakke I tai jaṁhañ I sī kaṁpit I sī srac ta punya I tai tmyaṅ I tai kañyeṅ I tai
+   <lb n="N41"/>oṅ I sī śrī I sī droc I sī kanteṅ I sī priyadāsa I tai mahārgha I sī daiva I tai kanteṁ I tai
+   <lb n="N42"/>Anumatī I tai prasāda I tai kmau I sī pau I sī kaṁpur I sī kandhan I sī cyāv I sī kañcū I sī Animitta I
+   <lb n="N43"/>sī durātma I sī paṁnaṅ I tai gos I tai kanteṅ I tai raṁnoc I tai tkep I tai saṁqap I tai kanleṅ
+   <lb n="N44"/>I tai kansū I tai I tai padmāvatī I tai I sī yatidāsa I sī vaktavidya I tai pansvaṁ I tai qnak I tai Aṅgāra
+   <lb n="N45"/>I tai kanqas I sī śāntidāsa I tai samr̥ddhi I tai jranyaṅ I sī kaṁprat I sī cap pi hau I sī vajra I tai kanteṁ I
+   <lb n="N46"/>tai kaṁvīc I tai pansvaṁ I gho kanloñ I tai sr̥ṣṭa I tai kansat I tai kañcī I tai knap I tai pnos I gvāl
+   <lb n="N47"/>kañyuk I sī kañyvan I sī pandan I sī panlas I sī kañcū I sī taṅker I gho sādhudāsa I
+   <lb n="N48"/>gho ratnadāsa I sī kandhan I tai sita I sī raṁnoc I sī dharmmavala I gho dharmmalābha I gho śrībhadra I gho
+   <lb n="N49"/>lmī I gho kañcī I gho kanteṅ I gho jīva I
+</p>     
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1937_02"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1937_02">
+ 	<p n="1-11"></p>
+              
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1937_02"/><citedRange unit="page">37-46</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 1040.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1937_02"/><citedRange unit="page">37-46</citedRange>
+    </bibl>
+	</listBibl>
+           <listBibl type="secondary">
+             <bibl n="RM">
+      <ptr target="bib:Majumdar1953_01"/><citedRange unit="page">57-60</citedRange>
+    </bibl>
+           </listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
