@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 1013. Inscribed bronze Nandin statue from Prasat Angkor Wat, probably 12th century</title>
+            <respStmt>
+               <resp key="creator"/>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <funder>European Research Council (ERC), grant agreement no 809994</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01013.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>as per external metadata</repository>
+               </msIdentifier>
+               <msContents>
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- to be filled in --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-09-28" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+<lg n="8" met="upajāti">
+<l n="a" enjamb="yes"><lb n="1"/><g ref="sym:floret" type="punctuation">.</g>bhūbhr̥dgur<choice><sic>O</sic><corr>o</corr></choice>r yā duhitā s<unclear>a</unclear>t<supplied reason="omitted">ī</supplied> <choice><sic>s</sic><corr>ś</corr></choice>rī<space/></l>
+<l n="b">-ka<choice><sic>ci</sic><corr>vī</corr></choice>nd<unclear>u</unclear>sūr<choice><sic>it</sic><corr>īś</corr></choice>varasānu<choice><sic>ta</sic><corr>jā</corr></choice>yā<space/></l>
+<l n="c"><unclear>mā</unclear>tā k<supplied reason="omitted">u</supplied>mārasya madopasomā<space/></l>
+<l n="d">som<supplied reason="omitted">ā</supplied>rddhadhāri<choice><sic>nta ṣu</sic><corr>ny r̥ṣa</corr></choice><unclear>bha</unclear><supplied reason="lost">m</supplied> <unclear>mu</unclear><supplied reason="lost">dā</supplied><unclear>d</unclear><supplied reason="lost">āt·</supplied></l>
+</lg>     
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1953_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div>-->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+ 	<p rend="stanza" n="1">The good woman (satī) who was the daughter (duhitā) of the Guru of the king (bhūbhṛdguroḥ), wife of the son (°sūnujāyā) of Śrīkavīndusūrīśvara, the mother (mātā) of the prince (kumārasya), Madopasomā [by name], gave (adāt) [this] bull (ṛṣabham) with joy (mudā) to [Śiva,] the bearer of the crescent moon (somārdhadhāriṇi).</p>
+         </div>  
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Dominic Goodall (<bibl rend="omitname"><ptr target="bib:Goodall2026_01"/><citedRange unit="page">329-348</citedRange></bibl>) with an English translation. Re-edited by Kunthea Chhom from the estampages EFEO n. 1294 and n. 1778.</p>
+	 <listBibl type="primary">
+    <bibl n="DG">
+      <ptr target="bib:Goodall2026_01"/><citedRange unit="page">329-348</citedRange>
+    </bibl>
+	 </listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
