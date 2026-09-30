@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 1043. Inscription on the pedestal of Buddhapāda at the cruciform gallery, Angkor Wat, modern period</title>
+            <respStmt>
+               <resp key="creator"/>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <funder>European Research Council (ERC), grant agreement no 809994</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01043.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>as per external metadata</repository>
+               </msIdentifier>
+               <msContents>
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- to be filled in --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-09-30" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="1"/>loka grūva muka
+</p>     
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1953_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" resp="part:kuch">
+ 	<p n="1">Master Muk</p>
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Preliminary edition by Kunthea Chhom from the estampage n. 1310.</p>
+	 
+          </div>
+        </body>
+    </text>
+</TEI>
