@@ -1240,7 +1240,7 @@ K.	294 |# |# |#|
 |K.	934 |kuch |done |IC IV|
 |K.	935 |sapi |pending |IC IV|
 |K.	936 |kuch |done |IC IV|
-|K.	937 ||kuch |done |IC IV|
+|K.	937 |kuch |done |IC IV|
 |K.	938 |kuch |pending |IC VII|
 |K.	939 |kuch |done |IC V|
 |K.	940 |kuch |done |IC V|
