@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 886. Doorjamb of Prasat Phum Phu, 824 Śaka</title>
+            <respStmt>
+               <resp key="creator"/>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <funder>European Research Council (ERC), grant agreement no 809994</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00886.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>as per external metadata</repository>
+               </msIdentifier>
+               <msContents>
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- to be filled in --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-10-07" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="1"/><g ref="sym:doubleBar" type="punctuation">.</g> 824 śaka gi nu mān(·) [vraḥ śāsana] dhūli vraḥ pāda [dhūli jeṅ·]
+   <lb n="2"/>vraḥ kaṁmrateṅ· Añ· ta stac(·) [dau parama]śivaloka kāla pre {5}
+   <lb n="3"/>pati dau cāp· kanrassa <g ref="sym:bullet-hollow" type="punctuation">.</g> nau {5} kanras· pi {6}
+   <lb n="4"/>phsok· nu dhana phoṅa siddhi <g ref="sym:bullet-hollow" type="punctuation">.</g> gotrakula {2} kanras· {5}
+   <lb n="5"/>phsokka man· cāṁ jmaḥ tai kanden· <g ref="sym:bullet-hollow" type="punctuation">.</g> tai kanden· man· {8}
+   <lb n="6"/>kvan· kañ{1} ta jmah· kaṁvrau <g ref="sym:bullet-hollow" type="punctuation">.</g> mān· kvan· kaṁvrau ta jmah· kanlak· @ [mān· kvan·]
+   <lb n="7"/>kanlakka ta jmah· tai kanrau tai kaṁprvat· si pandan· si kaṁpit· mān· kvan· {3}
+   <lb n="8"/>ta jmah· thkot mān· kvan· kaṁprvat ta jmah· vani <g ref="sym:bullet-hollow" type="punctuation">.</g> man· lvoh· k{4}
+   <lb n="9"/>hoṅ· neḥ tai kanrau qval· śāpa dai man· vlvac· khmi prabandha {5}
+   <lb n="10"/>ta rūpa gurujana Añ· <g ref="sym:doubleBar" type="punctuation">.</g>
+</p>     
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1953_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1953_01">
+ 	<p n="1-4">824 Śaka, il y eut un ordre de S. M. qui est allé au Paramaśivaloka, lorsqu'il chargea ... pati de saisir Kanras ... Kanras ... phsok et tous les biens en propriété exclusive.</p>
+              <p n="5-8">Famille ... Kanras ... phsok dont on se rappelle le nom : Tai Kanden. Tai Kanden ... enfant de Kañ nommé Kaṁvrau. Il y eut un enfant de Kaṁvrau nommé Kanlak. Il y eut des enfants de Kanlak nommés Tai Kanrau, Tai Kaṁprvat, Si Pandan, Si Kaṁpit. Il y eut un enfant de ... nommé Thkot ; il y eut un enfant de Kaṁprvat nommé Vani.</p>
+              <p n="8-10">Lorsque tous ces ... de Tai Kanrau ... à l'image de mon maître.</p>
+                    </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1953_01"/><citedRange unit="page">151-152</citedRange></bibl>) with a French translation, re-edited here by Kunthea Chhom from the EFEO estampage n. 1149.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1953_01"/><citedRange unit="page">151-152</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
