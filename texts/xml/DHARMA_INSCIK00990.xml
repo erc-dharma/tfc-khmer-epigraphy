@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 990. Fragmentary stela from Prasat Phum Pon, probably 10th century</title>
+            <respStmt>
+               <resp key="creator"/>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <funder>European Research Council (ERC), grant agreement no 809994</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00990.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>as per external metadata</repository>
+               </msIdentifier>
+               <msContents>
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- to be filled in --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-10-10" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" rendition="class:83231 maturity:83213">
+<div type="textpart" n="A" xml:lang="san-Latn"><head xml:lang="eng">Face A</head>
+                   <p>
+   <lb n="A1"/>… ye pālaye…
+                      <lb n="A2"/>… ntv aikāgārikani…
+                      <lb n="A3"/>… pe niveda…
+                      <lb n="A4"/>… vasantu hare…
+                      <lb n="A5"/>… mantryādibhi…
+                      <lb n="A6"/>… lyo yam āśra…
+                      <lb n="A7"/>… cailādhipatyādai…
+                      <lb n="A8"/>… tādhikāribhiḥ <g ref="sym:circle-bullseye" type="punctuation">.</g> m…
+                      <lb n="A9"/>… saṁhārā{1}rVCī…
+</p>
+                   </div>
+                   <div type="textpart" n="B" xml:lang="okz-Latn"><head xml:lang="eng">Face B</head>
+                   <p>
+   <lb n="B1"/>… śaka pi ket…
+                      <lb n="B2"/>… vraḥ śāsana [dhūli vraḥ pāda]
+                      <lb n="B3"/>[dhūli] jeṅ vraḥ kaṁ[mrateṅ Añ]
+                      <lb n="B4"/>[śrīja]yavarmmadeva…
+                      <lb n="B5"/>… nu kaṁsteṅ…
+                      <lb n="B6"/>… pre pandval…
+                      <lb n="B7"/>… śrīnātha…
+                      <lb n="B8"/>… sthāpanā neḥ praśa[sta]…
+                      <lb n="B9"/>… kr̥tajñanagara <g ref="sym:bullet-hollow" type="punctuation">.</g> nau…
+</p>
+                   </div>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1952_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Coedes1952_01">
+ 	<p n="1-11"></p> 
+              
+         </div> -->
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1964_03"/></bibl>) without translation; re-edited here by Kunthea Chhom from the estampage BNF 1204 (95).</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+<ptr target="bib:Coedes1964_03"/>
+<citedRange unit="page">190</citedRange>
+</bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
