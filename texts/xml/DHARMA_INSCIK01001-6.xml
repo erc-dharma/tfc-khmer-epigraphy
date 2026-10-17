@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 1001.6. Sixth fragment of a stela from Prasat Phimai, 9th-10th century Śaka</title><!-- kuch: CJ : probably 12th century -->
+            <respStmt>
+               <resp key="creator"/>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <funder>European Research Council (ERC), grant agreement no 809994</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01001-6.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>as per external metadata</repository>
+               </msIdentifier>
+               <msContents>
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- to be filled in --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-10-17" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>rves
+   <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>tai ra</unclear>n
+   <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> neḥ <gap reason="lost" quantity="1" unit="character"/>
+   <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>n kva<unclear>nn</unclear>
+   <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> tai va<unclear>ra</unclear>
+   <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>ṅ neḥ
+   <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> vraḥ
+   <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> noḥ <g ref="sym:bullet-hollow" type="punctuation">.</g>
+   <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> kanta <gap reason="lost" quantity="1" unit="character"/><seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>e
+</p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Jacques1969_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> 
+           <div type="translation" xml:lang="fra" source="bib:Jacques1969_01">
+ 	<p n="1-11"></p> 
+              
+         </div>-->
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1969_01"/></bibl>) without translation.</p><!-- kuch: No estampage available for reedition. -->
+	 <listBibl type="primary">
+    <bibl n="CJ">
+<ptr target="bib:Jacques1969_01"/>
+<citedRange unit="page">65-66</citedRange>
+</bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
