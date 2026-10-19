@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 1094. Stela from Sala Nang Khwao, 12th century</title>
+            <respStmt>
+               <resp key="creator"/>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <funder>European Research Council (ERC), grant agreement no 809994</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01094.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>as per external metadata</repository>
+               </msIdentifier>
+               <msContents>
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- to be filled in --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-10-19" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+                   <p>
+   <lb n="1"/>// kaṁluṅ silā neḥ
+   <lb n="2"/>nāmakaraṇa mra-
+   <lb n="3"/>tañ śri rājapativa-
+   <lb n="4"/>rmma vraḥ kamrateṅ
+   <lb n="5"/>Añ śri rājapatīva-
+   <lb n="6"/>rmma kaṁsteṅ śri rāja-
+   <lb n="7"/>pativarmma gi vraḥ pā-
+   <lb n="8"/>da kamrateṅ A-
+   <lb n="9"/>ñ śri jayavarmma-
+   <lb n="10"/>deva pre cār ta
+   <lb n="11"/>suvarṇṇapātra
+   <lb n="12"/>gi pi Oy cval
+   <lb n="13"/>jā nai kamrate-
+   <lb n="14"/>ṅ jagat C(alena)
+</p>
+                   
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1964_03"></rdg>
+                   </app>
+                   </listApp>  
+         </div>-->
+           <div type="translation" xml:lang="fra" source="bib:Pou2001_01">
+ 	<p n="1">Dans cette inscription, les noms de Mratāñ Śrī Rājendrapativarma, V.K.A. Śrī Rājapativarma, Kaṁsteṅ Śrī Rājapativarma, S.M. Jayavarmadeva donna l'ordre de les inscrire sur une feille d'or qu'on incorporera à la propriété du dieu ...</p>
+         </div> 
+            <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Saveros Pou (<bibl rend="omitname"><ptr target="bib:Pou2001_01"/></bibl>) with a French translation and commentary; re-edited here by Kunthea Chhom from the estampage EFEO n. 1343.</p>
+	 <listBibl type="primary">
+    <bibl n="GC">
+<ptr target="bib:Pou2001_01"/>
+<citedRange unit="page">164-165</citedRange>
+</bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
