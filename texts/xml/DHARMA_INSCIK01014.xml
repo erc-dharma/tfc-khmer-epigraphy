@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 1014. Fragmentary stela from Sambor, 10th century</title>
+            <respStmt>
+               <resp key="creator"/>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+               <resp key="contributor"/>
+               <persName ref="part:doso">
+                  <forename>Dominique</forename>
+                  <surname>Soutif</surname>
+               </persName>
+            </respStmt>
+            <funder>European Research Council (ERC), grant agreement no 809994</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK01014.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>as per external metadata</repository>
+               </msIdentifier>
+               <msContents>
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- to be filled in --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-10-19" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="san-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="1"/>{4} CyV ...
+   <lb n="2"/>bhaktyā candrārdhaCe ...
+   <lb n="3"/>tasya śiṣyapratiṇidhiḥ p(a) ...
+   <lb n="4"/>prabhū(t)adhyayanair yyogi ...
+   <lb n="5"/>śrimadāmrātakeśas(ya) ...
+   <lb n="6"/>Āśra[ma]sara ...
+   <lb n="7"/>gobhūmihaimata ...
+</p>
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Jacques1969_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Jacques1969_01">
+ 	<p n="1"><gap reason="lost"/></p> 
+              <p n="2">.... avec dévotion ... demi-lune ....</p>
+              <p n="3">L'image (la statue ?) de son disciple ....</p>
+              <p n="4">Le yogin par d'abondantes lectures ...</p>
+              <p n="5">.... de Śrīmant Āmrātakeśa ....</p>
+              <p n="6">.... un āśrama, un étang, .....</p>
+              <p n="7">... des vaches, des terrains, .... en or ...</p>
+         </div>
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by Claude Jacques (<bibl rend="omitname"><ptr target="bib:Jacques1969_01"/></bibl>) with a French translation; re-edited here by Kunthea Chhom from the estampage EFEO n. 1301.</p>
+	 <listBibl type="primary">
+    <bibl n="CJ">
+<ptr target="bib:Jacques1969_01"/>
+<citedRange unit="page">71-72</citedRange>
+</bibl>
+  </listBibl>
+        </div>
+        </body>
+    </text>
+</TEI>
