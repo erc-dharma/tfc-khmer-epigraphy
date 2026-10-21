@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 948. Yantra stone block from Prasat Bat Chum, 10th century</title>
+            <respStmt>
+               <resp key="creator"/>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <funder>European Research Council (ERC), grant agreement no 809994</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00948.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>as per external metadata</repository>
+               </msIdentifier>
+               <msContents>
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- to be filled in --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-10-21" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<div type="textpart" n="A"><head xml:lang="eng">Fragment A</head><!-- kuch: The orientation of the characters should be added later. -->
+                   <p>
+   <lb n="A1"/><milestone n="a" unit="block"/>vaṁ<milestone n="b" unit="block"/>saṁ<milestone n="c" unit="block"/>Oṁ<milestone n="d" unit="block"/>Aiṁ<milestone n="e" unit="block"/>thaṁ<milestone n="f" unit="block"/>taṁ
+</p>     
+</div>
+                   <div type="textpart" n="B"><head xml:lang="eng">Fragment B</head>
+                   <p>
+   <lb n="B1"/><milestone n="a" unit="block"/>Eṁ<milestone n="b" unit="block"/>ḹ̥ṁ<!-- kuch: It should be ¯L̥ṁ. --><milestone n="c" unit="block"/>ṭhaṁ<milestone n="d" unit="block"/>ṇaṁ<milestone n="e" unit="block"/>ḍhaṁ<milestone n="f" unit="block"/>ḍaṁ
+</p>     
+</div>
+                   <div type="textpart" n="C"><head xml:lang="eng">Fragment C</head>
+                   <p>
+   <lb n="C1"/><milestone n="a" unit="block"/>Uṁ<milestone n="b" unit="block"/>ñaṁ<milestone n="c" unit="block"/>Ūṁ<milestone n="d" unit="block"/>ṭaṁ
+</p>     
+</div>
+                </div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="3">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1952_02">canhvā</rdg>
+                   </app>
+                   </listApp>  
+         </div>
+           <div type="translation" xml:lang="fra" source="bib:Coedes1952_02">
+ 	<p n="1-11"></p>
+              
+         </div>  -->
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1952_02"/></bibl>) without translation, re-edited here by Kunthea Chhom from the estampage EFEO n. 1219.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1952_02"/><citedRange unit="page">465-477</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
