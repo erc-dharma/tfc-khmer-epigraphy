@@ -804,7 +804,7 @@ K.	294 |# |# |#|
 |K.	536 |# |# |#|
 |K.	537 |kuch |done |unpublished|
 |K.	538 |kuch |done |Finot 1925|
-|K.	539 = 293.24b |kuch |pending |BEFEO XVIII (10), Cœdès 1928|
+|K.	539 = 293.24b |kuch |done |BEFEO XVIII (10), Cœdès 1928|
 |K.	540 |kuch |done |IC III|
 |K.	541-1 |kuch |done |IC III|
 |K.	541-2 |kuch |done |IC III|
@@ -1073,12 +1073,12 @@ K.	294 |# |# |#|
 |K.	798 |kuch |done |inedit|
 |K.	799 |# |# |#|
 |K.	800 |# |# |#|
-|K.	801 = 293.4 |kuch |pending |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
+|K.	801 = 293.4 |kuch |done |Cœdès 1913, 1928, 1951; IC III; Groslier 1973|
 |K.	802 |# |# |#|
 |K.	803 |kuch |done |NIC I|
 |K.	804 |kuch |done |NIC I|
 |K.	805 |# |# |#|
-|K.	806 |# |# |#|
+|K.	806 |kuch |done |IC I|
 |K.	807 |kuch |done |IC IV|
 |K.	808 |chch |done |IC IV|
 |K.	809 |chch |pending |IC I|
