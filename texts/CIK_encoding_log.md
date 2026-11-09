@@ -23,7 +23,7 @@
 |K.	16 |# |# |#|
 |K.	17 |kuch |done |unpublished|
 |K.	18 |kuch|done|IC II|
-|K.	19 |kuch |pending |IC VI|
+|K.	19 |kuch |done |IC VI|
 |K.	20 |kuch|pending|unpublished|
 |K.	21 |kuch |done |IC V|
 |K.	22 |kuch |done |ISC|
@@ -49,7 +49,7 @@
 |K.	42 |kuch |done |ISCC|
 |K.	43 |kuch |done |unpublished|
 |K.	44 |kuch |done |IC II|
-|K.	45 |kuch |pending | ISCC|
+|K.	45 |kuch |done | ISCC|
 |K.	46 |kuch & chch |done |IC VI|
 |K.	47 |kuch |done |ISCC|
 |K.	48 |kuch |done |IC VI|
@@ -62,7 +62,7 @@
 |K.	55 |kuch |done|ISC|
 |K.	56 |kuch |done |IC VII|
 |K.	57 |kuch |done |ISCC|
-|K.	58 |kuch |pending |unpublished|
+|K.	58 |kuch |done |unpublished|
 |K.	59 |# |# |#|
 |K.	60 |kuch | done |ISC|
 |K.	61 |kuch |done |ISCC, IC VII|
@@ -1345,7 +1345,7 @@ K.	294 |# |# |#|
 |K.	1028 |kuch |done |NIC II-III(Khmer part); Sanskrit part unpublished |
 |K.	1029 |kuch |done |Soutif 2009|
 |K.	1030 |kuch |done |NIC II-III|
-|K.	1031 |kuch |pending |Vong 2003|
+|K.	1031 |kuch |done |Vong 2003|
 |K.	1032 |kuch |pending |unpublished|
 |K.	1033 |# |# |#|
 |K.	1034 |sapi |done |Jacques 1970 ; Pou 2011|
@@ -1576,7 +1576,7 @@ K.	294 |# |# |#|
 |K.	1255 |kuch |done|Soutif 2009|
 |K.	1256 |kuch |done|Soutif 2009|
 |K.	1257 |kuch |done|Soutif 2009|
-|K.	1258 |kuch |pending |unpublished|
+|K.	1258 |kuch |done |unpublished|
 |K.	1259 |kuch |done |Long s.d., Oun 1998, Hun 2019|
 |K.	1260 |kuch |done |unpublished|
 |K.	1261 |kuch |done |NIC II-III|
@@ -1610,7 +1610,7 @@ K.	294 |# |# |#|
 |K.	1289 |kuch |done |Vong Sotheara 2011|
 |K.	1290 |chch |done |unpublished|
 |K.	1291 |chch |pending |unpublished|
-|K.	1292 |kuch |pending |unpublished|
+|K.	1292 |kuch |done |unpublished|
 |K.	1293 |chch |done |unpublished|
 |K.	1294 |kuch |pending |unpublished|
 |K.	1295 chch |pending |unpublished|
@@ -1720,7 +1720,7 @@ K.	294 |# |# |#|
 |K.	1397 |kuch |pending |Unpublished|
 |K.	1398 |kuch |pending |Unpublished|
 |K.	1399 |kuch |pending |Unpublished|
-|K.	1400 |kuch |pending |Unpublished|
+|K.	1400 |chch |done |Pou 2001|
 |K.	1401 |kuch | done |Vong 2016|
 |K.	1402 |kuch |done |unpublished|
 |K.	1403 |chch |pending |unpublished|
