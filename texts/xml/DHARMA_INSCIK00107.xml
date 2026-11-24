@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. 107. Inscription from Preah Theat Khnai Van, Pre-Angkorian period</title>
+            <respStmt>
+               <resp key="creator"/>
+               <persName ref="part:kuch">
+                  <forename>Kunthea</forename>
+                  <surname>Chhom</surname>
+               </persName>
+            </respStmt>
+            <funder>European Research Council (ERC), grant agreement no 809994</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSCIK00107.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>as per external metadata</repository>
+               </msIdentifier>
+               <msContents>
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- to be filled in --></p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:kuch" when="2026-11-24" status="draft">Initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+        <body>
+                <div type="edition" xml:lang="okz-Latn" rendition="class:83231 maturity:83213">
+<p>
+   <lb n="1"/><gap reason="illegible" extent="unknown" unit="character"/>
+   <lb n="2"/><supplied reason="lost">pi</supplied>ṅ ta pramān· vrai vekk· droṅ<unclear>·</unclear> gi piṅ<unclear>·</unclear> puneṅṅ<unclear>·</unclear> ñaṅ·
+   <lb n="3"/>piṅ· karohv<unclear>·</unclear> grāṅ· gi piṅ· tallauhv<unclear>·</unclear> gi tel· Oy·
+   <lb n="4"/>ta vraḥ kammratāṅ· Añ· svayaṁbhū droṅ· kpoñ· kaṁmratāṅ·
+   <lb n="5"/>Añ· bha nāriyya <g ref="sym:floret" type="punctuation">.</g> ni gi piṅ· stuk· cik· gi tel· Oy·
+   <lb n="6"/>ta vraḥ kaṁmratāṅ· Añ· śrī śaṅkaranārāyanaṁ ru gi Ākara ta
+   <lb n="7"/>mān<unclear>·</unclear> Aṁvi ta gi gi tel· Oy ta vraḥ kaṁmratāṅ· Añ<unclear>·</unclear>
+   <lb n="8"/>śrī jāyadeva paṁre yok· Oy· <gap reason="lost" extent="unknown" unit="character"/>
+</p>     
+</div>
+ <!-- <div type="apparatus">
+                <listApp>
+                   <app loc="5">
+                  <lem></lem>
+                   <rdg source="bib:Coedes1953_01"></rdg>
+                   </app>
+                   </listApp>  
+         </div> -->
+           <div type="translation" xml:lang="fra" source="bib:Coedes1954_02">
+ 	<p n="1-8"><gap reason="lost"/> étang dans le territoire <supplied reason="explanation"><foreign>pramān</foreign></supplied> de Vrai Vek, avec le Piṅ Puneṅ près du Piṅ Karohv Grāṅ, le Piṅ Tallauhv qui est donné au V.K.A. Svayambhū ainsi qu'au Kpoñ K.A. Bha Nāriyya.
+ 	Ici est le Piṅ Stuk Cik qui est donné à V.K.A. Śrī Śaṅkaranārāyaṇa ; quant aux ressources qui en proviennent, on charge <supplied reason="subaudible">le temple de</supplied> V.K.A. Śrī Jāyadeva de les prendre pour lui <gap reason="lost"/>.</p>    
+         </div> 
+           <!-- <div type="commentary">
+           <p></p>
+         </div> -->
+        <div type="bibliography">
+          <p>Edited by George Cœdès (<bibl rend="omitname"><ptr target="bib:Coedes1954_02"/><citedRange unit="page">38-39</citedRange></bibl>) with a French translation; re-edited here by Kunthea Chhom from the estampage BNF 234.</p>
+	 <listBibl type="primary">
+    
+	    <bibl n="GC">
+      <ptr target="bib:Coedes1954_02"/><citedRange unit="page">38-39</citedRange>
+    </bibl>
+	</listBibl>
+          </div>
+        </body>
+    </text>
+</TEI>
